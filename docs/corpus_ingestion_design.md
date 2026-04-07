@@ -1,68 +1,330 @@
 # Corpus Ingestion Design
 
-## Goal
+## 1. Purpose
 
-Define how raw source files are converted into normalized, source-traceable canonical documents.
+This document defines the design of the **corpus ingestion layer** for the D&D 3.5e Knowledge Chatbot.
 
-## Scope
+Its purpose is to describe how raw source materials become a **normalized, source-traceable canonical corpus** that can later be chunked, indexed, and cited.
 
-- Covers: extraction and normalization stages only
-- Does not cover: chunking (see chunking_retrieval_design.md), indexing, or retrieval
+This is a design document, not an implementation document.
 
-## Proposed Design
+## 2. Role of ingestion
 
-### Stage 1 — Extraction
+Ingestion is the process that transforms raw source materials into structured canonical documents.
 
-Convert raw source files (PDF) into per-page or per-section raw text with positional metadata preserved.
+It is responsible for:
 
-Outputs per page/section:
-- raw text content
-- page number(s)
-- source file reference
+- accepting raw source artifacts
+- extracting usable content
+- cleaning and normalizing text
+- preserving provenance
+- producing stable document objects for downstream processing
 
-**Open:** extraction library to use (candidates: pdfplumber, pymupdf, marker).
+Ingestion is **not** responsible for:
 
-### Stage 2 — Normalization
+- final retrieval quality tuning
+- answer generation
+- citation rendering
+- choosing a final chunk strategy
 
-Transform extracted text into canonical documents conforming to `canonical_document.schema.json`.
+Those are downstream concerns.
 
-Normalization tasks:
-- Assign `source_id` from source registry (`configs/source_registry.yaml`)
-- Resolve `source_type` and `authority_level` from registry
-- Detect and tag `section_path` (chapter → section → subsection)
-- Clean extraction artifacts (ligatures, hyphenation, header/footer noise)
-- Record `version` or `checksum` of the source file
+## 3. Why ingestion is a separate layer
 
-Each canonical document represents one logical section of a source, not one page. Pages are recorded in `page_range`.
+The project should explicitly separate:
 
-### Source Registry
+- raw sources
+- canonical documents
+- chunks
+- indexed retrieval units
 
-All sources must be registered before ingestion. See `configs/source_registry.yaml` for the registry format.
+This separation matters because:
 
-Ingestion must reject any source not present in the registry.
+- the same source may be re-chunked multiple times
+- extraction and normalization logic changes differently from chunk strategy
+- provenance must remain stable even if chunking changes
+- citation quality depends on information preserved before chunking
 
-## Key Decisions
+The ingestion layer should therefore produce a reusable canonical corpus rather than directly producing final retrieval records only.
 
-| Decision | Choice | Rationale |
-|---|---|---|
-| Section granularity | Logical section, not page | Pages split rules mid-sentence; sections preserve semantic coherence |
-| Source identity | Registry-assigned `source_id` | Decouples ingestion from file paths |
-| Version tracking | File checksum | Detects if a source file changes between ingestion runs |
+## 4. Phase 1 source assumptions
 
-## Alternatives Considered
+Phase 1 assumes a private, curated D&D 3.5e corpus.
 
-- **Page-level canonical documents**: Simpler extraction, but splits rules across boundaries and produces poor citation anchors.
-- **Full-book canonical document**: Loses section-level provenance needed for citation anchors.
+Likely source categories include:
 
-## Risks and Open Questions
+- core rulebook text maintained by the user for private personal use
+- SRD-aligned material intentionally included in the corpus
+- future errata or FAQ documents added as separately labeled sources
 
-- PDF extraction quality varies significantly by book scan quality.
-- Section boundary detection may require per-book heuristics or manual overrides.
-- How to handle tables and multi-column layouts (common in PHB/DMG)?
-- What to do with errata that modify specific paragraphs of existing canonical documents?
+Phase 1 excludes uncontrolled external material such as:
 
-## Next Steps
+- web forums
+- fan wikis
+- Reddit posts
+- homebrew collections
+- AI-generated summaries used as primary source material
 
-- Evaluate PDF extraction libraries on a sample PHB chapter
-- Define section boundary detection strategy
-- Draft per-source extraction profiles if needed
+## 5. Ingestion inputs
+
+The ingestion layer should treat each source as an explicit tracked artifact.
+
+Potential input forms include:
+
+- PDF files
+- OCR-derived text
+- manually curated text exports
+- markdown or plain text documents
+- structured source records created later
+
+The design should not assume that all sources are equally clean.
+
+Some sources may:
+
+- have strong structural signals
+- have weak structure but clean text
+- contain OCR noise
+- contain tables or sidebars that require special handling later
+
+## 6. Ingestion outputs
+
+The primary output of ingestion is the **canonical document**.
+
+A canonical document should be:
+
+- normalized
+- structured
+- source-traceable
+- stable enough to support re-chunking
+
+A canonical document is not yet a vector index record and not yet a final answer unit.
+
+## 7. Ingestion flow
+
+The intended ingestion flow is:
+
+```text
+Source Registry Entry
+  -> Raw Source Intake
+  -> Extraction
+  -> Cleaning / Normalization
+  -> Structural Mapping
+  -> Canonical Document Output
+```
+
+Each step should preserve or enrich provenance rather than discard it.
+
+## 8. Source registry dependency
+
+The ingestion layer depends on a source registry.
+
+Before a source is ingested, it should have a tracked registry entry containing at least:
+
+- source identifier
+- source title
+- ruleset / edition
+- source type
+- authority level
+- status
+- notes
+
+The source registry acts as the control surface for corpus admission.
+
+## 9. Raw source intake
+
+Raw source intake is the point where a source artifact is accepted into the project.
+
+Its responsibilities include:
+
+- linking the physical or logical artifact to a tracked source entry
+- preserving original file identity where useful
+- recording ingestion assumptions or caveats
+
+The system should avoid treating anonymous text blobs as first-class sources.
+
+## 10. Extraction
+
+Extraction is the step that turns a raw artifact into usable textual and structural content.
+
+Depending on source form, extraction may involve:
+
+- reading embedded text from a digital document
+- consuming OCR text
+- reading structured text files
+- preserving page boundaries when available
+
+Extraction should aim to preserve:
+
+- text content
+- page locations
+- headings or section markers
+- obvious list or table boundaries when available
+
+Extraction should not yet make irreversible assumptions about retrieval chunk size.
+
+## 11. Cleaning and normalization
+
+After extraction, the content should be cleaned into a consistent form.
+
+Normalization goals include:
+
+- removing repeated headers and footers when safe
+- correcting obvious extraction noise
+- standardizing whitespace and line breaks
+- preserving meaningful formatting boundaries
+- avoiding accidental loss of section meaning
+
+The system should prefer **loss-minimizing normalization** over aggressive rewriting.
+
+If a cleaning step risks destroying provenance or structure, it should be treated cautiously.
+
+## 12. Structural mapping
+
+Structural mapping is the step that identifies usable document structure.
+
+Useful structure may include:
+
+- book-level identity
+- chapter or section hierarchy
+- entry boundaries
+- page ranges
+- list blocks
+- table blocks
+- examples or sidebars
+
+The goal is not to fully interpret every rule. The goal is to preserve enough structure for downstream chunking and citation.
+
+## 13. Canonical document model
+
+A canonical document should represent a normalized view of a source or source segment.
+
+At a conceptual level, a canonical document should preserve:
+
+- canonical document identifier
+- source identifier
+- source title
+- edition / ruleset
+- source type
+- document title when applicable
+- section path when applicable
+- page range
+- cleaned content blocks
+- ingestion version or lineage metadata
+
+The exact schema belongs in a separate schema file, but the design requirement is that the canonical document be stable and re-usable.
+
+## 14. Provenance requirements
+
+Provenance is mandatory.
+
+At minimum, ingestion should preserve enough information to later support:
+
+- source title citation
+- edition scoping
+- page-based reference where available
+- section-path reference where available
+- traceability from chunk back to source
+
+If provenance is lost during ingestion, later citation quality will degrade.
+
+## 15. Versioning and lineage
+
+The design should assume that ingestion may be repeated over time.
+
+Reasons include:
+
+- improved extraction quality
+- revised normalization rules
+- source corrections
+- new source versions
+- better structural mapping
+
+The ingestion model should therefore preserve lineage concepts such as:
+
+- source version
+- ingestion version
+- canonical document version
+- notes about known extraction issues
+
+This does not require a final technical implementation yet, but it should be part of the conceptual model.
+
+## 16. Treatment of tables, lists, and side material
+
+Ingestion should preserve the existence of special structures even if later chunking decides how to use them.
+
+Examples include:
+
+- class tables
+- equipment tables
+- spell lists
+- bullet lists
+- sidebars
+- examples
+
+The ingestion layer does not need to solve final table retrieval on its own, but it should avoid flattening everything into unstructured text if recoverable structure exists.
+
+## 17. Treatment of errata and FAQ materials
+
+Future errata and FAQ documents should be treated as distinct source types rather than silently merged into older text.
+
+Why this matters:
+
+- the user may want to inspect the original text and the later clarification separately
+- later correction layers may need explicit conflict policy
+- citation should make the source of override or clarification visible
+
+Phase 1 does not require a full errata overlay system, but the ingestion design should leave room for it.
+
+## 18. Admission policy
+
+Not every text artifact should automatically enter the corpus.
+
+A source should be admitted only if:
+
+- it is intentionally selected
+- it belongs within D&D 3.5e scope for Phase 1
+- its provenance is known
+- it is appropriate for private personal use in this project
+
+This project should prefer a smaller, cleaner corpus over a large uncontrolled one.
+
+## 19. Failure modes to design against
+
+The ingestion design should explicitly guard against:
+
+- unknown source identity
+- missing edition metadata
+- broken page mapping
+- over-aggressive cleaning that destroys structure
+- accidental merging of different source layers
+- silent provenance loss
+- treating downstream chunking decisions as ingestion facts
+
+## 20. Ingestion quality goals
+
+A good ingestion outcome should satisfy most of the following:
+
+- source is clearly identified
+- text is readable and normalized
+- page mapping is preserved where possible
+- section structure is partially recoverable
+- provenance is intact
+- the canonical output is usable for multiple future chunk strategies
+
+## 21. Deferred decisions
+
+The following questions are intentionally deferred:
+
+- What exact parser or extractor will be used?
+- Will OCR correction be manual, automated, or mixed?
+- How many canonical document granularities should exist?
+- How should tables be represented structurally?
+- Should one chapter map to one canonical document, or should the granularity be smaller?
+
+These belong to later implementation or schema refinement work.
+
+## 22. Summary
+
+In one sentence:
+
+> The ingestion layer converts curated D&D 3.5e source artifacts into a normalized canonical corpus that preserves provenance, structure, and reusability for later chunking and citation.
