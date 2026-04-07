@@ -1,63 +1,237 @@
 # Citation Policy
 
-## Goal
+## 1. Purpose
 
-Define how citations are attached to answers and rendered to the user.
+This document defines how citations should work in the D&D 3.5e Knowledge Chatbot.
 
-## Scope
+In this project, citation is not a cosmetic output feature. It is the visible proof that an answer is grounded in retrieved source material.
 
-- Covers: citation anchor structure, citation granularity, rendering format, abstention behavior
-- Does not cover: chunking (see chunking_retrieval_design.md), answer model prompting (see model_strategy.md)
+## 2. Policy objective
 
-## Citation Anchor
+The system should produce answers that allow the user to inspect:
 
-Every chunk carries a `citation_anchor` with the following required fields:
+- what source supported the answer
+- where in the source the support came from
+- whether a statement was directly supported or partly inferred
 
-| Field | Description |
-|---|---|
-| `title` | Full book title (e.g., "Player's Handbook") |
-| `edition` | Edition string (e.g., "3.5") |
-| `page_range` | `{ "start": int, "end": int }` |
-| `section_path` | Array of section headings from root to leaf |
-| `authority_level` | Integer indicating source authority |
-| `source_type` | Source category (e.g., `official_rulebook`) |
+The citation policy exists to make grounded answering verifiable.
 
-A citation anchor must be sufficient to locate the source passage without the system — a user must be able to open the book and find the cited page and section.
+## 3. Core principle
 
-## Citation Granularity
+### Citation is evidence, not decoration
 
-**Required:** claim-level or paragraph-level citations — not only a trailing source list.
+A citation should not be added merely to make an answer look trustworthy.
 
-Each distinct rule claim in an answer must be individually cited. If two claims come from different sources, they carry different citations.
+A citation must point back to a concrete retrieved evidence unit whose provenance was preserved earlier in the pipeline.
 
-Example of preferred format:
-> Fighters gain a bonus feat at 1st level and every even level thereafter [PHB p.37, §Fighter Class Features]. These bonus feats must be drawn from the Fighter Bonus Feat list [PHB p.38].
+This means citation quality is downstream of:
 
-Example of what to avoid:
-> Fighters gain bonus feats at even levels. *Sources: PHB.*
+- source identity quality
+- ingestion quality
+- chunk design
+- retrieval quality
+- answer composition discipline
 
-## Abstention Policy
+## 4. Citation scope in Phase 1
 
-The system must abstain rather than speculate when:
-- No retrieved chunk meets the minimum relevance threshold
-- The query concerns a rule not covered by any registered source
-- The query concerns a different edition (unless comparison is explicitly requested)
-- Conflicting rules exist and cannot be reconciled with available evidence
+Phase 1 assumes:
 
-Abstention response must:
-- State clearly that the answer cannot be found in the available sources
-- Indicate which sources were searched
-- Not fabricate page numbers, rule text, or source coverage
+- a private, personal project
+- D&D 3.5e only
+- a curated corpus
+- source-grounded rules answers
 
-## Authority Conflict Handling
+The policy therefore prioritizes:
 
-When retrieved chunks conflict (e.g., PHB text vs. errata):
-- Prefer the source with the lower authority_level integer (higher authority)
-- Surface the conflict explicitly to the user
-- Cite both sources
+- provenance clarity
+- edition clarity
+- useful location references
+- simple, readable citation rendering
 
-## Risks and Open Questions
+## 5. Citation unit
 
-- How to render inline citations in the chosen interface (CLI, Discord, web)?
-- What is the maximum number of citations per answer before it becomes unreadable?
-- How to handle rules that require synthesizing 3+ chunks from different sections?
+The default citation unit in Phase 1 should be the **retrieved chunk**.
+
+This means a chunk functions as the minimum evidence unit that an answer may cite.
+
+A citation should therefore refer to a chunk whose metadata can be resolved into a human-meaningful source reference.
+
+## 6. Required provenance fields
+
+At minimum, a citable chunk should preserve enough information to render:
+
+- source title
+- edition
+- page range or equivalent location
+- section path or entry identity when available
+- stable source or chunk reference
+
+Examples of useful provenance fields include:
+
+- `source_id`
+- `source_title`
+- `edition`
+- `page_start`
+- `page_end`
+- `section_path`
+- `entry_title`
+- `chunk_id`
+
+## 7. Citation rendering goal
+
+The user-facing citation should be readable enough that a human can inspect the supporting location without seeing raw internal IDs.
+
+A citation should ideally answer:
+
+- which book or source?
+- which part of that source?
+- how specific is the location?
+
+## 8. Preferred citation shape
+
+Phase 1 should prefer compact, human-readable citations such as:
+
+- `Player's Handbook (3.5e), p. 137`
+- `Player's Handbook (3.5e), pp. 137–138`
+- `Player's Handbook (3.5e), Combat > Attacks of Opportunity, p. 137`
+- `Player's Handbook (3.5e), Feat: Combat Reflexes, p. 92`
+
+The exact final display format can be refined later, but it should remain concise and source-first.
+
+## 9. Answer-to-citation binding
+
+Every substantive answer unit should have visible support.
+
+In practice, this means:
+
+- each answer paragraph should cite one or more retrieved chunks
+- a single strong citation is acceptable when one chunk directly supports the statement
+- multiple citations are preferable when the answer combines separate supporting points
+
+A citation should attach to the claim it supports, not merely appear at the end of the whole answer without structure.
+
+## 10. Direct support vs inference
+
+The system should distinguish between:
+
+### Direct support
+The source text states the rule or conclusion explicitly.
+
+### Supported inference
+The answer is not stated verbatim but follows from the retrieved evidence.
+
+### Weak support
+The citation is only loosely related and does not justify a confident claim.
+
+The user should not be misled into thinking all cited statements are direct quotations of the rule text.
+
+## 11. Signaling inference
+
+When a claim is an inference rather than a direct textual statement, the answer should signal that clearly.
+
+Examples of acceptable phrasing include:
+
+- `This appears to imply ...`
+- `Based on these passages ...`
+- `The rule text does not say this directly, but it suggests ...`
+
+The citation remains required even when the statement is inferential.
+
+## 12. Insufficient evidence policy
+
+If the system cannot find adequate support, it should not produce a citation-backed answer by force.
+
+Instead, it should:
+
+- abstain
+- answer more narrowly
+- identify the ambiguity
+- say that the evidence currently retrieved is insufficient
+
+Invented or weakly attached citations are worse than no citation.
+
+## 13. Conflicting evidence policy
+
+If retrieved evidence appears to conflict, the system should not hide the conflict.
+
+Instead, the answer should prefer one of the following behaviors:
+
+- present the conflict explicitly
+- state that the current evidence is unresolved
+- cite the competing locations separately
+
+This is especially important if later phases introduce errata, FAQ, or layered source types.
+
+## 14. Citation granularity
+
+Phase 1 should aim for the best granularity reasonably preserved by ingestion and chunking.
+
+Preferred order:
+
+1. source + page + section or entry
+2. source + page
+3. source + section or entry
+4. source only as a last resort
+
+A citation that only names a book without a usable location is weak and should be treated as a degraded fallback.
+
+## 15. Citation and quotation are not the same
+
+A citation does not require a long verbatim quote.
+
+For this project, the system should generally prefer:
+
+- concise grounded summaries
+- short supporting snippets where necessary
+- location references that let the user inspect the original text
+
+This is better than returning large blocks of source text by default.
+
+## 16. Internal references vs user-facing citations
+
+The system may use internal references such as chunk identifiers during answer composition.
+
+However, those internal references should normally be translated into human-readable citations in the final response.
+
+Example:
+
+- internal: `C17`, `chunk_phb35_00017`
+- user-facing: `Player's Handbook (3.5e), Combat > Attacks of Opportunity, p. 137`
+
+## 17. Invalid citation behaviors
+
+The system should treat the following as invalid behaviors:
+
+- citing a source that was not retrieved
+- citing a source that does not support the claim made
+- attaching one citation to multiple unsupported claims
+- using citations to imply certainty where the text is ambiguous
+- collapsing conflicting evidence into a single unqualified citation
+- dropping edition identity when it matters
+
+## 18. Citation quality bar
+
+A good Phase 1 citation should satisfy most of the following:
+
+- points to the actual supporting source
+- is specific enough for a human to inspect
+- stays within the D&D 3.5e corpus boundary
+- is attached to the correct claim
+- does not overstate what the source proves
+
+## 19. Future compatibility
+
+The citation system should be designed so that later phases can support:
+
+- source cards or expandable citation panels
+- multiple evidence references per claim
+- errata-aware or FAQ-aware citation layering
+- structured provenance export for evaluation
+
+Phase 1 does not need all of these features, but it should not block them.
+
+## 20. Summary
+
+In one sentence:
+
+> A valid citation in this project is a human-readable rendering of a retrieved evidence unit whose provenance is strong enough to let the user verify the claim being made.
