@@ -74,16 +74,29 @@ When producing a design artifact, use this structure (unless asked otherwise):
 
 For architecture choices, explain: what problem it solves, why it is preferred now, what tradeoff it introduces, and what would trigger revisiting it.
 
-## Preferred File Names
+## Repository Layout
 
-- `PRODUCT_SCOPE.md`
-- `CORPUS_INGESTION_DESIGN.md`
-- `CHUNKING_RETRIEVAL_DESIGN.md`
-- `CITATION_ANSWERING_DESIGN.md`
-- `EVALUATION_PLAN.md`
-- `ADRs/ADR-xxxx-*.md`
+```
+docs/                         Design documents
+  product_scope.md            Phase 1 scope and non-goals
+  architecture_overview.md    Pipeline diagram and component roles
+  corpus_ingestion_design.md  Extraction and normalization stages
+  chunking_retrieval_design.md  Chunking strategy and retrieval pipeline
+  citation_policy.md          Citation anchor structure and rendering rules
+  model_strategy.md           Answer model, embedding model, reranker roles
+  evaluation_plan.md          Metrics, test set construction
+  roadmap.md                  Phase plan and open tasks
+configs/
+  source_registry.yaml        All ingestion sources must be registered here
+schemas/
+  canonical_document.schema.json
+  chunk.schema.json
+  answer_with_citations.schema.json
+examples/                     Example JSON instances of each schema
+data/                         Local corpus files — not committed (see data/README.md)
+```
 
-Prefer updating an existing design doc over creating many new files. Only create helper scripts, scratch files, or extra documents when clearly necessary or explicitly requested. Remove any temporary files before finishing.
+Prefer updating an existing design doc over creating many new files. For architecture decision records, use `ADRs/ADR-xxxx-*.md`. Only create helper scripts, scratch files, or extra documents when clearly necessary or explicitly requested. Remove any temporary files before finishing.
 
 ## Working Style
 

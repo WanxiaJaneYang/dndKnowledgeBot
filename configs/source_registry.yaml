@@ -1,0 +1,68 @@
+# Source Registry
+# All sources must be registered here before ingestion.
+# Fields map directly to canonical_document.schema.json source metadata.
+#
+# authority_level: 1 = highest (official rulebook), 5 = lowest (personal note)
+
+sources:
+
+  - source_id: phb-3.5
+    source_type: official_rulebook
+    title: "Player's Handbook"
+    edition: "3.5"
+    publisher: "Wizards of the Coast"
+    authority_level: 1
+    notes: "Core rules for players. Primary source for classes, spells, skills, and feats."
+
+  - source_id: dmg-3.5
+    source_type: official_rulebook
+    title: "Dungeon Master's Guide"
+    edition: "3.5"
+    publisher: "Wizards of the Coast"
+    authority_level: 1
+    notes: "Core rules for DMs. Covers magic items, encounter building, and variant rules."
+
+  - source_id: mm-3.5
+    source_type: official_rulebook
+    title: "Monster Manual"
+    edition: "3.5"
+    publisher: "Wizards of the Coast"
+    authority_level: 1
+    notes: "Core monster stat blocks and creature rules."
+
+  - source_id: srd-3.5
+    source_type: srd
+    title: "System Reference Document 3.5"
+    edition: "3.5"
+    publisher: "Wizards of the Coast"
+    authority_level: 2
+    notes: >
+      Freely available subset of the core rules under the OGL.
+      Use as a supplement to physical books, not as a replacement.
+      Where SRD and PHB/DMG/MM conflict, prefer the physical book.
+
+  - source_id: phb-errata-3.5
+    source_type: official_errata
+    title: "Player's Handbook Errata"
+    edition: "3.5"
+    publisher: "Wizards of the Coast"
+    authority_level: 2
+    notes: "Official corrections to PHB text. Takes precedence over original PHB where applicable."
+
+  - source_id: dmg-errata-3.5
+    source_type: official_errata
+    title: "Dungeon Master's Guide Errata"
+    edition: "3.5"
+    publisher: "Wizards of the Coast"
+    authority_level: 2
+    notes: "Official corrections to DMG text."
+
+  - source_id: rules-faq-3.5
+    source_type: official_faq
+    title: "D&D 3.5 Rules FAQ"
+    edition: "3.5"
+    publisher: "Wizards of the Coast"
+    authority_level: 3
+    notes: >
+      Official clarifications on rules questions. Lower authority than errata.
+      Use when no errata addresses the question.

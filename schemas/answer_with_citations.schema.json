@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AnswerWithCitations",
+  "description": "The final output of the answer generation stage: a grounded answer with inline claim-level citations.",
+  "type": "object",
+  "required": [
+    "query",
+    "answer_type",
+    "answer_text",
+    "cited_chunks"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "The original user query"
+    },
+    "answer_type": {
+      "type": "string",
+      "enum": ["grounded", "abstain"],
+      "description": "Whether the system produced a grounded answer or abstained due to insufficient evidence"
+    },
+    "answer_text": {
+      "type": "string",
+      "description": "The generated answer text with inline citation markers (e.g., [1], [2]). Empty or abstention message when answer_type is 'abstain'."
+    },
+    "abstention_reason": {
+      "type": "string",
+      "description": "Required when answer_type is 'abstain'. Explains why the system could not answer."
+    },
+    "cited_chunks": {
+      "type": "array",
+      "description": "Ordered list of chunks cited in the answer. Index position corresponds to inline citation marker.",
+      "items": {
+        "type": "object",
+        "required": ["citation_marker", "chunk_id", "citation_anchor", "excerpt"],
+        "additionalProperties": false,
+        "properties": {
+          "citation_marker": {
+            "type": "string",
+            "description": "Inline marker used in answer_text (e.g., '[1]')"
+          },
+          "chunk_id": {
+            "type": "string",
+            "description": "ID of the chunk this citation refers to"
+          },
+          "citation_anchor": {
+            "type": "object",
+            "description": "Human-readable citation location",
+            "required": ["title", "edition", "page_range", "section_path"],
+            "additionalProperties": false,
+            "properties": {
+              "title": { "type": "string" },
+              "edition": { "type": "string" },
+              "page_range": {
+                "type": "object",
+                "required": ["start", "end"],
+                "additionalProperties": false,
+                "properties": {
+                  "start": { "type": "integer" },
+                  "end": { "type": "integer" }
+                }
+              },
+              "section_path": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          },
+          "excerpt": {
+            "type": "string",
+            "description": "Relevant excerpt from the chunk that supports the cited claim"
+          }
+        }
+      }
+    },
+    "retrieval_metadata": {
+      "type": "object",
+      "description": "Optional metadata about the retrieval process (for debugging and evaluation)",
+      "additionalProperties": false,
+      "properties": {
+        "chunks_retrieved": { "type": "integer" },
+        "chunks_after_threshold": { "type": "integer" },
+        "embedding_model": { "type": "string" },
+        "answer_model": { "type": "string" },
+        "reranker_model": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

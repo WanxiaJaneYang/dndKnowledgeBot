@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Chunk",
+  "description": "The smallest retrieval and citation unit. Derived from a canonical document by the chunker.",
+  "type": "object",
+  "required": [
+    "chunk_id",
+    "source_id",
+    "citation_anchor",
+    "content",
+    "token_count"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "chunk_id": {
+      "type": "string",
+      "description": "Unique identifier for this chunk (e.g., '{source_id}::{section_slug}::chunk-{n}')"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "Registry identifier of the source this chunk came from"
+    },
+    "citation_anchor": {
+      "type": "object",
+      "description": "All metadata required to locate this chunk in the original source",
+      "required": [
+        "title",
+        "edition",
+        "authority_level",
+        "source_type",
+        "section_path",
+        "page_range"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Full title of the source book"
+        },
+        "edition": {
+          "type": "string",
+          "description": "Game edition"
+        },
+        "authority_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "official_rulebook",
+            "official_errata",
+            "official_faq",
+            "srd",
+            "commentary",
+            "homebrew",
+            "personal_note"
+          ]
+        },
+        "section_path": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "page_range": {
+          "type": "object",
+          "required": ["start", "end"],
+          "additionalProperties": false,
+          "properties": {
+            "start": { "type": "integer", "minimum": 1 },
+            "end": { "type": "integer", "minimum": 1 }
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "Text content of this chunk"
+    },
+    "token_count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of tokens in content (model-specific tokenizer)"
+    },
+    "embedding_model": {
+      "type": "string",
+      "description": "Model ID used to produce the embedding (required if embedding is present)"
+    },
+    "embedding": {
+      "type": "array",
+      "items": { "type": "number" },
+      "description": "Dense vector representation of content (omitted before indexing)"
+    }
+  }
+}

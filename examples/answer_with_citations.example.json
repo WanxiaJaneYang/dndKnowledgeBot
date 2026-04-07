@@ -1,0 +1,33 @@
+{
+  "query": "How many bonus feats does a Fighter receive, and when?",
+  "answer_type": "grounded",
+  "answer_text": "A Fighter receives a bonus feat at 1st level [1], and an additional bonus feat at 2nd level and every two Fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th) [1]. These bonus feats must be selected from the Fighter bonus feat list, and prerequisites must still be met [1].",
+  "cited_chunks": [
+    {
+      "citation_marker": "[1]",
+      "chunk_id": "phb-3.5::ch3-fighter-bonus-feats::chunk-1",
+      "citation_anchor": {
+        "title": "Player's Handbook",
+        "edition": "3.5",
+        "page_range": {
+          "start": 37,
+          "end": 38
+        },
+        "section_path": [
+          "Chapter 3: Classes",
+          "Fighter",
+          "Class Features",
+          "Bonus Feats"
+        ]
+      },
+      "excerpt": "At 1st level, a fighter gets a bonus combat-oriented feat... The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th). These bonus feats must be drawn from the feats noted as fighter bonus feats."
+    }
+  ],
+  "retrieval_metadata": {
+    "chunks_retrieved": 5,
+    "chunks_after_threshold": 1,
+    "embedding_model": "nomic-embed-text-v1.5",
+    "answer_model": "claude-sonnet-4-6",
+    "reranker_model": null
+  }
+}

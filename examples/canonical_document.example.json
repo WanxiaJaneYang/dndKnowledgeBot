@@ -1,0 +1,21 @@
+{
+  "source_id": "phb-3.5",
+  "source_type": "official_rulebook",
+  "title": "Player's Handbook",
+  "edition": "3.5",
+  "authority_level": 1,
+  "section_path": [
+    "Chapter 3: Classes",
+    "Fighter",
+    "Class Features",
+    "Bonus Feats"
+  ],
+  "page_range": {
+    "start": 37,
+    "end": 38
+  },
+  "content": "Bonus Feats: At 1st level, a fighter gets a bonus combat-oriented feat in addition to the feat that any 1st-level character gets and the bonus feat granted to a human character. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th). These bonus feats must be drawn from the feats noted as fighter bonus feats. A fighter must still meet all prerequisites for a bonus feat, including ability score and base attack bonus minimums. These bonus feats are in addition to the feat that a character of any class gets from advancing levels. A fighter is not limited to the list of fighter bonus feats when choosing these other feats.",
+  "checksum": "a3f2c1d4e5b6a7f8e9d0c1b2a3f4e5d6c7b8a9f0e1d2c3b4a5f6e7d8c9b0a1",
+  "version": "1st printing",
+  "ingested_at": "2026-04-07T00:00:00Z"
+}

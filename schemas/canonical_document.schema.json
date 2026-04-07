@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CanonicalDocument",
+  "description": "A normalized, source-traceable document produced by the ingestion pipeline. Represents one logical section of a source.",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_type",
+    "title",
+    "edition",
+    "authority_level",
+    "section_path",
+    "page_range",
+    "content",
+    "checksum"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "description": "Registry identifier matching an entry in source_registry.yaml"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "official_rulebook",
+        "official_errata",
+        "official_faq",
+        "srd",
+        "commentary",
+        "homebrew",
+        "personal_note"
+      ],
+      "description": "Category of the source"
+    },
+    "title": {
+      "type": "string",
+      "description": "Full title of the source book or document"
+    },
+    "edition": {
+      "type": "string",
+      "description": "Game edition (e.g., '3.5')"
+    },
+    "authority_level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Source authority: 1 = official rulebook (highest), 5 = personal note (lowest)"
+    },
+    "section_path": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Ordered path from root to leaf section (e.g., ['Chapter 3: Classes', 'Fighter', 'Class Features'])"
+    },
+    "page_range": {
+      "type": "object",
+      "required": ["start", "end"],
+      "additionalProperties": false,
+      "properties": {
+        "start": { "type": "integer", "minimum": 1 },
+        "end": { "type": "integer", "minimum": 1 }
+      },
+      "description": "Inclusive page range of this section in the source"
+    },
+    "content": {
+      "type": "string",
+      "description": "Normalized text content of the section"
+    },
+    "checksum": {
+      "type": "string",
+      "description": "SHA-256 checksum of the raw source file used during ingestion"
+    },
+    "version": {
+      "type": "string",
+      "description": "Optional version or printing identifier for the source"
+    },
+    "ingested_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when this document was produced"
+    }
+  }
+}

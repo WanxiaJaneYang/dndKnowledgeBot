@@ -1,0 +1,44 @@
+# Environment
+.env
+.env.*
+
+# Corpus files — do not commit copyrighted PDFs or raw rulebook text
+data/raw/
+data/extracted/
+data/canonical/
+data/chunks/
+*.pdf
+*.epub
+
+# Vector database storage
+data/index/
+*.chroma/
+*.faiss
+*.hnswlib
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Notebooks (checkpoints)
+.ipynb_checkpoints/
+
+# Logs and temp files
+logs/
+*.log
+tmp/
+scratch/
+
+# OS
+.DS_Store
+Thumbs.db
