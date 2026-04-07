@@ -2,7 +2,22 @@
   "permissions": {
     "allow": [
       "Bash(gh auth:*)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(trellis init:*)",
+      "Bash(printf \"\\\\n\")",
+      "Bash(printf \"\\\\n\\\\n\")",
+      "Bash(python -c ':*)",
+      "Bash(where trellis:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(winpty trellis:*)",
+      "Bash(winpty /c/Users/Lenovo/AppData/Roaming/npm/trellis.cmd init -u WanxiaJane)",
+      "Bash(grep -v \"\\\\.js$\\\\|\\\\.js\\\\.map$\\\\|\\\\.d\\\\.ts\\\\|\\\\.map$\")",
+      "Bash(node --input-type=module)",
+      "Bash(node:*)",
+      "Bash(cygpath:*)"
     ]
   }
 }
