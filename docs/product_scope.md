@@ -1,5 +1,7 @@
 # Product Scope
 
+> **English** | [中文](zh/product_scope.md)
+
 ## 1. Purpose
 
 This project is a **private, personal D&D 3.5e knowledge chatbot** designed to answer rules questions using **retrieved source material with citations**.

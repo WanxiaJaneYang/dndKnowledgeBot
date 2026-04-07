@@ -1,5 +1,7 @@
 # Evaluation Plan
 
+> **English** | [中文](zh/evaluation_plan.md)
+
 ## 1. Purpose
 
 This document defines how the D&D 3.5e Knowledge Chatbot should be evaluated.

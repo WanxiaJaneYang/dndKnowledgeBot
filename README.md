@@ -1,5 +1,7 @@
 # D&D 3.5 Knowledge Chatbot
 
+> **English** | [中文](README.zh.md)
+
 A private, personal RAG project for asking grounded questions about **Dungeons & Dragons 3.5e** rules and getting answers with **source citations**.
 
 ## Project status

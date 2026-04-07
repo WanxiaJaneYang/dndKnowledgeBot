@@ -1,5 +1,7 @@
 # Citation Policy
 
+> **English** | [中文](zh/citation_policy.md)
+
 ## 1. Purpose
 
 This document defines how citations should work in the D&D 3.5e Knowledge Chatbot.

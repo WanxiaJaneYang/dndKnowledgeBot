@@ -1,5 +1,7 @@
 # Model Strategy
 
+> **English** | [中文](zh/model_strategy.md)
+
 ## 1. Purpose
 
 This document defines the model roles and model-selection philosophy for the D&D 3.5e Knowledge Chatbot.

@@ -1,5 +1,7 @@
 # Architecture Overview
 
+> **English** | [中文](zh/architecture_overview.md)
+
 ## 1. Purpose
 
 This document defines the **high-level architecture** for the D&D 3.5e Knowledge Chatbot.

@@ -1,5 +1,7 @@
 # Roadmap
 
+> **English** | [中文](zh/roadmap.md)
+
 ## Phase 0 — Design (current)
 
 - [ ] Define product scope

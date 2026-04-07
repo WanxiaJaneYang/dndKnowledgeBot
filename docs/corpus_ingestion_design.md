@@ -1,5 +1,7 @@
 # Corpus Ingestion Design
 
+> **English** | [中文](zh/corpus_ingestion_design.md)
+
 ## 1. Purpose
 
 This document defines the design of the **corpus ingestion layer** for the D&D 3.5e Knowledge Chatbot.
