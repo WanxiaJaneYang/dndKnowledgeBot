@@ -16,8 +16,8 @@ At a high level, the system should:
 
 1. ingest curated D&D 3.5e source material
 2. normalize it into a canonical corpus
-3. split it into retrieval-ready and citation-ready chunks
-4. index those chunks for retrieval
+3. split it into retrieval-ready evidence chunks
+4. derive index artifacts from those chunks for retrieval
 5. answer user questions from retrieved evidence
 6. attach citations that point back to preserved source provenance
 
@@ -38,7 +38,7 @@ Curated Sources
   -> Ingestion
   -> Canonical Corpus
   -> Chunking
-  -> Embedding / Indexing
+  -> Indexing
   -> Retrieval
   -> Answer Composition
   -> Citation Rendering
@@ -91,7 +91,7 @@ The canonical corpus is the stable intermediate layer between raw sources and ch
 Its role is to provide:
 
 - a normalized document representation
-- structural metadata such as section paths and page ranges
+- structural metadata such as section paths and source-native locators
 - stable source provenance
 - a reusable base for re-chunking or re-indexing
 
@@ -99,7 +99,7 @@ This layer exists so that chunking can evolve without requiring full re-extracti
 
 ### 4.4 Chunking
 
-The chunking module converts canonical documents into retrieval-ready and citation-ready units.
+The chunking module converts canonical documents into stable evidence objects for retrieval and citation.
 
 Its responsibilities include:
 
@@ -120,6 +120,8 @@ Its responsibilities include:
 - associating chunks with embeddings or other retrieval representations
 - storing chunk metadata for filtering
 - making chunks searchable by later retrieval logic
+
+Index artifacts are derived from chunks. They should be replaceable without redefining the stable chunk contract.
 
 This layer should support future changes in embedding or hybrid retrieval strategy without invalidating the canonical corpus model.
 
@@ -143,7 +145,7 @@ The answer composition layer turns retrieved evidence into a grounded response.
 Its responsibilities include:
 
 - answering the user question from retrieved evidence
-- distinguishing support from inference
+- distinguishing direct support from supported inference
 - avoiding unsupported claims
 - abstaining when evidence is weak or conflicting
 - producing a citation-ready response structure
@@ -166,7 +168,7 @@ Citation is not a cosmetic post-processing step. It is the visible output of pro
 
 The system uses a staged data lifecycle.
 
-### Stage A — Raw source layer
+### Stage A - Raw source layer
 
 Examples:
 
@@ -177,7 +179,7 @@ Examples:
 
 This layer is the original input and should remain distinct from downstream processed forms.
 
-### Stage B — Canonical document layer
+### Stage B - Canonical document layer
 
 This layer contains normalized document objects derived from the raw sources.
 
@@ -186,31 +188,44 @@ A canonical document should preserve:
 - source identity
 - edition
 - document structure
-- section hierarchy when available
-- page location metadata
-- cleaned content blocks
+- source-native locator information when available
+- cleaned content
 
-### Stage C — Chunk layer
+### Stage C - Chunk layer
 
-This layer contains the retrieval and citation units derived from canonical documents.
+This layer contains stable evidence objects derived from canonical documents.
 
 A chunk should preserve:
 
 - chunk identity
-- source identity
+- source reference
 - parent canonical document identity
+- locator
 - chunk type
-- section path
-- page range
 - chunk text
 
-### Stage D — Retrieval result layer
+Chunk objects should remain stable evidence objects. Embeddings or engine-specific index fields belong in a derived index layer rather than in the chunk contract itself.
+
+### Stage D - Index artifact layer
+
+This layer contains derived retrieval artifacts keyed to chunk identities.
+
+Examples include:
+
+- embedding vectors
+- ANN index metadata
+- BM25 or hybrid retrieval artifacts
+- engine-specific filter records
+
+This layer should be cheap to regenerate when retrieval strategy changes.
+
+### Stage E - Retrieval result layer
 
 This layer contains the subset of chunks selected as evidence for a user query.
 
 Retrieval results should be treated as **candidate evidence**, not yet as trusted final claims.
 
-### Stage E — Answer layer
+### Stage F - Answer layer
 
 This layer contains the generated grounded response and attached citations.
 
@@ -257,14 +272,16 @@ This path should remain dependent on retrieved evidence rather than latent model
 
 The architecture should always preserve a canonical corpus layer before chunk generation.
 
-### 7.2 Retrieval unit equals citation unit
+### 7.2 Retrieval unit aligns with citation unit by default
 
-As much as practical, the chunk should function as both:
+By default, the chunk should function as both:
 
 - a retrieval unit
-- a citation anchor
+- the default citation anchor
 
 This keeps provenance stable and reduces ambiguity at answer time.
+
+However, this is a design default rather than a hard invariant. A retrieved chunk may later yield multiple finer citation locators, and multiple chunks may jointly support a single answer segment.
 
 ### 7.3 Source provenance is never optional
 
@@ -287,10 +304,23 @@ The architecture assumes the following for Phase 1:
 - curated corpus rather than open web retrieval
 - design-first repository state
 - citation as a first-class requirement
+- thin-slice validation before hard infrastructure choices
 
 These assumptions reduce complexity and help prevent premature generalization.
 
-## 9. Excluded architecture concerns for Phase 1
+## 9. Phase 0 sequencing
+
+Phase 0 should validate one thin vertical slice before it locks infrastructure-heavy decisions.
+
+That means:
+
+- choose one real admitted source slice, such as SRD content or one PHB chapter
+- build a small gold question set against that slice
+- keep schemas thin and provisional until they survive real ingestion, chunking, and citation examples
+
+Choosing a final vector service, final model set, or fully expanded schema too early increases contract drift risk.
+
+## 10. Excluded architecture concerns for Phase 1
 
 The following concerns are intentionally deferred:
 
@@ -302,24 +332,27 @@ The following concerns are intentionally deferred:
 - plugin ecosystem or third-party extensions
 - generalized support for many game systems
 
-## 10. Key architectural boundaries
+## 11. Key architectural boundaries
 
-### Boundary A — Source boundary
+### Boundary A - Source boundary
 Only intentionally selected D&D 3.5e corpus sources are considered in-scope.
 
-### Boundary B — Canonical boundary
+### Boundary B - Canonical boundary
 Raw documents and canonical documents are different objects and must not be conflated.
 
-### Boundary C — Chunk boundary
+### Boundary C - Chunk boundary
 Chunking is downstream from canonical normalization and may evolve independently.
 
-### Boundary D — Evidence boundary
+### Boundary D - Index boundary
+Index artifacts are derived from chunks and may be regenerated without rewriting the chunk corpus.
+
+### Boundary E - Evidence boundary
 Retrieved chunks are the evidence set available to the answer layer.
 
-### Boundary E — Citation boundary
+### Boundary F - Citation boundary
 User-visible citations must resolve to preserved provenance rather than freeform model output.
 
-## 11. Future extension points
+## 12. Future extension points
 
 The architecture should leave room for future additions without forcing them into Phase 1.
 
@@ -334,17 +367,17 @@ Potential extension points include:
 
 These should be added intentionally rather than assumed by default.
 
-## 12. Open design questions
+## 13. Open design questions
 
-The following questions remain open and belong to later documents:
+The following questions remain open after the thin vertical slice is validated:
 
-- What canonical document schema should be used?
-- What chunk types are required for rules, spells, feats, and tables?
-- How should citations be formatted in final answers?
+- Which additional chunk types are worth adding beyond the initial slice?
+- When should citation locators split finer than chunk locators?
 - How should conflicts between primary text and later errata be represented?
-- What evaluation standard determines whether retrieval is good enough?
+- What evaluation threshold is strong enough to justify corpus expansion?
+- Which local index and model choices are good enough for the first implementation?
 
-## 13. Summary
+## 14. Summary
 
 In one sentence:
 

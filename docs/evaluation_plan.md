@@ -120,6 +120,8 @@ Instead, it should begin with a small curated evaluation set where each item inc
 
 This makes the evaluation dataset interpretable and maintainable.
 
+The first evaluation set should be tied to one real source slice rather than an imagined full corpus.
+
 ## 9. Evaluation item structure
 
 Each evaluation case should ideally record:
@@ -194,14 +196,13 @@ Useful early failure tags include:
 
 ## 13. Minimal evaluation set size
 
-A reasonable Phase 1 starting point is a small hand-built set, such as:
+A reasonable first checkpoint is one hand-built slice such as:
 
-- 20 to 40 direct rule questions
-- 10 to 20 exception-heavy questions
-- 10 to 20 entry lookup questions
-- a smaller number of table or abstain cases
+- 20 to 30 gold questions for one admitted source slice
+- a mix of direct lookup, exception, multi-chunk, and abstain cases
+- manual notes about the acceptable support type for each case
 
-The point is not the exact number. The point is to cover the main behavior categories with inspectable examples.
+The point is not the exact number. The point is to cover the main behavior categories with inspectable examples before expanding the corpus or the infrastructure.
 
 ## 14. Evaluation checkpoints
 
@@ -209,7 +210,7 @@ The project should evaluate at several points, not only at the end.
 
 Suggested checkpoints:
 
-1. after initial chunking design is translated into data examples
+1. after the first real source slice is translated into canonical documents and chunks
 2. after first retrieval prototype
 3. after first answer-generation prototype
 4. after citation rendering is added

@@ -116,7 +116,7 @@ The assistant should answer in a way that is:
 ### The system should do the following
 
 - answer only from retrieved evidence when possible
-- tie answers to source citations
+- tie answer claims or segments to source citations
 - distinguish between quoted or directly supported content and model inference
 - abstain or narrow the claim when evidence is incomplete
 - prefer precision over conversational smoothness
@@ -148,7 +148,7 @@ The product requires an explicit distinction between:
 - raw sources
 - canonical documents
 - chunks used for retrieval
-- answer-level citations
+- answer segments and citations
 
 This separation is necessary because:
 
@@ -195,6 +195,7 @@ Phase 1 should assume the following constraints:
 - implementation details are deferred until the design is stable
 - repository documents should remain small and clear
 - core terminology must stay consistent across files
+- thin vertical slices should validate contracts before infrastructure choices are locked
 - provenance and citation requirements must be designed before generation behavior
 
 ## 15. Key terminology
@@ -206,10 +207,10 @@ A raw or curated input artifact, such as a rulebook PDF or a structured source t
 A normalized, structured representation derived from a source and prepared for downstream processing.
 
 ### Chunk
-A retrieval-ready and citation-ready knowledge unit derived from a canonical document.
+A retrieval-ready evidence unit derived from a canonical document. In Phase 1, a chunk is the default retrieval unit and default citation anchor, but not a hard invariant.
 
 ### Citation
-A reference attached to an answer that points back to source provenance.
+A reference attached to a claim or answer segment that points back to preserved source provenance.
 
 ### Grounded answer
 An answer whose claims are supported by retrieved source material.

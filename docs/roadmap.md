@@ -9,16 +9,19 @@
 - [ ] Design chunking and retrieval pipeline
 - [ ] Define citation policy
 - [ ] Define model strategy (roles and selection criteria)
-- [ ] Define evaluation plan and construct test set
-- [ ] Select vector DB and models
-- [ ] Finalize all schemas
+- [ ] Define evaluation plan
+- [ ] Select one real source slice (SRD or one PHB chapter)
+- [ ] Build a 20-30 question gold set for that slice
+- [ ] Align thin `source_ref` / `locator` / `answer_segments` contracts
+- [ ] Validate provisional schemas against the slice
 
 ## Phase 1 — Core Implementation
 
-**Sources:** PHB, DMG, MM, SRD, official errata, official FAQ
+**Sources:** Start with one admitted source slice, then expand deliberately to PHB, DMG, MM, SRD, and later official errata / FAQ as the contracts hold up.
 
 - [ ] Implement ingestion pipeline (extraction + normalization)
 - [ ] Implement chunker
+- [ ] Choose a baseline local vector index plus one embedding model and one answer model
 - [ ] Set up vector index and embedding pipeline
 - [ ] Implement retrieval pipeline (filter → retrieve → threshold)
 - [ ] Implement answer generation with grounding constraint

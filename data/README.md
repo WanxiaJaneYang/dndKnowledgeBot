@@ -4,13 +4,13 @@ This directory holds local corpus files. **Nothing here is committed to git.**
 
 ## Expected Layout
 
-```
+```text
 data/
-├─ raw/           Original source files as obtained (PDFs, etc.)
-├─ extracted/     Raw text extracted from source files, pre-normalization
-├─ canonical/     Normalized canonical documents (JSON, per schema)
-├─ chunks/        Chunked corpus ready for indexing (JSON, per schema)
-└─ index/         Vector index files (Chroma, FAISS, etc.)
+|-- raw/           Original source files as obtained (PDFs, etc.)
+|-- extracted/     Raw text extracted from source files, pre-normalization
+|-- canonical/     Normalized canonical documents (JSON, per schema)
+|-- chunks/        Stable chunk/evidence objects ready for indexing (JSON, per schema)
+`-- index/         Derived local retrieval artifacts (FAISS, Chroma, sqlite-vec, etc.)
 ```
 
 ## Copyright Notice

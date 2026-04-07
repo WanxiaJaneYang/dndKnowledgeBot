@@ -98,10 +98,10 @@ This repository is expected to grow around a small set of design documents.
 At a high level, the intended product shape is:
 
 1. ingest source documents into a canonical corpus
-2. split canonical documents into citation-ready retrieval units
-3. index those units into a vector-backed retrieval layer
+2. split canonical documents into retrieval-ready evidence units with preserved locators
+3. index those units into a local vector-backed retrieval layer
 4. answer user questions only from retrieved evidence
-5. return a grounded answer with source references
+5. return a grounded answer with claim- or segment-level source references
 
 ## Source policy
 
@@ -122,7 +122,7 @@ The assistant should:
 - answer from retrieved evidence
 - distinguish between direct evidence and inference
 - avoid pretending certainty when the corpus does not support it
-- cite supporting sources at the answer level
+- cite supporting sources at the claim or segment level
 - explicitly say when the evidence is insufficient
 
 ## Repository philosophy
@@ -132,7 +132,7 @@ This repo should stay small, legible, and design-driven.
 Prefer:
 
 - clear documents
-- explicit schemas
+- thin, explicit contracts
 - named assumptions
 - narrow phase goals
 
@@ -144,4 +144,4 @@ Avoid:
 
 ## Next step
 
-The immediate next step is to define and stabilize product boundaries in `docs/product_scope.md`, then build the ingestion and chunking design around those boundaries.
+The immediate next step is to validate one real source slice with a small gold question set, then let the contracts tighten around that vertical slice before larger infrastructure choices are made.

@@ -42,7 +42,7 @@ Curated Sources
   -> Citation Rendering
 ```
 
-Chunking transforms canonical documents into stable retrieval units.
+Chunking transforms canonical documents into stable evidence units.
 Retrieval selects a subset of those units as evidence for answering.
 
 ## 4. Design assumptions
@@ -59,11 +59,17 @@ The retrieval layer should therefore behave more like a **rules evidence selecto
 
 ## 5. Core principle
 
-### Chunk = retrieval unit + citation unit
+### Chunk is the default retrieval unit and default citation anchor
 
 A chunk is not merely a block of text for vector search.
 
-In this project, a chunk should also function as the minimum reliable evidence unit that can be attached to a user-visible citation.
+In this project, a chunk should also function as the default evidence unit that can be attached to a user-visible citation.
+
+That default should not be treated as a hard invariant. Some answers will need:
+
+- multiple citations attached to one answer segment
+- multiple finer citation locators derived from one retrieved chunk
+- adjacent chunks combined to support one rule claim
 
 This means chunk design must preserve:
 
@@ -197,16 +203,10 @@ Every chunk should carry enough metadata to support both retrieval and citation.
 At minimum, a chunk should preserve:
 
 - `chunk_id`
-- `source_id`
-- `source_title`
-- `edition`
-- `authority`
 - `document_id`
+- `source_ref`
+- `locator`
 - `chunk_type`
-- `page_start`
-- `page_end`
-- `section_path`
-- `entry_title` when relevant
 - `text`
 
 Useful additional metadata may include:
@@ -218,6 +218,8 @@ Useful additional metadata may include:
 - `tags`
 - `created_from_strategy`
 - `chunk_version`
+
+Embedding vectors and other engine-specific index fields should live in derived index artifacts keyed by `chunk_id`, not in the stable chunk object itself.
 
 ## 14. Adjacency and lineage
 
@@ -401,7 +403,7 @@ The following decisions are intentionally deferred:
 - exact chunk size targets
 - exact overlap size, if any
 - final table representation strategy
-- final retrieval stack and database choice
+- final local vector index or hybrid retrieval stack choice
 - whether reranking is required in the first implementation
 - the exact threshold for abstain vs answer
 
