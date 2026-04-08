@@ -54,7 +54,13 @@ The policy therefore prioritizes:
 
 The default citation unit in Phase 1 should be the **retrieved chunk**.
 
-This means a chunk functions as the minimum evidence unit that an answer may cite.
+This means a chunk functions as the default evidence unit that an answer may cite.
+
+This should not be treated as a hard invariant. In practice:
+
+- one answer segment may cite multiple chunks
+- one retrieved chunk may yield multiple finer citation locators
+- a citation may point to a narrower source location than the whole retrieval chunk
 
 A citation should therefore refer to a chunk whose metadata can be resolved into a human-meaningful source reference.
 
@@ -70,13 +76,8 @@ At minimum, a citable chunk should preserve enough information to render:
 
 Examples of useful provenance fields include:
 
-- `source_id`
-- `source_title`
-- `edition`
-- `page_start`
-- `page_end`
-- `section_path`
-- `entry_title`
+- `source_ref`
+- `locator`
 - `chunk_id`
 
 ## 7. Citation rendering goal
@@ -106,7 +107,7 @@ Every substantive answer unit should have visible support.
 
 In practice, this means:
 
-- each answer paragraph should cite one or more retrieved chunks
+- each answer segment or claim group should cite one or more retrieved chunks
 - a single strong citation is acceptable when one chunk directly supports the statement
 - multiple citations are preferable when the answer combines separate supporting points
 
@@ -172,7 +173,7 @@ Preferred order:
 
 1. source + page + section or entry
 2. source + page
-3. source + section or entry
+3. source + source-native location
 4. source only as a last resort
 
 A citation that only names a book without a usable location is weak and should be treated as a degraded fallback.

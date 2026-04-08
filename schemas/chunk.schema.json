@@ -1,96 +1,72 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Chunk",
-  "description": "The smallest retrieval and citation unit. Derived from a canonical document by the chunker.",
+  "description": "A stable evidence object derived from a canonical document by the chunker. Index-time retrieval artifacts are derived separately.",
   "type": "object",
   "required": [
     "chunk_id",
-    "source_id",
-    "citation_anchor",
-    "content",
-    "token_count"
+    "document_id",
+    "source_ref",
+    "locator",
+    "chunk_type",
+    "content"
   ],
   "additionalProperties": false,
   "properties": {
     "chunk_id": {
       "type": "string",
-      "description": "Unique identifier for this chunk (e.g., '{source_id}::{section_slug}::chunk-{n}')"
+      "description": "Unique identifier for this chunk"
     },
-    "source_id": {
+    "document_id": {
       "type": "string",
-      "description": "Registry identifier of the source this chunk came from"
+      "description": "Identifier of the canonical document this chunk came from"
     },
-    "citation_anchor": {
-      "type": "object",
-      "description": "All metadata required to locate this chunk in the original source",
-      "required": [
-        "title",
-        "edition",
-        "authority_level",
-        "source_type",
-        "section_path",
-        "page_range"
+    "source_ref": {
+      "$ref": "./common.schema.json#/$defs/sourceRef"
+    },
+    "locator": {
+      "$ref": "./common.schema.json#/$defs/locator"
+    },
+    "chunk_type": {
+      "type": "string",
+      "enum": [
+        "rule_section",
+        "subsection",
+        "spell_entry",
+        "feat_entry",
+        "skill_entry",
+        "class_feature",
+        "condition_entry",
+        "glossary_entry",
+        "table",
+        "example",
+        "sidebar",
+        "errata_note",
+        "faq_note",
+        "paragraph_group",
+        "generic"
       ],
-      "additionalProperties": false,
-      "properties": {
-        "title": {
-          "type": "string",
-          "description": "Full title of the source book"
-        },
-        "edition": {
-          "type": "string",
-          "description": "Game edition"
-        },
-        "authority_level": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 5
-        },
-        "source_type": {
-          "type": "string",
-          "enum": [
-            "official_rulebook",
-            "official_errata",
-            "official_faq",
-            "srd",
-            "commentary",
-            "homebrew",
-            "personal_note"
-          ]
-        },
-        "section_path": {
-          "type": "array",
-          "items": { "type": "string" },
-          "minItems": 1
-        },
-        "page_range": {
-          "type": "object",
-          "required": ["start", "end"],
-          "additionalProperties": false,
-          "properties": {
-            "start": { "type": "integer", "minimum": 1 },
-            "end": { "type": "integer", "minimum": 1 }
-          }
-        }
-      }
+      "description": "Semantic chunk type used for retrieval and later citation logic"
     },
     "content": {
       "type": "string",
       "description": "Text content of this chunk"
     },
-    "token_count": {
-      "type": "integer",
-      "minimum": 1,
-      "description": "Number of tokens in content (model-specific tokenizer)"
-    },
-    "embedding_model": {
+    "parent_chunk_id": {
       "type": "string",
-      "description": "Model ID used to produce the embedding (required if embedding is present)"
+      "description": "Optional parent chunk identifier when the chunk belongs to a larger entry or table"
     },
-    "embedding": {
-      "type": "array",
-      "items": { "type": "number" },
-      "description": "Dense vector representation of content (omitted before indexing)"
+    "previous_chunk_id": {
+      "type": "string",
+      "description": "Optional previous adjacent chunk identifier"
+    },
+    "next_chunk_id": {
+      "type": "string",
+      "description": "Optional next adjacent chunk identifier"
+    },
+    "chunk_version": {
+      "type": "string",
+      "description": "Optional version or strategy marker for regenerated chunks"
     }
   }
 }

@@ -126,7 +126,7 @@ Before a source is ingested, it should have a tracked registry entry containing 
 - source title
 - ruleset / edition
 - source type
-- authority level
+- authority
 - status
 - notes
 
@@ -203,17 +203,13 @@ A canonical document should represent a normalized view of a source or source se
 At a conceptual level, a canonical document should preserve:
 
 - canonical document identifier
-- source identifier
-- source title
-- edition / ruleset
-- source type
+- `source_ref`
+- `locator`
 - document title when applicable
-- section path when applicable
-- page range
-- cleaned content blocks
-- ingestion version or lineage metadata
+- cleaned content
+- optional ingestion version or lineage metadata
 
-The exact schema belongs in a separate schema file, but the design requirement is that the canonical document be stable and re-usable.
+Phase 1 should keep this contract thin. The design requirement is that the canonical document be stable and reusable, not overloaded with downstream retrieval or indexing details.
 
 ## 14. Provenance requirements
 

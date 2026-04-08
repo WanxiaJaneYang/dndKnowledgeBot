@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CommonContracts",
+  "$defs": {
+    "pageRange": {
+      "type": "object",
+      "required": ["start", "end"],
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "description": "Inclusive page range when the source is paginated."
+    },
+    "sourceRef": {
+      "type": "object",
+      "required": ["source_id", "title", "edition", "source_type", "authority"],
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "description": "Stable registry identifier from source_registry.yaml"
+        },
+        "title": {
+          "type": "string",
+          "description": "Full human-readable source title"
+        },
+        "edition": {
+          "type": "string",
+          "description": "Edition label used consistently across the corpus (for example, '3.5e')"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "core_rulebook",
+            "supplement_rulebook",
+            "errata_document",
+            "faq_document",
+            "srd_reference",
+            "curated_commentary",
+            "personal_note"
+          ],
+          "description": "Source category shared across registry, ingestion, chunking, and citation layers"
+        },
+        "authority": {
+          "type": "string",
+          "enum": [
+            "official",
+            "official_reference",
+            "curated_secondary",
+            "personal_note"
+          ],
+          "description": "Authority vocabulary shared across registry and downstream evidence objects"
+        }
+      }
+    },
+    "locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page_range": {
+          "$ref": "#/$defs/pageRange"
+        },
+        "section_path": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Ordered path from broader section to local section or entry"
+        },
+        "entry_id": {
+          "type": "string",
+          "description": "Stable source-native entry identifier when available"
+        },
+        "entry_title": {
+          "type": "string",
+          "description": "Human-readable entry title when the source has entry-like structure"
+        },
+        "source_location": {
+          "type": "string",
+          "description": "Freeform source-native location for non-paginated or structured sources"
+        }
+      },
+      "anyOf": [
+        { "required": ["page_range"] },
+        { "required": ["section_path"] },
+        { "required": ["entry_id"] },
+        { "required": ["entry_title"] },
+        { "required": ["source_location"] }
+      ],
+      "description": "Resolvable source locator that works for both paginated and non-paginated sources."
+    }
+  }
+}
