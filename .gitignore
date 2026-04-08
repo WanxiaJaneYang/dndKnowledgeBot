@@ -16,6 +16,9 @@ data/index/
 *.faiss
 *.hnswlib
 
+# Project-local git worktrees
+.worktrees/
+
 # Python
 __pycache__/
 *.py[cod]
