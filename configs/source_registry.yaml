@@ -9,37 +9,41 @@ sources:
     edition: 3.5e
     source_type: core_rulebook
     authority: official
-    status: planned
-    priority: primary
+    status: planned_later
+    priority: secondary
     notes: >-
-      Core rules source candidate for Phase 1.
+      Planned for a later Phase 1 expansion after the bootstrap slice proves the source,
+      locator, and ingestion contracts on srd_35.
 
   - source_id: dmg_35
     title: Dungeon Master's Guide
     edition: 3.5e
     source_type: core_rulebook
     authority: official
-    status: planned
+    status: planned_later
     priority: secondary
     notes: >-
-      Planned as a later core expansion source after initial Phase 1 corpus definition.
+      Planned as a later core expansion source after the bootstrap source plan and
+      first ingestion slice are validated.
 
   - source_id: mm_35
     title: Monster Manual
     edition: 3.5e
     source_type: core_rulebook
     authority: official
-    status: planned
+    status: planned_later
     priority: secondary
     notes: >-
-      Relevant for monster- and rules-adjacent lookups, but not required to define the initial ingestion model.
+      Relevant for monster- and rules-adjacent lookups, but deferred until after the
+      bootstrap slice is working.
 
   - source_id: srd_35
     title: System Reference Document
     edition: 3.5e
     source_type: srd_reference
     authority: official_reference
-    status: optional
-    priority: secondary
+    status: admitted_bootstrap
+    priority: primary
     notes: >-
-      Optional structured reference source if explicitly added to the Phase 1 corpus.
+      Bootstrap source for Phase 1. Use this admitted slice first for evaluation,
+      ingestion, and citation-contract validation before expanding to PHB / DMG / MM.
