@@ -1,0 +1,52 @@
+{
+  "source_id": "srd_35",
+  "title": "System Reference Document",
+  "edition": "3.5e",
+  "source_type": "srd_reference",
+  "authority": "official_reference",
+  "status": "admitted_bootstrap",
+  "artifact": {
+    "filename": "SRD.zip",
+    "format": "zip",
+    "source_form": "zip archive containing Rich Text Format SRD sections",
+    "download_url": "https://archive.org/download/dnd35srd/SRD.zip",
+    "checksum": {
+      "algorithm": "sha1",
+      "value": "abf7b4259196cf1a0821ad46aefb8c98f3797104"
+    },
+    "expected_file_count": 86,
+    "upstream": {
+      "provider": "Internet Archive",
+      "item_id": "dnd35srd",
+      "item_url": "https://archive.org/details/dnd35srd",
+      "creator": "Wizards of the Coast",
+      "archive_note": "Archived copy of the original Wizards of the Coast D&D 3.5e SRD distribution."
+    }
+  },
+  "local_layout": {
+    "raw_root": "data/raw/srd_35",
+    "archive_path": "data/raw/srd_35/SRD.zip",
+    "expanded_root": "data/raw/srd_35/rtf",
+    "provenance_path": "data/raw/srd_35/bootstrap_provenance.json",
+    "extracted_root": "data/extracted/srd_35",
+    "canonical_root": "data/canonical/srd_35"
+  },
+  "locator": {
+    "style": "source_location",
+    "bootstrap_rule": "Use source-native file names plus section or entry paths. Do not invent page references for this source."
+  },
+  "provenance_notes": [
+    "The committed repo tracks the manifest and fetch workflow only. Raw SRD files remain local and untracked under data/raw/srd_35/.",
+    "This bootstrap slice uses an archived distribution source rather than a live Wizards-hosted endpoint.",
+    "Later ingestion should preserve file-level provenance so section and entry locators can be traced back to the original RTF files."
+  ],
+  "known_caveats": [
+    "RTF file names are source-native and not always normalized for downstream identifiers.",
+    "The SRD archive is not paginated, so citation locators should use file and section paths rather than page ranges.",
+    "Some later Phase 1 questions will still require non-SRD sources and should remain outside this bootstrap slice."
+  ],
+  "handoff": {
+    "extracted_expectation": "Write extracted text or intermediate structured dumps under data/extracted/srd_35/ while preserving source file names.",
+    "canonical_expectation": "Write canonical document JSON under data/canonical/srd_35/ using stable source_id and locator metadata."
+  }
+}
