@@ -24,7 +24,7 @@
 - [ ] Implement chunker
 - [ ] Choose a baseline local vector index plus one embedding model and one answer model
 - [ ] Set up vector index and embedding pipeline
-- [ ] Implement retrieval pipeline (filter -> retrieve -> threshold)
+- [ ] Implement retrieval pipeline (filter → retrieve → threshold)
 - [ ] Implement answer generation with grounding constraint
 - [ ] Implement citation rendering
 - [ ] Implement abstention behavior
@@ -46,7 +46,7 @@
 
 ## Deferred / Out of Scope
 
-- multi-edition support
-- homebrew content integration
-- public hosting or multi-user access
-- real-time web retrieval
+- Multi-edition support
+- Homebrew content integration
+- Public hosting or multi-user access
+- Real-time web retrieval

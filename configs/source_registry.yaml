@@ -12,8 +12,9 @@ sources:
     status: planned_later
     priority: secondary
     notes: >-
-      Planned for a later Phase 1 expansion after the bootstrap slice proves the source,
-      locator, and ingestion contracts on srd_35.
+      Deliberately demoted from the earlier bootstrap-primary assumption to a later
+      Phase 1 expansion. srd_35 is the current bootstrap slice because it is a
+      cleaner first source for source, locator, and ingestion-contract validation.
 
   - source_id: dmg_35
     title: Dungeon Master's Guide

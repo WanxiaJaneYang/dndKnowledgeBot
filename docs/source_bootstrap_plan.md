@@ -1,75 +1,76 @@
 # Source Bootstrap Plan
 
-> **English**
+> **English** | [中文](zh/source_bootstrap_plan.md)
 
-## 1. Purpose
+## 1. Goal
 
-This document defines the **Phase 1 bootstrap source plan** for the D&D 3.5e Knowledge Chatbot.
+Define the first admitted corpus slice for Phase 1 so later evaluation, ingestion, chunking, and retrieval work all target the same real source set.
 
-It answers one narrow but blocking question:
+The immediate question is simple:
 
-> what is the first admitted corpus slice that later evaluation, ingestion, chunking, and retrieval work should be built against?
+> what source should enter the corpus first, under what admission rules, and in what directory layout?
 
-This is not a plan for the entire long-term corpus. It is the admission contract for the first source set only.
+## 2. Scope And Non-Goals
 
-## 2. Bootstrap decision
+### In scope
 
-Phase 1 bootstrap should start with **`srd_35` only**.
+- choosing the Phase 1 bootstrap source
+- defining the bootstrap admission rule
+- defining the minimum provenance bar for admitted sources
+- defining the edition-writing rule for the bootstrap set
+- defining the first-pass layout under `data/raw/`, `data/extracted/`, and `data/canonical/`
 
-This means:
+### Non-goals
+
+- choosing the full long-term corpus
+- deciding the final extraction toolchain
+- admitting all core rulebooks at once
+- solving later errata and FAQ layering
+- deciding final chunking or retrieval implementation details
+
+## 3. Proposed Design
+
+Phase 1 bootstrap should admit **`srd_35` only**.
+
+That means:
 
 - the first admitted source slice is the D&D 3.5e SRD
 - the first gold evaluation set should be written against SRD-covered questions
-- the first ingestion spike should target SRD material, not PHB / DMG / MM PDFs
+- the first ingestion spike should target SRD material first, not PHB / DMG / MM PDFs
 
-Core rulebooks remain in the registry, but they are **not part of the bootstrap admission set** yet.
+Core rulebooks remain in the registry, but they are deferred to a later expansion after the bootstrap slice has proven the basic source, locator, and ingestion contracts.
 
-## 3. Why `srd_35` comes first
+The admission rule for the bootstrap slice is:
 
-`srd_35` is the best bootstrap source because it is the lowest-friction way to validate the product contract.
+- the source must be intentionally selected in the registry
+- the source must be inside the D&D 3.5e boundary
+- the source must have clear provenance
+- the source must have explicit `source_type`, `authority`, and `edition`
+- the source must be stable enough to reproduce ingestion later
 
-Compared with a PDF-first bootstrap, SRD-first gives the project:
-
-- clearer source structure
-- lower extraction noise
-- easier locator design for non-paginated content
-- a faster path to testing grounded answers, citation rendering, and abstain behavior
-
-The project should prove that the contracts work on one structured admitted source before it takes on OCR quality, page mapping, and layout recovery from scanned books.
-
-## 4. Admission states
-
-Phase 1 should use these source admission states in the registry:
-
-- `admitted_bootstrap`
-  The source is part of the first admitted corpus slice and may be used for evaluation and ingestion spikes now.
-- `planned_later`
-  The source is intentionally in scope for a later Phase 1 expansion, but it is not part of the bootstrap slice yet.
-- `excluded_phase1`
-  The source is intentionally out of scope for the current phase.
-
-This state should answer a practical question:
-
-> may this source enter the corpus right now?
-
-## 5. Admission contract
-
-A source may enter the bootstrap corpus only if all of the following are true:
-
-- it is intentionally selected in the registry
-- it is within the D&D 3.5e boundary
-- its provenance is known well enough to cite and audit later
-- its source type and authority are explicit
-- its raw input form is stable enough to reproduce ingestion later
-
-For bootstrap work, a source should be rejected or deferred if:
+For bootstrap work, the project should reject or defer a source if:
 
 - edition identity is ambiguous
 - provenance is missing or weak
-- the source is unofficial commentary, fan material, or AI-generated summary text
+- the material is unofficial commentary, fan content, or AI-generated summary text
 - the extraction path is so noisy that it prevents contract validation
 
-## 6. Provenance requirements
+## 4. Data Model Or Schema
+
+### 4.1 Registry state model
+
+Bootstrap source admission should use these states:
+
+- `admitted_bootstrap`
+  The source is in the first admitted corpus slice and may be used now.
+- `planned_later`
+  The source is intentionally in scope for a later Phase 1 expansion, but not yet admitted to the bootstrap slice.
+- `excluded_phase1`
+  The source is intentionally out of scope for the current phase.
+
+No source currently uses `excluded_phase1`. The state is reserved so later explicit exclusions do not need a new vocabulary.
+
+### 4.2 Provenance fields
 
 Every admitted bootstrap source should preserve at least:
 
@@ -82,9 +83,9 @@ Every admitted bootstrap source should preserve at least:
 - enough locator information to support later citation
 - notes about known extraction or structural caveats
 
-For `srd_35`, the bootstrap expectation is source-native structure first, page references only if a later admitted source provides them.
+For `srd_35`, the bootstrap expectation is source-native structure first. Page references become mandatory only when later admitted sources actually provide them.
 
-## 7. Edition writing rule
+### 4.3 Edition writing rule
 
 The bootstrap set should write the edition label consistently as:
 
@@ -96,13 +97,11 @@ Do not mix:
 - `v3.5`
 - `D&D 3.5`
 
-within the structured metadata contract.
+inside the structured metadata contract.
 
-## 8. Bootstrap directory layout
+### 4.4 Directory layout
 
 Bootstrap corpus files should be organized by `source_id`.
-
-Expected layout:
 
 ```text
 data/
@@ -120,33 +119,66 @@ Guidelines:
 - `data/extracted/srd_35/` holds extracted text or intermediate structured dumps
 - `data/canonical/srd_35/` holds canonical document JSON outputs
 
-This keeps the bootstrap slice easy to inspect and avoids mixing later sources into the first ingestion pass.
+## 5. Key Decisions
 
-## 9. Bootstrap scope boundary
+### Bootstrap with `srd_35`
 
-The bootstrap source plan does **not** mean SRD is the only source the project will ever support.
+`srd_35` is the first admitted source because it is the lowest-friction way to validate the product contract.
 
-It means only this:
+Compared with a PDF-first bootstrap, SRD-first gives the project:
 
-- the first vertical slice uses `srd_35`
-- the first gold questions should be answerable from `srd_35`
-- the first ingestion spike should prove the canonical contract on `srd_35`
+- clearer source structure
+- lower extraction noise
+- easier locator design for non-paginated content
+- a faster path to testing grounded answers, citation rendering, and abstain behavior
 
-PHB, DMG, and MM should remain registered as later planned sources, not silently admitted into the first slice.
+### Defer PHB / DMG / MM instead of admitting them immediately
 
-## 10. Expansion trigger
+The project should prove the contracts on one structured admitted source before it takes on OCR quality, page mapping, and layout recovery from scanned books.
 
-The project should expand beyond `srd_35` only after the bootstrap slice has passed a basic reality check:
+### Keep `excluded_phase1` even though it is unused today
 
-- the gold set exists
-- the ingestion spike has produced inspectable canonical documents
-- citation locators work for real examples
-- retrieval and answer behavior are stable enough to expose the next real bottleneck
+The vocabulary is still useful. It prevents later ad hoc wording when the project needs to record a deliberate exclusion.
 
-At that point, the likely next expansion is one narrow PHB slice rather than all core books at once.
+## 6. Alternatives Considered
 
-## 11. Summary
+### Alternative A: bootstrap with one PHB chapter
 
-In one sentence:
+This would test book-style page citations earlier.
 
-> Phase 1 bootstrap should admit `srd_35` first, use it to validate the first evaluation and ingestion slice, and defer PHB / DMG / MM until the source contract has been proven on that smaller corpus.
+Why not now:
+
+- it introduces extraction and layout noise too early
+- it makes locator and ingestion validation depend on PDF quality before the base contract is proven
+
+### Alternative B: bootstrap with multiple narrow sources at once
+
+This would broaden coverage sooner.
+
+Why not now:
+
+- it adds source-policy ambiguity before the first admission rule is stable
+- it makes failures harder to localize
+
+### Alternative C: admit all core books immediately
+
+This could look closer to the eventual product corpus.
+
+Why not now:
+
+- it is too much surface area for the first contract-validation step
+- it increases the risk of hiding source and locator problems under corpus size
+
+## 7. Risks And Open Questions
+
+- SRD structure is cleaner than PDF rulebooks, but it may still expose locator or extraction edge cases.
+- SRD-first means the bootstrap slice will not test page-based citations yet.
+- Some later Phase 1 questions may require PHB-only material, so the gold set must stay honest about SRD coverage.
+- The next admitted source after `srd_35` is still open. A narrow PHB slice is the current likely candidate, but not yet a locked decision.
+
+## 8. Next Steps
+
+- align the source registry to mark `srd_35` as `admitted_bootstrap`
+- build the first gold evaluation set against SRD-covered questions
+- run the first ingestion spike against `data/raw/srd_35/`
+- expand beyond `srd_35` only after the bootstrap slice proves the contract is stable enough to carry a noisier source
