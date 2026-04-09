@@ -2,7 +2,7 @@
 
 > **English** | [中文](zh/roadmap.md)
 
-## Phase 0 - Design (current)
+## Phase 0 — Design (current)
 
 - [ ] Define product scope
 - [ ] Define source bootstrap plan and admission contract
@@ -16,7 +16,7 @@
 - [ ] Align thin `source_ref` / `locator` / `answer_segments` contracts
 - [ ] Validate provisional schemas against the slice
 
-## Phase 1 - Core Implementation
+## Phase 1 — Core Implementation
 
 **Sources:** Bootstrap with `srd_35`, then expand deliberately to PHB, DMG, MM, and later official errata / FAQ as the contracts hold up.
 
@@ -30,7 +30,7 @@
 - [ ] Implement abstention behavior
 - [ ] Run evaluation against the Phase 0 test set
 
-## Phase 2 - Quality Improvements
+## Phase 2 — Quality Improvements
 
 - [ ] Add reranker
 - [ ] Expand source corpus (official supplements)
@@ -38,7 +38,7 @@
 - [ ] Add errata / FAQ override layer
 - [ ] Extend the evaluation set
 
-## Phase 3 - Interface
+## Phase 3 — Interface
 
 - [ ] Define target interface (CLI, Discord bot, web UI)
 - [ ] Implement the chosen interface
