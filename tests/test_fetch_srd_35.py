@@ -24,6 +24,7 @@ class FetchSrd35Tests(unittest.TestCase):
             archive.writestr("CombatI.rtf", "{\\rtf1 bootstrap combat}")
 
         self.archive_sha1 = self._sha1(self.archive_path)
+        self.archive_md5 = self._digest(self.archive_path, "md5")
 
         self.manifest = {
             "source_id": "srd_35",
@@ -31,9 +32,9 @@ class FetchSrd35Tests(unittest.TestCase):
             "artifact": {
                 "filename": "SRD.zip",
                 "download_url": self.archive_path.resolve().as_uri(),
-                "checksum": {
-                    "algorithm": "sha1",
-                    "value": self.archive_sha1,
+                "checksums": {
+                    "sha1": self.archive_sha1,
+                    "md5": self.archive_md5,
                 },
                 "expected_file_count": 2,
             },
@@ -54,6 +55,13 @@ class FetchSrd35Tests(unittest.TestCase):
         plan = build_materialization_plan(self.manifest, self.repo_root)
 
         self.assertEqual(plan["source_id"], "srd_35")
+        self.assertEqual(
+            plan["expected_checksums"],
+            {
+                "sha1": self.archive_sha1,
+                "md5": self.archive_md5,
+            },
+        )
         self.assertEqual(
             plan["archive_path"],
             str((self.repo_root / "data/raw/srd_35/SRD.zip").resolve()),
@@ -79,12 +87,24 @@ class FetchSrd35Tests(unittest.TestCase):
 
         provenance = json.loads(provenance_path.read_text(encoding="utf-8"))
         self.assertEqual(provenance["source_id"], "srd_35")
-        self.assertEqual(provenance["archive"]["verified_checksum"], self.archive_sha1)
+        self.assertEqual(
+            provenance["archive"]["verified_checksums"],
+            {
+                "sha1": self.archive_sha1,
+                "md5": self.archive_md5,
+            },
+        )
         self.assertEqual(provenance["archive"]["extracted_file_count"], 2)
-        self.assertEqual(result["archive_checksum"], self.archive_sha1)
+        self.assertEqual(
+            result["archive_checksums"],
+            {
+                "sha1": self.archive_sha1,
+                "md5": self.archive_md5,
+            },
+        )
 
     def test_materialize_source_rejects_checksum_mismatch(self) -> None:
-        self.manifest["artifact"]["checksum"]["value"] = "0" * 40
+        self.manifest["artifact"]["checksums"]["sha1"] = "0" * 40
 
         with self.assertRaises(ChecksumMismatchError):
             materialize_source(self.manifest, self.repo_root)
@@ -97,9 +117,13 @@ class FetchSrd35Tests(unittest.TestCase):
 
     @staticmethod
     def _sha1(path: Path) -> str:
+        return FetchSrd35Tests._digest(path, "sha1")
+
+    @staticmethod
+    def _digest(path: Path, algorithm: str) -> str:
         import hashlib
 
-        digest = hashlib.sha1()
+        digest = hashlib.new(algorithm)
         with path.open("rb") as handle:
             digest.update(handle.read())
         return digest.hexdigest()

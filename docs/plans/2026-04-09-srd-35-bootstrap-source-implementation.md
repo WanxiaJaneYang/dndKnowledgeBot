@@ -4,7 +4,7 @@
 
 **Goal:** Add a reproducible manifest and fetch workflow that materializes the `srd_35` bootstrap source under `data/raw/srd_35/` without committing the raw SRD files.
 
-**Architecture:** The branch will commit a machine-readable manifest and a small standard-library Python fetcher. The fetcher will download `SRD.zip`, verify its checksum, unpack the archive into `data/raw/srd_35/rtf/`, and write a local provenance record for later ingestion work.
+**Architecture:** The branch will commit a machine-readable manifest and a small standard-library Python fetcher. The fetcher will download `SRD.zip`, verify its published checksums, unpack the archive into `data/raw/srd_35/rtf/`, and write a local provenance record for later ingestion work.
 
 **Tech Stack:** Git, Python standard library, Internet Archive hosted artifact metadata, Markdown and JSON docs/config
 
@@ -23,7 +23,7 @@
 Include:
 - source identity fields that match the repo vocabulary
 - the pinned upstream item and download URL
-- the expected checksum and archive shape
+- the expected checksums and archive shape
 - the local target paths for raw, extracted, and canonical handoff
 - caveats about archive provenance and non-paginated locators
 
@@ -54,7 +54,7 @@ Behavior:
 - load the committed manifest
 - create `data/raw/srd_35/`
 - download `SRD.zip` if missing or when forced
-- verify the archive checksum
+- verify the archive checksums
 - unpack into `data/raw/srd_35/rtf/`
 - write `data/raw/srd_35/bootstrap_provenance.json`
 - support a dry-run mode so the workflow is inspectable without downloading
@@ -67,7 +67,7 @@ Run:
 python scripts/fetch_srd_35.py --dry-run
 ```
 
-Expected: the script prints the planned download target, checksum, extraction directory, and provenance file path without writing raw content.
+Expected: the script prints the planned download target, checksums, extraction directory, and provenance file path without writing raw content.
 
 **Step 3: Run the script for real**
 

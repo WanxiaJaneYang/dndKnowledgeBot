@@ -21,7 +21,7 @@ Use a committed source manifest plus a small fetch script.
 
 - It keeps the bootstrap source reproducible instead of relying on a hand-written note.
 - It preserves the repo rule that raw corpus material is local and untracked.
-- It pins a single artifact with a stable checksum instead of depending on a third-party HTML rendering layer.
+- It pins a single artifact with stable published checksums instead of depending on a third-party HTML rendering layer.
 - It gives issue `#6` and issue `#4` a concrete handoff target under `data/raw/srd_35/`.
 
 ## Data To Commit
@@ -52,7 +52,7 @@ Rejected as the default because it adds an avoidable derived layer when the arch
 
 ## Risks
 
-- The Internet Archive item is not an official Wizards-hosted endpoint, so the provenance note needs to say clearly that this is an archived copy of the original WotC SRD distribution.
+- The Internet Archive item is not an official Wizards-hosted endpoint, so the provenance note needs to say clearly that this is a community-uploaded archive copy, not a Wizards-hosted distribution.
 - The zip may contain naming quirks or RTF edge cases that later extraction has to normalize.
 - If the upstream archive changes unexpectedly, checksum validation should fail loudly instead of silently accepting drift.
 

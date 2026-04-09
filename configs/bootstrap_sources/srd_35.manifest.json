@@ -10,9 +10,9 @@
     "format": "zip",
     "source_form": "zip archive containing Rich Text Format SRD sections",
     "download_url": "https://archive.org/download/dnd35srd/SRD.zip",
-    "checksum": {
-      "algorithm": "sha1",
-      "value": "abf7b4259196cf1a0821ad46aefb8c98f3797104"
+    "checksums": {
+      "sha1": "abf7b4259196cf1a0821ad46aefb8c98f3797104",
+      "md5": "30e2421218f47625291fee7201afba3e"
     },
     "expected_file_count": 86,
     "upstream": {
@@ -20,7 +20,8 @@
       "item_id": "dnd35srd",
       "item_url": "https://archive.org/details/dnd35srd",
       "creator": "Wizards of the Coast",
-      "archive_note": "Archived copy of the original Wizards of the Coast D&D 3.5e SRD distribution."
+      "uploader": "aeakett@gmail.com",
+      "archive_note": "Community-uploaded Internet Archive item posted in 2016 by aeakett@gmail.com and attributed to Wizards of the Coast."
     }
   },
   "local_layout": {
@@ -38,6 +39,7 @@
   "provenance_notes": [
     "The committed repo tracks the manifest and fetch workflow only. Raw SRD files remain local and untracked under data/raw/srd_35/.",
     "This bootstrap slice uses an archived distribution source rather than a live Wizards-hosted endpoint.",
+    "The manifest does not independently prove bit-for-bit fidelity to an original Wizards-hosted download; it pins a stable, cross-referenced community archive copy instead.",
     "Later ingestion should preserve file-level provenance so section and entry locators can be traced back to the original RTF files."
   ],
   "known_caveats": [

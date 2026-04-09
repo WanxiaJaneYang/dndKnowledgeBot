@@ -39,18 +39,25 @@ def build_materialization_plan(manifest: dict, repo_root: Path) -> dict:
         "expanded_root": str(expanded_root),
         "provenance_path": str(provenance_path),
         "raw_root": str(raw_root),
-        "expected_checksum": artifact["checksum"]["value"],
-        "checksum_algorithm": artifact["checksum"]["algorithm"],
+        "expected_checksums": expected_checksums(artifact),
         "expected_file_count": artifact.get("expected_file_count"),
     }
 
 
-def sha1_file(path: Path) -> str:
-    digest = hashlib.sha1()
+def digest_file(path: Path, algorithm: str) -> str:
+    digest = hashlib.new(algorithm)
     with path.open("rb") as handle:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def expected_checksums(artifact: dict) -> dict[str, str]:
+    if "checksums" in artifact:
+        return {name.lower(): value for name, value in artifact["checksums"].items()}
+
+    checksum = artifact["checksum"]
+    return {checksum["algorithm"].lower(): checksum["value"]}
 
 
 def download_file(url: str, destination: Path) -> None:
@@ -83,7 +90,7 @@ def extract_archive(archive_path: Path, expanded_root: Path, repo_root: Path) ->
 def write_provenance(
     manifest: dict,
     plan: dict,
-    archive_checksum: str,
+    archive_checksums: dict[str, str],
     extracted_names: list[str],
 ) -> dict:
     provenance = {
@@ -93,8 +100,7 @@ def write_provenance(
         "archive": {
             "filename": manifest["artifact"]["filename"],
             "download_url": manifest["artifact"]["download_url"],
-            "verified_checksum": archive_checksum,
-            "checksum_algorithm": manifest["artifact"]["checksum"]["algorithm"],
+            "verified_checksums": archive_checksums,
             "expected_file_count": manifest["artifact"].get("expected_file_count"),
             "extracted_file_count": len(extracted_names),
         },
@@ -112,13 +118,17 @@ def write_provenance(
     return provenance
 
 
-def _verify_checksum(archive_path: Path, expected_checksum: str) -> str:
-    actual_checksum = sha1_file(archive_path)
-    if actual_checksum != expected_checksum:
-        raise ChecksumMismatchError(
-            f"Checksum mismatch for {archive_path.name}: expected {expected_checksum}, got {actual_checksum}"
-        )
-    return actual_checksum
+def verify_checksums(archive_path: Path, checksums: dict[str, str]) -> dict[str, str]:
+    actual_checksums: dict[str, str] = {}
+    for algorithm, expected_checksum in checksums.items():
+        actual_checksum = digest_file(archive_path, algorithm)
+        if actual_checksum != expected_checksum:
+            raise ChecksumMismatchError(
+                f"Checksum mismatch for {archive_path.name} ({algorithm}): "
+                f"expected {expected_checksum}, got {actual_checksum}"
+            )
+        actual_checksums[algorithm] = actual_checksum
+    return actual_checksums
 
 
 def materialize_source(
@@ -133,15 +143,10 @@ def materialize_source(
         return plan
 
     artifact = manifest["artifact"]
-    algorithm = artifact["checksum"]["algorithm"].lower()
-    if algorithm != "sha1":
-        raise ValueError(f"Unsupported checksum algorithm: {algorithm}")
-
+    checksums = expected_checksums(artifact)
     archive_path = Path(plan["archive_path"])
     raw_root = Path(plan["raw_root"])
     raw_root.mkdir(parents=True, exist_ok=True)
-
-    expected_checksum = artifact["checksum"]["value"]
 
     if force or not archive_path.exists():
         download_path = archive_path.with_suffix(archive_path.suffix + ".download")
@@ -149,10 +154,10 @@ def materialize_source(
             download_path.unlink()
 
         download_file(artifact["download_url"], download_path)
-        archive_checksum = _verify_checksum(download_path, expected_checksum)
+        archive_checksums = verify_checksums(download_path, checksums)
         os.replace(download_path, archive_path)
     else:
-        archive_checksum = _verify_checksum(archive_path, expected_checksum)
+        archive_checksums = verify_checksums(archive_path, checksums)
 
     extracted_names = extract_archive(archive_path, Path(plan["expanded_root"]), repo_root)
     expected_file_count = artifact.get("expected_file_count")
@@ -161,11 +166,11 @@ def materialize_source(
             f"Unexpected archive file count: expected {expected_file_count}, got {len(extracted_names)}"
         )
 
-    write_provenance(manifest, plan, archive_checksum, extracted_names)
+    write_provenance(manifest, plan, archive_checksums, extracted_names)
 
     return {
         **plan,
-        "archive_checksum": archive_checksum,
+        "archive_checksums": archive_checksums,
         "extracted_file_count": len(extracted_names),
     }
 
