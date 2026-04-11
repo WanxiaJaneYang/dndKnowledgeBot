@@ -15,7 +15,7 @@ def looks_like_heading(line: str) -> bool:
     text = line.strip()
     if not text or len(text) < 3 or len(text) > 90:
         return False
-    if text.endswith((".", "!", "?", ";", ",")):
+    if text.endswith((".", "!", "?", ";", ",", ":")):
         return False
 
     words = re.findall(r"[A-Za-z][A-Za-z'/-]*", text)

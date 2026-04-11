@@ -19,6 +19,12 @@ def _candidate(title: str, content: str, paragraph_count: int = 1, table_rows: i
 
 
 class BoundaryFilterTests(unittest.TestCase):
+    def test_heading_detector_rejects_trailing_colon_labels(self) -> None:
+        from scripts.ingest_srd35.sectioning import looks_like_heading
+
+        self.assertFalse(looks_like_heading("Lawful Neutral, \"Judge\":"))
+        self.assertFalse(looks_like_heading("Mithral:"))
+
     def test_merges_boilerplate_opener_in_non_legal_file(self) -> None:
         candidates = [
             _candidate("Description", "This material is Open Game Content. Visit www.wizards.com for details."),
