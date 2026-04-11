@@ -1,6 +1,6 @@
 dataset_id: phase1_gold_zh_v1
 dataset_version: 1
-created_on: 2026-04-11
+created_on: "2026-04-11"
 source_slice:
   source_ids:
     - srd_35
