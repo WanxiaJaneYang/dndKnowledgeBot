@@ -2,7 +2,7 @@
 
 > **English** | [中文](zh/roadmap.md)
 
-## Phase 0 - Design (current)
+## Phase 0 - Design (completed)
 
 - [x] Define product scope
 - [x] Define source bootstrap plan and admission contract
@@ -16,7 +16,7 @@
 - [x] Align thin `source_ref` / `locator` / `answer_segments` contracts
 - [x] Validate provisional schemas against the slice
 
-## Phase 1 - Core Implementation
+## Phase 1 - Core Implementation (current)
 
 **Sources:** Bootstrap with `srd_35`, then expand deliberately to PHB, DMG, MM, and later official errata / FAQ as the contracts hold up.
 
