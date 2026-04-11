@@ -64,6 +64,8 @@ This should not be treated as a hard invariant. In practice:
 
 A citation should therefore refer to a chunk whose metadata can be resolved into a human-meaningful source reference.
 
+When a citation narrows within a chunk (e.g., a specific paragraph within a multi-paragraph chunk), the citation locator should carry only the fields needed for rendering — not a wholesale copy of the full chunk locator. For example, if a chunk locator includes `section_path`, `page_range`, and `entry_title`, a citation from that chunk need only carry whichever subset resolves the specific cited passage. Carrying all locator fields verbatim bloats citations and obscures the narrowing intent.
+
 ## 6. Required provenance fields
 
 At minimum, a citable chunk should preserve enough information to render:

@@ -32,6 +32,19 @@
         ]
       }
     ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/validate-json.py",
+            "timeout": 10,
+            "statusMessage": "Validating JSON..."
+          }
+        ]
+      }
+    ],
     "PreToolUse": [
       {
         "matcher": "Task",
