@@ -2,51 +2,52 @@
 
 > [English](../roadmap.md) | **中文**
 
-## 第 0 阶段 — 设计（当前）
+## Phase 0 - 设计（已完成）
 
-- [ ] 定义产品范围
-- [x] 定义来源引导方案与准入契约
-- [ ] 设计语料库摄入流水线
-- [ ] 设计分块与检索流水线
-- [ ] 定义引用策略
-- [ ] 定义模型策略（角色与选择标准）
-- [ ] 定义评估计划
-- [x] 确定准入的 bootstrap 来源切片（`srd_35`）
-- [ ] 围绕该切片构建 20-30 题金标问题集
-- [x] 统一 `source_ref` / `locator` / `answer_segments` 契约
-- [ ] 用该切片验证阶段性 schema
+- [x] 定义产品范围
+- [x] 定义 source bootstrap 计划与准入契约
+- [x] 设计语料 ingestion 流水线
+- [x] 设计 chunking 与 retrieval 流水线
+- [x] 定义 citation policy
+- [x] 定义模型策略（角色与选择标准）
+- [x] 定义评测计划
+- [x] 冻结 bootstrap source slice（`srd_35`）
+- [x] 构建该 slice 的 20-30 题 gold set
+- [x] 对齐 `source_ref` / `locator` / `answer_segments` 轻契约
+- [x] 在该 slice 上验证 provisional schema
 
-## 第 1 阶段 — 核心实现
+## Phase 1 - 核心实现（当前）
 
-**来源：** 先使用 `srd_35`，再有计划地扩展至 PHB、DMG、MM，以及后续的官方勘误 / 常见问题（前提是 contract 能稳定支撑新来源）。
+**Sources：** 先以 `srd_35` 为基线，随后在契约稳定后逐步扩展到 PHB / DMG / MM 与官方 errata / FAQ。
 
-- [ ] 实现摄入流水线（提取 + 标准化）
-- [ ] 实现分块器
-- [ ] 选定基准本地向量索引、一个嵌入模型和一个答案模型
-- [ ] 搭建向量索引与嵌入流水线
-- [ ] 实现检索流水线（过滤 → 检索 → 阈值）
-- [ ] 实现带有据约束的答案生成
-- [ ] 实现引用渲染
-- [ ] 实现弃答行为
-- [ ] 针对第 0 阶段测试集运行评估
+- [x] 实现 ingestion pipeline（extraction + normalization）
+- [x] 加入 fixture corpus + golden outputs + preview evidence 标准
+- [ ] 实现 chunker
+- [ ] 选定 baseline 本地向量索引 + embedding 模型 + answer 模型
+- [ ] 搭建向量索引与 embedding 流水线
+- [ ] 实现 retrieval pipeline（filter → retrieve → threshold）
+- [ ] 实现带 grounding 约束的 answer generation
+- [ ] 实现 citation 渲染
+- [ ] 实现 abstain 行为
+- [ ] 在 Phase 0 测试集上跑评测
 
-## 第 2 阶段 — 质量提升
+## Phase 2 - 质量提升
 
-- [ ] 添加重排序器
-- [ ] 扩展来源语料库（官方补充材料）
-- [ ] 改进复杂版式（表格、多栏）的分块效果
-- [ ] 添加勘误 / 常见问题覆盖层
-- [ ] 扩展评估集
+- [ ] 引入 reranker
+- [ ] 扩展语料（官方补充来源）
+- [ ] 改进复杂版式（表格、多栏）chunking
+- [ ] 增加 errata / FAQ 覆盖层
+- [ ] 扩展评测集
 
-## 第 3 阶段 — 交互界面
+## Phase 3 - 接口
 
-- [ ] 确定目标界面（CLI、Discord 机器人、Web UI）
-- [ ] 实现所选界面
-- [ ] 添加查询日志以供离线分析
+- [ ] 定义目标接口（CLI / Discord / Web UI）
+- [ ] 实现选定接口
+- [ ] 增加查询日志用于离线分析
 
-## 推迟 / 超出范围
+## 延后 / 超出范围
 
 - 多版本支持
-- 同人内容集成
-- 公开部署或多用户访问
-- 实时网络检索
+- homebrew 内容集成
+- 公共部署或多用户访问
+- 实时联网检索
