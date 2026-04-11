@@ -45,7 +45,7 @@ The admission rule for the bootstrap slice is:
 - the source must be intentionally selected in the registry
 - the source must be inside the D&D 3.5e boundary
 - the source must have clear provenance
-- the source must have explicit `source_type`, `authority`, and `edition`
+- the source must have explicit `source_type`, `authority_level`, and `edition`
 - the source must be stable enough to reproduce ingestion later
 
 For bootstrap work, the project should reject or defer a source if:
@@ -78,7 +78,7 @@ Every admitted bootstrap source should preserve at least:
 - source title
 - `edition`
 - `source_type`
-- `authority`
+- `authority_level`
 - a note describing the raw artifact or upstream source form
 - enough locator information to support later citation
 - notes about known extraction or structural caveats

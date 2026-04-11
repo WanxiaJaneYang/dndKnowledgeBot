@@ -45,7 +45,7 @@ bootstrap 阶段的准入规则是：
 - 来源必须在 registry 中被明确选中
 - 来源必须严格属于 D&D 3.5e 边界
 - 来源必须有清晰 provenance
-- 来源必须显式标注 `source_type`、`authority`、`edition`
+- 来源必须显式标注 `source_type`、`authority_level`、`edition`
 - 来源的原始输入形式必须稳定，可复现后续摄入
 
 下列情况应拒绝或延后：
@@ -78,7 +78,7 @@ bootstrap 准入应使用以下状态：
 - 来源标题
 - `edition`
 - `source_type`
-- `authority`
+- `authority_level`
 - 描述原始制品或上游形式的说明
 - 足以支撑后续 citation 的 locator 信息
 - 已知 extraction / structure caveat 说明

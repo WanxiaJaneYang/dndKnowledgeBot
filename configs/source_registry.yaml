@@ -8,7 +8,7 @@ sources:
     title: Player's Handbook
     edition: 3.5e
     source_type: core_rulebook
-    authority: official
+    authority_level: official
     status: planned_later
     priority: secondary
     notes: >-
@@ -20,7 +20,7 @@ sources:
     title: Dungeon Master's Guide
     edition: 3.5e
     source_type: core_rulebook
-    authority: official
+    authority_level: official
     status: planned_later
     priority: secondary
     notes: >-
@@ -31,7 +31,7 @@ sources:
     title: Monster Manual
     edition: 3.5e
     source_type: core_rulebook
-    authority: official
+    authority_level: official
     status: planned_later
     priority: secondary
     notes: >-
@@ -41,8 +41,8 @@ sources:
   - source_id: srd_35
     title: System Reference Document
     edition: 3.5e
-    source_type: srd_reference
-    authority: official_reference
+    source_type: srd
+    authority_level: official_reference
     status: admitted_bootstrap
     priority: primary
     notes: >-
