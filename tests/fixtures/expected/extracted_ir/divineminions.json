@@ -13,386 +13,295 @@
       "block_id": "b0002",
       "block_type": "paragraph",
       "text": "DIVINE MINIONS",
-      "line_start": 3,
-      "line_end": 3
+      "line_start": 2,
+      "line_end": 2
     },
     {
       "block_id": "b0003",
       "block_type": "paragraph",
-      "text": "All types of beings may serve deities. In general, a deity only accepts minions who have accomplished some great deed in service to the deity. Such minions usually have the same alignment as the deity. No minion'",
-      "line_start": 5,
-      "line_end": 5
+      "text": "All types of beings may serve deities. In general, a deity only accepts minions who have accomplished some great deed in service to the deity. Such minions usually have the same alignment as the deity. No minion's alignment is opposed to the patron deity's alignment on either the law-chaos axis or the good-evil axis.",
+      "line_start": 4,
+      "line_end": 4
     },
     {
       "block_id": "b0004",
       "block_type": "paragraph",
-      "text": "s alignment is opposed to the patron deity's alignment on either the law-chaos axis or the good-evil axis.",
-      "line_start": 7,
-      "line_end": 7
+      "text": "Proxies",
+      "line_start": 6,
+      "line_end": 6
     },
     {
       "block_id": "b0005",
       "block_type": "paragraph",
-      "text": "Proxies",
-      "line_start": 9,
-      "line_end": 9
+      "text": "A divine proxy speaks and acts on behalf of the divine being. When the demand for a deity's presence is too high, the deity may use proxies.",
+      "line_start": 7,
+      "line_end": 7
     },
     {
       "block_id": "b0006",
       "block_type": "paragraph",
-      "text": "A divine proxy speaks and acts on behalf of the divine being. When the demand for a deity'",
-      "line_start": 11,
-      "line_end": 11
+      "text": "Proxies are divine minions invested with a small portion of the deity's power. A deity may invest 1 rank of its power (reducing its divine rank accordingly) in a single servant for as long as the deity chooses. The minion must be physically present for the deity to perform the investiture. While so invested, the proxy gains any salient divine abilities held by the patron deity as well as the powers and abilities of a rank 1 demigod. Without the requisite ability scores or divine ranks, the proxy may not be able to use all those powers and abilities. A deity may have more than one proxy, but it must lose 1 divine rank for each proxy it invests. A deity can retrieve a single divine rank as a standard action, and doing so it does not require the physical presence of the proxy.",
+      "line_start": 8,
+      "line_end": 8
     },
     {
       "block_id": "b0007",
       "block_type": "paragraph",
-      "text": "s presence is too high, the deity may use proxies.",
-      "line_start": 13,
-      "line_end": 13
+      "text": "Petitioners",
+      "line_start": 10,
+      "line_end": 10
     },
     {
       "block_id": "b0008",
       "block_type": "paragraph",
-      "text": "Proxies are divine minions invested with a small portion of the deity's po",
-      "line_start": 15,
-      "line_end": 15
+      "text": "Some spirits demonstrate their devotion to their deity by traveling to the deity's home plane. Those that survive the journey across the planes become servants of their deity. While a few may remain disembodied spirits, most become petitioners through the divine will of their patron deity.",
+      "line_start": 11,
+      "line_end": 11
     },
     {
       "block_id": "b0009",
       "block_type": "paragraph",
-      "text": "wer. A deity may invest 1 rank of its power (reducing its divine rank accordingly) in a single servant for as long as the deity chooses. The minion must be physically present for the deity to perform the investiture. While so invested, the proxy gains any",
-      "line_start": 17,
-      "line_end": 17
+      "text": "In general, petitioners appear in the form that they had when they died, though they may be remade by deities to fit the nature of their particular afterlife. In general, petitioners who become divine servants are creatures that originally had at least 1 Intelligence and 1 Wisdom.",
+      "line_start": 12,
+      "line_end": 12
     },
     {
       "block_id": "b0010",
       "block_type": "paragraph",
-      "text": "salient divine abilities held by the patron deity as well as the powers and abilities of a rank 1 demigod. Without the requisite ability scores or divine ranks, the proxy may not be able to use all those powers and abilities. A deity may have more than on",
-      "line_start": 21,
-      "line_end": 21
+      "text": "The following creature types may become petitioners depending on the deity: aberrations, animals, dragons, fey, giants, humanoids, magical beasts, monstrous humanoids, and plants, oozes, and vermin with sufficient ability scores. Constructs and undead are not usually made into petitioners, though the spirits of their original forms may be. Elementals and outsiders tend to meld with their native planes, and as such do not become petitioners. Their spirits may still be called back from the dead, however.",
+      "line_start": 13,
+      "line_end": 13
     },
     {
       "block_id": "b0011",
       "block_type": "paragraph",
-      "text": "e proxy, but it must lose 1 divine rank for each proxy it invests. A deity can retrieve a single divine rank as a standard action, and doing so it does not require the physical presence of the proxy.",
-      "line_start": 23,
-      "line_end": 23
+      "text": "The template presented below is for NPCs, not player characters. If dead characters who are petitioners are later restored to life (once again becoming player characters), they forget any of their experiences as petitioners.",
+      "line_start": 14,
+      "line_end": 14
     },
     {
       "block_id": "b0012",
       "block_type": "paragraph",
-      "text": "Petitioners",
-      "line_start": 25,
-      "line_end": 25
+      "text": "Creating a Petitioner",
+      "line_start": 16,
+      "line_end": 16
     },
     {
       "block_id": "b0013",
       "block_type": "paragraph",
-      "text": "Some spirits demonstrate their devotion to their deity by traveling to the deity'",
-      "line_start": 27,
-      "line_end": 27
+      "text": "\u201cPetitioner\u201d is a template that may be added to any creature as determined by the nature of the campaign (referred to hereafter as the base creature). The creature's type changes to outsider, and the creature uses all the base creature's statistics and special abilities except as noted here.",
+      "line_start": 17,
+      "line_end": 17
     },
     {
       "block_id": "b0014",
       "block_type": "paragraph",
-      "text": "s home plane. Those that survive the journey across the planes become servants of their deity. While a few may remain disembodied spirits, most become petitioners through the divine will of their patron deity.",
-      "line_start": 29,
-      "line_end": 29
+      "text": "Hit Dice: Change to 2d8. Retain bonus hit points.",
+      "line_start": 18,
+      "line_end": 18
     },
     {
       "block_id": "b0015",
       "block_type": "paragraph",
-      "text": "In general, petitioners appear in the form that they had when they died, though they may be remade by deities to fit the nature of their particular afterlife. In general, petitioners who become divine servants are creatu",
-      "line_start": 31,
-      "line_end": 31
+      "text": "AC: Natural Armor Class, Dexterity, and size bonuses or penalties apply. Armor bonuses are not applicable.",
+      "line_start": 19,
+      "line_end": 19
     },
     {
       "block_id": "b0016",
       "block_type": "paragraph",
-      "text": "res that originally had at least 1 Intelligence and 1 Wisdom.",
-      "line_start": 33,
-      "line_end": 33
+      "text": "Attacks: Base attack bonus is reduced to +2, subject to modifications for size and Strength.",
+      "line_start": 20,
+      "line_end": 20
     },
     {
       "block_id": "b0017",
       "block_type": "paragraph",
-      "text": "The following creature types may become petitioners depending on the deity: aberrations, animals, dragons, fey, giants, humanoids, magical beasts, monstrous humanoids, and plants, oozes, and ver",
-      "line_start": 35,
-      "line_end": 35
+      "text": "Special Attacks: A petitioner loses all supernatural and spell-like attacks, but retains normal and exceptional attacks.",
+      "line_start": 21,
+      "line_end": 21
     },
     {
       "block_id": "b0018",
       "block_type": "paragraph",
-      "text": "min with sufficient ability scores. Constructs and undead are not usually made into petitioners, though the spirits of their original forms may be. Elementals and outsiders tend to meld with their native planes, and as such do not become petitioners. Thei",
-      "line_start": 37,
-      "line_end": 37
+      "text": "Special Qualities: A petitioner loses all supernatural and spell-like abilities, but retains exceptional abilities. In addition, it gains the following qualities.",
+      "line_start": 22,
+      "line_end": 22
     },
     {
       "block_id": "b0019",
       "block_type": "paragraph",
-      "text": "r spirits may still be called back from the dead, however.",
-      "line_start": 39,
-      "line_end": 39
+      "text": "Mental Immunity: All petitioners are immune to mind-affecting effects.",
+      "line_start": 23,
+      "line_end": 23
     },
     {
       "block_id": "b0020",
       "block_type": "paragraph",
-      "text": "The template presented below is for NPCs, not player characters. If dead characters who are petitioners are later restored to life (once again becoming player characters), they forget any of their experiences as petitioners.",
-      "line_start": 41,
-      "line_end": 41
+      "text": "Other Immunities: Depending on its nature, the petitioner is immune to two of the following effects: acid, cold, electricity, fire, poison, petrifaction, or polymorphing. These immunities are applied similarly to all petitioners of a particular plane or deity.",
+      "line_start": 24,
+      "line_end": 24
     },
     {
       "block_id": "b0021",
       "block_type": "paragraph",
-      "text": "Creating a Petitioner",
-      "line_start": 43,
-      "line_end": 43
+      "text": "Resistances: Depending on the nature of the petitioner's plane, the petitioner gains resistance 20 against two of the following effects: acid, cold, electricity, or fire.",
+      "line_start": 25,
+      "line_end": 25
     },
     {
       "block_id": "b0022",
       "block_type": "paragraph",
-      "text": "\u201cPetitioner\u201d",
-      "line_start": 45,
-      "line_end": 45
+      "text": "Planar Commitment: Petitioners cannot leave the plane they inhabit. They are teleported one hundred miles in a random direction if an attempt is made to force them to leave.",
+      "line_start": 26,
+      "line_end": 26
     },
     {
       "block_id": "b0023",
       "block_type": "paragraph",
-      "text": "is a template that may be added to any creature as determined by the nature of the campaign (referred to hereafter as the base creature). The creature's type changes to outsider, and the creature uses all the base creature'",
-      "line_start": 47,
-      "line_end": 47
+      "text": "Additional Special Qualities: Particular planes may provide additional benefits for petitioners of those planes. Typical additional special qualities may include any one of the following.",
+      "line_start": 27,
+      "line_end": 27
     },
     {
       "block_id": "b0024",
       "block_type": "paragraph",
-      "text": "s statistics and special abilities except as noted here.",
-      "line_start": 49,
-      "line_end": 49
+      "text": "Damage reduction 5/silver and spell resistance 5.",
+      "line_start": 28,
+      "line_end": 28
     },
     {
       "block_id": "b0025",
       "block_type": "paragraph",
-      "text": "Hit Dice: Change to 2d8. Retain bonus hit points.",
-      "line_start": 51,
-      "line_end": 51
+      "text": "Continuous magic circle against evil.",
+      "line_start": 29,
+      "line_end": 29
     },
     {
       "block_id": "b0026",
       "block_type": "paragraph",
-      "text": "AC: Natural Armor Class, Dexterity, and size bonuses or penalties apply. Armor bonuses are not applicable.",
-      "line_start": 53,
-      "line_end": 53
+      "text": "Fast healing 1.",
+      "line_start": 30,
+      "line_end": 30
     },
     {
       "block_id": "b0027",
       "block_type": "paragraph",
-      "text": "Attacks: Base attack bonus is reduced to +2, subject to modifications for size and Strength.",
-      "line_start": 55,
-      "line_end": 55
+      "text": "Damage reduction 10/magic.",
+      "line_start": 31,
+      "line_end": 31
     },
     {
       "block_id": "b0028",
       "block_type": "paragraph",
-      "text": "Special Attacks: A petitioner loses all supernatural and spell-like attacks, but retains normal and exceptional attacks.",
-      "line_start": 57,
-      "line_end": 57
+      "text": "Spell resistance 10.",
+      "line_start": 32,
+      "line_end": 32
     },
     {
       "block_id": "b0029",
       "block_type": "paragraph",
-      "text": "Special Qualities: A petitioner loses all supernatural and spell-like abilities, but retains exceptional abilities. In addition, it gains the following qualities.",
-      "line_start": 59,
-      "line_end": 59
+      "text": "Additional 2d8 Hit Dice.",
+      "line_start": 33,
+      "line_end": 33
     },
     {
       "block_id": "b0030",
       "block_type": "paragraph",
-      "text": "Mental Immunity: All petitioners are immune to mind-affecting effects.",
-      "line_start": 61,
-      "line_end": 61
+      "text": "Remove all immunities and resistances except immunity to mind-affecting effects. Add acid, cold, electricity, fire, and poison resistance 5.",
+      "line_start": 34,
+      "line_end": 34
     },
     {
       "block_id": "b0031",
       "block_type": "paragraph",
-      "text": "Other Immunities: Depending on its nature, the petitioner is immune to two",
-      "line_start": 63,
-      "line_end": 63
+      "text": "Such modifications are the result of the nature of the plane or the powerful beings within it.",
+      "line_start": 35,
+      "line_end": 35
     },
     {
       "block_id": "b0032",
       "block_type": "paragraph",
-      "text": "of the following effects: acid, cold, electricity, fire, poison, petrifaction, or polymorphing. These immunities are applied similarly to all petitioners of a particular plane or deity.",
-      "line_start": 65,
-      "line_end": 65
+      "text": "Saves: Base saving throw bonuses are +3.",
+      "line_start": 36,
+      "line_end": 36
     },
     {
       "block_id": "b0033",
       "block_type": "paragraph",
-      "text": "Resistances: Depending on the nature of the petitioner's plane, the petitioner gains resistance 20 against two of the following effects: acid, cold, electricity, or fire.",
-      "line_start": 67,
-      "line_end": 67
+      "text": "Abilities: Same as the base creature. Some cosmologies or deities may set a maximum of 18 for petitioner ability scores. Abilities higher than that are reduced to the maximum.",
+      "line_start": 37,
+      "line_end": 37
     },
     {
       "block_id": "b0034",
       "block_type": "paragraph",
-      "text": "Planar Commitment: Petitioners cannot leave the plane they inhabit. They are teleported one hundred miles in a random direction if an attempt is made to force them to leave.",
-      "line_start": 69,
-      "line_end": 69
+      "text": "Skills: Petitioners have no skills. Previous skills are lost.",
+      "line_start": 38,
+      "line_end": 38
     },
     {
       "block_id": "b0035",
       "block_type": "paragraph",
-      "text": "Additional Special Qualities: Particular planes may provide additional benefits for petitioners of those planes. Typical additional special qualities may include any one of the following.",
-      "line_start": 71,
-      "line_end": 71
+      "text": "Feats: Petitioners have no feats. Previous feats are lost.",
+      "line_start": 39,
+      "line_end": 39
     },
     {
       "block_id": "b0036",
       "block_type": "paragraph",
-      "text": "Damage reduction 5/silver and spell resistance 5.",
-      "line_start": 73,
-      "line_end": 73
+      "text": "Climate/Terrain: Any land and underground (within the same plane).",
+      "line_start": 40,
+      "line_end": 40
     },
     {
       "block_id": "b0037",
       "block_type": "paragraph",
-      "text": "Continuous magic circle against evil.",
-      "line_start": 75,
-      "line_end": 75
+      "text": "Organization: Same as the base creature.",
+      "line_start": 41,
+      "line_end": 41
     },
     {
       "block_id": "b0038",
       "block_type": "paragraph",
-      "text": "Fast healing 1.",
-      "line_start": 77,
-      "line_end": 77
+      "text": "Challenge Rating: 1.",
+      "line_start": 42,
+      "line_end": 42
     },
     {
       "block_id": "b0039",
       "block_type": "paragraph",
-      "text": "Damage reduction 10/magic.",
-      "line_start": 79,
-      "line_end": 79
+      "text": "Treasure: None.",
+      "line_start": 43,
+      "line_end": 43
     },
     {
       "block_id": "b0040",
       "block_type": "paragraph",
-      "text": "Spell resistance 10.",
-      "line_start": 81,
-      "line_end": 81
+      "text": "Alignment: Same as the native plane.",
+      "line_start": 44,
+      "line_end": 44
     },
     {
       "block_id": "b0041",
       "block_type": "paragraph",
-      "text": "Additional 2d8 Hit Dice.",
-      "line_start": 83,
-      "line_end": 83
+      "text": "Advancement: None.",
+      "line_start": 45,
+      "line_end": 45
     },
     {
       "block_id": "b0042",
       "block_type": "paragraph",
-      "text": "Remove all immunities and resistances except immunity to mind-affecting effects. Add acid, cold, electricity, fire, and poison resistance 5.",
-      "line_start": 85,
-      "line_end": 85
+      "text": "Exceptional Petitioners",
+      "line_start": 47,
+      "line_end": 47
     },
     {
       "block_id": "b0043",
       "block_type": "paragraph",
-      "text": "Such modifications are the result of the nature of the plane or the powerful beings within it.",
-      "line_start": 87,
-      "line_end": 87
-    },
-    {
-      "block_id": "b0044",
-      "block_type": "paragraph",
-      "text": "Saves: Base saving throw bonuses are +3.",
-      "line_start": 89,
-      "line_end": 89
-    },
-    {
-      "block_id": "b0045",
-      "block_type": "paragraph",
-      "text": "Abilities: Same as the base creature. Some cosmologies or deities may set a maximum of 18 for petitioner ability scores. Abilities higher than that are reduced to the maximum.",
-      "line_start": 91,
-      "line_end": 91
-    },
-    {
-      "block_id": "b0046",
-      "block_type": "paragraph",
-      "text": "Skills: Petitioners have no skills. Previous skills are lost.",
-      "line_start": 93,
-      "line_end": 93
-    },
-    {
-      "block_id": "b0047",
-      "block_type": "paragraph",
-      "text": "Feats: Petitioners have no feats. Previous feats are lost.",
-      "line_start": 95,
-      "line_end": 95
-    },
-    {
-      "block_id": "b0048",
-      "block_type": "paragraph",
-      "text": "Climate/Terrain: Any land and underground (within the same plane).",
-      "line_start": 97,
-      "line_end": 97
-    },
-    {
-      "block_id": "b0049",
-      "block_type": "paragraph",
-      "text": "Organization: Same as the base creature.",
-      "line_start": 99,
-      "line_end": 99
-    },
-    {
-      "block_id": "b0050",
-      "block_type": "paragraph",
-      "text": "Challenge Rating: 1.",
-      "line_start": 101,
-      "line_end": 101
-    },
-    {
-      "block_id": "b0051",
-      "block_type": "paragraph",
-      "text": "Treasure: None.",
-      "line_start": 103,
-      "line_end": 103
-    },
-    {
-      "block_id": "b0052",
-      "block_type": "paragraph",
-      "text": "Alignment: Same as the native plane.",
-      "line_start": 105,
-      "line_end": 105
-    },
-    {
-      "block_id": "b0053",
-      "block_type": "paragraph",
-      "text": "Advancement: None.",
-      "line_start": 107,
-      "line_end": 107
-    },
-    {
-      "block_id": "b0054",
-      "block_type": "paragraph",
-      "text": "Exceptional Petitioners",
-      "line_start": 109,
-      "line_end": 109
-    },
-    {
-      "block_id": "b0055",
-      "block_type": "paragraph",
-      "text": "The deities may choose particular servants for",
-      "line_start": 111,
-      "line_end": 111
-    },
-    {
-      "block_id": "b0056",
-      "block_type": "paragraph",
-      "text": "specific tasks that may retain the knowledge of their previous selves. These exceptional petitioners retain the feats and skills they had in life, but are otherwise limited as for the petitioners of their plane.",
-      "line_start": 113,
-      "line_end": 113
+      "text": "The deities may choose particular servants for specific tasks that may retain the knowledge of their previous selves. These exceptional petitioners retain the feats and skills they had in life, but are otherwise limited as for the petitioners of their plane.",
+      "line_start": 48,
+      "line_end": 48
     }
   ]
 }
