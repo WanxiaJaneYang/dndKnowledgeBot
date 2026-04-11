@@ -1,6 +1,6 @@
 # data/
 
-This directory holds local corpus files. **Raw corpus artifacts here are not committed to git.**
+This directory holds local corpus files. **Artifacts under `data/raw/`, `data/extracted/`, `data/canonical/`, and `data/chunks/` are local outputs and are not committed to git.**
 
 ## Expected Layout
 

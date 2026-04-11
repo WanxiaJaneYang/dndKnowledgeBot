@@ -2,8 +2,8 @@
   "source_id": "srd_35",
   "title": "System Reference Document",
   "edition": "3.5e",
-  "source_type": "srd_reference",
-  "authority": "official_reference",
+  "source_type": "srd",
+  "authority_level": "official_reference",
   "status": "admitted_bootstrap",
   "artifact": {
     "filename": "SRD.zip",

@@ -12,6 +12,7 @@ from pathlib import Path
 
 
 DEFAULT_MANIFEST = Path("configs/bootstrap_sources/srd_35.manifest.json")
+DEFAULT_DOWNLOAD_TIMEOUT_SECONDS = 300
 
 
 class ChecksumMismatchError(RuntimeError):
@@ -26,10 +27,10 @@ def build_materialization_plan(manifest: dict, repo_root: Path) -> dict:
     layout = manifest["local_layout"]
     artifact = manifest["artifact"]
 
-    archive_path = (repo_root / layout["archive_path"]).resolve()
-    expanded_root = (repo_root / layout["expanded_root"]).resolve()
-    provenance_path = (repo_root / layout["provenance_path"]).resolve()
-    raw_root = (repo_root / layout["raw_root"]).resolve()
+    archive_path = _resolve_repo_relative_path(repo_root, layout["archive_path"])
+    expanded_root = _resolve_repo_relative_path(repo_root, layout["expanded_root"])
+    provenance_path = _resolve_repo_relative_path(repo_root, layout["provenance_path"])
+    raw_root = _resolve_repo_relative_path(repo_root, layout["raw_root"])
 
     return {
         "source_id": manifest["source_id"],
@@ -60,8 +61,16 @@ def expected_checksums(artifact: dict) -> dict[str, str]:
     return {checksum["algorithm"].lower(): checksum["value"]}
 
 
-def download_file(url: str, destination: Path) -> None:
-    with urllib.request.urlopen(url) as response, destination.open("wb") as target:
+def _resolve_repo_relative_path(repo_root: Path, manifest_path: str) -> Path:
+    resolved_repo_root = repo_root.resolve()
+    resolved_path = (resolved_repo_root / manifest_path).resolve()
+    if resolved_repo_root not in resolved_path.parents:
+        raise ValueError(f"Manifest path escapes repository root: {manifest_path}")
+    return resolved_path
+
+
+def download_file(url: str, destination: Path, timeout_seconds: int = DEFAULT_DOWNLOAD_TIMEOUT_SECONDS) -> None:
+    with urllib.request.urlopen(url, timeout=timeout_seconds) as response, destination.open("wb") as target:
         shutil.copyfileobj(response, target)
 
 
@@ -71,10 +80,38 @@ def _remove_directory_if_present(path: Path, repo_root: Path) -> None:
 
     resolved_repo_root = repo_root.resolve()
     resolved_path = path.resolve()
-    if resolved_repo_root not in resolved_path.parents and resolved_path != resolved_repo_root:
+    if resolved_path == resolved_repo_root:
+        raise RuntimeError(f"Refusing to remove repository root: {resolved_path}")
+    if resolved_repo_root not in resolved_path.parents:
         raise RuntimeError(f"Refusing to remove path outside repo root: {resolved_path}")
 
     shutil.rmtree(resolved_path)
+
+
+def _is_zip_symlink(member: zipfile.ZipInfo) -> bool:
+    mode = member.external_attr >> 16
+    return (mode & 0o170000) == 0o120000
+
+
+def _validate_zip_member_path(member: zipfile.ZipInfo, expanded_root: Path) -> Path:
+    member_name = member.filename
+    normalized_name = member_name.replace("\\", "/")
+    if not normalized_name:
+        raise RuntimeError("Refusing to extract ZIP entry with empty name")
+
+    drive, _ = os.path.splitdrive(normalized_name)
+    if drive or normalized_name.startswith("/"):
+        raise RuntimeError(f"Refusing to extract ZIP entry with absolute path: {member_name}")
+
+    if _is_zip_symlink(member):
+        raise RuntimeError(f"Refusing to extract symbolic link from ZIP archive: {member_name}")
+
+    destination_path = (expanded_root / normalized_name).resolve()
+    resolved_expanded_root = expanded_root.resolve()
+    if destination_path != resolved_expanded_root and resolved_expanded_root not in destination_path.parents:
+        raise RuntimeError(f"Refusing to extract ZIP entry outside target directory: {member_name}")
+
+    return destination_path
 
 
 def extract_archive(archive_path: Path, expanded_root: Path, repo_root: Path) -> list[str]:
@@ -82,8 +119,11 @@ def extract_archive(archive_path: Path, expanded_root: Path, repo_root: Path) ->
     expanded_root.mkdir(parents=True, exist_ok=True)
 
     with zipfile.ZipFile(archive_path, "r") as archive:
-        names = archive.namelist()
-        archive.extractall(expanded_root)
+        members = archive.infolist()
+        names = [member.filename for member in members]
+        for member in members:
+            _validate_zip_member_path(member, expanded_root)
+            archive.extract(member, expanded_root)
     return names
 
 

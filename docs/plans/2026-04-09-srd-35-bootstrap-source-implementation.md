@@ -1,6 +1,6 @@
 # SRD 3.5 Bootstrap Source Implementation Plan
 
-> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
+> **Execution note:** Implement this plan task-by-task and verify each task before proceeding.
 
 **Goal:** Add a reproducible manifest and fetch workflow that materializes the `srd_35` bootstrap source under `data/raw/srd_35/` without committing the raw SRD files.
 
@@ -41,7 +41,7 @@ Get-Content configs/source_registry.yaml
 Get-Content data/README.md
 ```
 
-Expected: the manifest, registry, and docs agree on `source_id`, edition, authority, local layout, and the fact that raw artifacts remain untracked.
+Expected: the manifest, registry, and docs agree on `source_id`, edition, `authority_level`, local layout, and the fact that raw artifacts remain untracked.
 
 ### Task 2: Add the fetch script
 
