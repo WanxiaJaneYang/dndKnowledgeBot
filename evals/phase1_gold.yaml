@@ -1,0 +1,248 @@
+dataset_id: phase1_gold_v1
+dataset_version: 1
+created_on: 2026-04-11
+source_slice:
+  source_ids:
+    - srd_35
+  edition: 3.5e
+  notes: "Bootstrap gold set constrained to admitted SRD 3.5e slice."
+cases:
+  - eval_id: P1-DL-001
+    question: "When does a character provoke an attack of opportunity from movement?"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Attacks of Opportunity", "Movement"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should cite the movement-out-of-threatened-square rule."
+
+  - eval_id: P1-DL-002
+    question: "What does the total defense action do to Armor Class?"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Actions in Combat", "Total Defense"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should answer with the AC effect from Total Defense."
+
+  - eval_id: P1-DL-003
+    question: "What is the default speed for a human in combat movement terms?"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Races: Human", "Movement"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should answer from SRD race/basic movement text."
+
+  - eval_id: P1-DL-004
+    question: "Can a character take a 5-foot step if they did any other movement in the same round?"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Movement", "5-Foot Step"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should state the no-other-movement condition."
+
+  - eval_id: P1-DL-005
+    question: "What does being dazzled do?"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Condition Summary", "Dazzled"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should answer using the named condition definition."
+
+  - eval_id: P1-EX-001
+    question: "Does drinking a potion provoke an attack of opportunity?"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Attacks of Opportunity", "Use a Potion"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should handle provoking behavior for potion use specifically."
+
+  - eval_id: P1-EX-002
+    question: "Can you make attacks of opportunity while flat-footed?"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Attacks of Opportunity", "Flat-Footed"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should capture the flat-footed limitation."
+
+  - eval_id: P1-EX-003
+    question: "Does firing a ranged weapon while threatened provoke an attack of opportunity?"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Attacks of Opportunity", "Ranged Attacks"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should address the threatened-square exception behavior."
+
+  - eval_id: P1-EX-004
+    question: "Can you run in heavy armor?"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Movement", "Run", "Armor and Encumbrance"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should include the heavy-armor running restriction details."
+
+  - eval_id: P1-EX-005
+    question: "Can a helpless target make attacks of opportunity?"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Condition Summary", "Helpless", "Combat: Attacks of Opportunity"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "Likely requires combining helpless-state constraints with AoO requirements."
+
+  - eval_id: P1-NE-001
+    question: "What does the Power Attack feat allow you to trade?"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Feats: Power Attack"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should use the feat text directly."
+
+  - eval_id: P1-NE-002
+    question: "What are the attack penalties for fighting with two weapons without the Two-Weapon Fighting feat?"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Two-Weapon Fighting"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should pull penalties from the two-weapon fighting rule."
+
+  - eval_id: P1-NE-003
+    question: "How does the Dodge feat work?"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Feats: Dodge"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should include the designated-target requirement."
+
+  - eval_id: P1-NE-004
+    question: "What does Magic Missile do on a hit roll?"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Spells: Magic Missile"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should state whether an attack roll is required."
+
+  - eval_id: P1-NE-005
+    question: "What does the Cleave feat trigger on?"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Feats: Cleave"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should capture the trigger condition from the feat entry."
+
+  - eval_id: P1-MC-001
+    question: "Can you take a 5-foot step and still make a full attack?"
+    question_type: multi_chunk
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Full Attack", "Combat: Movement", "5-Foot Step"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "Needs combined reading of full-attack action and 5-foot-step rule."
+
+  - eval_id: P1-MC-002
+    question: "If a character is invisible and attacks, what combat advantages apply to that first attack?"
+    question_type: multi_chunk
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Condition Summary: Invisible", "Combat: Attack Roll Modifiers"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "Requires combining condition effects with combat modifier rules."
+
+  - eval_id: P1-MC-003
+    question: "Can you cast defensively while threatened, and what check determines success?"
+    question_type: multi_chunk
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Attacks of Opportunity", "Magic Overview: Concentration", "Casting Defensively"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "Should connect AoO risk with defensive casting concentration checks."
+
+  - eval_id: P1-MC-004
+    question: "If you use Tumble to move through threatened squares, what does it prevent and what does it not prevent?"
+    question_type: multi_chunk
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Skills: Tumble", "Combat: Attacks of Opportunity"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "Should combine skill usage limits with AoO baseline rules."
+
+  - eval_id: P1-MC-005
+    question: "Can you charge through difficult terrain?"
+    question_type: multi_chunk
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Charge", "Movement", "Terrain and Obstacles"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "Should resolve charge constraints against terrain movement rules."
+
+  - eval_id: P1-TB-001
+    question: "What Strength score carrying capacity applies to a medium load for Strength 10?"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Carrying Capacity Table", "Carrying and Exploration"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should cite the carrying-capacity table row for Strength 10."
+
+  - eval_id: P1-TB-002
+    question: "What ability modifier does an ability score of 18 provide?"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Ability Scores", "Ability Modifiers Table"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should read from the ability modifier table."
+
+  - eval_id: P1-TB-003
+    question: "What is the armor check penalty for full plate?"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Equipment", "Armor and Shields Table", "Full Plate"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should cite full plate row from armor table."
+
+  - eval_id: P1-TB-004
+    question: "What cover bonus does improved cover grant?"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat", "Cover", "Cover Table"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should return the improved cover benefit from the cover table."
+
+  - eval_id: P1-TB-005
+    question: "What size modifier applies to attack rolls for a Large creature?"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat", "Creature Size Modifiers Table"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Should read attack modifier from size-modifier table."
+
+  - eval_id: P1-IE-001
+    question: "How does the warlock Eldritch Blast scale by level in D&D 3.5e?"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Warlock class progression is not in admitted srd_35 bootstrap slice."
+
+  - eval_id: P1-IE-002
+    question: "What are Artificer infusion slots at level 5?"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Artificer content is outside admitted slice."
+
+  - eval_id: P1-IE-003
+    question: "Can I spend inspiration to gain advantage on an attack roll?"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Uses 5e-specific mechanics outside admitted 3.5e corpus."
+
+  - eval_id: P1-IE-004
+    question: "How many cantrips does a 5e wizard know at level 1?"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Edition-out-of-scope query; should abstain cleanly."
+
+  - eval_id: P1-IE-005
+    question: "What does the Hexblade's Curse feature do?"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Hexblade feature is outside admitted source boundary."
