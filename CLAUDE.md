@@ -8,7 +8,13 @@ A private, personal D&D 3.5 knowledge chatbot. This repository is for designing 
 
 ## Current Phase
 
-Design only. Default to analysis, design recommendations, and markdown artifacts. Only move into implementation when explicitly asked.
+**Phase 1 — Core Implementation.** Phase 0 design is complete. Implementation is active.
+
+- Ingestion pipeline (`scripts/ingest_srd35/`) is implemented and tested.
+- Fixture corpus and golden tests are in place (`tests/fixtures/`, `tests/test_golden_ingestion.py`).
+- Next: chunker, vector index, embedding pipeline.
+
+Default to concrete implementation guidance. Design artifacts are still appropriate for new components before they are built.
 
 ## Project Constraints
 
@@ -77,23 +83,50 @@ For architecture choices, explain: what problem it solves, why it is preferred n
 ## Repository Layout
 
 ```
-docs/                         Design documents
-  product_scope.md            Phase 1 scope and non-goals
-  architecture_overview.md    Pipeline diagram and component roles
-  corpus_ingestion_design.md  Extraction and normalization stages
-  chunking_retrieval_design.md  Chunking strategy and retrieval pipeline
-  citation_policy.md          Citation anchor structure and rendering rules
-  model_strategy.md           Answer model, embedding model, reranker roles
-  evaluation_plan.md          Metrics, test set construction
-  roadmap.md                  Phase plan and open tasks
+docs/                              Design documents (English)
+  product_scope.md                 Phase 1 scope and non-goals
+  architecture_overview.md         Pipeline diagram and component roles
+  corpus_ingestion_design.md       Extraction and normalization stages
+  chunking_retrieval_design.md     Chunking strategy and retrieval pipeline
+  citation_policy.md               Citation anchor structure and rendering rules
+  metadata_contract.md             Canonical field definitions (source_ref, locator, answer_segments)
+  model_strategy.md                Answer model, embedding model, reranker roles
+  evaluation_plan.md               Metrics, test set construction
+  source_bootstrap_plan.md         Source admission contract and bootstrap strategy
+  roadmap.md                       Phase plan and open tasks
+  standards/
+    pr_evidence.md                 PR evidence standard — pipeline changes must include inspectable evidence
+  plans/                           Dated design and implementation planning notes
+    YYYY-MM-DD-<slug>.md
+  zh/                              Chinese mirror of all docs above (same filenames)
+
 configs/
-  source_registry.yaml        All ingestion sources must be registered here
+  source_registry.yaml             All ingestion sources must be registered here
+  bootstrap_sources/
+    <source_id>.manifest.json      Per-source bootstrap manifests
+
 schemas/
+  common.schema.json               Shared definitions (source_ref, locator, citation_anchor)
   canonical_document.schema.json
   chunk.schema.json
   answer_with_citations.schema.json
-examples/                     Example JSON instances of each schema
-data/                         Local corpus files — not committed (see data/README.md)
+
+examples/                          Example JSON instances of each schema
+
+scripts/
+  fetch_srd_35.py                  Fetches raw SRD 3.5 HTML
+  ingest_srd_35.py                 Entry point for SRD 3.5 ingestion
+  ingest_srd35/                    Ingestion pipeline modules
+  preview_fixtures.py              Preview fixture corpus diffs for PR evidence
+
+tests/
+  fixtures/                        Fixture corpus for golden ingestion tests
+  test_golden_ingestion.py         Golden output tests (canonical document shape)
+  test_ingest_srd_35.py            Unit tests for ingestion pipeline
+  test_boundary_filter.py          Unit tests for boundary detection
+  test_fetch_srd_35.py             Unit tests for fetcher
+
+data/                              Local corpus files — not committed (see data/README.md)
 ```
 
 Prefer updating an existing design doc over creating many new files. For architecture decision records, use `ADRs/ADR-xxxx-*.md`. Only create helper scripts, scratch files, or extra documents when clearly necessary or explicitly requested. Remove any temporary files before finishing.

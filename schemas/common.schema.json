@@ -33,7 +33,8 @@
         },
         "edition": {
           "type": "string",
-          "description": "Edition label used consistently across the corpus (for example, '3.5e')"
+          "enum": ["3.5e"],
+          "description": "Edition label used consistently across the corpus. Constrained to admitted editions — expand the enum when multi-edition support is added."
         },
         "source_type": {
           "type": "string",

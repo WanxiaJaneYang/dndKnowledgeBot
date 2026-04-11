@@ -88,8 +88,8 @@
       "description": "Optional metadata about the retrieval process (for debugging and evaluation)",
       "additionalProperties": false,
       "properties": {
-        "candidate_chunks": { "type": "integer" },
-        "selected_chunks": { "type": "integer" },
+        "candidate_chunks": { "type": "integer", "description": "Total chunks considered before threshold filtering" },
+        "selected_chunks": { "type": "integer", "description": "Distinct chunks selected as evidence. Multiple citations may reference the same chunk with different locators or excerpts." },
         "embedding_model": { "type": "string" },
         "answer_model": { "type": "string" },
         "reranker_model": { "type": ["string", "null"] }
@@ -107,6 +107,7 @@
       },
       "then": {
         "required": ["answer_segments", "citations"],
+        "not": { "required": ["abstention_reason"] },
         "properties": {
           "answer_segments": {
             "minItems": 1
