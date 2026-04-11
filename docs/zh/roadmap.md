@@ -20,8 +20,8 @@
 
 **Sources：** 先以 `srd_35` 为基线，随后在契约稳定后逐步扩展到 PHB / DMG / MM 与官方 errata / FAQ。
 
-- [x] 实现 ingestion pipeline（extraction + normalization）
-- [x] 加入 fixture corpus + golden outputs + preview evidence 标准
+- [x] 实现 ingestion pipeline（extraction + normalization）— `scripts/ingest_srd35/`
+- [x] 加入 fixture corpus + golden outputs + preview evidence 标准 — `tests/fixtures/`、`docs/standards/pr_evidence.md`
 - [ ] 实现 chunker
 - [ ] 选定 baseline 本地向量索引 + embedding 模型 + answer 模型
 - [ ] 搭建向量索引与 embedding 流水线

@@ -20,8 +20,8 @@
 
 **Sources:** Bootstrap with `srd_35`, then expand deliberately to PHB, DMG, MM, and later official errata / FAQ as the contracts hold up.
 
-- [x] Implement ingestion pipeline (extraction + normalization)
-- [x] Add fixture corpus + golden outputs + preview evidence standard
+- [x] Implement ingestion pipeline (extraction + normalization) — `scripts/ingest_srd35/`
+- [x] Add fixture corpus + golden outputs + preview evidence standard — `tests/fixtures/`, `docs/standards/pr_evidence.md`
 - [ ] Implement chunker
 - [ ] Choose a baseline local vector index plus one embedding model and one answer model
 - [ ] Set up vector index and embedding pipeline
