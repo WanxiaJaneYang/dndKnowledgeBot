@@ -42,6 +42,18 @@ class IngestSrd35Tests(unittest.TestCase):
         decoded = decode_rtf_text("{\\rtf1\\ansi\\b Hello\\b0\\par World}")
         self.assertEqual(decoded, "Hello\nWorld")
 
+    def test_decode_rtf_text_skips_ignorable_destination_groups(self) -> None:
+        decoded = decode_rtf_text(
+            "{\\rtf1\\ansi{\\fonttbl{\\f0 Times New Roman;}}{\\colortbl;\\red0\\green0\\blue0;}"
+            "\\b Real Content\\b0\\par Rule text}"
+        )
+        self.assertEqual(decoded, "Real Content\nRule text")
+        self.assertNotIn("Times New Roman", decoded)
+
+    def test_decode_rtf_text_consumes_unicode_fallback_hex(self) -> None:
+        decoded = decode_rtf_text("{\\rtf1\\ansi\\uc1 dash:\\u8211\\'97 done}")
+        self.assertEqual(decoded, "dash:– done")
+
     def test_ingest_source_writes_extracted_and_canonical_outputs(self) -> None:
         result = ingest_source(self.manifest, self.repo_root)
 

@@ -21,6 +21,18 @@ EXTRACTION_CAVEATS = [
     "Table-heavy sections may flatten cell structure and should be refined in later ingestion iterations.",
 ]
 
+IGNORABLE_DESTINATIONS = {
+    "fonttbl",
+    "colortbl",
+    "stylesheet",
+    "info",
+    "generator",
+    "filetbl",
+    "listtable",
+    "listoverridetable",
+    "revtbl",
+}
+
 
 def load_manifest(manifest_path: Path) -> dict:
     return json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -69,30 +81,45 @@ def decode_rtf_text(rtf_text: str) -> str:
     i = 0
     uc_skip = 1
     pending_skip = 0
-    stack: list[tuple[int, int]] = []
+    skip_group = False
+    group_just_opened = False
+    stack: list[tuple[int, int, bool, bool]] = []
     length = len(rtf_text)
 
     while i < length:
         char = rtf_text[i]
 
         if char == "{":
-            stack.append((uc_skip, pending_skip))
+            stack.append((uc_skip, pending_skip, skip_group, group_just_opened))
+            group_just_opened = True
             i += 1
             continue
 
         if char == "}":
             if stack:
-                uc_skip, pending_skip = stack.pop()
+                uc_skip, pending_skip, skip_group, group_just_opened = stack.pop()
             i += 1
             continue
 
         if pending_skip > 0:
+            if char == "\\" and i + 1 < length:
+                nxt = rtf_text[i + 1]
+                if nxt == "'" and i + 3 < length:
+                    i += 4
+                elif nxt in "{}\\":
+                    i += 2
+                else:
+                    i += 1
+            else:
+                i += 1
             pending_skip -= 1
-            i += 1
             continue
 
         if char != "\\":
-            output.append(char)
+            if not skip_group:
+                output.append(char)
+            if not char.isspace():
+                group_just_opened = False
             i += 1
             continue
 
@@ -102,7 +129,9 @@ def decode_rtf_text(rtf_text: str) -> str:
 
         control_start = rtf_text[i]
         if control_start in "{}\\":
-            output.append(control_start)
+            if not skip_group:
+                output.append(control_start)
+            group_just_opened = False
             i += 1
             continue
 
@@ -110,19 +139,27 @@ def decode_rtf_text(rtf_text: str) -> str:
             if i + 2 < length:
                 hex_value = rtf_text[i + 1 : i + 3]
                 try:
-                    output.append(bytes.fromhex(hex_value).decode("cp1252"))
+                    if not skip_group:
+                        output.append(bytes.fromhex(hex_value).decode("cp1252"))
                 except ValueError:
                     pass
                 i += 3
+                group_just_opened = False
                 continue
 
         if not control_start.isalpha():
+            if control_start == "*" and group_just_opened:
+                skip_group = True
             if control_start == "~":
-                output.append(" ")
+                if not skip_group:
+                    output.append(" ")
             elif control_start in {"-", "_"}:
-                output.append("-")
+                if not skip_group:
+                    output.append("-")
             elif control_start in {"\n", "\r"}:
                 pass
+            if not control_start.isspace():
+                group_just_opened = False
             i += 1
             continue
 
@@ -147,38 +184,51 @@ def decode_rtf_text(rtf_text: str) -> str:
         if i < length and rtf_text[i] == " ":
             i += 1
 
+        if group_just_opened and word in IGNORABLE_DESTINATIONS:
+            skip_group = True
+        if not word.isspace():
+            group_just_opened = False
+
         if word == "uc" and numeric is not None:
             uc_skip = max(numeric, 0)
             continue
         if word == "u" and numeric is not None:
             codepoint = numeric if numeric >= 0 else numeric + 65536
             try:
-                output.append(chr(codepoint))
+                if not skip_group:
+                    output.append(chr(codepoint))
             except ValueError:
                 pass
             pending_skip = uc_skip
             continue
 
         if word in {"par", "line", "row"}:
-            output.append("\n")
+            if not skip_group:
+                output.append("\n")
             continue
         if word == "tab":
-            output.append("\t")
+            if not skip_group:
+                output.append("\t")
             continue
         if word == "cell":
-            output.append(" | ")
+            if not skip_group:
+                output.append(" | ")
             continue
         if word in {"emdash"}:
-            output.append("--")
+            if not skip_group:
+                output.append("--")
             continue
         if word in {"endash"}:
-            output.append("-")
+            if not skip_group:
+                output.append("-")
             continue
         if word in {"lquote", "rquote"}:
-            output.append("'")
+            if not skip_group:
+                output.append("'")
             continue
         if word in {"ldblquote", "rdblquote"}:
-            output.append('"')
+            if not skip_group:
+                output.append('"')
             continue
 
     text = "".join(output).replace("\r", "\n")
