@@ -50,11 +50,20 @@ class BoundaryFilterTests(unittest.TestCase):
     def test_merges_suspicious_truncated_titles(self) -> None:
         candidates = [
             _candidate("The Nine Alignments", "Introductory alignment material." * 4),
-            _candidate("Law", "Lawful Neutral, Lawful Evil, and Lawful Good entries follow inline."),
+            _candidate("“Law”", "Lawful Neutral, Lawful Evil, and Lawful Good entries follow inline."),
         ]
         accepted, decisions = apply_boundary_filters("Description", "Description.rtf", candidates)
         self.assertEqual(len(accepted), 1)
         self.assertEqual(decisions[1]["reason_code"], "suspicious_short_or_truncated")
+
+    def test_merges_table_label_titles(self) -> None:
+        candidates = [
+            _candidate("Special Materials", "Special materials rules with context and constraints." * 4),
+            _candidate("Ammunition |", "Name | Cost | Weight |", paragraph_count=0, table_rows=2),
+        ]
+        accepted, decisions = apply_boundary_filters("SpecialMaterials", "SpecialMaterials.rtf", candidates)
+        self.assertEqual(len(accepted), 1)
+        self.assertEqual(decisions[1]["reason_code"], "table_label_title")
 
     def test_does_not_over_clean_valid_sections(self) -> None:
         candidates = [

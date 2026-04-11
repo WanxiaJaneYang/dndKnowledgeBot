@@ -109,7 +109,7 @@ def ingest_source(
     ingested_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     extraction_records: list[dict] = []
     canonical_records: list[dict] = []
-    canonical_docs: list[dict] = []
+    canonical_docs: list[dict] | None = [] if require_schema_validation else None
     demote_heading_candidate_files = set(manifest.get("fixture_overrides", {}).get("demote_heading_candidate_files", []))
 
     for rtf_path in rtf_files:
@@ -148,7 +148,8 @@ def ingest_source(
                 "source_checksum": raw_checksum,
                 "ingested_at": ingested_at,
             }
-            canonical_docs.append(canonical_doc)
+            if canonical_docs is not None:
+                canonical_docs.append(canonical_doc)
 
             canonical_path = canonical_root / f"{file_slug}__{index:03d}_{section_slug}.json"
             canonical_path.write_text(json.dumps(canonical_doc, indent=2) + "\n", encoding="utf-8")
@@ -177,7 +178,8 @@ def ingest_source(
             }
         )
 
-    validation_result = validate_canonical_docs(canonical_docs, repo_root, require_validation=require_schema_validation)
+    validation_payload = canonical_docs if canonical_docs is not None else []
+    validation_result = validate_canonical_docs(validation_payload, repo_root, require_validation=require_schema_validation)
     extracted_report_path, canonical_report_path = _write_reports(
         manifest=manifest,
         repo_root=repo_root,

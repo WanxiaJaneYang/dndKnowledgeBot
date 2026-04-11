@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from .sectioning import sanitize_identifier
 
 MIN_SUSPICIOUS_SECTION_CHARS = 60
@@ -14,7 +16,7 @@ TRUNCATED_TITLE_SUFFIXES = {"and", "or", "the", "of", "to", "for", "a", "an"}
 
 
 def _looks_truncated_title(title: str) -> bool:
-    tokens = [token for token in title.lower().replace("/", " ").split() if token]
+    tokens = re.findall(r"[a-z]+", title.lower())
     if not tokens:
         return True
     if len(tokens) == 1 and len(tokens[0]) <= 4:
@@ -22,6 +24,10 @@ def _looks_truncated_title(title: str) -> bool:
     if tokens[-1] in TRUNCATED_TITLE_SUFFIXES:
         return True
     return False
+
+
+def _looks_table_label_title(title: str) -> bool:
+    return "|" in title
 
 
 def _is_boilerplate_stub(candidate: dict, file_stem: str, source_file_name: str) -> bool:
@@ -93,6 +99,9 @@ def apply_boundary_filters(file_stem: str, source_file_name: str, candidates: li
         if index == 0 and _is_boilerplate_stub(candidate, file_stem, source_file_name):
             action = "merged_forward" if len(candidates) > 1 else "dropped"
             reason_code = "boilerplate_opener_stub"
+        elif _looks_table_label_title(title):
+            action = "merged_backward" if accepted else "merged_forward"
+            reason_code = "table_label_title"
         elif _is_table_fragment(candidate):
             action = "merged_backward" if accepted else "merged_forward"
             reason_code = "table_fragment_section"

@@ -61,16 +61,16 @@ b0010 paragraph L19: “Good” implies altruism, respect for life, and a concer
 - [accepted] `ALIGNMENT` (accepted_clean, blocks b0005..b0007)
 - [accepted] `GOOD VS. EVIL` (accepted_clean, blocks b0009..b0017)
 - [accepted] `LAW VS. CHAOS` (accepted_clean, blocks b0019..b0020)
-- [accepted] `“Law”` (accepted_clean, blocks b0022..b0030)
+- [merged_backward] `“Law”` (suspicious_short_or_truncated, blocks b0022..b0030)
 - [accepted] `THE NINE ALIGNMENTS` (accepted_clean, blocks b0032..b0045)
 - [accepted] `Lawful Neutral, “Judge”:` (accepted_clean, blocks b0047..b0082)
 - [merged_backward] `AGE` (suspicious_short_or_truncated, blocks b0084..b0110)
-- [accepted] `Halfling |` (accepted_clean, blocks b0112..b0135)
-- [accepted] `Halfling |` (accepted_clean, blocks b0137..b0143)
+- [merged_backward] `Halfling |` (table_label_title, blocks b0112..b0135)
+- [merged_backward] `Halfling |` (table_label_title, blocks b0137..b0143)
 - [accepted] `HEIGHT AND WEIGHT` (accepted_clean, blocks b0145..b0147)
-- [accepted] `Race |` (accepted_clean, blocks b0149..b0172)
+- [merged_backward] `Race |` (table_label_title, blocks b0149..b0172)
 
-### Canonical Sections (11)
+### Canonical Sections (7)
 
 - document_id: `srd_35_fixture::description::001_description`
 - section_path: `['Description', 'Description']`
@@ -110,23 +110,15 @@ Being good or evil can be a conscious choice. For most people, though, being goo
 ```text
 Lawful characters tell the truth, keep their word, respect authority, honor tradition, and judge those who fall short of their duties.
 Chaotic characters follow their consciences, resent being told what to do, favor new ideas over tradition, and do what they promise if they feel like it.
-```
-- document_id: `srd_35_fixture::description::005_law`
-- section_path: `['Description', '“Law”']`
-- source_location: `Description.rtf#005_law`
-- content preview:
-```text
+
 implies honor, trustworthiness, obedience to authority, and reliability. On the downside, lawfulness can include close-mindedness, reactionary adherence to tradition, judgmentalness, and a lack of adaptability. Those who consciously promote lawfulnes
 s say that only lawful behavior creates a society in which people can depend on each other and make the right decisions in full confidence that others will act as they should.
 “Chaos” implies freedom, adaptability, and flexibility. On the downside, chaos c
-an include recklessness, resentment toward legitimate authority, arbitrary actions, and irresponsibility. Those who promote chaotic behavior say that only unfettered personal freedom allows people to express themselves fully and lets society benefit from
-the potential that its individuals have within them.
-Someone who is neutral with respect to law and chaos has a normal respect for authority and feels neither a compulsion to obey nor a compulsion to rebel. She is honest but can be tempted into lying or deceiving others.
 ...
 ```
-- document_id: `srd_35_fixture::description::006_the_nine_alignments`
+- document_id: `srd_35_fixture::description::005_the_nine_alignments`
 - section_path: `['Description', 'THE NINE ALIGNMENTS']`
-- source_location: `Description.rtf#006_the_nine_alignments`
+- source_location: `Description.rtf#005_the_nine_alignments`
 - content preview:
 ```text
 Nine distinct alignments define all the possible combinations of the lawful-chaotic axis with the good-evil axis. Each alignme
@@ -137,9 +129,9 @@ Lawful Good, “Crusader”: A lawful good character acts as a good person
 is expected or required to act. She combines a commitment to oppose evil with the discipline to fight relentlessly. She tells the truth, keeps her word, helps those in need, and speaks out against injustice. A lawful good character hates to see the guilt
 ...
 ```
-- document_id: `srd_35_fixture::description::007_lawful_neutral_judge`
+- document_id: `srd_35_fixture::description::006_lawful_neutral_judge`
 - section_path: `['Description', 'Lawful Neutral, “Judge”:']`
-- source_location: `Description.rtf#007_lawful_neutral_judge`
+- source_location: `Description.rtf#006_lawful_neutral_judge`
 - content preview:
 ```text
 A lawful neutral character acts as law, tradition, or a personal code directs her. Order and organization are paramount to her. She may believe in personal order and live by a code or standard, or she may believe in order for all and
@@ -150,52 +142,17 @@ ongly one way or the other when it comes to good vs. evil or law vs. chaos. Most
 after all, she would rather have good neighbors and rulers than evil ones. Still, she's not personally committed to upholding good in any abstract or universal way.
 ...
 ```
-- document_id: `srd_35_fixture::description::008_halfling`
-- section_path: `['Description', 'Halfling |']`
-- source_location: `Description.rtf#008_halfling`
-- content preview:
-```text
-20 years | +2d4 | +3d6 | +4d6 |
-|
-| | | |
-With age, a character'
-s physical ability scores decrease and his or her mental ability scores increase (see Table: Aging Effects). The effects of each aging step are cumulative. However, none of a character's ability scores can be reduced below 1 in this way.
-When a character r
-...
-```
-- document_id: `srd_35_fixture::description::009_halfling`
-- section_path: `['Description', 'Halfling |']`
-- source_location: `Description.rtf#009_halfling`
-- content preview:
-```text
-50 years | 75 years | 100 years | +5d20 years |
-1 At middle age, -
-1 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |
-2 At old age, -
-2 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |
-3 At venerable age, -
-...
-```
-- document_id: `srd_35_fixture::description::010_height_and_weight`
+- document_id: `srd_35_fixture::description::007_height_and_weight`
 - section_path: `['Description', 'HEIGHT AND WEIGHT']`
-- source_location: `Description.rtf#010_height_and_weight`
+- source_location: `Description.rtf#007_height_and_weight`
 - content preview:
 ```text
 The dice roll given in the Height Modifier column determines the character'
 s extra height beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier column determines the character's extra weight beyond the base weight.
 Table: Random Height and Weight |
-```
-- document_id: `srd_35_fixture::description::011_race`
-- section_path: `['Description', 'Race |']`
-- source_location: `Description.rtf#011_race`
-- content preview:
-```text
+
 Base Height | Height Modifier | Base Weight | Weight Modifier |
 Human, male | 4´ 10½ | +2d10 |
-120 lb. | × (2d4) lb. |
-Human, female | 4´ 5½ | +2d10 | 85 lb. | × (2d4) lb. |
-Dwarf, male | 3´ 9½
-| +2d4 | 130 lb. | × (2d6) lb. |
 ...
 ```
 
@@ -591,11 +548,11 @@ b0010 paragraph L19: om adamantine have a natural ability to bypass hardness whe
 - [accepted] `SpecialMaterials` (accepted_clean, blocks b0001..b0001)
 - [accepted] `SPECIAL MATERIALS` (accepted_clean, blocks b0003..b0004)
 - [accepted] `SPECIAL WEAPONS MATERIALS` (accepted_clean, blocks b0006..b0018)
-- [accepted] `Ammunition |` (accepted_clean, blocks b0020..b0043)
+- [merged_backward] `Ammunition |` (table_label_title, blocks b0020..b0043)
 - [accepted] `Mithral: Mit` (accepted_clean, blocks b0045..b0054)
-- [accepted] `Item Cost Modifier |` (accepted_clean, blocks b0056..b0073)
+- [merged_backward] `Item Cost Modifier |` (table_label_title, blocks b0056..b0073)
 
-### Canonical Sections (6)
+### Canonical Sections (4)
 
 - document_id: `srd_35_fixture::specialmaterials::001_specialmaterials`
 - section_path: `['SpecialMaterials', 'SpecialMaterials']`
@@ -625,22 +582,9 @@ om adamantine have a natural ability to bypass hardness when sundering weapons o
 's medium armor, and 3/- if it'
 ...
 ```
-- document_id: `srd_35_fixture::specialmaterials::004_ammunition`
-- section_path: `['SpecialMaterials', 'Ammunition |']`
-- source_location: `SpecialMaterials.rtf#004_ammunition`
-- content preview:
-```text
-+60 gp |
-Light armor | +5,000 gp |
-Medium armor |
-+10,000 gp |
-Heavy armor | +15,000 gp |
-Weapon | +3,000 gp |
-...
-```
-- document_id: `srd_35_fixture::specialmaterials::005_mithral_mit`
+- document_id: `srd_35_fixture::specialmaterials::004_mithral_mit`
 - section_path: `['SpecialMaterials', 'Mithral: Mit']`
-- source_location: `SpecialMaterials.rtf#005_mithral_mit`
+- source_location: `SpecialMaterials.rtf#004_mithral_mit`
 - content preview:
 ```text
 hral is a very rare silvery, glistening metal that is lighter than iron but just as hard. When worked like steel, it becomes a wonderful material from which to create armor and is occasionally used for other items as well. Most mithral armors are one cate
@@ -649,18 +593,5 @@ ory lighter than normal for purposes of movement and other limitations. Heavy ar
 are decreased by 10%, maximum Dexterity bonus is increased by 2, and armor check penalties are lessened by 3 (to a minimum of 0).
 An item made from mithral weighs half as much as the same item made from other metals. In the case of weapons, this lighter weight does not change a weapon'
 s size category or the ease with which it can be wielded (whether it is light, one-handed, or two-handed). Items not primarily of metal are not meaningfully affected by being partially made of mithral. (A longsword can be a mi
-...
-```
-- document_id: `srd_35_fixture::specialmaterials::006_item_cost_modifier`
-- section_path: `['SpecialMaterials', 'Item Cost Modifier |']`
-- source_location: `SpecialMaterials.rtf#006_item_cost_modifier`
-- content preview:
-```text
-Light armor |
-+1,000 gp |
-Medium armor | +4,000 gp |
-Heavy armor |
-+9,000 gp |
-Shield | +1,000 gp |
 ...
 ```

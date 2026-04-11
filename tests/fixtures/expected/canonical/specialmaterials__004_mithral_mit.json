@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::specialmaterials::004_mithral_mit",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpecialMaterials",
+      "Mithral: Mit"
+    ],
+    "source_location": "SpecialMaterials.rtf#004_mithral_mit"
+  },
+  "content": "hral is a very rare silvery, glistening metal that is lighter than iron but just as hard. When worked like steel, it becomes a wonderful material from which to create armor and is occasionally used for other items as well. Most mithral armors are one cate\ng\nory lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated as light. Spell failure chances for armors and shields made from mithral\nare decreased by 10%, maximum Dexterity bonus is increased by 2, and armor check penalties are lessened by 3 (to a minimum of 0).\nAn item made from mithral weighs half as much as the same item made from other metals. In the case of weapons, this lighter weight does not change a weapon'\ns size category or the ease with which it can be wielded (whether it is light, one-handed, or two-handed). Items not primarily of metal are not meaningfully affected by being partially made of mithral. (A longsword can be a mi\nthral weapon, while a scythe cannot be.)\nWeapons or armors fashioned from mithral are always masterwork items as well; the masterwork cost is included in the prices given below.\nMithral has 30 hit points per inch of thickness and hardness 15.\nType of Mithral Item |\n\nLight armor |\n+1,000 gp |\nMedium armor | +4,000 gp |\nHeavy armor |\n+9,000 gp |\nShield | +1,000 gp |\nOther items | +500 gp/lb. |\nSilver, Alchemical: A complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it bypasses the damage reduction of creatures such as lycanthropes.\nOn a successful attack with a silvered weapon, the wielder takes a -1 penalty on the damage roll (with the usual minimum of 1 point of damage). The alchemical silvering process can't be applied to nonmetal items, and it doesn'\nt work on rare metals such as adamantine, cold iron, and mithral.\nAlchemical silver has 10 hit points per inch of thickness and hardness 8.\nType of Alchemical Silver Item | Item Cost Modifier\n|\nAmmunition | +2 gp |\nLight weapon | +20 gp |\nOne-handed weapon, or one head of a double weapon\n| +90 gp |\nTwo-handed weapon, or both heads of a double weapon | +180 gp |",
+  "document_title": "Mithral: Mit",
+  "source_checksum": "f25faa8965a41754187cc472f4934daa7739ce83"
+}
