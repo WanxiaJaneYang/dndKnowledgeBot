@@ -69,6 +69,10 @@ class IngestSrd35Tests(unittest.TestCase):
         self.assertEqual(canonical_report["canonical_count"], 2)
         self.assertIn("ingestion_notes", extraction_report)
         self.assertIn("extraction_caveats", extraction_report)
+        self.assertNotIn("ingestion_notes", extraction_report["records"][0])
+        self.assertNotIn("extraction_caveats", extraction_report["records"][0])
+        self.assertIn("schema_validation", result)
+        self.assertFalse(result["schema_validation"]["enabled"])
 
         for record in canonical_report["records"]:
             canonical_path = self.repo_root / record["canonical_path"]
@@ -84,6 +88,32 @@ class IngestSrd35Tests(unittest.TestCase):
     def test_ingest_source_limit_only_processes_n_files(self) -> None:
         result = ingest_source(self.manifest, self.repo_root, limit=1, force=True)
         self.assertEqual(result["documents_written"], 1)
+
+    def test_ingest_source_splits_by_section_headings(self) -> None:
+        (self.repo_root / "data/raw/srd_35/rtf/CombatI.rtf").write_text(
+            "{\\rtf1\\ansi\\b Full Attack\\b0\\par First section text.\\par\\b Charge\\b0\\par Second section text.}",
+            encoding="latin-1",
+        )
+        result = ingest_source(self.manifest, self.repo_root, force=True)
+        self.assertEqual(result["documents_written"], 3)
+
+        canonical_report = json.loads(Path(result["canonical_report"]).read_text(encoding="utf-8"))
+        locations = [record["source_location"] for record in canonical_report["records"]]
+        self.assertTrue(any("#full_attack" in loc for loc in locations))
+        self.assertTrue(any("#charge" in loc for loc in locations))
+
+    def test_ingest_source_rejects_non_positive_limit(self) -> None:
+        with self.assertRaises(ValueError):
+            ingest_source(self.manifest, self.repo_root, limit=0)
+
+    def test_ingest_source_requires_force_if_outputs_exist(self) -> None:
+        ingest_source(self.manifest, self.repo_root)
+        with self.assertRaises(FileExistsError):
+            ingest_source(self.manifest, self.repo_root)
+
+    def test_ingest_source_can_require_schema_validation(self) -> None:
+        with self.assertRaises(RuntimeError):
+            ingest_source(self.manifest, self.repo_root, require_schema_validation=True)
 
 
 if __name__ == "__main__":
