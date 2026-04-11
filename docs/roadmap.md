@@ -5,15 +5,15 @@
 ## Phase 0 — Design (current)
 
 - [ ] Define product scope
-- [ ] Define source bootstrap plan and admission contract
+- [x] Define source bootstrap plan and admission contract
 - [ ] Design corpus ingestion pipeline
 - [ ] Design chunking and retrieval pipeline
 - [ ] Define citation policy
 - [ ] Define model strategy (roles and selection criteria)
 - [ ] Define evaluation plan
-- [ ] Freeze the admitted bootstrap source slice (`srd_35`)
+- [x] Freeze the admitted bootstrap source slice (`srd_35`)
 - [ ] Build a 20-30 question gold set for that slice
-- [ ] Align thin `source_ref` / `locator` / `answer_segments` contracts
+- [x] Align thin `source_ref` / `locator` / `answer_segments` contracts
 - [ ] Validate provisional schemas against the slice
 
 ## Phase 1 — Core Implementation
