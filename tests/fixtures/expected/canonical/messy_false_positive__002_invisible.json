@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::messy_false_positive::002_invisible",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "Synthetic SRD 3.5 Fixture Corpus",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "messy_false_positive",
+      "Invisible"
+    ],
+    "source_location": "messy_false_positive.rtf#002_invisible"
+  },
+  "content": "Attacks gain +2 to hit against sighted opponents.",
+  "document_title": "Invisible",
+  "source_checksum": "8ea5864c2d4cea53e9b26fa86b90165b4c4bf77c"
+}

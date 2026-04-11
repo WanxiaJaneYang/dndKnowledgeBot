@@ -1,0 +1,5 @@
+This fixture intentionally has no clean heading boundaries.
+
+It should remain as one canonical section.
+
+The parser should still preserve source location and content.
