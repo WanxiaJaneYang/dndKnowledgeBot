@@ -49,6 +49,22 @@ def build_preview_markdown(repo_root: Path, evidence: dict) -> str:
         lines.append("```")
         lines.append("")
 
+        extracted_ir_name = f"{fixture.stem.lower().replace('-', '_')}.json"
+        extracted_ir = evidence["extracted_ir"].get(extracted_ir_name, {"blocks": []})
+        lines.append(f"### Extracted IR Blocks ({len(extracted_ir['blocks'])})")
+        lines.append("```json")
+        lines.append(
+            _snippet(
+                "\n".join(
+                    f"{b['block_id']} {b['block_type']} L{b['line_start']}: {b['text']}"
+                    for b in extracted_ir["blocks"]
+                ),
+                max_lines=10,
+            )
+        )
+        lines.append("```")
+        lines.append("")
+
         related = [r for r in canonical_report["records"] if r["source_location"].startswith(fixture.name)]
         lines.append(f"### Canonical Sections ({len(related)})")
         lines.append("")
@@ -95,7 +111,7 @@ def main(argv: list[str] | None = None) -> int:
     preview_path.write_text(preview_md, encoding="utf-8")
     print(f"Wrote {preview_path}")
     if args.update_golden:
-        print("Updated tests/fixtures/expected/{extracted,canonical}")
+        print("Updated tests/fixtures/expected/{extracted,extracted_ir,canonical}")
     return 0
 
 

@@ -71,8 +71,15 @@ class IngestSrd35Tests(unittest.TestCase):
         self.assertIn("extraction_caveats", extraction_report)
         self.assertNotIn("ingestion_notes", extraction_report["records"][0])
         self.assertNotIn("extraction_caveats", extraction_report["records"][0])
+        self.assertIn("extracted_ir_path", extraction_report["records"][0])
+        self.assertGreaterEqual(extraction_report["records"][0]["ir_block_count"], 1)
         self.assertIn("schema_validation", result)
         self.assertFalse(result["schema_validation"]["enabled"])
+
+        extracted_ir_path = self.repo_root / extraction_report["records"][0]["extracted_ir_path"]
+        self.assertTrue(extracted_ir_path.exists())
+        extracted_ir = json.loads(extracted_ir_path.read_text(encoding="utf-8"))
+        self.assertIn("blocks", extracted_ir)
 
         for record in canonical_report["records"]:
             canonical_path = self.repo_root / record["canonical_path"]

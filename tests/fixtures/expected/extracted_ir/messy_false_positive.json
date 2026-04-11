@@ -1,0 +1,41 @@
+{
+  "ir_version": "1.0",
+  "file_name": "messy_false_positive.rtf",
+  "blocks": [
+    {
+      "block_id": "b0001",
+      "block_type": "heading",
+      "text": "CONDITIONS",
+      "line_start": 1,
+      "line_end": 1
+    },
+    {
+      "block_id": "b0002",
+      "block_type": "paragraph",
+      "text": "Flat-Footed: loses Dexterity bonus to AC.",
+      "line_start": 3,
+      "line_end": 3
+    },
+    {
+      "block_id": "b0003",
+      "block_type": "paragraph",
+      "text": "This line Looks Like A Heading But ends with period.",
+      "line_start": 5,
+      "line_end": 5
+    },
+    {
+      "block_id": "b0004",
+      "block_type": "heading",
+      "text": "Invisible",
+      "line_start": 7,
+      "line_end": 7
+    },
+    {
+      "block_id": "b0005",
+      "block_type": "paragraph",
+      "text": "Attacks gain +2 to hit against sighted opponents.",
+      "line_start": 9,
+      "line_end": 9
+    }
+  ]
+}

@@ -26,6 +26,14 @@ Charge
 You move up to double speed in a straight line and attack.
 ```
 
+### Extracted IR Blocks (4)
+```json
+b0001 heading L1: Combat Basics
+b0002 paragraph L3: Movement in combat uses squares.
+b0003 heading L5: Charge
+b0004 paragraph L7: You move up to double speed in a straight line and attack.
+```
+
 ### Canonical Sections (2)
 
 - document_id: `srd_35_fixture::heading_split::001_combat_basics`
@@ -70,6 +78,15 @@ Attack with melee weapon
 Drink potion
 ```
 
+### Extracted IR Blocks (5)
+```json
+b0001 heading L1: Actions
+b0002 heading L3: 1. Move
+b0003 heading L5: 2. Standard
+b0004 paragraph L7: Attack with melee weapon
+b0005 paragraph L9: Drink potion
+```
+
 ### Canonical Sections (1)
 
 - document_id: `srd_35_fixture::list_like::001_2_standard`
@@ -107,6 +124,15 @@ This line Looks Like A Heading But ends with period.
 Invisible
 
 Attacks gain +2 to hit against sighted opponents.
+```
+
+### Extracted IR Blocks (5)
+```json
+b0001 heading L1: CONDITIONS
+b0002 paragraph L3: Flat-Footed: loses Dexterity bonus to AC.
+b0003 paragraph L5: This line Looks Like A Heading But ends with period.
+b0004 heading L7: Invisible
+b0005 paragraph L9: Attacks gain +2 to hit against sighted opponents.
 ```
 
 ### Canonical Sections (2)
@@ -147,6 +173,13 @@ It should remain as one canonical section.
 The parser should still preserve source location and content.
 ```
 
+### Extracted IR Blocks (3)
+```json
+b0001 paragraph L1: This fixture intentionally has no clean heading boundaries.
+b0002 paragraph L3: It should remain as one canonical section.
+b0003 paragraph L5: The parser should still preserve source location and content.
+```
+
 ### Canonical Sections (1)
 
 - document_id: `srd_35_fixture::no_heading_fallback::001_no_heading_fallback`
@@ -182,6 +215,14 @@ Chain Shirt | +4 |
 Full Plate | +8 |
 ```
 
+### Extracted IR Blocks (4)
+```json
+b0001 heading L1: Armor Table
+b0002 heading L3: Name | AC Bonus |
+b0003 heading L5: Chain Shirt | +4 |
+b0004 heading L7: Full Plate | +8 |
+```
+
 ### Canonical Sections (1)
 
 - document_id: `srd_35_fixture::table_like::001_table_like`
@@ -190,10 +231,7 @@ Full Plate | +8 |
 - content preview:
 ```text
 Armor Table
-
 Name | AC Bonus |
-
 Chain Shirt | +4 |
-
-...
+Full Plate | +8 |
 ```

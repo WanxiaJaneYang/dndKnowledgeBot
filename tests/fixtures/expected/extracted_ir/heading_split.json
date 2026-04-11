@@ -1,0 +1,34 @@
+{
+  "ir_version": "1.0",
+  "file_name": "heading_split.rtf",
+  "blocks": [
+    {
+      "block_id": "b0001",
+      "block_type": "heading",
+      "text": "Combat Basics",
+      "line_start": 1,
+      "line_end": 1
+    },
+    {
+      "block_id": "b0002",
+      "block_type": "paragraph",
+      "text": "Movement in combat uses squares.",
+      "line_start": 3,
+      "line_end": 3
+    },
+    {
+      "block_id": "b0003",
+      "block_type": "heading",
+      "text": "Charge",
+      "line_start": 5,
+      "line_end": 5
+    },
+    {
+      "block_id": "b0004",
+      "block_type": "paragraph",
+      "text": "You move up to double speed in a straight line and attack.",
+      "line_start": 7,
+      "line_end": 7
+    }
+  ]
+}

@@ -15,6 +15,7 @@ class GoldenIngestionTests(unittest.TestCase):
 
         expected = load_golden_outputs(repo_root)
         self.assertEqual(evidence["extracted"], expected["extracted"])
+        self.assertEqual(evidence["extracted_ir"], expected["extracted_ir"])
         self.assertEqual(evidence["canonical"], expected["canonical"])
 
 

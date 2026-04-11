@@ -9,7 +9,7 @@ def sanitize_identifier(value: str) -> str:
     return normalized or "unknown"
 
 
-def _looks_like_heading(line: str) -> bool:
+def looks_like_heading(line: str) -> bool:
     text = line.strip()
     if not text or len(text) < 3 or len(text) > 90:
         return False
@@ -25,18 +25,16 @@ def _looks_like_heading(line: str) -> bool:
         if word.isupper() or word[0].isupper():
             heading_like += 1
 
-    ratio = heading_like / len(words)
-    return ratio >= 0.7
+    return (heading_like / len(words)) >= 0.7
 
 
-def split_sections(file_stem: str, text: str) -> list[dict]:
-    lines = [line.strip() for line in text.splitlines()]
+def split_sections_from_blocks(file_stem: str, blocks: list[dict]) -> list[dict]:
     sections: list[dict] = []
     current_title = file_stem
-    current_lines: list[str] = []
+    current_blocks: list[str] = []
 
     def flush() -> None:
-        content = "\n".join([line for line in current_lines if line]).strip()
+        content = "\n".join([line for line in current_blocks if line]).strip()
         if not content:
             return
         sections.append(
@@ -47,27 +45,40 @@ def split_sections(file_stem: str, text: str) -> list[dict]:
             }
         )
 
-    for line in lines:
-        if not line:
-            current_lines.append("")
+    for block in blocks:
+        text = block.get("text", "").strip()
+        block_type = block.get("block_type", "paragraph")
+        if not text:
             continue
-
-        if _looks_like_heading(line):
+        if block_type == "heading":
             flush()
-            current_title = line
-            current_lines = []
+            current_title = text
+            current_blocks = []
             continue
-
-        current_lines.append(line)
+        current_blocks.append(text)
 
     flush()
 
     if not sections:
+        fallback_content = "\n".join(
+            block.get("text", "").strip() for block in blocks if block.get("text", "").strip()
+        ).strip()
         sections.append(
             {
                 "section_title": file_stem,
                 "section_slug": sanitize_identifier(file_stem),
-                "content": text.strip(),
+                "content": fallback_content,
             }
         )
     return sections
+
+
+def split_sections(file_stem: str, text: str) -> list[dict]:
+    blocks = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        block_type = "heading" if looks_like_heading(stripped) else "paragraph"
+        blocks.append({"text": stripped, "block_type": block_type})
+    return split_sections_from_blocks(file_stem, blocks)

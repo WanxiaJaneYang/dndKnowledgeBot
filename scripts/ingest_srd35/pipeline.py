@@ -6,10 +6,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .constants import EXTRACTION_CAVEATS, INGESTION_NOTES
+from .extraction_ir import build_extraction_ir
 from .paths import remove_directory_if_present, resolve_repo_relative_path
 from .rtf_decoder import decode_rtf_text
 from .schema_validation import validate_canonical_docs
-from .sectioning import sanitize_identifier, split_sections
+from .sectioning import sanitize_identifier, split_sections_from_blocks
 
 
 def _sha1_bytes(payload: bytes) -> str:
@@ -94,7 +95,9 @@ def ingest_source(
         remove_directory_if_present(extracted_root, repo_root)
         remove_directory_if_present(canonical_root, repo_root)
     extracted_text_root = extracted_root / "text"
+    extracted_ir_root = extracted_root / "ir"
     extracted_text_root.mkdir(parents=True, exist_ok=True)
+    extracted_ir_root.mkdir(parents=True, exist_ok=True)
     canonical_root.mkdir(parents=True, exist_ok=True)
 
     rtf_files = sorted(expanded_root.glob("*.rtf"))
@@ -117,8 +120,11 @@ def ingest_source(
         file_slug = sanitize_identifier(rtf_path.stem)
         extracted_path = extracted_text_root / f"{file_slug}.txt"
         extracted_path.write_text(decoded + "\n", encoding="utf-8")
+        extraction_ir = build_extraction_ir(file_name=rtf_path.name, text=decoded)
+        extracted_ir_path = extracted_ir_root / f"{file_slug}.json"
+        extracted_ir_path.write_text(json.dumps(extraction_ir, indent=2) + "\n", encoding="utf-8")
 
-        sections = split_sections(rtf_path.stem, decoded)
+        sections = split_sections_from_blocks(rtf_path.stem, extraction_ir["blocks"])
         for index, section in enumerate(sections, start=1):
             section_slug = section["section_slug"]
             section_title = section["section_title"]
@@ -156,6 +162,8 @@ def ingest_source(
                 "raw_sha1": raw_checksum,
                 "extracted_sha1": extracted_checksum,
                 "extracted_text_path": str(extracted_path.relative_to(repo_root)),
+                "extracted_ir_path": str(extracted_ir_path.relative_to(repo_root)),
+                "ir_block_count": len(extraction_ir["blocks"]),
                 "section_count": len(sections),
             }
         )
