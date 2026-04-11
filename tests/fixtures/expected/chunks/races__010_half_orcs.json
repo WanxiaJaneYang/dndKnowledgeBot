@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35_fixture::races::010_half_orcs",
+  "document_id": "srd_35_fixture::races::010_half_orcs",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Races",
+      "HALF-ORCS"
+    ],
+    "source_location": "Races.rtf#010_half_orcs"
+  },
+  "chunk_type": "subsection",
+  "content": "+2 Strength, -2 Intelligence, -2 Charisma.\nA half-orc's starting Intelligence score is always at least 3. If this adjustment would lower the character's score to 1 or 2, his score is nevertheless 3.\nMedium: As Medium creatures, half-orcs have no special bonuses or penalties due to their size.\nHalf-orc base land speed is 30 feet.\nDarkvision: Half-orcs (and orcs) can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and half-orcs can function just fine with no light at all.\nOrc Blood: For all effects related to race, a half-orc is considered an orc.\nAutomatic Languages: Common and Orc. Bonus Languages: Draconic, Giant, Gnoll, Goblin, and Abyssal.\nFavored Class: Barbarian. A multiclass half-orc's barbarian class does not count when determining whether he takes an experience point penalty.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35_fixture::races::009_half_elves",
+  "next_chunk_id": "chunk::srd_35_fixture::races::011_halflings"
+}

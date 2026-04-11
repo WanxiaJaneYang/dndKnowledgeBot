@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35_fixture::races::003_race_and_languages",
+  "document_id": "srd_35_fixture::races::003_race_and_languages",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Races",
+      "RACE AND LANGUAGES"
+    ],
+    "source_location": "Races.rtf#003_race_and_languages"
+  },
+  "chunk_type": "subsection",
+  "content": "All characters know how to speak Common. A dwarf, elf, gnome, half-elf, half-orc, or halfling also speaks a racial language, as appropriate. A character who has an Intelligence bonus at 1st level speaks other languages as well, one extra language per point of Intelligence bonus as a starting character.\nLiteracy: Any character except a barbarian can read and write all the languages he or she speaks.\nClass-Related Languages: Clerics, druids, and wizards can choose certain languages as bonus languages even if they're not on the lists found in the race descriptions. These class-related languages are as follows:\nCleric: Abyssal, Celestial, Infernal.\nDruid: Sylvan.\nWizard: Draconic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35_fixture::races::002_favored_class",
+  "next_chunk_id": "chunk::srd_35_fixture::races::004_small_characters"
+}

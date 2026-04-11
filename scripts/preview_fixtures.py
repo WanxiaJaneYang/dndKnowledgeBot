@@ -8,8 +8,10 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from ingest_srd35 import run_fixture_ingestion, write_golden_outputs
+    from chunker import run_fixture_chunking, write_golden_chunk_outputs
 else:
     from scripts.ingest_srd35 import run_fixture_ingestion, write_golden_outputs
+    from scripts.chunker import run_fixture_chunking, write_golden_chunk_outputs
 
 
 def _snippet(text: str, max_lines: int = 8) -> str:
@@ -20,7 +22,49 @@ def _snippet(text: str, max_lines: int = 8) -> str:
     return "\n".join(clipped)
 
 
-def build_preview_markdown(repo_root: Path, evidence: dict) -> str:
+def _build_chunk_section(chunk_evidence: dict) -> list[str]:
+    """Return markdown lines summarising the chunker golden outputs."""
+    chunks = chunk_evidence["chunks"]
+    if not chunks:
+        return ["## Chunk Summary", "", "No chunks produced.", ""]
+
+    by_type: dict[str, list[str]] = {}
+    for payload in chunks.values():
+        t = payload.get("chunk_type", "unknown")
+        by_type.setdefault(t, []).append(payload["chunk_id"])
+
+    lines = [
+        "## Chunk Summary",
+        "",
+        f"Total chunks: **{len(chunks)}**",
+        "",
+        "| chunk_type | count |",
+        "|---|---|",
+    ]
+    for t, ids in sorted(by_type.items()):
+        lines.append(f"| `{t}` | {len(ids)} |")
+    lines.append("")
+
+    lines.append("### Sample Chunks")
+    lines.append("")
+    sample = list(chunks.values())[:6]
+    for chunk in sample:
+        lines.append(f"**`{chunk['chunk_id']}`**")
+        lines.append(f"- chunk_type: `{chunk['chunk_type']}`")
+        lines.append(f"- section_path: `{chunk['locator'].get('section_path', [])}`")
+        prev_id = chunk.get("previous_chunk_id", "—")
+        next_id = chunk.get("next_chunk_id", "—")
+        lines.append(f"- prev: `{prev_id}` / next: `{next_id}`")
+        lines.append("- content preview:")
+        lines.append("```text")
+        lines.append(_snippet(chunk["content"], max_lines=4))
+        lines.append("```")
+        lines.append("")
+
+    return lines
+
+
+def build_preview_markdown(repo_root: Path, evidence: dict, chunk_evidence: dict | None = None) -> str:
     fixture_root = repo_root / "tests" / "fixtures" / "srd_35"
     fixture_files = sorted(fixture_root.glob("*.rtf"))
     source_map_path = fixture_root / "FIXTURE_SOURCE_MAP.json"
@@ -102,6 +146,9 @@ def build_preview_markdown(repo_root: Path, evidence: dict) -> str:
             lines.append("```")
         lines.append("")
 
+    if chunk_evidence is not None:
+        lines.extend(_build_chunk_section(chunk_evidence))
+
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -125,16 +172,18 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     repo_root = args.repo_root.resolve()
     evidence = run_fixture_ingestion(repo_root)
+    chunk_evidence = run_fixture_chunking(repo_root)
 
     if args.update_golden:
         write_golden_outputs(repo_root, evidence)
+        write_golden_chunk_outputs(repo_root, chunk_evidence)
 
-    preview_md = build_preview_markdown(repo_root, evidence)
+    preview_md = build_preview_markdown(repo_root, evidence, chunk_evidence)
     preview_path = repo_root / "tests" / "fixtures" / "PREVIEW.md"
     preview_path.write_text(preview_md, encoding="utf-8")
     print(f"Wrote {preview_path}")
     if args.update_golden:
-        print("Updated tests/fixtures/expected/{extracted,extracted_ir,canonical}")
+        print("Updated tests/fixtures/expected/{extracted,extracted_ir,canonical,chunks}")
     return 0
 
 

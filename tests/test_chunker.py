@@ -6,11 +6,18 @@ requires no live data or network access.
 from __future__ import annotations
 
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.chunker import chunk_source, classify_chunk_type
+from scripts.chunker import (
+    chunk_source,
+    classify_chunk_type,
+    load_golden_chunk_outputs,
+    run_fixture_chunking,
+    write_golden_chunk_outputs,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_CANONICAL_ROOT = REPO_ROOT / "tests" / "fixtures" / "expected" / "canonical"
@@ -174,6 +181,17 @@ class ChunkPipelineTests(unittest.TestCase):
         )
         self.assertIsNotNone(legal, "No legal chunk found")
         self.assertEqual(legal["chunk_type"], "generic")
+
+
+class GoldenChunkTests(unittest.TestCase):
+    def test_fixture_chunking_matches_golden_outputs(self) -> None:
+        evidence = run_fixture_chunking(REPO_ROOT)
+
+        if os.environ.get("UPDATE_GOLDEN") == "1":
+            write_golden_chunk_outputs(REPO_ROOT, evidence)
+
+        expected = load_golden_chunk_outputs(REPO_ROOT)
+        self.assertEqual(evidence["chunks"], expected["chunks"])
 
 
 if __name__ == "__main__":

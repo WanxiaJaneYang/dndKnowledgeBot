@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35_fixture::races::001_races",
+  "document_id": "srd_35_fixture::races::001_races",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Races",
+      "Races"
+    ],
+    "source_location": "Races.rtf#001_races"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35_fixture::legal::002_open_game_license_version_1_0a",
+  "next_chunk_id": "chunk::srd_35_fixture::races::002_favored_class"
+}
