@@ -45,7 +45,7 @@ Do not collapse ingestion and chunking into one conceptual step unless explicitl
 Whenever proposing schemas or architecture, distinguish at least:
 `source_id`, `source_type`, `title`, `edition`, `authority_level`, `page range`, `section_path`, `version or checksum`, `chunk_id`, `citation_anchor`
 
-Default source categories: `official_rulebook`, `official_errata`, `official_faq`, `srd`, `commentary`, `homebrew`, `personal_note`
+Default source categories: `core_rulebook`, `supplement_rulebook`, `errata_document`, `faq_document`, `srd`, `curated_commentary`, `personal_note`
 
 ## Retrieval and Citation Principles
 

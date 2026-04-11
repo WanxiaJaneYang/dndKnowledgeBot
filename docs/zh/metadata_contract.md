@@ -1,21 +1,21 @@
-# Metadata Contract
+# 元数据契约
 
-> **English** | [中文](zh/metadata_contract.md)
+> [English](../metadata_contract.md) | **中文**
 
-## Goal
+## 目标
 
-Define one shared metadata vocabulary for source identity and locator semantics so source configs, schemas, and examples compose without field translation.
+定义一套共享元数据词汇，用于统一来源配置、schema 与 examples，避免字段翻译层。
 
-## Shared Vocabulary
+## 共享词汇
 
-### Core fields
+### 核心字段
 
 - `source_id`
-  Stable snake_case source identifier such as `srd_35` or `phb_35`.
+  稳定的 snake_case 来源标识，例如 `srd_35`、`phb_35`。
 - `edition`
-  Edition label. Use `3.5e` for Phase 1.
+  版本标签。Phase 1 统一使用 `3.5e`。
 - `source_type`
-  Source category enum:
+  来源类型枚举：
   - `core_rulebook`
   - `supplement_rulebook`
   - `errata_document`
@@ -24,39 +24,39 @@ Define one shared metadata vocabulary for source identity and locator semantics 
   - `curated_commentary`
   - `personal_note`
 - `authority_level`
-  Source authority enum:
+  权威级别枚举：
   - `official`
   - `official_reference`
   - `curated_secondary`
   - `personal_note`
 
-### Locator semantics
+### Locator 语义
 
 - `locator`
-  Evidence-level location object attached to canonical documents, chunks, and citations.
+  证据对象级定位信息，挂在 canonical document、chunk、citation 上。
 - `locator_policy`
-  Source-level locator guidance stored in source manifests and similar source-policy configs.
+  来源级定位策略，挂在 manifest / registry 等来源策略对象上。
 
-`locator_policy` and `locator` are intentionally separate:
-- `locator_policy` defines how a source should be located.
-- `locator` records the concrete location instance for a specific evidence object.
+两者边界：
+- `locator_policy` 用于说明某个来源“应该如何定位”。
+- `locator` 用于记录某个证据对象“实际定位到哪里”。
 
-## Evidence Locator Shape
+## 证据级 locator 形状
 
-`locator` supports both paginated and non-paginated sources.
+`locator` 必须同时支持分页与非分页来源。
 
-Expected fields (when available):
+可用字段：
 - `page_range`
 - `section_path`
 - `entry_id`
 - `entry_title`
 - `source_location`
 
-At least one of those must be present.
+至少要有一个字段存在。
 
-## Examples
+## 示例
 
-### Non-paginated source example (`srd_35`)
+### 非分页来源示例（`srd_35`）
 
 ```json
 {
@@ -75,7 +75,7 @@ At least one of those must be present.
 }
 ```
 
-### Paginated source example (`phb_35`)
+### 分页来源示例（`phb_35`）
 
 ```json
 {
@@ -97,9 +97,9 @@ At least one of those must be present.
 }
 ```
 
-## Contract Application
+## 契约落点
 
-This contract is the normalization target for:
+本契约适用于以下文件：
 
 - `configs/source_registry.yaml`
 - `configs/bootstrap_sources/srd_35.manifest.json`
@@ -108,4 +108,4 @@ This contract is the normalization target for:
 - `examples/chunk.example.json`
 - `examples/answer_with_citations.example.json`
 
-If future schema updates conflict with this document, this document should be updated first or in the same PR.
+若未来 schema 与本文冲突，应先更新本文，或在同一 PR 中同时更新。
