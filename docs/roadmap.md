@@ -22,7 +22,7 @@
 
 - [x] Implement ingestion pipeline (extraction + normalization) — `scripts/ingest_srd35/`
 - [x] Add fixture corpus + golden outputs + preview evidence standard — `tests/fixtures/`, `docs/standards/pr_evidence.md`
-- [ ] Implement chunker
+- [x] Implement chunker — baseline section-passthrough strategy, `scripts/chunker/`, `tests/test_chunker.py`
 - [ ] Choose a baseline local vector index plus one embedding model and one answer model
 - [ ] Set up vector index and embedding pipeline
 - [ ] Implement retrieval pipeline (filter → retrieve → threshold)

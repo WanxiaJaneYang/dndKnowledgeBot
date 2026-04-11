@@ -117,6 +117,8 @@ scripts/
   fetch_srd_35.py                  Fetches raw SRD 3.5 HTML
   ingest_srd_35.py                 Entry point for SRD 3.5 ingestion
   ingest_srd35/                    Ingestion pipeline modules
+  chunk_srd_35.py                  Entry point for SRD 3.5 chunker (canonical → chunks)
+  chunker/                         Chunker modules (pipeline, type_classifier, schema_validation)
   preview_fixtures.py              Preview fixture corpus diffs for PR evidence
 
 tests/
@@ -125,6 +127,7 @@ tests/
   test_ingest_srd_35.py            Unit tests for ingestion pipeline
   test_boundary_filter.py          Unit tests for boundary detection
   test_fetch_srd_35.py             Unit tests for fetcher
+  test_chunker.py                  Unit tests for chunker (type classifier + pipeline)
 
 data/                              Local corpus files — not committed (see data/README.md)
 ```
