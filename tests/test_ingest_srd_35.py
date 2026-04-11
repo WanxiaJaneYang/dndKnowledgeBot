@@ -98,7 +98,7 @@ class IngestSrd35Tests(unittest.TestCase):
 
     def test_ingest_source_splits_by_section_headings(self) -> None:
         (self.repo_root / "data/raw/srd_35/rtf/CombatI.rtf").write_text(
-            "{\\rtf1\\ansi\\b Full Attack\\b0\\par First section text.\\par\\b Charge\\b0\\par Second section text.}",
+            "{\\rtf1\\ansi\\b Full Attack\\b0\\par First section text provides enough detail to exceed the minimum guard length.\\par\\b Charge\\b0\\par Second section text also carries enough detail to be treated as a real section boundary.}",
             encoding="latin-1",
         )
         result = ingest_source(self.manifest, self.repo_root, force=True)

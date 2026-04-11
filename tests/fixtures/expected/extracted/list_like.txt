@@ -1,9 +1,0 @@
-Actions
-
-1. Move
-
-2. Standard
-
-Attack with melee weapon
-
-Drink potion

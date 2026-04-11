@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::description::010_halfling",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Description",
+      "Halfling |"
+    ],
+    "source_location": "Description.rtf#010_halfling"
+  },
+  "content": "50 years | 75 years | 100 years | +5d20 years |\n1 At middle age, -\n1 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |\n2 At old age, -\n2 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |\n3 At venerable age, -\n3 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |",
+  "document_title": "Halfling |",
+  "source_checksum": "5a54efd589761fe351d251f59f5adfb9ebfcf9d3"
+}

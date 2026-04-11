@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::description::008_age",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Description",
+      "AGE"
+    ],
+    "source_location": "Description.rtf#008_age"
+  },
+  "content": "You can choose or randomly generate your character's age. If you choose it, it must be at least the minimum age for the character's race and class (see Table: Random Starting Ages). Your character'\ns minimum starting age is the adulthood age of his or her race plus the number of dice indicated in the entry corresponding to the character's race and class on Table: Random Starting Ages.\nAlternatively, refer to Table: Random Starting Ages and roll dice to determine how old your character is.\nTable: Random Starting Ages |\nRace |\nAdulthood | Barbarian\nRogue\nSorcerer |\nBard\nFighter\nPaladin\nRanger | Cleric\nDruid\nMonk\nWizard |\nHuman | 15 years | +1d4 | +1d6 |\n+2d6 |\nDwarf\n| 40 years | +3d6 | +5d6 | +7d6 |\nElf |\n110 years | +4d6 | +6d6 | +10d6 |\nGnome |\n40 years | +4d6 | +6d6 | +9d6 |\nHalf-elf |\n20 years | +1d6 | +2d6 | +3d6 |\nHalf-orc |\n14 years | +1d4 | +1d6 | +2d6 |",
+  "document_title": "AGE",
+  "source_checksum": "5a54efd589761fe351d251f59f5adfb9ebfcf9d3"
+}

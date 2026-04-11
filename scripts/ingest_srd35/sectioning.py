@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import re
 
+MIN_SECTION_BODY_CHARS = 40
+
 
 def sanitize_identifier(value: str) -> str:
     lowered = value.lower()
@@ -45,12 +47,35 @@ def split_sections_from_blocks(file_stem: str, blocks: list[dict]) -> list[dict]
             }
         )
 
-    for block in blocks:
+    def is_boundary_candidate(index: int) -> bool:
+        block = blocks[index]
+        if block.get("block_type") != "heading_candidate":
+            return False
+        next_index = index + 1
+        if next_index >= len(blocks):
+            return False
+        if blocks[next_index].get("block_type") == "heading_candidate":
+            return False
+        body_chars = 0
+        has_paragraph = False
+        for look_ahead in blocks[next_index:]:
+            look_type = look_ahead.get("block_type", "paragraph")
+            if look_type == "heading_candidate":
+                break
+            if look_type in {"list_item", "table_row"}:
+                body_chars += len(look_ahead.get("text", "").strip())
+                continue
+            if look_type == "paragraph":
+                has_paragraph = True
+                body_chars += len(look_ahead.get("text", "").strip())
+        return has_paragraph and body_chars >= MIN_SECTION_BODY_CHARS
+
+    for index, block in enumerate(blocks):
         text = block.get("text", "").strip()
         block_type = block.get("block_type", "paragraph")
         if not text:
             continue
-        if block_type == "heading":
+        if is_boundary_candidate(index):
             flush()
             current_title = text
             current_blocks = []
@@ -79,6 +104,6 @@ def split_sections(file_stem: str, text: str) -> list[dict]:
         stripped = line.strip()
         if not stripped:
             continue
-        block_type = "heading" if looks_like_heading(stripped) else "paragraph"
+        block_type = "heading_candidate" if looks_like_heading(stripped) else "paragraph"
         blocks.append({"text": stripped, "block_type": block_type})
     return split_sections_from_blocks(file_stem, blocks)

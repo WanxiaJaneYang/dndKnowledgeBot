@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::specialmaterials::001_specialmaterials",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpecialMaterials",
+      "SpecialMaterials"
+    ],
+    "source_location": "SpecialMaterials.rtf#001_specialmaterials"
+  },
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "document_title": "SpecialMaterials",
+  "source_checksum": "f25faa8965a41754187cc472f4934daa7739ce83"
+}

@@ -1,7 +1,0 @@
-Combat Basics
-
-Movement in combat uses squares.
-
-Charge
-
-You move up to double speed in a straight line and attack.

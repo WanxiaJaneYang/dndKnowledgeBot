@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::specialmaterials::003_special_weapons_materials",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpecialMaterials",
+      "SPECIAL WEAPONS MATERIALS"
+    ],
+    "source_location": "SpecialMaterials.rtf#003_special_weapons_materials"
+  },
+  "content": "Each of the special materials described below has a definite game effect. Some c\nreatures have damage reduction based on their creature type or core concept. Some are resistant to all but a special type of damage, such as that dealt by evil-aligned weapons or bludgeoning weapons. Others are vulnerable to weapons of a particular materi\nal. Characters may choose to carry several different types of weapons, depending upon the campaign and types of creatures they most commonly encounter.\nAdamantine: This ultrahard metal adds to the quality of a weapon or suit of armor. Weapons fashioned fr\nom adamantine have a natural ability to bypass hardness when sundering weapons or attacking objects, ignoring hardness less than 20. Armor made from adamantine grants its wearer damage reduction of 1/- if it's light armor, 2/- if it\n's medium armor, and 3/- if it'\ns heavy armor. Adamantine is so costly that weapons and armor made from it are always of masterwork quality; the masterwork cost is included in the prices given below. Thus, adamantine weapons and ammunition have a +1 enhancement bonus on attack rol\nls, and the armor check penalty of adamantine armor is lessened by 1 compared to ordinary armor of its type. Items without metal parts cannot be made from adamantine. An arrow could be made of adamantine, but a quarterstaff could not.\nOnly weapons, armor,\nand shields normally made of metal can be fashioned from adamantine. Weapons, armor and shields normally made of steel that are made of adamantine have one-third more hit points than normal. Adamantine has 40 hit points per inch of thickness and hardness\n20.\nType of Adamantine Item |\nItem Cost Modifier |",
+  "document_title": "SPECIAL WEAPONS MATERIALS",
+  "source_checksum": "f25faa8965a41754187cc472f4934daa7739ce83"
+}

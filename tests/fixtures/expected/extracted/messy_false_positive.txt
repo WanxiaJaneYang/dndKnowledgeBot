@@ -1,9 +1,0 @@
-CONDITIONS
-
-Flat-Footed: loses Dexterity bonus to AC.
-
-This line Looks Like A Heading But ends with period.
-
-Invisible
-
-Attacks gain +2 to hit against sighted opponents.

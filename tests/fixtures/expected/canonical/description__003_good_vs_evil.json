@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::description::003_good_vs_evil",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Description",
+      "GOOD VS. EVIL"
+    ],
+    "source_location": "Description.rtf#003_good_vs_evil"
+  },
+  "content": "Good characters and creatures protect innocent life. Evil characters and creatures debase or destroy innocent life, whether for fun or profit.\n\u201cGood\u201d implies altruism, respect for life, and a concern for the dignity of sentient beings. Good characters make personal sacrifices to help others.\n\u201cEvil\u201d implies hurting, oppressing, and killing others. Some evil creatures simply have no compassion for others and kill without qualms if doing so is convenient. Others actively pursue evil, killing for sport or out of duty to some e\nvil deity or master.\nPeople who are neutral with respect to good and evil have compunctions against killing the innocent but lack the commitment to make sacrifices to protect or help others. Neutral people are committed to others by personal relationships.\nBeing good or evil can be a conscious choice. For most people, though, being good or evil is an attitude that one recognizes but does not choose. Being neutral on the good-\nevil axis usually represents a lack of commitment one way or the other, but for s\nome it represents a positive commitment to a balanced view. While acknowledging that good and evil are objective states, not just opinions, these folk maintain that a balance between the two is the proper place for people, or at least for them.\nAnimals and other creatures incapable of moral action are neutral rather than good or evil. Even deadly vipers and tigers that eat people are neutral because they lack the capacity for morally right or wrong behavior.",
+  "document_title": "GOOD VS. EVIL",
+  "source_checksum": "5a54efd589761fe351d251f59f5adfb9ebfcf9d3"
+}

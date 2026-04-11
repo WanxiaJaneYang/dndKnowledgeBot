@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::description::004_law_vs_chaos",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Description",
+      "LAW VS. CHAOS"
+    ],
+    "source_location": "Description.rtf#004_law_vs_chaos"
+  },
+  "content": "Lawful characters tell the truth, keep their word, respect authority, honor tradition, and judge those who fall short of their duties.\nChaotic characters follow their consciences, resent being told what to do, favor new ideas over tradition, and do what they promise if they feel like it.",
+  "document_title": "LAW VS. CHAOS",
+  "source_checksum": "5a54efd589761fe351d251f59f5adfb9ebfcf9d3"
+}

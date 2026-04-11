@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::races::001_races",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Races",
+      "Races"
+    ],
+    "source_location": "Races.rtf#001_races"
+  },
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\nRACES",
+  "document_title": "Races",
+  "source_checksum": "e6fd72037d0c91f24fb07935137b5c62fe0236ea"
+}

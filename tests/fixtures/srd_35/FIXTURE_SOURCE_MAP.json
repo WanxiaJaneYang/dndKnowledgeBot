@@ -1,0 +1,41 @@
+{
+  "source": "internet_archive_dnd35srd",
+  "copied_from": "data/raw/srd_35/rtf",
+  "records": [
+    {
+      "fixture_file": "Description.rtf",
+      "upstream_source_id": "srd_35",
+      "upstream_file": "Description.rtf",
+      "sha1": "5a54efd589761fe351d251f59f5adfb9ebfcf9d3",
+      "matches_upstream_local_copy": true
+    },
+    {
+      "fixture_file": "DivineMinions.rtf",
+      "upstream_source_id": "srd_35",
+      "upstream_file": "DivineMinions.rtf",
+      "sha1": "4b5b691b8cd754bae704231344c541cce02b23a4",
+      "matches_upstream_local_copy": true
+    },
+    {
+      "fixture_file": "Legal.rtf",
+      "upstream_source_id": "srd_35",
+      "upstream_file": "Legal.rtf",
+      "sha1": "b790fd99ee7a118d7ac4a7306a2b44a71cc15fbf",
+      "matches_upstream_local_copy": true
+    },
+    {
+      "fixture_file": "Races.rtf",
+      "upstream_source_id": "srd_35",
+      "upstream_file": "Races.rtf",
+      "sha1": "e6fd72037d0c91f24fb07935137b5c62fe0236ea",
+      "matches_upstream_local_copy": true
+    },
+    {
+      "fixture_file": "SpecialMaterials.rtf",
+      "upstream_source_id": "srd_35",
+      "upstream_file": "SpecialMaterials.rtf",
+      "sha1": "f25faa8965a41754187cc472f4934daa7739ce83",
+      "matches_upstream_local_copy": true
+    }
+  ]
+}

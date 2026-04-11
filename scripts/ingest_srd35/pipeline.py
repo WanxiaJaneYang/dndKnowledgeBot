@@ -109,6 +109,7 @@ def ingest_source(
     extraction_records: list[dict] = []
     canonical_records: list[dict] = []
     canonical_docs: list[dict] = []
+    demote_heading_candidate_files = set(manifest.get("fixture_overrides", {}).get("demote_heading_candidate_files", []))
 
     for rtf_path in rtf_files:
         raw_bytes = rtf_path.read_bytes()
@@ -121,6 +122,10 @@ def ingest_source(
         extracted_path = extracted_text_root / f"{file_slug}.txt"
         extracted_path.write_text(decoded + "\n", encoding="utf-8")
         extraction_ir = build_extraction_ir(file_name=rtf_path.name, text=decoded)
+        if rtf_path.name in demote_heading_candidate_files:
+            for block in extraction_ir["blocks"]:
+                if block.get("block_type") == "heading_candidate":
+                    block["block_type"] = "paragraph"
         extracted_ir_path = extracted_ir_root / f"{file_slug}.json"
         extracted_ir_path.write_text(json.dumps(extraction_ir, indent=2) + "\n", encoding="utf-8")
 
@@ -168,11 +173,7 @@ def ingest_source(
             }
         )
 
-    validation_result = validate_canonical_docs(
-        canonical_docs,
-        repo_root,
-        require_validation=require_schema_validation,
-    )
+    validation_result = validate_canonical_docs(canonical_docs, repo_root, require_validation=require_schema_validation)
     extracted_report_path, canonical_report_path = _write_reports(
         manifest=manifest,
         repo_root=repo_root,

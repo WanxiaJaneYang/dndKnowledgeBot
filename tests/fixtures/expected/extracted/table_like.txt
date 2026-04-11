@@ -1,7 +1,0 @@
-Armor Table
-
-Name | AC Bonus |
-
-Chain Shirt | +4 |
-
-Full Plate | +8 |

@@ -11,12 +11,12 @@ def classify_block_type(line: str) -> str:
     text = line.strip()
     if not text:
         return "empty"
-    if looks_like_heading(text):
-        return "heading"
     if " | " in text:
         return "table_row"
     if _LIST_ITEM_PATTERN.match(text):
         return "list_item"
+    if looks_like_heading(text):
+        return "heading_candidate"
     return "paragraph"
 
 

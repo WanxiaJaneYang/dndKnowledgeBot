@@ -93,6 +93,7 @@ This repository is expected to grow around a small set of design documents.
 - `docs/citation_policy.md` — citation rules and answer provenance requirements
 - `docs/model_strategy.md` — answer model, embedding model, and reranker strategy
 - `docs/evaluation_plan.md` — success criteria and evaluation approach
+- `docs/standards/pr_evidence.md` — minimum review evidence for pipeline PRs
 - `configs/source_registry.yaml` — tracked corpus sources and metadata
 
 ## Initial product shape

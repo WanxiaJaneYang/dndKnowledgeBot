@@ -1,0 +1,1210 @@
+{
+  "ir_version": "1.0",
+  "file_name": "Description.rtf",
+  "blocks": [
+    {
+      "block_id": "b0001",
+      "block_type": "paragraph",
+      "text": "This material is O",
+      "line_start": 1,
+      "line_end": 1
+    },
+    {
+      "block_id": "b0002",
+      "block_type": "paragraph",
+      "text": "pen Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+      "line_start": 3,
+      "line_end": 3
+    },
+    {
+      "block_id": "b0003",
+      "block_type": "heading_candidate",
+      "text": "DESCRIPTION",
+      "line_start": 5,
+      "line_end": 5
+    },
+    {
+      "block_id": "b0004",
+      "block_type": "heading_candidate",
+      "text": "ALIGNMENT",
+      "line_start": 7,
+      "line_end": 7
+    },
+    {
+      "block_id": "b0005",
+      "block_type": "paragraph",
+      "text": "A creature's general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.",
+      "line_start": 9,
+      "line_end": 9
+    },
+    {
+      "block_id": "b0006",
+      "block_type": "paragraph",
+      "text": "Alignment is a tool for developing your character's identity. It is not a straitjacket for restricting your character.",
+      "line_start": 11,
+      "line_end": 11
+    },
+    {
+      "block_id": "b0007",
+      "block_type": "paragraph",
+      "text": "Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.",
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "block_id": "b0008",
+      "block_type": "heading_candidate",
+      "text": "GOOD VS. EVIL",
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "block_id": "b0009",
+      "block_type": "paragraph",
+      "text": "Good characters and creatures protect innocent life. Evil characters and creatures debase or destroy innocent life, whether for fun or profit.",
+      "line_start": 17,
+      "line_end": 17
+    },
+    {
+      "block_id": "b0010",
+      "block_type": "paragraph",
+      "text": "\u201cGood\u201d implies altruism, respect for life, and a concern for the dignity of sentient beings. Good characters make personal sacrifices to help others.",
+      "line_start": 19,
+      "line_end": 19
+    },
+    {
+      "block_id": "b0011",
+      "block_type": "paragraph",
+      "text": "\u201cEvil\u201d implies hurting, oppressing, and killing others. Some evil creatures simply have no compassion for others and kill without qualms if doing so is convenient. Others actively pursue evil, killing for sport or out of duty to some e",
+      "line_start": 21,
+      "line_end": 21
+    },
+    {
+      "block_id": "b0012",
+      "block_type": "paragraph",
+      "text": "vil deity or master.",
+      "line_start": 23,
+      "line_end": 23
+    },
+    {
+      "block_id": "b0013",
+      "block_type": "paragraph",
+      "text": "People who are neutral with respect to good and evil have compunctions against killing the innocent but lack the commitment to make sacrifices to protect or help others. Neutral people are committed to others by personal relationships.",
+      "line_start": 25,
+      "line_end": 25
+    },
+    {
+      "block_id": "b0014",
+      "block_type": "paragraph",
+      "text": "Being good or evil can be a conscious choice. For most people, though, being good or evil is an attitude that one recognizes but does not choose. Being neutral on the good-",
+      "line_start": 27,
+      "line_end": 27
+    },
+    {
+      "block_id": "b0015",
+      "block_type": "paragraph",
+      "text": "evil axis usually represents a lack of commitment one way or the other, but for s",
+      "line_start": 29,
+      "line_end": 29
+    },
+    {
+      "block_id": "b0016",
+      "block_type": "paragraph",
+      "text": "ome it represents a positive commitment to a balanced view. While acknowledging that good and evil are objective states, not just opinions, these folk maintain that a balance between the two is the proper place for people, or at least for them.",
+      "line_start": 31,
+      "line_end": 31
+    },
+    {
+      "block_id": "b0017",
+      "block_type": "paragraph",
+      "text": "Animals and other creatures incapable of moral action are neutral rather than good or evil. Even deadly vipers and tigers that eat people are neutral because they lack the capacity for morally right or wrong behavior.",
+      "line_start": 33,
+      "line_end": 33
+    },
+    {
+      "block_id": "b0018",
+      "block_type": "heading_candidate",
+      "text": "LAW VS. CHAOS",
+      "line_start": 35,
+      "line_end": 35
+    },
+    {
+      "block_id": "b0019",
+      "block_type": "paragraph",
+      "text": "Lawful characters tell the truth, keep their word, respect authority, honor tradition, and judge those who fall short of their duties.",
+      "line_start": 37,
+      "line_end": 37
+    },
+    {
+      "block_id": "b0020",
+      "block_type": "paragraph",
+      "text": "Chaotic characters follow their consciences, resent being told what to do, favor new ideas over tradition, and do what they promise if they feel like it.",
+      "line_start": 39,
+      "line_end": 39
+    },
+    {
+      "block_id": "b0021",
+      "block_type": "heading_candidate",
+      "text": "\u201cLaw\u201d",
+      "line_start": 41,
+      "line_end": 41
+    },
+    {
+      "block_id": "b0022",
+      "block_type": "paragraph",
+      "text": "implies honor, trustworthiness, obedience to authority, and reliability. On the downside, lawfulness can include close-mindedness, reactionary adherence to tradition, judgmentalness, and a lack of adaptability. Those who consciously promote lawfulnes",
+      "line_start": 43,
+      "line_end": 43
+    },
+    {
+      "block_id": "b0023",
+      "block_type": "paragraph",
+      "text": "s say that only lawful behavior creates a society in which people can depend on each other and make the right decisions in full confidence that others will act as they should.",
+      "line_start": 45,
+      "line_end": 45
+    },
+    {
+      "block_id": "b0024",
+      "block_type": "paragraph",
+      "text": "\u201cChaos\u201d implies freedom, adaptability, and flexibility. On the downside, chaos c",
+      "line_start": 47,
+      "line_end": 47
+    },
+    {
+      "block_id": "b0025",
+      "block_type": "paragraph",
+      "text": "an include recklessness, resentment toward legitimate authority, arbitrary actions, and irresponsibility. Those who promote chaotic behavior say that only unfettered personal freedom allows people to express themselves fully and lets society benefit from",
+      "line_start": 49,
+      "line_end": 49
+    },
+    {
+      "block_id": "b0026",
+      "block_type": "paragraph",
+      "text": "the potential that its individuals have within them.",
+      "line_start": 51,
+      "line_end": 51
+    },
+    {
+      "block_id": "b0027",
+      "block_type": "paragraph",
+      "text": "Someone who is neutral with respect to law and chaos has a normal respect for authority and feels neither a compulsion to obey nor a compulsion to rebel. She is honest but can be tempted into lying or deceiving others.",
+      "line_start": 53,
+      "line_end": 53
+    },
+    {
+      "block_id": "b0028",
+      "block_type": "paragraph",
+      "text": "Devotion to law or chaos may be a conscious choice, but more often it is a personality trait that is recognized rather than being chosen. Neutrality on the lawful-chaotic axis is usually simply a middle state, a state of not feeling compelle",
+      "line_start": 55,
+      "line_end": 55
+    },
+    {
+      "block_id": "b0029",
+      "block_type": "paragraph",
+      "text": "d toward one side or the other. Some few such neutrals, however, espouse neutrality as superior to law or chaos, regarding each as an extreme with its own blind spots and drawbacks.",
+      "line_start": 57,
+      "line_end": 57
+    },
+    {
+      "block_id": "b0030",
+      "block_type": "paragraph",
+      "text": "Animals and other creatures incapable of moral action are neutral. Dogs may be obedient and cats free-spirited, but they do not have the moral capacity to be truly lawful or chaotic.",
+      "line_start": 59,
+      "line_end": 59
+    },
+    {
+      "block_id": "b0031",
+      "block_type": "heading_candidate",
+      "text": "THE NINE ALIGNMENTS",
+      "line_start": 61,
+      "line_end": 61
+    },
+    {
+      "block_id": "b0032",
+      "block_type": "paragraph",
+      "text": "Nine distinct alignments define all the possible combinations of the lawful-chaotic axis with the good-evil axis. Each alignme",
+      "line_start": 63,
+      "line_end": 63
+    },
+    {
+      "block_id": "b0033",
+      "block_type": "paragraph",
+      "text": "nt description below depicts a typical character of that alignment. Remember that individuals vary from this norm, and that a given character may act more or less in accord with his or her alignment from day to day. Use these descriptions as guidelines, n",
+      "line_start": 65,
+      "line_end": 65
+    },
+    {
+      "block_id": "b0034",
+      "block_type": "paragraph",
+      "text": "ot as scripts.",
+      "line_start": 67,
+      "line_end": 67
+    },
+    {
+      "block_id": "b0035",
+      "block_type": "paragraph",
+      "text": "The first six alignments, lawful good through chaotic neutral, are the standard alignments for player characters. The three evil alignments are for monsters and villains.",
+      "line_start": 69,
+      "line_end": 69
+    },
+    {
+      "block_id": "b0036",
+      "block_type": "paragraph",
+      "text": "Lawful Good, \u201cCrusader\u201d: A lawful good character acts as a good person",
+      "line_start": 71,
+      "line_end": 71
+    },
+    {
+      "block_id": "b0037",
+      "block_type": "paragraph",
+      "text": "is expected or required to act. She combines a commitment to oppose evil with the discipline to fight relentlessly. She tells the truth, keeps her word, helps those in need, and speaks out against injustice. A lawful good character hates to see the guilt",
+      "line_start": 73,
+      "line_end": 73
+    },
+    {
+      "block_id": "b0038",
+      "block_type": "paragraph",
+      "text": "y go unpunished.",
+      "line_start": 75,
+      "line_end": 75
+    },
+    {
+      "block_id": "b0039",
+      "block_type": "paragraph",
+      "text": "Lawful good is the best alignment you can be because it combines honor and compassion.",
+      "line_start": 77,
+      "line_end": 77
+    },
+    {
+      "block_id": "b0040",
+      "block_type": "paragraph",
+      "text": "Neutral Good, \u201cBenefactor\u201d: A neutral good character does the best that a good person can do. He is devoted to helping others. He works with kings and magistrates but does not feel beholden to them..",
+      "line_start": 79,
+      "line_end": 79
+    },
+    {
+      "block_id": "b0041",
+      "block_type": "paragraph",
+      "text": "Neutral good is the best alignment you can be because it means doing what is good without bias for or against order.",
+      "line_start": 81,
+      "line_end": 81
+    },
+    {
+      "block_id": "b0042",
+      "block_type": "paragraph",
+      "text": "Chaotic Good, \u201cRebel\u201d: A chaotic good character acts as his conscience directs him with little regard for what others expect of him. He makes his own way, but he'",
+      "line_start": 83,
+      "line_end": 83
+    },
+    {
+      "block_id": "b0043",
+      "block_type": "paragraph",
+      "text": "s kind and benevolent. He believes in goodness and right but has little use for laws and regulations. He hates it wh",
+      "line_start": 85,
+      "line_end": 85
+    },
+    {
+      "block_id": "b0044",
+      "block_type": "paragraph",
+      "text": "en people try to intimidate others and tell them what to do. He follows his own moral compass, which, although good, may not agree with that of society.",
+      "line_start": 87,
+      "line_end": 87
+    },
+    {
+      "block_id": "b0045",
+      "block_type": "paragraph",
+      "text": "Chaotic good is the best alignment you can be because it combines a good heart with a free spirit.",
+      "line_start": 89,
+      "line_end": 89
+    },
+    {
+      "block_id": "b0046",
+      "block_type": "heading_candidate",
+      "text": "Lawful Neutral, \u201cJudge\u201d:",
+      "line_start": 91,
+      "line_end": 91
+    },
+    {
+      "block_id": "b0047",
+      "block_type": "paragraph",
+      "text": "A lawful neutral character acts as law, tradition, or a personal code directs her. Order and organization are paramount to her. She may believe in personal order and live by a code or standard, or she may believe in order for all and",
+      "line_start": 93,
+      "line_end": 93
+    },
+    {
+      "block_id": "b0048",
+      "block_type": "paragraph",
+      "text": "favor a strong, organized government.",
+      "line_start": 95,
+      "line_end": 95
+    },
+    {
+      "block_id": "b0049",
+      "block_type": "paragraph",
+      "text": "Lawful neutral is the best alignment you can be because it means you are reliable and honorable without being a zealot.",
+      "line_start": 97,
+      "line_end": 97
+    },
+    {
+      "block_id": "b0050",
+      "block_type": "paragraph",
+      "text": "Neutral, \u201cUndecided\u201d: A neutral character does what seems to be a good idea. She doesn't feel str",
+      "line_start": 99,
+      "line_end": 99
+    },
+    {
+      "block_id": "b0051",
+      "block_type": "paragraph",
+      "text": "ongly one way or the other when it comes to good vs. evil or law vs. chaos. Most neutral characters exhibit a lack of conviction or bias rather than a commitment to neutrality. Such a character thinks of good as better than evil--",
+      "line_start": 101,
+      "line_end": 101
+    },
+    {
+      "block_id": "b0052",
+      "block_type": "paragraph",
+      "text": "after all, she would rather have good neighbors and rulers than evil ones. Still, she's not personally committed to upholding good in any abstract or universal way.",
+      "line_start": 103,
+      "line_end": 103
+    },
+    {
+      "block_id": "b0053",
+      "block_type": "paragraph",
+      "text": "Some neutral characters, on the other hand, commit themselves philosophically to neutrality. They see good, evil, law,",
+      "line_start": 105,
+      "line_end": 105
+    },
+    {
+      "block_id": "b0054",
+      "block_type": "paragraph",
+      "text": "and chaos as prejudices and dangerous extremes. They advocate the middle way of neutrality as the best, most balanced road in the long run.",
+      "line_start": 107,
+      "line_end": 107
+    },
+    {
+      "block_id": "b0055",
+      "block_type": "paragraph",
+      "text": "Neutral is the best alignment you can be because it means you act naturally, without prejudice or compulsion.",
+      "line_start": 109,
+      "line_end": 109
+    },
+    {
+      "block_id": "b0056",
+      "block_type": "paragraph",
+      "text": "Chaotic Neutral, \u201cFree Spirit\u201d: A chaotic neutral character follows his whims. He is an individualist first and last. He values his own liberty but doesn't strive to protect others'",
+      "line_start": 111,
+      "line_end": 111
+    },
+    {
+      "block_id": "b0057",
+      "block_type": "paragraph",
+      "text": "freedom. He avoids authority, resents restrictions, and challenges traditions.",
+      "line_start": 113,
+      "line_end": 113
+    },
+    {
+      "block_id": "b0058",
+      "block_type": "paragraph",
+      "text": "A chaotic neutral character does not intentionally disrupt organizations as part of a campaign of anarchy. To do so, he would have to be motivated either by good (and a desire to liberate others) or evil (and a desire to make those different from himself",
+      "line_start": 115,
+      "line_end": 115
+    },
+    {
+      "block_id": "b0059",
+      "block_type": "paragraph",
+      "text": "suffer). A chaotic neutral character may be unpredictable, but his behavior is not totally random. He is not as likely to jump off a bridge as to cross it.",
+      "line_start": 117,
+      "line_end": 117
+    },
+    {
+      "block_id": "b0060",
+      "block_type": "paragraph",
+      "text": "Chaotic neutral is the best alignment you can be because it represents true freedom from both society's restrictions and a do-gooder's zeal.",
+      "line_start": 119,
+      "line_end": 119
+    },
+    {
+      "block_id": "b0061",
+      "block_type": "paragraph",
+      "text": "Lawful Evil, \u201cDominator\u201d: A lawful evil villain methodically takes what he wants within the limits of his code of conduct without regard for whom it hurts. He cares about tradition, loyalty, and order but not about",
+      "line_start": 121,
+      "line_end": 121
+    },
+    {
+      "block_id": "b0062",
+      "block_type": "paragraph",
+      "text": "freedom, dignity, or life. He plays by the rules but without mercy or compassion. He is comfortable in a hierarchy and would like to rule, but is willing to serve. He condemns others not according to their actions but according to race, religion, homelan",
+      "line_start": 123,
+      "line_end": 123
+    },
+    {
+      "block_id": "b0063",
+      "block_type": "paragraph",
+      "text": "d, or social rank. He is loath to break laws or promises.",
+      "line_start": 125,
+      "line_end": 125
+    },
+    {
+      "block_id": "b0064",
+      "block_type": "paragraph",
+      "text": "This reluctance comes partly from his nature and partly because he depends on order to protect himself from those who oppose him on moral grounds. Some lawful evil villains have particular taboos, su",
+      "line_start": 127,
+      "line_end": 127
+    },
+    {
+      "block_id": "b0065",
+      "block_type": "paragraph",
+      "text": "ch as not killing in cold blood (but having underlings do it) or not letting children come to harm (if it can be helped). They imagine that these compunctions put them above unprincipled villains.",
+      "line_start": 129,
+      "line_end": 129
+    },
+    {
+      "block_id": "b0066",
+      "block_type": "paragraph",
+      "text": "Some lawful evil people and creatures commit themselves to",
+      "line_start": 131,
+      "line_end": 131
+    },
+    {
+      "block_id": "b0067",
+      "block_type": "paragraph",
+      "text": "evil with a zeal like that of a crusader committed to good. Beyond being willing to hurt others for their own ends, they take pleasure in spreading evil as an end unto itself. They may also see doing evil as part of a duty to an evil deity or master.",
+      "line_start": 133,
+      "line_end": 133
+    },
+    {
+      "block_id": "b0068",
+      "block_type": "paragraph",
+      "text": "Lawful evil is sometimes called \u201cdiabolical,\u201d because devils are the epitome of lawful evil.",
+      "line_start": 135,
+      "line_end": 135
+    },
+    {
+      "block_id": "b0069",
+      "block_type": "paragraph",
+      "text": "Lawful evil is the most dangerous alignment because it represents methodical, intentional, and frequently successful evil.",
+      "line_start": 137,
+      "line_end": 137
+    },
+    {
+      "block_id": "b0070",
+      "block_type": "paragraph",
+      "text": "Neutral Evil, \u201cMalefactor\u201d: A neutral evil v",
+      "line_start": 139,
+      "line_end": 139
+    },
+    {
+      "block_id": "b0071",
+      "block_type": "paragraph",
+      "text": "illain does whatever she can get away with. She is out for herself, pure and simple. She sheds no tears for those she kills, whether for profit, sport, or convenience. She has no love of order and holds no illusion that following laws, traditions, or code",
+      "line_start": 141,
+      "line_end": 141
+    },
+    {
+      "block_id": "b0072",
+      "block_type": "paragraph",
+      "text": "s would make her any better or more noble. On the other hand, she doesn't have the restless nature or love of conflict that a chaotic evil villain has.",
+      "line_start": 143,
+      "line_end": 143
+    },
+    {
+      "block_id": "b0073",
+      "block_type": "paragraph",
+      "text": "Some neutral evil villains hold up evil as an ideal, committing evil for its own sake. Most often, such villains are devoted to evil deities or secret societies.",
+      "line_start": 145,
+      "line_end": 145
+    },
+    {
+      "block_id": "b0074",
+      "block_type": "paragraph",
+      "text": "Neutral evil is the most dangerous alignment because it represents pure evil without honor and without variation.",
+      "line_start": 147,
+      "line_end": 147
+    },
+    {
+      "block_id": "b0075",
+      "block_type": "paragraph",
+      "text": "Chaotic Evil, \u201cDestroyer\u201d: A chaotic evil character does whatever his greed, hatred,",
+      "line_start": 149,
+      "line_end": 149
+    },
+    {
+      "block_id": "b0076",
+      "block_type": "paragraph",
+      "text": "and lust for destruction drive him to do. He is hot-tempered, vicious, arbitrarily violent, and unpredictable. If he is simply out for whatever he can get, he is ruthless and brutal. If he is committed to the spread of evil and chaos, he is even worse. T",
+      "line_start": 151,
+      "line_end": 151
+    },
+    {
+      "block_id": "b0077",
+      "block_type": "paragraph",
+      "text": "h",
+      "line_start": 153,
+      "line_end": 153
+    },
+    {
+      "block_id": "b0078",
+      "block_type": "paragraph",
+      "text": "ankfully, his plans are haphazard, and any groups he joins or forms are poorly organized. Typically, chaotic evil people can be made to work together only by force, and their leader lasts only as long as he can thwart attempts to topple or assassinate him",
+      "line_start": 155,
+      "line_end": 155
+    },
+    {
+      "block_id": "b0079",
+      "block_type": "paragraph",
+      "text": ".",
+      "line_start": 157,
+      "line_end": 157
+    },
+    {
+      "block_id": "b0080",
+      "block_type": "paragraph",
+      "text": "Chaotic evil is sometimes called \u201cdemonic\u201d because demons are the epitome of chaotic evil.",
+      "line_start": 159,
+      "line_end": 159
+    },
+    {
+      "block_id": "b0081",
+      "block_type": "paragraph",
+      "text": "Chaotic evil is the most dangerous alignment because it represents the destruction not only of beauty and life but also of the order on which beauty and life depend.",
+      "line_start": 161,
+      "line_end": 161
+    },
+    {
+      "block_id": "b0082",
+      "block_type": "heading_candidate",
+      "text": "VITAL STATISTICS",
+      "line_start": 163,
+      "line_end": 163
+    },
+    {
+      "block_id": "b0083",
+      "block_type": "heading_candidate",
+      "text": "AGE",
+      "line_start": 165,
+      "line_end": 165
+    },
+    {
+      "block_id": "b0084",
+      "block_type": "paragraph",
+      "text": "You can choose or randomly generate your character's age. If you choose it, it must be at least the minimum age for the character's race and class (see Table: Random Starting Ages). Your character'",
+      "line_start": 167,
+      "line_end": 167
+    },
+    {
+      "block_id": "b0085",
+      "block_type": "paragraph",
+      "text": "s minimum starting age is the adulthood age of his or her race plus the number of dice indicated in the entry corresponding to the character's race and class on Table: Random Starting Ages.",
+      "line_start": 169,
+      "line_end": 169
+    },
+    {
+      "block_id": "b0086",
+      "block_type": "paragraph",
+      "text": "Alternatively, refer to Table: Random Starting Ages and roll dice to determine how old your character is.",
+      "line_start": 171,
+      "line_end": 171
+    },
+    {
+      "block_id": "b0087",
+      "block_type": "heading_candidate",
+      "text": "Table: Random Starting Ages |",
+      "line_start": 173,
+      "line_end": 173
+    },
+    {
+      "block_id": "b0088",
+      "block_type": "heading_candidate",
+      "text": "Race |",
+      "line_start": 175,
+      "line_end": 175
+    },
+    {
+      "block_id": "b0089",
+      "block_type": "table_row",
+      "text": "Adulthood | Barbarian",
+      "line_start": 177,
+      "line_end": 177
+    },
+    {
+      "block_id": "b0090",
+      "block_type": "heading_candidate",
+      "text": "Rogue",
+      "line_start": 179,
+      "line_end": 179
+    },
+    {
+      "block_id": "b0091",
+      "block_type": "heading_candidate",
+      "text": "Sorcerer |",
+      "line_start": 181,
+      "line_end": 181
+    },
+    {
+      "block_id": "b0092",
+      "block_type": "heading_candidate",
+      "text": "Bard",
+      "line_start": 183,
+      "line_end": 183
+    },
+    {
+      "block_id": "b0093",
+      "block_type": "heading_candidate",
+      "text": "Fighter",
+      "line_start": 185,
+      "line_end": 185
+    },
+    {
+      "block_id": "b0094",
+      "block_type": "heading_candidate",
+      "text": "Paladin",
+      "line_start": 187,
+      "line_end": 187
+    },
+    {
+      "block_id": "b0095",
+      "block_type": "table_row",
+      "text": "Ranger | Cleric",
+      "line_start": 189,
+      "line_end": 189
+    },
+    {
+      "block_id": "b0096",
+      "block_type": "heading_candidate",
+      "text": "Druid",
+      "line_start": 191,
+      "line_end": 191
+    },
+    {
+      "block_id": "b0097",
+      "block_type": "heading_candidate",
+      "text": "Monk",
+      "line_start": 193,
+      "line_end": 193
+    },
+    {
+      "block_id": "b0098",
+      "block_type": "heading_candidate",
+      "text": "Wizard |",
+      "line_start": 195,
+      "line_end": 195
+    },
+    {
+      "block_id": "b0099",
+      "block_type": "table_row",
+      "text": "Human | 15 years | +1d4 | +1d6 |",
+      "line_start": 197,
+      "line_end": 197
+    },
+    {
+      "block_id": "b0100",
+      "block_type": "paragraph",
+      "text": "+2d6 |",
+      "line_start": 199,
+      "line_end": 199
+    },
+    {
+      "block_id": "b0101",
+      "block_type": "heading_candidate",
+      "text": "Dwarf",
+      "line_start": 201,
+      "line_end": 201
+    },
+    {
+      "block_id": "b0102",
+      "block_type": "table_row",
+      "text": "| 40 years | +3d6 | +5d6 | +7d6 |",
+      "line_start": 203,
+      "line_end": 203
+    },
+    {
+      "block_id": "b0103",
+      "block_type": "heading_candidate",
+      "text": "Elf |",
+      "line_start": 205,
+      "line_end": 205
+    },
+    {
+      "block_id": "b0104",
+      "block_type": "table_row",
+      "text": "110 years | +4d6 | +6d6 | +10d6 |",
+      "line_start": 207,
+      "line_end": 207
+    },
+    {
+      "block_id": "b0105",
+      "block_type": "heading_candidate",
+      "text": "Gnome |",
+      "line_start": 209,
+      "line_end": 209
+    },
+    {
+      "block_id": "b0106",
+      "block_type": "table_row",
+      "text": "40 years | +4d6 | +6d6 | +9d6 |",
+      "line_start": 211,
+      "line_end": 211
+    },
+    {
+      "block_id": "b0107",
+      "block_type": "heading_candidate",
+      "text": "Half-elf |",
+      "line_start": 213,
+      "line_end": 213
+    },
+    {
+      "block_id": "b0108",
+      "block_type": "table_row",
+      "text": "20 years | +1d6 | +2d6 | +3d6 |",
+      "line_start": 215,
+      "line_end": 215
+    },
+    {
+      "block_id": "b0109",
+      "block_type": "heading_candidate",
+      "text": "Half-orc |",
+      "line_start": 217,
+      "line_end": 217
+    },
+    {
+      "block_id": "b0110",
+      "block_type": "table_row",
+      "text": "14 years | +1d4 | +1d6 | +2d6 |",
+      "line_start": 219,
+      "line_end": 219
+    },
+    {
+      "block_id": "b0111",
+      "block_type": "heading_candidate",
+      "text": "Halfling |",
+      "line_start": 221,
+      "line_end": 221
+    },
+    {
+      "block_id": "b0112",
+      "block_type": "table_row",
+      "text": "20 years | +2d4 | +3d6 | +4d6 |",
+      "line_start": 223,
+      "line_end": 223
+    },
+    {
+      "block_id": "b0113",
+      "block_type": "paragraph",
+      "text": "|",
+      "line_start": 225,
+      "line_end": 225
+    },
+    {
+      "block_id": "b0114",
+      "block_type": "table_row",
+      "text": "| | | |",
+      "line_start": 227,
+      "line_end": 227
+    },
+    {
+      "block_id": "b0115",
+      "block_type": "paragraph",
+      "text": "With age, a character'",
+      "line_start": 229,
+      "line_end": 229
+    },
+    {
+      "block_id": "b0116",
+      "block_type": "paragraph",
+      "text": "s physical ability scores decrease and his or her mental ability scores increase (see Table: Aging Effects). The effects of each aging step are cumulative. However, none of a character's ability scores can be reduced below 1 in this way.",
+      "line_start": 231,
+      "line_end": 231
+    },
+    {
+      "block_id": "b0117",
+      "block_type": "paragraph",
+      "text": "When a character r",
+      "line_start": 233,
+      "line_end": 233
+    },
+    {
+      "block_id": "b0118",
+      "block_type": "paragraph",
+      "text": "eaches venerable age, secretly roll his or her maximum age, which is the number from the Venerable column on Table: Aging Effects plus the result of the dice roll indicated on the Maximum Age column on that table, and records the result, which the player",
+      "line_start": 235,
+      "line_end": 235
+    },
+    {
+      "block_id": "b0119",
+      "block_type": "paragraph",
+      "text": "does not know. A character who reaches his or her maximum age dies of old age at some time during the following year.",
+      "line_start": 237,
+      "line_end": 237
+    },
+    {
+      "block_id": "b0120",
+      "block_type": "paragraph",
+      "text": "The maximum ages are for player characters. Most people in the world at large die from pestilence, accidents, infections, or violence before getting to venerable age.",
+      "line_start": 239,
+      "line_end": 239
+    },
+    {
+      "block_id": "b0121",
+      "block_type": "heading_candidate",
+      "text": "Table: Aging Effects |",
+      "line_start": 241,
+      "line_end": 241
+    },
+    {
+      "block_id": "b0122",
+      "block_type": "table_row",
+      "text": "Race | Middle Age",
+      "line_start": 243,
+      "line_end": 243
+    },
+    {
+      "block_id": "b0123",
+      "block_type": "table_row",
+      "text": "1 | Old2 | Venerable3 | Maximum Age |",
+      "line_start": 245,
+      "line_end": 245
+    },
+    {
+      "block_id": "b0124",
+      "block_type": "heading_candidate",
+      "text": "Human |",
+      "line_start": 247,
+      "line_end": 247
+    },
+    {
+      "block_id": "b0125",
+      "block_type": "table_row",
+      "text": "35 years | 53 years | 70 years | +2d20 years |",
+      "line_start": 249,
+      "line_end": 249
+    },
+    {
+      "block_id": "b0126",
+      "block_type": "heading_candidate",
+      "text": "Dwarf |",
+      "line_start": 251,
+      "line_end": 251
+    },
+    {
+      "block_id": "b0127",
+      "block_type": "table_row",
+      "text": "125 years | 188 years | 250 years | +2d% years |",
+      "line_start": 253,
+      "line_end": 253
+    },
+    {
+      "block_id": "b0128",
+      "block_type": "heading_candidate",
+      "text": "Elf |",
+      "line_start": 255,
+      "line_end": 255
+    },
+    {
+      "block_id": "b0129",
+      "block_type": "table_row",
+      "text": "175 years | 263 years | 350 years | +4d% years |",
+      "line_start": 257,
+      "line_end": 257
+    },
+    {
+      "block_id": "b0130",
+      "block_type": "heading_candidate",
+      "text": "Gnome |",
+      "line_start": 259,
+      "line_end": 259
+    },
+    {
+      "block_id": "b0131",
+      "block_type": "table_row",
+      "text": "100 years | 150 years | 200 years | +3d% years |",
+      "line_start": 261,
+      "line_end": 261
+    },
+    {
+      "block_id": "b0132",
+      "block_type": "heading_candidate",
+      "text": "Half-elf |",
+      "line_start": 263,
+      "line_end": 263
+    },
+    {
+      "block_id": "b0133",
+      "block_type": "table_row",
+      "text": "62 years | 93 years | 125 years | +3d20 years |",
+      "line_start": 265,
+      "line_end": 265
+    },
+    {
+      "block_id": "b0134",
+      "block_type": "heading_candidate",
+      "text": "Half-orc |",
+      "line_start": 267,
+      "line_end": 267
+    },
+    {
+      "block_id": "b0135",
+      "block_type": "table_row",
+      "text": "30 years | 45 years | 60 years | +2d10 years |",
+      "line_start": 269,
+      "line_end": 269
+    },
+    {
+      "block_id": "b0136",
+      "block_type": "heading_candidate",
+      "text": "Halfling |",
+      "line_start": 271,
+      "line_end": 271
+    },
+    {
+      "block_id": "b0137",
+      "block_type": "table_row",
+      "text": "50 years | 75 years | 100 years | +5d20 years |",
+      "line_start": 273,
+      "line_end": 273
+    },
+    {
+      "block_id": "b0138",
+      "block_type": "paragraph",
+      "text": "1 At middle age, -",
+      "line_start": 275,
+      "line_end": 275
+    },
+    {
+      "block_id": "b0139",
+      "block_type": "paragraph",
+      "text": "1 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |",
+      "line_start": 277,
+      "line_end": 277
+    },
+    {
+      "block_id": "b0140",
+      "block_type": "paragraph",
+      "text": "2 At old age, -",
+      "line_start": 279,
+      "line_end": 279
+    },
+    {
+      "block_id": "b0141",
+      "block_type": "paragraph",
+      "text": "2 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |",
+      "line_start": 281,
+      "line_end": 281
+    },
+    {
+      "block_id": "b0142",
+      "block_type": "paragraph",
+      "text": "3 At venerable age, -",
+      "line_start": 283,
+      "line_end": 283
+    },
+    {
+      "block_id": "b0143",
+      "block_type": "paragraph",
+      "text": "3 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |",
+      "line_start": 285,
+      "line_end": 285
+    },
+    {
+      "block_id": "b0144",
+      "block_type": "heading_candidate",
+      "text": "HEIGHT AND WEIGHT",
+      "line_start": 287,
+      "line_end": 287
+    },
+    {
+      "block_id": "b0145",
+      "block_type": "paragraph",
+      "text": "The dice roll given in the Height Modifier column determines the character'",
+      "line_start": 289,
+      "line_end": 289
+    },
+    {
+      "block_id": "b0146",
+      "block_type": "paragraph",
+      "text": "s extra height beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier column determines the character's extra weight beyond the base weight.",
+      "line_start": 291,
+      "line_end": 291
+    },
+    {
+      "block_id": "b0147",
+      "block_type": "heading_candidate",
+      "text": "Table: Random Height and Weight |",
+      "line_start": 293,
+      "line_end": 293
+    },
+    {
+      "block_id": "b0148",
+      "block_type": "heading_candidate",
+      "text": "Race |",
+      "line_start": 295,
+      "line_end": 295
+    },
+    {
+      "block_id": "b0149",
+      "block_type": "table_row",
+      "text": "Base Height | Height Modifier | Base Weight | Weight Modifier |",
+      "line_start": 297,
+      "line_end": 297
+    },
+    {
+      "block_id": "b0150",
+      "block_type": "table_row",
+      "text": "Human, male | 4\u00b4 10\u00bd | +2d10 |",
+      "line_start": 299,
+      "line_end": 299
+    },
+    {
+      "block_id": "b0151",
+      "block_type": "table_row",
+      "text": "120 lb. | \u00d7 (2d4) lb. |",
+      "line_start": 301,
+      "line_end": 301
+    },
+    {
+      "block_id": "b0152",
+      "block_type": "table_row",
+      "text": "Human, female | 4\u00b4 5\u00bd | +2d10 | 85 lb. | \u00d7 (2d4) lb. |",
+      "line_start": 303,
+      "line_end": 303
+    },
+    {
+      "block_id": "b0153",
+      "block_type": "table_row",
+      "text": "Dwarf, male | 3\u00b4 9\u00bd",
+      "line_start": 305,
+      "line_end": 305
+    },
+    {
+      "block_id": "b0154",
+      "block_type": "table_row",
+      "text": "| +2d4 | 130 lb. | \u00d7 (2d6) lb. |",
+      "line_start": 307,
+      "line_end": 307
+    },
+    {
+      "block_id": "b0155",
+      "block_type": "table_row",
+      "text": "Dwarf, female | 3\u00b4 7\u00bd | +2d4 | 100 lb. | \u00d7 (2d6) lb. |",
+      "line_start": 309,
+      "line_end": 309
+    },
+    {
+      "block_id": "b0156",
+      "block_type": "paragraph",
+      "text": "Elf, male |",
+      "line_start": 311,
+      "line_end": 311
+    },
+    {
+      "block_id": "b0157",
+      "block_type": "table_row",
+      "text": "4\u00b4 5\u00bd | +2d6 | 85 lb. | \u00d7 (1d6) lb. |",
+      "line_start": 313,
+      "line_end": 313
+    },
+    {
+      "block_id": "b0158",
+      "block_type": "table_row",
+      "text": "Elf, female | 4\u00b4 5\u00bd | +2d6 |",
+      "line_start": 315,
+      "line_end": 315
+    },
+    {
+      "block_id": "b0159",
+      "block_type": "table_row",
+      "text": "80 lb. | \u00d7 (1d6) lb. |",
+      "line_start": 317,
+      "line_end": 317
+    },
+    {
+      "block_id": "b0160",
+      "block_type": "table_row",
+      "text": "Gnome, male | 3\u00b4 0\u00bd | +2d4 | 40 lb. | \u00d7 1 lb. |",
+      "line_start": 319,
+      "line_end": 319
+    },
+    {
+      "block_id": "b0161",
+      "block_type": "table_row",
+      "text": "Gnome, female | 2\u00b4 10\u00bd",
+      "line_start": 321,
+      "line_end": 321
+    },
+    {
+      "block_id": "b0162",
+      "block_type": "table_row",
+      "text": "| +2d4 | 35 lb. | \u00d7 1 lb. |",
+      "line_start": 323,
+      "line_end": 323
+    },
+    {
+      "block_id": "b0163",
+      "block_type": "table_row",
+      "text": "Half-elf, male | 4\u00b4 7\u00bd | +2d8 | 100 lb. | \u00d7 (2d4) lb. |",
+      "line_start": 325,
+      "line_end": 325
+    },
+    {
+      "block_id": "b0164",
+      "block_type": "paragraph",
+      "text": "Half-elf, female |",
+      "line_start": 327,
+      "line_end": 327
+    },
+    {
+      "block_id": "b0165",
+      "block_type": "table_row",
+      "text": "4\u00b4 5\u00bd | +2d8 | 80 lb. | \u00d7 (2d4) lb. |",
+      "line_start": 329,
+      "line_end": 329
+    },
+    {
+      "block_id": "b0166",
+      "block_type": "table_row",
+      "text": "Half-orc, male | 4\u00b4 10\u00bd | +2d12",
+      "line_start": 331,
+      "line_end": 331
+    },
+    {
+      "block_id": "b0167",
+      "block_type": "table_row",
+      "text": "| 150 lb. | \u00d7 (2d6) lb. |",
+      "line_start": 333,
+      "line_end": 333
+    },
+    {
+      "block_id": "b0168",
+      "block_type": "table_row",
+      "text": "Half-orc, female | 4\u00b4 5\u00bd | +2d12 | 110 lb. | \u00d7 (2d6) lb. |",
+      "line_start": 335,
+      "line_end": 335
+    },
+    {
+      "block_id": "b0169",
+      "block_type": "paragraph",
+      "text": "Halfling, male |",
+      "line_start": 337,
+      "line_end": 337
+    },
+    {
+      "block_id": "b0170",
+      "block_type": "table_row",
+      "text": "2\u00b4 8\u00bd | +2d4 | 30 lb. | \u00d7 1 lb. |",
+      "line_start": 339,
+      "line_end": 339
+    },
+    {
+      "block_id": "b0171",
+      "block_type": "table_row",
+      "text": "Halfling, female | 2\u00b4 6\u00bd | +2d4 | 25 lb. | \u00d7",
+      "line_start": 341,
+      "line_end": 341
+    },
+    {
+      "block_id": "b0172",
+      "block_type": "paragraph",
+      "text": "1 lb. |",
+      "line_start": 343,
+      "line_end": 343
+    }
+  ]
+}

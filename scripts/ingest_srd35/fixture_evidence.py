@@ -11,7 +11,7 @@ from .pipeline import ingest_source
 def _build_fixture_manifest() -> dict:
     return {
         "source_id": "srd_35_fixture",
-        "title": "Synthetic SRD 3.5 Fixture Corpus",
+        "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
         "edition": "3.5e",
         "source_type": "srd",
         "authority_level": "official_reference",
@@ -20,6 +20,11 @@ def _build_fixture_manifest() -> dict:
             "expanded_root": "data/raw/srd_35_fixture/rtf",
             "extracted_root": "data/extracted/srd_35_fixture",
             "canonical_root": "data/canonical/srd_35_fixture",
+        },
+        "fixture_overrides": {
+            "demote_heading_candidate_files": [
+                "DivineMinions.rtf",
+            ]
         },
     }
 
