@@ -109,6 +109,7 @@ The system is intended to work against a curated corpus rather than open web sea
 
 Initial source priorities:
 
+- `srd_35` as the bootstrap admitted source slice
 - official D&D 3.5e rules text that the user lawfully owns or maintains for personal use
 - structured supplementary source material added intentionally to the corpus
 - future errata or FAQ material, if added, as separately labeled sources
@@ -144,4 +145,4 @@ Avoid:
 
 ## Next step
 
-The immediate next step is to validate one real source slice with a small gold question set, then let the contracts tighten around that vertical slice before larger infrastructure choices are made.
+The immediate next step is to freeze the bootstrap source plan around `srd_35`, then build the first gold question set and ingestion spike against that admitted slice.
