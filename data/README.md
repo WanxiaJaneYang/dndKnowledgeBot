@@ -30,7 +30,13 @@ Bootstrap materialization:
 - The committed source manifest lives at [`configs/bootstrap_sources/srd_35.manifest.json`](../configs/bootstrap_sources/srd_35.manifest.json).
 - Run `python scripts/fetch_srd_35.py` from the repo root to populate `data/raw/srd_35/`.
 - The fetch script downloads the pinned `SRD.zip`, verifies its pinned checksums, unpacks the RTF files, and writes `data/raw/srd_35/bootstrap_provenance.json`.
-- `data/extracted/srd_35/` and `data/canonical/srd_35/` remain the next handoff points for issue `#4`; this issue does not populate them yet.
+- Run `python scripts/ingest_srd_35.py` after fetch to populate:
+  - `data/extracted/srd_35/`
+  - `data/canonical/srd_35/`
+- The ingestion spike writes:
+  - extracted plain text files
+  - canonical document JSON files
+  - extraction/canonical reports with checksum, section_path, locator, ingestion notes, and extraction caveats
 
 ## Copyright Notice
 
