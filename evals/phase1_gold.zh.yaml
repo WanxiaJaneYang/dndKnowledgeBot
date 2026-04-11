@@ -1,0 +1,248 @@
+dataset_id: phase1_gold_zh_v1
+dataset_version: 1
+created_on: "2026-04-11"
+source_slice:
+  source_ids:
+    - srd_35
+  edition: 3.5e
+  notes: "Phase 1 引导语料（srd_35）中文问题集。与 phase1_gold.yaml 共享同一批 eval_id。"
+cases:
+  - eval_id: P1-DL-001
+    question: "角色在什么情况下会因为移动而引发借机攻击（AoO）？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Attacks of Opportunity", "Movement"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应引用“离开威胁格会引发 AoO”的规则。"
+
+  - eval_id: P1-DL-002
+    question: "Total Defense 动作会对 AC 产生什么效果？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Actions in Combat", "Total Defense"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应直接给出 Total Defense 的 AC 效果。"
+
+  - eval_id: P1-DL-003
+    question: "人类在战斗中的默认移动速度是多少？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Races.rtf", "Races", "Humans"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应依据 SRD 种族/移动文本直接回答。"
+
+  - eval_id: P1-DL-004
+    question: "如果本轮进行了其他移动，还能进行 5-foot step 吗？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat: Movement", "5-Foot Step"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应明确“同轮不能有其他移动”的条件。"
+
+  - eval_id: P1-DL-005
+    question: "Dazzled 状态具体效果是什么？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Condition Summary", "Dazzled"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应使用该状态条目的定义直接回答。"
+
+  - eval_id: P1-EX-001
+    question: "喝药水是否会引发借机攻击？"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatI.rtf", "Table: Actions in Combat", "Drink a potion or apply an oil"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应处理“喝药水”这一特定动作的引发规则。"
+
+  - eval_id: P1-EX-002
+    question: "Flat-Footed 状态下能进行借机攻击吗？"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["AbilitiesandConditions.rtf", "Condition Summary", "Flat-Footed"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应明确 flat-footed 的限制。"
+
+  - eval_id: P1-EX-003
+    question: "在敌人威胁范围内进行远程攻击会引发借机攻击吗？"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatI.rtf", "Table: Actions in Combat", "Attack (ranged)"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应回答威胁格内远程攻击的例外处理。"
+
+  - eval_id: P1-EX-004
+    question: "穿重甲时可以 Run 吗？"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatI.rtf", "Run"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应给出重甲对 Run 的限制。"
+
+  - eval_id: P1-EX-005
+    question: "Helpless 目标可以进行借机攻击吗？"
+    question_type: exception_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["AbilitiesandConditions.rtf", "Condition Summary", "Helpless"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "可支持但证据弱于 flat-footed；需要谨慎推断。"
+
+  - eval_id: P1-NE-001
+    question: "Power Attack 专长允许进行什么交换？"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Feats: Power Attack"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应直接使用专长条目文本。"
+
+  - eval_id: P1-NE-002
+    question: "在没有 Two-Weapon Fighting 专长且副手不是轻型武器时，双持攻击惩罚是多少？"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatII.rtf", "Table: Two-Weapon Fighting Penalties", "Off-hand weapon is not light"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应返回表格中“副手非轻型武器”的惩罚行。"
+
+  - eval_id: P1-NE-003
+    question: "Dodge 专长是如何运作的？"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Feats: Dodge"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应包含指定目标相关要求。"
+
+  - eval_id: P1-NE-004
+    question: "Magic Missile 施放时是否需要攻击检定？"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Spells: Magic Missile"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应明确是否需要攻击检定。"
+
+  - eval_id: P1-NE-005
+    question: "Cleave 专长由什么条件触发？"
+    question_type: named_entry
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Feats: Cleave"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应给出条目中的触发条件。"
+
+  - eval_id: P1-MC-001
+    question: "进行 Full Attack 时还能走 5-foot step 吗？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatI.rtf", "Full Attack"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "Full Attack 条文直接写明唯一允许移动是 5-foot step。"
+
+  - eval_id: P1-MC-002
+    question: "角色隐形时发动攻击，第一次攻击会获得哪些战斗优势？"
+    question_type: multi_chunk
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["AbilitiesandConditions.rtf", "Condition Summary", "Invisible", "SpellsH-L.rtf", "Invisibility"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "需要同时覆盖“首击优势”和“攻击后打破隐形”。"
+
+  - eval_id: P1-MC-003
+    question: "在被威胁时能否防御施法？成功检定是什么？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatI.rtf", "Casting on the Defensive"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "单条规则即可给出不引发 AoO 与 DC 15 + spell level。"
+
+  - eval_id: P1-MC-004
+    question: "使用 Tumble 穿过威胁格时，能避免什么、不能避免什么？"
+    question_type: multi_chunk
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Skills: Tumble", "Combat: Attacks of Opportunity"]
+    expected_behavior: supported_inference
+    expected_answer_notes: "应结合技能限制与 AoO 基线规则。"
+
+  - eval_id: P1-MC-005
+    question: "可以穿过困难地形进行冲锋（Charge）吗？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatII.rtf", "Difficult Terrain", "Charge"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应直接依据困难地形与冲锋限制回答。"
+
+  - eval_id: P1-TB-001
+    question: "力量 10 时，中负重区间是多少？"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Carrying Capacity Table", "Carrying and Exploration"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应引用力量 10 对应行。"
+
+  - eval_id: P1-TB-002
+    question: "属性值 18 对应的能力调整值是多少？"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Ability Scores", "Ability Modifiers Table"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应从能力调整值表读取。"
+
+  - eval_id: P1-TB-003
+    question: "Full Plate 的 armor check penalty 是多少？"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Equipment", "Armor and Shields Table", "Full Plate"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应引用护甲表中 full plate 对应行。"
+
+  - eval_id: P1-TB-004
+    question: "Improved cover 提供的掩护加值是多少？"
+    question_type: direct_lookup
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["CombatII.rtf", "Varying Degrees of Cover", "Improved Cover"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应从正文规则回答，而不是表格。"
+
+  - eval_id: P1-TB-005
+    question: "大型（Large）生物在攻击检定上的体型修正是多少？"
+    question_type: table_dependent
+    expected_source_ids: [srd_35]
+    expected_section_or_entry: ["Combat", "Creature Size Modifiers Table"]
+    expected_behavior: direct_answer
+    expected_answer_notes: "应从体型修正表读取攻击修正。"
+
+  - eval_id: P1-IE-001
+    question: "3.5e 里 warlock 的 Eldritch Blast 随等级如何成长？"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Warlock 职业进阶不在当前 admitted 的 srd_35 引导切片内。"
+
+  - eval_id: P1-IE-002
+    question: "Artificer 在 5 级有多少 infusion slots？"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Artificer 内容超出当前 admitted 语料边界。"
+
+  - eval_id: P1-IE-003
+    question: "我能花 inspiration 来让攻击获得 advantage 吗？"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "这是 5e 机制，超出当前 3.5e 语料范围。"
+
+  - eval_id: P1-IE-004
+    question: "5e 法师 1 级会多少个 cantrip？"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "版本越界问题，应该明确 abstain。"
+
+  - eval_id: P1-IE-005
+    question: "Hexblade's Curse 的效果是什么？"
+    question_type: insufficient_evidence
+    expected_source_ids: []
+    expected_section_or_entry: []
+    expected_behavior: abstain
+    expected_answer_notes: "Hexblade 特性不在当前 admitted source 边界内。"
