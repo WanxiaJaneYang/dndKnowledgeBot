@@ -1,26 +1,23 @@
 {
-  "chunk_id": "phb_35::chapter_03::fighter::bonus_feats::chunk_1",
-  "document_id": "phb_35::chapter_03::fighter::bonus_feats",
+  "chunk_id": "srd_35::classes::fighter::bonus_feats::chunk_1",
+  "document_id": "srd_35::classes::fighter::bonus_feats",
   "source_ref": {
-    "source_id": "phb_35",
-    "title": "Player's Handbook",
+    "source_id": "srd_35",
+    "title": "System Reference Document",
     "edition": "3.5e",
-    "source_type": "core_rulebook",
-    "authority": "official"
+    "source_type": "srd",
+    "authority_level": "official_reference"
   },
   "locator": {
     "section_path": [
-      "Chapter 3: Classes",
+      "Classes",
       "Fighter",
       "Class Features",
       "Bonus Feats"
     ],
     "entry_title": "Bonus Feats",
-    "page_range": {
-      "start": 37,
-      "end": 38
-    }
+    "source_location": "ClassesI.rtf > Bonus Feats"
   },
   "chunk_type": "class_feature",
-  "content": "Bonus Feats: At 1st level, a fighter gets a bonus combat-oriented feat in addition to the feat that any 1st-level character gets and the bonus feat granted to a human character. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th). These bonus feats must be drawn from the feats noted as fighter bonus feats. A fighter must still meet all prerequisites for a bonus feat, including ability score and base attack bonus minimums."
+  "content": "Bonus Feats: At 1st level, a fighter gets a bonus combat-oriented feat. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter. These bonus feats must be drawn from the feats noted as fighter bonus feats, and the fighter must still meet all prerequisites."
 }
