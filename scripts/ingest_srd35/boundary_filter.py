@@ -16,12 +16,17 @@ TRUNCATED_TITLE_SUFFIXES = {"and", "or", "the", "of", "to", "for", "a", "an"}
 
 
 def _looks_truncated_title(title: str) -> bool:
-    tokens = re.findall(r"[a-z]+", title.lower())
-    if not tokens:
+    original_tokens = re.findall(r"[A-Za-z]+", title)
+    if not original_tokens:
         return True
-    if len(tokens) == 1 and len(tokens[0]) <= 4:
-        return True
-    if tokens[-1] in TRUNCATED_TITLE_SUFFIXES:
+    if len(original_tokens) == 1:
+        token = original_tokens[0]
+        if token.isupper():
+            return False
+        if len(token) <= 4:
+            return True
+    lower_last = original_tokens[-1].lower()
+    if lower_last in TRUNCATED_TITLE_SUFFIXES:
         return True
     return False
 

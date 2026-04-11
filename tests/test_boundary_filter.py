@@ -71,6 +71,14 @@ class BoundaryFilterTests(unittest.TestCase):
         self.assertEqual(len(accepted), 1)
         self.assertEqual(decisions[1]["reason_code"], "table_label_title")
 
+    def test_keeps_uppercase_single_token_titles(self) -> None:
+        candidates = [
+            _candidate("THE NINE ALIGNMENTS", "Alignment overview text." * 4),
+            _candidate("AGE", "Age category and aging effects table context." * 4),
+        ]
+        accepted, _ = apply_boundary_filters("Description", "Description.rtf", candidates)
+        self.assertEqual([section["section_title"] for section in accepted], ["THE NINE ALIGNMENTS", "AGE"])
+
     def test_does_not_over_clean_valid_sections(self) -> None:
         candidates = [
             _candidate("FAVORED CLASS", "Each race has a favored class used for multiclass XP rules." * 3),

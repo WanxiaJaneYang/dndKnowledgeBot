@@ -57,17 +57,17 @@ b0010 paragraph L12: People who are neutral with respect to good and evil have c
 
 ### Boundary Decisions
 
-- [accepted] `Description` (accepted_clean, blocks b0001..b0002)
+- [accepted] `Description` (accepted_clean, blocks b0001..b0001)
 - [accepted] `ALIGNMENT` (accepted_clean, blocks b0004..b0005)
 - [accepted] `GOOD VS. EVIL` (accepted_clean, blocks b0007..b0012)
 - [accepted] `LAW VS. CHAOS` (accepted_clean, blocks b0014..b0020)
-- [accepted] `THE NINE ALIGNMENTS` (accepted_clean, blocks b0022..b0048)
-- [merged_backward] `AGE` (suspicious_short_or_truncated, blocks b0050..b0060)
+- [accepted] `THE NINE ALIGNMENTS` (accepted_clean, blocks b0022..b0047)
+- [accepted] `AGE` (accepted_clean, blocks b0050..b0058)
 - [merged_backward] `Wizard |` (table_label_title, blocks b0062..b0072)
 - [merged_backward] `Table: Aging Effects |` (table_label_title, blocks b0074..b0084)
 - [accepted] `HEIGHT AND WEIGHT` (accepted_clean, blocks b0086..b0102)
 
-### Canonical Sections (6)
+### Canonical Sections (7)
 
 - document_id: `srd_35_fixture::description::001_description`
 - section_path: `['Description', 'Description']`
@@ -75,7 +75,6 @@ b0010 paragraph L12: People who are neutral with respect to good and evil have c
 - content preview:
 ```text
 This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
-DESCRIPTION
 ```
 - document_id: `srd_35_fixture::description::002_alignment`
 - section_path: `['Description', 'ALIGNMENT']`
@@ -123,9 +122,22 @@ Neutral Good, “Benefactor”: A neutral good character does the best that a go
 Neutral good is the best alignment you can be because it means doing what is good without bias for or against order.
 ...
 ```
-- document_id: `srd_35_fixture::description::006_height_and_weight`
+- document_id: `srd_35_fixture::description::006_age`
+- section_path: `['Description', 'AGE']`
+- source_location: `Description.rtf#006_age`
+- content preview:
+```text
+You can choose or randomly generate your character's age. If you choose it, it must be at least the minimum age for the character's race and class (see Table: Random Starting Ages). Your character's minimum starting age is the adulthood age of his or her race plus the number of dice indicated in the entry corresponding to the character's race and class on Table: Random Starting Ages.
+Alternatively, refer to Table: Random Starting Ages and roll dice to determine how old your character is.
+Table: Random Starting Ages |
+Race | Adulthood | Barbarian
+Rogue
+Sorcerer | Bard
+...
+```
+- document_id: `srd_35_fixture::description::007_height_and_weight`
 - section_path: `['Description', 'HEIGHT AND WEIGHT']`
-- source_location: `Description.rtf#006_height_and_weight`
+- source_location: `Description.rtf#007_height_and_weight`
 - content preview:
 ```text
 The dice roll given in the Height Modifier column determines the character's extra height beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier column determines the character's extra weight beyond the base weight.
@@ -334,7 +346,7 @@ b0010 paragraph L12: Druid: Sylvan.
 
 ### Boundary Decisions
 
-- [accepted] `Races` (accepted_clean, blocks b0001..b0002)
+- [accepted] `Races` (accepted_clean, blocks b0001..b0001)
 - [accepted] `FAVORED CLASS` (accepted_clean, blocks b0004..b0004)
 - [accepted] `RACE AND LANGUAGES` (accepted_clean, blocks b0006..b0011)
 - [accepted] `SMALL CHARACTERS` (accepted_clean, blocks b0013..b0015)
@@ -354,7 +366,6 @@ b0010 paragraph L12: Druid: Sylvan.
 - content preview:
 ```text
 This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
-RACES
 ```
 - document_id: `srd_35_fixture::races::002_favored_class`
 - section_path: `['Races', 'FAVORED CLASS']`

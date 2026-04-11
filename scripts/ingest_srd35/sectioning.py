@@ -76,11 +76,14 @@ def split_sections_from_blocks(file_stem: str, blocks: list[dict]) -> list[dict]
         next_index = index + 1
         if next_index >= len(blocks):
             return False
-        if blocks[next_index].get("block_type") == "heading_candidate":
+        look_from = next_index
+        while look_from < len(blocks) and blocks[look_from].get("block_type") == "heading_candidate":
+            look_from += 1
+        if look_from >= len(blocks):
             return False
         body_chars = 0
         has_paragraph = False
-        for look_ahead in blocks[next_index:]:
+        for look_ahead in blocks[look_from:]:
             look_type = look_ahead.get("block_type", "paragraph")
             if look_type == "heading_candidate":
                 break
