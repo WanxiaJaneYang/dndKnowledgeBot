@@ -86,6 +86,8 @@ This repository is expected to grow around a small set of design documents.
 
 - `docs/product_scope.md` — product boundaries, goals, and non-goals
 - `docs/architecture_overview.md` — high-level system flow and module boundaries
+- `docs/source_bootstrap_plan.md` — bootstrap source admission rules and first corpus slice
+- `docs/metadata_contract.md` — shared vocabulary for source identity and locator semantics
 - `docs/corpus_ingestion_design.md` — source handling and canonical corpus design
 - `docs/chunking_retrieval_design.md` — chunking strategy, metadata, and retrieval flow
 - `docs/citation_policy.md` — citation rules and answer provenance requirements
@@ -149,4 +151,4 @@ Avoid:
 
 ## Next step
 
-The immediate next step is to use the pinned `srd_35` snapshot as the concrete bootstrap source, then build the first gold question set and ingestion spike against that admitted slice.
+The bootstrap source is pinned and the metadata contract is unified. The immediate next step is to build the first gold evaluation set against `srd_35` — 25–40 questions covering direct lookup, exceptions, multi-chunk, table-dependent, and insufficient-evidence cases.

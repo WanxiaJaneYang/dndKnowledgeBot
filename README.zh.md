@@ -86,6 +86,8 @@
 
 - `docs/product_scope.md` — 产品边界、目标与非目标
 - `docs/architecture_overview.md` — 高层系统流程与模块边界
+- `docs/source_bootstrap_plan.md` — bootstrap 来源准入规则与第一批语料切片
+- `docs/metadata_contract.md` — 来源身份与定位语义的共享词汇契约
 - `docs/corpus_ingestion_design.md` — 来源处理与规范语料库设计
 - `docs/chunking_retrieval_design.md` — 分块策略、元数据与检索流程
 - `docs/citation_policy.md` — 引用规则与答案来源溯源要求
@@ -150,5 +152,4 @@
 
 ## 下一步
 
-当前最紧迫的任务，是把已经固定下来的 `srd_35` 快照作为具体的启动语料，
-再围绕这个 admitted slice 构建第一批金标问题和 ingestion spike。
+bootstrap 来源已固定，元数据契约已统一。当前最紧迫的任务，是针对 `srd_35` 构建第一版金标评测集——25 至 40 道问题，覆盖直接查找、规则例外、多块拼接、依赖表格及证据不足等类型。
