@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::specialmaterials::002_special_materials",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpecialMaterials",
+      "SPECIAL MATERIALS"
+    ],
+    "source_location": "SpecialMaterials.rtf#002_special_materials"
+  },
+  "content": "In addition to magic items created with spells, some substances have innate special properties.\nIf you make a suit of armor or weapon out of more than one special material, you get the benefit of only the most prevalent material. However, you can build a double weapon with each head made of a different special material.",
+  "document_title": "SPECIAL MATERIALS",
+  "source_checksum": "f25faa8965a41754187cc472f4934daa7739ce83"
+}

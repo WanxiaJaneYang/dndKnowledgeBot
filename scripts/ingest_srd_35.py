@@ -2,9 +2,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
-from scripts.ingest_srd35 import DEFAULT_MANIFEST, decode_rtf_text, ingest_source, load_manifest
+if __package__ is None or __package__ == "":
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from ingest_srd35 import DEFAULT_MANIFEST, decode_rtf_text, ingest_source, load_manifest
+else:
+    from scripts.ingest_srd35 import DEFAULT_MANIFEST, decode_rtf_text, ingest_source, load_manifest
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -37,6 +42,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="Print the result as JSON.",
     )
+    parser.add_argument(
+        "--require-schema-validation",
+        action="store_true",
+        help="Fail ingestion if canonical JSON cannot be validated against canonical_document.schema.json.",
+    )
     return parser.parse_args(argv)
 
 
@@ -45,7 +55,13 @@ def main(argv: list[str] | None = None) -> int:
     repo_root = args.repo_root.resolve()
     manifest_path = args.manifest if args.manifest.is_absolute() else (repo_root / args.manifest).resolve()
     manifest = load_manifest(manifest_path)
-    result = ingest_source(manifest, repo_root, force=args.force, limit=args.limit)
+    result = ingest_source(
+        manifest,
+        repo_root,
+        force=args.force,
+        limit=args.limit,
+        require_schema_validation=args.require_schema_validation,
+    )
 
     if args.json:
         print(json.dumps(result, indent=2))

@@ -4,23 +4,24 @@
 
 ## Phase 0 - Design (current)
 
-- [ ] Define product scope
+- [x] Define product scope
 - [x] Define source bootstrap plan and admission contract
-- [ ] Design corpus ingestion pipeline
-- [ ] Design chunking and retrieval pipeline
-- [ ] Define citation policy
-- [ ] Define model strategy (roles and selection criteria)
-- [ ] Define evaluation plan
+- [x] Design corpus ingestion pipeline
+- [x] Design chunking and retrieval pipeline
+- [x] Define citation policy
+- [x] Define model strategy (roles and selection criteria)
+- [x] Define evaluation plan
 - [x] Freeze the admitted bootstrap source slice (`srd_35`)
 - [x] Build a 20-30 question gold set for that slice
 - [x] Align thin `source_ref` / `locator` / `answer_segments` contracts
-- [ ] Validate provisional schemas against the slice
+- [x] Validate provisional schemas against the slice
 
 ## Phase 1 - Core Implementation
 
 **Sources:** Bootstrap with `srd_35`, then expand deliberately to PHB, DMG, MM, and later official errata / FAQ as the contracts hold up.
 
-- [ ] Implement ingestion pipeline (extraction + normalization)
+- [x] Implement ingestion pipeline (extraction + normalization)
+- [x] Add fixture corpus + golden outputs + preview evidence standard
 - [ ] Implement chunker
 - [ ] Choose a baseline local vector index plus one embedding model and one answer model
 - [ ] Set up vector index and embedding pipeline

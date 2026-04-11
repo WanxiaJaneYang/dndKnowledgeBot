@@ -61,7 +61,10 @@ def decode_rtf_text(rtf_text: str) -> str:
             continue
 
         if char != "\\":
-            _append_if_visible(output, char, skip_group)
+            # Ignore physical source line wraps in raw RTF text; semantic newlines
+            # are emitted from control words such as \par and \line.
+            if char not in "\r\n":
+                _append_if_visible(output, char, skip_group)
             if not char.isspace():
                 group_just_opened = False
             i += 1

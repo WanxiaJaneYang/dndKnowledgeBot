@@ -2,13 +2,16 @@ from __future__ import annotations
 
 import hashlib
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .boundary_filter import apply_boundary_filters
 from .constants import EXTRACTION_CAVEATS, INGESTION_NOTES
+from .extraction_ir import build_extraction_ir
 from .paths import remove_directory_if_present, resolve_repo_relative_path
 from .rtf_decoder import decode_rtf_text
+from .schema_validation import validate_canonical_docs
+from .sectioning import sanitize_identifier, split_sections_from_blocks
 
 
 def _sha1_bytes(payload: bytes) -> str:
@@ -19,12 +22,6 @@ def _sha1_bytes(payload: bytes) -> str:
 
 def _sha1_text(text: str) -> str:
     return _sha1_bytes(text.encode("utf-8"))
-
-
-def _sanitize_identifier(value: str) -> str:
-    lowered = value.lower()
-    normalized = re.sub(r"[^a-z0-9]+", "_", lowered).strip("_")
-    return normalized or "unknown"
 
 
 def build_source_ref(manifest: dict) -> dict:
@@ -80,19 +77,28 @@ def ingest_source(
     *,
     force: bool = False,
     limit: int | None = None,
+    require_schema_validation: bool = False,
 ) -> dict:
+    if limit is not None and limit <= 0:
+        raise ValueError("limit must be a positive integer or None")
+
     layout = manifest["local_layout"]
     raw_root = resolve_repo_relative_path(repo_root, layout["raw_root"])
     expanded_root = resolve_repo_relative_path(repo_root, layout["expanded_root"])
     extracted_root = resolve_repo_relative_path(repo_root, layout["extracted_root"])
     canonical_root = resolve_repo_relative_path(repo_root, layout["canonical_root"])
 
+    if not force and (extracted_root.exists() or canonical_root.exists()):
+        raise FileExistsError(
+            "Output directories already exist. Re-run with --force to regenerate extracted/canonical outputs."
+        )
     if force:
         remove_directory_if_present(extracted_root, repo_root)
         remove_directory_if_present(canonical_root, repo_root)
-
     extracted_text_root = extracted_root / "text"
+    extracted_ir_root = extracted_root / "ir"
     extracted_text_root.mkdir(parents=True, exist_ok=True)
+    extracted_ir_root.mkdir(parents=True, exist_ok=True)
     canonical_root.mkdir(parents=True, exist_ok=True)
 
     rtf_files = sorted(expanded_root.glob("*.rtf"))
@@ -103,6 +109,8 @@ def ingest_source(
     ingested_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     extraction_records: list[dict] = []
     canonical_records: list[dict] = []
+    canonical_docs: list[dict] | None = [] if require_schema_validation else None
+    demote_heading_candidate_files = set(manifest.get("fixture_overrides", {}).get("demote_heading_candidate_files", []))
 
     for rtf_path in rtf_files:
         raw_bytes = rtf_path.read_bytes()
@@ -110,49 +118,68 @@ def ingest_source(
         raw_checksum = _sha1_bytes(raw_bytes)
         extracted_checksum = _sha1_text(decoded)
 
-        source_location = f"rtf/{rtf_path.name}"
-        section_name = rtf_path.stem
-        section_path = [section_name]
-        doc_slug = _sanitize_identifier(section_name)
-        document_id = f"{manifest['source_id']}::{doc_slug}"
-
-        extracted_path = extracted_text_root / f"{doc_slug}.txt"
+        source_location_base = rtf_path.relative_to(expanded_root).as_posix()
+        file_slug = sanitize_identifier(rtf_path.stem)
+        extracted_path = extracted_text_root / f"{file_slug}.txt"
         extracted_path.write_text(decoded + "\n", encoding="utf-8")
+        extraction_ir = build_extraction_ir(file_name=rtf_path.name, text=decoded)
+        if rtf_path.name in demote_heading_candidate_files:
+            for block in extraction_ir["blocks"]:
+                if block.get("block_type") == "heading_candidate":
+                    block["block_type"] = "paragraph"
+        extracted_ir_path = extracted_ir_root / f"{file_slug}.json"
+        extracted_ir_path.write_text(json.dumps(extraction_ir, indent=2) + "\n", encoding="utf-8")
 
-        canonical_doc = {
-            "document_id": document_id,
-            "source_ref": source_ref,
-            "locator": {"section_path": section_path, "source_location": source_location},
-            "content": decoded,
-            "document_title": section_name,
-            "source_checksum": raw_checksum,
-            "ingested_at": ingested_at,
-        }
-        canonical_path = canonical_root / f"{doc_slug}.json"
-        canonical_path.write_text(json.dumps(canonical_doc, indent=2) + "\n", encoding="utf-8")
+        section_candidates = split_sections_from_blocks(rtf_path.stem, extraction_ir["blocks"])
+        sections, boundary_decisions = apply_boundary_filters(rtf_path.stem, rtf_path.name, section_candidates)
+        for index, section in enumerate(sections, start=1):
+            section_slug = section["section_slug"]
+            section_title = section["section_title"]
+            source_location = f"{source_location_base}#{index:03d}_{section_slug}"
+            section_path = [rtf_path.stem, section_title]
+            document_id = f"{manifest['source_id']}::{file_slug}::{index:03d}_{section_slug}"
+
+            canonical_doc = {
+                "document_id": document_id,
+                "source_ref": source_ref,
+                "locator": {"section_path": section_path, "source_location": source_location},
+                "content": section["content"],
+                "document_title": section_title,
+                "source_checksum": raw_checksum,
+                "ingested_at": ingested_at,
+            }
+            if canonical_docs is not None:
+                canonical_docs.append(canonical_doc)
+
+            canonical_path = canonical_root / f"{file_slug}__{index:03d}_{section_slug}.json"
+            canonical_path.write_text(json.dumps(canonical_doc, indent=2) + "\n", encoding="utf-8")
+            canonical_records.append(
+                {
+                    "document_id": document_id,
+                    "canonical_path": str(canonical_path.relative_to(repo_root)),
+                    "source_checksum": raw_checksum,
+                    "section_path": section_path,
+                    "source_location": source_location,
+                }
+            )
 
         extraction_records.append(
             {
                 "file_name": rtf_path.name,
-                "source_location": source_location,
-                "section_path": section_path,
+                "source_location": source_location_base,
                 "raw_sha1": raw_checksum,
                 "extracted_sha1": extracted_checksum,
                 "extracted_text_path": str(extracted_path.relative_to(repo_root)),
-                "ingestion_notes": INGESTION_NOTES,
-                "extraction_caveats": EXTRACTION_CAVEATS,
-            }
-        )
-        canonical_records.append(
-            {
-                "document_id": document_id,
-                "canonical_path": str(canonical_path.relative_to(repo_root)),
-                "source_checksum": raw_checksum,
-                "section_path": section_path,
-                "source_location": source_location,
+                "extracted_ir_path": str(extracted_ir_path.relative_to(repo_root)),
+                "ir_block_count": len(extraction_ir["blocks"]),
+                "section_candidate_count": len(section_candidates),
+                "section_count": len(sections),
+                "boundary_decisions": boundary_decisions,
             }
         )
 
+    validation_payload = canonical_docs if canonical_docs is not None else []
+    validation_result = validate_canonical_docs(validation_payload, repo_root, require_validation=require_schema_validation)
     extracted_report_path, canonical_report_path = _write_reports(
         manifest=manifest,
         repo_root=repo_root,
@@ -164,7 +191,6 @@ def ingest_source(
         extraction_records=extraction_records,
         canonical_records=canonical_records,
     )
-
     return {
         "source_id": manifest["source_id"],
         "extracted_root": str(extracted_root),
@@ -172,4 +198,5 @@ def ingest_source(
         "documents_written": len(canonical_records),
         "extraction_report": str(extracted_report_path),
         "canonical_report": str(canonical_report_path),
+        "schema_validation": validation_result,
     }
