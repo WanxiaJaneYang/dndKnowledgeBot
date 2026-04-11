@@ -6,7 +6,7 @@ A private, personal RAG project for asking grounded questions about **Dungeons &
 
 ## Project status
 
-This repository is currently in the **design phase**.
+This repository is in **early implementation** (Phase 1 bootstrap path in progress).
 
 At this stage, the focus is:
 
@@ -15,7 +15,7 @@ At this stage, the focus is:
 - defining ingestion, chunking, retrieval, and citation strategy
 - defining evaluation criteria
 
-This repository is **not yet implementation-first**. Code, infrastructure, and deployment choices should follow the design documents rather than lead them.
+Design documents are still the source of truth, but ingestion and evaluation scaffolding are now implemented and used for regression evidence.
 
 ## Vision
 
@@ -151,4 +151,4 @@ Avoid:
 
 ## Next step
 
-The bootstrap source is pinned and the metadata contract is unified. The immediate next step is to build the first gold evaluation set against `srd_35` — 25–40 questions covering direct lookup, exceptions, multi-chunk, table-dependent, and insufficient-evidence cases.
+The bootstrap source is pinned, the metadata contract is unified, and the Phase-1 gold evaluation set is committed. The immediate next step is to implement the first end-to-end baseline (rule-aware chunking + retrieval + evidence-pack QA) against `srd_35`.
