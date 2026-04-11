@@ -46,5 +46,8 @@ sources:
     status: admitted_bootstrap
     priority: primary
     notes: >-
-      Bootstrap source for Phase 1. Use this admitted slice first for evaluation,
-      ingestion, and citation-contract validation before expanding to PHB / DMG / MM.
+      Bootstrap source for Phase 1. Materialize it locally with
+      `python scripts/fetch_srd_35.py` using the pinned manifest at
+      `configs/bootstrap_sources/srd_35.manifest.json`, then use that admitted
+      slice first for evaluation, ingestion, and citation-contract validation
+      before expanding to PHB / DMG / MM.

@@ -116,6 +116,10 @@ Initial source priorities:
 
 The system should preserve source provenance at all times.
 
+For the bootstrap slice, the repo now pins `srd_35` via
+`configs/bootstrap_sources/srd_35.manifest.json`. Run `python scripts/fetch_srd_35.py`
+to materialize the local source under `data/raw/srd_35/` without committing the raw SRD files.
+
 ## Answering policy
 
 The assistant should:
@@ -145,4 +149,4 @@ Avoid:
 
 ## Next step
 
-The immediate next step is to freeze the bootstrap source plan around `srd_35`, then build the first gold question set and ingestion spike against that admitted slice.
+The immediate next step is to use the pinned `srd_35` snapshot as the concrete bootstrap source, then build the first gold question set and ingestion spike against that admitted slice.

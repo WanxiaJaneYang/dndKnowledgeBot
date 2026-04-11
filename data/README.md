@@ -1,6 +1,6 @@
 # data/
 
-This directory holds local corpus files. **Nothing here is committed to git.**
+This directory holds local corpus files. **Artifacts under `data/raw/`, `data/extracted/`, `data/canonical/`, and `data/chunks/` are local outputs and are not committed to git.**
 
 ## Expected Layout
 
@@ -24,6 +24,13 @@ data/
 `-- canonical/
     `-- srd_35/
 ```
+
+Bootstrap materialization:
+
+- The committed source manifest lives at [`configs/bootstrap_sources/srd_35.manifest.json`](../configs/bootstrap_sources/srd_35.manifest.json).
+- Run `python scripts/fetch_srd_35.py` from the repo root to populate `data/raw/srd_35/`.
+- The fetch script downloads the pinned `SRD.zip`, verifies its pinned checksums, unpacks the RTF files, and writes `data/raw/srd_35/bootstrap_provenance.json`.
+- `data/extracted/srd_35/` and `data/canonical/srd_35/` remain the next handoff points for issue `#4`; this issue does not populate them yet.
 
 ## Copyright Notice
 
