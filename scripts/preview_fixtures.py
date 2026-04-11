@@ -77,6 +77,17 @@ def build_preview_markdown(repo_root: Path, evidence: dict) -> str:
         lines.append("```")
         lines.append("")
 
+        record = next((r for r in evidence["extraction_report"]["records"] if r["file_name"] == fixture.name), None)
+        if record:
+            lines.append("### Boundary Decisions")
+            lines.append("")
+            for decision in record.get("boundary_decisions", []):
+                lines.append(
+                    f"- [{decision['action']}] `{decision['title']}` "
+                    f"({decision['reason_code']}, blocks {decision['block_start_id']}..{decision['block_end_id']})"
+                )
+            lines.append("")
+
         related = [r for r in canonical_report["records"] if r["source_location"].startswith(fixture.name)]
         lines.append(f"### Canonical Sections ({len(related)})")
         lines.append("")

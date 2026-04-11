@@ -5,6 +5,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .boundary_filter import apply_boundary_filters
 from .constants import EXTRACTION_CAVEATS, INGESTION_NOTES
 from .extraction_ir import build_extraction_ir
 from .paths import remove_directory_if_present, resolve_repo_relative_path
@@ -129,7 +130,8 @@ def ingest_source(
         extracted_ir_path = extracted_ir_root / f"{file_slug}.json"
         extracted_ir_path.write_text(json.dumps(extraction_ir, indent=2) + "\n", encoding="utf-8")
 
-        sections = split_sections_from_blocks(rtf_path.stem, extraction_ir["blocks"])
+        section_candidates = split_sections_from_blocks(rtf_path.stem, extraction_ir["blocks"])
+        sections, boundary_decisions = apply_boundary_filters(rtf_path.stem, rtf_path.name, section_candidates)
         for index, section in enumerate(sections, start=1):
             section_slug = section["section_slug"]
             section_title = section["section_title"]
@@ -169,7 +171,9 @@ def ingest_source(
                 "extracted_text_path": str(extracted_path.relative_to(repo_root)),
                 "extracted_ir_path": str(extracted_ir_path.relative_to(repo_root)),
                 "ir_block_count": len(extraction_ir["blocks"]),
+                "section_candidate_count": len(section_candidates),
                 "section_count": len(sections),
+                "boundary_decisions": boundary_decisions,
             }
         )
 

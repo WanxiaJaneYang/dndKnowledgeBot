@@ -1,0 +1,20 @@
+{
+  "document_id": "srd_35_fixture::description::008_halfling",
+  "source_ref": {
+    "source_id": "srd_35_fixture",
+    "title": "SRD 3.5 Fixture Corpus (Real Source Files)",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Description",
+      "Halfling |"
+    ],
+    "source_location": "Description.rtf#008_halfling"
+  },
+  "content": "20 years | +2d4 | +3d6 | +4d6 |\n|\n| | | |\nWith age, a character'\ns physical ability scores decrease and his or her mental ability scores increase (see Table: Aging Effects). The effects of each aging step are cumulative. However, none of a character's ability scores can be reduced below 1 in this way.\nWhen a character r\neaches venerable age, secretly roll his or her maximum age, which is the number from the Venerable column on Table: Aging Effects plus the result of the dice roll indicated on the Maximum Age column on that table, and records the result, which the player\ndoes not know. A character who reaches his or her maximum age dies of old age at some time during the following year.\nThe maximum ages are for player characters. Most people in the world at large die from pestilence, accidents, infections, or violence before getting to venerable age.\nTable: Aging Effects |\nRace | Middle Age\n1 | Old2 | Venerable3 | Maximum Age |\nHuman |\n35 years | 53 years | 70 years | +2d20 years |\nDwarf |\n125 years | 188 years | 250 years | +2d% years |\nElf |\n175 years | 263 years | 350 years | +4d% years |\nGnome |\n100 years | 150 years | 200 years | +3d% years |\nHalf-elf |\n62 years | 93 years | 125 years | +3d20 years |\nHalf-orc |\n30 years | 45 years | 60 years | +2d10 years |",
+  "document_title": "Halfling |",
+  "source_checksum": "5a54efd589761fe351d251f59f5adfb9ebfcf9d3"
+}

@@ -55,7 +55,22 @@ b0010 paragraph L19: “Good” implies altruism, respect for life, and a concer
 ...
 ```
 
-### Canonical Sections (12)
+### Boundary Decisions
+
+- [accepted] `Description` (accepted_clean, blocks b0001..b0003)
+- [accepted] `ALIGNMENT` (accepted_clean, blocks b0005..b0007)
+- [accepted] `GOOD VS. EVIL` (accepted_clean, blocks b0009..b0017)
+- [accepted] `LAW VS. CHAOS` (accepted_clean, blocks b0019..b0020)
+- [accepted] `“Law”` (accepted_clean, blocks b0022..b0030)
+- [accepted] `THE NINE ALIGNMENTS` (accepted_clean, blocks b0032..b0045)
+- [accepted] `Lawful Neutral, “Judge”:` (accepted_clean, blocks b0047..b0082)
+- [merged_backward] `AGE` (suspicious_short_or_truncated, blocks b0084..b0110)
+- [accepted] `Halfling |` (accepted_clean, blocks b0112..b0135)
+- [accepted] `Halfling |` (accepted_clean, blocks b0137..b0143)
+- [accepted] `HEIGHT AND WEIGHT` (accepted_clean, blocks b0145..b0147)
+- [accepted] `Race |` (accepted_clean, blocks b0149..b0172)
+
+### Canonical Sections (11)
 
 - document_id: `srd_35_fixture::description::001_description`
 - section_path: `['Description', 'Description']`
@@ -135,22 +150,9 @@ ongly one way or the other when it comes to good vs. evil or law vs. chaos. Most
 after all, she would rather have good neighbors and rulers than evil ones. Still, she's not personally committed to upholding good in any abstract or universal way.
 ...
 ```
-- document_id: `srd_35_fixture::description::008_age`
-- section_path: `['Description', 'AGE']`
-- source_location: `Description.rtf#008_age`
-- content preview:
-```text
-You can choose or randomly generate your character's age. If you choose it, it must be at least the minimum age for the character's race and class (see Table: Random Starting Ages). Your character'
-s minimum starting age is the adulthood age of his or her race plus the number of dice indicated in the entry corresponding to the character's race and class on Table: Random Starting Ages.
-Alternatively, refer to Table: Random Starting Ages and roll dice to determine how old your character is.
-Table: Random Starting Ages |
-Race |
-Adulthood | Barbarian
-...
-```
-- document_id: `srd_35_fixture::description::009_halfling`
+- document_id: `srd_35_fixture::description::008_halfling`
 - section_path: `['Description', 'Halfling |']`
-- source_location: `Description.rtf#009_halfling`
+- source_location: `Description.rtf#008_halfling`
 - content preview:
 ```text
 20 years | +2d4 | +3d6 | +4d6 |
@@ -161,9 +163,9 @@ s physical ability scores decrease and his or her mental ability scores increase
 When a character r
 ...
 ```
-- document_id: `srd_35_fixture::description::010_halfling`
+- document_id: `srd_35_fixture::description::009_halfling`
 - section_path: `['Description', 'Halfling |']`
-- source_location: `Description.rtf#010_halfling`
+- source_location: `Description.rtf#009_halfling`
 - content preview:
 ```text
 50 years | 75 years | 100 years | +5d20 years |
@@ -174,18 +176,18 @@ When a character r
 3 At venerable age, -
 ...
 ```
-- document_id: `srd_35_fixture::description::011_height_and_weight`
+- document_id: `srd_35_fixture::description::010_height_and_weight`
 - section_path: `['Description', 'HEIGHT AND WEIGHT']`
-- source_location: `Description.rtf#011_height_and_weight`
+- source_location: `Description.rtf#010_height_and_weight`
 - content preview:
 ```text
 The dice roll given in the Height Modifier column determines the character'
 s extra height beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier column determines the character's extra weight beyond the base weight.
 Table: Random Height and Weight |
 ```
-- document_id: `srd_35_fixture::description::012_race`
+- document_id: `srd_35_fixture::description::011_race`
 - section_path: `['Description', 'Race |']`
-- source_location: `Description.rtf#012_race`
+- source_location: `Description.rtf#011_race`
 - content preview:
 ```text
 Base Height | Height Modifier | Base Weight | Weight Modifier |
@@ -243,6 +245,10 @@ b0009 paragraph L17: wer. A deity may invest 1 rank of its power (reducing its d
 b0010 paragraph L21: salient divine abilities held by the patron deity as well as the powers and abilities of a rank 1 demigod. Without the requisite ability scores or divine ranks, the proxy may not be able to use all those powers and abilities. A deity may have more than on
 ...
 ```
+
+### Boundary Decisions
+
+- [accepted] `DivineMinions` (accepted_clean, blocks b0001..b0056)
 
 ### Canonical Sections (1)
 
@@ -306,6 +312,11 @@ b0009 paragraph L17: aste of Hades, Bleak Eternity of Gehenna, Nine Hells of Baa
 b0010 paragraph L19: ness of the Beastlands, Olympian Glades of Arborea, Concordant Domain of the Outlands, Sigil, Lady of Pain, Book of Exalted Deeds, Book of Vile Darkness, beholder, gauth, carrion crawler, tanar'
 ...
 ```
+
+### Boundary Decisions
+
+- [accepted] `LEGAL INFORMATION` (legal_source_passthrough, blocks b0002..b0014)
+- [accepted] `OPEN GAME LICENSE Version 1.0a` (legal_source_passthrough, blocks b0016..b0060)
 
 ### Canonical Sections (2)
 
@@ -382,6 +393,20 @@ b0009 paragraph L17: character.
 b0010 paragraph L19: Literacy: Any character except a barbarian can read and write all the languages he or she speaks.
 ...
 ```
+
+### Boundary Decisions
+
+- [accepted] `Races` (accepted_clean, blocks b0001..b0002)
+- [accepted] `FAVORED CLASS` (accepted_clean, blocks b0004..b0005)
+- [accepted] `RACE AND LANGUAGES` (accepted_clean, blocks b0007..b0014)
+- [accepted] `SMALL CHARACTERS` (accepted_clean, blocks b0016..b0018)
+- [accepted] `HUMANS` (accepted_clean, blocks b0020..b0025)
+- [accepted] `DWARVES` (accepted_clean, blocks b0027..b0045)
+- [accepted] `ELVES` (accepted_clean, blocks b0047..b0055)
+- [accepted] `GNOMES` (accepted_clean, blocks b0057..b0073)
+- [accepted] `HALF-ELVES` (accepted_clean, blocks b0075..b0083)
+- [accepted] `HALF-ORCS` (accepted_clean, blocks b0085..b0092)
+- [accepted] `HALFLINGS` (accepted_clean, blocks b0094..b0105)
 
 ### Canonical Sections (11)
 
@@ -560,6 +585,15 @@ b0009 paragraph L17: Adamantine: This ultrahard metal adds to the quality of a w
 b0010 paragraph L19: om adamantine have a natural ability to bypass hardness when sundering weapons or attacking objects, ignoring hardness less than 20. Armor made from adamantine grants its wearer damage reduction of 1/- if it's light armor, 2/- if it
 ...
 ```
+
+### Boundary Decisions
+
+- [accepted] `SpecialMaterials` (accepted_clean, blocks b0001..b0001)
+- [accepted] `SPECIAL MATERIALS` (accepted_clean, blocks b0003..b0004)
+- [accepted] `SPECIAL WEAPONS MATERIALS` (accepted_clean, blocks b0006..b0018)
+- [accepted] `Ammunition |` (accepted_clean, blocks b0020..b0043)
+- [accepted] `Mithral: Mit` (accepted_clean, blocks b0045..b0054)
+- [accepted] `Item Cost Modifier |` (accepted_clean, blocks b0056..b0073)
 
 ### Canonical Sections (6)
 
