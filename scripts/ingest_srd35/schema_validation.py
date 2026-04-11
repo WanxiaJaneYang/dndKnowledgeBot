@@ -28,15 +28,16 @@ def validate_canonical_docs(
     *,
     require_validation: bool,
 ) -> dict:
+    if not require_validation:
+        return {"enabled": False, "validated_count": 0}
+
     try:
         import jsonschema
     except ImportError as exc:
-        if require_validation:
-            raise RuntimeError(
-                "jsonschema package is required for canonical schema validation. "
-                "Install it and rerun with --require-schema-validation."
-            ) from exc
-        return {"enabled": False, "validated_count": 0}
+        raise RuntimeError(
+            "jsonschema package is required for canonical schema validation. "
+            "Install it and rerun with --require-schema-validation."
+        ) from exc
 
     schema_root = repo_root / "schemas"
     canonical_schema, common_schema = _load_schema(schema_root)

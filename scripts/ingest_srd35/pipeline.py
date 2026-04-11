@@ -122,7 +122,7 @@ def ingest_source(
         for index, section in enumerate(sections, start=1):
             section_slug = section["section_slug"]
             section_title = section["section_title"]
-            source_location = f"{source_location_base}#{section_slug}"
+            source_location = f"{source_location_base}#{index:03d}_{section_slug}"
             section_path = [rtf_path.stem, section_title]
             document_id = f"{manifest['source_id']}::{file_slug}::{index:03d}_{section_slug}"
 

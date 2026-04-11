@@ -99,8 +99,8 @@ class IngestSrd35Tests(unittest.TestCase):
 
         canonical_report = json.loads(Path(result["canonical_report"]).read_text(encoding="utf-8"))
         locations = [record["source_location"] for record in canonical_report["records"]]
-        self.assertTrue(any("#full_attack" in loc for loc in locations))
-        self.assertTrue(any("#charge" in loc for loc in locations))
+        self.assertTrue(any("#001_full_attack" in loc for loc in locations))
+        self.assertTrue(any("#002_charge" in loc for loc in locations))
 
     def test_ingest_source_rejects_non_positive_limit(self) -> None:
         with self.assertRaises(ValueError):
