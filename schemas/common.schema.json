@@ -20,7 +20,7 @@
     },
     "sourceRef": {
       "type": "object",
-      "required": ["source_id", "title", "edition", "source_type", "authority"],
+      "required": ["source_id", "title", "edition", "source_type", "authority_level"],
       "additionalProperties": false,
       "properties": {
         "source_id": {
@@ -42,13 +42,13 @@
             "supplement_rulebook",
             "errata_document",
             "faq_document",
-            "srd_reference",
+            "srd",
             "curated_commentary",
             "personal_note"
           ],
           "description": "Source category shared across registry, ingestion, chunking, and citation layers"
         },
-        "authority": {
+        "authority_level": {
           "type": "string",
           "enum": [
             "official",

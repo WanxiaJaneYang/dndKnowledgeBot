@@ -32,7 +32,7 @@
     "extracted_root": "data/extracted/srd_35",
     "canonical_root": "data/canonical/srd_35"
   },
-  "locator": {
+  "locator_policy": {
     "style": "source_location",
     "bootstrap_rule": "Use source-native file names plus section or entry paths. Do not invent page references for this source."
   },
