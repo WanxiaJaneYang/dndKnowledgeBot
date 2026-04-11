@@ -14,6 +14,10 @@ This directory stores hand-built evaluation datasets used for early regression c
     - multi-chunk support
     - table-dependent lookup
     - insufficient evidence / out-of-scope (abstain)
+- `phase1_gold.zh.yaml`
+  - Chinese-language counterpart of `phase1_gold.yaml`.
+  - Uses the same `eval_id`, `question_type`, and expected metadata contract.
+  - Intended for Chinese-user-facing evaluation while preserving one-to-one case mapping.
 
 ## Case Contract
 
@@ -43,4 +47,3 @@ At minimum, a regression pass should check:
 1. Retrieval includes evidence from the expected source and section/entry.
 2. The answer behavior matches `expected_behavior`.
 3. Citation anchors support the claim type implied by `expected_answer_notes`.
-
