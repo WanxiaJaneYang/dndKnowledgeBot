@@ -13,67 +13,15 @@ from scripts.extract_retrieval_terms import DEFAULT_CANONICAL_ROOT, DEFAULT_CHUN
 
 TERM_ROOT = REPO_ROOT / "configs" / "retrieval_terms"
 
-EXCLUDE_EXACT = {
-    "abilities and manifesters",
-    "abilities and spellcasters",
-    "ability name",
-    "class features",
-    "class skills",
-    "combat statistics",
-    "descriptive text",
-    "skill descriptions",
-    "spell descriptions",
-    "statistics block",
-    "types of feats",
-    "types of epic feats",
-}
-
-EXCLUDE_SUFFIXES = (
-    " general",
-    " epic",
-    " as characters",
-    " descriptions",
-    " domain spells",
-)
-
-EXCLUDE_PREFIXES = (
-    "acquiring ",
-    "adding ",
-    "buying ",
-    "choosing ",
-    "combining ",
-    "craft ",
-    "create ",
-    "creating ",
-    "designing ",
-    "developing ",
-    "determining ",
-    "improved ",
-    "improving ",
-    "reading ",
-    "repairing ",
-    "selling ",
-    "training ",
-    "using ",
-)
-
-EXCLUDE_CONTAINS = (
-    "/",
-    " 0 ",
-    " 1 ",
-    " 2 ",
-    " 3 ",
-    " 4 ",
-    " 5 ",
-    " 6 ",
-    " 7 ",
-    " 8 ",
-    " 9 ",
-)
-
 MANUAL_RUNTIME_TERMS = {
+    "ability modifier",
+    "ability modifiers",
+    "armor bonus",
     "armor class",
+    "armor check penalty",
     "attack bonus",
+    "attack roll",
+    "attack rolls",
     "attack of opportunity",
     "attacks of opportunity",
     "base attack bonus",
@@ -81,35 +29,60 @@ MANUAL_RUNTIME_TERMS = {
     "caster level",
     "challenge rating",
     "combat expertise",
+    "concentration check",
+    "concentration checks",
+    "critical hit",
+    "critical hits",
     "damage reduction",
+    "deflection bonus",
     "difficulty class",
     "extraordinary abilities",
     "extraordinary ability",
+    "flat footed",
     "full attack",
     "full attack action",
+    "full round action",
+    "full round actions",
+    "grapple check",
     "grapple checks",
     "hit dice",
     "hit die",
     "hit point",
     "hit points",
-    "initiative",
+    "key ability",
     "level adjustment",
     "manifester level",
+    "melee touch attack",
+    "melee touch attacks",
+    "natural armor bonus",
     "nonlethal damage",
+    "ranged touch attack",
+    "ranged touch attacks",
+    "reflex save",
     "saving throw",
     "saving throws",
+    "shield bonus",
+    "size modifier",
+    "skill check",
+    "skill checks",
+    "spell completion",
     "spell failure",
     "spell like abilities",
     "spell like ability",
     "spell resistance",
+    "spell trigger",
     "supernatural abilities",
     "supernatural ability",
     "temporary hit points",
     "touch attack",
     "touch attacks",
+    "touch spell",
+    "touch spells",
     "turn resistance",
     "turn undead",
     "turn or rebuke undead",
+    "use activated",
+    "will save",
 }
 
 SURFACE_VARIANTS = sorted({
@@ -157,13 +130,7 @@ CANONICAL_ALIASES = {
 
 def build_term_assets() -> dict:
     extracted = extract_term_candidates(DEFAULT_CANONICAL_ROOT, DEFAULT_CHUNK_ROOT)
-    reviewed = sorted(
-        set(MANUAL_RUNTIME_TERMS)
-        | {
-            term for term in extracted["section_title_candidates"]
-            if _is_runtime_protectable(term)
-        }
-    )
+    reviewed = sorted(MANUAL_RUNTIME_TERMS)
 
     candidates = sorted(set(extracted["protected_phrase_candidates"]) | set(extracted["content_phrase_candidates"]))
 
@@ -189,24 +156,6 @@ def write_term_assets() -> dict:
             encoding="utf-8",
         )
     return assets
-
-
-def _is_runtime_protectable(term: str) -> bool:
-    if term in EXCLUDE_EXACT:
-        return False
-    if any(term.startswith(prefix) for prefix in EXCLUDE_PREFIXES):
-        return False
-    if any(term.endswith(suffix) for suffix in EXCLUDE_SUFFIXES):
-        return False
-    if any(fragment in term for fragment in EXCLUDE_CONTAINS):
-        return False
-    if term.startswith("cr "):
-        return False
-    if term.endswith(" spells") or term.endswith(" powers") or term.endswith(" items"):
-        return False
-    if term.endswith(" domain"):
-        return False
-    return True
 
 
 if __name__ == "__main__":
