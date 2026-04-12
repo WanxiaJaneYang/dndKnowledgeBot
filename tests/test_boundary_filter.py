@@ -79,6 +79,30 @@ class BoundaryFilterTests(unittest.TestCase):
         accepted, _ = apply_boundary_filters("Description", "Description.rtf", candidates)
         self.assertEqual([section["section_title"] for section in accepted], ["THE NINE ALIGNMENTS", "AGE"])
 
+    def test_merges_spell_block_field_candidates(self) -> None:
+        # "Components:", "Spell Resistance:", etc. are bold-formatted field labels
+        # inside spell entries — not independent sections.
+        spell_body = "Evocation [Fire]; Level: Sor/Wiz 1; Duration: Instantaneous" * 3
+        candidates = [
+            _candidate("Burning Hands", spell_body),
+            _candidate("Components: V, S", "V, S"),
+            _candidate("Spell Resistance: Yes", "Yes — spell resistance applies."),
+        ]
+        accepted, decisions = apply_boundary_filters("SpellsA-B", "SpellsA-B.rtf", candidates)
+        self.assertEqual(len(accepted), 1)
+        self.assertEqual(decisions[1]["reason_code"], "spell_block_field")
+        self.assertEqual(decisions[2]["reason_code"], "spell_block_field")
+
+    def test_merges_named_table_headings(self) -> None:
+        # "Table: X" headings (without "|") are table titles, not independent sections.
+        candidates = [
+            _candidate("EPIC FEATS", "Epic feat descriptions follow." * 5),
+            _candidate("Table: Epic Leadership", "Leadership score table data."),
+        ]
+        accepted, decisions = apply_boundary_filters("EpicFeats", "EpicFeats.rtf", candidates)
+        self.assertEqual(len(accepted), 1)
+        self.assertEqual(decisions[1]["reason_code"], "table_label_title")
+
     def test_does_not_over_clean_valid_sections(self) -> None:
         candidates = [
             _candidate("FAVORED CLASS", "Each race has a favored class used for multiclass XP rules." * 3),

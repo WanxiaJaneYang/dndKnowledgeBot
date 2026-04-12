@@ -14,6 +14,24 @@ BOILERPLATE_PHRASES = {
 }
 TRUNCATED_TITLE_SUFFIXES = {"and", "or", "the", "of", "to", "for", "a", "an"}
 
+# Spell / power stat-block field names that appear as bold labels in RTF spell entries.
+# These are not independent sections; they should be merged backward into the preceding
+# spell or power entry.
+_SPELL_BLOCK_FIELDS = {
+    "area",
+    "casting time",
+    "component",
+    "components",
+    "duration",
+    "effect",
+    "level",
+    "range",
+    "saving throw",
+    "spell resistance",
+    "target",
+    "targets",
+}
+
 
 def _looks_truncated_title(title: str) -> bool:
     original_tokens = re.findall(r"[A-Za-z]+", title)
@@ -32,7 +50,27 @@ def _looks_truncated_title(title: str) -> bool:
 
 
 def _looks_table_label_title(title: str) -> bool:
-    return "|" in title
+    """Return True when a candidate title is a table-label heading.
+
+    Two patterns:
+    - Pipe-row syntax: title contains "|" (inline table header or cell row)
+    - Named table: title starts with "Table:" (RTF Table: Name heading style)
+    """
+    return "|" in title or title.strip().lower().startswith("table:")
+
+
+def _looks_spell_block_field(title: str) -> bool:
+    """Return True when a candidate title is a spell/power stat-block field label.
+
+    Spell entries in RTF files format their stat fields (Components, Range,
+    Duration, etc.) with bold text, which the section detector may pick up as
+    heading candidates.  These lines are not independent sections; they belong
+    to the preceding spell or power entry.
+    """
+    if ":" not in title:
+        return False
+    field = title.split(":")[0].strip().lower()
+    return field in _SPELL_BLOCK_FIELDS
 
 
 def _is_boilerplate_stub(candidate: dict, file_stem: str, source_file_name: str) -> bool:
@@ -107,6 +145,9 @@ def apply_boundary_filters(file_stem: str, source_file_name: str, candidates: li
         elif _looks_table_label_title(title):
             action = "merged_backward" if accepted else "merged_forward"
             reason_code = "table_label_title"
+        elif _looks_spell_block_field(title):
+            action = "merged_backward" if accepted else "merged_forward"
+            reason_code = "spell_block_field"
         elif _is_table_fragment(candidate):
             action = "merged_backward" if accepted else "merged_forward"
             reason_code = "table_fragment_section"
