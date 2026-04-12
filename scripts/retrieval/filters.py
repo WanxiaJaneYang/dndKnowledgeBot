@@ -6,7 +6,6 @@ scoring or ranking takes place.
 """
 from __future__ import annotations
 
-import yaml
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -24,12 +23,17 @@ class RetrievalConstraints:
     authority_levels: frozenset[str]
     excluded_source_ids: frozenset[str]
 
-    def accepts(self, chunk_meta: dict[str, Any]) -> bool:
-        """Return True if chunk metadata passes all hard filters."""
-        edition = chunk_meta.get("edition", "")
-        source_type = chunk_meta.get("source_type", "")
-        authority_level = chunk_meta.get("authority_level", "")
-        source_id = chunk_meta.get("source_id", "")
+    def accepts(self, chunk: dict[str, Any]) -> bool:
+        """Return True if chunk passes all hard filters.
+
+        Reads filter fields from ``source_ref`` (the real chunk shape)
+        and falls back to top-level keys for flat metadata dicts.
+        """
+        ref = _extract_source_ref(chunk)
+        edition = ref.get("edition", "")
+        source_type = ref.get("source_type", "")
+        authority_level = ref.get("authority_level", "")
+        source_id = ref.get("source_id", "")
 
         if edition not in self.editions:
             return False
@@ -41,12 +45,13 @@ class RetrievalConstraints:
             return False
         return True
 
-    def rejection_reason(self, chunk_meta: dict[str, Any]) -> str | None:
+    def rejection_reason(self, chunk: dict[str, Any]) -> str | None:
         """Return a human-readable reason if rejected, else None."""
-        edition = chunk_meta.get("edition", "")
-        source_type = chunk_meta.get("source_type", "")
-        authority_level = chunk_meta.get("authority_level", "")
-        source_id = chunk_meta.get("source_id", "")
+        ref = _extract_source_ref(chunk)
+        edition = ref.get("edition", "")
+        source_type = ref.get("source_type", "")
+        authority_level = ref.get("authority_level", "")
+        source_id = ref.get("source_id", "")
 
         if edition not in self.editions:
             return f"edition '{edition}' not in {sorted(self.editions)}"
@@ -73,8 +78,19 @@ class FilterResult:
         return len(self.accepted) == 0
 
 
+def _extract_source_ref(chunk: dict[str, Any]) -> dict[str, Any]:
+    """Return the source_ref sub-dict, falling back to the chunk itself."""
+    return chunk.get("source_ref", chunk)
+
+
 def load_filter_config(path: Path | None = None) -> dict:
-    """Load the retrieval filter YAML config."""
+    """Load the retrieval filter YAML config.
+
+    PyYAML is imported lazily so that callers who never use hard
+    filters (e.g. query normalization) don't pay the dependency cost.
+    """
+    import yaml
+
     config_path = path or DEFAULT_FILTER_CONFIG
     with config_path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f)
@@ -102,8 +118,7 @@ def apply_filters(
 
     result = FilterResult(constraints=constraints)
     for i, candidate in enumerate(candidates):
-        meta = candidate.get("metadata", candidate)
-        reason = constraints.rejection_reason(meta)
+        reason = constraints.rejection_reason(candidate)
         if reason is None:
             result.accepted.append(candidate)
         else:
