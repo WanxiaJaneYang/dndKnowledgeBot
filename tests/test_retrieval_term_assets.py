@@ -44,6 +44,14 @@ class RetrievalTermAssetTests(unittest.TestCase):
         self.assertIn("turn undead", assets["protected_phrases"])
         self.assertIn("hit points", assets["protected_phrases"])
 
+    def test_reviewed_runtime_assets_exclude_generic_structure_labels(self) -> None:
+        assets = get_default_term_assets()
+
+        self.assertNotIn("ability name", assets["protected_phrases"])
+        self.assertNotIn("abilities and spellcasters", assets["protected_phrases"])
+        self.assertNotIn("spell descriptions", assets["protected_phrases"])
+        self.assertNotIn("class skills", assets["protected_phrases"])
+
     def test_candidate_pool_is_larger_than_runtime_protected_phrase_list(self) -> None:
         assets = get_default_term_assets()
 
