@@ -23,9 +23,8 @@
 - [x] 实现 ingestion pipeline（extraction + normalization）— `scripts/ingest_srd35/`
 - [x] 加入 fixture corpus + golden outputs + preview evidence 标准 — `tests/fixtures/`、`docs/standards/pr_evidence.md`
 - [ ] 实现 chunker
-- [ ] 选定 baseline 本地向量索引 + embedding 模型 + answer 模型
-- [ ] 搭建向量索引与 embedding 流水线
-- [ ] 实现 retrieval pipeline（filter → retrieve → threshold）
+- [ ] 实现 lexical-first baseline retrieval pipeline（hard filters → normalization → BM25/FTS retrieval → evidence pack）
+- [ ] 增加一个可调试的 retrieval CLI / script，用来检查候选输出
 - [ ] 实现带 grounding 约束的 answer generation
 - [ ] 实现 citation 渲染
 - [ ] 实现 abstain 行为
@@ -33,6 +32,8 @@
 
 ## Phase 2 - 质量提升
 
+- [ ] 增加 vector / semantic retrieval，用于模糊表达与 paraphrase
+- [ ] 合并并重排 lexical + semantic 两路候选
 - [ ] 引入 reranker
 - [ ] 扩展语料（官方补充来源）
 - [ ] 改进复杂版式（表格、多栏）chunking
