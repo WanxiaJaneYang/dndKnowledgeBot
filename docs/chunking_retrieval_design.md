@@ -302,7 +302,43 @@ Examples of hard filters include:
 
 This prevents the system from retrieving a semantically similar but out-of-scope text.
 
-## 20. Candidate retrieval
+## 20. Phase 1 MVP retrieval policy
+
+Phase 1 should start with a retrieval path that is deliberately narrow, controllable, and easy to debug.
+
+The goal of this MVP is not to understand every fuzzy natural-language phrasing.
+
+The goal is to prove that the system can reliably answer a narrow but important class of questions by showing:
+
+- stable recall for core rules entries
+- trustworthy citation anchors
+- retrieval failures that are inspectable rather than mysterious
+
+This means the MVP should be considered successful when it is strong on questions such as:
+
+- `fighter hit die`
+- `what are bonus feats`
+- `attack of opportunity`
+- `turn undead`
+
+It may also handle some natural paraphrases, but questions such as `生命多少` or `血量多少` should not define the success bar for the first retrieval implementation.
+
+## 21. Phase 1 retrieval mechanics
+
+The Phase 1 retrieval path should stay lexical-first and domain-aware.
+
+It should include:
+
+- hard filters that lock edition and admitted source boundaries before scoring
+- lightweight query normalization such as case folding, punctuation cleanup, and common format normalization
+- domain-aware lexical retrieval as the main candidate generator, such as BM25 or FTS
+- a small alias and protected-phrase layer for the most important rules terms
+
+The alias layer should be intentionally small in the MVP.
+
+It should cover the highest-value terms and fragile phrases rather than attempting full synonym expansion.
+
+## 22. Candidate retrieval
 
 Initial retrieval should aim to produce a small candidate set rather than a large dump of weakly related text.
 
@@ -314,7 +350,7 @@ The candidate set should be large enough to cover:
 
 But it should remain small enough that answer composition can reason over it without losing precision.
 
-## 21. Optional reranking
+## 23. Optional reranking
 
 Reranking is conceptually useful but not mandatory to define Phase 1.
 
@@ -326,7 +362,7 @@ If present, reranking should help:
 
 The design should allow an optional rerank stage without making the rest of the architecture depend on it.
 
-## 22. Evidence pack construction
+## 24. Evidence pack construction
 
 The retrieval layer should not pass raw search results directly into answer generation without normalization.
 
@@ -339,7 +375,16 @@ Instead, it should produce an **evidence pack** containing:
 
 The evidence pack is the handoff contract between retrieval and answer generation.
 
-## 23. Retrieval-time grouping and consolidation
+For Phase 1, the evidence pack should also be a debugging contract.
+
+It should make it easy to inspect at least:
+
+- which hard filters were applied
+- which normalized query form was used
+- which lexical signals or phrase matches contributed
+- how candidates were ranked, grouped, or dropped
+
+## 25. Retrieval-time grouping and consolidation
 
 The design should leave room for light grouping logic such as:
 
@@ -349,7 +394,27 @@ The design should leave room for light grouping logic such as:
 
 This is important because multiple highly similar chunks do not necessarily mean multiple independent sources of support.
 
-## 24. Answer support policy
+## 26. Phase 2 hybrid retrieval extension
+
+After the lexical baseline is proven, the next retrieval step should be hybrid rather than lexical-only.
+
+At that stage:
+
+- lexical retrieval preserves terminology precision
+- vector or semantic retrieval helps recover fuzzy phrasing, Chinese phrasing, and paraphrases
+- merge and rerank logic combines both candidate streams
+- lightweight question-type detection can be layered on top if it improves routing or ranking
+
+This is the stage where questions such as the following should become materially more reliable:
+
+- `生命多少`
+- `血量多少`
+- `5级 fighter 大概多少 hp`
+- `体质16的人类战士有多少血`
+
+In those cases, semantic retrieval helps bridge expressions such as `血量` or `生命` toward rules terms like `hit points` or `hp`, while lexical retrieval keeps class names, feature names, and mechanical terms anchored to the right rules text.
+
+## 27. Answer support policy
 
 An answer should normally be generated only when the evidence pack contains enough support to answer the user's question responsibly.
 
@@ -360,7 +425,7 @@ The system should distinguish between:
 - **weak support**: the evidence is only loosely related
 - **insufficient support**: the evidence does not justify a clear answer
 
-## 25. Abstain behavior
+## 28. Abstain behavior
 
 The retrieval design must support abstention.
 
@@ -373,7 +438,7 @@ The system should abstain, narrow the claim, or explicitly mark uncertainty when
 
 Abstention is a correct behavior, not a failure.
 
-## 26. Failure modes to design against
+## 29. Failure modes to design against
 
 The chunking and retrieval design should explicitly guard against:
 
@@ -386,7 +451,7 @@ The chunking and retrieval design should explicitly guard against:
 - citation anchors that are too vague to verify
 - answering from semantic similarity alone when no direct support exists
 
-## 27. Quality bar
+## 30. Quality bar
 
 A good Phase 1 chunking and retrieval design should make it possible for the future system to:
 
@@ -396,7 +461,7 @@ A good Phase 1 chunking and retrieval design should make it possible for the fut
 - avoid mixing out-of-scope sources
 - support abstention when confidence is low
 
-## 28. Deferred decisions
+## 31. Deferred decisions
 
 The following decisions are intentionally deferred:
 
@@ -407,7 +472,7 @@ The following decisions are intentionally deferred:
 - whether reranking is required in the first implementation
 - the exact threshold for abstain vs answer
 
-## 29. Summary
+## 32. Summary
 
 In one sentence:
 

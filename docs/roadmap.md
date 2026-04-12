@@ -23,9 +23,8 @@
 - [x] Implement ingestion pipeline (extraction + normalization) — `scripts/ingest_srd35/`
 - [x] Add fixture corpus + golden outputs + preview evidence standard — `tests/fixtures/`, `docs/standards/pr_evidence.md`
 - [x] Implement chunker — baseline section-passthrough strategy, `scripts/chunker/`, `tests/test_chunker.py`
-- [ ] Choose a baseline local vector index plus one embedding model and one answer model
-- [ ] Set up vector index and embedding pipeline
-- [ ] Implement retrieval pipeline (filter → retrieve → threshold)
+- [ ] Implement a lexical-first baseline retrieval pipeline (hard filters → normalization → BM25/FTS retrieval → evidence pack)
+- [ ] Add a thin retrieval-debug CLI / script for inspectable candidate output
 - [ ] Implement answer generation with grounding constraint
 - [ ] Implement citation rendering
 - [ ] Implement abstention behavior
@@ -33,6 +32,8 @@
 
 ## Phase 2 - Quality Improvements
 
+- [ ] Add vector / semantic retrieval for fuzzy phrasing and paraphrases
+- [ ] Merge and rerank lexical + semantic candidates
 - [ ] Add reranker
 - [ ] Expand source corpus (official supplements)
 - [ ] Improve chunking for complex layouts (tables, multi-column)
