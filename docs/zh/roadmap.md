@@ -22,7 +22,7 @@
 
 - [x] 实现 ingestion pipeline（extraction + normalization）— `scripts/ingest_srd35/`
 - [x] 加入 fixture corpus + golden outputs + preview evidence 标准 — `tests/fixtures/`、`docs/standards/pr_evidence.md`
-- [ ] 实现 chunker
+- [x] 实现 chunker — baseline section-passthrough strategy，`scripts/chunker/`、`tests/test_chunker.py`
 - [ ] 实现 lexical-first baseline retrieval pipeline（hard filters → normalization → BM25/FTS retrieval → evidence pack）
 - [ ] 增加一个可调试的 retrieval CLI / script，用来检查候选输出
 - [ ] 实现带 grounding 约束的 answer generation
