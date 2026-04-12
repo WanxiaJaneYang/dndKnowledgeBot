@@ -569,3 +569,86 @@ Ammunition | +60 gp |
 Light armor | +5,000 gp |
 ...
 ```
+
+## Chunk Summary
+
+Total chunks: **24**
+
+| chunk_type | count |
+|---|---|
+| `generic` | 6 |
+| `rule_section` | 1 |
+| `subsection` | 17 |
+
+### Sample Chunks
+
+**`chunk::srd_35_fixture::description::001_description`**
+- chunk_type: `generic`
+- section_path: `['Description', 'Description']`
+- prev: `—` / next: `chunk::srd_35_fixture::description::002_alignment`
+- content preview:
+```text
+This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+```
+
+**`chunk::srd_35_fixture::description::002_alignment`**
+- chunk_type: `subsection`
+- section_path: `['Description', 'ALIGNMENT']`
+- prev: `chunk::srd_35_fixture::description::001_description` / next: `chunk::srd_35_fixture::description::003_good_vs_evil`
+- content preview:
+```text
+A creature's general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.
+Alignment is a tool for developing your character's identity. It is not a straitjacket for restricting your character. Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.
+```
+
+**`chunk::srd_35_fixture::description::003_good_vs_evil`**
+- chunk_type: `subsection`
+- section_path: `['Description', 'GOOD VS. EVIL']`
+- prev: `chunk::srd_35_fixture::description::002_alignment` / next: `chunk::srd_35_fixture::description::004_law_vs_chaos`
+- content preview:
+```text
+Good characters and creatures protect innocent life. Evil characters and creatures debase or destroy innocent life, whether for fun or profit.
+“Good” implies altruism, respect for life, and a concern for the dignity of sentient beings. Good characters make personal sacrifices to help others.
+“Evil” implies hurting, oppressing, and killing others. Some evil creatures simply have no compassion for others and kill without qualms if doing so is convenient. Others actively pursue evil, killing for sport or out of duty to some evil deity or master.
+People who are neutral with respect to good and evil have compunctions against killing the innocent but lack the commitment to make sacrifices to protect or help others. Neutral people are committed to others by personal relationships.
+...
+```
+
+**`chunk::srd_35_fixture::description::004_law_vs_chaos`**
+- chunk_type: `subsection`
+- section_path: `['Description', 'LAW VS. CHAOS']`
+- prev: `chunk::srd_35_fixture::description::003_good_vs_evil` / next: `chunk::srd_35_fixture::description::005_the_nine_alignments`
+- content preview:
+```text
+Lawful characters tell the truth, keep their word, respect authority, honor tradition, and judge those who fall short of their duties.
+Chaotic characters follow their consciences, resent being told what to do, favor new ideas over tradition, and do what they promise if they feel like it.
+“Law” implies honor, trustworthiness, obedience to authority, and reliability. On the downside, lawfulness can include close-mindedness, reactionary adherence to tradition, judgmentalness, and a lack of adaptability. Those who consciously promote lawfulness say that only lawful behavior creates a society in which people can depend on each other and make the right decisions in full confidence that others will act as they should.
+“Chaos” implies freedom, adaptability, and flexibility. On the downside, chaos can include recklessness, resentment toward legitimate authority, arbitrary actions, and irresponsibility. Those who promote chaotic behavior say that only unfettered personal freedom allows people to express themselves fully and lets society benefit from the potential that its individuals have within them.
+...
+```
+
+**`chunk::srd_35_fixture::description::005_the_nine_alignments`**
+- chunk_type: `subsection`
+- section_path: `['Description', 'THE NINE ALIGNMENTS']`
+- prev: `chunk::srd_35_fixture::description::004_law_vs_chaos` / next: `chunk::srd_35_fixture::description::006_age`
+- content preview:
+```text
+Nine distinct alignments define all the possible combinations of the lawful-chaotic axis with the good-evil axis. Each alignment description below depicts a typical character of that alignment. Remember that individuals vary from this norm, and that a given character may act more or less in accord with his or her alignment from day to day. Use these descriptions as guidelines, not as scripts.
+The first six alignments, lawful good through chaotic neutral, are the standard alignments for player characters. The three evil alignments are for monsters and villains.
+Lawful Good, “Crusader”: A lawful good character acts as a good person is expected or required to act. She combines a commitment to oppose evil with the discipline to fight relentlessly. She tells the truth, keeps her word, helps those in need, and speaks out against injustice. A lawful good character hates to see the guilty go unpunished.
+Lawful good is the best alignment you can be because it combines honor and compassion.
+...
+```
+
+**`chunk::srd_35_fixture::description::006_age`**
+- chunk_type: `subsection`
+- section_path: `['Description', 'AGE']`
+- prev: `chunk::srd_35_fixture::description::005_the_nine_alignments` / next: `chunk::srd_35_fixture::description::007_height_and_weight`
+- content preview:
+```text
+You can choose or randomly generate your character's age. If you choose it, it must be at least the minimum age for the character's race and class (see Table: Random Starting Ages). Your character's minimum starting age is the adulthood age of his or her race plus the number of dice indicated in the entry corresponding to the character's race and class on Table: Random Starting Ages.
+Alternatively, refer to Table: Random Starting Ages and roll dice to determine how old your character is.
+Table: Random Starting Ages |
+Race | Adulthood | Barbarian
+...
+```
