@@ -1,8 +1,8 @@
 """Pre-retrieval hard filters for candidate chunks.
 
-Loads retrieval_filters.yaml and applies edition, source-type,
-authority-level, and source-exclusion constraints before any
-scoring or ranking takes place.
+Derives default constraints from source_registry.yaml (the single
+source of truth for admitted sources) and applies edition, source-type,
+authority-level, and source-exclusion filters before any scoring.
 """
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_FILTER_CONFIG = REPO_ROOT / "configs" / "retrieval_filters.yaml"
+SOURCE_REGISTRY = REPO_ROOT / "configs" / "source_registry.yaml"
 
 
 @dataclass(frozen=True)
@@ -83,28 +83,48 @@ def _extract_source_ref(chunk: dict[str, Any]) -> dict[str, Any]:
     return chunk.get("source_ref", chunk)
 
 
-def load_filter_config(path: Path | None = None) -> dict:
-    """Load the retrieval filter YAML config.
-
-    PyYAML is imported lazily so that callers who never use hard
-    filters (e.g. query normalization) don't pay the dependency cost.
-    """
+def _load_source_registry(path: Path | None = None) -> list[dict]:
+    """Load source entries from source_registry.yaml."""
     import yaml
 
-    config_path = path or DEFAULT_FILTER_CONFIG
-    with config_path.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+    registry_path = path or SOURCE_REGISTRY
+    with registry_path.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    return data.get("sources", [])
 
 
-def build_constraints(config: dict | None = None) -> RetrievalConstraints:
-    """Build a RetrievalConstraints from a config dict (or the default file)."""
-    if config is None:
-        config = load_filter_config()
+def build_constraints(
+    *,
+    registry_path: Path | None = None,
+    excluded_source_ids: frozenset[str] | None = None,
+) -> RetrievalConstraints:
+    """Derive constraints from the admitted sources in source_registry.yaml.
+
+    Only sources whose status is not ``planned_later`` contribute to
+    the allowlists.  This keeps the filter boundary in sync with what
+    the project has actually admitted — no second config to drift.
+    """
+    sources = _load_source_registry(registry_path)
+
+    editions: set[str] = set()
+    source_types: set[str] = set()
+    authority_levels: set[str] = set()
+
+    for src in sources:
+        if src.get("status") == "planned_later":
+            continue
+        if edition := src.get("edition"):
+            editions.add(edition)
+        if stype := src.get("source_type"):
+            source_types.add(stype)
+        if auth := src.get("authority_level"):
+            authority_levels.add(auth)
+
     return RetrievalConstraints(
-        editions=frozenset(config.get("editions", [])),
-        source_types=frozenset(config.get("source_types", [])),
-        authority_levels=frozenset(config.get("authority_levels", [])),
-        excluded_source_ids=frozenset(config.get("excluded_source_ids", [])),
+        editions=frozenset(editions),
+        source_types=frozenset(source_types),
+        authority_levels=frozenset(authority_levels),
+        excluded_source_ids=excluded_source_ids or frozenset(),
     )
 
 

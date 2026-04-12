@@ -2,73 +2,18 @@
 from __future__ import annotations
 
 import pytest
-import yaml
-from pathlib import Path
 
 from scripts.retrieval.filters import (
     apply_filters,
     build_constraints,
-    load_filter_config,
     RetrievalConstraints,
     FilterResult,
 )
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
 
-
-# ── Config loading ───────────────────────────────────────────────
-
-def test_load_default_config():
-    config = load_filter_config()
-    assert "editions" in config
-    assert "source_types" in config
-    assert "authority_levels" in config
-    assert "excluded_source_ids" in config
-
-
-def test_default_config_has_35e():
-    config = load_filter_config()
-    assert "3.5e" in config["editions"]
-
-
-def test_default_config_values_match_yaml():
-    """Default config must stay in sync with the checked-in YAML."""
-    config_path = REPO_ROOT / "configs" / "retrieval_filters.yaml"
-    with config_path.open("r", encoding="utf-8") as f:
-        raw = yaml.safe_load(f)
-    config = load_filter_config()
-    assert config == raw
-
-
-# ── Constraints construction ─────────────────────────────────────
-
-def test_build_constraints_from_default():
-    c = build_constraints()
-    assert isinstance(c, RetrievalConstraints)
-    assert "3.5e" in c.editions
-    assert "srd" in c.source_types
-
-
-def test_build_constraints_from_custom_dict():
-    c = build_constraints({
-        "editions": ["5e"],
-        "source_types": ["core_rulebook"],
-        "authority_levels": ["official"],
-        "excluded_source_ids": ["homebrew_1"],
-    })
-    assert c.editions == frozenset(["5e"])
-    assert "homebrew_1" in c.excluded_source_ids
-
-
-# ── Accepts / rejects ───────────────────────────────────────────
-
-@pytest.fixture
-def default_constraints():
-    return build_constraints()
-
+# ── Helpers ──────────────────────────────────────────────────────
 
 def _make_source_ref(edition="3.5e", source_type="srd", authority="official_reference", source_id="srd_35"):
-    """Build a source_ref dict matching the real schema shape."""
     return {
         "source_id": source_id,
         "title": "System Reference Document",
@@ -91,13 +36,46 @@ def _chunk(edition="3.5e", source_type="srd", authority="official_reference", so
 
 
 def _flat_meta(edition="3.5e", source_type="srd", authority="official_reference", source_id="srd_35"):
-    """Build a flat metadata dict (no source_ref nesting) for fallback tests."""
+    """Flat metadata dict (no source_ref nesting) for fallback tests."""
     return {
         "edition": edition,
         "source_type": source_type,
         "authority_level": authority,
         "source_id": source_id,
     }
+
+
+# ── Constraints from source registry ────────────────────────────
+
+def test_build_constraints_from_registry():
+    """Default constraints derive from source_registry.yaml."""
+    c = build_constraints()
+    assert isinstance(c, RetrievalConstraints)
+    # The only admitted (non-planned_later) source is srd_35
+    assert "3.5e" in c.editions
+    assert "srd" in c.source_types
+    assert "official_reference" in c.authority_levels
+
+
+def test_build_constraints_skips_planned_later():
+    """planned_later sources should not widen the filter allowlists."""
+    c = build_constraints()
+    # core_rulebook exists in registry but only on planned_later entries
+    assert "core_rulebook" not in c.source_types
+    # official exists only on planned_later entries
+    assert "official" not in c.authority_levels
+
+
+def test_build_constraints_excluded_source_ids():
+    c = build_constraints(excluded_source_ids=frozenset(["srd_35"]))
+    assert "srd_35" in c.excluded_source_ids
+
+
+# ── Accepts / rejects ───────────────────────────────────────────
+
+@pytest.fixture
+def default_constraints():
+    return build_constraints()
 
 
 def test_accepts_valid_35e_srd(default_constraints):
@@ -117,12 +95,7 @@ def test_rejects_wrong_authority(default_constraints):
 
 
 def test_rejects_excluded_source_id():
-    c = build_constraints({
-        "editions": ["3.5e"],
-        "source_types": ["srd"],
-        "authority_levels": ["official_reference"],
-        "excluded_source_ids": ["srd_35"],
-    })
+    c = build_constraints(excluded_source_ids=frozenset(["srd_35"]))
     assert c.accepts(_chunk()) is False
 
 
@@ -151,24 +124,19 @@ def test_apply_filters_separates_accepted_and_rejected():
 
 
 def test_apply_filters_records_rejection_reasons():
-    candidates = [
-        _chunk(),
-        _chunk(edition="5e"),
-    ]
+    candidates = [_chunk(), _chunk(edition="5e")]
     result = apply_filters(candidates)
     assert 1 in result.rejection_reasons
     assert "edition" in result.rejection_reasons[1]
 
 
 def test_apply_filters_empty_when_all_rejected():
-    candidates = [_chunk(edition="5e")]
-    result = apply_filters(candidates)
+    result = apply_filters([_chunk(edition="5e")])
     assert result.empty is True
 
 
 def test_apply_filters_not_empty_when_some_accepted():
-    candidates = [_chunk()]
-    result = apply_filters(candidates)
+    result = apply_filters([_chunk()])
     assert result.empty is False
 
 
@@ -214,20 +182,14 @@ def test_accepts_real_corpus_chunk(default_constraints):
     assert default_constraints.rejection_reason(real_chunk) is None
 
 
-# ── Config-driven: only 3.5e passes by default ──────────────────
+# ── Parametrized edition / source-type coverage ──────────────────
 
 @pytest.mark.parametrize("edition", ["3e", "4e", "5e", "5.1e", "2e"])
 def test_non_35e_editions_rejected_by_default(default_constraints, edition):
     assert default_constraints.accepts(_chunk(edition=edition)) is False
 
 
-@pytest.mark.parametrize("source_type", [
-    "core_rulebook", "supplement_rulebook", "errata_document", "faq_document", "srd",
-])
-def test_admitted_source_types_pass(default_constraints, source_type):
-    assert default_constraints.accepts(_chunk(source_type=source_type)) is True
-
-
-@pytest.mark.parametrize("source_type", ["curated_commentary", "personal_note"])
+@pytest.mark.parametrize("source_type", ["curated_commentary", "personal_note", "core_rulebook"])
 def test_non_admitted_source_types_rejected(default_constraints, source_type):
+    """source_types only on planned_later entries are not admitted."""
     assert default_constraints.accepts(_chunk(source_type=source_type)) is False

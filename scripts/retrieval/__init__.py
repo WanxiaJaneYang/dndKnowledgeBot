@@ -2,7 +2,6 @@ from .filters import (
     apply_filters,
     build_constraints,
     FilterResult,
-    load_filter_config,
     RetrievalConstraints,
 )
 from .query_normalization import normalize_query
@@ -13,7 +12,6 @@ __all__ = [
     "build_constraints",
     "FilterResult",
     "get_default_term_assets",
-    "load_filter_config",
     "load_term_assets",
     "normalize_query",
     "RetrievalConstraints",
