@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::109_legendary_tracker_epic",
+  "document_id": "srd_35::epicfeats::109_legendary_tracker_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LEGENDARY TRACKER [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#109_legendary_tracker_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 25, Track, Knowledge (nature) 30 ranks, Survival 30 ranks.\nBenefit: The character can track creatures across water, under-water, or through the air. This adds the surfaces of water, underwater, and air to the list of surfaces found under the Track feat:\nSurface | DC |\nWater | 60 |\nUnderwater | 80 |\nAir | 120 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::108_legendary_rider_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::110_legendary_wrestler_epic"
+}

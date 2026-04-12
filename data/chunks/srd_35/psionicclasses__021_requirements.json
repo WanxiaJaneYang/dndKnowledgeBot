@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::021_requirements",
+  "document_id": "srd_35::psionicclasses::021_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Requirements"
+    ],
+    "source_location": "PsionicClasses.rtf#021_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a Psionic Fist, a character must fulfill all the following criteria.\nBase Attack Bonus: +4.\nSkill: Concentration 9 ranks.\nFeat: Wild Talent.\nSpecial: Still mind class feature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::020_class_features",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::022_class_skills"
+}

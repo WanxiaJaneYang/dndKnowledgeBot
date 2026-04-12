@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::041_dead_10_hit_points_or_lower",
+  "document_id": "srd_35::combati::041_dead_10_hit_points_or_lower",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "DEAD (-10 HIT POINTS OR LOWER)"
+    ],
+    "source_location": "CombatI.rtf#041_dead_10_hit_points_or_lower"
+  },
+  "chunk_type": "subsection",
+  "content": "When your character's current hit points drop to -10 or lower, or if he takes massive damage (see above), he's dead. A character can also die from taking ability damage or suffering an ability drain that reduces his Constitution to 0.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::040_dying_1_to_9_hit_points",
+  "next_chunk_id": "chunk::srd_35::combati::042_stable_characters_and_recovery"
+}

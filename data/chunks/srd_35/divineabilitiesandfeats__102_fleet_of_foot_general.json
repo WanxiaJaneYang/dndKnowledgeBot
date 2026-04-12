@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::102_fleet_of_foot_general",
+  "document_id": "srd_35::divineabilitiesandfeats::102_fleet_of_foot_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "FLEET OF FOOT [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#102_fleet_of_foot_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 15, Run.\nBenefit: When running or charging, you can make a single direction change of 90 degrees or less. You can't use this feat while wearing medium or heavy armor, or when carrying a medium or heavy load. If you are charging, you must move in a straight line for 10 feet after the turn to maintain the charge.\nNormal: Without this feat, you can run or charge only in a straight line.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::101_eyes_in_the_back_of_your_head_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::103_hold_the_line_general"
+}

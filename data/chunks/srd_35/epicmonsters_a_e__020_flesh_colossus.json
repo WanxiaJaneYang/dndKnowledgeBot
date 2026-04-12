@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::020_flesh_colossus",
+  "document_id": "srd_35::epicmonsters_a_e::020_flesh_colossus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "FLESH COLOSSUS"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#020_flesh_colossus"
+  },
+  "chunk_type": "subsection",
+  "content": "A flesh colossus knows all languages spoken in life by the ghost who acts as its control-ling spirit. When the controlling spirit is suppressed, it mutters in all the tongues spoken by its component corpses.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::019_construction",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::021_combat"
+}

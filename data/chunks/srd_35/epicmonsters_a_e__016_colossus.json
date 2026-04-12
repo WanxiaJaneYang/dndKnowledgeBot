@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::016_colossus",
+  "document_id": "srd_35::epicmonsters_a_e::016_colossus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "COLOSSUS"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#016_colossus"
+  },
+  "chunk_type": "subsection",
+  "content": "Construct Traits: Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and to poison, sleep, paralysis, stunning, disease, death effects, necromantic effects, and any effect that requires a Fortitude save unless it also works on objects. Cannot heal damage (though regeneration and fast healing still apply, if present). Not subject to critical hits, subdual damage, ability damage, ability drain, or energy drain. Not at risk of death from massive damage, but destroyed when reduced to 0 hit points or less; cannot be raised or resurrected. Darkvision 60 ft.\nMagic Immunity (Ex): A colossus completely resists most magical and supernatural effects, except where otherwise noted below.\nAntimagic Field (Ex): A colossus constantly generates an antimagic field in a 100-foot-radius. The field is an invisible barrier that is impervious to most magical effects, including spells, spell-like abilities, and supernatural abilities. Likewise, it prevents the functioning of any magic items or spells within its confines, except for the colossus's own supernatural abilities. This effect is otherwise as an antimagic field cast by a 25th-level caster.\nA colossus's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::015_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::017_construction"
+}

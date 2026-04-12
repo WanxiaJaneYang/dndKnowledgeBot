@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::086_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::086_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#086_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create a ray of energy of the chosen type that shoots forth from your fingertip and strikes a target within range, dealing 1d6 points of damage, if you succeed on a ranged touch attack with the ray.\nCold: A ray of this energy type deals +1 point of damage per die.\nElectricity: Manifesting a ray of this energy type provides a +3 bonus on your attack roll if the target is wearing metal armor and a +2 bonus on manifester level checks for the purpose of overcoming power resistance.\nFire: A ray of this energy type deals +1 point of damage per die.\nSonic: A ray of this energy type deals -1 point of damage per die and ignores an object's hardness.\nThis power's subtype is the same as the type of energy you manifest.\nAugment: For every additional power point you spend, this power's damage increases by one die (d6).\nEnergy Retort\nPsychokinesis [see text]",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::085_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::087_display_visual"
+}

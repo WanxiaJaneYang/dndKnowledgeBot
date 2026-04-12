@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::018_craft_artifact",
+  "document_id": "srd_35::divineabilitiesandfeats::018_craft_artifact",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Craft Artifact"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#018_craft_artifact"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Craft Magic Arms and Armor, Craft Rod, Craft Staff, Craft Wand, Craft Wondrous Item, Forge Ring, Scribe Scroll.\nBenefit: The deity can craft magic arms and armor, staffs, wands, wondrous items, rings, and scrolls that exceed the normal limits for such items\nSuggested Portfolio Elements: Crafts, knowledge, magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::017_control_creatures",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::019_create_object"
+}

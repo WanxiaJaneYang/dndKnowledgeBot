@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::112_weapon_specialization_general",
+  "document_id": "srd_35::feats::112_weapon_specialization_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "WEAPON SPECIALIZATION [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#112_weapon_specialization_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Choose one type of weapon for which you have already selected the Weapon Focus feat. You can also choose unarmed strike or grapple as your weapon for purposes of this feat. You deal extra damage when using this weapon.\nPrerequisites: Proficiency with selected weapon, Weapon Focus with selected weapon, fighter level 4th.\nBenefit: You gain a +2 bonus on all damage rolls you make using the selected weapon.\nSpecial: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.\nA fighter may select Weapon Specialization as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::111_weapon_focus_general",
+  "next_chunk_id": "chunk::srd_35::feats::113_whirlwind_attack_general"
+}

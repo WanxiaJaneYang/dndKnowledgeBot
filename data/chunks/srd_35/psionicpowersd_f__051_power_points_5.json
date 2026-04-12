@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::051_power_points_5",
+  "document_id": "srd_35::psionicpowersd_f::051_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#051_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You draw writhing strands of ectoplasm from the Astral Plane that wrap up the subject like a mummy. The subject can still breathe but is otherwise helpless, unable to see outside the cocoon, speak, or take any physical actions. The subject's nostrils are clear (air passes through the cocoon normally). The subject can execute purely mental actions (such as manifesting powers or casting spells with no verbal, somatic, or material components).\nCutting or damaging the cocoon can free a victim. The cocoon has hardness 8 and 20 hit points. Teleportation and other forms of travel provide a means of escape, but the cocoon extends into the Ethereal Plane, blocking ethereal travel. An ectoplasmic cocoon can't be affected by dispel psionics, but it can be dismissed with dismiss ectoplasm, or otherwise destroyed by extreme measures or items.\nThe creature within the cocoon is visible only as a vague shape (substantial enough to interrupt line of sight) and cannot be directly harmed or interacted with unless the cocoon is destroyed. The cocooned creature can be moved normally (the weight of the cocoon is negligible).\nA creature that is cocooned while aloft begins to fall immediately, and a creature that is cocooned while swimming or underwater may drown.\nAugment: You can augment this power in one or both of the following ways.\n1. For every 2 additional power points you spend, this power's save DC increases by 1.\n2. For every 2 additional power points you spend, this power can affect a target one size category larger.\n\nRange: Medium (100 ft. + 10 ft./level)\nArea: 20-ft.-radius burst\nDuration: 1 hour/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::050_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::052_power_points_13"
+}

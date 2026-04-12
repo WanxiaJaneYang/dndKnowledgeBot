@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::011_combat",
+  "document_id": "srd_35::epicmonsters_g_w::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Flight (Su): As per the fly spell, 120 ft. (perfect). This ability gives the ha-naga a +6 circumstance bonus on Move Silently checks.\nCharming Gaze (Su): As mass charm monster, 90 ft., Will save (DC 33). The DC is Charisma-based.\nChameleon Ability (Ex): Ha-nagas can blend in with their surroundings, giving them a +8 circumstance bonus on Hide checks.\nImproved Grab (Ex): To use this ability, the ha-naga must hit with its coil whip attack. If it succeeds, it can constrict.\nConstrict (Ex): A ha-naga deals 4d6+12 points Damage with a successful grapple attack against Huge or smaller opponents.\nPoison (Ex): Sting, Fort save (DC 31); initial and secondary Damage 2d8 temporary Con. The DC is Constitution-based.\nSpells: Ha-nagas can cast spells as 21st-level sorcerers, and can also cast cleric spells and spells from the domains of Chaos and Evil as arcane spells (save DC 33 + spell level). The DC is Charisma-based.\n\nHit Dice: | 44d8+616 (814 hp) |\nInitiative: | +17 (+13 Dex, +4 Improved Initiative) |\nSpeed: | 50 ft. |\nAC: | 50 (-1 size, +13 Dex, +28 natural) |\nBase Attack/Grapple: | +33/+58 |\nAttack: | Slam +54 (2d6+21/19-20) melee |\nFull Attack: | 5 slams +54 (2d6+21/19-20) melee |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Psionics, destabilize form |\nSpecial Qualities: | Alter shape, DR 10/epic, darkvision 120 ft., immunities, regeneration 50, spell resistance 39 |\nSaves: | Fort +40, Ref +39, Will +32 |\nAbilities: | Str 53, Dex 37, Con 39, Int 20, Wis 23, Cha 34 |\nSkills: | Bluff +59, Diplomacy +53, Disguise +59, Hide +35, Intimidate +47, Jump +29, Listen +55, Move Silently +35, Sense Motive +29, Spot +55 |\nFeats: | Alertness, Cleave, Combat Reflexes, Endurance, Great Cleave, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (slam) |\nEpic Feats: | Blinding Speed, Devastating Critical (slam), Overwhelming Critical (slam) |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 29 |\nTreasure: | Standard |\nAlignment: | Always chaotic neutral |\nAdvancement: | 45-59 HD (Large); 60-74 HD (Huge); 75-89 HD (Huge) |\nA hagunemnon's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::010_construction",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::012_combat"
+}

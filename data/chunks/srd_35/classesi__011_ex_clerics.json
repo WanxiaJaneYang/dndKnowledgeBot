@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesi::011_ex_clerics",
+  "document_id": "srd_35::classesi::011_ex_clerics",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesI",
+      "Ex-Clerics"
+    ],
+    "source_location": "ClassesI.rtf#011_ex_clerics"
+  },
+  "chunk_type": "subsection",
+  "content": "A cleric who grossly violates the code of conduct required by his god loses all spells and class features, except for armor and shield proficiencies and proficiency with simple weapons. He cannot thereafter gain levels as a cleric of that god until he atones (see the atonement spell description).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesi::010_class_features",
+  "next_chunk_id": "chunk::srd_35::classesi::012_druid"
+}

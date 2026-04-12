@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::039_combat",
+  "document_id": "srd_35::monstersg::039_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#039_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Gnolls like to attack when they have the advantage of numbers, using horde tactics and their physical strength to overwhelm and knock down their opponents. They show little discipline when fighting unless they have a strong leader; at such times, they can maintain ranks and fight as a unit. While they do not usually prepare traps, they do use ambushes and try to attack from a flanking position. Because of its shield, a gnoll's modifier on Hide checks (untrained) is -2, which means gnolls always take special care to seek favorable conditions when laying ambushes (such as darkness, cover, or some other form of advantageous terrain).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::038_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::040_gnolls_as_characters"
+}

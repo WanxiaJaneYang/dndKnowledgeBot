@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::064_grow_creature",
+  "document_id": "srd_35::divineabilitiesandfeats::064_grow_creature",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Grow Creature"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#064_grow_creature"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: This ability works like the animal growth spell, except that it can affect up to one creature of the specified type per divine rank each day, all of which must be within the deity's line of sight when first affected. The effect lasts one day.\nNotes: A deity can have this ability multiple times, choosing a different type of creature each time.\nSuggested Portfolio Elements: Nature.\nHand of Death\nBenefit: The deity points to any mortal within the deity's sensory range and snuffs out its life. There must be an unbroken line of effect between the deity and the target.\nNotes: This ability works like the destruction spell, except that there is no material component. The mortal is allowed a Fortitude saving throw with a DC of 20 + the deity's Charisma bonus + the deity's divine rank. Even if the save succeeds, the subject takes 10d6 points of damage, which may kill it anyway. If the attack kills the mortal (either through a failed saving throw or through damage), the mortal cannot be raised or resurrected afterward, except by a deity of equal or higher rank using the Gift of Life, Life and Death, or Mass Life and Death salient divine ability.\nSuggested Portfolio Elements: Death.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::063_frightful_presence",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::065_increased_damage_reduction"
+}

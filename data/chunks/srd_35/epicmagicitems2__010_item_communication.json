@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::010_item_communication",
+  "document_id": "srd_35::epicmagicitems2::010_item_communication",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "ITEM COMMUNICATION"
+    ],
+    "source_location": "EpicMagicItems2.rtf#010_item_communication"
+  },
+  "chunk_type": "subsection",
+  "content": "Like a character, an intelligent item speaks Common plus one language per point of Intelligence bonus. Choose appropriate languages, taking into account the item's origin and purposes. An item with multiple modes of communication can use any of its modes at will.\n\nd% | Communication Mode | Market Price Modifier |\n01-10 | Semiempathy1 | +1,000 gp |\n11-35 | Empathy2 | +2,000 gp |\n36-75 | Speech3 | +3,000 gp |\n76-85 | Telepathy4 | +5,000 gp |\n86-100 | Speech3 and telepathy4 | +8,000 gp |\n1 The possessor receives some signal (a throb or tingle, for example) when the item's ability functions. |\n2 The possessor feels urges and sometimes emotions from the item that encourage or discourage certain courses of action. |\n3 Speaks Common plus one language per point of Intelligence bonus. Roll d%: 01-05, the item cannot read any languages; 06-75, the item can read any language it can speak (+1,000 gp to market price); 76-90, it can read all languages (+2,000 gp to market price); 91-100, it can read all languages as well as read magic (+3,000 gp to market price). |\n4 The item can communicate silently with any wielder who has an Intelligence of 1 or higher, regardless of any language barrier. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::009_intelligent_item_alignment",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::011_intelligent_item_abilities"
+}

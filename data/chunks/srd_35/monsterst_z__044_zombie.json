@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::044_zombie",
+  "document_id": "srd_35::monsterst_z::044_zombie",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "ZOMBIE"
+    ],
+    "source_location": "MonstersT-Z.rtf#044_zombie"
+  },
+  "chunk_type": "subsection",
+  "content": "Zombies are corpses reanimated through dark and sinister magic.\nBecause of their utter lack of intelligence, the instructions given to a newly created zombie must be very simple.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::043_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::045_creating_a_zombie"
+}

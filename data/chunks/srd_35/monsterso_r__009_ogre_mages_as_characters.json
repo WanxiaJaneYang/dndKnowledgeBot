@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::009_ogre_mages_as_characters",
+  "document_id": "srd_35::monsterso_r::009_ogre_mages_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "OGRE MAGES AS CHARACTERS"
+    ],
+    "source_location": "MonstersO-R.rtf#009_ogre_mages_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Ogre mage characters possess the following racial traits.\n-- +10 Strength, +6 Constitution, +4 Intelligence, +4 Wisdom, +6 Charisma.\n--Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.\n--Space/Reach: 10 feet/10 feet.\n--An ogre mage's base land speed is 40 feet. It also has a fly speed of 40 feet (good).\n--Darkvision: Ogre mages can see in the dark up to 60 feet.\n--Racial Hit Dice: An ogre mage begins with five levels of giant, which provide 5d8 Hit Dice, a base attack bonus of +3, and base saving throw bonuses of Fort +4, Ref +1, and Will +1.\n--Racial Skills: An ogre mage's giant levels give it skill points equal to 8 x\uf020(2 + Int modifier [minimum 1]). Its class skills are Concentration, Listen, Spellcraft, and Spot.\n--Racial Feats: An ogre mage's giant levels give it two feats.\n-- +5 natural armor bonus.\n--Special Attacks (see above): Spell-like abilities.\n--Special Qualities (see above): Regeneration 5, spell resistance 19.\n--Automatic Languages: Common, Giant. Bonus Languages: Dwarven, Goblin, Infernal, Orc.\n--Favored Class: Sorcerer.\n--Level adjustment +7.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::008_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::010_ooze"
+}

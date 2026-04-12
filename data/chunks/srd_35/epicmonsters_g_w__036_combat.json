@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::036_combat",
+  "document_id": "srd_35::epicmonsters_g_w::036_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#036_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Cocoon (Ex): A thorciasid can eject a stream of noxious goo that hardens on contact, potentially fixing a subject in place and hindering its movement and actions. Using a standard action, the thorciasid makes a ranged touch attack against any foe it can see up to 60 feet away. If it succeeds at the ranged touch attack, the subject makes a grapple check against the cocoon. This is accomplished as if the thorciasid itself were making the grapple check with a competence bonus of +10, for a total check modifier of +37. On a failed check for the subject, the goo hardens into a partial cocoon, and the victim is treated as if grappled (even though the thorciasid is free to do as it desires). The subject can attempt to break the grapple of the cocoon (or use Escape Artist) each round, making an opposed grapple check against the cocoon (check modifier +37 for the cocoon). A thorciasid can reinforce a partial cocoon by spending a standard action secreting additional goo. Each action so spent provides an additional +5 to the cocoon's grapple check modifier. Visually, the victim becomes more and more covered and is finally com-pletely encased in a cocoon. Even fully encased victims can still breathe, and a thorciasid can drain a victim's life force at its leisure.\nAbility Drain (Su): On a successful melee touch attack with a forelimb, the thorciasid permanently drains 1d4+1 points of Strength, 1d4+1 points of Dexterity, and 1 point of Constitution from the victim. The thorciasid regains 20 lost hit points with each successful ability drain.\nEnergy Drain (Su): On a successful melee touch attack with an antenna, the thorciasid gives the victim one negative level. Each negative level bestowed upon a victim gives the thorciasid +1 bonus to its Constitution that lasts for 24 hours. The negative levels similarly last for 24 hours, at which time the victim must make a Fortitude saving throw (DC 34) to avoid level loss. The save DC is Charisma-based.\n\nHit Dice: | 70d8+700 (1,015 hp) |\nInitiative: | +0 |\nSpeed: | 150 ft. |\nAC: | 58 (-8 size, +32 natural, +24 insight) |\nBase Attack/Grapple: | +70/+104 |\nAttack: | Colossal +5 warhammer +87 (4d8+30/19-20 (+2d6 on critical hit)) melee; or Colossal +5 javelin +70 (2d10+22/19-20) ranged |\nFull Attack: | Colossal +5 warhammer +87/+82/+77/+72 (4d8+30/19-20 (+2d6 on critical hit)) melee; or Colossal +5 javelin +70/+65/+60/+55 (2d10+22/19-20) ranged |\nSpace/Reach: | 30 ft./30 ft. |\nSpecial Attacks: | Spell-like abilities, spells |\nSpecial Qualities: | DR 20/epic, SR 40 |\nSaves: | Fort +47, Ref +37, Will +50 |\nAbilities: | Str 45, Dex 10, Con 31, Int 33, Wis 37, Cha 26 |\nSkills: | Concentration +83, Craft (any five) +45, Decipher Script +84, Diplomacy +45, Gather Information +87, Intimidate +56, Jump +90, Knowledge (all) +66, Listen +86, Sense Motive +86, Speak Language (any five), Spellcraft +90, Spot +86 |\nFeats: | Blind-Fight, Cleave, Expertise, Great Cleave, Improved Critical (warhammer), Improved Critical (javelin), Improved Sunder, Power Attack, Silent Spell, Still Spell, Weapon Focus (warhammer), Weapon Focus (javelin) |\nEpic Feats: | Automatic Silent Spell (0- through 9th level spells), Automatic Still Spell (0- through 9th level spells), Devastating Critical (warhammer), Epic Spellcasting, Epic Weapon Focus (warhammer), Epic Weapon Focus (javelin), Overwhelming Critical (warhammer), Polyglot |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 30 |\nTreasure: | Standard |\nAlignment: | Always neutral |\nAdvancement: | 71-140 HD (Colossal) |\nAn elder titan's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::035_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::037_combat"
+}

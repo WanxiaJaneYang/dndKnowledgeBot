@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::011_constitution_con",
+  "document_id": "srd_35::basics::011_constitution_con",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "CONSTITUTION (CON)"
+    ],
+    "source_location": "Basics.rtf#011_constitution_con"
+  },
+  "chunk_type": "subsection",
+  "content": "Constitution represents your character's health and stamina. A Constitution bonus increases a character's hit points, so the ability is important for all classes.\nYou apply your character's Constitution modifier to:\nEach roll of a Hit Die (though a penalty can never drop a result below 1--that is, a character always gains at least 1 hit point each time he or she advances in level).\nFortitude saving throws, for resisting poison and similar threats.\nConcentration checks. Concentration is a skill, important to spellcasters, that has Constitution as its key ability.\nIf a character's Constitution score changes enough to alter his or her Constitution modifier, the character's hit points also increase or decrease accordingly.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::010_dexterity_dex",
+  "next_chunk_id": "chunk::srd_35::basics::012_intelligence_int"
+}

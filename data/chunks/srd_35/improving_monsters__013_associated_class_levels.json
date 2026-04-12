@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::013_associated_class_levels",
+  "document_id": "srd_35::improving_monsters::013_associated_class_levels",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "Associated Class Levels"
+    ],
+    "source_location": "Improving Monsters.rtf#013_associated_class_levels"
+  },
+  "chunk_type": "subsection",
+  "content": "Class levels that increase a monster's existing strengths are known as associated class levels. Each associated class level a monster has increases its CR by 1.\nBarbarian, fighter, paladin, and ranger are associated classes for a creature that relies on its fighting ability.\nRogue and ranger are associated classes for a creature that relies on stealth to surprise its foes, or on skill use to give itself an advantage.\nA spellcasting class is an associated class for a creature that already has the ability to cast spells as a character of the class in question, since the monster's levels in the spellcasting class stack with its innate spellcasting ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::012_adding_class_levels",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::014_nonassociated_class_levels"
+}

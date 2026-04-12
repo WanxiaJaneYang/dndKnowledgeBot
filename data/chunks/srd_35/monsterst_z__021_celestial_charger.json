@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::021_celestial_charger",
+  "document_id": "srd_35::monsterst_z::021_celestial_charger",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "CELESTIAL CHARGER"
+    ],
+    "source_location": "MonstersT-Z.rtf#021_celestial_charger"
+  },
+  "chunk_type": "subsection",
+  "content": "The celestial charger described here is an 8 HD celestial unicorn with seven levels of cleric.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::020_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::022_combat"
+}

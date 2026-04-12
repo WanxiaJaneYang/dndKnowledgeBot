@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::035_cauchemar",
+  "document_id": "srd_35::monstersm_n::035_cauchemar",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "CAUCHEMAR"
+    ],
+    "source_location": "MonstersM-N.rtf#035_cauchemar"
+  },
+  "chunk_type": "subsection",
+  "content": "The cauchemar is a horrible, especially malevolent version of a nightmare. The sight of one of these great horrors bearing down is enough to shake the heart of the boldest champion.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::034_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::036_combat"
+}

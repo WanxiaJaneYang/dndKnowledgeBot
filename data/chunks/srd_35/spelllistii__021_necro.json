@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::021_necro",
+  "document_id": "srd_35::spelllistii::021_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#021_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Disrupt Undead: Deals 1d6 damage to one undead.\nTouch of Fatigue: Touch attack fatigues target.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::020_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::022_trans"
+}

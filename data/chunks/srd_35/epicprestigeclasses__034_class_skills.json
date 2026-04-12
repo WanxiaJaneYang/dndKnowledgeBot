@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::034_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::034_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#034_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The legendary dreadnought's class skills (and the key ability for each skill) are Climb (Str), Craft (Int), Intimidate (Cha), Jump (Str), and Swim (Str).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Legendary Dreadnought\nLevel | Special |\n1st | Unstoppable 1/day |\n2nd | Unmovable 1/day |\n3rd | Shrug off punishment |\n4th | Thick skinned |\n5th | Bonus feat |\n6th | Unstoppable 2/day |\n7th | Unmovable 2/day |\n8th | Shrug off punishment |\n9th | Thick skinned |\n10th | Bonus feat |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::033_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::035_class_features"
+}

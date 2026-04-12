@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::040_combat",
+  "document_id": "srd_35::monstersm_n::040_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#040_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A nightcrawler attacks by burrowing through the ground and emerging to strike.\nA nightcrawler's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nEnergy Drain (Su): Living creatures inside a nightcrawler's gizzard gain one negative level each round. The DC is 26 for the Fortitude save to remove a negative level. The save DC is Charisma-based.\nFor each such negative level bestowed, the nightcrawler gains 5 temporary hit points.\nImproved Grab (Ex): To use this ability, a nightcrawler must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can try to swallow the opponent in the following round.\nPoison (Ex): Injury, Fortitude DC 22, initial and secondary damage 2d6 Str. The save DC is Constitution-based.\nSpell-Like Abilities: At will--contagion (DC 18), deeper darkness, detect magic, greater dispel magic, haste, invisibility, see invisibility, unholy blight (DC 18); 3/day--cone of cold (DC 19), confusion (DC 18), hold monster (DC 19); 1/day--finger of death (DC 21), mass hold monster (DC 23), plane shift (DC 21). Caster level 25th. The save DCs are Charisma-based.\nSummon Undead (Su): A nightcrawler can summon undead creatures once per night: 9-16 shadows, 3-6 greater shadows, or 2-4 dread wraiths. The undead arrive in 1d10 rounds and serve for 1 hour or until released.\nSwallow Whole (Ex): A nightcrawler can try to swallow a grabbed opponent of Huge or smaller size by making a successful grapple check. Once inside, the opponent takes 2d8+12 points of bludgeoning damage plus 12 points of acid damage per round from the nightcrawler's gizzard and is subject to the creature's energy drain. A swallowed creature can cut its way out by using a light slashing or piercing weapon to deal 35 points of damage to the gizzard (AC 21). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out. A nightcrawler's interior can hold 2 Huge, 8 Large, 32 Medium, 128 Small, 512 Tiny or smaller opponents.\n\nHit Dice: | 21d12+42 (178 hp) |\nInitiative: | +6 |\nSpeed: | 40 ft (8 squares)., fly 20 ft. (poor) |\nArmor Class: | 32 (-2 size, +2 Dex, +22 natural), touch 10, flat-footed 30 |\nBase Attack/Grapple: | +10/+34 |\nAttack: | Slam +24 melee (2d6+16) |\nFull Attack: | 2 slams +24 melee (2d6+16) |\nSpace/Reach: | 15 ft./15 ft. |\nSpecial Attacks: | Crush item, desecrating aura, evil gaze, spell-like abilities, summon undead |\nSpecial Qualities: | Aversion to daylight, damage reduction 15/silver and magic, darkvision 60 ft., immunity to cold, spell resistance 29, telepathy 100 ft., undead traits |\nSaves: | Fort +11, Ref +11, Will +19 |\nAbilities: | Str 38, Dex 14, Con --, Int 20, Wis 20, Cha 18 |\nSkills: | Concentration +28, Diplomacy +6, Hide +18*, Knowledge (arcana) +29, Listen +29, Move Silently +26, Search +29, Sense Motive +29, Spellcraft +31, Spot +29, Survival +5 (+7 following tracks) |\nFeats: | Cleave, Combat Expertise, Combat Reflexes, Great Fortitude, Improved Disarm, Improved Initiative, Power Attack, Quicken Spell-Like Ability (unholy blight) |\nEnvironment: | Plane of Shadow |\nOrganization: | Solitary, pair, or gang (3-4) |\nChallenge Rating: | 16 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 22-31 HD (Huge); 32-42 HD (Gargantuan) |\nLevel Adjustment: | -- |\nNightwalkers are human-shaped horrors that haunt the darkness.\nA nightwalker is about 20 feet tall and weighs about 12,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::039_nightshade_abilities",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::041_combat"
+}

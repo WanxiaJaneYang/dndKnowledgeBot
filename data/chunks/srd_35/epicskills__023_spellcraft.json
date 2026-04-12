@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::023_spellcraft",
+  "document_id": "srd_35::epicskills::023_spellcraft",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Spellcraft"
+    ],
+    "source_location": "EpicSkills.rtf#023_spellcraft"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can identify properties of a magic item.\nDC | Task |\n50 + caster level | Identify basic property of magic item |\n70 + caster level | Identify all properties of magic item |\n50 | Quick identification of alchemical substances and potions |\nIdentify Basic Property of Magic Item: This use of the skill requires one round of inspection, and functions exactly as if the character had cast an identify spell on the item. A character can't attempt this on the same item more than once.\nIdentify All Properties of Magic Item: This requires one minute of inspection, and reveals all properties of a single magic item (including command words and charges remaining). A character can't attempt this on the same item more than once. If an item has different caster levels for different properties, use the highest caster level.\nQuick Identification: A character can identify a substance or potion in the field as a full-round action, without an alchemical lab or any cost. The character can't retry this check (or take 20); if he or she fails, the character must identify the substance in an alchemical lab, as normal.\n\nThe character can pinpoint the location of an invisible creature, or detect an illusion with a visual component.\nDC | Task |\n20 | Notice presence of active invisible creature |\n30 | Notice presence of unmoving, living invisible creature |\n40 | Notice presence of inanimate invisible object |\n40 | Notice presence of unmoving, unliving invisible creature |\n80 | Defeat illusion |\nA character can use Spot to notice the presence of an invisible creature. The relevant DCs are reprinted here. If the character beats the DC by 20 or more, he or she can pinpoint the location of the invisible creature, though it still maintains total concealment from the character (50% miss chance).\nDefeat Illusion: The character can automatically detect any illusion with a visual component for what it truly is. No Will save is required, and the character doesn't have to interact with the illusion (but he or she must be able to see it).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::022_sense_motive",
+  "next_chunk_id": "chunk::srd_35::epicskills::024_using_spot_to_read_lips"
+}

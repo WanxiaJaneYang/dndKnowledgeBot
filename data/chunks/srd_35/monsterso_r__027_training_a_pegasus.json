@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::027_training_a_pegasus",
+  "document_id": "srd_35::monsterso_r::027_training_a_pegasus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "TRAINING A PEGASUS"
+    ],
+    "source_location": "MonstersO-R.rtf#027_training_a_pegasus"
+  },
+  "chunk_type": "subsection",
+  "content": "Although intelligent, a pegasus requires training before it can bear a rider in combat. To be trained, a pegasus must have a friendly attitude toward the trainer (this can be achieved through a successful Diplomacy check). Training a friendly pegasus requires six weeks of work and a DC 25 Handle Animal check. Riding a pegasus requires an exotic saddle. A pegasus can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nPegasus eggs are worth 2,000 gp each on the open market, while young are worth 3,000 gp per head. Pegasi mature at the same rate as horses. Professional trainers charge 1,000 gp to rear or train a pegasus, which serves a good or neutral master with absolute faithfulness for life.\nCarrying Capacity: A light load for a pegasus is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds.\n\nHit Dice: | 2d8+6 (15 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 14 (+4 natural), touch 10, flat-footed 14 |\nBase Attack/Grapple: | +1/+3 |\nAttack: | Bite +3 melee (1d6+3) |\nFull Attack: | Bite +3 melee (1d6+3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, plant traits, greater invisibility |\nSaves: | Fort +6, Ref +0, Will +0 |\nAbilities: | Str 14, Dex 10, Con 16, Int 2, Wis 11, Cha 9 |\nSkills: | Listen +4, Move Silently +6, Spot +4 |\nFeats: | Alertness |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 3-4 HD (Medium); 5-6 HD (Large) |\nLevel Adjustment: | -- |\nThis creature looks like a brown and greenish-brown mass with a cluster of nodules atop the main mass, though it is visible only when dead. A cluster of nodules atop the main mass serve as sensory organs. The creature feeds and attacks with a gaping maw lined with rows of teeth. Four stumpy legs support the creature and allow it to move about. This ambulatory fungus is naturally invisible, making it a feared predator among subterranean inhabitants.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::026_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::028_combat"
+}

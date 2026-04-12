@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::019_grappling_consequences",
+  "document_id": "srd_35::combatii::019_grappling_consequences",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "Grappling Consequences"
+    ],
+    "source_location": "CombatII.rtf#019_grappling_consequences"
+  },
+  "chunk_type": "subsection",
+  "content": "While you're grappling, your ability to attack others and defend yourself is limited.\nNo Threatened Squares: You don't threaten any squares while grappling.\nNo Dexterity Bonus: You lose your Dexterity bonus to AC (if you have one) against opponents you aren't grappling. (You can still use it against opponents you are grappling.)\nNo Movement: You can't move normally while grappling. You may, however, make an opposed grapple check (see below) to move while grappling.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::018_grapple_checks",
+  "next_chunk_id": "chunk::srd_35::combatii::020_if_you_re_grappling"
+}

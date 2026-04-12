@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::033_combat",
+  "document_id": "srd_35::monstersh_i::033_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#033_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Howlers attack in groups, for they are cowardly and cruel. They prefer to charge into combat, race out, and then charge in again. A howler's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nQuills (Ex): A howler's neck bristles with long quills. While biting, the creature thrashes about, striking with 1d4 of them. An opponent hit by a howler's quill attack must succeed on a DC 16 Reflex save or have the quill break off in his or her flesh. Lodged quills impose a -1 penalty on attacks, saves, and checks per quill. The save DC is Dexterity-based.\nA quill can be removed safely with a DC 20 Heal check; otherwise, removing a quill deals an extra 1d6 points of damage.\nHowl (Ex): All beings other than outsiders that hear the creature's howling for an hour or longer are subject to its effect, though it does not help the howler in combat. Anyone within hearing range of a howler for a full hour must succeed on a DC 12 Will save or take 1 point of Wisdom damage. The save DC is Charisma-based. The save must be repeated for each hour of exposure. This is a sonic mind-affecting effect.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::032_construction",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::034_training_a_howler"
+}

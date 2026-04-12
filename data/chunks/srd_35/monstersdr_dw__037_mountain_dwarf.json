@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::037_mountain_dwarf",
+  "document_id": "srd_35::monstersdr_dw::037_mountain_dwarf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Mountain Dwarf"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#037_mountain_dwarf"
+  },
+  "chunk_type": "subsection",
+  "content": "Mountain dwarves live deeper under the mountains than hill dwarves but generally not as far underground as deep dwarves. They average about 4-1/2 feet tall and have lighter skin and hair than hill dwarves, but the same general appearance.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::036_duergar"
+}

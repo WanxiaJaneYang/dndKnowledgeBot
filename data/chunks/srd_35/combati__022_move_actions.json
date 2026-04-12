@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::022_move_actions",
+  "document_id": "srd_35::combati::022_move_actions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "MOVE ACTIONS"
+    ],
+    "source_location": "CombatI.rtf#022_move_actions"
+  },
+  "chunk_type": "subsection",
+  "content": "With the exception of specific movement-related skills, most move actions don't require a check.\n\nThe simplest move action is moving your speed. If you take this kind of move action during your turn, you can't also take a 5-foot step.\nMany nonstandard modes of movement are covered under this category, including climbing (up to one-quarter of your speed) and swimming (up to one-quarter of your speed).\nAccelerated Climbing: You can climb one-half your speed as a move action by accepting a -5 penalty on your Climb check.\nCrawling: You can crawl 5 feet as a move action. Crawling incurs attacks of opportunity from any attackers who threaten you at any point of your crawl.\nDraw or Sheathe a Weapon\nDrawing a weapon so that you can use it in combat, or putting it away so that you have a free hand, requires a move action. This action also applies to weapon-like objects carried in easy reach, such as wands. If your weapon or weapon-like object is stored in a pack or otherwise out of easy reach, treat this action as retrieving a stored item.\nIf you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the Two-Weapon Fighting feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.\nDrawing ammunition for use with a ranged weapon (such as arrows, bolts, sling bullets, or shuriken) is a free action.\nReady or Loose a Shield\nStrapping a shield to your arm to gain its shield bonus to your AC, or unstrapping and dropping a shield so you can use your shield hand for another purpose, requires a move action. If you have a base attack bonus of +1 or higher, you can ready or loose a shield as a free action combined with a regular move.\nDropping a carried (but not worn) shield is a free action.\nManipulate an Item\nIn most cases, moving or manipulating an item is a move action.\nThis includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in Table: Actions in Combat.\nDirect or Redirect a Spell\nSome spells allow you to redirect the effect to new targets or areas after you cast the spell. Redirecting a spell requires a move action and does not provoke attacks of opportunity or require concentration.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::021_start_complete_full_round_action",
+  "next_chunk_id": "chunk::srd_35::combati::023_stand_up"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::012_disable_device",
+  "document_id": "srd_35::epicskills::012_disable_device",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Disable Device"
+    ],
+    "source_location": "EpicSkills.rtf#012_disable_device"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can rush his or her Disable Device attempt, reducing the amount of time it takes to perform the attempt.\nReduce to | DC Modifier |\n1 round | +20 |\nMove-equivalent action | +50 |\nFree action | +100 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::011_diplomacy",
+  "next_chunk_id": "chunk::srd_35::epicskills::013_disguise"
+}

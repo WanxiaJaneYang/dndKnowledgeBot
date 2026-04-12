@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::008_the_abilities",
+  "document_id": "srd_35::basics::008_the_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "THE ABILITIES"
+    ],
+    "source_location": "Basics.rtf#008_the_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "Each ability partially describes your character and affects some of his or her actions.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::007_abilities_and_spellcasters",
+  "next_chunk_id": "chunk::srd_35::basics::009_strength_str"
+}

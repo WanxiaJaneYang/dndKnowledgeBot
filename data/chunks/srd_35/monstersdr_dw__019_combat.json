@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::019_combat",
+  "document_id": "srd_35::monstersdr_dw::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Brass dragons would rather talk than fight. If an intelligent creature tries to leave without engaging in conversation, the dragon might force compliance in a fit of pique, using suggestion or a dose of sleep gas. A creature put to sleep may wake to find itself pinned or buried to the neck in the sand until the dragon's thirst for small talk is slaked. When faced with real danger, younger brass dragons fly out of sight, then hide by burrowing into the sand. Older dragons spurn this ploy but still prefer to have the advantage in combat.\nBreath Weapon (Su): A brass dragon has two types of breath weapon, a line of fire and a cone of sleep. Creatures within the cone must succeed on a Will save or fall asleep, regardless of HD, for 1d6 rounds plus 1 round per age category of the dragon.\nSpell-Like Abilities: At will--speak with animals; 3/day--endure elements (juvenile or older; radius 10 ft. x \uf020dragon's age category); 1/day--suggestion (adult or older), control winds (old or older), control weather (ancient or older).\nSummon Djinni (Sp): This ability, usable by a great wyrm brass dragon, works like a summon monster spell, except that it summons one djinni. This ability is the equivalent of a 7th-level spell.\nSkills: Bluff, Gather Information, and Survival are considered class skills for brass dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::018_dragon_fire",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::020_dragon_water"
+}

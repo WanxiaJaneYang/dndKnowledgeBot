@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::037_archon",
+  "document_id": "srd_35::monstersintro_a::037_archon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "ARCHON"
+    ],
+    "source_location": "MonstersIntro-A.rtf#037_archon"
+  },
+  "chunk_type": "subsection",
+  "content": "Archons are celestials from a lawful good-aligned plane.\nArchons speak Celestial, Infernal, and Draconic, but can speak with almost any creature because of their tongues ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::036_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::038_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::056_war_domain_spells",
+  "document_id": "srd_35::spelllisti::056_war_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "War Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#056_war_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Magic Weapon: Weapon gains +1 bonus.\n2 Spiritual Weapon: Magical weapon attacks on its own.\n3 Magic Vestment: Armor or shield gains +1 enhancement per four levels.\n4 Divine Power: You gain attack bonus, +6 to Str, and 1 hp/level.\n5 Flame Strike: Smite foes with divine fire (1d6/level damage).\n6 Blade Barrier: Wall of blades deals 1d6/level damage.\n7 Power Word Blind: Blinds creature with 200 hp or less.\n8 Power Word Stun: Stuns creature with 150 hp or less.\n9 Power Word Kill: Kills creature with 100 hp or less.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::055_war_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::057_water_domain"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::008_masterwork_weapons",
+  "document_id": "srd_35::equipment::008_masterwork_weapons",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "MASTERWORK WEAPONS"
+    ],
+    "source_location": "Equipment.rtf#008_masterwork_weapons"
+  },
+  "chunk_type": "subsection",
+  "content": "A masterwork weapon is a finely crafted version of a normal weapon. Wielding it provides a +1 enhancement bonus on attack rolls.\nYou can't add the masterwork quality to a weapon after it is created; it must be crafted as a masterwork weapon (see the Craft skill). The masterwork quality adds 300 gp to the cost of a normal weapon (or 6 gp to the cost of a single unit of ammunition). Adding the masterwork quality to a double weapon costs twice the normal increase (+600 gp).\nMasterwork ammunition is damaged (effectively destroyed) when used. The enhancement bonus of masterwork ammunition does not stack with any enhancement bonus of the projectile weapon firing it.\nAll magic weapons are automatically considered to be of masterwork quality. The enhancement bonus granted by the masterwork quality doesn't stack with the enhancement bonus provided by the weapon's magic.\nEven though some types of armor and shields can be used as weapons, you can't create a masterwork version of such an item that confers an enhancement bonus on attack rolls. Instead, masterwork armor and shields have lessened armor check penalties.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::007_weapon_qualities",
+  "next_chunk_id": "chunk::srd_35::equipment::009_armor_qualities"
+}

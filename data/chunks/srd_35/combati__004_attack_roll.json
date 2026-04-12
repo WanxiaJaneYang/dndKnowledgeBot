@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::004_attack_roll",
+  "document_id": "srd_35::combati::004_attack_roll",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "ATTACK ROLL"
+    ],
+    "source_location": "CombatI.rtf#004_attack_roll"
+  },
+  "chunk_type": "subsection",
+  "content": "An attack roll represents your attempt to strike your opponent on your turn in a round. When you make an attack roll, you roll a d20 and add your attack bonus. (Other modifiers may also apply to this roll.) If your result equals or beats the target's Armor Class, you hit and deal damage.\nAutomatic Misses and Hits: A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat--a possible critical hit.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::003_combat_statistics",
+  "next_chunk_id": "chunk::srd_35::combati::005_attack_bonus"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::047_power_points_1",
+  "document_id": "srd_35::psionicpowersq_w::047_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#047_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You receive one kind of sensory input when a different sense is stimulated. In particular, you can either feel light or feel sound. You can shift your stimulated sense between these two options once per round as a swift action. Your senses continue to work normally as well, unless they are impaired for some reason.\nYour face must be uncovered to use this power, because it is the skin of your face that acts as the sensory receiver.\nIf you are feeling light by absorbing ambient light onto your skin, you have your normal visual abilities (except for darkvision), even if your eyes are closed or you are blinded. If your eyes are working normally, you gain a +4 circumstance bonus on all Spot and Search checks. While feeling light, you are immune to gaze attacks.\nIf you are feeling sound by absorbing sound onto your skin and your ears are working normally, the expanded audio input provides you with a +4 circumstance bonus on Listen checks.\nPsionic or magical displacement effects, invisibility effects, illusions, and other similar effects confuse your synesthete senses just as they would your normal senses.\nYou can also use this power to see sound if you are deafened, or hear light if you are blinded, thus removing all penalties associated with either condition (though you gain no bonuses for using the power in this way if you are not deafened or blinded).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::046_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::048_display_visual"
+}

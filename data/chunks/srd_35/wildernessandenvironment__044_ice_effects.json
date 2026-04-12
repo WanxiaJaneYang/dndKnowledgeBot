@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::044_ice_effects",
+  "document_id": "srd_35::wildernessandenvironment::044_ice_effects",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "Ice Effects"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#044_ice_effects"
+  },
+  "chunk_type": "subsection",
+  "content": "Characters walking on ice must spend 2 squares of movement to enter a square covered by ice, and the DC for Balance and Tumble checks increases by +5. Characters in prolonged contact with ice may run the risk of taking damage from severe cold (see above).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::043_cold_dangers",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::045_darkness"
+}

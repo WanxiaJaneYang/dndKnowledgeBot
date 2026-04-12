@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::077_power_points_7",
+  "document_id": "srd_35::psionicpowersq_w::077_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#077_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "As detect teleportation, except you can trace the destination of any psionic or magical teleportation made by others within this power's area within the last minute.\nYou know the direction and distance the individuals traveled and could teleport to the location yourself if you so desired (and if you know the psionic teleport power), as if you had \u201cseen casually\u201d the location. This power does not grant you any information on the conditions at the other end of the trace beyond the mental coordinates of the location.\nAugment: If you spend 2 additional power points, this power's range increases to Medium (100 ft. + 10 ft./level).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::076_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::078_power_points_17_xp"
+}

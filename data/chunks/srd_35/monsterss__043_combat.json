@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::043_combat",
+  "document_id": "srd_35::monsterss::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A spider swarm seeks to surround and attack any living prey it encounters. A swarm deals 1d6 points of damage to any creature whose space it occupies at the end of its move.\nDistraction (Ex): Any living creature that begins its turn with a spider swarm in its space must succeed on a DC 11 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.\nPoison (Ex): Injury, Fortitude DC 11, initial and secondary damage 1d3 Str. The save DC is Constitution-based.\nSkills: A spider swarm has a +4 racial bonus on Hide and Spot checks and a +8 racial bonus on Climb checks. It uses its Dexterity modifier instead of its Strength modifier for Climb checks. It can always choose to take 10 on a Climb check, even if rushed or threatened.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::042_combat"
+}

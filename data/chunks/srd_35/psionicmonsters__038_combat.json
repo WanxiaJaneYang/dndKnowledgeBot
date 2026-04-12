@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::038_combat",
+  "document_id": "srd_35::psionicmonsters::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Psi-Like Abilities: 1/day--energy ray. A maenad can deal only sonic damage with this ability. Manifester level equal to 1/2 Hit Dice (minimum 1st). The save DC is Charisma-based.\nOutburst (Ex): Once per day for up to 4 rounds a maenad can subjugate his mentality. He takes a -2 penalty to Intelligence and Wisdom but gains a +2 bonus to Strength.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::037_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::039_maenads_as_characters"
+}

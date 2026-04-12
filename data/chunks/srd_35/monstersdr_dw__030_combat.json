@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::030_combat",
+  "document_id": "srd_35::monstersdr_dw::030_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "COMBAT"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#030_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Driders seldom pass up an opportunity to attack other creatures, especially from ambush. They usually begin with a spell assault and often levitate out of the enemy's reach.\nPoison (Ex): Injury, Fortitude DC 16, initial and secondary damage 1d6 Str. The save DC is Constitution based.\nSpell-Like Abilities: 1/day--dancing lights (DC 13), clairaudience/clairvoyance, darkness, detect good, detect law, detect magic, dispel magic, faerie fire, levitate, suggestion (DC 16). Caster level 6th. The save DCs are Charisma-based.\nSpells: Driders cast spells as 6th-level clerics, wizards, or sorcerers. Drider clerics can choose from the following domains: Chaos, Destruction, Evil, and Trickery. The typical spells prepared shown here are for a drider sorcerer.\nTypical Sorcerer Spells Known (6/7/6/4, base save DC 13 + spell level): 0--daze, detect magic, ghost sound, mage hand, ray of frost, read magic, resistance; 1st--mage armor, magic missile, ray of enfeeblement, silent image; 2nd-- invisibility, web; 3rd--lightning bolt.\nSkills: A drider has a +4 racial bonus on Hide and Move Silently checks. It has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.\n\nHit Dice: | 4d6 (14 hp) |\nInitiative: | +4 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 17 (+4 Dex, +3 natural), touch 14, flat-footed 13 |\nBase Attack/Grapple: | +2/+2 |\nAttack: | Dagger +6 melee (1d4/19-20) or masterwork longbow +7 ranged (1d8/x3) |\nFull Attack: | Dagger +6 melee (1d4/19-20) or masterwork longbow +7 ranged (1d8/x3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities |\nSpecial Qualities: | Damage reduction 5/cold iron, tree dependent, wild empathy |\nSaves: | Fort +3, Ref +8, Will +6 |\nAbilities: | Str 10, Dex 19, Con 11, Int 14, Wis 15, Cha 18 |\nSkills: | Escape Artist +11, Handle Animal +11, Hide +11, Knowledge (nature) +11, Listen +9, Move Silently +11, Ride +6, Spot +9, Survival +9, Use Rope +4 (+6 with bindings) |\nFeats: | Great Fortitude, Weapon Finesse |\nEnvironment: | Temperate forests |\nOrganization: | Solitary or grove (4-7) |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually chaotic good |\nAdvancement: | By character class |\nLevel Adjustment: | -- |\nA dryad's delicate features are much like a female elf 's, though her flesh is like bark or fine wood, and her hair is like a canopy of leaves that changes color with the seasons.\nAlthough they are generally solitary, up to seven dryads have been encountered in one place on rare occasions.\nDryads speak Common, Elven, and Sylvan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::029_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::031_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::016_class_skills",
+  "document_id": "srd_35::psionicclasses::016_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#016_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The cerebremancer's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Decipher Script (Int), Knowledge (arcana) Int, Knowledge (psionics) (Int), Profession (Wis), Psicraft (Int), and Spellcraft (Int).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Cerebremancer |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Spells per Day/Powers Known |\n1st | +0 | +0 | +0 | +2 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n2nd | +1 | +0 | +0 | +3 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n3rd | +1 | +1 | +1 | +3 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n4th | +2 | +1 | +1 | +4 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n5th | +2 | +1 | +1 | +4 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n6th | +3 | +2 | +2 | +5 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n7th | +3 | +2 | +2 | +5 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n8th | +4 | +2 | +2 | +6 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n9th | +4 | +3 | +3 | +6 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |\n10th | +5 | +3 | +3 | +7 | +1 level of existing arcane spellcasting class/+1 level of existing manifesting class |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::015_requirements",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::017_class_features"
+}

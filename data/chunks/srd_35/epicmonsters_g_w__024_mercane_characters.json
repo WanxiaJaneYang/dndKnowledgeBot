@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::024_mercane_characters",
+  "document_id": "srd_35::epicmonsters_g_w::024_mercane_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "MERCANE CHARACTERS"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#024_mercane_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "A mercane's favored class is wizard. Player character mercanes have a level adjustment of +7.\n\nHit Dice: | 35d8+315 (472 hp) |\nInitiative: | +5 (-3 Dex, +8 Superior Initiative) |\nSpeed: | 40 ft. |\nAC: | 27 (-3 Dex, -8 size, +28 natural) |\nBase Attack/Grapple: | +26/+55 |\nAttack: | Tendril +31 (2d6+13/19-20) melee |\nFull Attack: | 4 tendrils +31 (2d6+13/19-20) melee, 1 bite +26 (4d6+6/19-20) melee |\nSpace/Reach: | 30 ft./30 ft. |\nSpecial Attacks: | Spore cough, improved grab, swallow whole |\nSpecial Qualities: | Acid resistance 20, blindsight 210 ft., DR 10/epic, fast healing 10, plant traits, sticky |\nSaves: | Fort +28, Ref +8, Will +20 |\nAbilities: | Str 36, Dex 5, Con 29, Int 18, Wis 28, Cha 28 |\nSkills: | Bluff +47, Diplomacy +13, Gather Information +13, Hide +35, Intimidate +13, Jump +13, Knowledge (local, nature) +42, Listen +47, Spot +47 |\nFeats: | Cleave, Great Cleave, Improved Critical (bite), Improved Critical (tendril), Improved initiative, Lightning Reflexes, Power Attack |\nEpic Feats: | Epic Reflexes, Epic Toughness (x3), Superior Initiative |\nClimate/Terrain: | Any |\nOrganization: | Solitary, pair, or polyp (3-7) |\nChallenge Rating: | 21 |\nTreasure: | Standard |\nAlignment: | Usually chaotic neutral |\nAdvancement: | 36+ HD (Colossal) |\nMu spores speak Common and Terran.\nA mu spore's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::023_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::025_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::006_merrow",
+  "document_id": "srd_35::monsterso_r::006_merrow",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "MERROW"
+    ],
+    "source_location": "MonstersO-R.rtf#006_merrow"
+  },
+  "chunk_type": "subsection",
+  "content": "These cousins of the ogre have the aquatic subtype.\nThey dwell in freshwater lakes and rivers. They have a base land speed of 30 feet and a swim speed of 40 feet and are found only in aquatic environments.\nInstead of the typical ogre's greatclub, they prefer to use longspears in melee (attack +8 melee, damage 1d8+7).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::005_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::007_ogres_as_characters"
+}

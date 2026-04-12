@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::078_improved_aura_of_despair_epic",
+  "document_id": "srd_35::epicfeats::078_improved_aura_of_despair_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED AURA OF DESPAIR [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#078_improved_aura_of_despair_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Cha 25, aura of despair class ability.\nBenefit: The character's aura of despair causes a -4 morale penalty on all saving throws.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::077_improved_aura_of_courage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::079_improved_combat_casting_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::026_mechanical_trap_cost",
+  "document_id": "srd_35::traps::026_mechanical_trap_cost",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Mechanical Trap Cost"
+    ],
+    "source_location": "Traps.rtf#026_mechanical_trap_cost"
+  },
+  "chunk_type": "subsection",
+  "content": "The base cost of a mechanical trap is 1,000 gp. Apply all the modifiers from Table: Cost Modifiers for Mechanical Traps for the various features you've added to the trap to get the modified base cost.\nThe final cost is equal to (modified base cost x Challenge Rating) + extra costs. The minimum cost for a mechanical trap is (CR x 100) gp.\nAfter you've multiplied the modified base cost by the Challenge Rating, add the price of any alchemical items or poison you incorporated into the trap. If the trap uses one of these elements and has an automatic reset, multiply the poison or alchemical item cost by 20 to provide an adequate supply of doses.\nMultiple Traps: If a trap is really two or more connected traps, determine the final cost of each separately, then add those values together. This holds for both multiple dependent and multiple independent traps (see the previous section).\nTable: Cost Modifiers for Mechanical Traps |\nFeature | Cost Modifier |\nTrigger Type | |\nLocation | -- |\nProximity | +1,000 gp |\nTouch | -- |\nTouch (attached) | -100 gp |\nTimed | +1,000 gp |\nReset Type | |\nNo reset | -500 gp |\nRepair | -200 gp |\nManual | -- |\nAutomatic | +500 gp (or 0 if trap has timed trigger) |\nBypass Type | |\nLock | +100 gp (Open Lock DC 30) |\nHidden switch | +200 gp (Search DC 25) |\nHidden lock | +300 gp (Open Lock DC 30, Search DC 25) |\nSearch DC | |\n19 or lower | -100 gp x (20 - DC) |\n20 | -- |\n21 or higher | +200 gp x (DC - 20) |\nDisable Device DC | |\n19 or lower | -100 gp x (20 - DC) |\n20 | -- |\n21 or higher | +200 gp x (DC - 20) |\nReflex Save DC (Pit or Other Save-Dependent Trap) |\n19 or lower | -100 gp x (20 - DC) |\n20 | -- |\n21 or higher | +300 gp x (DC - 20) |\nAttack Bonus (Melee or Ranged Attack Trap) |\n+9 or lower | -100 gp x (10 - bonus) |\n+10 | -- |\n+11 or higher | +200 gp x (bonus - 10) |\nDamage Bonus | |\nHigh strength rating (ranged attack trap) | +100 gp x bonus (max +4) |\nHigh Strength bonus (melee attack trap) | +100 gp x bonus (max +8) |\nMiscellaneous Features | |\nNever miss | +1,000 gp |\nPoison | Cost of poison* |\nAlchemical item | Cost of item* |\n* Multiply cost by 20 if trap features automatic reset. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::025_designing_a_trap",
+  "next_chunk_id": "chunk::srd_35::traps::027_magic_device_trap_cost"
+}

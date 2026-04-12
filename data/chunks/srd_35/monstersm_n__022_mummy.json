@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::022_mummy",
+  "document_id": "srd_35::monstersm_n::022_mummy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "MUMMY"
+    ],
+    "source_location": "MonstersM-N.rtf#022_mummy"
+  },
+  "chunk_type": "subsection",
+  "content": "| Mummy | Mummy Lord, 10th-Level Cleric |\n| Medium Undead | Medium Undead |\nHit Dice: | 8d12+3 (55 hp) | 8d12 plus 10d8 (97 hp) |\nInitiative: | +0 | +5 |\nSpeed: | 20 ft. (4 squares) | 15 ft. in half-plate armor (3 squares); base speed 20 ft. |\nArmor Class: | 20 (+10 natural), touch 10, flat-footed 20 | 30 (+1 Dex, +10 natural, +9 +2 half-plate armor), touch 11, flat-footed 29 |\nBase Attack/Grapple: | +4/+11 | +11/+19 |\nAttack: | Slam +11 melee (1d6+10 plus mummy rot) | Slam +20 melee (1d6+12/19-20 plus mummy rot) |\nFull Attack: | Slam +11 melee (1d6+10 plus mummy rot) | Slam +20 melee (1d6+12/19-20 plus mummy rot) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | Despair, mummy rot | Despair, mummy rot, rebuke undead, spells |\nSpecial Qualities: | Damage reduction 5/-, darkvision 60 ft., undead traits, vulnerability to fire | Damage reduction 5/-, darkvision 60 ft., resistance to fire 10, undead traits, vulnerability to fire |\nSaves: | Fort +4, Ref +2, Will +8 | Fort +13, Ref +8, Will +20 |\nAbilities: | Str 24, Dex 10, Con --, Int 6, Wis 14, Cha 15 | Str 26, Dex 12, Con --, Int 8, Wis 20, Cha 17 |\nSkills: | Hide +7, Listen +8, Move Silently +7, Spot +8 | Concentration +8, Knowledge (religion) +4, Listen +18, Move Silently +5, Spot +18 |\nFeats: | Alertness, Great Fortitude, Toughness | Alertness, Combat Casting, Great Fortitude, Improved Critical (slam), Improved Initiative, Weapon Focus (slam) |\nEnvironment: | Any | Any |\nOrganization: | Solitary, warden squad (2-4), or guardian detail (6-10) | Solitary or tomb guard (1 mummy lord and 6-10 mummies) |\nChallenge Rating: | 5 | 15 |\nTreasure: | Standard | Standard plus possessions noted below |\nAlignment: | Usually lawful evil | Usually lawful evil |\nAdvancement: | 9-16 HD (Medium); 17-24 HD (Large) | By character class |\nLevel Adjustment: | -- | -- |\nMummies are preserved corpses animated through the auspices of dark desert gods best forgotten.\nMost mummies are 5 to 6 feet tall and weigh about 120 pounds.\nMummies can speak Common, but seldom bother to do so.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::021_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::023_combat"
+}

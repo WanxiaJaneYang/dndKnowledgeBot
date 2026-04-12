@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::023_iron_colossus",
+  "document_id": "srd_35::epicmonsters_a_e::023_iron_colossus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "IRON COLOSSUS"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#023_iron_colossus"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): Cone of poisonous gas, 80 feet, as a free action every 1d4 rounds, initial damage 3d6 temporary Con, secondary damage 2d6 temporary Con, Fort half (DC 58). The DC is Constitution-based.\nMagic Immunity (Ex): An iron colossus is immune to all magical and supernatural effects, except as follows. An electricity effect restores 1 hit point to the iron colossus for each 3 points of damage it would otherwise deal.\nRustproof (Ex): An iron colossus is not affected by rust attacks, unlike smaller iron golems.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::022_construction",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::024_construction"
+}

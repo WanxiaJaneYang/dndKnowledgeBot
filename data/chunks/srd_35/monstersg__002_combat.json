@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::002_combat",
+  "document_id": "srd_35::monstersg::002_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#002_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Gargoyles either remain still, then suddenly attack, or dive onto their prey.\nA gargoyle's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nFreeze (Ex): A gargoyle can hold itself so still it appears to be a statue. An observer must succeed on a DC 20 Spot check to notice the gargoyle is really alive.\nSkills: Gargoyles have a +2 racial bonus on Hide, Listen, and Spot checks. *The Hide bonus increases by +8 when a gargoyle is concealed against a background of stone.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::001_monstersg",
+  "next_chunk_id": "chunk::srd_35::monstersg::003_kapoacinth"
+}

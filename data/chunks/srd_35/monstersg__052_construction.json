@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::052_construction",
+  "document_id": "srd_35::monstersg::052_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Construction"
+    ],
+    "source_location": "MonstersG.rtf#052_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "A clay golem's body must be sculpted from a single block of clay weighing at least 1,000 pounds, treated with rare oils and powders worth 1,500 gp. Creating the body requires a DC 15 Craft (sculpting) check or a DC 15 Craft (pottery) check.\nCL 11th; Craft Construct, animate objects, commune, resurrection, caster must be at least 11th level; Price 40,000 gp; Cost 21,500 gp + 1,540 XP.\n\nHit Dice: | 9d10+30 (79 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 18 (-1 size, -1 Dex, +10 natural), touch 8, flat-footed 18 |\nBase Attack/Grapple: | +6/+15 |\nAttack: | Slam +10 melee (2d8+5) |\nFull Attack: | 2 slams +10 melee (2d8+5) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Berserk |\nSpecial Qualities: | Construct traits, damage reduction 5/adamantine, darkvision 60 ft., immunity to magic, low-light vision |\nSaves: | Fort +3, Ref +2, Will +3 |\nAbilities: | Str 21, Dex 9, Con --, Int --, Wis 11, Cha 1 |\nSkills: | -- |\nFeats: | -- |\nEnvironment: | Any |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 10-18 HD (Large); 19-27 HD (Huge) |\nLevel Adjustment: | -- |\nA flesh golem is a ghoulish collection of stolen humanoid body parts, stitched together into a single composite form. No natural animal willingly tracks a flesh golem. The golem wears whatever clothing its creator desires, usually just a ragged pair of trousers. It has no possessions and no weapons. It stands 8 feet tall and weighs almost 500 pounds.\nA flesh golem golem cannot speak, although it can emit a hoarse roar of sorts. It walks and moves with a stiff-jointed gait, as if not in complete control of its body.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::051_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::053_combat"
+}

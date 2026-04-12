@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::013_kineticist_psychokinesis_discipline_powers",
+  "document_id": "srd_35::powerlist::013_kineticist_psychokinesis_discipline_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "KINETICIST (PSYCHOKINESIS) DISCIPLINE POWERS"
+    ],
+    "source_location": "PowerList.rtf#013_kineticist_psychokinesis_discipline_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "1\tControl Object: Telekinetically animate a small object.\n2\tControl AirA: You have control over wind speed and direction.\nEnergy MissileA: Deal 3d6 energy damage to up to five subjects.\n3\tEnergy ConeA: Deal 5d6 energy damage in 60-ft. cone.\n4\tControl BodyA: Take rudimentary control of your foe's limbs.\nEnergy BallA: Deal 7d6 energy damage in 20-ft. radius.\nInertial Barrier: Gain DR 5/-.\n5\tEnergy CurrentA: Deal 9d6 damage to one foe and half to another foe as long as you concentrate.\nFiery DiscorporationA: Cheat death by discorporating into nearby fire for one day.\n6\tDispelling Buffer: Subject is buffered from one dispel psionics effect.\nNull Psionics Field: Create a field where psionic power does not function.\n7\tReddopsi: Powers targeting you rebound on manifester.\n8\tTelekinetic Sphere, Psionic: Mobile force globe encapsulates creature and moves it.\n9\tTornado BlastA: Vortex of air subjects your foes to 17d6 damage and moves them.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::012_egoist_psychometabolism_discipline_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::014_nomad_psychoportation_discipline_powers"
+}

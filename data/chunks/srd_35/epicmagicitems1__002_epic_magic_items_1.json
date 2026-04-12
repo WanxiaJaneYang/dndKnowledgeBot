@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::002_epic_magic_items_1",
+  "document_id": "srd_35::epicmagicitems1::002_epic_magic_items_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "EPIC MAGIC ITEMS 1"
+    ],
+    "source_location": "EpicMagicItems1.rtf#002_epic_magic_items_1"
+  },
+  "chunk_type": "rule_section",
+  "content": "While not truly an artifact, the epic magic item is a creation of such power that it surpasses other magic items. Epic magic items are objects of great power and value. The following are typical characteristics of an epic magic item. In general, an item with even one of these characteristics is an epic magic item.\nGrants a bonus on attacks or damage greater than +5.\nGrants an enhancement bonus to armor higher than +5.\nHas a special ability with a market price modifier greater than +5.\nGrants an armor bonus of greater than +10 (not including magic armor's enhancement bonus).\nGrants a natural armor, deflection, or resistance bonus greater than +5.\nGrants an enhancement bonus to an ability score greater than +6.\nGrants an enhancement bonus on a skill check greater than +30.\nMimics a spell of an effective level higher than 9th.\nHas a caster level above 20th.\nHas a market price above 200,000 gp, not including material costs for armor or weapons, material component- or experience point-based costs, or additional value for intelligent items.\nAn epic magic item that grants a bonus beyond those allowed for normal magic items has a higher market price than indicated by the formulas for non-epic items.\nEpic magic items are not artifacts. They are not unique, though they are certainly very rare, and anyone with the proper item creation feats can build them. Even an epic magic item can never grant a dodge bonus, and the maximum inherent bonus that can be applied to an ability score is +5. An epic magic item cannot be created that uses or mimics an epic spell. A major artifact might be able to mimic such a spell, however.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::001_epicmagicitems1",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::003_creating_epic_magic_items"
+}

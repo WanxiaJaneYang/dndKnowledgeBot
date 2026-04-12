@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::014_4th_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::014_4th_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "4TH-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#014_4th_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Air Walk: Subject treads on air as if solid (climb at 45-degree angle).\nControl Water: Raises or lowers bodies of water.\nCure Critical Wounds: Cures 4d8 damage +1/level (max +20).\nDeath Ward: Grants immunity to death spells and negative energy effects.\nDimensional Anchor: Bars extradimensional movement.\nDiscern Lies: Reveals deliberate falsehoods.\nDismissal: Forces a creature to return to native plane.\nDivination M: Provides useful advice for specific proposed actions.\nDivine Power: You gain attack bonus, +6 to Str, and 1 hp/level.\nFreedom of Movement: Subject moves normally despite impediments.\nGiant Vermin: Turns centipedes, scorpions, or spiders into giant vermin.\nImbue with Spell Ability: Transfer spells to subject.\nInflict Critical Wounds: Touch attack, 4d8 damage +1/level (max +20).\nMagic Weapon, Greater: +1 bonus/four levels (max +5).\nNeutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.\nPlanar Ally, Lesser X: Exchange services with a 6 HD extraplanar creature.\nPoison: Touch deals 1d10 Con damage, repeats in 1 min.\nRepel Vermin: Insects, spiders, and other vermin stay 10 ft. away.\nRestoration M: Restores level and ability score drains.\nSending: Delivers short message anywhere, instantly.\nSpell Immunity: Subject is immune to one spell per four levels.\nSummon Monster IV: Calls extraplanar creature to fight for you.\nTongues: Speak any language.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::013_3rd_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::015_5th_level_cleric_spells"
+}

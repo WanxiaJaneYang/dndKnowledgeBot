@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::016_conjuration",
+  "document_id": "srd_35::magicoverview::016_conjuration",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "Conjuration"
+    ],
+    "source_location": "MagicOverview.rtf#016_conjuration"
+  },
+  "chunk_type": "subsection",
+  "content": "Each conjuration spell belongs to one of five subschools. Conjurations bring manifestations of objects, creatures, or some form of energy to you (the summoning subschool), actually transport creatures from another plane of existence to your plane (calling), heal (healing), transport creatures or objects over great distances (teleportation), or create objects or effects on the spot (creation). Creatures you conjure usually, but not always, obey your commands.\nA creature or object brought into being or transported to your location by a conjuration spell cannot appear inside another creature or object, nor can it appear floating in an empty space. It must arrive in an open location on a surface capable of supporting it.\nThe creature or object must appear within the spell's range, but it does not have to remain within the range.\nCalling: A calling spell transports a creature from another plane to the plane you are on. The spell grants the creature the one-time ability to return to its plane of origin, although the spell may limit the circumstances under which this is possible. Creatures who are called actually die when they are killed; they do not disappear and reform, as do those brought by a summoning spell (see below). The duration of a calling spell is instantaneous, which means that the called creature can't be dispelled.\nCreation: A creation spell manipulates matter to create an object or creature in the place the spellcaster designates (subject to the limits noted above). If the spell has a duration other than instantaneous, magic holds the creation together, and when the spell ends, the conjured creature or object vanishes without a trace. If the spell has an instantaneous duration, the created object or creature is merely assembled through magic. It lasts indefinitely and does not depend on magic for its existence.\nHealing: Certain divine conjurations heal creatures or even bring them back to life.\nSummoning: A summoning spell instantly brings a creature or object to a place you designate. When the spell ends or is dispelled, a summoned creature is instantly sent back to where it came from, but a summoned object is not sent back unless the spell description specifically indicates this. A summoned creature also goes away if it is killed or if its hit points drop to 0 or lower. It is not really dead. It takes 24 hours for the creature to reform, during which time it can't be summoned again.\nWhen the spell that summoned a creature ends and the creature disappears, all the spells it has cast expire. A summoned creature cannot use any innate summoning abilities it may have, and it refuses to cast any spells that would cost it XP, or to use any spell-like abilities that would cost XP if they were spells.\nTeleportation: A teleportation spell transports one or more creatures or objects a great distance. The most powerful of these spells can cross planar boundaries. Unlike summoning spells, the transportation is (unless otherwise noted) one-way and not dispellable.\nTeleportation is instantaneous travel through the Astral Plane. Anything that blocks astral travel also blocks teleportation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::015_abjuration",
+  "next_chunk_id": "chunk::srd_35::magicoverview::017_divination"
+}

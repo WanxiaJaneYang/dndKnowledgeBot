@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::056_xephs_as_characters",
+  "document_id": "srd_35::psionicmonsters::056_xephs_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "XEPHS AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#056_xephs_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Xeph characters possess the following racial traits.\n-- -2 Strength, +2 Dexterity.\n--Medium size.\n--Xeph base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Naturally Psionic: Xephs gain 1 bonus power point at 1st level.\n-- +1 racial bonus on saving throws against powers, spells, and spell-like effects.\n--Special Qualities (see above): Burst.\n--Racial Feats: A xeph character gains feats according to his or her character class.\n--Automatic Languages: Xeph, Common.\n--Favored Class: Soulknife.\n--Level Adjustment: +0.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::055_combat"
+}

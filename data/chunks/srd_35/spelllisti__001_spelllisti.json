@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::001_spelllisti",
+  "document_id": "srd_35::spelllisti::001_spelllisti",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "SpellListI"
+    ],
+    "source_location": "SpellListI.rtf#001_spelllisti"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::spelllisti::002_spell_list_i"
+}

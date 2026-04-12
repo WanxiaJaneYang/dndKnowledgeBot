@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::006_size_increases",
+  "document_id": "srd_35::improving_monsters::006_size_increases",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "SIZE INCREASES"
+    ],
+    "source_location": "Improving Monsters.rtf#006_size_increases"
+  },
+  "chunk_type": "subsection",
+  "content": "A creature may become larger when its Hit Dice are increased (the new size is noted parenthetically in the monster's Advancement entry).\nA size increase affects any special ability the creature has that is affected by size. Increased size also affects a creature's ability scores, AC, attack bonuses, and damage values as indicated on the tables below.\nTable: Changes to Statistics by Size |\nOld Size* | New Size | Str | Dex | Con | Natural Armor | AC/\n\nFine | Diminutive | Same | -2 | Same | Same | -4 |\nDiminutive | Tiny | +2 | -2 | Same | Same | -2 |\nTiny | Small | +4 | -2 | Same | Same | -1 |\nSmall | Medium | +4 | -2 | +2 | Same | -1 |\nMedium | Large | +8 | -2 | +4 | +2 | -1 |\nLarge | Huge | +8 | -2 | +4 | +3 | -1 |\nHuge | Gargantuan | +8 | Same | +4 | +4 | -2 |\nGargantuan | Colossal | +8 | Same | +4 | +5 | -4 |\n*Repeat the adjustment if the creature moves up more than one size. |\nTable: Increased Damage By Size |\nOld Damage (Each)* | New Damage |\n1d2 | 1d3 |\n1d3 | 1d4 |\n1d4 | 1d6 |\n1d6 | 1d8 |\n1d8 | 2d6 |\n1d10 | 2d8 |\n2d6 | 3d6 |\n2d8 | 3d8 |\n* Repeat the adjustment if the creature moves up more than one size category. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::005_increasing_hit_dice",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::007_templates"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::060_psionic_dodge_psionic",
+  "document_id": "srd_35::psionicsfeats::060_psionic_dodge_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC DODGE [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#060_psionic_dodge_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You are proficient at dodging blows.\nPrerequisite: Dex 13, Dodge.\nBenefit: You must be psionically focused to use this feat. You receive a +1 dodge bonus to your Armor Class. This bonus stacks with the bonus from the Dodge feat (but only applies on attacks made by the opponent you have designated).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::059_psionic_charge_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::061_psionic_endowment_psionic"
+}

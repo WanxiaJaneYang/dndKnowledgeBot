@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::027_requirements",
+  "document_id": "srd_35::epicprestigeclasses::027_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#027_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a guardian paramount, a character must fulfill all the following criteria.\nBase Attack Bonus: +15.\nSkills: Spot 13 ranks.\nFeats: Alertness, Lightning Reflexes.\nEpic Feats: Blinding Speed, Superior Initiative.\nSpecial: Uncanny dodge, evasion.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::026_class_features",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::028_class_skills"
+}

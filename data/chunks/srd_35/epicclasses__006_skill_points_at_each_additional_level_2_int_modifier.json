@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::006_skill_points_at_each_additional_level_2_int_modifier",
+  "document_id": "srd_35::epicclasses::006_skill_points_at_each_additional_level_2_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "Skill Points at Each Additional Level: 2 + Int modifier"
+    ],
+    "source_location": "EpicClasses.rtf#006_skill_points_at_each_additional_level_2_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "Bonus Feats: The epic fighter gains a bonus feat (selected from the list of epic fighter bonus feats) every two levels after 20th.\nEpic Fighter Bonus Feat List: Armor Skin, Combat Archery, Damage Reduction, Devastating Critical, Dire Charge, Distant Shot, Energy Resistance, Epic Endurance, Epic Leadership, Epic Prowess, Epic Toughness, Epic Weapon Focus, Epic Weapon Specialization, Exceptional Deflection, Improved Combat Reflexes, Improved Manyshot, Improved Stunning Fist, Improved Whirlwind Attack, Infinite Deflection, Instant Reload, Legendary Commander, Legendary Rider, Legendary Wrestler, Overwhelming Critical, Penetrate Damage Reduction, Perfect Two-Weapon Fighting, Reflect Arrows, Spellcasting Harrier, Storm of Throws, Superior Initiative, Swarm of Arrows, Two-Weapon Rend, Uncanny Accuracy. In addition to the feats on this list, the fighter may treat any feat designated as a fighter bonus feat, but not listed here, as being on his or her bonus feat list.\nTable: The Epic Fighter\nFighter Level | Special |\n21st | -- |\n22nd | Bonus feat |\n23rd | -- |\n24th | Bonus feat |\n25th | -- |\n26th | Bonus feat |\n27th | -- |\n28th | Bonus feat |\n29th | -- |\n30th | Bonus feat |\nEPIC MONK\nHit Die: d8",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::005_skill_points_at_each_additional_level_4_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicclasses::007_skill_points_at_each_additional_level_4_int_modifier"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::016_skill_descriptions",
+  "document_id": "srd_35::skillsi::016_skill_descriptions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "SKILL DESCRIPTIONS"
+    ],
+    "source_location": "SkillsI.rtf#016_skill_descriptions"
+  },
+  "chunk_type": "subsection",
+  "content": "This section describes each skill, including common uses and typical modifiers. Characters can sometimes use skills for purposes other than those noted here.\nHere is the format for skill descriptions.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::015_ability_checks",
+  "next_chunk_id": "chunk::srd_35::skillsi::017_skill_name"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::002_display_material",
+  "document_id": "srd_35::psionicpowersg_p::002_display_material",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Material"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#002_display_material"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: One week (8 hours/day)\nRange: 180 ft.; see text\nEffect: A demiplane coterminous with the Astral Plane, centered on your location",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::001_psionicpowersg_p",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::003_power_points_17_xp"
+}

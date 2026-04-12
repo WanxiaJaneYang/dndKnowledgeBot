@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::072_hindering_song_epic",
+  "document_id": "srd_35::epicfeats::072_hindering_song_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "HINDERING SONG [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#072_hindering_song_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Deafening Song, Perform 27 ranks, bardic music class feature.\nBenefit: The character can use song or poetics to hinder enemy spellcasters within a 30-foot spread from the character. To successfully cast a spell within this area, a spellcaster must make a Concentration check as if he or she were casting defensively, and all such checks have a penalty equal to half the character's level. The character can choose to exclude any characters from this effect. The character may sing, play, or recite a hindering song while taking other mundane actions, but not magical ones (see the bard's inspire courage ability for more details). The character may keep up the hindering song for a maximum of 10 rounds. Using the hindering song counts as one of the character's uses of song or poetics for the day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::071_group_inspiration_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::073_holy_strike_epic"
+}

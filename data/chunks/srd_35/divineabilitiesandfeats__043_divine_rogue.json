@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::043_divine_rogue",
+  "document_id": "srd_35::divineabilitiesandfeats::043_divine_rogue",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Rogue"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#043_divine_rogue"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Rogue level 20th, Dodge, improved evasion, defensive roll.\nBenefit: When struck by an attack from an opponent the deity has designated as its dodge target, the deity may make a Reflex save (DC 10 + damage dealt) to negate all damage from the attack.\nIf the deity passes within 5 feet of a trap, the deity is entitled to a Search check to notice it as if the deity were actively looking for it.\nThe deity can assess the exact value of any treasure it can see.\nThe deity also can immediately determine what any creature is carrying and where each carried item is.\nSuggested Portfolio Elements: Thieves.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::042_divine_recall",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::044_divine_shield"
+}

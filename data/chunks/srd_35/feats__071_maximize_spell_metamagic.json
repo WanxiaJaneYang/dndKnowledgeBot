@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::071_maximize_spell_metamagic",
+  "document_id": "srd_35::feats::071_maximize_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "MAXIMIZE SPELL [METAMAGIC]"
+    ],
+    "source_location": "Feats.rtf#071_maximize_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: All variable, numeric effects of a spell modified by this feat are maximized. Saving throws and opposed rolls are not affected, nor are spells without random variables. A maximized spell uses up a spell slot three levels higher than the spell's actual level.\nAn empowered, maximized spell gains the separate benefits of each feat: the maximum result plus one-half the normally rolled result.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::070_martial_weapon_proficiency_general",
+  "next_chunk_id": "chunk::srd_35::feats::072_mobility_general"
+}

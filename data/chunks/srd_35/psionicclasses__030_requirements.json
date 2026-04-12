@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::030_requirements",
+  "document_id": "srd_35::psionicclasses::030_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Requirements"
+    ],
+    "source_location": "PsionicClasses.rtf#030_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a psion uncarnate, a character must fulfill all the following criteria.\nSkills: Knowledge (psionics) 8 ranks, Psicraft 8 ranks.\nFeat: Psionic Body.\nPsionics: Able to manifest 3rd-level powers.\nSpecial: Must have had some instruction by another psion uncarnate.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::029_class_features",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::031_class_skills"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::049_power_points_5",
+  "document_id": "srd_35::psionicpowersq_w::049_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#049_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You move an object by concentrating your mind upon its current location and then the location you desire, creating a sustained force. You can move an object weighing no more than 250 pounds up to 20 feet per round. A creature can negate the effect on an object it possesses with a successful Will save or with power resistance. The weight can be moved across the ground or through the air. This power ends if the object is forced out of range. If you cease concentration, the object falls or stops.\nYou can drop a weight and pick up another during the power's duration, as long as you don't stop concentrating on maintaining the power. An object can be telekinetically manipulated as if you were moving it with one hand.\nIf you spend at least 5 rounds concentrating on an unattended object, you can attempt to break or burst it as if making a Strength check, except that you apply your key ability modifier to the check instead of your Strength modifier.\nAugment: For every additional power point you spend, the weight limit of the target increases by 25 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::048_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::050_display_visual"
+}

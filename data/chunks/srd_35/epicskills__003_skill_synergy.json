@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::003_skill_synergy",
+  "document_id": "srd_35::epicskills::003_skill_synergy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Skill Synergy"
+    ],
+    "source_location": "EpicSkills.rtf#003_skill_synergy"
+  },
+  "chunk_type": "subsection",
+  "content": "Many skills are noted as granting a synergy bonus to the use of another skill when a character has 5 or more ranks in the first skill. This synergy bonus increases by +2 for every additional 20 ranks the character has in the skill.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::002_epic_skills",
+  "next_chunk_id": "chunk::srd_35::epicskills::004_skill_descriptions"
+}

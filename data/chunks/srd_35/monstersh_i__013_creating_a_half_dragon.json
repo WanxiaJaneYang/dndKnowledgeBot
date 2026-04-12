@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::013_creating_a_half_dragon",
+  "document_id": "srd_35::monstersh_i::013_creating_a_half_dragon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "CREATING A HALF-DRAGON"
+    ],
+    "source_location": "MonstersH-I.rtf#013_creating_a_half_dragon"
+  },
+  "chunk_type": "subsection",
+  "content": "\u201cHalf-dragon\u201d is an inherited template that can be added to any living, corporeal creature (referred to hereafter as the base creature).\nA half-dragon uses all the base creature's statistics and special abilities except as noted here.\nSize and Type: The creature's type changes to dragon. Size is unchanged. Do not recalculate base attack bonus or saves.\nHit Dice: Increase base creature's racial HD by one die size, to a maximum of d12. Do not increase class HD.\nSpeed: A half-dragon that is Large or larger has wings and can fly at twice its base land speed (maximum 120 ft.) with average maneuverability. A half-dragon that is Medium or smaller does not have wings.\nArmor Class: Natural armor improves by +4.\nAttack: A half-dragon has two claw attacks and a bite attack, and the claws are the primary natural weapon. If the base creature can use weapons, the half-dragon retains this ability. A half-dragon fighting without weapons uses a claw when making an attack action. When it has a weapon, it usually uses the weapon instead.\nFull Attack: A half-dragon fighting without weapons uses both claws and its bite when making a full attack. If armed with a weapon, it usually uses the weapon as its primary attack and its bite as a natural secondary attack. If it has a hand free, it uses a claw as an additional natural secondary attack.\nDamage: Half-dragons have bite and claw attacks. If the base creature does not have these attack forms, use the damage values in the table below. Otherwise, use the values below or the base creature's damage values, whichever are greater.\nSize | Bite Damage | Claw Damage |\nFine | 1 | -- |\nDiminutive | 1d2 | 1 |\nTiny | 1d3 | 1d2 |\nSmall | 1d4 | 1d3 |\nMedium | 1d6 | 1d4 |\nLarge | 1d8 | 1d6 |\nHuge | 2d6 | 1d8 |\nGargantuan | 3d6 | 2d6 |\nColossal | 4d6 | 3d6 |\nSpecial Attacks: A half-dragon retains all the special attacks of the base creature and gains a breath weapon based on the dragon variety (see the table below), usable once per day. A half-dragon's breath weapon deals 6d8 points of damage. A successful Reflex save (DC 10 + 1/2 half-dragon's racial HD + half-dragon's Con modifier) reduces damage by half.\nDragon Variety | Breath Weapon |\nBlack | 60-foot line of acid |\nBlue | 60-foot ine of lightning |\nGreen | 30-foot cone of corrosive (acid) gas |\nRed | 30-foot cone of fire |\nWhite | 30-foot cone of cold |\nBrass | 60-foot line of fire |\nBronze | 60-foot line of lightning |\nCopper | 60-foot line of acid |\nGold | 30-foot cone of fire |\nSilver | 30-foot cone of cold |\nSpecial Qualities: A half-dragon has all the special qualities of the base creature, plus darkvision out to 60 feet and low-light vision. A half-dragon has immunity to sleep and paralysis effects, and an additional immunity based on its dragon variety.\nDragon Variety | Immunity | Dragon Variety | Immunity |\nBlack | Acid | Brass | Fire |\nBlue | Electricity | Bronze | Electricity |\nGreen | Acid | Copper | Acid |\nRed | Fire | Gold | Fire |\nWhite | Cold | Silver | Cold |\nAbilities: Increase from the base creature as follows: Str +8, Con +2, Int +2, Cha +2.\nSkills: A half-dragon gains skill points as a dragon and has skill points equal to (6 + Int modifier) x\uf020(HD + 3). Do not include Hit Dice from class levels in this calculation--the half-dragon gains dragon skill points only for its racial Hit Dice, and gains the normal amount of skill points for its class levels. Treat skills from the base creature's list as class skills, and other skills as cross-class.\nEnvironment: Same as either the base creature or the dragon variety.\nChallenge Rating: Same as the base creature + 2 (minimum 3).\nAlignment: Same as the dragon variety.\nLevel Adjustment: Same as base creature +3.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::012_half_dragon",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::014_half_fiend"
+}

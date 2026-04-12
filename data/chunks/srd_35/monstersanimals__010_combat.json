@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::010_combat",
+  "document_id": "srd_35::monstersanimals::010_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#010_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Stampede (Ex): A frightened herd of bison flees as a group in a random direction (but always away from the perceived source of danger). They literally run over anything of Large size or smaller that gets in their way, dealing 1d12 points of damage for each five bison in the herd (Reflex DC 18 half ). The save DC is Strength-based.\n\nHit Dice: | 3d8+12 (25 hp) |\nInitiative: | +0 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 16 (+6 natural), touch 10, flat-footed 16 |\nBase Attack/Grapple: | +2/+4 |\nAttack: | Gore +4 melee (1d8+3) |\nFull Attack: | Gore +4 melee (1d8+3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Ferocity |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +6, Ref +3, Will +2 |\nAbilities: | Str 15, Dex 10, Con 17, Int 2, Wis 13, Cha 4 |\nSkills: | Listen +7, Spot +5 |\nFeats: | Alertness, Toughness |\nEnvironment: | Temperate forests |\nOrganization: | Solitary or herd (5-8) |\nChallenge Rating: | 2 |\nAdvancement: | 4-5 HD (Medium) |\nLevel Adjustment: | -- |\nThough not carnivores, these wild swine are bad-tempered and usually charge anyone who disturbs them. A boar is covered in coarse, grayish-black fur. Adult males are about 4 feet long and 3 feet high at the shoulder.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::009_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::011_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::016_combat",
+  "document_id": "srd_35::monstersm_n::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): 15-foot cone of caustic liquid, damage 1d8 acid, Reflex DC 13 half. The save DC is Constitution-based and includes a +1 racial bonus.\nSpell-Like Abilities: Once per hour a water mephit can hurl an acidic blob that functions like acid arrow (caster level 3rd). Once per day it can create a mass of smelly fog that duplicates the effect of a stinking cloud spell (DC 15, caster level 6th). The save DC is Charisma-based.\nFast Healing (Ex): A water mephit heals only if it is exposed to rain or submerged up to its waist in water.\nSkills: A water mephit has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered.\nIt can use the run action while swimming, provided it swims in a straight line.\nMERFOLK\n| Merfolk, 1st-Level Warrior |\n\nHit Dice: | 1d8+2 (6 hp) |\nInitiative: | +1 |\nSpeed: | 5 ft. (1 square), swim 50 ft. |\nArmor Class: | 13 (+1 Dex, +2 leather), touch 11, flat-footed 12 |\nBase Attack/Grapple: | +1/+2 |\nAttack: | Trident +2 melee (1d8+1) or heavy crossbow +2 ranged (1d10/19-20) |\nFull Attack: | Trident +2 melee (1d8+1) or heavy crossbow +2 ranged (1d10/19-20) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Amphibious, low-light vision |\nSaves: | Fort +4, Ref +1, Will -1 |\nAbilities: | Str 13, Dex 13, Con 14, Int 10, Wis 9, Cha 10 |\nSkills: | Listen +3, Spot +3, Swim +9 |\nFeats: | Alertness |\nEnvironment: | Temperate aquatic |\nOrganization: | Company (2-4), patrol (11-20 plus 2 3rd-level lieutenants and 1 leader of 3rd-6th level), or band (30-60 plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, and 10 porpoises) |\nChallenge Rating: | 1/2 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +1 |\nA merfolk is about 8 feet long from the top of the head to the end of the tail, and weighs about 400 pounds.\nMerfolk speak Common and Aquan.\nMost merfolk encountered outside their home are warriors; the information in the statistics block is for one of 1st level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::015_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::017_combat"
+}

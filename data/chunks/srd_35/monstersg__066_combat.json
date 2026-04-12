@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::066_combat",
+  "document_id": "srd_35::monstersg::066_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#066_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Grimlocks are blind, but their exceptional senses of smell and hearing allow them to notice foes nearby. As a result, they usually shun ranged weapons and rush to the attack, brandishing their stone battleaxes.\nBlindsight (Ex): Grimlocks can sense all foes within 40 feet as a sighted creature would. Beyond that range, they treat all targets as having total concealment.\nGrimlocks are susceptible to sound- and scent-based attacks, however, and are affected normally by loud noises and sonic spells (such as ghost sound or silence) and overpowering odors (such as stinking cloud or incense-heavy air). Negating a grimlock's sense of smell or hearing reduces this ability to normal Blind-Fight (as the feat). If both these senses are negated, a grimlock is effectively blinded.\nImmunities: Grimlocks are immune to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.\nSkills: *A grimlock's dull gray skin helps it hide in its native terrain, conferring a +10 racial bonus on Hide checks when in mountains or underground.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::065_training_a_griffon",
+  "next_chunk_id": "chunk::srd_35::monstersg::067_grimlocks_as_characters"
+}

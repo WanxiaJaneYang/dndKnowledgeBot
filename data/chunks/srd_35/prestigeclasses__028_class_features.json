@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::028_class_features",
+  "document_id": "srd_35::prestigeclasses::028_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "PrestigeClasses.rtf#028_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "Weapon and Armor Proficiency: The duelist is proficient with all simple and martial weapons, but no type of armor or shield.\nCanny Defense (Ex): When not wearing armor or using a shield, a duelist adds 1 point of Intelligence bonus (if any) per duelist class level to her Dexterity bonus to modify Armor Class while wielding a melee weapon. If a duelist is caught flat-footed or otherwise denied her Dexterity bonus, she also loses this bonus.\nImproved Reaction (Ex): At 2nd level, a duelist gains a +2 bonus on initiative checks.\nAt 8th level, the bonus increases to +4. This bonus stacks with the benefit provided by the Improved Initiative feat.\nEnhanced Mobility (Ex): When wearing no armor and not using a shield, a duelist gains an additional +4 bonus to AC against attacks of opportunity caused when she moves out of a threatened square.\nGrace (Ex): At 4th level, a duelist gains an additional +2 competence bonus on all Reflex saving throws. This ability functions for a duelist only when she is wearing no armor and not using a shield.\nPrecise Strike (Ex): At 5th level, a duelist gains the ability to strike precisely with a light or one-handed piercing weapon, gaining an extra 1d6 damage added to her normal damage roll.\nWhen making a precise strike, a duelist cannot attack with a weapon in her other hand or use a shield. A duelist's precise strike only works against living creatures with discernible anatomies. Any creature that is immune to critical hits is not vulnerable to a precise strike, and any item or ability that protects a creature from critical hits also protects a creature from a precise strike. At 10th level, the extra damage on a precise strike increases to +2d6.\nAcrobatic Charge (Ex): At 6th level, a duelist gains the ability to charge in situations where others cannot. She may charge over difficult terrain that normally slows movement. Depending on the circumstance, she may still need to make appropriate checks to successfully move over the terrain.\nElaborate Parry (Ex): At 7th level and higher, if a duelist chooses to fight defensively or use total defense in melee combat, she gains an additional +1 dodge bonus to AC for each level of duelist she has.\nDeflect Arrows: At 9th level, a duelist gains the benefit of the Deflect Arrows feat when using a light or one-handed piercing weapon.\nDWARVEN DEFENDER\nHit Die: d12.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::027_class_skills",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::029_requirements"
+}

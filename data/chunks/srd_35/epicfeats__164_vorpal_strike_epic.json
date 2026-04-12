@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::164_vorpal_strike_epic",
+  "document_id": "srd_35::epicfeats::164_vorpal_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "VORPAL STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#164_vorpal_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 25, Wis 25, Improved Critical (unarmed strike), Improved Unarmed Strike, Keen Strike, Stunning Fist, ki strike (adamantine).\nBenefit: The character's unarmed strike is considered to be a slashing vorpal weapon. (At the character's option, any unarmed strike can do bludgeoning damage instead, but it loses the vorpal quality.) This ability doesn't stack with similar abilities",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::163_vermin_wild_shape_wild_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::165_widen_aura_of_courage_epic"
+}

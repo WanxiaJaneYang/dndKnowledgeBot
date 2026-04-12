@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::166_widen_aura_of_despair_epic",
+  "document_id": "srd_35::epicfeats::166_widen_aura_of_despair_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "WIDEN AURA OF DESPAIR [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#166_widen_aura_of_despair_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Cha 25, aura of despair class ability.\nBenefit: The character's aura of despair extends to all allies within 100 feet of the character.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::165_widen_aura_of_courage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::167_zone_of_animation_divine_epic"
+}

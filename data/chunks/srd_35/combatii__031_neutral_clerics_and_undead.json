@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::031_neutral_clerics_and_undead",
+  "document_id": "srd_35::combatii::031_neutral_clerics_and_undead",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "Neutral Clerics and Undead"
+    ],
+    "source_location": "CombatII.rtf#031_neutral_clerics_and_undead"
+  },
+  "chunk_type": "subsection",
+  "content": "A cleric of neutral alignment can either turn undead but not rebuke them, or rebuke undead but not turn them. See Turn or Rebuke Undead for more information.\nEven if a cleric is neutral, channeling positive energy is a good act and channeling negative energy is evil.\nPaladins and Undead\nBeginning at 4th level, paladins can turn undead as if they were clerics of three levels lower than they actually are.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::030_evil_clerics_and_undead",
+  "next_chunk_id": "chunk::srd_35::combatii::032_turning_other_creatures"
+}

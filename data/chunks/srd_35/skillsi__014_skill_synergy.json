@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::014_skill_synergy",
+  "document_id": "srd_35::skillsi::014_skill_synergy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Skill Synergy"
+    ],
+    "source_location": "SkillsI.rtf#014_skill_synergy"
+  },
+  "chunk_type": "subsection",
+  "content": "It's possible for a character to have two skills that work well together. In general, having 5 or more ranks in one skill gives the character a +2 bonus on skill checks with each of its synergistic skills, as noted in the skill description. In some cases, this bonus applies only to specific uses of the skill in question, and not to all checks. Some skills provide benefits on other checks made by a character, such as those checks required to use certain class features.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::013_aid_another",
+  "next_chunk_id": "chunk::srd_35::skillsi::015_ability_checks"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicspells::002_psionic_spells",
+  "document_id": "srd_35::psionicspells::002_psionic_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSpells",
+      "PSIONIC SPELLS"
+    ],
+    "source_location": "PsionicSpells.rtf#002_psionic_spells"
+  },
+  "chunk_type": "rule_section",
+  "content": "Listed below are arcane and divine spells that interact with psionics as well as a cleric domain, Mind.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicspells::001_psionicspells",
+  "next_chunk_id": "chunk::srd_35::psionicspells::003_bard_spells"
+}

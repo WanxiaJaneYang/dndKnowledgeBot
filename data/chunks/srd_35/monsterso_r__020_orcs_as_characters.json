@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::020_orcs_as_characters",
+  "document_id": "srd_35::monsterso_r::020_orcs_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "ORCS AS CHARACTERS"
+    ],
+    "source_location": "MonstersO-R.rtf#020_orcs_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Orc Traits (Ex): Orcs possess the following racial traits.\n-- +4 Strength, -2 Intelligence, -2 Wisdom, -2 Charisma.\n--An orc's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Light Sensitivity: Orcs are dazzled in bright sunlight or within the radius of a daylight spell.\n--Automatic Languages: Common, Orc. Bonus Languages: Dwarven, Giant, Gnoll, Goblin, Undercommon.\n--Favored Class: Barbarian.\nThe orc warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::019_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::021_half_orcs"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::041_base_attack_grapple_45_77",
+  "document_id": "srd_35::epicmonsters_a_e::041_base_attack_grapple_45_77",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Base Attack/Grapple: +45/+77"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#041_base_attack_grapple_45_77"
+  },
+  "chunk_type": "subsection",
+  "content": "Attack: Bite +61 (4d6+20/19-20) melee\nFull Attack: Bite +61 (4d6+20/19-20) melee, 2 claws +56 (2d6+10/19-20) melee, 2 wings +56 (2d6+10/19-20) melee, tail slap +56 (2d8+30/19-20) melee\nSpace/Reach: 20 ft./15 ft.\nSpecial Attacks: Crush 4d6+30 (DC 45), tail sweep 2d6+30 (DC 45), breath weapon, frightful presence (DC 46), spells (caster level 18th), spell-like abilities\nSpecial Qualities: Immunities, DR 15/epic, SR 39, blindsense 60ft., keen senses, deflecting force, blur (20% miss chance)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::040_initiative_0",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::042_abilities_str_51_dex_10_con_37_int_38_wis_39_cha_38"
+}

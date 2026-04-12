@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::001_monstersdi_do",
+  "document_id": "srd_35::monstersdi_do::001_monstersdi_do",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "MonstersDi-Do"
+    ],
+    "source_location": "MonstersDi-Do.rtf#001_monstersdi_do"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n\nHit Dice: | 8d10+24 (68 hp) |\nInitiative: | +6 |\nSpeed: | 60 ft. (12 squares) |\nArmor Class: | 17 (+2 Dex, +5 natural), touch 12, flat-footed 15 |\nBase Attack/Grapple: | +8/+11 |\nAttack: | Claw +11 melee (1d8+4) |\nFull Attack: | Claw +11 melee (1d8+4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Acid spray |\nSpecial Qualities: | Darkvision 60 ft., immunity to acid, low-light vision, scent |\nSaves: | Fort +9, Ref +10, Will +3 |\nAbilities: | Str 17, Dex 15, Con 17, Int 2, Wis 12, Cha 10 |\nSkills: | Hide +9, Listen +6, Jump +21, Spot +6 |\nFeats: | Alertness, Improved Initiative, Lightning Reflexes |\nEnvironment: | Warm forests |\nOrganization: | Solitary or pack (3-6) |\nChallenge Rating: | 6 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 9-12 HD (Medium); 13-24 HD (Large) |\nLevel Adjustment: | -- |\nA digester stands about 5 feet tall and is 7 feet long from snout to tail. It weighs about 350 pounds,",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::002_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::038_combat",
+  "document_id": "srd_35::monstersintro_a::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Archons generally prefer to meet a foe head-on if it is prudent to do so, but if outmatched, they do what they can to even the odds (usually by employing hit-and run tactics or standing off and engaging a foe with magic before moving into melee).\nArchon Traits: An archon possesses the following traits (unless otherwise noted in a creature's entry).\n--Darkvision out to 60 feet and low-light vision.\n--Aura of Menace (Su): A righteous aura surrounds archons that fight or get angry. Any hostile creature within a 20-foot radius of an archon must succeed on a Will save to resist its effects. The save DC varies with the type of archon, is Charisma-based, and includes a +2 racial bonus. Those who fail take a -2 penalty on attacks, AC, and saves for 24 hours or until they successfully hit the archon that generated the aura. A creature that has resisted or broken the effect cannot be affected again by the same archon's aura for 24 hours.\n--Immunity to electricity and petrification.\n-- +4 racial bonus on saves against poison.\n--Magic Circle against Evil (Su): A magic circle against evil effect always surrounds an archon (caster level equals the archon's Hit Dice). (The defensive benefits from the circle are not included in an archon's statistics block.)\n--Teleport (Su): Archons can use greater teleport at will, as the spell (caster level 14th), except that the creature can transport only itself and up to 50 pounds of objects.\n--Tongues (Su): All archons can speak with any creature that has a language, as though using a tongues spell (caster level 14th). This ability is always active.\n\nHit Dice : | 1d8 (4 hp) |\nInitiative : | +4 |\nSpeed : | Fly 60 ft. (perfect) (12 squares) |\nArmor Class : | 15 (+1 size, +4 natural), touch 11, flat-footed 15 |\nBase Attack/Grapple : | +1/-8 |\nAttack : | Light ray +2 ranged touch (1d6) |\nFull Attack : | 2 light rays +2 ranged touch (1d6) |\nSpace/Reach : | 5 ft./5 ft. |\nSpecial Attacks : | Spell-like abilities |\nSpecial Qualities : | Aura of menace, damage reduction 10/evil and magic, darkvision 60 ft., immunity to electricity and petrification, magic circle against evil, teleport, tongues |\nSaves : | Fort +2 (+6 against poison), Ref +2, Will +2 |\nAbilities : | Str 1, Dex 11, Con 10, Int 6, Wis 11, Cha 10 |\nSkills : | Concentration +4, Diplomacy +4, Knowledge (the planes) +2, Listen +4, Sense Motive +4, Spot +4 |\nFeats : | Improved Initiative |\nEnvironment : | A lawful good-aligned plane |\nOrganization : | Solitary, pair, or squad (3-5) |\nChallenge Rating : | 2 |\nTreasure : | None |\nAlignment : | Always lawful good |\nAdvancement : | 2-4 HD (Small) |\nLevel Adjustment: | -- |\nLantern archons appear as floating balls of light that glow about as brightly as a torch. Only their destruction can extinguish the glow, though they can try to hide it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::037_archon",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::039_combat"
+}

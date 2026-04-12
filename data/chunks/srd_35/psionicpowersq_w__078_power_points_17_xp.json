@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::078_power_points_17_xp",
+  "document_id": "srd_35::psionicpowersq_w::078_power_points_17_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 17, XP"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#078_power_points_17_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "As psionic major creation, except items created are enduring and cannot be negated by dispelling magic or negating powers. For all intents and purposes, these items are completely real.\nXP Cost: 1/5 of the item's gold piece value, or a minimum of 1 XP.\nTrue Metabolism\nPsychometabolism\nLevel: Psion/wilder 8\nDisplay: Material\nManifesting Time: 1 round\nRange: Personal\nTarget: You\nDuration: 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::077_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::079_power_points_15"
+}

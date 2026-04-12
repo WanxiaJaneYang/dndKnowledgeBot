@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::031_speak",
+  "document_id": "srd_35::combati::031_speak",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Speak"
+    ],
+    "source_location": "CombatI.rtf#031_speak"
+  },
+  "chunk_type": "subsection",
+  "content": "In general, speaking is a free action that you can perform even when it isn't your turn. Speaking more than few sentences is generally beyond the limit of a free action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::030_drop_prone",
+  "next_chunk_id": "chunk::srd_35::combati::032_cease_concentration_on_spell"
+}

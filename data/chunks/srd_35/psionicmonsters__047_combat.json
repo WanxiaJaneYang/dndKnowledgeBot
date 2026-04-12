@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::047_combat",
+  "document_id": "srd_35::psionicmonsters::047_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#047_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Puppeteers use their psionic powers in conjunction with their enthrall ability to gain control over potential hosts. Once it is in control, a puppeteer almost exclusively relies on the host's mental and physical abilities, although it can use its own powers to enhance their effectiveness in a particularly dangerous situation.\nEnthrall (Ex): If a puppeteer is in physical contact with a person it has charmed (the puppeteer establishes a physical hold by means of slender infiltrating tendrils), the subject acts as if dominated. (Puppeteers often seek to charm victims first and then \u201cask\u201d to be picked up.) So long as the puppeteer remains in contact with the victim, the domination remains in effect, even if a check would normally indicate that the effect is broken.\nPsi-Like Abilities: 3/day-- detect psionics, mental barrier, psionic charm (DC 13). Manifester level 1st. The save DCs are Charisma-based.\nBlindsight (Ex): A puppeteer can ascertain creatures by nonvisual means within 60 feet.\nHide Mind (Su): A puppeteer cannot be identified as psionic by divination spells or clairsentience powers.\nHost Protection (Ex): A puppeteer in control of a host is treated as an attended magic item for the purpose of making saving throws, even if the puppeteer is specifically targeted. A puppeteer that is attached to its host is treated as a creature in a grapple for the purpose of striking at the puppeteer instead of the host (but the host is not considered grappled in turn).\nTelepathy (Su): A puppeteer can communicate telepathically with any creature within 20 feet that has a language.\nPUPPETEER, FLESH HARROWER\n| Small Magical Beast (Psionic) |\nHit Dice: | 3d10+15 (31 hp) |\nInitiative: | +3 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 16 (+3 Dex, +3 natural), touch 13, flat-footed 13 |\nBase Attack/Grapple: | +3/+1 |\nAttack: | Bite +6 melee (1d6+2) |\nFull Attack: | Bite +6 melee (1d6+2) and 2 tail blades +1 melee (1d4+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Psi-like abilities |\nSpecial Qualities: | Blindsight 60 ft., telepathy 20 ft. |\nSaves: | Fort +8, Ref +6, Will +4 |\nAbilities: | Str 14, Dex 17, Con 21, Int 11, Wis 12, Cha 12 |\nSkills: | Hide +10, Move Silently +6, Listen +6, Spot +6 |\nFeats: | Alertness, Iron Will |\nEnvironment: | Underground |\nOrganization: | Solitary or cluster (2-5) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 4-6 HD (Small); 7-9 HD (Medium) |\nLevel Adjustment: | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::046_construction",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::048_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::040_lycanthropes_as_characters",
+  "document_id": "srd_35::monstersk_l::040_lycanthropes_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "LYCANTHROPES AS CHARACTERS"
+    ],
+    "source_location": "MonstersK-L.rtf#040_lycanthropes_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Becoming a lycanthrope does not change a character's favored class but usually changes alignment (see above). This alignment change may cause characters of certain classes to lose some of their class features.\nLycanthrope characters possess the following racial traits.\n-- +2 Wisdom. Physical abilities are increased by the animal form's ability modifiers when a lycanthrope changes to its hybrid or animal forms.\n--Size same as the base creature or the base animal form.\n--Low-light vision in any form.\n--Scent in any form.\n--Racial Hit Dice: A lycanthrope adds the Hit Dice of its animal form to its base Hit Dice for race, level, and class. These additional Hit Dice modify the lycanthrope's base attack bonus and base saving throw bonuses accordingly.\n--Racial Skills: A lycanthrope adds skill points for its animal Hit Dice much as if it had multiclassed into the animal type. It gains skill points equal to (2 + Int modifier, minimum 1) per Hit Die of the animal form. Any skills that appear in the animal's description are treated as class skills for the lycanthrope's animal levels. The lycanthrope's maximum skill ranks are equal to its animal form Hit Dice + its racial Hit Dice (if any) + its class levels + 3. Any racial skill adjustments of the lycanthrope's base race and its animal form (but not conditional adjustments) are added to its skill modifiers in any form.\n--Racial Feats: Add the animal's Hit Dice to the base character's own Hit Dice to determine how many feats the character has. All lycanthropes gain Iron Will as a bonus feat.\n-- +2 natural armor bonus in any form.\n--Special Qualities (see above): Alternate form, lycanthropic empathy, curse of lycanthropy (in animal or hybrid form only).\n--Afflicted lycanthrope: damage reduction 5/silver (in animal or hybrid form only).\n--Natural lycanthrope: damage reduction 10/silver (in animal or hybrid form only).\n--Automatic Languages: As base creature.\n--Favored Class: Same as the base creature.\n--Level adjustment: Same as the base creature +2 (afflicted) or +3 (natural).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::039_curing_lycanthropy",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::041_control_shape_wis"
+}

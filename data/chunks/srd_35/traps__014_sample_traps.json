@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::014_sample_traps",
+  "document_id": "srd_35::traps::014_sample_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "SAMPLE TRAPS"
+    ],
+    "source_location": "Traps.rtf#014_sample_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "The costs listed for mechanical traps are market prices; those for magic traps are raw material costs. Caster level and class for the spells used to produce the trap effects are provided in the entries for magic device traps and spell traps. For all other spells used (in triggers, for example), the caster level is assumed to be the minimum required.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::013_miscellaneous_trap_features",
+  "next_chunk_id": "chunk::srd_35::traps::015_cr_1_traps"
+}

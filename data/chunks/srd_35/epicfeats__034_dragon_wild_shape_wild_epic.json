@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::034_dragon_wild_shape_wild_epic",
+  "document_id": "srd_35::epicfeats::034_dragon_wild_shape_wild_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DRAGON WILD SHAPE [WILD][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#034_dragon_wild_shape_wild_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 30, Knowledge (nature) 30 ranks, wild shape 6/day.\nBenefit: The character may use wild shape to change into a dragon (black, blue, green, red, white, brass, bronze, copper, gold, or silver). The size limitation is the same as the character's limitation on animal size. The character gains all extraordinary and supernatural abilities of the dragon whose form he or she takes.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::033_distant_shot_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::035_efficient_item_creation_epic"
+}

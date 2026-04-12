@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::035_delay",
+  "document_id": "srd_35::combatii::035_delay",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "DELAY"
+    ],
+    "source_location": "CombatII.rtf#035_delay"
+  },
+  "chunk_type": "subsection",
+  "content": "By choosing to delay, you take no action and then act normally on whatever initiative count you decide to act. When you delay, you voluntarily reduce your own initiative result for the rest of the combat. When your new, lower initiative count comes up later in the same round, you can act normally. You can specify this new initiative result or just wait until some time later in the round and act then, thus fixing your new initiative count at that point.\nYou never get back the time you spend waiting to see what's going to happen. You can't, however, interrupt anyone else's action (as you can with a readied action).\nInitiative Consequences of Delaying: Your initiative result becomes the count on which you took the delayed action. If you come to your next action and have not yet performed an action, you don't get to take a delayed action (though you can delay again).\nIf you take a delayed action in the next round, before your regular turn comes up, your initiative count rises to that new point in the order of battle, and you do not get your regular action that round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::034_special_initiative_actions",
+  "next_chunk_id": "chunk::srd_35::combatii::036_ready"
+}

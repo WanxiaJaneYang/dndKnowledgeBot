@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::017_construction",
+  "document_id": "srd_35::epicmonsters_a_e::017_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Construction"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#017_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "The construction cost given for each colossus takes into account the physical body and all the materials and spell components that are consumed or become a permanent part of it. Except for the much tougher requirements, constructing a colossus is not unlike constructing a golem.\n| Stone Colossus | Flesh Colossus | Iron Colossus |\n| Colossal Construct | Colossal Construct | Colossal Construct |\nHit Dice: | 64d10 (432 hp) | 100d10 (630 hp) or as controlling spirit | 96d10 (603 hp) |\nInitiative: | -3 (Dex) | +2 (-2 Dex, +4 Improved | -2 (Dex) Initiative) |\nSpeed: | 40 ft. (can't run) | 40 ft. (can't run) | 50 ft. (can't run) |\nAC: | 44 (-8 size, -3 Dex, +45 natural) | 45 (-8 size, -2 Dex, +25 natural, +20 profane) | 60 (-8 size, -2 Dex, +60 natural) |\nBase Attack/Grapple: | +48/+94 | +75/+103 | +72/+123 |\nAttack: | Slam +70 (8d6+30) melee | Colossal club +79 (6d6+18) melee or slam +79 (4d6+12) melee or thrown object (weighing 10 tons or less) +65 (4d6+12) ranged | Slam +99 (12d6+35) melee |\nFull Attack: | 2 slams +70 (8d6+30) melee | Colossal club +79 (6d6+18) melee or 2 slams +79 (4d6+12) melee or thrown object (weighing 10 tons or less) +65 (4d6+12) ranged | 2 slams +99 (12d6+35) melee |\nSpace/Reach: | 30 ft./30 ft. | 30 ft./30 ft. | 30 ft./30 ft. |\nSpecial Attacks: | Shatter | Frightful presence, horrific appearance, stomp, stench | Breath weapon |\nSpecial Qualities: | Construct traits, magic immunity, antimagic field, DR 10/Epic and adamantine | Construct traits, magic immunity, DR 15/Epic and adamantine, negative energy affinity | Construct traits, magic immunity, antimagic field, rustproof, DR 20/Epic and adamantine |\nSaves: | Fort +21, Ref +18, Will +21 | Fort +33, Ref +31, Will +33 | Fort +32, Ref +30, Will +33 |\nAbilities: | Str 70, Dex 5, Con -, Int 7, Wis 10, Cha 1 | Str 35, Dex 6, Con -, Int 1 or as controlling spirit, Wis 11 or as controlling spirit, Cha 1 or as controlling spirit | Str 80, Dex 7, Con --,Int 9, Wis 12, Cha 1 |\nSkills: | Jump +34 | Jump +16 or as controlling spirit | Jump +43 |\nClimate/Terrain: | Any | Any | Any |\nOrganization: | Solitary | Solitary | Solitary |\nChallenge Rating: | 24 | 27 | 33 |\nTreasure: | None | None | None |\nAlignment: | Usually neutral | Neutral evil or neutral | Usually neutral |\nAdvancement: | 65-192 HD (Colossal) | None (abilities may vary by level of possessing spirit) | 97-288 HD (Colossal) |\n\nA stone colossus cannot speak or make any vocal noise.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::016_colossus",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::018_combat"
+}

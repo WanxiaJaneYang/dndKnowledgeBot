@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::041_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::041_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#041_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "As dissolving touch, except your weapon is charged with acid until you make a successful attack.\n\nLevel: Psion/wilder 1, psychic warrior 1",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::040_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::042_display_mental"
+}

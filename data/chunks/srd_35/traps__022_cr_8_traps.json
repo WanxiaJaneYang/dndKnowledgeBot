@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::022_cr_8_traps",
+  "document_id": "srd_35::traps::022_cr_8_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 8 Traps"
+    ],
+    "source_location": "Traps.rtf#022_cr_8_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Deathblade Wall Scythe: CR 8; mechanical; touch trigger; manual reset; Atk +16 melee (2d4+8 plus poison, scythe); poison (deathblade, DC 20 Fortitude save resists, 1d6 Con/2d6 Con); Search DC 24; Disable Device DC 19. Market Price: 31,400 gp.\nDestruction Trap: CR 8; magic device; touch trigger (alarm); automatic reset; spell effect (destruction, 13th-level cleric, DC 20 Fortitude save for 10d6 damage); Search DC 32; Disable Device DC 32. Cost: 45,500 gp, 3,640 XP.\nEarthquake Trap: CR 8; magic device; proximity trigger (alarm); automatic reset; spell effect (earthquake, 13th-level cleric, 65-ft. radius, DC 15 or 20 Reflex save, depending on terrain); Search DC 32; Disable Device DC 32. Cost: 45,500 gp, 3,640 XP.\nInsanity Mist Vapor Trap: CR 8; mechanical; location trigger; repair reset; gas; never miss; onset delay (1 round); poison (insanity mist, DC 15 Fortitude save resists, 1d4 Wis/2d6 Wis); multiple targets (all targets in a 10-ft.-by-10-ft. room); Search DC 25; Disable Device DC 20. Market Price: 23,900 gp.\nAcid Arrow Trap: CR 8; magic device; visual trigger (true seeing); automatic reset; multiple traps (two simultaneous acid arrow traps); Atk +9 ranged touch and +9 ranged touch; spell effect (acid arrow, 18th-level wizard, 2d4 acid damage for 7 rounds); Search DC 27; Disable Device DC 27. Cost: 83,500 gp, 4,680 XP. Note: This trap is really two CR 6 acid arrow traps that fire simultaneously, using the same trigger and reset.\nPower Word Stun Trap: CR 8; magic device; touch trigger; no reset; spell effect (power word stun, 13th-level wizard), Search DC 32; Disable Device DC 32. Cost: 4,550 gp, 364 XP.\nPrismatic Spray Trap: CR 8; magic device; proximity trigger (alarm); automatic reset; spell effect (prismatic spray, 13th-level wizard, DC 20 Reflex, Fortitude, or Will save, depending on effect); Search DC 32; Disable Device DC 32. Cost: 45,500 gp, 3,640 XP.\nReverse Gravity Trap: CR 8; magic device; proximity trigger (alarm, 10-ft. area); automatic reset; spell effect (reverse gravity, 13th-level wizard, 6d6 fall [upon hitting the ceiling of the 60-ft.- high room], then 6d6 fall [upon falling 60 ft. to the floor when the spell ends], DC 20 Reflex save avoids damage); Search DC 32; Disable Device DC 32. Cost: 45,500 gp, 3,640 XP.\nWell-Camouflaged Pit Trap: CR 8; mechanical; location trigger; repair reset; DC 20 Reflex save avoids; 100 ft. deep (10d6, fall); Search DC 27; Disable Device DC 18. Market Price: 16,000 gp.\nWord of Chaos Trap: CR 8; magic device; proximity trigger (detect law); automatic reset; spell effect (word of chaos, 13th-level cleric); Search DC 32; Disable Device DC 32. Cost: 46,000 gp, 3,680 XP.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::021_cr_7_traps",
+  "next_chunk_id": "chunk::srd_35::traps::023_cr_9_traps"
+}

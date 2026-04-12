@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::042_trans",
+  "document_id": "srd_35::spelllistii::042_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#042_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Animal Growth: One animal/two levels doubles in size.\nBaleful Polymorph: Transforms subject into harmless animal.\nFabricate: Transforms raw materials into finished items.\nOverland Flight: You fly at a speed of 40 ft. and can hustle over long distances.\nPasswall: Creates passage through wood or stone wall.\nTelekinesis: Moves object, attacks creature, or hurls object or creature.\nTransmute Mud to Rock: Transforms two 10-ft. cubes per level.\nTransmute Rock to Mud: Transforms two 10-ft. cubes per level.\n\nPermanency X:Makes certain spells permanent.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::041_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::043_abjur"
+}

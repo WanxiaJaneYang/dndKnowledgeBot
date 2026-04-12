@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::005_genie",
+  "document_id": "srd_35::monstersg::005_genie",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GENIE"
+    ],
+    "source_location": "MonstersG.rtf#005_genie"
+  },
+  "chunk_type": "subsection",
+  "content": "Genies are humanlike beings who dwell on the elemental planes. They are famous for their strength, guile, and skill with illusion magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::004_gargoyles_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersg::006_combat"
+}

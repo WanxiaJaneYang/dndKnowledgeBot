@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::006_requirements",
+  "document_id": "srd_35::prestigeclasses::006_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#006_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become an arcane trickster, a character must fulfill all of the following criteria.\nAlignment: Any nonlawful.\nSkills: Decipher Script 7 ranks, Disable Device 7 ranks, Escape Artist 7 ranks, Knowledge (arcana) 4 ranks.\nSpells: Ability to cast mage hand and at least one arcane spell of 3rd level or higher.\nSpecial: Sneak attack +2d6.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::005_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::007_class_skills"
+}

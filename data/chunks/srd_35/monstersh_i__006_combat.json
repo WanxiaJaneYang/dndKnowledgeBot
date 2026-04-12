@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::006_combat",
+  "document_id": "srd_35::monstersh_i::006_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Combat"
+    ],
+    "source_location": "MonstersH-I.rtf#006_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Sea hags are not subtle and prefer a direct approach to combat.\nThey usually remain in hiding until they can affect as many foes as possible with their horrific appearance.\nHorrific Appearance (Su): The sight of a sea hag is so revolting that anyone (other than another hag) who sets eyes upon one must succeed on a DC 13 Fortitude save or instantly be weakened, taking 2d6 points of Strength damage. This damage cannot reduce a victim's Strength score below 0, but anyone reduced to Strength 0 is helpless. Creatures that are affected by this power or that successfully save against it cannot be affected again by the same hag's horrific appearance for 24 hours. The save DC is Charisma-based.\nEvil Eye (Su): Three times per day, a sea hag can cast its dire gaze upon any single creature within 30 feet. The target must succeed on a DC 13 Will save or be dazed for three days, although remove curse or dispel evil can restore sanity sooner. In addition, an affected creature must succeed on a DC 13 Fortitude save or die from fright. Creatures with immunity to fear effects are not affected by the sea hag's evil eye. The save DCs are Charisma-based.\nAmphibious (Ex): Although sea hags are aquatic, they can survive indefinitely on land.\nSkills: A sea hag has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::005_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::007_hag_covey"
+}

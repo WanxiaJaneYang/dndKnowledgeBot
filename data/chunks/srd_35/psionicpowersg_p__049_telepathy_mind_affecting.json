@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::049_telepathy_mind_affecting",
+  "document_id": "srd_35::psionicpowersg_p::049_telepathy_mind_affecting",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Telepathy [Mind-Affecting]"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#049_telepathy_mind_affecting"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 7, psychic warrior 6\nDisplay: Olfactory\nManifesting Time: 1 standard action\n\nDuration: One day\nPower Points: Psion/wilder 13, psychic warrior 11\nAs psionic mind blank (see below), except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::048_power_points_17",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::050_display_olfactory"
+}

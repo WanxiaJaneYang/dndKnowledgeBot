@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::007_combat",
+  "document_id": "srd_35::monstersb_c::007_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#007_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A basilisk relies on its gaze attack, biting only when opponents come within reach. Though it has eight legs, its slow metabolism renders it relatively sluggish, so it does not expend energy unnecessarily. Intruders who flee a basilisk rather than fight can expect, at best, a halfhearted pursuit. These creatures tend to spend most of their time lying in wait for prey, which includes small mammals, birds, reptiles, and similar creatures.\nPetrifying Gaze (Su): Turn to stone permanently, range 30 feet; Fortitude DC 13 negates. The save DC is Charisma-based.\nSkills: *The basilisk's dull coloration and its ability to remain motionless for long periods of time grant it a +4 racial bonus on Hide checks in natural settings.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::006_basilisk",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::008_combat"
+}

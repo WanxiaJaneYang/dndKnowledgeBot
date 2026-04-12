@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::016_psionic_maladies",
+  "document_id": "srd_35::powersoverview::016_psionic_maladies",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "PSIONIC MALADIES"
+    ],
+    "source_location": "PowersOverview.rtf#016_psionic_maladies"
+  },
+  "chunk_type": "subsection",
+  "content": "Ability Burn: This is a special form of ability damage that cannot be magically or psionically healed. It is caused by the use of certain psionic feats and powers. It returns only through natural healing.\nDisease, Cascade Flu: Spread by brain moles and other vermin; injury; DC 13; incubation one day; damage psionic cascade.\nA psionic cascade is a loss of control over psionic abilities. Using power points becomes dangerous for a character infected by cascade flu, once the incubation period has run its course. Every time an afflicted character manifests a power, she must make a DC 16 Concentration check. On a failed check, a psionic cascade is triggered. The power operates normally, but during the following round, without the character's volition, two additional powers she knows manifest randomly, and their power cost is deducted from the character's reserve. During the next round, three additional powers manifest, and so on, until all the psionic character's power points are drained. Powers with a range of personal or touch always affect the diseased character. For other powers that affect targets, roll d%: On a 01-50 result, the power affects the diseased character, and 51-00 indicates that the power targets other creatures in the vicinity. Psionic creatures (those that manifest their powers without paying points) cascade until all the powers they know have manifested at least twice.\nAs with any disease, a psionic character who is injured or attacked by a creature carrying a disease or parasite, or who otherwise has contact with contaminated material, must make an immediate Fortitude save. On a success, the disease fails to gain a foothold. On a failure, the character takes damage (or incurs the specified effect) after the incubation period. Once per day afterward, the afflicted character must make a successful Fortitude save to avoid repeating the damage. Two successful saving throws in a row indicate she has fought off the disease.\nDisease, Cerebral Parasites: Spread by contact with infected psionic creatures; contact; DC 15; incubation 1d4 days; damage 1d8 power points.\nCerebral parasites are tiny organisms, undetectable to normal sight. An afflicted character may not even know he carries the parasites--until he discovers he has fewer power points for the day than expected. Psionic creatures with cerebral parasites are limited to using each of their known powers only once per day (instead of freely manifesting them). See the note about diseases under Cascade Flu, above.\nNegative Levels: Psionic characters can gain negative levels just like members of other character classes. A psionic character loses access to one power per negative level from the highest level of power he can manifest; he also loses a number of power points equal to the cost of that power. If two or more powers fit these criteria, the manifester decides which one becomes inaccessible. The lost power becomes available again as soon the negative level is removed, providing the manifester is capable of using it at that time. Lost power points also return.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::015_special_abilities",
+  "next_chunk_id": "chunk::srd_35::powersoverview::017_power_descriptions"
+}

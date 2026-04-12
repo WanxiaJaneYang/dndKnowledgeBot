@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::029_necro",
+  "document_id": "srd_35::spelllistii::029_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#029_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Blindness/Deafness: Makes subject blinded or deafened.\nCommand Undead: Undead creature obeys your commands.\nFalse Life: Gain 1d10 temporary hp +1/level (max +10).\nGhoul Touch: Paralyzes one subject, which exudes stEnch\nthat makes those nearby sickened.\nScare: Panics creatures of less than 6 HD.\nSpectral Hand: Creates disembodied glowing hand to deliver touch attacks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::028_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::030_trans"
+}

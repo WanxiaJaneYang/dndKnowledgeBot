@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::019_discipline_subdiscipline",
+  "document_id": "srd_35::powersoverview::019_discipline_subdiscipline",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "DISCIPLINE (SUBDISCIPLINE)"
+    ],
+    "source_location": "PowersOverview.rtf#019_discipline_subdiscipline"
+  },
+  "chunk_type": "subsection",
+  "content": "Beneath the power name is a line giving the discipline (and the subdiscipline in parentheses, if appropriate) that the power belongs to.\nEvery power is associated with one of six disciplines. A discipline is a group of related powers that work in similar ways. Each of the disciplines is discussed below.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::018_name",
+  "next_chunk_id": "chunk::srd_35::powersoverview::020_clairsentience"
+}

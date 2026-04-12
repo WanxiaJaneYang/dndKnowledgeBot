@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::006_tactics_round_by_round",
+  "document_id": "srd_35::monsterst_z::006_tactics_round_by_round",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "TACTICS ROUND-BY-ROUND"
+    ],
+    "source_location": "MonstersT-Z.rtf#006_tactics_round_by_round"
+  },
+  "chunk_type": "subsection",
+  "content": "Titans enjoy combat and usually close with their foes. If that proves ineffective, they swiftly back off and pelt the foe with spell-like abilities and magical effects. Because of a titan's Quicken Spell-Like Ability feat, it can use chain lightning as a free action, and frequently attacks in melee while lashing out with this ability at the same time.\nPrior to combat: Invisibility purge or invisibility.\nRound 1: Charge and attempt to sunder the weapon of the most dangerous foe. Hurl chain lightning at opponents standing away from the fight.\nRound 2: Full attack against the disarmed opponent, and hurl chain lightning at other opponents.\nRound 3: Back away from first opponent and use maze or meteor swarm on any spellcaster causing trouble.\nRound 4: Sunder the weapon of the next most effective combatant, or use greater dispel magic on all nearby opponents.\nRound 5: Full attack against any nearby opponent, or use fire storm.\nUse another quickened chain lightning if foes seem really dangerous.\nA titan usually reserves its gate and etherealness abilities to escape a fight that is not going well.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::005_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::007_tojanida"
+}

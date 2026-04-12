@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::025_plains_terrain",
+  "document_id": "srd_35::wildernessandenvironment::025_plains_terrain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "PLAINS TERRAIN"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#025_plains_terrain"
+  },
+  "chunk_type": "subsection",
+  "content": "Plains come in three categories: farms, grasslands, and battlefields. Farms are common in settled areas, of course, while grasslands represent untamed plains. The battlefields where large armies clash are temporary places, usually reclaimed by natural vegetation or the farmer's plow. Battlefields represent a third terrain category because adventurers tend to spend a lot of time there, not because they're particularly prevalent.\nThe table below shows the proportions of terrain elements in the different categories of plains. On a farm, light undergrowth represents most mature grain crops, so farms growing vegetable crops will have less light undergrowth, as will all farms during the time between harvest and a few months after planting.\nThe terrain elements in the table below are mutually exclusive.\n\n| Farm | Grassland | Battlefield |\nLight undergrowth | 40% | 20% | 10% |\nHeavy undergrowth | -- | 10% | -- |\nLight rubble | -- | -- | 10% |\nTrench | 5% | -- | 5% |\nBerm | -- | -- | 5% |\nUndergrowth: Whether they're crops or natural vegetation, the tall grasses of the plains function like light undergrowth in a forest. Particularly thick bushes form patches of heavy undergrowth that dot the landscape in grasslands.\nLight Rubble: On the battlefield, light rubble usually represents something that was destroyed: the ruins of a building or the scattered remnants of a stone wall, for example. It functions as described in the desert terrain section above.\nTrench: Often dug before a battle to protect soldiers, a trench functions as a low wall, except that it provides no cover against adjacent foes. It costs 2 squares of movement to leave a trench, but it costs nothing extra to enter one. Creatures outside a trench who make a melee attack against a creature inside the trench gain a +1 bonus on melee attacks because they have higher ground. In farm terrain, trenches are generally irrigation ditches.\nBerm: A common defensive structure, a berm is a low, earthen wall that slows movement and provides a measure of cover. Put a berm on the map by drawing two adjacent rows of steep slope (described in Hills Terrain, above), with the edges of the berm on the downhill side. Thus, a character crossing a two-square berm will travel uphill for 1 square, then downhill for 1 square. Two square berms provide cover as low walls for anyone standing behind them. Larger berms provide the low wall benefit for anyone standing 1 square downhill from the top of the berm.\nFences: Wooden fences are generally used to contain livestock or impede oncoming soldiers. It costs an extra square of movement to cross a wooden fence. A stone fence provides a measure of cover as well, functioning as low walls. Mounted characters can cross a fence without slowing their movement if they succeed on a DC 15 Ride check. If the check fails, the steed crosses the fence, but the rider falls out of the saddle.\nOther Plains Terrain Features: Occasional trees dot the landscape in many plains, although on battlefields they're often felled to provide raw material for siege engines (described in Urban Features). Hedgerows (described in Marsh Terrain) are found in plains as well. Streams, generally 5 to 20 feet wide and 5 to 10 feet deep, are commonplace.\nStealth and Detection in Plains: In plains terrain, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is 6d6\u00d740 feet, although the specifics of your map may restrict line of sight. Plains terrain provides no bonuses or penalties on Listen and Spot checks. Cover and concealment are not uncommon, so a good place of refuge is often nearby, if not right at hand.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::024_sandstorms",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::026_aquatic_terrain"
+}

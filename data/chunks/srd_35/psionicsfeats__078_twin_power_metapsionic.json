@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::078_twin_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::078_twin_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "TWIN POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#078_twin_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can manifest a power simultaneously with another power just like it.\nBenefit: To use this feat, you must expend your psionic focus. You can twin a power. Manifesting a power altered by this feat causes the power to take effect twice on the area or target, as if you were simultaneously manifesting the same power two times on the same location or target. Any variables in the power (such as duration, number of targets, and so on) are the same for both of the resulting powers. The target experiences all the effects of both powers individually and receives a saving throw (if applicable) for each. In some cases, such as a twinned psionic charm, failing both saving throws results in redundant effects (although, in this example, any ally of the target would have to succeed on two dispel attempts to free the target from the charm effect).\nUsing this feat increases the power point cost of the power by 6. The power's total cost cannot exceed your manifester level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::077_talented_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::079_unavoidable_strike_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::054_power_specialization_psionic",
+  "document_id": "srd_35::psionicsfeats::054_power_specialization_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "POWER SPECIALIZATION [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#054_power_specialization_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You deal more damage with your powers.\nPrerequisites: Weapon Focus (ray), manifester level 4th.\nBenefit: With rays and ranged touch attack powers that deal damage, you deal an extra 2 points of damage. If you expend your psionic focus when you manifest a ray or a ranged touch attack power that deals damage, you add your key ability bonus to the damage (instead of adding 2).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::053_power_penetration_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::055_psicrystal_affinity_psionic"
+}

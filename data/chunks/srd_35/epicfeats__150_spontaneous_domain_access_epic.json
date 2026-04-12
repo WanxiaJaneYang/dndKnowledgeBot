@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::150_spontaneous_domain_access_epic",
+  "document_id": "srd_35::epicfeats::150_spontaneous_domain_access_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SPONTANEOUS DOMAIN ACCESS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#150_spontaneous_domain_access_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 25, Spellcraft 30 ranks, ability to cast 9th-level divine spells.\nBenefit: Select a domain the character has access to. The character may spontaneously convert any prepared cleric spell (except a domain spell) into a domain spell of the same level in the selected domain, just as a cleric channels energy to convert spells into cure spells.\nSpecial: A character can gain this feat multiple times. Each time a character takes the feat, it applies to a different domain.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::149_spellcasting_harrier_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::151_spontaneous_spell_epic"
+}

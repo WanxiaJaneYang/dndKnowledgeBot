@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::029_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::029_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#029_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "As the knock spell, except as noted here.\nKnow Direction and Location\nClairsentience\nLevel: Psion/wilder 1\nDisplay: Mental\nManifesting Time: 1 standard action",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::028_display_material",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::030_power_points_1"
+}

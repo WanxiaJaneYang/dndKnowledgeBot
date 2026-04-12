@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::141_scribe_epic_scroll_item_creation_epic",
+  "document_id": "srd_35::epicfeats::141_scribe_epic_scroll_item_creation_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SCRIBE EPIC SCROLL [ITEM CREATION][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#141_scribe_epic_scroll_item_creation_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Scribe Scroll, Knowledge (arcana) 24 ranks, Spellcraft 24 ranks.\nBenefit: The character can scribe scrolls that exceed the normal limits for such items. Even this feat does not allow the character to scribe a scroll with an epic spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::140_ruinous_rage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::142_self_concealment_epic"
+}

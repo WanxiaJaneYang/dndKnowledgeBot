@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::016_environment",
+  "document_id": "srd_35::monstersintro_a::016_environment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Environment"
+    ],
+    "source_location": "MonstersIntro-A.rtf#016_environment"
+  },
+  "chunk_type": "subsection",
+  "content": "This line gives a type of climate and terrain where the creature is typically found. This describes a tendency, but is not exclusionary.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::015_feats",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::017_organization"
+}

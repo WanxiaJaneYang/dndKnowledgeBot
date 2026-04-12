@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::006_market_price",
+  "document_id": "srd_35::epicmagicitems1::006_market_price",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "MARKET PRICE"
+    ],
+    "source_location": "EpicMagicItems1.rtf#006_market_price"
+  },
+  "chunk_type": "subsection",
+  "content": "Use the guidelines for nonepic magic items to determine the market price of an epic magic item, with one addition: If the item gives a bonus beyond the limit allowed in for normal, nonepic magic items, multiply the portion of the market price derived from that characteristic by 10. Some epic characteristics, such as caster level, don't trigger this multiplier.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::005_prerequisites",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::007_experience_point_cost"
+}

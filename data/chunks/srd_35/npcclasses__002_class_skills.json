@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::002_class_skills",
+  "document_id": "srd_35::npcclasses::002_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Class Skills"
+    ],
+    "source_location": "NPCClasses.rtf#002_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The adept's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Handle Animal (Cha), Heal (Wis), Knowledge (all skills taken individually) (Int), Profession (Wis), Spellcraft (Int), and Survival (Wis).\nSkill Points at 1st Level: (2 + Int modifier) x4.\nSkill Points at Each Additional Level: 2 + Int modifier.\nTable: The Adept |\n| | | | | | ------ Spells per Day ------ |\nNPC Level | Base Attack\nBonus | Fort\nSave | Ref\nSave | Will\nSave | Special | 0 | 1st | 2nd | 3rd | 4th | 5th |\n1st | +0 | +0 | +0 | +2 | | 3 | 1 | -- | -- | -- | -- |\n2nd | +1 | +0 | +0 | +3 | Summon familiar | 3 | 1 | -- | -- | -- | -- |\n3rd | +1 | +1 | +1 | +3 | | 3 | 2 | -- | -- | -- | -- |\n4th | +2 | +1 | +1 | +4 | | 3 | 2 | 0 | -- | -- | -- |\n5th | +2 | +1 | +1 | +4 | | 3 | 2 | 1 | -- | -- | -- |\n6th | +3 | +2 | +2 | +5 | | 3 | 2 | 1 | -- | -- | -- |\n7th | +3 | +2 | +2 | +5 | | 3 | 3 | 2 | -- | -- | -- |\n8th | +4 | +2 | +2 | +6 | | 3 | 3 | 2 | 0 | -- | -- |\n9th | +4 | +3 | +3 | +6 | | 3 | 3 | 2 | 1 | -- | -- |\n10th | +5 | +3 | +3 | +7 | | 3 | 3 | 2 | 1 | -- | -- |\n11th | +5 | +3 | +3 | +7 | | 3 | 3 | 3 | 2 | -- | -- |\n12th | +6/+1 | +4 | +4 | +8 | | 3 | 3 | 3 | 2 | 0 | -- |\n13th | +6/+1 | +4 | +4 | +8 | | 3 | 3 | 3 | 2 | 1 | -- |\n14th | +7/+2 | +4 | +4 | +9 | | 3 | 3 | 3 | 2 | 1 | -- |\n15th | +7/+2 | +5 | +5 | +9 | | 3 | 3 | 3 | 3 | 2 | -- |\n16th | +8/+3 | +5 | +5 | +10 | | 3 | 3 | 3 | 3 | 2 | 0 |\n17th | +8/+3 | +5 | +5 | +10 | | 3 | 3 | 3 | 3 | 2 | 1 |\n18th | +9/+4 | +6 | +6 | +11 | | 3 | 3 | 3 | 3 | 2 | 1 |\n19th | +9/+4 | +6 | +6 | +11 | | 3 | 3 | 3 | 3 | 3 | 2 |\n20th | +10/+5 | +6 | +6 | +12 | | 3 | 3 | 3 | 3 | 3 | 2 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::001_npcclasses",
+  "next_chunk_id": "chunk::srd_35::npcclasses::003_class_features"
+}

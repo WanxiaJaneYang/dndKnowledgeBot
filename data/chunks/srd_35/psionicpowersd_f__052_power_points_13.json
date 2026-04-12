@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::052_power_points_13",
+  "document_id": "srd_35::psionicpowersd_f::052_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#052_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "As ectoplasmic cocoon, except you can cocoon several creatures (or a single big creature that fits in a 20-footradius sphere or hemisphere) in a mass of writhing ectoplasm. Targets entirely within the area who fail their save are caught and cocooned. If a creature's body is only partially within the area, this power does not affect that creature.\nAugment: For every 2 additional power points you spend, the radius of this power's area increases by 5 feet.\nEctoplasmic Form\nPsychometabolism\nLevel: Egoist 3, psychic warrior 3\nDisplay: Olfactory\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::051_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::053_power_points_5"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersvermin::002_monsters_vermin",
+  "document_id": "srd_35::monstersvermin::002_monsters_vermin",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersVermin",
+      "MONSTERS (VERMIN)"
+    ],
+    "source_location": "MonstersVermin.rtf#002_monsters_vermin"
+  },
+  "chunk_type": "subsection",
+  "content": "These creatures operate on instinct, driven by simple needs such as food and reproduction. Except where noted, vermin attack only when hungry or threatened.\nVermin Traits: Vermin possess the following traits (unless otherwise noted in a creature's entry).\n--Mindless: No Intelligence score, and immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).\n--Darkvision out to 60 feet.\n--Alignment: Always neutral. Vermin are not governed by a human sense of morality.\n--Treasure: Vermin generally possess no treasure. For those that do, this treasure consists of possessions formerly owned by a creature that the monster has killed.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersvermin::001_monstersvermin",
+  "next_chunk_id": "chunk::srd_35::monstersvermin::003_giant_ant"
+}

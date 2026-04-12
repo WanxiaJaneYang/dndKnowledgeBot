@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::007_annihilating_strike",
+  "document_id": "srd_35::divineabilitiesandfeats::007_annihilating_strike",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Annihilating Strike"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#007_annihilating_strike"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 11, base attack bonus +20, Str 25.\nBenefit: When the deity strikes with a weapon or natural weapon, the opponent struck might be obliterated. Creatures, attended objects, and magic items must make Fortitude saves (DC 20 + the deity's rank + the damage dealt) or be reduced to -10 hit points and killed outright. Unattended, nonmagical objects are obliterated. The deity can destroy up to 1,000 cubic feet (a 10-foot cube) of nonliving matter per rank, so the ability destroys only part of any very large object or structure targeted.\nNotes: Deities with a rank equal to or greater than the attacking deity are not subject to this ability. This ability has no effect on objects or effects that are not subject to physical attacks.\nSuggested Portfolio Elements: Death, justice, vengeance, war.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::006_alter_size",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::008_arcane_mastery"
+}

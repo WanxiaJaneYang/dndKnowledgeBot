@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::048_class_features",
+  "document_id": "srd_35::prestigeclasses::048_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "PrestigeClasses.rtf#048_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All of the following are features of the mystic theurge prestige class.\nWeapon and Armor Proficiency: Mystic theurges gain no proficiency with any weapon or armor.\nSpells per Day: When a new mystic theurge level is gained, the character gains new spells per day as if he had also gained a level in any one arcane spellcasting class he belonged to before he added the prestige class and any one divine spellcasting class he belonged to previously. He does not, however, gain any other benefit a character of that class would have gained. This essentially means that he adds the level of mystic theurge to the level of whatever other arcane spellcasting class and divine spellcasting class the character has, then determines spells per day and caster level accordingly. If a character had more than one arcane spellcasting class or more than one divine spellcasting class before he became a mystic theurge, he must decide to which class he adds each level of mystic theurge for the purpose of determining spells per day.\nSHADOWDANCER\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::047_attack",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::049_requirements"
+}

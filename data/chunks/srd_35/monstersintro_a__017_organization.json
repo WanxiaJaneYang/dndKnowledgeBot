@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::017_organization",
+  "document_id": "srd_35::monstersintro_a::017_organization",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Organization"
+    ],
+    "source_location": "MonstersIntro-A.rtf#017_organization"
+  },
+  "chunk_type": "subsection",
+  "content": "This line describes the kinds of groups the creature might form. A range of numbers in parentheses indicates how many combat-ready adults are in each type of group. Many groups also have a number of noncombatants, expressed as a percentage of the fighting population. Noncombatants can include young, the infirm, slaves, or other individuals who are not inclined to fight. If the organization line contains the term \u201cdomesticated,\u201d the creature is generally found only in the company of other creatures, whom it serves in some capacity.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::016_environment",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::018_challenge_rating"
+}

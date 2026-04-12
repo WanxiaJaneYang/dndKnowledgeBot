@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::045_worm_that_walks_characters",
+  "document_id": "srd_35::epicmonsters_g_w::045_worm_that_walks_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "WORM THAT WALKS CHARACTERS"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#045_worm_that_walks_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "By making eldritch preparations on a burial plot, a powerful spellcaster can improve the likelihood of a worm that walks emerging from the ground. The body is buried in an elaborate ritual that, the spellcaster hopes, will attract a critical mass of worms or maggots. The spellcaster performing the ritual must spend 10,000 gp in rare reagents for the ceremony. Furthermore, the ritual drains 2,000 XP from the spell-caster and requires the following spells: limited wish, polymorph any object, summon swarm (heightened to 7th level), and sympathy. Even if the ritual is performed correctly, there is only a chance that the deceased spellcaster will arise as a worm that walks. For each prepared but uncast arcane spell the deceased had at the moment of death (or unused spell slots if a spontaneous caster), there's a 1% chance that a worm that walks will slither from the grave soil in 1d4 days. Some worms that walk arise spontaneously from ordinary burial plots, but such an event is exceedingly rare. And an epic spell can create worms that walk every time without fail.\n\nCasting Time: 7 days\nTarget: Dead creature touched\n\nSaving Throw: Fortitude negates (harmless)\n\nTo Develop: 441,000 gp; 9 days; 17,640 XP. Seeds: life (DC 27), transform (DC 21). Factors: change creature type to aberration (+5 DC); add worm that walks' spell-like, extraordinary, and supernatural abilities (+40 DC). Mitigating factors: increase casting time by 10 minutes (-20 DC); increase casting time by 7 days (-14 DC).\nWhen this spell is cast, worms or maggots slither and crawl their way inexorably toward the corpse touched. Over the course of the next week, they consume the flesh of the corpse, and when the last bit of the corpse is devoured, the creature is returned to a semblance of life as a worm that walks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::044_creating_a_worm_that_walks"
+}

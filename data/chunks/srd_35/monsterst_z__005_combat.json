@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::005_combat",
+  "document_id": "srd_35::monsterst_z::005_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#005_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A titan's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned for the purpose of overcoming damage reduction.\nOversized Weapon (Ex): A titan wields a great, two-handed warhammer (big enough for Gargantuan creatures) without penalty.\nSpell-Like Abilities: At will--chain lightning (DC 23), charm monster (DC 21), cure critical wounds (DC 21), fire storm (DC 24), greater dispel magic, hold monster (DC 22), invisibility, invisibility purge, levitate, persistent image (DC 22), polymorph (humanoid forms only, duration 1 hour); 3/day--etherealness, word of chaos (DC 22), summon nature's ally IX; 1/day--gate, maze, meteor swarm (DC 26). Caster level 20th. The save DCs are Charisma-based.\nIn addition, titans of good or neutral alignment can use the following additional spell-like abilities: At will--daylight, holy smite (DC 21), remove curse (DC 21); 1/day--greater restoration. Caster level 20th. The save DCs are Charisma-based.\nTitans of evil alignment can use the following additional spell-like abilities: At will--bestow curse (DC 21), deeper darkness, unholy blight (DC 21); 1/day--crushing hand (DC 26). Caster level 20th. The save DCs are Charisma-based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::004_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::006_tactics_round_by_round"
+}

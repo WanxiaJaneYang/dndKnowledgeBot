@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::040_hostile_mind_general",
+  "document_id": "srd_35::psionicsfeats::040_hostile_mind_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "HOSTILE MIND [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#040_hostile_mind_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mind recoils violently against those who use psionics against you.\nPrerequisite: Cha 15.\nBenefit: Whenever you are subject to a power from the telepathy discipline (regardless of whether the power is harmful or beneficial to you), the manifester must make a Will saving throw against a DC of 10 + 1/2 your character level + your Charisma bonus or take 2d6 points of damage.\nThe benefit of this feat applies only to psionic powers and psi-like abilities. This is an exception to the psionics-magic transparency rule.\nSpecial: You cannot take or use this feat if you have the ability to use powers (if you have a power point reserve or psi-like abilities).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::039_greater_psionic_weapon_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::041_imprint_stone_item_creation"
+}

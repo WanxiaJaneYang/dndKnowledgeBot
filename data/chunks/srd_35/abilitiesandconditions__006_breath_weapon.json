@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::006_breath_weapon",
+  "document_id": "srd_35::abilitiesandconditions::006_breath_weapon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "BREATH WEAPON"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#006_breath_weapon"
+  },
+  "chunk_type": "subsection",
+  "content": "A creature attacking with a breath weapon is actually expelling something from its mouth (rather than conjuring it by means of a spell or some other magical effect). Most creatures with breath weapons are limited to a number of uses per day or by a minimum length of time that must pass between uses. Such creatures are usually smart enough to save their breath weapon until they really need it.\nUsing a breath weapon is typically a standard action.\nNo attack roll is necessary. The breath simply fills its stated area.\nAny character caught in the area must make the appropriate saving throw or suffer the breath weapon's full effect. In many cases, a character who succeeds on his saving throw still takes half damage or some other reduced effect.\nBreath weapons are supernatural abilities except where noted.\nCreatures are immune to their own breath weapons.\nCreatures unable to breathe can still use breath weapons. (The term is something of a misnomer.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::005_blindsight_and_blindsense",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::007_charm_and_compulsion"
+}

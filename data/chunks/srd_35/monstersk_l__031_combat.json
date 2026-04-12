@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::031_combat",
+  "document_id": "srd_35::monstersk_l::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "COMBAT"
+    ],
+    "source_location": "MonstersK-L.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In wolf form, a werewolf can trip just as a normal wolf does. A werewolf in hybrid form usually dispenses with weapon attacks, though it can wield a weapon and use its bite as a secondary natural attack.\nAlternate Form (Su): A werewolf can assume a bipedal hybrid form or the form of a wolf.\nCurse of Lycanthropy (Su): Any humanoid or giant hit by a werewolf's bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.\nTrip (Ex): A werewolf in animal form that hits with a bite attack can attempt to trip the opponent (+2 check modifier) as a free action without making a touch attack or provoking an attack of opportunity.\nIf the attempt fails, the opponent cannot react to trip the werewolf.\nWolf Empathy (Ex): Communicate with wolves and dire wolves, and +4 racial bonus on Charisma-based checks against wolves and dire wolves.\nSkills: *A werewolf in hybrid or wolf form gains a +4 racial bonus on Survival checks when tracking by scent.\nThe werewolf presented here is based on a 1st-level human warrior and natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::030_werewolf",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::032_lycanthrope_werewolf_lord"
+}

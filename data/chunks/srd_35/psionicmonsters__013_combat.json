@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::013_combat",
+  "document_id": "srd_35::psionicmonsters::013_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#013_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A psionic aboleth does not possess spell-like abilities or the enslave ability of the standard aboleth. Instead, it has psi-like abilities, including psionic dominate.\nPsi-Like Abilities: At will--disable (30-ft. cone, 12 HD, DC 20*), false sensory input (five targets, DC 16*), mental disruption (20-ft. radius, DC 18*), mindlink (unwilling, nine targets, DC 14*); 3/day--ego whip (ML 7th, 2d4, DC 17*), id insinuation (ML 7th, three targets, DC 17*), psionic dominate (any target, 24 hours, DC 20*), thought shield (power resistance 21, 3 rounds*); 1/day--psionic modify memory (DC 17), remote viewing (DC 17), wall of ectoplasm (DC 17).\nManifester level 13th. The save DCs are Charisma-based.\n*Includes augmentation for the aboleth's manifester level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::012_creatures_with_psi_like_abilities",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::014_astral_construct"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::086_psychometabolism",
+  "document_id": "srd_35::psionicpowersq_w::086_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#086_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psychic warrior 3\nDisplay: Material and visual\nManifesting Time: 1 standard action\nRange: 0 ft.\nTarget: One weapon you hold\nDuration: 1 round/level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::085_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::087_power_points_5"
+}

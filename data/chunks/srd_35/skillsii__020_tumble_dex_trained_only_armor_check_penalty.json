@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsii::020_tumble_dex_trained_only_armor_check_penalty",
+  "document_id": "srd_35::skillsii::020_tumble_dex_trained_only_armor_check_penalty",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsII",
+      "TUMBLE (DEX; TRAINED ONLY; ARMOR CHECK PENALTY)"
+    ],
+    "source_location": "SkillsII.rtf#020_tumble_dex_trained_only_armor_check_penalty"
+  },
+  "chunk_type": "subsection",
+  "content": "You can't use this skill if your speed has been reduced by armor, excess equipment, or loot.\nCheck: You can land softly when you fall or tumble past opponents. You can also tumble to entertain an audience (as though using the Perform skill). The DCs for various tasks involving the Tumble skill are given on the table below.\nTumble DC | Task |\n15 | Treat a fall as if it were 10 feet shorter than it really is when determining damage. |\n15 | Tumble at one-half speed as part of normal movement, provoking no attacks of opportunity while doing so. Failure means you provoke attacks of opportunity normally. Check separately for each opponent you move past, in the order in which you pass them (player's choice of order in case of a tie).\nEach additional enemy after the first adds +2 to the Tumble DC. |\n25 | Tumble at one-half speed through an area occupied by an enemy (over, under, or around the opponent) as part of normal movement, provoking no attacks of opportunity while doing so. Failure means you stop before entering the enemy-occupied area and provoke an attack of opportunity from that enemy.\nCheck separately for each opponent. Each additional enemy after the first adds +2 to the Tumble DC. |\nObstructed or otherwise treacherous surfaces, such as natural cavern floors or undergrowth, are tough to tumble through. The DC for any Tumble check made to tumble into such a square is modified as indicated below.\nSurface Is . . . | DC Modifier |\nLightly obstructed (scree, light rubble, shallow bog1, undergrowth) | +2 |\nSeverely obstructed (natural cavern floor, dense rubble, dense undergrowth) | +5 |\nLightly slippery (wet floor) | +2 |\nSeverely slippery (ice sheet) | +5 |\nSloped or angled | +2 |\n1 Tumbling is impossible in a deep bog. |\nAccelerated Tumbling: You try to tumble past or through enemies more quickly than normal. By accepting a -10 penalty on your Tumble checks, you can move at your full speed instead of one-half your speed.\nAction: Not applicable. Tumbling is part of movement, so a Tumble check is part of a move action.\nTry Again: Usually no. An audience, once it has judged a tumbler as an uninteresting performer, is not receptive to repeat performances.\nYou can try to reduce damage from a fall as an instant reaction only once per fall.\nSpecial: If you have 5 or more ranks in Tumble, you gain a +3 dodge bonus to AC when fighting defensively instead of the usual +2 dodge bonus to AC.\nIf you have 5 or more ranks in Tumble, you gain a +6 dodge bonus to AC when executing the total defense standard action instead of the usual +4 dodge bonus to AC.\nIf you have the Acrobatic feat, you get a +2 bonus on Tumble checks.\nSynergy: If you have 5 or more ranks in Tumble, you get a +2 bonus on Balance and Jump checks.\nIf you have 5 or more ranks in Jump, you get a +2 bonus on Tumble checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsii::019_swim_str_armor_check_penalty",
+  "next_chunk_id": "chunk::srd_35::skillsii::021_use_magic_device_cha_trained_only"
+}

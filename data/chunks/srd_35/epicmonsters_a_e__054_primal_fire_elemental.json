@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::054_primal_fire_elemental",
+  "document_id": "srd_35::epicmonsters_a_e::054_primal_fire_elemental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "PRIMAL FIRE ELEMENTAL"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#054_primal_fire_elemental"
+  },
+  "chunk_type": "subsection",
+  "content": "A primal fire elemental cannot enter water or any other nonflammable liquid. Unlike lesser fire elementals, a primal fire elemental may attempt to evaporate a lesser body of water if blocked. Fire elementals speak Ignan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::053_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::055_combat"
+}

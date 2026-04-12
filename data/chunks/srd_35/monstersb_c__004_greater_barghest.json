@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::004_greater_barghest",
+  "document_id": "srd_35::monstersb_c::004_greater_barghest",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "GREATER BARGHEST"
+    ],
+    "source_location": "MonstersB-C.rtf#004_greater_barghest"
+  },
+  "chunk_type": "subsection",
+  "content": "A barghest that reaches 9 Hit Dice through feeding becomes a greater barghest. These creatures can change shape into a goblinlike creature of Large size (about 8 feet tall and 400 pounds) or a dire wolf. In goblin form, a greater barghest cannot use its natural weapons but can wield weapons and wear armor. In dire wolf form, a greater barghest loses its claw attacks but retains its bite attack.\nA greater barghest can reach a maximum of 18 Hit Dice through feeding.\nSpell-Like Abilities: In addition to the spelllike abilities all barghests possess, a greater barghest gains the following abilities. At will--invisibility sphere; 1/day--mass bull's strength, mass enlarge. Caster level equals the greater barghest's HD.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::003_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::005_combat"
+}

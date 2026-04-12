@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::009_combat",
+  "document_id": "srd_35::monsterst_z::009_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#009_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Treants prefer to watch potential foes carefully before attacking. They often charge suddenly from cover to trample the despoilers of forests. If sorely pressed, they animate trees as reinforcements.\nAnimate Trees (Sp): A treant can animate trees within 180 feet at will, controlling up to two trees at a time. It takes 1 full round for a normal tree to uproot itself. Thereafter it moves at a speed of 10 feet and fights as a treant in all respects. Animated trees lose their ability to move if the treant that animated them is incapacitated or moves out of range. The ability is otherwise similar to liveoak (caster level 12th). Animated trees have the same vulnerability to fire that a treant has.\nDouble Damage against Objects (Ex): A treant or animated tree that makes a full attack against an object or structure deals double damage.\nTrample (Ex): Reflex DC 22 half. The save DC is Strength-based. Skills: *Treants have a +16 racial bonus on Hide checks made in forested areas.\n\nHit Dice: | 3d8+3 (16 hp) |\nInitiative: | +0 |\nSpeed: | 5 ft. (1 square), swim 40 ft. |\nArmor Class: | 16 (+6 natural), touch 10, flat-footed 16 |\nBase Attack/Grapple: | +3/+4 |\nAttack: | Trident +4 melee (1d8+1) or heavy crossbow +3 ranged (1d10/19-20) |\nFull Attack: | Trident +4 melee (1d8+1) or heavy crossbow +3 ranged (1d10/19-20) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities |\nSpecial Qualities: | Darkvision 60 ft. |\nSaves: | Fort +4, Ref +3, Will +4 |\nAbilities: | Str 12, Dex 10, Con 12, Int 13, Wis 13, Cha 11 |\nSkills: | Craft (any one) +7, Diplomacy +2, Hide +6, Listen +7, Move Silently +6, Ride +6, Search +7, Sense Motive +7, Spot +7, Survival +7 (+9 following tracks), Swim +9 |\nFeats: | Mounted Combat, Ride-By Attack |\nEnvironment: | Temperate aquatic |\nOrganization: | Company (2-5), squad (6-11), or band (20-80) |\nChallenge Rating: | 2 |\nTreasure: | Standard |\nAlignment: | Usually neutral good |\nAdvancement: | 4-9 HD (Medium) |\nLevel Adjustment: | +2 |\nA triton has silvery skin that fades into silver-blue scales on the lower half of its body. A triton's hair is deep blue or blue-green.\nA triton is about the same size and weight as a human. Tritons speak Common and Aquan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::008_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::010_combat"
+}

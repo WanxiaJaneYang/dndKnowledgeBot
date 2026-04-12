@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::006_empower_spell_like_ability_general",
+  "document_id": "srd_35::monsterfeats::006_empower_spell_like_ability_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "EMPOWER SPELL-LIKE ABILITY [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#006_empower_spell_like_ability_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Spell-like ability at caster level 6th or higher.\nBenefit: Choose one of the creature's spell-like abilities, subject to the restrictions below. The creature can use that ability as an empowered spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day).\nWhen a creature uses an empowered spell-like ability, all variable, numeric effects of the spell-like ability are increased by one half. Saving throws and opposed rolls are not affected. Spell-like abilities without random variables are not affected.\nThe creature can only select a spell-like ability duplicating a spell with a level less than or equal to half its caster level (round down) -2. For a summary, see the table in the description of the Quicken Spell-Like Ability feat.\nSpecial: This feat can be taken multiple times. Each time it is taken, the creature can apply it to a different one of its spell-like abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::005_craft_construct_item_creation",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::007_flyby_attack_general"
+}

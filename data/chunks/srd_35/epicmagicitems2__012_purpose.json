@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::012_purpose",
+  "document_id": "srd_35::epicmagicitems2::012_purpose",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "Purpose"
+    ],
+    "source_location": "EpicMagicItems2.rtf#012_purpose"
+  },
+  "chunk_type": "subsection",
+  "content": "An item's purpose must suit the type and alignment of the item and should always be treated reasonably.\n\nd% | Purpose |\n01-20 | Defeat/slay diametrically opposed alignment1 |\n21-30 | Defeat/slay arcane spellcasters (including magic-using monsters) |\n31-40 | Defeat/slay divine spellcasters (including divine entities and servitors) |\n41-50 | Defeat/slay nonspellcasters |\n51-55 | Defeat/slay a particular creature type |\n56-60 | Defeat/slay a particular race or kind of creature |\n61-70 | Defend a particular race or kind of creature |\n71-80 | Defeat/slay the servants of a specific deity |\n81-90 | Defend the servants and interests of a specific deity |\n91-95 | Defeat/slay all (other than the item and the wielder) |\n96-100 | Other |\n1 The purpose of the neutral (N) version of this item is to preserve the balance by defeating/slaying powerful beings of the extreme alignments (LG, LE, CG, CE). |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::011_intelligent_item_abilities",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::013_special_purpose_power"
+}

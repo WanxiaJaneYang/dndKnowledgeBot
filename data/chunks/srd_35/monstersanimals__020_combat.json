@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::020_combat",
+  "document_id": "srd_35::monstersanimals::020_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#020_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Elephants tend to charge at threatening creatures.\nTrample (Ex): Reflex half DC 25. The save DC is Strength-based.\n\nHit Dice: | 1d8 (4 hp) |\nInitiative: | +3 |\nSpeed: | 10 ft. (2 squares), fly 60 ft. (average) |\nArmor Class: | 17 (+2 size, +3 Dex, +2 natural), touch 15, flat-footed 14 |\nBase Attack/Grapple: | +0/-10 |\nAttack: | Talons +5 melee (1d4-2) |\nFull Attack: | Talons +5 melee (1d4-2) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision |\nSaves: | Fort +2, Ref +5, Will +2 |\nAbilities: | Str 6, Dex 17, Con 10, Int 2, Wis 14, Cha 6 |\nSkills: | Listen +2, Spot +14 |\nFeats: | Weapon Finesse |\nEnvironment: | Temperate forests |\nOrganization: | Solitary or pair |\nChallenge Rating: | 1/3 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nThese creatures are similar to eagles but slightly smaller: 1 to 2 feet long, with wingspans of 6 feet or less.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::019_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::021_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::073_sidestep_charge_psionic",
+  "document_id": "srd_35::psionicsfeats::073_sidestep_charge_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "SIDESTEP CHARGE [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#073_sidestep_charge_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You are skilled at dodging past charging opponents and taking advantage when they miss.\nPrerequisite: Dex 13, Dodge.\nBenefit: You get a +4 dodge bonus to Armor Class against charge attacks. If a charging opponent fails to make a successful attack against you, you gain an immediate attack of opportunity. This feat does not grant you more attacks of opportunity than you are normally allowed in a round. If you are flat-footed or otherwise denied your Dexterity bonus to Armor Class, you do not gain the benefit of this feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::072_scribe_tattoo_item_creation",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::074_speed_of_thought_psionic"
+}

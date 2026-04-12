@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::010_combat",
+  "document_id": "srd_35::monstersb_c::010_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#010_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In most cases, a belker fights with its nasty claws and painful bite.\nSmoke Claws (Ex): A belker in smoke form (see below) can engulf opponents by moving on top of them. It fills the air around one Medium or smaller opponent without provoking an attack of opportunity. The target must succeed on a DC 14 Fortitude save or inhale part of the creature. The save DC is Constitution-based. Smoke inside the victim solidifies into a claw and begins to rip at the surrounding organs, dealing 3d4 points of damage per round. An affected creature can attempt another Fortitude save each subsequent round to cough out the semivaporous menace.\nSmoke Form (Su): Most of the time a belker is more or less solid, but at will it can assume smoke form. It can switch forms once per round as a free action and can spend up to 20 rounds per day in smoke form. A belker in smoke form can fly at a speed of 50 feet (perfect). The ability is otherwise similar to a gaseous form spell (caster level 7th).\nSkills: Belkers have a +4 racial bonus on Move Silently checks.\n\nHit Dice: | 4d10 (22 hp) |\nInitiative: | +3 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 16 (+3 Dex, +3 natural), touch 13, flat-footed 13 |\nBase Attack/Grapple: | +4/+4 |\nAttack: | Bite +4 melee (1d6) |\nFull Attack: | Bite +4 melee (1d6) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Blink, darkvision 60 ft., dimension door, low-light vision, scent |\nSaves: | Fort +4, Ref +7, Will +4 |\nAbilities: | Str 10, Dex 17, Con 10, Int 10, Wis 13, Cha 11 |\nSkills: | Hide +3, Listen +5, Sense Motive +3, Spot +5, Survival +4 |\nFeats: | Iron Will, Run, TrackB |\nEnvironment: | Temperate plains |\nOrganization: | Solitary, pair, or pack (7-16) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Usually lawful good |\nAdvancement: | 5-7 HD (Medium); 8-12 HD (Large) |\nLevel Adjustment: | +2 (cohort) |\nThe blink dog is an intelligent canine that has a limited teleportation ability.\nBlink dogs have their own language, a mixture of barks, yaps, whines, and growls that can transmit complex information.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::009_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::011_combat"
+}

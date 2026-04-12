@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::007_trying_again",
+  "document_id": "srd_35::skillsi::007_trying_again",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Trying Again"
+    ],
+    "source_location": "SkillsI.rtf#007_trying_again"
+  },
+  "chunk_type": "subsection",
+  "content": "In general, you can try a skill check again if you fail, and you can keep trying indefinitely. Some skills, however, have consequences of failure that must be taken into account. A few skills are virtually useless once a check has failed on an attempt to accomplish a particular task. For most skills, when a character has succeeded once at a given task, additional successes are meaningless.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::006_opposed_checks",
+  "next_chunk_id": "chunk::srd_35::skillsi::008_untrained_skill_checks"
+}

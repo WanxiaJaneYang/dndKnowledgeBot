@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::085_shift_form",
+  "document_id": "srd_35::divineabilitiesandfeats::085_shift_form",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Shift Form"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#085_shift_form"
+  },
+  "chunk_type": "subsection",
+  "content": "This is an extraordinary ability.\nPrerequisites: Divine rank 6, Alter Size salient divine ability, Alter Form salient divine ability.\nBenefit: The deity can assume the form of another creature. The forms a deity can assume are limited and vary with each deity. The forms allowed are listed in the deity's description. The deity can remain in the assumed form indefinitely, but it\nresumes its own form if slain.\nNotes: The deity acquires the physical, natural, and extraordinary abilities of the form it has assumed (but not spell-like or supernatural abilities) while retaining its own mind. Physical abilities include natural size and Strength, Dexterity, and Constitution scores. Natural abilities include armor, natural weapons (such as claws, bite, swoop and rake, and constriction; but not petrification, breath weapons, energy drain, energy effect, and the like), and similar gross physical qualities (presence or absence of wings, number of extremities, and so on). A body with extra limbs does not allow the deity to make more attacks (or more advantageous two-weapon attacks) than normal. Natural abilities also include mundane movement capabilities, such as walking, swimming, and flight with wings. The deity's speed is that of the assumed form or the deity's normal speed, whichever is higher.\nIn general, any part of the body or piece of equipment that is separated from the whole reverts to its original form. However, if the assumed form has an extraordinary ability that allows it to produce a substance or shed part of its body, then this ability also grants that ability.\nThe deity retains its Intelligence, Wisdom, and Charisma scores, level and class, hit points (despite any change in its Constitution score), alignment, base attack bonus, and base saves. (New Strength, Dexterity, and Constitution scores may affect final attack and save bonuses.) The deity retains its outsider type, extraordinary abilities, spells, and spell-like abilities, but not its supernatural abilities.\nThe deity also retains its divine Armor Class bonus and divine qualities and abilities, provided they are not supernatural.\nThe deity can cast spells for which it has components. It needs a voice like that of a humanoid for verbal components and hands like those of a humanoid for somatic components, Likewise, the deity needs hands to use many of its powers, such as creating objects related to its portfolio.\nWhen the shape shift occurs, the deity's equipment, if any, transforms to match the new form. If the new form is a creature that does not use equipment (aberration, animal, beast, magical beast, construct, dragon, elemental, ooze, some outsiders, plant, some undead creatures, some shapechangers, or vermin), the equipment melds into the new form and becomes nonfunctional.\nMaterial components and focuses melded in this way cannot be used to cast spells. If the new form uses equipment (fey, giant, humanoid, some outsiders, many shapechangers, many undead creatures), the deity's equipment changes to match the new form and retains its properties.\nThis ability cannot confer class levels or class abilities.\nThe deity can change physical qualities such as hair color, hair texture, skin color, and gender. The deity can use this ability to create disguises, gaining a bonus of +15 on its Disguise checks.\nThe deity can use its Alter Size ability simultaneously with this one to become as small as a grain of sand or as large as 1,600 feet in the assumed form's greatest dimension.\nSuggested Portfolio Elements: Nature.\nSpeak with Creatures\nBenefit: The deity has the supernatural ability to converse with the specified creature. This ability works like a permanent speak with animals or speak with plants spell, or like a tongues spell that only allows the deity to converse with the specified type of creature.\nNotes: A deity can have this ability multiple times, choosing a different type of creature each time.\nSuggested Portfolio Elements: Nature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::084_shapechange",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::086_spontaneous_wizard_spells"
+}

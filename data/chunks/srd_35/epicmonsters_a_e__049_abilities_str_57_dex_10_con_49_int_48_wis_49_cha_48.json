@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::049_abilities_str_57_dex_10_con_49_int_48_wis_49_cha_48",
+  "document_id": "srd_35::epicmonsters_a_e::049_abilities_str_57_dex_10_con_49_int_48_wis_49_cha_48",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Abilities: Str 57, Dex 10, Con 49, Int 48, Wis 49, Cha 48"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#049_abilities_str_57_dex_10_con_49_int_48_wis_49_cha_48"
+  },
+  "chunk_type": "subsection",
+  "content": "Skills: Balance +67, Bluff +80, Climb +84, Concentration +80, Diplomacy +92, Disable Device +80, Escape Artist +61, Gather Information +86, Heal +80, Intimidate +86, Jump +102, Knowledge (all) +80, Listen +80, Move Silently +61, Open Lock +61, Perform (any two) +80, Search +80, Sense Motive +80, Spellcraft +86, Spot +80, Survival +80, Tumble +67, Use Magic Device +80\nFeats: Blinding Speed (x2), Cleave, Flyby Attack, Great Cleave, Improved Critical (bite), Improved Initiative, Improved Sunder, Improved Spell Capacity (9th), Improved Spell Capacity (9th), Power Attack, Quicken Spell-Like Ability, Snatch, Spell Knowledge (x4), Weapon Focus (bite), Weapon Focus (claw), Weapon Focus (tail slap)\nClimate/Terrain: Any land and underground\nOrganization: Solitary, pair, or family (1-2 and 2-5 off-spring)\n\nTreasure: Double standard\nAlignment: Usually neutral",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::048_base_attack_grapple_58_97",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::050_advancement_59_62_hd_colossal"
+}

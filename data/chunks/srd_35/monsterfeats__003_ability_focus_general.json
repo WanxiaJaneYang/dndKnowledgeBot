@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::003_ability_focus_general",
+  "document_id": "srd_35::monsterfeats::003_ability_focus_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "ABILITY FOCUS [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#003_ability_focus_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Choose one of the creature's special attacks.\nPrerequisite: Special attack.\nBenefit: Add +2 to the DC for all saving throws against the special attack on which the creature focuses.\nSpecial: A creature can gain this feat multiple times. Its effects do not stack. Each time the creature takes the feat it applies to a different special attack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::002_monster_feats",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::004_awesome_blow_general_fighter"
+}

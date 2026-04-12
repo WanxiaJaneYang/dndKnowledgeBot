@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::treasure::002_monsters_with_treasure",
+  "document_id": "srd_35::treasure::002_monsters_with_treasure",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Treasure",
+      "MONSTERS WITH TREASURE"
+    ],
+    "source_location": "Treasure.rtf#002_monsters_with_treasure"
+  },
+  "chunk_type": "subsection",
+  "content": "Every monster has a treasure rating (indicating how much treasure it has, although for some creatures the rating is \u201cNone\u201d). The tables found below are used to determine the specifics. After referencing the level and kind of treasure (coins, goods, items) found in the creature's description, roll on the appropriate row and columns of the proper table.\nWhen generating an encounter dealing with monsters away from their lair, remember that a creature only takes what it can easily carry with it. In the case of a creature that cannot use treasure, that generally means nothing. The monster safeguards or hides its treasure as well as it can, but it leaves it behind when outside the lair.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::treasure::001_treasure",
+  "next_chunk_id": "chunk::srd_35::treasure::003_using_the_treasure_table"
+}

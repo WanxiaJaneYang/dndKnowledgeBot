@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::042_combat",
+  "document_id": "srd_35::monstersg::042_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#042_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Gnomes prefer misdirection and deception over direct confrontation.\nThey would rather befuddle or embarrass foes (other than goblinoids or kobolds) than kill them.\nGnomes make heavy use of illusion magic and carefully prepared ambushes and traps whenever they can.\nGnome Traits (Ex): Gnomes possess the following racial traits.\n-- +2 Constitution, -2 Strength.\n--Small size. +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, -4 penalty on grapple checks, lifting and carrying limits 3/4 those of Medium characters.\n--A gnome's base land speed is 20 feet.\n--Low-light vision.\n--Weapon Familiarity: Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.\n-- +2 racial bonus on saving throws against illusions.\n--Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes. This adjustment stacks with those from similar effects, such as the Spell Focus feat.\n-- +1 racial bonus on attack rolls against kobolds and goblinoids (including goblins, hobgoblins, and bugbears).\n-- +4 dodge bonus to Armor Class against creatures of the giant type (such as ogres, trolls, and hill giants).\n-- +2 racial bonus on Listen checks.\n-- +2 racial bonus on Craft (alchemy) checks.\n--Automatic Languages: Common, Gnome. Bonus Languages: Draconic, Dwarven, Elven, Giant, Goblin, Orc.\n--Spell-Like Abilities: 1/day--speak with animals (burrowing mammal only, duration 1 minute). A gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day--dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + gnome's Cha modifier + spell level.\n--Favored Class: Bard.\nThe gnome warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::041_gnome",
+  "next_chunk_id": "chunk::srd_35::monstersg::043_subraces"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::008_the_power_s_result",
+  "document_id": "srd_35::powersoverview::008_the_power_s_result",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "THE POWER'S RESULT"
+    ],
+    "source_location": "PowersOverview.rtf#008_the_power_s_result"
+  },
+  "chunk_type": "subsection",
+  "content": "Once you know which creatures (or objects or areas) are affected, and whether those creatures have made successful saving throws (if any were allowed), you can apply whatever results a power entails.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::007_power_failure",
+  "next_chunk_id": "chunk::srd_35::powersoverview::009_special_power_effects"
+}

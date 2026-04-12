@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::029_combat",
+  "document_id": "srd_35::psionicmonsters::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A psionic duergar does not possess the spell-like abilities of standard duergars. Instead, it has psi-like abilities.\nPsi-Like Abilities: 1/day--expansion, invisibility. These abilities are as the power (or spell) manifested by a psion (or sorcerer) of the duergar's Hit Dice (minimum 3rd level) and affect only the duergar and whatever he carries.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::028_dromites_as_characters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::030_duergar_as_characters"
+}

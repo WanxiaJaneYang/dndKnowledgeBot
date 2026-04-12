@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::057_exceptional_deflection_epic",
+  "document_id": "srd_35::epicfeats::057_exceptional_deflection_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EXCEPTIONAL DEFLECTION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#057_exceptional_deflection_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 21, Wis 19, Deflect Arrows, Improved Unarmed Strike.\nBenefit: The character can deflect any ranged attacks (including spells that require ranged touch attacks) as if they were arrows.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::056_epic_will_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::058_extended_life_span_epic"
+}

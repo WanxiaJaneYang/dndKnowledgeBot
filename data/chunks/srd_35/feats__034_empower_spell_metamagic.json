@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::034_empower_spell_metamagic",
+  "document_id": "srd_35::feats::034_empower_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "EMPOWER SPELL [METAMAGIC]"
+    ],
+    "source_location": "Feats.rtf#034_empower_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: All variable, numeric effects of an empowered spell are increased by one-half.\nSaving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::033_dodge_general",
+  "next_chunk_id": "chunk::srd_35::feats::035_endurance_general"
+}

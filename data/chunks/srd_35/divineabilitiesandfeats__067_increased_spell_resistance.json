@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::067_increased_spell_resistance",
+  "document_id": "srd_35::divineabilitiesandfeats::067_increased_spell_resistance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Increased Spell Resistance"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#067_increased_spell_resistance"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The deity's spell resistance increases by 20.\nNotes: A deity can have this ability multiple times, and its effects stack. A deity with two applications of this ability improves its spell resistance by 40.\nSuggested Portfolio Elements: Magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::066_increased_energy_resistance",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::068_indomitable_strength"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::074_speed_of_thought_psionic",
+  "document_id": "srd_35::psionicsfeats::074_speed_of_thought_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "SPEED OF THOUGHT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#074_speed_of_thought_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "The energy of your mind energizes the alacrity of your body.\nPrerequisite: Wis 13.\nBenefit: As long as you are psionically focused and not wearing heavy armor, you gain an insight bonus to your speed of 10 feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::073_sidestep_charge_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::075_split_psionic_ray_metapsionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::008_charges_and_multiple_uses",
+  "document_id": "srd_35::psionicitems::008_charges_and_multiple_uses",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "CHARGES AND MULTIPLE USES"
+    ],
+    "source_location": "PsionicItems.rtf#008_charges_and_multiple_uses"
+  },
+  "chunk_type": "subsection",
+  "content": "Some items are limited in power by the number of charges they hold or the number of power points they contain. Normally, charged items (such as dorjes) have 50 charges at most. If such an item is found as a random part of a treasure, roll d% and divide by 2 to determine the number of charges left (round down, minimum 1).\nSimilarly, items that contain power points (such as psicrowns) have a number of points equal to 50 x the manifester level of the creator. If such an item is found as a random part of a treasure, roll d% and divide by 2 to determine the number by which the manifester level is multiplied (round down, minimum 1).\nMarket prices given on the tables are always for fully charged or fully powered items. (When an item is created, it is fully charged or fully powered.) For an item that's worthless when its charges or power points run out (which is the case for almost all charged or powered items), the value of the partially used item is proportional to the number of charges left. For an item that has usefulness in addition to its charges, only part of the item's value is based on the number of charges left.\nSome items are single-use and expendable. Such items can often be found in sets or groups.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::007_cursed_items",
+  "next_chunk_id": "chunk::srd_35::psionicitems::009_magic_items_for_psionic_characters"
+}

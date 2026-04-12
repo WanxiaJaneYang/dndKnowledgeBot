@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::005_combat",
+  "document_id": "srd_35::monsterse_f::005_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "COMBAT"
+    ],
+    "source_location": "MonstersE-F.rtf#005_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Elementals have varied combat abilities and tactics, but all have the same elemental qualities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::004_elemental",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::006_air_elemental"
+}

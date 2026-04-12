@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::051_combat",
+  "document_id": "srd_35::psionicmonsters::051_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#051_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A thought slayer can spend a maximum of 10 continuous minutes on the Material Plane before its wispy flesh finally dissipates and it falls dead. If badly wounded, it escapes to the Ethereal Plane rather than continuing the fight.\nMind-Consuming Gaze (Su): Instantly kill (by draining the mind away), range 30 feet, Fortitude DC 19 negates. The save DC is Charisma-based. This is considered a mind-affecting death effect. If a thought slayer's gaze is met indirectly (such as through a mirror or a reflection in water), the opponent does not die on a failed save but instead is dazed for 14 rounds. This otherwise is a gaze effect.\nThe gaze cannot affect creatures on the Material Plane while the thought slayer remains ethereal, but it can affect ethereal creatures while the thought slayer is on the Material Plane.\nPsi-Like Abilities: At will--brain lock (any nonmindless, DC 14*), chameleon, detect psionics, distract (DC 13); 3/day--body adjustment (5d12*), mental barrier (+6 AC, 2 rounds*), mind trap (10 rounds*), precognition, wall walker; 1/day--escape detection. Manifester level 14th. The save DCs are Charisma-based.\n*Includes augmentation for the thought slayer's manifester level.\nEthereal Jaunt (Su): A thought slayer can shift from the Ethereal Plane to the Material Plane as part of any move action, and then shift back again as a free action. The ability is otherwise identical to the psionic ethereal jaunt power.\nUDOROOT\n| Huge Plant (Psionic) |\nHit Dice: | 6d8+18 (45 hp) |\nInitiative: | +0 |\nSpeed: | 0 ft. |\nArmor Class: | 11 (-2 size, -5 Dex, +8 natural), touch 3, flatfooted 11 |\nBase Attack/Grapple: | +4/-- |\nAttack: | -- |\nFull Attack: | -- |\nSpace/Reach: | 15 ft./0 ft. |\nSpecial Attacks: | Double manifest, psi-like abilities |\nSpecial Qualities: | Blindsight 60 ft., immunity to electricity, plant traits, resistance to cold 10 and fire 10 |\nSaves: | Fort +8, Ref +4, Will +5 |\nAbilities: | Str --, Dex --, Con 16, Int 4, Wis 13, Cha 14 |\nSkills: | Listen +10 |\nFeats: | Iron Will, Lightning Reflexes |\nEnvironment: | Temperate forest |\nOrganization: | Solitary or patch (2-4) |\nChallenge Rating: | 5 |\nTreasure: | 1/5 coins; 50% goods; 50% items |\nAlignment: | Always neutral |\nAdvancement: | 7-16 HD (Huge); 17-18 HD (Gargantuan) |\nLevel Adjustment: | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::050_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::052_combat"
+}

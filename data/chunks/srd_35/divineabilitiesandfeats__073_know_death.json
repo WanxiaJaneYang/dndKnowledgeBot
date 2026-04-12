@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::073_know_death",
+  "document_id": "srd_35::divineabilitiesandfeats::073_know_death",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Know Death"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#073_know_death"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The deity knows the exact moment and circumstances of any mortal creature's death just by looking at the creature.\nSuggested Portfolio Elements: Death.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::072_irresistible_performance",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::074_know_secrets"
+}

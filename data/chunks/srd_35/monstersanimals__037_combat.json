@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::037_combat",
+  "document_id": "srd_35::monstersanimals::037_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#037_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Blindsight (Ex): Porpoises can \u201csee\u201d by emitting high-frequency sounds, inaudible to most other creatures, that allow them to locate objects and creatures within 120 feet. A silence spell negates this and forces the porpoise to rely on its vision, which is approximately as good as a human's.\nHold Breath (Ex): A porpoise can hold its breath for a number of rounds equal to 6 x \uf020its Constitution score before it risks drowning.\nSkills: A porpoise has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. *A porpoise has a +4 racial bonus on Spot and Listen checks. These bonuses are lost if its blindsight is negated.\n\nHit Dice: | 1/4 d8 (1 hp) |\nInitiative: | +2 |\nSpeed: | 15 ft. (3 squares), climb 15 ft., swim 15 ft. |\nArmor Class: | 14 (+2 size, +2 Dex), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +0/-12 |\nAttack: | Bite +4 melee (1d3-4) |\nFull Attack: | Bite +4 melee (1d3-4) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +2, Ref +4, Will +1 |\nAbilities: | Str 2, Dex 15, Con 10, Int 2, Wis 12, Cha 2 |\nSkills: | Balance +10, Climb +12, Hide +14, Move Silently +10, Swim +10 |\nFeats: | Weapon Finesse |\nEnvironment: | Any |\nOrganization: | Plague (10-100) |\nChallenge Rating: | 1/8 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nThese omnivorous rodents thrive almost anywhere.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::036_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::038_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::020_blues_as_characters",
+  "document_id": "srd_35::psionicmonsters::020_blues_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "BLUES AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#020_blues_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Blues tend to be psions, although blues raised in communities where their kind are rare may choose the path of the wilder.\nBlue characters possess the following racial traits.\n-- -2 Strength, +2 Intelligence, -2 Charisma.\n--Small size: +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, -4 penalty on grapple checks, lifting and carrying limits 3/4 of those of Medium characters.\n--Blue base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Naturally Psionic: Blues gain 1 bonus power point at 1st level.\n-- Racial Skills: A blue character has a +4 racial bonus on Move Silently checks and Ride checks.\n--Automatic Languages: Common, Goblin. Bonus Languages: Draconic, Elven, Giant, Gnoll, Orc.\n--Favored Class: Psion.\n--Level Adjustment: +1.\n\nHit Dice: | 1d10-2 (3 hp) |\nInitiative: | +2 |\nSpeed: | 15 ft. (3 squares), burrow 15 ft. |\nArmor Class: | 14 (+2 size, +2 Dex), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +1/-11 |\nAttack: | Bite +5 melee (1d3-4) |\nFull Attack: | Bite +5 melee (1d3-4) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | Cascade flu, psi-like abilities |\nSpecial Qualities: | Low-light vision, power conversion, scent |\nSaves: | Fort +0, Ref +4, Will +2 |\nAbilities: | Str 2, Dex 14, Con 7, Int 2, Wis 14, Cha 11 |\nSkills: | Hide +15, Move Silently +7, Listen +6, Spot +2 |\nFeats: | Alertness, Weapon FinesseB |\nEnvironment: | Temperate forest |\nOrganization: | Nest (3-8) |\nChallenge Rating: | 1/2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nBrain moles are burrowing animals that use psionic powers to overcome large psionic prey. Small, furry, and nearly blind, brain moles are almost indistinguishable from their common animal cousins.\nBrain moles eat small insects when they can't get psionic energy.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::019_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::021_combat"
+}

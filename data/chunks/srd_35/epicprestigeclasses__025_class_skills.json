@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::025_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::025_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#025_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The epic infiltrator's class skills (and the key ability for each skill) are Appraise (Int), Balance (Dex), Bluff (Cha), Climb (Str), Craft (Int), Decipher Script (Int), Diplomacy (Cha), Disable Device (Int), Disguise (Cha), Escape Artist (Dex), Forgery (Int), Gather Information (Cha), Hide (Dex), Intimidate (Cha), Jump (Str), Listen (Wis), Move Silently (Dex), Open Lock (Dex), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), and Spot (Wis).\nSkill Points at Each Level: 8 + Int modifier.\nTable: The Epic Infiltrator\nLevel | Special |\n1st | Improved cover identity (3), sneak attack +1d6 |\n2nd | Specialist training |\n3rd | Read thoughts 1/day, mind blank 1/day |\n4th | Far senses 1/day, sneak attack +2d6 |\n5th | Specialist training, improved cover identity (4) |\n6th | Far senses 2/day |\n7th | Read thoughts 2/day, sneak attack +3d6 |\n8th | Far senses 3/day, specialist training |\n9th | Improved cover identity (5) |\n10th | Far senses 4/day, sneak attack +4d6 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::024_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::026_class_features"
+}

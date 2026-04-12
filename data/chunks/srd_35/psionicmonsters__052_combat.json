@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::052_combat",
+  "document_id": "srd_35::psionicmonsters::052_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#052_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "An udoroot can be killed only if its root is dug up or exposed, then burned, hacked apart, or otherwise destroyed. Severing or destroying all six crowns puts the plant out of commission, allowing excavation of the helpless root. The crowns are Medium objects with a hardness of 5 and 7 hit points. To sever a crown, an opponent must use the sunder action. The crowns can also be affected by spells or effects that affect an area or targeted by spells that affect an individual target.\nAn udoroot takes no damage from having a crown severed or destroyed. A severed crown dies and can no longer be used to attack, but the udoroot takes no other penalties. As long as the root system remains intact, the crown regrows in about a month.\nDouble Manifest (Ex): An udoroot senses its surroundings and manifests its psi-like abilities through its crowns. It can manifest two psi-like abilities per round, as long as it has at least two crowns remaining.\nPsi-Like Abilities: At will--energy stun (electricity, 2d6, DC 15*), false sensory input (DC 15), id insinuation (two targets, DC 15*), mind thrust (ML 4th, 4d10, DC 14*), telekinetic force (275 lb., DC 15*), thought shield (power resistance 16*); 3/day--astral construct (3rd level*), body adjustment, mental barrier.\nManifester level 6th. The save DCs are Charisma-based.\nAn udoroot can use its body adjustment power to repair damage to one of its crowns, as long as the crown has not been severed or destroyed.\n*Includes augmentation for the udoroot's manifester level.\nBlindsight (Ex): An udoroot can ascertain all foes by nonvisual means within 60 feet. If its crowns are destroyed, it can no longer perceive its surroundings.\nPlant Traits: An udoroot is immune to poison, sleep, paralysis, stunning, polymorphing, and mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). It is not subject to critical hits.\n\nHit Dice: | 4d8+4 (22 hp) |\nInitiative: | +1 |\nSpeed: | Fly 30 ft. (good) (6 squares) |\nArmor Class: | 13 (+1 Dex, +2 deflection), touch 13, flatfooted 12 |\nBase Attack/Grapple: | +4/-- |\nAttack: | Incorporeal touch +5 melee (1d6) |\nFull Attack: | Incorporeal touch +5 melee (1d6) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Psionic powers, telekinetic force |\nSpecial Qualities: | Assume likeness, incorporeal traits, telepathy 100 ft. |\nSaves: | Fort +2, Ref +5, Will +6 |\nAbilities: | Str --, Dex 13, Con 12, Int 15, Wis 14, Cha 15 |\nSkills: | Bluff +10*, Diplomacy +6, Disguise +10*, Intimidate +6, Listen +6, Sense Motive +6, Spot +6 |\nFeats: | Overchannel, Wild Talent |\nEnvironment: | Any |\nOrganization: | Solitary or illumination (3-6) |\nChallenge Rating: | 5 |\nTreasure: | Half standard |\nAlignment: | Any |\nAdvancement: | By character class |\nLevel Adjustment: | +4 |\nAn unbodied uses telepathy to communicate with others.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::051_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::053_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsiv::003_staffs",
+  "document_id": "srd_35::magicitemsiv::003_staffs",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsIV",
+      "STAFFS"
+    ],
+    "source_location": "MagicItemsIV.rtf#003_staffs"
+  },
+  "chunk_type": "subsection",
+  "content": "A staff is a long shaft of wood that stores several spells. Unlike wands, which can contain a wide variety of spells, each staff is of a certain kind and holds specific spells. A staff has 50 charges when created.\nPhysical Description: A typical staff is 4 feet to 7 feet long and 2 inches to 3 inches thick, weighing about 5 pounds. Most staffs are wood, but a rare few are bone, metal, or even glass. (These are extremely exotic.) Staffs often have a gem or some device at their tip or are shod in metal at one or both ends. Staffs are often decorated with carvings or runes. A typical staff is like a walking stick, quarterstaff, or cudgel. It has AC 7, 10 hit points, hardness 5, and a break DC of 24.\nActivation: Staffs use the spell trigger activation method, so casting a spell from a staff is usually a standard action that doesn't provoke attacks of opportunity. (If the spell being cast, however, has a longer casting time than 1 standard action, it takes that long to cast the spell from a staff.) To activate a staff, a character must hold it forth in at least one hand (or whatever passes for a hand, for nonhumanoid creatures).\nSpecial Qualities: Roll d%. A 01-30 result indicates that something (a design, inscription, or the like) provides some clue to the staff 's function, and 31-100 indicates no special qualities.\nTable: Staffs |\nMedium | Major | Staff | Market Price |\n01-15 | 01-03 | Charming | 16,500 gp |\n16-30 | 04-09 | Fire | 17,750 gp |\n31-40 | 10-11 | Swarming insects | 24,750 gp |\n41-60 | 12-17 | Healing | 27,750 gp |\n61-75 | 18-19 | Size alteration | 29,000 gp |\n76-90 | 20-24 | Illumination | 48,250 gp |\n91-95 | 25-31 | Frost | 56,250 gp |\n96-100 | 32-38 | Defense | 58,250 gp |\n-- | 39-43 | Abjuration | 65,000 gp |\n-- | 44-48 | Conjuration | 65,000 gp |\n-- | 49-53 | Enchantment | 65,000 gp |\n-- | 54-58 | Evocation | 65,000 gp |\n-- | 59-63 | Illusion | 65,000 gp |\n-- | 64-68 | Necromancy | 65,000 gp |\n-- | 69-73 | Transmutation | 65,000 gp |\n-- | 74-77 | Divination | 73,500 gp |\n-- | 78-82 | Earth and stone | 80,500 gp |\n-- | 83-87 | Woodlands | 101,250 gp |\n-- | 88-92 | Life | 155,750 gp |\n-- | 93-97 | Passage | 170,500 gp |\n-- | 98-100 | Power | 211,000 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsiv::002_scrolls",
+  "next_chunk_id": "chunk::srd_35::magicitemsiv::004_staff_descriptions"
+}

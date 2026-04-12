@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::043_great_cleave_general",
+  "document_id": "srd_35::feats::043_great_cleave_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "GREAT CLEAVE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#043_great_cleave_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 13, Cleave, Power Attack, base attack bonus +4.\nBenefit: This feat works like Cleave, except that there is no limit to the number of times you can use it per round.\nSpecial: A fighter may select Great Cleave as one of his fighter bonus feats.\n\nBenefit: You get a +2 bonus on all Fortitude saving throws.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::042_forge_ring_item_creation",
+  "next_chunk_id": "chunk::srd_35::feats::044_greater_spell_focus_general"
+}

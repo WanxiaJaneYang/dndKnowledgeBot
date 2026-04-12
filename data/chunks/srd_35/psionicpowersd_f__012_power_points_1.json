@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::012_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::012_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#012_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mental impulse forces the subject to repeat the actions it took on its previous turn. If the situation has changed in such a way that the subject can't take the same actions again (if its foe is dead, or the subject has run out of power points, and so on), the subject stands still and takes no actions for 1 round. In any event, the subject can still defend itself, and it retains its Dexterity bonus to AC even if it stands still.\nAugment: For every 2 additional power points you spend, this power's save DC increases by 1.\n\nDisplay: Mental and olfactory\nManifesting Time: 1 standard action\nRange: 30 ft.\nArea: 30-ft.-radius spread centered on you\nDuration: 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::011_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::013_power_points_1"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::038_combat",
+  "document_id": "srd_35::epicmonsters_g_w::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Animate Trees (Sp): An elder treant can animate trees within 500 feet at will, controlling up to six trees at a time. It takes a full round for a normal tree to uproot itself. Thereafter it moves and fights as a treant in all physical respects. Animated trees lose their ability to move if the elder treant who animated them is incapacitated or moves out of range.\nTrample (Ex): An elder treant can trample Gargantuan or smaller creatures for 8d20+40 points of Damage. Opponents who do not make attacks of opportunity against the elder treant can attempt a Reflex save (DC 54) to halve the Damage. The save DC is Strength-based.\nTriple Damage against Objects (Ex): An elder treant that makes a full attack against an object or structure deals triple Damage.\nPlant Traits: Immune to poison, sleep, paralysis, stunning, and polymorphing; not subject to critical hits or mind-affecting effects.\nSkills: Elder treants receive skills as though they were fey. *They have a +24 racial bonus on Hide checks made in forested areas.\nSpell-Like Abilities: At will--animal messenger, command plants, speak with plants, stone tell; 3/day--mass cure light wounds (plants only), plant growth, sunburst, wall of thorns; 1/day--shambler. Caster level 23rd; save DC 22 + spell level. The save DCs are Charisma-based.\nUMBRAL BLOT (BLACKBALL)\n| Medium-Size Construct |\nHit Dice: | 57d10 +120 (433 hp) |\nInitiative: | +18 (+10 Dex, +8 Superior Initiative) |\nSpeed: | Fly 90 ft. (perfect) |\nAC: | 40 (+10 Dex, +20 natural) |\nBase Attack/Grapple: | +42/+42 |\nAttack: | Disintegrating touch +42 (5d6 plus disintegrating touch (Fort DC 38)) melee touch |\nFull Attack: | Disintegrating touch +42 (5d6 plus disintegrating touch (Fort DC 38)) melee touch |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Disintegrating touch, vortex |\nSpecial Qualities: | Blindsight 200 ft., construct traits, fast healing 10, planar travel, SR 44; acid, cold, electricity, fire, and sonic resistance 30 |\nSaves: | Fort +19, Ref +29, Will +29 |\nAbilities: | Str 10, Dex 30, Con -, Int 14, Wis 30, Cha 30 |\nSkills: | Hide +62, Listen +52, Move Silently +62, Sense Motive +43, Spot +52, Survival +43 |\nFeats: | Alertness, Combat Reflexes, Improved Initiative, Skill Focus (Sense Motive), Skill Focus (Survival), Stealthy, Track |\nEpic Feats: | Epic Prowess (x3), Epic Skill Focus (Hide), Epic Skill Focus (Listen), Epic Skill Focus (Sense Motive), Epic Skill Focus (Spot), Epic Toughness (x5), Superior Initiative |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 32 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 58-63 HD (Medium-size); 64-79 HD (Large); 80-95 HD (Huge); 96-171 HD (Gargantuan) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::037_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::039_combat"
+}

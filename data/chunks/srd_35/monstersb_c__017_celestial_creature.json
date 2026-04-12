@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::017_celestial_creature",
+  "document_id": "srd_35::monstersb_c::017_celestial_creature",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "CELESTIAL CREATURE"
+    ],
+    "source_location": "MonstersB-C.rtf#017_celestial_creature"
+  },
+  "chunk_type": "subsection",
+  "content": "Celestial creatures dwell on the upper planes, the realms of good, although they resemble beings found on the Material Plane. They are more regal and more beautiful than their earthly counterparts.\nCelestial creatures often come in metallic colors (usually silver, gold, or platinum). They can be mistaken for half-celestials, more powerful creatures that are created when a celestial mates with a non-celestial creature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::018_creating_a_celestial_creature"
+}

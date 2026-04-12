@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::013_quicken_spell_like_ability_general",
+  "document_id": "srd_35::monsterfeats::013_quicken_spell_like_ability_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "QUICKEN SPELL-LIKE ABILITY [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#013_quicken_spell_like_ability_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Spell-like ability at caster level 10th or higher.\nBenefit: Choose one of the creature's spell-like abilities, subject to the restrictions described below. The creature can use that ability as a quickened spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day).\nUsing a quickened spell-like ability is a free action that does not provoke an attack of opportunity. The creature can perform another action--including the use of another spell-like ability--in the same round that it uses a quickened spell-like ability. The creature may use only one quickened spell-like ability per round.\nThe creature can only select a spell-like ability duplicating a spell with a level less than or equal to half its caster level (round down) -4. For a summary, see the table below.\nIn addition, a spell-like ability that duplicates a spell with a casting time greater than 1 full round cannot be quickened.\nNormal: Normally the use of a spell-like ability requires a standard action and provokes an attack of opportunity unless noted otherwise.\nSpecial: This feat can be taken multiple times. Each time it is taken, the creature can apply it to a different one of its spell-like abilities.\nEmpower and Quicken Spell-Like Ability |\nSpell Level | Caster Level to Empower | Caster Level to Quicken |\n0 | 4th | 8th |\n1st | 6th | 10th |\n2nd | 8th | 12th |\n3rd | 10th | 14th |\n4th | 12th | 16th |\n5th | 14th | 18th |\n6th | 16th | 20th |\n7th | 18th | -- |\n8th | 20th | -- |\n9th | -- | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::012_multiweapon_fighting_general",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::014_snatch_general"
+}

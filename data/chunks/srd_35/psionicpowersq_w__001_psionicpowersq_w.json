@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::001_psionicpowersq_w",
+  "document_id": "srd_35::psionicpowersq_w::001_psionicpowersq_w",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "PsionicPowersQ-W"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#001_psionicpowersq_w"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n\nDisplay: Material; see text\nManifesting Time: 1 round\nRange: 0 ft.\nEffect: 1-inch-diameter dollop of quintessence; see text",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::002_power_points_7"
+}

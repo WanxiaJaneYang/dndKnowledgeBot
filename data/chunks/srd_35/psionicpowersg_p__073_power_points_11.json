@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::073_power_points_11",
+  "document_id": "srd_35::psionicpowersg_p::073_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#073_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "An invisible barrier surrounds you and moves with you. The space within this barrier is impervious to most psionic effects, including powers, psi-like abilities, and supernatural abilities. Likewise, it prevents the functioning of any psionic items or powers within its confines. A null psionics field suppresses any power or psionic effect used within, brought into, or manifested into its area, but does not negate it. Time spent within a null psionics field counts against a suppressed effect's duration.\nAstral constructs and summoned creatures wink out if they enter a null psionics field. They reappear in the same spot once the field goes away. Time spent winked out counts normally against the duration of the power that is maintaining the construct or summoned creature.\nCreation powers with instantaneous durations and calling powers are not affected by a null psionics field because the power itself is no longer in effect, only its result.\nA normal creature (a normally encountered construct rather than a created one, for instance) can enter the area, as can normal missiles. Furthermore, while a psionic sword does not function psionically within the area, it is still a sword (and a masterwork sword at that). The power has no effect on golems and other constructs that are imbued with magic during their creation process and are thereafter self-supporting (unless they have been summoned or have a limited duration, in which case they are treated like any other summoned creatures). Elementals, corporeal undead, and outsiders are likewise unaffected unless summoned. These creatures' spell-like or supernatural abilities, however, may be temporarily nullified by the field.\nDispel psionics does not remove the field. Two or more null psionics fields sharing any of the same space have no effect on each other. Certain powers may be unaffected by null psionics field (see the individual power descriptions). Artifacts and deities are unaffected by mortal power such as this. Should a creature's space extend across the boundary of the area enclosed by the field, any part of the creature that lies outside the effect is unaffected by the field.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::072_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::074_psychometabolism"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::113_whirlwind_attack_general",
+  "document_id": "srd_35::feats::113_whirlwind_attack_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "WHIRLWIND ATTACK [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#113_whirlwind_attack_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 13, Int 13, Combat Expertise, Dodge, Mobility, Spring Attack, base attack bonus +4.\nBenefit: When you use the full attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.\nWhen you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities.\nSpecial: A fighter may select Whirlwind Attack as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::112_weapon_specialization_general",
+  "next_chunk_id": "chunk::srd_35::feats::114_widen_spell_metamagic"
+}

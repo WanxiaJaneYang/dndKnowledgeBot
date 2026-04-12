@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::039_divine_spells",
+  "document_id": "srd_35::magicoverview::039_divine_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "DIVINE SPELLS"
+    ],
+    "source_location": "MagicOverview.rtf#039_divine_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Clerics, druids, experienced paladins, and experienced rangers can cast divine spells. Unlike arcane spells, divine spells draw power from a divine source. Clerics gain spell power from deities or from divine forces. The divine force of nature powers druid and ranger spells. The divine forces of law and good power paladin spells. Divine spells tend to focus on healing and protection and are less flashy, destructive, and disruptive than arcane spells.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::038_sorcerers_and_bards",
+  "next_chunk_id": "chunk::srd_35::magicoverview::040_preparing_divine_spells"
+}

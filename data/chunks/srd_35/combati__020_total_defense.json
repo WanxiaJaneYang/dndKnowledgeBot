@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::020_total_defense",
+  "document_id": "srd_35::combati::020_total_defense",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Total Defense"
+    ],
+    "source_location": "CombatI.rtf#020_total_defense"
+  },
+  "chunk_type": "subsection",
+  "content": "You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the Combat Expertise feat (since both of those require you to declare an attack or full attack). You can't make attacks of opportunity while using total defense.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::019_use_special_ability",
+  "next_chunk_id": "chunk::srd_35::combati::021_start_complete_full_round_action"
+}

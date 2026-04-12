@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::018_enchantment",
+  "document_id": "srd_35::magicoverview::018_enchantment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "Enchantment"
+    ],
+    "source_location": "MagicOverview.rtf#018_enchantment"
+  },
+  "chunk_type": "subsection",
+  "content": "Enchantment spells affect the minds of others, influencing or controlling their behavior.\nAll enchantments are mind-affecting spells. Two types of enchantment spells grant you influence over a subject creature.\nCharm: A charm spell changes how the subject views you, typically making it see you as a good friend.\nCompulsion: A compulsion spell forces the subject to act in some manner or changes the way her mind works. Some compulsion spells determine the subject's actions or the effects on the subject, some compulsion spells allow you to determine the subject's actions when you cast the spell, and others give you ongoing control over the subject.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::017_divination",
+  "next_chunk_id": "chunk::srd_35::magicoverview::019_evocation"
+}

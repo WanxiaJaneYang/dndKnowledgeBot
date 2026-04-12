@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::003_walls",
+  "document_id": "srd_35::wildernessandenvironment::003_walls",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "WALLS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#003_walls"
+  },
+  "chunk_type": "subsection",
+  "content": "Sometimes, masonry walls--stones piled on top of each other (usually but not always held in place with mortar)--divide dungeons into corridors and chambers. Dungeon walls can also be hewn from solid rock, leaving them with a rough, chiseled look. Or, dungeon walls can be the smooth, unblemished stone of a naturally occurring cave. Dungeon walls are difficult to break down or through, but they're generally easy to climb.\n\nWall Type | Typical Thickness | Break DC | Hardness | Hit Points1 | Climb DC |\nMasonry | 1 ft. | 35 | 8 | 90 hp | 15 |\nSuperior masonry | 1 ft. | 35 | 8 | 90 hp | 20 |\nReinforced masonry | 1 ft. | 45 | 8 | 180 hp | 15 |\nHewn stone | 3 ft. | 50 | 8 | 540 hp | 22 |\nUnworked stone | 5 ft. | 65 | 8 | 900 hp | 20 |\nIron | 3 in. | 30 | 10 | 90 hp | 25 |\nPaper | Paper-thin | 1 | -- | 1 hp | 30 |\nWood | 6 in. | 20 | 5 | 60 hp | 21 |\nMagically treated2 | -- | +20 | \u00d72 | \u00d723 | -- |\n1 Per 10-foot-by-10-foot section. |\n2 These modifiers can be applied to any of the other wall types. |\n3 Or an additional 50 hit points, whichever is greater. |\nMasonry Walls: The most common kind of dungeon wall, masonry walls are usually at least 1 foot thick. Often these ancient walls sport cracks and crevices, and sometimes dangerous slimes or small monsters live in these areas and wait for prey. Masonry walls stop all but the loudest noises. It takes a DC 20 Climb check to travel along a masonry wall.\nSuperior Masonry Walls: Sometimes masonry walls are better built (smoother, with tighter-fitting stones and less cracking), and occasionally these superior walls are covered with plaster or stucco. Covered walls often bear paintings, carved reliefs, or other decoration. Superior masonry walls are no more difficult to destroy than regular masonry walls but are more difficult to climb (DC 25).\nHewn Stone Walls: Such walls usually result when a chamber or passage is tunneled out from solid rock. The rough surface of a hewn wall frequently provides minuscule ledges where fungus grows and fissures where vermin, bats, and subterranean snakes live. When such a wall has an \u201cother side\u201d (it separates two chambers in the dungeon), the wall is usually at least 3 feet thick; anything thinner risks collapsing from the weight of all the stone overhead. It takes a DC 25 Climb check to climb a hewn stone wall.\nUnworked Stone Walls: These surfaces are uneven and rarely flat. They are smooth to the touch but filled with tiny holes, hidden alcoves, and ledges at various heights. They're also usually wet or at least damp, since it's water that most frequently creates natural caves. When such a wall has an \u201cother side,\u201d the wall is usually at least 5 feet thick. It takes a DC 15 Climb check to move along an unworked stone wall.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::002_types_of_dungeons",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::004_special_walls"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsii::005_specific_shields",
+  "document_id": "srd_35::magicitemsii::005_specific_shields",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsII",
+      "Specific Shields"
+    ],
+    "source_location": "MagicItemsII.rtf#005_specific_shields"
+  },
+  "chunk_type": "subsection",
+  "content": "The following specific shields usually are preconstructed with exactly the qualities described here.\nAbsorbing Shield: This +1 heavy steel shield is flat black and seems to absorb light. Once every two days, on command, it can disintegrate an object that it touches, as the spell but requiring a melee touch attack.\nStrong transmutation; CL 17th; Craft Magic Arms and Armor, disintegrate; Price 50,170 gp; Cost 25,170 gp + 2,000 XP.\nCaster's Shield: This +1 light wooden shield has a small leather strip on the back on which a spellcaster can scribe a single spell as on a scroll. A spell so scribed has only half the base raw material cost. Experience point and component costs remain the same. The strip cannot accommodate spells of higher than 3rd level. The strip is reusable.\nA random caster 's shield has a 50% chance of having a single medium scroll spell on it. The spell is divine (01-80 on d%) or arcane (81-100).\nA caster's shield has a 5% arcane spell failure chance.\nModerate abjuration; CL 6th; Craft Magic Arms and Armor, Scribe Scroll, creator must be at least 6th level; Price 3,153 gp (plus the value of the scroll spell if one is currently scribed); Cost 1,653 gp + 120 XP.\nDarkwood Buckler: This nonmagical light wooden shield is made out of darkwood. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It weighs 2-1/2 pounds and has no armor check penalty.\nNo aura (nonmagical); Price 205 gp.\nDarkwood Shield: This nonmagical heavy wooden shield is made out of darkwood. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield.\nIt weighs 5 pounds and has no armor check penalty.\nNo aura (nonmagical); Price 257 gp.\nLion's Shield: This +2 heavy steel shield is fashioned to appear to be a roaring lion's head. Three times per day as a free action, the lion's head can be commanded to attack (independently of the shield wearer), biting with the wielder's base attack bonus (including multiple attacks, if the wielder has them) and dealing 2d6 points of damage. This attack is in addition to any actions performed by the wielder.\nModerate conjuration; CL 10th; Craft Magic Arms and Armor, summon nature's ally IV; Price 9,170 gp; Cost 4,670 gp + 360 XP.\nMithral Heavy Shield: This heavy shield is made of mithral and thus is much lighter than a standard steel shield. It has a 5% arcane spell failure chance and no armor check penalty. It weighs 5 pounds.\nNo aura (nonmagical); Price 1,020 gp.\nSpined Shield: This +1 heavy steel shield is covered in spines. It acts as a normal spiked shield. On command up to three times per day, the shield's wearer can fire one of the shield's spines. A fired spine has a +1 enhancement bonus, a range increment of 120 feet, and deals 1d10 points of damage (19-20/x2). Fired spines regenerate each day.\nModerate evocation; CL 6th; Craft Magic Arms and Armor, magic missile; Price 5,580 gp; Cost 2,740 gp + 223 XP.\nWinged Shield: This round heavy wooden shield has a +3 enhancement bonus. Small, feathered wings encircle the shield.\nOnce per day it can be commanded to fly (as the spell), carrying the wielder. The shield can carry up to 133 pounds and move at 60 feet per round, or up to 266 pounds and move at 40 feet per round.\nFaint transmutation; CL 5th; Craft Magic Arms and Armor, fly; Price 17,257 gp; Cost 8,628 gp and 5 sp + 690 XP.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsii::004_specific_armors",
+  "next_chunk_id": "chunk::srd_35::magicitemsii::006_weapons"
+}

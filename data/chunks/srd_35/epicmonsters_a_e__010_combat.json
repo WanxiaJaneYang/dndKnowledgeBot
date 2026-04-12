@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::010_combat",
+  "document_id": "srd_35::epicmonsters_a_e::010_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#010_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Fiery Touch (Ex): Touching or being touched by a phaethon deals 2d6 points of fire damage.\nFiery Overrun (Ex): A foe who is successfully overrun by a phaethon is treated as if swallowed whole.\nImproved Grab (Ex): If the phaethon hits with a pseudopod, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. Phaethons can use improved grab on a Huge or smaller creature. The phaethon has the option to conduct the grapple normally, simply maintaining a pseudopod hold, or attempting to absorb the opponent by swallowing the foe whole. Each successful grapple check it makes during successive rounds automatically deals the damage listed for the pseudopod.\nSwallow Whole (Ex): The phaethon can absorb opponents it holds with a second successful grapple check after a grab. The opponent must be Huge or smaller. Absorbed creatures take 20d6 points of fire damage and 10d6 points of bludgeoning damage each round they remain inside a phaethon. Victims must make a successful grapple check to \u201cswim\u201d free of the living magma of the phaethon.\nSpell-Like Abilities: At will--fireball, fire storm, delayed blast fireball, flame strike, wall of fire; 1/day--scrying. Caster level 34th; save DC 24 + spell level.\nSummon Elder Fire Elemental (Sp): Phaethons can summon up to ten elder fire elementals per day.\nAbomination Traits: Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.\nOozelike Immunities (Ex): Immune to poison, sleep, paralysis, stunning, polymorphing, and mind-influencing effects; not subject to critical hits or flanking; blind.\nRegeneration (Ex): Phaethons take normal damage from lawful weapons and cold-forged weapons, and double damage from cold or ice weapons.\n\nHit Dice: | 36d8+324 (612 hp) |\nInitiative: | +11 (+7 Dex, +4 Improved Initiative) |\nSpeed: | 80 ft., fly 120 ft. (perfect) |\nAC: | 50 (-1 size, +7 Dex, +11 deflection, +23 insight) |\nBase Attack/Grapple: | +36/---- |\nAttack: | Incorporeal touch +43 (1d6 plus stasis touch) melee |\nFull Attack: | Incorporeal touch +43 (1d6 plus stasis touch) melee |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Spell-like abilities, stasis touch, chronal blast, time leach, summon past time duplicate |\nSpecial Qualities: | Abomination traits, null time field, time regression, fast healing 15, regeneration 15, SR 37, DR 15/epic, sonic immunity |\nSaves: | Fort +31, Ref +29, Will +29 |\nAbilities: | Str --, Dex 25, Con 28, Int 24, Wis 16, Cha 33 |\nSkills: | Balance +46, Concentration +48, Diplomacy +50, Hide +42, Jump +20, Knowledge (arcana, religion, the planes) +46, Listen +44, Move Silently +46, Search +46, Sense Motive +42, Spellcraft +46, Spot +44, Swim +39, Tumble +46 |\nFeats: | Alertness, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Weapon Focus (incorporeal touch) |\nEpic Feats: | Blinding Speed, Epic Toughness (x2), Epic Will, Spell Stowaway (time stop) |\nClimate/Terrain: | Any land and underground |\nOrganization: | Solitary or pair |\nChallenge Rating: | 25 |\nTreasure: | None |\nAlignment: | Always chaotic evil |\nAdvancement: | 37-50 HD (Large); 51-65 HD (Huge) |\nA phanes' natural weapons are treated as epic, evil, and chaotic-aligned for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::009_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::011_combat"
+}

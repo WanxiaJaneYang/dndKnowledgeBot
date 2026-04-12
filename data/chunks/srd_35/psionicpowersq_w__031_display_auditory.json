@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::031_display_auditory",
+  "document_id": "srd_35::psionicpowersq_w::031_display_auditory",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Display: Auditory"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#031_display_auditory"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 swift action\nRange: Close (25 ft. + 5 ft./2 levels)\nTarget: Your psicrystal\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::030_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::032_power_points_5"
+}

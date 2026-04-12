@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::020_combat",
+  "document_id": "srd_35::epicmonsters_g_w::020_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#020_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Pounce (Ex): If a legendary tiger leaps upon a foe during the first round of combat, it can make a full attack even if it has already taken a move action.\nImproved Grab (Ex): To use this ability, the legendary tiger must hit with a bite attack. If it gets a hold, it can rake.\nRake (Ex): A legendary tiger can make two attacks (+30 melee) against a held creature with its hind legs for 2d6+5 points of Damage each. If the legendary tiger pounces on an opponent, it can also rake.\nSkills: Legendary tigers receive a +8 racial bonus on Hide and Move Silently checks. *In areas of tall grasses or heavy undergrowth, the Hide bonus improves to +16.\n\nHit Dice: | 50d6+650 (825 hp) |\nInitiative: | +21 (+17 Dex, +4 Improved Initiative) |\nSpeed: | 40 ft. |\nAC: | 52 (+17 Dex, +20 insight, +5 natural armor) |\nBase Attack/Grapple: | +25/+30 |\nAttack: | +10 keen brilliant energy bastard sword +53 (1d10+15/17-20) melee |\nFull Attack: | 2 +10 keen brilliant energy bastard swords +53/+48/+43/+38 (1d10+15/17-20) melee |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Gaze, spell-like abilities, leShay weapons |\nSpecial Qualities: | Superior two-weapon fighting, DR 15/epic and cold iron, elf traits, immune to poison and disease, low-light vision, SR 42, fast healing 10 |\nSaves: | Fort +29, Ref +44, Will +35 |\nAbilities: | Str 21, Dex 45, Con 37, Int 33, Wis 23, Cha 47 |\nSkills: | Bluff +71, Concentration +66, Diplomacy +77, Disguise +71, Escape Artist +70, Gather Information +24, Hide +70, Intimidate +24, Jump +5, Knowledge (local, nature) +59, Listen +59, Move Silently +70, Search +59, Speak Language (any five), Spot +59 |\nFeats: | Blind-Fight, Cleave, Dodge, Expertise, Improved Critical (leShay weapon), Improved Initiative, Iron Will, Mobility, Power Attack, Quick Draw, Spring Attack, Weapon Finesse, Weapon Focus (leShay weapon), Whirlwind Attack |\nEpic Feats: | Blinding Speed, Polyglot, Spell Stowaway (heal) |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 28 |\nTreasure: | Standard |\nAlignment: | Any |\nAdvancement: | None |\nA leshay's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::019_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::021_combat"
+}

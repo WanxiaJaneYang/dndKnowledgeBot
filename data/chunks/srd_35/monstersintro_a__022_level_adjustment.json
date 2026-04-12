@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::022_level_adjustment",
+  "document_id": "srd_35::monstersintro_a::022_level_adjustment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Level Adjustment"
+    ],
+    "source_location": "MonstersIntro-A.rtf#022_level_adjustment"
+  },
+  "chunk_type": "subsection",
+  "content": "This line is included in the entries of creatures suitable for use as player characters or as cohorts (usually creatures with Intelligence scores of at least 3 and possessing opposable thumbs). Add this number to the creature's total Hit Dice, including class levels, to get the creature's effective character level (ECL). A character's ECL affects the experience the character earns, the amount of experience the character must have before gaining a new level, and the character's starting equipment.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::021_advancement",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::023_aboleth"
+}

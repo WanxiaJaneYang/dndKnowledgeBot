@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::013_determining_awareness",
+  "document_id": "srd_35::combati::013_determining_awareness",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Determining Awareness"
+    ],
+    "source_location": "CombatI.rtf#013_determining_awareness"
+  },
+  "chunk_type": "subsection",
+  "content": "Sometimes all the combatants on a side are aware of their opponents, sometimes none are, and sometimes only some of them are. Sometimes a few combatants on each side are aware and the other combatants on each side are unaware.\nDetermining awareness may call for Listen checks, Spot checks, or other checks.\nThe Surprise Round: If some but not all of the combatants are aware of their opponents, a surprise round happens before regular rounds begin. Any combatants aware of the opponents can act in the surprise round, so they roll for initiative. In initiative order (highest to lowest), combatants who started the battle aware of their opponents each take a standard action during the surprise round. You can also take free actions during the surprise round. If no one or everyone is surprised, no surprise round occurs.\nUnaware Combatants: Combatants who are unaware at the start of battle don't get to act in the surprise round. Unaware combatants are flat-footed because they have not acted yet, so they lose any Dexterity bonus to AC.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::012_surprise",
+  "next_chunk_id": "chunk::srd_35::combati::014_attacks_of_opportunity"
+}

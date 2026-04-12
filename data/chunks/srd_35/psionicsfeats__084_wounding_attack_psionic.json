@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::084_wounding_attack_psionic",
+  "document_id": "srd_35::psionicsfeats::084_wounding_attack_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "WOUNDING ATTACK [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#084_wounding_attack_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your vicious attacks wound your foe.\nPrerequisite: Base attack bonus +8.\nBenefit: To use this feat, you must expend your psionic focus. You can make an attack with such vicious force that you wound your opponent. A wound deals 1 point of Constitution damage to your foe in addition to the usual damage dealt.\nYou must decide whether or not to use this feat prior to making an attack. If your attack misses, you still expend your psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::083_wild_talent_general"
+}

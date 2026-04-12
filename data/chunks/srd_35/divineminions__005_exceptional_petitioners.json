@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::divineminions::005_exceptional_petitioners",
+  "document_id": "srd_35::divineminions::005_exceptional_petitioners",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineMinions",
+      "Exceptional Petitioners"
+    ],
+    "source_location": "DivineMinions.rtf#005_exceptional_petitioners"
+  },
+  "chunk_type": "subsection",
+  "content": "The deities may choose particular servants for specific tasks that may retain the knowledge of their previous selves. These exceptional petitioners retain the feats and skills they had in life, but are otherwise limited as for the petitioners of their plane.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineminions::004_petitioners"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::005_repairing_items",
+  "document_id": "srd_35::psionicitems::005_repairing_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "REPAIRING ITEMS"
+    ],
+    "source_location": "PsionicItems.rtf#005_repairing_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Some psionic items (especially psionic weapons and shields) may take damage over the course of an adventure. It costs no more to repair a psionic item with the Craft skill than it does to repair its nonpsionic counterpart. The make whole spell can repair a damaged--but not completely broken-- psionic item.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::004_damaging_psionic_items",
+  "next_chunk_id": "chunk::srd_35::psionicitems::006_intelligent_items"
+}

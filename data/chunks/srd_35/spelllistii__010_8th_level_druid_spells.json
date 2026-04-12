@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::010_8th_level_druid_spells",
+  "document_id": "srd_35::spelllistii::010_8th_level_druid_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "8TH-LEVEL DRUID SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#010_8th_level_druid_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Animal Shapes: One ally/level polymorphs into chosen animal.\nControl Plants: Control actions of one or more plant creatures.\nCure Serious Wounds, Mass: Cures 3d8 damage +1/level for many creatures.\nEarthquake: Intense tremor shakes 80-ft.-radius.\nFinger of Death: Kills one subject.\nRepel Metal or Stone: Pushes away metal and stone.\nReverse Gravity: Objects and creatures fall upward.\nSummon Nature's Ally VIII: Calls creature to fight.\nSunburst: Blinds all within 10 ft., deals 6d6 damage.\nWhirlwind: Cyclone deals damage and can pick up creatures.\nWord of Recall: Teleports you back to designated place.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::009_7th_level_druid_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::011_9th_level_druid_spells"
+}

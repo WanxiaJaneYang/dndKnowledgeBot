@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::041_divine_magical_writings",
+  "document_id": "srd_35::magicoverview::041_divine_magical_writings",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "DIVINE MAGICAL WRITINGS"
+    ],
+    "source_location": "MagicOverview.rtf#041_divine_magical_writings"
+  },
+  "chunk_type": "subsection",
+  "content": "Divine spells can be written down and deciphered just as arcane spells can (see Arcane Magical Writings, above). Any character with the Spellcraft skill can attempt to decipher the divine magical writing and identify it. However, only characters who have the spell in question (in its divine form) on their class spell list can cast a divine spell from a scroll.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::040_preparing_divine_spells",
+  "next_chunk_id": "chunk::srd_35::magicoverview::042_new_divine_spells"
+}

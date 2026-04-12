@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::021_if_you_re_pinning_an_opponent",
+  "document_id": "srd_35::combatii::021_if_you_re_pinning_an_opponent",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "If You're Pinning an Opponent"
+    ],
+    "source_location": "CombatII.rtf#021_if_you_re_pinning_an_opponent"
+  },
+  "chunk_type": "subsection",
+  "content": "You can attempt to damage your opponent with an opposed grapple check, you can attempt to use your opponent's weapon against him, or you can attempt to move the grapple (all described above). At your option, you can prevent a pinned opponent from speaking.\nYou can use a disarm action to remove or grab away a well secured object worn by a pinned opponent, but he gets a +4 bonus on his roll to resist your attempt (see Disarm).\nYou may voluntarily release a pinned character as a free action; if you do so, you are no longer considered to be grappling that character (and vice versa).\nYou can't draw or use a weapon (against the pinned character or any other character), escape another's grapple, retrieve a spell component, pin another character, or break another's pin while you are pinning an opponent.\nIf You're Pinned by an Opponent\nWhen an opponent has pinned you, you are held immobile (but not helpless) for 1 round. While you're pinned, you take a -4 penalty to your AC against opponents other than the one pinning you. At your opponent's option, you may also be unable to speak. On your turn, you can try to escape the pin by making an opposed grapple check in place of an attack. You can make an Escape Artist check in place of your grapple check if you want, but this requires a standard action. If you win, you escape the pin, but you're still grappling.\nJoining a Grapple\nIf your target is already grappling someone else, you can use an attack to start a grapple, as above, except that the target doesn't get an attack of opportunity against you, and your grab automatically succeeds. You still have to make a successful opposed grapple check to become part of the grapple.\nIf there are multiple opponents involved in the grapple, you pick one to make the opposed grapple check against.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::020_if_you_re_grappling",
+  "next_chunk_id": "chunk::srd_35::combatii::022_multiple_grapplers"
+}

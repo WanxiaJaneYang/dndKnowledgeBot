@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::001_monstersh_i",
+  "document_id": "srd_35::monstersh_i::001_monstersh_i",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "MonstersH-I"
+    ],
+    "source_location": "MonstersH-I.rtf#001_monstersh_i"
+  },
+  "chunk_type": "generic",
+  "content": "his material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::002_hag"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::023_abjur",
+  "document_id": "srd_35::spelllistii::023_abjur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Abjur"
+    ],
+    "source_location": "SpellListII.rtf#023_abjur"
+  },
+  "chunk_type": "subsection",
+  "content": "Alarm: Wards an area for 2 hours/level.\nEndure Elements: Exist comfortably in hot or cold environments.\nHold Portal: Holds door shut.\nProtection from Chaos/Evil/Good/Law: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.\nShield: Invisible disc gives +4 to AC, blocks magic missiles.\n\nGrease: Makes 10-ft. square or one object slippery.\nMage Armor: Gives subject +4 armor bonus.\nMount: Summons riding horse for 2 hours/level.\nObscuring Mist: Fog surrounds you.\nSummon Monster I: Calls extraplanar creature to fight for you.\nUnseen Servant: Invisible force obeys your commands.\n\nComprehend Languages: You understand all spoken and written languages.\nDetect Secret Doors: Reveals hidden doors within 60 ft.\nDetect Undead: Reveals undead within 60 ft.\nIdentify M: Determines properties of magic item.\nTrue Strike: +20 on your next attack roll.\n\nCharm Person: Makes one person your friend.\nHypnotism: Fascinates 2d4 HD of creatures.\nSleep: Puts 4 HD of creatures into magical slumber.\n\nBurning Hands: 1d4/level fire damage (max 5d4).\nFloating Disk: Creates 3-ft.-diameter horizontal disk that holds 100 lb./level.\nMagic Missile: 1d4+1 damage; +1 missile per two levels above 1st (max 5).\nShocking Grasp: Touch delivers 1d6/level electricity damage (max 5d6).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::022_trans",
+  "next_chunk_id": "chunk::srd_35::spelllistii::024_illus"
+}

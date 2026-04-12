@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::046_mental_resistance_general",
+  "document_id": "srd_35::psionicsfeats::046_mental_resistance_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "MENTAL RESISTANCE [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#046_mental_resistance_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mind is armored against mental intrusion.\nPrerequisite: Base Will save bonus +2.\nBenefit: Against psionic attacks that do not employ an energy type to deal damage you gain damage reduction 3/-. In addition, when you are hit with ability damage (but not ability drain or ability burn damage) from a psionic attack, you take 3 points less than you would normally take.\nThe benefit of this feat applies only to psionic powers and psi-like abilities. This is an exception to the psionics-magic transparency rule.\nSpecial: You cannot take or use this feat if you have the ability to use powers (if you have a power point reserve or psi-like abilities).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::045_mental_leap_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::047_metamorphic_transfer_psionic"
+}

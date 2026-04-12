@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::017_metallic_dragons",
+  "document_id": "srd_35::monstersdr_dw::017_metallic_dragons",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "METALLIC DRAGONS"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#017_metallic_dragons"
+  },
+  "chunk_type": "subsection",
+  "content": "Metallic dragons make up the good branch of dragonkind, but they are every bit as aggressive as their evil cousins when threatened or challenged. They also tend to be covetous and proud.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::018_dragon_fire"
+}

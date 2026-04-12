@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::057_power_points_11",
+  "document_id": "srd_35::psionicpowersa_c::057_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#057_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "As cloud mind, except as noted above. Each creature is affected individually.\nCompression\nPsychometabolism\nLevel: Psychic warrior 1\nDisplay: Olfactory\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::056_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::058_power_points_1"
+}

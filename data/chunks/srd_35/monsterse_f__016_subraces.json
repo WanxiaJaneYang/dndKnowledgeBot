@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::016_subraces",
+  "document_id": "srd_35::monsterse_f::016_subraces",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "SUBRACES"
+    ],
+    "source_location": "MonstersE-F.rtf#016_subraces"
+  },
+  "chunk_type": "subsection",
+  "content": "The above information describes the high elf, the most common variety. There are five other major subraces of elf, in addition to half-elves, who share enough elven characteristics to be included here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::015_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::017_half_elf"
+}

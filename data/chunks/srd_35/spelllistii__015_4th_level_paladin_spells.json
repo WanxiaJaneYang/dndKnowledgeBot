@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::015_4th_level_paladin_spells",
+  "document_id": "srd_35::spelllistii::015_4th_level_paladin_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "4TH-LEVEL PALADIN SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#015_4th_level_paladin_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Break Enchantment: Frees subjects from enchantments, alterations, curses, and petrification.\nCure Serious Wounds: Cures 3d8 damage +1/level (max +15).\nDeath Ward: Grants immunity to death spells and negative energy effects.\nDispel Chaos: +4 bonus against attacks by chaotic creatures.\nDispel Evil: +4 bonus against attacks by evil creatures.\nHoly Sword: Weapon becomes +5, deals +2d6 damage against evil.\nMark of Justice: Designates action that will trigger curse on subject.\nNeutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.\nRestoration M: Restores level and ability score drains.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::014_3rd_level_paladin_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::016_1st_level_ranger_spells"
+}

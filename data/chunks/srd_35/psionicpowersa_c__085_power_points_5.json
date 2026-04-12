@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::085_power_points_5",
+  "document_id": "srd_35::psionicpowersa_c::085_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#085_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You compel the subject to purge its entire store of air in one explosive exhalation, and thereby disrupt the subject's autonomic breathing cycle. The subject's lungs do not automatically function again while the power's duration lasts.\nIf the target succeeds on a Will save when crisis of breath is manifested, it is unaffected by this power. If it fails its Will save, it can still continue to breathe by taking a standard action in each round to gasp for breath.\nAn affected creature can attempt to take actions normally (instead of consciously controlling its breathing), but each round it does so, beginning in the round when it failed its Will save, the subject risks blacking out from lack of oxygen. It must succeed on a Fortitude save at the end of any of its turns in which it did not consciously take a breath. The DC of this save increases by 1 in every consecutive round after the first one that goes by without a breath; the DC drops back to its original value if the subject spends an action to take a breath.\nIf a subject fails a Fortitude save, it is disabled (0 hp). In the following round, it drops to -1 hit points and is dying. Curing powers or spells can revive a dying subject normally, so long as this power's duration has expired; if the power is still in effect, a revived creature is still subject to Fortitude saves in each round when it does not consciously breathe.\nAugment: You can augment this power in one or more of the following ways.\n1. If you spend 2 additional power points, this power can also affect an animal, fey, giant, magical beast, or monstrous humanoid.\n2. If you spend 4 additional power points, this power can also affect an aberration, dragon, elemental, or outsider in addition to the creature types mentioned above.\n3. If you spend 6 additional power points, this power can affect up to four creatures all within a 20-ft.-radius burst.\nIn addition, for every 2 additional power points you spend to achieve any of these effects, this power's save DC increases by 1.\nCrisis of Life",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::084_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::086_display_mental"
+}

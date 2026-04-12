@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::002_prestige_classes",
+  "document_id": "srd_35::prestigeclasses::002_prestige_classes",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "PRESTIGE CLASSES"
+    ],
+    "source_location": "PrestigeClasses.rtf#002_prestige_classes"
+  },
+  "chunk_type": "rule_section",
+  "content": "Prestige classes offer a new form of multiclassing. Unlike the basic classes, characters must meet Requirements before they can take their first level of a prestige class. The rules for level advancement apply to this system, meaning the first step of advancement is always choosing a class. If a character does not meet the Requirements for a prestige class before that first step, that character cannot take the first level of that prestige class. Taking a prestige class does not incur the experience point penalties normally associated with multiclassing.\nDefinitions of Terms\nHere are definitions of some terms used in this section.\nBase Class: One of the standard eleven classes.\nCaster Level: Generally equal to the number of class levels (see below) in a spellcasting class. Some prestige classes add caster levels to an existing class.\nCharacter Level: The total level of the character, which is the sum of all class levels held by that character.\nClass Level: The level of a character in a particular class. For a character with levels in only one class, class level and character level are the same.\nARCANE ARCHER\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::001_prestigeclasses",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::003_requirements"
+}

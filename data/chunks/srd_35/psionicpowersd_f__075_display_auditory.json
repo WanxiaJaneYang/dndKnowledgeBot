@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::075_display_auditory",
+  "document_id": "srd_35::psionicpowersd_f::075_display_auditory",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Display: Auditory"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#075_display_auditory"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: 40 ft.\nArea: 40-ft-radius burst centered on you\n\nSaving Throw: Reflex half or Fortitude half; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::074_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::076_power_points_5"
+}

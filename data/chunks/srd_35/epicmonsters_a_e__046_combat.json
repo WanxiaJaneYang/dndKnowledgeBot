@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::046_combat",
+  "document_id": "srd_35::epicmonsters_a_e::046_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#046_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): A prismatic dragon has one type of breath weapon, a prismatic spray effect. The breath weapon's cone is of the size indicated by the dragon's size, not the normal cone for the spell.\nDeflecting Force (Su): A prismatic dragon is protected by a shield of shimmering light similar to a cloak of chaos that provides a deflection bonus to its AC. The deflection bonus is equal to the dragon's Charisma bonus.\nImmune to Light and Blindness (Ex): Prismatic dragons cannot be harmed by any light, including Evocation [Light] spells, searing light, and the various prismatic (sphere, spray, wall) spells. In addition, they are immune to any spell or effect that causes blindness.\nSpell-Like Abilities: At will--hypnotic pattern, rainbow pattern; 3/day--prismatic sphere, prismatic wall, sunbeam, sunburst. The DC is Charisma-based.\nSample Prismatic Dragon, Old\nColossal Dragon\nHit Dice: 58d12+1,102 (1,479 hp)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::045_prismatic_dragon_abilities_by_age",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::047_initiative_4_improved_initiative"
+}

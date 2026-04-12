@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::068_great_smiting_epic",
+  "document_id": "srd_35::epicfeats::068_great_smiting_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "GREAT SMITING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#068_great_smiting_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Cha 25, smite ability (from class feature or domain granted power).\nBenefit: Whenever the character makes a successful smite attack, add twice the appropriate level to damage (rather than just the character's level).\nSpecial: A character may select this feat multiple times. Its effects stack. Remember that two doublings equals a tripling, and so forth.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::067_great_intelligence_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::069_great_strength_epic"
+}

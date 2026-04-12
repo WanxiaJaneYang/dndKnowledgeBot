@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::068_display_mental",
+  "document_id": "srd_35::psionicpowersa_c::068_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#068_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Long (400 ft. + 40 ft./level)\nArea: 50-ft.-radius spread\nDuration: Concentration, up to 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::067_power_points_11_xp",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::069_power_points_3"
+}

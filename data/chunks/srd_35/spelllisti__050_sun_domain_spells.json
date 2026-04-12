@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::050_sun_domain_spells",
+  "document_id": "srd_35::spelllisti::050_sun_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Sun Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#050_sun_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Endure Elements: Exist comfortably in hot or cold environments.\n2 Heat Metal: Make metal so hot it damages those who touch it.\n3 Searing Light: Ray deals 1d8/two levels, more against undead.\n4 Fire Shield: Creatures attacking you take fire damage; you're protected from heat or cold.\n5 Flame Strike: Smite foes with divine fire (1d6/level damage).\n6 Fire Seeds: Acorns and berries become grenades and bombs.\n7 Sunbeam: Beam blinds and deals 4d6 damage.\n8 Sunburst: Blinds all within 10 ft., deals 6d6 damage.\n9 Prismatic Sphere: As prismatic wall, but surrounds on all sides.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::049_sun_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::051_travel_domain"
+}

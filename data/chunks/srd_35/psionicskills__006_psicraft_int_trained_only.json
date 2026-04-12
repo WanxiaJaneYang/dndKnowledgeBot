@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicskills::006_psicraft_int_trained_only",
+  "document_id": "srd_35::psionicskills::006_psicraft_int_trained_only",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSkills",
+      "PSICRAFT (INT; TRAINED ONLY)"
+    ],
+    "source_location": "PsionicSkills.rtf#006_psicraft_int_trained_only"
+  },
+  "chunk_type": "subsection",
+  "content": "Use this skill to identify powers as they are manifest or powers already in place.\nCheck: You can identify powers and psionic effects. The DCs for Psicraft checks relating to various tasks are summarized on the table below.\nPsicraft DC | Task |\n15 + power level | Identify a power being manifested. (You must sense the power's display, or see some visible effect, to identify a power.) No action required. No retry. |\n15 + power level | When manifesting detect psionics, determine the discipline involved in the aura of a single item or creature you can see. (If the aura is not a power effect, the DC is 15 + 1/2 manifester level.) No action required. |\n15 + power level | Address a power stone to figure out what power or powers it contains. |\n20 + power level | Identify a power that's already in place and in effect. You must be able to see or detect the effects of the power. No action required. No retry. |\n20 + power level | Identify materials created or shaped by psionics, such as noting that a particular object was created using a metacreativity power. No action required. No retry. |\n25 + power level | After rolling a saving throw against a power targeted on you, determine what that power was. No action required. No retry. |\n25 | Identify a psionic tattoo. Requires 1 minute. No retry. |\n20 | Draw a diagram to enhance manifestation of psionic dimensional anchor on a summoned creature. Requires 10 minutes. No retry. The player does not see the result of this check. |\n30 or higher | Understand a strange or unique psionic effect, such as the effects of an outcrop of psionically resonant crystal. Time required varies. No retry. |\nAdditionally, certain powers allow you to gain information about psionic effects, provided that you make a successful Psicraft check as detailed in the power description.\nAction: Varies, as noted above.\nTry Again: See above.\nSpecial: A psion gains a +2 bonus on Psicraft checks when dealing with a power or effect from his discipline.\nIf you have the Psionic Affinity feat, you get a +2 bonus on Psicraft checks.\nSynergy: If you have 5 or more ranks in Psicraft, you get a +2 bonus on Use Psionic Device checks related to power stones.\nIf you have 5 or more ranks in Use Psionic Device, you get a +2 bonus on Psicraft checks to address power stones.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicskills::005_knowledge_psionics_int",
+  "next_chunk_id": "chunk::srd_35::psionicskills::007_use_psionic_device_cha_trained_only"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::001_improving_monsters",
+  "document_id": "srd_35::improving_monsters::001_improving_monsters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "Improving Monsters"
+    ],
+    "source_location": "Improving Monsters.rtf#001_improving_monsters"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::002_improving_monsters"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::101_instant_reload_epic",
+  "document_id": "srd_35::epicfeats::101_instant_reload_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "INSTANT RELOAD [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#101_instant_reload_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Quick Draw, Rapid Reload, Weapon Focus (crossbow type to be selected).\nBenefit: The character may fire the selected type of crossbow at his or her full normal attack rate. Reloading the crossbow does not provoke attacks of opportunity.\nSpecial: A character can gain this feat multiple times. Its effects do not stack. Each time a character takes the feat, it applies to a different type of crossbow.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::100_inspire_excellence_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::102_intensify_spell_metamagic_epic"
+}

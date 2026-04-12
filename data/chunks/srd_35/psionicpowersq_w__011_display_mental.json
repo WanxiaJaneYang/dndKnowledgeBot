@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::011_display_mental",
+  "document_id": "srd_35::psionicpowersq_w::011_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#011_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 hour\nRange: See text\nEffect: Quasi-real viewpoint\nDuration: 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::010_power_points_11",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::012_power_points_7_xp"
+}

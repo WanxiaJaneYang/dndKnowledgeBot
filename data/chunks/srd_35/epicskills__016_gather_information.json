@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::016_gather_information",
+  "document_id": "srd_35::epicskills::016_gather_information",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Gather Information"
+    ],
+    "source_location": "EpicSkills.rtf#016_gather_information"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can gather information without eliciting suspicion.\nTask | Check Modifier |\nAvoid suspicion | -20 |\nAvoid Suspicion: By accepting a -20 penalty on his or her Gather Information check, a character can avoid any suspicions that might otherwise be aroused by someone pursuing sensitive information.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::015_forgery",
+  "next_chunk_id": "chunk::srd_35::epicskills::017_handle_animal"
+}

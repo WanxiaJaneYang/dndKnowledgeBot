@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::098_spell_penetration_general",
+  "document_id": "srd_35::feats::098_spell_penetration_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SPELL PENETRATION [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#098_spell_penetration_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::097_spell_mastery_special",
+  "next_chunk_id": "chunk::srd_35::feats::099_spirited_charge_general"
+}

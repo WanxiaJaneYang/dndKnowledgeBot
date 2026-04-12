@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::015_no_epic_bonus_power_progression",
+  "document_id": "srd_35::epicclasses::015_no_epic_bonus_power_progression",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "NO EPIC BONUS POWER PROGRESSION"
+    ],
+    "source_location": "EpicClasses.rtf#015_no_epic_bonus_power_progression"
+  },
+  "chunk_type": "subsection",
+  "content": "Epic psionic characters do not gain additional bonus power points above 20th. They may still gain more power points as their key ability score increases.\nPsionic characters can take the Improved Manifestation feat, which grants them additional power points each time they take the feat. Epic manifesters can also take Epic Expanded Knowledge or Power Knowledge, which give them access to additional powers, and Epic Psionic Focus, which allows manifesters to use more than one metapsionic power each time they expend their psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::014_epic_psionic_class_progressions",
+  "next_chunk_id": "chunk::srd_35::epicclasses::016_epic_psion"
+}

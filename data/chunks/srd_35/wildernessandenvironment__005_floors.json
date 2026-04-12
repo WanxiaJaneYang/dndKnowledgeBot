@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::005_floors",
+  "document_id": "srd_35::wildernessandenvironment::005_floors",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "FLOORS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#005_floors"
+  },
+  "chunk_type": "subsection",
+  "content": "As with walls, dungeon floors come in many types.\nFlagstone: Like masonry walls, flagstone floors are made of fitted stones. They are usually cracked and only somewhat level. Slime and mold grows in these cracks. Sometimes water runs in rivulets between the stones or sits in stagnant puddles. Flagstone is the most common dungeon floor.\nUneven Flagstone: Over time, some floors can become so uneven that a DC 10 Balance check is required to run or charge across the surface. Failure means the character can't move in this round. Floors as treacherous as this should be the exception, not the rule.\nHewn Stone Floors: Rough and uneven, hewn floors are usually covered with loose stones, gravel, dirt, or other debris. A DC 10 Balance check is required to run or charge across such a floor. Failure means the character can still act, but can't run or charge in this round.\nLight Rubble: Small chunks of debris litter the ground. Light rubble adds 2 to the DC of Balance and Tumble checks.\nDense Rubble: The ground is covered with debris of all sizes. It costs 2 squares of movement to enter a square with dense rubble. Dense rubble adds 5 to the DC of Balance and Tumble checks, and it adds 2 to the DC of Move Silently checks.\nSmooth Stone Floors: Finished and sometimes even polished, smooth floors are found only in dungeons with capable and careful builders.\nNatural Stone Floors: The floor of a natural cave is as uneven as the walls. Caves rarely have flat surfaces of any great size. Rather, their floors have many levels. Some adjacent floor surfaces might vary in elevation by only a foot, so that moving from one to the other is no more difficult than negotiating a stair step, but in other places the floor might suddenly drop off or rise up several feet or more, requiring Climb checks to get from one surface to the other. Unless a path has been worn and well marked in the floor of a natural cave, it takes 2 squares of movement to enter a square with a natural stone floor, and the DC of Balance and Tumble checks increases by 5. Running and charging are impossible, except along paths.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::004_special_walls",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::006_special_floors"
+}

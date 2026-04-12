@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesi::007_ex_bards",
+  "document_id": "srd_35::classesi::007_ex_bards",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesI",
+      "Ex-Bards"
+    ],
+    "source_location": "ClassesI.rtf#007_ex_bards"
+  },
+  "chunk_type": "subsection",
+  "content": "A bard who becomes lawful in alignment cannot progress in levels as a bard, though he retains all his bard abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesi::006_class_features",
+  "next_chunk_id": "chunk::srd_35::classesi::008_cleric"
+}

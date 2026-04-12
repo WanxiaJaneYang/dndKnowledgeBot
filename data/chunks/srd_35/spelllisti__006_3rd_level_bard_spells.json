@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::006_3rd_level_bard_spells",
+  "document_id": "srd_35::spelllisti::006_3rd_level_bard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "3RD-LEVEL BARD SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#006_3rd_level_bard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Blink: You randomly vanish and reappear for 1 round/level.\nCharm Monster: Makes monster believe it is your ally.\nClairaudience/Clairvoyance: Hear or see at a distance for 1 min./level.\nConfusion: Subjects behave oddly for 1 round/level.\nCrushing Despair: Subjects take -2 on attack rolls, damage rolls, saves, and checks.\nCure Serious Wounds: Cures 3d8 damage +1/level (max +15).\nDaylight: 60-ft. radius of bright light.\nDeep Slumber: Puts 10 HD of creatures to sleep.\nDispel Magic: Cancels magical spells and effects.\nDisplacement: Attacks miss subject 50%.\nFear: Subjects within cone flee for 1 round/level.\nGaseous Form: Subject becomes insubstantial and can fly slowly.\nGeas, Lesser: Commands subject of 7 HD or less.\nGlibness: You gain +30 bonus on Bluff checks, and your lies can escape magical discernment.\nGood Hope: Subjects gain +2 on attack rolls, damage rolls, saves, and checks.\nHaste: One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.\nIllusory Script M: Only intended reader can decipher.\nInvisibility Sphere:Makes everyone within 10 ft. invisible.\nMajor Image: As silent image, plus sound, smell and thermal effects.\nPhantom Steed: Magic horse appears for 1 hour/level.\nRemove Curse: Frees object or person from curse.\nScrying F: Spies on subject from a distance.\nSculpt Sound: Creates new sounds or changes existing ones.\nSecret Page: Changes one page to hide its real content.\nSee Invisibility: Reveals invisible creatures or objects.\nSepia Snake Sigil M: Creates text symbol that immobilizes reader.\nSlow: One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.\nSpeak with Animals: You can communicate with animals.\nSummon Monster III: Calls extraplanar creature to fight for you.\nTiny Hut: Creates shelter for ten creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::005_2nd_level_bard_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::007_4th_level_bard_spells"
+}

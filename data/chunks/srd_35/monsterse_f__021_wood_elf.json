@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::021_wood_elf",
+  "document_id": "srd_35::monsterse_f::021_wood_elf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Wood Elf"
+    ],
+    "source_location": "MonstersE-F.rtf#021_wood_elf"
+  },
+  "chunk_type": "subsection",
+  "content": "Their hair color ranges from yellow to a coppery red, and they are more muscular than other elves. Their clothing is in dark shades of green and earth tones to better blend in with their natural surroundings.\nWood Elf Traits (Ex): These traits are in addition to the high elf traits, except where noted.\n-- +2 Strength, -2 Intelligence.\n--Favored Class: Ranger. This trait replaces the high elf 's favored class.\n\nHit Dice: | 5d8 (22 hp) |\nInitiative: | +8 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 17 (+4 Dex, +3 natural), touch 14, flat-footed 13 |\nBase Attack/Grapple: | +3/+3 |\nAttack: | Bite +3 melee (1d4) |\nFull Attack: | Bite +3 melee (1d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft., detect magic, ethereal jaunt |\nSaves: | Fort +1, Ref +5, Will +5 |\nAbilities: | Str 10, Dex 18, Con 11, Int 7, Wis 12, Cha 10 |\nSkills: | Listen +9, Sleight of Hand +12, Spot +9 |\nFeats: | Dodge, Improved Initiative |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 3 |\nTreasure: | No coins; standard goods; double items |\nAlignment: | Usually neutral |\nAdvancement: | 6-7 HD (Medium); 8-15 HD (Large) |\nLevel Adjustment: | -- |\nEthereal filchers are bizarre-looking creatures with a penchant for snatching trinkets from passersby. Their ability to move quickly between the Ethereal Plane and the Material Plane makes them spectacular pickpockets.\nEthereal filchers do not speak.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::020_wild_elf",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::022_combat"
+}

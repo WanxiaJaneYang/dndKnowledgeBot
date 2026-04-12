@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::006_ability_modifiers",
+  "document_id": "srd_35::basics::006_ability_modifiers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "ABILITY MODIFIERS"
+    ],
+    "source_location": "Basics.rtf#006_ability_modifiers"
+  },
+  "chunk_type": "subsection",
+  "content": "Each ability, after changes made because of race, has a modifier ranging from -5 to +5. Table: Ability Modifiers and Bonus Spells shows the modifier for each score. It also shows bonus spells, which you'll need to know about if your character is a spellcaster.\nThe modifier is the number you apply to the die roll when your character tries to do something related to\nthat ability. You also use the modifier with some numbers that aren't die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.\nTable: Ability Modifiers and Bonus Spells |\n| | ---------------------- Bonus Spells (by Spell Level) --------------------- |\nScore | Modifier | 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |\n1 | -5 | --------------------- Can't cast spells tied to this ability ------------------ |\n2-3 | -4 | --------------------- Can't cast spells tied to this ability ------------------ |\n4-5 | -3 | ---------------------- Can't cast spells tied to this ability ------------------ |\n6-7 | -2 | ---------------------- Can't cast spells tied to this ability ------------------ |\n8-9 | -1 | ---------------------- Can't cast spells tied to this ability ------------------ |\n10-11 | 0 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n12-13 | +1 | -- | 1 | -- | -- | -- | -- | -- | -- | -- | -- |\n14-15 | +2 | -- | 1 | 1 | -- | -- | -- | -- | -- | -- | -- |\n16-17 | +3 | -- | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- |\n18-19 | +4 | -- | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- |\n20-21 | +5 | -- | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- |\n22-23 | +6 | -- | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- |\n24-25 | +7 | -- | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- |\n26-27 | +8 | -- | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- |\n28-29 | +9 | -- | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 |\n30-31 | +10 | -- | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 |\n32-33 | +11 | -- | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 |\n34-35 | +12 | -- | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 |\n36-37 | +13 | -- | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 |\n38-39 | +14 | -- | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 |\n40-41 | +15 | -- | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 |\n42-43 | +16 | -- | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 |\n44-45 | +17 | -- | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 |\netc. . . | | | | | | | | | | | |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::005_multiplying",
+  "next_chunk_id": "chunk::srd_35::basics::007_abilities_and_spellcasters"
+}

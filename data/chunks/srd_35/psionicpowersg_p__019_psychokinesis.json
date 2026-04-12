@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::019_psychokinesis",
+  "document_id": "srd_35::psionicpowersg_p::019_psychokinesis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Psychokinesis"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#019_psychokinesis"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Kineticist 4, psychic warrior 4\nDisplay: Auditory and mental\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::018_psychokinesis",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::020_power_points_7"
+}

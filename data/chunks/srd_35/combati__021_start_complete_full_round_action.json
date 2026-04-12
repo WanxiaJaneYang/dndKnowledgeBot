@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::021_start_complete_full_round_action",
+  "document_id": "srd_35::combati::021_start_complete_full_round_action",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Start/Complete Full-Round Action"
+    ],
+    "source_location": "CombatI.rtf#021_start_complete_full_round_action"
+  },
+  "chunk_type": "subsection",
+  "content": "The \u201cstart full-round action\u201d standard action lets you start undertaking a full-round action, which you can complete in the following round by using another standard action. You can't use this action to start or complete a full attack, charge, run, or withdraw.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::020_total_defense",
+  "next_chunk_id": "chunk::srd_35::combati::022_move_actions"
+}

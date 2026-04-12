@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::008_body_fuel_psionic",
+  "document_id": "srd_35::psionicsfeats::008_body_fuel_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "BODY FUEL [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#008_body_fuel_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can expand your power point total at the expense of your health.\nBenefit: You can recover 2 power points by taking 1 point of ability burn damage to each of your three ability scores: Strength, Dexterity, and Constitution.\nYou can recover additional power points for a proportional cost to Strength, Dexterity, and Constitution. These recovered points are added to your power point reserve as if you had gained them by resting overnight.\nSpecial: Only living creatures can use this feat. You can take advantage of this feat only while in your own body.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::007_autonomous_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::009_boost_construct_psionic"
+}

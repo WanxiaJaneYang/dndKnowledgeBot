@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::021_metacreativity",
+  "document_id": "srd_35::powersoverview::021_metacreativity",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "Metacreativity"
+    ],
+    "source_location": "PowersOverview.rtf#021_metacreativity"
+  },
+  "chunk_type": "subsection",
+  "content": "Metacreativity powers create objects, creatures, or some form of matter. Creatures you create usually, but not always, obey your commands.\nA metacreativity power draws raw ectoplasm from the Astral Plane to create an object or creature in the place the psionic character designates (subject to the limits noted above). Objects created in this fashion are as solid and durable as normal objects, despite their originally diaphanous substance. Psionic creatures created with metacreativity powers are considered constructs, not outsiders.\nA creature or object brought into being cannot appear inside another creature or object, nor can it appear floating in an empty space. It must arrive in an open location on a surface capable of supporting it. The creature or object must appear within the power's range, but it does not have to remain within the range.\nFor the purpose of psionics-magic transparency, metacreativity powers are equivalent to powers of the conjuration school (thus, creatures immune to conjuration spells are also immune to metacreativity powers).\nCreation: A power of the creation subdiscipline creates an object or creature in the place the manifester designates (subject to the limits noted above). If the power has a duration other than instantaneous, psionic energy holds the creation together, and when the power ends, the created creature or object vanishes without a trace, except for a thin film of glistening ectoplasm that quickly evaporates. If the power has an instantaneous duration, the created object or creature is merely assembled through psionics. It lasts indefinitely and does not depend on psionics for its existence.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::020_clairsentience",
+  "next_chunk_id": "chunk::srd_35::powersoverview::022_psychokinesis"
+}

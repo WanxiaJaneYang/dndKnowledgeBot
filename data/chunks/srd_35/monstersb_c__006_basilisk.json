@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::006_basilisk",
+  "document_id": "srd_35::monstersb_c::006_basilisk",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "BASILISK"
+    ],
+    "source_location": "MonstersB-C.rtf#006_basilisk"
+  },
+  "chunk_type": "subsection",
+  "content": "| Basilisk | Abyssal Greater Basilisk |\n| Medium Magical Beast | Large Outsider (Augmented Magical Beast, Extraplanar) |\nHit Dice: | 6d10+12 (45 hp) | 18d10+90 (189 hp) |\nInitiative: | -1 | -1 |\nSpeed: | 20 ft. (4 squares) | 20 ft. (4 squares) |\nArmor Class: | 16 (-1 Dex, +7 natural), touch 9, flat-footed 16 | 17 (-1 Dex, -1 size, +9 natural) touch 8, flat-footed 17 |\nBase Attack/Grapple: | +6/+8 | +18/+29 |\nAttack: | Bite +8 melee (1d8+3) | Bite +25 melee (2d8+10) |\nFull Attack: | Bite +8 melee (1d8+3) | Bite +25 melee (2d8+10) |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./5 ft. |\nSpecial Attacks: | Petrifying gaze | Petrifying gaze, smite good |\nSpecial Qualities: | Darkvision 60 ft., low-light vision | Resistance to cold 10 and fire 10, damage reduction 10/magic, darkvision 60 ft., low-light vision, spell resistance 23 |\nSaves: | Fort +9, Ref +4, Will +3 | Fort +18, Ref +12, Will +8 |\nAbilities: | Str 15, Dex 8, Con 15, Int 2, Wis 12, Cha 11 | Str 24, Dex 8, Con 21, Int 3, Wis 10, Cha 15 |\nSkills: | Hide +0*, Listen +7, Spot +7 | Hide +0*, Listen +10, Spot +10 |\nFeats: | Alertness, Blind-Fight, Great Fortitude | Alertness, Blind-Fight, Great Fortitude, Iron Will, Improved Natural Attack (bite), Lightning Reflexes, Weapon Focus (bite) |\nEnvironment: | Warm deserts | A chaotic evil plane |\nOrganization: | Solitary or colony (3-6) | Solitary or colony (3-6) |\nChallenge Rating: | 5 | 12 |\nTreasure: | None | Standard |\nAlignment: | Always neutral | Always chaotic evil |\nAdvancement: | 7-10 HD (Medium); 11-18 HD (Large) | -- |\nLevel Adjustment: | -- | -- |\nA basilisk is a reptilian monster that petrifies living creatures with a mere gaze. A basilisk usually has a dull brown body with a yellowish underbelly. Some specimens sport a short, curved horn atop the nose. An adult basilisk's body grows to about 6 feet long, not including its tail, which can reach an additional length of 5 to 7 feet. The creature weighs about 300 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::005_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::007_combat"
+}

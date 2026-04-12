@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::019_power_points_7",
+  "document_id": "srd_35::psionicpowersd_f::019_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#019_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "You immediately become aware of any attempt to observe you by means of a clairsentience (scrying) power or divination (scrying) spell. The power's effect radiates from you and moves as you move. You know the location of every psionic or magical sensor within the power's area.\nIf the viewing attempt originates within the area, you also know the viewer's location. Otherwise, you and the remote viewer immediately make opposed manifester level checks (1d20 + manifester level, or viewer's caster level as appropriate). If you at least match the remote viewer's result, you get a visual image of the remote viewer and an accurate sense of the remote viewer's direction and distance from you.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::018_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::020_display_visual"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::014_astral_construct",
+  "document_id": "srd_35::psionicmonsters::014_astral_construct",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "ASTRAL CONSTRUCT"
+    ],
+    "source_location": "PsionicMonsters.rtf#014_astral_construct"
+  },
+  "chunk_type": "subsection",
+  "content": "Astral constructs are brought into being by the metacreativity power astral construct. They are formed from raw ectoplasm (a portion of the astral medium drawn into the Material Plane). The power points spent by the construct's creator during the manifestation of the power determine the level of the astral construct created. However, even astral constructs of the same level vary somewhat from each other, depending on the whims of their creators.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::013_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::015_combat"
+}

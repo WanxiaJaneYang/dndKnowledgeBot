@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::021_combat",
+  "document_id": "srd_35::monstersb_c::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "For all its fearsome appearances, whether it has claws, fangs, pincers, tentacles, or spines, a chaos beast does little physical harm. Regardless of form, the creature seems unable to manage more than two attacks per round. Its continual transmutations prevent the coordination needed to do more.\nA chaos beast's claw attacks, as well as any weapons it wields, are treated as chaotic-aligned for the purpose of overcoming damage reduction.\nCorporeal Instability (Su): A blow from a chaos beast against a living creature can cause a terrible transformation. The creature must succeed on a DC 15 Fortitude save or become a spongy, amorphous mass. Unless the victim manages to control the effect (see below), its shape melts, flows, writhes, and boils. The save DC is Constitution-based.\nAn affected creature is unable to hold or use any item. Clothing, armor, rings, and helmets become useless. Large items worn or carried--armor, backpacks, even shirts--hamper more than help, reducing the victim's Dexterity score by 4. Soft or misshapen feet and legs reduce speed to 10 feet or one-quarter normal, whichever is less. Searing pain courses along the nerves, so strong that the victim cannot act coherently. The victim cannot cast spells or use magic items, and it attacks blindly, unable to distinguish friend from foe (-4 penalty on attack rolls and a 50% miss chance, regardless of the attack roll).\nEach round the victim spends in an amorphous state causes 1 point of Wisdom drain from mental shock. If the victim's Wisdom score falls to 0, it becomes a chaos beast.\nA victim can regain its own shape by taking a standard action to attempt a DC 15 Charisma check (this check DC does not vary for a chaos beast with different Hit Dice or ability scores). A success reestablishes the creature's normal form for 1 minute. On a failure, the victim can still repeat this check each round until successful.\nCorporeal instability is not a disease or a curse and so is hard to remove. A shapechange or stoneskin spell does not cure an afflicted creature but fixes its form for the duration of the spell. A restoration, heal, or greater restoration spell removes the affliction (a separate restoration is necessary to restore any drained points of Wisdom).\nImmunity to Transformation (Ex): No mortal magic can permanently affect or fix a chaos beast's form. Effects such as polymorphing or petrification force the creature into a new shape, but at the start of its next turn it immediately returns to its mutable form as a free action.\n\nHit Dice: | 9d10+27 (76 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares), fly 50 ft. (poor) |\nArmor Class: | 19 (-1 size, +1 Dex, +9 natural), touch 10, flat-footed 18 |\nBase Attack/Grapple: | +9/+17 |\nAttack: | Bite +12 melee (2d6+4) |\nFull Attack: | Bite +12 melee (2d6+4) and bite +12 melee (1d8+4) and gore +12 melee (1d8+4) and 2 claws +10 melee (1d6+2) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Breath weapon |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, scent |\nSaves: | Fort +9, Ref +7, Will +6 |\nAbilities: | Str 19, Dex 13, Con 17, Int 4, Wis 13, Cha 10 |\nSkills: | Hide +1*, Listen +9, Spot +9 |\nFeats: | Alertness, Hover, Iron Will, Multiattack |\nEnvironment: | Temperate hills |\nOrganization: | Solitary, pride (3-5), or flight (6-13) |\nChallenge Rating: | 7 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | 10-13 HD (Large); 14-27 HD (Huge) |\nLevel Adjustment: | +2 (cohort) |\nA chimera is about 5 feet tall at the shoulder, nearly 10 feet long, and weighs about 4,000 pounds. A chimera's dragon head might be black, blue, green, red, or white.\nChimeras can speak Draconic but seldom bother to do so, except when toadying to more powerful creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::020_centaurs_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::022_combat"
+}

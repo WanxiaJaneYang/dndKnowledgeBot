@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::002_psionic_powers_overview",
+  "document_id": "srd_35::powersoverview::002_psionic_powers_overview",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "PSIONIC POWERS OVERVIEW"
+    ],
+    "source_location": "PowersOverview.rtf#002_psionic_powers_overview"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic powers spring from sentient minds. Even an undead creature or a being that has no physical form can create a reserve of inner strength necessary to manifest powers, as long as it has an Intelligence score of at least 1. Vermin possessed of a hive mind ability are an exception to this rule.\nA psionic power is a one-time psionic effect. Psionic characters and creatures need not prepare their powers for use ahead of time. They either have sufficient power points to manifest a power or they do not.\nA power is manifested when a psionic character pays its power point cost. Some psionic creatures automatically manifest powers, called psi-like abilities, without paying a power point cost. Other creatures pay power points to manifest their powers, just as characters do.\nEach power has a specific effect. A power known to a psionic character can be used whenever he or she has power points to pay for it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::001_powersoverview",
+  "next_chunk_id": "chunk::srd_35::powersoverview::003_manifesting_powers"
+}

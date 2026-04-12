@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::035_combat",
+  "document_id": "srd_35::monsterso_r::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In close combat, which a rakshasa disdains as ignoble, it employs its sharp claws and powerful bite. Whenever possible, it uses its other abilities to make such encounters unnecessary.\nDetect Thoughts (Su): A rakshasa can continuously use detect thoughts as the spell (caster level 18th; Will DC 15 negates). It can suppress or resume this ability as a free action. The save DC is Charisma-based.\nSpells: A rakshasa casts spells as a 7th-level sorcerer.\nTypical Sorcerer Spells Known (6/7/7/5; save DC 13 + spell level): 0--detect magic, light, mage hand, message, read magic, resistance, touch of fatigue; 1st--charm person, mage armor, magic missile, shield, silent image; 2nd--bear's endurance, invisibility, acid arrow; 3rd--haste, suggestion.\nChange Shape (Su): A rakshasa can assume any humanoid form, or revert to its own form, as a standard action. In humanoid form, a rakshasa loses its claw and bite attacks (although it often equips itself with weapons and armor instead). A rakshasa remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, but the rakshasa reverts to its natural form when killed. A true seeing spell reveals its natural form.\nSkills: A rakshasa has a +4 racial bonus on Bluff and Disguise checks. *When using change shape, a rakshasa gains an additional +10 circumstance bonus on Disguise checks. If reading an opponent's mind, its circumstance bonus on Bluff and Disguise checks increases by a further +4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::034_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::036_rakshasas_as_characters"
+}

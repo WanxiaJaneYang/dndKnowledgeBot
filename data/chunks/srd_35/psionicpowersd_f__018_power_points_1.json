@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::018_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::018_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#018_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You detect psionic auras. A psionic aura is given off by any active or permanent power, or during the use of any psionic feat. Characters who have levels in a psionic class, creatures with the psionic subtype, and creatures with the Wild Talent feat possess psionic auras. The amount of information revealed by the manifestation of this power depends on how long you study a particular area or subject.\n1st Round: Presence or absence of psionic auras.\n2nd Round: Number of different psionic auras and the strength of the most potent aura.\n3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Psicraft checks to determine the discipline involved in each aura. (Make one check per aura; DC 15 + power level, or 15 + one-half manifester level for an effect that is not created by a power, such as that of a psionic item.)\nPsionically charged locations, multiple disciplines, or strong local psionic emanations may confuse or conceal weaker auras.\nAura Strength: A psionic aura's strength depends on a functioning power's level or an item's manifester level. If an aura falls into more than one category, detect psionics indicates the stronger of the two. Detection of an overwhelming aura (see the accompanying table) dazes you for 1 round and the power ends.\n\nPower or Item | Faint | Moderate | Strong | Overwhelming |\nFunctioning power\n(power level) | 3rd or lower | 4th-6th | 7th-9th | 10th+\n(deity-level) |\nPsionic item\n(manifester level) | 5th or lower | 6th-11th | 12th-20th | 21st+\n(artifact) |\nLingering Aura: A psionic aura lingers after its original source dissipates (in the case of a power) or is destroyed (in the case of a psionic item). If detect psionics is manifested and directed at such a location, the power indicates an aura of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original strength:\nOriginal Strength | Duration |\nFaint | 1d6 minutes |\nModerate | 1d6 x 10 minutes |\nStrong | 1d6 hours |\nOverwhelming | 1d6 days |\nEach round, you can turn to detect psionics in a new area. You can tell the difference between magical and psionic auras. The power can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\n\nDisplay: Mental and visual\nManifesting Time: 1 standard action\nRange: 40 ft.\nArea: 40-ft.-radius emanation centered on you\nDuration: 24 hours",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::017_clairsentience",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::019_power_points_7"
+}

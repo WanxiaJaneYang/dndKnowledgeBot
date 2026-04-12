@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::031_spell_resistance",
+  "document_id": "srd_35::magicoverview::031_spell_resistance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "SPELL RESISTANCE"
+    ],
+    "source_location": "MagicOverview.rtf#031_spell_resistance"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell resistance is a special defensive ability. If your spell is being resisted by a creature with spell resistance, you must make a caster level check (1d20 + caster level) at least equal to the creature's spell resistance for the spell to affect that creature. The defender's spell resistance is like an Armor Class against magical attacks. Include any adjustments to your caster level to this caster level check.\nThe Spell Resistance entry and the descriptive text of a spell description tell you whether spell resistance protects creatures from the spell. In many cases, spell resistance applies only when a resistant creature is targeted by the spell, not when a resistant creature encounters a spell that is already in place.\nThe terms \u201cobject\u201d and \u201charmless\u201d mean the same thing for spell resistance as they do for saving throws. A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by a spell noted as harmless. In such a case, you do not need to make the caster level check described above.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::030_saving_throw",
+  "next_chunk_id": "chunk::srd_35::magicoverview::032_descriptive_text"
+}

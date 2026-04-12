@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::042_forge_ring_item_creation",
+  "document_id": "srd_35::feats::042_forge_ring_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "FORGE RING [ITEM CREATION]"
+    ],
+    "source_location": "Feats.rtf#042_forge_ring_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Caster level 12th.\nBenefit: You can create any ring whose prerequisites you meet. Crafting a ring takes one day for each 1,000 gp in its base price. To craft a ring, you must spend 1/25 of its base price in XP and use up raw materials costing one-half of its base price.\nYou can also mend a broken ring if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to forge that ring in the first place.\nSome magic rings incur extra costs in material components or XP, as noted in their descriptions. You must pay such a cost to forge such a ring or to mend a broken one.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::041_far_shot_general",
+  "next_chunk_id": "chunk::srd_35::feats::043_great_cleave_general"
+}

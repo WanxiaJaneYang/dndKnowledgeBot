@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::023_combat",
+  "document_id": "srd_35::monstersh_i::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Captivating Song (Su): Will DC 17 negates.\nPossessions: +3 studded leather, +1 frost composite longbow (+1 Str bonus), 10 cold iron arrows, 10 silvered arrows, 5 +2 arrows, lesser bracers of archery, potion of cure moderate wounds, potion of cat's grace, cloak of resistance +2, ring of protection +1. (Different harpy archers may have different possessions.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::022_harpy_archer",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::024_hell_hound"
+}

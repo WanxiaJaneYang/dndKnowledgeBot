@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::069_display_mental",
+  "document_id": "srd_35::psionicpowersg_p::069_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#069_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nTarget: One creature",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::068_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::070_power_points_7"
+}

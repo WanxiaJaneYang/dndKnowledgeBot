@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::054_trans",
+  "document_id": "srd_35::spelllistii::054_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#054_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Iron Body: Your body becomes living iron.\nPolymorph Any Object: Changes any subject into anything else.\nTemporal Stasis M: Puts subject into suspended animation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::053_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::055_abjur"
+}

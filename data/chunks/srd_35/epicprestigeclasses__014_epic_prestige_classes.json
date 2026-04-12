@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::014_epic_prestige_classes",
+  "document_id": "srd_35::epicprestigeclasses::014_epic_prestige_classes",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "EPIC PRESTIGE CLASSES"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#014_epic_prestige_classes"
+  },
+  "chunk_type": "rule_section",
+  "content": "These are classes that characters cannot pursue until they have already become epic characters in some other fashion. Characters add levels of epic prestige classes using the same rules as when multiclassing into a new character class at epic levels. As with other epic classes, a character can take as many levels in an epic prestige class as he or she desires.\nAGENT RETRIEVER\nHit Die: d6.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::013_epic_shadowdancer",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::015_requirements"
+}

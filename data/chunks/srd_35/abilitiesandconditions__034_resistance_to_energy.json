@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::034_resistance_to_energy",
+  "document_id": "srd_35::abilitiesandconditions::034_resistance_to_energy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "RESISTANCE TO ENERGY"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#034_resistance_to_energy"
+  },
+  "chunk_type": "subsection",
+  "content": "A creature with resistance to energy has the ability (usually extraordinary) to ignore some damage of a certain type each round, but it does not have total immunity.\nEach resistance ability is defined by what energy type it resists and how many points of damage are resisted. It doesn't matter whether the damage has a mundane or magical source.\nWhen resistance completely negates the damage from an energy attack, the attack does not disrupt a spell. This resistance does not stack with the resistance that a spell might provide.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::033_regeneration",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::035_scent"
+}

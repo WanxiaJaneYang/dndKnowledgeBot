@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::037_combat",
+  "document_id": "srd_35::epicmonsters_g_w::037_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#037_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell-Like Abilities: At will--alter self, analyze dweomer, commune with nature, cure critical wounds, eyebite, freedom of movement, fly, fog cloud, produce flame, protection from energy, read magic, remove curse, sanctuary, sending, speak with animals, soften earth and stone, speak with plants, summon monster VI, greater teleport, wind wall; 3/day--antilife shell, astral projection, contact other plane, greater dispel magic, greater scrying, invisibility purge, plane shift. Caster level 29th; save DC 18 + spell level. The save DCs are Charisma-based.\nSpells: An elder titan can use arcane spells as a 29th-level wizard or divine spells as a 29th-level cleric, from the cleric list and from the Knowledge and Magic domains. He will also possess the knowledge of at least three epic spells and the means by which to develop them, though he may not have done so himself.\n\nHit Dice: | 50d8+880 (1,105 hp) |\nInitiative: | +3 (-1 Dex, +4 Improved Initiative) |\nSpeed: | 60 ft. |\nAC: | 41 (-1 Dex, -8 size, +40 natural) |\nBase Attack/Grapple: | +37/+72 |\nAttack: | Slam +51 (10d6+19/19-20(+1d6 on critical hit)) melee |\nFull Attack: | 2 slams +51 (10d6+19/19-20 (+1d6 on a critical hit)) melee |\nAttacks: | 2 slams +49 melee |\nDamage: | Slam 10d6+19/19-20 |\nSpace/Reach: | 30 ft./30 ft. |\nSpecial Attacks: | Animate trees, trample, triple Damage against objects, spell-like abilities |\nSpecial Qualities: | Plant traits, SR 29, DR 10/- |\nSaves: | Fort +45, Ref +17, Will +33 |\nAbilities: | Str 48, Dex 8, Con 42, Int 19, Wis 33, Cha 35 |\nSkills: | Diplomacy +61, Hide -12, Intimidate +62, Jump +31, Knowledge (any one) +57, Listen +63, Sense Motive +56, Spot +43, Survival +51 |\nFeats: | Alertness, Endurance, Great Fortitude, Improved Critical (slam), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (slam) |\nEpic Feats: | Epic Endurance, Epic Reflexes, Epic Toughness (x4), Epic Weapon Focus (slam), Epic Will |\nClimate/Terrain: | Any forest |\nOrganization: | Solitary or with grove of treants |\nChallenge Rating: | 25 |\nTreasure: | Standard |\nAlignment: | Always neutral good |\nAdvancement: | 51-150 HD (Colossal) |\nElder treants speak the language of treants, plus Common and Sylvan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::036_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::038_combat"
+}

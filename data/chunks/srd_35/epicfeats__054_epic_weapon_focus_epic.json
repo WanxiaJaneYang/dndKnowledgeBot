@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::054_epic_weapon_focus_epic",
+  "document_id": "srd_35::epicfeats::054_epic_weapon_focus_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC WEAPON FOCUS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#054_epic_weapon_focus_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Weapon Focus in the chosen weapon.\nBenefit: Add a +2 bonus to all attack rolls the character makes using the selected weapon.\nSpecial: A character can gain this feat multiple times. Its effects do not stack. Each time the character takes the feat it applies to a different type of weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::053_epic_toughness_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::055_epic_weapon_specialization_epic"
+}

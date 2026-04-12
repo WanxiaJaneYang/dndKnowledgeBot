@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::003_training_a_giant_eagle",
+  "document_id": "srd_35::monsterse_f::003_training_a_giant_eagle",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "TRAINING A GIANT EAGLE"
+    ],
+    "source_location": "MonstersE-F.rtf#003_training_a_giant_eagle"
+  },
+  "chunk_type": "subsection",
+  "content": "Although intelligent, a giant eagle requires training before it can bear a rider in combat. To be trained, a giant eagle must have a friendly attitude toward the trainer (this can be achieved through a successful Diplomacy check). Training a friendly giant eagle requires six weeks of work and a DC 25 Handle Animal check.\nRiding a giant eagle requires an exotic saddle. A giant eagle can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nGiant eagle eggs are worth 2,500 gp apiece on the open market, while chicks are worth 4,000 gp each. Professional trainers charge 1,000 gp to rear or train a giant eagle.\nCarrying Capacity: A light load for a giant eagle is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::002_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::004_elemental"
+}

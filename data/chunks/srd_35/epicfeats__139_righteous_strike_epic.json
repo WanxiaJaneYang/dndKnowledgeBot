@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::139_righteous_strike_epic",
+  "document_id": "srd_35::epicfeats::139_righteous_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "RIGHTEOUS STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#139_righteous_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 19, Improved Unarmed Strike, Stunning Fist, any lawful alignment.\nBenefit: The character's unarmed strike is treated as an axiomatic weapon (it is lawfully aligned and deals an extra 2d6 points of damage against creatures of chaotic alignment). This ability doesn't stack with similar abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::138_reflect_arrows_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::140_ruinous_rage_epic"
+}

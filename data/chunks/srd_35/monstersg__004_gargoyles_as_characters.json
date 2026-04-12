@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::004_gargoyles_as_characters",
+  "document_id": "srd_35::monstersg::004_gargoyles_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GARGOYLES AS CHARACTERS"
+    ],
+    "source_location": "MonstersG.rtf#004_gargoyles_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Gargoyle characters possess the following racial traits.\n-- +4 Strength, +4 Dexterity, +8 Constitution, -4 Intelligence, -4 Charisma.\n--Medium size.\n--A gargoyle's base land speed is 40 feet. It also has a fly speed of 60 feet (average).\n--Darkvision out to 60 feet.\n--Racial Hit Dice: A gargoyle begins with four levels of monstrous humanoid, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.\n--Racial Skills: A gargoyle's monstrous humanoid levels give it skill points equal to 7 x \uf020(2 + Int modifier). Its class skills are Hide, Listen, and Spot. A gargoyle has a +2 racial bonus on Hide, Listen, and Spot checks, and an additional +8 bonus on Hide checks when it is concealed against a background of stone.\n--Racial Feats: A gargoyle's monstrous humanoid levels give it two feats.\n-- +4 natural armor bonus.\n--Special Qualities (see above): Damage reduction 10/magic, freeze.\n--Automatic Languages: Common. Bonus Languages: Auran, Dwarven, Elven, Gnome, Halfling, Giant, Terran.\n--Favored Class: Fighter.\n--Level adjustment +5.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::003_kapoacinth",
+  "next_chunk_id": "chunk::srd_35::monstersg::005_genie"
+}

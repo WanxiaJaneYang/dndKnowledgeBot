@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::041_combat",
+  "document_id": "srd_35::monstersm_n::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Nightwalkers lurk in dark areas where they can almost always surprise the unwary.\nA nightwalker's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nCrush Item (Su): A nightwalker can destroy any weapon or item of Large size or smaller (even magic ones, but not artifacts) by picking it up and crushing it between its hands. The nightwalker must make a successful disarm attempt to grab an item held by an opponent. The item is entitled to a DC 34 Fortitude save to resist destruction. The save DC is Strength-based.\nEvil Gaze (Su): Fear, 30 feet. A creature that meets the nightwalker's gaze must succeed on a DC 24 Will save or be paralyzed with fear for 1d8 rounds. Whether or not the save is successful, that creature cannot be affected again by the same nightshade's gaze for 24 hours. This is a mind-affecting fear effect. The save DC is Charisma-based.\nSpell-Like Abilities: At will--contagion (DC 18), deeper darkness, detect magic, greater dispel magic, haste, see invisibility, and unholy blight (DC 18); 3/day--confusion (DC 18), hold monster (DC 19), invisibility; 1/day--cone of cold (DC 19), finger of death (DC 21), plane shift (DC 21). Caster level 21st. The save DCs are Charisma-based.\nSummon Undead (Su): A nightwalker can summon undead creatures once per night: 7-12 shadows, 2-5 greater shadows, or 1-2 dread wraiths. The undead arrive in 1d10 rounds and serve for 1 hour or until released.\nSkills: *When hiding in a dark area, a nightwalker gains a +8 racial bonus on Hide checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::040_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::042_tactics_round_by_round"
+}

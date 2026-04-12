@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::011_death_attacks",
+  "document_id": "srd_35::abilitiesandconditions::011_death_attacks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "DEATH ATTACKS"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#011_death_attacks"
+  },
+  "chunk_type": "subsection",
+  "content": "In most cases, a death attack allows the victim a Fortitude save to avoid the affect, but if the save fails, the character dies instantly.\nRaise dead doesn't work on someone killed by a death attack.\nDeath attacks slay instantly. A victim cannot be made stable and thereby kept alive.\nIn case it matters, a dead character, no matter how she died, has -10 hit points.\nThe spell death ward protects a character against these attacks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::010_darkvision",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::012_disease"
+}

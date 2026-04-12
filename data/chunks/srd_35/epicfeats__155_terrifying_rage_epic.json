@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::155_terrifying_rage_epic",
+  "document_id": "srd_35::epicfeats::155_terrifying_rage_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "TERRIFYING RAGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#155_terrifying_rage_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Intimidate 25 ranks, rage 5/day\nBenefit: While you are raging, any enemy that views you must make a Will save opposed by your Intimidate check of become panicked (if it have HD less than your character level) or shaken (if it has HD equal to or up to twice your character level) for 4d6 rounds. An enemy with Hit Dice greater than twice your character level is not affected by this feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::154_swarm_of_arrows_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::156_tenacious_magic_epic"
+}

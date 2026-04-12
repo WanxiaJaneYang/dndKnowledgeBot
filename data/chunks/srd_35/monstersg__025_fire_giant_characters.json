@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::025_fire_giant_characters",
+  "document_id": "srd_35::monstersg::025_fire_giant_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Fire Giant Characters"
+    ],
+    "source_location": "MonstersG.rtf#025_fire_giant_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Most groups of fire giants include clerics. A fire giant cleric has access to two of the following domains: Evil, Law, Trickery, or War (most choose Trickery or War, some choose both).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::024_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::026_frost_giant"
+}

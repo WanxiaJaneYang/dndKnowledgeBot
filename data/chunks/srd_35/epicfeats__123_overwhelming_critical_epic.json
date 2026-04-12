@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::123_overwhelming_critical_epic",
+  "document_id": "srd_35::epicfeats::123_overwhelming_critical_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "OVERWHELMING CRITICAL [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#123_overwhelming_critical_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 23, Cleave, Great Cleave, Improved Critical (chosen weapon), Power Attack, Weapon Focus (chosen weapon).\nBenefit: When using the weapon the character has selected, he or she deals an extra 1d6 points of bonus damage on a successful critical hit. If the weapon's critical multiplier is x3, add +2d6 points of bonus damage instead, and if the multiplier is x4, add +3d6 points of bonus damage instead. Creatures immune to critical hits can't be affected by this feat.\nSpecial: A character can gain this feat multiple times. Its effects do not stack. Each time a character takes the feat, it applies to a different type of weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::122_negative_energy_burst_divine_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::124_penetrate_damage_reduction_epic"
+}

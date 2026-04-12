@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::013_combat",
+  "document_id": "srd_35::monstersb_c::013_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "Combat"
+    ],
+    "source_location": "MonstersB-C.rtf#013_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Bralanis prefer the scimitar and bow, the weapons of the desert nomads they most closely resemble.\nA bralani's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and good-aligned for the purpose of overcoming damage reduction.\nSpell-Like Abilities: At will-- blur, charm person (DC 13), gust of wind (DC 14), mirror image, wind wall; 2/day--lightning bolt (DC 15), cure serious wounds (DC 15). Caster level 6th. The save DCs are Charisma-based.\nWhirlwind Blast (Su): When in whirlwind form, a bralani can attack with a scouring blast of wind, dealing 3d6 points of damage in a 20-foot line (Reflex DC 16 half ). The save DC is Constitution-based.\nAlternate Form (Su): A bralani can shift between its humanoid and whirlwind forms as a standard action. In humanoid form, it cannot fly or use its whirlwind blast, but it can use its spell-like abilities and its weapons. In whirlwind form, it can fly, make slam attacks and whirlwind blast attacks, and use spell-like abilities.\nA bralani remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, nor does the bralani revert to any particular form when killed. A true seeing spell, however, reveals both forms simultaneously.\nTongues (Su): Bralanis can speak with any creature that has a language, as though using a tongues spell (caster level 14th). This ability is always active.\n\nHit Dice: | 3d8+3 (16 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 17 (+1 Dex, +3 natural, +2 leather armor, +1 light wooden shield), touch 11, flat-footed 16 |\nBase Attack/Grapple: | +2/+4 |\nAttack: | Morningstar +5 melee (1d8+2) or javelin +3 ranged (1d6+2) |\nFull Attack: | Morningstar +5 melee (1d8+2) or javelin +3 ranged (1d6+2) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft., scent |\nSaves: | Fort +2, Ref +4, Will +1 |\nAbilities: | Str 15, Dex 12, Con 13, Int 10, Wis 10, Cha 9 |\nSkills: | Climb +3, Hide +4, Listen +4, Move Silently +6, Spot +4 |\nFeats: | Alertness, Weapon Focus (morningstar) |\nEnvironment: | Temperate mountains |\nOrganization: | Solitary, gang (2-4), or band (11-20 plus 150% noncombatants plus 2 2nd-level sergeants and 1 leader of 2nd-5th level) |\nChallenge Rating: | 2 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | +1 |\nBugbears speak Goblin and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::012_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::014_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::067_great_intelligence_epic",
+  "document_id": "srd_35::epicfeats::067_great_intelligence_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "GREAT INTELLIGENCE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#067_great_intelligence_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The character's Intelligence increases by 1 point.\nSpecial: A character can gain this feat multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::066_great_dexterity_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::068_great_smiting_epic"
+}

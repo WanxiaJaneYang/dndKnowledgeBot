@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::005_class_skills",
+  "document_id": "srd_35::psionicclasses::005_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#005_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The psion's class skills (and the key ability for each skill) are Concentration* (Con), Craft (Int), Knowledge (all skills, taken individually)* (Int), Profession (Wis), and Psicraft* (Int). In addition, a psion gains access to additional class skills based on his discipline:\nSeer (Clairsentience): Gather Information (Cha), Listen (Wis), and Spot (Wis).\nShaper (Metacreativity): Bluff (Cha), Disguise (Cha), and Use Psionic Device* (Cha).\nKineticist (Psychokinesis): Autohypnosis* (Wis), Disable Device (Dex), and Intimidate (Cha).\nEgoist (Psychometabolism): Autohypnosis* (Wis), Balance (Dex) and Heal (Wis).\nNomad (Psychoportation): Climb (Str), Jump (Str), Ride (Dex), Survival (Wis), and Swim (Str).\nTelepath (Telepathy): Bluff (Cha), Diplomacy (Cha), Gather Information (Cha), and Sense Motive (Wis).\n*New skill or expanded use of existing skill.\nSkill Points at 1st Level: (2 + Int modifier) x4.\nSkill Points at Each Additional Level: 2 + Int modifier.\nTable: The Psion |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Power Points/\nDay | Powers Known | Maximum Power Level Known |\n1st | +0 | +0 | +0 | +2 | Bonus feat, discipline | 2 | 3 | 1st |\n2nd | +1 | +0 | +0 | +3 | -- | 6 | 5 | 1st |\n3rd | +1 | +1 | +1 | +3 | -- | 11 | 7 | 2nd |\n4th | +2 | +1 | +1 | +4 | -- | 17 | 9 | 2nd |\n5th | +2 | +1 | +1 | +4 | Bonus feat | 25 | 11 | 3rd |\n6th | +3 | +2 | +2 | +5 | -- | 35 | 13 | 3rd |\n7th | +3 | +2 | +2 | +5 | -- | 46 | 15 | 4th |\n8th | +4 | +2 | +2 | +6 | -- | 58 | 17 | 4th |\n9th | +4 | +3 | +3 | +6 | -- | 72 | 19 | 5th |\n10th | +5 | +3 | +3 | +7 | Bonus feat | 88 | 21 | 5th |\n11th | +5 | +3 | +3 | +7 | -- | 106 | 22 | 6th |\n12th | +6/+1 | +4 | +4 | +8 | -- | 126 | 24 | 6th |\n13th | +6/+1 | +4 | +4 | +8 | -- | 147 | 25 | 7th |\n14th | +7/+2 | +4 | +4 | +9 | -- | 170 | 27 | 7th |\n15th | +7/+2 | +5 | +5 | +9 | Bonus feat | 195 | 28 | 8th |\n16th | +8/+3 | +5 | +5 | +10 | -- | 221 | 30 | 8th |\n17th | +8/+3 | +5 | +5 | +10 | -- | 250 | 31 | 9th |\n18th | +9/+4 | +6 | +6 | +11 | -- | 280 | 33 | 9th |\n19th | +9/+4 | +6 | +6 | +11 | -- | 311 | 34 | 9th |\n20th | +10/+5 | +6 | +6 | +12 | Bonus feat | 343 | 36 | 9th |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::004_abilities_and_manifesters",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::006_class_features"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::015_blinding_speed_epic",
+  "document_id": "srd_35::epicfeats::015_blinding_speed_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "BLINDING SPEED [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#015_blinding_speed_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Dex 25.\nBenefit: The character can act as if hasted for 5 rounds each day. The duration of the effect need not be consecutive rounds. Activating this power is a free action.\nSpecial: A character can gain this feat multiple times. Each time he or she takes the feat, it grants an additional 5 rounds of haste per day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::014_bane_of_enemies_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::016_bonus_domain_epic"
+}

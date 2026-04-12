@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::014_half_fiend",
+  "document_id": "srd_35::monstersh_i::014_half_fiend",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HALF-FIEND"
+    ],
+    "source_location": "MonstersH-I.rtf#014_half_fiend"
+  },
+  "chunk_type": "subsection",
+  "content": "No matter its form, a half-fiend is always hideous to behold, having dark scales, horns, glowing red eyes, bat wings, a fetid odor, or some other obvious sign that it is tainted with evil.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::013_creating_a_half_dragon",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::015_creating_a_half_fiend"
+}

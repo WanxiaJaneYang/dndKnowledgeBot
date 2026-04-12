@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::025_cursed_items",
+  "document_id": "srd_35::psionicitems::025_cursed_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "CURSED ITEMS"
+    ],
+    "source_location": "PsionicItems.rtf#025_cursed_items"
+  },
+  "chunk_type": "subsection",
+  "content": "d% | Curse |\n01-33 | Backfire |\n34-66 | Exhausting |\n67-100 | Subversive |\nBackfire: The imbedded psionic effect of the cursed item targets the user instead of its intended target.\nExhausting: A cursed item of this sort resembles a normal psionic item with a power that can be freely activated, but it instead drains the user of power points whenever he activates its power.\nSubversive: A cursed item of this sort appears identical to a standard psionic item. However, it holds an inner malice for the wearer, whose saving throws take a constant -2 penalty. The owner isn't instantly aware of this penalty but may become aware after a while, when it becomes clear that he fails saves that others make with the same result on the saving throw.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::024_universal_item_descriptions",
+  "next_chunk_id": "chunk::srd_35::psionicitems::026_specific_cursed_item"
+}

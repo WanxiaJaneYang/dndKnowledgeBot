@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::037_combat",
+  "document_id": "srd_35::monsterse_f::037_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#037_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Myrmarchs' claws are like hands and thus serve no combat purpose.\nMyrmarchs occasionally employ javelins for ranged attacks, coated with poison from their own stingers.\nThey fight intelligently, aiding those under them (if any such are present) and commanding them through the hive mind. If chaotic creatures are present, however, a myrmarch is singleminded in its quest to destroy them.\nA formian myrmarch's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.\nPoison (Ex): Injury, Fortitude DC 20, initial and secondary damage 2d6 Dex. The save DC is Constitution-based.\nSpell-Like Abilities: At will--charm monster (DC 17), clairaudience/ clairvoyance, detect chaos, detect thoughts (DC 15), magic circle against chaos, greater teleport; 1/day--dictum (DC 20), order's wrath (DC 17). Caster level 12th. The save DCs are Charisma-based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::036_myrmarch",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::038_queen"
+}

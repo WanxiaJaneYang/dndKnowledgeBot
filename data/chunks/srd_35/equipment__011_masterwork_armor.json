@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::011_masterwork_armor",
+  "document_id": "srd_35::equipment::011_masterwork_armor",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "MASTERWORK ARMOR"
+    ],
+    "source_location": "Equipment.rtf#011_masterwork_armor"
+  },
+  "chunk_type": "subsection",
+  "content": "Just as with weapons, you can purchase or craft masterwork versions of armor or shields. Such a well-made item functions like the normal version, except that its armor check penalty is lessened by 1.\nA masterwork suit of armor or shield costs an extra 150 gp over and above the normal cost for that type of armor or shield.\nThe masterwork quality of a suit of armor or shield never provides a bonus on attack or damage rolls, even if the armor or shield is used as a weapon.\nAll magic armors and shields are automatically considered to be of masterwork quality.\nYou can't add the masterwork quality to armor or a shield after it is created; it must be crafted as a masterwork item.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::010_armor_descriptions",
+  "next_chunk_id": "chunk::srd_35::equipment::012_armor_for_unusual_creatures"
+}

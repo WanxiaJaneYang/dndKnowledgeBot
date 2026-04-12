@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::036_requirements",
+  "document_id": "srd_35::epicprestigeclasses::036_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#036_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a perfect wight, a character must fulfill all the following criteria.\nSkills: Hide 24 ranks, Move Silently 24 ranks.\nEpic Feats: Self-Concealment.\nSpecial: Sneak attack +10d6.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::035_class_features",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::037_class_skills"
+}

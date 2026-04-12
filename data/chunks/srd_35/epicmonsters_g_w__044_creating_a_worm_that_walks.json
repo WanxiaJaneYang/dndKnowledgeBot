@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::044_creating_a_worm_that_walks",
+  "document_id": "srd_35::epicmonsters_g_w::044_creating_a_worm_that_walks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "CREATING A WORM THAT WALKS"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#044_creating_a_worm_that_walks"
+  },
+  "chunk_type": "subsection",
+  "content": "\u201cWorm that walks\u201d is a template that can be added to any evil wizard or sorcerer. It uses all the original character's statistics, special abilities, and equipment, except as noted here.\nType: The character's type changes to aberration (it is a creature composed of hundreds of discrete crawling worms).\nHit Dice: Increase to d8.\nAC: The mass of worms that make up this creature, each looking out for danger, in sum provide a +20 insight bonus to AC.\nSpecial Attack: A worm that walks retains all the character's special attacks. It also gains one special attack, engulf.\nEngulf (Ex): A worm that walks can choose to engulf an opponent who is no more than one size category larger than itself. The worm attempts to embrace its victim, and with a successful melee touch attack, the victim is immediately swallowed up and surrounded by a mass of vermin, taking 100 points of Damage as the biting vermin nibble away. A victim who spends a full-round action can break free of the embrace and move up to half its speed away from the worm if desired, but can do nothing else. Otherwise, each round a victim remains embraced, it takes another 100 points of Damage. Constructs are immune to this attack.\nSpells: A worm that walks can cast any spells it could cast as a living character.\nSpell-Like Abilities: 1/day-- animal growth (vermin), animal messenger (vermin), animal shapes (vermin), animal trance (vermin), colossal vermin (as giant vermin, but it can increase the creature's size from Large to Gargantuan and from Huge to Colossal), creeping doom, giant vermin, summon swarm (vermin), summon vermin (as summon nature's ally, except it summons 10 HD of vermin per level), and vermin plague (as insect plague). Caster level 20th.\nSpecial Qualities: A worm that walks retains any special abilities it had in life and gains those mentioned below.\nBlindsight (Ex): Worms that walk have blindsight 300 ft.\nSpell Resistance (Ex): A worm that walks has spell resistance equal to its Challenge Rating +10.\nFrightful Presence (Su): When a worm that walks engulfs a victim, witnesses must make a Will save (DC 10 + 1/2 the worm's HD + the worm's Cha modifier). Those who make the save are shaken. Those who fail by 5 or fewer points are frightened. Those who fail by 6 to 10 points are panicked. Those who fail by 11 or more points are cowering. All these conditions last for 1d4 rounds. Those who have seen a worm use this attack before gain a +5 bonus on their saving throws. The victim of the worm's engulf attack has a -5 penalty on his or her saving throw.\nDiscorporate (Ex): If gravely threatened, a worm can discorporate as a free action, simply falling into a pile of individual vermin that slither quickly away. So long as any of the component vermin survive, they can breed and create a new body to house the wizard's intelligence and personality. Discorporating is a dangerous tactic, because once separated, the vermin are treated no differently than other vermin. Also, the worm stands a good chance of losing all its equipment. However, discorporation almost assures that at least one maggot (if not dozens) will manage to crawl away, and so provide for the worm's continued existence.\nImmunities (Ex): A worm that walks has no discernable anatomy, so it is not subject to critical hits or flanking.\nSaves: Same as the character.\nAbilities: Same as the character.\nSkills: Same as the character, except that a worm that walks receives a +20 racial bonus on Hide, Intuit Direction, Listen, and Move Silently checks.\nFeats: Same as the character.\nEpic Feats: Same as the character.\nClimate/Terrain: Any.\nOrganization: Solitary, occasionally with minions or master.\nChallenge Rating: Same as the character + 3.\nTreasure: Same as the character.\nAlignment: Any evil.\nAdvancement: By character class.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::043_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::045_worm_that_walks_characters"
+}

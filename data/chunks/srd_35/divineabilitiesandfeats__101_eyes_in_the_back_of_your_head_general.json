@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::101_eyes_in_the_back_of_your_head_general",
+  "document_id": "srd_35::divineabilitiesandfeats::101_eyes_in_the_back_of_your_head_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "EYES IN THE BACK OF YOUR HEAD [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#101_eyes_in_the_back_of_your_head_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Base attack bonus +3, Wis 19.\nBenefit: Attackers do not gain the usual +2 attack bonus when flanking you. This feat grants no effect whenever you are attacked without benefit of your Dexterity modifier to AC, such as when you are flat-footed or when you are the target of a rogue's sneak attack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::100_extra_music_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::102_fleet_of_foot_general"
+}

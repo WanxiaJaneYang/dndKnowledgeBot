@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::009_craft",
+  "document_id": "srd_35::epicskills::009_craft",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Craft"
+    ],
+    "source_location": "EpicSkills.rtf#009_craft"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can craft items more quickly than normal.\nTask | DC |\nQuick creation | +10 or more to DC |\nQuick Creation: A character can voluntarily increase the DC of crafting an item by any multiple of 10. This allows the character to create an item more quickly (since he or she will be multiplying this higher DC by his or her skill check result to determine progress). The character must decide the increase to the DC before making the check.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::008_climb",
+  "next_chunk_id": "chunk::srd_35::epicskills::010_craft_alchemy"
+}

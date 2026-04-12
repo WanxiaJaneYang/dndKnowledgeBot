@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::007_flyby_attack_general",
+  "document_id": "srd_35::monsterfeats::007_flyby_attack_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "FLYBY ATTACK [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#007_flyby_attack_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Fly speed.\nBenefit: When flying, the creature can take a move action (including a dive) and another standard action at any point during the move. The creature cannot take a second move action during a round when it makes a flyby attack.\nNormal: Without this feat, the creature takes a standard action either before or after its move.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::006_empower_spell_like_ability_general",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::008_hover_general"
+}

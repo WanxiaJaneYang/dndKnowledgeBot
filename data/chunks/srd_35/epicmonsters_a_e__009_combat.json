@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::009_combat",
+  "document_id": "srd_35::epicmonsters_a_e::009_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#009_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Improved Grab (Ex): If an infernal hits with a claw, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. Infernals can use this ability on Large and smaller creatures. The infernal has the option to conduct the grapple normally, or simply use its claw to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals standard claw damage, in addition to automatic spell suck damage.\nSpell Suck (Su): If an infernal bites a foe, the foe loses one of its highest-level prepared spells or one of the spell slots for this day that it has not used. The victim chooses the prepared spell to lose. If the victim has no prepared spells or unused spell slots (either because it has exhausted its spellcasting for the day or because the victim is not a spellcaster), the bite instead deals 2 points of temporary Intelligence damage.\nLearned Spell Immunity (Su): If an infernal is affected by a spell cast by a particular spellcaster, the infernal thereafter becomes immune to that spell when cast by that spellcaster.\nSpell-Like Abilities: At will--animate dead, blasphemy, blur, charm person, create undead, darkness, deeper darkness, desecrate, detect chaos, detect good, detect law, detect magic, fear, fireball, greater dispel magic, hold person, greater invisibility, magic circle against good, major image, produce flame, polymorph, pyrotechnics, read magic, scrying, suggestion, symbol of death, telekinesis, greater teleport (self plus 1,000 pounds), unholy aura, unholy blight, unhallow, wall of fire; 1/day--fire storm, hellball (epic spell), implosion, meteor swarm. Caster level 26th; save DC 19 + spell level. The DCs are Charisma-based.\nSummon Fiend (Sp): An infernal can summon four balors or four pit fiends per day (lawful infernals summon pit fiends, and chaotic infernals summon balors).\nAbomination Traits: Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection ; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.\nRegeneration (Ex): Infernals take normal damage from good weapons. Lawful infernals also take normal damage from chaotic weapons, and vice versa.\n\nHit Dice: | 62d8+806 (1,362 hp) |\nInitiative: | +15 (+7 Dex, +8 Superior Initiative) |\nSpeed: | 120 ft., burrow 120 ft. |\nAC: | 47 (-4 size, +7 Dex, +34 natural) |\nBase Attack/Grapple: | +62/+98 |\nAttack: | pseudopod slam +85 (4d8+24 plus fire damage) melee |\nFull Attack: | 8 pseudopod slams +85 (4d8+24 plus fire damage) melee |\nSpace/Reach: | 20 ft./10 ft. |\nSpecial Attacks: | Fiery touch, fiery overrun, spell-like abilities, improved grab, swallow whole, summon elder fire elemental |\nSpecial Qualities: | Abomination traits, immunity to fire, vulnerability to cold, oozelike immunities, regeneration 25, fast healing 25, SR 46, DR 15/epic lawful and epic |\nSaves: | Fort +48, Ref +42, Will +43 |\nAbilities: | Str 58, Dex 25, Con 36, Int 8, Wis 18, Cha 39 |\nSkills: | Climb +89, Craft (metalworking, stoneworking) +29, Hide +12, Jump +69, Knowledge (geography) +64, Listen +71, Move Silently +72, Search +64, Spot +71 |\nFeats: | Alertness, Cleave, Great Cleave, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Sunder, Weapon Focus (slam) |\nEpic Feats: | Blinding Speed (x5), Epic Toughness (x3), Epic Weapon Focus (slam), Epic Will, Superior Initiative |\nClimate/Terrain: | Any |\nOrganization: | Solitary, or in company of 1-10 elder fire elementals |\nChallenge Rating: | 34 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 63-80 HD (Gargantuan); 81-186 HD (Colossal) |\nA phaethon's natural weapons are treated as epic and evil for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::008_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::010_combat"
+}

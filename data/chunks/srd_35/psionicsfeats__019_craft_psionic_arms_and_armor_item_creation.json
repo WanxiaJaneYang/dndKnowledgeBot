@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::019_craft_psionic_arms_and_armor_item_creation",
+  "document_id": "srd_35::psionicsfeats::019_craft_psionic_arms_and_armor_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "CRAFT PSIONIC ARMS AND ARMOR [ITEM CREATION]"
+    ],
+    "source_location": "PsionicsFeats.rtf#019_craft_psionic_arms_and_armor_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "You can create psionic weapons, armor, and shields.\nPrerequisite: Manifester level 5th.\nBenefit: You can create any psionic weapon, armor, or shield whose prerequisites you meet. Enhancing a weapon, suit of armor, or shield takes one day for each 1,000 gp in the price of its psionic features. To enhance a weapon, you must spend 1/25 of its features' total price in XP and use up raw materials costing one-half of this total price.\nThe weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost.\nYou can also mend a broken psionic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to enhance that item in the first place.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::018_craft_psicrown_item_creation",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::020_craft_psionic_construct_item_creation"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::045_prismatic_dragon_abilities_by_age",
+  "document_id": "srd_35::epicmonsters_a_e::045_prismatic_dragon_abilities_by_age",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Prismatic Dragon Abilities by Age"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#045_prismatic_dragon_abilities_by_age"
+  },
+  "chunk_type": "subsection",
+  "content": "Age | Speed | Inititative | AC | Special Abilities | Caster Level | SR |\nWyrmling | 60 ft., fly 250 ft. (poor) | +0 | 35 (-2 size, +5 deflection, +22 natural), touch 13, flat-footed 35 | Damage reduction 10/magic, deflecting force, hypnotic pattern, immune to light and blindness | 5th | 24 |\nVery young | 60 ft., fly 250 ft. (poor) | +0 | 42 (-2 size, +7 deflection, +27 natural), touch 15, flat-footed 42 | | 8th | 30 |\nYoung | 60 ft., fly 300 ft. (clumsy) | +0 | 47 (-4 size, +9 deflection, +32 natural), touch 15, flat-footed 47 | Damage reduction 15/magic | 11th | 36 |\nJuvenile | 60 ft., fly 300 ft. (clumsy) | +0 | 54 (-4 size, +11 deflection, +37 natural), touch 17, flat-footed 54 | Rainbow pattern | 13th | 42 |\nYoung adult | 60 ft., fly 300 ft. (clumsy) | +0 | 61 (-4 size, +13 deflection, +42 natural), touch 19, flat-footed 61 | Damage reduction 15/epic | 17th | 48 |\nAdult | 60 ft., fly 300 ft. (clumsy) | +0 | 64 (-8 size, +15 deflection, +47 natural), touch 17, flat-footed 64 | Sunbeam | 20th | 54 |\nMature adult | 60 ft., fly 300 ft. (clumsy) | +0 | 71 (-8 size, +17 deflection, +52 natural), touch 19, flat-footed 71 | Damage reduction 20/epic | 23rd | 60 |\nOld | 60 ft., fly 300 ft. (clumsy) | +0 | 78 (-8 size, +19 deflection, +57 natural), touch 21, flat-footed 78 | Sunburst | 26th | 66 |\nVery old | 60 ft., fly 300 ft. (clumsy) | +0 | 85 (-8 size, +21 deflection, +62 natural), touch 23, flat-footed 85 | Damage reduction 25/epic | 29th | 68 |\nAncient | 60 ft., fly 350 ft. (clumsy) | +0 | 92 (-8 size, +23 deflection, +67 natural), touch 25, flat-footed 92 | Prismatic wall | 32nd | 74 |\nWyrm | 60 ft., fly 350 ft. (clumsy) | +0 | 99 (-8 size, +25 deflection, +72 natural), touch 27, flat-footed 99 | | 35th | 80 |\nGreat wyrm | 60 ft., fly 350 ft. (clumsy) | +0 | 106 (-8 size, +27 deflection, +77 natural), touch 29, flat-footed 106 | Prismatic sphere | 38th | 86 |\nA prismatic dragon's natural weapons are treated as magic (wyrmling - juvenile) or epic (young adult - great wyrm) for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::044_dragon_light",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::046_combat"
+}

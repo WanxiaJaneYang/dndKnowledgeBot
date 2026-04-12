@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::025_full_attack",
+  "document_id": "srd_35::combati::025_full_attack",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Full Attack"
+    ],
+    "source_location": "CombatI.rtf#025_full_attack"
+  },
+  "chunk_type": "subsection",
+  "content": "If you get more than one attack per round because your base attack bonus is high enough, because you fight with two weapons or a double weapon or for some special reason you must use a full-round action to get your additional attacks. You do not need to specify the targets of your attacks ahead of time. You can see how the earlier attacks turn out before assigning the later ones.\nThe only movement you can take during a full attack is a 5-foot step. You may take the step before, after, or between your attacks.\nIf you get multiple attacks because your base attack bonus is high enough, you must make the attacks in order from highest bonus to lowest. If you are using two weapons, you can strike with either weapon first. If you are using a double weapon, you can strike with either part of the weapon first.\nDeciding between an Attack or a Full Attack: After your first attack, you can decide to take a move action instead of making your remaining attacks, depending on how the first attack turns out. If you've already taken a 5-foot step, you can't use your move action to move any distance, but you could still use a different kind of move action.\nFighting Defensively as a Full-Round Action: You can choose to fight defensively when taking a full attack action. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC for the same round.\nCleave: The extra attack granted by the Cleave feat or Great Cleave feat can be taken whenever they apply. This is an exception to the normal limit to the number of attacks you can take when not using a full attack action.\nCast a Spell\nA spell that takes 1 round to cast is a full-round action. It comes into effect just before the beginning of your turn in the round after you began casting the spell. You then act normally after the spell is completed.\nA spell that takes 1 minute to cast comes into effect just before your turn 1 minute later (and for each of those 10 rounds, you are casting a spell as a full-round action). These actions must be consecutive and uninterrupted, or the spell automatically fails.\nWhen you begin a spell that takes 1 round or longer to cast, you must continue the invocations, gestures, and concentration from one round to just before your turn in the next round (at least). If you lose concentration after starting the spell and before it is complete, you lose the spell.\nYou only provoke attacks of opportunity when you begin casting a spell, even though you might continue casting for at least one full round. While casting a spell, you don't threaten any squares around you.\nThis action is otherwise identical to the cast a spell action described under Standard Actions.\nCasting a Metamagic Spell: Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a metamagic feat) than a regular spell. If a spell's normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard. Note that this isn't the same as a spell with a 1-round casting time--the spell takes effect in the same round that you begin casting, and you aren't required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.\nClerics must take more time to spontaneously cast a metamagic version of a cure or inflict spell. Spontaneously casting a metamagic version of a spell with a casting time of 1 standard action is a full-round action, and spells with longer casting times take an extra full-round action to cast.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::024_full_round_actions",
+  "next_chunk_id": "chunk::srd_35::combati::026_use_special_ability"
+}

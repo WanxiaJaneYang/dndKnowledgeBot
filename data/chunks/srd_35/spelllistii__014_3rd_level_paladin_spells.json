@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::014_3rd_level_paladin_spells",
+  "document_id": "srd_35::spelllistii::014_3rd_level_paladin_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "3RD-LEVEL PALADIN SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#014_3rd_level_paladin_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Cure Moderate Wounds: Cures 2d8 damage +1/level (max +10).\nDaylight: 60-ft. radius of bright light.\nDiscern Lies: Reveals deliberate falsehoods.\nDispel Magic: Cancels spells and magical effects.\nHeal Mount: As heal on warhorse or other special mount.\nMagic Circle against Chaos: As protection from chaos, but 10-ft. radius and 10 min./level.\nMagic Circle against Evil: As protection from evil, but 10-ft. radius and 10 min./level.\nMagic Weapon, Greater: +1 bonus/four levels (max +5).\nPrayer: Allies +1 bonus on most rolls, enemies -1 penalty.\nRemove Blindness/Deafness: Cures normal or magical conditions.\nRemove Curse: Frees object or person from curse.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::013_2nd_level_paladin_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::015_4th_level_paladin_spells"
+}

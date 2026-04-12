@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::013_disguise",
+  "document_id": "srd_35::epicskills::013_disguise",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Disguise"
+    ],
+    "source_location": "EpicSkills.rtf#013_disguise"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can change his or her apparent height and weight much more than normal.\nDisguise | Modifier |\nChange height and/or weight 11% to 25% | -25* |\nChange height and/or weight 26% to 50% | -50* |\n*Can be negated by any effect that can duplicate a height and/or weight change of this degree.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::012_disable_device",
+  "next_chunk_id": "chunk::srd_35::epicskills::014_escape_artist"
+}

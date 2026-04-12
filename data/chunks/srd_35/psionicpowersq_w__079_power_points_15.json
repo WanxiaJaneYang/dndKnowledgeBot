@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::079_power_points_15",
+  "document_id": "srd_35::psionicpowersq_w::079_power_points_15",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 15"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#079_power_points_15"
+  },
+  "chunk_type": "subsection",
+  "content": "You are difficult to kill while this power persists. You automatically heal damage at the rate of 10 hit points per round.\nThis power is not effective against damage from starvation, thirst, or suffocation. Also, attack forms that don't deal hit point damage (for example, most poisons) ignore true metabolism. You can also use this power to regrow lost portions of your body and to reattach severed limbs or body parts, if you do nothing but concentrate on regrowing the lost body part or reattaching the severed limb for the duration of the power. You do not gain the benefits described earlier when you manifest true metabolism for this purpose. You must have a Constitution score to gain any of this power's benefits.\nTrue Seeing, Psionic\nClairsentience\nLevel: Psion/wilder 5\nDisplay: Visual\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 min./level\n\nAs the true seeing power, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::078_power_points_17_xp",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::080_psychometabolism"
+}

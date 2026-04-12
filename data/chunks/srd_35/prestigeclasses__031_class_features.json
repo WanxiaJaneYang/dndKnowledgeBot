@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::031_class_features",
+  "document_id": "srd_35::prestigeclasses::031_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "PrestigeClasses.rtf#031_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All of the following are Class Features of the dwarven defender prestige class.\nAC Bonus (Ex): The dwarven defender receives a dodge bonus to Armor Class that starts at +1 and improves as the defender gains levels, until it reaches +4 at 10th level.\nWeapon and Armor Proficiency: A dwarven defender is proficient with all simple and martial weapons, all types of armor, and shields.\nDefensive Stance: When he adopts a defensive stance, a defender gains phenomenal strength and durability, but he cannot move from the spot he is defending. He gains +2 to Strength, +4 to Constitution, a +2 resistance bonus on all saves, and a +4 dodge bonus to AC. The increase in Constitution increases the defender's hit points by 2 points per level, but these hit points go away at the end of the defensive stance when the Constitution score drops back 4 points. These extra hit points are not lost first the way temporary hit points are. While in a defensive stance, a defender cannot use skills or abilities that would require him to shift his position. A defensive stance lasts for a number of rounds equal to 3 + the character's (newly improved) Constitution modifier. A defender may end his defensive stance voluntarily prior to this limit. At the end of the defensive stance, the defender is winded and takes a -2 penalty to Strength for the duration of that encounter. A defender can only use his defensive stance a certain number of times per day as determined by his level (see Table: The Dwarven Defender). Using the defensive stance takes no time itself, but a defender can only do so during his action.\nUncanny Dodge (Ex): Starting at 2nd level, a dwarven defender retains his Dexterity bonus to AC (if any) regardless of being caught flat-footed or struck by an invisible attacker. (He still loses any Dexterity bonus to AC if immobilized.)\nIf a character gains uncanny dodge from a second class, the character automatically gains improved uncanny dodge (see below).\nTrap Sense (Ex): At 4th level, a dwarven defender gains a +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks by traps. At 8th level, these bonuses rise to +2. These bonuses stack with trap sense bonuses gained from other classes.\nDamage Reduction (Ex): At 6th level, a dwarven defender gains damage reduction. Subtract 3 points from the damage the dwarven defender takes each time he is dealt damage. At 10th level, this damage reduction rises to 6/-. Damage reduction can reduce damage to 0 but not below 0.\nImproved Uncanny Dodge (Ex): At 6th level, a dwarven defender can no longer be flanked. This defense denies rogues the ability to use flank attacks to sneak attack the dwarven defender.\nThe exception to this defense is that a rogue at least four levels higher than the dwarven defender can flank him (and thus sneak attack him).\nIf a character gains uncanny dodge (see above) from a second class the character automatically gains improved uncanny dodge, and the levels from those classes stack to determine the minimum rogue level required to flank the character.\nMobile Defense (Ex): At 8th level, a dwarven defender can adjust his position while maintaining a defensive stance. While in a defensive stance, he can take one 5-foot step each round without losing the benefit of the stance.\nELDRITCH KNIGHT\nHit Die: d6.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::030_class_skills",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::032_requirements"
+}

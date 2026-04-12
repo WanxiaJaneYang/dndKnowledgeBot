@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::003_class_features",
+  "document_id": "srd_35::npcclasses::003_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Class Features"
+    ],
+    "source_location": "NPCClasses.rtf#003_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All of the following are class features of the adept NPC class.\nWeapon and Armor Proficiency: Adepts are skilled with all simple weapons. Adepts are not proficient with any type of armor nor with shields.\nSpells: An adept casts divine spells which are drawn from the adept spell list (see below). Like a cleric, an adept must choose and prepare her spells in advance. Unlike a cleric, an adept cannot spontaneously cast cure or inflict spells.\nTo prepare or cast a spell, an adept must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against an adept's spell is 10 + the spell level + the adept's Wisdom modifier.\nAdepts, unlike wizards, do not acquire their spells from books or scrolls, nor do they prepare them through study. Instead, they meditate or pray for their spells, receiving them as divine inspiration or through their own strength of faith. Each adept must choose a time each day at which she must spend an hour in quiet contemplation or supplication to regain her daily allotment of spells. Time spent resting has no effect on whether an adept can prepare spells.\nLike other spellcasters, an adept can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Adept. In addition, she receives bonus spells per day if she has a high Wisdom score.\nWhen Table: The Adept indicates that the adept gets 0 spells per day of a given spell level, she gains only the bonus spells she would be entitled to based on her Wisdom score for that spell level.\nEach adept has a particular holy symbol (as a divine focus) depending on the adept's magical tradition.\nSummon Familiar: At 2nd level, an adept can call a familiar, just as a sorcerer or wizard can.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::002_class_skills",
+  "next_chunk_id": "chunk::srd_35::npcclasses::004_adept_spell_list"
+}

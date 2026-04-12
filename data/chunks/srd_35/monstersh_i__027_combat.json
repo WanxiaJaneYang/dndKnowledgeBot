@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::027_combat",
+  "document_id": "srd_35::monstersh_i::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hippogriffs dive at their prey and strike with their clawed forelegs. When they cannot dive, they slash with claws and beak. Mated pairs and flights of these creatures attack in concert, diving repeatedly to drive away or kill intruders. Hippogriffs fight to the death to defend their nests and their hatchlings, which are prized as aerial mounts and fetch a handsome price in many civilized areas.\nSkills: Hippogriffs have a +4 racial bonus on Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::026_nessian_warhound",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::028_training_a_hippogriff"
+}

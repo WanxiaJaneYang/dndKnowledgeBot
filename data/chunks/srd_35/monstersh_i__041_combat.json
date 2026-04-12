@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::041_combat",
+  "document_id": "srd_35::monstersh_i::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Combat"
+    ],
+    "source_location": "MonstersH-I.rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Like all inevitables, a kolyarut is patient enough to study a target before striking. It has a good idea of the deal-breaker's abilities and defenses before it enters battle. When it fights, it tries to get the conflict over as soon as possible, minimizing excess bloodshed and mayhem. It doesn't let concern for innocents delay or endanger its mission, however.\nA kolyarut's favorite tactic is to use invisibility or disguise self to sneak close, then eliminate the quarry with its vampiric touch ability before it can react. A kolyarut has no compunctions about using its vampiric touch ability on allies to increase its own power, if doing so helps it complete its mission.\nA kolyarut's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.\nEnervation Ray (Su): A kolyarut can fire a black enervation ray at targets within 200 feet. The effect is identical with the enervation spell (caster level 13th).\nSpell-Like Abilities: At will--discern lies (DC 17), disguise self, fear (DC 17), hold person (DC 16), invisibility, locate creature, suggestion (DC 16); 1/day--hold monster (DC 17), mark of justice; 1/week-- geas/quest. Caster level 13th. The save DCs are Charisma-based.\nVampiric Touch (Su): As a melee touch attack, a kolyarut can steal life force from its foe, as the vampiric touch spell (caster level 13th).\nSkills: A kolyarut has a +4 racial bonus on Disguise, Gather Information, and Sense Motive checks.\n\nHit Dice: | 15d10+30 (112 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. in full plate armor (6 squares); base speed 40 ft. |\nArmor Class: | 34 (-1 size, +1 Dex, +16 natural, +8 full plate armor), touch 10, flat-footed 33 |\nBase Attack/Grapple: | +11/+27 |\nAttack: | Slam +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity) |\nFull Attack: | 2 slams +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Fists of thunder and lightning, spell-like abilities |\nSpecial Qualities: | Construct traits, damage reduction 15/chaotic, darkvision 60 ft., fast healing 10, low-light vision, spell resistance 25 |\nSaves: | Fort +7, Ref +6, Will +8 |\nAbilities: | Str 35, Dex 13, Con --, Int 12, Wis 17, Cha 18 |\nSkills: | Concentration +13, Diplomacy +6, Knowledge (religion) +10, Listen +16, Search +10, Sense Motive +12, Spot +16, Survival +3 (+5 following tracks) |\nFeats: | Ability Focus (fists), Awesome Blow, Combat Casting, Great Fortitude, Improved Bull Rush, Power Attack |\nEnvironment: | A lawful-aligned plane |\nOrganization: | Solitary |\nChallenge Rating: | 15 |\nTreasure: | None |\nAlignment: | Always lawful neutral |\nAdvancement: | 16-28 HD (Large); 29-45 HD (Huge) |\nLevel Adjustment: | -- |\nMaruts confront those who would try to deny the grave itself.\nAny who use unnatural means to extend their life span could be targeted by a marut. Those who take extraordinary measures to cheat death in some other way might be labeled transgressors as well. Those who use magic to reverse death aren't worthy of a marut's attention unless they do so repeatedly or on a massive scale.\nWhen a marut has identified its target, it walks surely and implacably toward the foe, never resting.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::040_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::042_combat"
+}

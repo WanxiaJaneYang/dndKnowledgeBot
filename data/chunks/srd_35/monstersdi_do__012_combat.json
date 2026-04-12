@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::012_combat",
+  "document_id": "srd_35::monstersdi_do::012_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#012_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire bats swoop down upon unsuspecting prey from above.\nBlindsense (Ex): A dire bat uses echolocation to pinpoint creatures within 40 feet. Opponents still have total concealment against the bat unless it can actually see them.\nSkills: Dire bats have a +4 racial bonus on Spot and Listen checks. These bonuses are lost if its blindsense is negated.\n\nHit Dice: | 12d8+51 (105 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 17 (-1 size, +1 Dex, +7 natural), touch 10, flat-footed 16 |\nBase Attack/Grapple: | +9/+23 |\nAttack: | Claw +19 melee (2d4+10) |\nFull Attack: | 2 claws +19 melee (2d4+10) and bite +13 melee (2d8+5) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +12, Ref +9, Will +9 |\nAbilities: | Str 31, Dex 13, Con 19, Int 2, Wis 12, Cha 10 |\nSkills: | Listen +10, Spot +10, Swim +13 |\nFeats: | Alertness, Endurance, Run, Toughness, Weapon Focus (claw) |\nEnvironment: | Cold forests |\nOrganization: | Solitary or pair |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 13-16 HD (Large); 17-36 HD (Huge) |\nLevel Adjustment: | -- |\nThe omnivorous dire bear usually does not bother creatures that try to avoid it, but will aggressively defend a kill or other source of food. It will not hesitate to rip apart anything that might contain something edible.\nA typical dire bear is 12 feet long and weighs as much as 8,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::011_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::013_combat"
+}

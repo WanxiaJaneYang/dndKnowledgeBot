@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::032_devastation_scorpion",
+  "document_id": "srd_35::epicmonsters_a_e::032_devastation_scorpion",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "DEVASTATION SCORPION"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#032_devastation_scorpion"
+  },
+  "chunk_type": "subsection",
+  "content": "Improved Grab (Ex): To use this ability, the devastation scorpion must hit with its claw attack. If it gets a hold, it hangs on and squeezes.\nSqueeze (Ex): A devastation scorpion that gets a hold on a Gargantuan or smaller opponent automatically deals damage with both claws and its sting.\nPoison (Ex): Sting, Fort save (DC 95); initial and secondary damage 2d12 temporary Str.\nSkills: Devastation scorpions receive a +4 racial bonus on Climb, Hide, and Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::031_devastation_spider",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::033_devastation_beetle"
+}

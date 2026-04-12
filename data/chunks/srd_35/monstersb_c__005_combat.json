@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::005_combat",
+  "document_id": "srd_35::monstersb_c::005_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#005_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Occasionally, a greater barghest uses a magic two-handed weapon in combat instead of its claws, giving it multiple attacks (attack bonus +13/+8). It can also make one bite attack (attack bonus +8) each round. The save DC against a greater barghest's spell-like abilities is 14 + spell level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::004_greater_barghest",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::006_basilisk"
+}

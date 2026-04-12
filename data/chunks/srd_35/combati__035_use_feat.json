@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::035_use_feat",
+  "document_id": "srd_35::combati::035_use_feat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Use Feat"
+    ],
+    "source_location": "CombatI.rtf#035_use_feat"
+  },
+  "chunk_type": "subsection",
+  "content": "Certain feats let you take special actions in combat. Other feats do not require actions themselves, but they give you a bonus when attempting something you can already do. Some feats are not meant to be used within the framework of combat. The individual feat descriptions tell you what you need to know about them.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::034_take_5_foot_step",
+  "next_chunk_id": "chunk::srd_35::combati::036_use_skill"
+}

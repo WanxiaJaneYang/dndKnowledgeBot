@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::085_improved_heighten_spell_epic",
+  "document_id": "srd_35::epicfeats::085_improved_heighten_spell_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED HEIGHTEN SPELL [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#085_improved_heighten_spell_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Heighten Spell, Spellcraft 20 ranks.\nBenefit: As Heighten Spell, but there is no limit to the level to which the character can heighten the spell.\nNormal: Without this feat, a spell can only be heightened to a maximum of 9th level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::084_improved_favored_enemy_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::086_improved_ki_strike_epic"
+}

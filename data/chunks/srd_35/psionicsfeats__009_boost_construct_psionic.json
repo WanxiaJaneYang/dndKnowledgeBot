@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::009_boost_construct_psionic",
+  "document_id": "srd_35::psionicsfeats::009_boost_construct_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "BOOST CONSTRUCT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#009_boost_construct_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your astral constructs have more abilities.\nBenefit: When you create an astral construct, you can give it one additional special ability from any menu that the construct currently has an ability from.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::008_body_fuel_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::010_burrowing_power_metapsionic"
+}

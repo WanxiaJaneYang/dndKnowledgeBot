@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::038_queen",
+  "document_id": "srd_35::monsterse_f::038_queen",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "QUEEN"
+    ],
+    "source_location": "MonstersE-F.rtf#038_queen"
+  },
+  "chunk_type": "subsection",
+  "content": "The formian queen cannot move. With her telepathic abilities, though, she can send instructions to and get reports from any formian within her range.\nShe is about 10 feet long, perhaps 4 feet high, and weighs about 3,500 pounds.\nThe queen speaks Formian and Common, although she can communicate with any creature telepathically.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::037_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::039_combat"
+}

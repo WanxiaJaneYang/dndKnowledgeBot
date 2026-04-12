@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::001_psionicsfeats",
+  "document_id": "srd_35::psionicsfeats::001_psionicsfeats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PsionicsFeats"
+    ],
+    "source_location": "PsionicsFeats.rtf#001_psionicsfeats"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::002_psionic_feats"
+}

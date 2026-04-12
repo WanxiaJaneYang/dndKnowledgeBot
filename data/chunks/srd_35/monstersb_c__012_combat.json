@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::012_combat",
+  "document_id": "srd_35::monstersb_c::012_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#012_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Death Gaze (Su): Death, range 30 feet, Fortitude DC 15 negates. Humanoids who die from this attack are transformed into bodaks 24 hours later. The save DC is Charisma-based.\nVulnerability to Sunlight (Ex): Bodaks loathe sunlight, for its merest touch burns their impure flesh. Each round of exposure to the direct rays of the sun deals 1 point of damage to the creature.\n\nHit Dice: | 6d8+18 (45 hp) |\nInitiative: | +8 |\nSpeed: | 40 ft. (8 squares), fly 100 ft. (perfect) |\nArmor Class: | 20 (+4 Dex, +6 natural), touch 14, flat-footed 16 |\nBase Attack/Grapple: | +6/+10 |\nAttack: | +1 holy scimitar +11 melee (1d6+4/18-20) or +1 holy composite longbow (+4 Str bonus) +11 ranged (1d8+5/x3) or slam +10 melee (1d6+4) |\nFull Attack: | +1 holy scimitar +11/+6 melee (1d6+4/18-20) or +1 holy composite longbow (+4 Str bonus) +11/+6 ranged (1d8+5/x3) or slam +10 melee (1d6+4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, whirlwind blast |\nSpecial Qualities: | Alternate form, damage reduction 10/cold iron or evil, darkvision 60 ft., immunity to electricity and petrification, low-light vision, resistance to cold 10 and fire 10, spell resistance 17, tongues |\nSaves: | Fort +8, Ref +9, Will +7 |\nAbilities: | Str 18, Dex 18, Con 17, Int 13, Wis 14, Cha 14 |\nSkills: | Concentration +12, Diplomacy +4, Escape Artist +13, Handle Animal +11, Hide +13, Jump +10, Listen +13, Move Silently +13, Ride +6, Sense Motive +11, Spot +13, Tumble +13, Use Rope +4 (+6 with bindings) |\nFeats: | Alertness, Blind-Fight, Improved Initiative |\nEnvironment: | A chaotic good-aligned plane |\nOrganization: | Solitary, pair, or squad (3-5) |\nChallenge Rating: | 6 |\nTreasure: | No coins; double goods; standard items |\nAlignment: | Always chaotic good |\nAdvancement: | 7-12 HD (Medium); 13-18 HD (Large) |\nLevel Adjustment: | +5 |\nIn addition to their natural form, bralanis can assume the shape of a whirlwind or zephyr of dust, snow, or sand.\nBralanis speak Celestial, Infernal, and Draconic, but can communicate with almost any creature, thanks to their tongues ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::011_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::013_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::095_improved_spell_resistance_epic",
+  "document_id": "srd_35::epicfeats::095_improved_spell_resistance_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED SPELL RESISTANCE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#095_improved_spell_resistance_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Must have spell resistance from a feat, class feature, or other permanent effect.\nBenefit: The character's spell resistance increases by +2.\nSpecial: A character can gain this feat multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::094_spell_slots_above_9th_level",
+  "next_chunk_id": "chunk::srd_35::epicfeats::096_improved_stunning_fist_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::034_taskmaster",
+  "document_id": "srd_35::monsterse_f::034_taskmaster",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "TASKMASTER"
+    ],
+    "source_location": "MonstersE-F.rtf#034_taskmaster"
+  },
+  "chunk_type": "subsection",
+  "content": "These formians communicate only telepathically and derive sustenance from the mental energies of those they dominate.\nA taskmaster is about the same size as a warrior.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::033_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::035_combat"
+}

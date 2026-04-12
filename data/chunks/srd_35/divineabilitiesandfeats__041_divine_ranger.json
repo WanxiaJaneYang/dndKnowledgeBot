@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::041_divine_ranger",
+  "document_id": "srd_35::divineabilitiesandfeats::041_divine_ranger",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Ranger"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#041_divine_ranger"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Ranger level 20th, Wis 25, Wilderness Lore 40 ranks, Knowledge (nature) 30 ranks.\nBenefit: Any weapon the deity wields against one of its favored enemies is treated as a bane weapon against that creature type. Thus, its enhancement bonus is increased by +2 and it deals +2d6 points of damage.\nThe deity can follow tracks at its normal land speed. It treats all normal terrain as very soft ground for purposes of tracking and ignores DC modifiers for time or weather. The deity can track creatures across water, underwater, or through the air by means of the minute disturbances they make and traces of their passage. The table below adds across water, underwater, and air to the list of surfaces found in the Track feat description.\nSurface | DC |\nAcross water | 60 |\nUnderwater | 80 |\nAir | 120 |\nSuggested Portfolio Elements: Archers, hunting, nature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::040_divine_rage",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::042_divine_recall"
+}

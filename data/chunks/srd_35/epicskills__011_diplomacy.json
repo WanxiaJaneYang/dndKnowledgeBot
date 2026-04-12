@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::011_diplomacy",
+  "document_id": "srd_35::epicskills::011_diplomacy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Diplomacy"
+    ],
+    "source_location": "EpicSkills.rtf#011_diplomacy"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can turn a person into a fanatic follower. Refer to the accompanying table.\n\nInitial Attitude | Hos | Unf | Indif | Friend | Help | Fanatic |\nHostile | Less than 20 | 20 | 25 | 35 | 50 | 150 |\nUnfriendly | Less than 5 | 5 | 15 | 25 | 40 | 120 |\nIndifferent | -- | Less than 1 | 1 | 15 | 30 | 90 |\nFriendly | -- | -- | Less than 1 | 1 | 20 | 60 |\nHelpful | -- | -- | -- | Less than 1 | 1 | 50 |\nHos: hostile. Unf: unfriendly. Indif: indifferent. Friend: friendly. Help: helpful.\nFanatic: The attitude of fanatic is added here. In addition to the obvious effects, any NPC whose attitude is fanatic gains a +2 morale bonus to Strength and Constitution scores, a +1 morale bonus on Will saves, and a -1 penalty to AC whenever fighting for the character or his or her cause. This attitude will remain for one day plus one day per point of the character's Charisma bonus, at which point the NPC's attitude will revert to its original attitude (or indifferent, if no attitude is specified).\nTreat the fanatic attitude as a mind-affecting enchantment effect for purposes of immunity, save bonuses, or being detected by the Sense Motive skill. Since it is nonmagical, it can't be dispelled; however, any effect that suppresses or counters mind-affecting effects will affect it normally. A fanatic NPC's attitude can't be further adjusted by the use of skills.\nAttitude | Means | Possible Actions |\nFanatic | Will give life to serve you | Fight to the death against overwhelming odds, throw self in front of onrushing dragon |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::010_craft_alchemy",
+  "next_chunk_id": "chunk::srd_35::epicskills::012_disable_device"
+}

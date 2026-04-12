@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::035_scent",
+  "document_id": "srd_35::abilitiesandconditions::035_scent",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "SCENT"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#035_scent"
+  },
+  "chunk_type": "subsection",
+  "content": "This extraordinary ability lets a creature detect approaching enemies, sniff out hidden foes, and track by sense of smell.\nA creature with the scent ability can detect opponents by sense of smell, generally within 30 feet. If the opponent is upwind, the range is 60 feet. If it is downwind, the range is 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at three times these ranges.\nThe creature detects another creature's presence but not its specific location. Noting the direction of the scent is a move action. If it moves within 5 feet of the scent's source, the creature can pinpoint that source.\nA creature with the Track feat and the scent ability can follow tracks by smell, making a Wisdom check to find or follow a track. The typical DC for a fresh trail is 10. The DC increases or decreases depending on how strong the quarry's odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Track feat. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.\nCreatures with the scent ability can identify familiar odors just as humans do familiar sights.\nWater, particularly running water, ruins a trail for air-breathing creatures. Water-breathing creatures that have the scent ability, however, can use it in the water easily.\nFalse, powerful odors can easily mask other scents. The presence of such an odor completely spoils the ability to properly detect or identify creatures, and the base Survival DC to track becomes 20 rather than 10.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::034_resistance_to_energy",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::036_spell_resistance"
+}

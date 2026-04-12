@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::126_perfect_multiweapon_fighting_epic",
+  "document_id": "srd_35::epicfeats::126_perfect_multiweapon_fighting_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "PERFECT MULTIWEAPON FIGHTING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#126_perfect_multiweapon_fighting_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Dex 25, three or more hands, Greater Multiweapon Fighting, Multiweapon Fighting.\nBenefit: The character can make as many attacks with each extra weapon as with his or her primary weapon, using the same base attack bonus. The character still takes the normal penalties for fighting with two weapons.\nNormal: A creature without this feat can make only one attack per round with each extra weapon (or two attacks per round with each weapon if it has Multiweapon Fighting, or three attacks per round with each extra weapon if it has Greater Multiweapon Fighting). Each attack after the first extra attack has a cumulative -5 penalty.\nSpecial: This feat replaces the Perfect Two-Weapon Fighting feat for creatures with more than two arms.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::125_perfect_health_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::127_perfect_two_weapon_fighting_epic"
+}

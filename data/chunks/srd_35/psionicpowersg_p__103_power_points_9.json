@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::103_power_points_9",
+  "document_id": "srd_35::psionicpowersg_p::103_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#103_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "Your will abruptly and brutally crushes the mental essence of any one creature, debilitating its acumen. The target must make a Will save with a +4 bonus or collapse unconscious and dying at -1 hit points. If the target succeeds on the save, it takes 3d6 points of damage.\nAugment: For every 2 additional power points you spend, this power's damage increases by 1d6 points.\n\nDisplay: Auditory, mental, and visual\nManifesting Time: 10 minutes\nRange: Close (25 ft. + 5 ft./2 levels)\nTarget: One creature",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::102_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::104_power_resistance_no"
+}

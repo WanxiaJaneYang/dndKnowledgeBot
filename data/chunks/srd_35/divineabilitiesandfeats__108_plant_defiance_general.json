@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::108_plant_defiance_general",
+  "document_id": "srd_35::divineabilitiesandfeats::108_plant_defiance_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "PLANT DEFIANCE [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#108_plant_defiance_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ability to cast detect animals or plants.\nBenefit: You can turn (but not destroy) plant creatures as a good cleric turns undead. When determining the result of a turning attempt, treat all destruction results as normal turning. Treat immobile plant creatures as creatures unable to flee. This ability is usable a total number of times per day equal to 3 + your Charisma modifier. You use your highest caster level to determine the level at which you turns plants.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::107_plant_control_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::109_power_critical_general"
+}

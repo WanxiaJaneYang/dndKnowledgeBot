@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::077_improved_aura_of_courage_epic",
+  "document_id": "srd_35::epicfeats::077_improved_aura_of_courage_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED AURA OF COURAGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#077_improved_aura_of_courage_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Cha 25, aura of courage class ability.\nBenefit: The character's aura of courage grants a +8 morale bonus on saving throws against fear effects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::076_improved_arrow_of_death_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::078_improved_aura_of_despair_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::017_2nd_level_ranger_spells",
+  "document_id": "srd_35::spelllistii::017_2nd_level_ranger_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "2ND-LEVEL RANGER SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#017_2nd_level_ranger_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Barkskin: Grants +2 (or higher) enhancement to natural armor.\nBear's Endurance: Subject gains +4 to Con for 1 min./level.\nCat's Grace: Subject gains +4 to Dex for 1 min./level.\nCure Light Wounds: Cures 1d8 damage +1/level (max +5).\nHold Animal: Paralyzes one animal for 1 round/level.\nOwl's Wisdom: Subject gains +4 to Wis for 1 min./level.\nProtection from Energy: Absorb 12 points/level of damage from one kind of energy.\nSnare: Creates a magic booby trap.\nSpeak with Plants: You can talk to normal plants and plant creatures.\nSpike Growth: Creatures in area take 1d4 damage, may be slowed.\nSummon Nature's Ally II: Calls animal to fight for you.\nWind Wall: Deflects arrows, smaller creatures, and gases.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::016_1st_level_ranger_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::018_3rd_level_ranger_spells"
+}

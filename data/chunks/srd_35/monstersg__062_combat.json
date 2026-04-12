@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::062_combat",
+  "document_id": "srd_35::monstersg::062_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#062_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A gray render attacks to kill, whether to bring down prey or to protect itself or those it has adopted. When hunting, it sometimes attempts to hide and wait for prey to wander close.\nImproved Grab (Ex): To use this ability, a gray render must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nRend (Ex): A gray render that wins a grapple check after a successful bite attack establishes a hold, latching onto the opponent's body and tearing the flesh. This attack automatically deals 2d6+9 points of damage.\nSkills: Gray renders have a +4 racial bonus on Spot checks due to their six keen eyes.\n\nHit Dice: | 2d8 (9 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), climb 20 ft. |\nArmor Class: | 16 (+2 Dex, +4 natural), touch 12, flat-footed 14 |\nBase Attack/Grapple: | +1/+3 |\nAttack: | Tentacle +3 melee (1d4+2) |\nFull Attack: | 4 tentacles +3 melee (1d4+2); bite -2 melee (1d3+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Damage reduction 10/magic, darkvision 60 ft., scent |\nSaves: | Fort +0, Ref +2, Will +5 |\nAbilities: | Str 14, Dex 14, Con 11, Int 3, Wis 14, Cha 5 |\nSkills: | Climb +10, Hide +3*, Listen +6, Spot +6 |\nFeats: | Alertness, TrackB |\nEnvironment: | Underground |\nOrganization: | Solitary or cluster (2-4) |\nChallenge Rating: | 3 |\nTreasure: | 1/10 coins; 50% goods; 50% items |\nAlignment: | Usually neutral |\nAdvancement: | 3-4 HD (Medium); 5-6 HD (Large) |\nLevel Adjustment: | -- |\nAn adult grick is about 8 feet long from the tips of its tentacles to the end of its body and weighs some 200 pounds. Its body coloration is uniformly dark, with a pale underbelly.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::061_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::063_combat"
+}

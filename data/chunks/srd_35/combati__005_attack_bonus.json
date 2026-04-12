@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::005_attack_bonus",
+  "document_id": "srd_35::combati::005_attack_bonus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "ATTACK BONUS"
+    ],
+    "source_location": "CombatI.rtf#005_attack_bonus"
+  },
+  "chunk_type": "subsection",
+  "content": "Your attack bonus with a melee weapon is:\nBase attack bonus + Strength modifier + size modifier\nWith a ranged weapon, your attack bonus is:\nBase attack bonus + Dexterity modifier + size modifier + range penalty\nTable: Size Modifiers |\nSize | Size Modifier | Size | Size Modifier |\nColossal | -8 | Small | +1 |\nGargantuan | -4 | Tiny | +2 |\nHuge | -2 | Diminutive | +4 |\nLarge | -1 | Fine | +8 |\nMedium | +0 | | |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::004_attack_roll",
+  "next_chunk_id": "chunk::srd_35::combati::006_damage"
+}

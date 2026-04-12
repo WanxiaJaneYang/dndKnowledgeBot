@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::003_creating_epic_magic_items",
+  "document_id": "srd_35::epicmagicitems1::003_creating_epic_magic_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "CREATING EPIC MAGIC ITEMS"
+    ],
+    "source_location": "EpicMagicItems1.rtf#003_creating_epic_magic_items"
+  },
+  "chunk_type": "subsection",
+  "content": "The process of creating an epic magic item is very similar to creating a nonepic magic item. However, certain important differences exist.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::002_epic_magic_items_1",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::004_caster_level"
+}

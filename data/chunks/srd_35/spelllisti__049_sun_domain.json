@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::049_sun_domain",
+  "document_id": "srd_35::spelllisti::049_sun_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "SUN DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#049_sun_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::048_strength_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::050_sun_domain_spells"
+}

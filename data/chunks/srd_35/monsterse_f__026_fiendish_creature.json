@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::026_fiendish_creature",
+  "document_id": "srd_35::monsterse_f::026_fiendish_creature",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "FIENDISH CREATURE"
+    ],
+    "source_location": "MonstersE-F.rtf#026_fiendish_creature"
+  },
+  "chunk_type": "subsection",
+  "content": "Fiendish creatures dwell on the lower planes, the realms of evil, although they resemble beings found on the Material Plane. They are more fearsome in appearance than their earthly counterparts.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::025_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::027_creating_a_fiendish_creature"
+}

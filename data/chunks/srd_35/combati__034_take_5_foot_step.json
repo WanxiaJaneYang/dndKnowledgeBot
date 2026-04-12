@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::034_take_5_foot_step",
+  "document_id": "srd_35::combati::034_take_5_foot_step",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Take 5-Foot Step"
+    ],
+    "source_location": "CombatI.rtf#034_take_5_foot_step"
+  },
+  "chunk_type": "subsection",
+  "content": "You can move 5 feet in any round when you don't perform any other kind of movement. Taking this 5-foot step never provokes an attack of opportunity. You can't take more than one 5-foot step in a round, and you can't take a 5-foot step in the same round when you move any distance.\nYou can take a 5-foot step before, during, or after your other actions in the round.\nYou can only take a 5-foot-step if your movement isn't hampered by difficult terrain or darkness. Any creature with a speed of 5 feet or less can't take a 5-foot step, since moving even 5 feet requires a move action for such a slow creature.\nYou may not take a 5-foot step using a form of movement for which you do not have a listed speed.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::033_cast_a_quickened_spell",
+  "next_chunk_id": "chunk::srd_35::combati::035_use_feat"
+}

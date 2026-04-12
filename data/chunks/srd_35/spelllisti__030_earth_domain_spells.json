@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::030_earth_domain_spells",
+  "document_id": "srd_35::spelllisti::030_earth_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Earth Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#030_earth_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Magic Stone: Three stones become +1 projectiles, 1d6 +1 damage.\n2 Soften Earth and Stone: Turns stone to clay or dirt to sand or mud.\n3 Stone Shape: Sculpts stone into any shape.\n4 Spike Stones: Creatures in area take 1d8 damage, may be lowed.\n5 Wall of Stone: Creates a stone wall that can be shaped.\n6 Stoneskin M: Ignore 10 points of damage per attack.\n7 Earthquake: Intense tremor shakes 80-ft.-radius.\n8 Iron Body: Your body becomes living iron.\n9 Elemental Swarm*: Summons multiple elementals.\n*Cast as an earth spell only.\n\nGranted Power: You cast evil spells at +1 caster level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::029_earth_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::031_evil_domain_spells"
+}

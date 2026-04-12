@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::006_combat",
+  "document_id": "srd_35::monstersm_n::006_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#006_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "All mephits fight by biting and clawing or by using a breath weapon, the nature and effects of which vary from creature to creature.\nA mephit's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nBreath Weapon (Su): A mephit can use its breath weapon once every 1d4 rounds as a standard action. See the individual descriptions for details.\nSpell-Like Abilities: All mephits have one or more spell-like abilities (save DC 12 + spell level). See the individual descriptions for details.\nSummon Mephit (Sp): Once per day, a mephit can attempt to summon another mephit of the same variety, much as though casting a summon monster spell, but with only a 25% chance of success. Roll d%: On a failure, no creature answers the summons that day. A mephit that has just been summoned cannot use its own summon ability for 1 hour. This ability is the equivalent of a 2nd-level spell.\nFast Healing (Ex): Mephits heal 2 points of damage each round, provided they are still alive and certain other conditions are met. See the individual descriptions for details.\n\nHit Dice: | 3d8 (13 hp) |\nInitiative: | +7 |\nSpeed: | 30 ft. (6 squares), fly 60 ft. (perfect) |\nArmor Class: | 17 (+1 size, +3 Dex, +3 natural), touch 14, flat-footed 14 |\nBase Attack/Grapple: | +3/-1 |\nAttack: | Claw +4 melee (1d3) |\nFull Attack: | 2 claws +4 melee (1d3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Breath weapon, spell-like abilities, summon mephit |\nSpecial Qualities: | Damage reduction 5/magic, darkvision 60 ft., fast healing 2 |\nSaves: | Fort +3, Ref +6, Will +3 |\nAbilities: | Str 10, Dex 17, Con 10, Int 6, Wis 11, Cha 15 |\nSkills: | Bluff +8, Escape Artist +9, Hide +13, Diplomacy +4, Disguise +2 (+4 acting), Intimidate +4, Listen +6, Move Silently +9, Spot +6, Use Rope +3 (+5 with bindings) |\nFeats: | Dodge, Improved Initiative |\nEnvironment: | Elemental Plane of Air |\nOrganization: | Solitary (1), gang (2-4 mephits of mixed types), or mob (5-12 mephits of mixed types) |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 4-6 HD (Small); 7-9 HD (Medium) |\nLevel Adjustment: | +3 (cohort) |\nAir mephits come from the Elemental Plane of Air. An air mephit is about 4 feet tall and weighs about 1 pound.\nAir mephits speak Common and Auran.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::005_mephit",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::007_combat"
+}

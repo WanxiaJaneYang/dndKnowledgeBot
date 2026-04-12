@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicspells::005_mind_domain",
+  "document_id": "srd_35::psionicspells::005_mind_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSpells",
+      "MIND DOMAIN"
+    ],
+    "source_location": "PsionicSpells.rtf#005_mind_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Gain a +2 bonus on Bluff, Diplomacy, and Sense Motive checks. Gain a +2 bonus on Will saves against enchantment spells and effects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicspells::004_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::psionicspells::006_mind_domain_spells"
+}

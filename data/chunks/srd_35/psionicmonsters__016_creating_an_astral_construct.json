@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::016_creating_an_astral_construct",
+  "document_id": "srd_35::psionicmonsters::016_creating_an_astral_construct",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "CREATING AN ASTRAL CONSTRUCT"
+    ],
+    "source_location": "PsionicMonsters.rtf#016_creating_an_astral_construct"
+  },
+  "chunk_type": "subsection",
+  "content": "When manifesting the astral construct power, the manifester assembles the desired creature from a menu of choices, as specified in the construct's statistics block. A manifester can always substitute two choices from a lesser menu for one of its given abilities. Multiple selections of the same menu choice do not stack unless the ability specifically notes that stacking is allowed.\nSome menu choices grant an astral construct the ability to manifest specific powers as psi-like abilities. Unless using the ability is a free action, an astral construct manifesting such a power does so as a standard action that provokes attacks of opportunity. All such powers have a manifester level equal to the astral construct's Hit Dice or the creator's manifester level, whichever is lower.\nAn astral construct does not need to meet the prerequisites for a feat granted by a menu choice.\n\nA manifester creating a 1st-level, 2nd-level, or 3rd-level astral construct can choose one special ability from this menu.\nBuff (Ex): The astral construct gains an extra 5 hit points.\nCelerity (Ex): The astral construct's land speed is increased by 10 feet.\nCleave (Ex): The astral construct gains the Cleave feat.\nDeflection (Ex): The astral construct gains a +1 deflection bonus to Armor Class.\nFly (Ex): The astral construct has physical wings and a fly speed of 20 feet (average).\nImproved Bull Rush (Ex): The astral construct gains the Improved Bull Rush feat.\nImproved Slam Attack (Ex): The astral construct gains the Improved Natural Attack feat.\nMobility (Ex): The astral construct gains the Mobility feat.\nPower Attack (Ex): The astral construct gains the Power Attack feat.\nResistance (Ex): Choose one of the following energy types: fire, cold, acid, electricity, or sonic. The astral construct gains resistance 5 against that energy type.\nSwim (Ex): The astral construct is streamlined and shark like, and gains a swim speed of 30 feet.\nTrip (Ex): If the astral construct hits with a slam attack, it can attempt to trip the opponent as a free action without making a touch attack or provoking attacks of opportunity. If the attempt fails, the opponent cannot react to trip the astral construct.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::015_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::017_astral_construct_menu_b"
+}

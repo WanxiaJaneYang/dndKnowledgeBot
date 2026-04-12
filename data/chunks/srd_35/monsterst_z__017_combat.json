@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::017_combat",
+  "document_id": "srd_35::monsterst_z::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A troll hunter makes full use of its scent ability to track its favored enemies and generally prefers to hunt in darkness.\nThe troll hunter uses its limited repertoire of spells to protect itself from damaging forms of energy and to immobilize enemies.\nTypical Ranger Spells Prepared (2; save DC 12 + spell level): 1st--entangle, resist energy.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::016_troll_hunter",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::018_trolls_as_characters"
+}

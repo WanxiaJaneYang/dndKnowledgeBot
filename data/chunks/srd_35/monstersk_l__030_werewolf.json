@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::030_werewolf",
+  "document_id": "srd_35::monstersk_l::030_werewolf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "WEREWOLF"
+    ],
+    "source_location": "MonstersK-L.rtf#030_werewolf"
+  },
+  "chunk_type": "subsection",
+  "content": "| Werewolf, Human Form | Werewolf, Wolf Form | Werewolf, Hybrid Form |\n| Medium Humanoid (Human, Shapechanger) | Medium Humanoid (Human, Shapechanger) | Medium Humanoid (Human, Shapechanger) |\nHit Dice: | 1d8+1 plus 2d8+6 (20 hp) | 1d8+1 plus 2d8+6 (20 hp) | 1d8+1 plus 2d8+6 (20 hp) |\nInitiative: | +4 | +6 | +6 |\nSpeed: | 30 ft. (6 squares) | 50 ft. (10 squares) | 30 ft. (6 squares) |\nArmor Class: | 17 (+2 natural, +4 chain shirt, +1 light shield) touch 10, flat-footed 17 | 16 (+2 Dex, +4 natural), touch 12, flat-footed 14 | 16 (+2 Dex, +4 natural), touch 12, flat-footed 14 |\nBase Attack/Grapple: | +2/+3 | +2/+4 | +2/+4 |\nAttack: | Longsword +3 melee (1d8+1/19-20) or light crossbow +2 ranged (1d8/19-20) | Bite +5 melee (1d6+3) | Claw +4 melee (1d4+2) |\nFull Attack: | Longsword +3 melee (1d8+1/19-20) or light crossbow +2 ranged (1d8/19-20) | Bite +5 melee (1d6+3) | 2 claws +4 melee (1d4+2) and bite +0 melee (1d6+1) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | -- | Curse of lycanthropy, trip | Curse of lycanthropy |\nSpecial Qualities: | Alternate form, wolf empathy, low-light vision, scent | Alternate form, wolf empathy, damage reduction 10/silver, low-light vision, scent | Alternate form, wolf empathy, damage reduction 10/silver, low-light vision, scent |\nSaves: | Fort +6, Ref +3, Will +2 | Fort +8, Ref +5, Will +2 | Fort +8 Ref +5, Will +2 |\nAbilities: | Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8 | Str 15, Dex 15, Con 16, Int 10, Wis 11, Cha 8 | Str 15, Dex 15, Con 16, Int 10, Wis 11, Cha 8 |\nSkills: | Handle Animal +1, Hide +1, Listen +1, Move Silently +2, Spot +1, Survival +2 | Handle Animal +1, Hide +6, Listen +1, Move Silently +6, Spot +1, Survival +2* | Handle Animal +1, Hide +6, Listen +1, Move Silently +6, Spot +1, Survival +2* |\nFeats: | Improved Initiative, Iron WillB, Stealthy, TrackB, Weapon Focus (bite) | (same as human form) | (same as human form) |\nEnvironment: | Temperate forests | Temperate forests | Temperate forests |\nOrganization: | Solitary, pair, pack (6-10), or troupe (2-5 plus 5-8 wolves) | (same as human form) | (same as human form) |\nChallenge Rating: | 3 | 3 | 3 |\nTreasure: | Standard | Standard | Standard |\nAlignment: | Always chaotic evil | Always chaotic evil | Always chaotic evil |\nAdvancement: | By character class | By character class | By character class |\nLevel Adjustment: | +3 | +3 | +3 |\nWerewolves in humanoid form have no distinguishing traits.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::029_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::031_combat"
+}

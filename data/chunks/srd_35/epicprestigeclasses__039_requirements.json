@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::039_requirements",
+  "document_id": "srd_35::epicprestigeclasses::039_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#039_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a Union Sentinel, a character must fulfill all the following criteria.\nAlignment: Any lawful.\nBase Attack Bonus: +21.\nSkills: Diplomacy 8 ranks, Knowledge (local) 8 ranks.\nFeats: Alertness, Improved Disarm.\nEpic Feats: Armor Skin.\nSpecial: Must reside in a demiplane-city.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::038_class_features",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::040_class_skills"
+}

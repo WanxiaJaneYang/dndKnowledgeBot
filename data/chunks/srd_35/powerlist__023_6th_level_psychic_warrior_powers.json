@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::023_6th_level_psychic_warrior_powers",
+  "document_id": "srd_35::powerlist::023_6th_level_psychic_warrior_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "6TH-LEVEL PSYCHIC WARRIOR POWERS"
+    ],
+    "source_location": "PowerList.rtf#023_6th_level_psychic_warrior_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath of the Black DragonA: Breathe acid for 11d6 damage.\nDispelling Buffer: You are buffered from one dispel psionics effect.\nForm of DoomA: You transform into a frightening tentacled beast.\nMind Blank, Personal: You are immune to scrying and mental effects.\nSuspend Life: Put yourself into a state akin to suspended animation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::022_5th_level_psychic_warrior_powers"
+}

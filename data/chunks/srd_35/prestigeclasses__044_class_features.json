@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::044_class_features",
+  "document_id": "srd_35::prestigeclasses::044_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "PrestigeClasses.rtf#044_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All of the following are Class Features of the loremaster prestige class.\nWeapon and Armor Proficiency: Loremasters gain no proficiency with any weapon or armor.\nSpells per Day/Spells Known: When a new loremaster level is gained, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in a spellcasting class she belonged to before she added the prestige class. She does not, however, gain any other benefit a character of that class would have gained. This essentially means that she adds the level of loremaster to the level of some other spellcasting class the character has, then determines spells per day, spells known, and caster level accordingly.\nSecret: At 1st level and every two levels higher than 1st (3rd, 5th, 7th, and 9th), the loremaster chooses one\nsecret from the table below. Her level plus Intelligence modifier determines the total number of secrets she can choose. She can't choose the same secret twice.\nLore: At 2nd level, a loremaster gains the ability to know legends or information regarding various topics, just as a bard can with bardic knowledge. The loremaster adds her level and her Intelligence modifier to the lore check, which functions otherwise exactly like a bardic knowledge check.\nBonus Languages: A loremaster can choose any new language at 4th and 8th level.\nGreater Lore (Ex): At 6th level, a loremaster gains the ability to understand magic items, as with the identify spell.\nTrue Lore (Ex): At 10th level, once per day a loremaster can use her knowledge to gain the effect of a legend lore spell or an analyze dweomer spell.\nLoremaster Secrets |\nLevel +\nInt Modifier | Secret | Effect |\n1 | Instant mastery | 4 ranks of a skill in which the character has no ranks |\n2 | Secret health | +3 hit points |\n3 | Secrets of inner strength | +2 bonus on Will saves |\n4 | The lore of true stamina | +2 bonus on Fortitude saves |\n5 | Secret knowledge of avoidance | +2 bonus on Reflex saves |\n6 | Weapon trick | +1 bonus on attack rolls |\n7 | Dodge trick | +1 dodge bonus to AC |\n8 | Applicable knowledge | Any one feat |\n9 | Newfound arcana | 1 bonus 1st-level spell* |\n10 | More newfound arcana | 1 bonus 2nd-level spell* |\n* As if gained through having a high ability score. |\nMYSTIC THEURGE\nHit Die: d4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::043_class_skills",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::045_requirements"
+}

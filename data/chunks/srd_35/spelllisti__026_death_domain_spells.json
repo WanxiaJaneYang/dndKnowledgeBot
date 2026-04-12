@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::026_death_domain_spells",
+  "document_id": "srd_35::spelllisti::026_death_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Death Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#026_death_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.\n2 Death Knell: Kill dying creature and gain 1d8 temporary hp, +2 to Str, and +1 caster level.\n3 Animate Dead M: Creates undead skeletons and zombies.\n4 Death Ward: Grants immunity to death spells and negative energy effects.\n5 Slay Living: Touch attack kills subject.\n6 Create Undead M: Create ghouls, ghasts, mummies, or mohrgs.\n7 Destruction F: Kills subject and destroys remains.\n8 Create Greater Undead M: Create shadows, wraiths, spectres, r devourers.\n9 Wail of the Banshee: Kills one creature/level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::025_death_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::027_destruction_domain"
+}

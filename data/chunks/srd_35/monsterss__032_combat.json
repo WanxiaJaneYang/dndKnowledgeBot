@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::032_combat",
+  "document_id": "srd_35::monsterss::032_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#032_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Grigs are fierce by sprite standards, attacking opponents fearlessly with bow and dagger.\nSpell-Like Abilities: 3/day--disguise self, entangle (DC 13), invisibility (self only), pyrotechnics (DC 14), ventriloquism (DC 13). Caster level 9th. The save DCs are Charisma-based.\nFiddle (Su): One grig in each band carries a tiny, grig-sized fiddle. When the fiddler plays, any nonsprite within 30 feet of the instrument must succeed on a DC 12 Will save or be affected as though by irresistible dance for as long as the playing continues. The save DC is Charisma-based.\nSkills: Grigs have a +8 racial bonus on Jump checks. *They also have a +5 racial bonus on Move Silently checks in a forest setting.\n\nHit Dice: | 1d6 (3 hp) |\nInitiative: | +3 |\nSpeed: | 20 ft. (4 squares), swim 30 ft. |\nArmor Class: | 14 (+1 size, +3 Dex), touch 14, flat-footed 11 |\nBase Attack/Grapple: | +0/-6 |\nAttack: | Short sword +4 melee (1d4-2/19-20) or light crossbow +4 ranged (1d6/19-20) |\nFull Attack: | Short sword +4 melee (1d4-2/19-20) or light crossbow +4 ranged (1d6/19-20) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Charm person |\nSpecial Qualities: | Amphibious, damage reduction 5/cold iron, low-light vision, spell resistance 16, water breathing, wild empathy |\nSaves: | Fort +0, Ref +5, Will +3 |\nAbilities: | Str 7, Dex 16, Con 11, Int 12, Wis 13, Cha 18 |\nSkills: | Bluff +8, Craft (any one) +5, Escape Artist +6, Handle Animal +8, Hide +7*, Listen +6, Perform (sing) +7, Search +3, Sense Motive +5, Spot +6, Swim +6 |\nFeats: | DodgeB, Weapon Finesse |\nEnvironment: | Temperate aquatic |\nOrganization: | Gang (2-4), band (6-11), or tribe (20-80) |\nChallenge Rating: | 1 |\nTreasure: | No coins; 50% goods (metal or stone only); 50% items (no scrolls) |\nAlignment: | Always neutral |\nAdvancement: | 2-3 HD (Small) |\nLevel Adjustment: | +3 |\nMost nixies are slim and comely, with lightly scaled, pale green skin and dark green hair. Females often twine shells and pearl strings in their hair and dress in wraps woven from colorful seaweed. Males wear loincloths of the same materials. Nixies prefer not to leave their lakes.\nA nixie stands about 4 feet tall and weighs about 45 pounds.\nNixies speak Aquan and Sylvan. Some also speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::031_sprite",
+  "next_chunk_id": "chunk::srd_35::monsterss::033_combat"
+}

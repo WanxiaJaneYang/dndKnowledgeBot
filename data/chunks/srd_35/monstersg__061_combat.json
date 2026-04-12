@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::061_combat",
+  "document_id": "srd_35::monstersg::061_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#061_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Whenever possible, a gorgon begins an encounter by charging at its opponents.\nBreath Weapon (Su): 60-foot cone, once every 1d4 rounds (but no more than five times per day), turn to stone permanently, Fortitude DC 19 negates. The save DC is Constitution-based.\nTrample (Ex): Reflex DC 19 half. The save DC is Strength-based.\n\nHit Dice: | 10d10+70 (125 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 19 (-1 size, +10 natural), touch 9, flat-footed 19 |\nBase Attack/Grapple: | +10/+20 |\nAttack: | Bite +15 melee (2d6+6) |\nFull Attack: | Bite +15 melee (2d6+6); 2 claws +10 melee (1d6+3) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Improved grab, rend 2d6+9 |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, scent |\nSaves: | Fort +14, Ref +7, Will +4 |\nAbilities: | Str 23, Dex 10, Con 24, Int 3, Wis 12, Cha 8 |\nSkills: | Hide +2, Spot +10, Survival +3 |\nFeats: | Cleave, Power Attack, Improved Bull Rush, Track |\nEnvironment: | Temperate marshes |\nOrganization: | Solitary |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 11-15 HD (Large); 16-30 HD (Huge) |\nLevel Adjustment: | +5 (cohort) |\nA gray render stands about 9 feet tall in spite of its hunched posture and is about 4 feet wide. It weighs about 4,000 pounds.\nGray renders are never found in groups. Each of these asexual creatures produces one offspring and carries it for a time in a pouch, but thereafter the young render must fend for itself.\nA unique quality of the gray render is its tendency to bond with, protect, and provide for another creature (or group of creatures) native to its surroundings. Whether accepted or not, the render always attempts to remain fairly close, watching over its adopted charge(s) and daily bringing an offering of meat. It never willingly harms adopted creatures and retreats if they attack it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::060_greater_stone_golem",
+  "next_chunk_id": "chunk::srd_35::monstersg::062_combat"
+}

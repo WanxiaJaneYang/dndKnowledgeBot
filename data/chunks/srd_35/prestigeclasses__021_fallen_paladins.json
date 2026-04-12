@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::021_fallen_paladins",
+  "document_id": "srd_35::prestigeclasses::021_fallen_paladins",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Fallen Paladins"
+    ],
+    "source_location": "PrestigeClasses.rtf#021_fallen_paladins"
+  },
+  "chunk_type": "subsection",
+  "content": "Blackguards who have levels in the paladin class (that is to say, are now ex-paladins) gain extra abilities the more levels of paladin they have.\nA fallen paladin who becomes a blackguard gains all of the following abilities that apply, according to the number of paladin levels the character has.\n1-2: Smite good 1/day. (This is in addition to the ability granted to all blackguards at 2nd level.\n3-4: Lay on hands. Once per day, the blackguard can use this supernatural ability to cure himself or his fiendish servant of damage equal to his Charisma bonus x his level.\n5-6: Sneak attack damage increased by +1d6. Smite good 2/day.\n7-8: Fiendish summoning. Once per day, the blackguard can use a summon monster I spell to call forth an evil creature. For this spell, the caster level is double the blackguard's class level.\n9-10: Undead companion. In addition to the fiendish servant, the blackguard gains (at 5th level) a Medium-size skeleton or zombie as a companion. This companion cannot be turned or rebuked and gains all special bonuses as a fiendish servant when the blackguard gains levels. Smite good 3/day.\n11 or more: A fallen paladin of this stature immediately gains a blackguard level for each level of paladin he trades in.\nThe character level of the character does not change. With the loss of paladin levels, the character no longer gains as many extra abilities for being a fallen paladin.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::020_corrupt_weapon",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::022_the_blackguard_s_fiendish_servant"
+}

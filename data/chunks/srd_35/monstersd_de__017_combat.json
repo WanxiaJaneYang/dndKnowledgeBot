@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::017_combat",
+  "document_id": "srd_35::monstersd_de::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Vrocks are vicious fighters who like to fly down into the enemy and cause as much damage as possible. They prance about in battle, taking briefly to the air and bringing their clawed feet into play. Despite their advantage in mobility, the vrocks' deep love of battle frequently leads them into melee combats against heavy odds.\nA vrock's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nDance of Ruin (Su): To use this ability, a group of at least three vrocks must join hands in a circle, dancing wildly and chanting.\nAt the end of 3 rounds of dancing, a wave of crackling energy flashes outward in a 100-foot radius. All creatures except for demons within the radius take 20d6 points of damage (Reflex DC 18 half ). Stunning, paralyzing, or slaying one of the vrocks stops the dance. The save DC is Charisma-based.\nSpell-Like Abilities: At will--mirror image, telekinesis (DC 18), greater teleport (self plus 50 pounds of objects only); 1/day--heroism. Caster level 12th. The save DCs are Charisma-based.\nSpores (Ex): A vrock can release masses of spores from its body once every 3 rounds as a free action. The spores automatically deal 1d8 points of damage to all creatures adjacent to the vrock. They then penetrate the skin and grow, dealing an additional 1d4 points of damage each round for 10 rounds. At the end of this time, the victim is covered with a tangle of viny growths. (The vines are harmless and wither away in 1d4 days.) A delay poison spell stops the spores' growth for its duration. Bless, neutralize poison, or remove disease kills the spores, as does sprinkling the victim with a vial of holy water.\nStunning Screech (Su): Once per hour a vrock can emit a piercing screech. All creatures except for demons within a 30-foot radius must succeed on a DC 22 Fortitude save or be stunned for 1 round. The save DC is Constitution-based.\nSummon Demon (Sp): Once per day a vrock can attempt to summon 2d10 dretches or another vrock with a 35% chance of success. This ability is the equivalent of a 3rd-level spell.\nSkills: Vrocks have a +8 racial bonus on Listen and Spot checks.\n\nHit Dice: | 3d8+3 (16 hp) |\nInitiative: | +6 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 19 (+1 size, +2 Dex, +2 natural, +3 studded leather armor, +1 buckler), touch 13, flat-footed 17 |\nBase Attack/Grapple: | +3/-1 |\nAttack: | Short sword +4 melee (1d4/19-20) or repeating light crossbow +6 ranged (1d6/19-20 plus poison) |\nFull Attack: | Short sword +4 melee (1d4/19-20) or repeating light crossbow +6 ranged (1d6/19-20 plus poison) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Poison use, spell-like abilities, sneak attack +1d6 |\nSpecial Qualities: | Madness, spell resistance 15 vulnerability to sunlight |\nSaves: | Fort +2, Ref +5, Will +6 |\nAbilities: | Str 11, Dex 14, Con 13, Int 10, Wis 5*, Cha 16* |\nSkills: | Bluff +5, Hide +10, Listen +1, Move Silently +8 |\nFeats: | Blind-Fight, Improved Initiative |\nEnvironment: | Underground |\nOrganization: | Team (2-4), squad (5-8 plus 1 3rd-level sorcerer), or band (11-20 plus 30% noncombatants plus 3 3rd-level sorcerers and 1 sorcerer of 5th-8th level) |\nChallenge Rating: | 3 |\nTreasure: | Standard coins; double goods; standard items |\nAlignment: | Usually chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | -- (+2 if sane) |\nDerro are afflicted by a form of racial madness, which most often manifests as delusions of grandeur coupled with an overpowering urge to inflict torment on other creatures. Derro are capable of holding their murderous impulses in check for short periods of time in order to cooperate with creatures of other races, but such arrangements rarely last more than a few weeks. Of course, no derro is capable of recognizing that he is out of his mind.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::018_combat"
+}

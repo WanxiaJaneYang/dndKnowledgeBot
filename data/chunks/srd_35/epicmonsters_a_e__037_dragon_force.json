@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::037_dragon_force",
+  "document_id": "srd_35::epicmonsters_a_e::037_dragon_force",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Dragon (Force)"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#037_dragon_force"
+  },
+  "chunk_type": "subsection",
+  "content": "Climate/Terrain: Any land and underground\nOrganization: Wyrmling, very young, young, juvenile and young adult: solitary or clutch (2-5); adult, mature adult, old, very old, ancient, wyrm, or great wyrm: solitary, pair, or family (1-2 and 2-5 offspring)\nChallenge Rating: Wyrmling 13; very young 19; young 21; juvenile 25; young adult 28; adult 31; mature adult 35; old 37; very old 39; ancient 43; wyrm 50; great wyrm 59\nTreasure: Double standard\nAlignment: Usually neutral\nAdvancement Range: Wyrmling 21-24 HD (Huge); very young 26-29 HD (Huge); young 31-34 HD (Gargantuan); juvenile 36-39 HD (Gargantuan); young adult 41-44 HD (Gargantuan); adult 46-49 HD (Gargantuan); mature adult 51-54 HD (Colossal); old 56-59 HD (Colossal); very old 61-64 HD (Colossal); ancient 66-69 HD (Colossal); wyrm 71-74 HD (Colossal+); great wyrm 76+ HD (Colossal+)\nForce Dragons by Age\nAge | Size | Hit Dice (hp) | Str | Dex | Con | Int | Wis | Cha | Base Attack/\nGrapple | Attack | Fort Save | Ref Save | Will Save | Breath Weapon (DC) | Frightful Presence DC |\nWyrmling | H | 20d12+100 (230) | 31 | 10 | 21 | 18 | 19 | 18 | +20/+38 | +28 | +17 | +12 | +16 | 5d12 (25) | 24 |\nVery young | H | 25d12+150 (312) | 35 | 10 | 23 | 22 | 23 | 22 | +25/+45 | +35 | +20 | +14 | +20 | 10d12 (28) | 28 |\nYoung | G | 30d12+210 (405) | 39 | 10 | 25 | 26 | 27 | 26 | +30/+56 | +40 | +24 | +17 | +25 | 15d12 (32) | 33 |\nJuvenile | G | 35d12+315 (542) | 43 | 10 | 29 | 30 | 31 | 30 | +35/+63 | +47 | +28 | +19 | +29 | 20d12 (36) | 37 |\nYoung adult | G | 40d12+440 (700) | 47 | 10 | 33 | 34 | 35 | 34 | +40/+70 | +54 | +33 | +22 | +34 | 25d12 (41) | 42 |\nAdult | G | 45d12+585 (877) | 51 | 10 | 37 | 38 | 39 | 38 | +45/+77 | +61 | +37 | +24 | +38 | 30d12 (45) | 46 |\nMature adult | C | 50d12+750 (1,075) | 55 | 10 | 41 | 42 | 43 | 42 | +50/+88 | +64 | +42 | +27 | +43 | 35d12 (50) | 51 |\nOld | C | 55d12+935 (1,292) | 59 | 10 | 45 | 46 | 47 | 46 | +55/+95 | +71 | +46 | +29 | +47 | 40d12 (54) | 55 |\nVery old | C | 60d12+1,140 (1,530) | 63 | 10 | 49 | 50 | 51 | 50 | +60/+102 | +78 | +51 | +32 | +52 | 45d12 (59) | 60 |\nAncient | C | 65d12+1,365 (1,787) | 67 | 10 | 53 | 54 | 55 | 54 | +65/+109 | +85 | +55 | +34 | +56 | 50d12 (63) | 64 |\nWyrm | C+ | 70d12+1,610 (2,065) | 71 | 10 | 57 | 58 | 59 | 58 | +70/+116 | +92 | +60 | +37 | +61 | 55d12 (68) | 69 |\nGreat wyrm | C+ | 75d12+1,875 (2,362) | 75 | 10 | 61 | 62 | 63 | 62 | +75/+123 | +99 | +64 | +39 | +65 | 60d12 (72) | 73 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::036_epic_dragon_breath_weapons",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::038_force_dragon_abilities_by_age"
+}

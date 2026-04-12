@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::103_keen_strike_epic",
+  "document_id": "srd_35::epicfeats::103_keen_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "KEEN STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#103_keen_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 23, Wis 23, Improved Critical (unarmed strike), Improved Unarmed Strike, Stunning fist, ki strike (adamantine).\nBenefit: The character's unarmed strike has a critical threat range of 18-20 and deals slashing damage (at the character's option any attack can deal bludgeoning damage, but cannot then take advantage of the enhanced threat range). This ability doesn't stack with other abilities that expand that character's unarmed strike's threat range.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::102_intensify_spell_metamagic_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::104_lasting_inspiration_epic"
+}

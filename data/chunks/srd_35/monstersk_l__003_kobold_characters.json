@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::003_kobold_characters",
+  "document_id": "srd_35::monstersk_l::003_kobold_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "KOBOLD CHARACTERS"
+    ],
+    "source_location": "MonstersK-L.rtf#003_kobold_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Kobold characters possess the following racial traits.\n-- -4 Strength, +2 Dexterity, -2 Constitution.\n--Small size: +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, -4 penalty on grapple checks, lifting and carrying limits 3/4 those of Medium characters.\n--A kobold's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Racial Skills: A kobold character has a +2 racial bonus on Craft (trapmaking), Profession (miner), and Search checks.\n--Racial Feats: A kobold character gains feats according to its character class.\n-- +1 natural armor bonus.\n--Special Qualities (see above): Light sensitivity.\n--Automatic Languages: Draconic. Bonus Languages: Common, Undercommon.\n--Favored Class: Sorcerer.\n--Level adjustment +0.\n\nHit Dice: | 20d10+180 (290 hp) |\nInitiative: | +4 |\nSpeed: | Swim 20 ft. (4 squares) |\nArmor Class: | 20 (-4 size, +14 natural), touch 6, flat-footed 20 |\nBase Attack/Grapple: | +20/+44 |\nAttack: | Tentacle +28 melee (2d8+12/19-20) |\nFull Attack: | 2 tentacles +28 melee (2d8+12/19-20) and 6 arms +23 melee (1d6+6) and bite +23 melee (4d6+6) |\nSpace/Reach: | 20 ft./15 ft. (60 ft. with tentacle, 30 ft. with arm) |\nSpecial Attacks: | Improved grab, constrict 2d8+12 or 1d6+6 |\nSpecial Qualities: | Darkvision 60 ft., ink cloud, jet, low-light vision, spell-like abilities |\nSaves: | Fort +21, Ref +12, Will +13 |\nAbilities: | Str 34, Dex 10, Con 29, Int 21, Wis 20, Cha 20 |\nSkills: | Concentration +21, Diplomacy +7, Hide +0, Intimidate +16, Knowledge (geography) +17, Knowledge (nature) +16, Listen +30, Search +28, Sense Motive +17, Spot +30, Survival +5 (+7 following tracks), Swim +20, Use Magic Device +16 |\nFeats: | Alertness, Blind-Fight, Combat Expertise, Improved Critical (tentacle), Improved Initiative, Improved Trip, Iron Will |\nEnvironment: | Temperate aquatic |\nOrganization: | Solitary |\nChallenge Rating: | 12 |\nTreasure: | Triple standard |\nAlignment: | Usually neutral evil |\nAdvancement: | 21-32 HD (Gargantuan); 33-60 HD (Colossal) |\nLevel Adjustment: | -- |\nSix of the beast's tentacles are shorter arms about 30 feet long; the remaining two are nearly 60 feet long and covered with barbs. Its beaklike mouth is located where the tentacles meet the lower portion of its body.\nKrakens speak Common and Aquan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::002_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::004_combat"
+}

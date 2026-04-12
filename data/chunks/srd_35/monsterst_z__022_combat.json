@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::022_combat",
+  "document_id": "srd_35::monsterst_z::022_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#022_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The save DC for this celestial charger's neutralize poison ability (DC 20) is adjusted for its greater Hit Dice and altered Charisma score.\nA celestial charger's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nSmite Evil (Su): Once per day a celestial charger can make a normal melee attack to deal 15 points of extra damage against an evil foe.\nCleric Spells Prepared (6/7/6/5/4; save DC 18 + spell level): 0-- detect magic, detect poison (2), light, virtue (2); 1st--bless (2), calm animals*, obscuring mist, remove fear, sanctuary, shield of faith; 2nd--aid* (2), animal messenger, lesser restoration, remove paralysis, shield other; 3rd--prayer, protection from energy, remove curse, searing light (2); 4th--air walk, divine power, holy smite*, restoration.\n*Domain spell. Domains: Animal and Good.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::021_celestial_charger",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::023_vampire"
+}

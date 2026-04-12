@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::028_devastating_critical_epic",
+  "document_id": "srd_35::epicfeats::028_devastating_critical_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DEVASTATING CRITICAL [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#028_devastating_critical_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 25, Cleave, Great Cleave, Improved Critical (chosen weapon), Overwhelming Critical (chosen weapon), Power Attack, Weapon Focus (chosen weapon).\nBenefit: Whenever the character scores a critical hit with the chosen weapon, the target must make a Fortitude save (DC 10 + 1/2 character level + character's Strength modifier) or die instantly. (Creatures immune to critical hits can't be affected by this feat.)\nSpecial: A character can gain this feat multiple times. Its effects do not stack. Each time a character takes the feat, it applies to a different type of weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::027_death_of_enemies_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::029_dexterous_fortitude_epic"
+}

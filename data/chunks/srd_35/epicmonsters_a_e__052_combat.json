@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::052_combat",
+  "document_id": "srd_35::epicmonsters_a_e::052_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#052_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Air Mastery (Ex): Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental.\nWhirlwind (Su): The elemental can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 1 round for every 2 HD it has. In this form, the elemental can move through the air or along a surface at its fly speed. A primal air whirlwind is 10 feet wide at the base, 40 feet wide at the top, and up to 80 feet tall. The elemental controls its exact height, but it must be at least 10 feet. Gargantuan or smaller creatures might take damage when caught in the whirlwind and may be lifted into the air. An affected creature must succeed at a Reflex save (DC 53) when it comes into contact with the whirlwind or take 4d8 points of damage. It must also succeed at a second Reflex save (DC 53) or be picked up bodily and held suspended in the powerful winds, automatically taking 4d8 points of damage each round. A creature that can fly is allowed a Reflex save (DC 53) each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The elemental can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be. A summoned elemental always ejects trapped creatures before returning to its home plane. If the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the elemental and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have one-half concealment, while those farther away have total concealment. Those caught in the cloud must succeed at a Concentration check (DC 53) to cast a spell. The DC is Strength-based.\nPRIMAL EARTH ELEMENTAL\nEarth elementals speak Terran.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::051_elemental_primal",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::053_combat"
+}

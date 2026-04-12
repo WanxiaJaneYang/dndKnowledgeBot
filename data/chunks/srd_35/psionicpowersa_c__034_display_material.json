@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::034_display_material",
+  "document_id": "srd_35::psionicpowersa_c::034_display_material",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Display: Material"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#034_display_material"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: 0 ft.\nEffect: A normal bolt, arrow, or sling bullet\nDuration: 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::033_psychometabolism_healing",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::035_power_points_1"
+}

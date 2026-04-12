@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::004_combat",
+  "document_id": "srd_35::epicmonsters_a_e::004_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#004_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Sonic Blast (Ex): As a standard action, an anaxim can emit a 60-foot cone of sonic energy that deals 20d6 points of sonic damage to all creatures that fail a Reflex save (DC 29); those that succeed take half damage.\nThe save DC is Constitution-based\nRend (Ex): If the anaxim hits with both spinning blades, it slices particularly well. This attack automatically deals an additional 4d6+18 points of damage.\nSpell-Like Abilities: At will--greater dispel magic, displacement (DC 18), greater invisibility (DC 19), ethereal jaunt. Caster level 22nd. The save DCs are Charisma-based.\nSummon Iron Golem (Sp): An anaxim can summon an iron golem up to four times per day.\nAbomination Traits: Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.\nConstruct Traits: Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and to poison, sleep, paralysis, stunning, disease, death effects, necromantic effects, and any effect that requires a Fortitude save unless it also works on objects. Cannot heal damage (though regeneration and fast healing still apply, if present). Not subject to critical hits, subdual damage, ability damage, ability drain, or energy drain. Not at risk of death from massive damage, but destroyed when reduced to 0 hit points or less; cannot be raised or resurrected. Darkvision 60 ft.\n\nHit Dice: | 66d12 (792 hp) |\nInitiative: | +6 (+2 Dex, +4 Improved Initiative) |\nSpeed: | 5 ft., fly 240 ft. (perfect) |\nAC: | 51 (-1 size, +2 Dex, +40 natural) |\nBase Attack /Grapple: | +33/+53 |\nAttack: | Touch +49 (2d6 Con drain/19-20) melee touch |\nFull Attack: | 2 touches +49 (2d6 Con drain/19-20) melee touch, eye ray +30 (negative level damage/19-20) ranged touch |\nSpace/Reach: | 10 ft/10 ft. |\nSpecial Attacks: | Constitution drain, energy drain (2d4 negative levels, Fort DC 59), spell-like abilities, summon nightcrawler |\nSpecial Qualities: | Abomination traits, undead traits, rebuke/command undead, regeneration 20, SR 42, DR 15/good and epic and silver, negative energy aura |\nSaves: | Fort +22, Ref +26, Will +43 |\nAbilities: | Str 43, Dex 15, Con -, Int 28, Wis 22, Cha 42 |\nSkills: | Bluff +85, Concentration +85, Diplomacy +97, Hide -2, Jump +1, Intimidate +91, Knowledge (arcana, history, religion, the planes) +78, Listen +77, Search +78, Sense Motive +75, Spellcraft +84, Spot +77 |\nFeats: | Alertness, Cleave, Dodge, Expertise, Great Cleave, Improved Bull Rush, Improved Critical (touch), Improved Critical (eye ray), Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Power Attack, Quicken Spell-Like Ability, Run, Spring Attack, Weapon Focus (touch), Weapon Focus (eye ray), Whirlwind Attack |\nEpic Feats: | Devastating Critical (touch), Overwhelming Critical (touch), Undead Mastery, Zone of Animation |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 30 |\nTreasure: | Standard |\nAlignment: | Always lawful evil |\nAdvancement: | 67-80 HD (Large); 81-100 HD (Huge) |\nAn atropal's natural weapons are treated as epic, evil, and lawful-aligned for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::003_abomination_traits",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::005_combat"
+}

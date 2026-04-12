@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::012_multiweapon_fighting_general",
+  "document_id": "srd_35::monsterfeats::012_multiweapon_fighting_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "MULTIWEAPON FIGHTING [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#012_multiweapon_fighting_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 13, three or more hands.\nBenefit: Penalties for fighting with multiple weapons are reduced by 2 with the primary hand and reduced by 6 with off hands.\nNormal: A creature without this feat takes a -6 penalty on attacks made with its primary hand and a -10 penalty on attacks made with its off hands. (It has one primary hand, and all the others are off hands.) See Two-Weapon Fighting.\nSpecial: This feat replaces the Two-Weapon Fighting feat for creatures with more than two arms.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::011_multiattack_general",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::013_quicken_spell_like_ability_general"
+}

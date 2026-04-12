@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::014_armor_proficiency_medium_general",
+  "document_id": "srd_35::feats::014_armor_proficiency_medium_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "ARMOR PROFICIENCY (MEDIUM) [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#014_armor_proficiency_medium_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Armor Proficiency (light).\nBenefit: See Armor Proficiency (light).\nNormal: See Armor Proficiency (light).\nSpecial: Fighters, barbarians, paladins, clerics, druids, and bards automatically have Armor Proficiency (medium) as a bonus feat. They need not select it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::013_armor_proficiency_light_general",
+  "next_chunk_id": "chunk::srd_35::feats::015_athletic_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::034_combat",
+  "document_id": "srd_35::psionicmonsters::034_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#034_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A gray glutton attacks anything psionic, or anything that stands in its way of tracking down new psionic prey. Of course, a gray glutton has to eat--and eat a lot to feed its bulk--so when not on the scent it will attack any living creature. It always breaks off attacks against nonpsionic foes if psionic prey is an option. The only creatures it refuses to eat are elves (and it dislikes the taste of dwarves). No challenge seems too extreme to it, even if that means bulling into the center of a powerful party of manifesters.\nNull Psionic Exhalation (Su): As a free action, a gray glutton can breathe forth a cloud of pale blue translucent gas into an adjacent 10-foot cube. The gas is psionically poisonous; the initial damage is 1d4 power points, and the secondary damage is 3d4 power points (Fortitude DC 18 negates). Affected psionic characters and creatures subtract the lost power points from their reserves.\nThe save DC is Constitution-based.\nOnce a gray glutton has used its exhalation, it must wait 4 rounds before it can exhale again.\nHALF-GIANT\n| Half-Giant, 1st-Level Warrior |\n\nHit Dice: | 1d8+2 (6 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 13 (-1 Dex, +4 scale mail), touch 9, flat-footed 13 |\nBase Attack/Grapple: | +1/+7 |\nAttack: | Large greatsword +4 melee (3d6+3/19-20) or Large javelin +0 ranged (1d8+2) |\nFull Attack: | Large greatsword +4 melee (3d6+3/19-20) or Large javelin +0 ranged (1d8+2) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Psi-like abilities |\nSpecial Qualities: | Fire acclimated, giant's stature, low-light vision |\nSaves: | Fort +4, Ref -1, Will -1 |\nAbilities: | Str 15, Dex 9, Con 14, Int 10, Wis 9, Cha 8 |\nSkills: | Listen +1, Spot +1 |\nFeats: | Weapon Focus (greatsword) |\nEnvironment: | Warm desert |\nOrganization: | Team (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains) |\nChallenge Rating: | 1 |\nTreasure: | Standard |\nAlignment: | Usually neutral good |\nAdvancement: | By character class |\nLevel Adjustment: | +1 |\nHalf-giants typically stand from 7 feet to nearly 8 feet tall and weigh from 250 to 400 pounds, with men noticeably taller and heavier than women.\nHalf-giants speak Common. Many also learn Giant.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::033_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::035_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::041_the_environment",
+  "document_id": "srd_35::wildernessandenvironment::041_the_environment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "THE ENVIRONMENT"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#041_the_environment"
+  },
+  "chunk_type": "subsection",
+  "content": "Environmental hazards specific to one kind of terrain (such as an avalanche, which occurs in the mountains) are described in Wilderness, above. Environmental hazards common to more than one setting are detailed below.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::040_winds",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::042_acid_effects"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::002_traps",
+  "document_id": "srd_35::traps::002_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "TRAPS"
+    ],
+    "source_location": "Traps.rtf#002_traps"
+  },
+  "chunk_type": "rule_section",
+  "content": "Types of Traps: A trap can be either mechanical or magic in nature. Mechanical traps include pits, arrow traps, falling blocks, water-filled rooms, whirling blades, and anything else that depends on a mechanism to operate. A mechanical trap can be constructed by a PC through successful use of the Craft (trapmaking) skill (see Designing a Trap, below, and the skill description).\nMagic traps are further divided into spell traps and magic device traps. Magic device traps initiate spell effects when activated, just as wands, rods, rings, and other magic items do. Creating a magic device trap requires the Craft Wondrous Item feat (see Designing a Trap and the feat description).\nSpell traps are simply spells that themselves function as traps. Creating a spell trap requires the services of a character who can cast the needed spell or spells, who is usually either the character creating the trap or an NPC spellcaster hired for the purpose.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::001_traps",
+  "next_chunk_id": "chunk::srd_35::traps::003_mechanical_traps"
+}

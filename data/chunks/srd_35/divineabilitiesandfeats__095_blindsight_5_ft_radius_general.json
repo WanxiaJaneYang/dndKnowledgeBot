@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::095_blindsight_5_ft_radius_general",
+  "document_id": "srd_35::divineabilitiesandfeats::095_blindsight_5_ft_radius_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "BLINDSIGHT,5-FT.RADIUS [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#095_blindsight_5_ft_radius_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Base attack bonus +4, Blind-Fight, Wisdom 19.\nBenefit: Using senses such as acute hearing and sensitivity to vibrations, you detect the location of opponents who are no more than 5 feet away from you. Invisibility and darkness are irrelevant, though it you discern incorporeal beings.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::094_feats",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::096_disguise_spell_metamagic"
+}

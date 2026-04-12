@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::004_skill_checks",
+  "document_id": "srd_35::skillsi::004_skill_checks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "SKILL CHECKS"
+    ],
+    "source_location": "SkillsI.rtf#004_skill_checks"
+  },
+  "chunk_type": "subsection",
+  "content": "A skill check takes into account a character's training (skill rank), natural talent (ability modifier), and luck (the die roll). It may also take into account his or her race's knack for doing certain things (racial bonus) or what armor he or she is wearing (armor check penalty), or a certain feat the character possesses, among other things.\nTo make a skill check, roll 1d20 and add your character's skill modifier for that skill. The skill modifier incorporates the character's ranks in that skill and the ability modifier for that skill's key ability, plus any other miscellaneous modifiers that may apply, including racial bonuses and armor check penalties. The higher the result, the better. Unlike with attack rolls and saving throws, a natural roll of 20 on the d20 is not an automatic success, and a natural roll of 1 is not an automatic failure.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::003_using_skills",
+  "next_chunk_id": "chunk::srd_35::skillsi::005_difficulty_class"
+}

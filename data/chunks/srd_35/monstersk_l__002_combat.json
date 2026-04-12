@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::002_combat",
+  "document_id": "srd_35::monstersk_l::002_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "COMBAT"
+    ],
+    "source_location": "MonstersK-L.rtf#002_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Kobolds like to attack with overwhelming odds--at least two to one--or trickery; should the odds fall below this threshold, they usually flee. However, they attack gnomes on sight if their numbers are equal.\nThey begin a fight by slinging bullets, closing only when they can see that their foes have been weakened. Whenever they can, kobolds set up ambushes near trapped areas.\nLight Sensitivity (Ex): Kobolds are dazzled in bright sunlight or within the radius of a daylight spell.\nSkills: Kobolds have a +2 racial bonus on Craft (trapmaking), Profession (miner), and Search checks.\nThe kobold warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.\nChallenge Rating: Kobolds with levels in NPC classes have a CR equal to their character level -3.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::001_monstersk_l",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::003_kobold_characters"
+}

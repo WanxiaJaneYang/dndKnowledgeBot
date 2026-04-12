@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::056_power_points_1",
+  "document_id": "srd_35::psionicpowersq_w::056_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#056_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You alter the subject's mood, adjusting its attitude toward you by one step in a positive direction. For instance, an unfriendly creature can be made indifferent, or a hostile creature unfriendly. You can grant a +4 bonus on your own (or others') Bluff, Diplomacy, Intimidate, Perform, or Sense Motive checks involving the affected creature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::055_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::057_display_visual"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::001_skillsi",
+  "document_id": "srd_35::skillsi::001_skillsi",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "SkillsI"
+    ],
+    "source_location": "SkillsI.rtf#001_skillsi"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::skillsi::002_skills_summary"
+}

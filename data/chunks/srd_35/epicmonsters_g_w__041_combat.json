@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::041_combat",
+  "document_id": "srd_35::epicmonsters_g_w::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Aura of Doom (Su): A vermiurge is constantly affected as if by a crown of vermin spell (epic spell) cast by a 42nd-level caster. As per the spell, a vermiurge may completely suppress the aura of insects as desired. A vermiurge's aura of doom constantly replenishes itself at a rate of 200 vermin per round (unlimited duration). When vermin die off either by being slain or by dealing Damage to another creature, the aura does not permanently collapse, even if all the vermin are slain or if all 1,000 vermin deal their Damage in 1 round. As soon as any vermin are replenished, they participate normally in the crown of vermin effect.\nConcealing Aura (Ex): Its aura of doom constantly provides a vermiurge with nine-tenths concealment, so all attacks made against it have a 40% miss chance.\nFrightful Presence (Su): This ability takes effect automatically when the vermiurge first engages its aura of doom. It affects only opponents with fewer Hit Dice or levels than the creature has. The affected creature must make a successful Will save (DC 48) or become shaken. Success indicates that the target is immune to that creature's frightful presence for one day. The save DC is Charisma-based.\nPoison (Ex): Sting or bite, Fort save (DC 44); initial Damage 1d6 temporary Con, secondary Damage 2d6 temporary Con. The save DC is Constitution-based.\n\nHit Dice: | 32d12 (208 hp) |\nInitiative: | +12 (+8 Dex, +4 Improved Initiative) |\nSpeed: | 60 ft. |\nAC: | 46 (+8 Dex, +28 natural) |\nBase Attack/Grapple: | +16/+37 |\nAttack: | +Claw +40 (3d8+21/19-20 (+1d6 on critical hit) plus blight-fire) melee |\nFull Attack: | 2 claws +40 (3d8+21/19-20 (+1d6 on critical hit) plus blight-fire) melee, skull butt +32 (2d6+10 plus blightfire) melee |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Rend 6d8+31, blightfire, spell-like abilities |\nSpecial Qualities: | Undead traits, cold subtype, cold aura, SR 34, DR 10/- |\nSkills: | Jump +21, Intimidate +44, Knowledge (religion) +35, Listen +43, Spot +43 |\nFeats: | Cleave, Improved Critical (claw), Improved Initiative, Power Attack, Weapon Focus (claw) |\nEpic Feats: | Overwhelming Critical (claw), Blinding Speed, Epic Fortitude, Epic Weapon Focus (claw) |\nSaves: | Fort +14, Ref +18, Will +24 |\nAbilities: | Str 52, Dex 27, Con --, Int 10, Wis 22, Cha 28 |\nClimate/Terrain: | Any |\nOrganization: | Solitary or pair |\nChallenge Rating: | 23 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 33-42 HD (Medium-size); 43-55 HD (Huge) |\nWinterwights speak Common and Infernal.\nA winterwight's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::040_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::042_combat"
+}

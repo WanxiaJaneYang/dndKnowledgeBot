@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::021_combat",
+  "document_id": "srd_35::epicmonsters_g_w::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell-Like Abilities: At will--alter self, detect thoughts, displacement, freedom, greater dispelling, heal, greater invisibility, knock, speak with plants, spell turning, greater teleport, water breathing. Caster level 28th; save DC 28 + spell level. The DCs are Charisma-based.\nLeShay Weapons (Su): Each leShay carries two personal melee weapons that he or she manifests from his or her own life essence. The weapon can change form as he or she shifts from class to class, typically appearing as a bastard sword (one in each hand). When not in combat, the weapons simply do not exist, but leShay can \u201cdraw\u201d their weapons from nowhere as a free action. LeShay weapons are considered light weapons for a leShay, regardless of their size.\nSuperior Two-Weapon Fighting (Ex): A leShay fights with a leShay weapon in each hand. Because these weapons are extensions of its own body, the leShay does not take an attack or Damage penalty for attacking with two weapons.\nGaze (Su): All creatures within 30 feet who meet the gaze of a leShay become affected as if by charm monster. A Will save (DC 53) negates the effect. Each opponent within range of a gaze attack must attempt a saving throw each round at the beginning of his or her turn in the initiative order. A leShay can also actively gaze as an attack action by choosing a target within range, who must then attempt a saving throw. LeShay are immune to their own gaze. The DC is Charisma-based.\nElf Traits: Immune to magic sleep spells and effects; +2 racial bonus on Will saves against enchantment spells or effects; low-light vision (can see twice as far as a human in low-light conditions); entitled to a Search check when within 5 feet of a secret or concealed door as though actively looking for it; Martial Weapon Proficiency (composite longbow, composite shortbow, longbow, longsword, and rapier) as bonus feats; +2 racial bonus on Listen, Spot, and Search checks (already figured into the statistics given above).\n\nHit Dice: | 96d10+80 (608 hp) |\nInitiative: | -2 (Dex) |\nSpeed: | 10 ft. (can't run) |\nAC: | 60 (-8 size, -2 Dex, +60 natural) |\nBase Attack/Grapple: | +72/+123 |\nAttack: | Slam +99 (10d6+35) melee |\nFull Attack: | 2 slams +99 (10d6+35) melee |\nSpace/Reach: | 30 ft./20 ft. |\nSpecial Attacks: | Imprisonment |\nSpecial Qualities: | Recognition, safekeeping, construct traits, magic immunity, DR 15/epic and adamantine |\nSaves: | Fort +32, Ref +30, Will +33 |\nSkills: | Jump +0 |\nAbilities: | Str 80, Dex 7, Con -, Int -, Wis 12, Cha 1 |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 33 |\nTreasure: | Standard (see text) |\nAlignment: | Neutral |\nAdvancement: | None |\nTo access a vault, its creator must call the vault from where it is sequestered through the use of a sending spell. The vault has no obvious opening; however, items can be stored and retrieved by naming them (the living vault provides an inventory to its creator on request). The item to be stored appears to sink into the living vault's form as if made of mud. Likewise, items retrieved pop out of the living vault's form. Storing and retrieving items in this fashion takes one round per transaction. Creatures other than the vault's master who wish to access the inventory must destroy the vault to do so. If a vault is destroyed, all the objects and creatures stored within immediately emerge.\nA living vault's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::020_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::022_combat"
+}

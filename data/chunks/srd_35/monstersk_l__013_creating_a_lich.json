@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::013_creating_a_lich",
+  "document_id": "srd_35::monstersk_l::013_creating_a_lich",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "CREATING A LICH"
+    ],
+    "source_location": "MonstersK-L.rtf#013_creating_a_lich"
+  },
+  "chunk_type": "subsection",
+  "content": "\u201cLich\u201d is an acquired template that can be added to any humanoid creature (referred to hereafter as the base creature), provided it can create the required phylactery; see The Lich's Phylactery, below.\nA lich has all the base creature's statistics and special abilities except as noted here.\nSize and Type: The creature's type changes to undead. Do not recalculate base attack bonus, saves, or skill points. Size is unchanged.\nHit Dice: Increase all current and future Hit Dice to d12s.\nArmor Class: A lich has a +5 natural armor bonus or the base creature's natural armor bonus, whichever is better.\nAttack: A lich has a touch attack that it can use once per round. If the base creature can use weapons, the lich retains this ability. A creature with natural weapons retains those natural weapons. A lich fighting without weapons uses either its touch attack or its primary natural weapon (if it has any). A lich armed with a weapon uses its touch or a weapon, as it desires.\nFull Attack: A lich fighting without weapons uses either its touch attack (see above) or its natural weapons (if it has any). If armed with a weapon, it usually uses the weapon as its primary attack along with a touch as a natural secondary attack, provided it has a way to make that attack (either a free hand or a natural weapon that it can use as a secondary attack).\nDamage: A lich without natural weapons has a touch attack that uses negative energy to deal 1d8+5 points of damage to living creatures; a Will save (DC 10 + 1/2 lich's HD + lich's Cha modifier) halves the damage. A lich with natural weapons can use its touch attack or its natural weaponry, as it prefers. If it chooses the latter, it deals 1d8+5 points of extra damage on one natural weapon attack.\nSpecial Attacks: A lich retains all the base creature's special attacks and gains those described below. Save DCs are equal to 10 + 1/2 lich's HD + lich's Cha modifier unless otherwise noted.\nFear Aura (Su): Liches are shrouded in a dreadful aura of death and evil. Creatures of less than 5 HD in a 60-foot radius that look at the lich must succeed on a Will save or be affected as though by a fear spell from a sorcerer of the lich's level. A creature that successfully saves cannot be affected again by the same lich's aura for 24 hours.\nParalyzing Touch (Su): Any living creature a lich hits with its touch attack must succeed on a Fortitude save or be permanently paralyzed. Remove paralysis or any spell that can remove a curse can free the victim (see the bestow curse spell description).\nThe effect cannot be dispelled. Anyone paralyzed by a lich seems dead, though a DC 20 Spot check or a DC 15 Heal check reveals that the victim is still alive..\nSpells: A lich can cast any spells it could cast while alive.\nSpecial Qualities: A lich retains all the base creature's special qualities and gains those described below.\nTurn Resistance (Ex): A lich has +4 turn resistance.\nDamage Reduction (Su): A lich's undead body is tough, giving the creature damage reduction 15/bludgeoning and magic. Its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nImmunities (Ex): Liches have immunity to cold, electricity, polymorph (though they can use polymorph effects on themselves), and mind-affecting attacks.\nAbilities: Increase from the base creature as follows: Int +2, Wis +2, Cha +2. Being undead, a lich has no Constitution score.\nSkills: Liches have a +8 racial bonus on Hide, Listen, Move Silently, Search, Sense Motive, and Spot checks. Otherwise same as the base creature.\nOrganization: Solitary or troupe (1 lich, plus 2-4 vampires and 5-8 vampire spawn).\nChallenge Rating: Same as the base creature + 2.\nTreasure: Standard coins; double goods; double items.\nAlignment: Any evil.\nAdvancement: By character class.\nLevel Adjustment: Same as the base creature +4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::012_lich",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::014_lich_characters"
+}

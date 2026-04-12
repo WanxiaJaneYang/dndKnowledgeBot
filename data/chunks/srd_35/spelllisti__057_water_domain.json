@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::057_water_domain",
+  "document_id": "srd_35::spelllisti::057_water_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "WATER DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#057_water_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::056_war_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::058_water_domain_spells"
+}

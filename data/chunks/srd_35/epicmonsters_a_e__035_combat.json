@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::035_combat",
+  "document_id": "srd_35::epicmonsters_a_e::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Epic dragons share all the combat characteristics of standard dragons. Even wyrmling epic dragons are Huge, however, and are capable of making tail sweep and crush attacks. Although there is no size category larger than Colossal, the oldest epic dragons deal more damage with their attacks than other Colossal dragons, as shown on the Epic Dragon Face and Reach and Epic Dragon Attacks tables below. In addition, the breath weapon of the oldest epic dragons is a larger cone than most Colossal dragons possess. The size modifier for these dragons remains -8.\nEpic Dragon Space and Reach\nSize | Space/Reach |\nHuge | 15 ft./10 ft. |\nGargantuan | 20 ft./15 ft. |\nColossal | 30 ft./20 ft. |\nColossal+ | 30 ft./20 ft. |\nEpic Dragon Attacks\nSize | 1 Bite | 2 Claws | 2 Wings | 1 Tail Slap | 1 Crush | 1 Tail Sweep |\nHuge | 2d8 | 2d6 | 1d8 | 2d6 | 2d8 | 2d4 |\nGargantuan | 4d6 | 2d8 | 2d6 | 2d8 | 4d6 | 2d6 |\nColossal | 4d8 | 4d6 | 2d8 | 4d6 | 4d8 | 2d8 |\nColossal+ | 8d6 | 4d8 | 4d6 | 4d8 | 8d6 | 4d6 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::034_dragon_advanced",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::036_epic_dragon_breath_weapons"
+}

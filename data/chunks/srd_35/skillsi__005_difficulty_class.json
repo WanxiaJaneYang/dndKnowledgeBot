@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::005_difficulty_class",
+  "document_id": "srd_35::skillsi::005_difficulty_class",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Difficulty Class"
+    ],
+    "source_location": "SkillsI.rtf#005_difficulty_class"
+  },
+  "chunk_type": "subsection",
+  "content": "Some checks are made against a Difficulty Class (DC). The DC is a number (set using the skill rules as a guideline) that you must score as a result on your skill check in order to succeed.\nTable: Difficulty Class Examples |\nDifficulty (DC) | Example (Skill Used) |\nVery easy (0) | Notice something large in plain sight (Spot) |\nEasy (5) | Climb a knotted rope (Climb) |\nAverage (10) | Hear an approaching guard (Listen) |\nTough (15) | Rig a wagon wheel to fall off (Disable Device) |\nChallenging (20) | Swim in stormy water (Swim) |\nFormidable (25) | Open an average lock (Open Lock) |\nHeroic (30) | Leap across a 30-foot chasm (Jump) |\nNearly impossible (40) | Track a squad of orcs across hard ground after 24 hours of rainfall (Survival) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::004_skill_checks",
+  "next_chunk_id": "chunk::srd_35::skillsi::006_opposed_checks"
+}

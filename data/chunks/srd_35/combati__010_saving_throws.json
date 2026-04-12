@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::010_saving_throws",
+  "document_id": "srd_35::combati::010_saving_throws",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "SAVING THROWS"
+    ],
+    "source_location": "CombatI.rtf#010_saving_throws"
+  },
+  "chunk_type": "subsection",
+  "content": "Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your class, level, and an ability score. Your saving throw modifier is: Base save bonus + ability modifier\nSaving Throw Types: The three different kinds of saving throws are Fortitude, Reflex, and Will:\nFortitude: These saves measure your ability to stand up to physical punishment or attacks against your vitality and health. Apply your Constitution modifier to your Fortitude saving throws.\nReflex: These saves test your ability to dodge area attacks. Apply your Dexterity modifier to your Reflex saving throws.\nWill: These saves reflect your resistance to mental influence as well as many magical effects. Apply your Wisdom modifier to your Will saving throws.\nSaving Throw Difficulty Class: The DC for a save is determined by the attack itself.\nAutomatic Failures and Successes: A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see Items Surviving after a Saving Throw). A natural 20 (the d20 comes up 20) is always a success.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::009_speed",
+  "next_chunk_id": "chunk::srd_35::combati::011_initiative"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::020_wild_elf",
+  "document_id": "srd_35::monsterse_f::020_wild_elf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Wild Elf"
+    ],
+    "source_location": "MonstersE-F.rtf#020_wild_elf"
+  },
+  "chunk_type": "subsection",
+  "content": "Wild elves are barbaric and tribal. Wild elves' hair color ranges from black to light brown, lightening to silvery white with age. They dress in simple clothing of animal skins and basic plant weaves.\nWild Elf Traits (Ex): These traits are in addition to the high elf traits, except where noted.\n-- +2 Dexterity, -2 Intelligence. These adjustments replace the high elf 's ability score adjustments.\n--Favored Class: Sorcerer. This trait replaces the high elf 's favored class.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::019_gray_elf",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::021_wood_elf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::106_power_points_11",
+  "document_id": "srd_35::psionicpowersd_f::106_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#106_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "As psionic fabricate, except ten times as much material is affected by the power.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::105_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::107_display_mental"
+}

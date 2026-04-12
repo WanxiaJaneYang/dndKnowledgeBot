@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::086_power_points_11",
+  "document_id": "srd_35::psionicpowersg_p::086_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#086_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "As precognition, except as noted here.\nYou gain a +4 insight bonus instead of a +2 bonus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::085_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::087_clairsentience"
+}

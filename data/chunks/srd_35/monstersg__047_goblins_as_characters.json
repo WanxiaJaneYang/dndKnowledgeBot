@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::047_goblins_as_characters",
+  "document_id": "srd_35::monstersg::047_goblins_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GOBLINS AS CHARACTERS"
+    ],
+    "source_location": "MonstersG.rtf#047_goblins_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Goblin characters possess the following racial traits.\n-- -2 Strength, +2 Dexterity, -2 Charisma.\n--Small size: +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, -4 penalty on grapple checks, lifting and carrying limits 3/4 those of Medium characters.\n--A goblin's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n-- +4 racial bonus on Move Silently and Ride checks.\n--Automatic Languages: Common, Goblin. Bonus Languages: Draconic, Elven, Giant, Gnoll, Orc.\n--Favored Class: Rogue.\nThe goblin warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::046_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::048_golem"
+}

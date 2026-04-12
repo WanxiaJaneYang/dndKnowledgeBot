@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::041_combat",
+  "document_id": "srd_35::monsterse_f::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "COMBAT"
+    ],
+    "source_location": "MonstersE-F.rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Shriekers and violet fungi often work together to attract and kill prey. When the shriekers' hellish racket attracts a curious creature, the violet fungus tries to kill it. Both creatures enjoy the fruits of a successful hunt.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::040_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::042_shrieker"
+}

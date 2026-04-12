@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::002_building_abominations",
+  "document_id": "srd_35::epicmonsters_a_e::002_building_abominations",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "BUILDING ABOMINATIONS"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#002_building_abominations"
+  },
+  "chunk_type": "subsection",
+  "content": "Abominations are a grouping of the outsider type in the same way that demons are a grouping of the outsider type. The accompanying table indicates the average values an abomination of a given size might have for its basic physical scores. Abominations also share several other characteristics.\nSize | Str | Dex | Con | # of HD | Slam | Bite | Claw | Gore |\nFine | 12-13 | 26-27 | 12-13 | 4d8-9d8 | -- | 1d6 | 1d4 | 1d4 |\nDiminutive | 14-15 | 24-25 | 14-15 | 7d8-13d8 | 1d4 | 1d8 | 1d6 | 1d6 |\nTiny | 18-19 | 22-23 | 16-17 | 10d8-21d8 | 1d6 | 2d6 | 1d8 | 1d8 |\nSmall | 26-27 | 20-21 | 20-21 | 19d8-33d8 | 1d8 | 2d8 | 2d6 | 2d6 |\nMedium-size | 34-35 | 18-19 | 24-25 | 27d8-38d8 | 2d6 | 4d6 | 2d8 | 2d8 |\nLarge | 42-43 | 16-17 | 28-29 | 36d8-50d8+ | 2d8 | 4d8 | 4d6 | 4d6 |\nHuge | 50-51 | 14-15 | 32-33 | 47d8-58d8+ | 4d6 | 8d6 | 4d8 | 4d8 |\nGargantuan | 58-59 | 12-13 | 36-37 | 56d8-70d8+ | 4d8 | 8d8 | 8d6 | 8d6 |\nColossal | 66-67 | 10-11 | 40-41 | 71d8+ | 8d6 | 16d6 | 8d8 | 8d8 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::001_epicmonsters_a_e",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::003_abomination_traits"
+}

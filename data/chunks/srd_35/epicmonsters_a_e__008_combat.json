@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::008_combat",
+  "document_id": "srd_35::epicmonsters_a_e::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Superior Multiweapon Fighting (Ex): A hecatoncheires fights with a greatsword or a boulder in each hand. The hecatoncheires does not suffer an attack or damage penalty for attacking with one hundred weapons. However, the press of limbs prevents the creature from making iterative attacks with any of its arms, nor can it make more than ten attacks against a Small or smaller creature, fifteen attacks against a Medium-size creature, or twenty attacks against a Large creature in the same action (it can make all its attacks against a Huge or larger creature in one action).\nSkills: A hecatoncheires' fifty heads give it a +50 racial bonus on Listen, Spot, and Search checks.\nSpell-Like Abilities: At will-- greater magic weapon, fly, shield. Caster level 50th; save DC 17 + spell level. The DC is Charisma-based.\nSummon Hecatoncheires (Sp): A hecatoncheires can summon one other hecatoncheires once per day, though is loath to do so because then it will be similarly obligated to answer its sibling's summoning. A summoned hecatoncheires cannot use its summoning power while \u201csummoned.\u201d\nAbomination Traits: Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.\nRegeneration (Ex): Hecatoncheires take normal damage from good weapons or weapons tempered with the blood of a deity.\n\nHit Dice: | 40d8+360 (680 hp) |\nInitiative: | +11 (+7 Dex, +4 Improved Initiative) |\nSpeed: | 80 ft., fly 240 ft. (perfect) |\nAC: | 50 (+7 Dex, -1 size, +34 natural) |\nBase Attack/Grapple: | +40/+60 |\nAttack: | +58 claw (4d6+16) melee |\nFull Attack: | 2 claws +58 (4d6+16) melee, 1 bite +52 (4d8+8 +spell suck) melee, 2 wings +50 (2d6+8) melee, 1 tail slam +50 (4d8+8) melee |\nSpace/Reach: | 10ft./10 ft. |\nSpecial Attacks: | Improved grab, spell suck, learned spell immunity, spell-like abilities, summon fiend |\nSpecial Qualities: | Abomination traits, fast healing 15, regeneration 15, SR 38, DR 35/+7 |\nSkills: | Balance +50, Concentration +52, Diplomacy +52, Escape Artist +50, Hide +50, Jump +36, Knowledge (arcana) +49, Knowledge (the planes) +49, Listen +53, Move Silently +50, Search +49, Sense Motive +51, Spellcraft +49, Spot +53, Tumble +50 |\nFeats: | Alertness, Cleave, Great Cleave, Improved Initiative, Power Attack, Sunder, Weapon Focus (claw) |\nEpic Feats: | Blinding Speed (x2), Epic Toughness, Epic Weapon Focus (bite), Epic Weapon Focus (claw), Tenacious Magic (greater invisibility), Tenacious Magic (blur) |\nSaves: | Fort +31, Ref +29, Will +30 |\nAbilities: | Str 43, Dex 25, Con 28, Int 22, Wis 26, Cha 29 |\nClimate/Terrain: | Any |\nOrganization: | Solitary or hell brigade (1 infernal and 1d4 balors, or 1 infernal and 1d4 pit fiends) |\nChallenge Rating: | 26 |\nTreasure: | Standard |\nAlignment: | Lawful evil or chaotic evil |\nAdvancement: | 41-50 HD (Large); 51-56 HD (Huge); 57-72 HD (Gargantuan) |\nAn infernal's natural weapons are treated as epic, evil, and chaotic-aligned or lawful-aligned for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::007_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::009_combat"
+}

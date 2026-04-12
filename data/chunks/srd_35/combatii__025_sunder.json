@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::025_sunder",
+  "document_id": "srd_35::combatii::025_sunder",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "SUNDER"
+    ],
+    "source_location": "CombatII.rtf#025_sunder"
+  },
+  "chunk_type": "subsection",
+  "content": "You can use a melee attack with a slashing or bludgeoning weapon to strike a weapon or shield that your opponent is holding. If you're attempting to sunder a weapon or shield, follow the steps outlined here. (Attacking held objects other than weapons or shields is covered below.)\n\nWeapon or Shield | Hardness | HP1 |\nLight blade | 10 | 2 |\nOne-handed blade | 10 | 5 |\nTwo-handed blade | 10 | 10 |\nLight metal-hafted weapon | 10 | 10 |\nOne-handed metal-hafted weapon | 10 | 20 |\nLight hafted weapon | 5 | 2 |\nOne-handed hafted weapon | 5 | 5 |\nTwo-handed hafted weapon | 5 | 10 |\nProjectile weapon | 5 | 5 |\nArmor | special2 | armor bonus x\uf0205 |\nBuckler | 10 | 5 |\nLight wooden shield | 5 | 7 |\nHeavy wooden shield | 5 | 15 |\nLight steel shield | 10 | 10 |\nHeavy steel shield | 10 | 20 |\nTower shield | 5 | 20 |\n1 The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium. |\n2 Varies by material. |\nStep 1: Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the Improved Sunder feat, you don't incur an attack of opportunity for making the attempt.)\nStep 2: Opposed Rolls. You and the defender make opposed attack rolls with your respective weapons. The wielder of a two-handed weapon on a sunder attempt gets a +4 bonus on this roll, and the wielder of a light weapon takes a -4 penalty. If the combatants are of different sizes, the larger combatant gets a bonus on the attack roll of +4 per difference in size category.\nStep 3: Consequences. If you beat the defender, roll damage and deal it to the weapon or shield. See Table: Common Armor, Weapon, and Shield Hardness and Hit Points to determine how much damage you must deal to destroy the weapon or shield.\nIf you fail the sunder attempt, you don't deal any damage.\nSundering a Carried or Worn Object: You don't use an opposed attack roll to damage a carried or worn object. Instead, just make an attack roll against the object's AC. A carried or worn object's AC is equal to 10 + its size modifier + the Dexterity modifier of the carrying or wearing character. Attacking a carried or worn object provokes an attack of opportunity just as attacking a held object does. To attempt to snatch away an item worn by a defender rather than damage it, see Disarm. You can't sunder armor worn by another character.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::024_overrun",
+  "next_chunk_id": "chunk::srd_35::combatii::026_throw_splash_weapon"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::001_monstersg",
+  "document_id": "srd_35::monstersg::001_monstersg",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "MonstersG"
+    ],
+    "source_location": "MonstersG.rtf#001_monstersg"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n\nHit Dice: | 4d8+19 (37 hp) |\nInitiative: | +2 |\nSpeed: | 40 ft. (8 squares), fly 60 ft. (average) |\nArmor Class: | 16 (+2 Dex, +4 natural), touch 12, flat-footed 14 |\nBase Attack/Grapple: | +4/+6 |\nAttack: | Claw +6 melee (1d4+2) |\nFull Attack: | 2 claws +6 melee (1d4+2) and bite +4 melee (1d6+1) and gore +4 melee (1d6+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Damage reduction 10/magic, darkvision 60 ft., freeze |\nSaves: | Fort +5, Ref +6, Will +4 |\nAbilities: | Str 15, Dex 14, Con 18, Int 6, Wis 11, Cha 7 |\nSkills: | Hide +7*, Listen +4, Spot +4 |\nFeats: | Multiattack, Toughness |\nEnvironment: | Any |\nOrganization: | Solitary, pair, or wing (5-16) |\nChallenge Rating: | 4 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | 5-6 HD (Medium); 7-12 HD (Large) |\nLevel Adjustment: | +5 |\nGargoyles often appear to be winged stone statues, for they can perch indefinitely without moving and use this disguise to surprise their foes. They require no food, water, or air, but often eat their fallen foes out of fondness for inflicting pain.\nGargoyles speak Common and Terran.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersg::002_combat"
+}

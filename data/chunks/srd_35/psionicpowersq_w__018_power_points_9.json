@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::018_power_points_9",
+  "document_id": "srd_35::psionicpowersq_w::018_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#018_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You take a hand in influencing the probable outcomes of your immediate environment. You see the many alternative branches that reality could take in the next few seconds, and with this foreknowledge you gain the ability to reroll one attack roll, one saving throw, one ability check, or one skill check each round. You must take the result of the reroll, even if it's worse than the original roll. You do not have to make another roll if satisfied with your original roll.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::017_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::019_display_visual"
+}

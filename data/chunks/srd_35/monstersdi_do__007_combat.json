@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::007_combat",
+  "document_id": "srd_35::monstersdi_do::007_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#007_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "These creatures are likely to charge and skewer any creature of at least Large size that infringes on their territory. A triceratops uses its trample attack on smaller opponents.\nPowerful Charge (Ex): When a triceratops charges, its gore attack deals 4d8+20 points of damage.\nTrample (Ex): Reflex half DC 28. The save DC is Strength-based.\n\nHit Dice: | 18d8+99 (180 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 14 (-2 size, +1 Dex, +5 natural) touch 9, flat-footed 13 |\nBase Attack/Grapple: | +13/+30 |\nAttack: | Bite +20 melee (3d6+13) |\nFull Attack: | Bite +20 melee (3d6+13) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Improved grab, swallow whole |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +16, Ref +12, Will +8 |\nAbilities: | Str 28, Dex 12, Con 21, Int 2, Wis 15, Cha 10 |\nSkills: | Hide -2, Listen +14, Spot +14 |\nFeats: | Alertness, Improved Natural Attack (bite), Run, Toughness (3), Track |\nEnvironment: | Warm plains |\nOrganization: | Solitary or pair |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 19-36 HD (Huge); 37-54 HD (Gargantuan) |\nLevel Adjustment: | -- |\nDespite its enormous size and 6-ton weight, a tyrannosaurus is a swift runner. Its head is nearly 6 feet long, and its teeth are from 3 to 6 inches in length. It is slightly more than 30 feet long from nose to tail.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::006_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::008_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::020_harpy",
+  "document_id": "srd_35::monstersh_i::020_harpy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HARPY"
+    ],
+    "source_location": "MonstersH-I.rtf#020_harpy"
+  },
+  "chunk_type": "subsection",
+  "content": "| Harpy | Harpy Archer, 7th-Level Fighter |\n| Medium Monstrous Humanoid | Medium Monstrous Humanoid |\nHit Dice: | 7d8 (31 hp) | 7d8 + 7d10 + 28 (103 hp) |\nInitiative: | +2 | +9 |\nSpeed: | 20 ft. (4 squares), fly 80 ft. (average) | 20 ft. (4 squares), fly 80 ft. (average) |\nArmor Class: | 13 (+2 Dex, +1 natural), touch 12, flat-footed 11 | AC 23 (+5 Dex, +1 natural, +6 +3 studded leather, +1 ring of protection +1), touch 16, flat-footed 18 |\nBase Attack/Grapple: | +7/+7 | +14/+15 |\nAttack: | Club +7 melee (1d6) | +1 frost composite longbow (+1 Str bonus) +22 ranged (1d8+4/19-20/\u00d73 plus 1d6 cold) or claw +15 melee (1d3+1) |\nFull Attack: | Club +7/+2 melee (1d6) and 2 claws +2 melee (1d3) | +1 frost composite longbow (+1 Str bonus) +22/+17/+12 ranged (1d8+4/19-20/\u00d73 plus 1d6 cold) or 2 claws +15 melee (1d3+1) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | Captivating song | Captivating song |\nSpecial Qualities: | Darkvision 60 ft. | Darkvision 60 ft. |\nSaves: | Fort +2, Ref +7, Will +6 | Fort +11, Ref +14, Will +11 |\nAbilities: | Str 10, Dex 15, Con 10, Int 7, Wis 12, Cha 17 | Str 12, Dex 20, Con 14, Int 6, Wis 11, Cha 19 |\nSkills: | Bluff +11, Intimidate +7, Listen +7, Perform (oratory) +5, Spot +3 | Bluff +11, Intimidate +5, Listen +7, Perform (oratory) +10, Spot +5 |\nFeats: | Dodge, Flyby Attack, Persuasive | Alertness, Improved Critical (composite longbow), Improved Initiative, Iron Will, Manyshot, Point Blank Shot, Rapid Shot, Weapon Focus (composite longbow), Weapon Specialization (composite longbow) |\nEnvironment: | Temperate marshes | Temperate marshes |\nOrganization: | Solitary, pair, or flight (7-12) | Solitary |\nChallenge Rating: | 4 | 11 |\nTreasure: | Standard | Standard (including equipment) |\nAlignment: | Usually chaotic evil | Usually chaotic evil |\nAdvancement: | By character class | By character class |\nLevel Adjustment: | +3 | +3 |\nHarpies like to entrance hapless travelers with their magical songs and lead them to unspeakable torments. Only when a harpy has finished playing with its new \u201ctoys\u201d will it release them from suffering by killing and consuming them.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::019_deep_halfling",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::021_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::009_combat",
+  "document_id": "srd_35::monstersb_c::009_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#009_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A behir usually bites and grabs its prey first, then either swallows or constricts the opponent. It can employ its claws only against foes caught in its coils. If beset by a large number of foes, it uses its breath weapon.\nBreath Weapon (Su): 20-foot line, once every 10 rounds, damage 7d6 electricity, Reflex DC 19 half. The save DC is Constitution-based.\nConstrict (Ex): A behir deals 2d8+8 points of damage with a successful grapple check. It can make six rake attacks against a grappled foe as well.\nImproved Grab (Ex): To use this ability, a behir must hit a creature of any size with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nIf it wins the grapple check, it it establishes a hold and can attempt to constrict the opponent or swallow the opponent in the following round.\nRake (Ex): Six claws, attack bonus +15 melee, damage 1d4+4.\nSwallow Whole (Ex): A behir can try to swallow a grabbed Medium or smaller opponent by making a successful grapple check.\nA behir that swallows an opponent can use its Cleave feat to bite and grab another opponent.\nA swallowed creature takes 2d8+8 points of bludgeoning damage and 8 points of acid damage per round from the behir's gizzard. A swallowed creature can cut its way out by using a light slashing or piercing weapon to deal 25 points of damage to the gizzard (AC 15). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out.\nA behir's gizzard can hold 2 Medium, 8 Small, 32 Tiny, or 128 Diminutive or smaller opponents.\nSkills: Behirs have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened.\n\nHit Dice: | 7d8+7 (38 hp) |\nInitiative: | +5 |\nSpeed: | 30 ft. (6 squares), fly 50 ft. (perfect) |\nArmor Class: | 22 (-1 size, +5 Dex, +8 natural), touch 14, flat-footed 17 |\nBase Attack/Grapple: | +5/+11 |\nAttack: | Wing +9 melee (1d6+2) |\nFull Attack: | 2 wings +9 melee (1d6+2) and bite +4 melee (1d4+1) and 2 claws +4 melee (1d3+1) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Smoke claws |\nSpecial Qualities: | Darkvision 60 ft., elemental traits, smoke form |\nSaves: | Fort +3, Ref +10, Will +2 |\nAbilities: | Str 14, Dex 21, Con 13, Int 6, Wis 11, Cha 11 |\nSkills: | Listen +7, Move Silently +9, Spot +7 |\nFeats: | Alertness, Multiattack, Weapon Finesse |\nEnvironment: | Elemental Plane of Air |\nOrganization: | Solitary, pair, or clutch (3-4) |\nChallenge Rating: | 6 |\nTreasure: | None |\nAlignment: | Usually neutral evil |\nAdvancement: | 8-10 HD (Large); 11-21 HD (Huge) |\nLevel Adjustment: | -- |\nBelkers are creatures from the Plane of Air. They are composed primarily of smoke. Although undeniably evil, they are very reclusive and usually have no interest in the affairs of others. A belker's winged shape makes it look distinctly demonic. It is about 7 feet long and weighs about 8 pounds.\nBelkers speak Auran.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::008_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::010_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::030_psychometabolism_healing",
+  "document_id": "srd_35::psionicpowersa_c::030_psychometabolism_healing",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Psychometabolism (Healing)"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#030_psychometabolism_healing"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 3, psychic warrior 2\nDisplay: Auditory and material\nManifesting Time: 1 round\n\nPower Points: Psion/wilder 5, psychic warrior 3\nYou take control of your body's healing process, curing yourself of 1d12 points of damage. As usual, when regular damage is healed, an equal amount of nonlethal damage is also healed.\nAugment: For every 2 additional power points you spend, this power heals an additional 1d12 points of damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::029_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::031_psychometabolism"
+}

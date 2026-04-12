@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::056_illus",
+  "document_id": "srd_35::spelllistii::056_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#056_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Shades: As shadow conjuration, but up to 8th level and 80% real.\nWeird: As phantasmal killer, but affects all within 30 ft.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::055_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::057_necro"
+}

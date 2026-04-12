@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::038_law_domain_spells",
+  "document_id": "srd_35::spelllisti::038_law_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Law Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#038_law_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Protection from Chaos: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.\n2 Calm Emotions: Calms creatures, negating emotion effects.\n3 Magic Circle against Chaos: As protection spells, but 10-ft. radius and 10 min./level.\n4 Order's Wrath: Damages and dazes chaotic creatures.\n5 Dispel Chaos: +4 bonus against attacks by chaotic creatures.\n6 Hold Monster: As hold person, but any creature.\n7 Dictum: Kills, paralyzes, slows, or deafens nonlawful subjects.\n8 Shield of Law F: +4 to AC, +4 resistance, and SR 25 against chaotic spells.\n9 Summon Monster IX*: Calls extraplanar creature to fight for you.\n*Cast as a law spell only.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::037_knowledge_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::039_luck_domain"
+}

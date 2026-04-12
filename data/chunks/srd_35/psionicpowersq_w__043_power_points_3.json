@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::043_power_points_3",
+  "document_id": "srd_35::psionicpowersq_w::043_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#043_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You can go without food and water for one day. Each time you manifest this power, your body manufactures suffi- cient solid and liquid nourishment to satisfy your needs for that time.\nSwarm of Crystals",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::042_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::044_display_material"
+}

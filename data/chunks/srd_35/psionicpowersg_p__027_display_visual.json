@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::027_display_visual",
+  "document_id": "srd_35::psionicpowersg_p::027_display_visual",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Visual"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#027_display_visual"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nTargets: One weapon or fifty projectiles, all of which must be in contact with each other at the time of manifestation\nDuration: 10 min./level\nSaving Throw: Will negates (harmless, object)\nPower Resistance: Yes (harmless, object)\n\nAs the keen edge spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::026_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::028_display_material"
+}

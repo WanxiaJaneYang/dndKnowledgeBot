@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::005_appraise",
+  "document_id": "srd_35::epicskills::005_appraise",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Appraise"
+    ],
+    "source_location": "EpicSkills.rtf#005_appraise"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can sense magical auras in objects.\nTask | DC |\nDetect magic | 50 |\nDetect Magic: The character can sense if an item has a magical aura. He or she can then use Spellcraft to learn more about the item as if he or she had already cast detect magic on the item. This requires a full-round action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::004_skill_descriptions",
+  "next_chunk_id": "chunk::srd_35::epicskills::006_balance"
+}

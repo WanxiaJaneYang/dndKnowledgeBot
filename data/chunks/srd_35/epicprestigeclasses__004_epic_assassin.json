@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::004_epic_assassin",
+  "document_id": "srd_35::epicprestigeclasses::004_epic_assassin",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "EPIC ASSASSIN"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#004_epic_assassin"
+  },
+  "chunk_type": "subsection",
+  "content": "Hit Die: d6.\nSkill Points at Each Additional Level: 4 + Int modifier.\nSneak Attack: The epic assassin's sneak attack damage increases by +1d6 every two levels after 9th.\nDeath Attack: The assassin counts only half his or her class levels beyond 10th when determining the DC to resist this attack.\nSpells: The assassin's caster level is equal to his or her class level. The assassin's number of spells per day does not increase after 10th level.\nUncanny Dodge: The assassin's uncanny dodge bonus on saves against traps doesn't increase after 10th level.\nSaving Throw Bonus against Poison: The assassin's bonus on saves against poison increases by +1 every two levels after 10th.\nBonus Feats: The epic assassin gains a bonus feat (selected from the list of epic assassin feats) every four levels after 10th.\nEpic Assassin Bonus Feat List: Dexterous Fortitude, Dexterous Will, Improved Combat Casting, Improved Death Attack, Improved Sneak Attack, Improved Spell Capacity, Legendary Tracker, Lingering Damage, Sneak Attack of Opportunity, Spell Knowledge, Spontaneous Spell, Superior Initiative, Tenacious Magic, Uncanny Accuracy.\nTable: The Epic Assassin\nLevel | Special |\n11th | Sneak attack +6d6 |\n12th | +6 save against poison |\n13th | Sneak attack +7d6 |\n14th | +7 save against poison, bonus feat |\n15th | Sneak attack +8d6 |\n16th | +8 save against poison |\n17th | Sneak attack +9d6 |\n18th | +9 save against poison, bonus feat |\n19th | Sneak attack +10d6 |\n20th | +10 save against poison |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::003_skill_points_at_each_additional_level_4_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::005_epic_blackguard"
+}

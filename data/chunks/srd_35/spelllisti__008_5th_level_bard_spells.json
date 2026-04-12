@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::008_5th_level_bard_spells",
+  "document_id": "srd_35::spelllisti::008_5th_level_bard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "5TH-LEVEL BARD SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#008_5th_level_bard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Cure Light Wounds, Mass: Cures 1d8 damage +1/level for many creatures.\nDispel Magic, Greater: As dispel magic, but +20 on check.\nDream: Sends message to anyone sleeping.\nFalse Vision M: Fools scrying with an illusion.\nHeroism, Greater: Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.\nMind Fog: Subjects in fog get -10 to Wis and Will checks.\nMirage Arcana: As hallucinatory terrain, plus structures.\nMislead: Turns you invisible and creates illusory double.\nNightmare: Sends vision dealing 1d10 damage, fatigue.\nPersistent Image: As major image, but no concentration required.\nSeeming: Changes appearance of one person per two levels.\nShadow Evocation: Mimics evocation of lower than 5th level, but only 20% real.\nShadow Walk: Step into shadow to travel rapidly.\nSong of Discord: Forces targets to attack each other.\nSuggestion, Mass: As suggestion, plus one subject/level.\nSummon Monster V: Calls extraplanar creature to fight for you.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::007_4th_level_bard_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::009_6th_level_bard_spells"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::018_epic_psychic_warrior",
+  "document_id": "srd_35::epicclasses::018_epic_psychic_warrior",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "EPIC PSYCHIC WARRIOR"
+    ],
+    "source_location": "EpicClasses.rtf#018_epic_psychic_warrior"
+  },
+  "chunk_type": "subsection",
+  "content": "Hit Die: d8.\nSkill Points at Each Additional Level: 2 + Int modifier.\nPowers: The psychic warrior's manifester level is equal to her class level. The psychic warrior's base power points do not increase after 20th level. The epic psychic warrior gains one new power of any level that she can manifest at every even-numbered level she attains higher than 20th (22nd, 24th, 26th, and so on).\nBonus Feats: The epic psychic warrior gains a bonus feat (selected from the list of epic psychic warrior bonus feats) at 21st level and every three levels thereafter.\nTable: The Epic Psychic Warrior\nPsychic Warrior Level | Special |\n21st | Bonus feat |\n22nd | -- |\n23rd | -- |\n24th | Bonus feat |\n25th | -- |\n26th | -- |\n27th | Bonus feat |\n28th | -- |\n29th | -- |\n30th | Bonus feat |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::017_psicrystals_at_epic_level",
+  "next_chunk_id": "chunk::srd_35::epicclasses::019_epic_soulknife"
+}

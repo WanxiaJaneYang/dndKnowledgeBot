@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::007_creation_domain_spells",
+  "document_id": "srd_35::divinedomainsandspells::007_creation_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "Creation Domain Spells"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#007_creation_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Create water\n2 Minor image\n3 Create food and water\n4 Minor creation\n5 Major creation\n6 Heroes' feast\n7 Permanent image\n8 True creation\n9 Genesis\nDARKNESS DOMAIN\nGranted Power: Free Blind-Fight feat.\nDarkness Domain Spells\n1 Obscuring mist",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::006_creation_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::008_3_blacklight"
+}

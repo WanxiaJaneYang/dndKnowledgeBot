@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::007_templates",
+  "document_id": "srd_35::improving_monsters::007_templates",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "TEMPLATES"
+    ],
+    "source_location": "Improving Monsters.rtf#007_templates"
+  },
+  "chunk_type": "subsection",
+  "content": "Certain creatures are created by adding a template to an existing creature. A templated creature can represent a freak of nature, the individual creation of a single experimenter, or the first generation of offspring from parents of different species.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::006_size_increases",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::008_acquired_and_inherited_templates"
+}

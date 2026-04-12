@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::042_acid_effects",
+  "document_id": "srd_35::wildernessandenvironment::042_acid_effects",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "ACID EFFECTS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#042_acid_effects"
+  },
+  "chunk_type": "subsection",
+  "content": "Corrosive acids deals 1d6 points of damage per round of exposure except in the case of total immersion (such as into a vat of acid), which deals 10d6 points of damage per round. An attack with acid, such as from a hurled vial or a monster's spittle, counts as a round of exposure.\nThe fumes from most acids are inhaled poisons. Those who come close enough to a large body of acid to dunk a creature in it must make a DC 13 Fortitude save or take 1 point of Constitution damage. All such characters must make a second save 1 minute later or take another 1d4 points of Constitution damage.\nCreatures immune to acid's caustic properties might still drown in it if they are totally immersed (see Drowning).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::041_the_environment",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::043_cold_dangers"
+}

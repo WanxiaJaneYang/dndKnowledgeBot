@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::043_epic_leadership_epic",
+  "document_id": "srd_35::epicfeats::043_epic_leadership_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC LEADERSHIP [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#043_epic_leadership_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Cha 25, Leadership, Leadership score 25.\nBenefit: The character attracts a cohort and followers as shown below on Table: Epic Leadership. In all other ways Epic Leadership functions as the Leadership feat.\nNormal: The Leadership feat provides no benefit for leadership scores beyond 25.\n\nLeadership Score | Cohort Level | --------------------Number of Followers by Level ------------------ |\n| | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | 10th |\n25 | 17th | 135 | 13 | 7 | 4 | 2 | 2 | 1 | -- | -- | -- |\n26 | 18th | 160 | 16 | 8 | 4 | 2 | 2 | 1 | -- | -- | -- |\n27 | 18th | 190 | 19 | 10 | 5 | 3 | 2 | 1 | -- | -- | -- |\n28 | 19th | 220 | 22 | 11 | 6 | 3 | 2 | 1 | -- | -- | -- |\n29 | 19th | 260 | 26 | 13 | 7 | 4 | 2 | 1 | -- | -- | -- |\n30 | 20th | 300 | 30 | 15 | 8 | 4 | 2 | 1 | -- | -- | -- |\n31 | 20th | 350 | 35 | 18 | 9 | 5 | 3 | 2 | 1 | -- | -- |\n32 | 21st | 400 | 40 | 20 | 10 | 5 | 3 | 2 | 1 | -- | -- |\n33 | 21st | 460 | 46 | 23 | 12 | 6 | 3 | 2 | 1 | -- | -- |\n34 | 22nd | 520 | 52 | 26 | 13 | 6 | 3 | 2 | 1 | -- | -- |\n35 | 22nd | 590 | 59 | 30 | 15 | 8 | 4 | 2 | 1 | -- | -- |\n36 | 23rd | 660 | 66 | 33 | 17 | 9 | 5 | 3 | 2 | 1 | -- |\n37 | 23rd | 740 | 74 | 37 | 19 | 10 | 5 | 3 | 2 | 1 | -- |\n38 | 24th | 820 | 82 | 41 | 21 | 11 | 6 | 3 | 2 | 1 | -- |\n39 | 24th | 910 | 91 | 46 | 23 | 12 | 6 | 3 | 2 | 1 | -- |\n40 | 25th | 1000 | 100 | 50 | 25 | 13 | 7 | 4 | 2 | 1 | -- |\nper +1 | +1/2* | +100** | \u2020 | \u2020 | \u2020 | \u2020 | \u2020 | \u2020 | \u2020 | \u2020 | \u2020 |\nLeadership Score: A character's Leadership score equals his or her level plus any Charisma modifier. Outside factors can affect a character's Leadership score, as detailed in the Leadership feat.\nCohort Level: The character can attract a cohort of up to this level. Regardless of the character's Leadership score, he or she can't recruit a cohort of his or her level or higher.\nNumber of Followers by Level: The character can lead up to the indicated number of characters of each level.\n*The maximum cohort level increases by 1 for every 2 points of Leadership above 40. **The number of 1st-level followers increases by 100 for every point of Leadership above 40.\n\u2020A character can command one-tenth as many 2nd-level followers as 1st-level followers. A character can command one-half as many 3rd-level followers as 2nd-level followers, one-half as many 4th-level followers as 3rd-level followers, and so on (round fractions up, except any fraction less than 1 rounds to 0). A character can't have a follower of higher than 20th level.\nTable: Example Special Epic Cohorts presents some creatures that make good cohorts for epic characters.\nTable: Example Special Epic Cohorts\nCreature | Alignment | Level Equivalent |\nAngel, astral deva | Any good | 20nd |\nDragon, ancient silver | Lawful good | 42nd |\nCouatl | Lawful good | 16th |\nGiant, cloud | Neutral good | 24th |\nGhaele | Chaotic good | 20st |\nGiant, storm | Chaotic good | 28th |\nDragon, wyrm brass | Chaotic good | 42th |\nDragon turtle | Neutral | 21st |\nHydra, 12-headed | Neutral | 19th |\nRoc | Neutral | 23rd |\nDragon, ancient green | Lawful evil | 40th |\nDevil, ice (gelugon) | Lawful evil | 21st |\nGiant, cloud | Neutral evil | 24th |\nDemon, glabrezu | Chaotic evil | 23rd |\nDemon, succubus | Chaotic evil | 12th |\nDragon, wyrm white | Chaotic evil | 41th |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::042_epic_inspiration_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::044_epic_prowess_epic"
+}

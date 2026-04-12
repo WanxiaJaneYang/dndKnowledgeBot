@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::035_combat",
+  "document_id": "srd_35::monstersintro_a::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "An ankheg usually lies 5 to 10 feet below the surface until its antennae detect the approach of prey. It then burrows up to attack. (Treat this as a charge, even though the ankheg does not need to move 10 feet before attacking.)\nClusters of ankhegs share the same territory but do not cooperate.\nImproved Grab (Ex): To use this ability, an ankheg must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If the ankheg is damaged after grabbing its prey, it retreats backward down its tunnel at its land speed (not its burrow speed), dragging the victim with it.\nSpit Acid (Ex): 30-ft. line, once every 6 hours; damage 4d4 acid, Reflex DC 14 half. One such attack depletes the ankheg's acid supply for 6 hours. It cannot spit acid or deal acid damage during this time. The save DC is Constitution-based.\nAn ankheg does not use this ability unless it is desperate or frustrated. It most often spits acid when reduced to fewer than half its full normal hit points or when it has not successfully grabbed an opponent.\n\nHit Dice: | 3d10+6 (22 hp) |\nInitiative: | +6 |\nSpeed: | 50 ft. (10 squares), climb 25 ft. |\nArmor Class: | 13 (+2 Dex, +1 natural), touch 12, flat-footed 11 |\nBase Attack/Grapple: | +3/+3 |\nAttack: | Bite +5 melee (1d6 plus poison) or web +5 ranged |\nFull Attack: | Bite +5 melee (1d6 plus poison) or web +5 ranged |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Poison, spells, web |\nSpecial Qualities: | Change shape, darkvision 60 ft., low-light vision |\nSaves: | Fort +5, Ref +5, Will +4 |\nAbilities: | Str 11, Dex 15, Con 14, Int 14, Wis 13, Cha 14 |\nSkills: | Climb +14, Concentration +8, Escape Artist +5, Jump +13, Listen +6, Spot +6 |\nFeats: | Improved Initiative, Iron WillB, Weapon Finesse |\nEnvironment: | Temperate forests |\nOrganization: | Solitary or colony (3-6) |\nChallenge Rating: | 4 |\nTreasure: | Standard coins; double goods; standard items |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +4 |\nAn aranea is an intelligent, shapechanging spider with sorcerous powers. In its natural form, an aranea resembles a big spider, with a humpbacked body a little bigger than a human torso. It has fanged mandibles like a normal spider. Two small arms, each about 2 feet long, lie below the mandibles. Each arm has a hand with four many-jointed fingers and a double-jointed thumb.\nAn aranea weighs about 150 pounds. The hump on its back houses its brain.\nAraneas speak Common and Sylvan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::034_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::036_combat"
+}

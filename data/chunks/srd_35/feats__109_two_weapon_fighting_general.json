@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::109_two_weapon_fighting_general",
+  "document_id": "srd_35::feats::109_two_weapon_fighting_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "TWO-WEAPON FIGHTING [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#109_two_weapon_fighting_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You can fight with a weapon in each hand. You can make one extra attack each round with the second weapon.\nPrerequisite: Dex 15.\nBenefit: Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6.\nNormal: If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. When fighting in this way you suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10 penalty to the attack with your off hand. If your off-hand weapon is light the penalties are reduced by 2 each. (An unarmed strike is always considered light.)\nSpecial: A 2nd-level ranger who has chosen the two-weapon combat style is treated as having Two-Weapon Fighting, even if he does not have the prerequisite for it, but only when he is wearing light or no armor.\nA fighter may select Two-Weapon Fighting as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::108_two_weapon_defense_general",
+  "next_chunk_id": "chunk::srd_35::feats::110_weapon_finesse_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::017_masterwork_items",
+  "document_id": "srd_35::magicitemsi::017_masterwork_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "MASTERWORK ITEMS"
+    ],
+    "source_location": "MagicItemsI.rtf#017_masterwork_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Masterwork items are extraordinarily well-made items. They are more expensive, but they benefit the user with improved quality. They are not magical in any way. However, only masterwork items may be enhanced to become magic armor and weapons. (Items that are not weapons or armor may or may not be masterwork items.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::016_magic_item_gold_piece_values",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::018_creating_magic_armor"
+}

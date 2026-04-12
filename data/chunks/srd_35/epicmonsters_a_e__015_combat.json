@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::015_combat",
+  "document_id": "srd_35::epicmonsters_a_e::015_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#015_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Frightful Howl (Su): As a standard action, a brachyurus can emit a howl in a 60-foot-radius spread that affects opponents with fewer Hit Dice or levels than the brachyurus has. The affected creature must make a successful Will save (DC 33) or become shaken. Success indicates that the target is immune to that brachyurus's frightful howl for one day. The DC is Charisma-based.\nSavage (Ex): If a brachyurus successfully trips an opponent, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 15d6+25 points of damage. If an opponent goes prone for any reason in an area a brachyurus threatens, the brachyurus can also savage the victim as a free action (treat as the brachyurus's attack of opportunity for the round), even though it had nothing to do with tripping the foe.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::014_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::016_colossus"
+}

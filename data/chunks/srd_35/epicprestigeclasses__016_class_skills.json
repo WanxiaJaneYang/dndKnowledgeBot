@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::016_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::016_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#016_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The agent retriever's class skills (and the key ability for each skill) are Appraise (Int), Decipher Script (Int), Diplomacy (Cha), Forgery (Int), Gather Information (Cha), Knowledge (arcana) (Int), Knowledge (geography) (Int), Knowledge (history) (Int), Knowledge (local) (Int), Knowledge (the planes) (Int), Listen (Wis), Search (Int), and Spot (Wis), Survival (Wis).\nSkill Points at Each Level: 6 + Int modifier.\nTable: The Agent Retriever\nLevel | Special | Spells per Day |\n1st | Uncanny location, tracking bonus +10 | +1 level of existing class |\n2nd | Plane shift 1/day | +1 level of existing class |\n3rd | Force sphere 1/day | +1 level of existing class |\n4th | Ethereal jaunt 1/day | +1 level of existing class |\n5th | Bonus feat | +1 level of existing class |\n6th | Tracking bonus +20 | +1 level of existing class |\n7th | Plane shift 2/day | +1 level of existing class |\n8th | Force sphere 2/day | +1 level of existing class |\n9th | Ethereal jaunt 2/day | +1 level of existing class |\n10th | Bonus feat | +1 level of existing class |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::015_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::017_class_features"
+}

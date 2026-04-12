@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::004_combat",
+  "document_id": "srd_35::monstersdi_do::004_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "COMBAT"
+    ],
+    "source_location": "MonstersDi-Do.rtf#004_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dinosaurs take full advantage of their size and speed. The swift carnivores stalk prey, staying hidden in cover until they can get into charge range and rush to the attack. Herbivores frequently overrun and trample their opponents.\n\nHit Dice: | 4d8+16 (34 hp) |\nInitiative: | +2 |\nSpeed: | 60 ft. (12 squares) |\nArmor Class: | 16 (-1 size, +2 Dex, +5 natural), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +3/+11 |\nAttack: | Talons +6 melee (2d6+4) |\nFull Attack: | Talons +6 melee (2d6+4) and 2 foreclaws +1 melee (1d3+2) and bite +1 melee (2d4+2) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Pounce |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +8, Ref +6, Will +2 |\nAbilities: | Str 19, Dex 15, Con 19, Int 2, Wis 12, Cha 10 |\nSkills: | Hide +8, Jump +26, Listen +10, Spot +10, Survival +10 |\nFeats: | Run, Track |\nEnvironment: | Warm forests |\nOrganization: | Solitary, pair, or pack (3-6) |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 5-8 HD (Large) |\nLevel Adjustment: | -- |\nA deinonychus is bright green along its back and flanks, with a much lighter shade of the same color on its underside. The body has darker spots or stripes. Its tail extends straight out behind itself, held aloft by an intricate structure of bony supports, thus allowing its weight to be carried entirely by the back legs. It weighs about 600 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::003_dinosaur",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::005_combat"
+}

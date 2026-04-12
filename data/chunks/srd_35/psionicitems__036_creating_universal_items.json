@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::036_creating_universal_items",
+  "document_id": "srd_35::psionicitems::036_creating_universal_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Creating Universal Items"
+    ],
+    "source_location": "PsionicItems.rtf#036_creating_universal_items"
+  },
+  "chunk_type": "subsection",
+  "content": "To create a universal item, a character usually needs some sort of equipment or tools to work on the item. He also needs a supply of materials, the most obvious being the item itself or the pieces of the item to be assembled. The cost for the materials is subsumed in the cost for creating the item. Universal item costs are difficult to formularize. Refer to Table: Estimating Magic Item Gold Piece Values and use the given item prices as a guideline. Creating an item costs half the market value listed.\nIf powers are involved in the prerequisites for making the item, the creator must know the power to be placed in the item (or must have the power available in some other form). Any experience point cost for a prerequisite power is not incurred by the creator of the item. The act of working on the item requires a payment of power points appropriate to the power or powers associated with the item during each day of the item's creation.\nCrafting a universal item requires one day for each 1,000 gp of the base price.\nItem Creation Feat Required: Craft Universal Item.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::035_creating_psionic_tattoos",
+  "next_chunk_id": "chunk::srd_35::psionicitems::037_special_materials"
+}

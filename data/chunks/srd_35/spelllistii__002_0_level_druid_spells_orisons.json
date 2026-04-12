@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::002_0_level_druid_spells_orisons",
+  "document_id": "srd_35::spelllistii::002_0_level_druid_spells_orisons",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "0-LEVEL DRUID SPELLS (ORISONS)"
+    ],
+    "source_location": "SpellListII.rtf#002_0_level_druid_spells_orisons"
+  },
+  "chunk_type": "subsection",
+  "content": "Create Water: Creates 2 gallons/level of pure water.\nCure Minor Wounds: Cures 1 point of damage.\nDetect Magic: Detects spells and magic items within 60 ft.\nDetect Poison: Detects poison in one creature or object.\nFlare: Dazzles one creature (-1 penalty on attack rolls).\nGuidance: +1 on one attack roll, saving throw, or skill check.\nKnow Direction: You discern north.\nLight: Object shines like a torch.\nMending: Makes minor repairs on an object.\nPurify Food and Drink: Purifies 1 cu. ft./level of food or water.\nRead Magic: Read scrolls and spellbooks.\nResistance: Subject gains +1 bonus on saving throws.\nVirtue: Subject gains 1 temporary hp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::001_spelllistii",
+  "next_chunk_id": "chunk::srd_35::spelllistii::003_1st_level_druid_spells"
+}

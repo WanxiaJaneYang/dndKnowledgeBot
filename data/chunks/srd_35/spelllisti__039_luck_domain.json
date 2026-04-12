@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::039_luck_domain",
+  "document_id": "srd_35::spelllisti::039_luck_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "LUCK DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#039_luck_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: You gain the power of good fortune, which is usable once per day. This extraordinary ability allows you to reroll one roll that you have just made before the DM declares whether the roll results in success or failure. You must take the result of the reroll, even if it's worse than the original roll.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::038_law_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::040_luck_domain_spells"
+}

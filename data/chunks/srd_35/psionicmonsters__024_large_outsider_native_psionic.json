@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::024_large_outsider_native_psionic",
+  "document_id": "srd_35::psionicmonsters::024_large_outsider_native_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Large Outsider (Native, Psionic)"
+    ],
+    "source_location": "PsionicMonsters.rtf#024_large_outsider_native_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Special Attacks: Constrict 2d8+6, improved grab, poison, psi-like abilities, spells",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::023_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::025_combat"
+}

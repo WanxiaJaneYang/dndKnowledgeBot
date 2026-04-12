@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::053_improved_disarm_general",
+  "document_id": "srd_35::feats::053_improved_disarm_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED DISARM [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#053_improved_disarm_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Int 13, Combat Expertise.\nBenefit: You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to disarm your opponent.\nNormal: See the normal disarm rules.\nSpecial: A fighter may select Improved Disarm as one of his fighter bonus feats.\nA monk may select Improved Disarm as a bonus feat at 6th level, even if she does not meet the prerequisites.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::052_improved_critical_general",
+  "next_chunk_id": "chunk::srd_35::feats::054_improved_familiar_general"
+}

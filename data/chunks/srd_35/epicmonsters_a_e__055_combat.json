@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::055_combat",
+  "document_id": "srd_35::epicmonsters_a_e::055_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#055_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Burn (Ex): Those hit by a primal fire elemental's slam attack must succeed at a Reflex save (DC 51) or catch fire. The flame burns for 1d4 rounds. A burning creature can take a move-equivalent action to put out the flame. Creatures hitting a fire elemental with natural weapons or unarmed attacks take fire damage as though hit by the elemental's attack, and also catch fire unless they succeed at a Reflex save. The DC is Constitution-based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::054_primal_fire_elemental",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::056_primal_water_elemental"
+}

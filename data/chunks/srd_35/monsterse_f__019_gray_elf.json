@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::019_gray_elf",
+  "document_id": "srd_35::monsterse_f::019_gray_elf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Gray Elf"
+    ],
+    "source_location": "MonstersE-F.rtf#019_gray_elf"
+  },
+  "chunk_type": "subsection",
+  "content": "Taller and grander in physical appearance than others of their race, gray elves have a reputation for being aloof and arrogant (even by elven standards). They have either silver hair and amber eyes or pale golden hair and violet eyes. They prefer clothing of white, silver, yellow, or gold, with cloaks of deep blue or purple.\nGray Elf Traits (Ex): These traits are in addition to the high elf traits.\n-- +2 Intelligence, -2 Strength.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::018_aquatic_elf",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::020_wild_elf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::028_spell_trap_cost",
+  "document_id": "srd_35::traps::028_spell_trap_cost",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Spell Trap Cost"
+    ],
+    "source_location": "Traps.rtf#028_spell_trap_cost"
+  },
+  "chunk_type": "subsection",
+  "content": "A spell trap has a cost only if the builder must hire an NPC spellcaster to cast it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::027_magic_device_trap_cost",
+  "next_chunk_id": "chunk::srd_35::traps::029_craft_dcs_for_mechanical_traps"
+}

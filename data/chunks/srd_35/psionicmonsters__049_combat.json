@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::049_combat",
+  "document_id": "srd_35::psionicmonsters::049_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#049_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Improved Grab (Ex): To use this ability, a temporal filcher must hit a creature of Large size or smaller with two claw attacks. It can then attempt to start a grapple as a free action without provoking attacks of opportunity. If it wins the grapple check, it establishes a hold and uses its time filch ability.\nPsi-Like Abilities: At will--chameleon, distract (DC 13), psionic dimension door, psionic levitate, wall walker; 3/ day--mental barrier. Manifester level 8th. The save DC is Charisma-based.\nTime Filch (Su): If a temporal filcher successfully grapples a Large or smaller creature, it latches onto the opponent's body and shifts 7 minutes forward in time as a free action. Observers (if any) see the temporal filcher and its prey disappear in a shimmer, then reappear 7 minutes later in exactly the orientation and condition they left. For the filcher and its prey, no time passes at all. The victim must succeed on a Will save (DC 16) or be dazed for 1 round from temporal disorientation. The ability is otherwise identical to time hop manifested by an 8th-level manifester.\n\nHit Dice: | 3d8 (13 hp) |\nInitiative: | +8 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 17 (+1 size, +4 Dex, +2 natural), touch 15, flatfooted 13 |\nBase Attack/Grapple: | +2/-1 |\nAttack: | +4 melee touch (eat thoughts) |\nFull Attack: | +4 melee touch (eat thoughts) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Eat thoughts, psi-like abilities |\nSpecial Qualities: | Darkvision 60 ft., ethereal jaunt |\nSaves: | Fort +1, Ref +5, Will +4 |\nAbilities: | Str 12, Dex 18, Con 11, Int 7, Wis 12, Cha 14 |\nSkills: | Hide +10, Listen +5, Spot +5 |\nFeats: | Alertness, Improved Initiative |\nEnvironment: | Ethereal Plane |\nOrganization: | Solitary or group (1-3) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 4-6 HD (Small) |\nLevel Adjustment: | -- |\nThought eaters do not speak.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::048_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::050_combat"
+}

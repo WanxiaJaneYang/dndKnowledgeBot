@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::031_creating_psionic_items",
+  "document_id": "srd_35::psionicitems::031_creating_psionic_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "CREATING PSIONIC ITEMS"
+    ],
+    "source_location": "PsionicItems.rtf#031_creating_psionic_items"
+  },
+  "chunk_type": "subsection",
+  "content": "To calculate the costs involved in creating a psionic item, refer to Creating Magic Items. Although that information deals with magic items, the price formulas presented there are identical to those for psionic items.\nCreating psionic armor and psionic weapons is almost identical to the requirements for creating magic armor and magic weapons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::030_mindlink",
+  "next_chunk_id": "chunk::srd_35::psionicitems::032_creating_dorjes"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::022_transmutation",
+  "document_id": "srd_35::magicoverview::022_transmutation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "Transmutation"
+    ],
+    "source_location": "MagicOverview.rtf#022_transmutation"
+  },
+  "chunk_type": "subsection",
+  "content": "Transmutation spells change the properties of some creature, thing, or condition.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::021_necromancy",
+  "next_chunk_id": "chunk::srd_35::magicoverview::023_descriptor"
+}

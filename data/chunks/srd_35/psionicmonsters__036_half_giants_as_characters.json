@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::036_half_giants_as_characters",
+  "document_id": "srd_35::psionicmonsters::036_half_giants_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "HALF-GIANTS AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#036_half_giants_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Half-giant characters possess the following racial traits.\n-- +2 Constitution, +2 Strength, -2 Dexterity.\n--Medium size.\n--Half-giant base land speed is 30 feet.\n--Low-light vision.\n--Naturally Psionic: Half-giants gain 2 bonus power points at 1st level, regardless of whether they choose a psionic class.\n--Fire Acclimated: Half-giants have a +2 racial bonus on saving throws against all fire spells and effects.\n--Powerful build (see above).\n--Special Attacks (see above): Psi-like abilities.\n--Automatic Language: Common. Bonus Language: Draconic, Giant, Gnoll, Ignan.\n--Favored Class: Psychic warrior.\n--Level adjustment: +1.\n\nHit Dice: | 6d8+15 (42 hp) |\nInitiative: | +5 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 21 (+1 size, +5 Dex, +5 natural), touch 16, flat-footed 16 |\nBase Attack/Grapple: | +4/+1 |\nAttack: | Claw +6 melee (1d3+1) |\nFull Attack: | 4 claws +6 melee (1d3+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Body thief, psi-like abilities |\nSpecial Qualities: | Blindsight 60 ft., damage reduction 10/adamantine, immunity to fire, power resistance 23, resistance to electricity 15, vulnerability to protection from evil |\nSaves: | Fort +4, Ref +7, Will +6 |\nAbilities: | Str 13, Dex 21, Con 15, Int 12, Wis 12, Cha 14 |\nSkills: | Bluff + 15, Concentration +11 (+15 when manifesting defensively), Hide +14, Listen +14, Move Silently +16 |\nFeats: | Combat Manifestation, Toughness, Up the Walls, Wild TalentB |\nEnvironment: | Underground |\nOrganization: | Solitary or pod (2-4) |\nChallenge Rating: | 7 |\nTreasure: | 1/2 coins; double goods; standard items |\nAlignment: | Always chaotic evil |\nAdvancement: | 7-8 HD (Small); 9-15 HD (Medium); 16-18 HD (Large) |\nLevel Adjustment: | +6 |\nIntellect devourers understand Common but must be in possession of a body to speak. An intellect devourer in possession of a body also knows the languages known by that victim.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::035_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::037_combat"
+}

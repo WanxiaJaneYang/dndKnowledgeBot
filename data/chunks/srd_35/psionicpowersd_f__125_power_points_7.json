@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::125_power_points_7",
+  "document_id": "srd_35::psionicpowersd_f::125_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#125_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "As the freedom of movement spell, except as noted here.\nFuse Flesh\nPsychometabolism\nLevel: Psion/wilder 6\nDisplay: Visual\nManifesting Time: 1 standard action\n\nTarget: Creature touched\nDuration: 1 round/level\nSaving Throw: Fortitude negates and Fortitude partial; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::124_psychoportation",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::126_power_points_11"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::013_2nd_level_paladin_spells",
+  "document_id": "srd_35::spelllistii::013_2nd_level_paladin_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "2ND-LEVEL PALADIN SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#013_2nd_level_paladin_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Bull's Strength: Subject gains +4 to Str for 1 min./level.\nDelay Poison: Stops poison from harming subject for 1 hour/level.\nEagle's Splendor: Subject gains +4 to Cha for 1 min./level.\nOwl's Wisdom: Subject gains +4 to Wis for 1 min./level.\nRemove Paralysis: Frees one or more creatures from paralysis or slow effect.\nResist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.\nShield Other F: You take half of subject's damage.\nUndetectable Alignment: Conceals alignment for 24 hours.\nZone of Truth: Subjects within range cannot lie.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::012_1st_level_paladin_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::014_3rd_level_paladin_spells"
+}

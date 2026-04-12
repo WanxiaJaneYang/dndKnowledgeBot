@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::021_half_orcs",
+  "document_id": "srd_35::monsterso_r::021_half_orcs",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "HALF-ORCS"
+    ],
+    "source_location": "MonstersO-R.rtf#021_half_orcs"
+  },
+  "chunk_type": "subsection",
+  "content": "These orc-human crossbreeds can be found in either orc or human society (where their status varies according to local sentiments), or in communities of their own. Half-orcs usually inherit a good blend of the physical characteristics of their parents. They are as tall as humans and a little heavier, thanks to their muscle. They have greenish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and coarse body hair. Half-orcs who have lived among or near orcs have scars, in keeping with orcish tradition.\nHalf-Orc Traits (Ex): Half-orcs possess the following racial traits.\n-- +2 Strength, -2 Intelligence, -2 Charisma.\n--Medium size.\n--A half-orc's base land speed is 30 feet.\n--Darkvision: Half-orcs can see in the dark up to 60 feet.\n--Orc Blood: For all effects related to race, a half-orc is considered an orc.\n--Automatic Languages: Common, Orc. Bonus Languages: Draconic, Giant, Gnoll, Goblin, Abyssal.\n--Favored Class: Barbarian.\n\nHit Dice: | 6d8+9 (36 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 17 (-1 size, +8 natural), touch 9, flat-footed 17 |\nBase Attack/Grapple: | +4/+8 |\nAttack: | Tentacle +4 melee (1d6) |\nFull Attack: | 2 tentacles +4 melee (1d6) and bite -2 melee (1d4) |\nSpace/Reach: | 10 ft./10 ft. (15 ft. with tentacle) |\nSpecial Attacks: | Constrict 1d6, disease, improved grab |\nSpecial Qualities: | Darkvision 60 ft., scent |\nSaves: | Fort +3, Ref +2, Will +6 |\nAbilities: | Str 11, Dex 10, Con 13, Int 5, Wis 12, Cha 6 |\nSkills: | Hide -1*, Listen +6, Spot +6 |\nFeats: | Alertness, Toughness, Weapon Focus (tentacle) |\nEnvironment: | Underground |\nOrganization: | Solitary, pair, or cluster (3-4) |\nChallenge Rating: | 4 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 7-8 HD (Large); 9-18 HD (Huge) |\nLevel Adjustment: | -- |\nA typical otyugh has a body 8 feet in diameter and weighs about 500 pounds.\nOtyughs speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::020_orcs_as_characters",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::022_combat"
+}

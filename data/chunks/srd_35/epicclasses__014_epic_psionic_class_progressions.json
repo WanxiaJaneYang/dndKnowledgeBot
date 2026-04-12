@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::014_epic_psionic_class_progressions",
+  "document_id": "srd_35::epicclasses::014_epic_psionic_class_progressions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "EPIC PSIONIC CLASS PROGRESSIONS"
+    ],
+    "source_location": "EpicClasses.rtf#014_epic_psionic_class_progressions"
+  },
+  "chunk_type": "subsection",
+  "content": "Epic level psionic characters follow the same epic progression as non-psionics epic characters, except as noted below.\nFor manifesters, manifester level continues to increase after 20th level. However, a manifester's power points and powers known at each level do not increase automatically after 20th level.\nThe powers of psicrystals that are based on the creator's level continue to increase as their owner gains levels.\nBonus feats for epic psionic classes can be chosen from among any epic feats for which the character meets the prerequisites or any psionic, metapsionic, or psionic item creation feat, as normal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::013_familiars_at_epic_level",
+  "next_chunk_id": "chunk::srd_35::epicclasses::015_no_epic_bonus_power_progression"
+}

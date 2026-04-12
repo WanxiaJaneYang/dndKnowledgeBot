@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::010_intelligent_items",
+  "document_id": "srd_35::magicitemsi::010_intelligent_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "INTELLIGENT ITEMS"
+    ],
+    "source_location": "MagicItemsI.rtf#010_intelligent_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Some magic items, particularly weapons, have an intelligence all their own. Only permanent magic items (as opposed to those with a single use or those with charges) can be intelligent. (This means that potions, scrolls, and wands, among other items, are never intelligent.)\nIn general, less than 1% of magic items have intelligence.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::009_repairing_magic_items",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::011_cursed_items"
+}

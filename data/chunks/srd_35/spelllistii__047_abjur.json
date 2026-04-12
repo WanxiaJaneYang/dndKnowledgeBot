@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::047_abjur",
+  "document_id": "srd_35::spelllistii::047_abjur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Abjur"
+    ],
+    "source_location": "SpellListII.rtf#047_abjur"
+  },
+  "chunk_type": "subsection",
+  "content": "Banishment: Banishes 2 HD/level of extraplanar creatures.\nSequester: Subject is invisible to sight and scrying; renders creature comatose.\nSpell Turning: Reflect 1d4+6 spell levels back at caster.\n\nInstant Summons M: Prepared object appears in your hand.\nMage's Magnificent Mansion F: Door leads to extradimensional mansion.\nPhase Door: Creates an invisible passage through wood or stone.\nPlane Shift F: As many as eight subjects travel to another plane.\nSummon Monster VII: Calls extraplanar creature to fight for you.\nTeleport, Greater: As teleport, but no range limit and no off-target arrival.\nTeleport Object: As teleport, but affects a touched object.\n\nArcane Sight, Greater: As arcane sight, but also reveals magic effects on creatures and objects.\nScrying, Greater: As scrying, but faster and longer.\nVision M X: As legend lore, but quicker and strenuous.\n\nHold Person, Mass: As hold person, but all within 30 ft.\nInsanity: Subject suffers continuous confusion.\nPower Word Blind: Blinds creature with 200 hp or less.\nSymbol of Stunning M: Triggered rune stuns nearby creatures.\n\nDelayed Blast Fireball: 1d6/level fire damage; you can postpone blast for 5 rounds.\nForcecage M: Cube or cage of force imprisons all inside.\nGrasping Hand: Hand provides cover, pushes, or grapples.\nMage's Sword F: Floating magic blade strikes opponents.\nPrismatic Spray: Rays hit subjects with variety of effects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::046_trans",
+  "next_chunk_id": "chunk::srd_35::spelllistii::048_illus"
+}

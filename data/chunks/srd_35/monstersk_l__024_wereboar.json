@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::024_wereboar",
+  "document_id": "srd_35::monstersk_l::024_wereboar",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "WEREBOAR"
+    ],
+    "source_location": "MonstersK-L.rtf#024_wereboar"
+  },
+  "chunk_type": "subsection",
+  "content": "| Wereboar, Human Form | Wereboar, Boar Form | Wereboar, Hybrid Form |\n| Medium Humanoid (Human, Shapechanger) | Medium Humanoid (Human, Shapechanger) | Medium Humanoid (Human, Shapechanger) |\nHit Dice: | 1d8+4 plus 3d8+12 (34 hp) | 1d8+4 plus 3d8+12 (34 hp) | 1d8+4 plus 3d8+12 (34 hp) |\nInitiative: | +0 | +0 | +0 |\nSpeed: | 20 ft. in scale mail (4 squares); base speed 30 ft. | 40 ft. (8 squares) | 30 ft. (6 squares) |\nArmor Class: | 18 (+2 natural, +4 scale mail, +2 heavy shield) touch 10, flat-footed 18 | 18 (+8 natural) touch 10, flat- footed 18 | 18 (+8 natural) touch 10, flat-footed 18 |\nBase Attack/Grapple: | +3/+4 | +3/+6 | +3/+6 |\nAttack: | Battleaxe +4 melee (1d8+1/x3) or javelin +3 ranged (1d6+1) | Gore +6 melee (1d8+4) | Battleaxe +6 melee (1d8+4/x3) or claw +6 melee (1d4+3) |\nFull Attack: | Battleaxe +4 melee (1d8+1/x3) or javelin +3 ranged (1d6+1) | Gore +6 melee (1d8+4) | Battleaxe +6 melee (1d8+4/x3) and gore +1 melee (1d6+1); or 2 claws +6 melee (1d4+3) and gore +1 melee (1d6+1) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | -- | Curse of lycanthropy | Curse of lycanthropy |\nSpecial Qualities: | Alternate form, boar empathy, ferocity, low-light vision, scent | Alternate form, boar empathy, damage reduction 10/silver, ferocity, low-light vision, scent | Alternate form, boar empathy, damage reduction 10/silver, ferocity, low-light vision, scent |\nSaves: | Fort +6, Ref +3, Will +3 | Fort +9, Ref +3, Will +3 | Fort +9, Ref +3, Will +3 |\nAbilities: | Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8 | Str 17, Dex 11, Con 18, Int 10, Wis 11, Cha 8 | Str 17, Dex 11, Con 18, Int 10, Wis 11, Cha 8 |\nSkills: | Handle Animal +3, Intimidate +3, Listen +5, Spot +4 | Handle Animal +3, Intimidate +3, Listen +5, Spot +4 | Handle Animal +3, Intimidate +3, Listen +5, Spot +4 |\nFeats: | AlertnessB, Improved Bull Rush, Iron WillB, Power Attack, Toughness | (same as human form) | (same as human form) |\nEnvironment: | Temperate forests | Temperate forests | Temperate forests |\nOrganization: | Solitary, pair, brood (3-4), or troupe (2-4 plus 1-4 boars) | (same as human form) | (same as human form) |\nChallenge Rating: | 4 | 4 | 4 |\nTreasure: | Standard | Standard | Standard |\nAlignment: | Always neutral | Always neutral | Always neutral |\nAdvancement: | By character class | By character class | By character class |\nLevel Adjustment: | +3 | +3 | +3 |\nA wereboar in humanoid form tends to be a stocky, muscular individual of average height. It dresses in simple garments that are easy to remove, repair, or replace.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::023_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::025_combat"
+}

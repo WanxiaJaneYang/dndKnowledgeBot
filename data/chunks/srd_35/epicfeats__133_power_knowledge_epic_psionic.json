@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::133_power_knowledge_epic_psionic",
+  "document_id": "srd_35::epicfeats::133_power_knowledge_epic_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "POWER KNOWLEDGE [EPIC, PSIONIC]"
+    ],
+    "source_location": "EpicFeats.rtf#133_power_knowledge_epic_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You add two additional powers to your list of powers known.\nPrerequisites: Character level 21st, ability to manifest powers of the normal maximum power level in at least one psionic class.\nBenefit: You learn two new powers of any level up to the highest level of power you can manifest. The powers you select must be on your class list or the list for your discipline.\nSpecial: You can gain this feat multiple times. Each time, you learn two new powers at any level up to the highest level of power you can manifest.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::132_positive_energy_aura_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::134_psicrystal_power_epic_psionic"
+}

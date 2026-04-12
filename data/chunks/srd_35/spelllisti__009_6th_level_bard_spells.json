@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::009_6th_level_bard_spells",
+  "document_id": "srd_35::spelllisti::009_6th_level_bard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "6TH-LEVEL BARD SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#009_6th_level_bard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Analyze Dweomer F: Reveals magical aspects of subject.\nAnimate Objects: Objects attack your foes.\nCat's Grace, Mass: As cat's grace, affects one subject/level.\nCharm Monster, Mass: As charm monster, but all within 30 ft.\nCure Moderate Wounds, Mass: Cures 2d8 damage +1/level for many creatures.\nEagle's Splendor, Mass: As eagle's splendor, affects one subject/level.\nEyebite: Target becomes panicked, sickened, and comatose.\nFind the Path: Shows most direct way to a location.\nFox's Cunning, Mass: As fox's cunning, affects one subject/level.\nGeas/Quest: As lesser geas, plus it affects any creature.\nHeroes' Feast: Food for one creature/level cures and grants combat bonuses.\nIrresistible Dance: Forces subject to dance.\nPermanent Image: Includes sight, sound, and smell.\nProgrammed Image M: As major image, plus triggered by event.\nProject Image: Illusory double can talk and cast spells.\nScrying, Greater: As scrying, but faster and longer.\nShout, Greater: Devastating yell deals 10d6 sonic damage; stuns creatures, damages objects.\nSummon Monster VI: Calls extraplanar creature to fight for you.\nSympathetic Vibration: Deals 2d10 damage/round to freestanding structure.\nVeil: Changes appearance of group of creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::008_5th_level_bard_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::010_0_level_cleric_spells_orisons"
+}

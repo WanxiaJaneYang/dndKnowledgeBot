@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::031_combat",
+  "document_id": "srd_35::monsterse_f::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Formian workers fight only to defend their hive-cities, using their mandibled bite.\nA formian worker's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.\nCure Serious Wounds (Sp): Eight workers together can heal a creature's wounds as though using the cure serious wounds spell (caster level 7th). This is a full-round action for all eight workers.\nMake Whole (Sp): Three workers together can repair an object as though using the make whole spell (caster level 7th). This is a fullround action for all three workers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::030_worker",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::032_warrior"
+}

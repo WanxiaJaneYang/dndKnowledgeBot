@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::010_burrowing_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::010_burrowing_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "BURROWING POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#010_burrowing_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your powers sometimes bypass barriers.\nBenefit: To use this feat, you must expend your psionic focus. You can attempt to manifest your powers against targets that are sheltered behind a wall or force effect. Your power briefly skips through the Astral Plane to bypass the barrier.\nThe strength and thickness of the barrier determine your chance of success. To successfully bypass the barrier with your power, you make a Psicraft check against a DC equal to 10 + the hardness of the barrier + 1 per foot of thickness (minimum 1). Assign a hardness of 20 to barriers without a hardness rating, such as force effects (or a wall of ectoplasm). Force walls or walls of ectoplasm are assumed to have less than 1 foot of thickness unless noted otherwise.\nIf a power requires line of sight (which includes most powers that affect a target or targets instead of an area), you cannot manifest it as a burrowing power unless you can somehow see the target, such as with clairvoyant sense. Using this feat increases the power point cost of the power by 2. The power's total cost cannot exceed your manifester level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::009_boost_construct_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::011_chain_power_metapsionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::008_attack",
+  "document_id": "srd_35::monstersintro_a::008_attack",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Attack"
+    ],
+    "source_location": "MonstersIntro-A.rtf#008_attack"
+  },
+  "chunk_type": "subsection",
+  "content": "This line shows the single attack the creature makes with an attack action. In most cases, this is also the attack the creature uses when making an attack of opportunity as well. The attack line provides the weapon used (natural or manufactured), attack bonus, and form of attack (melee or ranged). The attack bonus given includes modifications for size and Strength (for melee attacks) or Dexterity (for ranged attacks). A creature with the Weapon Finesse feat can use its Dexterity modifier on melee attacks. If the creature uses natural attacks, the natural weapon given here is the creature's primary natural weapon. If the creature has several different weapons at its disposal, the alternatives are shown, with each different attack separated by the word \u201cor.\u201d A creature can use one of its secondary natural weapons when making an attack action, but if it does it takes an attack penalty, as noted in the Full Attack section below. The damage that each attack deals is noted parenthetically. Damage from an attack is always at least 1 point, even if a subtraction from a die roll reduces the result to 0 or lower.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::007_base_attack_grapple",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::009_full_attack"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::combati::045_nonlethal_damage",
+  "document_id": "srd_35::combati::045_nonlethal_damage",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "NONLETHAL DAMAGE"
+    ],
+    "source_location": "CombatI.rtf#045_nonlethal_damage"
+  },
+  "chunk_type": "subsection",
+  "content": "Dealing Nonlethal Damage: Certain attacks deal nonlethal damage. Other effects, such as heat or being exhausted, also deal nonlethal damage. When you take nonlethal damage, keep a running total of how much you've accumulated. Do not deduct the nonlethal damage number from your current hit points. It is not \u201creal\u201d damage. Instead, when your nonlethal damage equals your current hit points, you're staggered, and when it exceeds your current hit points, you fall unconscious. It doesn't matter whether the nonlethal damage equals or exceeds your current hit points because the nonlethal damage has gone up or because your current hit points have gone down.\nNonlethal Damage with a Weapon that Deals Lethal Damage: You can use a melee weapon that deals lethal damage to deal nonlethal damage instead, but you take a -4 penalty on your attack roll.\nLethal Damage with a Weapon that Deals Nonlethal Damage: You can use a weapon that deals nonlethal damage, including an unarmed strike, to deal lethal damage instead, but you take a -4 penalty on your attack roll.\nStaggered and Unconscious: When your nonlethal damage equals your current hit points, you're staggered. You can only take a standard action or a move action in each round. You cease being staggered when your current hit points once again exceed your nonlethal damage.\nWhen your nonlethal damage exceeds your current hit points, you fall unconscious. While unconscious, you are helpless.\nSpellcasters who fall unconscious retain any spellcasting ability they had before going unconscious.\nHealing Nonlethal Damage: You heal nonlethal damage at the rate of 1 hit point per hour per character level.\nWhen a spell or a magical power cures hit point damage, it also removes an equal amount of nonlethal damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::044_temporary_hit_points"
+}

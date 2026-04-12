@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::033_necro",
+  "document_id": "srd_35::spelllistii::033_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#033_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Gentle Repose: Preserves one corpse.\nHalt Undead: Immobilizes undead for 1 round/level.\nRay of Exhaustion: Ray makes subject exhausted.\nVampiric Touch: Touch deals 1d6/two levels damage; caster gains damage as hp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::032_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::034_trans"
+}

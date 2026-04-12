@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::009_favorable_and_unfavorable_conditions",
+  "document_id": "srd_35::skillsi::009_favorable_and_unfavorable_conditions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Favorable and Unfavorable Conditions"
+    ],
+    "source_location": "SkillsI.rtf#009_favorable_and_unfavorable_conditions"
+  },
+  "chunk_type": "subsection",
+  "content": "Some situations may make a skill easier or harder to use, resulting in a bonus or penalty to the skill modifier for a skill check or a change to the DC of the skill check.\nThe chance of success can be altered in four ways to take into account exceptional circumstances.\n1. Give the skill user a +2 circumstance bonus to represent conditions that improve performance, such as having the perfect tool for the job, getting help from another character (see Combining Skill Attempts), or possessing unusually accurate information.\n2. Give the skill user a -2 circumstance penalty to represent conditions that hamper performance, such as being forced to use improvised tools or having misleading information.\n3. Reduce the DC by 2 to represent circumstances that make the task easier, such as having a friendly audience or doing work that can be subpar.\n4. Increase the DC by 2 to represent circumstances that make the task harder, such as having an uncooperative audience or doing work that must be flawless.\nConditions that affect your character's ability to perform the skill change the skill modifier. Conditions that modify how well the character has to perform the skill to succeed change the DC. A bonus to the skill modifier and a reduction in the check's DC have the same result: They create a better chance of success. But they represent different circumstances, and sometimes that difference is important.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::008_untrained_skill_checks",
+  "next_chunk_id": "chunk::srd_35::skillsi::010_time_and_skill_checks"
+}

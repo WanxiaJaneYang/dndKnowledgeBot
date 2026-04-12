@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::024_cr_10_traps",
+  "document_id": "srd_35::traps::024_cr_10_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 10 Traps"
+    ],
+    "source_location": "Traps.rtf#024_cr_10_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Crushing Room: CR 10; mechanical; location trigger; automatic reset; walls move together (16d6, crush); multiple targets (all targets in a 10-ft.-by-10-ft. room); never miss; onset delay (2 rounds); Search DC 22; Disable Device DC 20. Market Price: 29,000 gp.\nCrushing Wall Trap: CR 10; mechanical; location trigger; automatic reset; no attack roll required (18d6, crush); Search DC 20; Disable Device DC 25. Market Price: 25,000 gp.\nEnergy Drain Trap: CR 10; magic device; visual trigger (true seeing); automatic reset; Atk +8 ranged touch; spell effect (energy drain, 17th-level wizard, 2d4 negative levels for 24 hours, DC 23 Fortitude save negates); Search DC 34; Disable Device DC 34. Cost: 124,000 gp, 7,920 XP.\nForcecage and Summon Monster VII trap: CR 10; magic device; proximity trigger (alarm); automatic reset; multiple traps (one forcecage trap and one summon monster VII trap that summons a hamatula); spell effect (forcecage, 13th-level wizard), spell effect (summon monster VII, 13th-level wizard, hamatula); Search DC 32; Disable Device DC 32. Cost: 241,000 gp, 7,280 XP. Note: This trap is really one CR 8 trap that creates a forcecage and a second CR 8 trap that summons a hamatula in the same area. If both succeed, the hamatula appears inside the forcecage. These effects are independent of each other.\nPoisoned Spiked Pit Trap: CR 10; mechanical; location trigger; manual reset; hidden lock bypass (Search DC 25, Open Lock DC 30); DC 20 Reflex save avoids; 50 ft. deep (5d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+5 plus poison each); poison (purple worm poison, DC 24 Fortitude save resists, 1d6 Str/2d6 Str); Search DC 16; Disable Device DC 25. Market Price: 19,700 gp.\nWail of the Banshee Trap: CR 10; magic device; proximity trigger (alarm); automatic reset; spell effect (wail of the banshee, 17th-level wizard, DC 23 Fortitude save negates); multiple targets (up to 17 creatures); Search DC 34; Disable Device DC 34. Cost: 76,500 gp, 6,120 XP.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::023_cr_9_traps",
+  "next_chunk_id": "chunk::srd_35::traps::025_designing_a_trap"
+}

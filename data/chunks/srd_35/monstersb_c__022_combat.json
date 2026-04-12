@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::022_combat",
+  "document_id": "srd_35::monstersb_c::022_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#022_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The chimera prefers to surprise prey. It often swoops down from the sky or lies concealed until it charges. The dragon head can loose a breath weapon instead of biting. Several chimeras attack in concert.\nBreath Weapon (Su): A chimera's breath weapon depends on the color of its dragon head, as summarized on the table below. Regardless of its type, a chimera's breath weapon is usable once every 1d4 rounds, deals 3d8 points of damage, and allows a DC 17 Reflex save for half damage. The save DC is Constitution-based.\nTo determine a chimera's head color and breath weapon randomly, roll 1d10 and consult the table below.\n1d10 | Head Color | Breath Weapon |\n1-2 | Black | 40-foot line of acid |\n3-4 | Blue | 40-foot line of lightning |\n5-6 | Green | 20-foot cone of gas (acid) |\n7-8 | Red | 20-foot cone of fire |\n9-10 | White | 20-foot cone of cold |\nSkills: A chimera's three heads give it a +2 racial bonus on Spot and Listen checks.\n*In areas of scrubland or brush, a chimera gains a +4 racial bonus on Hide checks.\nCarrying Capacity: A light load for a chimera is up to 348 pounds; a medium load, 349-699 pounds, and a heavy load, 700-1,050 pounds.\n\nHit Dice: | 3d8+3 (16 hp) |\nInitiative: | +6 |\nSpeed: | 20 ft. (4 squares), climb 10 ft. |\nArmor Class: | 17 (+1 size, +2 Dex, +4 natural), touch 13, flat-footed 15 |\nBase Attack/Grapple: | +2/+5 |\nAttack: | Tentacle +6 melee (1d3+3) |\nFull Attack: | 2 tentacles +6 melee (1d3+3) |\nSpace/Reach: | 5 ft./10 ft. |\nSpecial Attacks: | Improved grab, constrict 1d3+3 |\nSpecial Qualities: | Darkvision 60 ft., quickness |\nSaves: | Fort +2, Ref +5, Will +4 |\nAbilities: | Str 16, Dex 14, Con 13, Int 4, Wis 13, Cha 7 |\nSkills: | Climb +13, Hide +10, Move Silently +6 |\nFeats: | Improved InitiativeB, Lightning Reflexes, Stealthy |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 2 |\nTreasure: | 1/10 coins; 50% goods; 50% items |\nAlignment: | Usually chaotic evil |\nAdvancement: | 4-6 HD (Small); 7-12 HD (Medium) |\nLevel Adjustment: | -- |\nThese vicious little predators lurk underground, grabbing whatever prey happens by. Its hands and feet have spiny pads that help the choker grip almost any surface. The creature weighs about 35 pounds.\nChokers speak Undercommon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::021_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::023_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::023_combat",
+  "document_id": "srd_35::monstersm_n::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Despair (Su): At the mere sight of a mummy, the viewer must succeed on a DC 16 Will save or be paralyzed with fear for 1d4 rounds. Whether or not the save is successful, that creature cannot be affected again by the same mummy's despair ability for 24 hours. The save DC is Charisma-based.\nMummy Rot (Su): Supernatural disease--slam, Fortitude DC 16, incubation period 1 minute; damage 1d6 Con and 1d6 Cha. The save DC is Charisma-based.\nUnlike normal diseases, mummy rot continues until the victim reaches Constitution 0 (and dies) or is cured as described below.\nMummy rot is a powerful curse, not a natural disease. A character attempting to cast any conjuration (healing) spell on a creature afflicted with mummy rot must succeed on a DC 20 caster level check, or the spell has no effect on the afflicted character.\nTo eliminate mummy rot, the curse must first be broken with break enchantment or remove curse (requiring a DC 20 caster level check for either spell), after which a caster level check is no longer necessary to cast healing spells on the victim, and the mummy rot can be magically cured as any normal disease.\nAn afflicted creature who dies of mummy rot shrivels away into sand and dust that blow away into nothing at the first wind.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::022_mummy",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::024_mummy_lord"
+}

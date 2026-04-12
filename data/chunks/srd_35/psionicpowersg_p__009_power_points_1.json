@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::009_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::009_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#009_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "This power charges your touch with the force of a sledgehammer. A successful melee touch attack deals 1d8 points of bludgeoning damage. This damage is not increased or decreased by your Strength modifier.\nAugment: For every additional power point you spend, this power's duration increases by 1 round.\nHustle\nPsychometabolism\nLevel: Egoist 3, psychic warrior 2\nDisplay: Auditory\nManifesting Time: 1 swift action\n\nEffect: 1 extra move action\nPower Points: Egoist 5, psychic warrior 3\nYou gain an additional move action in the current round. Taking a full round's worth of attacks and then using this power to move away from your foe does provoke attacks of opportunity.\nYou can manifest this power with an instant thought, quickly enough to gain the benefit of the power before you move. Manifesting the power is a swift action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You cannot manifest this power when it isn't your turn.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::008_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::010_display_mental"
+}

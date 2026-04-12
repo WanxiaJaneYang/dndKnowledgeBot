@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::052_overchannel_psionic",
+  "document_id": "srd_35::psionicsfeats::052_overchannel_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "OVERCHANNEL [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#052_overchannel_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You burn your life force to strengthen your powers.\nBenefit: While manifesting a power, you can increase your effective manifester level by one, but in so doing you take 1d8 points of damage. At 8th level, you can choose to increase your effective manifester level by two, but you take 3d8 points of damage. At 15th level, you can increase your effective manifester level by three, but you take 5d8 points of damage.\nThe effective increase in manifester level increases the number of power points you can expend on a single power manifestation, as well as increasing all manifester level-dependent effects, such as range, duration, and overcoming power resistance.\nNormal: Your manifester level is equal to your total levels in classes that manifest powers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::051_opportunity_power_metapsionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::053_power_penetration_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::004_dragon_overland_movement",
+  "document_id": "srd_35::monstersdr_dw::004_dragon_overland_movement",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Dragon Overland Movement"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#004_dragon_overland_movement"
+  },
+  "chunk_type": "subsection",
+  "content": "Chromatic and metallic dragons are exceedingly strong flyers and can cover vast distances quickly. A dragon's overland flying speed is a function of its tactical fly speed, as shown on the table below.\n\n| 100 feet | 150 feet | 200 feet | 250 feet |\nOne Hour | | | | |\nNormal | 15 miles | 20 miles | 30 miles | 40 miles |\nHustle | 24 miles | 40 miles | 60 miles | 80 miles |\nOne Day | | | | |\nNormal | 120 miles | 160 miles | 240 miles | 320 miles |\nDragons do not tire as quickly as other creatures when moving overland on the ground. If a dragon attempts a hustle or a forced march, check for nonlethal damage once every 2 hours instead of every hour.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::003_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::005_dragonhide"
+}

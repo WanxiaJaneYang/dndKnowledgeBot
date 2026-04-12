@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::090_shield_proficiency_general",
+  "document_id": "srd_35::feats::090_shield_proficiency_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SHIELD PROFICIENCY [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#090_shield_proficiency_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You can use a shield and take only the standard penalties.\nNormal: When you are using a shield with which you are not proficient, you take the shield's armor check penalty on attack rolls and on all skill checks that involve moving, including Ride checks.\nSpecial: Barbarians, bards, clerics, druids, fighters, paladins, and rangers automatically have Shield Proficiency as a bonus feat. They need not select it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::089_self_sufficient_general",
+  "next_chunk_id": "chunk::srd_35::feats::091_shot_on_the_run_general"
+}

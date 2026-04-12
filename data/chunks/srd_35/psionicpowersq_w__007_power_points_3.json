@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::007_power_points_3",
+  "document_id": "srd_35::psionicpowersq_w::007_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#007_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "The fabric of time parts to your will, revealing wounds your foe has received in the past (or has yet to receive). That foe takes 2d6 points of damage as the past (or future) impinges briefly on the present.\nAugment: For every additional power point you spend, this power's damage increases by 1d6 points. For each extra 2d6 points of damage, this power's save DC increases by 1.\nRecall Death\nClairsentience [Death, Mind-Affecting]\nLevel: Psion/wilder 8\nSaving Throw: Will partial; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::006_display_material",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::008_power_points_15"
+}

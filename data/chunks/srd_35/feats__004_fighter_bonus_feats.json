@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::004_fighter_bonus_feats",
+  "document_id": "srd_35::feats::004_fighter_bonus_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "FIGHTER BONUS FEATS"
+    ],
+    "source_location": "Feats.rtf#004_fighter_bonus_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "Any feat designated as a fighter feat can be selected as a fighter's bonus feat. This designation does not restrict characters of other classes from selecting these feats, assuming that they meet any prerequisites.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::003_types_of_feats",
+  "next_chunk_id": "chunk::srd_35::feats::005_item_creation_feats"
+}

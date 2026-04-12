@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::017_amulet",
+  "document_id": "srd_35::monsterss::017_amulet",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "AMULET"
+    ],
+    "source_location": "MonstersS.rtf#017_amulet"
+  },
+  "chunk_type": "subsection",
+  "content": "If a shield guardian's amulet is destroyed, the guardian ceases to function until a new one is created. If the wearer dies but the amulet is intact, the shield guardian carries out the last command it was given.\n\nHit Dice: | 2d10+2 (13 hp) |\nInitiative: | +6 |\nSpeed: | 40 ft. (8 squares), climb 20 ft., swim 20 ft. |\nArmor Class: | 16 (+1 size, +2 Dex, +3 natural), touch 13, flat-footed 14 |\nBase Attack/Grapple: | +2/-2 |\nAttack: | Bite +3 melee (1d4) |\nFull Attack: | Bite +3 melee (1d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Stunning shock, lethal shock |\nSpecial Qualities: | Darkvision 60 ft., electricity sense, immunity to electricity, low-light vision |\nSaves: | Fort +4, Ref +5, Will +1 |\nAbilities: | Str 10, Dex 15, Con 13, Int 2, Wis 12, Cha 6 |\nSkills: | Climb +11, Hide +11, Jump +7, Listen +4, Spot +4, Swim +10 |\nFeats: | Improved Initiative |\nEnvironment: | Warm marshes |\nOrganization: | Solitary, pair, clutch (3-5), or colony (6-11) |\nChallenge Rating: | 2 |\nTreasure: | 1/10 coins; 50% goods; 50% items |\nAlignment: | Always neutral |\nAdvancement: | 3-4 HD (Small); 5-6 HD (Medium) |\nLevel Adjustment: | -- |\nA shocker lizard has a pale gray or blue underside, shading to a darker hue on its back. It has blue-black markings along its back and tail. A shocker lizard is about 1 foot tall at the shoulder and weighs about 25 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::016_construction",
+  "next_chunk_id": "chunk::srd_35::monsterss::018_combat"
+}

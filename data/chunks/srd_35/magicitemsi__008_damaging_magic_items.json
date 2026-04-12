@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::008_damaging_magic_items",
+  "document_id": "srd_35::magicitemsi::008_damaging_magic_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "DAMAGING MAGIC ITEMS"
+    ],
+    "source_location": "MagicItemsI.rtf#008_damaging_magic_items"
+  },
+  "chunk_type": "subsection",
+  "content": "A magic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them-- even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item's saving throw bonus equals 2 + one-half its caster level (round down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.\nMagic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::007_saving_throws_against_magic_item_powers",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::009_repairing_magic_items"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::008_additional_magic_item_space_epic",
+  "document_id": "srd_35::epicfeats::008_additional_magic_item_space_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "ADDITIONAL MAGIC ITEM SPACE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#008_additional_magic_item_space_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: Choose one type of magic item that has a limit on the number a character can simultaneously wear and gain its benefit. The character can now wear one more magic item of this type and also gain its benefit.\nNormal: Without this feat, a character is limited to one headband, hat, or helmet; one pair of eye lenses or goggles; one cloak, cape, or mantle; one amulet, brooch, medallion, necklace, periapt, or scarab; one suit of armor; one robe; one vest, vestment, or shirt; one pair of bracers or bracelets; one pair of gloves or gauntlets; two rings; one belt; and one pair of boots.\nSpecial: A character can gain this feat multiple times. Each time the character takes the feat, it applies to a new type of wearable magic item.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::007_epic_psionic_feats",
+  "next_chunk_id": "chunk::srd_35::epicfeats::009_armor_skin_epic"
+}

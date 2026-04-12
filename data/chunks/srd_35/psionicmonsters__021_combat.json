@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::021_combat",
+  "document_id": "srd_35::psionicmonsters::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Brain moles hunger for psionic energy. They hide in loose dirt and detritus on forest floors, watching for the approach of psionic creatures with their detect psionics power. When a suitable target comes in range, the brain moles then attack with their power leech ability. The moles remain hidden as long as possible. If threatened, they use aversion and mind thrust to discourage attackers, using their bite only as a last resort.\nCascade Flu (Ex): Disease--bite; Fortitude DC 9, incubation period one day, damage psionic cascade (every time an afflicted character manifests a power, she must make a DC 16 Concentration check; on a failed check, a psionic cascade is triggered [see Psionic Maladies]). The save DC is Constitution-based.\nPsi-Like Abilities: At will--detect psionics, power leech (ML 5th, DC 14); 3/day--aversion (DC 12), mind thrust (DC 11). Manifester level 1st. The save DCs are Charisma-based.\nHide Mind (Su): A brain mole cannot be identified as psionic by divination spells or clairsentience powers.\nPower Conversion (Su): When a brain mole drains a power point by means of its power leech power, it immediately heals 1 hit point. If it is already at full normal hit points, it instead gains psionic sustenance sufficient to supply its need for nourishment for 24 hours.\nSkills: Brain moles have a +4 racial bonus on Hide and Move Silently checks and a -2 racial penalty on Spot checks.\n\nHit Dice: | 11d12 (71 hp) |\nInitiative: | +7 |\nSpeed: | 30 ft. (6 squares), fly 60 ft. (good) |\nArmor Class: | 14 (-1 size, +3 Dex, +2 deflection), touch 14, flat-footed 11 |\nBase Attack/Grapple: | +5/-- |\nAttack: | Incorporeal touch +7 melee (2d6) |\nFull Attack: | 4 incorporeal touches +7 melee (2d6) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Psi-like abilities, steal essence |\nSpecial Qualities: | Incorporeal traits, undead traits, unnatural aura, vulnerability to sunlight |\nSaves: | Fort +3, Ref +6, Will +9 |\nAbilities: | Str --, Dex 16, Con --, Int 14, Wis 14, Cha 15 |\nSkills: | Hide +9, Intimidate +12, Knowledge (psionics) +12, Listen +14, Psicraft +12, Search +12, Sense Motive +12, Spot +14 |\nFeats: | Blind-Fight, Combat Reflexes, Improved Initiative, Weapon Finesse |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 9 |\nTreasure: | None |\nAlignment: | Always chaotic evil |\nAdvancement: | 12-22 HD (Large); 23-33 HD (Huge) |\nLevel Adjustment: | -- |\nA caller in darkness is an incorporeal creature composed of the minds of dozens of victims who died together in terror. It seeks to draw others into its fearwracked, hellish existence.\nCallers in darkness rarely speak, but when they do, they speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::020_blues_as_characters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::022_combat"
+}

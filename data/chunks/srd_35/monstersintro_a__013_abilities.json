@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::013_abilities",
+  "document_id": "srd_35::monstersintro_a::013_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Abilities"
+    ],
+    "source_location": "MonstersIntro-A.rtf#013_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "This line lists the creature's ability scores, in the customary order: Str, Dex, Con, Int, Wis, Cha. Except where noted otherwise, each creature is assumed to have the standard array of ability scores before racial adjustments (all 11s and 10s). To determine any creature's racial ability adjustments, subtract 10 from any even-numbered ability score and subtract 11 from any odd-numbered score. (Exceptions are noted in the Combat section of a creature's descriptive text.)\nStrength: Quadrupeds can carry heavier loads than bipeds can. Any creature with four or more motive limbs can carry a load as a quadruped, even if it does not necessarily use all the limbs at once.\nIntelligence: A creature can speak all the languages mentioned in its description, plus one additional language per point of Intelligence bonus. Any creature with an Intelligence score of 3 or higher understands at least one language (Common, unless noted otherwise).\nNonabilities: Some creatures lack certain ability scores. These creatures do not have an ability score of 0--they lack the ability altogether. The modifier for a nonability is +0.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::012_saves",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::014_skills"
+}

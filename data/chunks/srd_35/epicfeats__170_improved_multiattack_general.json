@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::170_improved_multiattack_general",
+  "document_id": "srd_35::epicfeats::170_improved_multiattack_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED MULTIATTACK [GENERAL]"
+    ],
+    "source_location": "EpicFeats.rtf#170_improved_multiattack_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Three or more natural weapons, Multiattack\nBenefit: The creature's secondary attacks with natural weapons have no penalty. They still add only one-half the creature's Strength bonus, if any, to damage dealt.\nNormal: Without this feat, the creature's secondary natural attacks have a -5 penalty (or a -2 penalty if it has the Multiattack feat).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::169_improved_flyby_attack_general",
+  "next_chunk_id": "chunk::srd_35::epicfeats::171_improved_multiweapon_fighting_general"
+}

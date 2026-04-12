@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicspells::009_abjuration",
+  "document_id": "srd_35::psionicspells::009_abjuration",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSpells",
+      "Abjuration"
+    ],
+    "source_location": "PsionicSpells.rtf#009_abjuration"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Cleric 7, sorcerer/wizard 7\nDuration: 1 round/level\nAs psychic turmoil, except you gain 1 temporary hit point for each power point the spell takes from a psionic creature. The temporary hit points last for 1 hour.\n\nCasting Time: 1 standard action\nRange: 30 ft.\nTargets: You and one willing creature within 30 ft.\nDuration: 10 min./level\n\nYou forge a telepathic bond with another creature with an Intelligence score of 6 or higher. The bond can be established only with a willing subject. You can communicate telepathically through the bond regardless of language. No special power or influence is established as a result of the bond. Once the bond is formed, it works over any distance (although not from one plane to another).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicspells::008_spell_descriptions"
+}

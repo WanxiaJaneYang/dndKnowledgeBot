@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::025_combat",
+  "document_id": "srd_35::psionicmonsters::025_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#025_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The psionic couatl does not possess the psionic spell-like abilities of the standard couatl. Instead, it has psi-like abilities.\nPsi-Like Abilities: At will--aura sight, cloud mind (DC 15), detect psionics, read thoughts (DC 15); 3/day--mental barrier (2 rounds*), metamorphosis, psionic plane shift, thought shield (power resistance 19*). Manifester level 9th. The save DCs are Charisma-based.\n*Includes augmentation for the psionic couatl's manifester level.\n\nHit Dice: | 6d8+6 (33 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), burrow 20 ft. |\nArmor Class: | 21 (+1 size, +2 Dex, +8 natural), touch 13, flat-footed 19 |\nBase Attack/Grapple: | +4/+2 |\nAttack: | Sting +7 melee (1d3+3) |\nFull Attack: | Sting +7 melee (1d3+3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Psi-like abilities |\nSpecial Qualities: | Damage reduction 5/ bludgeoning, elemental traits, immunity to fire and cold, resistance to electricity 15 |\nSaves: | Fort +8, Ref +6, Will +2 |\nAbilities: | Str 15, Dex 14, Con 12, Int 6, Wis 10, Cha 14 |\nSkills: | Appraise +9, Climb +5, Jump +5, Listen +2, Spot +10 |\nFeats: | Alertness, Great Fortitude, Lightning Reflexes |\nEnvironment: | Underground |\nOrganization: | Solitary or facet (2-5) |\nChallenge Rating: | 3 |\nTreasure: | Double goods (gems only) |\nAlignment: | Any lawful |\nAdvancement: | 7-12 HD (Medium); 13-18 HD (Large) |\nLevel Adjustment: | -- |\nA conglomerate of stone and crystal, a crysmal above all else seeks to perpetuate its kind.\nCrysmals transform mundane minerals into juvenile crysmals. Gems are the perfect substance for this reproductive cycle: To make a single juvenile, a crysmal generally needs eight to ten gems, each of 25 gp value or more.\nCrysmals understand Terran but do not speak.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::024_large_outsider_native_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::026_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::030_trans",
+  "document_id": "srd_35::spelllistii::030_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#030_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Alter Self: Assume form of a similar creature.\nBear's Endurance: Subject gains +4 to Con for 1 min./level.\nBull's Strength: Subject gains +4 to Str for 1 min./level.\nCat's Grace: Subject gains +4 to Dex for 1 min./level.\nDarkvision: See 60 ft. in total darkness.\nEagle's Splendor: Subject gains +4 to Cha for 1 min./level.\nFox's Cunning: Subject gains +4 Int for 1 min./level.\nKnock: Opens locked or magically sealed door.\nLevitate: Subject moves up and down at your direction.\nOwl's Wisdom: Subject gains +4 to Wis for 1 min./level.\nPyrotechnics: Turns fire into blinding light or choking smoke.\nRope Trick: As many as eight creatures hide in extradimensional space.\nSpider Climb: Grants ability to walk on walls and ceilings.\nWhispering Wind: Sends a short message 1 mile/level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::029_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::031_abjur"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::025_combat",
+  "document_id": "srd_35::monstersd_de::025_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#025_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Erinyes prefer to engage in combat from a distance. They use charm monster to distract or disorganize their opponents, then rain down fiery arrows from above.\nAn erinyes's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nEntangle (Ex): Each erinyes carries a stout rope some 50 feet long that entangles opponents of any size as an animate rope spell (caster level 16th). An erinyes can hurl its rope 30 feet with no range penalty. Typically, an erinyes entangles a foe, lifts it into the air, and drops it from a great height.\nSpell-Like Abilities: At will--greater teleport (self plus 50 pounds of objects only), charm monster (DC 19), minor image (DC 17), unholy blight (DC 19). Caster level 12th. The save DCs are Charisma-based.\nSummon Devil (Sp): Once per day an erinyes can attempt to summon 2d10 lemures or 1d4 bearded devils with a 50% chance of success. This ability is the equivalent of a 3rd-level spell.\nTrue Seeing (Su): Erinyes continuously use true seeing, as the spell (caster level 14th).\n\nHit Dice: | 8d8+24 (60 hp) |\nInitiative: | +9 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 21 (-1 size, +5 Dex, +7 natural), touch 14, flat-footed 16 |\nBase Attack/Grapple: | +8/+18 |\nAttack: | Claw +13 melee (1d8+6) |\nFull Attack: | 2 claws +13 melee (1d8+6) and bite +8 melee (2d8+3) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab, pounce, rake 1d8+3 |\nSpecial Qualities: | Damage reduction 5/good, darkvision 60 ft., invisible in light, resistance to fire 10, scent, spell resistance 19, telepathy 100 ft. |\nSaves: | Fort +9, Ref +11, Will +8 |\nAbilities: | Str 23, Dex 21, Con 17, Int 10, Wis 14, Cha 10 |\nSkills: | Balance +16, Climb +17, Hide +13, Jump +21, Listen +17, Move Silently +20, Spot +13, Swim +17 |\nFeats: | Dodge, Improved Initiative, Track |\nEnvironment: | A lawful evil-aligned plane |\nOrganization: | Solitary, pair, or pride (6-10) |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Always lawful evil |\nAdvancement: | 9-10 HD (Large); 11-24 HD (Huge) |\nLevel Adjustment: | -- |\nWhile its appearance suggests it is incorporeal, a hellcats has a corporeal body and can be harmed by physical attacks.\nHellcats use a natural telepathy to communicate with one another and those they encounter. A hellcat measures about 9 feet long and weighs about 900 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::024_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::026_combat"
+}

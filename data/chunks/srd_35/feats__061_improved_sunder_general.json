@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::061_improved_sunder_general",
+  "document_id": "srd_35::feats::061_improved_sunder_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED SUNDER [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#061_improved_sunder_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 13, Power Attack.\nBenefit: When you strike at an object held or carried by an opponent (such as a weapon or shield), you do not provoke an attack of opportunity.\nYou also gain a +4 bonus on any attack roll made to attack an object held or carried by another character.\nNormal: Without this feat, you provoke an attack of opportunity when you strike at an object held or carried by another character.\nSpecial: A fighter may select Improved Sunder as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::060_improved_shield_bash_general",
+  "next_chunk_id": "chunk::srd_35::feats::062_improved_trip_general"
+}

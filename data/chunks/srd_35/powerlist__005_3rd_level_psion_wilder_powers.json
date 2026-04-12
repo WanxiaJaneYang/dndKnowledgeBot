@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::005_3rd_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::005_3rd_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "3RD-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#005_3rd_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Body AdjustmentA: You heal 1d12 damage.\nBody PurificationA: You restore 2 points of ability damage.\nDanger SenseA: You gain +4 bonus against traps.\nDarkvision, Psionic: See 60 ft. in total darkness.\nDismiss Ectoplasm: Dissipates ectoplasmic targets and effects.\nDispel PsionicsA: Cancels psionic powers and effects.\nEnergy BoltA: Deal 5d6 energy damage in 120-ft. line.\nEnergy BurstA: Deal 5d6 energy damage in 40-ft. burst.\nEnergy RetortA: Ectoburst of energy automatically targets your attacker for 4d6 damage once each round.\nEnergy Wall: Create wall of your chosen energy type.\nEradicate InvisibilityA: Negate invisibility in 50-ft. burst.\nKeen Edge, Psionic: Doubles normal weapon's threat range.\nMental BarrierA: Gain +4 deflection bonus to AC until your next action.\nMind TrapA: Drain 1d6 power points from anyone who attacks you with a telepathy power.\nPsionic Blast: Stun creatures in 30-ft. cone for 1 round.\nShare Pain, ForcedA: Unwilling subject takes some of your damage.\nSolicit PsicrystalA: Your psicrystal takes over your concentration power.\nTelekinetic ForceA: Move an object with the sustained force of your mind.\nTelekinetic ThrustA: Hurl objects with the force of your mind.\nTime HopA: Subject hops forward in time 1 round/level.\nTouchsightA: Your telekinetic field tells you where everything is.\nUbiquitous Vision: You have all-around vision.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::004_2nd_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::006_4th_level_psion_wilder_powers"
+}

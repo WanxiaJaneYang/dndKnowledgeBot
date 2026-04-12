@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::046_combat",
+  "document_id": "srd_35::monstersintro_a::046_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#046_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A trumpet archon usually disdains physical combat, preferring to obliterate foes with spells quickly and return to its duties. If forced into an extended battle, it sounds its trumpet and attacks with a vengeance.\nA trumpet archon's natural weapons, as well as any weapons it wields, are treated as good-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nSpell-Like Abilities: At will--detect evil, continual flame, message. Caster level 12th.\nAura of Menace (Su): Will DC 21 negates.\nSpells: Trumpet archons can cast divine spells as 14th-level clerics. A trumpet archon has access to two of the following domains: Air, Destruction, Good, Law, or War (plus any others from its deity). The save DCs are Wisdom-based.\nTypical Cleric Spells Prepared (6/7/7/6/5/4/4/3; DC 13 + spell level): 0--detect magic, light, purify food and drink, read magic, resistance (2); 1st--bless (2), divine favor (2), protection from chaos*, sanctuary, shield of faith; 2nd--aid*, bull's strength (2), consecrate, lesser restoration, owl's wisdom (2); 3rd--daylight, invisibility purge, magic circle against chaos*, magic vestment, protection from energy (2); 4th-- dismissal, divine power, holy smite*, neutralize poison, spell immunity; 5th--dispel evil*, mass cure light wounds, plane shift, raise dead; 6th-- blade barrier*, banishment, heal, undeath to death; 7th--dictum*, holy word, mass cure serious wounds.\n*Domain spell. Domains: Good and Law.\nTrumpet (Su): An archon's trumpet produces music of utter clarity, piercing beauty, and, if the trumpet archon wills it, paralyzing awe. All creatures except archons within 100 feet of the blast must succeed on a DC 19 Fortitude save or be paralyzed for 1d4 rounds. The save DC is Charisma-based. The archon can also command its trumpet to become a +4 greatsword as a free action.\nIf a trumpet is ever stolen, it becomes a chunk of useless metal until the owner can recover it. Woe betide any thief caught with one.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::045_hound_archons_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::047_arrowhawk"
+}

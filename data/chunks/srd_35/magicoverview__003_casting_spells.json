@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::003_casting_spells",
+  "document_id": "srd_35::magicoverview::003_casting_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "CASTING SPELLS"
+    ],
+    "source_location": "MagicOverview.rtf#003_casting_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Whether a spell is arcane or divine, and whether a character prepares spells in advance or chooses them on the spot, casting a spell works the same way.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::002_magic_overview",
+  "next_chunk_id": "chunk::srd_35::magicoverview::004_choosing_a_spell"
+}

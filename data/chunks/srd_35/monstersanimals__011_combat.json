@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::011_combat",
+  "document_id": "srd_35::monstersanimals::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Ferocity (Ex): A boar is such a tenacious combatant that it continues to fight without penalty even while disabled or dying.\n\nHit Dice: | 3d8+6 (19 hp) |\nInitiative: | +3 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 13 (-1 size, +3 Dex, +1 natural) touch 12, flat-footed 10 |\nBase Attack/Grapple: | +2/+10 |\nAttack: | Bite +0 melee (1d4+2*) |\nFull Attack: | Bite +0 melee* (1d4+2*) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +5, Ref +6, Will +1 |\nAbilities: | Str 18, Dex 16, Con 14, Int 2, Wis 11, Cha 4 |\nSkills: | Listen +5, Spot +5 |\nFeats: | Alertness, Endurance |\nEnvironment: | Warm deserts |\nOrganization: | Domesticated or herd (6-30) |\nChallenge Rating: | 1 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nCamels are known for their ability to travel long distances without food or water.\nThe statistics presented here are for the dromedary, or one-humped camel, which thrives in warm deserts. A dromedary stands about 7 feet tall at the shoulder, with its hump rising 1 foot higher. The two-humped, or Bactrian, camel is suited to cooler, rocky areas. It is stockier, slower (speed 40 feet), and has a higher Constitution score (16).\nCarrying Capacity: A light load for a camel is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds. A camel can drag 4,500 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::010_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::012_combat"
+}

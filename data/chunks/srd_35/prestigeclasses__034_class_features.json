@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::034_class_features",
+  "document_id": "srd_35::prestigeclasses::034_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "PrestigeClasses.rtf#034_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All of the following are features of the eldritch knight prestige class.\nWeapon and Armor Proficiency: Eldritch knights gain no proficiency with any weapon or armor.\nBonus Feat: At 1st level, an eldritch knight may choose a bonus feat from the list of feats available to fighters. This is in addition to the feats that a character of any class normally gets from advancing levels. The character must still meet any prerequisites for these bonus feats, including levels of fighter for the Weapon Specialization, Greater Weapon Focus, and Greater Weapon Specialization feats.\nSpells per Day: From 2nd level on, when a new eldritch knight level is gained, the character gains new spells per day as if she had also gained a level in whatever arcane spellcasting class she belonged to before she added the prestige class. She does not, however, gain any other benefit a character of that class would have gained. This essentially means that she adds the level of eldritch knight to the level of whatever other arcane spellcasting class the character has, then determines spells per day and caster level accordingly.\nIf a character had more than one arcane spellcasting class before she became an eldritch knight, she must decide to which class she adds each level of eldritch knight for the purpose of determining spells per day.\nHIEROPHANT\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::033_class_skills",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::035_requirements"
+}

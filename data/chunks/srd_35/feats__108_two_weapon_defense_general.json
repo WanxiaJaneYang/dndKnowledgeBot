@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::108_two_weapon_defense_general",
+  "document_id": "srd_35::feats::108_two_weapon_defense_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "TWO-WEAPON DEFENSE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#108_two_weapon_defense_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 15, Two-Weapon Fighting.\nBenefit: When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC.\nWhen you are fighting defensively or using the total defense action, this shield bonus increases to +2.\nSpecial: A fighter may select Two-Weapon Defense as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::107_trample_general",
+  "next_chunk_id": "chunk::srd_35::feats::109_two_weapon_fighting_general"
+}

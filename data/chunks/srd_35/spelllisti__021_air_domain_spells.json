@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::021_air_domain_spells",
+  "document_id": "srd_35::spelllisti::021_air_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Air Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#021_air_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Obscuring Mist: Fog surrounds you.\n2 Wind Wall: Deflects arrows, smaller creatures, and gases.\n3 Gaseous Form: Subject becomes insubstantial and can fly slowly.\n4 Air Walk: Subject treads on air as if solid (climb at 45-degree angle).\n5 Control Winds: Change wind direction and speed.\n6 Chain Lightning: 1d6/level damage; 1 secondary bolt/level each deals half damage.\n7 Control Weather: Changes weather in local area.\n8 Whirlwind: Cyclone deals damage and can pick up creatures.\n9 Elemental Swarm*: Summons multiple elementals.\n*Cast as an air spell only.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::020_air_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::022_animal_domain"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::005_divine_feats",
+  "document_id": "srd_35::epicfeats::005_divine_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DIVINE FEATS"
+    ],
+    "source_location": "EpicFeats.rtf#005_divine_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "The feats in this category share a few characteristics. First, they all have as a prerequisite the ability to turn (or, in most cases, rebuke) undead. Thus, they are open to clerics, paladins of 4th level or higher, and any prestige class that has that ability. (An ability to turn other creatures does not qualify a character to select one of these feats.) Second, the force that powers a divine feat is the ability to channel positive or negative energy to turn or rebuke undead. Each use of a divine feat costs the character one turn/rebuke attempt from his or her number of attempts each day. If a character doesn't have any turn/rebuke attempts left, he or she can't use the feat. Since turning or rebuking is a standard action, activating any of these feats is also a standard action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::004_types_of_epic_feats",
+  "next_chunk_id": "chunk::srd_35::epicfeats::006_wild_feats"
+}

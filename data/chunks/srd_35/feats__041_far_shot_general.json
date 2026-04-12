@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::041_far_shot_general",
+  "document_id": "srd_35::feats::041_far_shot_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "FAR SHOT [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#041_far_shot_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Point Blank Shot.\nBenefit: When you use a projectile weapon, such as a bow, its range increment increases by one-half (multiply by 1-1/2). When you use a thrown weapon, its range increment is doubled.\nSpecial: A fighter may select Far Shot as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::040_extra_turning_general",
+  "next_chunk_id": "chunk::srd_35::feats::042_forge_ring_item_creation"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::030_training_a_spider_eater",
+  "document_id": "srd_35::monsterss::030_training_a_spider_eater",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "TRAINING A SPIDER EATER"
+    ],
+    "source_location": "MonstersS.rtf#030_training_a_spider_eater"
+  },
+  "chunk_type": "subsection",
+  "content": "A spider eater requires training before it can bear a rider in combat.\nTraining a spider eater requires six weeks of work and a DC 25 Handle Animal check. Riding a spider eater requires an exotic saddle. A spider eater can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nSpider eater eggs are worth 2,000 gp apiece on the open market, while young are worth 3,000 gp each. Professional trainers charge 3,000 gp to rear or train a spider eater.\nCarrying Capacity: A light load for a spider eater is up to 306 pounds; a medium load, 307-612 pounds; and a heavy load, 613-920 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::029_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::031_sprite"
+}

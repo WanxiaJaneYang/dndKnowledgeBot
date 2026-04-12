@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::012_disease",
+  "document_id": "srd_35::abilitiesandconditions::012_disease",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "DISEASE"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#012_disease"
+  },
+  "chunk_type": "subsection",
+  "content": "When a character is injured by a contaminated attack touches an item smeared with diseased matter, or consumes disease-tainted food or drink, he must make an immediate Fortitude saving throw. If he succeeds, the disease has no effect--his immune system fought off the infection. If he fails, he takes damage after an incubation period. Once per day afterward, he must make a successful Fortitude saving throw to avoid repeated damage. Two successful saving throws in a row indicate that he has fought off the disease and recovers, taking no more damage.\nThese Fortitude saving throws can be rolled secretly so that the player doesn't know whether the disease has taken hold.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::011_death_attacks",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::013_disease_descriptions"
+}

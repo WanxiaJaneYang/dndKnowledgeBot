@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epiclevelbasics::002_epic_level_basics",
+  "document_id": "srd_35::epiclevelbasics::002_epic_level_basics",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicLevelBasics",
+      "EPIC LEVEL BASICS"
+    ],
+    "source_location": "EpicLevelBasics.rtf#002_epic_level_basics"
+  },
+  "chunk_type": "rule_section",
+  "content": "Epic characters--those whose character level is 21st or higher--are handled slightly differently from nonepic characters. While epic characters continue to receive most of the benefits of gaining levels, some benefits are replaced by alternative gains. A class can be advanced beyond 20th level. A ten-level prestige class can progress beyond 10th level, but only if the character level is already 20th or higher. A class with fewer than ten levels cannot progress beyond the maximum for that class, regardless of character level.\nEpic Save Bonus: A character's base save bonus does not increase after character level reaches 20th. However, the character does receive a cumulative +1 epic bonus on all saving throws at every even-numbered level beyond 20th, as shown on Table: Epic Save and Epic Attack Bonuses. Any time a feat, prestige class, or other rule refers to your base save bonus, use the sum of your base save bonus and epic save bonus.\nEpic Attack Bonus: Similarly, the character's base attack bonus does not increase after character level reaches 20th. However, the character does receive a cumulative +1 epic bonus on all attacks at every odd-numbered level beyond 20th, as shown on Table: Epic Save and Epic Attack Bonuses. Any time a feat, prestige class, or other rule refers to your base attack bonus, use the sum of your base attack bonus and epic attack bonus.\nClass Skill Max Ranks: The maximum number of ranks a character can have in a class skill is equal to his or her character level +3.\nCross-Class Skill Max Ranks: For cross-class skills, the maximum number of ranks is one-half the maximum for a class skill.\nFeats: Every character gains one feat (which may be an epic or nonepic feat at the player's choice) at every level divisible by three. These feats are in addition to any bonus feats granted in the class descriptions.\nAbility Increases: Upon gaining any level divisible by four, a character increases one of his or her ability scores by 1 point. The player chooses which ability score to improve. For multiclass characters, feats and ability increases are gained according to character level, not class level.\n\nCharacter Level | Epic Save Bonus | Epic Attack Bonus |\n21st | +0 | +1 |\n22nd | +1 | +1 |\n23rd | +1 | +2 |\n24th | +2 | +2 |\n25th | +2 | +3 |\n26th | +3 | +3 |\n27th | +3 | +4 |\n28th | +4 | +4 |\n29th | +4 | +5 |\n30th | +5 | +5 |\nAlthough most of the tables only show information up to a certain level (often 30th), that level is by no means the limit of a character's advancement. It can be generally assumed that any patterns on a particular table continue infinitely.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epiclevelbasics::001_epiclevelbasics",
+  "next_chunk_id": "chunk::srd_35::epiclevelbasics::003_class_features"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::023_requirements",
+  "document_id": "srd_35::prestigeclasses::023_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#023_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a dragon disciple, a character must fulfill all the following criteria.\nRace: Any nondragon (cannot already be a half-dragon).\nSkills: Knowledge (arcana) 8 ranks.\nLanguages: Draconic.\nSpellcasting: Ability to cast arcane spells without preparation.\nSpecial: The player chooses a dragon variety when taking the first level in this prestige class.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::022_the_blackguard_s_fiendish_servant",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::024_class_skills"
+}

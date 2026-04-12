@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::028_destruction_domain_spells",
+  "document_id": "srd_35::spelllisti::028_destruction_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Destruction Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#028_destruction_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Inflict Light Wounds: Touch attack, 1d8 damage +1/level (max +5).\n2 Shatter: Sonic vibration damages objects or crystalline creatures.\n3 Contagion: Infects subject with chosen disease.\n4 Inflict Critical Wounds: Touch attack, 4d8 damage +1/level (max +20).\n5 Inflict Light Wounds, Mass: Deals 1d8 damage +1/level to any creatures.\n6 Harm: Deals 10 points/level damage to target.\n7 Disintegrate: Makes one creature or object vanish.\n8 Earthquake: Intense tremor shakes 80-ft.-radius.\n9 Implosion: Kills one creature/round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::027_destruction_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::029_earth_domain"
+}

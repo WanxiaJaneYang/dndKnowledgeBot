@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::002_statistics_block",
+  "document_id": "srd_35::monstersintro_a::002_statistics_block",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "STATISTICS BLOCK"
+    ],
+    "source_location": "MonstersIntro-A.rtf#002_statistics_block"
+  },
+  "chunk_type": "subsection",
+  "content": "This portion of a monster description contains basic game information on the creature.\n\nThis is the name by which the creature is generally known. The descriptive text may provide other names.\nSize and Type\nThis line describes the creature's size. A size modifier applies to the creature's Armor Class (AC) and attack bonus, as well as to certain skills. A creature's size also determines how far it can reach to make a melee attack and how much space it occupies in a fight (see Space/Reach, below).\nThe size and type line continues with the creature's type. Type determines how magic affects a creature. Type determines certain features, such as Hit Dice size, base attack bonus, base saving throw bonuses, and skill points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::001_reading_the_entries",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::003_hit_dice"
+}

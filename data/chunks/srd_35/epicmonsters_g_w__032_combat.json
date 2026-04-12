@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::032_combat",
+  "document_id": "srd_35::epicmonsters_g_w::032_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#032_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Blightfire (Su): Living creatures taking Damage from a shadow of the void's incorporeal touch attack find themselves ignited with blightfire; cold, black flames cascade over their bodies, and they must succeed at a Fort save (DC 37) or permanently lose 6 points of Constitution. The opponent must continue to save every round for the next 6 rounds (7 rounds total) to avoid being permanently drained of 6 more Con points. The creature heals 30 points of Damage whenever it drains 6 points of Constitution, gaining any excess as temporary hit points. These temporary hit points last a maximum of 1 hour. If the opponent is slain by blight-fire, only icy fragments of the victim remain, until they reform as a winterwight. The save DC is Charisma-dased.\nCreate Spawn (Su): Any humanoid slain by a shadow of the void becomes a winterwight in 1d4 rounds. Winterwights are under the command of the shadow of the void that created them and remain enslaved until its death. They do not possess any of the abilities they had in life, though they do possess general knowledge of the slain creature. This knowledge is used for evil purposes, if possible.\nSpell-Like Abilities: 3/day--deeper darkness, freezing sphere. Caster level 24th; save DC 20 + spell level. The save DC is Charisma-based.\nIncorporeal Traits: Can be harmed only by other incorporeal creatures, magic weapons, or magic, with a 50% chance to ignore any Damage from a corporeal source. Can pass through solid objects at will, and own attacks pass through armor. Always moves silently.\nUndead Traits: Immune to poison, sleep, paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual Damage, ability Damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive Damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.\nCold Subtype: Immunity to cold. Vulnerability to fire, (takes half again as much (+50%) damage as normal from fire, regardless of whether a saving throw is allowed, or if the save is a success or failure).\nCold Aura (Su): A 10-foot-radius spread cold aura surrounds a shadow of the void. All creatures of the cold sub-type in the area (including the shadow of the void) are treated as if having turn resistance +6 (if undead) and fast healing 10. Creatures subject to cold Damage take 2d10 points of cold Damage each round they remain within the cold aura.\n\nHit Dice: | 35d12 (227 hp) |\nInitiative: | +17 (+9 Dex, +8 Superior Initiative) |\nSpeed: | Fly 60 ft. (perfect) |\nAC: | 48 (-1 size, +9 Dex, +10 deflection, +20 insight) |\nBase Attack/Grapple: | +17/- |\nAttack: | Incorporeal touch +25 (2d6 plus blazefire) melee |\nFull Attack: | Incorporeal touch +25 (2d6 plus blazefire) melee |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Blazefire, create spawn, spell-like abilities |\nSpecial Qualities: | Undead traits, incorporeal traits, turn resistance +6, fire subtype, heat aura, SR 36, DR 10/epic |\nSaves: | Fort +13, Ref +20, Will +26 |\nAbilities: | Str -, Dex 29, Con -, Int 17, Wis 25, Cha 31 |\nSkills: | Diplomacy +48, Hide +47, Intimidate +48, Listen +45, Search +41, Sense Motive +45, Spot +45 |\nFeats: | Alertness, Blind-Fight, Combat Reflexes, Dodge, Expertise, Great Fortitude, Improved Initiative, Mobility, Spring Attack, Whirlwind Attack |\nEpic Feats: | Blinding Speed, Improved Combat Reflexes, Spellcasting Harrier, Superior Initiative |\nClimate/Terrain: | Any |\nOrganization: | Solitary or gang (2-5) |\nChallenge Rating: | 26 |\nTreasure: | None |\nAlignment: | Always lawful evil |\nAdvancement: | 36-42 HD (Large); 43-70 HD (Huge) |\nA shape of fire's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::031_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::033_combat"
+}

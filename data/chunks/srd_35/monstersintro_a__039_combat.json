@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::039_combat",
+  "document_id": "srd_35::monstersintro_a::039_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#039_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A lantern archon has little reason to get within melee range. It usually hovers just close enough to bring the enemy within its aura of menace, then blasts away with its light rays. Lantern archons prefer to concentrate on a single opponent, seeking to reduce enemy numbers quickly.\nAura of Menace (Su): Will DC 12 negates.\nLight Ray (Ex): A lantern archon's light rays have a range of 30 feet. This attack overcomes damage reduction of any type.\nSpell-Like Abilities: At will--aid, detect evil, continual flame. Caster level 3rd.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::038_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::040_hound_archon"
+}

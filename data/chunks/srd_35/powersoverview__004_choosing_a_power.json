@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::004_choosing_a_power",
+  "document_id": "srd_35::powersoverview::004_choosing_a_power",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "CHOOSING A POWER"
+    ],
+    "source_location": "PowersOverview.rtf#004_choosing_a_power"
+  },
+  "chunk_type": "subsection",
+  "content": "First you must choose which power to manifest. You can select any power you know, provided you are capable of manifesting powers of that level or higher. To manifest a power, you must pay power points, which count against your daily total. You can manifest the same power multiple times if you have points left to pay for it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::003_manifesting_powers",
+  "next_chunk_id": "chunk::srd_35::powersoverview::005_concentration"
+}

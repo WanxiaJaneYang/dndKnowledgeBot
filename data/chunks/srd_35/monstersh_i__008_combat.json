@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::008_combat",
+  "document_id": "srd_35::monstersh_i::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Combat"
+    ],
+    "source_location": "MonstersH-I.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hags in a covey rely on deception and their boosted magical abilities in combat.\nA covey of hags is 80% likely to be guarded by 1d8 ogres and 1d4 evil giants who do their bidding. These minions are often disguised with a veil spell to appear less threatening and sent forth as spies. Such minions often (60%) carry magic stones known as hag eyes (see below).\nSpell-Like Abilities: 3/day--animate dead, bestow curse (DC 17), control weather, dream, forcecage, mind blank, mirage arcana (DC 18), polymorph, veil (DC 19), vision. Caster level 9th. The save DCs are based on a Charisma score of 16. To use one of these abilities (which requires a full-round action), all three hags must be within 10 feet of one another, and all must participate.\nOnce per month, a covey that does not have a hag eye can create one from a gem worth at least 20 gp (see below).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::007_hag_covey",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::009_hag_eye"
+}

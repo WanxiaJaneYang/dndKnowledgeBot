@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::002_the_power_point_reserve",
+  "document_id": "srd_35::psionicclasses::002_the_power_point_reserve",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "THE POWER POINT RESERVE"
+    ],
+    "source_location": "PsionicClasses.rtf#002_the_power_point_reserve"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic characters fuel their abilities through a pool, or reserve, of power points. Your power point reserve is equal to your base power points gained from your class, bonus power points from a high key ability score (see Abilities and Manifesters, below), and any additional bonus power points from sources such as your character race and feat selections.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::001_psionicclasses",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::003_multiclass_psionic_characters"
+}

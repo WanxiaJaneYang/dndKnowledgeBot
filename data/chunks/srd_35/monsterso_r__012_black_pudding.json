@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::012_black_pudding",
+  "document_id": "srd_35::monsterso_r::012_black_pudding",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "BLACK PUDDING"
+    ],
+    "source_location": "MonstersO-R.rtf#012_black_pudding"
+  },
+  "chunk_type": "subsection",
+  "content": "| Black Pudding | Elder Black Pudding |\n| Huge Ooze | Gargantuan Ooze |\nHit Dice: | 10d10+60 (115 hp) | 20d10+180 (290 hp) |\nInitiative: | -5 | -5 |\nSpeed: | 20 ft. (4 squares), climb 20 ft. | 20 ft. (4 squares), climb 20 ft. |\nArmor Class: | 3 (-2 size, -5 Dex), touch 3, flat-footed 3 | 1 (-4 size, -5 Dex), touch 1, flat-footed 1 |\nBase Attack/Grapple: | +7/+18 | +15/+35 |\nAttack: | Slam +8 melee (2d6+4 plus 2d6 acid) | Slam +19 melee (3d6+12 plus 3d6 acid) |\nFull Attack: | Slam +8 melee (2d6+4 plus 2d6 acid) | Slam +19 melee (3d6+12 plus 3d6 acid) |\nSpace/Reach: | 15 ft./10 ft. | 20 ft./20 ft. |\nSpecial Attacks: | Acid, constrict 2d6+4 plus 2d6 acid, improved grab | Acid, constrict 2d8+12 plus 2d6 acid, improved grab |\nSpecial Qualities: | Blindsight 60 ft., split, ooze traits | Blindsight 60 ft., split, ooze traits |\nSaves: | Fort +9, Ref -2, Will -2 | Fort +15, Ref +1, Will +1 |\nAbilities: | Str 17, Dex 1, Con 22, Int --, Wis 1, Cha 1 | Str 26, Dex 1, Con 28, Int --, Wis 1, Cha 1 |\nSkills: | Climb +11 | Climb +16 |\nFeats: | -- | -- |\nEnvironment: | Underground | Underground |\nOrganization: | Solitary | Solitary |\nChallenge Rating: | 7 | 12 |\nTreasure: | None | None |\nAlignment: | Always neutral | Always neutral |\nAdvancement: | 11-15 HD (Huge); 16-30 HD (Gargantuan) | -- |\nLevel Adjustment: | -- | -- |\nThe typical black pudding measures 15 feet across and 2 feet thick. It weighs about 18,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::011_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::013_combat"
+}

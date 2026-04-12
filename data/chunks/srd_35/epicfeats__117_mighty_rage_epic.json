@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::117_mighty_rage_epic",
+  "document_id": "srd_35::epicfeats::117_mighty_rage_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MIGHTY RAGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#117_mighty_rage_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 21, Con 21, greater rage class feature, rage 5/day.\nBenefit: When the character rages, he or she gains a +8 bonus to Strength and Constitution and a +4 morale bonus on Will saves. (These bonuses replace the normal rage bonuses.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::116_master_wand_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::118_mobile_defense_epic"
+}

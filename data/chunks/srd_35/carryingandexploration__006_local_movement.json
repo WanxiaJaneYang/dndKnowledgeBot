@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::carryingandexploration::006_local_movement",
+  "document_id": "srd_35::carryingandexploration::006_local_movement",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CarryingandExploration",
+      "LOCAL MOVEMENT"
+    ],
+    "source_location": "CarryingandExploration.rtf#006_local_movement"
+  },
+  "chunk_type": "subsection",
+  "content": "Characters exploring an area use local movement, measured in feet per minute.\nWalk: A character can walk without a problem on the local scale.\nHustle: A character can hustle without a problem on the local scale. See Overland Movement, below, for movement measured in miles per hour.\nRun: A character with a Constitution score of 9 or higher can run for a minute without a problem. Generally, a character can run for a minute or two before having to rest for a minute",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::carryingandexploration::005_tactical_movement",
+  "next_chunk_id": "chunk::srd_35::carryingandexploration::007_overland_movement"
+}

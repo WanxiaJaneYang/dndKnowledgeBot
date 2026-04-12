@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::045_combat",
+  "document_id": "srd_35::monstersanimals::045_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#045_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Viper snakes rely on their venomous bite to kill prey and defend themselves.\nPoison (Ex): A viper snake has a poisonous bite that deals initial and secondary damage of 1d6 Con. The save DC varies by the snake's size, as shown on the table below. The save DCs are Constitution-based.\nSize | Fort DC |\nTiny | 10 |\nSmall | 10 |\nMedium | 11 |\nLarge | 11 |\nHuge | 14 |\n\nHit Dice: | 3d8 (13 hp) |\nInitiative: | +3 |\nSpeed: | Swim 60 ft. (12 squares) |\nArmor Class: | 16 (+3 Dex, +3 natural), touch 13, flat-footed 13 |\nBase Attack/Grapple: | +2/+8* |\nAttack: | Arms +4 melee (0) |\nFull Attack: | Arms +4 melee (0) and bite -1 melee (1d6+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Improved grab |\nSpecial Qualities: | Ink cloud, jet, low-light vision |\nSaves: | Fort +3, Ref +6, Will +2 |\nAbilities: | Str 14, Dex 17, Con 11, Int 1, Wis 12, Cha 2 |\nSkills: | Listen +7, Spot +7, Swim +10 |\nFeats: | Alertness, Endurance |\nEnvironment: | Temperate aquatic |\nOrganization: | Solitary or school (6-11) |\nChallenge Rating: | 1 |\nAdvancement: | 4-6 HD (Medium); 7-11 HD (Large) |\nLevel Adjustment: | -- |\nThese free-swimming mollusks are fairly aggressive. They are more feared than sharks in some locales.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::044_viper_snake",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::046_combat"
+}

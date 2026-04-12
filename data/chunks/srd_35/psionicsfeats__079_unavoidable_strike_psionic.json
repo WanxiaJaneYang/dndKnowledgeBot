@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::079_unavoidable_strike_psionic",
+  "document_id": "srd_35::psionicsfeats::079_unavoidable_strike_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "UNAVOIDABLE STRIKE [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#079_unavoidable_strike_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can make an unarmed strike or use a natural weapon against your foe as if delivering a touch attack.\nPrerequisite: Str 13, Psionic Fist, base attack bonus +5.\nBenefit: To use this feat, you must expend your psionic focus. You can resolve your unarmed strike or attack with a natural weapon as a touch attack.\nYou must decide whether or not to use this feat prior to making an attack. If your attack misses, you still expend your psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::078_twin_power_metapsionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::080_unconditional_power_metapsionic"
+}

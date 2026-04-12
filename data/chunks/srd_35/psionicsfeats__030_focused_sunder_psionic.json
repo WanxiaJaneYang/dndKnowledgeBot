@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::030_focused_sunder_psionic",
+  "document_id": "srd_35::psionicsfeats::030_focused_sunder_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "FOCUSED SUNDER [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#030_focused_sunder_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can sense the stress points on others' weapons.\nPrerequisite: Str 13, Power Attack, Improved Sunder.\nBenefit: To use this feat, you must expend your psionic focus.\nWhen you strike at an opponent's weapon, you ignore half of the weapon's total hardness (round down). Total hardness includes any magical or psionic enhancements possessed by the weapon that increase its hardness.\nSpecial: You can also sense the stress points in any hard construction, such as wooden doors or stone walls, and can ignore half of the object's total hardness (round down) when attacking that object.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::029_fell_shot_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::031_force_of_will_general"
+}

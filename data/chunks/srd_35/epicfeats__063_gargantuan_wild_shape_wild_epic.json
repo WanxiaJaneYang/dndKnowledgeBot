@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::063_gargantuan_wild_shape_wild_epic",
+  "document_id": "srd_35::epicfeats::063_gargantuan_wild_shape_wild_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "GARGANTUAN WILD SHAPE [WILD][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#063_gargantuan_wild_shape_wild_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ability to wild shape into a Huge animal.\nBenefit: The character can use your wild shape to take the shape of a Gargantuan animal.\nNormal: Without this feat, a character cannot wild shape into an animal greater than Huge size.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::062_forge_epic_ring_item_creation_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::064_great_charisma_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::006_combat",
+  "document_id": "srd_35::epicmonsters_g_w::006_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#006_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Alacrity (Su): Once per round, the mithral golem may take an extra standard action (either before or after its other actions in the round).\nMagic Immunity (Ex): A mithral golem is immune to all magical and supernatural effects, except as follows. A slow spell negates its alacrity for 1d4 rounds, while a haste spell restores 1d6 hit points per level of the caster (maximum 10d6) or restores its alacrity, if previously negated by a slow spell. Multiple slow spells simply extend the duration of the effect.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::005_mithral_golem",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::007_construction"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::008_epic_dwarven_defender",
+  "document_id": "srd_35::epicprestigeclasses::008_epic_dwarven_defender",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "EPIC DWARVEN DEFENDER"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#008_epic_dwarven_defender"
+  },
+  "chunk_type": "subsection",
+  "content": "Hit Die: d12.\nSkill Points at Each Additional Level: 2 + Int modifier.\nDefensive Stance: The epic dwarven defender gains one additional defensive stance per day every two levels above 9th.\nDefensive Awareness: The dwarven defender's defensive awareness bonus on saves against traps doesn't increase after 10th level.\nDamage Reduction: The epic dwarven defender's damage reduction increases by 3 points every four levels above 10th.\nTrap Sense (Ex): The epic dwarven defender's bonus increases by +1 every four levels higher than 8th.\nBonus Feats: The epic dwarven defender gains a bonus feat (selected from the list of epic dwarven defender feats) everyfive levels after 10th.\nEpic Dwarven Defender Bonus Feat List: Armor Skin, Bulwark of Defense, Damage Reduction, Devastating Critical, Energy Resistance, Epic Endurance, Epic Prowess, Epic Toughness, Epic Weapon Focus, Fast Healing, Improved Combat Reflexes, Improved Dark-vision, Instant Reload, Mobile Defense, Overwhelming Critical, Perfect Health, Spellcasting Harrier.\nTable: The Epic Dwarven Defender\nLevel | Special |\n11th | Defensive stance 6/day |\n12th | Trap sense +3 |\n13th | Defensive stance 7/day |\n14th | Damage reduction 9/-- |\n15th | Bonus feat, defensive stance 8/day |\n16th | Trap sense +4 |\n17th | Defensive stance 9/day |\n18th | Damage reduction 12/-- |\n19th | Defensive stance 10/day |\n20th | Bonus feat, trap sense +5 |\nEPIC ELDRITCH KNIGHT\nHit Die: d6",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::007_skill_points_at_each_additional_level_4_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::009_skill_points_at_each_additional_level_2_int_modifier"
+}

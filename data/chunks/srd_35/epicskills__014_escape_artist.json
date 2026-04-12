@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::014_escape_artist",
+  "document_id": "srd_35::epicskills::014_escape_artist",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Escape Artist"
+    ],
+    "source_location": "EpicSkills.rtf#014_escape_artist"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can pass through spaces smaller than his or her head, or even through a wall of force.\nDC | Task |\n80 | Extremely tight space |\n120 | Pass through wall of force |\nExtremely Tight Space: This is the DC for getting through a space when one's head shouldn't even be able to fit; this can be as small as 2 inches square for Medium-size creatures. Halve this limit for each size category less than Medium-size; double it for each size category greater than Medium-size. If the space is long, such as in a chimney, multiple checks may be called for.\nPass through Wall of Force: This allows a character to find a gap of weakness in a wall of force (or similar force effect) and squeeze through it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::013_disguise",
+  "next_chunk_id": "chunk::srd_35::epicskills::015_forgery"
+}

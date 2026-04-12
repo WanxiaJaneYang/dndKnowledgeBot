@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::062_power_points_5",
+  "document_id": "srd_35::psionicpowersd_f::062_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#062_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You transfer your hurt to another. When you manifest this power and then make a successful touch attack, you can transfer 50 points of damage (or less, if you choose) from yourself to the touched creature. You immediately regain hit points equal to the amount of damage you transfer.\nYou cannot use this power to gain hit points in excess of your full normal total. The transferred damage is empathic in nature, so powers and abilities the subject may have such as damage reduction and regeneration do not lessen or change this damage.\nThe damage transferred by this power has no type, so even if the subject has immunity to the type of damage you originally took, the transfer occurs normally and deals hit point damage to the subject.\nAugment: You can augment this power in one or both of the following ways.\n1. For every additional power point you spend, you can transfer an additional 10 points of damage (maximum 90 points per manifestation).\n2. If you spend 6 additional power points, this power affects all creatures in a 20-foot-radius spread centered on you.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::061_telepathy_mind_affecting",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::063_display_mental"
+}

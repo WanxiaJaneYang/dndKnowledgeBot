@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::030_combat",
+  "document_id": "srd_35::monstersd_de::030_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#030_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Lemures surge toward anything they meet and try to claw it apart. Only a telepathic command from other devils or the complete destruction of the lemures can make them stop.\nA lemure's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nMindless (Ex): Immunity to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).\n\nHit Dice: | 18d8+144 (225 hp) |\nInitiative: | +12 |\nSpeed: | 40 ft. (8 squares), fly 60 ft. (average) |\nAC: | 40 (-1 size, +8 Dex, +23 natural) touch 17, flat-footed 32 |\nBase Attack/Grapple: | +18/+35 |\nAttack: | Claw +30 melee (2d8+13) |\nFull Attack: | 2 claws +30 melee (2d8+13) and 2 wings +28 melee (2d6+6) and bite +28 melee (4d6+6 plus poison plus disease) and tail slap +28 melee (2d8+6) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Constrict 2d8+26, fear aura, improved grab, spell-like abilities, summon devil |\nSpecial Qualities: | Damage reduction 15/good and silver, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, regeneration 5, see in darkness, spell resistance 32, telepathy 100 ft. |\nSaves: | Fort +19, Ref +19, Will +21 |\nAbilities: | Str 37, Dex 27, Con 27, Int 26, Wis 26, Cha 26 |\nSkills: | Balance +10, Bluff +29, Climb +34, Concentration +29, Diplomacy +10, Disguise +29 (+31 acting), Hide +25, Intimidate +31, Jump +40, Knowledge (arcana) +29, Knowledge (nature) +10, Knowledge (the planes) +29, Knowledge (religion) +29, Listen +29, Move Silently +29, Search +29, Spellcraft +31, Spot +29, Survival +8 (+10 on other planes, +10 when tracking), Tumble +31 |\nFeats: | Cleave, Great Cleave, Improved Initiative, Iron Will, Multiattack, Power Attack, Quicken Spell-Like Ability (fireball) |\nEnvironment: | A lawful evil-aligned plane |\nOrganization: | Solitary, pair, team (3-4), or troupe (1-2 pit fiends, 2-5 horned devils, and 2-5 barbed devils) |\nChallenge Rating: | 20 |\nTreasure: | Standard coins; double goods; standard items |\nAlignment: | Always lawful evil |\nAdvancement: | 19-36 HD (Large); 37-54 HD (Huge) |\nLevel Adjustment: | -- |\nA pit fiend often wraps its wings around itself like a grotesque cloak, and appears wreathed in flames.\nA pit fiend is 12 feet tall and weighs 800 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::029_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::031_combat"
+}

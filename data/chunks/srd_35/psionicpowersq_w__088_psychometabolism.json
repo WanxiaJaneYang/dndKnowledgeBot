@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::088_psychometabolism",
+  "document_id": "srd_35::psionicpowersq_w::088_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#088_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 1, psychic warrior 1\nDisplay: Material and olfactory\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::087_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::089_power_points_1"
+}

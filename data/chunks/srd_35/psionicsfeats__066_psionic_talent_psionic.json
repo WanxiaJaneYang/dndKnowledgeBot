@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::066_psionic_talent_psionic",
+  "document_id": "srd_35::psionicsfeats::066_psionic_talent_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC TALENT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#066_psionic_talent_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You gain additional power points to supplement those you already had.\nPrerequisite: Having a power point reserve.\nBenefit: When you take this feat for the first time, you gain 2 power points.\nSpecial: You can take this feat multiple times. Each time you take the feat after the first time, the number of power points you gain increases by 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::065_psionic_shot_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::067_psionic_weapon_psionic"
+}

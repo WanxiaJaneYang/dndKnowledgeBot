@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::019_combat",
+  "document_id": "srd_35::psionicmonsters::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Blues support goblin warriors in combat and are often called upon to lead a gang of goblins (from the rear) into battle.\nPsionic Powers: The blue described here is a 1st-level psion.\nTypical Psion Powers Known (power points 3*; save DC 12 + power level): 1st--inertial armor, mind thrust (DC 13), psionic charm (DC 13).\nManifester level 1st. The save DCs are Intelligence-based.\n*The blue shown here has already manifested inertial armor; its reserve is normally 4 power points.\nSkills: Blues have a +4 racial bonus on Move Silently checks and Ride checks.\nThe blue psion presented here had the following ability scores before racial adjustments: Str 8, Dex 11, Con 12, Int 13, Wis 10, Cha 9.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::018_astral_construct_menu_c",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::020_blues_as_characters"
+}

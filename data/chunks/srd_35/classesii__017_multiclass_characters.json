@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesii::017_multiclass_characters",
+  "document_id": "srd_35::classesii::017_multiclass_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesII",
+      "MULTICLASS CHARACTERS"
+    ],
+    "source_location": "ClassesII.rtf#017_multiclass_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "A character may add new classes as he or she progresses in level, thus becoming a multiclass character. The class abilities from a character's different classes combine to determine a multiclass character's overall abilities. Multiclassing improves a character's versatility at the expense of focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesii::016_arcane_spells_and_armor",
+  "next_chunk_id": "chunk::srd_35::classesii::018_class_and_level_features"
+}

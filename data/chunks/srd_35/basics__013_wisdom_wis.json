@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::013_wisdom_wis",
+  "document_id": "srd_35::basics::013_wisdom_wis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "WISDOM (WIS)"
+    ],
+    "source_location": "Basics.rtf#013_wisdom_wis"
+  },
+  "chunk_type": "subsection",
+  "content": "Wisdom describes a character's willpower, common sense, perception, and intuition. While Intelligence represents one's ability to analyze information, Wisdom represents being in tune with and aware of one's surroundings. Wisdom is the most important ability for clerics and druids, and it is also important for paladins and rangers. If you want your character to have acute senses, put a high score in Wisdom. Every creature has a Wisdom score.\nYou apply your character's Wisdom modifier to:\nWill saving throws (for negating the effect of charm person and other spells).\nHeal, Listen, Profession, Sense Motive, Spot, and Survival checks. These are the skills that have Wisdom as their key ability.\nClerics, druids, paladins, and rangers get bonus spells based on their Wisdom scores. The minimum Wisdom score needed to cast a cleric, druid, paladin, or ranger spell is 10 + the spell's level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::012_intelligence_int",
+  "next_chunk_id": "chunk::srd_35::basics::014_charisma_cha"
+}

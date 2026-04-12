@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::002_prerequisites",
+  "document_id": "srd_35::feats::002_prerequisites",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "PREREQUISITES"
+    ],
+    "source_location": "Feats.rtf#002_prerequisites"
+  },
+  "chunk_type": "subsection",
+  "content": "Some feats have prerequisites. Your character must have the indicated ability score, class feature, feat, skill, base attack bonus, or other quality designated in order to select or use that feat. A character can gain a feat at the same level at which he or she gains the prerequisite.\nA character can't use a feat if he or she has lost a prerequisite.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::001_feats",
+  "next_chunk_id": "chunk::srd_35::feats::003_types_of_feats"
+}

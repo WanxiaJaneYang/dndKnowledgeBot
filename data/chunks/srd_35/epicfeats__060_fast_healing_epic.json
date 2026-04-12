@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::060_fast_healing_epic",
+  "document_id": "srd_35::epicfeats::060_fast_healing_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "FAST HEALING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#060_fast_healing_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Con 25.\nBenefit: The character gains fast healing 3, or the character's existing fast healing increases by 3. This feat does not stack with fast healing granted by magic items or nonpermanent magical effects.\nSpecial: This feat may be taken multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::059_familiar_spell_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::061_fine_wild_shape_wild_epic"
+}

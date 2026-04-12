@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::017_tools_and_skill_kits",
+  "document_id": "srd_35::equipment::017_tools_and_skill_kits",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "TOOLS AND SKILL KITS"
+    ],
+    "source_location": "Equipment.rtf#017_tools_and_skill_kits"
+  },
+  "chunk_type": "subsection",
+  "content": "Alchemist's Lab: An alchemist's lab always has the perfect tool for making alchemical items, so it provides a +2 circumstance bonus on Craft (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.\nArtisan's Tools: These special tools include the items needed to pursue any craft. Without them, you have to use improvised tools (-2 penalty on Craft checks), if you can do the job at all.\nArtisan's Tools, Masterwork: These tools serve the same purpose as artisan's tools (above), but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on Craft checks made with them.\nClimber's Kit: This is the perfect tool for climbing and gives you a +2 circumstance bonus on Climb checks.\nDisguise Kit: The kit is the perfect tool for disguise and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after ten uses.\nHealer's Kit: It is the perfect tool for healing and provides a +2 circumstance bonus on Heal checks. A healer's kit is exhausted after ten uses.\nHoly Symbol, Silver or Wooden: A holy symbol focuses positive energy. A cleric or paladin uses it as the focus for his spells and as a tool for turning undead. Each religion has its own holy symbol.\nUnholy Symbols: An unholy symbol is like a holy symbol except that it focuses negative energy and is used by evil clerics (or by neutral clerics who want to cast evil spells or command undead).\nMagnifying Glass: This simple lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and at least a full-round action. A magnifying glass grants a +2 circumstance bonus on Appraise checks\ninvolving any item that is small or highly detailed.\nMusical Instrument, Common or Masterwork: A masterwork instrument grants a +2 circumstance bonus on Perform checks involving its use.\nScale, Merchant's: A scale grants a +2 circumstance bonus on Appraise checks involving items that are valued by weight, including anything made of precious metals.\nSpell Component Pouch: A spellcaster with a spell component pouch is assumed to have all the material components and focuses needed for spellcasting, except for those components that have a specific cost, divine focuses, and focuses that wouldn't fit in a pouch.\nSpellbook, Wizard's (Blank): A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).\nThieves' Tools: This kit contains the tools you need to use the Disable Device and Open Lock skills. Without these tools, you must improvise tools, and you take a -2 circumstance penalty on Disable Device and Open Locks checks.\nThieves' Tools, Masterwork: This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device and Open Lock checks.\nTool, Masterwork: This well-made item is the perfect tool for the job. It grants a +2 circumstance bonus on a related skill check (if any). Bonuses provided by multiple masterwork items used toward the same skill check do not stack.\nWater Clock: This large, bulky contrivance gives the time accurate to within half an hour per day since it was last set. It requires a source of water, and it must be kept still because it marks time by the regulated flow of droplets of water.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::016_special_substances_and_items",
+  "next_chunk_id": "chunk::srd_35::equipment::018_clothing"
+}

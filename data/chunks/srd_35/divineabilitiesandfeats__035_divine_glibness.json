@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::035_divine_glibness",
+  "document_id": "srd_35::divineabilitiesandfeats::035_divine_glibness",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Glibness"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#035_divine_glibness"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Cha 29, Bluff 40 ranks, Trickery domain.\nBenefit: As a full-round action, the deity can speak and convince others to take some course of action. This works like a mass suggestion spell cast at a level equal to 10 + the deity's divine rank, except that it affects up to (10 + divine rank) creatures, no two of\nwhich can be more than (10 \u00d7divine rank) feet apart. The save DC is 10 + the deity's Charisma modifier + the deity's divine rank.\nSuggested Portfolio Elements: Commerce, lies, thieves.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::034_divine_fire_mastery",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::036_divine_inspiration"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::034_trans",
+  "document_id": "srd_35::spelllistii::034_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#034_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Blink: You randomly vanish and reappear for 1 round/level.\nFlame Arrow: Arrows deal +1d6 fire damage.\nFly: Subject flies at speed of 60 ft.\nGaseous Form: Subject becomes insubstantial and can fly slowly.\nHaste: One creature/level moves faster, +1 on attack rolls, AC, and Reflex saves.\nKeen Edge: Doubles normal weapon's threat range.\nMagic Weapon, Greater: +1/four levels (max +5).\nSecret Page: Changes one page to hide its real content.\nShrink Item: Object shrinks to one-sixteenth size.\nSlow: One subject/level takes only one action/round, -1 to AC, reflex saves, and attack rolls.\nWater Breathing: Subjects can breathe underwater.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::033_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::035_abjur"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::014_ghostly_equipment",
+  "document_id": "srd_35::monstersg::014_ghostly_equipment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Ghostly Equipment"
+    ],
+    "source_location": "MonstersG.rtf#014_ghostly_equipment"
+  },
+  "chunk_type": "subsection",
+  "content": "When a ghost forms, all its equipment and carried items usually become ethereal along with it. In addition, the ghost retains 2d4 items that it particularly valued in life (provided they are not in another creature's possession). The equipment works normally on the Ethereal Plane but passes harmlessly through material objects or creatures. A weapon of +1 or better magical enhancement, however, can harm material creatures when the ghost manifests, but any such attack has a 50% chance to fail unless the weapon is a ghost touch weapon (just as magic weapons can fail to harm the ghost).\nThe original material items remain behind, just as the ghost's physical remains do. If another creature seizes the original, the ethereal copy fades away. This loss invariably angers the ghost, who stops at nothing to return the item to its original resting place.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::013_creating_a_ghost",
+  "next_chunk_id": "chunk::srd_35::monstersg::015_ghoul"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::001_reading_the_entries",
+  "document_id": "srd_35::monstersintro_a::001_reading_the_entries",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "READING THE ENTRIES"
+    ],
+    "source_location": "MonstersIntro-A.rtf#001_reading_the_entries"
+  },
+  "chunk_type": "subsection",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n\nEach monster description is organized in the same general format, as outlined below.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::002_statistics_block"
+}

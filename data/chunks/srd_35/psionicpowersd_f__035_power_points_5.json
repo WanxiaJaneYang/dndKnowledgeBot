@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::035_power_points_5",
+  "document_id": "srd_35::psionicpowersd_f::035_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#035_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You can use dispel psionics to end ongoing powers that have been manifested on a creature or object, to temporarily suppress the psionic abilities of a psionic item, or to end ongoing powers (or at least their effects) within an area. A dispelled power ends as if its duration had expired. Some powers, as detailed in their descriptions, can't be defeated by dispel psionics, or can be ended only if you manifest dispel psionics at a high enough manifester level. Dispel psionics can end spell-like effects just as it does powers.\nThe effect of a power with an instantaneous duration can't be dispelled, because the psionic effect is already over before the dispel psionics can take effect.\nYou choose to use dispel psionics in one of two ways: a targeted dispel or an area dispel.\nTargeted Dispel: One object, creature, or power is the target of the dispel psionics power. You make a dispel check (1d20 + your manifester level, maximum +10) against the power or against each ongoing power currently in effect on the object or creature. The DC for this dispel check is 11 + the power's manifester level. If you succeed on a particular check, that power is dispelled; if you fail, that power remains in effect.\nIf you target an object or creature that is the effect of an ongoing power or is under the effect of an ongoing power, you make a dispel check to end the power or its effect. If the object that you target is a psionic item, you make a dispel check against the item's manifester level. If you succeed, all the item's psionic properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonpsionic for the duration of the effect. An interdimensional interface is temporarily closed. A psionic item's physical properties are unchanged: A suppressed psionic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by\nmortal power such as this.\nYou automatically succeed on your dispel check against any power that you manifested yourself.\nArea Dispel: When dispel psionics is used in this way, the power affects everything within a 20-foot radius. For each creature within the area that is the subject of one or more powers, you make a dispel check against the power with the highest manifester level. If that check fails, you make dispel checks against progressively weaker powers until you dispel one power (which discharges the dispel psionics power so far as that target is concerned) or until you fail all your checks. The creature's psionic items are not affected.\nFor each object within the area that is the target of one or more powers, you make dispel checks as with creatures. Psionic items are not affected by an area dispel.\nFor each ongoing area or effect power whose point of origin is within the area of the dispel psionics power, you can make a dispel check to dispel the power.\nFor each ongoing power whose area overlaps that of the dispel psionics power, you can make a dispel check to end the effect, but only within the overlapping area.\nIf an object or creature that is the effect of an ongoing power is in the area, you can make a dispel check to end the power that created that object or construct in addition to attempting to dispel powers targeting the creature or object. You can choose to automatically succeed on dispel checks against any power that you have manifested.\nAugment: For every additional power point you spend, the bonus on your dispel check increases by 2 (to a maximum bonus of +20 for a 5-point expenditure).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::034_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::036_psychokinesis"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::012_individual_events",
+  "document_id": "srd_35::skillsi::012_individual_events",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Individual Events"
+    ],
+    "source_location": "SkillsI.rtf#012_individual_events"
+  },
+  "chunk_type": "subsection",
+  "content": "Often, several characters attempt some action and each succeeds or fails independently. The result of one character's Climb check does not influence the results of other characters Climb check.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::011_combining_skill_attempts",
+  "next_chunk_id": "chunk::srd_35::skillsi::013_aid_another"
+}

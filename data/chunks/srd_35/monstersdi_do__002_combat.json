@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::002_combat",
+  "document_id": "srd_35::monstersdi_do::002_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "COMBAT"
+    ],
+    "source_location": "MonstersDi-Do.rtf#002_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A digester is a hunting and eating machine. When it is not hungry (which is rarely), it lies low and avoids most other creatures. When hunting, it looks about for a likely target, then charges forth and delivers a gout of acid. If the initial attack is insufficient to kill the prey, the digester attacks with its hind feet until it can spray acid again.\nAcid Spray (Ex): A digester can spray acid in a 20-foot cone, dealing 4d8 points of damage to everything in the area. Once a digester uses this ability, it can't use it again until 1d4 rounds later.\nThe creature can also produce a concentrated stream of acid that deals 8d8 points of damage to a single target within 5 feet. In either case, a DC 17 Reflex save halves the damage. The save DC is Constitution-based.\nSkills: A digester's coloration gives it a +4 racial bonus on Hide checks. It also has a +4 racial bonus on Jump checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::001_monstersdi_do",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::003_dinosaur"
+}

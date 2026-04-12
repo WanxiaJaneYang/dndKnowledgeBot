@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicraces::004_2_charisma",
+  "document_id": "srd_35::psionicraces::004_2_charisma",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicRaces",
+      "-2 Charisma"
+    ],
+    "source_location": "PsionicRaces.rtf#004_2_charisma"
+  },
+  "chunk_type": "subsection",
+  "content": "Aberration: Elans are not subject to spells or effects that affect humanoids only, such as charm person or dominate person.\nMedium: As Medium creatures, elans have no special bonuses or penalties due to their size.\nElan base land speed is 30 feet.\nElans (unlike most aberrations) do not have darkvision.\nNaturally Psionic: Elans gain 2 bonus power points at 1st level. This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class.\nResistance (Su): Elans can use psionic energy to increase their resistance to various forms of attack. As an immediate action, an elan can spend 1 power point to gain a +4 racial bonus on saving throws until the beginning of her next action.\nResilience (Su): When an elan takes damage, she can spend power points to reduce its severity. As an immediate action, she can reduce the damage she is about to take by 2 hit points for every 1 power point she spends.\nRepletion (Su): An elan can sustain her body without need of food or water. If she spends 1 power point, an elan does not need to eat or drink for 24 hours.\nAutomatic Language: Common. Bonus Languages: Any (other than secret languages, such as Druidic). Elans' past lives expose them to wide ranges of language.\nFavored Class: Psion.\nLevel Adjustment: +0.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicraces::003_2_constitution_4_charisma",
+  "next_chunk_id": "chunk::srd_35::psionicraces::005_half_giants"
+}

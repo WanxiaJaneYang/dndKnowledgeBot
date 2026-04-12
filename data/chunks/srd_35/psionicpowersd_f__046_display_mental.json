@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::046_display_mental",
+  "document_id": "srd_35::psionicpowersd_f::046_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#046_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 round\nRange: Medium (100 ft. + 10 ft./level)\nTarget: One humanoid",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::045_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::047_power_points_7"
+}

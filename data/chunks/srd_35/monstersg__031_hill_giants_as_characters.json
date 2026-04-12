@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::031_hill_giants_as_characters",
+  "document_id": "srd_35::monstersg::031_hill_giants_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "HILL GIANTS AS CHARACTERS"
+    ],
+    "source_location": "MonstersG.rtf#031_hill_giants_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Reckless brutes of incredible strength but little wit, hill giant characters are never truly accepted into society. Yet they do well on its edges and frontiers, forging a strong and profitable existence.\nDespite their rugged appearance and great size, their basically humanoid shape makes it easy for them to relate with more civilized folk.\nHill giant characters possess the following racial traits.\n-- +14 Strength, -2 Dexterity, +8 Constitution, -4 Intelligence, -4 Charisma.\n--Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.\n--Space/Reach: 10 feet/10 feet.\n--A hill giant's base land speed is 40 feet.\n--Low-light vision.\n--Racial Hit Dice: A hill giant begins with twelve levels of giant, which provide 12d8 Hit Dice, a base attack bonus of +8, and base saving throw bonuses of Fort +8, Ref +4, and Will +4.\n--Racial Skills: A hill giant's giant levels give it skill points\nequal to 15 x (2 + Int modifier). Its class skills are Climb, Jump, Listen, and Spot.\n--Racial Feats: A hill giant's giant levels give it five feats.\n-- +9 natural armor bonus.\n--Special Attacks (see above): Rock throwing.\n--Special Qualities (see above): Rock catching.\n--Weapon and Armor Proficiency: A hill giant is automatically proficient with simple weapons, martial weapons, light and medium armor, and shields.\n--Automatic Languages: Giant. Bonus Languages: Common, Draconic, Elven, Goblin, Orc.\n--Favored Class: Barbarian.\n--Level adjustment +4.\n\nHit Dice: | 14d8+56 (119 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. in hide armor (6 squares); base speed 40 ft. |\nArmor Class: | 25 (-1 size, +2 Dex, +11 natural, +3 hide), touch 11, flat-footed 23 |\nBase Attack/Grapple: | +10/+22 |\nAttack: | Greatclub +17 melee (2d8+12) or slam +17 melee (1d4+8) or rock +11 ranged (2d8+12) |\nFull Attack: | Greatclub +17/+12 melee (2d8+12) or 2 slams +17 melee (1d4+8) or rock +11 ranged (2d8+12) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Rock throwing |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, rock catching |\nSaves: | Fort +13, Ref +6, Will +7 |\nAbilities: | Str 27, Dex 15, Con 19, Int 10, Wis 12, Cha 11 |\nSkills: | Climb +11, Hide +6*, Jump +11, Spot +12 |\nFeats: | Combat Reflexes, Iron Will, Point Blank Shot, Power Attack, Precise Shot |\nEnvironment: | Temperate mountains |\nOrganization: | Solitary, gang (2-5), band (6-9 plus 35% noncombatants), hunting/raiding/trading party (6-9 plus 1 elder), or tribe (21-30 plus 35% noncombatants plus 1-3 elders and 3-6 dire bears) |\nChallenge Rating: | 8 (elder 9) |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +4 (elder +6) |\nStone giants prefer thick leather garments, dyed in shades of brown and gray to match the stone around them. Adults are about 12 feet tall and weigh about 1,500 pounds. Stone giants can live to be 800 years old.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::030_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::032_combat"
+}

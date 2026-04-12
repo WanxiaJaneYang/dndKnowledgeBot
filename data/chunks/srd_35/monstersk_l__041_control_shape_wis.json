@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::041_control_shape_wis",
+  "document_id": "srd_35::monstersk_l::041_control_shape_wis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "CONTROL SHAPE (WIS)"
+    ],
+    "source_location": "MonstersK-L.rtf#041_control_shape_wis"
+  },
+  "chunk_type": "subsection",
+  "content": "Any character who has contracted lycanthropy and is aware of his condition can learn Control Shape as a class skill. (An afflicted lycanthrope not yet aware of his condition can attempt Control Shape checks untrained.) This skill determines whether an afflicted lycanthrope can control his shape. A natural lycanthrope does not need this skill, since it has full control over its shape.\nCheck (Involuntary Change): An afflicted character must make a check at moonrise each night of the full moon to resist involuntarily assuming animal form. An injured character must also check for an involuntary change after accumulating enough damage to reduce his hit points by one-quarter and again after each additional one-quarter lost.\nInvoluntary Change | Control Shape DC |\nResist involuntary change | 25 |\nOn a failed check, the character must remain in animal form until the next dawn, when he automatically returns to his base form. A character aware of his condition may make one attempt to return to humanoid form (see below), but if he fails, he remains in animal form until the next dawn.\nRetry (Involuntary Change): Check to resist an involuntary change once each time a triggering event occurs.\nCheck (Voluntary Change): In addition, an afflicted lycanthrope aware of his condition may attempt to use this skill voluntarily in order to change to animal form, assume hybrid form, or return to humanoid form, regardless of the state of the moon or whether he has been injured.\nInvoluntary Change | Control Shape DC |\nReturn to humanoid form (full moon*) | 25 |\nReturn to humanoid form (not full moon) | 20 |\nAssume hybrid form | 15 |\nVoluntary change to animal form (full moon) | 15 |\nVoluntary change to animal form (not full moon) | 20 |\n* For game purposes, the full moon lasts three days every month. |\nRetry (Voluntary Change): A character can retry voluntary changes to animal form or hybrid form as often as he likes. Each attempt is a standard action. However, on a failed check to return to humanoid form, the character must remain in animal or hybrid form until the next dawn, when he automatically returns to humanoid form.\nSpecial: An afflicted lycanthrope cannot attempt a voluntary change until it becomes aware of its condition (see Lycanthropy as an Affliction).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::040_lycanthropes_as_characters"
+}

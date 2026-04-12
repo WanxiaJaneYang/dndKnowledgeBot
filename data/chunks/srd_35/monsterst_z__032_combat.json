@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::032_combat",
+  "document_id": "srd_35::monsterst_z::032_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#032_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Winter wolves typically hunt in packs. Their size, cunning, and formidable breath weapon allow them to hunt and kill creatures much larger than themselves. A pack usually circles an opponent, each wolf attacking in turn to exhaust it. If they're in a hurry, white wolves try to pin their foes.\nBreath Weapon (Su): 15-foot cone, once every 1d4 rounds, damage 4d6 cold, Reflex DC 16 half. The save DC is Constitution-based.\nFreezing Bite (Su): A winter wolf deals an extra 1d6 points of cold damage every time it bites an opponent, as if its bite were a frost weapon.\nTrip (Ex): A winter wolf that hits with a bite attack can attempt to trip the opponent (+8 check modifier) as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the winter wolf.\nSkills: Winter wolves have a +1 racial bonus on Listen, Move Silently, and Spot checks. Winter wolves have a +2 racial bonus on Hide checks. *Their natural coloration grants them a +7 racial bonus on Hide checks in areas of snow and ice. A winter wolf has a +4 racial bonus on Survival checks when tracking by scent.\n\nHit Dice: | 4d10+8 (30 hp) |\nInitiative: | +2 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 14 (+2 Dex, +2 natural), touch 12, flat-footed 12 |\nBase Attack/Grapple: | +4/+7 |\nAttack: | Bite +7 melee (1d6+4) |\nFull Attack: | Bite +7 melee (1d6+4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Trip |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, scent |\nSaves: | Fort +6, Ref +6, Will +3 |\nAbilities: | Str 17, Dex 15, Con 15, Int 6, Wis 14, Cha 10 |\nSkills: | Hide +4, Listen +6, Move Silently +6, Spot +6, Survival +2* |\nFeats: | Alertness, Track |\nEnvironment: | Temperate plains |\nOrganization: | Solitary, pair, or pack (6-11) |\nChallenge Rating: | 2 |\nTreasure: | 1/10 coins; 50% goods; 50% items |\nAlignment: | Usually neutral evil |\nAdvancement: | 5-6 HD (Medium); 7-12 HD (Large) |\nLevel Adjustment: | +1 (cohort) |\nA typical worg has gray or black fur, grows to 5 feet long and stands 3 feet tall at the shoulder. It weighs 300 pounds.\nMore intelligent than their smaller cousins, worgs speak their own language. Some can also speak Common and Goblin.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::031_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::033_combat"
+}

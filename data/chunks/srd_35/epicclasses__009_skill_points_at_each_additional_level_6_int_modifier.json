@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::009_skill_points_at_each_additional_level_6_int_modifier",
+  "document_id": "srd_35::epicclasses::009_skill_points_at_each_additional_level_6_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "Skill Points at Each Additional Level: 6 + Int modifier"
+    ],
+    "source_location": "EpicClasses.rtf#009_skill_points_at_each_additional_level_6_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "Spells: The ranger's caster level is equal to one-half his or her class level, as normal. The ranger's number of spells per day does not increase after 20th level.\nFavored Enemy (Ex): The epic ranger gains one additional favored enemy, and his or her bonuses against one category of favored enemies goes up by +2, every five levels higher than 20th.\nAnimal companion: The epic ranger's animal companion continues to increase in power. The ranger's effective druid level is half his or her ranger level.\nBonus Feats: The epic ranger gains a bonus feat (selected from the list of epic ranger feats) every three levels after 20th.\nEpic Ranger Bonus Feat List: Bane of Enemies, Blinding Speed, Combat Archery, Death of Enemies, Distant Shot, Epic Endurance, Epic Prowess, Epic Speed, Epic Toughness, Epic Weapon Focus, Fast Healing, Improved Combat Casting, Improved Favored Enemy, Improved Manyshot, Improved Spell Capacity, Legendary Climber, Legendary Rider, Legendary Tracker, Perfect Health, Perfect Two-Weapon Fighting, Permanent Emanation, Spontaneous Spell, Storm of Throws, Swarm of Arrows, Two-Weapon Rend, Uncanny Accuracy.\nTable: The Epic Ranger\nRanger Level | Special |\n21st | -- |\n22nd | -- |\n23rd | Bonus feat |\n24th | -- |\n25th | 6th favored enemy |\n26th | Bonus feat |\n27th | -- |\n28th | -- |\n29th | Bonus feat |\n30th | 7th favored enemy |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::008_skill_points_at_each_additional_level_2_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicclasses::010_epic_rogue"
+}

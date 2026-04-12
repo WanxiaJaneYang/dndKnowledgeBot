@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::carryingandexploration::003_armor_and_encumbrance_for_other_base_speeds",
+  "document_id": "srd_35::carryingandexploration::003_armor_and_encumbrance_for_other_base_speeds",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CarryingandExploration",
+      "Armor and Encumbrance for Other Base Speeds"
+    ],
+    "source_location": "CarryingandExploration.rtf#003_armor_and_encumbrance_for_other_base_speeds"
+  },
+  "chunk_type": "subsection",
+  "content": "The table below provides reduced speed figures for all base speeds from 20 feet to 100 feet (in 10-foot increments).\nBase Speed | Reduced Speed | Base Speed | Reduced Speed |\n20 ft. | 15 ft. | 70 ft. | 50 ft. |\n30 ft. | 20 ft. | 80 ft. | 55 ft. |\n40 ft. | 30 ft. | 90 ft. | 60 ft. |\n50 ft. | 35 ft. | 100 ft. | 70 ft. |\n60 ft. | 40 ft. | | |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::carryingandexploration::002_carrying_capacity",
+  "next_chunk_id": "chunk::srd_35::carryingandexploration::004_movement"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::carryingandexploration::004_movement",
+  "document_id": "srd_35::carryingandexploration::004_movement",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CarryingandExploration",
+      "MOVEMENT"
+    ],
+    "source_location": "CarryingandExploration.rtf#004_movement"
+  },
+  "chunk_type": "subsection",
+  "content": "There are three movement scales, as follows.\nTactical, for combat, measured in feet (or squares) per round.\nLocal, for exploring an area, measured in feet per minute.\nOverland, for getting from place to place, measured in miles per hour or miles per day.\nModes of Movement: While moving at the different movement scales, creatures generally walk, hustle, or run.\nWalk: A walk represents unhurried but purposeful movement at 3 miles per hour for an unencumbered human.\nHustle: A hustle is a jog at about 6 miles per hour for an unencumbered human. A character moving his or her speed twice in a single round, or moving that speed in the same round that he or she performs a standard action or another move action is hustling when he or she moves.\nRun (x3): Moving three times speed is a running pace for a character in heavy armor. It represents about 9 miles per hour for a human in full plate.\nRun (x4): Moving four times speed is a running pace for a character in light, medium, or no armor. It represents about 12 miles per hour for an unencumbered human, or 8 miles per hour for a human in chainmail.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::carryingandexploration::003_armor_and_encumbrance_for_other_base_speeds",
+  "next_chunk_id": "chunk::srd_35::carryingandexploration::005_tactical_movement"
+}

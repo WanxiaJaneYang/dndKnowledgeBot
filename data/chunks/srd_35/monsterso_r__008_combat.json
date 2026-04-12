@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::008_combat",
+  "document_id": "srd_35::monsterso_r::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "Combat"
+    ],
+    "source_location": "MonstersO-R.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Ogre mages rely on their spell-like abilities, resorting to physical combat only when necessary. When faced with obviously superior forces, they prefer to retreat using gaseous form rather than fight a losing battle.\nSpell-Like Abilities: At will--darkness, invisibility; 1/day-- charm person (DC 14), cone of cold (DC 18), gaseous form, polymorph, sleep (DC 14). Caster level 9th. The save DCs are Charisma-based.\nFlight (Su): An ogre mage can cease or resume flight as a free action. While using gaseous form it can fly at its normal speed and has perfect maneuverability.\nRegeneration (Ex): Fire and acid deal normal damage to an ogre mage.\nAn ogre mage that loses a limb or body part can reattach it by holding the severed member to the stump. Reattachment takes 1 minute. If the head or some other vital organ is severed, it must be reattached within 10 minutes or the creature dies. An ogre mage cannot regrow lost body parts.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::007_ogres_as_characters",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::009_ogre_mages_as_characters"
+}

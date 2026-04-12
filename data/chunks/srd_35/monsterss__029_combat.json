@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::029_combat",
+  "document_id": "srd_35::monsterss::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A spider eater attacks with its venomous sting and powerful mandibles. Its usual tactic is to deliver a sting, then back off, hovering out of reach until the venom takes effect.\nImplant (Ex): Female spider eaters lay their eggs inside paralyzed creatures of Large or larger size. The young emerge about six weeks later, literally devouring the host from inside.\nPoison (Ex): Injury, Fortitude DC 17, initial damage none, secondary damage paralysis for 1d8+5 weeks. The save DC is Constitution-based.\nFreedom of Movement (Su): Spider eaters have a continuous freedom of movement ability as the spell (caster level 12th). When the spider eater serves as a mount, this effect does not extend to its rider.\nSkills: Spider eaters have a +4 racial bonus on Listen and Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::028_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::030_training_a_spider_eater"
+}

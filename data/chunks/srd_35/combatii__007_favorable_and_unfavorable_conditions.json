@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::007_favorable_and_unfavorable_conditions",
+  "document_id": "srd_35::combatii::007_favorable_and_unfavorable_conditions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "FAVORABLE AND UNFAVORABLE CONDITIONS"
+    ],
+    "source_location": "CombatII.rtf#007_favorable_and_unfavorable_conditions"
+  },
+  "chunk_type": "subsection",
+  "content": "Table: Attack Roll Modifiers | | |\nAttacker is . . . | Melee | Ranged |\nDazzled | -1 | -1 |\nEntangled | -21 | -21 |\nFlanking defender | +2 | -- |\nInvisible | +22 | +22 |\nOn higher ground | +1 | +0 |\nProne | -4 | --3 |\nShaken or frightened | -2 | -2 |\nSqueezing through a space | -4 | -4 |\n1 An entangled character also takes a -4 penalty to Dexterity, which may affect his attack roll. |\n2 The defender loses any Dexterity bonus to AC. This bonus doesn't apply if the target is blinded. |\n3 Most ranged weapons can't be used while the attacker is prone, but you can use a crossbow or shuriken while prone at no penalty. |\nTable: Armor Class Modifiers | | |\nDefender is . . . | Melee | Ranged |\nBehind cover | +4 | +4 |\nBlinded | -21 | -21 |\nConcealed or invisible | -- See Concealment -- |\nCowering | -21 | -21 |\nEntangled | +02 | +02 |\nFlat-footed (such as surprised, balancing, climbing) | +01 | +01 |\nGrappling (but attacker is not) | +01 | +01, 3 |\nHelpless (such as paralyzed, sleeping, or bound) | -44 | +04 |\nKneeling or sitting | -2 | +2 |\nPinned | -44 | +04 |\nProne | -4 | +4 |\nSqueezing through a space | -4 | -4 |\nStunned | -21 | -21 |\n1 The defender loses any Dexterity bonus to AC. |\n2 An entangled character takes a -4 penalty to Dexterity. |\n3 Roll randomly to see which grappling combatant you strike. That defender loses any Dexterity bonus to AC. |\n4 Treat the defender's Dexterity as 0 (-5 modifier). Rogues can sneak attack helpless or pinned defenders. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::006_big_and_little_creatures_in_combat",
+  "next_chunk_id": "chunk::srd_35::combatii::008_cover"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::036_power_points_3",
+  "document_id": "srd_35::psionicpowersa_c::036_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#036_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "The subject's higher mind is locked away. He stands dazed, unable to take any psionic actions (including manifesting powers or using psionic feats that require a decision to be used) nor any mental actions at all.\nA brain locked subject is not stunned, so attackers get no special advantage against him.\nA brain locked flyer must descend to the closest safe level area below it. An air-breathing swimmer must make for the surface.\nAugment: You can augment this power in one or both of the following ways.\n1. If you spend 2 additional power points, this power can also affect an animal, fey, giant, magical beast, or monstrous humanoid.\n2. If you spend 4 additional power points, this power can also affect an aberration, dragon, elemental, or outsider in addition to the creature types mentioned above.\nBreath of the Black Dragon\n\nLevel: Psion/wilder 6, psychic warrior 6",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::035_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::037_display_visual"
+}

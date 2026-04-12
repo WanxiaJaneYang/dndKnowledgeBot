@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::110_legendary_wrestler_epic",
+  "document_id": "srd_35::epicfeats::110_legendary_wrestler_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LEGENDARY WRESTLER [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#110_legendary_wrestler_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Str 21, Dex 21, Improved Unarmed Strike, Escape Artist 15 ranks.\nBenefit: The character gains a +10 bonus on all grapple checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::109_legendary_tracker_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::111_lingering_damage_epic"
+}

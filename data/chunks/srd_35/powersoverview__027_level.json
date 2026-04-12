@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::027_level",
+  "document_id": "srd_35::powersoverview::027_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "LEVEL"
+    ],
+    "source_location": "PowersOverview.rtf#027_level"
+  },
+  "chunk_type": "subsection",
+  "content": "The next line of the power description gives a power's level, a number between 1 and 9 that defines the power's relative strength. This number is preceded by the name of the class whose members can manifest the power. If a power is part of a discipline's list instead of the psion's general power list, this will be indicated by the name of the discipline's specialist. The specialists a power can be associated with include Egoist (psychometabolism), Kineticist (psychokinesis), Nomad (psychoportation), Seer (clairsentience), Shaper (metacreativity), and Telepath (telepathy).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::026_descriptor",
+  "next_chunk_id": "chunk::srd_35::powersoverview::028_display"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::019_9th_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::019_9th_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "9TH-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#019_9th_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Astral Projection M: Projects you and companions onto Astral Plane.\nEnergy Drain: Subject gains 2d4 negative levels.\nEtherealness: Travel to Ethereal Plane with companions.\nGate X: Connects two planes for travel or summoning.\nHeal, Mass: As heal, but with several subjects.\nImplosion: Kills one creature/round.\nMiracle X: Requests a deity's intercession.\nSoul Bind F: Traps newly dead soul to prevent resurrection.\nStorm of Vengeance: Storm rains acid, lightning, and hail.\nSummon Monster IX: Calls extraplanar creature to fight for you.\nTrue Resurrection M: As resurrection, plus remains aren't needed.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::018_8th_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::020_air_domain"
+}

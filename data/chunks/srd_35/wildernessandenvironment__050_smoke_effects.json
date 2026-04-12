@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::050_smoke_effects",
+  "document_id": "srd_35::wildernessandenvironment::050_smoke_effects",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "SMOKE EFFECTS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#050_smoke_effects"
+  },
+  "chunk_type": "subsection",
+  "content": "A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage.\nSmoke obscures vision, giving concealment (20% miss chance) to characters within it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::049_lava_effects",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::051_starvation_and_thirst"
+}

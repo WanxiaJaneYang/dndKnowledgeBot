@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::033_psychometabolism_healing",
+  "document_id": "srd_35::psionicpowersa_c::033_psychometabolism_healing",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Psychometabolism (Healing)"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#033_psychometabolism_healing"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 3, psychic warrior 2\nDisplay: Auditory and material\nManifesting Time: 1 round\n\nPower Points: Psion/wilder 5, psychic warrior 3\nYou restore up to 2 points of damage to a single ability score. You cannot use body purification to heal ability drain.\nAugment: For every additional power point you spend, this power heals 1 additional point of damage to the same ability score.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::032_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::034_display_material"
+}

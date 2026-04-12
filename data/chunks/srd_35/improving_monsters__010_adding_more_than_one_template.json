@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::010_adding_more_than_one_template",
+  "document_id": "srd_35::improving_monsters::010_adding_more_than_one_template",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "Adding More Than One Template"
+    ],
+    "source_location": "Improving Monsters.rtf#010_adding_more_than_one_template"
+  },
+  "chunk_type": "subsection",
+  "content": "In theory, there's no limit to the number of templates you can add to a creature. To add more than one template, just apply each template one at a time. Always apply inherited templates before applying acquired templates. Whenever you add multiple templates, pay attention to the creature's type--you may add a template that makes the creature ineligible for other templates you might want to add.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::009_reading_a_template",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::011_advanced_monster_challenge_rating"
+}

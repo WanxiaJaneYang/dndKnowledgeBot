@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::021_craft_universal_item_item_creation",
+  "document_id": "srd_35::psionicsfeats::021_craft_universal_item_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "CRAFT UNIVERSAL ITEM [ITEM CREATION]"
+    ],
+    "source_location": "PsionicsFeats.rtf#021_craft_universal_item_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "You can create universal psionic items.\nPrerequisite: Manifester level 3rd.\nBenefit: You can create any universal psionic item whose prerequisites you meet. Crafting a universal psionic item takes one day for each 1,000 gp in its base price. To craft a universal psionic item, you must spend 1/25 of the item's base price in XP and use up raw materials costing one-half of this price.\nYou can also mend a broken universal item if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to craft that item in the first place.\nSome universal items incur extra costs in XP, as noted in their descriptions. These costs are in addition to those derived from the item's base price. You must pay such a cost to create an item or to mend a broken one.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::020_craft_psionic_construct_item_creation",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::022_deadly_precision_general"
+}

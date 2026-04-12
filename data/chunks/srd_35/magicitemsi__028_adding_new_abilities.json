@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::028_adding_new_abilities",
+  "document_id": "srd_35::magicitemsi::028_adding_new_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "ADDING NEW ABILITIES"
+    ],
+    "source_location": "MagicItemsI.rtf#028_adding_new_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "A creator can add new magical abilities to a magic item with no restrictions. The cost to do this is the same as if the item was not magical. Thus, a +1 longsword can be made into a +2 vorpal longsword, with the cost to create it being equal to that of a +2 vorpal sword minus the cost of a +1 sword.\nIf the item is one that occupies a specific place on a character's body the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her ring of protection +2, the cost of adding this ability is the same as for creating a ring of invisibility multiplied by 1.5.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::027_intelligent_item_creation",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::029_body_slot_affinities"
+}

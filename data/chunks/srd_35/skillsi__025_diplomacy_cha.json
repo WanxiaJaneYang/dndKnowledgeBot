@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::025_diplomacy_cha",
+  "document_id": "srd_35::skillsi::025_diplomacy_cha",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "DIPLOMACY (CHA)"
+    ],
+    "source_location": "SkillsI.rtf#025_diplomacy_cha"
+  },
+  "chunk_type": "subsection",
+  "content": "Check: You can change the attitudes of others (nonplayer characters) with a successful Diplomacy check; see the Influencing NPC Attitudes sidebar, below, for basic DCs. In negotiations, participants roll opposed Diplomacy checks, and the winner gains the advantage. Opposed checks also resolve situations when two advocates or diplomats plead opposite cases in a hearing before a third party.\nAction: Changing others' attitudes with Diplomacy generally takes at least 1 full minute (10 consecutive full-round actions). In some situations, this time requirement may greatly increase. A rushed Diplomacy check can be made as a full-round action, but you take a -10 penalty on the check.\nTry Again: Optional, but not recommended because retries usually do not work. Even if the initial Diplomacy check succeeds, the other character can be persuaded only so far, and a retry may do more harm than good. If the initial check fails, the other character has probably become more firmly committed to his position, and a retry is futile.\nSpecial: A half-elf has a +2 racial bonus on Diplomacy checks.\nIf you have the Negotiator feat, you get a +2 bonus on Diplomacy checks.\nSynergy: If you have 5 or more ranks in Bluff, Knowledge (nobility and royalty), or Sense Motive, you get a +2 bonus on Diplomacy checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::024_decipher_script_int_trained_only",
+  "next_chunk_id": "chunk::srd_35::skillsi::026_influencing_npc_attitudes"
+}

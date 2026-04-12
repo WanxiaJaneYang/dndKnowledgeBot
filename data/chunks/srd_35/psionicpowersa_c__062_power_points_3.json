@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::062_power_points_3",
+  "document_id": "srd_35::psionicpowersa_c::062_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#062_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "Using concealing amorpha, you weave a quasi-real membrane around yourself. You remain visible within the translucent, amorphous enclosure. This distortion grants you concealment (opponents have a 20% miss chance), thanks to the rippling membrane encasing your form. You can pick up or drop objects, easily reaching through the film. Anything you hold is enveloped by the amorpha. Likewise, you can engage in melee, make ranged attacks, and manifest powers without hindrance.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::061_metacreativity_creation",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::063_metacreativity_creation"
+}

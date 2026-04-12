@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::039_combat",
+  "document_id": "srd_35::monsterss::039_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#039_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A centipede swarm seeks to surround and attack any living prey it encounters. A swarm deals 2d6 points of damage to any creature whose space it occupies at the end of its move.\nDistraction (Ex): Any living creature that begins its turn with a centipede swarm in its space must succeed on a DC 13 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.\nPoison (Ex): Injury, Fortitude DC 13, initial and secondary damage 1d4 Dex. The save DC is Constitution-based.\nSkills: A centipede swarm has a +4 racial bonus on Spot checks and a +8 racial bonus on Climb checks, and uses its Dexterity modifier instead of its Strength modifier for Climb checks. A centipede swarm has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.\n\nHit Dice: | 12d10+27 (93 hp) |\nInitiative: | +10 |\nSpeed: | 5 ft. (1 square), fly 40 ft. |\nArmor Class: | 20 (+4 size, +6 Dex), touch 20, flat-footed 14 |\nBase Attack/Grapple: | +12/-- |\nAttack: | Swarm (3d6 plus poison) |\nFull Attack: | Swarm (3d6 plus poison) |\nSpace/Reach: | 10 ft./0 ft. |\nSpecial Attacks: | Distraction, inhabit, poison |\nSpecial Qualities: | Damage reduction 10/magic, darkvision 60 ft., hive mind, immune to weapon damage, resistance to fire 10, low-light vision, swarm traits |\nSaves: | Fort +10, Ref +14, Will +7 |\nAbilities: | Str 1, Dex 22, Con 14, Int 6, Wis 13, Cha 9 |\nSkills: | Hide +19, Listen +10, Spot +10 |\nFeats: | Ability Focus (poison), Alertness, Improved Initiative, Iron Will, Toughness |\nEnvironment: | A evil-aligned plane |\nOrganization: | Solitary, fright (2-4 swarms), or terror (5-8 swarms) |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Always lawful evil |\nAdvancement: | None |\nLevel Adjustment: | -- |\nA single hellwasp resembles a thumb-sized normal wasp, except its carapace is gleaming black with ruby-red stripes, and its compound eyes are an iridescent green. In swarms, hellwasps form a collective hive mind intelligence with infernal cunning and bloodlust.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::038_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::040_combat"
+}

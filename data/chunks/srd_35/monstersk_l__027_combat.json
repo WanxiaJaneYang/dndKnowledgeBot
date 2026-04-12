@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::027_combat",
+  "document_id": "srd_35::monstersk_l::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "Combat"
+    ],
+    "source_location": "MonstersK-L.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In animal form, wererats avoid combat, preferring to use their dire rat shape for skulking and spying. In hybrid form, a wererat fights with a rapier and light crossbow.\nAlternate Form (Su): A wererat can assume a bipedal hybrid form or the form of a dire rat.\nCurse of Lycanthropy (Su): Any humanoid or giant hit by a wererat's bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.\nDisease (Ex): Filth fever; bite, Fortitude DC 12, incubation period 1d3 days, damage 1d3 Dex and 1d3 Con. The save DC is Constitution-based.\nRat Empathy (Ex): Communicate with rats and dire rats, and +4 racial bonus on Charisma-based checks against rats and dire rats.\nSkills: A wererat in rat or hybrid form uses its Dexterity modifier for Climb or Swim checks. It has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.\nWererats have a +8 racial bonus on Swim checks from their dire rat form.\nFeats: Wererats gain Weapon Finesse as a bonus feat.\nThe wererat presented here is based on a 1st-level human warrior who is a natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::026_wererat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::028_weretiger"
+}

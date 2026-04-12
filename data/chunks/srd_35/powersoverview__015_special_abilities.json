@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::015_special_abilities",
+  "document_id": "srd_35::powersoverview::015_special_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "SPECIAL ABILITIES"
+    ],
+    "source_location": "PowersOverview.rtf#015_special_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic creatures can create psionic effects without having levels in a psionic class (although they can take a psionic class to further enhance their abilities); such creatures have the psionic subtype.\nCharacters using dorjes, cognizance crystals, and other psionic items can also create psionic effects. In addition to existing spell-like and supernatural abilities, creatures can also have psi-like abilities. (Psionic creatures may also have extraordinary and natural abilities.)\nPsi-Like Abilities (Ps): The manifestation of powers by a psionic character is considered a psi-like ability, as is the manifestation of powers by creatures without a psionic class (creatures with the psionic subtype, also simply called psionic creatures). Usually, a psionic creature's psi-like ability works just like the power of that name. A few psi-like abilities are unique; these are explained in the text where they are described.\nPsi-like abilities have no verbal, somatic, or material components, nor do they require a focus or have an XP cost (even if the equivalent power has an XP cost). The user activates them mentally. Armor never affects a psi-like ability's use. A psi-like ability has a manifesting time of 1 standard action unless noted otherwise in the ability description. In all other ways, a psi-like ability functions just like a power. However, a psionic creature does not have to pay a psi-like ability's power point cost.\nPsi-like abilities are subject to power resistance and to being dispelled by dispel psionics. They do not function in areas where psionics is suppressed or negated.\nSupernatural Abilities: Some creatures have psionic abilities that are considered supernatural. Psionic feats are also supernatural abilities. These abilities cannot be disrupted in combat, as powers can be, and do not provoke attacks of opportunity (except as noted in their descriptions). Supernatural abilities are not subject to power resistance and cannot be negated or dispelled; however, they do not function in areas where psionics is suppressed.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::014_using_stored_power_points",
+  "next_chunk_id": "chunk::srd_35::powersoverview::016_psionic_maladies"
+}

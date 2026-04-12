@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::016_combat",
+  "document_id": "srd_35::monstersk_l::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "COMBAT"
+    ],
+    "source_location": "MonstersK-L.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Lillends are generally peaceful unless they intend vengeance against someone they believe guilty of harming, or even threatening, a favored art form, artwork, or artist. Then they become implacable foes. They use their spells and spell-like abilities to confuse and weaken opponents before entering combat. A covey of lillends usually discusses strategy before a battle.\nA lillend's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and good-aligned for the purpose of overcoming damage reduction.\nConstrict (Ex): A lillend deals 2d6+5 points of damage with a successful grapple check. Constricting uses the entire lower portion of its body, so it cannot take any move actions when constricting, though it can still attack with its sword.\nImproved Grab (Ex): To use this ability, a lillend must hit with its tail slap attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nSpells: A lillend casts arcane spells as a 6th-level bard.\nTypical Bard Spells Known (3/4/3; save DC 14 + spell level): 0-- dancing lights, daze, detect magic, lullaby, mage hand, read magic; 1st-- charm person, cure light wounds, identify, sleep; 2nd--hold person, invisibility, sound burst.\nSpell-Like Abilities: 3/day--darkness, hallucinatory terrain (DC 18), knock, light; 1/day--charm person (DC 15), speak with animals, speak with plants. Caster level 10th. The save DCs are Charisma-based.\nA lillend also has the bardic music ability as a 6th-level bard.\nSkills: Lillends have a +4 racial bonus on Survival checks.\n\nHit Dice: | 2d8+2 (11 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+5 natural) or 17 (+5 natural, +2 heavy shield), touch 10, flat-footed 15 or 17 |\nBase Attack/Grapple: | +1/+2 |\nAttack: | Claw +2 melee (1d4+1) or club +2 melee (1d6+1) or javelin +1 ranged (1d6+1) |\nFull Attack: | 2 claws +2 melee (1d4+1) and bite +0 melee (1d4); or club +2 melee (1d6+1) and bite +0 melee (1d4); or javelin +1 ranged (1d6+1) |\nSpecial Attacks: | -- |\nSpecial Qualities: | Hold breath |\nSpace/Reach: | 5 ft./5 ft. |\nSaves: | Fort +1, Ref +3, Will +0 |\nAbilities: | Str 13, Dex 10, Con 13, Int 9, Wis 10, Cha 10 |\nSkills: | Balance +4, Jump +5, Swim +2 |\nFeats: | Multiattack |\nEnvironment: | Temperate marshes |\nOrganization: | Gang (2-3), band (6-10 plus 50% noncombatants plus 1 leader of 3rd-6th level), or tribe (30-60 plus 2 lieutenants of 3rd-6th level and 1 leader of 4th-10th level) |\nChallenge Rating: | 1 |\nTreasure: | 50% coins; 50% goods; 50% items |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +1 |\nA lizardfolk is usually 6 to 7 feet tall with green, gray, or brown scales. Its tail is used for balance and is 3 to 4 feet long. A lizardfolk can weigh from 200 to 250 pounds.\nLizardfolk speak Draconic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::015_the_lich_s_phylactery",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::017_combat"
+}

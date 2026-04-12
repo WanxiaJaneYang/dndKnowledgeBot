@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::035_class_features",
+  "document_id": "srd_35::epicprestigeclasses::035_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#035_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "The following are class features of the legendary dreadnought prestige class.\nWeapon and Armor Proficiency: A legendary dreadnought is proficient with all simple and martial weapons, all armor, and all shields.\nUnstoppable (Ex): At 1st level, the legendary dreadnought can concentrate his or her power, gaining a +20 bonus on his or her Strength check to break or burst a door or item once per day, plus one additional time per day every five levels thereafter. As a special use of this ability, the legendary dreadnought can attempt to break a wall of force (Strength DC 32, and the character applies his or her unstoppable bonus to this check as well). Alternatively, the legendary dreadnought can apply the +20 bonus to a single attack roll.\nUnmovable (Ex): At 2nd level, the legendary dreadnought can concentrate his or her power, making him or herself unmovable once per day, plus one additional time per day every five levels thereafter. This power grants the character a +20 bonus on any one of the following:\nA grapple check made to avoid being grabbed with the improved grab ability.\nA Strength check to avoid the effects of a bull rush, trip attempt, or similar effect.\nA Strength check against any effect that would move the character either physically or magically.\nAny one saving throw. If an effect that would move the character either physically or magically does not normally allow a saving throw, the legendary dreadnought can use this ability to gain a Will saving throw. He or she still gains the +20 bonus on the saving throw in such a case.\nShrug off Punishment (Ex): The legendary dreadnought gains 12 bonus hit points at 3rd level and 12 more every five levels thereafter.\nThick Skinned (Ex): At 4th level, the legendary dreadnought gains damage reduction 3/-. This does not stack with damage reduction granted by magic items or nonpermanent magical effects, but it does stack with any damage reduction granted by permanent magical effects, class features, the Damage Reduction feat, and this ability itself. The damage reduction improves by 3 points every five levels thereafter\nBonus Feats: The legendary dreadnought gets a bonus feat at 5th level and an additional bonus feat every five levels thereafter. These bonus feats must be selected from the following list: Armor Skin, Devastating Critical, Dire Charge, Epic Fortitude, Epic Prowess, Epic Toughness, Epic Weapon Focus, Epic Weapon Specialization, Fast Healing, Great Constitution, Great Strength, Improved Combat Reflexes, Overwhelming Critical, Penetrate Damage Reduction.\nPERFECT WIGHT\nHit Die: d6.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::034_class_skills",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::036_requirements"
+}

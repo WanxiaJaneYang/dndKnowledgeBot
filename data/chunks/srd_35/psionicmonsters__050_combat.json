@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::050_combat",
+  "document_id": "srd_35::psionicmonsters::050_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#050_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A thought eater can spend a maximum of 10 continuous rounds on the Material Plane before its wispy flesh finally dissipates and it falls dead. If badly wounded, it escapes to the Ethereal Plane rather than continuing the fight.\nEat Thoughts (Su): A thought eater can drain psionic power points with a successful melee touch attack. Each touch drains 6 power points from the opponent (or fewer, if the opponent has fewer than 6 points remaining). Against a nonpsionic creature or a psionic creature that currently has no power points, this touch attack instead deals 1 point of Intelligence damage, which provides nourishment equivalent to 6 power points.\nA thought eater requires 12 power points per day to survive but will gorge itself on weak prey.\nPsi-Like Abilities: At will--detect psionics, distract (DC 13), precognition, psionic daze (DC 13*); 3/day--thought shield.\nManifester level 3rd. The save DCs are Charisma-based.\n*Includes augmentation for the thought eater's manifester level.\nEthereal Jaunt (Su): A thought eater can shift from the Ethereal Plane to the Material Plane as part of any move action, and then shift back again as a free action. The ability is otherwise identical to the psionic ethereal jaunt power.\n\nHit Dice: | 14d8+70 (133 hp) |\nInitiative: | +1 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 23 (-2 size, +1 Dex, +14 natural), touch 9, flatfooted 22 |\nBase Attack/Grapple: | +10/+26 |\nAttack: | Bite +17 melee (3d6+12) |\nFull Attack: | Bite +17 melee (3d6+12) |\nSpace/Reach: | 15 ft./15 ft. |\nSpecial Attacks: | Mind-consuming gaze, psi-like abilities |\nSpecial Qualities: | Darkvision 60 ft., ethereal jaunt, power resistance 21 |\nSaves: | Fort +11, Ref +5, Will +10 |\nAbilities: | Str 26, Dex 13, Con 21, Int 7, Wis 12, Cha 15 |\nSkills: | Climb +12, Jump +20, Listen +7, Spot +8 |\nFeats: | Alertness, Cleave, Great Fortitude, Power Attack, |\nWeapon Focus (bite) | |\nEnvironment: | Ethereal Plane |\nOrganization: | Solitary or pack (2-4) |\nChallenge Rating: | 13 |\nTreasure: | Standard |\nAlignment: | Often chaotic neutral |\nAdvancement: | 15-28 HD (Huge) |\nLevel Adjustment: | -- |\nThought slayers do not speak.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::049_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::051_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsii::016_spellcraft_int_trained_only",
+  "document_id": "srd_35::skillsii::016_spellcraft_int_trained_only",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsII",
+      "SPELLCRAFT (INT; TRAINED ONLY)"
+    ],
+    "source_location": "SkillsII.rtf#016_spellcraft_int_trained_only"
+  },
+  "chunk_type": "subsection",
+  "content": "Use this skill to identify spells as they are cast or spells already in place.\nSpellcraft DC | Task |\n13 | When using read magic, identify a glyph of warding. No action required. |\n15 + spell level | Identify a spell being cast. (You must see or hear the spell's verbal or somatic components.) No action required. No retry. |\n15 + spell level | Learn a spell from a spellbook or scroll (wizard only). No retry for that spell until you gain at least 1 rank in Spellcraft (even if you find another source to try to learn the spell from). Requires 8 hours. |\n15 + spell level | Prepare a spell from a borrowed spellbook (wizard only). One try per day. No extra time required. |\n15 + spell level | When casting detect magic, determine the school of magic involved in the aura of a single item or creature you can see. (If the aura is not a spell effect, the DC is 15 + one-half caster level.) No action required. |\n19 | When using read magic, identify a symbol. No action required. |\n20 + spell level | Identify a spell that's already in place and in effect. You must be able to see or detect the effects of the spell. No action required. No retry. |\n20 + spell level | Identify materials created or shaped by magic, such as noting that an iron wall is the result of a wall of iron spell. No action required. No retry. |\n20 + spell level | Decipher a written spell (such as a scroll) without using read magic. One try per day. Requires a full-round action. |\n25 + spell level | After rolling a saving throw against a spell targeted on you, determine what that spell was. No action required. No retry. |\n25 | Identify a potion. Requires 1 minute. No retry. |\n20 | Draw a diagram to allow dimensional anchor to be cast on a magic circle spell. Requires 10 minutes. No retry. This check is made secretly so you do not know the result. |\n30 or higher | Understand a strange or unique magical effect, such as the effects of a magic stream. Time required varies. No retry. |\nCheck: You can identify spells and magic effects. The DCs for Spellcraft checks relating to various tasks are summarized on the table above.\nAction: Varies, as noted above.\nTry Again: See above.\nSpecial: If you are a specialist wizard, you get a +2 bonus on Spellcraft checks when dealing with a spell or effect from your specialty school. You take a -5 penalty when dealing with a spell or effect from a prohibited school (and some tasks, such as learning a prohibited spell, are just impossible).\nIf you have the Magical Aptitude feat, you get a +2 bonus on Spellcraft checks.\nSynergy: If you have 5 or more ranks in Knowledge (arcana), you get a +2 bonus on Spellcraft checks.\nIf you have 5 or more ranks in Use Magic Device, you get a +2 bonus on Spellcraft checks to decipher spells on scrolls.\nIf you have 5 or more ranks in Spellcraft, you get a +2 bonus on Use Magic Device checks related to scrolls.\nAdditionally, certain spells allow you to gain information about magic, provided that you make a successful Spellcraft check as detailed in the spell description.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsii::015_sleight_of_hand_dex_trained_only_armor_check_penalty",
+  "next_chunk_id": "chunk::srd_35::skillsii::017_spot_wis"
+}

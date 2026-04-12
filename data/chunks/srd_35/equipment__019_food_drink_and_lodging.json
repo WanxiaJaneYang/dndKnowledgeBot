@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::019_food_drink_and_lodging",
+  "document_id": "srd_35::equipment::019_food_drink_and_lodging",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "FOOD, DRINK, AND LODGING"
+    ],
+    "source_location": "Equipment.rtf#019_food_drink_and_lodging"
+  },
+  "chunk_type": "subsection",
+  "content": "Inn: Poor accommodations at an inn amount to a place on the floor near the hearth. Common accommodations consist of a place on a raised, heated floor, the use of a blanket and a pillow. Good accommodations consist of a small, private room with one bed, some amenities, and a covered chamber pot in the corner.\nMeals: Poor meals might be composed of bread, baked turnips, onions, and water. Common meals might consist of bread, chicken stew, carrots, and watered-down ale or wine. Good meals might be composed of bread and pastries, beef, peas, and ale or wine.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::018_clothing",
+  "next_chunk_id": "chunk::srd_35::equipment::020_mounts_and_related_gear"
+}

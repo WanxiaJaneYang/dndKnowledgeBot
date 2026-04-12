@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::008_noble_djinn",
+  "document_id": "srd_35::monstersg::008_noble_djinn",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Noble Djinn"
+    ],
+    "source_location": "MonstersG.rtf#008_noble_djinn"
+  },
+  "chunk_type": "subsection",
+  "content": "Some djinn (1% of the total population) are noble. A noble djinni can grant three wishes to any being (nongenies only) who captures it. Noble djinn perform no other services and, upon granting the third wish, are free of their servitude. Noble djinn are as strong as efreet (see below), with 10 Hit Dice.\n\nHit Dice: | 10d8+20 (65 hp) |\nInitiative: | +7 |\nSpeed: | 20 ft. (4 squares), fly 40 ft. (perfect) |\nArmor Class: | 18 (-1 size, +3 Dex, +6 natural), touch 12, flat-footed 15 |\nBase Attack/Grapple: | +10/+20 |\nAttack: | Slam +15 melee (1d8+6 plus 1d6 fire) |\nFull Attack: | 2 slams +15 melee (1d8+6 plus 1d6 fire) |\nSpace/Reach: | 10 ft./ 10 ft. |\nSpecial Attacks: | Change size, heat, spell-like abilities |\nSpecial Qualities: | Darkvision 60 ft., immunity to fire, plane shift, telepathy 100 ft., vulnerability to cold |\nSaves: | Fort +9, Ref +10, Will +9 |\nAbilities: | Str 23, Dex 17, Con 14, Int 12, Wis 15, Cha 15 |\nSkills: | Bluff +15, Craft (any one) +14, Concentration +15, Diplomacy +6, Disguise +2 (+4 acting), Intimidate +17, Listen +15, Move Silently +16, Sense Motive +15, Spellcraft +14, Spot +15 |\nFeats: | Combat Casting, Combat Reflexes, Dodge, Improved InitiativeB, Quicken Spell-Like Ability (scorching ray) |\nEnvironment: | Elemental Plane of Fire |\nOrganization: | Solitary, company (2-4), or band (6-15) |\nChallenge Rating: | 8 |\nTreasure: | Standard coins; double goods; standard items |\nAlignment: | Always lawful evil |\nAdvancement: | 11-15 HD (Large); 16-30 HD (Huge) |\nLevel Adjustment: | -- |\nThe efreet (singular efreeti) are genies from the Elemental Plane of Fire.\nAn efreeti stands about 12 feet tall and weighs about 2,000 pounds.\nEfreet speak Auran, Common, Ignan, and Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::007_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::009_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::006_wild_feats",
+  "document_id": "srd_35::epicfeats::006_wild_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "WILD FEATS"
+    ],
+    "source_location": "EpicFeats.rtf#006_wild_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "The feats in this category share the characteristic of relating to the ability to use wild shape as a druid. These feats require the character to have the ability to use wild shape before acquiring the feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::005_divine_feats",
+  "next_chunk_id": "chunk::srd_35::epicfeats::007_epic_psionic_feats"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::081_display_mental",
+  "document_id": "srd_35::psionicpowersa_c::081_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#081_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 10 minutes\nRange: See text\nTarget: One creature with an Intelligence score of 3 or higher\nDuration: 1 round/level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::080_power_points_11",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::082_power_points_7"
+}

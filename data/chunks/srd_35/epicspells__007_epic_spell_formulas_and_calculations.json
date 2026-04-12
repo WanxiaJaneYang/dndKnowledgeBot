@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::007_epic_spell_formulas_and_calculations",
+  "document_id": "srd_35::epicspells::007_epic_spell_formulas_and_calculations",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "EPIC SPELL FORMULAS AND CALCULATIONS"
+    ],
+    "source_location": "EpicSpells.rtf#007_epic_spell_formulas_and_calculations"
+  },
+  "chunk_type": "subsection",
+  "content": "The following formulas are important to epic spellcasters.\nEpic Spells Per Day: Knowledge (arcana), Knowledge (religion), or Knowledge (nature) ranks \u00f7 10 (round down).\nTo Cast an Epic Spell: Spellcraft check (DC = epic spell's Spellcraft DC).\nLevel of an Epic Spell: Epic spells are considered 10th level for the purpose of Concentration checks, spell resistance, and other determinations.\nSaving Throw for an Epic Spell: DC = 20 + key ability modifier.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicspells::006_epic_spell_terms",
+  "next_chunk_id": "chunk::srd_35::epicspells::008_dispelling_epic_spells_and_antimagic_field"
+}

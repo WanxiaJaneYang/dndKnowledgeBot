@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::003_power_points_9",
+  "document_id": "srd_35::psionicpowersa_c::003_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#003_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "Your body automatically adapts to hostile environments. You can adapt to underwater, extremely hot, extremely cold, or airless environments, allowing you to survive as if you were a creature native to that environment. You can breathe and move (though penalties to movement and attacks, if any for a particular environment, remain), and you take no damage simply from being in that environment. You need not specify what environment you are adapting to when you manifest this power; simply activate it, and your body will instantly adapt to any hostile environment as needed throughout the duration.\nYou can somewhat adapt to extreme environmental features such as acid, lava, fire, and electricity. Any environmental feature that normally directly deals 1 or more dice of damage per round deals you only half the usual amount of damage.\n\nDisplay: Material and visual\nManifesting Time: 1 standard action\nRange: 20 ft.\nArea: 20-ft.-radius emanation, centered on you\nDuration: 1 round/level (D)\nSaving Throw: Fortitude negates (potentially harmless)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::002_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::004_power_points_17"
+}

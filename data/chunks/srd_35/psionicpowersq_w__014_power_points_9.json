@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::014_power_points_9",
+  "document_id": "srd_35::psionicpowersq_w::014_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#014_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You restore a severed extremity to a creature that has lost a digit, hand, arm, leg, or even its head. This power does not restore life, but it returns a lost extremity to a living or dead creature if the creature is otherwise mostly intact. The original extremity need not be present when this power is manifested; a new extremity is created by the power. If a head is restored to a body, the original head (if not already destroyed) loses all spark of identity, and can be considered so much dead tissue.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::013_power_points_11",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::015_display_visual"
+}

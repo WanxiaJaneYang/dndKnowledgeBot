@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::018_combat",
+  "document_id": "srd_35::epicmonsters_a_e::018_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#018_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Shatter (Su): A stone colossus can use shatter(DC 7) as a free action once every 2 rounds against an opponent's weapon or other item as a 24th-level caster. The DC is Charisma-based.\nMagic Immunity (Ex): A stone colossus is immune to all spells, spell-like abilities, and supernatural effects, except as follows. A transmute rock to mud spell slows it (as the slow spell) for 1 round, with no saving throw, while transmute mud to rock heals all its lost hit points. A stone to flesh spell has no effect on a stone colossus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::017_construction",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::019_construction"
+}

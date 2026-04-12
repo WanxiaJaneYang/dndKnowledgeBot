@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::013_battlesense",
+  "document_id": "srd_35::divineabilitiesandfeats::013_battlesense",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Battlesense"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#013_battlesense"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The deity cannot be surprised or flanked except by a deity of higher rank. The deity retains its Dexterity bonus to Armor Class even if caught flat-footed or attacked by an invisible opponent, and is not subject to sneak attacks except by deities of higher rank.\nNotes: If the deity has the uncanny dodge or improved uncanny dodge class feature, this ability replaces it.\nSuggested Portfolio Elements: War.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::012_banestrike",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::014_call_creatures"
+}

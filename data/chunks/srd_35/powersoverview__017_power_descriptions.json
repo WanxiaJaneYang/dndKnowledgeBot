@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::017_power_descriptions",
+  "document_id": "srd_35::powersoverview::017_power_descriptions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "POWER DESCRIPTIONS"
+    ],
+    "source_location": "PowersOverview.rtf#017_power_descriptions"
+  },
+  "chunk_type": "subsection",
+  "content": "The description of each power is presented in a standard format. Each category of information is explained and defined below.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::016_psionic_maladies",
+  "next_chunk_id": "chunk::srd_35::powersoverview::018_name"
+}

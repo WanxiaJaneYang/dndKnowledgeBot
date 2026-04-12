@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::056_primal_water_elemental",
+  "document_id": "srd_35::epicmonsters_a_e::056_primal_water_elemental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "PRIMAL WATER ELEMENTAL"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#056_primal_water_elemental"
+  },
+  "chunk_type": "subsection",
+  "content": "A primal water elemental can't venture more than 360 feet from the body of water from which it emerged. Water elementals speak Aquan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::055_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::057_combat"
+}

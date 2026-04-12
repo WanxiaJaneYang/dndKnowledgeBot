@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::017_class_skills",
+  "document_id": "srd_35::prestigeclasses::017_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "PrestigeClasses.rtf#017_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The blackguard's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Hide (Dex), Intimidate (Cha), Knowledge (religion) (Int), Profession (Wis), and Ride (Dex).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Blackguard |\n| | | | | | -- Spells per Day -- |\nLevel | Base\nAttack\nBonus | Fort\nSave | Ref\nSave | Will\nSave | Special | 1st | 2nd | 3rd | 4th |\n1st | +1 | +2 | 0 | 0 | Aura of evil, detect good, poison use | 0 | -- | -- | -- |\n2nd | +2 | +3 | 0 | 0 | Dark blessing, smite good 1/day | 1 | -- | -- | -- |\n3rd | +3 | +3 | +1 | +1 | Command undead, aura of despair | 1 | 0 | -- | -- |\n4th | +4 | +4 | +1 | +1 | Sneak attack +1d6 | 1 | 1 | -- | -- |\n5th | +5 | +4 | +1 | +1 | Fiendish servant, smite good 2/day | 1 | 1 | 0 | -- |\n6th | +6 | +5 | +2 | +2 | | 1 | 1 | 1 | -- |\n7th | +7 | +5 | +2 | +2 | Sneak attack +2d6 | 2 | 1 | 1 | 0 |\n8th | +8 | +6 | +2 | +2 | | 2 | 1 | 1 | 1 |\n9th | +9 | +6 | +3 | +3 | | 2 | 2 | 1 | 1 |\n10th | +10 | +7 | +3 | +3 | Sneak attack +3d6, smite good 3/day | 2 | 2 | 2 | 1 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::016_requirements",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::018_class_features"
+}

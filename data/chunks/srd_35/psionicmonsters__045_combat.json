@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::045_combat",
+  "document_id": "srd_35::psionicmonsters::045_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#045_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A psion-killer does nothing without explicit orders from its creator. It follows instructions literally and is incapable of any strategy or tactics. Psion-killers don't use weapons, even if ordered to, but always strike with their fists.\nA psion-killer's creator can command it if the psion-killer is within 60 feet and can see and hear its creator. If uncommanded, a psion-killer usually follows its last instruction to the best of its ability, though if attacked it returns the attack. Its creator can give a psion-killer a simple command to govern its actions in his or her absence.\nDispel Psionics (Su): A psion-killer can use dispel psionics as a free action once per round. The effect is as an area dispel in a 30-foot-radius burst. The dispel check is 1d20+10.\nConstruct Traits: A psion-killer has immunity to poison, sleep effects, paralysis, stunning, disease, death effects, necromancy effects, mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and any effect that requires a Fortitude save unless it also works on objects or is harmless. It is not subject to critical hits, nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. It cannot heal damage, but it can be repaired.\nImmunity to Psionics (Ex): Psion-killers completely resist psionic effects that are subject to power resistance.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::044_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::046_construction"
+}

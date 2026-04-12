@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::015_the_combat_round",
+  "document_id": "srd_35::combati::015_the_combat_round",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "THE COMBAT ROUND"
+    ],
+    "source_location": "CombatI.rtf#015_the_combat_round"
+  },
+  "chunk_type": "subsection",
+  "content": "Each round represents 6 seconds in the game world. A round presents an opportunity for each character involved in a combat situation to take an action.\nEach round's activity begins with the character with the highest initiative result and then proceeds, in order, from there. Each round of a combat uses the same initiative order. When a character's turn comes up in the initiative sequence, that character performs his entire round's worth of actions. (For exceptions, see Attacks of Opportunity and Special Initiative Actions.)\nFor almost all purposes, there is no relevance to the end of a round or the beginning of a round. A round can be a segment of game time starting with the first character to act and ending with the last, but it usually means a span of time from one round to the same initiative count in the next round. Effects that last a certain number of rounds end just before the same initiative count that they began on.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::014_attacks_of_opportunity",
+  "next_chunk_id": "chunk::srd_35::combati::016_action_types"
+}

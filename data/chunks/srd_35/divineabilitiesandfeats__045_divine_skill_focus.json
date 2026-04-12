@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::045_divine_skill_focus",
+  "document_id": "srd_35::divineabilitiesandfeats::045_divine_skill_focus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Skill Focus"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#045_divine_skill_focus"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: 23 ranks in the selected skill.\nBenefit: The deity receives a bonus of 10 + its divine rank when using the skill selected.\nNotes: This bonus stacks with the divine rank bonus deities normally receive on checks. If the selected skill is related to the deity's portfolio, add the deity's rank to the maximum DC for a free action.\nA deity can have this ability multiple times, choosing a different skill each time.\nSuggested Portfolio Elements: Any.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::044_divine_shield",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::046_divine_sneak_attack"
+}

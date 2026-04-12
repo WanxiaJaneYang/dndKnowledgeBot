@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::001_monstersk_l",
+  "document_id": "srd_35::monstersk_l::001_monstersk_l",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "MonstersK-L"
+    ],
+    "source_location": "MonstersK-L.rtf#001_monstersk_l"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\nMONSTERS (K-L)\nKOBOLD\n| Kobold, 1st-Level Warrior |\n\nHit Dice: | 1d8 (4 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 size, +1 Dex, +1 natural, +2 leather), touch 12, flat-footed 14 |\nBase Attack/Grapple: | +1/-4 |\nAttack: | Spear +1 melee (1d6-1/x3) or sling +3 ranged (1d3) |\nFull Attack: | Spear +1 melee (1d6-1/x3) or sling +3 ranged (1d3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft., light sensitivity |\nSaves: | Fort +2, Ref +1, Will -1 |\nAbilities: | Str 9, Dex 13, Con 10, Int 10, Wis 9, Cha 8 |\nSkills: | Craft (trapmaking) +2, Hide +6, Listen +2, Move Silently +2, Profession (miner) +2, Search +2, Spot +2 |\nFeats: | Alertness |\nEnvironment: | Temperate forests |\nOrganization: | Gang (4-9), band (10-100 plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of 4th-6th level), warband (10-24 plus 2-4 dire weasels), tribe (40-400 plus 1 3rd-level sergeant per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, and 5-8 dire weasels) |\nChallenge Rating: | 1/4 |\nTreasure: | Standard |\nAlignment: | Usually lawful evil |\nAdvancement: | By character class |\nLevel Adjustment: | +0 |\nKobolds are short, reptilian humanoids with cowardly and sadistic tendencies.\nA kobold's scaly skin ranges from dark rusty brown to a rusty black color. It has glowing red eyes. Its tail is nonprehensile. Kobolds wear ragged clothing, favoring red and orange. A kobold is 2 to 2-1/2 feet tall and weighs 35 to 45 pounds. Kobolds speak Draconic with a voice that sounds like that of a yapping dog.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::002_combat"
+}

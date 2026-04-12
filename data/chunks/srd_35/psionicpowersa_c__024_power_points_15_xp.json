@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::024_power_points_15_xp",
+  "document_id": "srd_35::psionicpowersa_c::024_power_points_15_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 15, XP"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#024_power_points_15_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "Bend reality lets you create nearly any type of effect. For example, bend reality can do any of the following:\nDuplicate any psion power of 6th level or lower, provided the power is not of a discipline prohibited to you.\nDuplicate any other power (but not a spell) of 5th level or lower, provided the power is not of a discipline prohibited to you.\nDuplicate any psion power of 5th level or lower, even if it's of a prohibited discipline.\nDuplicate any other power (but not a spell) of 4th level or lower, even if it's of a prohibited discipline.\nUndo the harmful effects of many powers, such as psionic dominate, geas/quest, or insanity.\nProduce any other effect whose power level is in line with the above effects, such as a single creature automatically hitting on its next attack or taking a -8 penalty on its next saving throw.\nA duplicated power allows saving throws and power resistance as normal (but the save DC is for a 8th-level power).\nWhen bend reality duplicates a power that has an XP cost, you must pay that cost or 300 XP, whichever is more. When bend reality duplicates a spell with a material component, you must pay additional XP equal to the value of the material component divided by 5.\nXP Cost: 300 XP or more (see above).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::023_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::025_display_mental"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::082_rejuvenation",
+  "document_id": "srd_35::divineabilitiesandfeats::082_rejuvenation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Rejuvenation"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#082_rejuvenation"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 11, Divine Fast Healing salient divine ability.\nBenefit: When the deity suffers an attack that should destroy it, it simply disperses and reassembles later. Roll 10d10 to determine the number of days before the deity returns.\nNotes: If the deity is killed in its own realm, subtract the deity's divine rank from the number of days it takes to return. If the deity's realm is on a divinely morphic Outer Plane, and the deity is killed there, subtract twice the deity's divine rank from\nthe number of days it takes to return. The return always takes at least one day.\nThis ability is ineffective if the deity is killed by another deity of equal or higher rank.\nSuggested Portfolio Elements: Death, life, undead.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::081_possess_mortal",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::083_see_magic"
+}

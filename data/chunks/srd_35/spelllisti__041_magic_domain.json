@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::041_magic_domain",
+  "document_id": "srd_35::spelllisti::041_magic_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "MAGIC DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#041_magic_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::040_luck_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::042_magic_domain_spells"
+}

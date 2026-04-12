@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::034_combat",
+  "document_id": "srd_35::epicmonsters_g_w::034_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#034_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Stunning Roar (Ex): Every 1d4 rounds, a sirrush can loose a sonic attack of such volume that it stuns all creatures in a 60-foot spread for 1d4 rounds if they fail a Fortitude saving throw (DC 47, or DC 51 for a three-headed sirrush). The DC is\nPounce (Ex): If a sirrush charges or leaps upon a foe during its first round of combat, it can make a full attack even if it has already taken a move action.\nHeadloss Resistance (Ex): A sirrush's thick bony plate protects its neck like a shield and provides resistance from effects that could normally behead it, such as a vorpal weapon. When a sirrush or three-headed sir-rush would otherwise lose its head, it instead makes a Fortitude saving throw (DC 10 + 1/2 HD of attacker + attacker's Str modifier). On a failed save, the sirrush's head leaves its shoulders normally, but on a successful save, the sirrush is unaffected by the beheading. A sirrush dies when beheaded; a three-headed sirrush goes on fighting until all its heads are lost (the only penalty it incurs is one or two fewer bite attacks when it makes a full attack).\n\nHit Dice: | 34d10+448 (635 hp) |\nInitiative: | +27 (+19 Dex, +8 Superior Initiative) |\nSpeed: | 100 ft. |\nAC: | 44 (+19 Dex, -4 size, +15 insight, +4 natural) |\nBase Attack/Grapple: | +34/+57 |\nAttack: | Claw +52 (2d8+11) melee |\nFull Attack: | 2 claws +52 (2d8+11) melee, 3 bites +47 (2d6+5) melee, sting +39 (3d6+5 plus poison) melee |\nSpace/Reach: | 20 ft./15 ft. |\nSpecial Attacks: | Pounce, improved grab, rake 4d6+15 |\nSpecial Qualities: | SR 34, DR 10/epic |\nSaves: | Fort +31, Ref +38, Will +22 |\nAbilities: | Str 32, Dex 48, Con 34, Int 14, Wis 32, Cha 19 |\nSkills: | Hide +44, Jump +39, Listen +48, Move Silently +56, Spot +48 |\nFeats: | Combat Reflexes, Improved Initiative, Iron Will, Track, Weapon Focus (bite), Weapon Focus (claw), Weapon Finesse |\nEpic Feats: | Epic Toughness (x2), Epic Weapon Focus (bite), Epic Weapon Focus (claw), Superior Initiative, |\nClimate/Terrain: | Any temperate or cold land |\nOrganization: | Solitary or pair |\nChallenge Rating: | 24 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 35-68 HD (Gargantuan); 69-102 HD (Colossal) |\nA tayellah's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::033_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::035_combat"
+}

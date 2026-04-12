@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::011_psionic_versions_of_creatures",
+  "document_id": "srd_35::psionicmonsters::011_psionic_versions_of_creatures",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Psionic Versions Of Creatures"
+    ],
+    "source_location": "PsionicMonsters.rtf#011_psionic_versions_of_creatures"
+  },
+  "chunk_type": "subsection",
+  "content": "Below are presented psionic versions of the following creatures: aboleth, couatl, and duergar,. These alternate versions are psionic equivalents of their standard counterparts.\nOnly the portions of the monster entry that are specifically changed by the addition of psionics rules have been listed. All other elements of the creature remain the same.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::010_psionic_spells",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::012_creatures_with_psi_like_abilities"
+}

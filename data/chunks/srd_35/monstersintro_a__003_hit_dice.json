@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::003_hit_dice",
+  "document_id": "srd_35::monstersintro_a::003_hit_dice",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Hit Dice"
+    ],
+    "source_location": "MonstersIntro-A.rtf#003_hit_dice"
+  },
+  "chunk_type": "subsection",
+  "content": "This line gives the creature's number and type of Hit Dice, and lists any bonus hit points. A parenthetical note gives the average hit points for a creature of the indicated number of Hit Dice. A creature's Hit Dice total is also treated as its level for determining how spells affect the creature, its rate of natural healing, and its maximum ranks in a skill.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::002_statistics_block",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::004_initiative"
+}

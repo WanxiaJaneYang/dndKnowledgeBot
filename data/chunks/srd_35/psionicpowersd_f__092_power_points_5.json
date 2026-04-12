@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::092_power_points_5",
+  "document_id": "srd_35::psionicpowersd_f::092_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#092_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create an immobile sheet of energy of the chosen type formed out of unstable ectoplasm. One side of the wall, selected by you, sends forth waves of energy, dealing 2d6 points of damage to creatures and objects within 10 feet and 1d6 points of damage to those beyond 10 feet but within 20 feet. In addition, anyone passing though the energy wall takes 2d6 points of damage +1 point per manifester level (maximum +20).\nIf you manifest the wall so that it appears where creatures are, each creature takes damage as if passing through the wall.\nIf you manifest this power in the form of a ring of energy, you choose whether the waves of energy radiate inward or outward from the ring.\nCold: A sheet of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold wall is a Fortitude save instead of a Reflex save.\nElectricity: Manifesting a sheet of this energy type provides a +2 bonus to the save DC and a +2 bonus on manifester level checks for the purpose of overcoming power resistance.\nFire: A sheet of this energy type deals +1 point of damage per die.\nSonic: A sheet of this energy type deals -1 point of damage per die and ignores an object's hardness.\nThis power's subtype is the same as the type of energy you manifest.\nEnergy Wave\nPsychokinesis [see text]",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::091_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::093_display_auditory"
+}

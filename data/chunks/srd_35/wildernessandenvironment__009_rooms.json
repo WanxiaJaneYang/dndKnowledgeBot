@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::009_rooms",
+  "document_id": "srd_35::wildernessandenvironment::009_rooms",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "ROOMS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#009_rooms"
+  },
+  "chunk_type": "subsection",
+  "content": "Rooms in dungeons vary in shape and size. Although many are simple in construction and appearance, particularly interesting rooms have multiple levels joined by stairs, ramps, or ladders, as well as statuary, altars, pits, chasms, bridges, and more.\nUnderground chambers are prone to collapse, so many rooms-- particularly large ones--have arched ceilings or pillars to support the weight of the rock overhead.\nCommon dungeon rooms fall into the following broad categories.\nGuard Post: Intelligent, social denizens of the dungeon will generally have a series of adjacent rooms they consider \u201ctheirs,\u201d and they'll guard the entrances to that common area.\nLiving Quarters: All but the most nomadic creatures have a lair where they can rest, eat, and store their treasure. Living quarters commonly include beds (if the creature sleeps), possessions (both valuable and mundane), and some sort of food preparation area. Noncombatant creatures such as juveniles and the elderly are often found here.\nWork Area: Most intelligent creatures do more than just guard, eat, and sleep, and many devote rooms to magic laboratories, workshops for weapons and armor, or studios for more esoteric tasks.\nShrine: Any creature that is particularly religious may have some place dedicated to worship, and others may venerate something of great historical or personal value. Depending on the creature's resources and piety, a shrine can be humble or extensive. A shrine is where PCs will likely encounter NPC clerics, and it's common for wounded monsters to flee to a shrine friendly to them when they seek healing.\nVault: Well protected, often by a locked iron door, a vault is a special room that contains treasure. There's usually only one entrance--an appropriate place for a trap.\nCrypt: Although sometimes constructed like a vault, a crypt can also be a series of individual rooms, each with its own sarcophagus, or a long hall with recesses on either side--shelves to hold coffins or bodies.\nThose who are worried about undead rising from the grave take the precaution of locking and trapping a crypt from the outside-- making the crypt easy to get into but difficult to leave. Those worried about tomb robbers make their crypts difficult to get into. Some builders do both, just to be on the safe side.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::008_walls_doors_and_detect_spells",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::010_corridors"
+}

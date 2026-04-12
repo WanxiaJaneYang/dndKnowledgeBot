@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::009_celestial_half_dragon_lammasu",
+  "document_id": "srd_35::monstersk_l::009_celestial_half_dragon_lammasu",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "(CELESTIAL HALF-DRAGON LAMMASU)"
+    ],
+    "source_location": "MonstersK-L.rtf#009_celestial_half_dragon_lammasu"
+  },
+  "chunk_type": "subsection",
+  "content": "Child of a celestial lammasu and a gold dragon, the golden protector has migrated to the Material Plane to more actively combat evil.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::008_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::010_combat"
+}

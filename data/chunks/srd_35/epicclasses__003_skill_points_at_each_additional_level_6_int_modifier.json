@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::003_skill_points_at_each_additional_level_6_int_modifier",
+  "document_id": "srd_35::epicclasses::003_skill_points_at_each_additional_level_6_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "Skill Points at Each Additional Level: 6 + Int modifier"
+    ],
+    "source_location": "EpicClasses.rtf#003_skill_points_at_each_additional_level_6_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "Spells: The bard's caster level is equal to his or her class level. The bard's number of spells per day does not increase after 20th level. The bard does not learn additional spells unless he or she selects the Spell Knowledge feat.\nBardic Music: The bard gains no new bardic music effects from his or her Perform ranks. However, he or she may select epic feats that grant new bardic music effects\nBardic Knowledge: Add the bard's class level + Intelligence modifier to all bardic knowledge checks, as normal.\nBonus Feats: The epic bard gains a bonus feat (selected from the list of epic bard bonus feats) every three levels after 20th.\nEpic Bard Bonus Feat List: Augmented Alchemy, Deafening Song, Epic Inspiration, Epic Leadership, Epic Reputation, Epic Skill Focus, Group Inspiration, Hindering Song, Improved Combat Casting, Improved Metamagic, Improved Spell Capacity, Inspire Excellence, Lasting Inspiration, Master Staff, Master Wand, Music of the Gods, Permanent Emanation, Polyglot, Ranged Inspiration, Rapid Inspiration, Reactive Countersong, Spell Knowledge, Spell Stowaway, Spell Opportunity, Tenacious Magic.\nInspire Courage (Su): The epic bard's bonus when this ability is used increases by +1 every six levels higher than 20th.\nTable: The Epic Bard\nBard Level | Special |\n21st | -- |\n22nd | -- |\n23rd | Bonus feat |\n24th | -- |\n25th | -- |\n26th | Inspire Courage +5, Bonus feat |\n27th | -- |\n28th | -- |\n29th | Bonus feat |\n30th | -- |\nEPIC CLERIC\nHit Die: d8",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::002_skill_points_at_each_additional_level_4_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicclasses::004_skill_points_at_each_additional_level_2_int_modifier"
+}

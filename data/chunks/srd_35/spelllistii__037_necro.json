@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::037_necro",
+  "document_id": "srd_35::spelllistii::037_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#037_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Animate Dead M: Creates undead skeletons and zombies.\nBestow Curse: -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.\nContagion: Infects subject with chosen disease.\nEnervation: Subject gains 1d4 negative levels.\nFear: Subjects within cone flee for 1 round/level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::036_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::038_trans"
+}

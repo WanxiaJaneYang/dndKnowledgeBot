@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::058_improved_overrun_general",
+  "document_id": "srd_35::feats::058_improved_overrun_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED OVERRUN [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#058_improved_overrun_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 13, Power Attack.\nBenefit: When you attempt to overrun an opponent, the target may not choose to avoid you. You also gain a +4 bonus on your Strength check to knock down your opponent.\nNormal: Without this feat, the target of an overrun can choose to avoid you or to block you.\nSpecial: A fighter may select Improved Overrun as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::057_improved_initiative_general",
+  "next_chunk_id": "chunk::srd_35::feats::059_improved_precise_shot_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::019_evocation",
+  "document_id": "srd_35::magicoverview::019_evocation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "Evocation"
+    ],
+    "source_location": "MagicOverview.rtf#019_evocation"
+  },
+  "chunk_type": "subsection",
+  "content": "Evocation spells manipulate energy or tap an unseen source of power to produce a desired end. In effect, they create something out of nothing. Many of these spells produce spectacular effects, and evocation spells can deal large amounts of damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::018_enchantment",
+  "next_chunk_id": "chunk::srd_35::magicoverview::020_illusion"
+}

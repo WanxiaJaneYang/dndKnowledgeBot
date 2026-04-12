@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::015_assassin_spell_list",
+  "document_id": "srd_35::prestigeclasses::015_assassin_spell_list",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Assassin Spell List"
+    ],
+    "source_location": "PrestigeClasses.rtf#015_assassin_spell_list"
+  },
+  "chunk_type": "subsection",
+  "content": "Assassins choose their spells from the following list:\n1st Level: disguise self, detect poison, feather fall, ghost sound, jump, obscuring mist, sleep, true strike.\n2nd Level: alter self, cat's grace, darkness, fox's cunning, illusory script, invisibility, pass without trace, spider climb, undetectable alignment.\n3rd Level: deep slumber, deeper darkness, false life, magic circle against good, misdirection, nondetection.\n4th Level: clairaudience/clairvoyance, dimension door, freedom of movement, glibness, greater invisibility, locate creature, modify memory, poison.\nBLACKGUARD\nHit Die: d10.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::014_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::016_requirements"
+}

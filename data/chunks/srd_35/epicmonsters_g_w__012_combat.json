@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::012_combat",
+  "document_id": "srd_35::epicmonsters_g_w::012_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#012_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionics (Sp): At will --detect thoughts, dimension door, ethereal jaunt, knock, nondetection, plane shift, suggestion. Caster level 20th, save DC 22.\nDestabilize Form (Su): If a protean hits with two or more slam attacks in the same round, it partly destabilizes its foe's physical form, dealing an additional 4d6+31 points of Damage as well as 2 points of temporary Constitution Damage. If the victim is drained to 0 Constitution, its dead body is only so much clear fluid that drains away unless somehow preserved by friends of the victim.\nAlter Shape (Ex): A protean can assume the shape of any combination of physical nondeific creatures at the same time as a free action. In fact, a protean's form constantly boils, and it requires a move-equivalent action each round for a protean to maintain a certain shape (even if that shape is a combination of several shapes). Whatever its present form, the protean retains all its own special qualities. Plus, it gains the advantage of up to four extraordinary abilities from the forms it mimics (but not spell-like or supernatural powers). The assumed form can be no smaller than a flea and no larger than 200 feet in its largest dimension (make sure to take into account rules for reach and size modifiers to AC and melee attacks). Incorporeal traits can also be assumed, which counts as a single extraordinary ability. If a hagunemnon assumes a partial form that confers an extraordinary ability already possessed by the creature, only the better of the two abilities is retained. No matter its form, the protean can never make more than five attacks using a full-round action. However, it may substitute a melee attack form for one of its slam attacks, using its own base attack bonus and Strength modifier to Damage, but dealing base Damage appropriate to the attack type.\nHOARY HUNTER\n| Hoary Hunter | Hoary Steed |\n| Medium-Size Fey (Cold) | Large Magical Beast (Cold) |\nHit Dice: | 46d6+598 (759 hp) | 12d10+36 (102 hp) |\nInitiative: | +19 (+11 Dex, +8 Superior Initiative) | +8 (+4 Dex, +4 Improved Initiative) |\nSpeed: | 30 ft. | 40 ft., fly 90 ft. (good) |\nAC: | 46 (+11 Dex, +15 insight, +10 natural) | 23 (-1 size, +4 Dex, +10 natural) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::011_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::013_base_attack"
+}

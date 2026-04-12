@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::009_combat",
+  "document_id": "srd_35::epicmonsters_g_w::009_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#009_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Trample (Ex): As a standard action during its turn each round, the adamantine golem can literally run over an opponent at least one size category smaller than itself. The trample deals 8d10+30 points of bludgeoning Damage. Trampled opponents can either attempt attacks of opportunity at a -4 penalty or Reflex saves (DC 57) for half Damage. The DC is Strength-based.\nMagic Immunity (Ex): An adamantine golem is immune to all magical and supernatural effects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::008_adamantine_golem",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::010_construction"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::007_reset",
+  "document_id": "srd_35::traps::007_reset",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Reset"
+    ],
+    "source_location": "Traps.rtf#007_reset"
+  },
+  "chunk_type": "subsection",
+  "content": "A reset element is the set of conditions under which a trap becomes ready to trigger again.\nNo Reset: Short of completely rebuilding the trap, there's no way to trigger it more than once. Spell traps have no reset element.\nRepair: To get the trap functioning again, you must repair it.\nManual: Resetting the trap requires someone to move the parts back into place. This is the kind of reset element most mechanical traps have.\nAutomatic: The trap resets itself, either immediately or after a timed interval.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::006_trigger",
+  "next_chunk_id": "chunk::srd_35::traps::008_repairing_and_resetting_mechanical_traps"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::137_reactive_countersong_epic",
+  "document_id": "srd_35::epicfeats::137_reactive_countersong_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "REACTIVE COUNTERSONG [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#137_reactive_countersong_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Combat Reflexes, Perform 30 ranks, bardic music class feature.\nBenefit: The character can begin a countersong at any time, even when it isn't his or her turn (much like a wizard who has readied a counterspell action), though the character doesn't have to ready an action to do so. The character can't use Reactive Countersong at the same time he or she isusing another bardic music ability (though the character could stop the other bardic music ability to begin Reactive Countersong if so desired).\nNormal: Without this feat, a character can only use counter-song on his or her turn.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::136_rapid_inspiration_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::138_reflect_arrows_epic"
+}

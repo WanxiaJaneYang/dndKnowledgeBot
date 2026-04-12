@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::026_divine_blast",
+  "document_id": "srd_35::divineabilitiesandfeats::026_divine_blast",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Blast"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#026_divine_blast"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Cha 29.\nBenefit: The deity can use this ability a number of times per day equal to 3 + its Charisma bonus. The ray created can extend up to one mile per rank (the deity chooses the length). Targets the ray strikes take 1d12 points of damage per rank of the deity, plus 1d12\npoints of damage per point of Charisma bonus the deity has. There is no saving throw, but the deity must make a ranged touch attack to hit a target. The deity can make the ray look, sound, smell, and feel like any-thing it desires. Despite the appearance of the ray,\nthe damage it deals results directly from divine power and is therefore not subject to being reduced by protection from elements and similar magic.\nNotes: The ray destroys a wall of force, prismatic wall, or prismatic sphere it hits (all layers in a prismatic effect are destroyed). The ray itself is unaffected and can strike a target behind the wall of force or prismatic effect.\nA divine shield can stop the ray.\nSuggested Portfolio Elements: Death, destruction, war.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::025_divine_battle_mastery",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::027_divine_blessing"
+}

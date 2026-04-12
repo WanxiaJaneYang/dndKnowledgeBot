@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::008_repairing_and_resetting_mechanical_traps",
+  "document_id": "srd_35::traps::008_repairing_and_resetting_mechanical_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Repairing and Resetting Mechanical Traps"
+    ],
+    "source_location": "Traps.rtf#008_repairing_and_resetting_mechanical_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Repairing a mechanical trap requires a Craft (trapmaking) check against a DC equal to the one for building it. The cost for raw materials is one-fifth of the trap's original market price. To calculate how long it takes to fix a trap, use the same calculations you would for building it, but use the cost of the raw materials required for repair in place of the market price.\nResetting a trap usually takes only a minute or so. For a trap with a more difficult reset method, you should set the time and labor required.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::007_reset",
+  "next_chunk_id": "chunk::srd_35::traps::009_bypass_optional_element"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::015_etherealness",
+  "document_id": "srd_35::abilitiesandconditions::015_etherealness",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "ETHEREALNESS"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#015_etherealness"
+  },
+  "chunk_type": "subsection",
+  "content": "Phase spiders and certain other creatures can exist on the Ethereal Plane. While on the Ethereal Plane, a creature is called ethereal. Unlike incorporeal creatures, ethereal creatures are not present on the Material Plane.\nEthereal creatures are invisible, inaudible, insubstantial, and scentless to creatures on the Material Plane. Even most magical attacks have no effect on them. See invisibility and true seeing reveal ethereal creatures.\nAn ethereal creature can see and hear into the Material Plane in a 60-foot radius, though material objects still block sight and sound. (An ethereal creature can't see through a material wall, for instance.) An ethereal creature inside an object on the Material Plane cannot see. Things on the Material Plane, however, look gray, indistinct, and ghostly. An ethereal creature can't affect the Material Plane, not even magically. An ethereal creature, however, interacts with other ethereal creatures and objects the way material creatures interact with material creatures and objects.\nEven if a creature on the Material Plane can see an ethereal creature the ethereal creature is on another plane. Only force effects can affect the ethereal creatures. If, on the other hand, both creatures are ethereal, they can affect each other normally.\nA force effect originating on the Material Plane extends onto the Ethereal Plane, so that a wall of force blocks an ethereal creature, and a magic missile can strike one (provided the spellcaster can see the ethereal target). Gaze effects and abjurations also extend from the Material Plane to the Ethereal Plane. None of these effects extend from the Ethereal Plane to the Material Plane.\nEthereal creatures move in any direction (including up or down) at will. They do not need to walk on the ground, and material objects don't block them (though they can't see while their eyes are within solid material).\nGhosts have a power called manifestation that allows them to appear on the Material Plane as incorporeal creatures. Still, they are on the Ethereal Plane, and another ethereal creature can interact normally with a manifesting ghost. Ethereal creatures pass through and operate in water as easily as air. Ethereal creatures do not fall or take falling damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::014_energy_drain_and_negative_levels",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::016_evasion_and_improved_evasion"
+}

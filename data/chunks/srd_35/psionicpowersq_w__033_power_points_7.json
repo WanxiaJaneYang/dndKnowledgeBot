@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::033_power_points_7",
+  "document_id": "srd_35::psionicpowersq_w::033_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#033_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "Your vision cannot be distracted or misled, granting you immunity to all figments and glamers (such as invisibility). Moreover, your Spot and Search checks receive a +6 enhancement bonus for the duration of this power. This power also grants you another saving throw against someone using false sensory input on you, but you must realize that that power has been used in order to know enough to manifest steadfast perception.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::032_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::034_psychokinesis"
+}

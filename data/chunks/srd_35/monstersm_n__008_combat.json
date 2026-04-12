@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::008_combat",
+  "document_id": "srd_35::monstersm_n::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): 10-foot cone of irritating particles, damage 1d4, Reflex DC 12 half. Living creatures that fail their saves are tormented by itching skin and burning eyes. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.\nSpell-Like Abilities: Once per hour, a dust mephit can surround itself with a plume of dust, duplicating the effect of a blur spell (caster level 3rd). Once per day it can create a mass of roiling dust that duplicates the effect of wind wall (DC 15, caster level 6th). The save DC is Charisma-based.\nFast Healing (Ex): A dust mephit heals only if in an arid, dusty environment.\n\nHit Dice: | 3d8+6 (19 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. (6 squares), fly 40 ft. (average) |\nArmor Class: | 16 (+1 size, -1 Dex, +6 natural), touch 10, flat-footed 16 |\nBase Attack/Grapple: | +3/+2 |\nAttack: | Claw +7 melee (1d3+3) |\nFull Attack: | 2 claws +7 melee (1d3+3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Breath weapon, spell-like abilities, summon mephit |\nSpecial Qualities: | Change size, damage reduction 5/magic, darkvision 60 ft., fast healing 2 |\nSaves: | Fort +4, Ref +2, Will +3 |\nAbilities: | Str 17, Dex 8, Con 13, Int 6, Wis 11, Cha 15 |\nSkills: | Bluff +8, Escape Artist +5, Hide +9, Diplomacy +4, Disguise +2 (+4 acting), Intimidate +4, Listen +6, Move Silently +5, Spot +6, Use Rope -1 (+1 with bindings) |\nFeats: | Power Attack, Toughness |\nEnvironment: | Elemental Plane of Earth |\nOrganization: | Solitary (1), gang (2-4 mephits of mixed types), or mob (5-12 mephits of mixed types) |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 4-6 HD (Small); 7-9 HD (Medium) |\nLevel Adjustment: | +3 (cohort) |\nEarth mephits come from the Elemental Plane of Earth.\nAn earth mephit is about 4 feet tall and weighs about 80 pounds.\nEarth mephits speak Common and Terran.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::007_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::009_combat"
+}

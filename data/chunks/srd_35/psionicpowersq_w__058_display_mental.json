@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::058_display_mental",
+  "document_id": "srd_35::psionicpowersq_w::058_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#058_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 10 minutes\nRange: 0 ft.\nEffect: 5-ft.-radius circle that teleports those who activate it\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::057_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::059_power_points_17"
+}

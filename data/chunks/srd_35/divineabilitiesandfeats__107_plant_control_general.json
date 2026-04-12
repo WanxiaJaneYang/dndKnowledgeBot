@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::107_plant_control_general",
+  "document_id": "srd_35::divineabilitiesandfeats::107_plant_control_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "PLANT CONTROL [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#107_plant_control_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Plant Defiance, ability to cast speak with plants.\nBenefit: You can rebuke or command plant creatures as an evil cleric rebukes undead. To command a plant, you must be able to speak with it via a speak with plants effect, though it may do so mentally if desired. This ability is usable a total number of times per day equal to 3 + your Charisma modifier. You use your highest caster level to determine the level at which you rebuke plants.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::106_persistent_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::108_plant_defiance_general"
+}

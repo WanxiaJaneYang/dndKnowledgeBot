@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::014_skills",
+  "document_id": "srd_35::monstersintro_a::014_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Skills"
+    ],
+    "source_location": "MonstersIntro-A.rtf#014_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "This line gives the creature's skills, along with each skill's modifier (including adjustments for ability scores, armor check penalties, and any bonuses from feats or racial traits). All listed skills are class skills, unless the creature has a character class (noted in the entry). A creature's type and Intelligence score determine the number of skill points it has.\nThe Skills section of the creature's description recaps racial bonuses and other adjustments to skill modifiers for the sake of clarity; these bonuses should not be added to the listed skill modifiers.\nAn asterisk (*) beside the relevant score and in the Skills section of the descriptive text indicates a conditional adjustment, one that applies only in certain situations.\nNatural Tendencies: Some creatures simply aren't made for certain types of physical activity. If it seems clear that a particular creature simply is not made for a particular physical activity, that creature takes a -8 penalty on skill checks that defy its natural tendencies.\nIn extreme circumstances the creature fails the check automatically.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::013_abilities",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::015_feats"
+}

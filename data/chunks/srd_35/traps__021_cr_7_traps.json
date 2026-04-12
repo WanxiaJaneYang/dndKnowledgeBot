@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::021_cr_7_traps",
+  "document_id": "srd_35::traps::021_cr_7_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 7 Traps"
+    ],
+    "source_location": "Traps.rtf#021_cr_7_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Acid Fog Trap: CR 7; magic device; proximity trigger (alarm); automatic reset; spell effect (acid fog, 11th-level wizard, 2d6/round acid for 11 rounds); Search DC 31; Disable Device DC 31. Cost: 33,000 gp, 2,640 XP.\nBlade Barrier Trap: CR 7; magic device; proximity trigger (alarm); automatic reset; spell effect (blade barrier, 11th-level cleric, 11d6 slashing, DC 19 Reflex save half damage); Search DC 31; Disable Device DC 31. Cost: 33,000 gp, 2,640 XP.\nBurnt Othur Vapor Trap: CR 7; mechanical; location trigger; repair reset; gas; multiple targets (all targets in a 10-ft.-by-10-ft. room); never miss; onset delay (3 rounds); poison (burnt othur fumes, DC 18 Fortitude save resists, 1 Con drain/3d6 Con); Search DC 21; Disable Device DC 21. Market Price: 17,500 gp.\nChain Lightning Trap: CR 7; magic device; proximity trigger (alarm); automatic reset; spell effect (chain lightning, 11th-level wizard, 11d6 electricity to target nearest center of trigger area plus 5d6 electricity to each of up to eleven secondary targets, DC 19 Reflex save half damage); Search DC 31; Disable Device DC 31. Cost: 33,000 gp, 2,640 XP.\nBlack Tentacles Trap: CR 7; magic device; proximity trigger (alarm); no reset; spell effect (black tentacles, 7th-level wizard, 1d4+7 tentacles, Atk +7 melee [1d6+4, tentacle]); multiple targets (up to six tentacles per target in each of two adjacent 5-ft. squares); Search DC 29; Disable Device DC 29. Cost: 1,400 gp, 112 XP.\nFusillade of Greenblood Oil Darts: CR 7; mechanical; location trigger; manual reset; Atk +18 ranged (1d4+1 plus poison, dart); poison (greenblood oil, DC 13 Fortitude save resists, 1 Con/ 1d2 Con); multiple targets (1d8 darts per target in a 10-ft.-by-10-ft. area); Search DC 25; Disable Device DC 25. Market Price: 33,000 gp.\nLock Covered in Dragon Bile: CR 7; mechanical; touch trigger (attached); no reset; poison (dragon bile, DC 26 Fortitude save resists, 3d6 Str/0); Search DC 27; Disable Device DC 16. Market Price: 11,300 gp.\nSummon Monster VI Trap: CR 7; magic device; proximity trigger (alarm); no reset; spell effect (summon monster VI, 11th-level wizard), Search DC 31; Disable Device DC 31. Cost: 3,300 gp, 264 XP.\nWater-Filled Room: CR 7; mechanical; location trigger; manual reset; multiple targets (all targets in a 10-ft.-by-10-ft. room); never miss; onset delay (3 rounds); water; Search DC 20; Disable Device DC 25. Market Price: 21,000 gp.\nWell-Camouflaged Pit Trap: CR 7; mechanical; location trigger; repair reset; DC 25 Reflex save avoids; 70 ft. deep (7d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); Search DC 27; Disable Device DC 18. Market Price: 24,500 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::020_cr_6_traps",
+  "next_chunk_id": "chunk::srd_35::traps::022_cr_8_traps"
+}

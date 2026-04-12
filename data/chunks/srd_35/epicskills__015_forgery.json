@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::015_forgery",
+  "document_id": "srd_35::epicskills::015_forgery",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Forgery"
+    ],
+    "source_location": "EpicSkills.rtf#015_forgery"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can forge handwriting he or she haven't even seen.\nCondition | Reader's Check Modifier |\nForge document without sample | +50 |\nForge Document without Sample: The character can forge a document without having seen a similar document or having a sample of the handwriting to be copied.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::014_escape_artist",
+  "next_chunk_id": "chunk::srd_35::epicskills::016_gather_information"
+}

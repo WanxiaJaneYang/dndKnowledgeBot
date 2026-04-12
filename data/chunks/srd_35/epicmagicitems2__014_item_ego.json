@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::014_item_ego",
+  "document_id": "srd_35::epicmagicitems2::014_item_ego",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "ITEM EGO"
+    ],
+    "source_location": "EpicMagicItems2.rtf#014_item_ego"
+  },
+  "chunk_type": "subsection",
+  "content": "Ego is a measure of the total power and force of personality that an item possesses. Only after all aspects of an item have been generated and recorded can its Ego score be determined. Ego is a factor with regard to the dominance of item over character, as detailed below.\n\nAttribute of Item | Ego Points |\nEach +1 enhancement of item up to +5 | 1 |\nEach +1 enhancement of item above +5 | 2 |\nEach +1 bonus of special abilities | 1 |\nEach primary ability1 | 1 |\nEach extraordinary power1 | 2 |\nEach awesome power1 | 6 |\nSpecial purpose | 4 |\nTelepathic ability | 1 |\nRead languages ability | 1 |\nRead magic ability | 1 |\nEach +1 of Intelligence bonus | 1 |\nEach +1 of Wisdom bonus | 1 |\nEach +1 of Charisma bonus | 1 |\n1 If uses per day are doubled, Ego points are doubled as well. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::013_special_purpose_power",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::015_items_against_characters"
+}

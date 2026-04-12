@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::099_infinite_deflection_epic",
+  "document_id": "srd_35::epicfeats::099_infinite_deflection_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "INFINITE DEFLECTION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#099_infinite_deflection_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 25, Combat Reflexes, Deflect Arrows, Improved Unarmed Strike.\nBenefit: The character may perform any number of deflections each round, as the Deflect Arrows feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::098_incite_rage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::100_inspire_excellence_epic"
+}

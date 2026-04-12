@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::030_combat",
+  "document_id": "srd_35::monsterst_z::030_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#030_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Wights attack by hammering with their fists.\nCreate Spawn (Su): Any humanoid slain by a wight becomes a wight in 1d4 rounds. Spawn are under the command of the wight that created them and remain enslaved until its death. They do not possess any of the abilities they had in life.\nEnergy Drain (Su): Living creatures hit by a wight's slam attack gain one negative level. The DC is 14 for the Fortitude save to remove a negative level. The save DC is Charisma-based. For each such negative level bestowed, the wight gains 5 temporary hit points.\nSkills: Wights have a +8 racial bonus on Move Silently checks.\n\nHit Dice: | 9d8 (40 hp) |\nInitiative: | +13 |\nSpeed: | Fly 50 ft. (perfect) (10 squares) |\nArmor Class: | 29 (+1 size, +9 Dex, +9 deflection), touch 29, flat-footed 20 |\nBase Attack/Grapple: | +6/-3 |\nAttack: | Shock +16 melee touch (2d8 electricity) |\nFull Attack: | Shock +16 melee touch (2d8 electricity) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft., immunity to magic, natural invisibility |\nSaves: | Fort +3, Ref +12, Will +9 |\nAbilities: | Str 1, Dex 29, Con 10, Int 15, Wis 16, Cha 12 |\nSkills: | Bluff +13, Diplomacy +3, Disguise +1 (+3 acting), Intimidate +3, Listen +17, Search +14, Spot +17, Survival +3 (+5 following tracks) |\nFeats: | Alertness, Blind-Fight, Dodge, Improved Initiative, Weapon FinesseB |\nEnvironment: | Temperate marshes |\nOrganization: | Solitary, pair, or string (3-4) |\nChallenge Rating: | 6 |\nTreasure: | 1/10 coins; 50% goods; 50% items |\nAlignment: | Usually chaotic evil |\nAdvancement: | 10-18 HD (Small) |\nLevel Adjustment: | -- |\nWill-o'-wisps can be yellow, white, green, or blue. They are easily mistaken for lanterns, especially in the foggy marshes and swamps where they reside. A will-o'-wisp's body is a globe of spongy material about 1 foot across and weighing about 3 pounds, and its glowing body sheds as much light as a torch.\nWill-o'-wisps speak Common and Auran. They have no vocal apparatus but can vibrate to create a voice with a ghostly sound.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::029_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::031_combat"
+}

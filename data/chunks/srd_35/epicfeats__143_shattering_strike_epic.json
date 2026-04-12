@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::143_shattering_strike_epic",
+  "document_id": "srd_35::epicfeats::143_shattering_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SHATTERING STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#143_shattering_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Epic Weapon Focus (unarmed strike), Weapon Focus (unarmed strike), Concentration 25 ranks, ki strike (adamantine).\nBenefit: When using an unarmed strike to attempt to break an object with sudden force (rather than by dealing normal damage), make a Concentration check rather than a Strength check. The break DC remains the same. Using Shattering Strike is a full-round action that incurs attacks of opportunity. The character can't use Shattering Strike to escape bonds (unless he or she is so bound as to allow the character to make an unarmed strike against his or her bindings).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::142_self_concealment_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::144_sneak_attack_of_opportunity_epic"
+}

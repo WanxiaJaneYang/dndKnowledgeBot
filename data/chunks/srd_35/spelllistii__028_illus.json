@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::028_illus",
+  "document_id": "srd_35::spelllistii::028_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#028_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Blur: Attacks miss subject 20% of the time.\nHypnotic Pattern: Fascinates (2d4 + level) HD of creatures.\nInvisibility: Subject is invisible for 1 min./level or until it attacks.\nMagic Mouth M: Speaks once when triggered.\nMinor Image: As silent image, plus some sound.\nMirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).\nMisdirection: Misleads divinations for one creature or object.\nPhantom Trap M: Makes item seem trapped.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::027_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::029_necro"
+}

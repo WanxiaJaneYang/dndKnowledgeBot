@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::039_combat",
+  "document_id": "srd_35::monsterse_f::039_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#039_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The queen does not fight. She has no ability to move. If necessary, a team of workers and myrmarchs (or dominated slaves) haul her enormous bulk to where she needs to go. This sort of occurrence is very rare, however, and most of the time the queen remains within her well-defended chambers.\nDespite her utter lack of physical activity, the queen can cast spells and use spell-like abilities to great effect in her own defense as well as the defense of the hive-city.\nSpells: The queen casts arcane spells as a 17th-level sorcerer.\nTypical Sorcerer Spells Known (6/8/7/7/7/7/6/6/4, base save DC 15 + spell level): 0--acid splash, arcane mark, daze, detect magic, light, mage hand, read magic, resistance, touch of fatigue; 1st--comprehend languages, identify, mage armor, magic missile, shield; 2nd-- hypnotic pattern, invisibility, protection from arrows, resist energy, scorching ray; 3rd--dispel magic, heroism, nondetection, slow; 4th-- confusion, detect scrying, black tentacles, scrying; 5th--cone of cold, dismissal, teleport, wall of force; 6th--analyze dweomer, geas/quest, repulsion; 7th--summon monster VII, vision, waves of exhaustion; 8th--prismatic wall, temporal stasis.\nSpell-Like Abilities: At will--calm emotions (DC 17), charm monster (DC 19), clairaudience/clairvoyance, detect chaos, detect thoughts, dictum (DC 22), divination, hold monster (DC 20), magic circle against chaos, order's wrath (DC 19), shield of law (DC 23), true seeing. Caster level 17th. The save DCs are Charisma-based.\nTelepathy (Su): The queen can communicate telepathically with any intelligent creature within 50 miles whose presence she is aware of.\n\nHit Dice: | 14d10+70 (147 hp) |\nInitiative: | +4 |\nSpeed: | 30 ft. (6 squares), burrow 10 ft. |\nArmor Class: | 18 (-2 size, +10 natural), touch 8, flat-footed 18 |\nBase Attack/Grapple: | +14/+30 |\nAttack: | Bite +21 melee (2d8+12 plus 1d8 cold) |\nFull Attack: | Bite +21 melee (2d8+12 plus 1d8 cold) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Trill, cold, breath weapon |\nSpecial Qualities: | Darkvision 60 ft., death throes, immunity to cold, low-light vision, vulnerability to fire |\nSaves: | Fort +14, Ref +9, Will +6 |\nAbilities: | Str 26, Dex 10, Con 20, Int 2, Wis 11, Cha 11 |\nSkills: | Hide +3*, Listen +5, Spot +5 |\nFeats: | Alertness, Improved Initiative, Improved Natural Attack (bite), Iron Will, Weapon Focus (bite) |\nEnvironment: | Cold plains |\nOrganization: | Solitary |\nChallenge Rating: | 12 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 15-21 HD (Huge); 22-42 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA frost worn cannot burrow through stone, but can manage ice and frozen earth. When moving through such hard materials it leaves behind a usable tunnel about 5 feet in diameter.\nA frost worm is about 40 feet long, 5 feet in diameter, and weighs about 8,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::038_queen",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::040_combat"
+}

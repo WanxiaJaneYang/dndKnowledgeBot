@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::042_new_divine_spells",
+  "document_id": "srd_35::magicoverview::042_new_divine_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "NEW DIVINE SPELLS"
+    ],
+    "source_location": "MagicOverview.rtf#042_new_divine_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Divine spellcasters most frequently gain new spells in one of the following two ways.\nSpells Gained at a New Level: Characters who can cast divine spells undertake a certain amount of study between adventures. Each time such a character receives a new level of divine spells, he or she learns new spells from that level automatically.\nIndependent Research: A divine spellcaster also can research a spell independently, much as an arcane spellcaster can. Only the creator of such a spell can prepare and cast it, unless he decides to share it with others.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::041_divine_magical_writings",
+  "next_chunk_id": "chunk::srd_35::magicoverview::043_special_abilities"
+}

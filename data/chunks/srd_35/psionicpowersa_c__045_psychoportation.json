@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::045_psychoportation",
+  "document_id": "srd_35::psionicpowersa_c::045_psychoportation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Psychoportation"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#045_psychoportation"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 1, psychic warrior 1\nDisplay: Auditory\nManifesting Time: 1 immediate action\n\nDuration: Until landing or 1 round/ level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::044_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::046_power_points_1"
+}

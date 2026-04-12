@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::058_extra_domain",
+  "document_id": "srd_35::divineabilitiesandfeats::058_extra_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Extra Domain"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#058_extra_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Divine rank 6.\nBenefit: The deity chooses one domain to add to its list of domains. The deity can grant spells and powers from that domain and use those spells and powers personally, just as it can the spells and powers of its other domains.\nNotes: A deity can have this ability multiple times, choosing a new domain each time.\nSuggested Portfolio Elements: Any.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::057_energy_storm",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::059_extra_energy_immunity"
+}

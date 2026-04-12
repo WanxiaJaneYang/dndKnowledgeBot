@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::002_intelligent_items",
+  "document_id": "srd_35::magicitemsvi::002_intelligent_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "INTELLIGENT ITEMS"
+    ],
+    "source_location": "MagicItemsVI.rtf#002_intelligent_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Magic items sometimes have intelligence of their own. Magically imbued with sentience, these items think and feel the same way characters do and should be treated as NPCs. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes. Only permanent magic items (as opposed to single-use items or those with charges) can be intelligent. (This means that potions, scrolls, and wands, among other items, are never intelligent.) In general, less than 1% of magic items have intelligence.\nIntelligent items can actually be considered creatures because they have Intelligence, Wisdom, and Charisma scores. Treat them as constructs. Intelligent items often have the ability to illuminate their surroundings at will (as magic weapons do); many cannot see otherwise.\nUnlike most magic items, intelligent items can activate their own powers without waiting for a command word from their owner. Intelligent items act during their owner's turn in the initiative order.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::001_magicitemsvi",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::003_intelligent_item_alignment"
+}

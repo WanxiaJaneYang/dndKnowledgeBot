@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::023_combat",
+  "document_id": "srd_35::monstersb_c::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A choker likes to perch near the ceiling, often at intersections, archways, wells, or staircases, and reach down to attack its prey. A choker attacks creatures of almost any size, but prefers lone prey of its size or larger. If one is very hungry, it may attack a group, but it waits to grab the last creature in line.\nConstrict (Ex): A choker deals 1d3+3 points of damage with a successful grapple check against a Large or smaller creature. Because it seizes its victim by the neck, a creature in the choker's grasp cannot speak or cast spells with verbal components.\nImproved Grab (Ex): To use this ability, a choker must hit a Large or smaller opponent with a tentacle attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict. Chokers receive a +4 racial bonus on grapple checks, which is already included in the statistics block.\nQuickness (Su): Although not particularly dexterous, a choker is supernaturally quick. It can take an extra standard action or move action during its turn each round.\nSkills: A chokers has a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened.\n\nHit Dice: | 11d8+44 (93 hp) |\nInitiative: | +7 |\nSpeed: | 30 ft. (6 squares), swim 20 ft. |\nArmor Class: | 22 (-1 size, +3 Dex, +10 natural), touch 12, flat-footed 19 |\nBase Attack/Grapple: | +8/+17 |\nAttack: | Claw +12 melee (2d6+5) |\nFull Attack: | 2 claws +12 melee (2d6+5) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Constrict 3d6+5, improved grab, paralytic tentacles |\nSpecial Qualities: | Amphibious, darkvision 60 ft., immunity to poison |\nSaves: | Fort +7, Ref +6, Will +9 |\nAbilities: | Str 20, Dex 16, Con 18, Int 10, Wis 14, Cha 5 |\nSkills: | Hide +13, Listen +11, Spot +11, Swim +13 |\nFeats: | Alertness, Blind-Fight,Combat Reflexes, Improved Initiative |\nEnvironment: | Temperate marshes |\nOrganization: | Solitary, pair, or pack (3-5) |\nChallenge Rating: | 7 |\nTreasure: | 1/10th coins; 50% goods; standard items |\nAlignment: | Usually chaotic evil |\nAdvancement: | 12-16 HD (Large); 17-33 HD (Huge) |\nLevel Adjustment: | -- |\nA horrible mix of crustacean, insect, and serpent, the chuul is an abomination that lurks submerged or partially submerged, awaiting intelligent prey to devour. Although amphibious, chuuls are not good swimmers and actually prefer to be on land or in very shallow water when they attack. A chuul is about 8 feet long and weighs 650 pounds.\nChuuls speak Common (or Undercommon, for the underground variety).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::022_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::024_combat"
+}

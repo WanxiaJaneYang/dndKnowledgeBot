@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::059_extra_energy_immunity",
+  "document_id": "srd_35::divineabilitiesandfeats::059_extra_energy_immunity",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Extra Energy Immunity"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#059_extra_energy_immunity"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 6, resistance to the energy type selected.\nBenefit: The deity gains immunity to acid, cold, electricity, fire, or sonic energy.\nNotes: This ability is effective even if the attacker is a deity of higher rank.\nA deity can have this ability multiple times, choosing a different form of energy each time.\nSuggested Portfolio Elements: Any.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::058_extra_domain",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::060_extra_sense_enhancement"
+}

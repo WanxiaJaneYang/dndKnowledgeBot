@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::027_creating_a_fiendish_creature",
+  "document_id": "srd_35::monsterse_f::027_creating_a_fiendish_creature",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "CREATING A FIENDISH CREATURE"
+    ],
+    "source_location": "MonstersE-F.rtf#027_creating_a_fiendish_creature"
+  },
+  "chunk_type": "subsection",
+  "content": "\u201cFiendish\u201d is an inherited template that can be added to any corporeal aberration, animal, dragon, fey, giant, humanoid, magical beast, monstrous humanoid, ooze, plant, or vermin of nongood alignment (referred to\nhereafter as the base creature).\nA fiendish creature uses all the base creature's statistics and abilities except as noted here. Do not recalculate the creature's Hit Dice, base attack bonus, saves, or skill points if its type changes.\nSize and Type: Animals or vermin with this template become magical beasts, but otherwise the creature type is unchanged. Size is unchanged. Fiendish creatures encountered on the Material Plane have the extraplanar subtype.\nSpecial Attacks: A fiendish creature retains all the special attacks of the base creature and also gains the following special attack.\nSmite Good (Su): Once per day the creature can make a normal melee attack to deal extra damage equal to its HD total (maximum of +20) against a good foe.\nSpecial Qualities: A fiendish creature retains all the special qualities of the base creature and also gains the following.\n--Darkvision out to 60 feet.\n--Damage reduction (see the table below).\n--Resistance to cold and fire (see the table below).\n--Spell resistance equal to the creature's HD + 5 (maximum 25).\nIf the base creature already has one or more of these special qualities, use the better value.\nIf a fiendish creature gains damage reduction, its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nAbilities: Same as the base creature, but Intelligence is at least 3.\nEnvironment: Any evil-aligned plane.\nChallenge Rating: HD 3 or less, as base creature; HD 4 to 7, as\nbase creature +1; HD 8 or more, as base creature +2.\nAlignment: Always evil (any).\nLevel Adjustment: Same as the base creature +2.\nHit Dice | Resistance to Cold and Fire | Damage Reduction |\n1-3 | 5 | -- |\n4-7 | 5 | 5/magic |\n8-11 | 10 | 5/magic |\n12 or more | 10 | 10/magic |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::026_fiendish_creature",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::028_formian"
+}

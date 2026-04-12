@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::024_combat",
+  "document_id": "srd_35::monsterse_f::024_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "COMBAT"
+    ],
+    "source_location": "MonstersE-F.rtf#024_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Ettercaps are not brave creatures, but their cunning traps often ensure that the enemy never draws a weapon. When an ettercap does engage its enemies, it attacks with its keen-edged claws and venomous bite. It usually will not come within melee reach of any foe that is still able to move.\nPoison (Ex): Injury, Fortitude DC 15, initial damage 1d6 Dex, secondary damage 2d6 Dex. The save DC is Constitution based and includes a +2 racial bonus.\nWeb (Ex): An ettercap can throw a web eight times per day. This is similar to an attack with a net but has a maximum range of 50 feet, with a range increment of 10 feet, and is effective against targets of up to Medium size. The web anchors the target in place, allowing no movement.\nAn entangled creature can escape with a DC 13 Escape Artist check or burst the web with a DC 17 Strength check. The check DCs are Constitution-based, and the Strength check DC includes a +4 racial bonus. The web has 6 hit points, hardness 0, and takes double damage from fire.\nEttercaps can also create sheets of sticky webbing from 5 to 60 feet square. They usually position these to snare flying creatures but can also try to trap prey on the ground. Approaching creatures must succeed on a DC 20 Spot check to notice a web, or they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing receive a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-foot-square section has 6 hit points, hardness 0, and takes double damage from fire.\nAn ettercap can move across its own sheet web at its climb speed and can determine the exact location of any creature touching the web.\nSkills: Ettercaps have a +4 racial bonus on Craft (trapmaking), Hide, and Spot checks. They have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened.\n\nHit Dice: | 10d8+20 (65 hp) |\nInitiative: | +3 |\nSpeed: | 30 ft. in hide armor (6 squares); base speed 40 ft. |\nArmor Class: | 18 (-1 size, -1 Dex, +7 natural, +3 hide), touch 8, flat-footed 18 |\nBase Attack/Grapple: | +7/+17 |\nAttack: | Morningstar +12 melee (2d6+6) or javelin +5 ranged (1d8+6) |\nFull Attack: | 2 morningstars +12/+7 melee (2d6+6) or 2 javelins +5 ranged (1d8+6) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, superior two-weapon fighting |\nSaves: | Fort +9, Ref +2, Will +5 |\nAbilities: | Str 23, Dex 8, Con 15, Int 6, Wis 10, Cha 11 |\nSkills: | Listen +10, Search +1, Spot +10 |\nFeats: | Alertness, Improved Initiative, Iron Will, Power Attack |\nEnvironment: | Cold hills |\nOrganization: | Solitary, gang (2-4), troupe (1-2 plus 1-2 brown bears), band (3-5 plus 1-2 brown bears), or colony (3-5 plus 1-2 brown bears and 7-12 orcs or 9-16 goblins) |\nChallenge Rating: | 6 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | +5 |\nEttins, or two-headed giants, are vicious and unpredictable hunters that stalk the night.\nAn ettin never bathes if it can help it, which usually leaves it so grimy and dirty its skin resembles thick, gray hide. Adult ettins are about 13 feet tall and weigh 5,200 pounds. They live about 75 years.\nEttins have no language of their own but speak a pidgin of Orc, Goblin, and Giant. Creatures that can speak any of these languages must succeed on a DC 15 Intelligence check to communicate with an ettin. Check once for each bit of information: If the other creature speaks two of these languages, the DC is 10, and for someone who speaks all three, the DC is 5.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::023_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::025_combat"
+}

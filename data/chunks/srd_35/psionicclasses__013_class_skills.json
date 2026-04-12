@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::013_class_skills",
+  "document_id": "srd_35::psionicclasses::013_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#013_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The wilder's class skills (and the key ability for each skill) are Autohypnosis* (Wis), Balance (Dex), Bluff (Cha), Climb (Str), Concentration* (Con), Craft (Int), Escape Artist (Dex), Intimidate (Cha), Jump (Str), Knowledge (psionics)* (Int), Listen (Wis), Profession (Wis), Psicraft* (Int), Sense Motive (Wis), Spot (Wis), Swim (Str), and Tumble (Dex).\n*New skill or expanded use of existing skill.\nSkill Points at 1st Level: (4 + Int modifier) x4.\nSkill Points at Each Additional Level: 4 + Int modifier.\nTable: The Wilder |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Power Points/Day | Powers Known | Maximum Power Level Known |\n1st | +0 | +0 | +0 | +2 | Wild surge +1, psychic enervation | 2 | 1 | 1st |\n2nd | +1 | +0 | +0 | +3 | Elude touch | 6 | 2 | 1st |\n3rd | +2 | +1 | +1 | +3 | Wild surge +2 | 11 | 2 | 1st |\n4th | +3 | +1 | +1 | +4 | Surging euphoria +1 | 17 | 3 | 2nd |\n5th | +3 | +1 | +1 | +4 | Volatile mind (1 power point) | 25 | 3 | 2nd |\n6th | +4 | +2 | +2 | +5 | | 35 | 4 | 3rd |\n7th | +5 | +2 | +2 | +5 | Wild surge +3 | 46 | 4 | 3rd |\n8th | +6/+1 | +2 | +2 | +6 | | 58 | 5 | 4th |\n9th | +6/+1 | +3 | +3 | +6 | Volatile mind (2 power points) | 72 | 5 | 4th |\n10th | +7/+2 | +3 | +3 | +7 | | 88 | 6 | 5th |\n11th | +8/+3 | +3 | +3 | +7 | Wild surge +4 | 106 | 6 | 5th |\n12th | +9/+4 | +4 | +4 | +8 | Surging euphoria +2 | 126 | 7 | 6th |\n13th | +9/+4 | +4 | +4 | +8 | Volatile mind (3 power points) | 147 | 7 | 6th |\n14th | +10/+5 | +4 | +4 | +9 | | 170 | 8 | 7th |\n15th | +11/+6/+1 | +5 | +5 | +9 | Wild surge +5 | 195 | 8 | 7th |\n16th | +12/+7/+2 | +5 | +5 | +10 | | 221 | 9 | 8th |\n17th | +12/+7/+2 | +5 | +5 | +10 | Volatile mind (4 power points) | 250 | 9 | 8th |\n18th | +13/+8/+3 | +6 | +6 | +11 | | 280 | 10 | 9th |\n19th | +14/+9/+4 | +6 | +6 | +11 | Wild surge +6 | 311 | 10 | 9th |\n20th | +15/+10/+5 | +6 | +6 | +12 | Surging euphoria +3 | 343 | 11 | 9th |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::012_class_features",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::014_class_features"
+}

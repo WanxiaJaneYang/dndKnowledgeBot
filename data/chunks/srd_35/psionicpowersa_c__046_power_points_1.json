@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::046_power_points_1",
+  "document_id": "srd_35::psionicpowersa_c::046_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#046_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You recover instantly from a fall and can absorb some damage from falling. You land on your feet no matter how far you fall, and you take damage as if the fall were 10 feet shorter than it actually is. This power affects you and anything you carry or hold (up to your maximum load). You can manifest this power with an instant thought, quickly enough to gain the benefit of the power while you fall. Manifesting the power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can manifest this power even when it isn't your turn.\nAugment: For every additional power point you spend, this power reduces your damage as if the fall were an additional 10 feet shorter.\nChameleon\nPsychometabolism\nLevel: Egoist 2, psychic warrior 1\nDisplay: Olfactory\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::045_psychoportation",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::047_power_points_1"
+}

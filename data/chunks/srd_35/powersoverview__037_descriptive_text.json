@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::037_descriptive_text",
+  "document_id": "srd_35::powersoverview::037_descriptive_text",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "DESCRIPTIVE TEXT"
+    ],
+    "source_location": "PowersOverview.rtf#037_descriptive_text"
+  },
+  "chunk_type": "subsection",
+  "content": "This portion of a power description details what the power does and how it works. If one of the previous lines in the description included \u201csee text,\u201d this is where the explanation is found. If the power you're reading about is based on another power you might have to refer to a different power for the \u201csee text\u201d information. If a power is the equivalent of a spell an entry of \u201csee spell text\u201d directs you to the appropriate spell description.\nAugment: Many powers have variable effects based on the number of power points you spend when you manifest them. The more points spent, the more powerful the manifestation. How this extra expenditure affects a power is specific to the power. Some augmentations allow you to increase the number of damage dice, while others extend a power's duration or modify a power in unique ways. Each power that can be augmented includes an entry giving how many power points it costs to augment and the effects of doing so. However, you can spend only a total number of points on a power equal to your manifester level.\nAugmenting a power takes place as part of another action (manifesting a power). Unless otherwise noted in the Augment section of an individual power description, you can augment a power only at the time you manifest it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::036_power_points"
+}

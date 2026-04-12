@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::010_search_and_disable_device_dcs",
+  "document_id": "srd_35::traps::010_search_and_disable_device_dcs",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Search and Disable Device DCs"
+    ],
+    "source_location": "Traps.rtf#010_search_and_disable_device_dcs"
+  },
+  "chunk_type": "subsection",
+  "content": "The builder sets the Search and Disable Device DCs for a mechanical trap. For a magic trap, the values depend on the highest-level spell used.\nMechanical Trap: The base DC for both Search and Disable Device checks is 20. Raising or lowering either of these DCs affects the base cost (Table: Cost Modifiers for Mechanical Traps) and possibly the CR (Table: CR Modifiers for Mechanical Traps).\nMagic Trap: The DC for both Search and Disable Device checks is equal to 25 + the spell level of the highest-level spell used. Only characters with the trap sense class feature can attempt a Search check or a Disable Device check involving a magic trap. These DCs do not affect the trap's cost or CR.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::009_bypass_optional_element",
+  "next_chunk_id": "chunk::srd_35::traps::011_attack_bonus_saving_throw_dc"
+}

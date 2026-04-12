@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::003_saving_throws_against_psionic_item_powers",
+  "document_id": "srd_35::psionicitems::003_saving_throws_against_psionic_item_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "SAVING THROWS AGAINST PSIONIC ITEM POWERS"
+    ],
+    "source_location": "PsionicItems.rtf#003_saving_throws_against_psionic_item_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic items produce psionic powers. The DC of a saving throw against a power from a psionic item is always 10 + the level of the power or effect + the ability modifier of the minimum ability score needed to manifest that level of power.\nAnother way to figure the same number is to multiply the power's level by 1-1/2 and add 10 to the result.\nPsicrowns are an exception to the rule. Treat the saving throw as if the wielder manifested the power, including caster level and all modifiers to save DC.\nSome psionic items take advantage of the fact that powers can be augmented to increase their saving throw DCs. These items are special and have their cost to create and market price calculated using the manifester's level instead of the power's level.\nMost item descriptions give saving throw DCs for various effects, particularly when the effect has no exact power equivalent (making its level otherwise difficult to quickly determine).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::002_using_items",
+  "next_chunk_id": "chunk::srd_35::psionicitems::004_damaging_psionic_items"
+}

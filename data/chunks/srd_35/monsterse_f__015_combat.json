@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::015_combat",
+  "document_id": "srd_35::monsterse_f::015_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "COMBAT"
+    ],
+    "source_location": "MonstersE-F.rtf#015_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Elves are cautious warriors and take time to analyze their opponents and the location of the fight if at all possible, maximizing their advantage by using ambushes, snipers, and camouflage. They prefer to fire from cover and retreat before they are found, repeating this maneuver until all of their enemies are dead.\nThey prefer longbows, shortbows, rapiers, and longswords. In melee, elves are graceful and deadly, using complex maneuvers that are beautiful to observe. Their wizards often use sleep spells during combat because these won't affect other elves.\nElf Traits (Ex): Elves possess the following racial traits.\n-- +2 Dexterity, -2 Constitution.\n--Medium size.\n--An elf 's base land speed is 30 feet.\n--Immunity to sleep spells and effects, and a +2 racial saving throw bonus against enchantment spells or effects.\n(Not reflected in the saving throw modifiers given here.)\n--Low-light vision.\n--Weapon Proficiency: Elves are automatically proficient with the longsword, rapier, longbow, composite longbow, shortbow, and composite shortbow.\n-- +2 racial bonus on Listen, Search, and Spot checks. An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it.\n--Automatic Languages: Common, Elven. Bonus Languages: Draconic, Gnoll, Gnome, Goblin, Orc, Sylvan.\n--Favored Class: Wizard.\nThe elf warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::014_elf",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::016_subraces"
+}

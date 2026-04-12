@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::031_abjur",
+  "document_id": "srd_35::spelllistii::031_abjur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Abjur"
+    ],
+    "source_location": "SpellListII.rtf#031_abjur"
+  },
+  "chunk_type": "subsection",
+  "content": "Dispel Magic: Cancels magical spells and effects.\nExplosive Runes: Deals 6d6 damage when read.\nMagic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.\nNondetection M: Hides subject from divination, scrying.\nProtection from Energy: Absorb 12 points/level of damage from one kind of energy.\n\nPhantom Steed: Magic horse appears for 1 hour/level.\nSepia Snake Sigil M: Creates text symbol that immobilizes reader.\nSleet Storm: Hampers vision and movement.\nStinking Cloud: Nauseating vapors, 1 round/level.\nSummon Monster III: Calls extraplanar creature to fight for you.\n\nArcane Sight: Magical auras become visible to you.\nClairaudience/Clairvoyance: Hear or see at a distance for 1 min./level.\nTongues: Speak any language.\n\nDeep Slumber: Puts 10 HD of creatures to sleep.\nHeroism: Gives +2 bonus on attack rolls, saves, skill checks.\nHold Person: Paralyzes one humanoid for 1 round/level.\nRage: Subjects gains +2 to Str and Con, +1 on Will saves, -2 to AC.\nSuggestion: Compels subject to follow stated course of action.\n\nDaylight: 60-ft. radius of bright light.\nFireball: 1d6 damage per level, 20-ft. radius.\nLightning Bolt: Electricity deals 1d6/level damage.\nTiny Hut: Creates shelter for ten creatures.\nWind Wall: Deflects arrows, smaller creatures, and gases.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::030_trans",
+  "next_chunk_id": "chunk::srd_35::spelllistii::032_illus"
+}

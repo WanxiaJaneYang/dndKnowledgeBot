@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::047_falling_objects",
+  "document_id": "srd_35::wildernessandenvironment::047_falling_objects",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "FALLING OBJECTS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#047_falling_objects"
+  },
+  "chunk_type": "subsection",
+  "content": "Just as characters take damage when they fall more than 10 feet, so too do they take damage when they are hit by falling objects.\nObjects that fall upon characters deal damage based on their weight and the distance they have fallen.\nFor each 200 pounds of an object's weight, the object deals 1d6 points of damage, provided it falls at least 10 feet. Distance also comes into play, adding an additional 1d6 points of damage for every 10-foot increment it falls beyond the first (to a maximum of 20d6 points of damage).\nObjects smaller than 200 pounds also deal damage when dropped, but they must fall farther to deal the same damage. Use Table: Damage from Falling Objects to see how far an object of a given weight must drop to deal 1d6 points of damage.\n\nObject Weight | Falling Distance |\n200-101 lb. | 20 ft. |\n100-51 lb. | 30 ft. |\n50-31 lb. | 40 ft. |\n30-11 lb. | 50 ft. |\n10-6 lb. | 60 ft. |\n5-1 lb. | 70 ft. |\nFor each additional increment an object falls, it deals an additional 1d6 points of damage.\nObjects weighing less than 1 pound do not deal damage to those they land upon, no matter how far they have fallen.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::046_falling",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::048_heat_dangers"
+}

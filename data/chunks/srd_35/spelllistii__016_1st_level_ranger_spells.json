@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::016_1st_level_ranger_spells",
+  "document_id": "srd_35::spelllistii::016_1st_level_ranger_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "1ST-LEVEL RANGER SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#016_1st_level_ranger_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Alarm: Wards an area for 2 hours/level.\nAnimal Messenger: Sends a Tiny animal to a specific place.\nCalm Animals: Calms (2d4 + level) HD of animals.\nCharm Animal: Makes one animal your friend.\nDelay Poison: Stops poison from harming subject for 1 hour/level.\nDetect Animals or Plants: Detects kinds of animals or plants.\nDetect Poison: Detects poison in one creature or object.\nDetect Snares and Pits: Reveals natural or primitive traps.\nEndure Elements: Exist comfortably in hot or cold environments.\nEntangle: Plants entangle everyone in 40-ft.-radius circle.\nHide from Animals: Animals can't perceive one subject/level.\nJump: Subject gets bonus on Jump checks.\nLongstrider: Increases your speed.\nMagic Fang: One natural weapon of subject creature gets +1 on attack and damage rolls.\nPass without Trace: One subject/level leaves no tracks.\nRead Magic: Read scrolls and spellbooks.\nResist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.\nSpeak with Animals: You can communicate with animals.\nSummon Nature's Ally I: Calls animal to fight for you.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::015_4th_level_paladin_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::017_2nd_level_ranger_spells"
+}

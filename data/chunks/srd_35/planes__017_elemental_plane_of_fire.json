@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::017_elemental_plane_of_fire",
+  "document_id": "srd_35::planes::017_elemental_plane_of_fire",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "ELEMENTAL PLANE OF FIRE"
+    ],
+    "source_location": "Planes.rtf#017_elemental_plane_of_fire"
+  },
+  "chunk_type": "subsection",
+  "content": "Everything is alight on the Elemental Plane of Fire. The ground is nothing more than great, evershifting plates of compressed flame. The air ripples with the heat of continual firestorms, and the most common liquid is magma, not water. The oceans are made of liquid flame, and the mountains ooze with molten lava. Fire survives here without need for fuel or air, but flammables brought onto the plane are consumed readily.\nThe Elemental Plane of Fire has the following traits.\nFire-dominant.\nEnhanced magic. Spells and spell-like abilities with the fire descriptor are both maximized and enlarged (as if the Maximize Spell and Enlarge Spell had been used on them, but the spells don't require higher-level slots). Spells and spell-like abilities that are already maximized or enlarged are unaffected by this benefit.\nImpeded magic. Spells and spell-like abilities that use or create water (including spells of the Water domain and spells that summon water elementals or outsiders with the water subtype) are impeded.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::016_elemental_plane_of_earth",
+  "next_chunk_id": "chunk::srd_35::planes::018_elemental_plane_of_water"
+}

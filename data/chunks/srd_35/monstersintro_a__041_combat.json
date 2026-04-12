@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::041_combat",
+  "document_id": "srd_35::monstersintro_a::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hound archons prefer to attack with their natural weapons but occasionally use greatswords.\nA hound archon's natural weapons, as well as any weapons it wields, are treated as good-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nSpell-Like Abilities: At will--aid, continual flame, detect evil, message. Caster level 6th.\nAura of Menace (Su): Will DC 16 negates.\nChange Shape (Su): A hound archon can assume any canine form of Small to Large size. While in canine form, the hound archon loses its bite, slam, and greatsword attacks, but gains the bite attack of the form it chooses. For the purposes of this ability, canines include any doglike or wolflike animal of the animal type.\nSkills: *While in canine form, a hound archon gains a +4 circumstance bonus on Hide and Survival checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::040_hound_archon",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::042_hound_archon_hero"
+}

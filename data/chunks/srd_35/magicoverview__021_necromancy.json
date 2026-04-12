@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::021_necromancy",
+  "document_id": "srd_35::magicoverview::021_necromancy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "Necromancy"
+    ],
+    "source_location": "MagicOverview.rtf#021_necromancy"
+  },
+  "chunk_type": "subsection",
+  "content": "Necromancy spells manipulate the power of death, unlife, and the life force. Spells involving undead creatures make up a large part of this school.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::020_illusion",
+  "next_chunk_id": "chunk::srd_35::magicoverview::022_transmutation"
+}

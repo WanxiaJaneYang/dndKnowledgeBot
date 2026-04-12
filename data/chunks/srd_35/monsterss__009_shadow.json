@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::009_shadow",
+  "document_id": "srd_35::monsterss::009_shadow",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "SHADOW"
+    ],
+    "source_location": "MonstersS.rtf#009_shadow"
+  },
+  "chunk_type": "subsection",
+  "content": "| Shadow | Greater Shadow |\n| Medium Undead (Incorporeal) | Medium Undead (Incorporeal) |\nHit Dice: | 3d12 (19 hp) | 9d12 (58 hp) |\nInitiative: | +2 | +2 |\nSpeed: | Fly 40 ft. (good) (8 squares) | Fly 40 ft. (good) (8 squares) |\nArmor Class: | 13 (+2 Dex, +1 deflection), touch 13, flat-footed 11 | 14 (+2 Dex, +2 deflection), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +1/-- | +4/-- |\nAttack: | Incorporeal touch +3 melee (1d6 Str) | Incorporeal touch +6 melee (1d8 Str) |\nFull Attack: | Incorporeal touch +3 melee (1d6 Str) | Incorporeal touch +6 melee (1d8 Str) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | Create spawn, strength damage | Create spawn, strength damage |\nSpecial Qualities: | Darkvision 60 ft., incorporeal traits, +2 turn resistance, undead traits | Darkvision 60 ft., incorporeal traits, +2 turn resistance, undead traits |\nSaves: | Fort +1, Ref +3, Will +4 | Fort +3, Ref +5, Will +7 |\nAbilities: | Str --, Dex 14, Con --,Int 6, Wis 12, Cha 13 | Str --, Dex 15, Con --, Int 6, Wis 12, Cha 14 |\nSkills: | Hide +8*, Listen +7, Search +4, Spot +7 | Hide +14*, Listen +9, Search +6, Spot +9 |\nFeats: | Alertness, Dodge | Alertness, Dodge, Mobility, Spring Attack |\nEnvironment: | Any | Any |\nOrganization: | Solitary, gang (2-5), or swarm (6-11) | Solitary |\nChallenge Rating: | 3 | 8 |\nTreasure: | None | None |\nAlignment: | Always chaotic evil | Always chaotic evil |\nAdvancement: | 4-9 HD (Medium) | -- |\nLevel Adjustment: | -- | -- |\nA shadow can be difficult to see in dark or gloomy areas but stands out starkly in brightly illuminated places.\nA shadow is 5 to 6 feet tall and is weightless. Shadows cannot speak intelligibly.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::008_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::010_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::036_greater_psionic_endowment_psionic",
+  "document_id": "srd_35::psionicsfeats::036_greater_psionic_endowment_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "GREATER PSIONIC ENDOWMENT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#036_greater_psionic_endowment_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can use meditation to focus your powers.\nPrerequisite: Psionic Endowment.\nBenefit: When you use the Psionic Endowment feat, you add +2 to the save DC of a power you manifest instead of +1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::035_greater_power_specialization_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::037_greater_psionic_fist_psionic"
+}

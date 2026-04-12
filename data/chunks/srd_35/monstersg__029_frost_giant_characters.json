@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::029_frost_giant_characters",
+  "document_id": "srd_35::monstersg::029_frost_giant_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "FROST GIANT CHARACTERS"
+    ],
+    "source_location": "MonstersG.rtf#029_frost_giant_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Many groups of frost giants include clerics. A frost giant cleric has access to two of the following domains: Chaos, Destruction, Evil, or War (most choose Destruction or War, some choose both).\n\nHit Dice: | 12d8+48 (102 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. in hide armor (6 squares); base speed 40 ft. |\nArmor Class: | 20 (-1 size, -1 Dex, +9 natural, +3 hide armor), touch 8, flat-footed 20 |\nBase Attack/Grapple: | +9/+20 |\nAttack: | Greatclub +16 melee (2d8+10) or slam +15 melee (1d4+7) or rock +8 ranged (2d6+7) |\nFull Attack: | Greatclub +16/+11 melee (2d8+10) or 2 slams +15 melee (1d4+7) or rock +8 ranged (2d6+7) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Rock throwing |\nSpecial Qualities: | Low-light vision, rock catching |\nSaves: | Fort +12, Ref +3, Will +4 |\nAbilities: | Str 25, Dex 8, Con 19, Int 6, Wis 10, Cha 7 |\nSkills: | Climb +7, Jump +7, Listen +3, Spot +6 |\nFeats: | Cleave, Improved Bull Rush, Power Attack, Improved Sunder, Weapon Focus (greatclub) |\nEnvironment: | Temperate hills |\nOrganization: | Solitary, gang (2-5), band (6-9 plus 35% noncombatants), hunting/raiding party (6-9 plus 2-4 dire wolves), or tribe (21-30 plus 35% noncombatants plus 12-30 dire wolves, 2-4 ogres, and 12-22 orcs) |\nChallenge Rating: | 7 |\nTreasure: | Standard |\nAlignment: | Often chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | +4 |\nSkin color among hill giants ranges from light tan to deep ruddy brown. Their hair is brown or black, with eyes the same color. Hill giants wear layers of crudely prepared hides with the fur left on. They seldom wash or repair their garments, preferring to simply add more hides as their old ones wear out.\nAdults are about 10-1/2 feet tall and weigh about 1,100 pounds. Hill giants can live to be 200 years old.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::028_frost_giant_jarl",
+  "next_chunk_id": "chunk::srd_35::monstersg::030_combat"
+}

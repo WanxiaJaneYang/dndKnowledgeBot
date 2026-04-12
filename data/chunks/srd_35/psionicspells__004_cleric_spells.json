@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicspells::004_cleric_spells",
+  "document_id": "srd_35::psionicspells::004_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSpells",
+      "CLERIC SPELLS"
+    ],
+    "source_location": "PsionicSpells.rtf#004_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "3rd-Level Cleric Spell\nTelepathic Bond, Lesser: As telepathic bond, but you and one other creature.\n4th-Level Cleric Spell\nDweomer of Transference: Convert spellcasting into psionic power points.\n5th-Level Cleric Spell\nPsychic Turmoil: Invisible field leeches psionic power points away.\n7th-Level Cleric Spell\nPsychic Turmoil, Greater: As psychic turmoil, but you gain power points as temporary hp.\n8th-Level Cleric Spell\nBrain Spider: Listen to thoughts of up to eight other creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicspells::003_bard_spells",
+  "next_chunk_id": "chunk::srd_35::psionicspells::005_mind_domain"
+}

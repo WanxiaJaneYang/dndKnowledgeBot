@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::032_turning_other_creatures",
+  "document_id": "srd_35::combatii::032_turning_other_creatures",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "Turning Other Creatures"
+    ],
+    "source_location": "CombatII.rtf#032_turning_other_creatures"
+  },
+  "chunk_type": "subsection",
+  "content": "Some clerics have the ability to turn creatures other than undead.\nThe turning check result is determined as normal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::031_neutral_clerics_and_undead",
+  "next_chunk_id": "chunk::srd_35::combatii::033_two_weapon_fighting"
+}

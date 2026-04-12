@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::041_class_features",
+  "document_id": "srd_35::epicprestigeclasses::041_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#041_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "The following are class features of the Union Sentinel prestige class.\nWeapon and Armor Proficiency: Union Sentinels are proficient with all simple and martial weapons, all armor, and all shields.\nSending (Sp): At 1st level, the Union Sentinel gains the use of the sending spell as a spell-like ability once per day, plus one additional time per day every seven levels thereafter. This ability functions as the spell cast by a 15th-level caster.\nShield of Law (Sp): At 1st level, the Union Sentinel gains the use of the shield of law spell as a spell-like ability once per day, plus one additional time per day every three levels thereafter. This ability functions as the spell cast by a 15th-level caster.\nFreedom (Sp): At 2nd level, the Union Sentinel gains the use of the freedom spell as a spell-like ability once per day, plus one additional time per day every six levels thereafter. This ability functions as the spell cast by an 18th-level caster.\nKnock (Sp): At 2nd level, the Union Sentinel gains the use of the knock spell as a spell-like ability once per day, plus one additional time per day every four levels thereafter. This ability functions as the spell cast by a 15th-level caster.\nDimensional Anchor (Sp): At 3rd level, the Union Sentinel gains the use of the dimensional anchor spell as a spell-like ability once per day, plus one additional time per day every three levels thereafter. This ability functions as the spell cast by a 15th-level caster.\nPortal Guardian (Su): A 4th-level Union Sentinel can become a portal guardian once per day, plus one additional time per day every six levels thereafter. The Union Sentinel must position him or herself within 5 feet of a portal or gate, and while he or she remains, the portal cannot be activated from either side by any means. The Union Sentinel can defend him or herself and use any of his or her other abilities normally, as long as he or she remains adjacent to the blocked portal. This ability only functions against portals and the gate spell, not against creatures with other spell-like or supernatural interplanar traveling abilities.\nForcecage (Sp): At 5th level, the Union Sentinel gains the use of the forcecage spell as a spell-like ability once per day, plus one additional time per day every five levels thereafter. This ability functions as the spell cast by a 20th-level caster.\nImprisonment (Sp): At 7th level, the Union Sentinel gains the use of the imprisonment spell as a spell-like ability once per week, plus one additional time per week every five levels thereafter. This ability functions as the spell cast by a 20th-level caster.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::040_class_skills"
+}

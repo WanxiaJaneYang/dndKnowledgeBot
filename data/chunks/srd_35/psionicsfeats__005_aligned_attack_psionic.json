@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::005_aligned_attack_psionic",
+  "document_id": "srd_35::psionicsfeats::005_aligned_attack_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "ALIGNED ATTACK [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#005_aligned_attack_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your melee or ranged attack overcomes your opponent's alignment-based damage reduction and deals additional damage.\nPrerequisite: Base attack bonus +6.\nBenefit: When you take this feat, choose either chaos, good, evil or law. (Your choice must match one of your alignment components. Once you've made this alignment choice, it cannot be changed.\nTo use this feat, you must expend your psionic focus. When you make a successful melee or ranged attack, you deal an extra 1d6 points of damage, and your attack is treated as either a good, evil, chaotic, or lawful attack (depending on your original choice) for the purpose of overcoming damage reduction.\nYou must decide whether or not to use this feat prior to making an attack. If your attack misses, you still expend your psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::004_metapsionic_feats",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::006_antipsionic_magic_general"
+}

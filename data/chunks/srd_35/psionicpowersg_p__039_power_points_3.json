@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::039_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::039_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#039_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You generate a mental wave of confusion that instantly sweeps out from your location. All creatures you designate in the affected area (you can choose certain creatures to be unaffected) must make a Will save or become dazed for 1 round.\nAugment: You can augment this power in one or both of the following ways.\n1. For every 2 additional power points you spend, this power's save DC increases by 1.\n2. For every 2 additional power points you spend, this power's range and the radius of its area both increase by 5 feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::038_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::040_telepathy_mind_affecting"
+}

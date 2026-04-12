@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::016_major_artifacts",
+  "document_id": "srd_35::magicitemsvi::016_major_artifacts",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "MAJOR ARTIFACTS"
+    ],
+    "source_location": "MagicItemsVI.rtf#016_major_artifacts"
+  },
+  "chunk_type": "subsection",
+  "content": "Major artifacts are unique items--only one of each such item exists. These are the most potent of magic items, capable of altering the balance of a campaign.\nUnlike all other magic items, major artifacts are not easily destroyed. Each should have only a single, specific means of destruction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::015_light",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::017_major_artifact_descriptions"
+}

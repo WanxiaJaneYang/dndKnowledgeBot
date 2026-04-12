@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::003_combat",
+  "document_id": "srd_35::monsterso_r::003_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#003_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Ogres favor overwhelming odds, sneak attacks, and ambushes over a fair fight. They are intelligent enough to fire ranged weapons first to soften up their foes before closing, but ogre gangs and bands fight as unorganized individuals.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::002_ogre",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::004_ogre_barbarian"
+}

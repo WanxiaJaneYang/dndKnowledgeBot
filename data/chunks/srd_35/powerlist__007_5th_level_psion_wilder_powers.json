@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::007_5th_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::007_5th_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "5TH-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#007_5th_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Adapt Body: Your body automatically adapts to hostile environments.\nCatapsiA: Psychic static inhibits power manifestation.\nEctoplasmic Shambler: Foglike predator deals 1 point of damage/two levels each round to an area.\nIncarnateX: Make some powers permanent.\nLeech FieldA: Leech power points each time you make a saving throw.\nMajor Creation, Psionic: As psionic minor creation, plus stone and metal.\nPlane Shift, Psionic: Travel to other planes.\nPower Resistance: Grant PR equal to 12 + level.\nPsychic CrushA: Brutally crush subject's mental essence, reducing subject to -1 hit points.\nShatter Mind Blank: Cancels target's mind blank effect.\nTower of Iron WillA: Grant PR 19 against mind-affecting powers to all creatures within 10 ft. until your next turn.\nTrue Seeing, PsionicA: See all things as they really are.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::006_4th_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::008_6th_level_psion_wilder_powers"
+}

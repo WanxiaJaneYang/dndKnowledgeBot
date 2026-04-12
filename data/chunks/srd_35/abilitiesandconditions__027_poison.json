@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::027_poison",
+  "document_id": "srd_35::abilitiesandconditions::027_poison",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "POISON"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#027_poison"
+  },
+  "chunk_type": "subsection",
+  "content": "When a character takes damage from an attack with a poisoned weapon, touches an item smeared with contact poison, consumes poisoned food or drink, or is otherwise poisoned, he must make a Fortitude saving throw. If he fails, he takes the poison's initial damage (usually ability damage). Even if he succeeds, he typically faces more damage 1 minute later, which he can also avoid with a successful Fortitude saving throw.\nOne dose of poison smeared on a weapon or some other object affects just a single target. A poisoned weapon or object retains its venom until the weapon scores a hit or the object is touched (unless the poison is wiped off before a target comes in contact with it). Any poison smeared on an object or exposed to the elements in any way remains potent until it is touched or used.\nAlthough supernatural and spell-like poisons are possible, poisonous effects are almost always extraordinary.\nPoisons can be divided into four basic types according to the method by which their effect is delivered, as follows.\nContact: Merely touching this type of poison necessitates a saving throw. It can be actively delivered via a weapon or a touch attack. Even if a creature has sufficient damage reduction to avoid taking any damage from the attack, the poison can still affect it. A chest or other object can be smeared with contact poison as part of a trap.\nIngested: Ingested poisons are virtually impossible to utilize in a combat situation. A poisoner could administer a potion to an unconscious creature or attempt to dupe someone into drinking or eating something poisoned. Assassins and other characters tend to use ingested poisons outside of combat.\nInhaled: Inhaled poisons are usually contained in fragile vials or eggshells. They can be thrown as a ranged attack with a range increment of 10 feet. When it strikes a hard surface (or is struck hard), the container releases its poison. One dose spreads to fill the volume of a 10-foot cube. Each creature within the area must make a saving throw. (Holding one's breath is ineffective against inhaled poisons; they affect the nasal membranes, tear ducts, and other parts of the body.)\nInjury: This poison must be delivered through a wound. If a creature has sufficient damage reduction to avoid taking any damage from the attack, the poison does not affect it. Traps that cause damage from weapons, needles, and the like sometimes contain injury poisons.\nThe characteristics of poisons are summarized on Table: Poisons. Terms on the table are defined below.\nType: The poison's method of delivery (contact, ingested, inhaled, or via an injury) and the Fortitude save DC to avoid the poison's damage.\nInitial Damage: The damage the character takes immediately upon failing his saving throw against this poison. Ability damage is temporary unless marked with an asterisk (*), in which case the loss is a permanent drain. Paralysis lasts for 2d6 minutes.\nSecondary Damage: The amount of damage the character takes 1 minute after exposure as a result of the poisoning, if he fails a second saving throw. Unconsciousness lasts for 1d3 hours. Ability damage marked with an asterisk is permanent drain instead of temporary damage.\nPrice: The cost of one dose (one vial) of the poison. It is not possible to use or apply poison in any quantity smaller than one dose. The purchase and possession of poison is always illegal, and even in big cities it can be obtained only from specialized, less than reputable sources.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::026_paralysis",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::028_perils_of_using_poison"
+}

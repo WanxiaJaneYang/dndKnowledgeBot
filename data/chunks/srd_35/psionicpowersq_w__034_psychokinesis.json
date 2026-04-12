@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::034_psychokinesis",
+  "document_id": "srd_35::psionicpowersq_w::034_psychokinesis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Psychokinesis"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#034_psychokinesis"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psychic warrior 1\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: 20 ft.\nArea: Cone-shaped spread",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::033_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::035_power_points_1"
+}

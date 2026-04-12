@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::044_illus",
+  "document_id": "srd_35::spelllistii::044_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#044_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Mislead: Turns you invisible and creates illusory double.\nPermanent Image: Includes sight, sound, and smell.\nProgrammed Image M: As major image, plus triggered by event.\nShadow Walk: Step into shadow to travel rapidly.\nVeil: Changes appearance of group of creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::043_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::045_necro"
+}

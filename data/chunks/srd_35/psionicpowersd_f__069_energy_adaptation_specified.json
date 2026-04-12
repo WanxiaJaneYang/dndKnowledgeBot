@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::069_energy_adaptation_specified",
+  "document_id": "srd_35::psionicpowersd_f::069_energy_adaptation_specified",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Energy Adaptation, Specified"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#069_energy_adaptation_specified"
+  },
+  "chunk_type": "subsection",
+  "content": "Psychometabolism [see text]\nLevel: Psion/wilder 2, psychic warrior 2",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::068_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::070_power_points_3"
+}

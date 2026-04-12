@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::090_power_points_11",
+  "document_id": "srd_35::psionicpowersa_c::090_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#090_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "You seed the subject's flesh with supersaturated crystal. In an eyeblink, the subject's form seems to freeze over, as its flesh and fluids are instantly crystallized. Following the application of this power, the subject appears lifeless. In fact, it is not dead (though no life can be detected with powers or spells that detect such).\nThis power has a chance of being dispelled only by a manifester of a higher level than you when you manifested this power. When the power is dispelled, crystal melts back into flesh, and the subject is in exactly the state he was prior being affected by crystallize.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::089_display_auditory"
+}

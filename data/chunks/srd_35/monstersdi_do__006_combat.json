@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::006_combat",
+  "document_id": "srd_35::monstersdi_do::006_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#006_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "An elasmosaurus is aggressive and attacks anything it notices. The creature is strong, fast, and highly maneuverable, able to turn quickly and lunge at prey. When hunting, it travels with its head out of the water, snapping down quickly to seize prey.\nSkills: *An elasmosaurus has a +8 racial bonus on Hide checks in water.\n\nHit Dice: | 8d8+43 (79 hp) |\nInitiative: | +2 |\nSpeed: | 60 ft. (12 squares) |\nArmor Class: | 16 (-2 size, +2 Dex, +6 natural), touch 10, flat-footed 14 |\nBase Attack/Grapple: | +6/+19 |\nAttack: | Talons +9 melee (2d8+5) |\nFull Attack: | Talons +9 melee (2d8+5) and 2 foreclaws +4 melee (1d4+2) and bite +4 melee (2d6+2) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Pounce |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +10, Ref +8, Will +4 |\nAbilities: | Str 21, Dex 15, Con 21, Int 2, Wis 15, Cha 10 |\nSkills: | Hide +5, Jump +27, Listen +12, Spot +12, Survival +12 |\nFeats: | Run, Toughness, Track |\nEnvironment: | Warm forests |\nOrganization: | Solitary, pair, or pack (3-6) |\nChallenge Rating: | 6 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 9-16 HD (Huge); 17-24 HD (Gargantuan) |\nLevel Adjustment: | -- |\nThis creature is a larger version of the deinonychus, standing about 12 feet tall with a total length of 24 feet. It has the same appearance, habits, and abilities of the smaller version.\nPounce (Ex): If a megaraptor charges, it can make a full attack.\nSkills: A megaraptor has a +8 racial bonus on Hide, Jump, Listen, Spot, and Survival checks.\n\nHit Dice: | 16d8+124 (196 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 18 (-2 size, -1 Dex, +11 natural), touch 7, flat-footed 18 |\nBase Attack/Grapple: | +12/+30 |\nAttack: | Gore +20 melee (2d8+15) |\nFull Attack: | Gore +20 melee (2d8+15) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Powerful charge, trample 2d12+15 |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +19, Ref +9, Will +6 |\nAbilities: | Str 30, Dex 9, Con 25, Int 1, Wis 12, Cha 7 |\nSkills: | Listen +13, Spot +12 |\nFeats: | Alertness, Great Fortitude, Toughness (4) |\nEnvironment: | Temperate plains |\nOrganization: | Solitary, pair, or herd (5-8) |\nChallenge Rating: | 9 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 17-32 HD (Huge); 33-48 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA triceratops has a body about 25 feet long and weighs about 20,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::005_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::007_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::158_trap_sense_epic",
+  "document_id": "srd_35::epicfeats::158_trap_sense_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "TRAP SENSE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#158_trap_sense_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Search 25 ranks, Spot 25 ranks, trapfinding class ability.\nBenefit: If the character passes within 5 feet of a trap, he or she is entitled to a Search check to notice it as if the character was actively looking for it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::157_thundering_rage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::159_two_weapon_rend_epic"
+}

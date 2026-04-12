@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::081_improved_darkvision_epic",
+  "document_id": "srd_35::epicfeats::081_improved_darkvision_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED DARKVISION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#081_improved_darkvision_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Darkvision.\nBenefit: The range of the character's darkvision doubles. This feat does not stack with darkvision granted by magic items or nonpermanent magical effects.\nSpecial: This feat may be taken multiple times. Its effects stack. Remember that two doublings equals a tripling, and so on.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::080_improved_combat_reflexes_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::082_improved_death_attack_epic"
+}

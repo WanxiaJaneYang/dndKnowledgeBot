@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::029_poison_immunities",
+  "document_id": "srd_35::abilitiesandconditions::029_poison_immunities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "Poison Immunities"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#029_poison_immunities"
+  },
+  "chunk_type": "subsection",
+  "content": "Creatures with natural poison attacks are immune to their own poison. Nonliving creatures (constructs and undead) and creatures without metabolisms (such as elementals) are always immune to poison. Oozes, plants, and certain kinds of outsiders are also immune to poison, although conceivably special poisons could be concocted specifically to harm them.\n\nPoison | Type | Initial Damage | Secondary Damage | Price |\nNitharit | Contact DC 13 | 0 | 3d6 Con | 650 gp |\nSassone leaf residue | Contact DC 16 | 2d12 hp | 1d6 Con | 300 gp |\nMalyss root paste | Contact DC 16 | 1 Dex | 2d4 Dex | 500 gp |\nTerinav root | Contact DC 16 | 1d6 Dex | 2d6 Dex | 750 gp |\nBlack lotus extract | Contact DC 20 | 3d6 Con | 3d6 Con | 4,500 gp |\nDragon bile | Contact DC 26 | 3d6 Str | 0 | 1,500 gp |\nStriped toadstool | Ingested DC 11 | 1 Wis | 2d6 Wis + 1d4 Int | 180 gp |\nArsenic | Ingested DC 13 | 1 Con | 1d8 Con | 120 gp |\nId moss | Ingested DC 14 | 1d4 Int | 2d6 Int | 125 gp |\nOil of taggit | Ingested DC 15 | 0 | Unconsciousness | 90 gp |\nLich dust | Ingested DC 17 | 2d6 Str | 1d6 Str | 250 gp |\nDark reaver powder | Ingested DC 18 | 2d6 Con | 1d6 Con + 1d6 Str | 300 gp |\nUngol dust | Inhaled DC 15 | 1 Cha | 1d6 Cha + 1 Cha* | 1,000 gp |\nInsanity mist | Inhaled DC 15 | 1d4 Wis | 2d6 Wis | 1,500 gp |\nBurnt othur fumes | Inhaled DC 18 | 1 Con* | 3d6 Con | 2,100 gp |\nBlack adder venom | Injury DC 11 | 1d6 Con | 1d6 Con | 120 gp |\nSmall centipede poison | Injury DC 11 | 1d2 Dex | 1d2 Dex | 90 gp |\nBloodroot | Injury DC 12 | 0 | 1d4 Con + 1d3 Wis | 100 gp |\nDrow poison | Injury DC 13 | Unconsciousness | Unconsciousness for 2d4 hours | 75gp |\nGreenblood oil | Injury DC 13 | 1 Con | 1d2 Con | 100 gp |\nBlue whinnis | Injury DC 14 | 1 Con | Unconsciousness | 120 gp |\nMedium spider venom | Injury DC 14 | 1d4 Str | 1d4 Str | 150 gp |\nShadow essence | Injury DC 17 | 1 Str* | 2d6 Str | 250 gp |\nWyvern poison | Injury DC 17 | 2d6 Con | 2d6 Con | 3,000 gp |\nLarge scorpion venom | Injury DC 18 | 1d6 Str | 1d6 Str | 200 gp |\nGiant wasp poison | Injury DC 18 | 1d6 Dex | 1d6 Dex | 210 gp |\nDeathblade | Injury DC 20 | 1d6 Con | 2d6 Con | 1,800 gp |\nPurple worm poison | Injury DC 24 | 1d6 Str | 2d6 Str | 700 gp |\n*Permanent drain, not temporary damage. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::028_perils_of_using_poison",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::030_polymorph"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::005_combat",
+  "document_id": "srd_35::monstersanimals::005_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#005_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Badgers attack with their sharp claws and teeth.\nRage (Ex): A badger that takes damage in combat flies into a berserk rage on its next turn, clawing and biting madly until either it or its opponent is dead. It gains +4 to Strength, +4 to Constitution, and -2 to Armor Class. The creature cannot end its rage voluntarily.\nSkills: A badger has a +4 racial bonus on Escape Artist checks.\n\nHit Dice: | 1/4 d8 (1 hp) |\nInitiative: | +2 |\nSpeed: | 5 ft (1 square), fly 40 ft. (good) |\nArmor Class: | 16 (+4 size, +2 Dex), touch 16, flat-footed 14 |\nBase Attack/Grapple: | +0/-17 |\nAttack: | -- |\nFull Attack: | -- |\nSpace/Reach: | 1 ft./0 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Blindsense 20 ft., low-light vision |\nSaves: | Fort +2, Ref +4, Will +2 |\nAbilities: | Str 1, Dex 15, Con 10, Int 2, Wis 14, Cha 4 |\nSkills: | Hide +14, Listen +8*, Move Silently +6, Spot +8* |\nFeats: | Alertness |\nEnvironment: | Temperate deserts |\nOrganization: | Colony (10-40) or crowd (10-50) |\nChallenge Rating: | 1/10 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nBats are nocturnal flying mammals. The statistics presented here describe small, insectivorous bats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::004_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::006_combat"
+}

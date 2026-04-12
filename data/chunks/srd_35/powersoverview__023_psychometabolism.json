@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::023_psychometabolism",
+  "document_id": "srd_35::powersoverview::023_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "Psychometabolism"
+    ],
+    "source_location": "PowersOverview.rtf#023_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Psychometabolism powers change the physical properties of some creature, thing, or condition.\nFor the purpose of psionics- magic transparency, psychometabolism powers are equivalent to powers of the transmutation school (thus, creatures immune to transmutation spells are also immune to psychometabolism powers).\nHealing: Psychometabolism powers of the healing subdiscipline can remove damage from creatures. However, psionic healing usually falls short of divine magical healing, in direct comparisons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::022_psychokinesis",
+  "next_chunk_id": "chunk::srd_35::powersoverview::024_psychoportation"
+}

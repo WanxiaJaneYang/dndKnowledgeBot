@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::112_sacred_spell_metamagic",
+  "document_id": "srd_35::divineabilitiesandfeats::112_sacred_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "SACRED SPELL [METAMAGIC]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#112_sacred_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: Half of the damage dealt by a sacred spell results directly from divine power and is therefore not subject to being reduced by protection from elements or similar magic. The other half of the damage dealt by the spell is as normal. A sacred spell uses up a spell slot two levels higher than the spell's actual level. Only divine spells can be cast as sacred spells.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::111_repeat_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::113_sharp_shooting_general"
+}

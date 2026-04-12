@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::003_artifice_domain_spells",
+  "document_id": "srd_35::divinedomainsandspells::003_artifice_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "Artifice Domain Spells"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#003_artifice_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Animate rope\n2 Wood shape\n3 Stone shape\n4 Minor creation\n5 Fabricate\n6 Major creation\n7 Hardening\n8 True creation\n9 Prismatic sphere",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::002_artifice_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::004_charm_domain"
+}

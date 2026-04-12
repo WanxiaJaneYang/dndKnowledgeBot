@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::005_wondrous_items",
+  "document_id": "srd_35::epicmagicitems2::005_wondrous_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "WONDROUS ITEMS"
+    ],
+    "source_location": "EpicMagicItems2.rtf#005_wondrous_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Anyone can use a wondrous item unless specified otherwise in the item's description.\nTable: Epic Wondrous Items\nd% | Wondrous Item | Market Price |\n01-02 | Horseshoes of the peerless steed | 217,000 gp |\n03-04 | Mantle of great stealth | 242,000 gp |\n05-06 | Boots of swiftness | 256,000 gp |\n07-08 | Cabinet of feasting | 288,000 gp |\n09-10 | Mantle of epic spell resistance | 290,000 gp |\n11-13 | Cloak of epic resistance +6 | 360,000 gp |\n14-15 | Gate key | 378,000 gp |\n16-18 | Cloak of epic resistance +7 | 490,000 gp |\n19-21 | Belt of epic strength +8 | 640,000 gp |\n22-24 | Bracers of epic health +8 | 640,000 gp |\n25-27 | Cloak of epic charisma +8 | 640,000 gp |\n28-30 | Cloak of epic resistance +8 | 640,000 gp |\n31-33 | Gloves of epic dexterity +8 | 640,000 gp |\n34-36 | Headband of epic intellect +8 | 640,000 gp |\n37-39 | Periapt of epic wisdom +8 | 640,000 gp |\n40-42 | Amulet of epic natural armor +6 | 720,000 gp |\n43-45 | Cloak of epic resistance +9 | 810,000 gp |\n46-48 | Amulet of epic natural armor +7 | 980,000 gp |\n49-51 | Belt of epic strength +10 | 1,000,000 gp |\n52-54 | Bracers of epic health +10 | 1,000,000 gp |\n55-57 | Cloak of epic charisma +10 | 1,000,000 gp |\n58-59 | Cloak of epic resistance +10 | 1,000,000 gp |\n60-62 | Gloves of epic dexterity +10 | 1,000,000 gp |\n63-65 | Headband of epic intellect +10 | 1,000,000 gp |\n66-68 | Periapt of epic wisdom +10 | 1,000,000 gp |\n69-71 | Bracers of epic armor +11 | 1,210,000 gp |\n72-74 | Amulet of epic natural armor +8 | 1,280,000 gp |\n75-76 | Belt of epic strength +12 | 1,440,000 gp |\n77-78 | Bracers of epic armor +12 | 1,440,000 gp |\n79-80 | Bracers of epic health +12 | 1,440,000 gp |\n81-82 | Cloak of epic charisma +12 | 1,440,000 gp |\n83-84 | Gloves of epic dexterity +12 | 1,440,000 gp |\n85-86 | Headband of epic intellect +12 | 1,440,000 gp |\n87-88 | Periapt of epic wisdom +12 | 1,440,000 gp |\n89-90 | Amulet of epic natural armor +9 | 1,620,000 gp |\n91-92 | Bracers of epic armor +13 | 1,690,000 gp |\n93-94 | Bracers of epic armor +14 | 1,960,000 gp |\n95-96 | Amulet of epic natural armor +10 | 2,000,000 gp |\n97-98 | Bracers of epic armor +15 | 2,250,000 gp |\n99-100 | Bracers of relentless might | 4,384,000 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::004_epic_staff_descriptions",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::006_epic_wondrous_item_descriptions"
+}

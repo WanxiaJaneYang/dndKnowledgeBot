@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::023_doppelgangers_as_characters",
+  "document_id": "srd_35::monstersdi_do::023_doppelgangers_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "DOPPELGANGERS AS CHARACTERS"
+    ],
+    "source_location": "MonstersDi-Do.rtf#023_doppelgangers_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Doppelganger characters possess the following racial traits.\n-- +2 Strength, +2, Dexterity, +2 Constitution, +2 Intelligence, +4 Wisdom, +2 Charisma.\n--Medium size.\n--A doppelganger's base land speed is 30 feet.\n--Darkvision: Doppelgangers can see in the dark up to 60 feet.\n--Racial Hit Dice: A doppelganger begins with four levels of monstrous humanoid, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.\n--Racial Skills: A doppelganger's monstrous humanoid levels give it skill points equal to 7 x (2 + Int modifier). Its class skills are Bluff, Diplomacy, Disguise, Intimidate, Listen, Sense Motive, and Spot.\n--Racial Feats: A doppelganger's monstrous humanoid levels give it two feats.\n-- +4 natural armor bonus.\n-- +4 racial bonus on Bluff and Disguise checks. When using its change shape ability, a doppelganger gets an additional +10 circumstance bonus on Disguise checks. If it can read an opponent's mind, it gets a further +4 circumstance bonus on Bluff and Disguise checks.\n--Special Attacks (see above): Detect thoughts.\n--Special Qualities (see above): Change shape, immunity to sleep and charm effects.\n--Automatic Languages: Common. Bonus Languages: Auran, Dwarven, Elven, Gnome, Halfling, Giant, Terran.\n--Favored Class: Rogue.\n--Level adjustment +4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::022_combat"
+}

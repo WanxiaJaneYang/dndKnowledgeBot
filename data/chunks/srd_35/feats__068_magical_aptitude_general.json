@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::068_magical_aptitude_general",
+  "document_id": "srd_35::feats::068_magical_aptitude_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "MAGICAL APTITUDE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#068_magical_aptitude_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Spellcraft checks and Use Magic Device checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::067_leadership_general",
+  "next_chunk_id": "chunk::srd_35::feats::069_prerequisites_dex_17_point_blank_shot_rapid_shot_base_attack_bonus_6"
+}

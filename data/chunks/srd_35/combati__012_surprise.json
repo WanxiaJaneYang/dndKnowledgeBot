@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::012_surprise",
+  "document_id": "srd_35::combati::012_surprise",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "SURPRISE"
+    ],
+    "source_location": "CombatI.rtf#012_surprise"
+  },
+  "chunk_type": "subsection",
+  "content": "When a combat starts, if you are not aware of your opponents and they are aware of you, you're surprised.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::011_initiative",
+  "next_chunk_id": "chunk::srd_35::combati::013_determining_awareness"
+}

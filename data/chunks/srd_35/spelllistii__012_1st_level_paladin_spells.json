@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::012_1st_level_paladin_spells",
+  "document_id": "srd_35::spelllistii::012_1st_level_paladin_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "1ST-LEVEL PALADIN SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#012_1st_level_paladin_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Bless: Allies gain +1 on attack rolls and +1 on saves against fear.\nBless Water: Makes holy water.\nBless Weapon: Weapon strikes true against evil foes.\nCreate Water: Creates 2 gallons/level of pure water.\nCure Light Wounds: Cures 1d8 damage +1/level (max +5).\nDetect Poison: Detects poison in one creature or small object.\nDetect Undead: Reveals undead within 60 ft.\nDivine Favor: You gain +1 per three levels on attack and damage rolls.\nEndure Elements: Exist comfortably in hot or cold environments.\nMagic Weapon: Weapon gains +1 bonus.\nProtection from Chaos/Evil: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.\nRead Magic: Read scrolls and spellbooks.\nResistance: Subject gains +1 on saving throws.\nRestoration, Lesser: Dispels magical ability penalty or repairs 1d4 ability damage.\nVirtue: Subject gains 1 temporary hp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::011_9th_level_druid_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::013_2nd_level_paladin_spells"
+}

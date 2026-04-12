@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::052_improved_critical_general",
+  "document_id": "srd_35::feats::052_improved_critical_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED CRITICAL [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#052_improved_critical_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Choose one type of weapon.\nPrerequisite: Proficient with weapon, base attack bonus +8.\nBenefit: When using the weapon you selected, your threat range is doubled.\nSpecial: You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon.\nThis effect doesn't stack with any other effect that expands the threat range of a weapon.\nA fighter may select Improved Critical as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::051_improved_counterspell_general",
+  "next_chunk_id": "chunk::srd_35::feats::053_improved_disarm_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::087_improved_low_light_vision_epic",
+  "document_id": "srd_35::epicfeats::087_improved_low_light_vision_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED LOW-LIGHT VISION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#087_improved_low_light_vision_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Low-light vision.\nBenefit: The range of the character's low-light vision doubles. This feat does not stack with low-light vision granted by magic items or nonpermanent magical effects.\nSpecial: This feat may be taken multiple times. Its effects stack. Remember that two doublings equals a tripling, and so on.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::086_improved_ki_strike_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::088_improved_manifestation_epic_psionic"
+}

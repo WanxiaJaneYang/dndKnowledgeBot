@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::012_armor_proficiency_heavy_general",
+  "document_id": "srd_35::feats::012_armor_proficiency_heavy_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "ARMOR PROFICIENCY (HEAVY) [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#012_armor_proficiency_heavy_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Armor Proficiency (light), Armor Proficiency (medium).\nBenefit: See Armor Proficiency (light).\nNormal: See Armor Proficiency (light).\nSpecial: Fighters, paladins, and clerics automatically have Armor Proficiency (heavy) as a bonus feat. They need not select it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::011_animal_affinity_general",
+  "next_chunk_id": "chunk::srd_35::feats::013_armor_proficiency_light_general"
+}

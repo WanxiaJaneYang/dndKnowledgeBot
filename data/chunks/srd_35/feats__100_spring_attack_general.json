@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::100_spring_attack_general",
+  "document_id": "srd_35::feats::100_spring_attack_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SPRING ATTACK [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#100_spring_attack_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 13, Dodge, Mobility, base attack bonus +4.\nBenefit: When using the attack action with a melee weapon, you can move both before and after the attack, provided that your total distance moved is not greater than your speed. Moving in this way does not provoke an attack of opportunity from the defender you attack, though it might provoke attacks of opportunity from other creatures, if appropriate. You can't use this feat if you are wearing heavy armor.\nYou must move at least 5 feet both before and after you make your attack in order to utilize the benefits of Spring Attack.\nSpecial: A fighter may select Spring Attack as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::099_spirited_charge_general",
+  "next_chunk_id": "chunk::srd_35::feats::101_stealthy_general"
+}

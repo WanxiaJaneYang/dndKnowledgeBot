@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::011_armor_and_shields",
+  "document_id": "srd_35::psionicitems::011_armor_and_shields",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "ARMOR AND SHIELDS"
+    ],
+    "source_location": "PsionicItems.rtf#011_armor_and_shields"
+  },
+  "chunk_type": "subsection",
+  "content": "In general, psionic armor and shields follow the rules for the equivalent magic items, as far as enhancement bonuses, stacking, and other base abilities are concerned. An enhancement bonus is treated the same way regardless of whether magic or psionics created it.\nPsionic armor and shields differ from standard and magical equivalents in that psionic armor and shields incorporate one or more crystals into their construction. Particularly powerful armor and shields may be entirely composed of brightly hued or transparent crystals.\nSpecial Qualities: Roll d%. An 01 result indicates the item is intelligent, an 02-31 result indicates that the command thought (if any) is psionically imprinted and whispers itself into the user's mind on acquisition, and 32-100 indicates no special qualities.\nIntelligent items have extra abilities and sometimes also extraordinary powers and special purposes. Substitute manifesting for spellcasting as required.\n\nMinor | Medium | Major | Special Ability | Base Price Modifier |\n01-30 | 01-07 | 01-03 | Quickness | +1 bonus1 |\n31-74 | 08-30 | 04-05 | Landing | +4,000 gp |\n75-80 | 31-46 | 06-10 | Floating | +4,000 gp |\n81-96 | 47-55 | 11-20 | Linked | +6,000 gp |\n97 | 56-66 | 21-30 | Seeing | +6,000 gp |\n98 | 67-75 | 31-40 | Power resistance (13) | +2 bonus1 |\n99 | 76-83 | 41-50 | Ectoplasmic | +10,800 gp |\n-- | 84-89 | 51-60 | Gleaming | +3 bonus1 |\n-- | 90-94 | 61-70 | Power resistance (15) | +3 bonus1 |\n-- | 95-98 | 71-77 | Vanishing | +3 bonus1 |\n-- | 99 | 78-83 | Mindarmor | +24,000 gp |\n-- | -- | 84-89 | Power resistance (17) | +4 bonus1 |\n-- | -- | 90-94 | Radiant | +4 bonus1 |\n-- | -- | 95-96 | Aporter | +40,320 gp |\n-- | -- | 97-98 | Power resistance (19) | +5 bonus1 |\n-- | -- | 99 | Phasing | +65,520 gp |\n100 | 100 | 100 | Roll twice again2 | -- |\n1 Add to enhancement bonus to determine total market price. |\n2 If you roll a special ability twice, only one counts. If you roll two versions of the same special ability, use the better. |\n\nMinor | Medium | Major | Special Ability | Base Price Modifier |\n01-35 | 01-05 | 01-03 | Heartening | +720 gp |\n35-60 | 06-10 | 04-05 | Ranged | +1 bonus1 |\n61-89 | 11-15 | 06-10 | Linked | +6,000 gp |\n90-97 | 16-35 | 11-24 | Power resistance (13) | +2 bonus1 |\n98 | 36-58 | 25-34 | Manifester | +10,800 gp |\n99 | 69-88 | 35-44 | Averter | +12,960 gp |\n-- | 89-92 | 45-54 | Vanishing | +3 bonus1 |\n-- | 93-96 | 55-64 | Power resistance (15) | +3 bonus1 |\n-- | 97-98 | 65-74 | Wall | +20,160 gp |\n-- | 99 | 75-81 | Mindarmor | +24,000 gp |\n-- | -- | 82-88 | Power resistance (17) | +4 bonus1 |\n-- | -- | 89-93 | Aporter | +40,320 gp |\n-- | -- | 94-96 | Time buttress | +5 bonus1 |\n-- | -- | 97-99 | Power resistance (19) | +5 bonus1 |\n100 | 100 | 100 | Roll twice again2 | -- |\n1 Add to enhancement bonus to determine total market price. |\n2 If you roll a special ability twice, only one counts. If you roll two versions of the same special ability, use the better. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::010_psionic_item_descriptions",
+  "next_chunk_id": "chunk::srd_35::psionicitems::012_psionic_armor_and_shield_special_ability_descriptions"
+}

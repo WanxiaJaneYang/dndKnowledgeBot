@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::072_mobility_general",
+  "document_id": "srd_35::feats::072_mobility_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "MOBILITY [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#072_mobility_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 13, Dodge.\nBenefit: You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area. A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.\nDodge bonuses stack with each other, unlike most types of bonuses.\nSpecial: A fighter may select Mobility as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::071_maximize_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::feats::073_mounted_archery_general"
+}

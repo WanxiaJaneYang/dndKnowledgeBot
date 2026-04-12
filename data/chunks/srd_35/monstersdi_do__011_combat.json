@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::011_combat",
+  "document_id": "srd_35::monstersdi_do::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire badgers attack with their sharp claws and teeth.\nRage (Ex): A dire badger that takes damage in combat flies into a berserk rage on its next turn, clawing and biting madly until either it or its opponent is dead. It gains +4 Strength, +4 Constitution, and -2 AC. The creature cannot end its rage voluntarily.\n\nHit Dice: | 4d8+12 (30 hp) |\nInitiative: | +6 |\nSpeed: | 20 ft. (4 squares), fly 40 ft. (good) |\nArmor Class: | 20 (-1 size, +6 Dex, +5 natural), touch 15, flat-footed 14 |\nBase Attack/Grapple: | +3/+10 |\nAttack: | Bite +5 melee (1d8+4) |\nFull Attack: | Bite +5 melee (1d8+4) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Blindsense 40 ft. |\nSaves: | Fort +7, Ref +10, Will +6 |\nAbilities: | Str 17, Dex 22, Con 17, Int 2, Wis 14, Cha 6 |\nSkills: | Hide +4, Listen +12*, Move Silently +11, Spot +8* |\nFeats: | Alertness, Stealthy |\nEnvironment: | Temperate deserts |\nOrganization: | Solitary or colony (5-8) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 5-12 HD (Large) |\nLevel Adjustment: | -- |\nA dire bat has a wingspan of 15 feet and weighs about 200 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::010_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::012_combat"
+}

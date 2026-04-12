@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::100_psychometabolism",
+  "document_id": "srd_35::psionicpowersd_f::100_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#100_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 7, psychic warrior 3\nDisplay: Material\nManifesting Time: 1 immediate action\n\nPower Points: Psion/wilder 13, psychic warrior 5\nYou throw off a faux ectoplasmic shell, allowing you to slide out of range of a damaging effect. When you manifest this power in conjunction with making a successful Reflex save against an attack that normally deals half damage on a successful save, you instead take no damage.\nYou can manifest this power with an instant thought, quickly enough to save yourself if you unexpectedly come within range of a dangerous effect. Manifesting this power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can even manifest this power when it isn't your turn.\nAugment: If you spend 4 additional power points, you take only half damage on a failed Reflex save.\nExhalation of the Black Dragon\nPsychometabolism [Acid]\nLevel: Psychic warrior 3",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::099_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::101_display_visual"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::011_multiattack_general",
+  "document_id": "srd_35::monsterfeats::011_multiattack_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "MULTIATTACK [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#011_multiattack_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Three or more natural attacks.\nBenefit: The creature's secondary attacks with natural weapons take only a -2 penalty.\nNormal: Without this feat, the creature's secondary attacks with natural weapons take a -5 penalty.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::010_improved_natural_attack_general",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::012_multiweapon_fighting_general"
+}

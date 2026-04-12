@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::034_special_initiative_actions",
+  "document_id": "srd_35::combatii::034_special_initiative_actions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "SPECIAL INITIATIVE ACTIONS"
+    ],
+    "source_location": "CombatII.rtf#034_special_initiative_actions"
+  },
+  "chunk_type": "subsection",
+  "content": "Here are ways to change when you act during combat by altering your place in the initiative order.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::033_two_weapon_fighting",
+  "next_chunk_id": "chunk::srd_35::combatii::035_delay"
+}

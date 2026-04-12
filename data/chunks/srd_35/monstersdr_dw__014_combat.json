@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::014_combat",
+  "document_id": "srd_35::monstersdr_dw::014_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#014_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Because red dragons are so confident, they seldom pause to appraise an adversary. On spotting a target, they make a snap decision whether to attack, using one of many strategies worked out ahead of time. A red dragon lands to attack small, weak creatures with its claws and bite rather than obliterating them with its breath weapon, so as not to destroy any treasure they might be carrying.\nBreath Weapon (Su): A red dragon has one type of breath weapon, a cone of fire.\nLocate Object (Sp): A juvenile or older red dragon can use this ability as the spell of the same name, once per day per age category.\nOther Spell-Like Abilities: 3/day--suggestion (old or older); 1/day--find the path (ancient or older), discern location (great wyrm).\nSkills: Appraise, Bluff, and Jump are considered class skills for red dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::013_dragon_fire",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::015_dragon_cold"
+}

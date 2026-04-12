@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::014_using_stored_power_points",
+  "document_id": "srd_35::powersoverview::014_using_stored_power_points",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "USING STORED POWER POINTS"
+    ],
+    "source_location": "PowersOverview.rtf#014_using_stored_power_points"
+  },
+  "chunk_type": "subsection",
+  "content": "A variety of psionic items exist to store power points for later use, in particular a storage device called a cognizance crystal. Regardless of what sort of item stores the power points, all psionic characters must follow strict rules when tapping stored power points.\nA Single Source: When using power points from a storage item to manifest a power, a psionic character may not pay the power's cost with power points from more than one source. He must either use an item, his own power point reserve, or some other discrete power point source to pay the manifestation cost.\nRecharging: Most power point storage devices allow psionic characters to \u201crecharge\u201d the item with their own power points. Doing this depletes the character's power point reserve on a 1-for-1 basis as if he had manifested a power; however, those power points remain indefinitely stored. The opposite is not true--psionic characters may not use power points stored in a storage item to replenish their own power point reserves.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::013_manifest_an_unknown_power_from_another_s_powers_known",
+  "next_chunk_id": "chunk::srd_35::powersoverview::015_special_abilities"
+}

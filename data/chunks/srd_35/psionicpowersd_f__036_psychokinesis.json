@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::036_psychokinesis",
+  "document_id": "srd_35::psionicpowersd_f::036_psychokinesis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Psychokinesis"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#036_psychokinesis"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Kineticist 6, psychic warrior 6\nDisplay: Material and olfactory\nManifesting Time: 1 standard action\nRange: Personal or close (25 ft. + 5 ft./2 levels); see text\nTarget: You or one willing creature or one object (object weighing up to 100 lb./level); see text\nDuration: 1 hour/level (D)\n\nPower Resistance: Yes (harmless, object)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::035_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::037_power_points_11"
+}

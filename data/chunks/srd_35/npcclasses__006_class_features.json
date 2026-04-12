@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::006_class_features",
+  "document_id": "srd_35::npcclasses::006_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Class Features"
+    ],
+    "source_location": "NPCClasses.rtf#006_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "The following is a class feature of the aristocrat NPC class.\nWeapon and Armor Proficiency: The aristocrat is proficient in the use of all simple and martial weapons and with all types of armor and shields.\nCOMMONER\nHit Die: d4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::005_class_skills",
+  "next_chunk_id": "chunk::srd_35::npcclasses::007_class_skills"
+}

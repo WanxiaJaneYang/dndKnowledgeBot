@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::086_spontaneous_wizard_spells",
+  "document_id": "srd_35::divineabilitiesandfeats::086_spontaneous_wizard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Spontaneous Wizard Spells"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#086_spontaneous_wizard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 6, Wizard level 1st, Int 29, Spell Mastery, Arcane Mastery salient divine ability.\nBenefit: This ability works like a cleric's ability to cast cure spells spontaneously, except that it applies to wizard spells. The deity must have a sufficient Intelligence score and wizard levels to cast the spell.\nNotes: The deity still needs a spellbook for its wizard spells unless it also has the Divine Spellcasting ability.\nSuggested Portfolio Elements: Knowledge, magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::085_shift_form",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::087_stride"
+}

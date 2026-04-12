@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::094_feats",
+  "document_id": "srd_35::divineabilitiesandfeats::094_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "FEATS"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#094_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "Deities can obtain the feats described here, in addition to any standard feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::093_wound_enemy",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::095_blindsight_5_ft_radius_general"
+}

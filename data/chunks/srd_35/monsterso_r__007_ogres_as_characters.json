@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::007_ogres_as_characters",
+  "document_id": "srd_35::monsterso_r::007_ogres_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "OGRES AS CHARACTERS"
+    ],
+    "source_location": "MonstersO-R.rtf#007_ogres_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Ogre characters possess the following racial traits.\n-- +10 Strength, -2 Dexterity, +4 Constitution, -4 Intelligence, -4 Charisma.\n--Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.\n--Space/Reach: 10 feet/10 feet.\n--An ogre's base land speed is 40 feet.\n--Darkvision out to 60 feet.\n--Racial Hit Dice: An ogre begins with four levels of giant, which provide 4d8 Hit Dice, a base attack bonus of +3, and base saving throw bonuses of Fort +4, Ref +1, and Will +1.\n--Racial Skills: An ogre's giant levels give it skill points equal to 7 x (2 + Int modifier, minimum 1). Its class skills are Climb, Listen, and Spot.\n--Racial Feats: An ogre's giant levels give it two feats.\n--Weapon and Armor Proficiency: An ogre is automatically proficient with simple weapons, martial weapons, light and medium armor, and shields.\n-- +5 natural armor bonus.\n--Automatic Languages: Common, Giant. Bonus Languages: Dwarven, Orc, Goblin, Terran.\n--Favored Class: Barbarian.\n--Level adjustment +2.\n\nHit Dice: | 5d8+15 (37 hp) |\nInitiative: | +4 |\nSpeed: | 40 ft. (8 squares), fly 40 ft. (good) |\nArmor Class: | 18 (-1 size, +5 natural, +4 chain shirt), touch 9, flat-footed 18 |\nBase Attack/Grapple: | +3/+12 |\nAttack: | Greatsword +7 melee (3d6+7/19-20) or longbow +2 ranged (2d6/x3) |\nFull Attack: | Greatsword +7 melee (3d6+7/19-20) or longbow +2 ranged (2d6/x3) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Spell-like abilities |\nSpecial Qualities: | Darkvision 90 ft., low-light vision, regeneration 5, spell resistance 19 |\nSaves: | Fort +7, Ref +1, Will +3 |\nAbilities: | Str 21, Dex 10, Con 17, Int 14, Wis 14, Cha 17 |\nSkills: | Concentration +11, Listen +10, Spellcraft +10, Spot +10 |\nFeats: | Combat Expertise, Improved Initiative |\nEnvironment: | Cold hills |\nOrganization: | Solitary, pair, or troupe (1-2 plus 2-4 ogres) |\nChallenge Rating: | 8 |\nTreasure: | Double standard |\nAlignment: | Usually lawful evil |\nAdvancement: | By character class |\nLevel Adjustment: | +7 |\nThe ogre mage is a more intelligent and dangerous variety of its mundane cousin.\nAn ogre mage stands about 10 feet tall and weighs up to 700 pounds. Its skin varies in color from light green to light blue, and its hair is black or very dark brown. Ogre mages favor loose, comfortable clothing and lightweight armor.\nOgre mages speak Giant and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::006_merrow",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::008_combat"
+}

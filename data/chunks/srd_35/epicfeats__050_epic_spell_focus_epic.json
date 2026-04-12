@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::050_epic_spell_focus_epic",
+  "document_id": "srd_35::epicfeats::050_epic_spell_focus_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC SPELL FOCUS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#050_epic_spell_focus_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Greater Spell Focus and Spell Focus in the school selected, ability to cast at least one 9th-level spell of the school to be chosen.\nBenefit: Add +1 to the Difficulty Class for all saving throws against spells from the school of magic the character selects to focus on. This stacks with the bonuses from Spell Focus and Greater Spell Focus.\nSpecial: A character can gain this feat multiple times. Its effects do not stack. Each time the character takes the feat, it applies to a different school of magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::049_epic_speed_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::051_epic_spell_penetration_epic"
+}

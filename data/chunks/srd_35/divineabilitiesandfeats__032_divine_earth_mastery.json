@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::032_divine_earth_mastery",
+  "document_id": "srd_35::divineabilitiesandfeats::032_divine_earth_mastery",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Earth Mastery"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#032_divine_earth_mastery"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Earth domain.\nBenefit: The deity gains a competence bonus on attack rolls, damage, and Armor Class equal to its divine rank if both the deity and its foe are touching the ground. The deity gains a burrow speed commensurate with its size (see Divine Characteristics), as well as the ability to glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. This burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. The deity has tremorsense, allowing it to automatically sense the location of anything within 10 feet per divine rank that is in contact with the ground. The deity has complete control over all things made of earth (including stone and metal). It can alter the form of any amount of earth as a free action. The deity can duplicate the effects of the stone shape, move earth, rusting grasp, transmute rock to mud, transmute mud to rock, and disintegrate spells, with any earth, stone, or metal object as a target. The deity can also transmute any object made of earth,\nstone, or metal into a different kind of earth, stone, or metal. The deity can affect any object it can see, but no more than one object per round.\nSuggested Portfolio Elements: Earth.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::031_divine_druid",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::033_divine_fast_healing"
+}

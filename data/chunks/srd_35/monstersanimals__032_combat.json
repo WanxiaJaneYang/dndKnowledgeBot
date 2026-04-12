@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::032_combat",
+  "document_id": "srd_35::monstersanimals::032_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#032_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Improved Grab (Ex): To use this ability, an octopus must hit an opponent of any size with its arms attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and automatically deals bite damage.\nInk Cloud (Ex): An octopus can emit a cloud of jet-black ink 10 feet high by 10 feet wide by 10 feet long once per minute as a free action. The cloud provides total concealment, which the octopus normally uses to escape a losing fight. All vision within the cloud is obscured.\nJet (Ex): An octopus can jet backward once per round as a full-round action, at a speed of 200 feet. It must move in a straight line, but does not provoke attacks of opportunity while jetting.\nSkills: An octopus can change colors, giving it a +4 racial bonus on Hide checks. An octopus also can squeeze and contort its body, giving it a +10 racial bonus on Escape Artist checks. An octopus has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 8d8+11 (47 hp) |\nInitiative: | +2 |\nSpeed: | 20 ft. (4 squares), swim 30 ft. |\nArmor Class: | 18 (-1 size, +2 Dex, +7 natural), touch 11, flat-footed 16 |\nBase Attack/Grapple: | +6/+15 |\nAttack: | Tentacle +10 melee (1d4+5) |\nFull Attack: | 8 tentacles +10 melee (1d4+5) and bite +5 melee (1d8+2) |\nSpace/Reach: | 10 ft./10 ft. (20 ft. with tentacle) |\nSpecial Attacks: | Improved grab, constrict |\nSpecial Qualities: | Ink cloud, jet, low-light vision |\nSaves: | Fort +7, Ref +8, Will +3 |\nAbilities: | Str 20, Dex 15, Con 13, Int 2, Wis 12, Cha 3 |\nSkills: | Escape Artist +12, Hide +12, Listen +4, Spot +6, Swim +13 |\nFeats: | Alertness, Skill Focus (Hide), Toughness |\nEnvironment: | Warm aquatic |\nOrganization: | Solitary |\nChallenge Rating: | 8 |\nAdvancement: | 9-12 HD (Large); 13-24 HD (Huge) |\nLevel Adjustment: | -- |\nThese creatures are aggressive and territorial hunters, with arms reaching 10 feet or more in length. Their tentacles are studded with barbs and sharp-edged suckers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::031_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::033_combat"
+}

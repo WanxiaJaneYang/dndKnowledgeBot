@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::010_psionic_spells",
+  "document_id": "srd_35::psionicmonsters::010_psionic_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Psionic Spells"
+    ],
+    "source_location": "PsionicMonsters.rtf#010_psionic_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "In some cases, a creature's psi-like abilities (or abilities listed under a creature's psionics entry) may include an effect that does not duplicate any listed power. For such abilities, simply use the existing spell description. Treat the creature's\nmanifester level as the caster level for the spell. The ability is still psionic in origin, so spells and powers that specifically affect psionic powers can negate or reduce its effects as they would any other psionic power.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::009_creatures_with_psionics_entries",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::011_psionic_versions_of_creatures"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::027_combat",
+  "document_id": "srd_35::monstersg::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Frost giants usually start combat at a distance, throwing rocks until they run out of ammunition or the opponent closes, then wading in with their enormous battleaxes.\nA favorite tactic is to lay an ambush by hiding buried in the snow at the top of an icy or snowy slope, where opponents will have difficulty reaching them.\nRock Throwing (Ex): The range increment is 120 feet for a frost giant's thrown rocks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::026_frost_giant",
+  "next_chunk_id": "chunk::srd_35::monstersg::028_frost_giant_jarl"
+}

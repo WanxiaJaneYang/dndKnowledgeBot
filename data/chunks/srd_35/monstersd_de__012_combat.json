@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::012_combat",
+  "document_id": "srd_35::monstersd_de::012_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#012_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Though mariliths thrive on grand strategy and army-level tactics, they love physical combat and never pass up an opportunity to fight. Each of a marilith's six arms can wield a weapon, and the creature gets an additional three weapon attacks with its primary arm. Mariliths seldom rush headlong into battle, however, preferring to hang back and size up the situation first. They always seek to gain the best possible advantage from the local terrain, obstacles, and any vulnerability or weakness in their opponents.\nA marilith's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nConstrict (Ex): A marilith deals 4d6+13 points of damage with a successful grapple check. The constricted creature must succeed on a DC 27 Fortitude save or lose consciousness for as long as it remains in the coils and for 2d4 rounds thereafter. The save DC is Strength-based.\nImproved Grab (Ex): To use this ability, a marilith must hit with its tail slap attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it succeeds on the grapple check, it can constrict.\nSpell-Like Abilities: At will--align weapon, blade barrier (DC 23), magic weapon, project image (DC 23), polymorph, see invisibility, telekinesis (DC 22), greater teleport (self plus 50 pounds of objects only), unholy aura (DC 25). Caster level 16th. The save DCs are Charisma-based.\nSummon Demon (Sp): Once per day a marilith can attempt to summon 4d10 dretches, 1d4 hezrou, or one nalfeshnee with a 50% chance of success, or one glabrezu or another marilith with a 20% chance of success. This ability is the equivalent of a 5th-level spell.\nTrue Seeing (Su): Mariliths continuously use this ability, as the spell (caster level 16th).\nSkills: Mariliths have a +8 racial bonus on Listen and Spot checks.\nFeats: In combination with its natural abilities, a marilith's Multiweapon Fighting feat allows it to attack with all its arms at no penalty.\n\nHit Dice: | 14d8+112 (175 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares), fly 40 ft. (poor) |\nArmor Class: | 27 (-2 size, +1 Dex, +18 natural) touch 9, flat-footed 26 |\nBase Attack/Grapple: | +14/+29 |\nAttack: | Bite +20 melee (2d8+7) |\nFull Attack: | Bite +20 melee (2d8+7) and 2 claws +17 melee (1d8+3) |\nSpace/Reach: | 15 ft./15 ft. |\nSpecial Attacks: | Smite, spell-like abilities, summon demon |\nSpecial Qualities: | Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 22, telepathy 100 ft., true seeing |\nSaves: | Fort +17, Ref +10, Will +15 |\nAbilities: | Str 25, Dex 13, Con 27, Int 22, Wis 22, Cha 20 |\nSkills: | Bluff +22, Concentration +25, Diplomacy +26, Disguise +5 (+7 acting), Hide +10, Intimidate +22, Knowledge (arcana) +23, Listen +31, Move Silently +18, Search +23, Sense Motive +23, Spellcraft +25 (+27 scrolls), Spot +31, Survival +6 (+8 following tracks), Use Magic Device +22 (+24 scrolls) |\nFeats: | Cleave, Improved Bull Rush, Multiattack, Power Attack, Weapon Focus (bite) |\nEnvironment: | A chaotic evil-aligned plane |\nOrganization: | Solitary or troupe (1 nalfeshnee, 1 hezrou, and 2-5 vrocks) |\nChallenge Rating: | 14 |\nTreasure: | Standard coins; double goods; standard items |\nAlignment: | Always chaotic evil |\nAdvancement: | 15-20 HD (Huge); 21-42 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA nalfeshnee can fly despite its small wings.\nA nalfeshnee is more than 20 feet tall and weighs 8,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::011_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::013_combat"
+}

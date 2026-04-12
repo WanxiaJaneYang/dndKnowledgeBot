@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::008_3_blacklight",
+  "document_id": "srd_35::divinedomainsandspells::008_3_blacklight",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "3 Blacklight"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#008_3_blacklight"
+  },
+  "chunk_type": "subsection",
+  "content": "4 Armor of darkness\n5 Summon monster V (only summons 1d3 shadows)\n6 Prying eyes\n7 Nightmare\n8 Power word, blind\n9 Power word, kill",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::007_creation_domain_spells",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::009_glory_domain"
+}

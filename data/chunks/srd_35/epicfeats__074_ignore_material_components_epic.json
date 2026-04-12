@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::074_ignore_material_components_epic",
+  "document_id": "srd_35::epicfeats::074_ignore_material_components_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IGNORE MATERIAL COMPONENTS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#074_ignore_material_components_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Eschew Materials, Spellcraft 25 ranks, ability to cast 9th-level arcane or divine spells.\nBenefit: The character may cast spells without any material components. This feat does not affect the need for a focus or divine focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::073_holy_strike_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::075_improved_alignment_based_casting_epic"
+}

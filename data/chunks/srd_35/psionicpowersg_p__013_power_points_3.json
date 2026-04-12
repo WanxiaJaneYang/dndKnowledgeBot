@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::013_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::013_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#013_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "As the confusion spell, except as noted here.\nSwift tendrils of thought disrupt the unconscious mind of any one creature, sapping its might. As long as the manifester remains concentrating fully on this power, the subject is confused, making it unable to independently determine it will do. Roll on the following table at the beginning of each of the subject's turns to see what the subject does in that round.\nd% | Behavior |\n01-10 | Attack manifester with melee or ranged weapons (or move toward manifester if attack is not possible). |\n11-20 | Act normally. |\n21-50 | Do nothing but babble incoherently. |\n51-70 | Flee from manifester at top possible speed. |\n71-100 | Attack nearest creature (for this purpose, a psicrystal counts as part of the subject's self). |\nAugment: For every 2 additional power points you spend, this power's save DC increases by 1, and the power can affect an additional target. Any additional target cannot be more than 15 feet from another target of the power.\nIdentify, Psionic\nClairsentience\nLevel: Psion/wilder 2\nDisplay: Material and mental\nManifesting Time: One day\nRange: Touch\nTarget: One touched object",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::012_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::014_power_points_3"
+}

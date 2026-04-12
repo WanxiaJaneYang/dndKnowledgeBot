@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::008_arcane_mastery",
+  "document_id": "srd_35::divineabilitiesandfeats::008_arcane_mastery",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Arcane Mastery"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#008_arcane_mastery"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Spellcaster level 1st, Int 29, Spell Mastery.\nBenefit: The deity can prepare any wizard spell that it can cast without using a spellbook.\nNotes: This ability gives the deity access to every spell on the sorcerer/wizard spell list, provided that the deity has sufficient wizard levels and a sufficient Intelligence score to cast them. The deity also can invent new sorcerer/wizard spells without researching them.\nSuggested Portfolio Elements: Knowledge, magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::007_annihilating_strike",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::009_area_divine_shield"
+}

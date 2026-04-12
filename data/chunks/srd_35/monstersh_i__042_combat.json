@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::042_combat",
+  "document_id": "srd_35::monstersh_i::042_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Combat"
+    ],
+    "source_location": "MonstersH-I.rtf#042_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Once it has found its target, a marut brings it the death it has been trying to avoid. Those who defile death through necromancy may instead receive a geas and/or mark of justice to enforce proper respect. It typically uses wall of force to shut off any escape routes, then opens up with chain lightning while it closes to melee range. Once there, it strikes with its massive fists, using circle of death if beset by numbers of defenders. It hits spellcasting opponents with repeated uses of greater dispel magic, and it uses dimension door and locate creature to track down foes who flee.\nA marut's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.\nFists of Thunder and Lightning (Su): A marut's left fist delivers a loud thunderclap whenever it hits something, dealing an extra 3d6 points of sonic damage and causing the target to be deafened for 2d6 rounds (Fortitude DC 31 negates the deafness). Its right fist delivers a shock for an extra 3d6 points of electricity damage, and the flash of lightning causes the target to be blinded for 2d6 rounds (Fortitude DC 31 negates the blindness). The save DCs are Strength-based and include the marut's Ability Focus feat.\nSpell-Like Abilities: At will--air walk, dimension door, fear (DC 18), greater command (DC 19), greater dispel magic, mass inflict light wounds (DC 19), locate creature, true seeing; 1/day--chain lightning (DC 20), circle of death (DC 20), mark of justice, wall of force; 1/week-- earthquake (DC 22), geas/quest, plane shift (DC 21). Caster level 14th. The save DCs are Charisma-based.\nSkills: A marut has a +4 racial bonus on Concentration, Listen, and Spot checks.\n\nHit Dice: | 8d10+30 (74 hp) |\nInitiative: | +0 |\nSpeed: | 35 ft. in plate barding (7 squares), fly 40 ft. (average) in plate barding (8 squares); base speed 50 ft., fly 60 ft. (average) |\nArmor Class: | 27 (-1 size, +10 natural, +8 plate barding), touch 9, flat-footed 27 |\nBase Attack/Grapple: | +6/+15 |\nAttack: | Spiked chain +10 melee (2d6+5 plus 1d6 electricity) |\nFull Attack: | 2 spiked chains +10 melee (2d6+5 plus 1d6 electricity) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Spell-like abilities |\nSpecial Qualities: | Construct traits, damage reduction 10/chaotic, darkvision 60 ft., fast healing 5, low-light vision, spell resistance 20 |\nSaves: | Fort +4, Ref +2, Will +5 |\nAbilities: | Str 21, Dex 11, Con --, Int 10, Wis 17, Cha 15 |\nSkills: | Diplomacy +4, Listen +9, Search +9, Sense Motive +12, Spot +9, Survival +3 (+5 following tracks) |\nFeats: | Great Fortitude, Ride-By Attack, Spirited Charge |\nEnvironment: | A lawful-aligned plane |\nOrganization: | Solitary |\nChallenge Rating: | 9 |\nTreasure: | None |\nAlignment: | Always lawful neutral |\nAdvancement: | 9-16 HD (Large); 17-24 HD (Huge) |\nLevel Adjustment: | +7 |\nZelekhuts are charged with hunting down those who would deny justice--especially those who flee to escape punishment. Expert trackers, they use a combination of natural skill and magic to find fugitives wherever they may hide.\nA zelekhut may initially appear rather non-threatening--but when it is about to enter combat, it can cause two spiked chains to spring forth from its forearms as a free action. In similar fashion, it can cause a pair of golden metallic wings to emerge from its back. Retracting the chains or the wings is also a free action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::041_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::043_combat"
+}

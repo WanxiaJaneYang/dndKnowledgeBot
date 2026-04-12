@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::079_mass_life_and_death",
+  "document_id": "srd_35::divineabilitiesandfeats::079_mass_life_and_death",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Mass Life and Death"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#079_mass_life_and_death"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 16, Gift of Life or Hand of Death salient divine ability, Life and Death salient divine ability.\nBenefit: The deity can designate any number of mortals and snuffs out their lives. Or the deity can designate any number of dead mortals and restore them to life.\nNotes: No two mortals affected by a single use of this ability can be more than one mile apart per rank of the deity. The ability is otherwise identical with the Life and Death salient divine ability.\nRest: After using either version of this ability, the deity must rest for 1 minute per levels or Hit Dice of the creatures affected.\nSuggested Portfolio Elements: Death, supreme.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::078_mass_divine_blast",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::080_master_crafter"
+}

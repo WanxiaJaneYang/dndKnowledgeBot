@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::091_shot_on_the_run_general",
+  "document_id": "srd_35::feats::091_shot_on_the_run_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SHOT ON THE RUN [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#091_shot_on_the_run_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 13, Dodge, Mobility, Point Blank Shot, base attack bonus +4.\nBenefit: When using the attack action with a ranged weapon, you can move both before and after the attack, provided that your total distance moved is not greater than your speed.\nSpecial: A fighter may select Shot on the Run as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::090_shield_proficiency_general",
+  "next_chunk_id": "chunk::srd_35::feats::092_silent_spell_metamagic"
+}

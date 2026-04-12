@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::025_display_auditory",
+  "document_id": "srd_35::psionicpowersg_p::025_display_auditory",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Auditory"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#025_display_auditory"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 immediate action\nRange: 20 ft.\nArea: 20-ft.-radius spread centered on you\nDuration: 1 round",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::024_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::026_power_points_7"
+}

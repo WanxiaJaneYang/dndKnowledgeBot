@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::012_artifacts",
+  "document_id": "srd_35::magicitemsvi::012_artifacts",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "ARTIFACTS"
+    ],
+    "source_location": "MagicItemsVI.rtf#012_artifacts"
+  },
+  "chunk_type": "subsection",
+  "content": "Artifacts are extremely powerful. Rather than merely another form of magic equipment, they are the sorts of legendary relics that whole campaigns can be based on. Each could be the center of a whole set of adventures--a quest to recover it, a fight against a opponent wielding it, a mission to cause its destruction, and so on.\nNo table has been included to randomly generate specific artifacts, since these items should only enter a campaign through deliberate choice on your part.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::011_specific_cursed_items",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::013_minor_artifacts"
+}

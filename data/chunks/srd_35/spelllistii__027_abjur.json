@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::027_abjur",
+  "document_id": "srd_35::spelllistii::027_abjur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Abjur"
+    ],
+    "source_location": "SpellListII.rtf#027_abjur"
+  },
+  "chunk_type": "subsection",
+  "content": "Arcane Lock M: Magically locks a portal or chest.\nObscure Object: Masks object against scrying.\nProtection from Arrows: Subject immune to most ranged attacks.\nResist Energy: Ignores first 10 (or more) points of damage/attack from specified energy type.\n\nAcid Arrow: Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.\nFog Cloud: Fog obscures vision.\nGlitterdust: Blinds creatures, outlines invisible creatures.\nSummon Monster II: Calls extraplanar creature to fight for you.\nSummon Swarm: Summons swarm of bats, rats, or spiders.\nWeb: Fills 20-ft.-radius spread with sticky spiderwebs.\n\nDetect Thoughts: Allows \u201clistening\u201d to surface thoughts.\nLocate Object: Senses direction toward object (specific or type).\nSee Invisibility: Reveals invisible creatures or objects.\n\nDaze Monster: Living creature of 6 HD or less loses next action.\nHideous Laughter: Subject loses actions for 1 round/level.\nTouch of Idiocy: Subject takes 1d6 points of Int, Wis, and Cha damage.\n\nContinual Flame M: Makes a permanent, heatless torch.\nDarkness: 20-ft. radius of supernatural shadow.\nFlaming Sphere: Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.\nGust of Wind: Blows away or knocks down smaller creatures.\nScorching Ray: Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).\nShatter: Sonic vibration damages objects or crystalline creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::026_trans",
+  "next_chunk_id": "chunk::srd_35::spelllistii::028_illus"
+}

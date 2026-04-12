@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::018_intimidate",
+  "document_id": "srd_35::epicskills::018_intimidate",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Intimidate"
+    ],
+    "source_location": "EpicSkills.rtf#018_intimidate"
+  },
+  "chunk_type": "subsection",
+  "content": "Intimidate does not possess an epic usage.\nSpecial: The DC to intimidate any creature whose attitude is fanatic is increased by +20.\nJump\nJump does not possess an epic usage.\n\nKnowledge does not possess an epic usage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::017_handle_animal",
+  "next_chunk_id": "chunk::srd_35::epicskills::019_listen"
+}

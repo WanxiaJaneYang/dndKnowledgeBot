@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::032_tactics_round_by_round",
+  "document_id": "srd_35::monstersd_de::032_tactics_round_by_round",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Tactics Round-by-Round"
+    ],
+    "source_location": "MonstersD-De.rtf#032_tactics_round_by_round"
+  },
+  "chunk_type": "subsection",
+  "content": "A pit fiend typically opens combat by using its spell-like abilities, attempting to neutralize dangerous opponents before entering melee.\nPrior to combat: Unholy aura; activate fear aura, summon devil.\nRound 1: Quickened fireball and mass hold monster if facing three or more visible, active opponents; otherwise power word stun against unarmored opponent (preferably a spellcaster).\nRound 2: Meteor swarm against as many foes as possible, approach worst-injured enemy.\nRound 3: Full attack against injured enemy.\nRound 4: Continue melee against injured enemy, or power word stun against annoying spellcaster.\nRound 5: Repeat from round 1, or greater teleport to safety if endangered.\n\nHit Dice: | 12d12 (78 hp) |\nInitiative: | +4 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 24 (-1 size, +15 natural), touch 9, flat-footed 24 |\nBase Attack/Grapple: | +6/+19 |\nAttack: | Claw +15 melee (1d6+9) |\nFull Attack: | 2 claws +15 melee (1d6+9) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Energy drain, trap essence, spell-like abilities |\nSpecial Qualities: | Darkvision 60 ft., spell deflection, spell resistance 21, undead traits |\nSaves: | Fort +4, Ref +4, Will +11 |\nAbilities: | Str 28, Dex 10, Con --, Int 16, Wis 16, Cha 17 |\nSkills: | Climb +24, Concentration +18, Diplomacy +5, Jump +24, Listen +18, Move Silently +15, Search +10, Sense Motive +11, Spot +18, Survival +3 (+5 following tracks) |\nFeats: | Blind-Fight, Combat Casting, Combat Expertise, Improved Initiative, Weapon Focus (claw) |\nEnvironment: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 11 |\nTreasure: | None |\nAlignment: | Always neutral evil |\nAdvancement: | 13-24 HD (Large); 25-36 HD (Huge) |\nLevel Adjustment: | -- |\nDevourers lurk on the Ethereal Plane and the Astral Plane, stalking both natives and travelers with equal sadistic glee.\nA devourer is about 9 feet tall and weighs 500 pounds.\nDevourers speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::031_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::033_combat"
+}

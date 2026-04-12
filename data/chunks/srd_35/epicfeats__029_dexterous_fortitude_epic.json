@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::029_dexterous_fortitude_epic",
+  "document_id": "srd_35::epicfeats::029_dexterous_fortitude_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DEXTEROUS FORTITUDE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#029_dexterous_fortitude_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 25, slippery mind class feature.\nBenefit: Once per round, when targeted by an effect that requires a Fortitude saving throw, the character may make a Reflex save instead to avoid the effect (evasion is not applicable).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::028_devastating_critical_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::030_dexterous_will_epic"
+}

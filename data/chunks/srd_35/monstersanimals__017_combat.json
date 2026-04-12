@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::017_combat",
+  "document_id": "srd_35::monstersanimals::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "If trained for war, these animals can make trip attacks just as wolves do (see the Wolf entry). A riding dog can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nSkills: Riding dogs have a +4 racial bonus on Jump checks. *Riding dogs have a +4 racial bonus on Survival checks when tracking by scent.\n\nHit Dice: | 2d8+2 (11 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 13 (+1 Dex, +2 natural), touch 11, flat-footed 12 |\nBase Attack/Grapple: | +1/+1 |\nAttack: | Bite +1 melee (1d2) |\nFull Attack: | Bite +1 melee (1d2) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +4, Ref +4, Will +0 |\nAbilities: | Str 10, Dex 13, Con 12, Int 2, Wis 11, Cha 4 |\nSkills: | Balance +3, Listen +3, Spot +2 |\nFeats: | Endurance |\nEnvironment: | Temperate deserts |\nOrganization: | Solitary |\nChallenge Rating: | 1/6 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nThese long-eared, horselike creatures are surefooted and sturdy. The statistics presented here could also describe burros.\nCarrying Capacity: A light load for a donkey is up to 50 pounds; a medium load, 51-100 pounds; and a heavy load, 101-150 pounds. A donkey can drag 750 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::018_combat"
+}

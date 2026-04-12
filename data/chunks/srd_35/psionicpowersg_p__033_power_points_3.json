@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::033_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::033_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#033_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "As the levitate spell, except as noted here.\nSpecial: When a psion, wilder, or a psychic warrior manifests this power, the target is the manifester (not a willing creature or an object).\n\nManifesting Time: 10 minutes\nRange: Close (25 ft. + 5 ft./2 levels)\nDuration: See spell text\n\nAs the major creation spell, except as noted here.\n\nDisplay: Auditory and material\nManifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nArea: 2 sq. ft. of surface area of an object or creature\nDuration: Concentration, up to 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::032_display_olfactory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::034_power_points_1"
+}

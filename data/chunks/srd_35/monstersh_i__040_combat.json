@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::040_combat",
+  "document_id": "srd_35::monstersh_i::040_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#040_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Unless their very existence is threatened, inevitables focus completely on the transgressor they've been assigned to, ignoring other combatants completely. An inevitable might attack anyone who hinders its progress, but it won't tarry beyond the point where it can reengage its quarry. Inevitables take self-defense very seriously; anyone who attacks an inevitable with what the creature perceives as deadly force is met with deadly force in return.\nAn inevitable's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.\nFast Healing (Ex): An inevitable heals a certain amount of damage each round (specified in each variety's description) as long as it has at least 1 hit point. However, damage dealt by chaotic weapons heals at the normal rate.\n\nHit Dice: | 13d10+20 (91 hp) |\nInitiative: | +1 |\nSpeed: | 20 ft. in banded mail (4 squares); base speed 30 ft. |\nArmor Class: | 27 (+1 Dex, +10 natural, +6 banded mail) touch 11, flat-footed 26 |\nBase Attack/Grapple: | +9/+11 |\nAttack: | Vampiric touch +11 melee touch (5d6) or enervation ray +10 ranged touch (as spell) or +2 longsword +13 melee (1d8+5/19-20) or slam +11 melee (1d6+3) |\nFull Attack: | Vampiric touch +11/+6 melee touch (5d6) or enervation ray +10 ranged touch (as spell) or +2 longsword +13/+8 melee (1d8+5/19-20) or slam +11/+6 melee (1d6+3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Enervation ray, spell-like abilities, vampiric touch |\nSpecial Qualities: | Construct traits, damage reduction 10/chaotic, darkvision 60 ft., fast healing 5, low-light vision, spell resistance 22 |\nSaves: | Fort +6, Ref +7, Will +7 |\nAbilities: | Str 14, Dex 13, Con --, Int 10, Wis 17, Cha 16 |\nSkills: | Diplomacy +5, Disguise +12, Gather Information +12, Listen +11, Search +5, Sense Motive +12, Spot +11, Survival +3 (+5 following tracks) |\nFeats: | Alertness, Combat Casting, Great Fortitude, Lightning Reflexes, Quickened Spell-Like Ability (suggestion) |\nEnvironment: | A lawful-aligned plane |\nOrganization: | Solitary |\nChallenge Rating: | 12 |\nTreasure: | None |\nAlignment: | Always lawful neutral |\nAdvancement: | 14-22 HD (Medium); 23-39 HD (Large) |\nLevel Adjustment: | -- |\nKolyaruts mete out punishment to those who break bargains and oaths.\nBefore beginning a mission against a deal-breaker, a kolyarut learns as much about the contract or oath as possible. It's not interested in those who break deals accidentally or against their will-- only those who willingly break contracts violate the principle that kolyaruts are created to uphold. If a written contract was broken, the kolyarut typically carries a copy of the contract with it.\nKolyaruts are the most talkative of the inevitables, making credible attempts at social niceties such as proper greetings before getting down to the matter at hand. They can use disguise self to appear as almost any kind of humanoid--useful if they need to go undercover to catch their quarry.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::039_inevitable",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::041_combat"
+}

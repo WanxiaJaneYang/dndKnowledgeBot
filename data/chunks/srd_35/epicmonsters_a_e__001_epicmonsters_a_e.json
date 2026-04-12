@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::001_epicmonsters_a_e",
+  "document_id": "srd_35::epicmonsters_a_e::001_epicmonsters_a_e",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "EpicMonsters(A-E)"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#001_epicmonsters_a_e"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::002_building_abominations"
+}

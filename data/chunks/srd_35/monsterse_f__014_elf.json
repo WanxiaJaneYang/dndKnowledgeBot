@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::014_elf",
+  "document_id": "srd_35::monsterse_f::014_elf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "ELF"
+    ],
+    "source_location": "MonstersE-F.rtf#014_elf"
+  },
+  "chunk_type": "subsection",
+  "content": "| Elf, 1st-Level Warrior | Drow, 1st-Level Warrior |\n| Medium Humanoid (Elf ) | Medium Humanoid (Elf ) |\nHit Dice: | 1d8 (4 hp) | 1d8 (4 hp) |\nInitiative: | +1 | +1 |\nSpeed: | 30 ft. (6 squares) | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 Dex, +3 studded leather, +1 light shield), touch 11, flat-footed 14 | 16 (+1 Dex, +4 chain shirt, +1 light shield) touch 11, flat-footed 15 |\nBase Attack/Grapple: | +1/+2 | +1/+2 |\nAttack: | Longsword +2 melee (1d8+1/19-20) or longbow +3 ranged (1d8/x3) | Rapier +3 melee (1d6+1/18-20) or hand crossbow +2 ranged (1d4/19-20) |\nFull Attack: | Longsword +2 melee(1d8+1/19-20) or longbow +3 ranged (1d8/x3) | Rapier +3 melee (1d6+1/18-20) or hand crossbow +2 ranged (1d4/19-20) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | None | Poison, spell-like abilities |\nSpecial Qualities: | Elven traits | Drow traits, spell resistance 12 |\nSaves: | Fort +2, Ref +1, Will -1* | Fort +2, Ref +1, Will -1* |\nAbilities: | Str 13, Dex 13, Con 10, Int 10, Wis 9, Cha 8 | Str 13, Dex 13, Con 10, Int 12, Wis 9, Cha 10 |\nSkills: | Hide +1, Listen +2, Search +3, Spot +2 | Hide +0, Listen +2, Search +4, Spot +3 |\nFeats: | Weapon Focus (longbow) | Weapon Focus (rapier) |\nEnvironment: | Temperate forest\n(Half-elf: Temperate forests)\n(Aquatic: Temperate aquatic)\n(Gray: Temperate mountains)\n(Wild: Warm forests)\n(Wood: Temperate forests) | Underground |\nOrganization: | Squad (2-4), company (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 20% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains) | Squad (2-4), patrol (5-8 plus 2 2nd-level sergeants and 1 leader of 3rd-6th level), or band (20-50 plus 10% noncombatants plus 1 2nd-level sergeant per 5 adults, 2d4 6th-level lieutenants, and 1d4 9th-level captains) |\nChallenge Rating: | 1/2 | 1 (see text) |\nTreasure: | Standard | Standard |\nAlignment: | Usually chaotic good\n(Wood: Usually neutral) | Usually neutral evil |\nAdvancement: | By character class | By character class |\nLevel Adjustment: | +0 | +2 |\nElves average 5 feet tall and typically weigh just over 100 pounds. They live on fruits and grains, though they occasionally hunt for fresh meat. Elves prefer colorful clothes, usually with a green-and-gray cloak that blends well with the colors of the forest.\nElves speak Elven, and most also know Common and Sylvan.\nMost elves encountered outside their homes are warriors; the information presented here is for one of 1st level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::013_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::015_combat"
+}

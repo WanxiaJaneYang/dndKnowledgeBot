@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::022_5th_level_psychic_warrior_powers",
+  "document_id": "srd_35::powerlist::022_5th_level_psychic_warrior_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "5TH-LEVEL PSYCHIC WARRIOR POWERS"
+    ],
+    "source_location": "PowerList.rtf#022_5th_level_psychic_warrior_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Adapt Body: Your body automatically adapts to hostile environments.\nCatapsiA: Psychic static inhibits power manifestation.\nMetaconcertA: Mental concert of two or more increases the total power of the participants.\nOak BodyA: Your body becomes as hard as oak.\nPsychofeedback: Boost Str, Dex, or Con at the expense of one or more other scores.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::021_4th_level_psychic_warrior_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::023_6th_level_psychic_warrior_powers"
+}

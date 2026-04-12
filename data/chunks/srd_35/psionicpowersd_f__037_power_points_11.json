@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::037_power_points_11",
+  "document_id": "srd_35::psionicpowersd_f::037_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#037_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "You create a psychokinetic shield around the subject that improves the chance that any powers affecting the subject will resist a dispel psionics power (or a dispel magic spell) or a negation effect that targets a specific power (such as shatter mind blank). When dispelling buffer is manifested on a creature or object, add +5 to the DC of the dispel check for each ongoing effect that is subject to being dispelled.\nDispel psionics can negate dispelling buffer, but against a targeted dispel, dispelling buffer is always checked last (with the same +5 bonus). Against an area dispel, dispelling buffer is checked in the order according to its level (with the same +5 bonus).\nSpecial: When a psychic warrior manifests this power, the range is personal and the target is the manifester.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::036_psychokinesis",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::038_psychoportation_teleportation"
+}

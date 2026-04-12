@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::traps::029_craft_dcs_for_mechanical_traps",
+  "document_id": "srd_35::traps::029_craft_dcs_for_mechanical_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Craft DCs for Mechanical Traps"
+    ],
+    "source_location": "Traps.rtf#029_craft_dcs_for_mechanical_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Once you know the Challenge Rating of a trap determine the Craft (trapmaking) DC by referring to the table and the modifiers given below.\nTrap CR | Base Craft (Trapmaking) DC |\n1-3 | 20 |\n4-6 | 25 |\n7-10 | 30 |\nAdditional Components | Modifier to Craft (Trapmaking) DC |\nProximity trigger | +5 |\nAutomatic reset | +5 |\nMaking the Checks: To determine how much progress a character makes on building a trap each week, that character makes a Craft (trapmaking) check. See the Craft skill description for details on Craft checks and the circumstances that can affect them.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::028_spell_trap_cost"
+}

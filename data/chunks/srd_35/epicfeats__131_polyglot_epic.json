@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::131_polyglot_epic",
+  "document_id": "srd_35::epicfeats::131_polyglot_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "POLYGLOT [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#131_polyglot_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Int 25, Speak Language (five languages).\nBenefit: The character can speak all languages. If the character is literate, he or she can also read and write all languages (not including magical script).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::130_plant_wild_shape_wild_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::132_positive_energy_aura_epic"
+}

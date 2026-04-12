@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::012_2nd_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::012_2nd_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "2ND-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#012_2nd_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Aid: +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).\nAlign Weapon: Weapon becomes good, evil, lawful, or chaotic.\nAugury M F: Learns whether an action will be good or bad.\nBear's Endurance: Subject gains +4 to Con for 1 min./level.\nBull's Strength: Subject gains +4 to Str for 1 min./level.\nCalm Emotions: Calms creatures, negating emotion effects.\nConsecrate M: Fills area with positive energy, making undead weaker.\nCure Moderate Wounds: Cures 2d8 damage +1/level (max +10).\nDarkness: 20-ft. radius of supernatural shadow.\nDeath Knell: Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 level.\nDelay Poison: Stops poison from harming subject for 1 hour/level.\nDesecrate M: Fills area with negative energy, making undead stronger.\nEagle's Splendor: Subject gains +4 to Cha for 1 min./level.\nEnthrall: Captivates all within 100 ft. + 10 ft./level.\nFind Traps: Notice traps as a rogue does.\nGentle Repose: Preserves one corpse.\nHold Person: Paralyzes one humanoid for 1 round/level.\nInflict Moderate Wounds: Touch attack, 2d8 damage +1/level (max +10).\nMake Whole: Repairs an object.\nOwl's Wisdom: Subject gains +4 to Wis for 1 min./level.\nRemove Paralysis: Frees one or more creatures from paralysis or slow effect.\nResist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.\nRestoration, Lesser: Dispels magical ability penalty or repairs 1d4 ability damage.\nShatter: Sonic vibration damages objects or crystalline creatures.\nShield Other F: You take half of subject's damage.\nSilence: Negates sound in 20-ft. radius.\nSound Burst: Deals 1d8 sonic damage to subjects; may stun them.\nSpiritual Weapon: Magic weapon attacks on its own.\nStatus: Monitors condition, position of allies.\nSummon Monster II: Calls extraplanar creature to fight for you.\nUndetectable Alignment: Conceals alignment for 24 hours.\nZone of Truth: Subjects within range cannot lie.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::011_1st_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::013_3rd_level_cleric_spells"
+}

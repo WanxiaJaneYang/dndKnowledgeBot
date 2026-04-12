@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::012_combat",
+  "document_id": "srd_35::monstersdr_dw::012_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#012_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Green dragons initiate fights with little or no provocation, picking on creatures of any size. If the target is intriguing or seems formidable, the dragon stalks the creature to determine the best time to strike and the most appropriate tactics to use. If the target appears weak, the dragon makes its presence known quickly--it enjoys\nevoking terror. Sometimes the dragon elects to control a humanoid creature through intimidation and suggestion. Green dragons especially like to question adventurers to learn more about their society and abilities, what is going on in the countryside, and if there is treasure nearby.\nBreath Weapon (Su): A green dragon has one type of breath weapon, a cone of corrosive (acid) gas.\nWater Breathing (Ex): A green dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged.\nSpell-Like Abilities: 3/day--suggestion (adult or older), dominate person (ancient or older); 1/day-- plant growth (old or older), command plants (great wyrm).\nSkills: Bluff, Hide, and Move Silently are considered class skills for green dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::011_dragon_air",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::013_dragon_fire"
+}

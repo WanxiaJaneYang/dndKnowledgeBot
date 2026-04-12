@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::018_aquatic_elf",
+  "document_id": "srd_35::monsterse_f::018_aquatic_elf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Aquatic Elf"
+    ],
+    "source_location": "MonstersE-F.rtf#018_aquatic_elf"
+  },
+  "chunk_type": "subsection",
+  "content": "Also called sea elves, these creatures are waterbreathing cousins to land-dwelling elves.\nAquatic elves fight underwater with tridents, spears, and nets.\nAquatic Elf Traits (Ex): These traits are in addition to the high elf traits, except where noted.\n-- +2 Dexterity, -2 Intelligence. These adjustments replace the high elf 's ability score adjustments.\n--An aquatic elf has the aquatic subtype.\n--An aquatic elf has a swim speed of 40 feet.\n--Gills: Aquatic elves can survive out of the water for 1 hour per point of Constitution (after that, refer to the suffocation rules).\n--Superior Low-Light Vision: Aquatic elves can see four times as far as a human in starlight, moonlight, torchlight, and similar conditions of low illumination. This trait replaces the high elf 's low-light vision.\n--Favored Class: Fighter. This trait replaces the high elf 's favored class.\n\nAlso known as dark elves, drow are a depraved and evil subterranean offshoot.\nWhite is the most common hair color among drow, but almost any pale shade is possible. Drow tend to be smaller and thinner than other sorts of elves, and their eyes are often a vivid red.\nDrow usually coat their arrows with a potent venom.\nPoison (Ex): An opponent hit by a drow's poisoned weapon must succeed on a DC 13 Fortitude save or fall unconscious. After 1 minute, the subject must succeed on another DC 13 Fortitude save or remain unconscious for 2d4 hours. A typical drow carries 1d4-1 doses of drow knockout poison. Drow typically coat arrows and crossbow bolts with this poison, but it can also be applied to a melee weapon. Note that drow have no special ability to apply poison without risking being poisoned themselves. Since this poison is not a magical effect, drow and other elves are susceptible to it.\nDrow Traits (Ex): These traits are in addition to the high elf traits, except where noted.\n-- +2 Intelligence, +2 Charisma.\n--Darkvision out to 120 feet. This trait replaces the high elf 's low-light vision.\n--Spell resistance equal to 11 + class levels.\n-- +2 racial bonus on Will saves against spells and spell-like abilities.\n--Spell-Like Abilities: Drow can use the following spell-like abilities once per day: dancing lights, darkness, faerie fire. Caster level equals the drow's class levels.\n--Weapon Proficiency: A drow is automatically proficient with the hand crossbow, the rapier, and the short sword. This trait replaces the high elf 's weapon proficiency.\n--Automatic Languages: Common, Elven, Undercommon. Bonus Languages: Abyssal, Aquan, Draconic, Drow Sign Language, Gnome, Goblin. This trait replaces the high elf 's automatic and bonus languages.\n--Light Blindness: Abrupt exposure to bright light (such as sunlight or a daylight spell) blinds drow for 1 round. On subsequent rounds, they are dazzled as long as they remain in the affected area.\n--Favored Class: Wizard (male) or cleric (female). This trait replaces the high elf 's favored class.\n--Level adjustment +2.\nThe drow warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.\nChallenge Rating: Drow with levels in NPC classes have a CR equal to their character level. Drow with levels in PC classes have a CR equal to their character level +1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::017_half_elf",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::019_gray_elf"
+}

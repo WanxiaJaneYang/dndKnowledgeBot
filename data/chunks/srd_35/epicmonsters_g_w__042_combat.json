@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::042_combat",
+  "document_id": "srd_35::epicmonsters_g_w::042_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#042_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Rend (Ex): If the winterwight hits with both of its claws, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 6d8+31 points of Damage.\nBlightfire (Su): When a winterwight deals Damage to a living opponent, a night-black flame begins to burn on the opponent's body. If the opponent fails a Fortitude save (DC 35), it takes 4 points of permanent Constitution drain. The opponent must continue to save every round for the next 4 rounds (5 rounds total) to avoid being permanently drained of an additional 4 points of Constitution per round. The creature regains 10 lost hit points whenever it drains 4 points of Constitution, gaining any excess hit points as temporary hit points. These temporary hit points last a maximum of 1 hour. If the opponent is slain by blightfire, only icy fragments of the victim remain. The save DC is Charisma-based.\nSpell-Like Abilities: At will--cone of cold, control weather, dimension door, spell immunity (fireball), sleet storm (a winterwight is immune to the effects of a sleet storm spell), wall of ice. Caster level 23rd; save DC 19 + spell level. The save DCs are Charisma-based.\nUndead Traits: Immune to poison, sleep, paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual Damage, ability Damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive Damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.\nCold Subtype: Immunity to cold. Vulnerability to fire (takes half again as much (+50%) damage as normal from fire, regardless of whether a saving throw is allowed, or if the save is a success or failure).\nCold Aura (Su): A 10-foot-radius spread cold aura surrounds a winterwight. All creatures of the cold sub-type in the field (including the winterwight) are treated as if having turn resistance +6 (if undead) and fast healing 10. Creatures subject to cold Damage take 2d10 points of cold Damage each round they remain within the cold aura.\n\nHit Dice: | HD 23d8 + 49 (152 hp) |\nInitiative: | +8 (+4 Dex, +4 Improved Initiative) |\nSpeed: | 30 ft. |\nAC: | 47 (+4 Dex, +8 bracers, +3 ring, +2 amulet, +20 insight) |\nAttacks: | +4 staff +15/+10 melee |\nDamage: | +4 staff 1d6+4 |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, engulf, frightful presence |\nSpecial Qualities: | Blindsight 300 ft., SR 36, discorporate, immunities |\nSaves: | Fort +11, Ref +14, Will +17 |\nAbilities: | Str 10, Dex 14 (18 with gloves), Con 13 (15 with Ioun stone), Int 20 (26 with headband), Wis 12, Cha 8 |\nSkills: | Concentration +22, Craft (alchemy) +28, Listen +24, Knowledge (arcana, local, nature, religion) +28, Listen +21, Move Silently +24, Spellcraft +28 |\nFeats: | Brew Potion, Combat Casting, Craft Staff, Craft Wondrous Item, Heighten Spell, Improved Initiative, Lightning Reflexes, Maximize Spell, Quicken Spell, Scribe Scroll, Spell Penetration, Toughness |\nEpic Feats: | Improved Spell Capacity (10th), Improved Spell Capacity (11th) |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 26 |\nTreasure: | As character |\nAlignment: | Any evil |\nAdvancement: | As character |\nA worm that walks rarely speaks, although it retains knowledge of all languages it knew in life, as well as any it has learned since.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::041_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::043_combat"
+}

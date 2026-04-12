@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::026_combat",
+  "document_id": "srd_35::psionicmonsters::026_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#026_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Psi-Like Abilities: At will--control object, control sound, detect psionics, empty mind, mind thrust (2d10, DC 13*); 3/day--psionic dimension door. Manifester level 2nd. The save DCs are Charisma-based.\n*Includes augmentation for the crysmal's manifester level.\nSkills: Crysmals have a +8 racial bonus on Appraise checks and Spot checks.\nDROMITE\n| Dromite, 1st-Level Warrior |\n\nHit Dice: | 1d8+1 (5 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 18 (+1 size, +3 natural armor, +3 studded leather, +1 light shield), touch 11, flat-footed 18 |\nBase Attack/Grapple: | +1/-3 |\nAttack: | Longsword +3 melee (1d6/19-20) or light crossbow +2 ranged (1d6/19-20) |\nFull Attack: | Longsword +3 melee (1d6/19-20) or light crossbow +2 ranged (1d6/19-20) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Psi-like abilities |\nSpecial Qualities: | Darkvision 60 ft., resistance to fire 5, scent |\nSaves: | Fort +3, Ref +0, Will -2 |\nAbilities: | Str 11, Dex 11, Con 12, Int 10, Wis 7, Cha 10 |\nSkills: | Climb +2, Spot +4 |\nFeats: | Weapon Focus (longsword), Blind-FightB |\nEnvironment: | Underground |\nOrganization: | Squad (2-4), company (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 100% noncombatants plus 1 3rdlevel sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, 6-10 giant beetles, and 2-5 riding giant beetles) |\nChallenge Rating: | 1/2 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +1 |\nDromites stand about 3 feet tall and usually weigh slightly more than 30 pounds. They have iridescent compound eyes. Dromites wear heavy boots and light clothing, and are sometimes content with just a sturdy harness.\nDromites speak Common.\nMost dromites encountered outside their homes are warriors; the information in the statistics block is for a warrior of 1st level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::025_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::027_combat"
+}

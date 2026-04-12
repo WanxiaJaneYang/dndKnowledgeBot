@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::030_combat",
+  "document_id": "srd_35::monstersanimals::030_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#030_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Monkeys generally flee into the safety of the trees, but if cornered can fight ferociously.\nSkills: Monkeys have a +8 racial bonus on Balance and Climb checks. They can always choose to take 10 on Climb checks, even if rushed or threatened. They use their Dexterity modifier instead of their Strength modifier for Climb checks.\n\nHit Dice: | 3d8+9 (22 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 13 (-1 size, +1 Dex, +3 natural), touch 10, flat-footed 12 |\nBase Attack/Grapple: | +2/+9 |\nAttack: | Hoof +4 melee (1d4+3) |\nFull Attack: | 2 hooves +4 melee (1d4+3) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +6, Ref +4, Will +1 |\nAbilities: | Str 16, Dex 13, Con 17, Int 2, Wis 11, Cha 6 |\nSkills: | Listen +6, Spot +6 |\nFeats: | Alertness, Endurance |\nEnvironment: | Warm plains |\nOrganization: | Domesticated |\nChallenge Rating: | 1 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nMules are sterile crossbreeds of donkeys and horses. A mule is similar to a light horse, but slightly stronger and more agile.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::029_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::031_combat"
+}

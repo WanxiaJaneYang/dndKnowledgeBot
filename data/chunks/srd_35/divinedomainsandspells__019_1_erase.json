@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::019_1_erase",
+  "document_id": "srd_35::divinedomainsandspells::019_1_erase",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "1 Erase"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#019_1_erase"
+  },
+  "chunk_type": "subsection",
+  "content": "2 Secret page\n3 Glyph of warding\n4 Explosive runes\n5 Lesser planar binding\n6 Greater glyph of warding\n7 Instant summons\n8 Symbol\n9 Teleportation circle",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::018_1_deathwatch",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::020_scalykind_domain"
+}

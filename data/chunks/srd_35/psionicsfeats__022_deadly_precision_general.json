@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::022_deadly_precision_general",
+  "document_id": "srd_35::psionicsfeats::022_deadly_precision_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "DEADLY PRECISION [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#022_deadly_precision_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You empty your mind of all distracting emotion, becoming an instrument of deadly precision.\nPrerequisite: Dex 15, base attack bonus +5.\nBenefit: You have deadly accuracy with your sneak attacks. You can reroll any result of 1 on your sneak attack's extra damage dice. You must keep the result of the reroll, even if it is another 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::021_craft_universal_item_item_creation",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::023_deep_impact_psionic"
+}

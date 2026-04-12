@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::042_creating_a_phrenic_creature",
+  "document_id": "srd_35::psionicmonsters::042_creating_a_phrenic_creature",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "CREATING A PHRENIC CREATURE"
+    ],
+    "source_location": "PsionicMonsters.rtf#042_creating_a_phrenic_creature"
+  },
+  "chunk_type": "subsection",
+  "content": "\u201cPhrenic\u201d is an inherited template that can be added to any nonmindless creature that does not already have the psionic subtype (referred to hereafter as the \u201cbase creature\u201d). A phrenic creature uses all the base creature's statistics and special abilities except as noted here.\nSize and Type: The creature's type does not change, unless it is an animal (in which case it becomes a magical beast [augmented animal]). It gains the psionic subtype.\nPsi-Like Abilities (Sp): A phrenic creature possesses the psi-like abilities indicated below, depending on its Hit Dice. The abilities are cumulative. Unless otherwise noted, an ability is usable once per day. Manifester level is equal to the creature's HD. The save DCs for a phrenic creature's psi-like abilities are Charisma-based.\nHD | Abilities |\n1-2 | 3/day--defensive precognition; 1/day--force screen |\n3-4 | 3/day--empty mind, mind thrust |\n5-6 | 1/day--body adjustment, brain lock |\n7-8 | 1/day--aversion, blast |\n9-10 | 3/day--intellect fortress; 1/day--psychic crush |\n11-12 | 1/day--psionic dominate |\n13-14 | 1/day--energy current, tower of iron will |\n15-16 | 3/day--psionic teleport |\n17-18 | 1/day--fission |\n19-20 | 1/day--ultrablast |\nSpecial Qualities: A phrenic creature has all the special qualities of the base creature, plus the following special qualities.\nNaturally Psionic: A phrenic creature gains 1 bonus power point.\nPower Resistance (Ex): A phrenic creature has power resistance equal to its Hit Dice +10.\nAbilities: Increase from the base creature as follows: Int +2 (if Int is 3 or greater), Wis +2, Cha +4.\nFeats: A phrenic creature can take psionic feats, if it meets the prerequisites for such feats.\nChallenge Rating: Up to 5 HD, same as base creature +1; 6-10 HD, same as base creature +2; 11+ HD, same as base creature +3.\nLevel Adjustment: Same as base creature +2.\n\nHit Dice: | 6d8+30 (57 hp) |\nInitiative: | +5 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 18 (-1 size, +1 Dex, +8 natural), touch 10, flat-footed 17 |\nBase Attack/Grapple: | +6/+16 |\nAttack: | Claw +11 melee (1d6+6) |\nFull Attack: | 2 claws +11 melee (1d6+6) and bite +6 melee (1d6+3 plus mind feed) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Mind feed, psi-like abilities |\nSpecial Qualities: | Damage reduction 10/magic, darkvision 60 ft., regeneration 5, resistance to cold 10, scent |\nSaves: | Fort +9, Ref +6, Will +8 |\nAbilities: | Str 23, Dex 12, Con 21, Int 10, Wis 16, Cha 16 |\nSkills: | Listen +11, Move Silently +7, Spot +11 |\nFeats: | Alertness, Great Fortitude, Improved Initiative |\nEnvironment: | Any |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 6 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 7-12 HD (Large); 13-18 HD (Huge) |\nLevel Adjustment: | -- |\nA phthisic stands 10 feet tall and weighs 600 pounds. It vaguely resembles the person whose mind the phthisic escaped from, but is severely distorted (someone who knows the individual from whom the phthisic sprung can make a DC 25 Spot check to note the resemblance).\nA phthisic speaks the primary language of the mind that birthed it, usually Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::041_phrenic_creature",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::043_combat"
+}

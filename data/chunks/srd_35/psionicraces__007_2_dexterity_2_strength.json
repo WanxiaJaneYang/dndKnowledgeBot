@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicraces::007_2_dexterity_2_strength",
+  "document_id": "srd_35::psionicraces::007_2_dexterity_2_strength",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicRaces",
+      "+2 Dexterity, -2 Strength"
+    ],
+    "source_location": "PsionicRaces.rtf#007_2_dexterity_2_strength"
+  },
+  "chunk_type": "subsection",
+  "content": "Medium: As Medium creatures, xephs have no special bonuses or penalties due to their size.\nXeph base land speed is 30 feet.\nDarkvision out to 60 feet.\n+1 racial bonus on saving throws against powers, spells, and spell-like effects. Xephs have an innate resistance to psionics and magic.\nNaturally Psionic: Xephs gain 1 bonus power point at 1st level. This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class.\nBurst (Su): Three times per day, a xeph can put on a burst of speed to increase her speed by 10 feet, plus 10 feet per four character levels beyond 1st, to a maximum increase of 30 feet at 9th character level and higher. These bursts of speed are considered a competence bonus to the xeph's base speed. A burst of speed lasts 3 rounds.\nAutomatic Languages: Common, Xeph. Bonus Languages: Draconic, Elven, Gnoll, Goblin, Halfling, Sylvan.\nFavored Class: Soulknife.\nAGE, HEIGHT, AND WEIGHT\nTable: Random Starting Ages |\nRace | Adulthood | Barbarian Rogue Sorcerer Soulknife Wilder | Bard Fighter Paladin Ranger Psychic Warrior | Cleric Druid Monk Psion Wizard |\nDromite | 13 years | +1d4 | +1d6 | +2d6 |\nDuergar | 40 years | +3d6 | +5d6 | +7d6 |\nElan | 20 years | +2d4 | +2d6 | +3d6 |\nHalf-giant | 30 years | +3d6 | +2d6 | +4d6 |\nMaenad | 40 years | +1d6 | +4d6 | +6d6 |\nXeph | 18 years | +1d4 | +2d4 | +2d6 |\n\nRace | Middle Age1 | Old2 | Venerable3 | Maximum Age |\nDromite | 30 years | 55 years | 75 years | +2d20 years |\nDuergar | 125 years | 188 years | 250 years | +2d% years |\nElan | 200 years | 400 years | 1,000 years | +10d% years |\nHalf-giant | 60 years | 80 years | 120 years | +4d% years |\nMaenad | 90 years | 150 years | 220 years | +2d% years |\nXeph | 45 years | 85 years | 120 years | +2d20 years |\n1 -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |\n2 -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |\n3 -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha. |\nTable: Random Height and Weight |\nRace | Base Height | Height Modifier | Base Weight | Weight Modifier |\nDromite | 2\u20328\u2033 | 2d4 | 30 lb. | x1 lb. |\nDuergar, male | 3\u20329\u2033 | 2d4 | 110 lb. | x(2d4) lb. |\nDuergar, female | 3\u20327\u2033 | 2d4 | 80 lb. | x(2d4) lb. |\nElan, male | 4\u203210\u2033 | 2d10 | 120 lb. | x(2d4) lb. |\nElan, female | 4\u20325\u2033 | 2d10 | 85 lb. | x(2d4) lb. |\nHalf-giant, male | 6\u20324\u2033 | 2d12 | 220 lb. | x(2d6) lb. |\nHalf-giant, female | 6\u20321\u2033 | 2d12 | 180 lb. | x(2d6) lb. |\nMaenad, male | 5\u20324\u2033 | 2d10 | 150 lb. | x(2d4) lb. |\nMaenad, female | 5\u20323\u2033 | 2d10 | 120 lb. | x(2d4) lb. |\nXeph, male | 4\u20328\u2033 | 2d10 | 100 lb. | x(2d4) lb. |\nXeph, female | 4\u20324\u2033 | 2d10 | 75 lb. | x(2d4) lb. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicraces::006_maenads"
+}

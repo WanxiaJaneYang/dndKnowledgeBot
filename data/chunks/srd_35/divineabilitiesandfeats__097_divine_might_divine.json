@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::097_divine_might_divine",
+  "document_id": "srd_35::divineabilitiesandfeats::097_divine_might_divine",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "DIVINE MIGHT [DIVINE ]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#097_divine_might_divine"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 13, turn or rebuke undead ability, Power Attack.\nBenefit: As a free action, spend one of your turn or rebuke undead attempts to add your Charisma bonus to your weapon damage for 1 full round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::096_disguise_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::098_divine_vengeance_divine"
+}

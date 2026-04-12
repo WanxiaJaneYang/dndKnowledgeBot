@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::030_requirements",
+  "document_id": "srd_35::epicprestigeclasses::030_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#030_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a high proselytizer, a character must fulfill all the following criteria.\nSkills: Diplomacy 12 ranks and either Knowledge (religion) 24 ranks or Knowledge (nature) 24 ranks.\nFeats: Leadership.\nEpic Feats: Epic Leadership.\nSpells: Ability to cast 5th-level divine spells.\nSpecial: Must have a patron deity.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::029_class_features",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::031_class_skills"
+}

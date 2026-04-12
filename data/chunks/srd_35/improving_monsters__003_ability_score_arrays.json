@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::003_ability_score_arrays",
+  "document_id": "srd_35::improving_monsters::003_ability_score_arrays",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "ABILITY SCORE ARRAYS"
+    ],
+    "source_location": "Improving Monsters.rtf#003_ability_score_arrays"
+  },
+  "chunk_type": "subsection",
+  "content": "Monsters are assumed to have completely average (or standard) ability scores--a 10 or an 11 in each ability, as modified by their racial bonuses. However, improved monsters are individuals and often have better than normal ability scores, and usually make use of either the elite array or the nonelite array of ability scores. Monsters who improve by adding a template, and monsters who improve by increasing their Hit Dice, may use any of the three arrays (standard, nonelite, or elite). Any monster unique enough to be improved could easily be considered elite.\nElite Array: The elite array is 15, 14, 13, 12, 10, 8. While the monster has one weakness compared to a typical member of its race, it is significantly better overall. The elite array is most appropriate for monsters who add levels in a player character class.\nNonelite Array: The nonelite array is 13, 12, 11, 10, 9, 8. The nonelite array does not necessarily make a monster better than normal, but it does customize the monster as an individual with strengths and weaknesses compared to a typical member of its race. The nonelite array is most appropriate for monsters who add class levels in a NPC class.\nAbility Score Improvement: Treat monster Hit Dice the same as character level for determining ability score increases. This only applies to Hit Dice increases, monsters do not gain ability score increases for levels they \u201calready reached\u201d with their racial Hit Dice, since these adjustments are included in their basic ability scores.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::002_improving_monsters",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::004_monsters_and_class_levels"
+}

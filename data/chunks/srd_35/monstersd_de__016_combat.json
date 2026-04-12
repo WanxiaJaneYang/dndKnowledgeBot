@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::016_combat",
+  "document_id": "srd_35::monstersd_de::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Succubi are not warriors. They flee combat whenever they can. If forced to fight, they can attack with their claws, but they prefer to turn foes against one another. Succubi use their polymorph ability to assume humanoid guise, and can maintain this deception indefinitely. Their preferred tactic when dealing with heroes is to feign friendship and create an opportunity to be alone with one of them, whereupon the succubus applies her life-draining kiss. Succubi are not above taking on the role of a damsel in distress when encountered within a dungeon.\nA succubus's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nEnergy Drain (Su): A succubus drains energy from a mortal it lures into some act of passion, or by simply planting a kiss on the victim. If the target is not willing to be kissed, the succubus must start a grapple, which provokes an attack of opportunity. The succubus's kiss or embrace bestows one negative level. The kiss also has the effect of a suggestion spell, asking the victim to accept another kiss from the succubus. The victim must succeed on a DC 21 Will save to negate the effect of the suggestion. The DC is 21 for the Fortitude save to remove a negative level. These save DCs are Charisma-based.\nSpell-Like Abilities: At will--charm monster (DC 22), detect good, detect thoughts (DC 20), ethereal jaunt (self plus 50 pounds of objects only), polymorph (humanoid form only, no limit on duration), suggestion (DC 21), greater teleport (self plus 50 pounds of objects only). Caster level 12th. The save DCs are Charisma-based.\nSummon Demon (Sp): Once per day a succubus can attempt to summon 1 vrock with a 30% chance of success. This ability is the equivalent of a 3rd-level spell.\nTongues (Su): A succubus has a permanent tongues ability (as the spell, caster level 12th). Succubi usually use verbal communication with mortals.\nSkills: Succubi have a +8 racial bonus on Listen and Spot checks.\n*While using her polymorph ability, a succubus gains a +10 circumstance bonus on Disguise checks.\n\nHit Dice: | 10d8+70 (115 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), fly 50 ft. (average) |\nArmor Class: | 22 (-1 size, +2 Dex, +11 natural), touch 11, flat-footed 20 |\nBase Attack/Grapple: | +10/+20 |\nAttack: | Claw +15 melee (2d6+6) |\nFull Attack: | 2 claws +15 melee (2d6+6) and bite +13 melee (1d8+3) and 2 talons +13 melee (1d6+3) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Dance of ruin, spell-like abilities, spores, stunning screech, summon demon |\nSpecial Qualities: | Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 17, telepathy 100 ft. |\nSaves: | Fort +14, Ref +9, Will +10 |\nAbilities: | Str 23, Dex 15, Con 25, Int 14, Wis 16, Cha 16 |\nSkills: | Concentration +20, Diplomacy +5, Hide +11, Intimidate +16, Knowledge (any one) +15, Listen +24, Move Silently +15, Search +15, Sense Motive +16, Spellcraft +15, Spot +24, Survival +3 (+5 following tracks) |\nFeats: | Cleave, Combat Reflexes, Multiattack, Power Attack |\nEnvironment: | A chaotic evil-aligned plane |\nOrganization: | Solitary, pair, gang (3-5), or squad (6-10) |\nChallenge Rating: | 9 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 11-14 HD (Large); 15-30 HD (Huge) |\nLevel Adjustment: | +8 |\nA vrock is about 8 feet tall and weighs about 500 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::015_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::017_combat"
+}

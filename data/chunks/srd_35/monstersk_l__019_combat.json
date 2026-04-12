@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::019_combat",
+  "document_id": "srd_35::monstersk_l::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "COMBAT"
+    ],
+    "source_location": "MonstersK-L.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Any battle with locathahs usually begins with the creatures loosing volleys of bolts from their crossbows; underwater, their crossbows have a range increment of 20 feet. If they have managed to set up an ambush or other trap, they continue to employ crossbows for as long as possible. Otherwise, they close to bring their longspears into play. Although primarily used for fishing, these spears make formidable weapons.\nLocathahs lack teeth, claws, and other natural weapons, so they are not especially dangerous if unarmed. A weaponless locathah will generally turn and flee.\nSkills: A locathah has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered.\nIt can use the run action while swimming, provided it swims in a straight line.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::018_lizardfolk_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::020_lycanthrope"
+}

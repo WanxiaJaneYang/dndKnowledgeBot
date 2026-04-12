@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::044_plant_domain_spells",
+  "document_id": "srd_35::spelllisti::044_plant_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Plant Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#044_plant_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Entangle: Plants entangle everyone in 40-ft.-radius.\n2 Barkskin: Grants +2 (or higher) enhancement to natural armor.\n3 Plant Growth: Grows vegetation, improves crops.\n4 Command Plants: Sway the actions of one or more plant creatures.\n5 Wall of Thorns: Thorns damage anyone who tries to pass.\n6 Repel Wood: Pushes away wooden objects.\n7 Animate Plants: One or more trees animate and fight for you.\n8 Control Plants: Control actions of one or more plant creatures.\n9 Shambler: Summons 1d4+2 shambling mounds to fight for you.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::043_plant_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::045_protection_domain"
+}

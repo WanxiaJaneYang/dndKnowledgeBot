@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::020_combat_archery_epic",
+  "document_id": "srd_35::epicfeats::020_combat_archery_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "COMBAT ARCHERY [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#020_combat_archery_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dodge, Mobility, Point Blank Shot.\nBenefit: The character does not incur any attacks of opportunity for firing a bow when threatened.\nNormal: Without this feat, a character incurs an attack of opportunity from all opponents who threaten him or her whenever he or she uses a bow.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::019_colossal_wild_shape_wild_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::021_craft_epic_magic_arms_and_armor_item_creation_epic"
+}

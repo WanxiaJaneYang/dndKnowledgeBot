@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::065_power_points_3",
+  "document_id": "srd_35::psionicpowersq_w::065_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#065_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You fortify your mind against intrusions, gaining power resistance 13 against all mind-affecting powers.\nYou can manifest this power instantly, quickly enough to gain its benefits in an emergency. Manifesting the power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can use this power even when it's not your turn.\nAugment: For every additional power point you spend, this power's duration increases by 1 round, and the power resistance it provides increases by 1 point.\n\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nTargets: One Medium or smaller creature, or one object weighing 300 lb. or less\nDuration: 1 round/level; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::064_telepathy_mind_affecting",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::066_power_points_5"
+}

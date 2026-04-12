@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::051_combat",
+  "document_id": "srd_35::monstersintro_a::051_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#051_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "On the ground, an avoral can lash out with its wings to deliver punishing blows. However, it prefers to meet its foes in the air, where it can employ its talons and make full use of its aerial speed and agility. It can't make wing attacks while flying, however.\nAn avoral's natural weapons, as well as any weapons it wields, are treated as good-aligned for the purpose of overcoming damage reduction.\nSpell-Like Abilities: At will--aid, blur (self only), command (DC 14), detect magic, dimension door, dispel magic, gust of wind (DC 15), hold person (DC 16), light, magic circle against evil (self only), magic missile, see invisibility; 3/day--lightning bolt (DC 16). Caster level 8th. The save DCs are Charisma-based.\nFear Aura (Su): Once per day an avoral can create an aura of fear in a 20-foot radius. It is otherwise identical with fear from an 8th-level caster (save DC 17). The save DC is Charisma-based.\nLay on Hands (Su): As the paladin class feature, except that each day, an avoral can heal an amount of damage equal to its full normal hit points.\nSpeak with Animals (Su): This ability works like speak with animals (caster level 8th) but is a free action and does not require sound.\nTrue Seeing (Su): This ability is identical with true seeing (caster level 14th), except that it has personal range and the avoral must concentrate for 1 full round before it takes effect. Thereafter the ability remains in effect as long as the avoral concentrates on it.\nSkills: An avoral's sharp eyes give it a +8 racial bonus on Spot checks.\n\nHit Dice: | 2d8+2 (11 hp) |\nInitiative: | +1 |\nSpeed: | 20 ft. in scale mail (4 squares); base speed 30 ft. |\nArmor Class: | 23 (+1 Dex, +6 natural, +4 scale mail, +2 heavy |\nshield), touch 11, flat-footed 22 | |\nBase Attack/Grapple: | +2/+3 |\nAttack: | Warhammer +3 melee (1d8+1/x3 plus 1 fire) or shortspear +3 ranged (1d6+1 plus 1 fire) |\nFull Attack: | Warhammer +3 melee (1d8+1/x3 plus 1 fire) or shortspear +3 ranged (1d6+1 plus 1 fire) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Heat |\nSpecial Qualities: | Darkvision 60 ft., immunity to fire, spell resistance 13, vulnerability to cold |\nSaves: | Fort +4, Ref +4, Will +4 |\nAbilities: | Str 13, Dex 13, Con 13, Int 12, Wis 12, Cha 9 |\nSkills: | Appraise +6, Climb +0, Craft (any two) +6, Hide +0, Jump -6, Listen +6, Search +6, Spot +6 |\nFeats: | Power Attack |\nEnvironment: | Elemental Plane of Fire |\nOrganization: | Solitary, pair, team (3-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or clan (30-100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, and 3 7th-level captains) |\nChallenge Rating: | 2 |\nTreasure: | Standard coins; double goods (nonflammables only); standard items (nonflammables only) |\nAlignment: | Always lawful neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +4 |\nAzers are dwarflike beings native to the Elemental Plane of Fire. They wear kilts of brass, bronze, or copper, and speak Ignan and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::050_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::052_combat"
+}

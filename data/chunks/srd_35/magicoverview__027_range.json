@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::027_range",
+  "document_id": "srd_35::magicoverview::027_range",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "RANGE"
+    ],
+    "source_location": "MagicOverview.rtf#027_range"
+  },
+  "chunk_type": "subsection",
+  "content": "A spell's range indicates how far from you it can reach, as defined in the Range entry of the spell description. A spell's range is the maximum distance from you that the spell's effect can occur, as well as the maximum distance at which you can designate the spell's point of origin. If any portion of the spell's area would extend beyond this range, that area is wasted. Standard ranges include the following.\nPersonal: The spell affects only you.\nTouch: You must touch a creature or object to affect it. A touch spell that deals damage can score a critical hit just as a weapon can. A touch spell threatens a critical hit on a natural roll of 20 and deals double damage on a successful critical hit. Some touch spells allow you to touch multiple targets. You can touch as many willing targets as you can reach as part of the casting, but all targets of the spell must be touched in the same round that you finish casting the spell.\nClose: The spell reaches as far as 25 feet away from you. The maximum range increases by 5 feet for every two full caster levels.\nMedium: The spell reaches as far as 100 feet + 10 feet per caster level.\nLong: The spell reaches as far as 400 feet + 40 feet per caster level.\nUnlimited: The spell reaches anywhere on the same plane of existence.\nRange Expressed in Feet: Some spells have no standard range category, just a range expressed in feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::026_casting_time",
+  "next_chunk_id": "chunk::srd_35::magicoverview::028_aiming_a_spell"
+}

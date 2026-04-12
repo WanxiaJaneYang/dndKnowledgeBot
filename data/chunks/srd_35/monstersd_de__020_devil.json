@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::020_devil",
+  "document_id": "srd_35::monstersd_de::020_devil",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "DEVIL"
+    ],
+    "source_location": "MonstersD-De.rtf#020_devil"
+  },
+  "chunk_type": "subsection",
+  "content": "Devils are fiends from lawful evil-aligned planes.\nMany devils are surrounded by a fear aura, which they use to break up powerful groups and defeat opponents piecemeal. Devils with spell-like abilities use their illusion abilities to delude and confuse foes as much as possible. A favorite trick is to create illusory reinforcements; enemies can never be entirely sure if a threat is only a figment or real summoned devils joining the fray.\nDevil Traits: Most devils possesses the following traits (unless otherwise noted in a creature's entry).\n--Immunity to fire and poison.\n--Resistance to acid 10 and cold 10.\n--See in Darkness (Su): Some devils can see perfectly in darkness of any kind, even that created by a deeper darkness spell.\n--Summon (Sp): Some devils share the ability to summon others of their kind (the success chance and type of devils summoned are noted in each monster description).\n--Telepathy.\nExcept when otherwise noted, devils speak Infernal, Celestial, and Draconic.\n\nHit Dice: | 12d8+72 (126 hp) |\nInitiative: | +6 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 29 (+6 Dex, +13 natural) touch 16, flat-footed 23 |\nBase Attack/Grapple: | +12/+22 |\nAttack: | Claw +18 melee (2d8+6 plus fear) |\nFull Attack: | 2 claws +18 melee (2d8+6 plus fear) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Fear, improved grab, impale 3d8+9, summon devil |\nSpecial Qualities: | Barbed defense, damage reduction 10/good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, see in darkness, spell resistance 23, spell-like abilities, telepathy 100 ft. |\nSaves: | Fort +14, Ref +14, Will +12 |\nAbilities: | Str 23, Dex 23, Con 23, Int 12, Wis 14, Cha 18 |\nSkills: | Concentration +21, Diplomacy +6, Hide +21, Intimidate +19, Knowledge (any one) +16, Listen +19, Move Silently +21, Search +16, Sense Motive +17, Spot +19, Survival +2 (+4 following tracks) |\nFeats: | Alertness, Cleave, Improved Grapple, Iron Will, Power Attack |\nEnvironment: | A lawful evil-aligned plane |\nOrganization: | Solitary, pair, team (3-5), or squad (6-10) |\nChallenge Rating: | 11 |\nTreasure: | Standard |\nAlignment: | Always lawful evil |\nAdvancement: | 13-24 (Medium); 25-36 HD (Large) |\nLevel Adjustment: | -- |\nA barbed devil is about 7 feet tall and weighs about 300 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::019_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::021_combat"
+}

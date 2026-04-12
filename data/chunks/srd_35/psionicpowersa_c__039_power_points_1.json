@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::039_power_points_1",
+  "document_id": "srd_35::psionicpowersa_c::039_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#039_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "This power increases your land speed by 10 feet. (This adjustment counts as an enhancement bonus to speed.)\nYou can manifest this power with an instant thought, quickly enough to gain the benefit of the power on your turn before you move. Manifesting this power is a swift action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You cannot manifest this power when it isn't your turn.\nCall to Mind\nTelepathy [Mind-Affecting]\nLevel: Psion/wilder 1\nDisplay: Mental\nManifesting Time: 1 minute",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::038_power_points_11",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::040_power_points_1"
+}

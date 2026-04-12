@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::003_prerequisites",
+  "document_id": "srd_35::epicfeats::003_prerequisites",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "PREREQUISITES"
+    ],
+    "source_location": "EpicFeats.rtf#003_prerequisites"
+  },
+  "chunk_type": "subsection",
+  "content": "Most epic feats have prerequisites. A character must have the listed ability score, feat, skill, class feature, or base attack modifier in order to select or use that feat. A character can gain an epic feat at the same level at which he or she gains the prerequisite, just as with regular feats. A prerequisite expressed as a numerical value is a minimum; any value higher than the one given also meets the prerequisite. A character can't use an epic feat if he or she has lost a prerequisite.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::002_acquiring_epic_feats",
+  "next_chunk_id": "chunk::srd_35::epicfeats::004_types_of_epic_feats"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::031_range",
+  "document_id": "srd_35::powersoverview::031_range",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "RANGE"
+    ],
+    "source_location": "PowersOverview.rtf#031_range"
+  },
+  "chunk_type": "subsection",
+  "content": "A power's range indicates how far from you it can reach, as defined in the Range entry of the power description. A power's range is the maximum distance from you that the power's effect can occur, as well as the maximum distance at which you can designate the power's point of origin. If any portion of the area would extend beyond the range, that area is wasted. Standard ranges include the following.\nPersonal: The power affects only you.\nTouch: You must touch a creature or object to affect it. A touch power that deals damage can score a critical hit just as a weapon can. A touch power threatens a critical hit on a natural roll of 20 and deals double damage on a successful critical hit. Some touch powers allow you to touch multiple targets. You can touch as many willing targets as you can reach, but all targets of the spell must be touched in the same round that you manifest the power.\nClose: The power reaches as far as 25 feet away from you. The maximum range increases 5 feet for every two manifester levels you have.\nMedium: The power reaches as far as 100 feet + 10 feet per manifester level.\nLong: The power reaches as far as 400 feet + 40 feet per manifester level.\nRange Expressed in Feet: Some powers have no standard range category, just a range expressed in feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::030_new_action_types",
+  "next_chunk_id": "chunk::srd_35::powersoverview::032_aiming_a_power"
+}

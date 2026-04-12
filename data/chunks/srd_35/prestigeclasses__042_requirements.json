@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::042_requirements",
+  "document_id": "srd_35::prestigeclasses::042_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#042_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a loremaster, a character must fulfill all the following criteria.\nSkills: Knowledge (any two) 10 ranks in each.\nFeats: Any three metamagic or item creation feats, plus Skill Focus (Knowledge [any individual Knowledge skill]).\nSpells: Able to cast seven different divination spells, one of which must be 3rd level or higher.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::041_terrain_mastery_benefits",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::043_class_skills"
+}

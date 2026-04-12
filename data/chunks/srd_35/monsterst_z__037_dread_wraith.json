@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::037_dread_wraith",
+  "document_id": "srd_35::monsterst_z::037_dread_wraith",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "DREAD WRAITH"
+    ],
+    "source_location": "MonstersT-Z.rtf#037_dread_wraith"
+  },
+  "chunk_type": "subsection",
+  "content": "The oldest and most malevolent wraiths lurk in the depths of forgotten temples and other forsaken places. They can sense the approach of living creatures, and hunger for them. Despite its size, the dread wraith possesses unearthly quickness, and makes use of its Spring Attack feat and natural reach to strike with deadly effect and melt back into the shadows--or the walls.\nLifesense (Su): A dread wraith notices and locates living creatures within 60 feet, just as if it possessed the blindsight ability. It also senses the strength of their life force automatically, as if it had cast deathwatch.\nConstitution Drain (Su): Living creatures hit by a dread wraith's incorporeal touch attack must succeed on a DC 25 Fortitude save or take 1d8 points of Constitution drain. The save DC is Charisma-based. On each such successful attack, the dread wraith gains 5 temporary hit points.\nCreate Spawn (Su): Any humanoid slain by a dread wraith becomes a wraith in 1d4 rounds. Its body remains intact and inanimate, but its spirit is torn free from its corpse and transformed. Spawn are under the command of the wraith that created them and remain enslaved until its death. They do not possess any of the abilities they had in life.\n\nHit Dice: | 7d12+14 (59 hp) |\nInitiative: | +1 |\nSpeed: | 20 ft. (4 squares), fly 60 ft. (poor) |\nArmor Class: | 18 (-1 size, +1 Dex, +8 natural), touch 10, flat-footed 17 |\nBase Attack/Grapple: | +7/+15 |\nAttack: | Sting +10 melee (1d6+4 plus poison) or talon +10 melee (2d6+4) or bite +10 melee (2d8+4) |\nFull Attack: | Sting +10 melee (1d6+4 plus poison) and bite +8 melee (2d8+4) and 2 wings +8 melee (1d8+2) and 2 talons +8 melee (2d6+4) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Poison, improved grab |\nSpecial Qualities: | Darkvision 60 ft., immunity to sleep and paralysis, low-light vision, scent |\nSaves: | Fort +7, Ref +6, Will +6 |\nAbilities: | Str 19, Dex 12, Con 15, Int 6, Wis 12, Cha 9 |\nSkills: | Hide +7, Listen +13, Move Silently +11, Spot +16 |\nFeats: | Ability Focus (poison), Alertness, Flyby Attack, MultiattackB |\nEnvironment: | Warm hills |\nOrganization: | Solitary, pair, or flight (3-6) |\nChallenge Rating: | 6 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 8-10 HD (Huge); 11-21 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA distant cousin to the true dragons, the wyvern is a huge flying lizard with a poisonous stinger in its tail.\nA wyvern's body is 15 feet long, and dark brown to gray; half that length is tail. Its wingspan is about 20 feet. A wyvern weighs about one ton.\nWyverns speak Draconic, but usually don't bother with anything more elaborate than a loud hiss or a deep-throated growl much like that of a bull alligator.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::036_wraith",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::038_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::043_plant_domain",
+  "document_id": "srd_35::spelllisti::043_plant_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "PLANT DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#043_plant_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Powers: Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.\nAdd Knowledge (nature) to your list of cleric class skills.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::042_magic_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::044_plant_domain_spells"
+}

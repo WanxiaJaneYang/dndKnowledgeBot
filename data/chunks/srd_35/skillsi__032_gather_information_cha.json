@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::032_gather_information_cha",
+  "document_id": "srd_35::skillsi::032_gather_information_cha",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "GATHER INFORMATION (CHA)"
+    ],
+    "source_location": "SkillsI.rtf#032_gather_information_cha"
+  },
+  "chunk_type": "subsection",
+  "content": "Check: An evening's time, a few gold pieces for buying drinks and making friends, and a DC 10 Gather Information check get you a general idea of a city's major news items, assuming there are no obvious reasons why the information would be withheld. The higher your check result, the better the information.\nIf you want to find out about a specific rumor, or a specific item, or obtain a map, or do something else along those lines, the DC for the check is 15 to 25, or even higher.\nAction: A typical Gather Information check takes 1d4+1 hours.\nTry Again: Yes, but it takes time for each check. Furthermore, you may draw attention to yourself if you repeatedly pursue a certain type of information.\nSpecial: A half-elf has a +2 racial bonus on Gather Information checks.\nIf you have the Investigator feat, you get a +2 bonus on Gather Information checks.\nSynergy: If you have 5 or more ranks in Knowledge (local), you get a +2 bonus on Gather Information checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::031_forgery_int",
+  "next_chunk_id": "chunk::srd_35::skillsi::033_handle_animal_cha_trained_only"
+}

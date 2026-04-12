@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::007_hag_covey",
+  "document_id": "srd_35::monstersh_i::007_hag_covey",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HAG COVEY"
+    ],
+    "source_location": "MonstersH-I.rtf#007_hag_covey"
+  },
+  "chunk_type": "subsection",
+  "content": "From time to time, a trio of hags gathers as a covey. Usually this foul triune includes one hag of each type, but this is not always the case.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::006_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::008_combat"
+}

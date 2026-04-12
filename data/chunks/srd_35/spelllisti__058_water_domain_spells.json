@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::058_water_domain_spells",
+  "document_id": "srd_35::spelllisti::058_water_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Water Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#058_water_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Obscuring Mist: Fog surrounds you.\n2 Fog Cloud: Fog obscures vision.\n3 Water Breathing: Subjects can breathe underwater.\n4 Control Water: Raises or lowers bodies of water.\n5 Ice Storm: Hail deals 5d6 damage in cylinder 40 ft. across.\n6 Cone of Cold: 1d6/level cold damage.\n7 Acid Fog: Fog deals acid damage.\n8 Horrid Wilting: Deals 1d6/level damage within 30 ft.\n9 Elemental Swarm*: Summons multiple elementals.\n*Cast as a water spell only.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::057_water_domain"
+}

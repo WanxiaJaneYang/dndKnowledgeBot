@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::027_trip",
+  "document_id": "srd_35::combatii::027_trip",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "TRIP"
+    ],
+    "source_location": "CombatII.rtf#027_trip"
+  },
+  "chunk_type": "subsection",
+  "content": "You can try to trip an opponent as an unarmed melee attack. You can only trip an opponent who is one size category larger than you, the same size, or smaller.\nMaking a Trip Attack: Make an unarmed melee touch attack against your target. This provokes an attack of opportunity from your target as normal for unarmed attacks.\nIf your attack succeeds, make a Strength check opposed by the defender's Dexterity or Strength check (whichever ability score has the higher modifier). A combatant gets a +4 bonus for every size category he is larger than Medium or a -4 penalty for every size category he is smaller than Medium. The defender gets a +4 bonus on his check if he has more than two legs or is otherwise more stable than a normal humanoid. If you win, you trip the defender. If you lose, the defender may immediately react and make a Strength check opposed by your Dexterity or Strength check to try to trip you.\nAvoiding Attacks of Opportunity: If you have the Improved Trip feat, or if you are tripping with a weapon (see below), you don't provoke an attack of opportunity for making a trip attack.\nBeing Tripped (Prone): A tripped character is prone. Standing up is a move action.\nTripping a Mounted Opponent: You may make a trip attack against a mounted opponent. The defender may make a Ride check in place of his Dexterity or Strength check. If you succeed, you pull the rider from his mount.\nTripping with a Weapon: Some weapons can be used to make trip attacks. In this case, you make a melee touch attack with the weapon instead of an unarmed melee touch attack, and you don't provoke an attack of opportunity.\nIf you are tripped during your own trip attempt, you can drop the weapon to avoid being tripped.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::026_throw_splash_weapon",
+  "next_chunk_id": "chunk::srd_35::combatii::028_turn_or_rebuke_undead"
+}

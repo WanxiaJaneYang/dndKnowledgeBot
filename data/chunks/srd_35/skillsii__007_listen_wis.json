@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsii::007_listen_wis",
+  "document_id": "srd_35::skillsii::007_listen_wis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsII",
+      "LISTEN (WIS)"
+    ],
+    "source_location": "SkillsII.rtf#007_listen_wis"
+  },
+  "chunk_type": "subsection",
+  "content": "Check: Your Listen check is either made against a DC that reflects how quiet the noise is that you might hear, or it is opposed by your target's Move Silently check.\nListen DC | Sound |\n-10 | A battle |\n0 | People talking1 |\n5 | A person in medium armor walking at a slow pace (10 ft./round) trying not to make any noise. |\n10 | An unarmored person walking at a slow pace (15 ft./round) trying not to make any noise |\n15 | A 1st-level rogue using Move Silently to sneak past the listener |\n15 | People whispering1 |\n19 | A cat stalking |\n30 | An owl gliding in for a kill |\n1 If you beat the DC by 10 or more, you can make out what's being said, assuming that you understand the language. |\nListen DC Modifier | Condition |\n+5 | Through a door |\n+15 | Through a stone wall |\n+1 | Per 10 feet of distance |\n+5 | Listener distracted |\nIn the case of people trying to be quiet, the DCs given on the table could be replaced by Move Silently checks, in which case the indicated DC would be their average check result.\nAction: Varies. Every time you have a chance to hear something in a reactive manner (such as when someone makes a noise or you move into a new area), you can make a Listen check without using an action. Trying to hear something you failed to hear previously is a move action.\nTry Again: Yes. You can try to hear something that you failed to hear previously with no penalty.\nSpecial: When several characters are listening to the same thing, a single 1d20 roll can be used for all the individuals' Listen checks.\nA fascinated creature takes a -4 penalty on Listen checks made as reactions.\nIf you have the Alertness feat, you get a +2 bonus on Listen checks.\nA ranger gains a bonus on Listen checks when using this skill against a favored enemy.\nAn elf, gnome, or halfling has a +2 racial bonus on Listen checks.\nA half-elf has a +1 racial bonus on Listen checks..\nA sleeping character may make Listen checks at a -10 penalty. A successful check awakens the sleeper.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsii::006_knowledge_int_trained_only",
+  "next_chunk_id": "chunk::srd_35::skillsii::008_move_silently_dex_armor_check_penalty"
+}

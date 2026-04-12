@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::031_combat",
+  "document_id": "srd_35::monstersm_n::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Night hags attack good creatures on sight if the odds of success seem favorable.\nThese creatures rip through armor and flesh with their deadly teeth. They love to use sleep and then strangle those who are overcome by it.\nA night hag's natural weapons, as well as any weapons it wields, are treated as evil-aligned for the purpose of overcoming damage reduction. Its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nDisease (Ex): Demon fever--bite, Fortitude DC 18, incubation period 1 day, damage 1d6 Con. Each day after the first, on a failed save, an afflicted creature must immediately succeed on another DC 18 Fortitude save or take 1 point of Constitution drain. The save DC is Constitution based.\nSpell-Like Abilities: At will--detect chaos, detect evil, detect good, detect law, detect magic, magic missile, polymorph (self only), ray of enfeeblement (DC 12), sleep (DC 12). Caster level 8th. A night hag can use etherealness at will (caster level 16th) so long as it possesses its heartstone (see below). The save DCs are Charisma-based.\nDream Haunting (Su): Night hags can visit the dreams of chaotic or evil individuals by using a special periapt known as a heartstone to become ethereal, then hovering over the creature. Once a hag invades someone's dreams, it rides on the victim's back until dawn. The sleeper suffers from tormenting dreams and takes 1 point of Constitution drain upon awakening. Only another ethereal being can stop these nocturnal intrusions, by confronting and defeating the night hag.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::030_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::032_heartstone"
+}

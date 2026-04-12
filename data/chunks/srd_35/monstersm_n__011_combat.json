@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::011_combat",
+  "document_id": "srd_35::monstersm_n::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): 10-foot cone of ice shards, damage 1d4 cold, Reflex DC 12 half. Living creatures that fail their saves are tormented by frostbitten skin and frozen eyes unless they have immunity to cold or are otherwise protected. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.\nSpell-Like Abilities: 1/hour--magic missile (caster level 3rd); 1/day--chill metal (DC 14, caster level 6th). The save DC is Charisma-based.\nFast Healing (Ex): An ice mephit heals only if it is touching a piece of ice of at least Tiny size or if the ambient temperature is 32\u00b0F. or below.\n\nHit Dice: | 3d8 (13 hp) |\nInitiative: | +5 |\nSpeed: | 30 ft. (6 squares), fly 50 ft. (average) |\nArmor Class: | 16 (+1 size, +1 Dex, +4 natural), touch 12, flat-footed 15 |\nBase Attack/Grapple: | +3/-1 |\nAttack: | Claw +4 melee (1d3 plus 1d4 fire) |\nFull Attack: | 2 claws +4 melee (1d3 plus 1d4 fire) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Breath weapon, spell-like abilities, summon mephit |\nSpecial Qualities: | Damage reduction 5/magic, darkvision 60 ft., fast healing 2, immunity to fire, vulnerability to cold |\nSaves: | Fort +3, Ref +4, Will +3 |\nAbilities: | Str 10, Dex 13, Con 10, Int 6, Wis 11, Cha 15 |\nSkills: | Bluff +8, Escape Artist +7, Hide +11, Listen +6, Diplomacy +4, Disguise +2 (+4 acting), Move Silently +7, Spot +6, Use Rope +1 (+3 with bindings) |\nFeats: | Dodge, Improved Initiative |\nEnvironment: | Elemental Plane of Fire |\nOrganization: | Solitary (1), gang (2-4 mephits of mixed types), or mob (5-12 mephits of mixed types) |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 4-6 HD (Small); 7-9 HD (Medium) |\nLevel Adjustment: | +3 (cohort) |\nMagma mephits come from the Elemental Plane of Fire. Magma mephits are slow-witted and brutish. Each one is about 4 feet tall and weighs about 60 pounds.\nMagma mephits speak Common and Ignan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::010_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::012_combat"
+}

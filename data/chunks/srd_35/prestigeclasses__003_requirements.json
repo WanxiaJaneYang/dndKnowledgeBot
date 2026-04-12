@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::003_requirements",
+  "document_id": "srd_35::prestigeclasses::003_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#003_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become an arcane archer, a character must fulfill all the following criteria.\nRace: Elf or half-elf.\nBase Attack Bonus: +6.\nFeats: Point Blank Shot, Precise Shot, Weapon Focus (longbow or shortbow).\nSpells: Ability to cast 1st-level arcane spells.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::002_prestige_classes",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::004_class_skills"
+}

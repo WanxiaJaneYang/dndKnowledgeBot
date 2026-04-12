@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::095_power_points_5",
+  "document_id": "srd_35::psionicpowersg_p::095_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#095_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "The air ripples with the force of your mental attack, which blasts the minds of all creatures in range. Psionic blast stuns all affected creatures for 1 round.\nAugment: For every 2 additional power points you spend, the duration of the stun effect increases by 1 round.\nPsionic Lion's Charge\nPsychometabolism\nLevel: Psychic warrior 2\nDisplay: Mental\nManifesting Time: 1 swift action",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::094_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::096_power_points_3"
+}

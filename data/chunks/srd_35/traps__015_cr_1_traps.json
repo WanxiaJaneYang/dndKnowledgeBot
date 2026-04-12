@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::015_cr_1_traps",
+  "document_id": "srd_35::traps::015_cr_1_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 1 Traps"
+    ],
+    "source_location": "Traps.rtf#015_cr_1_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Basic Arrow Trap: CR 1; mechanical; proximity trigger; manual reset; Atk +10 ranged (1d6/x3, arrow); Search DC 20; Disable Device DC 20. Market Price: 2,000 gp.\nCamouflaged Pit Trap: CR 1; mechanical; location trigger; manual reset; DC 20 Reflex save avoids; 10 ft. deep (1d6, fall); Search DC 24; Disable Device DC 20. Market Price: 1,800 gp.\nDeeper Pit Trap: CR 1; mechanical; location trigger; manual reset; hidden switch bypass (Search DC 25); DC 15 Reflex save avoids; 20 ft. deep (2d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); Search DC 20; Disable Device DC 23. Market Price: 1,300 gp.\nFusillade of Darts: CR 1; mechanical; location trigger; manual reset; Atk +10 ranged (1d4+1, dart); multiple targets (fires 1d4 darts at each target in two adjacent 5-ft. squares); Search DC 14; Disable Device DC 20. Market Price: 500 gp.\nPoison Dart Trap: CR 1; mechanical; location trigger; manual reset; Atk +8 ranged (1d4 plus poison, dart); poison (bloodroot, DC 12 Fortitude save resists, 0/1d4 Con plus 1d3 Wis); Search DC 20; Disable Device DC 18. Market Price: 700 gp.\nPoison Needle Trap: CR 1; mechanical; touch trigger; manual reset; Atk +8 ranged (1 plus greenblood oil poison); Search DC 22; Disable Device DC 20. Market Price: 1,300 gp.\nPortcullis Trap: CR 1; mechanical; location trigger; manual reset; Atk +10 melee (3d6); Search DC 20; Disable Device DC 20. Note: Damage applies only to those underneath the portcullis. Portcullis blocks passageway. Market Price: 1,400 gp.\nRazor-Wire across Hallway: CR 1; mechanical; location trigger; no reset; Atk +10 melee (2d6, wire); multiple targets (first target in each of two adjacent 5-ft. squares); Search DC 22; Disable Device DC 15. Market Price: 400 gp.\nRolling Rock Trap: CR 1; mechanical; location trigger; manual reset; Atk +10 melee (2d6, rock); Search DC 20; Disable Device DC 22. Market Price: 1,400 gp.\nScything Blade Trap: CR 1; mechanical; location trigger; automatic reset; Atk +8 melee (1d8/x3); Search DC 21; Disable Device DC 20. Market Price: 1,700 gp.\nSpear Trap: CR 1; mechanical; location trigger; manual reset; Atk +12 ranged (1d8/x3, spear); Search DC 20; Disable Device DC 20. Note: 200-ft. max range, target determined randomly from those in its path. Market Price: 1,200 gp.\nSwinging Block Trap: CR 1; mechanical; touch trigger; manual reset; Atk +5 melee (4d6, stone block); Search DC 20; Disable Device DC 20. Market Price: 500 gp.\nWall Blade Trap: CR 1; mechanical; touch trigger; automatic reset; hidden switch bypass (Search DC 25); Atk +10 melee (2d4/x4, scythe); Search DC 22; Disable Device DC 22. Market Price: 2,500 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::014_sample_traps",
+  "next_chunk_id": "chunk::srd_35::traps::016_cr_2_traps"
+}

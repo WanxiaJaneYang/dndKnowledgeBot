@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::031_combat",
+  "document_id": "srd_35::monstersdr_dw::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "COMBAT"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Shy, intelligent, and resolute, dryads are as elusive as they are alluring--they avoid physical combat and are rarely seen unless they wish to be. If threatened, or in need of an ally, a dryad uses charm person or suggestion, attempting to gain control of the attacker(s) who could help the most against the rest. Any attack on her tree, however, provokes the dryad into a frenzied defense.\nSpell-Like Abilities: At will--entangle (DC 13), speak with plants, tree shape; 3/day-- charm person (DC 13), deep slumber (DC 15), tree stride; 1/day--suggestion (DC 15). Caster level 6th. The save DCs are Wisdom-based.\nTree Dependent (Su): Each dryad is mystically bound to a single, enormous oak tree and must never stray more than 300 yards from it. Any who do become ill and die within 4d6 hours. A dryad's oak does not radiate magic.\nWild Empathy (Ex): This power works like the druid's wild empathy class feature, except that the dryad has a +6 racial bonus on the check.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::030_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::032_dwarf"
+}

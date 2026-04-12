@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::037_power_points_3",
+  "document_id": "srd_35::psionicpowersq_w::037_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#037_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You gain the ability to siphon away your enemy's strength for your own use. One of your natural or manufactured weapons becomes the instrument of your desire, and deals 1 point of Strength damage on each successful hit. You gain that point of Strength as an enhancement bonus to your Strength score. Strength you siphon from different foes is tracked separately--the total siphoned from each individual foe is considered a separate enhancement bonus to your Strength (maximum +8), and you gain only the highest total.\nAugment: You can augment this power in one or both of the following ways.\n1. For every 3 additional power points you spend, the maximum enhancement bonus you can add to your Strength increases by 2.\n2. If you spend 6 additional power points, you can manifest this power as a swift action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::036_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::038_display_auditory"
+}

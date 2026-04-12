@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::009_requirements",
+  "document_id": "srd_35::prestigeclasses::009_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#009_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become an archmage, a character must fulfill all the following criteria.\nSkills: Knowledge (arcana) 15 ranks, Spellcraft 15 ranks.\nFeats: Skill Focus (Spellcraft), Spell Focus in two schools of magic.\nSpells: Ability to cast 7th-level arcane spells, knowledge of 5th-level or higher spells from at least five schools.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::008_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::010_class_skills"
+}

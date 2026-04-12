@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::008_class_features",
+  "document_id": "srd_35::npcclasses::008_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Class Features"
+    ],
+    "source_location": "NPCClasses.rtf#008_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "The following is a class feature of the commoner NPC class.\nWeapon and Armor Proficiency: The commoner is proficient with one simple weapon. He is not proficient with any other weapons, nor is he proficient with any type of armor or shields.\nEXPERT\nHit Die: d6.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::007_class_skills",
+  "next_chunk_id": "chunk::srd_35::npcclasses::009_class_skills"
+}

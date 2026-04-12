@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::030_class_skills",
+  "document_id": "srd_35::prestigeclasses::030_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "PrestigeClasses.rtf#030_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The defender's class skills (and the key ability for each skill) are Craft (Int), Listen (Wis), Sense Motive (Wis), and Spot (Wis).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Dwarven Defender |\nLevel | Base\nAttack\nBonus | Fort\nSave | Ref\nSave | Will\nSave | AC Bonus | Special |\n1st | +1 | +2 | +0 | +2 | +1 | Defensive stance 1/day |\n2nd | +2 | +3 | +0 | +3 | +1 | Uncanny dodge |\n3rd | +3 | +3 | +1 | +3 | +1 | Defensive stance 2/day |\n4th | +4 | +4 | +1 | +4 | +2 | Trap sense +1 |\n5th | +5 | +4 | +1 | +4 | +2 | Defensive stance 3/day |\n6th | +6 | +5 | +2 | +5 | +2 | Damage reduction 3/-, improved uncanny dodge |\n7th | +7 | +5 | +2 | +5 | +3 | Defensive stance 4/day |\n8th | +8 | +6 | +2 | +6 | +3 | Mobile defense, trap sense +2 |\n9th | +9 | +6 | +3 | +6 | +3 | Defensive stance 5/day |\n10th | +10 | +7 | +3 | +7 | +4 | Damage reduction 6/- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::029_requirements",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::031_class_features"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::009_magic_items_for_psionic_characters",
+  "document_id": "srd_35::psionicitems::009_magic_items_for_psionic_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "MAGIC ITEMS FOR PSIONIC CHARACTERS"
+    ],
+    "source_location": "PsionicItems.rtf#009_magic_items_for_psionic_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Many magic items can aid psionic characters. The table below provides some possibilities.\n\nMagic Item | Psionic Effect |\nHelm of telepathy | Substitute power for spell |\nPearl of power | Treat in all ways as a cognizance crystal with power point capacity appropriate to the equivalent power level |\nCrystal ball | Substitute power for spell |\nIoun stones | |\nVibrant purple | Stores three levels of psionic powers |\nPale lavender | Absorbs powers up to 4th level (burns out as normal) |\nRainbow1 | Provides 5 power points per day (regenerates) |\nDull gray2 | Provides 1 power point to a psionic character, then disintegrates |\n1 New item: Treat as a cognizance crystal in ioun stone form, except that it regenerates its stored power points each day; Price 16,000 gp. |\n2 Dull gray stones are useless for magic but still harbor just enough resonance that a psionic character can eke out 1 power point before the stone is gone forever. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::008_charges_and_multiple_uses",
+  "next_chunk_id": "chunk::srd_35::psionicitems::010_psionic_item_descriptions"
+}

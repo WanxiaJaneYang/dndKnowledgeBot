@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::010_combat",
+  "document_id": "srd_35::monsterst_z::010_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#010_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The reclusive tritons prefer to avoid combat, but they fiercely defend their homes. They attack with either melee or ranged weapons as the circumstances warrant. When encountered outside their lair, they are 90% likely to be mounted on friendly sea creatures such as porpoises.\nSpell-Like Abilities: 1/day--summon nature's ally IV. Caster level 7th. Tritons often choose water elementals for their companions.\nSkills: A triton has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 2d8+4 (13 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (-1 Dex, +6 natural), touch 9, flat-footed 15 |\nBase Attack/Grapple: | +1/+1 |\nAttack: | Club +1 melee (1d6) or claw +1 melee (1d4) or javelin +1 ranged (1d6) |\nFull Attack: | Club +1 melee (1d6) and claw -1 melee (1d4) and bite -1 melee (1d4); or 2 claws +1 melee (1d4) and bite -1 melee (1d4); or javelin +1 ranged (1d6) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Stench |\nSpecial Qualities: | Darkvision 90 ft. |\nSaves: | Fort +5, Ref -1, Will +0 |\nAbilities: | Str 10, Dex 9, Con 14, Int 8, Wis 10, Cha 10 |\nSkills: | Hide +5*, Listen +3 |\nFeats: | MultiattackB, Weapon Focus (javelin) |\nEnvironment: | Underground |\nOrganization: | Clutch (2-5), squad (6-11 plus 1-2 monitor lizards), or band (20-80 plus 20% noncombatants plus 3-13 monitor lizards) |\nChallenge Rating: | 1 |\nTreasure: | 50% coins; 50% goods; 50% items |\nAlignment: | Usually chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | +2 |\nA troglodyte stands about 5 feet tall and weighs about 150 pounds.\nTroglodytes speak Draconic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::009_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::011_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::002_artifice_domain",
+  "document_id": "srd_35::divinedomainsandspells::002_artifice_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "ARTIFICE DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#002_artifice_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Gain +4 bonus on Craft checks. The character casts conjuration (creation) spells at +1 caster level. (Those with access to both the Artifice and Creation domains cast conjuration [creation] spells at +3 caster level.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::001_divinedomainsandspells",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::003_artifice_domain_spells"
+}

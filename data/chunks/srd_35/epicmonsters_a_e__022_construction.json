@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::022_construction",
+  "document_id": "srd_35::epicmonsters_a_e::022_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Construction"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#022_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "Only a master necromancer of surpassing power can create a flesh colossus. The bodies of not less than three hundred previously animated Medium-size humanoid creatures must be stripped of their flesh and the bones, which are then rendered in two great vats. The resulting semiliquid bone-paste is then cast into a new articulated skeleton of great size, to which the rendered flesh is applied like wet clay to shape the figure. Finally, the necromancer must bind a ghost of at least 10 HD (the more powerful the better) into the colossus to act as its controlling spirit. Without the controlling spirit, the colossus is just an oversized zombie; with it, it functions as a golem of great size and repugnant appearance. If no ghost is available, the necromancer may occupy the colossus himself by casting magic jar. The colossus costs 760,000 gp to create, which includes 100,000 gp for the body. Assembling the body takes no great skill, and many flesh colossi reveal that fact in their uncouth forms. The creator must be 29th level and able to cast epic spells. Completing the ritual drains 30,600 XP from the creator and requires magic jar, limited wish, polymorph any object, and finger of death.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::021_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::023_iron_colossus"
+}

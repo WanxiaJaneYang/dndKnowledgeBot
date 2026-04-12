@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::025_power_points_5",
+  "document_id": "srd_35::psionicpowersd_f::025_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#025_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You instantly transfer yourself from your current location to any other spot within range to which you have line of sight. You can bring along possessions that amount to as much as a medium load, including living creatures that weigh as much as 20 pounds. Movement caused by the use of dimension slide does not provoke attacks of opportunity.\nIf you somehow attempt to transfer yourself to a location occupied by a solid body or a location you can't see the power simply fails to function.\nAugment: If you spend 4 additional power points, you can manifest this power as a move action.\nDimension Swap\nPsychoportation (Teleportation)\nLevel: Nomad 2, psychic warrior 2",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::024_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::026_display_visual"
+}

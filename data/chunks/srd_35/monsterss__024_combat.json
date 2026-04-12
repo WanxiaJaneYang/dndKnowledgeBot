@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::024_combat",
+  "document_id": "srd_35::monsterss::024_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#024_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Most sphinxes fight on the ground, using their wings to help them pounce much as lions do. If outnumbered by earthbound creatures, a sphinx takes wing and attacks on the fly.\nPounce (Ex): If a sphinx charges a foe, it can make a full attack, including two rake attacks.\nRake (Ex): A sphinx that pounces onto a creature can make two rake attacks with its hind legs. Each sphinx's description provides its attack bonus and damage.\n\nHit Dice: | 12d10+48 (114 hp) |\nInitiative: | +0 |\nSpeed: | 50 ft. (10 squares), fly 80 ft. (poor) |\nArmor Class: | 22 (-1 size, +13 natural), touch 9, flat-footed 22 |\nBase Attack/Grapple: | +12/+23 |\nAttack: | Claw +18 melee (2d4+7) |\nFull Attack: | 2 claws +18 melee (2d4+7) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Pounce, rake 2d4+3, roar, spells |\nSpecial Qualities: | Darkvision 60 ft., low-light vision |\nSaves: | Fort +12, Ref +8, Will +7 |\nAbilities: | Str 25, Dex 10, Con 19, Int 16, Wis 17, Cha 17 |\nSkills: | Intimidate +17, Knowledge (any one) +18, Listen +18, Spot +18, Survival +18 |\nFeats: | Alertness, Cleave, Great Cleave, Flyby Attack, Power Attack, Track |\nEnvironment: | Warm deserts |\nOrganization: | Solitary |\nChallenge Rating: | 9 |\nTreasure: | Standard |\nAlignment: | Always chaotic good |\nAdvancement: | 13-18 HD (Large); 19-36 HD (Huge) |\nLevel Adjustment: | +5 (cohort) |\nThese sphinxes are always male. Androsphinxes are clever and generally good-natured, but they can be savage opponents.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::023_sphinx",
+  "next_chunk_id": "chunk::srd_35::monsterss::025_combat"
+}

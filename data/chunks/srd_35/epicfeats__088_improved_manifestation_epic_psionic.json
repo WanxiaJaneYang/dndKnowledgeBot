@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::088_improved_manifestation_epic_psionic",
+  "document_id": "srd_35::epicfeats::088_improved_manifestation_epic_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED MANIFESTATION [EPIC, PSIONIC]"
+    ],
+    "source_location": "EpicFeats.rtf#088_improved_manifestation_epic_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You increase your power point reserve.\nPrerequisites: Character level 21st, ability to manifest powers of the normal maximum power level in at least one psionic class.\nBenefit: When you select this feat, you gain 19 power points.\nSpecial: You can gain this feat multiple times. Each time you do so, you gain an additional number of power points\nequal to your previous benefit +2.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::087_improved_low_light_vision_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::089_prerequisites_dex_19_base_attack_bonus_21_many_shot_point_blank_shot_rapid_shot"
+}

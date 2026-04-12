@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::023_divine_armor_mastery",
+  "document_id": "srd_35::divineabilitiesandfeats::023_divine_armor_mastery",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Armor Mastery"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#023_divine_armor_mastery"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Armor Proficiency (light), Armor Proficiency (medium).\nBenefit: The deity ignores the maximum Dexterity bonus limit for medium or light armor.\nSuggested Portfolio Elements: War.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::022_divine_archery",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::024_divine_bard"
+}

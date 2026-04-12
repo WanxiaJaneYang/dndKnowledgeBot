@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::025_combat",
+  "document_id": "srd_35::monstersintro_a::025_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#025_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The save DC for the aboleth mage's transformation tentacle attack (DC 21) and its mucus cloud (DC 21) are adjusted for its higher Constitution score. The save DC for its enslave ability (DC 16) is adjusted for its lower Charisma score, as are the save DCs for its psionic abilities: Hypnotic pattern (DC 14), illusory wall (DC 16), mirage arcana (DC 17), persistent image (DC 17), programmed image (DC 18), project image (DC 19), veil (DC 18). Effective caster level 16th.\nThe aboleth mage uses a number of spells, such as displacement, greater invisibility, and wall of force, to protect itself while seizing control of its foes with spells and innate abilities.\nTypical Wizard Spells Prepared (4/6/5/4/4/3; save DC 15 + spell level): 0--daze, detect magic (2), resistance; 1st--alarm, charm person, color spray, mage armor, magic missile (2); 2nd--blur, bull's strength, darkness, fox's cunning, see invisibilty; 3rd--dispel magic, displacement, fly, lightning bolt; 4th--greater invisibility, phantasmal killer, scrying, stoneskin; 5th--hold monster, empowered lightning bolt, wall of force.\n\nHit Dice: | 6d8+12 (39 hp) |\nInitiative: | +1 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 20 (-1 size, +1 Dex, +10 natural), touch 10, flat-footed 19 |\nBase Attack/Grapple: | +6/+14 |\nAttack: | Claw +9 melee (2d6+4) |\nFull Attack: | 2 claws +9 melee (2d6+4) and bite +4 melee (4d6+2) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Black cloud |\nSpecial Qualities: | Darkvision 60 ft., spell resistance 19 |\nSaves: | Fort +7, Ref +6, Will +7 |\nAbilities: | Str 19, Dex 13, Con 14, Int 11, Wis 14, Cha 16 |\nSkills: | Balance +10, Climb +13, Diplomacy +5, Hide +6, Jump +21, Listen +11, Move Silently +10, Sense Motive +11, Spot +11 |\nFeats: | Dodge, Mobility, Spring Attack |\nEnvironment: | A lawful-aligned plane |\nOrganization: | Solitary or flock (5-8) |\nChallenge Rating: | 5 |\nTreasure: | Double standard |\nAlignment: | Always lawful evil |\nAdvancement: | 7-12 HD (Large); 13-18 HD (Huge) |\nLevel Adjustment: | -- |\nAchaierais are massive, 15-foot-tall flightless birds that inhabit lawful planes of battle and are only occasionally encountered elsewhere.\nAchaierais speak Infernal. They weigh about 750 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::024_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::026_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::049_narrow_mind_psionic",
+  "document_id": "srd_35::psionicsfeats::049_narrow_mind_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "NARROW MIND [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#049_narrow_mind_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your ability to concentrate is as keen as an arrowhead, allowing you to gain your psionic focus even in the most turbulent situations.\nPrerequisite: Wis 13.\nBenefit: You gain a +4 bonus on Concentration checks you make to become psionically focused.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::048_mind_over_body_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::050_open_minded_general"
+}

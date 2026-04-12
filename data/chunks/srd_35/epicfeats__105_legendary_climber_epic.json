@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::105_legendary_climber_epic",
+  "document_id": "srd_35::epicfeats::105_legendary_climber_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LEGENDARY CLIMBER [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#105_legendary_climber_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 21, Balance 12 ranks, Climb 24 ranks.\nBenefit: The character can ignore any check penalties applied for accelerated climbing or rapid climbing.\nNormal: Without this feat, a character takes a -5 penalty on Climb checks when attempting to cover his or her full speed in climbing distance in a round, or a -20 penalty when attempting to cover twice his or her speed in climbing distance in a round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::104_lasting_inspiration_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::106_legendary_commander_epic"
+}

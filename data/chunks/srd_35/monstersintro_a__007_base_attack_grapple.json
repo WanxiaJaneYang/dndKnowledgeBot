@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::007_base_attack_grapple",
+  "document_id": "srd_35::monstersintro_a::007_base_attack_grapple",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Base Attack/Grapple"
+    ],
+    "source_location": "MonstersIntro-A.rtf#007_base_attack_grapple"
+  },
+  "chunk_type": "subsection",
+  "content": "The number before the slash on this line is the creature's base attack bonus (before any modifiers are applied). This number won't often be used, but it can be handy sometimes, especially if the creature has the Power Attack or Combat Expertise feats.\nThe number after the slash is the creature's grapple bonus, which is used when the creature makes a grapple attack or when someone tries to grapple the creature. The grapple bonus includes all modifiers that apply to the creature's grapple checks (base attack bonus, Strength modifier, special size modifier, and any other applicable modifier, such as a racial bonus on grapple checks).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::006_armor_class",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::008_attack"
+}

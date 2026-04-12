@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::005_combat",
+  "document_id": "srd_35::monstersd_de::005_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#005_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Babaus are sneaky and sly. They attack the most powerful foe first, hoping to eliminate the true threats quickly and then toy with the rest. When ambushing their opponents, they make excellent use of the combination of multiple attacks and sneak attacks.\nA babau's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nSneak Attack (Ex): A babau can make a sneak attack like a rogue, dealing an extra 2d6 points of damage whenever a foe is denied his or her Dexterity bonus, or when the babau is flanking.\nSpell-Like Abilities: At will--darkness, dispel magic, see invisibility, greater teleport (self plus 50 pounds of objects only). Caster level 7th.\nProtective Slime (Su): A slimy red jelly coats the babau's skin. Any weapon that touches it takes 1d8 points of acid damage from the corrosive goo, and the weapon's hardness does not reduce this damage. A magic weapon may attempt a DC 18 Reflex save to avoid taking this damage. A creature who strikes the babau with an unarmed attack, unarmed strike, touch spell, or natural weapon takes this damage as well but can negate the damage with a DC 18 Reflex save. The save DCs are Constitution-based.\nSummon Demon (Sp):Once per day a babau can attempt to summon 1 babau with a 40% chance of success. This ability is the equivalent of a 3rd-level spell.\nSkills: Babaus have a +8 racial bonus on Hide, Listen, Move Silently, and Search checks.\n\nHit Dice: | 20d8+200 (290 hp) |\nInitiative: | +11 |\nSpeed: | 40 ft. (8 squares), fly 90 ft. (good) |\nArmor Class: | 35 (-1 size, +7 Dex, +19 natural), touch 16, flat-footed 28 |\nBase Attack/Grapple: | +20/+36 |\nAttack: | +1 vorpal longsword +33 melee (2d6+8/19-20) |\nFull Attack: | +1 vorpal longsword +31/+26/+21/+16 melee (2d6+8/19-20) and +1 flaming whip +30/+25 melee (1d4+4 plus 1d6 fire plus entangle); or 2 slams +31 melee (1d10+7) |\nSpace/Reach: | 10 ft./10 ft. (20 ft. with +1 flaming whip) |\nSpecial Attacks: | Death throes, entangle, spell-like abilities, summon demon, vorpal sword |\nSpecial Qualities: | Damage reduction 15/cold iron and good, darkvision 60 ft., flaming body, immunity to electricity, fire, and poison, resistance to acid 10 and cold 10, spell resistance 28, telepathy 100 ft., true seeing |\nSaves: | Fort +22, Ref +19, Will +19 |\nAbilities: | Str 35, Dex 25, Con 31, Int 24, Wis 24, Cha 26 |\nSkills: | Bluff +31, Concentration +33, Diplomacy +35, Disguise +8 (+10 acting), Hide +26, Intimidate +33, Knowledge (any two) +30, Listen +38, Move Silently +30, Search +30, Sense Motive +30, Spellcraft +30 (+32 scrolls), Spot +38, Survival +7 (+9 following tracks), Use Magic Device +31 (+33 scrolls) |\nFeats: | Cleave, Improved Initiative, Improved Two-Weapon Fighting, Power Attack, Quicken Spell-Like Ability (telekinesis), Two-Weapon Fighting, Weapon Focus (longsword) |\nEnvironment: | A chaotic evil-aligned plane |\nOrganization: | Solitary or troupe (1 balor, 1 marilith, and 2-5 hezrous) |\nChallenge Rating: | 20 |\nTreasure: | Standard coins; double goods; standard items, plus +1 vorpal greatsword and +1 flaming whip |\nAlignment: | Always chaotic evil |\nAdvancement: | 21-30 HD (Large); 31-60 HD (Huge) |\nLevel Adjustment: | -- |\nA balor stands about 12 feet tall. Its skin is usually dark red. It weighs about 4,500 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::004_demon",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::006_combat"
+}

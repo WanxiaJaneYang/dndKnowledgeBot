@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::021_combat",
+  "document_id": "srd_35::epicmonsters_a_e::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Frightful Presence (Ex): All who come within a mile of the flesh colossus must make Will saves (DC 55). Those who make their saves are shaken. Those who fail by 20 points or less are frightened. Those who fail by 21 to 40 points are panicked. Those who fail by 41 points or more are cowering. The DC is Charisma-based.\nHorrific Appearance (Su): Once per day, the controlling spirit within a flesh colossus may draw upon the negative energy latent in the construct to transform its countenance into a horrible leering visage: All within 300 feet who see this must make a Fortitude save (DC 55) or take 2d4 points of temporary Strength, Dexterity, and Constitution damage. The DC is Charisma-based.\nStomp (Ex): As a full-round action, a flesh colossus may stomp upon any adjacent foe (that is, any within the area it threatens). Its attack roll modifier for this special attack is +65 (+75 base, -2 Dex, -8 size). If successful, the stomp deals double damage (8d6 +24) and pins the victim until the colossus chooses to release him or her.\nStench (Ex): All creatures with a sense of smell who come within 300 feet of the construct must make a Fortitude save (DC 60) or be nauseated (unable to attack, cast spells, concentrate on spells, or do anything else requiring attention, except for a single move or move-equivalent action per round). Those who succeed on their saves take a -4 circumstance penalty on all attack rolls, saving throws, and skill checks for the next 2d6+4 minutes. The DC is Constitution-based.\nMagic Immunity (Ex): A flesh colossus is immune to all magical and supernatural effects except those that use negative energy (see below).\nNegative Energy Affinity (Su): Any negative energy spell targeted at the colossus repairs damage taken by the colossus at the rate of 1d10 hit points per level of the spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::020_flesh_colossus",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::022_construction"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::039_tremorsense",
+  "document_id": "srd_35::abilitiesandconditions::039_tremorsense",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "TREMORSENSE"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#039_tremorsense"
+  },
+  "chunk_type": "subsection",
+  "content": "A creature with tremorsense automatically senses the location of anything that is in contact with the ground and within range.\nIf no straight path exists through the ground from the creature to those that it's sensing, then the range defines the maximum distance of the shortest indirect path. It must itself be in contact with the ground, and the creatures must be moving.\nAs long as the other creatures are taking physical actions, including casting spells with somatic components, they're considered moving; they don't have to move from place to place for a creature with tremorsense to detect them.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::038_successful_spell_resistance",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::040_turn_resistance"
+}

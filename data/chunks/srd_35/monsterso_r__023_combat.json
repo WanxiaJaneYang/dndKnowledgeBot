@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::023_combat",
+  "document_id": "srd_35::monsterso_r::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A giant owl attacks by gliding silently just a few feet above its prey and plunging to strike when directly overhead.\nSuperior Low-Light Vision (Ex): A giant owl can see five times as far as a human can in dim light.\nSkills: Giant owls have a +8 racial bonus on Listen checks and a +4 racial bonus on Spot checks.\n*When in flight, giant owls gain a +8 bonus on Move Silently checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::022_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::024_training_a_giant_owl"
+}

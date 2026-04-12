@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::017_blind_fight_general",
+  "document_id": "srd_35::feats::017_blind_fight_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "BLIND-FIGHT [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#017_blind_fight_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.\nAn invisible attacker gets no advantages related to hitting you in melee. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible. The invisible attacker's bonuses do still apply for ranged attacks, however.\nYou take only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces your speed to three-quarters normal, instead of one-half.\nNormal: Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.\nSpecial: The Blind-Fight feat is of no use against a character who is the subject of a blink spell.\nA fighter may select Blind-Fight as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::016_augment_summoning_general",
+  "next_chunk_id": "chunk::srd_35::feats::018_brew_potion_item_creation"
+}

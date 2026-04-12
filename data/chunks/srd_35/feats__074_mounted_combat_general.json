@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::074_mounted_combat_general",
+  "document_id": "srd_35::feats::074_mounted_combat_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "MOUNTED COMBAT [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#074_mounted_combat_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ride 1 rank.\nBenefit: Once per round when your mount is hit in combat, you may attempt a Ride check (as a reaction) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll. (Essentially, the Ride check result becomes the mount's Armor Class if it's higher than the mount's regular AC.)\nSpecial: A fighter may select Mounted Combat as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::073_mounted_archery_general",
+  "next_chunk_id": "chunk::srd_35::feats::075_natural_spell_general"
+}

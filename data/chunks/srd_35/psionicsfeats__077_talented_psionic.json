@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::077_talented_psionic",
+  "document_id": "srd_35::psionicsfeats::077_talented_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "TALENTED [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#077_talented_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can overchannel powers with less cost to yourself.\nPrerequisite: Overchannel.\nBenefit: To use this feat, you must expend your psionic focus. When manifesting a power of 3rd level or lower, you do not take damage from overchanneling.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::076_stand_still_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::078_twin_power_metapsionic"
+}

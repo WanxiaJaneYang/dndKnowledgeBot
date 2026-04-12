@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::009_bypass_optional_element",
+  "document_id": "srd_35::traps::009_bypass_optional_element",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Bypass (Optional Element)"
+    ],
+    "source_location": "Traps.rtf#009_bypass_optional_element"
+  },
+  "chunk_type": "subsection",
+  "content": "If the builder of a trap wants to be able to move past the trap after it is created or placed, it's a good idea to build in a bypass mechanism --something that temporarily disarms the trap. Bypass elements are typically used only with mechanical traps; spell traps usually have built-in allowances for the caster to bypass them.\nLock: A lock bypass requires a DC 30 Open Lock check to open.\nHidden Switch: A hidden switch requires a DC 25 Search check to locate.\nHidden Lock: A hidden lock combines the features above, requiring a DC 25 Search check to locate and a DC 30 Open Lock check to open.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::008_repairing_and_resetting_mechanical_traps",
+  "next_chunk_id": "chunk::srd_35::traps::010_search_and_disable_device_dcs"
+}

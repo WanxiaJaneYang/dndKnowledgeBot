@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::019_combat",
+  "document_id": "srd_35::monstersd_de::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "COMBAT"
+    ],
+    "source_location": "MonstersD-De.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A destrachan uses its claws only as a last resort or to finish off foes weakened by its sonic attacks. It often enters battle with surprise if possible. It first focuses on destroying metal armor and weapons and then changes to harmonics that disrupt flesh.\nDestructive Harmonics (Su): A destrachan can blast sonic energy in a cone up to 80 feet long. It can also use this attack to affect any creatures or objects within a 30-foot radius. It can tune the harmonics of this destructive power to affect different types of targets. All save DCs are Charisma-based.\nFlesh: Disrupting tissue and rending bone, this attack deals 4d6 points of damage to all within the area (Reflex DC 15 half ).\nNerves: A destrachan can focus its harmonics to knock out foes rather than slay them. This attack deals 6d6 points of nonlethal damage to all within the area (Reflex DC 15 half ).\nMaterial: When using this form of harmonics, a destrachan chooses wood, stone, metal, or glass. All objects made of that material within the area must succeed on a DC 15 Fortitude save or shatter. Objects (or portions of objects) that have up to 30 hit points are potentially affected by this attack.\nBlindsight (Ex): A destrachan can use hearing to ascertain all foes within 100 feet as a sighted creature would.\nImmunities: Destrachans have immunity to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.\nProtection from Sonics (Ex): While they can be affected by loud noises and sonic spells (such as ghost sound or silence), destrachans are less vulnerable to sonic attacks (+4 circumstance bonus on all saves) because they can protect their ears. A destrachan whose sense of hearing is impaired is effectively blinded, and all targets are treated as having total concealment.\nSkills: A destrachan has a +10 racial bonus on Listen checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::018_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::020_devil"
+}

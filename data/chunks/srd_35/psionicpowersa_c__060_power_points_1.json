@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::060_power_points_1",
+  "document_id": "srd_35::psionicpowersa_c::060_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#060_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You protect the subject's thoughts from analysis. While the duration lasts, the subject gains a +10 circumstance bonus on Bluff checks against those attempting to discern its true intentions with Sense Motive. It also gains a +4 bonus on its saving throw against any power or spell used to read its mind (such as read thoughts or mind probe).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::059_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::061_metacreativity_creation"
+}

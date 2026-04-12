@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::033_combat",
+  "document_id": "srd_35::monsterss::033_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#033_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Nixies rely on their charm person ability to deter enemies, entering combat only to protect themselves and their territory.\nCharm Person (Sp): A nixie can use charm person three times per day as the spell (caster level 4th). Those affected must succeed on a DC 15 Will save or be charmed for 24 hours. Most charmed creatures are used to perform heavy labor, guard duty, and other onerous tasks for the nixie community. Shortly before the effect wears off, the nixie escorts the charmed creature away and orders it to keep walking. The save DC is Charisma-based.\nAmphibious (Ex): Although nixies are aquatic, they can survive indefinitely on land.\nWater Breathing (Sp): Once per day a nixie can use water breathing as the spell (caster level 12th). Nixies usually bestow this effect on those they have charmed.\nWild Empathy (Ex): This ability works like the druid's wild empathy class feature, except that a nixie has a +6 racial bonus on the check.\nSkills: A nixie has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. *Nixies have a +5 racial bonus on Hide checks when in the\nwater.\n\nHit Dice: | 1d6 (3 hp) |\nInitiative: | +4 |\nSpeed: | 20 ft. (4 squares), fly 60 ft. (good) |\nArmor Class: | 16 (+1 size, +4 Dex, +1 natural), touch 15, flat-footed 12 |\nBase Attack/Grapple: | +0/-6 |\nAttack: | Short sword +5 melee (1d4-2/19-20) or longbow +5 ranged (1d6-2/\uf0d73) |\nFull Attack: | Short sword +5 melee (1d4-2/19-20) or longbow +5 ranged (1d6-2)/x3 |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, special arrows |\nSpecial Qualities: | Damage reduction 10/cold iron, greater invisibility, low-light vision, spell resistance 15 |\nSaves: | Fort +0, Ref +6, Will +4 |\nAbilities: | Str 7, Dex 18, Con 11, Int 16, Wis 15, Cha 16 |\nSkills: | Bluff +7, Concentration +4, Escape Artist +8, Hide +8, Listen +8, Move Silently +8, Ride +8, Search +9, Sense Motive +6, Spot +8 |\nFeats: | DodgeB, Weapon Finesse |\nEnvironment: | Temperate forests |\nOrganization: | Gang (2-4), band (6-11), or tribe (20-80) |\nChallenge Rating: | 4 (5 with irresistible dance) |\nTreasure: | No coins; 50% goods; 50% items |\nAlignment: | Always neutral good |\nAdvancement: | 2-3 HD (Small) |\nLevel Adjustment: | +4 (+6 with irresistible dance) |\nPixies wear bright clothing, often including a cap and shoes with curled and pointed toes.\nA pixie stands about 2-1/2 feet tall and weighs about 30 pounds.\nPixies speak Sylvan and Common, and may know other languages as well.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::032_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::034_combat"
+}

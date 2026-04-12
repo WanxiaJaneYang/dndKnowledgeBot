@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::030_combat",
+  "document_id": "srd_35::monstersg::030_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#030_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hill giants prefer to fight from high, rocky outcroppings, where they can pelt opponents with rocks and boulders while limiting the risk to themselves.\nHill giants love to make overrun attacks against smaller creatures when they first join battle. Thereafter, they stand fast and swing away with their massive clubs.\nRock Throwing (Ex): The range increment is 120 feet for a hill giant's thrown rocks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::029_frost_giant_characters",
+  "next_chunk_id": "chunk::srd_35::monstersg::031_hill_giants_as_characters"
+}

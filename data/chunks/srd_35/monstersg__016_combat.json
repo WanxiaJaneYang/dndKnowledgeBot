@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::016_combat",
+  "document_id": "srd_35::monstersg::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Ghouls try to attack with surprise whenever possible. They strike from behind tombstones and burst from shallow graves.\nGhoul Fever (Su): Disease--bite, Fortitude DC 12, incubation period 1 day, damage 1d3 Con and 1d3 Dex. The save DC is Charisma-based.\nAn afflicted humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast, not a ghoul.\nParalysis (Ex): Those hit by a ghoul's bite or claw attack must succeed on a DC 12 Fortitude save or be paralyzed for 1d4+1 rounds. Elves have immunity to this paralysis. The save DC is Charisma-based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::015_ghoul",
+  "next_chunk_id": "chunk::srd_35::monstersg::017_lacedon"
+}

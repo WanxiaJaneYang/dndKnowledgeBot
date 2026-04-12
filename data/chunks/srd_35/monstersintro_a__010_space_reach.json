@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::010_space_reach",
+  "document_id": "srd_35::monstersintro_a::010_space_reach",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Space/Reach"
+    ],
+    "source_location": "MonstersIntro-A.rtf#010_space_reach"
+  },
+  "chunk_type": "subsection",
+  "content": "This line describes how much space the creature takes up on the battle grid and thereby needs to fight effectively, as well as how close it has to be to threaten an opponent. The number before the slash is the creature's space, or how many feet one side of the creature occupies. The number after the slash is the creature's natural reach. If the creature has exceptional reach due to a weapon, tentacle, or the like, the extended reach and its source are noted in parentheses at the end of the line.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::009_full_attack",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::011_special_attacks_and_special_qualities"
+}

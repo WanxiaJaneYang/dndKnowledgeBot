@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::026_throw_splash_weapon",
+  "document_id": "srd_35::combatii::026_throw_splash_weapon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "THROW SPLASH WEAPON"
+    ],
+    "source_location": "CombatII.rtf#026_throw_splash_weapon"
+  },
+  "chunk_type": "subsection",
+  "content": "A splash weapon is a ranged weapon that breaks on impact, splashing or scattering its contents over its target and nearby creatures or objects. To attack with a splash weapon, make a ranged touch attack against the target. Thrown weapons require no weapon proficiency, so you don't take the -4 nonproficiency penalty. A hit deals direct hit damage to the target, and splash damage to all creatures within 5 feet of the target.\nYou can instead target a specific grid intersection. Treat this as a ranged attack against AC 5. However, if you target a grid intersection, creatures in all adjacent squares are dealt the splash damage, and the direct hit damage is not dealt to any creature. (You can't target a grid intersection occupied by a creature, such as a Large or larger creature; in this case, you're aiming at the creature.)\nIf you miss the target (whether aiming at a creature or a grid intersection), roll 1d8. This determines the misdirection of the throw, with 1 being straight back at you and 2 through 8 counting clockwise around the grid intersection or target creature. Then, count a number of squares in the indicated direction equal to the range increment of the throw.\nAfter you determine where the weapon landed, it deals splash damage to all creatures in adjacent squares.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::025_sunder",
+  "next_chunk_id": "chunk::srd_35::combatii::027_trip"
+}

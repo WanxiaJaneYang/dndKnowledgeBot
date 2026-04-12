@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::023_combat",
+  "document_id": "srd_35::monstersk_l::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "Combat"
+    ],
+    "source_location": "MonstersK-L.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Werebears fight just as brown bears do in animal form. In humanoid or hybrid form, they favor large, heavy weapons such as greataxes or greatswords. The werebear's greataxe is a Medium weapon, so it can wield the axe in one hand in hybrid form.\nAlternate Form (Su): A werebear can assume the form of a brown bear or a bear-humanoid hybrid.\nBear Empathy (Ex): Communicate with bears and dire bears, and +4 racial bonus on Charisma-based checks against bears and dire bears.\nCurse of Lycanthropy (Su): Any humanoid or giant hit by a werebear's bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.\nImproved Grab (Ex): To use this ability, a werebear must be in bear form and must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nSkills: Werebears have a +4 racial bonus on Swim checks in any bear form.\nThe werebear presented here is a 1st-level human warrior and natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::022_werebear",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::024_wereboar"
+}

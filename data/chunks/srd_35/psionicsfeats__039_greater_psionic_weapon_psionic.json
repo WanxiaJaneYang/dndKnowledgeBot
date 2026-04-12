@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::039_greater_psionic_weapon_psionic",
+  "document_id": "srd_35::psionicsfeats::039_greater_psionic_weapon_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "GREATER PSIONIC WEAPON [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#039_greater_psionic_weapon_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can charge your melee weapon with additional damage potential.\nPrerequisite: Str 13, Psionic Weapon, base attack bonus +5.\nBenefit: When you use the Psionic Weapon feat, your attack with a melee weapon deals an extra 4d6 points of damage instead of an extra 2d6 points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::038_greater_psionic_shot_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::040_hostile_mind_general"
+}

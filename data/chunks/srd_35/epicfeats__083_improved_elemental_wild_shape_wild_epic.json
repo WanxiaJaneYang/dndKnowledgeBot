@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::083_improved_elemental_wild_shape_wild_epic",
+  "document_id": "srd_35::epicfeats::083_improved_elemental_wild_shape_wild_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED ELEMENTAL WILD SHAPE [WILD][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#083_improved_elemental_wild_shape_wild_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 25, ability to wild shape into an elemental.\nBenefit: The character's ability to wild shape into an elemental is expanded to include all elemental creatures (not just air, earth, fire, and water elementals) of any size that the character can take when using wild shape to become an animal. The character gains all extraordinary and supernatural abilities of the elemental whose form he or she takes.\nNormal: Without this feat, a character may only wild shape into a Small, Medium-size, or Large air, earth, fire, or water elemental.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::082_improved_death_attack_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::084_improved_favored_enemy_epic"
+}

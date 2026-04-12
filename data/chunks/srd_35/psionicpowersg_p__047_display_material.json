@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::047_display_material",
+  "document_id": "srd_35::psionicpowersg_p::047_display_material",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Material"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#047_display_material"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nTarget or Area: One creature; or one or more creatures within a 15-ft.-radius sphere",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::046_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::048_power_points_17"
+}

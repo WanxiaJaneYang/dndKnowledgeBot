@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::061_psionic_endowment_psionic",
+  "document_id": "srd_35::psionicsfeats::061_psionic_endowment_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC ENDOWMENT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#061_psionic_endowment_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can endow your manifestations with more concentrated focus.\nBenefit: To use this feat, you must expend your psionic focus. You add 1 to the save DC of a power you manifest.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::060_psionic_dodge_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::062_psionic_fist_psionic"
+}

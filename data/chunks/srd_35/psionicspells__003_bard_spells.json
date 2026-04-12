@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicspells::003_bard_spells",
+  "document_id": "srd_35::psionicspells::003_bard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSpells",
+      "BARD SPELLS"
+    ],
+    "source_location": "PsionicSpells.rtf#003_bard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "2nd-Level Bard Spell\nGlossolalia: Cone-shaped shriek distracts smart foes, makes concentrating difficult.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicspells::002_psionic_spells",
+  "next_chunk_id": "chunk::srd_35::psionicspells::004_cleric_spells"
+}

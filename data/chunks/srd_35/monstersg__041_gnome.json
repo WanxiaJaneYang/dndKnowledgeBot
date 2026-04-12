@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::041_gnome",
+  "document_id": "srd_35::monstersg::041_gnome",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GNOME"
+    ],
+    "source_location": "MonstersG.rtf#041_gnome"
+  },
+  "chunk_type": "subsection",
+  "content": "| Gnome, 1st-Level Warrior | Svirfneblin, 1st-Level Warrior |\n| Small Humanoid (Gnome) | Small Humanoid (Gnome) |\nHit Dice: | 1d8+2 (6 hp) | 1d8+4 (8 hp) |\nInitiative: | +0 | +1 |\nSpeed: | 20 ft. (4 squares) | 15 ft. in banded mail armor (3 squares); base speed 20 ft. |\nArmor Class: | 16 (+1 size, +4 chain shirt, +1 light shield), touch 11, flat-footed 16 | 23 (+1 size, +1 Dex, +4 dodge, +6 banded mail, +1 buckler), touch 16, flat-footed 18 |\nBase Attack/Grapple: | +1/-3 | +1/-3 |\nAttack: | Longsword +2 melee (1d6/19-20) or light crossbow +3 ranged (1d6/19-20) | Heavy pick +2 melee (1d4/x4) or light crossbow +3 ranged (1d6/19-20) |\nFull Attack: | Longsword +2 melee (1d6/19-20) or light crossbow +3 ranged (1d6/19-20) | Heavy pick +2 melee (1d4/x4) or light crossbow +3 ranged (1d6/19-20) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | -- | Spell-like abilities |\nSpecial Qualities: | Gnome traits | Gnome traits, svirfneblin traits, spell resistance 12 |\nSaves: | Fort +4, Ref +0, Will -1 | Fort +5, Ref +3, Will +2 |\nAbilities: | Str 11, Dex 11, Con 14, Int 10, Wis 9, Cha 8 | Str 11, Dex 13, Con 12, Int 10, Wis 11, Cha 4 |\nSkills: | Hide +3, Listen +1, Spot +1 | Hide +2, Listen +2, Spot +2 |\nFeats: | Weapon Focus (light crossbow) | Toughness |\nEnvironment: | Temperate hills (Forest gnomes: Temperate forests) | Underground |\nOrganization: | Company (2-4), squad (11-20 plus 1 leader of 3rd-6th level and 2 3rd-level lieutenants), or band (30-50 plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, and 2-5 dire badgers) | Company (2-4), squad (11-20 plus 1 leader of 3rd-6th level and 2 3rd-level lieutenants), or band (30-50 plus 1 3rd-level sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, and 2-5 Medium earth elementals) |\nChallenge Rating: | 1/2 | 1 |\nTreasure: | Standard | Standard |\nAlignment: | Usually neutral good | Usually neutral |\nAdvancement: | By character class | By character class |\nLevel Adjustment: | +0 | +3 |\nGnomes stand 3 to 3-1/2 feet tall and weigh 40 to 45 pounds. Their skin color ranges from dark tan to woody brown, their hair is fair, and their eyes can be any shade of blue. Gnome males prefer short, carefully trimmed beards. Gnomes generally wear leather or earth tones, though they decorate their clothes with intricate stitching or fine jewelry. Gnomes reach adulthood at about age 40, and they live about 350 years, though some can live almost 500 years.\nGnomes speak their own language, Gnome. Most gnomes who travel outside gnome lands (as traders, tinkers, or adventurers) know Common, while warriors in gnome settlements usually learn Goblin.\nMost gnomes encountered outside their home are warriors; the information in the statistics block is for one of 1st level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::040_gnolls_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersg::042_combat"
+}

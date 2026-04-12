@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::013_epic_psionic_seeds",
+  "document_id": "srd_35::epicspells::013_epic_psionic_seeds",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "Epic Psionic Seeds"
+    ],
+    "source_location": "EpicSpells.rtf#013_epic_psionic_seeds"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic characters can acquire epic powers. Generally, all the epic spell rules work for epic powers as well, except as noted below for displays.\nPsionic characters take the Epic Manifestation feat, which works just like the Epic Spellcasting feat. The prerequisites for this feat are 24 ranks of Psicraft, 24 ranks of Knowledge (psionics), and the ability to manifest 9th-level psionic powers.\nJust as spellcasters use no spell slots to cast epic spells, psionic characters use no power points to manifest epic powers. Instead, they freely manifest their known epic powers a number of times per day equal to their Knowledge (psionics) skill divided by 10 (round down).\nTable: Psionic Seeds\n| Base Psicraft DC | | Base Psicraft DC |\nPsychometabolism | | Telepathy | |\nFortify | 17 | Compel | 19 |\nSlay | 25 | Contact | 23 |\nTransform | 21 | Delude | 14 |\nHeal | 50 | Psychokinesis | |\nPsychoportation | | Dispel | 19 |\nBanish | 27 | Energy | 19 |\nSummon | 14 | Reflect | 27 |\nTransport | 27 | Destroy | 29 |\nClairsentience | | Ward | 14 |\nAfflict | 14 | Metacreativity | |\nForesee | 17 | Armor | 14 |\nReveal | 19 | Conjure | 21 |\nConceal | 17 | Animate dead | 23 |\n| Animate | 25 |\n| Life | 55 |\nTable: Psionic Factors\n| Psicraft DC Modifier |\nDiscipline | -5 |\nSeed within primary discipline | |\nDisplay | |\nHide visual display (epic psionic seeds substitute one Vi display for V and S components) | +4 |\n\nCasting Time: 1 week (8 hours/day)\nRange: 180 ft. (see text)\nEffect: A demiplane coterminous with the Ethereal Plane, centered on your location\n\nThe spellcaster creates a finite plane with limited access: a demiplane. Demiplanes created by this power are very small, very minor planes.\nA character can only cast this spell while on the Ethereal Plane. When he or she casts the spell, a local density fluctuation precipitates the creation of a demiplane. At first, the fledgling plane grows at a rate of 1 foot in radius per day to an initial maximum radius of 180 feet as it rapidly draws substance from surrounding ethereal vapors and protomatter.\nThe spellcaster determines the environment within the demiplane when he or she first casts genesis, reflecting most any desire the spellcaster can visualize. The spellcaster determines factors such as atmosphere, water, temperature, and the general shape of the terrain. This spell cannot create life (including vegetation), nor can it create construction (such as buildings, roads, wells, dungeons, and so forth). The spellcaster must add these things in some other fashion if he or she desires. Once the basic demiplane reaches its maximum size, the spellcaster can continue to cast this spell to enlarge the demiplane, adding another 180 feet of radius to the demiplane each time.\nMaterial Component: A crystalline sphere\nXP Cost: 5,000 XP.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicspells::012_epic_psionic_powers"
+}

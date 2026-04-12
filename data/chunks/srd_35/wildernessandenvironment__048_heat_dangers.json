@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::048_heat_dangers",
+  "document_id": "srd_35::wildernessandenvironment::048_heat_dangers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "HEAT DANGERS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#048_heat_dangers"
+  },
+  "chunk_type": "subsection",
+  "content": "Heat deals nonlethal damage that cannot be recovered until the character gets cooled off (reaches shade, survives until nightfall, gets doused in water, is targeted by endure elements, and so forth). Once rendered unconscious through the accumulation of nonlethal damage, the character begins to take lethal damage at the same rate.\nA character in very hot conditions (above 90\u00b0 F) must make a Fortitude saving throw each hour (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a -4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and may be able to apply this bonus to other characters as well (see the skill description). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per hour).\nIn severe heat (above 110\u00b0 F), a character must make a Fortitude save once every 10 minutes (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a -4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and may be able to apply this bonus to other characters as well. Characters reduced to unconsciousness begin taking lethal damage (1d4 points per each 10-minute period).\nA character who takes any nonlethal damage from heat exposure now suffers from heatstroke and is fatigued.\nThese penalties end when the character recovers the nonlethal damage she took from the heat.\nExtreme heat (air temperature over 140\u00b0 F, fire, boiling water, lava) deals lethal damage. Breathing air in these temperatures deals 1d6 points of damage per minute (no save). In addition, a character must make a Fortitude save every 5 minutes (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. Those wearing heavy clothing or any sort of armor take a -4 penalty on their saves. In addition, those wearing metal armor or coming into contact with very hot metal are affected as if by a heat metal spell.\nBoiling water deals 1d6 points of scalding damage, unless the character is fully immersed, in which case it deals 10d6 points of damage per round of exposure.\nCatching on Fire\nCharacters exposed to burning oil, bonfires, and noninstantaneous magic fires might find their clothes, hair, or equipment on fire. Spells with an instantaneous duration don't normally set a character on fire, since the heat and flame from these come and go in a flash.\nCharacters at risk of catching fire are allowed a DC 15 Reflex save to avoid this fate. If a character's clothes or hair catch fire, he takes 1d6 points of damage immediately. In each subsequent round, the burning character must make another Reflex saving throw. Failure means he takes another 1d6 points of damage that round. Success means that the fire has gone out. (That is, once he succeeds on his saving throw, he's no longer on fire.)\nA character on fire may automatically extinguish the flames by jumping into enough water to douse himself. If no body of water is at hand, rolling on the ground or smothering the fire with cloaks or the like permits the character another save with a +4 bonus.\nThose unlucky enough to have their clothes or equipment catch fire must make DC 15 Reflex saves for each item. Flammable items that fail take the same amount of damage as the character.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::047_falling_objects",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::049_lava_effects"
+}

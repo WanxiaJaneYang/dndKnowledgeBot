@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::048_mind_over_body_general",
+  "document_id": "srd_35::psionicsfeats::048_mind_over_body_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "MIND OVER BODY [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#048_mind_over_body_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Your ability damage heals more rapidly.\nPrerequisite: Con 13.\nBenefit: You heal ability damage and ability burn damage more quickly than normal. You heal a number of ability points per day equal to 1 + your Constitution bonus.\nNormal: You heal ability damage and ability burn damage at a rate of 1 point per day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::047_metamorphic_transfer_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::049_narrow_mind_psionic"
+}

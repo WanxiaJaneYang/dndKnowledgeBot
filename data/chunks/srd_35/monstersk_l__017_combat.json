@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::017_combat",
+  "document_id": "srd_35::monstersk_l::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "COMBAT"
+    ],
+    "source_location": "MonstersK-L.rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Lizardfolk fight as unorganized individuals. They prefer frontal assaults and massed rushes, sometimes trying to force foes into the water, where the lizardfolk have an advantage. If outnumbered or if their territory is being invaded, they set snares, plan ambushes, and make raids to hinder enemy supplies. Advanced tribes use more sophisticated tactics and have better traps and ambushes.\nHold Breath: A lizardfolk can hold its breath for a number of rounds equal to four times its Constitution score before it risks drowning.\nSkills: Because of their tails, lizardfolk have a +4 racial bonus on Jump, Swim, and Balance checks. The skill modifiers given in the statistics block include a -2 armor check penalty (-4 on Swim checks) for carrying a heavy shield.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::018_lizardfolk_as_characters"
+}

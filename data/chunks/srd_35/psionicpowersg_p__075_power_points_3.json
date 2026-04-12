@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::075_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::075_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#075_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You can learn details of an inanimate object's previous owner. Objects accumulate psychic impressions left by their previous owners, which can be read by use of this power. The amount of information revealed depends on how long you study a particular object.\n1st Minute: Last owner's race.\n2nd Minute: Last owner's gender.\n3rd Minute: Last owner's age.\n4th Minute: Last owner's alignment.\n5th Minute: How last owner gained and lost the object.\n6th+ Minute: Next-to-last owner's race, and so on.\nThe power always correctly identifies the last owner of the item, and the original owner (if you keep the power active long enough).\nThere is a 90% chance that this power will successfully identify all other former owners in sequence, but there is a 10% chance that one former owner will be skipped and thus not identified.\nThis power will not identify casual users as owners. (Anyone who uses an object to attack someone or something is not thereafter considered a casual user.)\nAn object without any previous owners reveals no information. You can continue to run through a list of previous owners and learn details about them as long as the power's duration lasts. If you use this power additional times on the same object, the information yielded is the same as if you were using the power on the object for the first time.\nAugment: For every additional power point you spend, this power's maximum duration increases by 10 minutes.\nOverland Flight, Psionic\nPsychoportation\nLevel: Psion/wilder 6\nDisplay: Auditory\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 hour/level (D)\n\nAs the overland flight spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::074_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::076_psychometabolism"
+}

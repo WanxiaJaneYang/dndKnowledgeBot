@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesi::012_druid",
+  "document_id": "srd_35::classesi::012_druid",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesI",
+      "DRUID"
+    ],
+    "source_location": "ClassesI.rtf#012_druid"
+  },
+  "chunk_type": "subsection",
+  "content": "Alignment: Neutral good, lawful neutral, neutral, chaotic neutral, or neutral evil.\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesi::011_ex_clerics",
+  "next_chunk_id": "chunk::srd_35::classesi::013_class_skills"
+}

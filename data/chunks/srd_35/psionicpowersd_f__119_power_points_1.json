@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::119_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::119_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#119_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You mentally support yourself in water or similar liquid. You can swim at a speed of 10 feet using the power alone, or use it to boost your swim speed by 10 feet.\nFly, Psionic\nPsychoportation\nLevel: Nomad 4\nDisplay: Auditory\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 min./level (D)\nPower Points: 7\nAs the fly spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::118_psychoportation",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::120_psychokinesis_force"
+}

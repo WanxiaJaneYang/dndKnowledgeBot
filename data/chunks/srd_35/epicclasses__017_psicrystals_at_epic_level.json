@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::017_psicrystals_at_epic_level",
+  "document_id": "srd_35::epicclasses::017_psicrystals_at_epic_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "PSICRYSTALS AT EPIC LEVEL"
+    ],
+    "source_location": "EpicClasses.rtf#017_psicrystals_at_epic_level"
+  },
+  "chunk_type": "subsection",
+  "content": "Special abilities granted to a psycrystal continue to grow as the level of its master increases beyond 20th, as shown on Table: Epic Psicrystal Special Abilities. Even though the table shows advancement only to 42nd level, that is not the limit. The patterns in the table continue infinitely. Psicrystal special abilities gained at less than 20th level also continue to improve.\nPsicrystal Power: The psicrystal gains the benefit of the Psicrystal Power epic feat for the power its master chooses.\nTable: Epic Psicrystal Special Abilities |\nOwner Level | Natural Armor Adj. | Int Adj. | Special |\n21st-22nd | +10 | +10 | Psicrystal Power |\n23rd-24th | +11 | +11 | |\n25th-26th | +12 | +12 | |\n27th-28th | +13 | +13 | |\n29th-30th | +14 | +14 | |\n31st-32nd | +15 | +15 | Psicrystal Power |\n33rd-34th | +16 | +16 | |\n35th-36th | +17 | +17 | |\n37th-38th | +18 | +18 | |\n39th-40th | +19 | +19 | |\n41st-42nd | +20 | +20 | Psicrystal Power |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::016_epic_psion",
+  "next_chunk_id": "chunk::srd_35::epicclasses::018_epic_psychic_warrior"
+}

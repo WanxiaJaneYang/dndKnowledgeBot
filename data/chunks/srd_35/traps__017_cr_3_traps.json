@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::017_cr_3_traps",
+  "document_id": "srd_35::traps::017_cr_3_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 3 Traps"
+    ],
+    "source_location": "Traps.rtf#017_cr_3_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Burning Hands Trap: CR 3; magic device; proximity trigger (alarm); automatic reset; spell effect (burning hands, 5th-level wizard, 5d4 fire, DC 11 Reflex save half damage); Search DC 26; Disable Device DC 26. Cost: 2,500 gp, 200 XP.\nCamouflaged Pit Trap: CR 3; mechanical; location trigger; manual reset; DC 20 Reflex save avoids; 30 ft. deep (3d6, fall); multiple targets (first target in each of two adjacent squares); Search DC 24; Disable Device DC 18. Market Price: 4,800 gp.\nCeiling Pendulum: CR 3; mechanical; timed trigger; automatic reset; Atk +15 melee (1d12+8/x3, greataxe); Search DC 15; Disable Device DC 27. Market Price: 14,100 gp.\nFire Trap: CR 3; spell; spell trigger; no reset; spell effect (fire trap, 3rd-level druid, 1d4+3 fire, DC 13 Reflex save half damage); Search DC 27; Disable Device DC 27. Cost: 85 gp to hire NPC spellcaster.\nExtended Bane Trap: CR 3; magic device; proximity trigger (detect good); automatic reset; spell effect (extended bane, 3rd-level cleric, DC 13 Will save negates); Search DC 27; Disable Device DC 27. Cost: 3,500 gp, 280 XP.\nGhoul Touch Trap: CR 3; magic device; touch trigger; automatic reset; spell effect (ghoul touch, 3rd-level wizard, DC 13 Fortitude save negates); Search DC 27; Disable Device DC 27. Cost: 3,000 gp, 240 XP.\nHail of Needles: CR 3; mechanical; location trigger; manual reset; Atk +20 ranged (2d4); Search DC 22; Disable Device DC 22. Market Price: 5,400 gp.\nAcid Arrow Trap: CR 3; magic device; proximity trigger (alarm); automatic reset; Atk +2 ranged touch; spell effect (acid arrow, 3rd-level wizard, 2d4 acid/round for 2 rounds); Search DC 27; Disable Device DC 27. Cost: 3,000 gp, 240 XP.\nPit Trap: CR 3; mechanical, location trigger; manual reset; DC 20 Reflex save avoids; 60 ft. deep (6d6, fall); Search DC 20; Disable Device DC 20. Market Price: 3,000 gp.\nPoisoned Arrow Trap: CR 3; mechanical; touch trigger; manual reset; lock bypass (Open Lock DC 30); Atk +12 ranged (1d8 plus poison, arrow); poison (Large monstrous scorpion venom, DC 14 Fortitude save resists, 1d4 Con/1d4 Con); Search DC 19; Disable Device DC 15. Market Price: 2,900 gp.\nSpiked Pit Trap: CR 3; mechanical; location trigger; manual reset; DC 20 Reflex save avoids; 20 ft. deep (2d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 each); Search DC 21; Disable Device DC 20. Market Price: 3,600 gp.\nStone Blocks from Ceiling: CR 3; mechanical; location trigger; repair reset; Atk +10 melee (4d6, stone blocks); Search DC 25; Disable Device DC 20. Market Price: 5,400 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::016_cr_2_traps",
+  "next_chunk_id": "chunk::srd_35::traps::018_cr_4_traps"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::018_elemental_plane_of_water",
+  "document_id": "srd_35::planes::018_elemental_plane_of_water",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "ELEMENTAL PLANE OF WATER"
+    ],
+    "source_location": "Planes.rtf#018_elemental_plane_of_water"
+  },
+  "chunk_type": "subsection",
+  "content": "The Elemental Plane of Water is a sea without a floor or a surface, an entirely fluid environment lit by a diffuse glow. It is one of the more hospitable of the Inner Planes once a traveler gets past the problem of breathing the local medium.\nThe eternal oceans of this plane vary between ice cold and boiling hot, between saline and fresh. They are perpetually in motion, wracked by currents and tides. The plane's permanent settlements form around bits of flotsam and jetsam suspended within this endless liquid. These settlements drift on the tides of the Elemental Plane of Water.\nThe Elemental Plane of Water has the following traits.\nSubjective directional gravity. The gravity here works similar to that of the Elemental Plane of Air. But sinking or rising on the Elemental Plane of Water is slower (and less dangerous) than on the Elemental Plane of Air.\nWater-dominant.\nEnhanced magic. Spells and spell-like abilities that use or create water are both extended and enlarged (as if the Extend Spell and Enlarge Spell metamagic feats had been used on them, but the spells don't require higher-level slots). Spells and spell-like abilities that are already extended or enlarged are unaffected by this benefit.\nImpeded magic. Spells and spell-like abilities with the fire descriptor (including spells of the Fire domain) are impeded.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::017_elemental_plane_of_fire",
+  "next_chunk_id": "chunk::srd_35::planes::019_negative_energy_plane"
+}

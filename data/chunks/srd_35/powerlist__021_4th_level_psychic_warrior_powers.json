@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::021_4th_level_psychic_warrior_powers",
+  "document_id": "srd_35::powerlist::021_4th_level_psychic_warrior_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "4TH-LEVEL PSYCHIC WARRIOR POWERS"
+    ],
+    "source_location": "PowerList.rtf#021_4th_level_psychic_warrior_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Claw of Energy: Your claws deal additional energy damage.\nDimension Door, Psionic: Teleports you short distance.\nEnergy AdaptationA: Your body converts energy to harmless light.\nFreedom of Movement, Psionic: You cannot be held or otherwise rendered immobile.\nImmovability: You are almost impossible to move and gain DR 15/-.\nInertial Barrier: Gain DR 5/-.\nPsychic Vampire. Touch attack drains 2 power points/level from foe.\nSteadfast Perception: Gain immunity to illusory effects, +6 bonus on Spot and Search checks.\nTruevenom: Your natural weapons are covered in horrible poison.\nTruevenom Weapon: Your weapon is horribly poisonous.\nWeapon of Energy: Weapon deals additional energy damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::020_3rd_level_psychic_warrior_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::022_5th_level_psychic_warrior_powers"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::027_magic_device_trap_cost",
+  "document_id": "srd_35::traps::027_magic_device_trap_cost",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Magic Device Trap Cost"
+    ],
+    "source_location": "Traps.rtf#027_magic_device_trap_cost"
+  },
+  "chunk_type": "subsection",
+  "content": "Building a magic device trap involves the expenditure of experience points as well as gold pieces, and requires the services of a spellcaster. Table: Cost Modifiers for Magic Device Traps summarizes the cost information for magic device traps. If the trap uses more than one spell (for instance, a sound or visual trigger spell in addition to the main spell effect), the builder must pay for them all (except alarm, which is free unless it must be cast by an NPC; see below).\nThe costs derived from Table: Cost Modifiers for Magic Device Traps assume that the builder is casting the necessary spells himself (or perhaps some other PC is providing the spells for free). If an NPC spellcaster must be hired to cast them those costs must be factored in as well.\nA magic device trap takes one day to construct per 500 gp of its cost.\n\nFeature | Cost Modifier |\nAlarm spell used in trigger | -- |\nOne-Shot Trap | |\nEach spell used in trap | +50 gp x caster level x spell level,\n+4 XP x caster level x spell level |\nMaterial components | + Cost of all material components |\nXP components | + Total of XP components x 5 gp |\nAutomatic Reset Trap | |\nEach spell used in trap | +500 gp x caster level x spell level,\n+40 XP x caster level x spell level |\nMaterial components | + Cost of all material components x 100 gp |\nXP components | + Total of XP components x 500 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::026_mechanical_trap_cost",
+  "next_chunk_id": "chunk::srd_35::traps::028_spell_trap_cost"
+}

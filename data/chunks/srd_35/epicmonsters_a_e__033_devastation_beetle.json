@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::033_devastation_beetle",
+  "document_id": "srd_35::epicmonsters_a_e::033_devastation_beetle",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "DEVASTATION BEETLE"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#033_devastation_beetle"
+  },
+  "chunk_type": "subsection",
+  "content": "Trample (Ex): A devastation beetle can trample Gargantuan and smaller creatures for 30d10+24 points of damage. Opponents who do not make attacks of opportunity against the devastation beetle can attempt a Reflex save (DC 90) to halve the damage.\nAcid Cloud (Ex): A devastation beetle exudes a constant vapor that radiates outward in every direction for 60 feet. This vapor deals 6d6 points of acid damage each round to anyone caught in the cloud.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::032_devastation_scorpion",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::034_dragon_advanced"
+}

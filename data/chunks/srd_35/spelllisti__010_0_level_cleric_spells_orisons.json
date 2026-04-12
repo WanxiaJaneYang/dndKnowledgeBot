@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::010_0_level_cleric_spells_orisons",
+  "document_id": "srd_35::spelllisti::010_0_level_cleric_spells_orisons",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "0-LEVEL CLERIC SPELLS (ORISONS)"
+    ],
+    "source_location": "SpellListI.rtf#010_0_level_cleric_spells_orisons"
+  },
+  "chunk_type": "subsection",
+  "content": "Create Water: Creates 2 gallons/level of pure water.\nCure Minor Wounds: Cures 1 point of damage.\nDetect Magic: Detects spells and magic items within 60 ft.\nDetect Poison: Detects poison in one creature or object.\nGuidance: +1 on one attack roll, saving throw, or skill check.\nInflict Minor Wounds: Touch attack, 1 point of damage.\nLight: Object shines like a torch.\nMending: Makes minor repairs on an object.\nPurify Food and Drink: Purifies 1 cu. ft./level of food or water.\nRead Magic: Read scrolls and spellbooks.\nResistance: Subject gains +1 on saving throws.\nVirtue: Subject gains 1 temporary hp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::009_6th_level_bard_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::011_1st_level_cleric_spells"
+}

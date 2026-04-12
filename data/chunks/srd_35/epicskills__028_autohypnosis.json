@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::028_autohypnosis",
+  "document_id": "srd_35::epicskills::028_autohypnosis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Autohypnosis"
+    ],
+    "source_location": "EpicSkills.rtf#028_autohypnosis"
+  },
+  "chunk_type": "subsection",
+  "content": "The character has trained his or her mind to ignore poison, resist mental influence, and convince his or her body that he or she is tougher than normal.\nDC | Task |\nPoison's DC + 5 | When poisoned, the character can make an Autohypnosis check on his or her next action. A successful check indicates the character does not have to make a saving throw against the poison's secondary damage, which he or she instead automatically ignores. |\n50 | If a failed saving throw indicates the character is affected by any mind-affecting powers, spells, or spell-like effects, a successful Autohypnosis check allows an immediate second saving throw to resist the effect. If the mind-affecting effect normally does not allow a saving throw, a successful Autohypnosis check allows a saving throw. |\n60 | With a successful Autohypnosis check, the character gains temporary hit points equal to 10 + his or her Wisdom modifier. The temporary hit points persist until lost. A character cannot check for temporary hit points more than once per day. Temporary hit points gained through Autohypnosis do not stack with temporary hit points gained through any other source |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::027_use_rope",
+  "next_chunk_id": "chunk::srd_35::epicskills::029_stabilize_self"
+}

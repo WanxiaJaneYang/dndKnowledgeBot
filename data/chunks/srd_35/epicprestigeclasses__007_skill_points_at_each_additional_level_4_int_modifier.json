@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::007_skill_points_at_each_additional_level_4_int_modifier",
+  "document_id": "srd_35::epicprestigeclasses::007_skill_points_at_each_additional_level_4_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Skill Points at Each Additional Level: 4 + Int modifier"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#007_skill_points_at_each_additional_level_4_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "Precise Strike: Every five levels above 10th, the extra damage inflicted by the epic duelist's precise strike increases by +1d6.\nBonus Feats: The epic duelist gains a bonus feat (selected from the list of epic duelist feats) every 3 levels after 10th.\nEpic Duelist Bonus Feat List: Blinding Speed, Epic Prowess, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Weapon Focus (rapier), Exceptional Deflection*, Improved Combat Reflexes, Improved Whirlwind Attack, Infinite Deflection*, Perfect Two-Weapon Fighting, Superior Initiative, Two-Weapon Rend.\n*The epic duelist need not have Improved Unarmed Strike to qualify for these feats, but in that case must be using a light or one-handed piercing weapon.\nTable: Epic Duelist\nLevel | Special |\n11th | -- |\n12th | -- |\n13th | Bonus feat |\n14th | -- |\n15th | Precise strike +3d6 |\n16th | Bonus feat |\n17th | -- |\n18th | -- |\n19th | Bonus feat |\n20th | Precise strike +4d6 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::006_epic_dragon_disciple",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::008_epic_dwarven_defender"
+}

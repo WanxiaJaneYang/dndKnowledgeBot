@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::015_feats",
+  "document_id": "srd_35::monstersintro_a::015_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Feats"
+    ],
+    "source_location": "MonstersIntro-A.rtf#015_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "The line gives the creature's feats. A monster gains feats just as a character does. Sometimes a creature has one or more bonus feats, marked with a superscript B (B). Creatures often do not have the prerequisites for a bonus feat. If this is so, the creature can still use the feat. If you wish to customize the creature with new feats, you can reassign its other feats, but not its bonus feats. A creature cannot have a feat that is not a bonus feat unless it has the feat's prerequisites.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::014_skills",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::016_environment"
+}

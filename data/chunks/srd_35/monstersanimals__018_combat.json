@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::018_combat",
+  "document_id": "srd_35::monstersanimals::018_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#018_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A donkey bites only when it has no way to escape.\nSkills: Donkeys have a +2 racial bonus on Balance checks.\n\nHit Dice: | 1d8+1 (5 hp) |\nInitiative: | +2 |\nSpeed: | 10 ft. (2 squares), fly 80 ft. (average) |\nArmor Class: | 14 (+1 size, +2 Dex, +1 natural), touch 13, flat-footed 12 |\nBase Attack/Grapple: | +0/-4 |\nAttack: | Talons +3 melee (1d4) |\nFull Attack: | 2 talons +3 melee (1d4) and bite -2 melee (1d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision |\nSaves: | Fort +3, Ref +4, Will +2 |\nAbilities: | Str 10, Dex 15, Con 12, Int 2, Wis 14, Cha 6 |\nSkills: | Listen +2, Spot +14 |\nFeats: | Weapon Finesse |\nEnvironment: | Temperate mountains |\nOrganization: | Solitary or pair |\nChallenge Rating: | 1/2 |\nAdvancement: | 2-3 HD (Medium) |\nLevel Adjustment: | -- |\nThese birds of prey inhabit nearly every terrain and climate, though they all prefer high, secluded nesting spots.\nA typical eagle is about 3 feet long and has a wingspan of about 7 feet. The statistics presented here can describe any similar-sized, diurnal bird of prey.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::017_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::019_combat"
+}

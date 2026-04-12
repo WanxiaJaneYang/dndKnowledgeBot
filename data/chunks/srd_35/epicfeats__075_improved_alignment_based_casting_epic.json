@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::075_improved_alignment_based_casting_epic",
+  "document_id": "srd_35::epicfeats::075_improved_alignment_based_casting_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED ALIGNMENT-BASED CASTING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#075_improved_alignment_based_casting_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Access to domain of Chaos, Evil, Good, or Law, alignment must match domain chosen, ability to cast 9th-level divine spells.\nBenefit: Select an alignment-based domain (Chaos, Evil, Good, or Law) to which the character has access. The character casts spells with that alignment descriptor at +3 caster level.\nSpecial: This benefit overrides (does not stack with) the granted powers of the Chaos, Evil, Good, and Law domains. A character may select this feat multiple times. Its effects do not stack. Each time a character takes the feat, it applies to a different alignment-based domain to which the character has access.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::074_ignore_material_components_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::076_improved_arrow_of_death_epic"
+}

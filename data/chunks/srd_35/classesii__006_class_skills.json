@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesii::006_class_skills",
+  "document_id": "srd_35::classesii::006_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesII",
+      "Class Skills"
+    ],
+    "source_location": "ClassesII.rtf#006_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The ranger's class skills (and the key ability for each skill) are Climb (Str), Concentration (Con), Craft (Int), Handle Animal (Cha), Heal (Wis), Hide (Dex), Jump (Str), Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Knowledge (nature) (Int), Listen (Wis), Move Silently (Dex), Profession (Wis), Ride (Dex), Search (Int), Spot (Wis), Survival (Wis), Swim (Str), and Use Rope (Dex).\nSkill Points at 1st Level: (6 + Int modifier) x\uf0204.\nSkill Points at Each Additional Level: 6 + Int modifier.\nTable: The Ranger |\n| | | | | | --Spells per Day-- |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 1st | 2nd | 3rd | 4th |\n1st | +1 | +2 | +2 | +0 | 1st favored enemy, Track, wild empathy | -- | -- | -- | -- |\n2nd | +2 | +3 | +3 | +0 | Combat style | -- | -- | -- | -- |\n3rd | +3 | +3 | +3 | +1 | Endurance | -- | -- | -- | -- |\n4th | +4 | +4 | +4 | +1 | Animal companion | 0 | -- | -- | -- |\n5th | +5 | +4 | +4 | +1 | 2nd favored enemy | 0 | -- | -- | -- |\n6th | +6/+1 | +5 | +5 | +2 | Improved combat style | 1 | -- | -- | -- |\n7th | +7/+2 | +5 | +5 | +2 | Woodland stride | 1 | -- | -- | -- |\n8th | +8/+3 | +6 | +6 | +2 | Swift tracker | 1 | 0 | -- | -- |\n9th | +9/+4 | +6 | +6 | +3 | Evasion | 1 | 0 | -- | -- |\n10th | +10/+5 | +7 | +7 | +3 | 3rd favored enemy | 1 | 1 | -- | -- |\n11th | +11/+6/+1 | +7 | +7 | +3 | Combat style mastery | 1 | 1 | 0 | -- |\n12th | +12/+7/+2 | +8 | +8 | +4 | | 1 | 1 | 1 | -- |\n13th | +13/+8/+3 | +8 | +8 | +4 | Camouflage | 1 | 1 | 1 | -- |\n14th | +14/+9/+4 | +9 | +9 | +4 | | 2 | 1 | 1 | 0 |\n15th | +15/+10/+5 | +9 | +9 | +5 | 4th favored enemy | 2 | 1 | 1 | 1 |\n16th | +16/+11/+6/+1 | +10 | +10 | +5 | | 2 | 2 | 1 | 1 |\n17th | +17/+12/+7/+2 | +10 | +10 | +5 | Hide in plain sight | 2 | 2 | 2 | 1 |\n18th | +18/+13/+8/+3 | +11 | +11 | +6 | | 3 | 2 | 2 | 1 |\n19th | +19/+14/+9/+4 | +11 | +11 | +6 | | 3 | 3 | 3 | 2 |\n20th | +20/+15/+10/+5 | +12 | +12 | +6 | 5th favored enemy | 3 | 3 | 3 | 3 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesii::005_the_paladin_s_mount",
+  "next_chunk_id": "chunk::srd_35::classesii::007_class_features"
+}

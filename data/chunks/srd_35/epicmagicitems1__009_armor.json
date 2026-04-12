@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::009_armor",
+  "document_id": "srd_35::epicmagicitems1::009_armor",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "ARMOR"
+    ],
+    "source_location": "EpicMagicItems1.rtf#009_armor"
+  },
+  "chunk_type": "subsection",
+  "content": "Except when otherwise stated, epic magic armor and shields follow the rules for nonepic magic armor and shields.\nThere is no limit to the enhancement bonus of epic magic armor or shields, to the market price modifier of epic magic armor or shield special abilities, or to the total enhancement bonus and market price modifier of epic magic armor or shields.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::008_magic_item_descriptions",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::010_epic_armor_and_shield_base_price"
+}

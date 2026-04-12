@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::050_power_points_9",
+  "document_id": "srd_35::psionicpowersa_c::050_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#050_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You can emulate a far hand effect at any distance while simultaneously emulating clairvoyant sense to target your far hand; see the appropriate power descriptions. Clairtangent hand's duration is up to 1 minute per level when used with a far hand effect.\nAugment: If you spend 8 additional power points, you can emulate clairvoyant sense in conjunction with either telekinetic force, telekinetic maneuver, or telekinetic thrust, but this power's duration expires as soon as any of the noted telekinetic powers deals damage.\n\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: See text\nEffect: Psionic sensor\nDuration: 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::049_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::051_power_points_3"
+}

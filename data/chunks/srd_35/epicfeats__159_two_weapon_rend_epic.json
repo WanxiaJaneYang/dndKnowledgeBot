@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::159_two_weapon_rend_epic",
+  "document_id": "srd_35::epicfeats::159_two_weapon_rend_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "TWO-WEAPON REND [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#159_two_weapon_rend_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 15, base attack bonus +9, Improved Two-Weapon Fighting, Two-Weapon Fighting.\nBenefit: If the character hits an opponent with a weapon in each hand in the same round, he or she may automatically rend the opponent. This deals additional damage equal to the base damage of the smaller weapon plus 1 1/2 times the character's Strength modifier. Base weapon damage includes an enhancement bonus on damage, if any. The character can only rend once per round, regardless of how many successful attacks he or she makes.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::158_trap_sense_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::160_uncanny_accuracy_epic"
+}

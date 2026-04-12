@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::026_paralysis",
+  "document_id": "srd_35::abilitiesandconditions::026_paralysis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "PARALYSIS"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#026_paralysis"
+  },
+  "chunk_type": "subsection",
+  "content": "Some monsters and spells have the supernatural or spell-like ability to paralyze their victims, immobilizing them through magical means. (Paralysis from toxins is discussed in the Poison section below.)\nA paralyzed character cannot move, speak, or take any physical action. He is rooted to the spot, frozen and helpless. Not even friends can move his limbs. He may take purely mental actions, such as casting a spell with no components.\nA winged creature flying in the air at the time that it becomes paralyzed cannot flap its wings and falls. A swimmer can't swim and may drown.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::025_low_light_vision",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::027_poison"
+}

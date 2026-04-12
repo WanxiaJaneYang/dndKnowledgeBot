@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::014_bane_of_enemies_epic",
+  "document_id": "srd_35::epicfeats::014_bane_of_enemies_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "BANE OF ENEMIES [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#014_bane_of_enemies_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Survival 24 ranks, five or more favored enemies.\nBenefit: Any weapon the character wields against one of his or her favored enemies is treated as a bane weapon for that creature type (thus, its enhancement bonus is increased by +2 and it deals +2d6 points of damage). This ability doesn't stack with similar abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::013_automatic_still_spell_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::015_blinding_speed_epic"
+}

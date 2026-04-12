@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::006_combat",
+  "document_id": "srd_35::monstersg::006_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#006_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Genies prefer to outmaneuver and outthink their foes. They are not too proud to flee if it means they'll live to fight another day. If trapped, they bargain, offering treasure or favors in return for their lives and freedom.\nPlane Shift (Sp): A genie can enter any of the elemental planes, the Astral Plane, or the Material Plane. This ability transports the genie and up to eight other creatures, provided they all link hands with the genie. It is otherwise similar to the spell of the same name (caster level 13th).\n\nHit Dice: | 7d8+14 (45 hp) |\nInitiative: | +8 |\nSpeed: | 20 ft. (4 squares), fly 60 ft. (perfect) |\nArmor Class: | 16 (-1 size, +4 Dex, +3 natural), touch 13, flat-footed 12 |\nBase Attack/Grapple: | +7/+15 |\nAttack: | Slam +10 melee (1d8+4) |\nFull Attack: | 2 slams +10 melee (1d8+4) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Air mastery, spell-like abilities, whirlwind |\nSpecial Qualities: | Darkvision 60 ft., immunity to acid, plane shift, telepathy 100 ft. |\nSaves: | Fort +7, Ref +9, Will +7 |\nAbilities: | Str 18, Dex 19, Con 14, Int 14, Wis 15, Cha 15 |\nSkills: | Appraise +12, Concentration +12, Craft (any one) +12, Diplomacy +4, Escape Artist +14, Knowledge (any one) +12, Listen +12, Move Silently +14, Sense Motive +12, Spellcraft +12, Spot +12, Use Rope +4 (+6 with bindings) |\nFeats: | Combat Casting, Combat Reflexes, Dodge, Improved InitiativeB |\nEnvironment: | Elemental Plane of Air |\nOrganization: | Solitary, company (2-4), or band (6-15) |\nChallenge Rating: | 5 (noble 8) |\nTreasure: | Standard |\nAlignment: | Always chaotic good |\nAdvancement: | 8-10 HD (Large); 11-21 (Huge) |\nLevel Adjustment: | +6 |\nThe djinn (singular djinni) are genies from the Elemental Plane of Air.\nA djinni is about 10-1/2 feet tall and weighs about 1,000 pounds.\nDjinn speak Auran, Celestial, Common, and Ignan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::005_genie",
+  "next_chunk_id": "chunk::srd_35::monstersg::007_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::004_2nd_level_druid_spells",
+  "document_id": "srd_35::spelllistii::004_2nd_level_druid_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "2ND-LEVEL DRUID SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#004_2nd_level_druid_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Animal Messenger: Sends a Tiny animal to a specific place.\nAnimal Trance: Fascinates 2d6 HD of animals.\nBarkskin: Grants +2 (or higher) enhancement to natural armor.\nBear's Endurance: Subject gains +4 to Con for 1 min./level.\nBull's Strength: Subject gains +4 to Str for 1 min./level.\nCat's Grace: Subject gains +4 to Dex for 1 min./level.\nChill Metal: Cold metal damages those who touch it.\nDelay Poison: Stops poison from harming subject for 1 hour/level.\nFire Trap M: Opened object deals 1d4 +1/level damage.\nFlame Blade: Touch attack deals 1d8 +1/two levels damage.\nFlaming Sphere: Creates rolling ball of fire, 2d6 damage, lasts 1 round/level.\nFog Cloud: Fog obscures vision.\nGust of Wind: Blows away or knocks down smaller creatures.\nHeat Metal: Make metal so hot it damages those who touch it.\nHold Animal: Paralyzes one animal for 1 round/level.\nOwl's Wisdom: Subject gains +4 to Wis for 1 min./level.\nReduce Animal: Shrinks one willing animal.\nResist Energy: Ignores 10 (or more) points of damage/attack from specified energy type.\nRestoration, Lesser: Dispels magical ability penalty or repairs 1d4 ability damage.\nSoften Earth and Stone: Turns stone to clay or dirt to sand or mud.\nSpider Climb: Grants ability to walk on walls and ceilings.\nSummon Nature's Ally II: Calls creature to fight.\nSummon Swarm: Summons swarm of bats, rats, or spiders.\nTree Shape: You look exactly like a tree for 1 hour/level.\nWarp Wood: Bends wood (shaft, handle, door, plank).\nWood Shape: Rearranges wooden objects to suit you.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::003_1st_level_druid_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::005_3rd_level_druid_spells"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::043_combat",
+  "document_id": "srd_35::monstersm_n::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Nightwings prowl the night sky and dive onto their victims. They are all but invisible, detectable only because of the stars they obscure in their passing.\nA nightwing's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nMagic Drain (Su): A nightwing can weaken magic armor, weapons, and shields by making a successful touch attack. The targeted item must succeed on a DC 22 Fortitude save or lose 1 point of its enhancement bonus. The save DC is Charisma-based. An item that loses its entire enhancement bonus becomes merely a masterwork item and loses any special abilities (such as flaming) as well. Casting dispel evil upon the item reverses the effect of the magic drain, provided this occurs within a number of days after the attack equal to the caster's level and the caster succeeds on a DC 29 caster level check.\nSpell-Like Abilities: At will--contagion (DC 18), deeper darkness, detect magic, haste, see invisibility, unholy blight (DC 18); 3/day--confusion (DC 18), greater dispel magic, hold monster (DC 19), invisibility; 1/day--cone of cold (DC 19), finger of death (DC 21), plane shift (DC 21). Caster level 17th. The save DCs are Charisma-based.\nSummon Undead (Su): A nightwing can summon undead creatures once per night: 5-12 shadows, 2-4 greater shadows, or 1 dread wraith. The undead arrive in 1d10 rounds and serve for 1 hour or until released.\nSkills: *When hiding in a dark area or flying in a dark sky, a nightwing gains a +8 racial bonus on Hide checks.\n\nHit Dice: | 6d6+6 (27 hp) |\nInitiative: | +3 |\nSpeed: | 30 ft. (6 squares), swim 20 ft. |\nArmor Class: | 17 (+3 Dex, +4 deflection), touch 17, flat-footed 14 |\nBase Attack/Grapple: | +3/+3 |\nAttack: | Dagger +6 melee (1d4/19-20) |\nFull Attack: | Dagger +6 melee (1d4/19-20) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Blinding beauty, spells, spell-like abilities, stunning glance |\nSpecial Qualities: | Damage reduction 10/cold iron, low-light vision, unearthly grace, wild empathy |\nSaves: | Fort +7, Ref +12, Will +12 |\nAbilities: | Str 10, Dex 17, Con 12, Int 16, Wis 17, Cha 19 |\nSkills: | Concentration +10, Diplomacy +6, Escape Artist +12, Handle Animal +13, Heal +12, Hide +12, Listen +12, Move Silently +12, Ride +5, Sense Motive +12, Spot +12, Swim +8, Use Rope +3 (+5 with bindings) |\nFeats: | Combat Casting, Dodge, Weapon Finesse |\nEnvironment: | Temperate forests |\nOrganization: | Solitary |\nChallenge Rating: | 7 |\nTreasure: | Standard |\nAlignment: | Usually chaotic good |\nAdvancement: | 7-12 HD (Medium) |\nLevel Adjustment: | +7 |\nA nymph is about the height and weight of a female elf.\nNymphs speak Sylvan and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::042_tactics_round_by_round",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::044_combat"
+}

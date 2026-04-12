@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::033_creating_power_stones",
+  "document_id": "srd_35::psionicitems::033_creating_power_stones",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Creating Power Stones"
+    ],
+    "source_location": "PsionicItems.rtf#033_creating_power_stones"
+  },
+  "chunk_type": "subsection",
+  "content": "To create a power stone, a character needs a supply of incense and fine etching tools, the cost of which is subsumed in the cost of encoding the power stone--12.5 gp x the level of the power x the level of the manifester. All materials used to imprint a power stone must be fresh and unused. A character must pay the full cost for encoding each power stone no matter how many times she previously has imprinted the same power.\nThe creator must know the power or powers to be imprinted in the power stone (or must have the power available in some other form). If manifesting the power would reduce the manifester's experience point total, she pays the cost upon beginning the power stone in addition to the experience point cost for making the power stone itself. The act of encoding triggers the power as if it had been manifested, costing the character an appropriate number of power points.\nEncoding a power stone requires one day for each 1,000 gp of the base price.\nItem Creation Feat Required: Imprint Stone.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::032_creating_dorjes",
+  "next_chunk_id": "chunk::srd_35::psionicitems::034_creating_psicrowns"
+}

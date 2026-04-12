@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::038_epic_dodge_epic",
+  "document_id": "srd_35::epicfeats::038_epic_dodge_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC DODGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#038_epic_dodge_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 25, Dodge, Tumble 30 ranks, improved evasion, defensive roll class feature.\nBenefit: Once per round, when struck by an attack from an opponent the character has designated as the object of his or her dodge, the character may automatically avoid all damage from the attack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::037_enhance_spell_metamagic_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::039_epic_endurance_epic"
+}

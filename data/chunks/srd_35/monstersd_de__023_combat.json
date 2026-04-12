@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::023_combat",
+  "document_id": "srd_35::monstersd_de::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Bone devils hate all other creatures and attack ruthlessly. They freely use wall of ice to keep the enemy divided.\nA bone devil's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nFear Aura (Su): Bone devils can radiate a 5-foot-radius fear aura as a free action. Affected creatures must succeed on a DC 17 Will save or be affected as though by a fear spell (caster level 7th). A creature that successfully saves cannot be affected again by the same bone devil's aura for 24 hours. Other devils are immune to the aura. The save DC is Charisma-based.\nPoison (Ex): Injury, Fortitude DC 20, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC\nis Constitution-based.\nSpell-Like Abilities: At will--greater teleport (self plus 50 pounds of objects only), dimensional anchor, fly, invisibility (self only), major image (DC 15), wall of ice. Caster level 12th. The save DC is Charisma-based.\nSummon Devil (Sp): Once per day a bone devil can attempt to summon 2d10 lemures with a 50% chance of success, or another bone devil with a 35% chance of success. This ability is the equivalent of a 4th-level spell.\n\nHit Dice: | 8d8+16 (52 hp) |\nInitiative: | +6 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 20 (+2 Dex, +8 natural), touch 12, flat-footed 18 |\nBase Attack/Grapple: | +8/+10 |\nAttack: | Chain +10 melee (2d4+2/19-20) |\nFull Attack: | 2 chains +10 melee (2d4+2/19-20) |\nSpace/Reach: | 5 ft./5 ft. (10 ft. with chains) |\nSpecial Attacks: | Dancing chains, unnerving gaze |\nSpecial Qualities: | Damage reduction 5/silver or good, darkvision 60 ft., immunity to cold, regeneration 2, spell resistance 18 |\nSaves: | Fort +8, Ref +8, Will +6 |\nAbilities: | Str 15, Dex 15, Con 15, Int 6, Wis 10, Cha 12 |\nSkills: | Climb +13, Craft (blacksmithing) +17, Escape Artist +13, Intimidate +12, Listen +13, Spot +13, Use Rope +2 (+4 with bindings) |\nFeats: | Alertness, Improved Critical (chain), Improved Initiative |\nEnvironment: | A lawful evil-aligned plane |\nOrganization: | Solitary, gang (2-4), band (6-10), or mob (11-20) |\nChallenge Rating: | 6 |\nTreasure: | Standard |\nAlignment: | Always lawful evil |\nAdvancement: | 9-16 HD (Medium) |\nLevel Adjustment: | +6 |\nKytons are humanlike devils, wrapped in chains instead of clothing. A chain devil is 6 feet tall and weighs about 300 pounds, chains included.\nChain devils speak Infernal and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::022_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::024_combat"
+}

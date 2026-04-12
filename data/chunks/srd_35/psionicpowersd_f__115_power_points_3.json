@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::115_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::115_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#115_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You can use another's psionic or metapsionic feats for yourself. You make a melee touch attack against a target. If successful, you immediately are familiar with the target's psionic and metapsionic feats, if any, and you can choose a number of these feats to \u201cleech\u201d equal to your Wisdom modi- fier (minimum one).\nWhile the power lasts, you are treated as if you possessed the stolen feats, despite the fact that you have more feats than normally allowed. During this same period, the target can make no use of the stolen feats. When the power's duration expires, you lose access to the feats, and the target gains immediate use of them. This transfer occurs regardless of the distance between you and the target.\nIf the duration of feat leech is extended by the use of a metapsionic feat, the target gains a Will saving throw every 10 minutes beyond the normal duration. If this save succeeds, the power's duration ends. If the target is killed before the duration expires, you immediately lose the benefit of the stolen feats.\nYou cannot steal a feat for which you do not meet the prerequisites, if any. However, you can use a stolen feat as the prerequisite for another stolen feat.\nAugment: For every 2 additional power points you spend, this power's save DC increases by 1.\nFiery Discorporation\nPsychokinesis [Fire]\nLevel: Kineticist 5\nDisplay: Visual\nManifesting Time: 1 immediate action\n\nDuration: Instantaneous and up to one day; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::114_clairsentience",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::116_power_points_9"
+}

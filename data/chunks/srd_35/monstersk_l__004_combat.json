@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::004_combat",
+  "document_id": "srd_35::monstersk_l::004_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "COMBAT"
+    ],
+    "source_location": "MonstersK-L.rtf#004_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Krakens strike their opponents with their barbed tentacles, then grab and crush with their arms or drag victims into their huge jaws. An opponent can make sunder attempts against a kraken's tentacles or arms as if they were weapons. A kraken's tentacles have 20 hit points, and its arms have 10 hit points. If a kraken is currently grappling a target with one tentacle or arm, it usually uses another limb to make its attack of opportunity against the sunder attempt. Severing a kraken's tentacle or arm deals damage to the kraken equal to half the limb's full normal hit points. A kraken usually withdraws from combat if it loses both tentacles or three of its arms. A kraken regrows severed limbs in 1d10+10 days.\nImproved Grab (Ex): To use this ability, the kraken must hit with an arm or tentacle attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nConstrict (Ex): A kraken deals automatic arm or tentacle damage with a successful grapple check.\nJet (Ex): A kraken can jet backward once per round as a full-round action, at a speed of 280 feet. It must move in a straight line, but does not provoke attacks of opportunity while jetting.\nInk Cloud (Ex): A kraken can emit a cloud of jet-black ink in an 80-foot spread once per minute as a free action. The cloud provides total concealment, which the kraken normally uses to escape a fight that is going badly. Creatures within the cloud are considered to be in darkness.\nSpell-Like Abilities: 1/day--control weather, control winds, dominate animal (DC 18), resist energy. Caster level 9th. The save DC is Charisma-based.\nSkills: A kraken has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 2d10 (11 hp) |\nInitiative: | +2 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 15 (+2 Dex, +3 natural), touch 12, flat-footed 13 |\nBase Attack/Grapple: | +2/+2 |\nAttack: | Bite +2 melee (1d6) |\nFull Attack: | Bite +2 melee (1d6) and 2 claws +0 melee (1d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Scare |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, scent |\nSaves: | Fort +3, Ref +5, Will +1 |\nAbilities: | Str 11, Dex 14, Con 11, Int 6, Wis 12, Cha 13 |\nSkills: | Hide +4, Jump +9, Listen +3, Move Silently +6 |\nFeats: | Multiattack, TrackB |\nEnvironment: | Temperate forests |\nOrganization: | Solitary, pair, or pride (6-10) |\nChallenge Rating: | 1 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 3-4 HD (Medium); 5-8 HD (Large) |\nLevel Adjustment: | +2 |\nThe krenshar is a strange, catlike carnivore with extremely flexible skin on its head. A typical krenshar measures 4 or 5 feet in length with a long, narrow head. It weighs about 175 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::003_kobold_characters",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::005_combat"
+}

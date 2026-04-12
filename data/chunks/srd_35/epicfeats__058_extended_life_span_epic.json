@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::058_extended_life_span_epic",
+  "document_id": "srd_35::epicfeats::058_extended_life_span_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EXTENDED LIFE SPAN [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#058_extended_life_span_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: Add one-half the maximum result of the character's race's maximum age modifier to the character's normal middle age, old, and venerable age categories. Calculate the character's maximum age using the new venerable number. This feat can't lower the character's current age category.\nSpecial: A character can gain this feat multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::057_exceptional_deflection_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::059_familiar_spell_epic"
+}

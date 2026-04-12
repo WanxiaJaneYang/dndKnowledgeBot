@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::040_dying_1_to_9_hit_points",
+  "document_id": "srd_35::combati::040_dying_1_to_9_hit_points",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "DYING (-1 TO -9 HIT POINTS)"
+    ],
+    "source_location": "CombatI.rtf#040_dying_1_to_9_hit_points"
+  },
+  "chunk_type": "subsection",
+  "content": "When your character's current hit points drop to between -1 and -9 inclusive, he's dying.\nA dying character immediately falls unconscious and can take no actions.\nA dying character loses 1 hit point every round. This continues until the character dies or becomes stable (see below).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::039_disabled_0_hit_points",
+  "next_chunk_id": "chunk::srd_35::combati::041_dead_10_hit_points_or_lower"
+}

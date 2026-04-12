@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::005_dragonhide",
+  "document_id": "srd_35::monstersdr_dw::005_dragonhide",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "DRAGONHIDE"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#005_dragonhide"
+  },
+  "chunk_type": "subsection",
+  "content": "Armorsmiths can work with the hides of dragons to produce armor or shields of masterwork quality.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::004_dragon_overland_movement",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::006_chromatic_dragons"
+}

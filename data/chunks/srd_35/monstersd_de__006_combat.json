@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::006_combat",
+  "document_id": "srd_35::monstersd_de::006_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#006_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Balors love to join battle armed with their swords and whips. If they face stiff resistance, they may teleport away to loose a few spell-like effects at the foe.\nA balor's +1 flaming whip is a long, flexible weapon with many tails tipped with hooks, spikes, and balls. The weapon deals bludgeoning and slashing damage, in addition to fire damage.\nA balor's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nDeath Throes (Ex):When killed, a balor explodes in a blinding flash of light that deals 100 points of damage to anything within 100 feet (Reflex DC 30 half ). This explosion automatically destroys any weapons the balor is holding. The save DC is Constitution-based.\nEntangle (Ex): A balor's +1 flaming whip entangles foes much like an attack with a net. The whip has 20 hit points. The whip needs no folding. If it hits, the target and the balor immediately make opposed Strength checks; if the balor wins, it drags the target against its flaming body (see below). The target remains anchored against the balor's body until it escapes the whip.\nSpell-Like Abilities: At will-- blasphemy (DC 25), dominate monster (DC 27), greater dispel magic, greater teleport (self plus 50 pounds of objects only), insanity (DC 25), power word stun, telekinesis (DC 23), unholy aura (DC 26); 1/day--fire storm (DC 26), implosion (DC 27). Caster level 20th. The save DCs are Charisma-based.\nVorpal Sword (Su): Every balor carries a +1 vorpal longsword that looks like a flame or a bolt of lightning.\nSummon Demon (Sp): Once per day a balor can automatically summon 4d10 dretches, 1d4 hezrous, or one nalfeshnee, glabrezu, marilith, or balor. This ability is the equivalent of a 9th-level spell.\nFlaming Body (Su): The body of a balor is wreathed in flame.\nAnyone grappling a balor takes 6d6 points of fire damage each round.\nTrue Seeing (Su): Balors have a continuous true seeing ability, as the spell (caster level 20th).\nSkills: Balors have a +8 racial bonus on Listen and Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::005_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::007_tactics_round_by_round"
+}

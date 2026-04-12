@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::010_the_material_plane",
+  "document_id": "srd_35::planes::010_the_material_plane",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "THE MATERIAL PLANE"
+    ],
+    "source_location": "Planes.rtf#010_the_material_plane"
+  },
+  "chunk_type": "subsection",
+  "content": "The Material Plane is the center of most cosmologies and defines what is considered normal.\nThe Material Plane has the following traits:\nNormal gravity.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::009_layered_planes",
+  "next_chunk_id": "chunk::srd_35::planes::011_normal_time"
+}

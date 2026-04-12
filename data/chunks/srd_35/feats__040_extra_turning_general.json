@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::040_extra_turning_general",
+  "document_id": "srd_35::feats::040_extra_turning_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "EXTRA TURNING [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#040_extra_turning_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ability to turn or rebuke creatures.\nBenefit: Each time you take this feat, you can use your ability to turn or rebuke creatures four more times per day than normal.\nIf you have the ability to turn or rebuke more than one kind of creature each of your turning or rebuking abilities gains four additional uses per day.\nNormal: Without this feat, a character can typically turn or rebuke undead (or other creatures) a number of times per day equal to 3 + his or her Charisma modifier.\nSpecial: You can gain Extra Turning multiple times. Its effects stack. Each time you take the feat, you can use each of your turning or rebuking abilities four additional times per day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::039_extend_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::feats::041_far_shot_general"
+}

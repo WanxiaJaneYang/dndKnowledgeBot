@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::005_blindsight_and_blindsense",
+  "document_id": "srd_35::abilitiesandconditions::005_blindsight_and_blindsense",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "BLINDSIGHT AND BLINDSENSE"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#005_blindsight_and_blindsense"
+  },
+  "chunk_type": "subsection",
+  "content": "Some creatures have blindsight, the extraordinary ability to use a nonvisual sense (or a combination of such senses) to operate effectively without vision. Such sense may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This ability makes invisibility and concealment (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.\nBlindsight never allows a creature to distinguish color or visual contrast. A creature cannot read with blindsight.\nBlindsight does not subject a creature to gaze attacks (even though darkvision does).\nBlinding attacks do not penalize creatures using blindsight.\nDeafening attacks thwart blindsight if it relies on hearing.\nBlindsight works underwater but not in a vacuum.\nBlindsight negates displacement and blur effects.\nBlindsense: Other creatures have blindsense, a lesser ability that lets the creature notice things it cannot see, but without the precision of blindsight. The creature with blindsense usually does not need to make Spot or Listen checks to notice and locate creatures within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent the creature cannot see has total concealment (50% miss chance) against the creature with blindsense, and the blindsensing creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::004_antimagic",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::006_breath_weapon"
+}

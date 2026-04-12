@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::001_epicmonsters_g_w",
+  "document_id": "srd_35::epicmonsters_g_w::001_epicmonsters_g_w",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "EpicMonsters(G-W)"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#001_epicmonsters_g_w"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n\nHit Dice: | 70d10+1,400 (1,785 hp) |\nInitiative: | -2 (Dex) |\nSpeed: | 5 ft., burrow 5 ft. |\nAC: | 0 (-2 Dex, -8 size) |\nBase Attack/Grapple: | +52/+88 |\nAttack: | Slam +64 (4d10+20) melee |\nFull Attack: | 10 slam +64 (4d10+20) melee |\nSpace/Reach: | Varies (see text) |\nSpecial Attacks: | Enslave, improved grab, constrict 4d10+30 |\nSpecial Qualities: | Blindsight 200 ft., fast healing 50, ooze traits |\nSaves: | Fort +43, Ref +21, Will +30 |\nAbilities: | Str 50, Dex 6, Con 50, Int -, Wis 24, Cha 26 |\nSkills: | Jump +5 |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 30 |\nTreasure: | Standard |\nAlignment: | Usually any evil |\nAdvancement: | None |\nA genius loci is difficult to spot, since it looks like any other section of landscape. A genius loci itself has no intelligence, but rather \u201cemulates\u201d the sentience of any creature it currently enslaves (see below), if any. Each genius loci has only a single enslaved creature at one time, though other creatures may also inhabit the surface of the genius loci. Any creature entering a genius loci who makes a successful Survival check (DC 31) realizes that something is amiss, though it is difficult to tell exactly what. Genius loci do not speak directly, though they may do so through their currently enslaved thrall.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::002_combat"
+}

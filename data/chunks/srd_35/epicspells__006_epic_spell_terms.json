@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::006_epic_spell_terms",
+  "document_id": "srd_35::epicspells::006_epic_spell_terms",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "EPIC SPELL TERMS"
+    ],
+    "source_location": "EpicSpells.rtf#006_epic_spell_terms"
+  },
+  "chunk_type": "subsection",
+  "content": "Epic Spell: Spells that are different from common spells. Epic spells are usually custom-made. Epic spells do not take up normal spell slots, but instead are gained and used under a completely separate progression.\nEpic Spell Slots: A character must have an available epic spell slot to prepare or cast an epic spell, just as he or she needs a normal spell slot for a nonepic spell. A character doesn't gain epic spell slots by virtue of his or her level and class, however. A character gets one epic spell slot for every 10 ranks he or she has in the relevant Knowledge skill.\nFactor: When creating an epic spell, a character can modify the basic use of a seed. Each modification is called a factor, and most factors increase the difficulty of casting the spell.\nMitigating Factor: The opposite of a normal factor, a mitigating factor modifies the spell but makes it easier to cast.\nSeed: Every custom epic spell created by spellcasters begins with a base effect called a seed. Seeds are the fundamental building blocks of epic spells.\nSpellcraft DC: For epic spells, the Spellcraft DC is a measure of how difficult the spell is for a spellcaster to cast. It also measures how powerful an epic spell is.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicspells::005_epic_spellcasting",
+  "next_chunk_id": "chunk::srd_35::epicspells::007_epic_spell_formulas_and_calculations"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::012_troglodyte_characters",
+  "document_id": "srd_35::monsterst_z::012_troglodyte_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "TROGLODYTE CHARACTERS"
+    ],
+    "source_location": "MonstersT-Z.rtf#012_troglodyte_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Troglodyte characters possess the following racial traits.\n-- -2 Dexterity, +4 Constitution, -2 Intelligence.\n--Medium size.\n--A troglodyte's base land speed is 30 feet.\n--Darkvision out to 90 feet.\n--Racial Hit Dice: A troglodyte begins with two levels of humanoid, which provide 2d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.\n--Racial Skills: A troglodyte's humanoid levels give it skill points equal to 5 x\uf020(2 + Int modifier, minimum 1). Its class skills are Hide and Listen. Troglodytes have a +4 racial bonus on Hide checks (+8 in rocky or underground surroundings).\n--Racial Feats: A troglodyte's humanoid levels give it one feat. A troglodyte receives Multiattack as a bonus feat.\n-- +6 natural armor bonus.\n--Natural Weapons: 2 claws (1d4) and bite (1d4).\n--Special Attacks (see above): Stench.\n--Automatic Languages: Draconic. Bonus Languages: Common, Giant, Goblin, Orc.\n--Favored Class: Cleric.\n--Level adjustment +2.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::011_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::013_troll"
+}

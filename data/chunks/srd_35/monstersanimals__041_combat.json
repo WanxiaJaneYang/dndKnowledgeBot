@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::041_combat",
+  "document_id": "srd_35::monstersanimals::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Sharks circle and observe potential prey, then dart in and bite with their powerful jaws.\nBlindsense (Ex): A shark can locate creatures underwater within a 30-foot radius. This ability works only when the shark is underwater.\nKeen Scent (Ex): A shark can notice creatures by scent in a 180-foot radius and detect blood in the water at ranges of up to a mile.\nSkills: A shark has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::040_shark",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::042_snake"
+}

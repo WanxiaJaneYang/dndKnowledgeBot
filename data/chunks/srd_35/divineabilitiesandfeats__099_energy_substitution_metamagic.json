@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::099_energy_substitution_metamagic",
+  "document_id": "srd_35::divineabilitiesandfeats::099_energy_substitution_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "ENERGY SUBSTITUTION [METAMAGIC]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#099_energy_substitution_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Any other metamagic feat, Knowledge (arcana) 5 ranks.\nBenefit: You choose one type of energy: acid, cold, electricity, fire, or sonic. When employing a spell with the acid, cold, electricity, fire, or sonic designator, you can modify the spell to use your chosen type of energy instead. The altered spell uses a spell slot of the spell's normal level.\nThe altered spell works normally in all respects except the type of damage dealt.\nSpecial: You can gain this feat multiple times. Each time the feat applies to a different type of energy.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::098_divine_vengeance_divine",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::100_extra_music_general"
+}

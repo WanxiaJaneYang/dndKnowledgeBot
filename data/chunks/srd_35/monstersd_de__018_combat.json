@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::018_combat",
+  "document_id": "srd_35::monstersd_de::018_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "COMBAT"
+    ],
+    "source_location": "MonstersD-De.rtf#018_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Derro are stealthy and bloodthirsty. They like to carefully arrange cruel traps and deadly ambushes, and strike savagely from hiding. They delight in taking captives who can be tortured to death later, and favor traps and poisons that disable without killing.\nMadness (Ex): Derro use their Charisma modifier on Will saves instead of their Wisdom modifier, and have immunity to confusion and insanity effects. A derro cannot be restored to sanity by any means short of a miracle or wish spell.\n*The racial madness of the derro provides a +6 bonus to their Charisma scores and a -6 penalty to their Wisdom scores. A derro restored to sanity gains 6 points of Wisdom and loses 6 points of Charisma.\nPoison Use (Ex): Derro typically carry 2d4 doses of greenblood oil or Medium monstrous spider venom, applying it to their crossbow bolts. Derro are not at risk of poisoning themselves when handling poison.\nSneak Attack (Ex): Any time a derro's opponent is denied his Dexterity bonus to AC, or if a derro flanks his opponent, he deals an extra 1d6 points of damage. This ability is just like the rogue's sneak attack and subject to the same limitations.\nSpell-Like Abilities: At will--darkness, ghost sound; 1/day-- daze (DC 13), sound burst (DC 15). Caster level 3rd. The save DCs are Charisma-based.\nVulnerability to Sunlight (Ex): A derro takes 1 point of Constitution damage for every hour it is exposed to sunlight, and it dies if its Constitution score reaches 0. Lost Constitution points are recovered at the rate of 1 per every 24-hour period spent underground or otherwise sheltered from the sun.\nSkills: Derro have a +4 racial bonus on Hide and Move Silently checks.\n\nHit Dice: | 8d8+24 (60 hp) |\nInitiative: | +5 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 18 (-1 size, +1 Dex, +8 natural), touch 10, flat-footed 17 |\nBase Attack/Grapple: | +6/+14 |\nAttack: | Claw +9 melee (1d6+4) |\nFull Attack: | 2 claws +9 melee (1d6+4) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Destructive harmonics |\nSpecial Qualities: | Blindsight 100 ft., immunities, protection from sonics |\nSaves: | Fort +5, Ref +5, Will +10 |\nAbilities: | Str 18, Dex 12, Con 16, Int 12, Wis 18, Cha 12 |\nSkills: | Hide +8, Listen +25, Move Silently +7, Survival +9 |\nFeats: | Dodge, Improved Initiative, Lightning Reflexes |\nEnvironment: | Underground |\nOrganization: | Solitary or pack (3-5) |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Usually neutral evil |\nAdvancement: | 9-16 HD (Large); 17-24 HD (Huge) |\nLevel Adjustment: | -- |\nThe dungeon-dwelling destrachan looks like some bizarre, nonintelligent beast, but it's an incredibly evil and crafty sadist. A destrachan has a pair of complex, three-part ears that it can adjust to be more or less sensitive to various sounds. It is blind, yet hunts with a sense of hearing more precise than most creatures' sight.\nFrom its tubular mouth a destrachan emits carefully focused harmonics, producing sonic energy so powerful it can shatter a stone wall. So skilled is a destrachan at controlling the sounds it emits that it can choose what type of material to affect with its attack.\nA destrachan is about 10 feet long from its mouth to the tip of the tail and weighs about 4,000 pounds.\nA destrachan speaks no language but understands Common. If a destrachan must communicate, it does so through action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::017_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::019_combat"
+}

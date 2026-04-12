@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::016_power_points_11",
+  "document_id": "srd_35::psionicpowersq_w::016_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#016_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "You automatically teleport an item you can see within range directly to your hand. If the object is in the possession of an opponent, it comes to your hand if your opponent fails a Will save.\nAugment: For every additional power point you spend, the weight limit of the target increases by 10 pounds.\n\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::015_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::017_power_points_7"
+}

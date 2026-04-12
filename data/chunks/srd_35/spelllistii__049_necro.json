@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::049_necro",
+  "document_id": "srd_35::spelllistii::049_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#049_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Control Undead: Undead don't attack you while under your command.\nFinger of Death: Kills one subject.\nSymbol of Weakness M: Triggered rune weakens nearby creatures.\nWaves of Exhaustion: Several targets become exhausted.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::048_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::050_trans"
+}

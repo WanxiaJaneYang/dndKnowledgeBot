@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::038_psychoportation_teleportation",
+  "document_id": "srd_35::psionicpowersd_f::038_psychoportation_teleportation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Psychoportation (Teleportation)"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#038_psychoportation_teleportation"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 1, psychic warrior 1\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: Touch\nTarget: Creature or object touched",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::037_power_points_11",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::039_power_points_1"
+}

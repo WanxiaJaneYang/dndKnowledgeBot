@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::034_combat",
+  "document_id": "srd_35::monsterso_r::034_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#034_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In battle, a purple worm forms into a coil 20 feet in diameter, biting and stinging anything within reach.\nImproved Grab (Ex): To use this ability, a purple worm must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can attempt to swallow the foe the following round.\nPoison (Ex): Injury, Fortitude DC 25, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC is Constitution-based.\nSwallow Whole (Ex): A purple worm can try to swallow a grabbed opponent of a smaller size than itself by making a successful grapple check. Once inside, the opponent takes 2d8+12 points of crushing damage plus 8 points of acid damage per round from the worm's gizzard. A swallowed creature can cut its way out by using a light slashing or piercing weapon to deal 25 points of damage to the gizzard (AC 17). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out. A Gargantuan worm's interior can hold 2 Large, 8 Medium, 32 Small, 128 Tiny, or 512 Diminutive or smaller opponents.\nSkills: A purple worm has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 7d8+21 (52 hp) |\nInitiative: | +2 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 21 (+2 Dex, +9 natural), touch 12, flat-footed 19 |\nBase Attack/Grapple: | +7/+8 |\nAttack: | Claw +8 melee (1d4+1) |\nFull Attack: | 2 claws +8 melee (1d4+1) and bite +3 melee (1d6) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Detect thoughts, spells |\nSpecial Qualities: | Change shape, damage reduction 15/good and piercing, darkvision 60 ft., spell resistance 27 |\nSaves: | Fort +8, Ref +7, Will +6 |\nAbilities: | Str 12, Dex 14, Con 16, Int 13, Wis 13, Cha 17 |\nSkills: | Bluff +17*, Concentration +13, Diplomacy +7, Disguise +17 (+19 acting)*, Intimidate +5, Listen +13, Move Silently +13, Perform (oratory) +13, Sense Motive +11, Spellcraft +11, Spot +11 |\nFeats: | Alertness, Combat Casting, Dodge |\nEnvironment: | Warm marshes |\nOrganization: | Solitary |\nChallenge Rating: | 10 |\nTreasure: | Standard coins; double goods; standard items |\nAlignment: | Always lawful evil |\nAdvancement: | By character class |\nLevel Adjustment: | +7 |\nA closer look at a rakshasa reveals that the palms of its hands are where the backs of the hands would be on a human.\nA rakshasa is about the same height and weight as a human.\nRakshasas speak Common, Infernal, and Undercommon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::033_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::035_combat"
+}

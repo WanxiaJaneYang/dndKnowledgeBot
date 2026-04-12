@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::021_combat",
+  "document_id": "srd_35::monstersdi_do::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire wolverines attack opponents wantonly, fearing no other creatures.\nRage (Ex): A dire wolverine that takes damage in combat flies into a berserk rage on its next turn, clawing and biting madly until either it or its opponent is dead. An enraged dire wolverine gains +4 Strength, +4 Constitution, and -2 AC. The creature cannot end its rage voluntarily.\nSkills: A dire wolverine has a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened.\n\nHit Dice: | 4d8+4 (22 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 Dex, +4 natural), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +4/+5 |\nAttack: | Slam +5 melee (1d6+1) |\nFull Attack: | Slam +5 melee (1d6+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Detect thoughts |\nSpecial Qualities: | Change shape, immunity to sleep and charm effects |\nSaves: | Fort +4, Ref +5, Will +6 |\nAbilities: | Str 12, Dex 13, Con 12, Int 13, Wis 14, Cha 13 |\nSkills: | Bluff +10*, Diplomacy +3, Disguise +9* (+11 acting), Intimidate +3, Listen +6, Sense Motive +6, Spot +6 |\nFeats: | Dodge, Great Fortitude |\nEnvironment: | Any |\nOrganization: | Solitary, pair, or gang (3-6) |\nChallenge Rating: | 3 |\nTreasure: | Double standard |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +4 |\nDoppelgangers are strange beings that are able to take on the shapes of those they encounter. In its natural form, the creature looks more or less humanoid, but slender and frail, with gangly limbs and half-formed features. The flesh is pale and hairless. Its large, bulging eyes are yellow with slitted pupils. A doppelganger's appearance is deceiving even when it's in its true form. A doppelganger is hardy, with a natural agility not in keeping with its frail appearance.\nDoppelgangers make excellent use of their natural mimicry to stage ambushes, bait traps, and infiltrate humanoid society. Although not usually evil, they are interested only in themselves and regard all others as playthings to be manipulated and deceived.\nIt is natural form a doppelganger is about 5-1/2 feet tall and weighs about 150 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::020_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::022_combat"
+}

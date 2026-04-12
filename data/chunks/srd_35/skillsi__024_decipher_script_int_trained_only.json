@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::024_decipher_script_int_trained_only",
+  "document_id": "srd_35::skillsi::024_decipher_script_int_trained_only",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "DECIPHER SCRIPT (INT; TRAINED ONLY)"
+    ],
+    "source_location": "SkillsI.rtf#024_decipher_script_int_trained_only"
+  },
+  "chunk_type": "subsection",
+  "content": "Check: You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing.\nIf the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 Wisdom check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)\nBoth the Decipher Script check and (if necessary) the Wisdom check are made secretly, so that you can't tell whether the conclusion you draw is true or false.\nAction: Deciphering the equivalent of a single page of script takes 1 minute (ten consecutive full-round actions).\nTry Again: No.\nSpecial: A character with the Diligent feat gets a +2 bonus on Decipher Script checks.\nSynergy: If you have 5 or more ranks in Decipher Script, you get a +2 bonus on Use Magic Device checks involving scrolls.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::023_craft_int",
+  "next_chunk_id": "chunk::srd_35::skillsi::025_diplomacy_cha"
+}

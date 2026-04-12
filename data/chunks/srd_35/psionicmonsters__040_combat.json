@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::040_combat",
+  "document_id": "srd_35::psionicmonsters::040_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#040_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): Cone of acid 50 feet long, once every 1d4 rounds; damage 14d10 acid, Reflex half DC 30.\nImproved Grab (Ex): To use this ability, a neothelid must hit a creature with two tentacles during the same attack. If it gets a hold, it automatically deals tentacle damage and can attempt to swallow the foe.\nPsi-Like Abilities: At will--body equilibrium, psionic charm (all targets, duration 15 days, DC 21*), clairvoyant sense, psionic levitate, read thoughts (DC 17*), psionic suggestion (seven targets, DC 17*), telekinetic force (500 lb., DC 18*), telekinetic maneuver (+4 bonus, DC 19*), telekinetic thrust (500 lb., DC 18*), psionic teleport, trace teleport, truevenom (DC 19); 3/day--mind thrust (15d10, DC 23*), psychic thrust (6d6, DC 16**). Manifester level 15th. The save DCs are Charisma-based.\n*Includes augmentation for the neothelid's manifester level.\n**Includes the inherent +4 save adjustment described in the power.\nSwallow Whole (Ex): A neothelid can try to swallow a grabbed opponent of a smaller size than itself by making a successful grapple check. Once inside, the opponent takes 2d8+15 points of crushing damage plus 2d6 points of acid damage per round from stomach secretions. A swallowed creature can cut its way out by using a light slashing or piercing weapon to deal 25 points of damage to the stomach (AC 22). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out. A neothelid's interior can hold 1 Huge, 2 Large, 8 Medium, 32 Small, 128 Tiny, or 512 Diminutive or smaller opponents.\nBlindsight (Ex): A neothelid can use nonvisual means to ascertain all foes within 100 feet as a sighted creature would.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::039_maenads_as_characters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::041_phrenic_creature"
+}

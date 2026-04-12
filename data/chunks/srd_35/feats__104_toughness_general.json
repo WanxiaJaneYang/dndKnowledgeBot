@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::104_toughness_general",
+  "document_id": "srd_35::feats::104_toughness_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "TOUGHNESS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#104_toughness_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You gain +3 hit points.\nSpecial: A character may gain this feat multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::103_stunning_fist_general",
+  "next_chunk_id": "chunk::srd_35::feats::105_tower_shield_proficiency_general"
+}

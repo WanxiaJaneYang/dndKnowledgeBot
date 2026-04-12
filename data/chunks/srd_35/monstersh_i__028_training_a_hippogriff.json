@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::028_training_a_hippogriff",
+  "document_id": "srd_35::monstersh_i::028_training_a_hippogriff",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "TRAINING A HIPPOGRIFF"
+    ],
+    "source_location": "MonstersH-I.rtf#028_training_a_hippogriff"
+  },
+  "chunk_type": "subsection",
+  "content": "A hippogriff requires training before it can bear a rider in combat.\nTraining a hippogriff requires six weeks of work and a DC 25 Handle Animal check. Riding a hippogriff requires an exotic saddle. A hippogriff can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nHippogriff eggs are worth 2,000 gp apiece on the open market, while young are worth 3,000 gp each. Professional trainers charge 1,000 gp to rear or train a hippogriff.\nCarrying Capacity: A light load for a hippogriff is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds.\nHOBGOBLIN\n| Hobgoblin, 1st-Level Warrior |\n\nHit Dice: | 1d8+2 (6 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 Dex, +3 studded leather, +1 light shield), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +1/+2 |\nAttack: | Longsword +2 melee (1d8+1/19-20) or javelin +2 ranged (1d6+1) |\nFull Attack: | Longsword +2 melee (1d8+1/19-20) or javelin +2 ranged (1d6+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft. |\nSaves: | Fort +4, Ref +1, Will -1 |\nAbilities: | Str 13, Dex 13, Con 14, Int 10, Wis 9, Cha 8 |\nSkills: | Hide +3, Listen +2, Move Silently +3, Spot +2 |\nFeats: | Alertness |\nEnvironment: | Warm hills |\nOrganization: | Gang (4-9), band (10-100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of 4th-6th level), warband (10-24), or tribe (30-300 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 2-4 dire wolves, and 1-4 ogres or 1-2 trolls) |\nChallenge Rating: | 1/2 |\nTreasure: | Standard |\nAlignment: | Usually lawful evil |\nAdvancement: | By character class |\nLevel Adjustment: | +1 |\nHobgoblins are larger cousins of goblins. Hobgoblins' hair color ranges from dark reddish-brown to dark gray. They have dark orange or red-orange skin. Large males have blue or red noses. Hobgoblins' eyes are yellowish or dark brown, while their teeth are yellow. Their garments tend to be brightly colored, often blood red with black-tinted leather. Their weaponry is kept polished and in good repair. Hobgoblins speak Goblin and Common. Most hobgoblins encountered outside their homes are warriors; the information in the statistics block is for one of 1st level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::027_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::029_combat"
+}

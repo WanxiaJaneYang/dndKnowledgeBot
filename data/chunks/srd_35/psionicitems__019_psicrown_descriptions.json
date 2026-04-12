@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::019_psicrown_descriptions",
+  "document_id": "srd_35::psionicitems::019_psicrown_descriptions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Psicrown Descriptions"
+    ],
+    "source_location": "PsionicItems.rtf#019_psicrown_descriptions"
+  },
+  "chunk_type": "subsection",
+  "content": "Psicrowns have immense utility because they pack so many capabilities into one item and because they use the wearer's ability score and relevant feats to set the DC for saves against their powers.\nUnlike with other sorts of psionic items, the wearer can use his manifester level when activating the power of a psicrown if it's higher than the manifester level of the psicrown.\nThe minimum manifester level of a psicrown is 8th. The manifester level of a psicrown cannot be more than five levels higher than the minimum manifester level for the highest-level power in the psicrown. Standard psicrowns are described below.\nAstral Legion: This psicrown has 900 power points. It is made from white silk interwoven with crystalline strands of thread. It allows use of the following power.\nAstral construct\nStrong metacreativity; ML 18th; Craft Psicrown, astral construct; Price 47,250 gp.\nBeast: This psicrown has 450 power points. It is made from a prickly collection of bear claws and snake fangs. It allows use of the following powers.\nClaw of energy\nDuodimensional claw\nPrevenom\nPsionic lion's charge",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::018_psicrowns",
+  "next_chunk_id": "chunk::srd_35::psionicitems::020_truevenom"
+}

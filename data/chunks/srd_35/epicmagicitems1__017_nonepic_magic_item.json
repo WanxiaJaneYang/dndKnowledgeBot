@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::017_nonepic_magic_item",
+  "document_id": "srd_35::epicmagicitems1::017_nonepic_magic_item",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "NONEPIC MAGIC ITEM"
+    ],
+    "source_location": "EpicMagicItems1.rtf#017_nonepic_magic_item"
+  },
+  "chunk_type": "subsection",
+  "content": "Universal Energy Resistance, Minor: This ring functions as a ring of minor energy resistance for all types of energy: fire, cold, electricity, acid, and sonic. When the wearer would normally take such damage, subtract 10 points of damage per round from the amount before applying. This is a nonepic magic item.\nCaster Level: 15th; Prerequisites: Forge Ring, protection from energy; Market Price: 84,000 gp.\nTable: Epic Rings\nd% | Ring | Market Price |\n01-08 | Universal energy resistance, greater | 308,000 gp |\n09-13 | Energy immunity (acid) | 240,000 gp |\n14-15 | Energy immunity (cold) | 240,000 gp |\n19-23 | Energy immunity (electricity) | 240,000 gp |\n24-28 | Energy immunity (fire) | 240,000 gp |\n29-33 | Energy immunity (sonic) | 240,000 gp |\n34-38 | Adamant law | 250,000 gp |\n39-43 | Chaotic fury | 250,000 gp |\n44-48 | Epic wizardry (V) | 250,000 gp |\n49-53 | Ineffable evil | 250,000 gp |\n54-58 | Virtuous good | 250,000 gp |\n59-63 | Rapid healing | 300,000 gp |\n64-68 | Sequestering | 300,000 gp |\n69-72 | Epic wizardry (VI) | 360,000 gp |\n73-76 | Ironskin | 400,000 gp |\n77-80 | Epic wizardry (VII) | 490,000 gp |\n81-83 | Weaponbreaking | 600,000 gp |\n84-86 | Epic wizardry (VIII) | 640,000 gp |\n87-89 | Epic protection +6 | 720,000 gp |\n90-92 | Epic wizardry (IX) | 810,000 gp |\n93-95 | Epic protection +7 | 980,000 gp |\n96-97 | Epic protection +8 | 1,280,000 gp |\n98 | Epic protection +9 | 1,620,000 gp |\n99 | Epic protection +10 | 2,000,000 gp |\n100 | Universal energy immunity | 2,160,000 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::016_specific_weapons",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::018_epic_ring_descriptions"
+}

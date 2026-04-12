@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::029_fell_shot_psionic",
+  "document_id": "srd_35::psionicsfeats::029_fell_shot_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "FELL SHOT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#029_fell_shot_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can strike your foe with a ranged weapon as if making a touch attack.\nPrerequisite: Dex 13, Point Blank Shot, Psionic Shot, base attack bonus +5.\nBenefit: To use this feat, you must expend your psionic focus. You can resolve your ranged attack as a ranged touch attack.\nYou must decide whether or not to use this feat prior to making an attack. If your attack misses, you still expend your psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::028_extend_power_metapsionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::030_focused_sunder_psionic"
+}

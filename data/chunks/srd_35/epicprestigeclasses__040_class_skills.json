@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::040_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::040_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#040_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The Union Sentinel's class skills (and the key ability for each skill) are Diplomacy (Cha), Gather Information (Cha), Intimidate (Cha), Knowledge (local) (Int), Listen (Wis), Profession (Wis), Search (Int), Sense Motive (Wis), and Spot (Wis).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Union Sentinel\nLevel | Special |\n1st | Sending 1/day, shield of law 1/day |\n2nd | Freedom 1/day, knock 1/day |\n3rd | Dimensional anchor 1/day |\n4th | Portal guardian 1/day, shield of law 2/day |\n5th | Forcecage 1/day |\n6th | Dimensional anchor 2/day, knock 2/day |\n7th | Imprisonment 1/day, shield of law 3/day |\n8th | Freedom 2/day, sending 2/day |\n9th | Dimensional anchor 3/day |\n10th | Knock 3/day, forcecage 2/day, portal guardian 2/day, shield of law 4/day |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::039_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::041_class_features"
+}

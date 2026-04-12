@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::009_layered_planes",
+  "document_id": "srd_35::planes::009_layered_planes",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "Layered Planes"
+    ],
+    "source_location": "Planes.rtf#009_layered_planes"
+  },
+  "chunk_type": "subsection",
+  "content": "Infinities may be broken into smaller infinities, and planes into smaller, related planes. These layers are effectively separate planes of existence, and each layer can have its own planar traits. Layers are connected to each other through a variety of planar gates, natural vortices, paths, and shifting borders.\nAccess to a layered plane from elsewhere usually happens on a specific layer: the first layer of the plane, which can be either the top layer or the bottom layer, depending on the specific plane. Most fixed access points (such as portals and natural vortices) reach this layer, which makes it the gateway for other layers of the plane. The plane shift spell also deposits the spellcaster on the first layer of the plane.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::008_how_planes_interact",
+  "next_chunk_id": "chunk::srd_35::planes::010_the_material_plane"
+}

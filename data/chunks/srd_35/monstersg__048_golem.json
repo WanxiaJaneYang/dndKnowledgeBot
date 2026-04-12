@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::048_golem",
+  "document_id": "srd_35::monstersg::048_golem",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GOLEM"
+    ],
+    "source_location": "MonstersG.rtf#048_golem"
+  },
+  "chunk_type": "subsection",
+  "content": "Golems are magically created automatons of great power. Constructing one involves the employment of mighty magic and elemental forces.\nThe animating force for a golem is a spirit from the Elemental Plane of Earth. The process of creating the golem binds the unwilling spirit to the artificial body and subjects it to the will of the golem's creator.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::047_goblins_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersg::049_combat"
+}

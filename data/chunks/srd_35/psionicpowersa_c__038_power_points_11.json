@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::038_power_points_11",
+  "document_id": "srd_35::psionicpowersa_c::038_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#038_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mouth spews forth vitriolic acid that deals 11d6 points of acid damage to any targets in the area.\nAugment: For every additional power point you spend, this power's damage increases by 1d6 points.\nBurst\nPsychoportation\nLevel: Nomad 1, psychic warrior 1\nDisplay: Auditory\nManifesting Time: 1 swift action\nRange: Personal\nTarget: You\nDuration: 1 round",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::037_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::039_power_points_1"
+}

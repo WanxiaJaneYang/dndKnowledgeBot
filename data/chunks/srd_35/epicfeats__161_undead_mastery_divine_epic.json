@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::161_undead_mastery_divine_epic",
+  "document_id": "srd_35::epicfeats::161_undead_mastery_divine_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "UNDEAD MASTERY [DIVINE][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#161_undead_mastery_divine_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Cha 21, ability to rebuke or command undead.\nBenefit: The character may command up to ten times his or her level in HD of undead.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::160_uncanny_accuracy_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::162_unholy_strike_epic"
+}

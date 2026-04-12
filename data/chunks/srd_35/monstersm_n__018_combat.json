@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::018_combat",
+  "document_id": "srd_35::monstersm_n::018_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#018_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A mimic often surprises an unsuspecting adventurer, lashing out with a heavy pseudopod. The creature does not necessarily fight to the death if it can succeed in extorting treasure or food from a party.\nAdhesive (Ex): A mimic exudes a thick slime that acts as a powerful adhesive, holding fast any creatures or items that touch it. An adhesive-covered mimic automatically grapples any creature it hits with its slam attack. Opponents so grappled cannot get free while the mimic is alive without removing the adhesive first.\nA weapon that strikes an adhesive-coated mimic is stuck fast unless the wielder succeeds on a DC 16 Reflex save. A successful DC 16 Strength check is needed to pry it off.\nStrong alcohol dissolves the adhesive, but the mimic still can grapple normally. A mimic can dissolve its adhesive at will, and the substance breaks down 5 rounds after the creature dies.\nCrush (Ex): A mimic deals 1d8+4 points of damage with a successful grapple check.\nMimic Shape (Ex): A mimic can assume the general shape of any object that fills roughly 150 cubic feet (5 feet by 5 feet by 6 feet), such as a massive chest, a stout bed, or a wide door frame. The creature cannot substantially alter its size, though. A mimic's body is hard and has a rough texture, no matter what appearance it might present. Anyone who examines the mimic can detect the ruse with a successful Spot check opposed by the mimic's Disguise check. Of course, by this time it is generally far too late.\nSkills: A mimic has a +8 racial bonus on Disguise checks.\n\nHit Dice: | 6d8+12 (39 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 14 (-1 size, +5 natural), touch 9, flat-footed -- (see text) |\nBase Attack/Grapple: | +6/+14 |\nAttack: | Greataxe +9 melee (3d6+6/x3) or gore +9 melee (1d8+4) |\nFull Attack: | Greataxe +9/+4 melee (3d6+6/x3) and gore +4 melee (1d8+2) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Powerful charge 4d6+6 |\nSpecial Qualities: | Darkvision 60 ft., natural cunning, scent |\nSaves: | Fort +6, Ref +5, Will +5 |\nAbilities: | Str 19, Dex 10, Con 15, Int 7, Wis 10, Cha 8 |\nSkills: | Intimidate +2, Listen +7, Search +2, Spot +7 |\nFeats: | Great Fortitude, Power Attack, Track |\nEnvironment: | Underground |\nOrganization: | Solitary, pair, or gang (3-4) |\nChallenge Rating: | 4 |\nTreasure: | Standard |\nAlignment: | Usually chaotic Evil |\nAdvancement: | By character class |\nLevel Adjustment: | +2 |\nA minotaur stands more than 7 feet tall and weighs about 700 pounds.\nMinotaurs speak Giant.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::017_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::019_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::008_untrained_skill_checks",
+  "document_id": "srd_35::skillsi::008_untrained_skill_checks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Untrained Skill Checks"
+    ],
+    "source_location": "SkillsI.rtf#008_untrained_skill_checks"
+  },
+  "chunk_type": "subsection",
+  "content": "Generally, if your character attempts to use a skill he or she does not possess, you make a skill check as normal. The skill modifier doesn't have a skill rank added in because the character has no ranks in the skill. Any other applicable modifiers, such as the modifier for the skill's key ability, are applied to the check.\nMany skills can be used only by someone who is trained in them.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::007_trying_again",
+  "next_chunk_id": "chunk::srd_35::skillsi::009_favorable_and_unfavorable_conditions"
+}

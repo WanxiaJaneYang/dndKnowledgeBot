@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::081_power_points_7",
+  "document_id": "srd_35::psionicpowersq_w::081_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#081_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "If you have a claw attack (either from an actual natural weapon or from an effect such as claws of the beast), you can use this power to produce a horrible poison that coats one of your claws. On your next successful melee attack with the claw during the power's duration, the poison deals 1d8 points of Constitution damage immediately and another 1d8 points of Constitution damage 1 minute later. The target of your attack can negate each instance of damage with a Fortitude save.\nTruevenom Weapon\nPsychometabolism (Creation)\nLevel: Psychic warrior 4\nRange: Touch\nTarget: Weapon touched",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::080_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::082_power_points_7"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::129_planar_turning_epic",
+  "document_id": "srd_35::epicfeats::129_planar_turning_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "PLANAR TURNING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#129_planar_turning_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 25, Cha 25, ability to turn or rebuke undead.\nBenefit: The character can turn or rebuke outsiders as if they were undead. An outsider has effective turn resistance equal to half its spell resistance (round down). If the character can turn undead, he or she turns (or destroys) all evil outsiders and rebukes (or commands) all nonevil outsiders. If the character can rebuke undead, he or she rebukes (or commands) all evil outsiders and turns (or destroys) all nonevil outsiders.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::128_permanent_emanation_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::130_plant_wild_shape_wild_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::041_necro",
+  "document_id": "srd_35::spelllistii::041_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#041_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Blight: Withers one plant or deals 1d6/level damage to plant creature.\nMagic Jar F: Enables possession of another creature.\nSymbol of Pain M: Triggered rune wracks nearby creatures with pain.\nWaves of Fatigue: Several targets become fatigued.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::040_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::042_trans"
+}

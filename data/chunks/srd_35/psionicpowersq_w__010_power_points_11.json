@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::010_power_points_11",
+  "document_id": "srd_35::psionicpowersq_w::010_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#010_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "When others use clairvoyant sense, remote viewing, or other means of scrying you from afar, your prepared trap gives them a nasty surprise. If the scryer fails its saving throw, you are undetected. Moreover, the would-be observer takes 8d6 points of electricity damage. If the scryer makes its saving throw, it takes only 4d6 points of electricity damage and is able to observe you normally. Either way, you are aware of the attempt to view you, but not of the viewer or the viewer's location. It is possible that you might recognize the quasireal viewpoint of someone using the remote viewing power if you could pierce its invisibility (which is true for remote viewing whether or not you use this power).\nRemote Viewing\nClairsentience (Scrying; see text)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::009_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::011_display_mental"
+}

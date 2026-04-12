@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::047_initiative_4_improved_initiative",
+  "document_id": "srd_35::epicmonsters_a_e::047_initiative_4_improved_initiative",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Initiative: +4 (Improved Initiative)"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#047_initiative_4_improved_initiative"
+  },
+  "chunk_type": "subsection",
+  "content": "Speed: 60 ft., fly 300 ft. (clumsy)\nAC: 78 (-8 size, +19 deflection, +57 natural)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::046_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::048_base_attack_grapple_58_97"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::033_regeneration",
+  "document_id": "srd_35::abilitiesandconditions::033_regeneration",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "REGENERATION"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#033_regeneration"
+  },
+  "chunk_type": "subsection",
+  "content": "Creatures with this extraordinary ability recover from wounds quickly and can even regrow or reattach severed body parts. Damage dealt to the creature is treated as nonlethal damage, and the creature automatically cures itself of nonlethal damage at a fixed rate.\nCertain attack forms, typically fire and acid, deal damage to the creature normally; that sort of damage doesn't convert to nonlethal damage and so doesn't go away. The creature's description includes the details.\nCreatures with regeneration can regrow lost portions of their bodies and can reattach severed limbs or body parts. Severed parts die if they are not reattached.\nRegeneration does not restore hit points lost from starvation, thirst, or suffocation.\nAttack forms that don't deal hit point damage ignore regeneration.\nAn attack that can cause instant death only threatens the creature with death if it is delivered by weapons that deal it lethal damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::032_rays",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::034_resistance_to_energy"
+}

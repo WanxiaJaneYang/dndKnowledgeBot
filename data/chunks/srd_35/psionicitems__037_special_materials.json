@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::037_special_materials",
+  "document_id": "srd_35::psionicitems::037_special_materials",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "SPECIAL MATERIALS"
+    ],
+    "source_location": "PsionicItems.rtf#037_special_materials"
+  },
+  "chunk_type": "subsection",
+  "content": "In addition to psionic items with imbedded powers, some substances have innate special properties.\nCrystal, Deep: Deep crystal is crystal of above-average quality found at the hearts of large veins or deposits of mundane crystal (see below). Deep crystal is renowned for its strength and its psionically resonant nature. Mundane crystal is used for many items of psionic manufacture, such as dorjes, power stones, and psicrystals. Deep crystal is a better grade.\nWhile a weapon made of deep crystal is no different from a mundane crystal weapon for a nonpsionic character, a psionic wielder of a deep crystal weapon can focus psionic power through it, increasing the damage that weapon deals. As a free action that does not provoke attacks of opportunity, the wielder can channel psionic power into a melee weapon or ranged weapon made of deep crystal. For 2 power points, the deep crystal weapon deals an extra 2d6 points of damage. The weapon will stay charged for 1 minute or until it scores its next hit. Bows, crossbows, and slings bestow this power on their ammunition. All missile weapons lose this effect if they miss. However, they may be recovered and charged again.\nAny weapon made of deep crystal costs 1,000 gp more than its noncrystal counterpart. Any item could potentially be made out of deep crystal. Because deep crystal armor is considered to be made out of metal, druids cannot wear it.\nDeep crystal has 30 hit points per inch of thickness and a hardness of 10.\nCrystal, Mundane: Mundane crystal can be used in place of metal in weapons or armor, using a special forging process. The fortified crystal possesses the properties of a similar masterwork steel weapon or armor, except for visual appearance.\nWeapons and armor made of mundane crystal cost the same amount to make as their masterwork counterparts. Any item could potentially be made with mundane crystal. Because mundane crystal armor is considered to be made out of metal, druids cannot wear it.\nMundane crystal properly forged has 25 hit points per inch of thickness and a hardness of 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::036_creating_universal_items"
+}

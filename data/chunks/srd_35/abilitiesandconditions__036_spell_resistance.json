@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::036_spell_resistance",
+  "document_id": "srd_35::abilitiesandconditions::036_spell_resistance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "SPELL RESISTANCE"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#036_spell_resistance"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell resistance is the extraordinary ability to avoid being affected by spells. (Some spells also grant spell resistance.)\nTo affect a creature that has spell resistance, a spellcaster must make a caster level check (1d20 + caster level) at least equal to the creature's spell resistance. (The defender's spell resistance is like an Armor Class against magical attacks.) If the caster fails the check, the spell doesn't affect the creature. The possessor does not have to do anything special to use spell resistance. The creature need not even be aware of the threat for its spell resistance to operate.\nOnly spells and spell-like abilities are subject to spell resistance. Extraordinary and supernatural abilities (including enhancement bonuses on magic weapons) are not. A creature can have some abilities that are subject to spell resistance and some that are not. Even some spells ignore spell resistance; see When Spell Resistance Applies, below.\nA creature can voluntarily lower its spell resistance. Doing so is a standard action that does not provoke an attack of opportunity. Once a creature lowers its resistance, it remains down until the creature's next turn. At the beginning of the creature's next turn, the creature's spell resistance automatically returns unless the creature intentionally keeps it down (also a standard action that does not provoke an attack of opportunity).\nA creature's spell resistance never interferes with its own spells, items, or abilities.\nA creature with spell resistance cannot impart this power to others by touching them or standing in their midst. Only the rarest of creatures and a few magic items have the ability to bestow spell resistance upon another.\nSpell resistance does not stack. It overlaps.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::035_scent",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::037_when_spell_resistance_applies"
+}

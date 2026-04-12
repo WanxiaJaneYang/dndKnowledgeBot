@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::026_frost_giant",
+  "document_id": "srd_35::monstersg::026_frost_giant",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "FROST GIANT"
+    ],
+    "source_location": "MonstersG.rtf#026_frost_giant"
+  },
+  "chunk_type": "subsection",
+  "content": "| Frost Giant | Frost Giant Jarl, 8th-Level Blackguard |\n| Large Giant (Cold) | Large Giant (Cold) |\nHit Dice: | 14d8+70 (133 hp) | 14d8+84 plus 8d10+48 (231 hp) |\nInitiative: | -1 | +5 |\nSpeed: | 40 ft. (8 squares) | 30 ft. in +2 full plate armor (6 squares); base speed 40 ft. |\nArmor Class: | 21 (-1 size, -1 Dex, +9 natural, +4 chain shirt) touch 8, flat-footed 21 | 29 (-1 size, +1 Dex, +9 natural, +10 +2 full plate armor) touch 10, flat-footed 28 |\nBase Attack/Grapple: | +10/+23 | +18/+33 |\nAttack: | Greataxe +18 melee (3d6+13/x3) or slam +18 melee (1d4+9) or rock +9 ranged (2d6+9) | +2 frost greataxe +30 melee (3d6+18/\u00d73 plus 1d6 cold) or slam +28 melee (1d4+11) or rock +18 ranged (2d6+11) |\nFull Attack: | Huge greataxe +18/+13 melee (3d6+13/x3) or 2 slams +18 melee (1d4+9) or rock +9 ranged (2d6+9) | +2 frost greataxe +30/+25/+20/+15 melee (3d6+18/\u00d73 plus 1d6 cold) or 2 slams +28 melee (1d4+11) or rock +18 ranged (2d6+11) |\nSpace/Reach: | 10 ft./10 ft. | 10 ft./10 ft. |\nSpecial Attacks: | Rock throwing | Rock throwing, smite good, sneak attack +2d6 |\nSpecial Qualities: | Immunity to cold, low-light vision, rock catching, vulnerability to fire | Aura of despair, aura of evil, command undead, dark blessing, detect good, immunity to cold, low-light vision, poison use, resistance to fire 10, rock catching, vulnerability to fire |\nSaves: | Fort +14, Ref +3, Will +6 | Fort +25, Ref +13, Will +13 |\nAbilities: | Str 29, Dex 9, Con 21, Int 10, Wis 14, Cha 11 | Str 32, Dex 12, Con 22, Int 10, Wis 12, Cha 18 |\nSkills: | Climb +13, Craft (any one) +6, Intimidate +6, Jump +17, Spot +12 | Climb +17, Hide +2, Jump +17, Knowledge (religion) +2, Ride +11, Spot +5 |\nFeats: | Cleave, Great Cleave, Improved Overrun, Improved Sunder, Power Attack | Cleave, Great Cleave, Improved Initiative, Improved Sunder, Iron Will, Lightning Reflexes, Power Attack, Quick Draw |\nEnvironment: | Cold mountains | Cold mountains |\nOrganization: | Solitary, gang (2-5), band (6-9 plus 35% noncombatants plus 1 adept or cleric of 1st or 2nd level), hunting/raiding party (6-9 plus 35% noncombatants plus 1 adept or sorcerer of 3rd-5th level plus 2-4 winter wolves and 2-3 ogres), or tribe (21-30 plus 1 adept, cleric, or sorcerer of 6th or 7th level plus 12-30 winter wolves, 12-22 ogres, and 1-2 young white dragons) | Solitary or with tribe |\nChallenge Rating: | 9 | 17 |\nTreasure: | Standard | Standard |\nAlignment: | Often chaotic evil | Always chaotic evil |\nAdvancement: | By character class | By character class |\nLevel Adjustment: | +4 | -- |\nA frost giant's hair can be light blue or dirty yellow, and its eyes usually match its hair color. Frost giants dress in skins and pelts, along with any jewelry they own. Frost giant warriors add chain shirts and metal helmets decorated with horns or feathers.\nAn adult male is about 15 feet tall and weighs about 2,800 pounds. Females are slightly shorter and lighter, but otherwise identical with males. Frost giants can live to be 250 years old.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::025_fire_giant_characters",
+  "next_chunk_id": "chunk::srd_35::monstersg::027_combat"
+}

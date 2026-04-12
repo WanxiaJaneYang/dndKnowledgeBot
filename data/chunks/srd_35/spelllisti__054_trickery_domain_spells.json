@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::054_trickery_domain_spells",
+  "document_id": "srd_35::spelllisti::054_trickery_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Trickery Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#054_trickery_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Disguise Self: Disguise own appearance.\n2 Invisibility: Subject invisible 1 min./level or until it attacks.\n3 Nondetection M: Hides subject from divination, scrying.\n4 Confusion: Subjects behave oddly for 1 round/level.\n5 False Vision M: Fools scrying with an illusion.\n6 Mislead: Turns you invisible and creates illusory double.\n7 Screen: Illusion hides area from vision, scrying.\n8 Polymorph Any Object: Changes any subject into anything else.\n9 Time Stop: You act freely for 1d4+1 rounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::053_trickery_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::055_war_domain"
+}

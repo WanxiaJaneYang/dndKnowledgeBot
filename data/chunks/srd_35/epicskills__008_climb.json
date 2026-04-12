@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::008_climb",
+  "document_id": "srd_35::epicskills::008_climb",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Climb"
+    ],
+    "source_location": "EpicSkills.rtf#008_climb"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can climb otherwise unclimbable surfaces.\nDC | Surface |\n70 | A perfectly smooth, flat, vertical surface |\n100 | A perfectly smooth, flat, overhang or ceiling |\nRapid Climbing: A character can climb his or her speed as a move-equivalent action, or double his or her speed as a full-round action (requiring two Climb checks), but the character takes a -20 penalty on his or her check.\nSpecial: The Legendary Climber feat allows a character to ignore any penalties for accelerated or rapid climbing.\n\nThe character can cast spells with somatic components even while grappled.\nTask | DC |\nCast spell with somatic component while grappled | 50 + spell level |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::007_bluff",
+  "next_chunk_id": "chunk::srd_35::epicskills::009_craft"
+}

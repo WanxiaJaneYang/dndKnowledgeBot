@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::024_level",
+  "document_id": "srd_35::magicoverview::024_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "LEVEL"
+    ],
+    "source_location": "MagicOverview.rtf#024_level"
+  },
+  "chunk_type": "subsection",
+  "content": "The next line of a spell description gives the spell's level, a number between 0 and 9 that defines the spell's relative power. This number is preceded by an abbreviation for the class whose members can cast the spell. The Level entry also indicates whether a spell is a domain spell and, if so, what its domain and its level as a domain spell are. A spell's level affects the DC for any save allowed against the effect.\nNames of spellcasting classes are abbreviated as follows: bard Brd; cleric Clr; druid Drd; paladin Pal; ranger Rgr; sorcerer Sor; wizard Wiz.\nThe domains a spell can be associated with include Air, Animal, Chaos, Death, Destruction, Earth, Evil, Fire, Good, Healing, Knowledge, Law, Luck, Magic, Plant, Protection, Strength, Sun, Travel, Trickery, War, and Water.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::023_descriptor",
+  "next_chunk_id": "chunk::srd_35::magicoverview::025_components"
+}

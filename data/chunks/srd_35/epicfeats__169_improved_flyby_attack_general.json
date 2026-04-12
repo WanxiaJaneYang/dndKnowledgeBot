@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::169_improved_flyby_attack_general",
+  "document_id": "srd_35::epicfeats::169_improved_flyby_attack_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED FLYBY ATTACK [GENERAL]"
+    ],
+    "source_location": "EpicFeats.rtf#169_improved_flyby_attack_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Fly speed, Dodge, Flyby Attack, Mobility.\nBenefit: If the standard action taken by a creature during a round in which it uses Flyby Attack is a melee attack, the creature provokes no attacks of opportunity from moving out of squares threatened by its target.\nNormal: Without this feat, a creature making an attack as part of a Flyby Attack maneuver provokes attacks of opportunity as normal from moving out of squares threatened by its target.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::168_greater_multiweapon_fighting_general",
+  "next_chunk_id": "chunk::srd_35::epicfeats::170_improved_multiattack_general"
+}

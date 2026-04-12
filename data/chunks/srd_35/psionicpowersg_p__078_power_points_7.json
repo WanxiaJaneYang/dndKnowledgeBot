@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::078_power_points_7",
+  "document_id": "srd_35::psionicpowersg_p::078_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#078_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "You attempt to briefly partition the mind of your foe, calving off a minor personality that is antagonistic to the main personality. The parasitic personality functions with complete autonomy from the main personality. It does not control the body physically, but it can take one standard action each round that is purely mental, such as manifesting a power, in the same turn that the subject takes its normal actions.\nThe parasitic personality manifests powers using the subject's power point reserve and known powers, but can only manifest powers three or more levels lower than the highest level of power the subject can normally manifest.\nThe parasitic personality actively attempts to manifest powers that negatively impact the subject, using the highest-level powers possible (so as to deplete the subject's power point reserve), and the most deadly to the subject. You do not have control over what the parasitic personality does, though it always works against the interest of the subject.\nBoth minds communicate with each other telepathically. If a creature is targeted by a compulsion or charm effect while under the effect of this power, it can make a second saving throw if the first one fails. If both saving throws fail, then this power ends and the creature is affected by the charm or compulsion effect.\nThe parasitic personality does not gain any advantages if the main personality is subjected to a haste or schism effect.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::077_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::079_display_visual"
+}

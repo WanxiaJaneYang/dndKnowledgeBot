@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::037_knowledge_domain_spells",
+  "document_id": "srd_35::spelllisti::037_knowledge_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Knowledge Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#037_knowledge_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Detect Secret Doors: Reveals hidden doors within 60 ft.\n2 Detect Thoughts: Allows \u201clistening\u201d to surface thoughts.\n3 Clairaudience/Clairvoyance: Hear or see at a distance for 1 min./level.\n4 Divination M: Provides useful advice for specific proposed actions.\n5 True Seeing M: Lets you see all things as they really are.\n6 Find the Path: Shows most direct way to a location.\n7 Legend Lore M F: Lets you learn tales about a person, place, or thing.\n8 Discern Location: Reveals exact location of creature or object.\n9 Foresight: \u201cSixth sense\u201d warns of impending danger.\n\nGranted Power: You cast law spells at +1 caster level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::036_knowledge_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::038_law_domain_spells"
+}

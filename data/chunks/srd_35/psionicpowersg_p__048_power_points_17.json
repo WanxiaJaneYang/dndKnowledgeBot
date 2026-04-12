@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::048_power_points_17",
+  "document_id": "srd_35::psionicpowersg_p::048_power_points_17",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 17"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#048_power_points_17"
+  },
+  "chunk_type": "subsection",
+  "content": "This power enables you to warp the consciousness and senses of one or more creatures, sending the victim into a catatonic state. When microcosm is manifested, you can target either a single creature within range or a group of creatures all located within the power's area.\nSingle Target: If microcosm targets a single creature, that creature's senses are pinched off from the real world if it currently has 100 or fewer hit points. The subject's senses are all completely fabricated from within its own mind, though it may not realize this. In reality, the subject sprawls limply, drooling and mewling, and eventually dies of thirst and starvation without care. The subject lives within its own made-up world until the time of its actual death.\nArea Effect: If microcosm is manifested on an area, it sends all affected creatures into a shared catatonia (the world is a construct, but within the world, the victims can interact with each other). It affects only creatures that currently have 30 or fewer hit points, and only up to a total of 300 hit points of such creatures. The power affects creatures with the lowest hit point totals first. (Creatures with negative hit points count as having 0 hit points.)\nManifesting microcosm a second time on an affected creature turns its sensory pathways outward once more. Otherwise, only very potent powers (such as psychic chirurgery or reality revision) or similar effects (such as miracle or wish) can undo the mental crosswiring that this power brings about.\nAugment: For every additional power point you spend, the number of individual and group hit points the power can affect increases by 10.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::047_display_material",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::049_telepathy_mind_affecting"
+}

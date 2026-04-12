@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::142_self_concealment_epic",
+  "document_id": "srd_35::epicfeats::142_self_concealment_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SELF-CONCEALMENT [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#142_self_concealment_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 30, Hide 30 ranks, Tumble 30 ranks, improved evasion.\nBenefit: Attacks against the character have a 10% miss chance, similar to the effect of concealment. The character loses this benefit whenever he or she would lose his or her Dexterity bonus to AC.\nSpecial: This feat may be taken multiple times. Each time it is taken, the miss chance increases by 10% to a maximum of 50% after it has been taken five times.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::141_scribe_epic_scroll_item_creation_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::143_shattering_strike_epic"
+}

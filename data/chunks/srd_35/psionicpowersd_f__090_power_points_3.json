@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::090_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::090_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#090_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful stroke of the chosen energy type that encircles all creatures in the area, dealing 1d6 points of damage to each of them. In addition, any creature that fails its save for half damage must succeed on a Will save or be stunned for 1 round.\nCold: A stroke of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold stun is a Fortitude save instead of a Reflex save.\nElectricity: Manifesting a stroke of this energy type provides a +2 bonus to the save DC and a +2 bonus on manifester level checks for the purpose of overcoming power resistance.\nFire: A stroke of this energy type deals +1 point of damage per die.\nSonic: A stroke of this energy type deals -1 point of damage per die and ignores an object's hardness.\nThis power's subtype is the same as the type of energy you manifest.\nAugment: For every additional power point you spend, this power's damage increases by one die (d6) and its save DC increases by 1.\nEnergy Wall\nMetacreativity (Creation) [see text]",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::089_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::091_display_auditory"
+}

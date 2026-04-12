@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::099_power_points_9_xp",
+  "document_id": "srd_35::psionicpowersg_p::099_power_points_9_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 9, XP"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#099_power_points_9_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic revivify lets a manifester reconnect a corpse's psyche with its body, restoring life to a recently deceased creature. The power must be manifested within 1 round of the victim's death. Before the psyche of the deceased has completely left the body, this power halts its journey while repairing somewhat the damage to the body.\nThis power functions like the raisedead spell, except that the affected creature receives no level loss, no Constitution loss, and no loss of powers.\nThe creature has -1 hit points (but is stable) after being restored to life.\nXP Cost: 200 XP.\nAugment: For every 100 additional experience points that both you and the subject pay, the manifestation of this power can be delayed by 1 additional round.\nPsionic Scent\nPsychometabolism\nLevel: Psychic warrior 2\nDisplay: Mental\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 round/level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::098_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::100_power_points_3"
+}

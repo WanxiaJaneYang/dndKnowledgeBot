@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::046_combat",
+  "document_id": "srd_35::monstersg::046_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#046_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Being bullied by bigger, stronger creatures has taught goblins to exploit what few advantages they have: sheer numbers and malicious ingenuity. The concept of a fair fight is meaningless in their society. They favor ambushes, overwhelming odds, dirty tricks, and any other edge they can devise.\nGoblins have a poor grasp of strategy and are cowardly by nature, tending to flee the field if a battle turns against them. With proper supervision, though, they can implement reasonably complex plans, and in such circumstances their numbers can be a deadly advantage.\nSkills: Goblins have a +4 racial bonus on Move Silently and Ride checks. Goblin cavalry (mounted on worgs) usually select the Mounted Combat feat in place of the Alertness feat, which reduces their Spot and Listen check modifiers from +3 to +1.\nChallenge Rating: Goblins with levels in NPC classes have a CR equal to their character level -2.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::045_forest_gnome",
+  "next_chunk_id": "chunk::srd_35::monstersg::047_goblins_as_characters"
+}

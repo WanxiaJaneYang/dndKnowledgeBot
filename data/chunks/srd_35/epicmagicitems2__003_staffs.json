@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::003_staffs",
+  "document_id": "srd_35::epicmagicitems2::003_staffs",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "STAFFS"
+    ],
+    "source_location": "EpicMagicItems2.rtf#003_staffs"
+  },
+  "chunk_type": "subsection",
+  "content": "Staffs have 50 charges when created, and they can't be recharged.\nStaffs use the wielder's ability score and relevant feats to set the DC for saves against their spells in such cases where those values would be higher than the listed values for the staffs.\nTable: Epic Staffs\nd% | Staff | Market Price |\n01-09 | Spheres | 228,375 gp |\n10-18 | Mighty force | 265,000 gp |\n19-27 | Walls | 275,625 gp |\n28-36 | Winter | 292,500 gp |\n37-45 | Prism | 326,812 gp |\n46-54 | Rapid barrage | 417,750 gp |\n55-63 | Planar might | 460,000 gp |\n64-71 | Domination | 464,400 gp |\n72-79 | Fiery power | 500,000 gp |\n80-87 | Nature's fury | 500,000 gp |\n88-95 | Hierophants | 501,187 gp |\n96-98 | Cosmos | 683,487 gp |\n99-100 | Necromancy | 1,505,312 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::002_scrolls",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::004_epic_staff_descriptions"
+}

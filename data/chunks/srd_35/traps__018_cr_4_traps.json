@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::018_cr_4_traps",
+  "document_id": "srd_35::traps::018_cr_4_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 4 Traps"
+    ],
+    "source_location": "Traps.rtf#018_cr_4_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Bestow Curse Trap: CR 4; magic device; touch trigger (detect chaos); automatic reset; spell effect (bestow curse, 5th-level cleric, DC 14 Will save negates); Search DC 28; Disable Device DC 28. Cost: 8,000 gp, 640 XP.\nCamouflaged Pit Trap: CR 4; mechanical; location trigger; manual reset; DC 20 Reflex save avoids; 40 ft. deep (4d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); Search DC 25; Disable Device DC 17. Market Price: 6,800 gp.\nCollapsing Column: CR 4; mechanical; touch trigger (attached); no reset; Atk +15 melee (6d6, stone blocks); Search DC 20; Disable Device DC 24. Market Price: 8,800 gp.\nGlyph of Warding (Blast): CR 4; spell; spell trigger; no reset; spell effect (glyph of warding [blast], 5th-level cleric, 2d8 acid, DC 14 Reflex save half damage); multiple targets (all targets within 5 ft.); Search DC 28; Disable Device DC 28. Cost: 350 gp to hire NPC spellcaster.\nLightning Bolt Trap: CR 4; magic device; proximity trigger (alarm); automatic reset; spell effect (lightning bolt, 5th-level wizard, 5d6 electricity, DC 14 Reflex save half damage); Search DC 28; Disable Device DC 28. Cost: 7,500 gp, 600 XP.\nPit Trap: CR 4; mechanical, location trigger; manual reset; DC 20 Reflex save avoids; 80 ft. deep (8d6, fall); Search DC 20; Disable Device DC 20. Market Price: 4,000 gp.\nPoisoned Dart Trap: CR 4; mechanical; location trigger; manual reset; Atk +15 ranged (1d4+4 plus poison, dart); multiple targets (1 dart per target in a 10-ft.-by-10-ft. area); poison (Small monstrous centipede poison, DC 10 Fortitude save resists, 1d2 Dex/1d2 Dex); Search DC 21; Disable Device DC 22. Market Price: 12,090 gp.\nSepia Snake Sigil Trap: CR 4; spell; spell trigger; no reset; spell effect (sepia snake sigil, 5th-level wizard, DC 14 Reflex save negates); Search DC 28; Disable Device DC 28. Cost: 650 gp to hire NPC spellcaster.\nSpiked Pit Trap: CR 4; mechanical; location trigger; automatic reset; DC 20 Reflex save avoids; 60 ft. deep (6d6, fall); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+5 each); Search DC 20; Disable Device DC 20. Market Price: 4,000 gp.\nWall Scythe Trap: CR 4; mechanical; location trigger; automatic reset; Atk +20 melee (2d4+8/x4, scythe); Search DC 21; Disable Device DC 18. Market Price: 17,200 gp.\nWater-Filled Room Trap: CR 4; mechanical; location trigger; automatic reset; multiple targets (all targets in a 10-ft.-by-10-ft. room); never miss; onset delay (5 rounds); liquid; Search DC 17; Disable Device DC 23. Market Price: 11,200 gp.\nWide-Mouth Spiked Pit Trap: CR 4; mechanical; location trigger; manual reset; DC 20 Reflex save avoids; 20 ft. deep (2d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 each); Search DC 18; Disable Device DC 25. Market Price: 7,200 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::017_cr_3_traps",
+  "next_chunk_id": "chunk::srd_35::traps::019_cr_5_traps"
+}

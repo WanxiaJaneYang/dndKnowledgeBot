@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::026_trans",
+  "document_id": "srd_35::spelllistii::026_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#026_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Animate Rope: Makes a rope move at your command.\nEnlarge Person: Humanoid creature doubles in size.\nErase: Mundane or magical writing vanishes.\nExpeditious Retreat: Your speed increases by 30 ft.\nFeather Fall: Objects or creatures fall slowly.\nJump: Subject gets bonus on Jump checks.\nMagic Weapon: Weapon gains +1 bonus.\nReduce Person: Humanoid creature halves in size.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::025_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::027_abjur"
+}

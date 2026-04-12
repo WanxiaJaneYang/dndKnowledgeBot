@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::011_combat",
+  "document_id": "srd_35::monstersb_c::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Blink dogs hunt in packs, teleporting in a seemingly random fashion until they surround their prey, allowing some of them to take advantage of flanking.\nBlink (Su): A blink dog can use blink as the spell (caster level 8th), and can evoke or end the effect as a free action.\nDimension Door (Su): A blink dog can teleport, as dimension door (caster level 8th), once per round as a free action. The ability affects only the blink dog, which never appears within a solid object and can act immediately after teleporting.\n\nHit Dice: | 9d12 (58 hp) |\nInitiative: | +6 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 20 (+2 Dex, +8 natural), touch 12, flat-footed 18 |\nBase Attack/Grapple: | +4/+5 |\nAttack: | Slam +6 melee (1d8+1) |\nFull Attack: | Slam +6 melee (1d8+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Death gaze |\nSpecial Qualities: | Damage reduction 10/cold iron, darkvision 60 ft., immunity to electricity, resistance to acid 10 and fire 10, undead traits, vulnerability to sunlight |\nSaves: | Fort +3, Ref +5, Will +7 |\nAbilities: | Str 13, Dex 15, Con --, Int 6, Wis 12, Cha 12 |\nSkills: | Listen +11, Move Silently +10, Spot +11 |\nFeats: | Alertness, Dodge, Improved Initiative, Weapon Focus (slam) |\nEnvironment: | A chaotic evil-aligned plane |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Always chaotic evil |\nAdvancement: | 10-13 HD (Medium); 14-27 HD (Large) |\nLevel Adjustment: | -- |\nBodaks are the undead remnants of humanoids who have been destroyed by the touch of absolute evil.\nA bodak retains fleeting memories of its past life and can speak Common (or some other humanoid language).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::010_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::012_combat"
+}

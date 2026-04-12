@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::019_create_object",
+  "document_id": "srd_35::divineabilitiesandfeats::019_create_object",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Create Object"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#019_create_object"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 6, Int 29.\nBenefit: As a full-round action, the deity can create one or more simple, nonmagical objects with a total weight of up to 50 pounds per divine rank, or with a total volume of 10 cubic feet per rank. If the deity uses this ability on a divinely morphic plane or within its own godly realm, double the volume and weight the deity can create. If the deity's realm is located on a divinely morphic plane, triple the volume and weight the deity can create there.\nNotes: For purposes of this ability, a simple object can have no moving parts more complex than a door hinge and must be composed of a single material. The material can be no more valuable than iron (1 sp per pound). Once created, the objects are permanent and nonmagical. If the deity has the appropriate Craft skill, the deity can make a Craft\ncheck when creating the item to make it a masterwork item.\nSuggested Portfolio Elements: Crafts, creation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::018_craft_artifact",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::020_create_greater_object"
+}

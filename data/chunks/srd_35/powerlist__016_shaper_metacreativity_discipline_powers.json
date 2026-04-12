@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::016_shaper_metacreativity_discipline_powers",
+  "document_id": "srd_35::powerlist::016_shaper_metacreativity_discipline_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "SHAPER (METACREATIVITY) DISCIPLINE POWERS"
+    ],
+    "source_location": "PowerList.rtf#016_shaper_metacreativity_discipline_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Astral ConstructA: Creates astral construct to fight for you.\nMinor Creation, Psionic: Creates one cloth or wood object.\n2 Psionic Repair Damage: Repairs construct of 3d8 hit points +1 hp/level.\n3 Concealing Amorpha, Greater: Quasi-real membrane grants you total concealment.\nEctoplasmic CocoonA: You encapsulate a foe so it can't move.\n4 Fabricate, Psionic: Transforms raw goods to finished items.\nQuintessence: You collapse a bit of time into a physical substance.\n5 Hail of CrystalsA: A crystal explodes in an area, dealing 9d4 slashing damage.\n6 Crystallize: Turn subject permanently to crystal.\nFabricate, Greater Psionic: Transforms a lot of raw goods to finished items.\n7 Ectoplasmic Cocoon, Mass: You encapsulate all foes in a 20-ft. radius.\n8 Astral Seed: You plant the seed of your rebirth from the Astral Plane.\n9 GenesisX: You instigate a new demiplane on the Astral Plane.\nTrue CreationX: As psionic major creation, except items are completely real.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::015_seer_clairsentience_discipline_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::017_telepath_telepathy_discipline_powers"
+}

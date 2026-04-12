@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::057_necro",
+  "document_id": "srd_35::spelllistii::057_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#057_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Astral Projection M: Projects you and companions onto Astral Plane.\nEnergy Drain: Subject gains 2d4 negative levels.\nSoul Bind F: Traps newly dead soul to prevent resurrection.\nWail of the Banshee: Kills one creature/level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::056_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::058_trans"
+}

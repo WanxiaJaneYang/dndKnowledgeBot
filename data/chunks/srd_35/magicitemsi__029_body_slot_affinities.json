@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::029_body_slot_affinities",
+  "document_id": "srd_35::magicitemsi::029_body_slot_affinities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "BODY SLOT AFFINITIES"
+    ],
+    "source_location": "MagicItemsI.rtf#029_body_slot_affinities"
+  },
+  "chunk_type": "subsection",
+  "content": "Each location on the body, or body slot, has one or more affinities: a word or phrase that describes the general function or nature of magic items designed for that body slot. Body slot affinities are deliberately broad, abstract categorizations, because a hard-and-fast rule can't cover the great variety among wondrous items.\nYou can use the affinities in the list below to guide your decisions on which magic items should be allowed in which body slots. And when you design your own magic items, the affinities give you some guidance for what form a particular item should take.\nSome body slots have different affinities for different specific items.\nBody Slot | Affinity |\nHeadband, helmet | Mental improvement, ranged attacks |\nHat | Interaction |\nPhylactery | Morale, alignment |\nEye lenses, goggles | Vision |\nCloak, cape, mantle | Transformation, protection |\nAmulet, brooch, medallion, necklace, periapt, scarab | Protection, discernment |\nRobe | Multiple effects |\nShirt | Physical improvement |\nVest, vestment | Class ability improvement |\nBracers | Combat |\nBracelets | Allies |\nGloves | Quickness |\nGauntlets | Destructive power |\nBelt | Physical improvement |\nBoots | Movement |\nWondrous items that don't match the affinity for a particular body slot should cost 50% more than wondrous items that match the affinity.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::028_adding_new_abilities"
+}

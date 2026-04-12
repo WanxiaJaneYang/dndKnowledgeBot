@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::005_special_movement_rules",
+  "document_id": "srd_35::combatii::005_special_movement_rules",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "Special Movement Rules"
+    ],
+    "source_location": "CombatII.rtf#005_special_movement_rules"
+  },
+  "chunk_type": "subsection",
+  "content": "These rules cover special movement situations.\nAccidentally Ending Movement in an Illegal Space: Sometimes a character ends its movement while moving through a space where it's not allowed to stop. When that happens, put your miniature in the last legal position you occupied, or the closest legal position, if there's a legal position that's closer.\nDouble Movement Cost: When your movement is hampered in some way, your movement usually costs double. For example, each square of movement through difficult terrain counts as 2 squares, and each diagonal move through such terrain counts as 3 squares (just as two diagonal moves normally do).\nIf movement cost is doubled twice, then each square counts as 4 squares (or as 6 squares if moving diagonally). If movement cost is doubled three times, then each square counts as 8 squares (12 if diagonal) and so on. This is an exception to the general rule that two doublings are equivalent to a tripling.\nMinimum Movement: Despite penalties to movement, you can take a full-round action to move 5 feet (1 square) in any direction, even diagonally. (This rule doesn't allow you to move through impassable terrain or to move when all movement is prohibited.) Such movement provokes attacks of opportunity as normal (despite the distance covered, this move isn't a 5-foot step).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::004_measuring_distance",
+  "next_chunk_id": "chunk::srd_35::combatii::006_big_and_little_creatures_in_combat"
+}

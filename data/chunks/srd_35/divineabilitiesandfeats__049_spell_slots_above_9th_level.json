@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::049_spell_slots_above_9th_level",
+  "document_id": "srd_35::divineabilitiesandfeats::049_spell_slots_above_9th_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Spell Slots Above 9th Level"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#049_spell_slots_above_9th_level"
+  },
+  "chunk_type": "subsection",
+  "content": "The Divine Spellcasting ability grants deities access to spell slots above 9th level (which can be used to hold lower-level spells or spells whose level has been increased above 9th by the use of metamagic feats). The number of spell slots available to a deity depends on the deity's key ability score (Intelligence for wizards, Wisdom for clerics, druids, paladins, and rangers, and Charisma for bards and sorcerers), as shown on Table: Divine Spellcasting.\nEven though the table only includes ability scores up to 61 and spell slots up to 25th level, the progression continues infinitely in both directions. For ability scores beyond 61, or for spell slots above 25th level, expand the table to follow the same patterns\nas shown.\nThe numbers on this table include bonus spells that a deity receives for having a sufficiently high ability score, as well as one additional spell of each level at which the deity gains at least one bonus spell. This additional spell is one of the benefits of the\nDivine Spellcasting salient divine ability.\n\n| ------------------------------ Spells per Day ------------------------------------ |\nScore | Modifier | 10th | 11th | 12th | 13th | 14th | 15th | 16th | 17th | 18th | 19th | 20th | 21st | 22nd | 23rd | 24th | 25th |\n10-11 | +0 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n12-13 | +1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n14-15 | +2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n16-17 | +3 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n18-19 | +4 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n20-21 | +5 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n22-23 | +6 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n24-25 | +7 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n26-27 | +8 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n28-29 | +9 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n30-31 | +10 | 2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n32-33 | +11 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n34-35 | +12 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n36-37 | +13 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n38-39 | +14 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n40-41 | +15 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n42-43 | +16 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n44-45 | +17 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- | -- |\n46-47 | +18 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- | -- |\n48-49 | +19 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- | -- |\n50-51 | +20 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- | -- |\n52-53 | +21 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- | -- |\n54-55 | +22 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- | -- |\n56-57 | +23 | 5 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- | -- |\n58-59 | +24 | 5 | 5 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | -- |\n60-61 | +25 | 5 | 5 | 5 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 |\netc. . . | | | | | | | | | | | | | | | | | |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::048_divine_spellcasting",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::050_divine_splendor"
+}

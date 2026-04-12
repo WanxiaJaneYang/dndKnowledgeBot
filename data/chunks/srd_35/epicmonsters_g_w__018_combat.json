@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::018_combat",
+  "document_id": "srd_35::epicmonsters_g_w::018_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#018_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Rend (Ex): If the lavawight hits with both of its claws, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 6d8+31 points of Damage.\nBlazefire (Su): Living creatures taking Damage from a lavawight's attack find themselves ignited with blaze-fire; they must succeed at a Fortitude save (DC 35) or permanently lose 4 hit points. The DC is Charisma-based. The opponent must continue to save every round for the next 6 rounds (7 rounds total) to avoid being permanently drained of 4 more hit points each round. The lavawight heals the same amount of Damage whenever a creature is drained of hit points, gaining any excess as temporary hit points. Tehse temporary hit points last a maximum of 1 hour. If an opponent is slain by blazefire, only blackened ash remains of the victim. Hit points lost to the blazefire never heal naturally and cannot be magically restored--they are gone for good.\nSpell-Like Abilities: At will-- dimension door, flame arrow, spell immunity (sleet storm), fireball, wall of fire. Caster level 22nd; save DC 19 + spell level. The DC is Charisma-based.\nUndead Traits: Immune to poison, sleep, paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual Damage, ability Damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive Damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.\nHeat Aura (Su): A 10-foot-radius spread heat aura surrounds a lavawight. All creatures of the fire subtype in the field (including the lavawight) are treated as if having turn resistance +6 (if undead) and fast healing 10. Creatures subject to fire Damage take 2d10 points of fire Damage each round they remain within the heat aura.\nFire Subtype: Fire immunity, cold vulnerability..\nFiery Hardness (Ex): The lavawight's molten skin provides it with Damage reduction of 10/-.\nLEGENDARY ANIMAL\n| Legendary Bear | Legendary Tiger |\n| Large Animal | Large Animal |\nHit Dice: | 20d8+140 (230 hp) | 26d8+188 (305 hp) |\nInitiative: | +6 (+2 Dex, +4 Improved Initiative) | +8 (+4 Dex, +4 Improved Initiative) |\nSpeed: | 50 ft. | 50 ft. |\nAC: | 21 (-1 size, +2 Dex, +10 natural) | 23 (-1 size, +4 Dex, +10 natural) |\nBase Attack/\nGrapple: | +15/+32 | +19/+34 |\nAttack: | Claw +27 (2d6+13) melee | Claw +29 (2d6+11) melee |\nFull Attack: | 2 claws +27 (2d6+13) melee, bite +22 (4d6+6) melee | 2 claws +29 (2d6+11) melee, bite +24 (2d8+5) melee |\nSpace/Reach: | 10 ft./5 ft. | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab | Pounce, improved grab, rake 2d6+5 |\nSpecial Qualities: | Scent | Scent |\nSaves: | Fort +19, Ref +14, Will +11 | Fort +22, Ref +19, Will +12 |\nAbilities: | Str 36, Dex 14, Con 24, Int 2, Wis 16, Cha 12 | Str 32, Dex 18, Con 24, Int 2, Wis 14, Cha 10 |\nSkills: | Climb +15, Jump +21, Listen +14, Spot +14, Swim +20 | Climb +13, Hide +15, Jump +19, Listen +12, Move Silently +15, Spot +12, Swim +16 |\nFeats: | Alertness, Athletic, Endurance, Improved Initiative, Iron Will, Run, Track | Alertness, Athletic, Endurance, Improved Initiative, Iron Will, Run, Toughness(x2), Track |\nClimate/Terrain: | Any forest, hill, mountains, plains, and underground | Any forest, hill, mountains, plains, or underground |\nOrganization: | Solitary or pair | Solitary or pair |\nChallenge Rating: | 9 | 10 |\nTreasure: | None | None |\nAlignment: | Always neutral | Always neutral |\nAdvancement: | 21-40 HD (Large) | 27-48 HD (Large) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::017_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::019_combat"
+}

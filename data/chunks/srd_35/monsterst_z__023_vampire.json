@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::023_vampire",
+  "document_id": "srd_35::monsterst_z::023_vampire",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "VAMPIRE"
+    ],
+    "source_location": "MonstersT-Z.rtf#023_vampire"
+  },
+  "chunk_type": "subsection",
+  "content": "Vampires appear just as they did in life, although their features are often hardened and feral, with the predatory look of wolves.\nLike liches, they often embrace finery and decadence and may assume the guise of nobility. Despite their human appearance, vampires can be easily recognized, for they cast no shadows and throw no reflections in mirrors.\nVampires speak any languages they knew in life.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::022_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::024_creating_a_vampire"
+}

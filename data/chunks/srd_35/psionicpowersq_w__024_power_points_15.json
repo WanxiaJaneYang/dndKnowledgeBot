@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::024_power_points_15",
+  "document_id": "srd_35::psionicpowersq_w::024_power_points_15",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 15"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#024_power_points_15"
+  },
+  "chunk_type": "subsection",
+  "content": "Your body and all your equipment are subsumed by your shadow. As a living shadow, you blend perfectly into any other shadow and vanish in darkness. You appear as an unattached shadow in areas of full light.\nYou can move at your normal speed, on any surface, including walls and ceilings, as well as across the surfaces of liquids--even up the face of a waterfall.\nYour space does not change, so you cannot move into locations you would not normally be able to move into.\nWhile in your shadow body, you gain damage reduction 10/magic and darkvision out to 60 feet. You are immune to extra damage from critical hits, ability damage, disease, drowning, and poison. You take only half damage from acid, electricity, and fire of all kinds.\nWhile affected by this power, you can be detected by powers that read thoughts, life, or presences (including true seeing), or if you make suspicious movements in lighted areas.\nYou cannot harm anyone physically or manipulate any objects, but you can use your powers normally. Doing so may attract notice, but if you remain in a shadowed area, you get a +15 bonus on your Hide check to remain unnoticed.\n\nDisplay: Material and mental\nManifesting Time: 1 standard action\n\nTargets: You and one willing creature, or two willing creatures; see text\nDuration: 1 hour/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::023_power_points_13_xp",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::025_power_points_3"
+}

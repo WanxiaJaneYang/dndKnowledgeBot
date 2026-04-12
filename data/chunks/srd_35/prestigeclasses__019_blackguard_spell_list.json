@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::019_blackguard_spell_list",
+  "document_id": "srd_35::prestigeclasses::019_blackguard_spell_list",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Blackguard Spell List"
+    ],
+    "source_location": "PrestigeClasses.rtf#019_blackguard_spell_list"
+  },
+  "chunk_type": "subsection",
+  "content": "Blackguards choose their spells from the following list:\n1st Level: cause fear, corrupt weapon, cure light wounds, doom, inflict light wounds, magic weapon, summon monster I*.\n2nd Level: bull's strength, cure moderate wounds, darkness, death knell, eagle's splendor, inflict moderate wounds, shatter, summon monster II*.\n3rd Level: contagion, cure serious wounds, deeper darkness, inflict serious wounds, protection from elements, summon monster III*.\n4th Level: cure critical wounds, freedom of movement, inflict critical wounds, poison, summon monster IV*.\n* Evil creatures only.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::018_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::020_corrupt_weapon"
+}

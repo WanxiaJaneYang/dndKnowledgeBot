@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::020_air_domain",
+  "document_id": "srd_35::spelllisti::020_air_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "AIR DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#020_air_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Powers: Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::019_9th_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::021_air_domain_spells"
+}

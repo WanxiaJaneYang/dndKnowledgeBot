@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::016_2_enthrall",
+  "document_id": "srd_35::divinedomainsandspells::016_2_enthrall",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "2 Enthrall"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#016_2_enthrall"
+  },
+  "chunk_type": "subsection",
+  "content": "3 Magic vestment\n4 Discern lies\n5 Greater command\n6 Geas/quest\n7 Repulsion\n8 Demand\n9 Storm of vengeance",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::015_nobility_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::017_repose_domain"
+}

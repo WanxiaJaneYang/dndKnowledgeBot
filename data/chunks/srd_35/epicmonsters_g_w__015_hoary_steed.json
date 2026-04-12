@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::015_hoary_steed",
+  "document_id": "srd_35::epicmonsters_g_w::015_hoary_steed",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "HOARY STEED"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#015_hoary_steed"
+  },
+  "chunk_type": "subsection",
+  "content": "A hoary steed's natural weapons are treated as magic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::014_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::016_combat"
+}

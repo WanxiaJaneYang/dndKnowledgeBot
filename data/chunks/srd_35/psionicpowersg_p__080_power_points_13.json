@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::080_power_points_13",
+  "document_id": "srd_35::psionicpowersg_p::080_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#080_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "As the phase door spell, except as noted here. This power is subject to dispel psionics.\nPlane Shift, Psionic\nPsychoportation\nLevel: Psion/wilder 5\nDisplay: Visual\nManifesting Time: 1 standard action\n\nTargets: Willing creature touched, or up to eight willing creatures joining hands\n\nAs the plane shift spell, except as noted here.\n\nDisplay: Visual; see text\nManifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nTarget: Any psionic creature\nDuration: Concentration, up to 1 round/level; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::079_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::081_power_points_7"
+}

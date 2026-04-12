@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::006_manifester_level",
+  "document_id": "srd_35::powersoverview::006_manifester_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "MANIFESTER LEVEL"
+    ],
+    "source_location": "PowersOverview.rtf#006_manifester_level"
+  },
+  "chunk_type": "subsection",
+  "content": "The variables of a power's effect often depend on its manifester level, which is equal to your psionic class level. A power that can be augmented for additional effect is also limited by your manifester level (you can't spend more power points on a power than your manifester level). See Augment under Descriptive Text, below.\nYou can manifest a power at a lower manifester level than normal, but the manifester level must be high enough for you to manifest the power in question, and all level-dependent features must be based on the same manifester level.\nIn the event that a class feature or other special ability provides an adjustment to your manifester level, this adjustment applies not only to all effects based on manifester level (such as range, duration, and augmentation potential) but also to your manifester level check to overcome your target's power resistance and to the manifester level used in dispel checks (both the dispel check and the DC of the check).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::005_concentration",
+  "next_chunk_id": "chunk::srd_35::powersoverview::007_power_failure"
+}

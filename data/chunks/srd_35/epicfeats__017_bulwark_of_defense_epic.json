@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::017_bulwark_of_defense_epic",
+  "document_id": "srd_35::epicfeats::017_bulwark_of_defense_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "BULWARK OF DEFENSE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#017_bulwark_of_defense_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Con 25, defensive stance 3/day.\nBenefit: The character's defensive stance bonuses increase to +4 Strength, +6 Constitution, +4 resistance bonus on all saves, and +6 dodge bonus to AC.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::016_bonus_domain_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::018_chaotic_rage_epic"
+}

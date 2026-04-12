@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::010_augmented_alchemy_epic",
+  "document_id": "srd_35::epicfeats::010_augmented_alchemy_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "AUGMENTED ALCHEMY [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#010_augmented_alchemy_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Int 21, Craft(alchemy) 24 ranks.\nBenefit: Whenever creating an alchemical item or substance, the character can choose to make it more powerful than normal by adding +20 to the DC required to create it and multiplying its price by 5. If the item or substance deals damage, double the damage dealt. If the item or substance doesn't deal damage, double the duration of its effect. If the item or substance doesn't deal damage and doesn't have a specific listed duration (or has an instantaneous duration), double all dimensions of its area. If the item or substance doesn't fit any of these categories, then it cannot be affected by this feat. See the Craft (alchemy) skill description.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::009_armor_skin_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::011_automatic_quicken_spell_epic"
+}

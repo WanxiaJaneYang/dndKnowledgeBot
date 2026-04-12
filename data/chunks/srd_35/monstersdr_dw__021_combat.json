@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::021_combat",
+  "document_id": "srd_35::monstersdr_dw::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Bronze dragons dislike killing animals and would rather bribe them (perhaps with food) or force them away magically. They use detect thoughts to learn intelligent creatures' intentions.\nWhen attacking they blind their opponents with fog cloud and then charge or, if flying, snatch them up. Against seafaring opponents they conjure up a storm or use their tails to smash the vessels' hulls. If a dragon is inclined to be lenient, ships might be merely becalmed, fogbound, or broken-masted.\nBreath Weapon (Su): Bronze dragons have two types of breath weapon, a line of lightning and a cone of repulsion gas. Creatures within the cone must succeed on a Will save or be compelled to do nothing but move away from the dragon for 1d6 rounds plus 1 round per age category of the dragon. This is a mind-affecting compulsion enchantment effect.\nWater Breathing (Ex): A bronze dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged.\nAlternate Form (Su): A young or older bronze dragon can assume any animal or humanoid form of Medium size or smaller as a standard action three times per day. This ability functions as a polymorph spell cast on itself at its caster level, except that the dragon does not regain hit points for changing form and can only assume the form of an animal or humanoid. The dragon can remain in its animal or humanoid form until it chooses to assume a new one or return to its natural form.\nSpell-Like Abilities: At will--speak with animals; 3/day--create food and water (adult or older), fog cloud (adult or older), detect thoughts (old or older), control water (ancient or older); 1/day--control weather (great wyrm).\nSkills: Disguise, Swim, and Survival are considered class skills for bronze dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::020_dragon_water",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::022_dragon_earth"
+}

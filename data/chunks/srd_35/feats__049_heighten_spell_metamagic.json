@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::049_heighten_spell_metamagic",
+  "document_id": "srd_35::feats::049_heighten_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "HEIGHTEN SPELL [METAMAGIC]"
+    ],
+    "source_location": "Feats.rtf#049_heighten_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: A heightened spell has a higher spell level than normal (up to a maximum of 9th level). Unlike other metamagic feats, Heighten Spell actually increases the effective level of the spell that it modifies. All effects dependent on spell level (such as saving throw DCs and ability to penetrate a lesser globe of invulnerability) are calculated according to the heightened level. The heightened spell is as difficult to prepare and cast as a spell of its effective level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::048_greater_weapon_specialization_general",
+  "next_chunk_id": "chunk::srd_35::feats::050_improved_bull_rush_general"
+}

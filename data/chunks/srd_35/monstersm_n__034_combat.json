@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::034_combat",
+  "document_id": "srd_35::monstersm_n::034_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#034_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A nightmare can fight while carrying a rider, but the rider cannot also fight unless he or she succeeds on a Ride check.\nA nightmare's natural weapons, as well as any weapons it wields, are treated as evil-aligned for the purpose of overcoming damage reduction.\nFlaming Hooves (Su): A blow from a nightmare's hooves sets combustible materials alight.\nSmoke (Su): During the excitement of battle, a nightmare snorts and neighs with rage. This snorting fills a 15-foot cone with a hot, sulfurous smoke that chokes and blinds opponents. Anyone in the cone must succeed on a DC 16 Fortitude save or take a -2 penalty on all attack and damage rolls until 1d6 minutes after leaving the cone. The cone lasts 1 round, and the nightmare uses it once as a free action during its turn each round. The save DC is Constitution-based.\nBecause of the smoke it gives off, a nightmare has concealment against creatures 5 feet away and total concealment against creatures 10 feet or farther away. The smoke does not obscure the nightmare's vision at all.\nAstral Projection and Etherealness (Su): These abilities function just like the spells of the same names (caster level 20th); a nightmare can use either at will.\nCarrying Capacity: A light load for a nightmare is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::033_nightmare",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::035_cauchemar"
+}

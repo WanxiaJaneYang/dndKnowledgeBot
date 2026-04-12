@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::018_trolls_as_characters",
+  "document_id": "srd_35::monsterst_z::018_trolls_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "TROLLS AS CHARACTERS"
+    ],
+    "source_location": "MonstersT-Z.rtf#018_trolls_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Troll characters possess the following racial traits.\n-- +12 Strength, +4 Dexterity, +12 Constitution, -4 Intelligence (minimum 3), -2 Wisdom, -4 Charisma.\n--Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.\n--Space/Reach: 10 feet/10 feet.\n--A troll's base land speed is 30 feet.\n--Darkvision out to 60 feet and low-light vision.\n--Racial Hit Dice: A troll begins with six levels of giant, which provide 6d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +5, Ref +2, and Will +2.\n--Racial Skills: A troll's giant levels give it skill points equal to 9 x\uf020(2 + Int modifier, minimum 1). Its class skills are Listen and Spot.\n--Racial Feats: A troll's giant levels give it three feats.\n-- +5 natural armor bonus.\n--Natural Weapons: Claw (1d6) and bite (1d6).\n--Special Attacks (see above): Rend, damage 2d6 + 1-1/2 times Str modifier.\n--Special Qualities: Regeneration 5, scent.\n--Automatic Languages: Giant. Bonus Languages: Common, Orc.\n--Favored Class: Fighter.\n--Level adjustment +5.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::017_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::019_unicorn"
+}

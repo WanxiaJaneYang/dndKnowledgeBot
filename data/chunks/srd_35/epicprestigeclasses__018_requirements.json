@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::018_requirements",
+  "document_id": "srd_35::epicprestigeclasses::018_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#018_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a cosmic descryer, a character must fulfill all the following criteria.\nSkills: Knowledge (the planes) 24 ranks.\nFeats: Spell Focus (Conjuration).\nEpic Feats: Energy Resistance.\nSpells: Ability to cast gate plus any planar ally or planar binding spell.\nSpecial: Must have previously traveled to any other plane of existence.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::017_class_features",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::019_class_skills"
+}

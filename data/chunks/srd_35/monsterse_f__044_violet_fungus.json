@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::044_violet_fungus",
+  "document_id": "srd_35::monsterse_f::044_violet_fungus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "VIOLET FUNGUS"
+    ],
+    "source_location": "MonstersE-F.rtf#044_violet_fungus"
+  },
+  "chunk_type": "subsection",
+  "content": "Violet fungi resemble shriekers and are often found growing among them.\nA violet fungi's coloration ranges from purple overall to dull gray or violet covered with purple spots.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::043_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::045_combat"
+}

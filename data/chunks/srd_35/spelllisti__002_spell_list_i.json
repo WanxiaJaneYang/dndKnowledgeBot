@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::002_spell_list_i",
+  "document_id": "srd_35::spelllisti::002_spell_list_i",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "SPELL LIST I"
+    ],
+    "source_location": "SpellListI.rtf#002_spell_list_i"
+  },
+  "chunk_type": "rule_section",
+  "content": "An M or F appearing at the end of a spell's name in the spell lists denotes a spell with a material or focus component, respectively, that is not normally included in a spell component pouch. An X denotes a spell with an XP component paid by the caster.\nOrder of Presentation: In the spell lists and the spell descriptions that follow them, the spells are presented in alphabetical order by name except for those belonging to certain spell chains.\nWhen a spell's name begins with \u201clesser,\u201d \u201cgreater,\u201d or \u201cmass,\u201d the spell description is alphabetized under the second word of the spell name instead.\nHit Dice: The term \u201cHit Dice\u201d is used synonymously with \u201ccharacter levels\u201d for effects that affect a number of Hit Dice of creatures. Creatures with Hit Dice only from their race, not from classes, have character levels equal to their Hit Dice.\nCaster Level: A spell's power often depends on caster level, which is defined as the caster's class level for the purpose of casting a particular spell. A creature with no classes has a caster level equal to its Hit Dice unless otherwise specified. The word \u201clevel\u201d in the spell lists that follow always refers to caster level.\nCreatures and Characters: The words \u201ccreature\u201d and \u201ccharacter\u201d are used synonymously in the spell descriptions.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::001_spelllisti",
+  "next_chunk_id": "chunk::srd_35::spelllisti::003_0_level_bard_spells_cantrips"
+}

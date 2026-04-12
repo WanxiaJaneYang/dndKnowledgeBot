@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::016_combat",
+  "document_id": "srd_35::monstersdi_do::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire rat packs attack fearlessly, biting and chewing with their sharp incisors.\nDisease (Ex): Filth fever--bite, Fortitude DC 11, incubation period 1d3 days, damage 1d3 Dex and 1d3 Con. The save DC is Constitution-based.\nSkills: Dire rats have a +8 racial bonus on Swim checks. Dire rats have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened.\nDire rats use their Dexterity modifier for Climb and Swim checks.\n\nHit Dice: | 18d8+66 (147 hp) |\nInitiative: | +2 |\nSpeed: | Swim 60 ft. (12 squares) |\nArmor Class: | 17 (-2 size, +2 Dex, +7 natural), touch 10, flat-footed 15 |\nBase Attack/Grapple: | +13/+27 |\nAttack: | Bite +18 melee (2d8+9) |\nFull Attack: | Bite +18 melee (2d8+9) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Improved grab, swallow whole |\nSpecial Qualities: | Keen scent |\nSaves: | Fort +14, Ref +13, Will +12 |\nAbilities: | Str 23, Dex 15, Con 17, Int 1, Wis 12, Cha 10 |\nSkills: | Listen +12, Spot +11, Swim +14 |\nFeats: | Improved Natural Attack (bite), Toughness (4), Weapon Focus (bite) |\nEnvironment: | Cold aquatic |\nOrganization: | Solitary or school (2-5) |\nChallenge Rating: | 9 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 19-32 (Huge); 33-54 (Gargantuan) |\nLevel Adjustment: | -- |\nDire sharks attack anything they perceive to be edible, even larger creatures.\nThis monstrous fish can grow to a length of 25 feet and weigh more than 20,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::015_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::017_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::038_divine_paladin",
+  "document_id": "srd_35::divineabilitiesandfeats::038_divine_paladin",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Paladin"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#038_divine_paladin"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Paladin level 20th.\nBenefit: The deity's aura of courage grants a +8 morale bonus on saving throws against fear effects and extends to all allies within 100 feet of the deity.\nThe deity's special mount, if any, gains the celestial template.\nThe deity can smite evil ten times per day, and gets an extra 3 points of damage per class level on a successful smite attempt.\nSuggested Portfolio Elements: Good, justice, law, nobility, war.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::037_divine_monk",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::039_divine_radiance"
+}

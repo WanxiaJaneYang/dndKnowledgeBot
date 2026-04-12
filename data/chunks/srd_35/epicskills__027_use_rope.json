@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::027_use_rope",
+  "document_id": "srd_35::epicskills::027_use_rope",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Use Rope"
+    ],
+    "source_location": "EpicSkills.rtf#027_use_rope"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can splice ropes together quickly, tie unique knots, and even animate a rope he or she holds.\nTask | DC |\nQuick splicing | 50 |\nTie unique knot | 60 |\nAnimate held rope | 80 |\nQuick Splicing: The character can splice two ropes together as a move-equivalent action.\nTie Unique Knot: The character can tie a knot that only he or she knows how to untie. This doesn't affect any Escape Artist checks made to escape these bindings.\nAnimate Held Rope: The character can command any rope he or she holds as if it had the animate rope spell cast upon it (except that using the skill in this way doesn't grant any bonus on Use Rope checks made with the animated rope). Each command requires a separate Use Rope check. Because the effect isn't magical, it can't be dispelled.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::026_tumble",
+  "next_chunk_id": "chunk::srd_35::epicskills::028_autohypnosis"
+}

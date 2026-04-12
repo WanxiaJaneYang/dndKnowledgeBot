@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::006_damage",
+  "document_id": "srd_35::combati::006_damage",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "DAMAGE"
+    ],
+    "source_location": "CombatI.rtf#006_damage"
+  },
+  "chunk_type": "subsection",
+  "content": "When your attack succeeds, you deal damage. The type of weapon used determines the amount of damage you deal. Effects that modify weapon damage apply to unarmed strikes and the natural physical attack forms of creatures.\nDamage reduces a target's current hit points.\nMinimum Damage: If penalties reduce the damage result to less than 1, a hit still deals 1 point of damage.\nStrength Bonus: When you hit with a melee or thrown weapon, including a sling, add your Strength modifier to the damage result. A Strength penalty, but not a bonus, applies on attacks made with a bow that is not a composite bow.\nOff-Hand Weapon: When you deal damage with a weapon in your off hand, you add only 1/2 your Strength bonus.\nWielding a Weapon Two-Handed: When you deal damage with a weapon that you are wielding two-handed, you add 1-1/2 times your Strength bonus. However, you don't get this higher Strength bonus when using a light weapon with two hands.\nMultiplying Damage: Sometimes you multiply damage by some factor, such as on a critical hit. Roll the damage (with all modifiers) multiple times and total the results. Note: When you multiply damage more than once, each multiplier works off the original, unmultiplied damage.\nException: Extra damage dice over and above a weapon's normal damage are never multiplied.\nAbility Damage: Certain creatures and magical effects can cause temporary ability damage (a reduction to an ability score).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::005_attack_bonus",
+  "next_chunk_id": "chunk::srd_35::combati::007_armor_class"
+}

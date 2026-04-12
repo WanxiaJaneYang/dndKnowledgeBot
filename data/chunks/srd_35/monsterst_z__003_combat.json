@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::003_combat",
+  "document_id": "srd_35::monsterst_z::003_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#003_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Prowling deep forests or waiting in vegetated areas (looking like nothing more than a small hillock), a tendriculos attacks savagely, showing no fear. It attempts to swallow as much flesh as it can, as quickly as it can.\nImproved Grab (Ex): To use this ability, a tendriculos must hit a creature at least one size smaller than itself with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can try to swallow the opponent in the following round. A tendriculos can also use its improved grab ability on a tendril attack. If it wins the grapple check, it establishes a hold, picks up the opponent, and transfers it to the mouth as a free action, automatically dealing bite damage.\nSwallow Whole/Paralysis (Ex): A tendriculos can try to swallow a grabbed opponent by making a successful grapple check. Once inside the plant's mass, the opponent must succeed on a DC 20 Fortitude save or be paralyzed for 3d6 rounds by the tendriculos's digestive juices, taking 2d6 points of acid damage per round. A new save is required each round inside the plant. The save DC is Constitution-based. A swallowed creature that avoids paralysis can climb out of the mass with a successful grapple check. This returns it to the plant's maw, where another successful grapple check is needed to get free. A swallowed creature can also cut its way out by using a light slashing or piercing weapon to deal 25 points of damage to the tendriculos's interior (AC 14). Once the creature exits, the plant's regenerative capacity closes the hole; another swallowed opponent must cut its own way out. A Huge tendriculos's interior can hold 2 Large, 8 Medium, 32 Small, 128 Tiny, or 512 Diminutive or smaller opponents.\nRegeneration (Ex): Bludgeoning weapons and acid deal normal damage to a tendriculos. A tendriculos that loses part of its body mass can regrow it in 1d6 minutes. Holding the severed portion against the mass enables it to reattach instantly.\n\nHit Dice: | 3d8+3 (16 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares), burrow 20 ft. |\nArmor Class: | 18 (+1 Dex, +7 natural), touch 11, flat-footed 17 |\nBase Attack/Grapple: | +2/+4 |\nAttack: | Slam +4 melee (1d6+3 plus 2d6 fire) |\nFull Attack: | Slam +4 melee (1d6+3 plus 2d6 fire) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Heat, burn |\nSpecial Qualities: | Darkvision 60 ft., elemental traits, immunity to fire, tremorsense 60 ft., vulnerability to cold |\nSaves: | Fort +4, Ref +2, Will +2 |\nAbilities: | Str 15, Dex 13, Con 13, Int 6, Wis 12, Cha 10 |\nSkills: | Listen +5, Move Silently +3, Survival +3 |\nFeats: | Alertness, Track |\nEnvironment: | Elemental Plane of Fire |\nOrganization: | Solitary or pair |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 4-9 HD (Large) |\nLevel Adjustment: | -- |\nA thoqqua is about 1 foot in diameter and 4 to 5 feet long. It weighs about 200 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::002_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::004_combat"
+}

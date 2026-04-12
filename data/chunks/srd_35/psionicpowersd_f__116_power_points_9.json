@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::116_power_points_9",
+  "document_id": "srd_35::psionicpowersd_f::116_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#116_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You use your mastery of energy to cheat death. If you are within 30 feet of an open flame, you can use this power. Any damage that would reduce you to 0 hit points or lower instead has a chance to discorporate you. You attempt a Will save (DC 5 + damage dealt); if it succeeds, you simply break apart into dozens of flitting tongues of flame and vanish, along with all your gear and anything you are holding or carrying.\nOne day later, you reappear adjacent to an open flame nearest to the place where you discorporated, seeming to materialize from the fire (you choose where you appear along the perimeter of that open flame). While discorporated, you do not exist--you can do nothing, nor can any of your enemies do anything to you.\nAugment: For every 3 additional power points you spend, you gain a +1 bonus on your Will save to determine whether you discorporate.\nFission\nPsychometabolism\nLevel: Egoist 7\nDisplay: Olfactory\nManifesting Time: 1 standard action\n\nEffect: Duplicate of yourself\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::115_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::117_power_points_13"
+}

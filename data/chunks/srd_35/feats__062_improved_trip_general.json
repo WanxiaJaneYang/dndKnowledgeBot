@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::062_improved_trip_general",
+  "document_id": "srd_35::feats::062_improved_trip_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED TRIP [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#062_improved_trip_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Int 13, Combat Expertise.\nBenefit: You do not provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed. You also gain a +4 bonus on your Strength check to trip your opponent.\nIf you trip an opponent in melee combat, you immediately get a melee attack against that opponent as if you hadn't used your attack for the trip attempt.\nNormal: Without this feat, you provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed.\nSpecial: At 6th level, a monk may select Improved Trip as a bonus feat, even if she does not have the prerequisites.\nA fighter may select Improved Trip as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::061_improved_sunder_general",
+  "next_chunk_id": "chunk::srd_35::feats::063_improved_turning_general"
+}

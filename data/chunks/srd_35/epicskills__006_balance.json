@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::006_balance",
+  "document_id": "srd_35::epicskills::006_balance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Balance"
+    ],
+    "source_location": "EpicSkills.rtf#006_balance"
+  },
+  "chunk_type": "subsection",
+  "content": "Surface | DC |\n1-2 inches wide | 20 |\nUp to 1 inch wide | 40 |\nHair-thin | 60 |\nLiquid* | 90 |\nCloud | 120 |\n*Includes any other surface that couldn't support the character's weight, such as a fragile branch.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::005_appraise",
+  "next_chunk_id": "chunk::srd_35::epicskills::007_bluff"
+}

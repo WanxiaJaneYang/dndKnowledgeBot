@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::115_superior_expertise_general",
+  "document_id": "srd_35::divineabilitiesandfeats::115_superior_expertise_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "SUPERIOR EXPERTISE [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#115_superior_expertise_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Int 13, Combat Expertise, base attack bonus +6.\nBenefit: When you use the Combat Expertise feat to improve your Armor Class, the number you subtract from your attack and add to your AC can be any number that does not exceed your base attack bonus.\nThis feat eliminates the +5 maximum for the Combat Expertise feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::114_subdual_substitution_metamagic"
+}

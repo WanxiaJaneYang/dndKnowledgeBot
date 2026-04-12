@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::060_improved_shield_bash_general",
+  "document_id": "srd_35::feats::060_improved_shield_bash_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED SHIELD BASH [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#060_improved_shield_bash_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Shield Proficiency.\nBenefit: When you perform a shield bash, you may still apply the shield's shield bonus to your AC.\nNormal: Without this feat, a character who performs a shield bash loses the shield's shield bonus to AC until his or her next turn.\nSpecial: A fighter may select Improved Shield Bash as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::059_improved_precise_shot_general",
+  "next_chunk_id": "chunk::srd_35::feats::061_improved_sunder_general"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::106_power_points_9",
+  "document_id": "srd_35::psionicpowersg_p::106_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#106_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You can readjust your body to boost one physical ability score at the expense of one or more other scores. Select one ability score you would like to boost, and increase it by the same amount that you decrease one or more other scores. All score decreases are treated as a special form of ability damage, called ability burn, which cannot be magically or psionically healed--it goes away only through natural healing.\nYou can boost your Strength, Dexterity or Constitution score by an amount equal to your manifester level (or any lesser amount), assuming you can afford to burn your other ability scores to such an extent.\nWhen the duration of this power expires, your ability boost also ends, but your ability burn remains until it is healed naturally.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::105_power_points_7"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::010_combat",
+  "document_id": "srd_35::monstersd_de::010_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#010_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Glabrezu prefer subterfuge to combat. However, if their attempts to entice or deceive fail, these enormous demons attack with a vengeance. They follow a confusion attack with melee attacks, hoping to finish off wounded foes with chaos hammer or unholy blight.\nA glabrezu's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nImproved Grab (Ex): To use this ability, a glabrezu must hit a Medium or smaller opponent with a pincer attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nSpell-Like Abilities: At will--chaos hammer (DC 19), confusion (DC 19), dispel magic, mirror image, reverse gravity (DC 22), greater teleport (self plus 50 pounds of objects only), unholy blight (DC 19); 1/day--power word stun. Caster level 14th. The save DCs are Charisma-based.\nOnce per month, a glabrezu can fulfill a wish for a mortal humanoid. The demon can use this ability to offer a mortal whatever he or she desires--but unless the wish is used to create pain and suffering in the world, the glabrezu demands either terrible evil acts or great sacrifice as compensation.\nSummon Demon (Sp): Once per day a glabrezu can attempt to summon 4d10 dretches or 1d2 vrocks with a 50% chance of success, or another glabrezu with a 20% chance of success. This ability is the equivalent of a 4th-level spell.\nTrue Seeing (Su): Glabrezu continuously use true seeing as the spell (caster level 14th).\nSkills: Glabrezu have a +8 racial bonus on Listen and Spot checks.\n\nHit Dice: | 10d8+93 (138 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 23 (-1 size, +14 natural) touch 9, flat-footed 23 |\nBase Attack/Grapple: | +10/+19 |\nAttack: | Bite +14 melee (4d4+5) |\nFull Attack: | Bite +14 melee (4d4+5) and 2 claws +9 melee (1d8+2) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Spell-like abilities, stench, improved grab, summon demon |\nSpecial Qualities: | Damage reduction 10/good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, spell resistance 19, telepathy 100 ft. |\nSaves: | Fort +16, Ref +7, Will +9 |\nAbilities: | Str 21, Dex 10, Con 29, Int 14, Wis 14, Cha 18 |\nSkills: | Climb +18, Concentration +22, Hide +13, Escape Artist +13, Intimidate +17, Listen +23, Move Silently +13, Search +15, Spellcraft +15, Spot +23, Survival +2 (+4 following tracks), Use Rope +0 (+2 with bindings) |\nFeats: | Blind-Fight, Cleave, Power Attack, Toughness |\nEnvironment: | A chaotic evil-aligned plane |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 11 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 11-15 HD (Large); 16-30 HD (Huge) |\nLevel Adjustment: | +9 |\nA hezrou can walk both upright and on all fours, but it always fights standing up\nA hezrou is about 8 feet tall and weighs about 750 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::009_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::011_combat"
+}

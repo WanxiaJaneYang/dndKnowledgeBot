@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::045_necro",
+  "document_id": "srd_35::spelllistii::045_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#045_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Circle of Death M: Kills 1d4/level HD of creatures.\nCreate Undead M: Creates ghouls, ghasts, mummies, or mohrgs.\nEyebite: Target becomes panicked, sickened, and comatose.\nSymbol of Fear M: Triggered rune panics nearby creatures.\nUndeath to Death M: Destroys 1d4/level HD of undead (max 20d4).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::044_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::046_trans"
+}

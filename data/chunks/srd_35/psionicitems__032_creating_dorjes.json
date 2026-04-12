@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::032_creating_dorjes",
+  "document_id": "srd_35::psionicitems::032_creating_dorjes",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Creating Dorjes"
+    ],
+    "source_location": "PsionicItems.rtf#032_creating_dorjes"
+  },
+  "chunk_type": "subsection",
+  "content": "To create a dorje, a character needs a small supply of materials, the most obvious being a chunk of crystal or the crystal shards of the dorje to be carved from or assembled. The cost of the materials is subsumed in the cost of creating the dorje--375 gp x the level of the power x the level of the manifester. Dorjes are always fully charged (50 charges) when created.\nIf an augmentable power is incorporated into a dorje at a higher manifester level than the minimum level required to manifest the power, each discharge of the power from the dorje is augmented to the limit of that higher manifester level. Alternatively, if you want to have a higher manifester level in the dorje, you must pay for the dorje as if the power was one level higher for each additional two manifester levels you want.\nThe creator must know the power or powers to be imprinted in the dorje (or must have the power available in some other form). If manifesting the power would reduce the manifester's experience point total, she pays the cost (multiplied by 50) upon beginning the dorje in addition to the experience point cost for making the dorje itself. The act of working on the dorje costs a number of power points per day equal to the power point cost of the power that is being embedded in the crystal of the dorje.\nCrafting a dorje requires one day for each 1,000 gp of the base price.\nItem Creation Feat Required: Craft Dorje.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::031_creating_psionic_items",
+  "next_chunk_id": "chunk::srd_35::psionicitems::033_creating_power_stones"
+}

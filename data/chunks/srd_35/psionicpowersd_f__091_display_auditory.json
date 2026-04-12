@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::091_display_auditory",
+  "document_id": "srd_35::psionicpowersd_f::091_display_auditory",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Display: Auditory"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#091_display_auditory"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Medium (100 ft. + 10 ft./ level)\nArea: An opaque sheet of energy up to 20 ft. long/level or a ring of energy with a radius of up to 5 ft./2 levels\nDuration: Concentration + 1 round/ level\nSaving Throw: Reflex half or Fortitude half; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::090_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::092_power_points_5"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::071_power_points_7",
+  "document_id": "srd_35::psionicpowersa_c::071_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#071_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "You psychokinetically control the actions of any humanoid (including undead or outsiders with a humanoid physiology) that is within range and to which you have line of sight. Control body doesn't require mental contact with the subject, since you are actually forcing limb movements independent of the target's mind. You can force the subject to stand up, sit down, walk, turn around, and so on, but operating the vocal cords is too difficult. You can also hold the subject immobile, rendering it helpless. You cannot force the subject to manifest powers, cast spells, or use any special ability that is not a function of just its body movements. If you lose line of sight to the subject, the effect of this power ends.\nIf you force the subject to engage in combat, its attack bonus is equal to your base attack bonus + your Intelligence bonus, and its bonus on damage rolls is equal to your Intelligence bonus. A subject of this power cannot make attacks of opportunity. The subject gains no benefit to Armor Class from its Dexterity, but it does gain a bonus to its AC equal to your Intelligence bonus.\nAlthough the subject's body is under your control, the subject's mind is not. Creatures capable of taking purely mental actions (such as manifesting powers) can do so.\nAugment: For every 2 additional power points you spend, this power can affect a target one size category larger.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::070_display_material",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::072_display_auditory"
+}

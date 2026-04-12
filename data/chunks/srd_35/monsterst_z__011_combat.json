@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::011_combat",
+  "document_id": "srd_35::monsterst_z::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Half of a group of troglodytes are armed only with claws and teeth; the rest carry one or two javelins and clubs. They normally conceal themselves, launch a volley of javelins, then close to attack. If the battle goes against them, they retreat and attempt to hide.\nStench (Ex): When a troglodyte is angry or frightened, it secretes an oily, musk-like chemical that nearly every form of animal life finds offensive. All living creatures (except troglodytes) within 30 feet of a troglodyte must succeed on a DC 13 Fortitude save or be sickened for 10 rounds. The save DC is Constitution-based. Creatures that successfully save cannot be affected by the same troglodyte's stench for 24 hours. A delay poison or neutralize poison spell removes the effect from the sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws.\nSkills: The skin of a troglodyte changes color somewhat, allowing it to blend in with its surroundings like a chameleon and providing a +4 racial bonus on Hide checks. *In rocky or underground settings, this bonus improves to +8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::010_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::012_troglodyte_characters"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::013_base_attack",
+  "document_id": "srd_35::epicmonsters_g_w::013_base_attack",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Base Attack/"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#013_base_attack"
+  },
+  "chunk_type": "subsection",
+  "content": "Grapple: | +23/+37 | +12/+22 |\nAttack: | +6 keen longsword of binding +46 (1d8+27/17-20 plus 1d6 plus binding) melee | Hoof +17 (3d6+6) melee |\nFull Attack: | +6 keen longsword of binding +46/+41/+36/+31 (1d8+27/17-20 plus 1d6 plus binding) melee | 2 hooves +17 (3d6+6) melee, bite +15 (5d8+3) melee |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities | |\nSpecial Qualities: | Cold immunity, fire vulnerability, SR 36, DR 10/epic and cold iron | Cold immunity, fire vulnerability, air walk, astral projection and etherealness, magic circle against good, misty breath, SR 20, DR 5/magic and cold iron, immunities |\nSaves: | Fort +28, Ref +36, Will +31 | Fort +11, Ref +12, Will +5 |\nAbilities: | Str 38, Dex 33, Con 36, Int 21, Wis 23, Cha 26 | Str 22, Dex 18, Con 17, Int 6, Wis 13, Cha 14 |\nSkills: | Diplomacy +14, Hide +60, Intimidate +57, Knowledge (geography, nature) +54, Listen +55, Move Silently +60, Ride +60, Search +54, Sense Motive +55, Spot +55, Survival +55 | Jump +10, Listen +8, Spot +13 |\nFeats: | Blind-Fight, Cleave, Great Cleave, Improved Critical (longsword), Improved Initiative, Mounted Combat, Power Attack, Ride-by Attack, Spirited Charge, Track, Trample, Weapon Focus (longsword) | Alertness, Endurance, Flyby Attack, Improved Initiative, Multiattack |\nEpic Feats: | Dire Charge, Epic Weapon Focus (longsword), Overwhelming Critical (longsword), Superior Initiative | |\nClimate/Terrain: | Any cold | Any cold |\nOrganization: | Solitary or company (2-5) | Solitary (with rider) |\nChallenge Rating: | 25 | 9 |\nTreasure: | None | None |\nAlignment: | Always neutral evil | Always neutral evil |\nAdvancement: | 47+ HD (Medium) | 13-24 HD (Large); 25-36 HD (Huge) |\nA hoary hunter's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::012_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::014_combat"
+}

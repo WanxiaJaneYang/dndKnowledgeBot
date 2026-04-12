@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::007_psionic_focus",
+  "document_id": "srd_35::psionicmonsters::007_psionic_focus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Psionic Focus"
+    ],
+    "source_location": "PsionicMonsters.rtf#007_psionic_focus"
+  },
+  "chunk_type": "subsection",
+  "content": "Some creatures have feats that can be used only when the creature is psionically focused, or that require the creature to expend its psionic focus. Assume that such a creature is psionically focused before entering combat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::006_psi_like_abilities",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::008_psi_like_abilities_and_feats"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::028_power_points_9",
+  "document_id": "srd_35::psionicpowersq_w::028_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#028_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "This power can negate a psionic mind blank or a personal mind blank affecting the target. If the target fails its save and does not overcome your attempt with its power resistance, you can shatter the mind blank by making a successful check (1d20 + your manifester level, maximum +20) against a DC equal to 11 + the manifester level of the creator of the mind blank effect. If you succeed, the psionic mind blank or personal mind blank ends, allowing you to affect the target thereafter with mind-affecting powers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::027_display_olfactory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::029_psychoportation"
+}

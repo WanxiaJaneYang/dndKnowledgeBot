@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::013_weapons",
+  "document_id": "srd_35::epicmagicitems1::013_weapons",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "WEAPONS"
+    ],
+    "source_location": "EpicMagicItems1.rtf#013_weapons"
+  },
+  "chunk_type": "subsection",
+  "content": "Except when otherwise stated, epic magic weapons follow the rules for nonepic magic weapons. There is no limit to an epic magic weapon's enhancement bonus, to the market price modifier of an epic magic weapon special ability, or to the total of an epic magic weapon's enhancement bonus and market price modifier.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::012_specific_armors_and_shields",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::014_epic_weapon_base_price"
+}

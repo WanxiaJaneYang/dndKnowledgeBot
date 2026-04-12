@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::035_combat",
+  "document_id": "srd_35::monstersk_l::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "COMBAT"
+    ],
+    "source_location": "MonstersK-L.rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire wereboars anger quickly. They usually begin a battle in giant form, then switch to hybrid form to take advantage of their immense strength in that shape. They like to use their Improved Bull Rush and Improved Sunder feats to shove opponents around and smash their weapons and shields.\nAlternate Form (Su): A dire wereboar can assume a bipedal hybrid form or the form of a dire boar.\nBoar Empathy (Ex): Communicate with boars and dire boars, and +4 racial bonus on Charisma-based checks against boars and dire boars.\nCurse of Lycanthropy (Su): Any humanoid or giant hit by a dire wereboar's bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.\nFerocity (Ex): A dire wereboar is such a tenacious combatant that it continues to fight without penalty even while disabled or dying.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::034_hill_giant_dire_wereboar",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::036_creating_a_lycanthrope"
+}

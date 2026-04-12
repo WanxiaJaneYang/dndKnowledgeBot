@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::051_improved_counterspell_general",
+  "document_id": "srd_35::feats::051_improved_counterspell_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED COUNTERSPELL [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#051_improved_counterspell_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.\nNormal: Without this feat, you may counter a spell only with the same spell or with a spell specifically designated as countering the target spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::050_improved_bull_rush_general",
+  "next_chunk_id": "chunk::srd_35::feats::052_improved_critical_general"
+}

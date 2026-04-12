@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::027_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::027_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#027_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You instantly swap positions between your current position and that of a designated ally in range. Alternatively, you can swap the positions of any two allies in range. This power affects creatures of Large or smaller size. You can bring along objects, but not other creatures.\nSpecial: A psychic warrior can manifest this power to swap positions with an ally, but not to swap the positions of two allies.\nAugment: For every 2 additional power points you spend, this power can affect a target one size category larger.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::026_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::028_display_auditory"
+}

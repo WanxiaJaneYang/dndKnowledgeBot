@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::005_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::005_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#005_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "As the daze spell, except as noted here.\nAugment: For every additional power point you spend, this power can affect a target that has Hit Dice equal to 4 + the additional points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::004_clairsentience",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::006_display_mental"
+}

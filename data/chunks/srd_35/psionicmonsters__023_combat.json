@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::023_combat",
+  "document_id": "srd_35::psionicmonsters::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Cerebriliths favor telepathic attacks, usually beginning a battle by launching a furious barrage of ego whip and id insinuation attacks. In melee, cerebriliths often use their Concentration skill to gain psionic focus, so that they can use Psionic Fist or Unavoidable Strike (the latter in conjunction with Power Attack).\nA cerebrilith's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nPsi-Like Abilities: At will--brain lock (any nonmindless, DC 17*), detect psionics, ego whip (2d4, DC 19*), id insinuation (four targets, DC 20*), mind trap (5 rounds*); 3/day--psionic dominate (24 hours, DC 20*), ectoplasmic form, mind probe (DC 20); 1/day--mind thrust (9d10, DC 20*). Manifester level 9th. The save DCs are Charisma-based.\n*Includes augmentation for the cerebrilith's manifester level.\nSpell-Like Abilities: At will--deeper darkness, desecrate, detect good, dispel good (DC 20), greater teleport (self plus 50 pounds of objects only), magic circle against good (DC 18), unholy blight (DC 19). Caster level 9th. The save DCs are Charisma-based.\nSummon Demon (Sp): Once per day a cerebrilith can attempt to summon 4d6 dretches or another cerebrilith with a 35% chance of success. This ability is equivalent to a 4th-level spell.\nOutsider Traits: A cerebrilith cannot be raised, reincarnated or resurrected (though a limited wish, wish, miracle, or true resurrection spell can restore life). It has darkvision out to 60 feet.\nSkills: Cerebriliths have a +8 racial bonus on Listen and Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::022_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::024_large_outsider_native_psionic"
+}

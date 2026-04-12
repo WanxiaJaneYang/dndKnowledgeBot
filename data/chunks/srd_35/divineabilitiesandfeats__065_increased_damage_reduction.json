@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::065_increased_damage_reduction",
+  "document_id": "srd_35::divineabilitiesandfeats::065_increased_damage_reduction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Increased Damage Reduction"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#065_increased_damage_reduction"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Con 29.\nBenefit: The deity's damage reduction increases 5 and adds an alignment requirement opposed to the deity's alignment to bypass the damage reduction. For example, a lawful good deity with DR25/epic would gain DR 30/epic and evil or DR 30 epic and chaotic.\nNotes: A deity cannot chose this ability more than once.\nSuggested Portfolio Elements: Any.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::064_grow_creature",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::066_increased_energy_resistance"
+}

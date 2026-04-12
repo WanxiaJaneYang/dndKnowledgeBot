@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::014_combat",
+  "document_id": "srd_35::monstersd_de::014_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#014_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Although quasits thirst for victory and power as other demons do, they are cowards at heart. They typically attack from ambush, using their alternate form ability and invisibility to get within reach, then try to scuttle away. When retreating, they use their cause fear ability to deter pursuit.\nA quasit's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nPoison (Ex): Injury, Fortitude DC 13, initial damage 1d4 Dex, secondary damage 2d4 Dex. The save DC is Constitution-based and includes a +2 racial bonus.\nSpell-Like Abilities: At will--detect good, detect magic, and invisibility (self only); 1/day--cause fear (as the spell, except that its area is a 30-foot radius from the quasit, save DC 11). Caster level 6th.\nThe save DCs are Charisma-based.\nOnce per week a quasit can use commune to ask six questions. The ability otherwise works as the spell (caster level 12th).\nAlternate Form (Su): A quasit can assume other forms at will as a standard action. This ability functions as a polymorph spell cast on itself (caster level 12th), except that a quasit does not regain hit points for changing form, and any individual quasit can assume only one or two forms no larger than Medium. Common forms include bat, monstrous centipede, toad, and wolf. A quasit in alternate form loses its poison attack.\n\nHit Dice: | 10d10+80 (135 hp) |\nInitiative: | +3 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 21 (-2 size, +3 Dex, +10 natural), touch 11, flat-footed 18 |\nBase Attack/Grapple: | +7/+25 |\nAttack: | Claw +15 melee (2d6+10) and eye ray +8 ranged touch |\nFull Attack: | 4 claws +15 melee (2d6+10) and bite +10 melee (1d8+5) and eye ray +8 ranged touch |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Eye rays, find target, improved grab |\nSpecial Qualities: | Construct traits, darkvision 60 ft., fast healing 5, low-light vision |\nSaves: | Fort +3, Ref +6, Will +3 |\nAbilities: | Str 31, Dex 17, Con --, Int --, Wis 11, Cha 1 |\nSkills: | -- |\nFeats: | -- |\nEnvironment: | A chaotic evil-aligned plane |\nOrganization: | Solitary |\nChallenge Rating: | 11 |\nTreasure: | None |\nAlignment: | Always chaotic evil |\nAdvancement: | 11-15 HD (Huge); 16-30 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA retriever specializes in recovering lost or desired objects, runaway slaves, and enemies and bringing them back to its master. A retriever has a body the size of an ox, with legs spanning more than 14 feet. It weighs about 6,500 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::013_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::015_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::114_subdual_substitution_metamagic",
+  "document_id": "srd_35::divineabilitiesandfeats::114_subdual_substitution_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "SUBDUAL SUBSTITUTION [METAMAGIC]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#114_subdual_substitution_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Any other metamagic feat, Knowledge (arcana) 5 ranks.\nBenefit: When employing a spell with the acid, cold, electricity, fire, or sonic designator, you can modify the spell to deal subdual damage instead of the indicated type of energy damage. The altered spell uses a spell slot of the spell's normal level.\nThe altered spell works normally in all respects except the type of damage dealt.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::113_sharp_shooting_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::115_superior_expertise_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::028_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::028_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#028_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The guardian paramount's class skills (and the key ability for each skill) are Bluff (Cha), Climb (Str), Diplomacy (Cha), Intimidate (Cha), Jump (Str), Listen (Wis), Profession (Wis), and Spot (Wis).\nSkill Points at Each Level: 4 + Int modifier.\nTable: The Guardian Paramount\nLevel | Special |\n1st | Bonus feat, uncanny dodge enabler 3/day |\n2nd | Evasive preceptor 1/day |\n3rd | Protective aura 1/day |\n4th | Bonus feat, uncanny dodge enabler 4/day |\n5th | Adjust probability 2/day, evasive preceptor 2/day |\n6th | Call back 1/day, protective aura 2/day |\n7th | Bonus feat, uncanny dodge enabler 5/day |\n8th | Evasive preceptor 3/day, adjust probability 3/day |\n9th | Protective aura 3/day |\n10th | Bonus feat, uncanny dodge enabler 6/day |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::027_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::029_class_features"
+}

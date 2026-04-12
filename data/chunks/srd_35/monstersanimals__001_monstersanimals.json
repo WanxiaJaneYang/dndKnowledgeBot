@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::001_monstersanimals",
+  "document_id": "srd_35::monstersanimals::001_monstersanimals",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "MonstersAnimals"
+    ],
+    "source_location": "MonstersAnimals.rtf#001_monstersanimals"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::002_monsters_animals"
+}

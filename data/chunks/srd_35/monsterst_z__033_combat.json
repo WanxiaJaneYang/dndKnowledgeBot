@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::033_combat",
+  "document_id": "srd_35::monsterst_z::033_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#033_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Mated pairs or packs work together to bring down large game, while lone worgs usually chase down creatures smaller than themselves. Both often use hit-and-run tactics to exhaust their quarry. A pack usually circles a larger opponent: Each wolf attacks in turn, biting and retreating, until the creature is exhausted, at which point the pack moves in for the kill. If they get impatient or heavily outnumber the opponent, worgs attempt to pin it.\nTrip (Ex): A worg that hits with a bite attack can attempt to trip the opponent (+3 check modifier) as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the worg.\nSkills: A worg has a +1 racial bonus on Listen, Move Silently, and Spot checks, and a +2 racial bonus on Hide checks. *A worg has a +4 racial bonus on Survival checks when tracking\nby scent.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::032_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::034_wraith"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::054_power_points_5",
+  "document_id": "srd_35::psionicpowersa_c::054_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#054_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "If you have a claw attack (either from an actual natural weapon or from an effect such as claws of the beast), you can use this power to change the nature of that weapon. When this power is manifested, your claws take on an ominous glimmer. Each time you make a successful claw attack against a living creature of Small or larger size, you are healed of some amount of damage.\nYou heal a number of hit points equal to half the base damage dealt by your claws of the vampire, rounded down (additional damage dealt because of a high Strength score or other enhancements does not count toward the amount you heal). You heal as many hit points as can be gained while the creature remains at 1 hit point or higher. Any damage that would reduce the creature to 0 or fewer hit points does not benefit you.\nYou do not heal damage if your attack deals nonlethal damage, such as when you attack a creature that has the regeneration ability. Moreover, you gain no healing from attacking any creature that is under the effect of biofeedback. Using fission on yourself and then attacking your duplicate also fails to grant any healing.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::053_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::055_display_none"
+}

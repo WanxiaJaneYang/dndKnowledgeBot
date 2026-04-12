@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::053_divine_weapon_focus",
+  "document_id": "srd_35::divineabilitiesandfeats::053_divine_weapon_focus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Weapon Focus"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#053_divine_weapon_focus"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: This ability works like the Weapon Focus feat except that the deity receives a bonus of +4 on attacks with the weapon.\nNotes: This bonus stacks with the divine rank bonus deities get on attack rolls, and with the Divine Weapon Mastery salient divine ability. It also stacks with the Weapon Focus and Greater Weapon Focus feats.\nA deity can have this ability multiple times, choosing a different kind of weapon each time.\nSuggested Portfolio Elements: War.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::052_divine_water_mastery",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::054_divine_weapon_mastery"
+}

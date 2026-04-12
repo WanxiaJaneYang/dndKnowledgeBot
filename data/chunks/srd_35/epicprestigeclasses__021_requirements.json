@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::021_requirements",
+  "document_id": "srd_35::epicprestigeclasses::021_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#021_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To become a divine emissary, the character must fulfill all the following criteria.\nBase Attack Bonus: +23.\nFeats: Weapon Focus (deity's favored weapon).\nEpic Feat: Great Smiting.\nSkills: Knowledge (religion) 10 ranks.\nSpecial: Must have a patron deity. Furthermore, the potential divine emissary must complete some quest that furthers his or her deity's goals so much that it impresses the deity.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::020_class_features",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::022_class_skills"
+}

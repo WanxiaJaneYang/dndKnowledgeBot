@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::114_clairsentience",
+  "document_id": "srd_35::psionicpowersd_f::114_clairsentience",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Clairsentience"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#114_clairsentience"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 2, psychic warrior 2\nDisplay: Mental and visual\nManifesting Time: 1 standard action\n\nTarget: Creature touched\nDuration: 1 min./level\nSaving Throw: Will negates; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::113_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::115_power_points_3"
+}

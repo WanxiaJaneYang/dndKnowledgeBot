@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::018_ghast",
+  "document_id": "srd_35::monstersg::018_ghast",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GHAST"
+    ],
+    "source_location": "MonstersG.rtf#018_ghast"
+  },
+  "chunk_type": "subsection",
+  "content": "Although these creatures look just like their lesser kin, they are far more deadly and cunning.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::017_lacedon",
+  "next_chunk_id": "chunk::srd_35::monstersg::019_combat"
+}

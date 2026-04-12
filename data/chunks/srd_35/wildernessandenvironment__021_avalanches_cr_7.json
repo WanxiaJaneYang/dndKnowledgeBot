@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::021_avalanches_cr_7",
+  "document_id": "srd_35::wildernessandenvironment::021_avalanches_cr_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "Avalanches (CR 7)"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#021_avalanches_cr_7"
+  },
+  "chunk_type": "subsection",
+  "content": "The combination of high peaks and heavy snowfalls means that avalanches are a deadly peril in many mountainous areas. While avalanches of snow and ice are common, it's also possible to have an avalanche of rock and soil.\nAn avalanche can be spotted from as far away as 1d10\u00d7500 feet downslope by a character who makes a DC 20 Spot check, treating the avalanche as a Colossal creature. If all characters fail their Spot checks to determine the encounter distance, the avalanche moves closer to them, and they automatically become aware of it when it closes to half the original distance. It's possible to hear an avalanche coming even if you can't see it. Under optimum conditions (no other loud noises occurring), a character who makes a DC 15 Listen check can hear the avalanche or landslide when it is 1d6\u00d7500 feet away. This check might have a DC of 20, 25, or higher in conditions where hearing is difficult (such as in the middle of a thunderstorm).\nA landslide or avalanche consists of two distinct areas: the bury zone (in the direct path of the falling debris) and the slide zone (the area the debris spreads out to encompass). Characters in the bury zone always take damage from the avalanche; characters in the slide zone may be able to get out of the way. Characters in the bury zone take 8d6 points of damage, or half that amount if they make a DC 15 Reflex save. They are subsequently buried (see below). Characters in the slide zone take 3d6 points of damage, or no damage if they make a DC 15 Reflex save. Those who fail their saves are buried.\nBuried characters take 1d6 points of nonlethal damage per minute. If a buried character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead.\nThe typical avalanche has a width of 1d6\u00d7100 feet, from one edge of the slide zone to the opposite edge. The bury zone in the center of the avalanche is half as wide as the avalanche's full width.\nTo determine the precise location of characters in the path of an avalanche, roll 1d6\u00d720; the result is the number of feet from the center of the path taken by the bury zone to the center of the party's location. Avalanches of snow and ice advance at a speed of 500 feet per round, and rock avalanches travel at a speed of 250 feet per round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::020_mountain_terrain",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::022_mountain_travel"
+}

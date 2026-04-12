@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::035_combat",
+  "document_id": "srd_35::monsterst_z::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Both the wraith and the dread wraith share the following abilities.\nUnnatural Aura (Su): Animals, whether wild or domesticated, can sense the unnatural presence of a wraith at a distance of 30 feet. They will not willingly approach nearer than that and panic if forced to do so; they remain panicked as long as they are within that range.\nDaylight Powerlessness (Ex): Wraiths are utterly powerless in natural sunlight (not merely a daylight spell) and flee from it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::034_wraith",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::036_wraith"
+}

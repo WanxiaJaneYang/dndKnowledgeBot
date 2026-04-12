@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::059_power_points_5",
+  "document_id": "srd_35::psionicpowersg_p::059_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#059_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You set up a trap in your mind against psionic intruders. Anyone who attacks you with a telepathy power immediately loses 1d6 power points. This power's effect does not negate the power that is currently being used against you. You can manifest this power instantly, quickly enough to gain its benefit in an emergency. Manifesting the power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can use this power even when it is not your turn.\nAugment: For every additional power point you spend, this power's duration increases by 1 round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::058_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::060_display_mental"
+}

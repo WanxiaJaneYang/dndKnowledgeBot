@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::002_salient_divine_abilities",
+  "document_id": "srd_35::divineabilitiesandfeats::002_salient_divine_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "SALIENT DIVINE ABILITIES"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#002_salient_divine_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "A salient divine ability is like a feat--it gives a deity a new capability or improves one that the deity already has. A deity has one salient divine ability for each divine rank the deity has, plus additional salient divine abilities reflecting its status: Demigods receive one bonus ability, lesser deities receive two bonus abilities, intermediate deities receive three, and greater deities receive five.\nSome salient divine abilities have prerequisites. Usually, the deity must have all the listed prerequisites to have the ability. A divine rank of 1 is a prerequisite for all salient divine abilities. The most common salient divine abilities are described here. A few deities have unique salient divine abilities that are described in the deity's individual entry.\nUsing Salient Divine Abilities: Using a salient divine ability is a standard action unless otherwise noted in the ability description. Using a salient divine ability does not provoke an attack of opportunity.\nSalient Divine Abilities and Antimagic: A salient divine ability functions normally within an antimagic field, and is never subject to spell resistance.\n\nHere is the format for salient divine ability descriptions.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::001_divineabilitiesandfeats",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::003_ability_name"
+}

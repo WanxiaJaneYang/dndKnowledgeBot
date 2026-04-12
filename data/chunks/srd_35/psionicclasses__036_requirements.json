@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::036_requirements",
+  "document_id": "srd_35::psionicclasses::036_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Requirements"
+    ],
+    "source_location": "PsionicClasses.rtf#036_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a thrallherd, a character must fulfill all the following criteria.\nSkills: Diplomacy 4 ranks, Knowledge (psionics) 8 ranks.\nFeat: Inquisitor.\nPsionics: Manifester level 5th and able to manifest mindlink.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::035_class_features",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::037_class_skills"
+}

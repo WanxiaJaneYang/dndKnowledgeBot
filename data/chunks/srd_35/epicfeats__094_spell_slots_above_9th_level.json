@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::094_spell_slots_above_9th_level",
+  "document_id": "srd_35::epicfeats::094_spell_slots_above_9th_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "Spell Slots Above 9th Level"
+    ],
+    "source_location": "EpicFeats.rtf#094_spell_slots_above_9th_level"
+  },
+  "chunk_type": "subsection",
+  "content": "The Improved Spell Capacity feat allows characters to gain spell slots above 9th level (which can be used to hold lower-level spells or spells whose level has been increased beyond 9th by the use of metamagic feats).\nA character with a very high score in the ability associated with his or her spellcasting (Intelligence for wizards; Wisdom for clerics, druids, paladins, and rangers; or Charisma for bards and sorcerers) may receive bonus spells of those levels, as shown on Table: Expanded Ability Modifiers and Bonus Spells, but only if they already have at least one spell slot of that level (such as from the Improved Spell Capacity feat). A character without any spell slots of a level can't receive any bonus spells of that level, even if the appropriate ability score is high enough to award them.\nEven though the table only includes ability scores up to 61 and spell slots up to 25th level, the progression continues infinitely in both directions. For ability scores beyond 61, or for spell slots above 25th level, expand the table to follow the same patterns as shown.\n\n| ------------------------------ Spells per Day ------------------------------------ |\nScore | Modifier | 10th | 11th | 12th | 13th | 14th | 15th | 16th | 17th | 18th | 19th | 20th | 21st | 22nd | 23rd | 24th | 25th |\n10-11 | +0 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n12-13 | +1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n14-15 | +2 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n16-17 | +3 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n18-19 | +4 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n20-21 | +5 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n22-23 | +6 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n24-25 | +7 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n26-27 | +8 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n28-29 | +9 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n30-31 | +10 | 1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n32-33 | +11 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n34-35 | +12 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n36-37 | +13 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n38-39 | +14 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n40-41 | +15 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n42-43 | +16 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- | -- | -- |\n44-45 | +17 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- | -- |\n46-47 | +18 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- | -- |\n48-49 | +19 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- | -- |\n50-51 | +20 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- | -- |\n52-53 | +21 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- | -- |\n54-55 | +22 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- | -- |\n56-57 | +23 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- | -- |\n58-59 | +24 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | -- |\n60-61 | +25 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 |\netc. . . | | | | | | | | | | | | | | | | | |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::093_improved_spell_capacity_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::095_improved_spell_resistance_epic"
+}

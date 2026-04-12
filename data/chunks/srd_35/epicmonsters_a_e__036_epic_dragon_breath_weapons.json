@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::036_epic_dragon_breath_weapons",
+  "document_id": "srd_35::epicmonsters_a_e::036_epic_dragon_breath_weapons",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Epic Dragon Breath Weapons"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#036_epic_dragon_breath_weapons"
+  },
+  "chunk_type": "subsection",
+  "content": "Size | Cone* (Length) |\nHuge | 50 ft. |\nGargantuan | 60 ft. |\nColossal | 70 ft. |\nColossal+ | 80 ft. |\n* A cone is as high and wide as its length. |\nWyrmling epic dragons possess certain abilities that common dragons do not acquire until later in life, including frightful presence, spellcasting, and spell resistance. An epic dragon with a caster level above 20th gains the Improved Spell Capacity feat as a bonus feat once for every three caster levels above 20th. Any epic dragon can choose epic feats for which it otherwise meets the prerequisites. Epic dragons also have access to dragon feats, as well as the additional feats described in this book.\nEmpower Spell-Like Ability: An epic dragon can apply the Empower Spell feat to one of its spell-like abilities that it can use at least twice per day. If the dragon has limited use of the spell-like ability, the empowered ability uses up two uses of the ability. If the dragon can use the ability at will, there is no cost for empowering the ability. The dragon does not need to specify a spell-like ability when it chooses this feat; it can apply the feat to any spell-like ability it possesses.\nMaximize Spell-Like Ability: The dragon can apply the Maximize Spell feat to one of its spell-like abilities that it can use at least three times per day. If the dragon has limited use of the spell-like ability, the maximized ability uses up three uses of the ability. If the dragon can use the ability at will, there is no cost for maximizing the ability. The dragon does not need to specify a spell-like ability when it chooses this feat; it can apply the feat to any spell-like ability it possesses.\nEpic dragons fly even faster than common dragons, and can cover greater distances.\n\n| 250 feet | 300 feet | 350 feet |\nOne Hour | |\nNormal | 40 miles | 50 miles | 60 miles |\nHustle | 80 miles | 100 miles | 120 miles |\n|\nOne Day | |\nNormal | 320 miles | 400 miles | 480 miles |\nExcept as noted here, epic dragons conform to the general information that applies to all dragons given.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::035_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::037_dragon_force"
+}

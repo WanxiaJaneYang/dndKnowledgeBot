@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::029_psychoportation",
+  "document_id": "srd_35::psionicpowersq_w::029_psychoportation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Psychoportation"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#029_psychoportation"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 1, psychic warrior 1\nDisplay: Material and visual\nManifesting Time: 1 standard action\nRange: Personal or touch; see text\nTarget: You or one willing creature or one unattended object (total weight up to 100 lb./level); see text\nDuration: 1 min./level (D)\n\nPower Resistance: Yes (harmless, object)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::028_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::030_power_points_1"
+}

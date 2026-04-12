@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::002_improving_monsters",
+  "document_id": "srd_35::improving_monsters::002_improving_monsters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "IMPROVING MONSTERS"
+    ],
+    "source_location": "Improving Monsters.rtf#002_improving_monsters"
+  },
+  "chunk_type": "rule_section",
+  "content": "Each of the monster entries describes a typical creature of its kind. However, there are several methods by which extraordinary or unique monsters can be created using a typical creature as the foundation: by adding character classes, increasing a monster's Hit Dice, or by adding a template to a monster. These methods are not mutually exclusive--it's possible for a monster with a template to be improved by both increasing its Hit Dice and adding character class levels.\nClass Levels: Intelligent creatures that are reasonably humanoid in shape most commonly advance by adding class levels. Creatures that fall into this category have an entry of \u201cBy character class\u201d in their Advancement line. When a monster adds a class level, that level usually represents an increase in experience and learned skills and capabilities.\nIncreased Hit Dice: Intelligent creatures that are not humanoid in shape, and nonintelligent monsters, can advance by increasing their Hit Dice. Creatures with increased Hit Dice are usually superior specimens of their race, bigger and more powerful than their run-of-the-mill fellows.\nTemplates: Both intelligent and nonintelligent creatures with an unusual heritage or an inflicted change in their essential nature may be modified with a template. Templates usually result in tougher monsters with capabilities that differ from those of their common kin.\nEach of these three methods for improving monsters is discussed in more detail below.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::001_improving_monsters",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::003_ability_score_arrays"
+}

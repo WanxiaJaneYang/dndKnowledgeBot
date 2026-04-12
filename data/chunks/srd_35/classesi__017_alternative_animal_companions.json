@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesi::017_alternative_animal_companions",
+  "document_id": "srd_35::classesi::017_alternative_animal_companions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesI",
+      "ALTERNATIVE ANIMAL COMPANIONS"
+    ],
+    "source_location": "ClassesI.rtf#017_alternative_animal_companions"
+  },
+  "chunk_type": "subsection",
+  "content": "A druid of sufficiently high level can select her animal companion from one of the following lists, applying the indicated adjustment to the druid's level (in parentheses) for purposes of determining the companion's characteristics and special abilities.\n4th Level or Higher (Level -3)\nApe (animal)\nBear, black (animal)\nBison (animal)\nBoar (animal)\nCheetah (animal)\nCrocodile (animal)1\nDire badger\nDire bat\nDire weasel\nLeopard (animal)\nLizard, monitor (animal)\nShark, Large1 (animal)\nSnake, constrictor (animal)\nSnake, Large viper (animal)\nWolverine (animal)\n7th Level or Higher (Level -6)\nBear, brown (animal)\nDire wolverine\nCrocodile, giant (animal)\nDeinonychus (dinosaur)\nDire ape\nDire boar\nDire wolf\nElasmosaurus1 (dinosaur)\nLion (animal)\nRhinoceros (animal)\nSnake, Huge viper (animal)\nTiger (animal)\n10th Level or Higher (Level -9)\nBear, polar (animal)\nDire lion\nMegaraptor (dinosaur)\nShark, Huge1 (animal)\nSnake, giant constrictor (animal)\nWhale, orca1 (animal)\n13th Level or Higher (Level -12)\nDire bear\nElephant (animal)\nOctopus, giant1 (animal)\n16th Level or Higher (Level -15)\nDire shark1\nDire tiger\nSquid, giant1 (animal)\nTriceratops (dinosaur)\nTyrannosaurus (dinosaur)\n1 Available only in an aquatic environment.\nFIGHTER\nAlignment: Any.\nHit Die: d10.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesi::016_the_druid_s_animal_companion",
+  "next_chunk_id": "chunk::srd_35::classesi::018_class_skills"
+}

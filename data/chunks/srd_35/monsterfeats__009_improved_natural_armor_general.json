@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::009_improved_natural_armor_general",
+  "document_id": "srd_35::monsterfeats::009_improved_natural_armor_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "IMPROVED NATURAL ARMOR [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#009_improved_natural_armor_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Natural armor, Con 13.\nBenefit: The creature's natural armor bonus increases by 1.\nSpecial: A creature can gain this feat multiple times. Each time the creature takes the feat its natural armor bonus increases by another point.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::008_hover_general",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::010_improved_natural_attack_general"
+}

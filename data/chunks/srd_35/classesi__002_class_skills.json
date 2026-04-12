@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesi::002_class_skills",
+  "document_id": "srd_35::classesi::002_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesI",
+      "Class Skills"
+    ],
+    "source_location": "ClassesI.rtf#002_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The barbarian's class skills (and the key ability for each skill) are Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Jump (Str), Listen (Wis), Ride (Dex), Survival (Wis), and Swim (Str).\nSkill Points at 1st Level: (4 + Int modifier) x\uf0204.\nSkill Points at Each Additional Level: 4 + Int modifier.\nTable: The Barbarian |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |\n1st | +1 | +2 | +0 | +0 | Fast movement, illiteracy, rage 1/day |\n2nd | +2 | +3 | +0 | +0 | Uncanny dodge |\n3rd | +3 | +3 | +1 | +1 | Trap sense +1 |\n4th | +4 | +4 | +1 | +1 | Rage 2/day |\n5th | +5 | +4 | +1 | +1 | Improved uncanny dodge |\n6th | +6/+1 | +5 | +2 | +2 | Trap sense +2 |\n7th | +7/+2 | +5 | +2 | +2 | Damage reduction 1/-- |\n8th | +8/+3 | +6 | +2 | +2 | Rage 3/day |\n9th | +9/+4 | +6 | +3 | +3 | Trap sense +3 |\n10th | +10/+5 | +7 | +3 | +3 | Damage reduction 2/-- |\n11th | +11/+6/+1 | +7 | +3 | +3 | Greater rage |\n12th | +12/+7/+2 | +8 | +4 | +4 | Rage 4/day, trap sense +4 |\n13th | +13/+8/+3 | +8 | +4 | +4 | Damage reduction 3/-- |\n14th | +14/+9/+4 | +9 | +4 | +4 | Indomitable will |\n15th | +15/+10/+5 | +9 | +5 | +5 | Trap sense +5 |\n16th | +16/+11/+6/+1 | +10 | +5 | +5 | Damage reduction 4/--, rage 5/day |\n17th | +17/+12/+7/+2 | +10 | +5 | +5 | Tireless rage |\n18th | +18/+13/+8/+3 | +11 | +6 | +6 | Trap sense +6 |\n19th | +19/+14/+9/+4 | +11 | +6 | +6 | Damage reduction 5/-- |\n20th | +20/+15/+10/+5 | +12 | +6 | +6 | Mighty rage, rage 6/day |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesi::001_classesi",
+  "next_chunk_id": "chunk::srd_35::classesi::003_class_features"
+}

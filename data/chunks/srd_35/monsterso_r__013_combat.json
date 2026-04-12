@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::013_combat",
+  "document_id": "srd_35::monsterso_r::013_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "Combat"
+    ],
+    "source_location": "MonstersO-R.rtf#013_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A black pudding attacks by grabbing and squeezing their prey.\nAcid (Ex): The creature secretes a digestive acid that dissolves organic material and metal quickly, but does not affect stone. Any melee hit or constrict attack deals acid damage, and the opponent's armor and clothing dissolve and become useless immediately unless they succeed on DC 21 Reflex saves. A metal or wooden weapon that strikes a black pudding also dissolves immediately unless it succeeds on a DC 21 Reflex save. The save DCs are Constitution-based.\nThe pudding's acidic touch deals 21 points of damage per round to wooden or metal objects, but the ooze must remain in contact with the object for 1 full round to deal this damage.\nConstrict (Ex): A black pudding deals automatic slam and acid damage with a successful grapple check. The opponent's clothing and armor take a -4 penalty on Reflex saves against the acid.\nImproved Grab (Ex): To use this ability, a black pudding must hit with its slam attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nSplit (Ex): Slashing and piercing weapons deal no damage to a black pudding. Instead the creature splits into two identical puddings, each with half of the original's current hit points (round down). A pudding with 10 hit points or less cannot be further split and dies if reduced to 0 hit points.\nSkills: A black pudding has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::012_black_pudding",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::014_elder_black_pudding"
+}

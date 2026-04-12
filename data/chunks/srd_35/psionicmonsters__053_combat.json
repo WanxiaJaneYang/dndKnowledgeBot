@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::053_combat",
+  "document_id": "srd_35::psionicmonsters::053_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#053_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic Powers: An unbodied manifests powers as a 4th-level psion (telepath). The save DCs are Intelligence-based.\nTypical Psion Powers Known (power points 21, base save DC 12 + power level): 1st-- detect psionics, empty mind, mind thrust (DC 13*), psionic charm (DC 13*); 2nd--brain lock (DC 14), cloud mind (DC 14), energy push (DC 14), read thoughts (DC 14).\n*Power can be augmented.\nTelekinetic Force (Su): An unbodied can use telekinetic force (DC 15) as a standard action that does not provoke attacks of opportunity. Manifester level 4th. The save DC is Charisma-based.\nAssume Likeness (Su): An unbodied can assume the likeness of any Small, Medium, or Large creature as a standard action that does not provoke attacks of opportunity. Its abilities do not change, but it appears to be that creature, relying on its Bluff and Disguise skills to deflect suspicion.\nHide Mind (Su): An unbodied cannot be identified as psionic by divination spells or clairsentience powers.\nIncorporeal Traits: An unbodied is harmed only by other incorporeal creatures, magic weapons, powers, spells, spell-like abilities, and supernatural abilities. It has a 50% chance to ignore any damage from a corporeal source, except for force effects or attacks made with ghost touch weapons. It can pass through solid objects, but not force effects, at will. Its attacks ignore natural armor, armor, and shields, but deflection bonuses and force effects work normally against them. An incorporeal creature always moves silently and cannot be heard with Listen checks if it doesn't wish to be.\nSkills: An unbodied has a +4 racial bonus on Bluff and Disguise checks. *When using its assume likeness ability, an unbodied gets an additional +10 circumstance bonus on Disguise checks. If it can read an opponent's mind, it gets a further +4 circumstance bonus on Bluff and Disguise checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::052_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::054_unbodied_as_characters"
+}

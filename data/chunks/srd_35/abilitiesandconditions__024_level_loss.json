@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::024_level_loss",
+  "document_id": "srd_35::abilitiesandconditions::024_level_loss",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "LEVEL LOSS"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#024_level_loss"
+  },
+  "chunk_type": "subsection",
+  "content": "A character who loses a level instantly loses one Hit Die. The character's base attack bonus, base saving throw bonuses, and special class abilities are now reduced to the new, lower level. Likewise, the character loses any ability score gain, skill ranks, and any feat associated with the level (if applicable). If the exact ability score or skill ranks increased from a level now lost is unknown (or the player has forgotten), lose 1 point from the highest ability score or ranks from the highest-ranked skills. If a familiar or companion creature has abilities tied to a character who has lost a level, the creature's abilities are adjusted to fit the character's new level.\nThe victim's experience point total is immediately set to the midpoint of the previous level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::023_invisibility",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::025_low_light_vision"
+}

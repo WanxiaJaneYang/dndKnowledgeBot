@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::104_jack_of_all_trades_general",
+  "document_id": "srd_35::divineabilitiesandfeats::104_jack_of_all_trades_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "JACK OF ALL TRADES [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#104_jack_of_all_trades_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: You must be at least 6th level.\nBenefit: You can use any skill untrained, even those that normally require training.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::103_hold_the_line_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::105_knock_down_general"
+}

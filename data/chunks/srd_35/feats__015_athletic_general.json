@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::015_athletic_general",
+  "document_id": "srd_35::feats::015_athletic_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "ATHLETIC [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#015_athletic_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Climb checks and Swim checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::014_armor_proficiency_medium_general",
+  "next_chunk_id": "chunk::srd_35::feats::016_augment_summoning_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::029_urban_adventures",
+  "document_id": "srd_35::wildernessandenvironment::029_urban_adventures",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "URBAN ADVENTURES"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#029_urban_adventures"
+  },
+  "chunk_type": "subsection",
+  "content": "At first glance, a city is much like a dungeon, made up of walls, doors, rooms, and corridors. Adventures that take place in cities have two salient differences from their dungeon counterparts, however. Characters have greater access to resources, and they must contend with law enforcement.\nAccess to Resources: Unlike in dungeons and the wilderness, characters can buy and sell gear quickly in a city. A large city or metropolis probably has high-level NPCs and experts in obscure fields of knowledge who can provide assistance and decipher clues. And when the PCs are battered and bruised, they can retreat to the comfort of a room at the inn.\nThe freedom to retreat and ready access to the marketplace means that the players have a greater degree of control over the pacing of an urban adventure.\nLaw Enforcement: The other key distinctions between adventuring in a city and delving into a dungeon is that a dungeon is, almost by definition, a lawless place where the only law is that of the jungle: Kill or be killed. A city, on the other hand, is held together by a code of laws, many of which are explicitly designed to prevent the sort of behavior that adventurers engage in all the time: killing and looting. Even so, most cities' laws recognize monsters as a threat to the stability the city relies on, and prohibitions about murder rarely apply to monsters such as aberrations or evil outsiders. Most evil humanoids, however, are typically protected by the same laws that protect all the citizens of the city. Having an evil alignment is not a crime (except in some severely theocratic cities, perhaps, with the magical power to back up the law); only evil deeds are against the law. Even when adventurers encounter an evildoer in the act of perpetrating some heinous evil upon the populace of the city, the law tends to frown on the sort of vigilante justice that leaves the evildoer dead or otherwise unable to testify at a trial.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::028_floods",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::030_weapon_and_spell_restrictions"
+}
