@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicspells::006_mind_domain_spells",
+  "document_id": "srd_35::psionicspells::006_mind_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSpells",
+      "Mind Domain Spells"
+    ],
+    "source_location": "PsionicSpells.rtf#006_mind_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Comprehend Languages: You understand all spoken and written languages.\n2 Detect Thoughts: Allows \u201clistening\u201d to surface thoughts.\n3 Telepathic Bond, Lesser: Link with subject within 30 ft. for 10 min./level.\n4 Discern Lies: Reveals deliberate falsehoods.\n5 Telepathic Bond: Link lets allies communicate.\n6 Probe Thoughts: Read subject's memories, one question/ round.\n7 Brain Spider: Eavesdrop on thoughts of up to eight other creatures.\n8 Mind Blank: Subject is immune to mental/emotional magic and scrying.\n9 Weird: Fearful illusion affects all within 30 ft., either killing or dealing 3d6 damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicspells::005_mind_domain",
+  "next_chunk_id": "chunk::srd_35::psionicspells::007_sorcerer_wizard_spells"
+}

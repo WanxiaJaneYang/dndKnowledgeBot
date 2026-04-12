@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::008_power_points_15",
+  "document_id": "srd_35::psionicpowersq_w::008_power_points_15",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 15"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#008_power_points_15"
+  },
+  "chunk_type": "subsection",
+  "content": "As recall agony, except the wounds revealed by folding the fourth dimension are potentially fatal. If the target fails its Will save. it dies. If the save succeeds, the target instead takes 5d6 points of damage.\n\nDisplay: Auditory, mental, and olfactory\nManifesting Time: 1 standard action\n\nDuration: Until discharged or 10 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::007_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::009_power_points_13"
+}

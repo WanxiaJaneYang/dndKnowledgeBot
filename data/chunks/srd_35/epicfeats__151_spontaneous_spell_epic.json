@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::151_spontaneous_spell_epic",
+  "document_id": "srd_35::epicfeats::151_spontaneous_spell_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SPONTANEOUS SPELL [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#151_spontaneous_spell_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Spellcraft 25 ranks, ability to cast the maximum normal spell level of at least one spell-casting class.\nBenefit: Select a spell the character can cast. The character may spontaneously convert any prepared spell of the selected spell's level into the selected spell, just as a cleric channels energy to convert spells into cure spells.\nSpecial: A character can gain this feat multiple times. Each time he or she takes the feat, it applies to a different spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::150_spontaneous_domain_access_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::152_storm_of_throws_epic"
+}

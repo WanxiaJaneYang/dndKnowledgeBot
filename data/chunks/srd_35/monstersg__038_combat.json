@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::038_combat",
+  "document_id": "srd_35::monstersg::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A solitary girallon usually conceals itself in the branches of a tree or under a pile of leaves and brush, with only its nose showing. When it spots or scents prey, it charges to the attack. A girallon picks up prey that is small enough to carry and withdraws, often vanishing into the trees before the victim's companions can do anything to retaliate. Against larger foes, a girallon seeks to tear a single opponent to bits as quickly as it can.\nRend (Ex): A girallon that hits with two or more claw attacks latches onto the opponent's body and tears the flesh. This attack automatically deals an extra 2d4+12 points of damage.\nSkills: A girallon has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.\n\nHit Dice: | 2d8+2 (11 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 natural, +2 leather armor, +2 heavy steel shield), touch 10, flat-footed 15 |\nBase Attack/Grapple: | +1/+3 |\nAttack: | Battleaxe +3 melee (1d8+2/x3) or shortbow +1 ranged (1d6/x3) |\nFull Attack: | Battleaxe +3 melee (1d8+2/x3) or shortbow +1 ranged (1d6/x3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft. |\nSaves: | Fort +4, Ref +0, Will +0 |\nAbilities: | Str 15, Dex 10, Con 13, Int 8, Wis 11, Cha 8 |\nSkills: | Listen +2, Spot +3 |\nFeats: | Power Attack |\nEnvironment: | Warm plains |\nOrganization: | Solitary, pair, hunting party (2-5 and 1-2 hyenas), band (10-100 plus 50% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of 4th-6th level and 5-8 hyenas), or tribe (20-200 plus 1 3rd-level sergeant per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, and 7-12 hyenas; underground lairs also have 1-3 trolls) |\nChallenge Rating: | 1 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | +1 |\nGnolls are hyena-headed, evil humanoids that wander in loose tribes. Most gnolls have dirty yellow or reddish-brown fur. A gnoll is a nocturnal carnivore, preferring intelligent creatures for food because they scream more. A gnoll is about 7-1/2 feet tall and weighs 300 pounds. Gnolls speak Gnoll.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::037_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::039_combat"
+}

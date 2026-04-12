@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::055_improved_feint_general",
+  "document_id": "srd_35::feats::055_improved_feint_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED FEINT [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#055_improved_feint_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Int 13, Combat Expertise.\nBenefit: You can make a Bluff check to feint in combat as a move action.\nNormal: Feinting in combat is a standard action.\nA fighter may select Improved Feint as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::054_improved_familiar_general",
+  "next_chunk_id": "chunk::srd_35::feats::056_improved_grapple_general"
+}

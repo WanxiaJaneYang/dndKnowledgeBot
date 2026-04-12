@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::039_disabled_0_hit_points",
+  "document_id": "srd_35::combati::039_disabled_0_hit_points",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "DISABLED (0 HIT POINTS)"
+    ],
+    "source_location": "CombatI.rtf#039_disabled_0_hit_points"
+  },
+  "chunk_type": "subsection",
+  "content": "When your current hit points drop to exactly 0, you're disabled.\nYou can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after the completing the act. Unless your activity increased your hit points, you are now at -1 hit points, and you're dying.\nHealing that raises your hit points above 0 makes you fully functional again, just as if you'd never been reduced to 0 or fewer hit points.\nYou can also become disabled when recovering from dying. In this case, it's a step toward recovery, and you can have fewer than 0 hit points (see Stable Characters and Recovery, below).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::038_loss_of_hit_points",
+  "next_chunk_id": "chunk::srd_35::combati::040_dying_1_to_9_hit_points"
+}

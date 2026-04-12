@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::018_tallfellow",
+  "document_id": "srd_35::monstersh_i::018_tallfellow",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Tallfellow"
+    ],
+    "source_location": "MonstersH-I.rtf#018_tallfellow"
+  },
+  "chunk_type": "subsection",
+  "content": "Tallfellows are somewhat rare among halfling folk. Tallfellows are 4 feet tall or more and weigh between 30 and 35 pounds. They generally speak Elven in addition to Common and Halfling.\nTallfellow Traits (Ex): These traits are in addition to the lightfoot halfling traits, except where noted.\n-- +2 racial bonus on Search, Spot, and Listen checks. Like an elf, a tallfellow who merely passes within 5 feet of a secret or concealed door is entitled to a Search check as though actively looking for it. This trait replaces the lightfoot's +2 bonus on Listen checks.\n--Tallfellows are less athletic than lightfoot halflings and do not have a racial bonus on Climb, Jump, and Move Silently checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::017_subraces",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::019_deep_halfling"
+}

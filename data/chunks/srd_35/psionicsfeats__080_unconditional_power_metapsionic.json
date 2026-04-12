@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::080_unconditional_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::080_unconditional_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "UNCONDITIONAL POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#080_unconditional_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Disabling conditions do not hold you back.\nBenefit: To use this feat, you must expend your psionic focus. Your mental strength is enough to overcome some otherwise disabling conditions. You can manifest an unconditional power when you are dazed, confused, nauseated, shaken, or stunned.\nOnly personal powers and powers that affect your person can be manifested as unconditional powers.\nUsing this feat increases the power point cost of the power by 8. The power's total cost cannot exceed your manifester level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::079_unavoidable_strike_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::081_up_the_walls_psionic"
+}

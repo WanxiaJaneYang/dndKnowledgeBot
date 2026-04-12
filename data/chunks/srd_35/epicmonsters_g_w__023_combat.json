@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::023_combat",
+  "document_id": "srd_35::epicmonsters_g_w::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell-Like Abilities: 3/day--dimension door, invisibility; 1/day--secret chest, plane shift. Caster level 14th; save DC 12 + spell level.\nTelepathy (Su): Mercanes can communicate telepathically with any creature within 100 feet that has a language.\nSkills: Mercanes receive a +4 racial bonus on Appraise checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::022_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::024_mercane_characters"
+}

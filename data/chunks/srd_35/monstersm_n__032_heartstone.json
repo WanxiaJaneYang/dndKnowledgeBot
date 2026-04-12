@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::032_heartstone",
+  "document_id": "srd_35::monstersm_n::032_heartstone",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "HEARTSTONE"
+    ],
+    "source_location": "MonstersM-N.rtf#032_heartstone"
+  },
+  "chunk_type": "subsection",
+  "content": "All night hags carry a periapt known as a heartstone, which instantly cures any disease contracted by the holder. In addition, a heartstone provides a +2 resistance bonus on all saving throws (this bonus is included in the statistics block). A night hag that loses this charm can no longer use etherealness until it can manufacture another (which takes one month). Creatures other than the hag can benefit from the heartstone's powers, but the periapt shatters after ten uses (any disease cured or saving throw affected\ncounts as a use) and it does not bestow etherealness to a bearer that is not a night hag. If sold, an intact heartstone brings 1,800 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::031_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::033_nightmare"
+}

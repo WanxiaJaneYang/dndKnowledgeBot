@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsii::013_search_int",
+  "document_id": "srd_35::skillsii::013_search_int",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsII",
+      "SEARCH (INT)"
+    ],
+    "source_location": "SkillsII.rtf#013_search_int"
+  },
+  "chunk_type": "subsection",
+  "content": "Check: You generally must be within 10 feet of the object or surface to be searched. The table below gives DCs for typical tasks involving the Search skill.\nTask | Search DC |\nRansack a chest full of junk to find a certain item | 10 |\nNotice a typical secret door or a simple trap | 20 |\nFind a difficult nonmagical trap (rogue only)1 | 21 or higher |\nFind a magic trap (rogue only)1 | 25 + level of spell used to create trap |\nNotice a well-hidden secret door | 30 |\nFind a footprint | Varies2 |\n1 Dwarves (even if they are not rogues) can use Search to find traps built into or out of stone. |\n2 A successful Search check can find a footprint or similar sign of a creature's passage, but it won't let you find or follow a trail. See the Track feat for the appropriate DC. |\nAction: It takes a full-round action to search a 5-foot-by-5-foot area or a volume of goods 5 feet on a side.\nSpecial: An elf has a +2 racial bonus on Search checks, and a half-elf has a +1 racial bonus. An elf (but not a half-elf) who simply passes within 5 feet of a secret or concealed door can make a Search check to find that door.\nIf you have the Investigator feat, you get a +2 bonus on Search checks.\nThe spells explosive runes, fire trap, glyph of warding, symbol, and teleportation circle create magic traps that a rogue can find by making a successful Search check and then can attempt to disarm by using Disable Device. Identifying the location of a snare spell has a DC of 23. Spike growth and spike stones create magic traps that can be found using Search, but against which Disable Device checks do not succeed. See the individual spell descriptions for details.\nActive abjuration spells within 10 feet of each other for 24 hours or more create barely visible energy fluctuations. These fluctuations give you a +4 bonus on Search checks to locate such abjuration spells.\nSynergy: If you have 5 or more ranks in Search, you get a +2 bonus on Survival checks to find or follow tracks.\nIf you have 5 or more ranks in Knowledge (architecture and engineering), you get a +2 bonus on Search checks to find secret doors or hidden compartments.\nRestriction: While anyone can use Search to find a trap whose DC is 20 or lower, only a rogue can use Search to locate traps with higher DCs. (Exception: The spell find traps temporarily enables a cleric to use the Search skill as if he were a rogue.)\nA dwarf, even one who is not a rogue, can use the Search skill to find a difficult trap (one with a DC higher than 20) if the trap is built into or out of stone. He gains a +2 racial bonus on the Search check from his stonecunning ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsii::012_ride_dex",
+  "next_chunk_id": "chunk::srd_35::skillsii::014_sense_motive_wis"
+}

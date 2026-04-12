@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::002_barghest",
+  "document_id": "srd_35::monstersb_c::002_barghest",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "BARGHEST"
+    ],
+    "source_location": "MonstersB-C.rtf#002_barghest"
+  },
+  "chunk_type": "subsection",
+  "content": "| Barghest | Greater Barghest |\n| Medium Outsider (Evil, Extraplanar, Lawful, Shapechanger) | Large Outsider (Evil, Extraplanar, Lawful, Shapechanger) |\nHit Dice: | 6d8+6 (33 hp) | 9d8+27 (67 hp) |\nInitiative: | +6 | +6 |\nSpeed: | 30 ft. (6 squares) | 40 ft. (8 squares) |\nArmor Class: | 18 (+2 Dex, +6 natural), touch 12, flat-footed 16 | 20 (-1 size, +2 Dex, +9 natural), touch 11, flat-footed 18 |\nBase Attack/Grapple: | +6/+9 | +9/+18 |\nAttack: | Bite +9 melee (1d6+3)) | Bite +13 melee (1d8+5 |\nFull Attack: | Bite +9 melee (1d6+3) and 2 claws +4 melee (1d4+1) | Bite +13 melee (1d8+5) and 2 claws +8 melee (1d6+2) |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, feed | Spell-like abilities, feed |\nSpecial Qualities: | Change shape, damage reduction 5/magic, darkvision 60 ft., scent | Change shape, damage reduction 10/magic, darkvision 60 ft., scent |\nSaves: | Fort +6, Ref +7, Will +7 | Fort +9, Ref +8, Will +10 |\nAbilities: | Str 17, Dex 15, Con 13, Int 14, Wis 14, Cha 14 | Str 20, Dex 15, Con 16, Int 18, Wis 18, Cha 18 |\nSkills: | Bluff +11, Diplomacy +6, Disguise +2 (+4 acting), Hide +11*, Intimidate +13, Jump +12, Listen +11, Move Silently +10, Search +11, Sense Motive +11, Spot +11, Survival +11 (+13 following tracks) | Bluff +16, Climb +17, Concentration +15, Diplomacy +8, Disguise +4 (+6 acting), Hide +10*, Intimidate +18, Jump +21, Listen +16, Move Silently +14, Sense Motive +16, Spot +16 Survival +16 (+18 following tracks), Tumble +16 |\nFeats: | Combat Reflexes, Improved Initiative, Track | Combat Casting, Combat Reflexes, Improved Initiative, Track |\nEnvironment | An evil-aligned plane | An evil-aligned plane |\nOrganization: | Solitary or pack (3-6) | Solitary or pack (3-6) |\nChallenge Rating: | 4 | 5 |\nTreasure: | Double standard | Double standard |\nAlignment: | Always lawful evil | Always lawful evil |\nAdvancement: | Special (see below) | Special (see below) |\nLevel Adjustment: | -- | -- |\nA barghest is a lupine fiend that can take the shape of a wolf or a goblin. In its natural form, it resembles a goblin-wolf hybrid with terrible jaws and sharp claws. As whelps, barghests are nearly indistinguishable from wolves, except for their size and claws. As they grow larger and stronger, their skin darkens to bluishred and eventually becomes blue altogether.\nA full-grown barghest is about 6 feet long and weighs 180 pounds. A barghest's eyes glow orange when the creature becomes excited.\nBarghests speak Goblin, Worg, and Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::001_monstersb_c",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::003_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::020_mounts_and_related_gear",
+  "document_id": "srd_35::equipment::020_mounts_and_related_gear",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "MOUNTS AND RELATED GEAR"
+    ],
+    "source_location": "Equipment.rtf#020_mounts_and_related_gear"
+  },
+  "chunk_type": "subsection",
+  "content": "Barding, Medium Creature and Large Creature: Barding is a type of armor that covers the head, neck, chest, body, and possibly legs of a horse or other mount. Barding made of medium or heavy armor provides better protection than light barding, but at the expense of speed. Barding can be made of any of the armor types found on Table: Armor and Shields.\nArmor for a horse (a Large nonhumanoid creature) costs four times as much as armor for a human (a Medium humanoid creature) and also weighs twice as much as the armor found on Table: Armor and Shields (see Armor for Unusual Creatures). If the barding is for a pony or other Medium mount, the cost is only double, and the weight is the same as for Medium armor worn by a humanoid. Medium or heavy barding slows a mount that wears it, as shown on the table below.\n\nBarding | (40 ft.) | (50 ft.) | (60 ft.) |\nMedium | 30 ft. | 35 ft. | 40 ft. |\nHeavy | 30 ft.1 | 35 ft.1 | 40 ft.1 |\n1 A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple. |\nFlying mounts can't fly in medium or heavy barding.\nRemoving and fitting barding takes five times as long as the figures given on Table: Donning Armor. A barded animal cannot be used to carry any load other than the rider and normal saddlebags.\nDog, Riding: This Medium dog is specially trained to carry a Small humanoid rider. It is brave in combat like a warhorse. You take no damage when you fall from a riding dog.\nDonkey or Mule: Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a horse, a donkey or a mule is willing (though not eager) to enter dungeons and other strange or threatening places.\nFeed: Horses, donkeys, mules, and ponies can graze to sustain themselves, but providing feed for them is much better. If you have a riding dog, you have to feed it at least some meat.\nHorse: A horse (other than a pony) is suitable as a mount for a human, dwarf, elf, half-elf, or half-orc. A pony is smaller than a horse and is a suitable mount for a gnome or halfling.\nWarhorses and warponies can be ridden easily into combat. Light horses, ponies, and heavy horses are hard to control in combat.\nSaddle, Exotic: An exotic saddle is like a normal saddle of the same sort except that it is designed for an unusual mount. Exotic saddles come in military, pack, and riding styles.\nSaddle, Military: A military saddle braces the rider, providing a +2 circumstance bonus on Ride checks related to staying in the saddle. If you're knocked unconscious while in a military saddle, you have a 75% chance to stay in the saddle (compared to 50% for a riding saddle).\nSaddle, Pack: A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.\nSaddle, Riding: The standard riding saddle supports a rider.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::019_food_drink_and_lodging",
+  "next_chunk_id": "chunk::srd_35::equipment::021_transport"
+}

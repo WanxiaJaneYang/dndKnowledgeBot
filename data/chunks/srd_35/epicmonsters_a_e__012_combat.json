@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::012_combat",
+  "document_id": "srd_35::epicmonsters_a_e::012_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#012_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Rend (Ex): If the xixecal hits with both claw attacks, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 4d8+42 points of damage.\nCold (Su): A hit from a xixecal's melee attack induces numbing cold. The opponent must succeed at a Fortitude save (DC 58) or be affected as though by a slow spell for 10 rounds. The DC is Charisma-based.\nSpell-Like Abilities: At will--blasphemy, cone of cold, desecrate, greater dispel magic, dominate monster, hold person, greater invisibility, unholy aura, wall of ice; 5/day--haste, meteor swarm. Caster level 36th; save DC 22 + spell level. The DC is Charisma-based.\nBreath Weapon (Su): Cone of cold, 300 feet, 3/day, damage 12d6, Fort half DC 61. The DC is Constitution-based.\nSummon White Dragon (Sp): Five times per day a xixecal can summon an old white dragon.\nConstitution Drain (Su): This effect permanently reduces a living opponent's Constitution score by 4 when the creature hits with a slam, bite, or rend, or twice that amount on a rend or critical hit. The creature heals 20 points of damage (or 40 on a rend or critical hit) whenever it drains Constitution, gaining any excess as temporary hit points. These temporary hit points last a maximum of 1 hour. The attack allows a Fortitude save (DC 58). The DC is Charisma-based.\nAbomination Traits: Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.\nThe standard fire resistance 20 most abominations have is not shared by xixecales\nDire Winter (Su): A xixecal always stands at the center of a permanent dire winter (epic spell) spell effect. If dispelled, the effect returns 1 minute later-- the only way to permanently remove the effect is to slay the xixecal that generates it.\nRegeneration(Ex): Xixecals take normal damage from Lawful weapons, and double damage from burning or fiery weapons.\nBEHEMOTH\n| Behemoth Eagle | Behemoth Gorilla |\n| Colossal Outsider (Extraplanar) | Huge Outsider (Extraplanar) |\nHit Dice: | 21d8+126 (220 hp) | 21d8+252 (366 hp) |\nInitiative: | +20 (+12 Dex, +8 Superior Initiative) | +12 (+8 Dex, +4 Improved Initiative) |\nSpeed: | 20 ft., fly 160 ft. (poor) | 60 ft., climb 30 ft. |\nAC: | 24 (+12 Dex, -8 size, +10 natural) | 38 (+8 Dex, -2 size, +22 natural) |\nBase Attack/Grapple: | +21/+44 | +21/+39 |\nAttack: | Claw +25 (5d10+7) melee | Claw +29 (4d8+10) melee |\nFull Attack: | 2 claws +25 (5d10+7) melee, bite +20 (4d12+3) melee | 2 claws +29 (4d8+10) melee, bite +24 (3d10+5) melee |\nSpace/Reach: | 30ft./20 ft. | 20 ft./20 ft. |\nSpecial Attacks: | -- | Rend 8d8+20 |\nSpecial Qualities: | Evasion, SR 30 | Scent, SR 30 |\nSaves: | Fort +18, Ref +24, Will +16 | Fort +24, Ref +20, Will +16 |\nAbilities: | Str 25, Dex 34, Con 23 Int 17, Wis 19, Cha 16 | Str 31, Dex 26, Con 35 Int 6, Wis 15, Cha 12 |\nSkills: | Diplomacy +27, Jump +3, Knowledge (geography, history, nature, religion, the planes) +27, Listen +30, Search +27, Sense Motive +28, Spot +41, Survival +28 | Balance +32, Climb +42, Intimidate +25, Jump +34, Move Silently +32, Spot +26 |\nFeats: | Alertness, Endurance, Flyby Attack, Improved Initiative, Iron Will, Skill Focus (spot), Weapon Finesse | Dodge, Endurance, Improved Initiative, Iron Will, Mobility, Power Attack, Spring Attack |\nEpic Feats: | Superior Initiative | Epic Toughness |\nClimate/Terrain: | Any forest, hill, mountains, and plains | Warm forest and warm mountains |\nOrganization: | Solitary or pair | Solitary or company (5-8) |\nChallenge Rating: | 18 | 19 |\nTreasure: | None | None |\nAlignment: | Always neutral | Always neutral |\nAdvancement: | 21-42 HD (Colossal) | 22-42 HD (Huge) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::011_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::013_behemoth_eagle"
+}

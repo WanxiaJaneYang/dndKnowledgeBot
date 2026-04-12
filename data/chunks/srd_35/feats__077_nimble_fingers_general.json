@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::077_nimble_fingers_general",
+  "document_id": "srd_35::feats::077_nimble_fingers_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "NIMBLE FINGERS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#077_nimble_fingers_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Disable Device checks and Open Lock checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::076_negotiator_general",
+  "next_chunk_id": "chunk::srd_35::feats::078_persuasive_general"
+}

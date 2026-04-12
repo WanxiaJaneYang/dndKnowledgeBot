@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::012_damage_effect",
+  "document_id": "srd_35::traps::012_damage_effect",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Damage/Effect"
+    ],
+    "source_location": "Traps.rtf#012_damage_effect"
+  },
+  "chunk_type": "subsection",
+  "content": "The effect of a trap is what happens to those who spring it. Usually this takes the form of either damage or a spell effect, but some traps have special effects.\nPits: Falling into a pit deals 1d6 points of damage per 10 feet of depth.\nRanged Attack Traps: These traps deal whatever damage their ammunition normally would. If a trap is constructed with a high strength rating, it has a corresponding bonus on damage.\nMelee Attack Traps: These traps deal the same damage as the melee weapons they \u201cwield.\u201d In the case of a falling stone block, you can assign any amount of bludgeoning damage you like, but remember that whoever resets the trap has to lift that stone back into place.\nA melee attack trap can be constructed with a built-in bonus on damage rolls, just as if the trap itself had a high Strength score.\nSpell Traps: Spell traps produce the spell's effect. Like all spells, a spell trap that allows a saving throw has a save DC of 10 + spell level + caster's relevant ability modifier.\nMagic Device Traps: These traps produce the effects of any spells included in their construction, as described in the appropriate entries. If the spell in a magic device trap allows a saving throw, its save DC is 10 + spell level x \uf0201.5. Some spells make attack rolls instead.\nSpecial: Some traps have miscellaneous features that produce special effects, such as drowning for a water trap or ability damage for poison. Saving throws and damage depend on the poison or are set by the builder, as appropriate.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::011_attack_bonus_saving_throw_dc",
+  "next_chunk_id": "chunk::srd_35::traps::013_miscellaneous_trap_features"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::004_adept_spell_list",
+  "document_id": "srd_35::npcclasses::004_adept_spell_list",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Adept Spell List"
+    ],
+    "source_location": "NPCClasses.rtf#004_adept_spell_list"
+  },
+  "chunk_type": "subsection",
+  "content": "Adepts choose their spells from the following list.\n0 Level: create water, cure minor wounds, detect magic, ghost sound, guidance, light, mending, purify food and drink, read magic, touch of fatigue.\n1st Level: bless, burning hands, cause fear, command, comprehend languages, cure light wounds, detect chaos, detect evil, detect good, detect law, endure elements, obscuring mist, protection from chaos, protection from evil, protection from good, protection from law, sleep.\n2nd Level: aid, animal trance, bear's endurance, bull's strength, cat's grace, cure moderate wounds, darkness, delay poison, invisibility, mirror image, resist energy, scorching ray, see invisibility, web.\n3rd Level: animate dead, bestow curse, contagion, continual flame, cure serious wounds, daylight, deeper darkness, lightning bolt, neutralize poison, remove curse, remove disease, tongues.\n4th Level: cure critical wounds, minor creation, polymorph, restoration, stoneskin, wall of fire.\n5th Level: baleful polymorph, break enchantment, commune, heal, major creation, raise dead, true seeing, wall of stone.\nARISTOCRAT\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::003_class_features",
+  "next_chunk_id": "chunk::srd_35::npcclasses::005_class_skills"
+}

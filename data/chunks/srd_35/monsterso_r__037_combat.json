@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::037_combat",
+  "document_id": "srd_35::monsterso_r::037_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#037_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Rasts paralyze as many of their foes as possible, then attack any that are still moving. A rast can claw or bite, but cannot do both during the same round.\nParalyzing Gaze (Su): Paralysis for 1d6 rounds, 30 feet, Fortitude DC 13 negates. The save DC is Charisma-based.\nImproved Grab (Ex): To use this ability, a rast must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nBlood Drain (Ex): A rast drains blood from a grabbed opponent, dealing 1 point of Constitution damage each round it maintains the hold.\nFlight (Su): A rast can cease or resume flight as a free action. A rast that loses this ability falls and can perform only a single action (either a move action or an attack action) each round.\n\nHit Dice: | 3d8+3 (16 hp) |\nInitiative: | +4 |\nSpeed: | 20 ft. (4 squares), fly 60 ft. (perfect) |\nArmor Class: | 25 (+15 natural), touch 10, flat-footed 25 |\nBase Attack/Grapple: | +3/+4 |\nAttack: | Tail slap +4 melee (1d6+1 plus positive energy) or tail touch +4 melee touch (positive energy) |\nFull Attack: | Tail slap +4 melee (1d6+1 plus positive energy) and claw +2 melee (1d4 plus positive energy); or tail touch +4 melee touch (positive energy) and claw touch +2 melee touch (positive energy) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Positive energy lash, animate objects |\nSpecial Qualities: | Darkvision 60 ft., flight, immunity to fire |\nSaves: | Fort +4, Ref +3, Will +4 |\nAbilities: | Str 13, Dex 10, Con 13, Int 7, Wis 12, Cha 14 |\nSkills: | Escape Artist +6, Hide +6, Listen +7, Move Silently +6, Spot +7, Survival +7, Use Rope +0 (+2 with bindings) |\nFeats: | Improved Initiative, Multiattack |\nEnvironment: | Positive Energy Plane |\nOrganization: | Solitary (1 plus at least 1 animated object) |\nChallenge Rating: | 5 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 4 HD (Medium); 5-9 HD (Large) |\nLevel Adjustment: | -- |\nRavids are creatures from the Positive Energy Plane. These bizarre entities imbue creatures with energy by their touch and animate lifeless objects around them. Ravids that make their way to the Material Plane wander about aimlessly, followed by the objects to which they have given life.\nA ravid is about 7 feet long and weighs about 75 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::036_rakshasas_as_characters",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::038_combat"
+}

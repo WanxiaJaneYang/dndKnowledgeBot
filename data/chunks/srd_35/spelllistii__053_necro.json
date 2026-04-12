@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::053_necro",
+  "document_id": "srd_35::spelllistii::053_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#053_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Clone M F: Duplicate awakens when original dies.\nCreate Greater Undead M: Create shadows, wraiths, spectres, or devourers.\nHorrid Wilting: Deals 1d6/level damage within 30 ft.\nSymbol of Death M: Triggered rune slays nearby creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::052_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::054_trans"
+}

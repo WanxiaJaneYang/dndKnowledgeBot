@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::020_power_points_7",
+  "document_id": "srd_35::psionicpowersg_p::020_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#020_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "You create a skin-tight psychokinetic barrier around yourself that resists blows, cuts, stabs, and slashes, as well as providing some protection against falling. You gain damage reduction 5/-. Inertial barrier also absorbs half the damage you take from any fall.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::019_psychokinesis",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::021_display_mental"
+}

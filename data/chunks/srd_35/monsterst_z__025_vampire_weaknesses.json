@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::025_vampire_weaknesses",
+  "document_id": "srd_35::monsterst_z::025_vampire_weaknesses",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "Vampire Weaknesses"
+    ],
+    "source_location": "MonstersT-Z.rtf#025_vampire_weaknesses"
+  },
+  "chunk_type": "subsection",
+  "content": "For all their power, vampires have a number of weaknesses.\nRepelling a Vampire: Vampires cannot tolerate the strong odor of garlic and will not enter an area laced with it. Similarly, they recoil from a mirror or a strongly presented holy symbol. These things don't harm the vampire--they merely keep it at bay. A recoiling vampire must stay at least 5 feet away from a creature holding the mirror or holy symbol and cannot touch or make melee attacks against the creature holding the item for the rest of the encounter. Holding a vampire at bay takes a standard action.\nVampires are also unable to cross running water, although they can be carried over it while resting in their coffins or aboard a ship.\nThey are utterly unable to enter a home or other building unless invited in by someone with the authority to do so. They may freely enter public places, since these are by definition open to all.\nSlaying a Vampire: Reducing a vampire's hit points to 0 or lower incapacitates it but doesn't always destroy it (see the note on fast healing). However, certain attacks can slay vampires. Exposing any vampire to direct sunlight disorients it: It can take only a single move action or attack action and is destroyed utterly in the next round if it cannot escape. Similarly, immersing a vampire in running water robs it of one-third of its hit points each round until it is destroyed at the end of the third round of immersion. Driving a wooden stake through a vampire's heart instantly slays the monster. However, it returns to life if the stake is removed, unless the body is destroyed. A popular tactic is to cut off the creature's head and fill its mouth with holy wafers (or their equivalent).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::024_creating_a_vampire",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::026_vampire_characters"
+}

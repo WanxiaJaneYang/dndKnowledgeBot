@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::022_incorporeality",
+  "document_id": "srd_35::abilitiesandconditions::022_incorporeality",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "INCORPOREALITY"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#022_incorporeality"
+  },
+  "chunk_type": "subsection",
+  "content": "Spectres, wraiths, and a few other creatures lack physical bodies. Such creatures are insubstantial and can't be touched by nonmagical matter or energy. Likewise, they cannot manipulate objects or exert physical force on objects. However, incorporeal beings have a tangible presence that sometimes seems like a physical attack against a corporeal creature.\nIncorporeal creatures are present on the same plane as the characters, and characters have some chance to affect them.\nIncorporeal creatures can be harmed only by other incorporeal creatures, by magic weapons, or by spells, spell-like effects, or supernatural effects. They are immune to all nonmagical attack forms. They are not burned by normal fires, affected by natural cold, or harmed by mundane acids.\nEven when struck by magic or magic weapons, an incorporeal creature has a 50% chance to ignore any damage from a corporeal source--except for a force effect or damage dealt by a ghost touch weapon.\nIncorporeal creatures are immune to critical hits, extra damage from being favored enemies, and from sneak attacks. They move in any direction (including up or down) at will. They do not need to walk on the ground. They can pass through solid objects at will, although they cannot see when their eyes are within solid matter.\nIncorporeal creatures hiding inside solid objects get a +2 circumstance bonus on Listen checks, because solid objects carry sound well. Pinpointing an opponent from inside a solid object uses the same rules as pinpointing invisible opponents (see Invisibility, below).\nIncorporeal creatures are inaudible unless they decide to make noise.\nThe physical attacks of incorporeal creatures ignore material armor, even magic armor, unless it is made of force (such as mage armor or bracers of armor) or has the ghost touch ability.\nIncorporeal creatures pass through and operate in water as easily as they do in air.\nIncorporeal creatures cannot fall or take falling damage.\nCorporeal creatures cannot trip or grapple incorporeal creatures.\nIncorporeal creatures have no weight and do not set off traps that are triggered by weight.\nIncorporeal creatures do not leave footprints, have no scent, and make no noise unless they manifest, and even then they only make noise intentionally.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::021_gaze_attacks",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::023_invisibility"
+}

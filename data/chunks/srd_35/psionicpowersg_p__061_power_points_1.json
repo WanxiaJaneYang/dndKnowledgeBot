@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::061_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::061_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#061_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You forge a telepathic bond with your target. You can communicate telepathically through the bond even if you do not share a common language. No special power or influence is established as a result of the bond. Once the bond is formed, it works over any distance (although not from one plane to another).\nAugment: You can augment this power in one or both of the following ways.\n1. If you spend 4 additional power points, you can attempt to create a telepathic bond with a creature that is not willing (Will save negates).\n2. For every additional power point you spend, this power can affect an additional target. Any additional target cannot be more than 15 feet from another target of the power.\nMindlink, Thieving\nTelepathy [Mind-Affecting]\nLevel: Telepath 4\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::060_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::062_power_points_7"
+}

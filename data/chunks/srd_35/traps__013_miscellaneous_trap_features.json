@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::013_miscellaneous_trap_features",
+  "document_id": "srd_35::traps::013_miscellaneous_trap_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "Miscellaneous Trap Features"
+    ],
+    "source_location": "Traps.rtf#013_miscellaneous_trap_features"
+  },
+  "chunk_type": "subsection",
+  "content": "Some traps include optional features that can make them considerably more deadly. The most common such features are discussed below.\nAlchemical Item: Mechanical traps may incorporate alchemical devices or other special substances or items, such as tanglefoot bags, alchemist's fire, thunderstones, and the like. Some such items mimic spell effects. If the item mimics a spell effect, it increases the CR as shown on Table: CR Modifiers for Mechanical Traps.\nGas: With a gas trap, the danger is in the inhaled poison it delivers. Traps employing gas usually have the never miss and onset delay features (see below).\nLiquid: Any trap that involves a danger of drowning is in this category. Traps employing liquid usually have the never miss and onset delay features (see below).\nMultiple Target: Traps with this feature can affect more than one character.\nNever Miss: When the entire dungeon wall moves to crush you, your quick reflexes won't help, since the wall can't possibly miss. A trap with this feature has neither an attack bonus nor a saving throw to avoid, but it does have an onset delay (see below). Most traps involving liquid or gas are of the never miss variety.\nOnset Delay: An onset delay is the amount of time between when the trap is sprung and when it deals damage. A never miss trap always has an onset delay.\nPoison: Traps that employ poison are deadlier than their nonpoisonous counterparts, so they have correspondingly higher CRs. To determine the CR modifier for a given poison, consult Table: CR Modifiers for Mechanical Traps. Only injury, contact, and inhaled poisons are suitable for traps; ingested types are not. Some traps simply deal the poison's damage. Others deal damage with ranged or melee attacks as well.\nPit Spikes: Treat spikes at the bottom of a pit as daggers, each with a +10 attack bonus. The damage bonus for each spike is +1 per 10 feet of pit depth (to a maximum of +5). Each character who falls into the pit is attacked by 1d4 spikes. Pit spikes do not add to the average damage of the trap (see Average Damage, below).\nPit Bottom: If something other than spikes waits at the bottom of a pit, it's best to treat that as a separate trap (see Multiple Traps, below) with a location trigger that activates on any significant impact, such as a falling character.\nTouch Attack: This feature applies to any trap that needs only a successful touch attack (melee or ranged) to hit.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::012_damage_effect",
+  "next_chunk_id": "chunk::srd_35::traps::014_sample_traps"
+}

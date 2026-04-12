@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::009_hag_eye",
+  "document_id": "srd_35::monstersh_i::009_hag_eye",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Hag Eye"
+    ],
+    "source_location": "MonstersH-I.rtf#009_hag_eye"
+  },
+  "chunk_type": "subsection",
+  "content": "A hag eye is a magic gem created by a covey. It appears to be nothing more than a semiprecious stone, but a gem of seeing or other such effect reveals it as a disembodied eye. Often, a hag eye is worn as a ring, brooch, or other adornment. Any of the three hags who created the hag eye can see through it whenever they wish, so long as it is on the same plane of existence as the hag. A hag eye has hardness 5 and 10 hit points. Destroying a hag eye deals 1d10 points of damage to each member of the covey and causes the one who sustained the greatest damage to be blinded for 24 hours.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::008_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::010_half_celestial"
+}

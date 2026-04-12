@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::013_armor_proficiency_light_general",
+  "document_id": "srd_35::feats::013_armor_proficiency_light_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "ARMOR PROFICIENCY (LIGHT) [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#013_armor_proficiency_light_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, and Tumble checks.\nNormal: A character who is wearing armor with which she is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving, including Ride.\nSpecial: All characters except wizards, sorcerers, and monks automatically have Armor Proficiency (light) as a bonus feat. They need not select it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::012_armor_proficiency_heavy_general",
+  "next_chunk_id": "chunk::srd_35::feats::014_armor_proficiency_medium_general"
+}

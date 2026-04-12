@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::027_combat",
+  "document_id": "srd_35::monsterss::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In close combat, gynosphinxes use their powerful claws to flay the flesh from their enemies. Despite their deadly nature, they prefer to avoid combat whenever possible.\nRake (Ex): Attack bonus +11 melee, damage 1d6+2.\nSpell-Like Abilities: 3/day--clairaudience/clairvoyance, detect magic, read magic, see invisibility; 1/day--comprehend languages, locate object, dispel magic, remove curse (DC 18), legend lore. Caster level 14th. The save DC is Charisma-based.\nOnce per week a gynosphinx can create a symbol of death, a symbol of fear, a symbol of insanity, a symbol of pain, a symbol of persuasion, a symbol of sleep, and a symbol of stunning as the spells (caster level 18th), except that all save DCs are 22 and each symbol remains a maximum of one week once scribed. The save DCs are Charisma-based.\nHIERACOSPHINX\n| Large Magical Beast |\nHit Dice: | 9d10+18 (67 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), fly 90 ft. (poor) |\nArmor Class: | 19 (-1 size, +2 Dex, +8 natural), touch 11, flat-footed 17 |\nBase Attack/Grapple: | +9/+18 |\nAttack: | Bite +13 melee (1d10+5) |\nFull Attack: | Bite +13 melee (1d10+5) and 2 claws +8 melee (1d6+2) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Pounce, rake 1d6+2 |\nSpecial Qualities: | Darkvision 60 ft., lowlight vision |\nSaves: | Fort +8, Ref +8, Will +5 |\nAbilities: | Str 21, Dex 14, Con 15, Int 6, Wis 15, Cha 10 |\nSkills: | Listen +10, Spot +14 |\nFeats: | Alertness, Cleave, Flyby Attack, Power Attack |\nEnvironment: | Warm deserts |\nOrganization: | Solitary, pair, or flock (4-7) |\nChallenge Rating: | 5 |\nTreasure: | None |\nAlignment: | Always chaotic evil |\nAdvancement: | 10-14 HD (Large); 15-27 HD (Huge) |\nLevel Adjustment: | +3 (cohort) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::026_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::028_combat"
+}

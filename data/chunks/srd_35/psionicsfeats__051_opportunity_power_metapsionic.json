@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::051_opportunity_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::051_opportunity_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "OPPORTUNITY POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#051_opportunity_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can make power-enhanced attacks of opportunity.\nBenefit: To use this feat, you must expend your psionic focus. When you make an attack of opportunity, you can use any power you know with a range of touch, if you have at least one hand free.\nManifesting this power is an immediate action.\nYou cannot use this feat with a touch power whose manifesting time is longer than 1 full-round action.\nUsing this feat increases the power point cost of the power by 6. The power's total cost cannot exceed your manifester level.\nNormal: Attacks of opportunity can be made only with melee weapons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::050_open_minded_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::052_overchannel_psionic"
+}

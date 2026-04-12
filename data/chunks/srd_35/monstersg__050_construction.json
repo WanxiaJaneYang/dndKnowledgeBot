@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::050_construction",
+  "document_id": "srd_35::monstersg::050_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "CONSTRUCTION"
+    ],
+    "source_location": "MonstersG.rtf#050_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "The cost to create given for each golem includes the cost of the physical body and all the materials and spell components that are consumed or become a permanent part of the golem. Creating a golem is essentially similar to creating any sort of magic item. However, a golem's body includes costly material components that may require some extra preparation. The golem's creator can assemble the body or hire someone else to do the job. The builder must have the appropriate skill, which varies with the golem variety.\nCompleting the golem's creation drains the appropriate XP from the creator and requires casting any spells on the final day.\nThe creator must cast the spells personally, but they can come from outside sources, such as scrolls.\nThe characteristics of a golem that come from its nature as a magic item (caster level, prerequisite feats and spells, market price, cost to create) are given in summary form at the end of each golem's description.\nNote: The market price of an advanced golem (a golem with more Hit Dice than the typical golem described in each entry) is increased by 5,000 gp for each additional Hit Die, and increased by an additional 50,000 gp if the golem's size increases. The XP cost for creating an advanced golem is equal to 1/25 the advanced golem's market price minus the cost of the special materials required.\n\nHit Dice: | 11d10+30 (90 hp) |\nInitiative: | -1 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 22 (-1 size, -1 Dex, +14 natural), touch 8, flat-footed 22 |\nBase Attack/Grapple: | +8/+19 |\nAttack: | Slam +14 melee (2d10+7 plus cursed wound) |\nFull Attack: | 2 slams +14 melee (2d10+7 plus cursed wound) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Berserk, cursed wound |\nSpecial Qualities: | Construct traits, damage reduction 10/adamantine and bludgeoning, darkvision 60 ft., haste, immunity to magic, low-light vision |\nSaves: | Fort +3, Ref +2, Will +3 |\nAbilities: | Str 25, Dex 9, Con --, Int --, Wis 11, Cha 1 |\nSkills: | -- |\nFeats: | -- |\nEnvironment: | Any |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 10 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 12-18 HD (Large); 19-33 HD (Huge) |\nLevel Adjustment: | -- |\nThis golem has a humanoid body made from clay. A clay golem wears no clothing except for a metal or stiff leather garment around its hips.\nA clay golem golem cannot speak or make any vocal noise. It walks and moves with a slow, clumsy gait. It weighs around 600 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::049_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::051_combat"
+}

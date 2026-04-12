@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::046_class_skills",
+  "document_id": "srd_35::prestigeclasses::046_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "PrestigeClasses.rtf#046_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The mystic theurge's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Decipher Script (Int), Knowledge (arcana) (Int), Knowledge (religion) (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Mystic Theurge |\nLevel | Base",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::045_requirements",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::047_attack"
+}

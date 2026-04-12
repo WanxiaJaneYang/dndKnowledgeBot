@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::075_power_points_1",
+  "document_id": "srd_35::psionicpowersa_c::075_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#075_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "By manipulating the ambient light level, you can decrease or increase the illumination of an area. The change in illumination can be gradual (taking as long as 1 minute) or sudden (occurring immediately when you manifest this power). You can alter the level of illumination from its original level at any time during the power's duration.\nDecrease: You can decrease the illumination of an area by as little as 5% (barely perceptible) or as much as 100% (total darkness). If you decrease the light by 50% or more, the visual ability of creatures that depend on light to see declines accordingly.If you decrease the ambient light in an area by 100%, even those with lowlight vision are unable to see within the affected area. For each 25% decrease in ambient light, characters in the area gain a cumulative +1 circumstance bonus on Hide checks (to a maximum of +4 when all the light is gone).\nIncrease: You can increase the illumination of an area by as little as 5% (barely perceptible) or as much as 100%. If you increase the light by 50% or more, the visual ability of creatures that depend on light to see improves accordingly.\nYou can use this power to increase the illumination of an area by 200% (improving visual abilities accordingly), but in such a case the power's duration is only 1 round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::074_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::076_display_material"
+}

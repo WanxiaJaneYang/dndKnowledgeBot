@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::063_improved_turning_general",
+  "document_id": "srd_35::feats::063_improved_turning_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED TURNING [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#063_improved_turning_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ability to turn or rebuke creatures.\nBenefit: You turn or rebuke creatures as if you were one level higher than you are in the class that grants you the ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::062_improved_trip_general",
+  "next_chunk_id": "chunk::srd_35::feats::064_improved_two_weapon_fighting_general"
+}

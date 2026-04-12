@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::011_combat",
+  "document_id": "srd_35::monstersk_l::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "Combat"
+    ],
+    "source_location": "MonstersK-L.rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Leonals like their battles as straightforward as can be. They begin with a roar to put their foes off balance, then follow up with a frenzy of claw and bite attacks. They closely coordinate with others in their pride, watching one another's flanks and setting up devastating attacks.\nA leonal's natural weapons, as well as any weapons it wields, are treated as good-aligned for the purpose of overcoming damage reduction.\nRoar (Su): A leonal can roar up to three times per day. Each roar releases a blast in a 60-foot cone that duplicates the effects of a holy word spell and deals an extra 2d6 points of sonic damage (Fortitude DC 20 negates). The save DC is Charisma-based.\nPounce (Ex): If a leonal charges a foe, it can make a full attack, including two rake attacks.\nImproved Grab (Ex): To use this ability, a leonal must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can rake.\nRake (Ex): Attack bonus +20 melee, damage 1d6+8.\nSpell-Like Abilities: At will--detect thoughts, fireball (DC 15), hold monster (DC 17), polymorph, wall of force; 3/day--cure critical wounds (DC 16), neutralize poison, remove disease; 1/day--heal (DC 18). Caster level 10th. The save DCs are Charisma-based.\nLay on Hands (Su): As the paladin class feature, except that each day, a leonal can heal an amount of damage equal to its full normal hit points.\nProtective Aura (Su): Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the leonal. Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level equals leonal's HD). (The defensive benefits from the circle are not included in a leonal's statistics block.)\nSpeak with Animals (Su): This ability works like speak with animals (caster level 8th) but is a free action and does not require sound.\nSkills: Leonals have a +4 racial bonus on Balance, Hide, and Move Silently checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::010_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::012_lich"
+}

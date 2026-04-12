@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::053_trickery_domain",
+  "document_id": "srd_35::spelllisti::053_trickery_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "TRICKERY DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#053_trickery_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Add Bluff, Disguise, and Hide to your list of cleric class skills.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::052_travel_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::054_trickery_domain_spells"
+}

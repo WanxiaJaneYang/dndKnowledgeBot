@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::016_combat",
+  "document_id": "srd_35::epicmonsters_g_w::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Air Walk (Su): A hoary steed can ride through the air as well as on the ground, as though affected by a permanent air walk spell.\nAstral Projection and Etherealness (Su): These abilities function just like the spells of the same names as cast by a 20th-level caster.\nMagic Circle Against Good (Su): This ability continuously duplicates the effects of the spell. A hoary steed cannot suppress this ability.\nMisty Breath (Su): The breath of a hoary steed functions like a constant obscuring mist spell.\nImmunities (Ex): A hoary steed is immune to all charm and hold spells or abilities.\n\nHit Dice: | 50d12+3 (603 hp) |\nInitiative: | +16 (+12 Dex, +4 Improved Initiative) |\nSpeed: | 100 ft. |\nAC: | 52 (+12 Dex, +20 natural, +10 insight) |\nBase Attack/Grapple: | +25/+43 |\nAttack: | Slam +44 (3d6+18/19-20 (+1d6 on critical hit) plus hunefer rot) |\nFull Attack: | 2 slams +44 (3d6+18/19-20 (+1d6 on critical hit) plus hunefer rot) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Despair, hunefer rot, spell-like abilities |\nSpecial Qualities: | Blindsight 300 ft., DR 10/-, fast healing 30, SR 37, undead traits, fire vulnerability |\nSaves: | Fort +18, Ref +30, Will +41 |\nAbilities: | Str 47, Dex 35, Con -, Int 18, Wis 38, Cha 36 |\nSkills: | Concentration +66, Jump +46, Knowledge (religion, the planes) +57, Listen +67, Search +57, Sense Motive +67, Spellcraft +57, Spot +67 |\nFeats: | Cleave, Combat Reflexes, Dodge, Expertise, Great Cleave, Great Fortitude, Improved Critical (slam), Improved Disarm, Improved Initiative, Lightning Reflexes, Mobility, Power Attack, Toughness, Weapon Focus (slam) |\nEpic Feats: | Devastating Critical (slam), Overwhelming Critical (slam), Spell Stowaway (greater teleport) |\nClimate/Terrain: | Any |\nOrganization: | Solitary, pair, or court (5-9) |\nChallenge Rating: | 25 |\nTreasure: | Standard |\nAlignment: | Always lawful evil |\nAdvancement: | 51-56 HD (Medium-size); 57-60 HD (Large); 61-66 HD (Huge); 67-70 HD (Gargantuan); 71+ HD (Colossal) |\nHunefers speak all spoken languages, though it takes one 1d4 rounds to switch between languages.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::015_hoary_steed",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::017_combat"
+}

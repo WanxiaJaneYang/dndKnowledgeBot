@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::032_lycanthrope_werewolf_lord",
+  "document_id": "srd_35::monstersk_l::032_lycanthrope_werewolf_lord",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "LYCANTHROPE, WEREWOLF LORD"
+    ],
+    "source_location": "MonstersK-L.rtf#032_lycanthrope_werewolf_lord"
+  },
+  "chunk_type": "subsection",
+  "content": "| Werewolf Lord, Human Form | Werewolf Lord, Dire Wolf Form | Werewolf Lord, Hybrid Form |\n| Medium Humanoid | Large Humanoid | Large Humanoid |\n| (Human, Shapechanger) | (Human, Shapechanger) | (Human, Shapechanger) |\nHit Dice: | 10d10+20 plus 6d8+30 (132 hp) | 10d10+20 plus 6d8+30 (132 hp) | 10d10+20 plus 6d8+30 (132 hp) |\nInitiative: | +2 | +4 | +4 |\nSpeed : | 30 ft. (6 squares) | 40 ft. (8 squares) | 30 ft. (6 squares) |\nArmor Class: | 26 (+2 Dex, +3 natural, +6 +2 mithral chain shirt, +5 +3 heavy shield) touch 12, flat-footed 24 | 19 (-1 size, +4 Dex, +6 natural), touch 13, flat-footed 15 | 19 (-1 size, +4 Dex, +6 natural), touch 13, flat-footed 15 |\nBase Attack/Grapple: | +14/+18 | +14/+29 | +14/+27 |\nAttack: | +2 bastard sword +21 melee (1d10+8/17-20) or masterwork composite longbow (+4 Str bonus) (2d8+15/17-20) +17 ranged (1d8+4/\u00d73) | Bite +25 melee (2d6+16/19-20) | Claw +24 melee (1d6+11) or +2 bastard sword +27 melee |\nFull Attack: | +2 bastard sword +21/+16/+11 melee (1d10+8/17-20) or masterwork composite longbow (+4 Str bonus) +17/+12/+7ranged (1d8+4/\u00d73) | Bite +25 melee (2d6+16/19-20) | 2 claws +24 melee (1d6+11) and bite +20 melee (2d6+5/19-20); or +2 bastard sword +27/+22/+17 melee (2d8+15/17-20) and bite +20 melee (2d6+5/19-20) |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./5 ft. | 10 ft./10 ft. |\nSpecial Attacks: | -- | Curse of lycanthropy, trip | Curse of lycanthropy |\nSpecial Qualities: | Alternate form, wolf empathy, low-light vision, scent | Alternate form, wolf empathy, damage reduction 10/silver, low-light vision, scent | Alternate form, wolf empathy, damage reduction 10/silver, low-light vision, scent |\nSaves: | Fort +16, Ref +12, Will +13 | Fort +17, Ref +12, Will +11 | Fort +17, Ref +12, Will +11 |\nAbilities: | Str 18, Dex 14, Con 14 Int 10, Wis 12, Cha 12 | Str 32, Dex 18, Con 20 Int 10, Wis 12, Cha 12 | Str 32, Dex 18, Con 20 Int 10, Wis 12, Cha 12 |\nSkills: | Handle Animal +4, Hide +6, Listen +9, Move Silently +8, Spot +13, Survival +5 | Handle Animal +4, Hide +6, Listen +9, Move Silently +12, Spot +13, Survival +5* | Handle Animal +4, Hide +6, Listen +9, Move Silently +12, Spot +13, Survival +5* |\nFeats: | Alertness, Cleave, Combat Reflexes, Exotic Weapon Proficiency (bastard Sword), Improved Critical (bastard sword), Improved Critical (bite), Improved Natural Armor, Improved Natural Attack (bite), Iron WillB, Power Attack, Run, Stealthy, TrackB, Weapon Focus (bastard sword), Weapon Focus (bite), Weapon Specialization (bastard sword) | (same as human form) | (same as human form) |\nEnvironment: | Temperate forests | Temperate forests | Temperate forests |\nOrganization: | Solitary, pair, or pack (1-2 werewolf lords plus 2-4 werewolves plus 5-8 wolves) | (same as human form) | (same as human form) |\nChallenge Rating: | 14 | 14 | 14 |\nTreasure: | Standard | Standard | Standard |\nAlignment: | Always chaotic evil | Always chaotic evil | Always chaotic evil |\nAdvancement: | By character class | By character class | By character class |\nLevel Adjustment: | +3 | +3 | +3 |\nStronger, hardier, and more deadly than its lesser fellows, the werewolf lord is a murderous beast that delights in wreaking havoc.\nThe werewolf lord presented here is a 10th-level human fighter and natural lycanthrope, using the following base ability scores: Str 16, Dex 14, Con 14, Int 10, Wis 10, Cha 12.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::031_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::033_combat"
+}

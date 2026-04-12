@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsiii::006_ring_of_elemental_command_air",
+  "document_id": "srd_35::magicitemsiii::006_ring_of_elemental_command_air",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsIII",
+      "Ring of Elemental Command (Air)"
+    ],
+    "source_location": "MagicItemsIII.rtf#006_ring_of_elemental_command_air"
+  },
+  "chunk_type": "subsection",
+  "content": "Feather fall (unlimited use, wearer only)\nResist energy (electricity) (unlimited use, wearer only)\nGust of wind (twice per day)\nWind wall (unlimited use)\nAir walk (once per day, wearer only)\nChain lightning (once per week)\nThe ring appears to be a ring of feather falling until a certain condition is met to activate its full potential. It must be reactivated each time a new wearer acquires it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsiii::005_ring_descriptions",
+  "next_chunk_id": "chunk::srd_35::magicitemsiii::007_ring_of_elemental_command_earth"
+}

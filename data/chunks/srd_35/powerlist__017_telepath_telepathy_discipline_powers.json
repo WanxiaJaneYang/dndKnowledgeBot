@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::017_telepath_telepathy_discipline_powers",
+  "document_id": "srd_35::powerlist::017_telepath_telepathy_discipline_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "TELEPATH (TELEPATHY) DISCIPLINE POWERS"
+    ],
+    "source_location": "PowerList.rtf#017_telepath_telepathy_discipline_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Charm, PsionicA: Makes one person your friend.\nMindlinkA: You forge a limited mental bond with another creature.\n2 AversionA: Subject has aversion you specify.\nBrain LockA: Subject cannot move or take any mental actions.\nRead Thoughts: Detect surface thoughts of creatures in range.\nSuggestion, Psionic: Compels subject to follow stated course of action.\n3 Crisis of BreathA: Disrupt subject's breathing.\nEmpathic Transfer, HostileA: Your touch transfers your hurt to another.\nFalse Sensory InputA: Subject sees what isn't there.\n4 Dominate, PsionicA: Control target telepathically.\nMindlink, ThievingA: Borrow knowledge of a subject's power.\nModify Memory, Psionic: Changes 5 minutes of subject's memories.\nSchism: Your partitioned mind can manifest lower level powers.\n5\tMetaconcertA: Mental concert of two or more increases the total power of the participants.\nMind Probe: You discover the subject's secret thoughts.\n6 Mind SwitchA, X: You switch minds with another.\n7 Crisis of LifeA: Stop subject's heart.\n8 Mind SeedX: Subject slowly becomes you.\n9 Mind Switch, TrueX: A permanent brain swap.\nPsychic ChirurgeryX: You repair psychic damage or impart knowledge of new powers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::016_shaper_metacreativity_discipline_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::018_1st_level_psychic_warrior_powers"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::031_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::031_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#031_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The high proselytizer's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (arcana) (Int), Knowledge (religion) (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The High Proselytizer\nLevel | Special | Spells per Day |\n1st | Proselytize 1/day | |\n2nd | Heal 1/day | +1 level of divine spellcasting class |\n3rd | Proselytize (deific touch) 1/day | |\n4th | Bonus feat | +1 level of divine spellcasting class |\n5th | Proselytize (deific word) 1/day | |\n6th | Heal 2/day | +1 level of divine spellcasting class |\n7th | Proselytize (deific face) 1/day | |\n8th | Bonus feat | +1 level of divine spellcasting class |\n9th | Proselytize (deific aura) 1/day | |\n10th | Heal 3/day | +1 level of divine spellcasting class |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::030_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::032_class_features"
+}

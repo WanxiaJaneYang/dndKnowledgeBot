@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsiv::006_wand_descriptions",
+  "document_id": "srd_35::magicitemsiv::006_wand_descriptions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsIV",
+      "Wand Descriptions"
+    ],
+    "source_location": "MagicItemsIV.rtf#006_wand_descriptions"
+  },
+  "chunk_type": "subsection",
+  "content": "All wands are simply storage devices for spells and thus have no special descriptions. Refer to the spell descriptions for all pertinent details.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsiv::005_wands"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::040_gnolls_as_characters",
+  "document_id": "srd_35::monstersg::040_gnolls_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GNOLLS AS CHARACTERS"
+    ],
+    "source_location": "MonstersG.rtf#040_gnolls_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Gnoll characters possess the following racial traits.\n--Strength +4, Constitution +2, Intelligence -2, Charisma -2.\n--Size Medium.\n--A gnoll's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Racial Hit Dice: A gnoll begins with two levels of humanoid, which provide 2d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.\n--Racial Skills: A gnoll's humanoid levels give it skill points equal to 5 x\uf020(2 + Int modifier). Its class skills are Listen and Spot.\n--Racial Feats: A gnoll's humanoid levels give it one feat.\n-- +1 natural armor bonus.\n--Automatic Languages: Gnoll. Bonus Languages: Common, Draconic, Elven, Goblin, Orc.\n--Favored Class: Ranger.\n--Level adjustment +1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::039_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::041_gnome"
+}

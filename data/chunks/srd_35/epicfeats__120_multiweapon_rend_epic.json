@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::120_multiweapon_rend_epic",
+  "document_id": "srd_35::epicfeats::120_multiweapon_rend_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MULTIWEAPON REND [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#120_multiweapon_rend_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 15, base attack bonus +9, three or more hands, Multiweapon Fighting.\nBenefit: If the character hits an opponent with two or more weapons (wielded in different hands) in the same round, he or she may automatically rend the opponent. This rending deals additional damage equal to the base damage of the smallest weapon that hit plus 1 1/2 times the character's Strength modifier. The character can only rend once per round, regardless of how many successful attacks he or she makes.\nSpecial: This feat replaces the Two-Weapon Rend feat for creatures with more than two arms.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::119_multispell_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::121_music_of_the_gods_epic"
+}

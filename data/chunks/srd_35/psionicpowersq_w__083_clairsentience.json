@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::083_clairsentience",
+  "document_id": "srd_35::psionicpowersq_w::083_clairsentience",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Clairsentience"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#083_clairsentience"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 3, psychic warrior 3\nDisplay: Visual\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::082_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::084_power_points_5"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::032_cease_concentration_on_spell",
+  "document_id": "srd_35::combati::032_cease_concentration_on_spell",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Cease Concentration on Spell"
+    ],
+    "source_location": "CombatI.rtf#032_cease_concentration_on_spell"
+  },
+  "chunk_type": "subsection",
+  "content": "You can stop concentrating on an active spell as a free action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::031_speak",
+  "next_chunk_id": "chunk::srd_35::combati::033_cast_a_quickened_spell"
+}

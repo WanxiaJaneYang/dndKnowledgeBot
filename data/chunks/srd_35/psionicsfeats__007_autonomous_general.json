@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::007_autonomous_general",
+  "document_id": "srd_35::psionicsfeats::007_autonomous_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "AUTONOMOUS [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#007_autonomous_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You have a knack for psionic self-sufficiency.\nBenefit: You get a +2 bonus on all Autohypnosis checks and Knowledge (psionics) checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::006_antipsionic_magic_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::008_body_fuel_psionic"
+}

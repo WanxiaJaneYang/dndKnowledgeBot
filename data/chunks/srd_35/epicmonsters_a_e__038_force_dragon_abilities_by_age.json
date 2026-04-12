@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::038_force_dragon_abilities_by_age",
+  "document_id": "srd_35::epicmonsters_a_e::038_force_dragon_abilities_by_age",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Force Dragon Abilities by Age"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#038_force_dragon_abilities_by_age"
+  },
+  "chunk_type": "subsection",
+  "content": "Age | Speed | Initiative | AC | Special Abilities | Caster Level | SR |\nWyrmling | 60 ft., fly 250 ft. (poor) | +0 | 31 (-2 size, +4 deflection, +19 natural), touch 12, flat-footed 31 | Damage reduction 10/magic, deflecting force, immune to force | 3rd | 24 |\nVery young | 60 ft., fly 250 ft. (poor) | +0 | 38 (-2 size, +6 deflection, +24 natural), touch 14, flat-footed 38 | | 6th | 27 |\nYoung | 60 ft., fly 300 ft. (clumsy) | +0 | 43 (-4 size, +8 deflection, +29 natural), touch 14, flat-footed 43 | Damage reduction 15/magic | 9th | 30 |\nJuvenile | 60 ft., fly 300 ft. (clumsy) | +0 | 50 (-4 size, +10 deflection, +34 natural), touch 16, flat-footed 50 | resilient sphere, blur | 12th | 33 |\nYoung adult | 60 ft., fly 300 ft. (clumsy) | +0 | 57 (-4 size, +12 deflection, +39 natural), touch 18, flat-footed 57 | Damage reduction 15/epic | 15th | 36 |\nAdult | 60 ft., fly 300 ft. (clumsy) | +0 | 64 (-4 size, +14 deflection, +44 natural), touch 20, flat-footed 64 | Wall of force | 18th | 39 |\nMature adult | 60 ft., fly 300 ft. (clumsy) | +0 | 67 (-8 size, +16 deflection, +49 natural), touch 18, flat-footed 67 | Damage reduction 20/epic | 21st | 42 |\nOld | 60 ft., fly 300 ft. (clumsy) | +0 | 74 (-8 size, +18 deflection, +54 natural), touch 20, flat-footed 74 | Forcecage, displacement | 24th | 45 |\nVery old | 60 ft., fly 300 ft. (clumsy) | +0 | 81 (-8 size, +20 deflection, +59 natural), touch 22, flat-footed 81 | Damage reduction 25/epic | 27th | 48 |\nAncient | 60 ft., fly 300 ft. (clumsy) | +0 | 88 (-8 size, +22 deflection, +64 natural), touch 24, flat-footed 88 | Maze | 30th | 51 |\nWyrm | 60 ft., fly 350 ft. (clumsy) | +0 | 95 (-8 size, +24 deflection, +69 natural), touch 26, flat-footed 95 | | 33rd | 54 |\nGreat wyrm | 60 ft., fly 350 ft. (clumsy) | +0 | 102 (-8 size, +26 deflection, +74 natural), touch 28, flat-footed 102 | telekinetic sphere, invisibility | 36th | 57 |\nA force dragon's natural weapons are treated as magic (wyrmling - juvenile) or epic (young adult - great wyrm) for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::037_dragon_force",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::039_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::011_helpless_defenders",
+  "document_id": "srd_35::combatii::011_helpless_defenders",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "HELPLESS DEFENDERS"
+    ],
+    "source_location": "CombatII.rtf#011_helpless_defenders"
+  },
+  "chunk_type": "subsection",
+  "content": "A helpless opponent is someone who is bound, sleeping, paralyzed, unconscious, or otherwise at your mercy.\nRegular Attack: A helpless character takes a -4 penalty to AC against melee attacks, but no penalty to AC against ranged attacks.\nA helpless defender can't use any Dexterity bonus to AC. In fact, his Dexterity score is treated as if it were 0 and his Dexterity modifier to AC as if it were -5 (and a rogue can sneak attack him).\nCoup de Grace: As a full-round action, you can use a melee weapon to deliver a coup de grace to a helpless opponent. You can also use a bow or crossbow, provided you are adjacent to the target.\nYou automatically hit and score a critical hit. If the defender survives the damage, he must make a Fortitude save (DC 10 + damage dealt) or die. A rogue also gets her extra sneak attack damage against a helpless opponent when delivering a coup de grace.\nDelivering a coup de grace provokes attacks of opportunity from threatening opponents.\nYou can't deliver a coup de grace against a creature that is immune to critical hits. You can deliver a coup de grace against a creature with total concealment, but doing this requires two consecutive full-round actions (one to \u201cfind\u201d the creature once you've determined what square it's in, and one to deliver the coup de grace).\nSPECIAL ATTACKS\nTable: Special Attacks |\nSpecial Attack | Brief Description |\nAid another | Grant an ally a +2 bonus on attacks or AC |\nBull rush | Push an opponent back 5 feet or more |\nCharge | Move up to twice your speed and attack with +2 bonus |\nDisarm | Knock a weapon from your opponent's hands |\nFeint | Negate your opponent's Dex bonus to AC |\nGrapple | Wrestle with an opponent |\nOverrun | Plow past or over an opponent as you move |\nSunder | Strike an opponent's weapon or shield |\nThrow splash weapon | Throw container of dangerous liquid at target |\nTrip | Trip an opponent |\nTurn (rebuke) undead | Channel positive (or negative) energy to turn away (or awe) undead |\nTwo-weapon fighting | Fight with a weapon in each hand |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::010_flanking",
+  "next_chunk_id": "chunk::srd_35::combatii::012_aid_another"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::110_reach_spell_metamagic",
+  "document_id": "srd_35::divineabilitiesandfeats::110_reach_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "REACH SPELL [METAMAGIC]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#110_reach_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You may cast a spell that normally has a range of touch at any distance up to 30 feet. The spell effectively becomes a ray, so you must succeed at a ranged touch attack to bestow the spell upon the recipient. A reach spell uses up a spell slot two levels higher than the spell's actual level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::109_power_critical_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::111_repeat_spell_metamagic"
+}

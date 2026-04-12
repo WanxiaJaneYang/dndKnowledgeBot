@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::028_vampire_spawn_weaknesses",
+  "document_id": "srd_35::monsterst_z::028_vampire_spawn_weaknesses",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "VAMPIRE SPAWN WEAKNESSES"
+    ],
+    "source_location": "MonstersT-Z.rtf#028_vampire_spawn_weaknesses"
+  },
+  "chunk_type": "subsection",
+  "content": "Vampire spawn are vulnerable to all attacks and effects that repel or slay vampires. For details, see the Vampire entry.\n\nHit Dice: | 1d8+1 (5 hp) |\nInitiative: | +1 |\nSpeed: | Fly 30 ft. (good) (6 squares) |\nArmor Class: | 12 (+1 size, +1 Dex), touch 11, flat-footed 11 |\nBase Attack/Grapple: | +1/-3 |\nAttack: | Bite +3 melee (1d4 plus poison) |\nFull Attack: | Bite +3 melee (1d4 plus poison) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Shriek, kiss, poison |\nSpecial Qualities: | Darkvision 60 ft. |\nSaves: | Fort +3, Ref +3, Will +3 |\nAbilities: | Str 10, Dex 13, Con 12, Int 5, Wis 12, Cha 8 |\nSkills: | Hide +9, Intimidate +3, Listen +5, Move Silently +5, Spot +5 |\nFeats: | Weapon Finesse |\nEnvironment: | An evil-aligned plane |\nOrganization: | Cluster (2-5) or mob (6-11) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always neutral evil |\nAdvancement: | 2-3 HD (Small) |\nLevel Adjustment: | -- |\nA vargouille is slightly larger than a human head, about 18 inches high, with a wingspan of 4 feet. It weighs about 10 pounds.\nVargouilles speak Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::027_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::029_combat"
+}

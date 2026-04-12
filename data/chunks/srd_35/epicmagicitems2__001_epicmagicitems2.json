@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::001_epicmagicitems2",
+  "document_id": "srd_35::epicmagicitems2::001_epicmagicitems2",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "EpicMagicItems2"
+    ],
+    "source_location": "EpicMagicItems2.rtf#001_epicmagicitems2"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::002_scrolls"
+}

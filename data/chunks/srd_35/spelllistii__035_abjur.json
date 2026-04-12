@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::035_abjur",
+  "document_id": "srd_35::spelllistii::035_abjur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Abjur"
+    ],
+    "source_location": "SpellListII.rtf#035_abjur"
+  },
+  "chunk_type": "subsection",
+  "content": "Dimensional Anchor: Bars extradimensional movement.\nFire Trap M: Opened object deals 1d4 damage +1/level.\nGlobe of Invulnerability, Lesser: Stops 1st- through 3rd-level spell effects.\nRemove Curse: Frees object or person from curse.\nStoneskin M: Ignore 10 points of damage per attack.\n\nBlack Tentacles: Tentacles grapple all within 20 ft. spread.\nDimension Door: Teleports you short distance.\nMinor Creation: Creates one cloth or wood object.\nSecure Shelter: Creates sturdy cottage.\nSolid Fog: Blocks vision and slows movement.\nSummon Monster IV: Calls extraplanar creature to fight for you.\n\nArcane Eye: Invisible floating eye moves 30 ft./round.\nDetect Scrying: Alerts you of magical eavesdropping.\nLocate Creature: Indicates direction to familiar creature.\nScrying F: Spies on subject from a distance.\n\nCharm Monster:Makes monster believe it is your ally.\nConfusion: Subjects behave oddly for 1 round/level.\nCrushing Despair: Subjects take -2 on attack rolls, damage rolls, saves, and checks.\nGeas, Lesser: Commands subject of 7 HD or less.\n\nFire Shield: Creatures attacking you take fire damage; you're protected from heat or cold.\nIce Storm: Hail deals 5d6 damage in cylinder 40 ft. across.\nResilient Sphere: Force globe protects but traps one subject.\nShout: Deafens all within cone and deals 5d6 sonic damage.\nWall of Fire: Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.\nWall of Ice: Ice plane creates wall with 15 hp +1/level, or hemisphere can trap creatures inside.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::034_trans",
+  "next_chunk_id": "chunk::srd_35::spelllistii::036_illus"
+}

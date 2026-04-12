@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::016_construction",
+  "document_id": "srd_35::monsterss::016_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "CONSTRUCTION"
+    ],
+    "source_location": "MonstersS.rtf#016_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "A shield guardian is built from wood, bronze, stone, and steel. The materials cost 5,000 gp.\nThe creature's master may assemble the body or hire someone else to do the job. Creating the body requires a DC 16 Craft (blacksmithing) or Craft (carpentry) check. The keyed amulet is fashioned at the same time, and its cost (20,000 gp) is included in the cost of the guardian. After the body is sculpted, the shield guardian is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist's laboratory and costing 500 gp to establish. If the creator is personally constructing the creature's body, the building and the ritual can be performed together. A shield guardian with more than 15 Hit Dice can be created, but each additional Hit Die adds +5,000 gp to the market price, and the price increases by +20,000 gp if the creature's size increases to Huge, modifying the cost to create accordingly.\nCL 15th; Craft Construct, limited wish, discern location, shield, shield other, caster must be at least 15th level; Price 120,000 gp; Cost 65,000 gp + 4,600 XP.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::015_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::017_amulet"
+}

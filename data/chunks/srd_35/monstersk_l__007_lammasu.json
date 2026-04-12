@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::007_lammasu",
+  "document_id": "srd_35::monstersk_l::007_lammasu",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "LAMMASU"
+    ],
+    "source_location": "MonstersK-L.rtf#007_lammasu"
+  },
+  "chunk_type": "subsection",
+  "content": "| Lammasu | Golden Protector (Celestial Half-Dragon Lammasu) |\n| Large Magical Beast | Large Dragon |\nHit Dice: | 7d10+21 (59 hp) | 10d12+60 (125 hp) |\nInitiative: | +1 | +3 |\nSpeed: | 30 ft. (6 squares), fly 60 ft.(average) | 30 ft. (6 squares), fly 60 ft.(average) |\nArmor Class: | 20 (-1 size, +1 Dex, +10 natural), touch 10, flat-footed 19 | 29 (-1 size, +3 Dex, +14 natural, +2 bracers of armor +2, +1 ring of protection +1), touch 13, flat-footed 26 |\nBase Attack/Grapple: | +7/+17 | +10/+23 |\nAttack: | Claw +12 melee (1d6+6) | Claw +19 melee (1d6+9) |\nFull Attack: | 2 claws +12 melee (1d6+6) | Claw +19 melee (1d6+9) and bite +13 melee (1d8+4) |\nSpace/Reach: | 10 ft./5 ft. | 10 ft./5 ft. |\nSpecial Attacks: | Pounce, rake 1d6+3, spells | Breath weapon, pounce, smite evil, rake 1d6+4, spells |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, magic circle against evil, spell-like abilities | Damage reduction 5/magic, darkvision 60 ft., immunity to fire, sleep, and paralysis, low-light vision, magic circle against evil, resistance to acid 10, cold 10, and electricity 10, spell-like abilities, spell resistance 15 |\nSaves: | Fort +8, Ref +8, Will +7 | Fort +13, Ref +12, Will +10 |\nAbilities: | Str 23, Dex 12, Con 17, Int 16, Wis 17, Cha 14 | Str 28, Dex 17, Con 22, Int 18, Wis 20, Cha 18 |\nSkills: | Concentration +13, Diplomacy +4, Knowledge (arcana) +13, Listen +13, Sense Motive +13, Spot +15 | Concentration +19, Diplomacy +19, Knowledge (arcana) +17, Knowledge (the planes) +17, Listen +18, Search +17, Sense Motive +18, Spellcraft +19, Spot +20, Survival +18 (+20 other planes and tracking) |\nFeats: | Blind-Fight, Iron Will, Lightning Reflexes | Blind-Fight, Iron Will, Lightning Reflexes, Weapon Focus (claw) |\nEnvironment: | Temperate deserts | A lawful good plane |\nOrganization: | Solitary | Solitary |\nChallenge Rating: | 8 | 13 |\nTreasure: | Standard | Standard |\nAlignment: | Always lawful good | Always lawful good |\nAdvancement: | 8-10 HD (Large); 11-21 HD (Huge) | 11-30 HD (Huge) |\nLevel Adjustment: | +5 | +10 |\nA typical lammasu is about 8 feet long and weighs about 500 pounds. Lammasus speak Common, Draconic, and Celestial.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::006_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::008_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::004_1st_level_bard_spells",
+  "document_id": "srd_35::spelllisti::004_1st_level_bard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "1ST-LEVEL BARD SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#004_1st_level_bard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Alarm: Wards an area for 2 hours/level.\nAnimate Rope: Makes a rope move at your command.\nCause Fear: One creature of 5 HD or less flees for 1d4 rounds.\nCharm Person: Makes one person your friend.\nComprehend Languages: You understand all spoken and written languages.\nCure Light Wounds: Cures 1d8 damage +1/level (max +5).\nDetect Secret Doors: Reveals hidden doors within 60 ft.\nDisguise Self: Changes your appearance.\nErase: Mundane or magical writing vanishes.\nExpeditious Retreat: Your speed increases by 30 ft.\nFeather Fall: Objects or creatures fall slowly.\nGrease: Makes 10-ft. square or one object slippery.\nHideous Laughter: Subject loses actions for 1 round/ level.\nHypnotism: Fascinates 2d4 HD of creatures.\nIdentify M: Determines properties of magic item.\nLesser Confusion: One creature is confused for 1 round.\nMagic Mouth M: Speaks once when triggered.\nMagic Aura: Alters object's magic aura.\nObscure Object: Masks object against scrying.\nRemove Fear: Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.\nSilent Image: Creates minor illusion of your design.\nSleep: Puts 4 HD of creatures into magical slumber.\nSummon Monster I: Calls extraplanar creature to fight for you.\nUndetectable Alignment: Conceals alignment for 24 hours.\nUnseen Servant: Invisible force obeys your commands.\nVentriloquism: Throws voice for 1 min./level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::003_0_level_bard_spells_cantrips",
+  "next_chunk_id": "chunk::srd_35::spelllisti::005_2nd_level_bard_spells"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::026_vampire_characters",
+  "document_id": "srd_35::monsterst_z::026_vampire_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "Vampire Characters"
+    ],
+    "source_location": "MonstersT-Z.rtf#026_vampire_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Vampires are always evil, which causes characters of certain classes to lose some class abilities. In addition, certain classes take additional penalties.\nClerics: Vampire clerics lose their ability to turn undead but gain the ability to rebuke undead. This ability does not affect the vampire's controller or any other vampires that a master controls. A vampire cleric has access to two of the following domains: Chaos, Destruction, Evil, or Trickery.\nSorcerers and Wizards: Vampire sorcerers and wizards retain their class abilities, but if a character has a familiar other than a rat or bat, the link between them is broken, and the familiar shuns its former companion. The character can summon another familiar, but it must be a rat or bat.\n\nHit Dice: | 4d12+3 (29 hp) |\nInitiative: | +6 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+2 Dex, +3 natural), touch 12, flat-footed 13 |\nBase Attack/Grapple: | +2/+5 |\nAttack: | Slam +5 melee (1d6+4 plus energy drain) |\nFull Attack: | Slam +5 melee (1d6+4 plus energy drain) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Blood drain, domination, energy drain |\nSpecial Qualities: | +2 turn resistance, damage reduction 5/silver, darkvision 60 ft., fast healing 2, gaseous form, resistance to cold 10 and electricity 10, spider climb, undead traits |\nSaves: | Fort +1, Ref +5, Will +5 |\nAbilities: | Str 16, Dex 14, Con --, Int 13, Wis 13, Cha 14 |\nSkills: | Bluff +6, Climb +8, Craft or Profession (any one) +4, Diplomacy +4, Hide +10, Jump +8, Listen +11, Move Silently +10, Search +8, Sense Motive +11, Spot +11 |\nFeats: | AlertnessB, Improved InitiativeB, Lightning ReflexesB, Skill Focus (selected Craft or Profession skill), Toughness |\nEnvironment: | Any |\nOrganization: | Solitary or pack (2-5) |\nChallenge Rating: | 4 |\nTreasure: | Standard |\nAlignment: | Always evil (any) |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nVampire spawn are undead creatures that come into being when vampires slay mortals. Like their creators, spawn remain bound to their coffins and to the soil of their graves. Vampire spawn appear much as they did in life, although their features are often hardened, with a predatory look.\nVampire spawn speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::025_vampire_weaknesses",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::027_combat"
+}

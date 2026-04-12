@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::055_psicrystal_affinity_psionic",
+  "document_id": "srd_35::psionicsfeats::055_psicrystal_affinity_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSICRYSTAL AFFINITY [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#055_psicrystal_affinity_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You have created a psicrystal.\nPrerequisites: Manifester level 1st.\nBenefit: This feat allows you to gain a psicrystal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::054_power_specialization_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::056_psicrystal_containment_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::043_combat",
+  "document_id": "srd_35::psionicmonsters::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Mind Feed (Ex): A phthisic that hits with its bite attack deals 1d4 points of Intelligence damage. If this effect reduces the opponent's Intelligence score to 0, the ability damage becomes ability drain.\nPsi-Like Abilities: 3/day--brain lock (affects animals, fey, giants, humanoids, magical beasts, and monstrous humanoids, DC 15*), dimension slide, ego whip (1d4, DC 15*), mental barrier, mind thrust (ML 4th, 4d10, DC 15*), skate; 1/day--body adjustment (heal 1d12*), catapsi (DC 18). Manifester level 6th. The save DCs are Charisma-based.\n*Includes augmentation for the phthisic's manifester level.\nRegeneration (Ex): Fire and acid deal normal damage to a phthisic.\n\nHit Dice: | As master's HD (hp 1/2 master's) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), climb 20 ft.* |\nArmor Class: | 16 (+4 size, +2 Dex*), touch 16, flatfooted 14 |\nBase Attack/Grapple: | +0/-17 |\nAttack: | -- |\nFull Attack: | -- |\nSpace/Reach: | 1 ft./0 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Construct traits, hardness 8, psicrystal granted abilities (improved evasion, personality, self-propulsion, share powers, sighted, telepathic link) |\nSaves: | As master's saves |\nAbilities: | Str 1*, Dex 15*, Con --, Int 6, Wis 10, Cha 10 |\nSkills: | Climb +14*, Listen +6, Move Silently +6, Search +2, Spot +6 |\nFeats: | Alertness |\nEnvironment: | Any |\nOrganization: | Solitary |\nChallenge Rating: | Included with master |\nTreasure: | None |\nAlignment: | As master |\nAdvancement: | -- |\nLevel Adjustment: | -- |\n*With self-propulsion ability activated. |\nThe psicrystal described here is that of a 1st-level manifester.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::042_creating_a_phrenic_creature",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::044_combat"
+}

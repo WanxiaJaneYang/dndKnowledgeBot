@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::029_stabilize_self",
+  "document_id": "srd_35::epicskills::029_stabilize_self",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Stabilize Self"
+    ],
+    "source_location": "EpicSkills.rtf#029_stabilize_self"
+  },
+  "chunk_type": "subsection",
+  "content": "Mortal wounds are less lethal for the character.\nDC | Task |\n30 | If reduced to negative hit points but not dead, make a Stabilize Self check. If successful, the character does not go unconscious and can continue taking actions until he or she bleeds to death or stabilizes (the character can also continue making stabilization checks). If healed or stabilized, the character continues to take actions normally. |\n60 | On a successful Stabilize Self check, the character gains damage reduction 2/-. The damage reduction lasts for 12 hours. The character cannot check for damage reduction more than once per day. Damage reduction gained through Stabilize Self does not stack with damage reduction gained through any other source. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::028_autohypnosis",
+  "next_chunk_id": "chunk::srd_35::epicskills::030_miscellaneous"
+}

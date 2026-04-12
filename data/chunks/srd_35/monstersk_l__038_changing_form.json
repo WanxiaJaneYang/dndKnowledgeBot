@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::038_changing_form",
+  "document_id": "srd_35::monstersk_l::038_changing_form",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "Changing Form"
+    ],
+    "source_location": "MonstersK-L.rtf#038_changing_form"
+  },
+  "chunk_type": "subsection",
+  "content": "Changing form is a standard action. If the change is involuntary, the character performs the change on his next turn following the triggering event. Changing to animal or hybrid form ruins the character's armor and clothing (including any items worn) if the new form is larger than the character's natural form; carried items are simply dropped. Characters can hastily doff clothing while changing, but not armor. Magic armor survives the change if it succeeds on a DC 15 Fortitude save. An afflicted character who is not aware of his condition remains in animal form until the next dawn. An afflicted character who is aware of his or her condition (see above) can try to resume humanoid form following a change (voluntary or involuntary) with a Control Shape check, but if he fails his check, he remains in animal (or hybrid) form until the following dawn.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::037_lycanthropy_as_an_affliction",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::039_curing_lycanthropy"
+}

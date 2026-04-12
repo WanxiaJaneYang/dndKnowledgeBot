@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::085_rapid_shot_general",
+  "document_id": "srd_35::feats::085_rapid_shot_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "RAPID SHOT [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#085_rapid_shot_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 13, Point Blank Shot.\nBenefit: You can get one extra attack per round with a ranged weapon. The attack is at your highest base attack bonus, but each attack you make in that round (the extra one and the normal ones) takes a -2 penalty. You must use the full attack action to use this feat.\nSpecial: A fighter may select Rapid Shot as one of his fighter bonus feats.\nA 2nd-level ranger who has chosen the archery combat style is treated as having Rapid Shot, even if he does not have the prerequisites for it, but only when he is wearing light or no armor.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::084_rapid_reload_general",
+  "next_chunk_id": "chunk::srd_35::feats::086_ride_by_attack_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::047_arrowhawk",
+  "document_id": "srd_35::monstersintro_a::047_arrowhawk",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "ARROWHAWK"
+    ],
+    "source_location": "MonstersIntro-A.rtf#047_arrowhawk"
+  },
+  "chunk_type": "subsection",
+  "content": "| Juvenile Arrowhawk | Adult Arrowhawk | Elder Arrowhawk |\n| Small Outsider (Air, Extraplanar) | Medium Outsider (Air, Extraplanar) | Large Outsider (Air, Extraplanar) |\nHit Dice: | 3d8+3 (16 hp) | 7d8+7 (38 hp) | 15d8+45 (112 hp) |\nInitiative: | +5 | +5 | +5 |\nSpeed: | Fly 60 ft. (perfect) (12 squares) | Fly 60 ft. (perfect) (12 squares) | Fly 60 ft. (perfect) (12 squares) |\nArmor Class: | 20 (+1 size, +5 Dex, +4 natural), touch 16, flat-footed 15 | 21 (+5 Dex, +6 natural), touch 15, flat-footed 16 | 22 (-1 size, +5 Dex, +8 natural), touch 14, flat-footed 17 |\nBase Attack/Grapple: | +3/+0 | +7/+9 | +15/+25 |\nAttack: | Electricity ray +9 ranged touch (2d6) or bite +9 melee (1d6+1) | Electricity ray +12 ranged touch (2d8) or bite +12 melee (1d8+3) | Electricity ray +19 ranged touch (2d8) or bite +21 melee (2d6+9) |\nFull Attack: | Electricity ray +9 ranged touch (2d6) or bite +9 melee (1d6+1) | Electricity ray +12 ranged touch (2d8) or bite +12 melee (1d8+3) | Electricity ray +19 ranged touch (2d8) or bite +20 melee (2d6+9) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. | 10 ft./5 ft. |\nSpecial Attacks: | Electricity ray | Electricity ray | Electricity ray |\nSpecial Qualities: | Darkvision 60 ft., immunity to acid, electricity, and poison, resistance to cold 10 and fire 10 | Darkvision 60 ft., immunity to acid, electricity, and poison, resistance to cold 10 and fire 10 | Darkvision 60 ft., immunity to acid, electricity, and poison, resistance to cold 10 and fire 10 |\nSaves: | Fort +4, Ref +8, Will +4 | Fort +6, Ref +10, Will +6 | Fort +12, Ref +14, Will +10 |\nAbilities: | Str 12, Dex 21, Con 12, Int 10, Wis 13, Cha 13 | Str 14, Dex 21, Con 12, Int 10, Wis 13, Cha 13 | Str 22, Dex 21, Con 16, Int 10, Wis 13, Cha 13 |\nSkills: | Diplomacy +3, Escape Artist +11, Knowledge (the planes) +6, Listen +7, Move Silently +11, Search +6, Sense Motive +7, Spot +7, Survival +7 (+9 following tracks, +9 Plane of Air), Use Rope +5 (+7 with bindings) | Diplomacy +3, Escape Artist +15, Knowledge (the planes) +10, Listen +11, Move Silently +15, Search +10, Sense Motive +11, Spot +11, Survival +11 (+13 following tracks, +13 Plane of Air), Use Rope +5 (+7 with bindings) | Diplomacy +3, Escape Artist +23, Knowledge (the planes) +18, Listen +21, Move Silently +23, Search +18, Sense Motive +19, Spot +21, Survival +19 (+21 following tracks, +21 Plane of Air), Use Rope +5 (+7 involving bindings) |\nFeats: | Dodge, Weapon Finesse | Dodge, Flyby Attack, Weapon Finesse | Alertness, Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Weapon Finesse, Weapon Focus (bite)B |\nEnvironment | Elemental Plane of Air | Elemental Plane of Air | Elemental Plane of Air |\nOrganization: | Solitary or clutch (2-4) | Solitary or clutch (2-4) | Solitary or clutch (2-4) |\nChallenge Rating: | 3 | 5 | 8 |\nTreasure: | None | None | None |\nAlignment: | Always neutral | Always neutral | Always neutral |\nAdvancement: | 4-6 HD (Small) | 8-14 HD (Medium) | 16-24 HD (Large); 25-32 HD (Gargantuan) |\nLevel Adjustment: | -- | -- | -- |\nAn arrowhawk is a predator and scavenger from the Elemental Plane of Air. By twisting its body and varying the cadence of its wingbeats, an arrowhawk can fly at top speed in any direction. A juvenile arrowhawk (1 to 10 years old) is about 5 feet long from beak to tail, with the body accounting for about one-third of that length. Its wingspan is about 7 feet, and it weighs about 20 pounds. An adult (11 to 40 years old) is about 10 feet long from beak to tail, with a wingspan of about 15 feet and a weight of about 100 pounds. An elder arrowhawk (41 to 75 years old) is about 20 feet long with a wingspan of 30 feet and a weight of about 800 pounds.\nArrowhawks speak Auran, but they are not usually talkative creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::046_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::048_combat"
+}

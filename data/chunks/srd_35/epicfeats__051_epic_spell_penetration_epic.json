@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::051_epic_spell_penetration_epic",
+  "document_id": "srd_35::epicfeats::051_epic_spell_penetration_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC SPELL PENETRATION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#051_epic_spell_penetration_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Greater Spell Penetration, Spell Penetration.\nBenefit: The character gets a +2 bonus on caster level checks to beat a creature's spell resistance. This stacks with the bonuses from Spell Penetration and Greater Spell Penetration.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::050_epic_spell_focus_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::052_epic_spellcasting_epic"
+}

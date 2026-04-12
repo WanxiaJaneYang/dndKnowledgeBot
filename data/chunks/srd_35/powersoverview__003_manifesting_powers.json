@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::003_manifesting_powers",
+  "document_id": "srd_35::powersoverview::003_manifesting_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "MANIFESTING POWERS"
+    ],
+    "source_location": "PowersOverview.rtf#003_manifesting_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic characters and creatures manifest powers. Whether they cost power points when manifest by a psionic character, or are manifested as psi-like abilities, powers' effects remain the same. The process of manifesting a power is akin to casting a spell, but with significant differences.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::002_psionic_powers_overview",
+  "next_chunk_id": "chunk::srd_35::powersoverview::004_choosing_a_power"
+}

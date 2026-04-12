@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicskills::005_knowledge_psionics_int",
+  "document_id": "srd_35::psionicskills::005_knowledge_psionics_int",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSkills",
+      "KNOWLEDGE (PSIONICS) (INT)"
+    ],
+    "source_location": "PsionicSkills.rtf#005_knowledge_psionics_int"
+  },
+  "chunk_type": "subsection",
+  "content": "Like the Craft and Profession skills, Knowledge actually encompasses a number of unrelated skills. This entry specifically relates to the body of lore dealing with the phenomena of psionics in all its many manifestations.\nKnowledge (psionics) covers ancient mysteries, psionic traditions, psychic symbols, cryptic phrases, astral constructs, and psionic races. You can use this skill to identify psionic monsters and their special powers or vulnerabilities.\nSynergy: If you have 5 or more ranks in Knowledge (psionics), you get a +2 bonus on Psicraft checks.\nIf you have 5 or more ranks in Autohypnosis, you get a +2 bonus on Knowledge (psionics) checks.\nUntrained: An untrained Knowledge (psionics) check is simply an Intelligence check. Without actual training, you know only common knowledge (DC 10 or lower).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicskills::004_concentration_con",
+  "next_chunk_id": "chunk::srd_35::psionicskills::006_psicraft_int_trained_only"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::018_1st_level_psychic_warrior_powers",
+  "document_id": "srd_35::powerlist::018_1st_level_psychic_warrior_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "1ST-LEVEL PSYCHIC WARRIOR POWERS"
+    ],
+    "source_location": "PowerList.rtf#018_1st_level_psychic_warrior_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Astral Traveler: Enable yourself or another to join an astral caravan-enabled trip.\nBiofeedbackA: Gain DR 2/-.\nBite of the Wolf: Gain bite attack for 1d8 damage.\nBurst: Gain +10ft. to speed this round.\nCall WeaponryA: Create temporary weapon.\nCatfallA: Instantly save yourself from a fall.\nChameleon: Gain +10 enhancement bonus on Hide checks.\nClaws of the BeastA: Your hands become deadly claws.\nCompressionA: You grow smaller.\nConceal Thoughts: You conceal your motives.\nDetect Psionics: You detect the presence of psionics.\nDissipating TouchA: Touch deals 1d6 damage.\nDistract: Subject gets -4 on Listen, Search, Sense Motive, and Spot checks.\nElfsight: Gain low-light vision, +2 bonus on Search and Spot checks, and notice secret doors.\nEmpty Mind: Gain +2 on Will saves until your next action.\nExpansionA: Become one size category larger.\nFloatA: Buoy yourself in water or other liquid.\nForce ScreenA: Invisible disc provides +4 shield bonus to AC.\nGrip of IronA: Your iron grip gives +4 bonus on grapple checks.\nHammerA: Melee touch attack deals 1d8/round.\nInertial ArmorA: Tangible field of force provides you with +4 armor bonus to AC.\nMetaphysical ClawA: Your natural weapon gains +1 bonus.\nMetaphysical WeaponA: Weapon gains +1 bonus.\nMy LightA: Your eyes emit 20-ft. cone of light.\nPrecognition, DefensiveA: Gain +1 insight bonus to AC and saving throws.\nPrecognition, OffensiveA: Gain +1 insight bonus on your attack rolls.\nPrescience, OffensiveA: Gain +2 insight bonus on your damage rolls.\nPrevenomA: Your claws gain a poison coating.\nPrevenom WeaponA: Your weapon is mildly venomous.\nSkate: Subject slides skillfully along the ground.\nStompA: Subjects fall prone and take 1d4 nonlethal damage.\nSynesthete: You receive one kind of sense when another sense is stimulated.\nThicken SkinA: Gain +1 enhancement bonus to your AC for 10 min./level.\nVigorA: Gain 5 temporary hit points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::017_telepath_telepathy_discipline_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::019_2nd_level_psychic_warrior_powers"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::009_speed",
+  "document_id": "srd_35::combati::009_speed",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "SPEED"
+    ],
+    "source_location": "CombatI.rtf#009_speed"
+  },
+  "chunk_type": "subsection",
+  "content": "Your speed tells you how far you can move in a round and still do something, such as attack or cast a spell. Your speed depends mostly on your race and what armor you're wearing.\nDwarves, gnomes, and halflings have a speed of 20 feet (4 squares), or 15 feet (3 squares) when wearing medium or heavy armor (except for dwarves, who move 20 feet in any armor).\nHumans, elves, half-elves, and half-orcs have a speed of 30 feet (6 squares), or 20 feet (4 squares) in medium or heavy armor.\nIf you use two move actions in a round (sometimes called a \u201cdouble move\u201d action), you can move up to double your speed. If you spend the entire round to run all out, you can move up to quadruple your speed (or triple if you are in heavy armor).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::008_hit_points",
+  "next_chunk_id": "chunk::srd_35::combati::010_saving_throws"
+}

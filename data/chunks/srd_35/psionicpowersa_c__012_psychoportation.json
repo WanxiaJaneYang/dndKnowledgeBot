@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::012_psychoportation",
+  "document_id": "srd_35::psionicpowersa_c::012_psychoportation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Psychoportation"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#012_psychoportation"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 1, psychic warrior 1\nDisplay: None\nManifesting Time: 1 hour\n\nTarget: Creature touched\nDuration: See text\nSaving Throw: Will negates (harmless)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::011_power_points_15",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::013_power_points_1"
+}

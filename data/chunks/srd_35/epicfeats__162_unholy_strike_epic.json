@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::162_unholy_strike_epic",
+  "document_id": "srd_35::epicfeats::162_unholy_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "UNHOLY STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#162_unholy_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Smite good class feature, any evil alignment.\nBenefit: Any weapon the character wields is treated as an unholy weapon (it is evil-aligned and deals an extra 2d6 points of damage against creatures of good alignment). This ability doesn't stack with similar abilities. If the weapon already has an alignment, this feat has no effect on the weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::161_undead_mastery_divine_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::163_vermin_wild_shape_wild_epic"
+}

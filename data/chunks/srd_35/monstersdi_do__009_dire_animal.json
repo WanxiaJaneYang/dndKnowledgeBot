@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::009_dire_animal",
+  "document_id": "srd_35::monstersdi_do::009_dire_animal",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "DIRE ANIMAL"
+    ],
+    "source_location": "MonstersDi-Do.rtf#009_dire_animal"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire animals are larger, tougher, meaner versions of ordinary animals. Each kind tends to have a feral, prehistoric, or even demonic appearance.\n\nHit Dice: | 5d8+13 (35 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), climb 15 ft. |\nArmor Class: | 15 (-1 size, +2 Dex, +4 natural), touch 11, flat-footed 13 |\nBase Attack/Grapple: | +3/+13 |\nAttack: | Claw +8 melee (1d6+6) |\nFull Attack: | 2 claws +8 melee (1d6+6) and bite +3 melee (1d8+3) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Rend 2d6+9 |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +6, Ref +6, Will +5 |\nAbilities: | Str 22, Dex 15, Con 14, Int 2, Wis 12, Cha 7 |\nSkills: | Climb +14, Listen +5, Move Silently +4, Spot +6 |\nFeats: | Alertness, Toughness |\nEnvironment: | Warm forests |\nOrganization: | Solitary or company (5-8) |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 6-15 HD (Large) |\nLevel Adjustment: | -- |\nA dire ape stands about 9 feet tall and weighs from 800 to 1,200 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::008_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::010_combat"
+}

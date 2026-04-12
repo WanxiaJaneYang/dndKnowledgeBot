@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::110_weapon_finesse_general",
+  "document_id": "srd_35::feats::110_weapon_finesse_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "WEAPON FINESSE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#110_weapon_finesse_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Base attack bonus +1.\nBenefit: With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.\nSpecial: A fighter may select Weapon Finesse as one of his fighter bonus feats.\nNatural weapons are always considered light weapons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::109_two_weapon_fighting_general",
+  "next_chunk_id": "chunk::srd_35::feats::111_weapon_focus_general"
+}

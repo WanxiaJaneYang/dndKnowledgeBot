@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::002_magic_overview",
+  "document_id": "srd_35::magicoverview::002_magic_overview",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "MAGIC OVERVIEW"
+    ],
+    "source_location": "MagicOverview.rtf#002_magic_overview"
+  },
+  "chunk_type": "rule_section",
+  "content": "A spell is a one-time magical effect. Spells come in two types: arcane (cast by bards, sorcerers, and wizards) and divine (cast by clerics, druids, and experienced paladins and rangers). Some spellcasters select their spells from a limited list of spells known, while others have access to a wide variety of options.\nMost spellcasters prepare their spells in advance--whether from a spellbook or through devout prayers and meditation-- while some cast spells spontaneously without preparation.\nDespite these different ways that characters use to learn or prepare their spells, when it comes to casting them, the spells are very much alike.\nCutting across the categories of arcane and divine spells are the eight schools of magic. These schools represent the different ways that spells take effect.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::001_magicoverview",
+  "next_chunk_id": "chunk::srd_35::magicoverview::003_casting_spells"
+}

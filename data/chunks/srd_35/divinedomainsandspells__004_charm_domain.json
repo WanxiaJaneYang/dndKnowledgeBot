@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::004_charm_domain",
+  "document_id": "srd_35::divinedomainsandspells::004_charm_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "CHARM DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#004_charm_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: The character can boost his or her Charisma by 4 points once per day. Activating this power is a free action. The Charisma increase lasts 1 minute.\nCharm Domain Spells\n1 Charm person\n2 Calm emotions\n3 Suggestion\n4 Emotion\n5 Charm monster\n6 Geas/quest\n7 Insanity\n8 Demand\n9 Dominate monster",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::003_artifice_domain_spells",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::005_community_domain"
+}

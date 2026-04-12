@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::035_endurance_general",
+  "document_id": "srd_35::feats::035_endurance_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "ENDURANCE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#035_endurance_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage, Constitution checks made to continue running, Constitution checks made to avoid nonlethal damage from a forced march, Constitution checks made to hold your breath, Constitution checks made to avoid nonlethal damage from starvation or thirst, Fortitude saves made to avoid nonlethal damage from hot or cold environments, and Fortitude saves made to resist damage from suffocation. Also, you may sleep in light or medium armor without becoming fatigued.\nNormal: A character without this feat who sleeps in medium or heavier armor is automatically fatigued the next day.\nSpecial: A ranger automatically gains Endurance as a bonus feat at 3rd level. He need not select it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::034_empower_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::feats::036_enlarge_spell_metamagic"
+}

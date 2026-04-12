@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::019_combat",
+  "document_id": "srd_35::monstersm_n::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Minotaurs prefer melee combat, where their great strength serves them well.\nPowerful Charge (Ex): A minotaur typically begins a battle by charging at an opponent, lowering its head to bring its mighty horns into play. In addition to the normal benefits and hazards of a charge, this allows the beast to make a single gore attack with a +9 attack bonus that deals 4d6+6 points of damage.\nNatural Cunning (Ex): Although minotaurs are not especially intelligent, they possess innate cunning and logical ability. This gives them immunity to maze spells, prevents them from ever becoming lost, and enables them to track enemies. Further, they are never caught flat-footed.\nSkills: Minotaurs have a +4 racial bonus on Search, Spot, and Listen checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::018_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::020_minotaurs_as_characters"
+}

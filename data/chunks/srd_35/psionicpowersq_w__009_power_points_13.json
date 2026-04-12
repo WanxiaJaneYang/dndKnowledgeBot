@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::009_power_points_13",
+  "document_id": "srd_35::psionicpowersq_w::009_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#009_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "When you manifest reddopsi, powers targeted against you rebound to affect the original manifester. This effect reverses powers that have only you as a target (except dispel psionics and similar powers or effects). Powers that affect an area and those that produce effects can't be reversed. Reddopsi also can't reverse any power with a range of touch.\nShould you rebound a power back against a manifester who also is protected by reddopsi, the power rebounds once more upon you.\n\nDisplay: Mental and visual\nManifesting Time: 1 standard action\n\nDuration: 24 hours + 1 hour/level\nSaving Throw: Will half; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::008_power_points_15",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::010_power_points_11"
+}

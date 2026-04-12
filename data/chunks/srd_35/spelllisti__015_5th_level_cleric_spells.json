@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::015_5th_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::015_5th_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "5TH-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#015_5th_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Atonement F X: Removes burden of misdeeds from subject.\nBreak Enchantment: Frees subjects from enchantments, alterations, curses, and petrification.\nCommand, Greater: As command, but affects one subject/level.\nCommune X: Deity answers one yes-or-no question/level.\nCure Light Wounds, Mass: Cures 1d8 damage +1/level for many creatures.\nDispel Chaos/Evil/Good/Law: +4 bonus against attacks.\nDisrupting Weapon: Melee weapon destroys undead.\nFlame Strike: Smite foes with divine fire (1d6/level damage).\nHallow M: Designates location as holy.\nInflict Light Wounds, Mass: Deals 1d8 damage +1/level to many creatures.\nInsect Plague: Locust swarms attack creatures.\nMark of Justice: Designates action that will trigger curse on subject.\nPlane Shift F: As many as eight subjects travel to another plane.\nRaise Dead M: Restores life to subject who died as long as one day/level ago.\nRighteous Might: Your size increases, and you gain combat bonuses.\nScrying F: Spies on subject from a distance.\nSlay Living: Touch attack kills subject.\nSpell Resistance: Subject gains SR 12 + level.\nSummon Monster V: Calls extraplanar creature to fight for you.\nSymbol of Pain M: Triggered rune wracks nearby creatures with pain.\nSymbol of Sleep M: Triggered rune puts nearby creatures into catatonic slumber.\nTrue Seeing M: Lets you see all things as they really are.\nUnhallow M: Designates location as unholy.\nWall of Stone: Creates a stone wall that can be shaped.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::014_4th_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::016_6th_level_cleric_spells"
+}

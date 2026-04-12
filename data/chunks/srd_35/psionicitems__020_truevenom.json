@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::020_truevenom",
+  "document_id": "srd_35::psionicitems::020_truevenom",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Truevenom"
+    ],
+    "source_location": "PsionicItems.rtf#020_truevenom"
+  },
+  "chunk_type": "subsection",
+  "content": "Moderate psychometabolism; ML 9th; Craft Psicrown, claw of energy, duodimensional claw, prevenom, psionic lion's charge, truevenom; Price 33,750 gp.\nCautious Warrior: This psicrown has 450 power points. It is made from a shining iron alloy, similar to the material of a metallic shield. It allows use of the following powers.\nAdapt body\nBody adjustment\nPrecognition, defensive\nInertial barrier\nModerate psychometabolism; ML 9th; Craft Psicrown, adapt body, body adjustment, defensive precognition, inertial barrier; Price 32,063 gp.\nDiscerning Watcher: This psicrown has 450 power points. It is made from pure transparent crystal. It allows use of the following powers.\nAura sight\nClairtangent hand\nClairvoyant sense\nDarkvision, psionic\nRemote viewing\nTrue seeing, psionic\nModerate clairsentience; ML 9th; Craft Psicrown, aura sight, clairtangent hand, clairvoyant sense, psionic darkvision, psionic true seeing, remote viewing; Price 51,469 gp.\nDominator: This psicrown has 450 power points. It is made from gray iron and is shaped into an intricately fluted crown. It allows use of the following powers.\nCharm, psionic\nDominate, psionic\nSuggestion, psionic\nModerate telepathy; ML 9th; Craft Psicrown, psionic charm, psionic dominate, psionic suggestion; Price 20,250 gp.\nEvader: This psicrown has 400 power points. It is made from silk, usually dyed emerald green, with an emerald crystal affixed to the material. It allows use of the following powers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::019_psicrown_descriptions",
+  "next_chunk_id": "chunk::srd_35::psionicitems::021_hustle"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::012_skill_points_at_each_additional_level_2_int_modifier",
+  "document_id": "srd_35::epicprestigeclasses::012_skill_points_at_each_additional_level_2_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Skill Points at Each Additional Level: 2 + Int modifier"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#012_skill_points_at_each_additional_level_2_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "Spells: When an odd-numbered mystic theurge level above 10th is gained she gains new spells per day (and spells known, if applicable), as if she had gained a level in an arcane spellcasting class she belonged to previously, up to the maximum spells per day and spells known by that class. Her caster level in that class also increases by +1. When an even-numbered mystic theurge level above 10th is gained she gains new spells per day (and spells known, if applicable), as if she had gained a level in a divine spellcasting class she belonged to previously, up to the maximum spells per day and spells known by that class. Her caster level in that class also increases by +1.\nBonus Feats: The epic mystic theurge gains a bonus feat (selected from the list of epic mystic theurge feats) every 6 levels after 10th.\nEpic Mystic Theurge Bonus Feat List: Automatic Quicken Spell, Automatic Silent Spell, Automatic Still Spell, Bonus Domain, Enhance Spell, Epic Spell Focus, Epic Spell Penetration, Epic Spellcasting, Ignore Material Components, Improved Alignment-Based Casting, Improved Combat Casting, Improved Heighten Spell, Improved Metamagic, Improved Spell Capacity, Intensify Spell, Multispell, Permanent Emanation, Spell Knowledge, Spell Opportunity, Spell Stowaway, Spontaneous Domain Access, Spontaneous Spell, Tenacious Magic.\nTable: Epic Mystic Theurge\nLevel | Special |\n11th | -- |\n12th | -- |\n13th | -- |\n14th | -- |\n15th | -- |\n16th | Bonus feat |\n17th | -- |\n18th | -- |\n19th | -- |\n20th | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::011_epic_loremaster",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::013_epic_shadowdancer"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::021_search",
+  "document_id": "srd_35::epicskills::021_search",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Search"
+    ],
+    "source_location": "EpicSkills.rtf#021_search"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can sense the presence of magic in an area.\nTask | DC |\nSense magic | 60 |\nSense Magic: The character senses the presence of any active magical effects in the area being searched. The character can't determine the number, strength, or type of the effects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::020_perform",
+  "next_chunk_id": "chunk::srd_35::epicskills::022_sense_motive"
+}

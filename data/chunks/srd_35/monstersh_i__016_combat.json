@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::016_combat",
+  "document_id": "srd_35::monstersh_i::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Halflings prefer to fight defensively, usually hiding and launching ranged attacks as the foe approaches. Their tactics are very much like those of elves but place more emphasis on cover and concealment and less on mobility.\nHalfling Traits (Ex): Halflings possess the following racial traits.\n-- +2 Dexterity, -2 Strength.\n--Small size. +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, -4 penalty on grapple checks, lifting and carrying limits 3/4 those of Medium characters.\n--A halfling's base land speed is 20 feet.\n-- +2 racial bonus on Climb, Jump, and Move Silently checks.\n-- +1 racial bonus on all saving throws.\n-- +2 morale bonus on saving throws against fear. This bonus stacks with the halfling's +1 bonus on saving throws in general.\n-- +1 racial bonus on attack rolls with thrown weapons and\nslings.\n-- +2 racial bonus on Listen checks.\n--Automatic Languages: Common, Halfling. Bonus Languages: Dwarven, Elven, Gnome, Goblin, Orc.\n--Favored Class: Rogue.\nThe halfling warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::015_creating_a_half_fiend",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::017_subraces"
+}

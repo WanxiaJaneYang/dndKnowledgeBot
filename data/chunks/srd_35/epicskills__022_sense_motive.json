@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::022_sense_motive",
+  "document_id": "srd_35::epicskills::022_sense_motive",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Sense Motive"
+    ],
+    "source_location": "EpicSkills.rtf#022_sense_motive"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can discern a target's alignment and even detect surface thoughts.\nTask | DC |\nDiscern partial alignment | 60 |\nDiscern full alignment | 80 |\nDetect surface thoughts | 100 |\nDiscern Partial Alignment: This use of the skill lets a character discern one component of a target's alignment. When making the check, the character states whether he or she is trying to discern the law-chaos or good-evil component. A character can't retry the check, and he or she can't use this to discern more than one component of the alignment (but see below). The target must be visible and within 30 feet of the character.\nDiscern Full Alignment: This use of the skill lets a character determine both components of a target's alignment. The character can't retry the check. The target must be visible and within 30 feet of the character.\nDetect Surface Thoughts: This lets a character read the surface thoughts of a single target (as the 3rd-round effect of the detect thoughts spell). There is no saving throw to resist this effect, though the target can use Bluff to disguise his or her surface thoughts (see the Bluff skill description), in which case this becomes an opposed check (any result lower than 100 automatically fails). The target must be visible and within 30 feet of the character.\nSleight of Hand\nThe character can lift another's weapon and perform major feats of legerdemain.\nDC | Task |\n50 | Lift a sheathed weapon from another creature and hide it on the character's person, if the weapon is no more than one size category larger than the character's own size. |\n80 | Make an adjacent, willing creature or object of the character's size or smaller \u201cdisappear\u201d while in plain view. In fact, the willing creature or object is displaced up to 10 feet away--make a separate Hide check to determine how well the \u201cdisappeared\u201d creature or object is hidden. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::021_search",
+  "next_chunk_id": "chunk::srd_35::epicskills::023_spellcraft"
+}

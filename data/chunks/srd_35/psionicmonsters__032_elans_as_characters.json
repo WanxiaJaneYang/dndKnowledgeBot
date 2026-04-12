@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::032_elans_as_characters",
+  "document_id": "srd_35::psionicmonsters::032_elans_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "ELANS AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#032_elans_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Elan characters possess the following racial traits.\n-- -2 Charisma.\n--Medium size.\n--Elan base land speed is 30 feet.\n--No darkvision.\n--Naturally Psionic: Elans gain 1 bonus power point at 1st level.\n--Special Qualities (see above): Repletion, resilience, resistance.\n--Automatic Languages: Common.\n--Favored Class: Psion.\n--Level Adjustment: +0.\nFOLUGUB\n| Medium-Size Aberration |\nHit Dice: | 4d8+12 (30 hp) |\nInitiative: | +3 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 18 (+3 Dex, +5 natural), touch 13, flatfooted 15 |\nBase Attack/Grapple: | +3/+3 |\nAttack: | Tongue +6 melee touch (liquefy crystal) |\nFull Attack: | Tongue +6 melee touch (liquefy crystal) and bite +1 melee (2d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Liquefy crystal |\nSpecial Qualities: | Darkvision 60 ft., scent |\nSaves: | Fort +4, Ref +4, Will +5 |\nAbilities: | Str 10, Dex 17, Con 17, Int 2, Wis 13, Cha 11 |\nSkills: | Listen +6, Move Silently +4, Spot +6 |\nFeats: | Alertness, Weapon Finesse |\nEnvironment: | Underground |\nOrganization: | Solitary or pair |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 5-6 HD (Medium); 7-14 HD (Large) |\nLevel Adjustment: | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::031_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::033_combat"
+}

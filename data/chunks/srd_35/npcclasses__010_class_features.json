@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::010_class_features",
+  "document_id": "srd_35::npcclasses::010_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Class Features"
+    ],
+    "source_location": "NPCClasses.rtf#010_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "The following is a class feature of the expert NPC class.\nWeapon and Armor Proficiency: The expert is proficient in the use of all simple weapons and with light armor but not shields.\nWARRIOR\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::009_class_skills",
+  "next_chunk_id": "chunk::srd_35::npcclasses::011_class_skills"
+}

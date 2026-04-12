@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::039_nightshade_abilities",
+  "document_id": "srd_35::monstersm_n::039_nightshade_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Nightshade Abilities"
+    ],
+    "source_location": "MonstersM-N.rtf#039_nightshade_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "All nightshades have the following special abilities.\nAversion to Daylight (Ex): If exposed to natural daylight (not merely a daylight spell), nightshades take a -4 penalty on all attack rolls, saving throws, and skill checks.\nDesecrating Aura (Su): All nightshades give off a 20-footradius emanation of utter desecration, imbuing their surroundings with negative energy. This ability works much like a desecrate spell, except that the nightshade's evil is so great that it is treated as the shrine of an evil power. All undead within 20 feet of the nightshade (including the creature itself ) gain a +2 profane bonus on attack rolls, damage rolls, and saving throws, and +2 hit points per HD. (The nightshade Hit Dice, attack, and save entries given here include these profane bonuses.) Charisma checks made to turn undead within this area take a -6 penalty.\nA nightshade's desecrating aura cannot be dispelled except by a dispel evil spell or similar effect. If the effect is dispelled, the nightshade can resume it as a free action on its next turn. Its desecrating aura is suppressed if a nightshade enters a consecrated or hallowed area, but the nightshade's presence also suppresses the consecrated or hallowed effect for as long as it remains in the area.\n\nHit Dice: | 25d12+50 (212 hp) |\nInitiative: | +4 |\nSpeed: | 30 ft. (6 squares), burrow 60 ft. |\nArmor Class: | 35 (-4 size, +29 natural), touch 6, flat-footed 35 |\nBase Attack/Grapple: | +12/+45 |\nAttack: | Bite +29 melee (4d6+21) |\nFull Attack: | Bite +29 melee (4d6+21/19-20) and sting +24 melee (2d8+11/19-20 plus poison) |\nSpace/Reach: | 20 ft./15 ft. |\nSpecial Attacks: | Desecrating aura, energy drain, spell-like abilities, poison, summon undead, swallow whole |\nSpecial Qualities: | Aversion to daylight, damage reduction 15/silver and magic, darkvision 60 ft., immunity to cold, spell resistance 31, telepathy 100 ft, tremorsense 60 ft., undead traits |\nSaves: | Fort +12, Ref +10, Will +23 |\nAbilities: | Str 48, Dex 10, Con --, Int 20, Wis 20, Cha 18 |\nSkills: | Concentration +32, Diplomacy +6, Hide +16, Knowledge (arcana) +33, Listen +33, Move Silently +28, Search +33, Sense Motive +23, Spellcraft +35, Spot +33, Survival +5 (+7 following tracks) |\nFeats: | Blind-Fight, Combat Casting, Great Fortitude, Improved Critical (bite), Improved Critical (sting), Improved Initiative, Iron Will, Power Attack, Quicken Spell-Like Ability (cone of cold) |\nEnvironment: | Plane of Shadow |\nOrganization: | Solitary or pair |\nChallenge Rating: | 18 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 26-50 HD (Colossal) |\nLevel Adjustment: | -- |\nA nightcrawler is a massive behemoth similar to a purple worm, though utterly black in color.\nA nightcrawler measures about 7 feet in diameter and is 100 feet long from its toothy maw to the tip of its stinging tail. It weighs about 55,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::038_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::040_combat"
+}

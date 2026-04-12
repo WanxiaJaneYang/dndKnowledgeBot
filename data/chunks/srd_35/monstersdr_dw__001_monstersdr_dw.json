@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::001_monstersdr_dw",
+  "document_id": "srd_35::monstersdr_dw::001_monstersdr_dw",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "MonstersDr-Dw"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#001_monstersdr_dw"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::002_dragon_true"
+}

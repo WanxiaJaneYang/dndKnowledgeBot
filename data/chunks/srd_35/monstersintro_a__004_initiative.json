@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::004_initiative",
+  "document_id": "srd_35::monstersintro_a::004_initiative",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Initiative"
+    ],
+    "source_location": "MonstersIntro-A.rtf#004_initiative"
+  },
+  "chunk_type": "subsection",
+  "content": "This line gives the creature's modifier on initiative checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::003_hit_dice",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::005_speed"
+}

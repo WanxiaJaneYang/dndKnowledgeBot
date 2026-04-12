@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::019_combat",
+  "document_id": "srd_35::monstersg::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Combat"
+    ],
+    "source_location": "MonstersG.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Ghoul Fever (Su): Disease--bite, Fortitude DC 15, incubation period 1 day, damage 1d3 Con and 1d3 Dex. The save DC is Charisma-based.\nParalysis (Ex): Those hit by a ghast's bite or claw attack must succeed on a DC 15 Fortitude save or be paralyzed for 1d4+1 rounds. Even elves can be affected by this paralysis. The save DC is Charisma-based.\nStench (Ex): The stink of death and corruption surrounding these creatures is overwhelming. Living creatures\nwithin 10 feet must succeed on a DC 15 Fortitude save or be sickened for 1d6+4 minutes. A creature that successfully saves cannot be affected again by the same ghast's stench for 24 hours. A delay poison or neutralize poison spell removes the effect from a sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws. The save DC is Charisma-based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::018_ghast",
+  "next_chunk_id": "chunk::srd_35::monstersg::020_giant"
+}

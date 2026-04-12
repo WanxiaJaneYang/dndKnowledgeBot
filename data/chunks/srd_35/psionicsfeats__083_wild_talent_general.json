@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::083_wild_talent_general",
+  "document_id": "srd_35::psionicsfeats::083_wild_talent_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "WILD TALENT [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#083_wild_talent_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mind wakes to a previously unrealized talent for psionics.\nBenefit: Your latent power of psionics flares to life, conferring upon you the designation of a psionic character. As a psionic character, you gain a reserve of 2 power points and can take psionic feats, metapsionic feats, and psionic item creation feats. You do not, however, gain the ability to manifest powers simply by virtue of having this feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::082_widen_power_metapsionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::084_wounding_attack_psionic"
+}

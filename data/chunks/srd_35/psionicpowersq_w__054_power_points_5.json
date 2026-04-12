@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::054_power_points_5",
+  "document_id": "srd_35::psionicpowersq_w::054_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#054_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You can affect one or more objects or creatures by concentrating your mind upon, sending them in a deadly hail at your foes--or simply by hurling your foe! You can hurl one object or creature per manifester level (maximum fifteen separate targets), as long as all are within the power's range and each is no more than 10 feet away from another one. Each object or creature can be hurled a maximum distance of 10 feet per level.\nYou must succeed on ranged attack rolls (one per creature or object thrown) to hit the target of the hurled items with the items, applying your Intelligence modifier to the attack roll instead of your Dexterity modifier. Hurled weapons deal their standard damage (your Strength bonus does not apply; arrows or bolts deal damage as daggers of their size when used in this manner). Other objects deal damage ranging from 1 point per 25 pounds of weight (for less dangerous objects such as an empty barrel) to 1d6 points per 25 pounds of weight (for hard, dense objects such as a boulder).\nCreatures are allowed Will saves (and power resistance) to negate the effect, as are those whose held possessions are targeted by this power.\nIf you use this power to hurl a creature against a solid surface, it takes damage as if it had fallen 10 feet (1d6 points).\nAugment: For every additional power point you spend, the weight limit of the target or targets increases by 25 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::053_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::055_display_visual"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::007_dedicated_power",
+  "document_id": "srd_35::magicitemsvi::007_dedicated_power",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "DEDICATED POWER"
+    ],
+    "source_location": "MagicItemsVI.rtf#007_dedicated_power"
+  },
+  "chunk_type": "subsection",
+  "content": "A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated power even if the owner is dominant (see Items against Characters, below).\nSpecial Purpose Item Dedicated Powers |\nd% | Dedicated Power | Base Price Modifier |\n01-06 | Item can use ice storm | +50,000 gp |\n07-12 | Item can use confusion | +50,000 gp |\n13-17 | Item can use phantasmal killer | +50,000 gp |\n18-24 | Item can use crushing despair | +50,000 gp |\n25-31 | Item can use dimension door on itself and wielder | +50,000 gp |\n32-36 | Item can use contagion (heightened to 4th level) as touch attack | +56,000 gp |\n37-43 | Item can use poison (heightened to 4th level) as touch attack | +56,000 gp |\n44-50 | Item can use rusting grasp as touch attack | +56,000 gp |\n51-56 | Item can cast 10d6 lightning bolt | +60,000 gp |\n57-62 | Item can cast 10d6 fireball | +60,000 gp |\n63-68 | Wielder gets +2 luck bonus on attacks, saves, and checks | +80,000 gp |\n69-74 | Item can use mass inflict light wounds | +81,000 gp |\n75-81 | Item can use song of discord | +81,000 gp |\n82-87 | Item can use prying eyes | +81,000 gp |\n88-92 | Item can cast 15d6 greater shout 3/day | +130,000 gp |\n93-98 | Item can use waves of exhaustion | +164,000 gp |\n99-100 | Item can use true resurrection on wielder, once per month | +200,000 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::006_purpose",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::008_item_ego"
+}

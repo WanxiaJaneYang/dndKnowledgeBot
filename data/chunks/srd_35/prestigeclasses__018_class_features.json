@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::018_class_features",
+  "document_id": "srd_35::prestigeclasses::018_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "PrestigeClasses.rtf#018_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All of the following are Class Features of the blackguard prestige class.\nWeapon and Armor Proficiency: Blackguards are proficient with all simple and martial weapons, with all types of armor, and with shields.\nAura of Evil (Ex): The power of a blackguard's aura of evil (see the detect evil spell) is equal to his class level plus his cleric level, if any.\nDetect Good (Sp): At will, a blackguard can use detect good as a spell-like ability, duplicating the effect of the detect good spell.\nPoison Use: Blackguards are skilled in the use of poison and never risk accidentally poisoning themselves when applying poison to a blade.\nDark Blessing (Su): A blackguard applies his Charisma modifier (if positive) as a bonus on all saving throws.\nSpells: A blackguard has the ability to cast a small number of divine spells. To cast a blackguard spell, a blackguard must have a Wisdom score of at least 10 + the spell's level, so a blackguard with a Wisdom of 10 or lower cannot cast these spells.\nBlackguard bonus spells are based on Wisdom, and saving throws against these spells have a DC of 10 + spell level + the blackguard's Wisdom modifier. When the blackguard gets 0 spells per day of a given spell level he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level. The blackguard's spell list appears below. A blackguard has access to any spell on the list and can freely choose which to prepare, just as a cleric. A blackguard prepares and casts spells just as a cleric does (though a blackguard cannot spontaneously cast cure or inflict spells).\nSmite Good (Su): Once a day, a blackguard of 2nd level or higher may attempt to smite good with one normal melee attack.\nHe adds his Charisma modifier (if positive) to his attack roll and deals 1 extra point of damage per class level. If a blackguard accidentally smites a creature that is not good, the smite has no effect but it is still used up for that day.\nAt 5th level, and again at 10th level, a blackguard may smite good one additional time per day.\nAura of Despair (Su): Beginning at 3rd level, the blackguard radiates a malign aura that causes enemies within 10 feet of him to take a -2 penalty on all saving throws.\nCommand Undead (Su): When a blackguard reaches 3rd level, he gains the supernatural ability to command and rebuke undead. He commands undead as would a cleric of two levels lower.\nSneak Attack: This ability, gained at 4th level, is like the rogue ability of the same name. The extra damage increases by +1d6 every third level beyond 4th (7th and 10th). If a blackguard gets a sneak attack bonus from another source the bonuses on damage stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::017_class_skills",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::019_blackguard_spell_list"
+}

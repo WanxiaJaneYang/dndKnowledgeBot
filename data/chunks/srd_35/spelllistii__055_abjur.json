@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::055_abjur",
+  "document_id": "srd_35::spelllistii::055_abjur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Abjur"
+    ],
+    "source_location": "SpellListII.rtf#055_abjur"
+  },
+  "chunk_type": "subsection",
+  "content": "Freedom: Releases creature from imprisonment.\nImprisonment: Entombs subject beneath the earth.\nMage's Disjunction: Dispels magic, disenchants magic items.\nPrismatic Sphere: As prismatic wall, but surrounds on all sides.\n\nGate X: Connects two planes for travel or summoning.\nRefuge M: Alters item to transport its possessor to you.\nSummon Monster IX: Calls extraplanar creature to fight for you.\nTeleportation Circle M: Circle teleports any creature inside to designated spot.\n\nForesight: \u201cSixth sense\u201d warns of impending danger.\n\nDominate Monster: As dominate person, but any creature.\nHold Monster, Mass: As hold monster, but all within 30 ft.\nPower Word Kill: Kills one creature with 100 hp or less.\n\nCrushing Hand: Large hand provides cover, pushes, or crushes your foes.\nMeteor Swarm: Four exploding spheres each deal 6d6 fire damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::054_trans",
+  "next_chunk_id": "chunk::srd_35::spelllistii::056_illus"
+}

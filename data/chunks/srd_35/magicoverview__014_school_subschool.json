@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::014_school_subschool",
+  "document_id": "srd_35::magicoverview::014_school_subschool",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "SCHOOL (SUBSCHOOL)"
+    ],
+    "source_location": "MagicOverview.rtf#014_school_subschool"
+  },
+  "chunk_type": "subsection",
+  "content": "Beneath the spell name is a line giving the school of magic (and the subschool, if appropriate) that the spell belongs to.\nAlmost every spell belongs to one of eight schools of magic. A school of magic is a group of related spells that work in similar ways. A small number of spells (arcane mark, limited wish, permanency, prestidigitation, and wish) are universal, belonging to no school.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::013_name",
+  "next_chunk_id": "chunk::srd_35::magicoverview::015_abjuration"
+}

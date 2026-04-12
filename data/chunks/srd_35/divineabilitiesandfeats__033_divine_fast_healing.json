@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::033_divine_fast_healing",
+  "document_id": "srd_35::divineabilitiesandfeats::033_divine_fast_healing",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Fast Healing"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#033_divine_fast_healing"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Con 29 or the fast healing special quality.\nBenefit: The deity gains fast healing of 20 + divine rank. Lost limbs or body parts reattach instantly when pressed against the wound on the body.\nNotes: This ability does not stack with the fast healing special quality.\nNotes: A deity can have this ability multiple times, and its effects stack. A deity with two applications of this ability improves its fast healing by 40 + (divine rank \u00d72).\nSuggested Portfolio Elements: Endurance, healing.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::032_divine_earth_mastery",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::034_divine_fire_mastery"
+}

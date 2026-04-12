@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::130_plant_wild_shape_wild_epic",
+  "document_id": "srd_35::epicfeats::130_plant_wild_shape_wild_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "PLANT WILD SHAPE [WILD][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#130_plant_wild_shape_wild_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Knowledge (nature) 24 ranks, wild shape 4/day.\nBenefit: The character can use his or her normal wild shape ability to take the form of a plant. The size limitation is the same as the character's limitation on animal size.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::129_planar_turning_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::131_polyglot_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::030_worker",
+  "document_id": "srd_35::monsterse_f::030_worker",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "WORKER"
+    ],
+    "source_location": "MonstersE-F.rtf#030_worker"
+  },
+  "chunk_type": "subsection",
+  "content": "While workers cannot speak, they can convey simple concepts (such as danger) by body movements. Through the hive mind, however, they can communicate just fine--although their intelligence still limits the concepts that they can grasp.\nA worker is about 3 feet long and about 2-1/2 feet high at the front. It weighs about 60 pounds. Its hands are suitable only for manual labor.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::029_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::031_combat"
+}

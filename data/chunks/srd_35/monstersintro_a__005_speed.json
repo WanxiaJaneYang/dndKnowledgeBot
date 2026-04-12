@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::005_speed",
+  "document_id": "srd_35::monstersintro_a::005_speed",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Speed"
+    ],
+    "source_location": "MonstersIntro-A.rtf#005_speed"
+  },
+  "chunk_type": "subsection",
+  "content": "This line gives the creature's tactical speed on land (the amount of distance it can cover in one move action). If the creature wears armor that reduces its speed, the creature's base land speed follows.\nIf the creature has other modes of movement, these are given after (or in place of) the land speed. Unless noted otherwise, modes of movement are natural (not magical).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::004_initiative",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::006_armor_class"
+}

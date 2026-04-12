@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::119_multispell_epic",
+  "document_id": "srd_35::epicfeats::119_multispell_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MULTISPELL [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#119_multispell_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Quicken Spell, ability to cast 9th-level arcane or divine spells.\nBenefit: The character may cast one additional quickened spell in a round.\nSpecial: A character can gain this feat multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::118_mobile_defense_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::120_multiweapon_rend_epic"
+}

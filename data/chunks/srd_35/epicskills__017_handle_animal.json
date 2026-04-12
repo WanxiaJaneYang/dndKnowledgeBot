@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::017_handle_animal",
+  "document_id": "srd_35::epicskills::017_handle_animal",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Handle Animal"
+    ],
+    "source_location": "EpicSkills.rtf#017_handle_animal"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can handle creatures other than animals, and can teach or train in much less time than normally required.\nTask | Time | DC |\nRear magical beast | 1 year | 30 + HD of magical beast |\nTrain magical beast | 2 months | 40 + HD of magical beast |\nRear vermin | 6 months | 35 + HD of vermin |\nTrain vermin | 2 months | 50 + HD of vermin |\nRear other creature | Varies | 40 + HD of creature |\nTrain other creature | 2 months | 60 + HD of creature |\nReduce Teaching/Training to . . . | DC Modifier |\n1 month | +25 |\n1 day | +50 |\n1 hour | +75 |\n1 minute | +100 |\nReduce Teaching/Training: Normally, teaching or training a creature requires two months of time. A character can accelerate the process of teaching or training a creature, reducing the time required to the listed time, by adding the DC modifier to the base DC for teaching or training the creature. A character can't reduce the required time to less than 1 minute.\n\nThe character can greatly speed a patient's recovery of hit points.\nTask | DC |\nQuicken recovery | 50 |\nPerfect recovery | 100 |\nQuicken Recovery: The character can allow a character to regain hit points in a single hour as if he or she had provided long-term care for a full day (2 or 3 hit points per level, based on activity). The character can quicken the recovery of up to six patients at a time. No character's recovery can be quickened more than once per day (even by different healers).\nPerfect Recovery: The character can allow a character to regain hit points in a single hour as if he or she had provided long-term care for a full week (2 or 3 hit points per level per day, based on activity). The character can use perfect recovery on up to six patients at a time. No character's recovery can be perfected more than once per day, nor can perfect recovery and quicken recovery both be used on the same patient in the same day (even by different healers).\n\nThe character can hide others as well as hiding him or herself.\nTask | Check Modifier |\nHide another | -30 |\nHide Another: By accepting a -30 penalty on his or her Hide check, a character can hide another adjacent creature whose size is no more than one category larger than the character's own. Modifiers to the check for the size of the creature still apply, as do all other penalties, including those for moving faster than half speed. Likewise, a character can only hide another creature when it is not under direct observation by a third party. The creature the character hides remains hidden until it is spotted or it takes some other action that breaks its concealment, as normal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::016_gather_information",
+  "next_chunk_id": "chunk::srd_35::epicskills::018_intimidate"
+}

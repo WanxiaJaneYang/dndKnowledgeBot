@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::002_psionic_creatures",
+  "document_id": "srd_35::psionicmonsters::002_psionic_creatures",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "PSIONIC CREATURES"
+    ],
+    "source_location": "PsionicMonsters.rtf#002_psionic_creatures"
+  },
+  "chunk_type": "subsection",
+  "content": "Any creature with psionic powers has the psionic subtype. A psionic creature can be born with the subtype or can gain the subtype during its life.\nA creature meeting any one of the following criteria has the psionic subtype:\nCreatures with a power point reserve, including characters who have levels in a character class that grants them a power point reserve or creatures who have the Wild Talent feat.\nCreatures with psi-like abilities, including characters who have racial psi-like abilities.\nCreatures that have spell-like abilities described as \u201cpsionics.\u201d\nTraits: Other than the fact that all psionic creatures have psionic powers, power points, or psi-like abilities, psionic creatures have no specific traits. The psionic subtype serves to identify creatures that may be vulnerable to powers, spells, and effects targeting psionic creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::001_psionicmonsters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::003_the_psionic_subtype"
+}

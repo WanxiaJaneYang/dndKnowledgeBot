@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::024_construction",
+  "document_id": "srd_35::epicmonsters_a_e::024_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Construction"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#024_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "An iron colossus's body is sculpted from 150,000 pounds of pure iron. The colossus costs 1,000,000 gp to create, which includes 100,500 gp for the body. Assembling the body requires a successful Craft (armorsmithing) or Craft (weaponsmithing) check (DC 42). The creator must be 35th level and able to cast epic spells. Completing the ritual drains 50,000 XP from the creator and requires cloudkill, geas/quest, limited wish, and polymorph any object.\n\nHit Dice: | 21d12 (130 hp) |\nInitiative: | +7 (+3 Dex, +4 Improved Initiative) |\nSpeed: | Fly 180 ft. (perfect) |\nAC: | 51 (+4 size, +3 Dex, +5 natural armor, +8 bracers of armor, +2 ring of protection, +21 insight) |\nBase Attack/Grapple: | +10/-2 |\nAttack: | Touch +35 (10d6+20 plus paralyzing touch) melee |\nFull Attack: | Touch +35 (10d6+20 plus paralyzing touch) melee |\nSpace/Reach: | 1 ft./0 ft. |\nSpecial Attacks: | Trap the soul, fear aura, paralyzing touch, 21st-level wizard spellcaster, Perfect Automatic Still Spell, spell-like abilities |\nSpecial Qualities: | Magic immunity, phylactery transference, turn resistance +20, DR 15/Epic and bludgeoning, undead traits, acid resistance 20, fire resistance 20, sonic resistance 20, immune to cold, electricity, polymorph, and mind-affecting attacks. |\nSaves: | Fort +10, Ref +12, Will +17 |\nAbilities: | Str 10, Dex 16 (with gloves), Con -, Int 39 (with headband), Wis 24, Cha 20 |\nSkills: | Concentration +25, Craft (alchemy) +34, Hide +35, Knowledge (arcana, religion, the planes) +34, Knowledge (history) +26, Listen +27, Move Silently +23, Search +34, Sense Motive +27, Spellcraft +36, Spot +27 |\nFeats: | Brew Potion, Combat Casting, Craft Wondrous Item, Enlarge Spell, Heighten Spell, Improved Initiative, Lightning Reflexes, Maximize Spell, Quicken Spell, Scribe Scroll, Spell Penetration, Toughness |\nEpic Feats: | Automatic Quicken Spell, Blinding Speed, Improved Spell Capacity (10th), Tenacious Magic (any) |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 29 |\nTreasure: | Standard |\nAlignment: | Neutral evil |\nAdvancement: | By character class |\nDemiliches speak the languages they knew as liches and as living creatures.\nA demilich's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::023_iron_colossus",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::025_combat"
+}

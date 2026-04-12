@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::106_legendary_commander_epic",
+  "document_id": "srd_35::epicfeats::106_legendary_commander_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LEGENDARY COMMANDER [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#106_legendary_commander_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Cha 25, Epic Leadership, Leadership, Diplomacy 30 ranks, must rule own kingdom and have a stronghold.\nBenefit: Multiply the number of followers of each level that the character can lead by 10. This has no effect on cohorts.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::105_legendary_climber_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::107_legendary_leaper_epic"
+}

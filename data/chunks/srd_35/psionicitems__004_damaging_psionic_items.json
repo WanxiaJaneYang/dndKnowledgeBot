@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::004_damaging_psionic_items",
+  "document_id": "srd_35::psionicitems::004_damaging_psionic_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "DAMAGING PSIONIC ITEMS"
+    ],
+    "source_location": "PsionicItems.rtf#004_damaging_psionic_items"
+  },
+  "chunk_type": "subsection",
+  "content": "A psionic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his saving throw. Psionic items should always get a save against powers or spells that might deal damage to them--even against attacks from which a mundane item would normally get no chance to save. All types of psionic item saves--Fortitude, Reflex, and Will--are calculated the same way: The item's saving throw bonus equals 2 + 1/2 its manifester level (round down). The only exceptions to this rule are intelligent psionic items, which make Will saves based on their own Wisdom scores.\nA psionic item, unless otherwise noted, takes damage as a normal item of the same type. A damaged psionic item continues to function, but if it is destroyed, all its psionic power is lost.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::003_saving_throws_against_psionic_item_powers",
+  "next_chunk_id": "chunk::srd_35::psionicitems::005_repairing_items"
+}

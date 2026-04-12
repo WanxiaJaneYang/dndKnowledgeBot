@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::021_combat",
+  "document_id": "srd_35::monstersd_de::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Barbed devils eagerly fight with their claws, trying to impale their opponents. They use hold person to immobilize those who avoid their hug attacks.\nA barbed devil's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nFear (Su): A creature hit by a barbed devil must succeed on a DC 20 Will save or be affected as though by fear (caster level 9th).\nWhether or not the save is successful, that creature cannot be affected by that same barbed devil's fear ability for 24 hours. The save DC is Charisma-based.\nImpale (Ex): A barbed devil deals 3d8+9 points of piercing damage to a grabbed opponent with a successful grapple check.\nImproved Grab (Ex): To use this ability, a barbed devil must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can impale the opponent on its barbed body.\nSummon Devil (Sp): Once per day a barbed devil can attempt to summon 1d6 bearded devils or another barbed devil with a 35% chance of success. This ability is the equivalent of a 4th-level spell.\nBarbed Defense (Su): Any creature striking a barbed devil with handheld weapons or natural weapons takes 1d8+6 points of piercing and slashing damage from the devil's barbs. Note that weapons with exceptional reach, such as longspears, do not endanger their users in this way.\nSpell-Like Abilities: At will--greater teleport (self plus 50 pounds of objects only), hold person (DC 16), major image (DC 17), scorching ray (2 rays only). 1/day--order's wrath (DC 18), unholy blight (DC 18). Caster level 12th. The save DCs are Charisma-based.\n\nHit Dice: | 6d8+18 (45 hp) |\nInitiative: | +6 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 19 (+2 Dex, +7 natural) touch 12, flat-footed 17 |\nBase Attack/Grapple: | +6/+8 |\nAttack: | Glaive +9 melee (1d10+3 plus infernal wound) or claw +8 melee (1d6+2) |\nFull Attack: | Glaive +9/+4 melee (1d10+3 plus infernal wound) or 2 claws +8 melee (1d6+2) |\nSpace/Reach: | 5 ft./5 ft. (10 ft. with glaive) |\nSpecial Attacks: | Infernal wound, beard, battle frenzy, summon devil |\nSpecial Qualities: | Damage reduction 5/silver or good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, see in darkness, spell resistance 17, telepathy 100 ft. |\nSaves: | Fort +8, Ref +7, Will +5 |\nAbilities: | Str 15, Dex 15, Con 17, Int 6, Wis 10, Cha 10 |\nSkills: | Climb +11, Diplomacy +2, Hide +11, Listen +9, Move Silently +9, Sense Motive +9, Spot +9 |\nFeats: | Improved Initiative, Power Attack, Weapon Focus (glaive) |\nEnvironment: | A lawful evil-aligned plane |\nOrganization: | Solitary, pair, team (3-5), or squad (6-10) |\nChallenge Rating: | 5 |\nTreasure: | Standard |\nAlignment: | Always lawful evil |\nAdvancement: | 7-9 HD (Medium); 10-18 HD (Large) |\nLevel Adjustment: | +6 |\nEvery bearded devil carries a sawtoothed glaive.\nA bearded devil stands 6 feet tall and weighs about 225 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::020_devil",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::022_combat"
+}

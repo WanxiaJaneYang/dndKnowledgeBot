@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::017_adding_special_abilities",
+  "document_id": "srd_35::improving_monsters::017_adding_special_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "ADDING SPECIAL ABILITIES"
+    ],
+    "source_location": "Improving Monsters.rtf#017_adding_special_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "You can add any sort of spell-like, supernatural, or extraordinary ability to a creature. As with a class level, you should determine how much, or how little, this ability adds to the creature's existing repertoire. A suite of abilities that work together should be treated as a single modifier for this purpose. If the ability (or combination of abilities) significantly increases the monster's combat effectiveness, increase its CR by 2. Minor abilities increase the creature's CR by 1, and truly trivial abilities may not increase CR at all. If the special abilities a monster gains are not tied to a class or Hit Die increase, this CR increase stacks.\nA significant special attack is one that stands a good chance of incapacitating or crippling a character in one round. A significant special quality is one that seriously diminishes the monster's vulnerability to common attacks. Do not add this factor twice if a monster has both special attacks and special qualities.\nMake sure to \u201cscale\u201d your evaluation of these abilities by the monster's current CR.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::016_increasing_size"
+}

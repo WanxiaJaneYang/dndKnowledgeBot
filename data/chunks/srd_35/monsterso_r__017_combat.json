@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::017_combat",
+  "document_id": "srd_35::monsterso_r::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "Combat"
+    ],
+    "source_location": "MonstersO-R.rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A gray ooze strikes like a snake, slamming opponents with its body.\nAcid (Ex): A gray ooze secretes a digestive acid that quickly dissolves organic material and metal, but not stone. Any melee hit or constrict attack deals acid damage. Armor or clothing dissolves and becomes useless immediately unless it succeeds on a DC 16 Reflex save. A metal or wooden weapon that strikes a gray ooze also dissolves immediately unless it succeeds on a DC 16 Reflex save. The save DCs are Constitution-based.\nThe ooze's acidic touch deals 16 points of damage per round to wooden or metal objects, but the ooze must remain in contact with the object for 1 full round to deal this damage.\nConstrict (Ex): A gray ooze deals automatic slam and acid damage with a successful grapple check. The opponent's clothing and armor take a -4 penalty on Reflex saves against the acid.\nImproved Grab (Ex): To use this ability, a gray ooze must hit with its slam attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nTransparent (Ex): A gray ooze is hard to identify, even under ideal conditions, and it takes a DC 15 Spot check to notice one. Creatures who fail to notice a gray ooze and walk into it are automatically hit with a melee attack for slam and acid damage.\n\nHit Dice: | 6d10+36 (69 hp) |\nInitiative: | -5 |\nSpeed: | 10 ft. (2 squares), climb 10 ft. |\nArmor Class: | 4 (-1 size, -5 Dex), touch 4, flat-footed 4 |\nBase Attack/Grapple: | +4/+10 |\nAttack: | Slam +5 melee (2d4+3 plus 1d4 acid) |\nFull Attack: | Slam +5 melee (2d4+3 plus 1d4 acid) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Acid, constrict 2d4+3 plus 1d4 acid, improved grab |\nSpecial Qualities: | Blindsight 60 ft., split, ooze traits |\nSaves: | Fort +8, Ref -3, Will -3 |\nAbilities: | Str 15, Dex 1, Con 22, Int --, Wis 1, Cha 1 |\nSkills: | Climb +10 |\nFeats: | -- |\nEnvironment: | Temperate marshes |\nOrganization: | Solitary |\nChallenge Rating: | 5 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 7-9 HD (Large); 10-18 HD (Huge) |\nLevel Adjustment: | -- |\nAn ochre jelly can grow to a diameter of about 15 feet and a thickness of about 6 inches, but can compress its body to fit into cracks as small as 1 inch wide. A typical specimen weighs about 5,600 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::016_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::018_combat"
+}

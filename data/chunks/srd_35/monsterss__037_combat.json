@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::037_combat",
+  "document_id": "srd_35::monsterss::037_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#037_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In order to attack, a single swarm moves into opponents' spaces, which provokes an attack of opportunity. It can occupy the same space as a creature of any size, since it crawls all over its prey, but remains a creature with a 10-foot space. Swarms never make attacks of opportunity, but they can provoke attacks of opportunity.\nUnlike other creatures with a 10-foot space, a swarm is shapeable. It can occupy any four contiguous squares, and it can squeeze through any space large enough to contain one of its component creatures.\nVulnerabilities of Swarms\nSwarms are extremely difficult to fight with physical attacks. However, they have a few special vulnerabilities,\nas follows:\nA lit torch swung as an improvised weapon deals 1d3 points of fire damage per hit.\nA weapon with a special ability such as flaming or frost deals its full energy damage with each hit, even if the weapon's normal damage can't affect the swarm.\nA lit lantern can be used as a thrown weapon, dealing 1d4 points of fire damage to all creatures in squares adjacent to where it breaks.\n\nHit Dice: | 3d8 (13 hp) |\nInitiative: | +2 |\nSpeed: | 5 ft. (1 square), fly 40 ft. (good) |\nArmor Class: | 16 (+4 size, +2 Dex), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +2/-- |\nAttack: | Swarm (1d6) |\nFull Attack: | Swarm (1d6) |\nSpace/Reach: | 10 ft./0 ft. |\nSpecial Attacks: | Distraction, wounding |\nSpecial Qualities: | Blindsense 20 ft., half damage from slashing and piercing, low-light vision, swarm traits |\nSaves: | Fort +3, Ref +7, Will +3 |\nAbilities: | Str 3, Dex 15, Con 10, Int 2, Wis 14, Cha 4 |\nSkills: | Listen +11, Spot +11 |\nFeats: | Alertness, Lightning Reflexes |\nEnvironment: | Temperate deserts |\nOrganization: | Solitary, flight (2-4 swarms), or colony (11-20 swarms) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | None |\nLevel Adjustment: | -- |\nA bat swarm is nocturnal, and is never found aboveground in daylight.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::036_swarm",
+  "next_chunk_id": "chunk::srd_35::monsterss::038_combat"
+}

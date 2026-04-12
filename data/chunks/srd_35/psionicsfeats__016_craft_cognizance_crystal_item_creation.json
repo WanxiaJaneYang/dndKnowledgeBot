@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::016_craft_cognizance_crystal_item_creation",
+  "document_id": "srd_35::psionicsfeats::016_craft_cognizance_crystal_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "CRAFT COGNIZANCE CRYSTAL [ITEM CREATION]"
+    ],
+    "source_location": "PsionicsFeats.rtf#016_craft_cognizance_crystal_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "You can create psionic cognizance crystals that store power points.\nPrerequisite: Manifester level 3rd.\nBenefit: You can create a cognizance crystal. Doing so takes one day for each 1,000 gp in its base price. The base price of a cognizance crystal is equal to the highest-level power it could manifest using all its stored power points, squared, multiplied by 1,000 gp. To create a cognizance crystal, you must spend 1/25 of its base price in XP and use up raw materials costing one-half its base price.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::015_combat_manifestation_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::017_craft_dorje_item_creation"
+}

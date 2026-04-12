@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::042_shrieker",
+  "document_id": "srd_35::monsterse_f::042_shrieker",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "SHRIEKER"
+    ],
+    "source_location": "MonstersE-F.rtf#042_shrieker"
+  },
+  "chunk_type": "subsection",
+  "content": "A shrieker is a stationary fungus that emits a loud noise to attract prey or when disturbed. Shriekers live in dark, subterranean places, often in the company of violet fungi, whose poison they are immune to.\nShriekers come in of shades of purple.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::041_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::043_combat"
+}

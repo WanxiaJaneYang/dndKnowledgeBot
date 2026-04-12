@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::013_minor_artifacts",
+  "document_id": "srd_35::magicitemsvi::013_minor_artifacts",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "MINOR ARTIFACTS"
+    ],
+    "source_location": "MagicItemsVI.rtf#013_minor_artifacts"
+  },
+  "chunk_type": "subsection",
+  "content": "Minor artifacts are not necessarily unique items. Even so, they are magic items that no longer can be created, at least by common mortal means.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::012_artifacts",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::014_minor_artifact_descriptions"
+}

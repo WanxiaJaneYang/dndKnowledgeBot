@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::021_scalykind_domain_spells",
+  "document_id": "srd_35::divinedomainsandspells::021_scalykind_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "Scalykind Domain Spells"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#021_scalykind_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Magic fang\n2 Animal trance\u2020\n3 Greater magic fang\n4 Poison\n5 Animal growth\u2020\n\n7 Creeping doom (composed of tiny snakes)\n8 Animal shapes\u2020\n\n\u2020Affects ophidian or reptilian creatures only.\n\nGranted Power: Survival is a class skill.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::020_scalykind_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::022_weather_domain_spells"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::171_improved_multiweapon_fighting_general",
+  "document_id": "srd_35::epicfeats::171_improved_multiweapon_fighting_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED MULTIWEAPON FIGHTING [GENERAL]"
+    ],
+    "source_location": "EpicFeats.rtf#171_improved_multiweapon_fighting_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 15, three or more arms, Multiweapon Fighting, base attack bonus +9.\nBenefit: In addition to the single extra attack a creature gets with each extra weapon from Multiweapon Fighting, it gets a second attack with each extra weapon, albeit at a -5 penalty.\nNormal: With only Multiweapon Fighting, a creater can only get a single attack with each extra weapon.\nSpecial: This feat replaces the Improved Two-Weapon Fighting feat for creatures with more than two arms.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::170_improved_multiattack_general"
+}

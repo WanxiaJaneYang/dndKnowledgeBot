@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::013_3rd_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::013_3rd_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "3RD-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#013_3rd_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Animate Dead M: Creates undead skeletons and zombies.\nBestow Curse: -6 to an ability score; -4 on attack rolls, saves, and checks; or 50% chance of losing each action.\nBlindness/Deafness: Makes subject blinded or deafened.\nContagion: Infects subject with chosen disease.\nContinual Flame M: Makes a permanent, heatless torch.\nCreate Food and Water: Feeds three humans (or one horse)/level.\nCure Serious Wounds: Cures 3d8 damage +1/level (max +15).\nDaylight: 60-ft. radius of bright light.\nDeeper Darkness: Object sheds supernatural shadow in 60-ft. radius.\nDispel Magic: Cancels spells and magical effects.\nGlyph of Warding M: Inscription harms those who pass it.\nHelping Hand: Ghostly hand leads subject to you.\nInflict Serious Wounds: Touch attack, 3d8 damage +1/level (max +15).\nInvisibility Purge: Dispels invisibility within 5 ft./level.\nLocate Object: Senses direction toward object (specific or type).\nMagic Circle against Chaos/Evil/Good/Law: As protection spells, but 10-ft. radius and 10 min./level.\nMagic Vestment: Armor or shield gains +1 enhancement per four levels.\nMeld into Stone: You and your gear merge with stone.\nObscure Object: Masks object against scrying.\nPrayer: Allies +1 bonus on most rolls, enemies -1 penalty.\nProtection from Energy: Absorb 12 points/level of damage from one kind of energy.\nRemove Blindness/Deafness: Cures normal or magical conditions.\nRemove Curse: Frees object or person from curse.\nRemove Disease: Cures all diseases affecting subject.\nSearing Light: Ray deals 1d8/two levels damage, more against undead.\nSpeak with Dead: Corpse answers one question/two levels.\nStone Shape: Sculpts stone into any shape.\nSummon Monster III: Calls extraplanar creature to fight for you.\nWater Breathing: Subjects can breathe underwater.\nWater Walk: Subject treads on water as if solid.\nWind Wall: Deflects arrows, smaller creatures, and gases.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::012_2nd_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::014_4th_level_cleric_spells"
+}

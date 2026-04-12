@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::049_requirements",
+  "document_id": "srd_35::prestigeclasses::049_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#049_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a shadowdancer, a character must fulfill all the following criteria.\nSkills: Move Silently 8 ranks, Hide 10 ranks, Perform (dance) 5 ranks.\nFeats: Combat Reflexes, Dodge, Mobility.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::048_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::050_class_skills"
+}

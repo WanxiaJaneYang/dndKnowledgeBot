@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::013_aid_another",
+  "document_id": "srd_35::skillsi::013_aid_another",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Aid Another"
+    ],
+    "source_location": "SkillsI.rtf#013_aid_another"
+  },
+  "chunk_type": "subsection",
+  "content": "You can help another character achieve success on his or her skill check by making the same kind of skill check in a cooperative effort. If you roll a 10 or higher on your check, the character you are helping gets a +2 bonus to his or her check, as per the rule for favorable conditions. (You can't take 10 on a skill check to aid another.) In many cases, a character's help won't be beneficial, or only a limited number of characters can help at once.\nIn cases where the skill restricts who can achieve certain results you can't aid another to grant a bonus to a task that your character couldn't achieve alone.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::012_individual_events",
+  "next_chunk_id": "chunk::srd_35::skillsi::014_skill_synergy"
+}

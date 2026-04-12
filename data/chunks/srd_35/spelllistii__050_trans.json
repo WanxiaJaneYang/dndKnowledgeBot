@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::050_trans",
+  "document_id": "srd_35::spelllistii::050_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#050_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Control Weather: Changes weather in local area.\nEthereal Jaunt: You become ethereal for 1 round/level.\nReverse Gravity: Objects and creatures fall upward.\nStatue: Subject can become a statue at will.\n\nLimited Wish X: Alters reality--within spell limits.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::049_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::051_abjur"
+}

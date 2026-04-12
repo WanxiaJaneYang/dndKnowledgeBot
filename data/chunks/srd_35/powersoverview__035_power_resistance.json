@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::035_power_resistance",
+  "document_id": "srd_35::powersoverview::035_power_resistance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "POWER RESISTANCE"
+    ],
+    "source_location": "PowersOverview.rtf#035_power_resistance"
+  },
+  "chunk_type": "subsection",
+  "content": "Power resistance is a special defensive ability. If your power is being resisted by a creature with power resistance, you must make a manifester level check (d20 + manifester level) at least equal to the creature's power resistance for the power to affect that creature. The defender's power resistance functions like an Armor Class against psionic attacks. Spell resistance is equivalent to power resistance unless the Psionics Is Different option is in use. Include any adjustments to your manifester level on this manifester level check.\nThe Power Resistance line and the descriptive text of a power description tell you whether power resistance protects creatures from the power. In many cases, power resistance applies only when a resistant creature is targeted by the power, not when a resistant creature encounters a power that is already in place.\nThe terms \u201cobject\u201d and \u201charmless\u201d mean the same thing for power resistance as they do for saving throws. A creature with power resistance must voluntarily lower the resistance (a standard action) to be affected by a power noted as harm less. In such a case, you do not need to make the manifester level check described above.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::034_saving_throw",
+  "next_chunk_id": "chunk::srd_35::powersoverview::036_power_points"
+}

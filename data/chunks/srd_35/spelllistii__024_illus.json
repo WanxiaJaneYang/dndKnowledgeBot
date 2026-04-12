@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::024_illus",
+  "document_id": "srd_35::spelllistii::024_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#024_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Color Spray: Knocks unconscious, blinds, and/or stuns weak creatures.\nDisguise Self: Changes your appearance.\nMagic Aura: Alters object's magic aura.\nSilent Image: Creates minor illusion of your design.\nVentriloquism: Throws voice for 1 min./level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::023_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::025_necro"
+}

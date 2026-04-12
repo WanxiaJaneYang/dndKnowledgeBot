@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::013_cloak_dance_general",
+  "document_id": "srd_35::psionicsfeats::013_cloak_dance_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "CLOAK DANCE [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#013_cloak_dance_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You are skilled at using optical tricks to make yourself seem to be where you are not.\nPrerequisites: Hide 10 ranks, Perform (dance) 2 ranks.\nBenefit: You can take a move action to obscure your exact position. Until your next turn, you have concealment. Alternatively, you can take a full-round action to entirely obscure your exact position. Until your next action, you have total concealment.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::012_chaotic_mind_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::014_closed_mind_general"
+}

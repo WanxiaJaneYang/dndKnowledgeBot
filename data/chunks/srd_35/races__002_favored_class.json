@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::races::002_favored_class",
+  "document_id": "srd_35::races::002_favored_class",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Races",
+      "FAVORED CLASS"
+    ],
+    "source_location": "Races.rtf#002_favored_class"
+  },
+  "chunk_type": "subsection",
+  "content": "A character's favored class doesn't count against him or her when determining experience point penalties for multiclassing.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::races::001_races",
+  "next_chunk_id": "chunk::srd_35::races::003_race_and_languages"
+}

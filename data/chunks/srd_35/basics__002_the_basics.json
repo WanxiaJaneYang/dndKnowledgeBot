@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::002_the_basics",
+  "document_id": "srd_35::basics::002_the_basics",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "THE BASICS"
+    ],
+    "source_location": "Basics.rtf#002_the_basics"
+  },
+  "chunk_type": "subsection",
+  "content": "The Core Mechanic: Whenever you attempt an action that has some chance of failure, you roll a twenty-sided die (d20). To determine if your character succeeds at a task you do this:\nRoll a d20.\nAdd any relevant modifiers.\nCompare the result to a target number.\nIf the result equals or exceeds the target number, your character succeeds. If the result is lower than the target number, you fail.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::001_basics",
+  "next_chunk_id": "chunk::srd_35::basics::003_dice"
+}

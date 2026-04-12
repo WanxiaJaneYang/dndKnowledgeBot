@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::027_combat",
+  "document_id": "srd_35::monstersanimals::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Lizards prefer flight to combat, but they can bite painfully if there is no other option.\nSkills: Lizards have a +8 racial bonus on Balance checks. They also have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened. Lizards use their Dexterity modifier instead of their Strength modifier for Climb checks.\n\nHit Dice: | 3d8+9 (22 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), swim 30 ft. |\nArmor Class: | 15 (+2 Dex, +3 natural), touch 12, flat-footed 13 |\nBase Attack/Grapple: | +2/+5 |\nAttack: | Bite +5 melee (1d8+4) |\nFull Attack: | Bite +5 melee (1d8+4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision |\nSaves: | Fort +8, Ref +5, Will +2 |\nAbilities: | Str 17, Dex 15, Con 17, Int 1, Wis 12, Cha 2 |\nSkills: | Climb +7, Hide +6*, Listen +4, Move Silently +6, Spot +4, Swim +11 |\nFeats: | Alertness, Great Fortitude |\nEnvironment: | Warm forests |\nOrganization: | Solitary |\nChallenge Rating: | 2 |\nAdvancement: | 4-5 HD (Medium) |\nLevel Adjustment: | -- |\nThis category includes fairly large, carnivorous lizards from 3 to 5 feet long.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::026_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::028_combat"
+}

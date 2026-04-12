@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::015_ghoul",
+  "document_id": "srd_35::monstersg::015_ghoul",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GHOUL"
+    ],
+    "source_location": "MonstersG.rtf#015_ghoul"
+  },
+  "chunk_type": "subsection",
+  "content": "| Ghoul | Ghast |\n| Medium Undead | Medium Undead |\nHit Dice: | 2d12 (13 hp) | 4d12+3 (29 hp) |\nInitiative: | +2 | +3 |\nSpeed: | 30 ft. (6 squares) | 30 ft. (6 squares) |\nArmor Class: | 14 (+2 Dex, +2 natural), touch 12, flat-footed 12 | 17 (+3 Dex, +4 natural), touch 12, flat-footed 14 |\nBase Attack/Grapple: | +1/+2 | +2/+5 |\nAttack: | Bite +2 melee (1d6+1 plus paralysis) | Bite +5 melee (1d8+3 plus paralysis) |\nFull Attack: | Bite +2 melee (1d6+1 plus paralysis) and 2 claws +0 melee (1d3 plus paralysis) | Bite +5 melee (1d8+3 plus paralysis) and 2 claws +3 melee (1d4+1 plus paralysis) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | Ghoul fever, paralysis | Ghoul fever, paralyis, stench |\nSpecial Qualities: | Darkvision 60 ft., undead traits, +2 turn resistance | Darkvision 60 ft., undead traits, +2 turn resistance |\nSaves: | Fort +0, Ref +2, Will +5 | Fort +1, Ref +4, Will +6 |\nAbilities: | Str 13, Dex 15, Con --, Int 13, Wis 14, Cha 12 | Str 17, Dex 17, Con --, Int 13, Wis 14, Cha 16 |\nSkills: | Balance +6, Climb +5, Hide +6, Jump +5, Move Silently +6, Spot +7 | Balance +7, Climb +9, Hide +8, Jump +9, Move Silently +8, Spot +8 |\nFeats: | Multiattack | Multiattack, Toughness |\nEnvironment: | Any\n(Lacedon: Any aquatic) | Any |\nOrganization: | Solitary, gang (2-4), or pack (7-12) | Solitary, gang (2-4), or pack (2-4 plus 7-12 ghouls) |\nChallenge Rating: | 1 | 3 |\nTreasure: | None | Standard |\nAlignment: | Always chaotic evil | Always chaotic evil |\nAdvancement: | 3 HD (Medium) | 5-8 HD (Medium) |\nLevel Adjustment: | -- | -- |\nGhouls speak the languages they spoke in life (usually Common).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::014_ghostly_equipment",
+  "next_chunk_id": "chunk::srd_35::monstersg::016_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::017_7th_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::017_7th_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "7TH-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#017_7th_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Blasphemy: Kills, paralyzes, weakens, or dazes nonevil subjects.\nControl Weather: Changes weather in local area.\nCure Serious Wounds, Mass: Cures 3d8 damage +1/level for many creatures.\nDestruction F: Kills subject and destroys remains.\nDictum: Kills, paralyzes, slows, or deafens nonlawful subjects.\nEthereal Jaunt: You become ethereal for 1 round/level.\nHoly Word: Kills, paralyzes, blinds, or deafens nongood subjects.\nInflict Serious Wounds, Mass: Deals 3d8 damage +1/level to many creatures.\nRefuge M: Alters item to transport its possessor to you.\nRegenerate: Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).\nRepulsion: Creatures can't approach you.\nRestoration, Greater X: As restoration, plus restores all levels and ability scores.\nResurrection M: Fully restore dead subject.\nScrying, Greater: As scrying, but faster and longer.\nSummon Monster VII: Calls extraplanar creature to fight for you.\nSymbol of Stunning M: Triggered rune stuns nearby creatures.\nSymbol of Weakness M: Triggered rune weakens nearby creatures.\nWord of Chaos: Kills, confuses, stuns, or deafens nonchaotic subjects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::016_6th_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::018_8th_level_cleric_spells"
+}

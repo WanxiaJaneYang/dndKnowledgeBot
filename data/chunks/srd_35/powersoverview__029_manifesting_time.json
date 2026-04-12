@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::029_manifesting_time",
+  "document_id": "srd_35::powersoverview::029_manifesting_time",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "MANIFESTING TIME"
+    ],
+    "source_location": "PowersOverview.rtf#029_manifesting_time"
+  },
+  "chunk_type": "subsection",
+  "content": "Most powers have a manifesing time of 1 standard action. Others take 1 round or more, while a few require only a free action.\nA power that takes 1 round to manifest requires a full-round action. It comes into effect just before the beginning of your turn in the round after you began manifesting the power. You then act normally after the power is completed.\nA power that takes 1 minute to manifest comes into effect just before your turn 1 minute later (and for each of those 10 rounds, you are manifesting a power as a full-round action, as noted above for 1-round manifesting times). These actions must be consecutive and uninterrupted, or the power points are lost and the power fails.\nWhen you use a power that takes 1 round or longer to manifest, you must continue the concentration from the current round to just before your turn in the next round (at least). If you lose concentration before the manifesting time is complete, the power points are lost and the power fails.\nYou make all pertinent decisions about a power (range, target, area, effect, version, and so forth) when the power comes into effect.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::028_display",
+  "next_chunk_id": "chunk::srd_35::powersoverview::030_new_action_types"
+}

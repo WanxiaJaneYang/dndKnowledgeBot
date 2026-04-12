@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::028_display_auditory",
+  "document_id": "srd_35::psionicpowersd_f::028_display_auditory",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Display: Auditory"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#028_display_auditory"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Medium (100 ft. + 10 ft./ level)\nEffect: Ray\nDuration: 1 min./level\n\nAs the dimensional anchor spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::027_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::029_display_visual"
+}

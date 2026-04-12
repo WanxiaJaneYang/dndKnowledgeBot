@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::003_types_of_feats",
+  "document_id": "srd_35::feats::003_types_of_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "TYPES OF FEATS"
+    ],
+    "source_location": "Feats.rtf#003_types_of_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "Some feats are general, meaning that no special rules govern them as a group. Others are item creation feats, which allow spellcasters to create magic items of all sorts. A metamagic feat lets a spellcaster prepare and cast a spell with greater effect, albeit as if the spell were a higher spell level than it actually is.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::002_prerequisites",
+  "next_chunk_id": "chunk::srd_35::feats::004_fighter_bonus_feats"
+}

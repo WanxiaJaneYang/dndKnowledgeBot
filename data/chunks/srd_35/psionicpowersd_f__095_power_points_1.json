@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::095_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::095_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#095_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You draw forth a glob of ectoplasmic goo from the Astral Plane and immediately throw it as a ranged touch attack at any creature in range. On a successful hit, the subject is covered in goo and becomes entangled. The goo evaporates at the end of the power's duration.\nAugment: For every 2 additional power points you spend, this power can affect a target one size category larger.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::094_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::096_display_visual"
+}

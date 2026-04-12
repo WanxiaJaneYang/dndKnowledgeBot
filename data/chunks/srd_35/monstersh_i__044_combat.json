@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::044_combat",
+  "document_id": "srd_35::monstersh_i::044_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#044_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "An invisible stalker attacks by using the air itself as a weapon. It creates a sudden, intense blast of wind that pounds a single target on the same plane as the creature.\nAn invisible stalker can be killed only when it is on the Elemental Plane of Air. When performing a task elsewhere, it automatically returns to its home plane when it takes damage sufficient to destroy it.\nNatural Invisibility (Su): This ability is constant, allowing a stalker to remain invisible even when attacking. This ability is inherent and not subject to the invisibility purge spell.\nImproved Tracking (Ex): An invisible stalker is a consummate tracker and makes Spot checks instead of the usual Survival checks to trace a creature's passage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::043_combat"
+}

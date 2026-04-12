@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::033_cast_a_quickened_spell",
+  "document_id": "srd_35::combati::033_cast_a_quickened_spell",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Cast a Quickened Spell"
+    ],
+    "source_location": "CombatI.rtf#033_cast_a_quickened_spell"
+  },
+  "chunk_type": "subsection",
+  "content": "You can cast a quickened spell (see the Quicken Spell feat) or any spell whose casting time is designated as a free action as a free action. Only one such spell can be cast in any round, and such spells don't count toward your normal limit of one spell per round. Casting a spell with a casting time of a free action doesn't incur an attack of opportunity.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::032_cease_concentration_on_spell",
+  "next_chunk_id": "chunk::srd_35::combati::034_take_5_foot_step"
+}

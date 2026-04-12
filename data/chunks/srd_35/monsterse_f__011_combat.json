@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::011_combat",
+  "document_id": "srd_35::monsterse_f::011_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#011_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A fire elemental is a fierce opponent that attacks its enemies directly and savagely. It takes joy in burning the creatures and objects of the Material Plane to ashes.\nBurn (Ex): A fire elemental's slam attack deals bludgeoning damage plus fire damage from the elemental's flaming body. Those hit by a fire elemental's slam attack also must succeed on a Reflex save or catch on fire. The flame burns for 1d4 rounds. The save DC varies with the elemental's size (see the table below). A burning creature can take a move action to put out the flame. The save DC is Constitution- based.\nCreatures hitting a fire elemental with natural weapons or unarmed attacks take fire damage as though hit by the elemental's attack, and also catch on fire unless they succeed on a Reflex save.\nFire Elemental Sizes |\nElemental | Height | Weight | Burn Save DC |\nSmall | 4 ft. | 1 lb. | 11 |\nMedium | 8 ft. | 2 lb. | 14 |\nLarge | 16 ft. | 4 lb. | 17 |\nHuge | 32 ft. | 8 lb. | 22 |\nGreater | 36 ft. | 10 lb. | 24 |\nElder | 40 ft. | 12 lb. | 26 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::010_fire_elemental",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::012_water_elemental"
+}

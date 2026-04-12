@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::025_combat",
+  "document_id": "srd_35::monsterse_f::025_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "COMBAT"
+    ],
+    "source_location": "MonstersE-F.rtf#025_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Though ettins aren't very intelligent, they are cunning fighters.\nThey prefer to ambush their victims rather than charge into a straight fight, but once the battle has started, an ettin usually fights furiously until all enemies are dead.\nSuperior Two-Weapon Fighting (Ex): An ettin fights with a morningstar or javelin in each hand. Because each of its two heads controls an arm, the ettin does not take a penalty on attack or damage rolls for attacking with two weapons.\nSkills: An ettin's two heads give it a +2 racial bonus on Listen, Spot, and Search checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::024_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::026_fiendish_creature"
+}

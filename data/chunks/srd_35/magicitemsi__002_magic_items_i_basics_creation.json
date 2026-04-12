@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::002_magic_items_i_basics_creation",
+  "document_id": "srd_35::magicitemsi::002_magic_items_i_basics_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "MAGIC ITEMS I (BASICS & CREATION)"
+    ],
+    "source_location": "MagicItemsI.rtf#002_magic_items_i_basics_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Magic items are divided into categories: armor, weapons, potions, rings, rods, scrolls, staffs, wands, and wondrous items. In addition, some magic items are cursed or intelligent. Finally, a few magic items are of such rarity and power that they are considered to belong to a category of their own: artifacts. Artifacts are classified in turn as minor (extremely rare but not one-of-a-kind items) or major (each one unique and extremely potent).\nArmor and Shields: Magic armor (including shields) offers improved, magical protection to the wearer. Some of these items confer abilities beyond a benefit to Armor Class.\nWeapons: Magic weapons are created with a variety of combat powers and almost always improve the attack and damage rolls of the wielder as well.\nPotions: A potion is an elixir concocted with a spell-like effect that affects only the drinker.\nRings: A ring is a circular metal band worn on the finger (no more than two rings per wearer) that has a spell-like power (often a constant effect that affects the wearer).\nRods: A rod is a scepter-like item with a special power unlike that of any known spell.\nScrolls: A scroll is a spell magically inscribed onto paper or parchment so that it can be used later.\nStaffs: A staff has a number of different (but often related) spell effects. A newly created staff has 50 charges, and each use of the staff depletes one or more of those charges.\nWands: A wand is a short stick imbued with the power to cast a specific spell. A newly created wand has 50 charges, and each use of the wand depletes one of those charges.\nWondrous Items: These objects include magic jewelry, tools, books, clothing, and much more.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::001_magicitemsi",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::003_magic_items_and_detect_magic"
+}

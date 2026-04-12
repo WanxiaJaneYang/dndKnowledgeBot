@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::115_master_staff_epic",
+  "document_id": "srd_35::epicfeats::115_master_staff_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MASTER STAFF [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#115_master_staff_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Craft Staff, Spellcraft 15 ranks.\nBenefit: When the character activates a staff, he or she can substitute a spell slot instead of using a charge. The spell slot must be one the character ahs not used for the day, though the character may lose a prepared spell to emulate a wand charge (the character may not lose prepared spells from his or her school of specialty, if any). The spell slot lost must be equal to or higher in level than the specific spell stored in the staff, including any level-increasing metamagic enhancements. A character cannot emulate a charge for a staff function that does not match a specific spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::114_magical_beast_wild_shape_wild_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::116_master_wand_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::136_rapid_inspiration_epic",
+  "document_id": "srd_35::epicfeats::136_rapid_inspiration_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "RAPID INSPIRATION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#136_rapid_inspiration_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Perform 25 ranks, bardic music class feature.\nBenefit: The character can use any of his or her bardic music inspiration abilities as a standard action. The inspiration takes effect immediately after the character concludes the action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::135_ranged_inspiration_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::137_reactive_countersong_epic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::041_combat",
+  "document_id": "srd_35::monsterss::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A locust swarm surrounds and attacks any living prey it encounters. A swarm deals 2d6 points of damage to any creature whose space it occupies at the end of its move.\nDistraction (Ex): Any living creature that begins its turn with a locust swarm in its space must succeed on a DC 12 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.\nSkills: A locust swarm has a +4 racial bonus on Listen and Spot checks.\nRAT SWARM\n| Tiny Animal (Swarm) |\nHit Dice: | 4d8 (13 hp) |\nInitiative: | +2 |\nSpeed: | 15 ft. (3 squares), climb 15 ft. |\nArmor Class: | 14 (+2 size, +2 Dex), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +3/-- |\nAttack: | Swarm (1d6 plus disease) |\nFull Attack: | Swarm (1d6 plus disease) |\nSpace/Reach: | 10 ft./0 ft. |\nSpecial Attacks: | Disease, distraction |\nSpecial Qualities: | Half damage from slashing and piercing, low-light vision, scent, swarm traits |\nSaves: | Fort +4, Ref +6, Will +2 |\nAbilities: | Str 2, Dex 15, Con 10, Int 2, Wis 12, Cha 2 |\nSkills: | Balance +10, Climb +10, Hide +14, Listen +6, Spot +7, Swim +10 |\nFeats: | Alertness, Weapon Finesse |\nEnvironment: | Any |\nOrganization: | Solitary, pack (2-4 swarms), or infestation (7-12 swarms) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | None |\nLevel Adjustment: | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::040_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::042_combat"
+}

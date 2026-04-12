@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::007_combat",
+  "document_id": "srd_35::monstersanimals::007_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#007_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Black bears rip prey with their claws and teeth.\nSkills: A black bear has a +4 racial bonus on Swim checks.\n\nHit Dice: | 6d8+24 (51 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 15 (-1 size, +1 Dex, +5 natural), touch 10, flat-footed 14 |\nBase Attack/Grapple: | +4/+16 |\nAttack: | Claw +11 melee (1d8+8) |\nFull Attack: | 2 claws +11 melee (1d8+8) and bite +6 melee (2d6+4) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +9, Ref +6, Will +3 |\nAbilities: | Str 27, Dex 13, Con 19, Int 2, Wis 12, Cha 6 |\nSkills: | Listen +4, Spot +7, Swim +12 |\nFeats: | Endurance, Run, Track |\nEnvironment: | Cold forests |\nOrganization: | Solitary or pair |\nChallenge Rating: | 4 |\nAdvancement: | 7-10 HD (Large) |\nLevel Adjustment: | -- |\nThese massive carnivores weigh more than 1,800 pounds and stand nearly 9 feet tall when they rear up on their hind legs. They are bad-tempered and territorial. The brown bear's statistics can be used for almost any big bear, including the grizzly.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::006_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::008_combat"
+}

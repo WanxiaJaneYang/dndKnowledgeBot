@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::039_requirements",
+  "document_id": "srd_35::psionicclasses::039_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Requirements"
+    ],
+    "source_location": "PsionicClasses.rtf#039_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a war mind, a character must fulfill all the following criteria.\nAlignment: Any nonchaotic.\nBase Attack Bonus: +3.\nSkills: Knowledge (history) 2 ranks, Knowledge (psionics) 8 ranks.\nPsionics: Must have a power point reserve of at least 1 power point.\nSpecial: Must have had some instruction by another war mind.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::038_class_features",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::040_class_skills"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::023_creating_scrolls",
+  "document_id": "srd_35::magicitemsi::023_creating_scrolls",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "CREATING SCROLLS"
+    ],
+    "source_location": "MagicItemsI.rtf#023_creating_scrolls"
+  },
+  "chunk_type": "subsection",
+  "content": "To create a scroll, a character needs a supply of choice writing materials, the cost of which is subsumed in the cost for scribing the scroll--12.5 gp x the level of the spell x the level of the caster.\nAll writing implements and materials used to scribe a scroll must be fresh and unused. A character must pay the full cost for scribing each spell scroll no matter how many times she previously has scribed the same spell.\nThe creator must have prepared the spell to be scribed (or must know the spell, in the case of a sorcerer or bard) and must provide any material component or focus the spell requires. If casting the spell would reduce the caster's XP total, she pays the cost upon beginning the scroll in addition to the XP cost for making the scroll itself. Likewise, a material component is consumed when she begins writing, but a focus is not. (A focus used in scribing a scroll can be reused.) The act of writing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from her currently prepared spells, just as if it had been cast.)\nScribing a scroll requires one day per each 1,000 gp of the base price.\nItem Creation Feat Required: Scribe Scroll.\n\nSpell Level | Clr, Drd, Wiz | Sor | Brd | Pal, Rgr* |\n0 | 12 gp 5 sp | 12 gp 5 sp | 12 gp 5 sp | -- |\n1st | 25 gp | 25 gp | 50 gp | 50 gp |\n2nd | 150 gp | 200 gp | 200 gp | 200 gp |\n3rd | 375 gp | 450 gp | 525 gp | 375 gp |\n4th | 700 gp | 800 gp | 1,000 gp | 700 gp |\n5th | 1,125 gp | 1,250 gp | 1,625 gp | -- |\n6th | 1,650 gp | 1,800 gp | 2,400 gp | -- |\n7th | 2,275 gp | 2,450 gp | -- | -- |\n8th | 3,000 gp | 3,200 gp | -- | -- |\n9th | 3,825 gp | 4,050 gp | -- | -- |\n* Caster level is half class level. |\nPrices assume that the scroll was made at the minimum caster level. |\nBase Magic Supplies and XP Cost to Scribe a Scroll (By Scriber's Class) |\nSpell Level | Clr, Drd, Wiz | Sor | Brd | Pal, Rgr* |\n0 | 6 gp 2 sp 5 cp\n+1 XP | 6 gp 2 sp 5 cp\n+1 XP | 6 gp 2 sp 5 cp\n+1 XP | -- |\n1st | 12 gp 5 sp\n+1 XP | 12 gp 5 sp\n+1 XP | 25 gp\n+1 XP | 25 gp\n+2 XP |\n2nd | 75 gp\n+6 XP | 100 gp\n+8 XP | 100 gp\n+8 XP | 100 gp\n+8 XP |\n3rd | 187 gp 5 sp\n+15 XP | 225 gp\n+18 XP | 262 gp 5 sp\n+21 XP | 187 gp 5 sp\n+15 XP |\n4th | 350 gp\n+28 XP | 400 gp\n+32 XP | 500 gp\n+40 XP | 350 gp\n\n5th | 562 gp 5 sp\n+45 XP | 625 gp\n+50 XP | 812 gp 5 sp\n+65 XP | -- |\n6th | 826 gp\n+66 XP | 900 gp\n+72 XP | 1,200 gp\n+96 XP | -- |\n7th | 1,135 gp 5 sp\n+91 XP | 1,225 gp\n+98 XP | -- | -- |\n8th | 1,500 gp\n+120 XP | 1,600 gp\n+128 XP | -- | -- |\n9th | 1,912 gp 5 sp\n+153 XP | 2, 025 gp\n+162 XP | -- | -- |\n* Caster level is half class level. |\nCosts assume that the creator makes the scroll at the minimum caster level. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::022_creating_rods",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::024_creating_staffs"
+}

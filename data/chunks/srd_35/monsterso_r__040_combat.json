@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::040_combat",
+  "document_id": "srd_35::monsterso_r::040_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#040_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A roc attacks from the air, swooping earthward to snatch prey in its powerful talons and carry it off for itself and its young to devour. A solitary roc is typically hunting and will attack any Medium or larger creature that appears edible. A mated pair of rocs attack in concert, fighting to the death to defend their nests or hatchlings.\nSkills: Rocs have a +4 racial bonus on Spot checks.\n\nHit Dice: | 10d10+30 (85 hp) |\nInitiative: | +5 |\nSpeed: | 10 ft. (2 squares) |\nArmor Class: | 24 (-1 size, +1 Dex, +14 natural), touch 10, flat-footed 23 |\nBase Attack/Grapple: | +10/+18 |\nAttack: | Strand +11 ranged touch (drag) or bite +13 melee (2d6+6) |\nFull Attack: | 6 strands +11 ranged touch (drag) and bite +13 melee (2d6+6) |\nSpace/Reach: | 10 ft./10 ft. (50 ft. with strand) |\nSpecial Attacks: | Drag, strands, weakness |\nSpecial Qualities: | Darkvision 60 ft., immunity to electricity, low-light vision, resistance to cold 10, spell resistance 30, vulnerability to fire |\nSaves: | Fort +10, Ref +8, Will +8 |\nAbilities: | Str 19, Dex 13, Con 17, Int 12, Wis 16, Cha 12 |\nSkills: | Climb +12, Hide +10*, Listen +13, Spot +13 |\nFeats: | Alertness, Improved Initiative, Iron Will, Weapon Focus (strand) |\nEnvironment: | Underground |\nOrganization: | Solitary, pair, or cluster (3-6) |\nChallenge Rating: | 12 |\nTreasure: | No coins; 50% goods (stone only); no items |\nAlignment: | Usually chaotic evil |\nAdvancement: | 11-15 HD (Large); 16-30 HD (Huge) |\nLevel Adjustment: | -- |\nA roper stands some 9 feet tall and tapers from 3 or 4 feet in diameter at the base to 1 foot across at the top. It weighs 2,200 pounds. A roper's coloration and temperature change to match the features of the surrounding cave.\nRopers speak Terran and Undercommon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::039_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::041_combat"
+}

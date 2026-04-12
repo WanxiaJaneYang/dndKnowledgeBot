@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::011_class_skills",
+  "document_id": "srd_35::npcclasses::011_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Class Skills"
+    ],
+    "source_location": "NPCClasses.rtf#011_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The warrior's class skills (and the key ability for each skill) are Climb (Str), Handle Animal (Cha), Intimidate (Cha), Jump (Str), Ride (Dex), and Swim (Str).\nSkill Points at 1st Level: (2 + Int modifier) x \uf0204.\nSkill Points at Each Additional Level: 2 + Int modifier.\nTable: The Warrior |\nNPC Level | Base Attack\nBonus | Fort\nSave | Ref\nSave | Will\nSave |\n1st | +1 | +2 | +0 | +0 |\n2nd | +2 | +3 | +0 | +0 |\n3rd | +3 | +3 | +1 | +1 |\n4th | +4 | +4 | +1 | +1 |\n5th | +5 | +4 | +1 | +1 |\n6th | +6/+1 | +5 | +2 | +2 |\n7th | +7/+2 | +5 | +2 | +2 |\n8th | +8/+3 | +6 | +2 | +2 |\n9th | +9/+4 | +6 | +3 | +3 |\n10th | +10/+5 | +7 | +3 | +3 |\n11th | +11/+6/+1 | +7 | +3 | +3 |\n12th | +12/+7/+2 | +8 | +4 | +4 |\n13th | +13/+8/+3 | +8 | +4 | +4 |\n14th | +14/+9/+4 | +9 | +4 | +4 |\n15th | +15/+10/+5 | +9 | +5 | +5 |\n16th | +16/+11/+6/+1 | +10 | +5 | +5 |\n17th | +17/+12/+7/+2 | +10 | +5 | +5 |\n18th | +18/+13/+8/+3 | +11 | +6 | +6 |\n19th | +19/+14/+9/+4 | +11 | +6 | +6 |\n20th | +20/+15/+10/+5 | +12 | +6 | +6 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::010_class_features",
+  "next_chunk_id": "chunk::srd_35::npcclasses::012_class_features"
+}

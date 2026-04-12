@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::053_water_dangers",
+  "document_id": "srd_35::wildernessandenvironment::053_water_dangers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "WATER DANGERS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#053_water_dangers"
+  },
+  "chunk_type": "subsection",
+  "content": "Any character can wade in relatively calm water that isn't over his head, no check required. Similarly, swimming in calm water only requires skill checks with a DC of 10. Trained swimmers can just take 10. (Remember, however, that armor or heavy gear makes any attempt at swimming much more difficult. See the Swim skill description.)\nBy contrast, fast-moving water is much more dangerous. On a successful DC 15 Swim check or a DC 15 Strength check, it deals 1d3 points of nonlethal damage per round (1d6 points of lethal damage if flowing over rocks and cascades). On a failed check, the character must make another check that round to avoid going under.\nVery deep water is not only generally pitch black, posing a navigational hazard, but worse, it deals water pressure damage of 1d6 points per minute for every 100 feet the character is below the surface. A successful Fortitude save (DC 15, +1 for each previous check) means the diver takes no damage in that minute. Very cold water deals 1d6 points of nonlethal damage from hypothermia per minute of exposure.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::052_suffocation",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::054_drowning"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::154_swarm_of_arrows_epic",
+  "document_id": "srd_35::epicfeats::154_swarm_of_arrows_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SWARM OF ARROWS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#154_swarm_of_arrows_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 23, Point Blank Shot, Rapid Shot, Weapon Focus (type of bow used).\nBenefit: As a full-round action, the character may fire an arrow at his or her full base attack bonus at each opponent within 30 feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::153_superior_initiative_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::155_terrifying_rage_epic"
+}

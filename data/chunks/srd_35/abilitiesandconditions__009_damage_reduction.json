@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::009_damage_reduction",
+  "document_id": "srd_35::abilitiesandconditions::009_damage_reduction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "DAMAGE REDUCTION"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#009_damage_reduction"
+  },
+  "chunk_type": "subsection",
+  "content": "Some magic creatures have the supernatural ability to instantly heal damage from weapons or to ignore blows altogether as though they were invulnerable.\nThe numerical part of a creature's damage reduction is the amount of hit points the creature ignores from normal attacks. Usually, a certain type of weapon can overcome this reduction. This information is separated from the damage reduction number by a slash. Damage reduction may be overcome by special materials, by magic weapons (any weapon with a +1 or higher enhancement bonus, not counting the enhancement from masterwork quality), certain types of weapons (such as slashing or bludgeoning), and weapons imbued with an alignment. If a dash follows the slash then the damage reduction is effective against any attack that does not ignore damage reduction.\nAmmunition fired from a projectile weapon with an enhancement bonus of +1 or higher is treated as a magic weapon for the purpose of overcoming damage reduction. Similarly, ammunition fired from a projectile weapon with an alignment gains the alignment of that projectile weapon (in addition to any alignment it may already have).\nWhenever damage reduction completely negates the damage from an attack, it also negates most special effects that accompany the attack, such as injury type poison, a monk's stunning, and injury type disease. Damage reduction does not negate touch attacks, energy damage dealt along with an attack, or energy drains. Nor does it affect poisons or diseases delivered by inhalation, ingestion, or contact.\nAttacks that deal no damage because of the target's damage reduction do not disrupt spells.\nSpells, spell-like abilities, and energy attacks (even nonmagical fire) ignore damage reduction.\nSometimes damage reduction is instant healing. Sometimes damage reduction represents the creature's tough hide or body,. In either case, characters can see that conventional attacks don't work.\nIf a creature has damage reduction from more than one source, the two forms of damage reduction do not stack. Instead, the creature gets the benefit of the best damage reduction in a given situation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::008_cold_immunity",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::010_darkvision"
+}

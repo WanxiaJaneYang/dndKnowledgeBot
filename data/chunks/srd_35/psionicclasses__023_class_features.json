@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::023_class_features",
+  "document_id": "srd_35::psionicclasses::023_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Features"
+    ],
+    "source_location": "PsionicClasses.rtf#023_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All the following are class features of the Psionic Fist prestige class.\nWeapon and Armor Proficiency: Psionic Fists gain no proficiency with any weapon or armor.\nMonk Abilities: A Psionic Fist's class levels stack with his monk levels for the purpose of determining his unarmed damage and bonuses to Armor Class and unarmored speed. His class levels do not apply to other monk abilities such as flurry of blows, slow fall, and so on.\nPower Points/Day: A Psionic Fist can manifest powers. His ability to manifest powers is limited by the power points he has available. His base daily allotment of power points is given on Table: The Psionic Fist. In addition, he receives bonus power points per day if he has a high Wisdom score (see Table: Ability Modifiers and Bonus Power Points). His race may also provide bonus power points per day, as may certain feats and items. If a Psionic Fist has power points from a different class, those points are pooled together and usable to manifest powers from either class. Bonus power points from having a high ability score can be gained only for the character's highest psionic class.\nPowers Known: A Psionic Fist chooses his powers from the psychic warrior power list. At 1st level, a Psionic Fist knows one psychic warrior power of your choice. Each time he attains a new level, he learns one new power. A Psionic Fist can manifest any power that has a power point cost equal to or lower than his manifester level. The total number of powers a Psionic Fist can manifest per day is limited only by his daily power points.\nA Psionic Fist simply knows his powers; they are ingrained in his mind. He does not need to prepare them (in the way that some spellcasters pre pare their spells), though he must get a good night's sleep each day to regain all his spent power points.\nThe Difficulty Class for saving throws against Psionic Fist powers is 10 + the power's level + the Psionic Fist's Wisdom modifier.\nMaximum Power Level Known: A Psionic Fist gains the ability to learn one 1st-level power when he takes his first level in the prestige class. As he attains each new odd-numbered level, a Psionic Fist gains the ability to master more complex powers.\nTo learn or manifest a power, a Psionic Fist must have a Wisdom score of at least 10 + the power's level.\nBonus Psionic Feat: At 5th and 10th level, a Psionic Fist can take any psionic feat as a bonus feat. He must still meet the prerequisites for the feat.\nMulticlass Note: A monk who becomes a Psionic Fist may continue advancing as a monk.\nSLAYER\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::022_class_skills",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::024_requirements"
+}

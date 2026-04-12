@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::015_cognizance_crystals",
+  "document_id": "srd_35::psionicitems::015_cognizance_crystals",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "COGNIZANCE CRYSTALS"
+    ],
+    "source_location": "PsionicItems.rtf#015_cognizance_crystals"
+  },
+  "chunk_type": "subsection",
+  "content": "Cognizance crystals store power points that psionic characters can use to pay for manifesting their powers.\nPhysical Description: A cognizance crystal consists of a core crystal and two or three smaller crystals arranged in specific positions around it on strands of silver wire. The crystals give off a faint glow. A typical cognizance crystal weighs approximately 1 pound, has AC 7, 10 hit points, a hardness of 8, and a break DC of 16.\nActivation: The user must merely hold or have a crystal on her person for a period of at least 10 minutes (which is long enough to attune oneself to the crystal). Thereafter, the owner can use power points stored in the crystal to manifest powers she knows.\nThe maximum number of points a cognizance crystal can store is always an odd number and is never more than 17. It can store only as many power points as its original maximum, set at the time of its creation. When a cognizance crystal's power points are used up, the glow of the crystal dims. However, the user can recharge it by paying power points on a 1-for-1 basis. While doing this depletes the user's own power point reserve for the day, those power points remain available in the cognizance crystal until used.\nA user cannot directly replenish her personal power points from those stored in a cognizance crystal, nor can she draw power points from more than one source to manifest a power. See Using Stored Power Points for more information.\n\nMinor | Medium | Major | Maximum Power Point Storage | Market Price |\n01-90 | 01-40 | -- | 1 | 1,000 gp |\n91-100 | 41-74 | -- | 3 | 4,000 gp |\n-- | 75-89 | 01-39 | 5 | 9,000 gp |\n-- | 90-98 | 40-59 | 7 | 16,000 gp |\n-- | 99-100 | 60-69 | 9 | 25,000 gp |\n-- | -- | 70-70 | 11 | 36,000 gp |\n-- | -- | 80-89 | 13 | 49,000 gp |\n-- | -- | 90-95 | 15 | 64,000 gp |\n-- | -- | 96-100 | 17 | 81,000 gp |\nFaint to strong psychokinesis; ML equal to maximum power point storage; Craft Cognizance Crystal; Weight 1 lb.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::014_psionic_weapon_special_ability_descriptions",
+  "next_chunk_id": "chunk::srd_35::psionicitems::016_dorjes"
+}

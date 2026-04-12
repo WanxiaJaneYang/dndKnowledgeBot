@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::019_combat",
+  "document_id": "srd_35::monstersb_c::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A centaur employing a lance deals double damage when it charges, just as a rider on a mount does.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::018_creating_a_celestial_creature",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::020_centaurs_as_characters"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::105_power_points_7",
+  "document_id": "srd_35::psionicpowersd_f::105_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#105_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "As the fabricate spell, except as noted here.\nFabricate, Greater Psionic\nMetacreativity (Creation)\nLevel: Shaper 6\nTarget: Up to 100 cu. ft./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::104_display_material",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::106_power_points_11"
+}

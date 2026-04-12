@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicraces::006_maenads",
+  "document_id": "srd_35::psionicraces::006_maenads",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicRaces",
+      "MAENADS"
+    ],
+    "source_location": "PsionicRaces.rtf#006_maenads"
+  },
+  "chunk_type": "subsection",
+  "content": "Medium: As Medium creatures, maenads have no special bonuses or penalties due to their size.\nMaenad base land speed is 30 feet.\nNaturally Psionic: Maenads gain 2 bonus power points at 1st level. This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class.\nPsi-Like Ability: 1/day--energy ray. A maenad can deal only sonic damage with this ability. It is accompanied by a tremendous scream of rage. Manifester level is equal to 1/2 Hit Dice (minimum 1st). The save DC is Charisma-based.\nOutburst (Ex): Once per day, for up to 4 rounds, a maenad can subjugate her mentality to gain a boost of raw physical power. When she does so, she takes a -2 penalty to Intelligence and Wisdom but gains a +2 bonus to Strength.\nAutomatic Languages: Common, Maenad. Bonus Languages: Aquan, Draconic, Dwarven, Elven, Goblin. Maenads commonly know the languages of their enemies and of their friends, as well as Draconic, the language commonly found in ancient tomes of secret knowledge.\nFavored Class: Wilder.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicraces::005_half_giants",
+  "next_chunk_id": "chunk::srd_35::psionicraces::007_2_dexterity_2_strength"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::027_demilich_characters",
+  "document_id": "srd_35::epicmonsters_a_e::027_demilich_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "DEMILICH CHARACTERS"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#027_demilich_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "The process of becoming a demilich can be undertaken only by a lich acting of its own free will. The demilich retains all class abilities it had as a lich.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::026_creating_a_demilich",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::028_creating_soul_gems"
+}

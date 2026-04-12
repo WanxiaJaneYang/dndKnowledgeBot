@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::013_epic_shadowdancer",
+  "document_id": "srd_35::epicprestigeclasses::013_epic_shadowdancer",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "EPIC SHADOWDANCER"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#013_epic_shadowdancer"
+  },
+  "chunk_type": "subsection",
+  "content": "Hit Die: d8.\nSkill Points at Each Additional Level: 6 + Int modifier.\nSummon Shadow: Every third level gained after 9th adds +2 HD (and the requisite base attace and base save bonus increases) to the shadowdancer's shadow companion.\nShadow Jump: The total distance of a shadowdancer's shadow jump doubles every two levels after 10th.\nBonus Feats: The epic shadowdancer gains a bonus feat (selected from the list of epic shadowdancer feats) every three levels after 20th.\nEpic Shadowdancer Bonus Feat List: Blinding Speed, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Skill Focus, Epic Speed, Exceptional Deflection, Improved Combat Reflexes, Improved Darkvision, Improved Whirlwind Attack, Infinite Deflection, Legendary Leaper, Reflect Arrows, Self-Concealment, Spellcasting Harrier, Superior Initiative.\nTable: The Epic Shadowdancer\nLevel | Special |\n11th | -- |\n12th | Summon shadow (four of 8 HD each), shadow jump (320 ft.) |\n13th | Bonus feat |\n14th | Shadow jump (640 ft.) |\n15th | Summon shadow (five of 10 HD each) |\n16th | Shadow jump (1,280 ft.), bonus feat |\n17th | -- |\n18th | Summon shadow (six of 12 HD each), shadow jump (2,560 ft.) |\n19th | Bonus feat |\n20th | Shadow jump (5,120 ft.) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::012_skill_points_at_each_additional_level_2_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::014_epic_prestige_classes"
+}

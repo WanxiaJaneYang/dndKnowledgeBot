@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::040_power_points_1",
+  "document_id": "srd_35::psionicpowersa_c::040_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#040_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "By meditating on a subject, you can recall natural memories and knowledge otherwise inaccessible to you.\nOn a failed Knowledge check, you can manifest this power to gain a new check with a +4 competence bonus. If successful, you instantly recall what was previously buried in your subconscious.\nCall Weaponry\nPsychoportation (Teleportation)\nLevel: Psychic warrior 1",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::039_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::041_display_material"
+}

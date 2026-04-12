@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::028_angel",
+  "document_id": "srd_35::monstersintro_a::028_angel",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "ANGEL"
+    ],
+    "source_location": "MonstersIntro-A.rtf#028_angel"
+  },
+  "chunk_type": "subsection",
+  "content": "Angels are a race of celestials, beings who live on the good-aligned Outer Planes.\nAngels can be of any good alignment. Regardless of their alignment, angels never lie, cheat, or steal. They are impeccably honorable in all their dealings and often prove the most trustworthy and diplomatic of all the celestials.\nAll angels are blessed with comely looks, though their actual appearances vary widely.\nAngels speak Celestial, Infernal, and Draconic, though they can speak with almost any creature because of their tongues ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::027_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::029_combat"
+}

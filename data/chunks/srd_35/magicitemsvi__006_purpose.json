@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::006_purpose",
+  "document_id": "srd_35::magicitemsvi::006_purpose",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "Purpose"
+    ],
+    "source_location": "MagicItemsVI.rtf#006_purpose"
+  },
+  "chunk_type": "subsection",
+  "content": "An item's purpose must suit the type and alignment of the item and should always be treated reasonably. A purpose of \u201cdefeat/slay arcane spellcasters\u201d doesn't mean that the sword forces the wielder to kill every wizard she sees. Nor does it mean that the sword believes it is possible to kill every wizard, sorcerer, and bard in the world. It does mean that the item hates arcane spellcasters and wants to bring the local wizard's cabal to ruin, as well as end the rule of a sorceress-queen in a nearby land. Likewise, a purpose of \u201cdefend elves\u201d doesn't mean that if the wielder is an elf, he only wants to help himself. It means that the item wants to be used in furthering the cause of elves, stamping out their enemies and aiding their leaders. A purpose of \u201cdefeat/slay all\u201d isn't just a matter of self-preservation. It means that the item won't rest (or let its wielder rest) until it places itself above all others.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::005_intelligent_item_powers",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::007_dedicated_power"
+}

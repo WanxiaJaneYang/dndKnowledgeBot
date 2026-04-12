@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::010_8th_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::010_8th_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "8TH-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#010_8th_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Bend RealityX: Alters reality within power limits.\nIron Body, Psionic: Your body becomes living iron.\nMatter ManipulationX: Increase or decrease an object's base hardness by 5.\nMind Blank, Psionic: Subject immune to mental/emotional effects, scrying, and remote viewing.\nRecall Death: Subject dies or takes 5d6 damage.\nShadow Body: You become a living shadow (not the creature).\nTeleport, Psionic Greater: As psionic teleport, but no range limit and no off-target arrival.\nTrue Metabolism: You regenerate 10 hit points/round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::009_7th_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::011_9th_level_psion_wilder_powers"
+}

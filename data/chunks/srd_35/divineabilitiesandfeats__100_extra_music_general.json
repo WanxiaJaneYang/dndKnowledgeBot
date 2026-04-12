@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::100_extra_music_general",
+  "document_id": "srd_35::divineabilitiesandfeats::100_extra_music_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "EXTRA MUSIC [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#100_extra_music_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Bardic music.\nBenefit: You can use your bardic music four extra times per day.\nNormal: Bards without the Extra Music feat can use bardic music once per day per level.\nSpecial: You can gain this feat multiple times, adding another four uses of bardic music each time.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::099_energy_substitution_metamagic",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::101_eyes_in_the_back_of_your_head_general"
+}

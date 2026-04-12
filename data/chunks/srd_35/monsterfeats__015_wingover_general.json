@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::015_wingover_general",
+  "document_id": "srd_35::monsterfeats::015_wingover_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "WINGOVER [GENERAL]"
+    ],
+    "source_location": "MonsterFeats.rtf#015_wingover_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Fly speed.\nBenefits: A flying creature with this feat can change direction quickly once each round as a free action. This feat allows it to turn up to 180 degrees regardless of its maneuverability, in addition to any other turns it is normally allowed. A creature cannot gain altitude during a round when it executes a wingover, but it can dive.\nThe change of direction consumes 10 feet of flying movement.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::014_snatch_general"
+}

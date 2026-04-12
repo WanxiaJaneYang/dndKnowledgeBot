@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::007_power_failure",
+  "document_id": "srd_35::powersoverview::007_power_failure",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "POWER FAILURE"
+    ],
+    "source_location": "PowersOverview.rtf#007_power_failure"
+  },
+  "chunk_type": "subsection",
+  "content": "If you try to manifest a power in conditions where the characteristics of the power (range, area, and so on) cannot be made to conform, the manifestation fails and the power points are wasted.\nPowers also fail if your concentration is broken (see Concentration, above).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::006_manifester_level",
+  "next_chunk_id": "chunk::srd_35::powersoverview::008_the_power_s_result"
+}

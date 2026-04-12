@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::057_improved_initiative_general",
+  "document_id": "srd_35::feats::057_improved_initiative_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED INITIATIVE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#057_improved_initiative_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +4 bonus on initiative checks.\nSpecial: A fighter may select Improved Initiative as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::056_improved_grapple_general",
+  "next_chunk_id": "chunk::srd_35::feats::058_improved_overrun_general"
+}

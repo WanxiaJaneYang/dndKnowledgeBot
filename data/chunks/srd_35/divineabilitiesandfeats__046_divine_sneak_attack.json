@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::046_divine_sneak_attack",
+  "document_id": "srd_35::divineabilitiesandfeats::046_divine_sneak_attack",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Sneak Attack"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#046_divine_sneak_attack"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Sneak attack +10d6, crippling strike.\nBenefit: The deity's sneak attacks deal an additional +3d6 points of damage.\nAny attack of opportunity the deity makes is considered a sneak attack.\nThe deity can flank or catch flat-footed any opponent whose divine rank does not exceed the deity's and can sneak attack that opponent. The deity cannot deal sneak attack damage to opponents that are immune to critical hits. Any time the deity inflicts damage with a sneak attack, that target suffers damage equal to the deity's sneak attack bonus\ndamage on the deity's next turn as well.\nSuggested Portfolio Elements: Thieves.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::045_divine_skill_focus",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::047_divine_spell_focus"
+}

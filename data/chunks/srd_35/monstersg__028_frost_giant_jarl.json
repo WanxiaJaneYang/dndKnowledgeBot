@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::028_frost_giant_jarl",
+  "document_id": "srd_35::monstersg::028_frost_giant_jarl",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "FROST GIANT JARL"
+    ],
+    "source_location": "MonstersG.rtf#028_frost_giant_jarl"
+  },
+  "chunk_type": "subsection",
+  "content": "A frost giant leader is often a barbarian, cleric, fighter, or sorcerer, but some of the most evil and ruthless frost giants become blackguards.\nThe frost giant jarl described here has all the qualities and abilities of a typical frost giant, as well as other abilities (see the statistics block) from being a blackguard. Details on some of these abilities follow.\nAura of Despair (Su): This jarl radiates a malign aura that causes enemies within 10 feet of him to take a -2 penalty on all saving throws.\nAura of Evil (Ex): This jarl radiates a strong aura of evil (see the detect evil spell) as an 8th-level cleric of an evil deity.\nCommand Undead (Su): This jarl can command and rebuke undead as a 6th-level cleric.\nDark Blessing (Su): This jarl applies his Charisma modifier as a bonus on all saving throws.\nDetect Good (Sp): At will, this jarl can use detect good as a spell-like ability, duplicating the effect of the detect good spell.\nPoison Use: Blackguards are skilled in the use of poison and never risk accidentally poisoning themselves when applying poison to a blade.\nSmite Good (Su): Twice per day, this jarl may attempt to smite good with one normal melee attack. He adds his +4 Charisma modifier to his attack roll and deals 8 points of extra damage (1 per blackguard level) if the attack hits. If he accidentally smites a creature that is not good, the smite has no effect but it is still used up for that day.\nTypical Blackguard Spells Prepared (3/1; save DC 11 + spell level): 1st--cause fear, doom, magic weapon; 2nd--bull's strength.\nPossessions: +2 frost greataxe, +2 full plate armor, cloak of Charisma +2, ring of minor energy resistance (fire), 2 doses of bloodroot poison. (Benefits of these items are included in the statistics block.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::027_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::029_frost_giant_characters"
+}

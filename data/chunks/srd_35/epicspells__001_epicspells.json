@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::001_epicspells",
+  "document_id": "srd_35::epicspells::001_epicspells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "EpicSpells"
+    ],
+    "source_location": "EpicSpells.rtf#001_epicspells"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::epicspells::002_epic_spells"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::020_alignment",
+  "document_id": "srd_35::monstersintro_a::020_alignment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Alignment"
+    ],
+    "source_location": "MonstersIntro-A.rtf#020_alignment"
+  },
+  "chunk_type": "subsection",
+  "content": "This line gives the alignment that the creature is most likely to have. Every entry includes a qualifier that indicates how broadly that alignment applies to the species as a whole.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::019_treasure",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::021_advancement"
+}

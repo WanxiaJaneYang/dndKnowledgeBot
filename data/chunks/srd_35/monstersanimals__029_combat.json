@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::029_combat",
+  "document_id": "srd_35::monstersanimals::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "*If threatened, a manta ray uses its size and weight to ram opponents. This is treated as a secondary attack.\nSkills: A manta ray has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 1d8 (4 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), climb 30 ft. |\nArmor Class: | 14 (+2 size, +2 Dex), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +0/-12 |\nAttack: | Bite +4 melee (1d3-4) |\nFull Attack: | Bite +4 melee (1d3-4) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision |\nSaves: | Fort +2, Ref +4, Will +1 |\nAbilities: | Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 5 |\nSkills: | Balance + 10, Climb +10, Hide +10, Listen +3, Spot +3 |\nFeats: | Weapon Finesse |\nEnvironment: | Warm forests |\nOrganization: | Troop (10-40) |\nChallenge Rating: | 1/6 |\nAdvancement: | 2-3 HD (Small) |\nLevel Adjustment: | -- |\nThe statistics presented here can describe any arboreal monkey that is no bigger than a housecat, such as a colobus or capuchin.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::028_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::030_combat"
+}

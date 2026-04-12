@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::030_drop_prone",
+  "document_id": "srd_35::combati::030_drop_prone",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Drop Prone"
+    ],
+    "source_location": "CombatI.rtf#030_drop_prone"
+  },
+  "chunk_type": "subsection",
+  "content": "Dropping to a prone position in your space is a free action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::029_free_actions",
+  "next_chunk_id": "chunk::srd_35::combati::031_speak"
+}

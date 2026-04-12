@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::005_elements_of_a_trap",
+  "document_id": "srd_35::traps::005_elements_of_a_trap",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "ELEMENTS OF A TRAP"
+    ],
+    "source_location": "Traps.rtf#005_elements_of_a_trap"
+  },
+  "chunk_type": "subsection",
+  "content": "All traps--mechanical or magic--have the following elements: trigger, reset, Search DC, Disable Device DC, attack bonus (or saving throw or onset delay), damage/effect, and Challenge Rating. Some traps may also include optional elements, such as poison or a bypass. These characteristics are described below.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::004_magic_traps",
+  "next_chunk_id": "chunk::srd_35::traps::006_trigger"
+}

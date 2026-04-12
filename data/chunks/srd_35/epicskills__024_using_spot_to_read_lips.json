@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::024_using_spot_to_read_lips",
+  "document_id": "srd_35::epicskills::024_using_spot_to_read_lips",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Using Spot to Read Lips"
+    ],
+    "source_location": "EpicSkills.rtf#024_using_spot_to_read_lips"
+  },
+  "chunk_type": "subsection",
+  "content": "Task | DC Modifier |\nRead lips while moving at up to full speed | +20 |\nPronounce unfamiliar language | +20 |\nPronounce Unfamiliar Language: This use of the skill allows a character to repeat the speech of an observed creature, potentially allowing a comrade to translate the speech. It doesn't grant the character any ability to understand the language spoken.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::023_spellcraft",
+  "next_chunk_id": "chunk::srd_35::epicskills::025_survival"
+}

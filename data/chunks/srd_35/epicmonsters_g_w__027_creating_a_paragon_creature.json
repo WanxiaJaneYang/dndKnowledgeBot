@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::027_creating_a_paragon_creature",
+  "document_id": "srd_35::epicmonsters_g_w::027_creating_a_paragon_creature",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "CREATING A PARAGON CREATURE"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#027_creating_a_paragon_creature"
+  },
+  "chunk_type": "subsection",
+  "content": "\u201cParagon\u201d is a template that can be added to any creature (referred to hereafter as the base creature).\nThe base creature's type remains unchanged. The paragon creature uses all the base creature's statistics and special abilities except as noted here.\nHD: A paragon creature always has maximum hit points. Paragon creatures also gain an additional 12 hit points per HD.\nSpeed: A paragon creature's speed triples, for all movement types.\nAC: Paragon creatures gain a +12 insight bonus to AC and a +12 luck bonus to AC. They also gain a +5 natural armor bonus (if the creature already has natural armor, use whichever is better).\nAttacks: A paragon creature makes all its attacks with a +25 luck bonus on the attack roll.\nDamage: A paragon creature gains a +20 luck bonus on Damage rolls for all melee and thrown ranged attacks.\nSpecial Attacks: A paragon creature's special attacks, if any, all gain a +13 insight bonus, if applicable. The +13 insight bonus may only be applied to a given special ability once.\nSpell-Like Abilities (Sp) or Psionics (Sp): If the base creature has spell-like abilities, it gains +15 to its caster level to use those abilities. A paragon creature also gains the ability to use greater dispel magic, haste, and see invisibility three times per day, even if it did not have spell-like abilities before, at 15th caster level.\nSpecial Qualities: A paragon creature retains all the special qualities of the base creature and also gains the following.\nFire and cold resistance 10. If the creature already possesses such resistance, use whichever is better.\nDamage reduction 10/epic. If the creature already possesses Damage reduction, use whichever is better.\nSpell resistance equal to the paragon creature's CR +25. If the creature already possesses spell resistance, use whichever is higher.\nFast healing 20. If the creature already possesses fast healing, use whichever is better.\nA paragon creature's natural weapons are treated as epic for the purpose of overcoming damage reduction.\nSaves: The paragon creature gains a +10 insight bonus on all its saving throws.\nAbilities: All ability scores are 15 points higher than those of the base creature.\nSkills: The paragon creature gains a +10 competence bonus on all its skill checks.\nFeats: Same as the base creature, plus one bonus feat.\nClimate/Terrain: Any land and underground.\nOrganization: Same as the base creature.\nChallenge Rating: As base creature +15.\nTreasure: Standard for a creature of the adjusted CR.\nAlignment: Same as the base creature.\nAdvancement: Same as the base creature.\nPRISMASAURUS\n| Huge Magical Beast |\nHit Dice: | 60d10+620 (950 hp) |\nInitiative: | +15 (+7 Dex, +8 Superior Initiative) |\nSpeed: | 30 ft. |\nAC: | 55 (-2 size, +7 Dex, +40 natural) |\nBase Attack/Grapple: | +60/+79 |\nAttack: | Bite +72 (8d10+11/ 19-20 (+1d6 on critical hit)) melee |\nFull Attack: | Bite +72 melee (8d10+11/ 19-20 (+1d6 on critical hit)), tail +67 (10d6+5) melee |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Prismatic emanations |\nSpecial Qualities: | Immunities, prismatic blur, SR 38, DR 10/- |\nSaves: | Fort +41, Ref +39, Will +24 |\nAbilities: | Str 32, Dex 25, Con 29, Int 4, Wis 19, Cha 10 |\nSkills: | Listen +37, Spot +38 |\nFeats: | Alertness, Cleave, Combat Reflexes, Dodge, Endurance, Great Cleave, Improved Critical (bite), Improved Initiative, Power Attack, Weapon Focus (bite), Weapon Focus (tail) |\nEpic Feats: | Devastating Critical (bite), Epic Endurance, Epic Toughness (x4), Epic Weapon Focus (bite), Epic Weapon Focus (tail), Overwhelming Critical (bite), Superior Initiative |\nClimate/Terrain: | Any sunny land |\nOrganization: | Solitary or pair |\nChallenge Rating: | 28 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 61-90 HD (Huge); 91-150 HD (Gargantuan) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::026_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::028_combat"
+}

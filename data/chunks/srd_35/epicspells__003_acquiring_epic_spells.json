@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::003_acquiring_epic_spells",
+  "document_id": "srd_35::epicspells::003_acquiring_epic_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "ACQUIRING EPIC SPELLS"
+    ],
+    "source_location": "EpicSpells.rtf#003_acquiring_epic_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "A character with the Epic Spellcasting feat may start acquiring epic spells immediately. Using epic spells is a two-step procedure: development and spellcasting.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicspells::002_epic_spells",
+  "next_chunk_id": "chunk::srd_35::epicspells::004_epic_spell_development"
+}

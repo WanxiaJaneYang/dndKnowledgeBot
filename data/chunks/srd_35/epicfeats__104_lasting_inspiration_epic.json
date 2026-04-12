@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::104_lasting_inspiration_epic",
+  "document_id": "srd_35::epicfeats::104_lasting_inspiration_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LASTING INSPIRATION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#104_lasting_inspiration_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Perform 25 ranks, bardic music class feature.\nBenefit: The effects of the character's bardic music inspiration abilities last for ten times as long as normal after he or she stops singing. This feat has no effect on inspiration abilities that have no duration after the character stops singing.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::103_keen_strike_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::105_legendary_climber_epic"
+}

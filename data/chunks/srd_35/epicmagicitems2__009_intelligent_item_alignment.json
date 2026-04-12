@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::009_intelligent_item_alignment",
+  "document_id": "srd_35::epicmagicitems2::009_intelligent_item_alignment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "INTELLIGENT ITEM ALIGNMENT"
+    ],
+    "source_location": "EpicMagicItems2.rtf#009_intelligent_item_alignment"
+  },
+  "chunk_type": "subsection",
+  "content": "Any item with Intelligence has an alignment. Make sure that the alignment choosen or determine randomly (using Table: Item Alignment) matches any alignment-oriented special abilities of the item. Any character whose alignment is not compatible with that of the item gains one negative level for every 10 points of the weapon's Ego (see Item Ego, below) if he or she so much as picks up the item. Although this never results in actual level loss, the negative levels remain as long as the item is in hand and cannot be overcome in any way (including restoration spells). These negative levels are cumulative with any other penalties the item might already place on inappropriate wielders.\n\nd% | Alignment of Item |\n01-05 | Chaotic good |\n06-15 | Chaotic neutral1 |\n16-20 | Chaotic evil |\n21-25 | Neutral evil1 |\n26-30 | Lawful evil |\n31-55 | Lawful good |\n56-60 | Lawful neutral1 |\n61-80 | Neutral good1 |\n81-100 | Neutral |\n1 The item can also be used by any character whose alignment corresponds to the nonneutral portion of the item's alignment (in other words, chaotic, evil, good, or lawful). Thus, any chaotic character (CG, CN, CE) can use an item with chaotic neutral alignment. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::008_market_price_modifier",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::010_item_communication"
+}

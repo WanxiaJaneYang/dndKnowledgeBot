@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::013_madness_domain",
+  "document_id": "srd_35::divinedomainsandspells::013_madness_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "MADNESS DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#013_madness_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: The character gains an Insanity score equal to half his or her class level. For spellcasting (determining bonus spells and DCs), the character uses his or her Wisdom score plus his or her Insanity score in place of Wisdom alone.\nFor all other purposes, such as skills and saves, use Wisdom minus Insanity in place of Wisdom.\nOnce per day, the character can see and act with the clarity of true madness. Use the character's Insanity score as a positive rather than a negative modifier on a single roll involving Wisdom. Choose to use this power before the roll is made.\nMadness Domain Spells\n1 Random action\n2 Touch of madness",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::012_liberation_domain_spells",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::014_4_confusion"
+}

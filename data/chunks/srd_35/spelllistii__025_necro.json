@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::025_necro",
+  "document_id": "srd_35::spelllistii::025_necro",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Necro"
+    ],
+    "source_location": "SpellListII.rtf#025_necro"
+  },
+  "chunk_type": "subsection",
+  "content": "Cause Fear: One creature of 5 HD or less flees for 1d4 rounds.\nChill Touch: One touch/level deals 1d6 damage and possibly 1 Str damage.\nRay of Enfeeblement: Ray deals 1d6 +1 per two levels Str damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::024_illus",
+  "next_chunk_id": "chunk::srd_35::spelllistii::026_trans"
+}

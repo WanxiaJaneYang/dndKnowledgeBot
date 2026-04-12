@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::027_combat",
+  "document_id": "srd_35::monstersb_c::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A couatl uses its detect thoughts ability on any creature that arouses its suspicions. Since it is highly intelligent, a couatl usually casts spells from a distance before closing. If more than one couatl is involved, they discuss their strategy before a battle.\nConstrict (Ex): A couatl deals 2d8+6 points of damage with a successful grapple check.\nImproved Grab (Ex): To use this ability, a couatl must hit a creature of up to two size categories larger with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nPoison (Ex): Injury, Fortitude DC 16, initial damage 2d4 Str, secondary damage 4d4 Str.\nThe save DC is Constitution-based.\nPsionics (Sp): At will--detect chaos, detect evil, detect good, detect law, detect thoughts (DC 15), invisibility, plane shift (DC 20), polymorph (self only). Effective caster level 9th. The save DCs are Charisma-based.\nSpells: A couatl casts spells as a 9th-level sorcerer.\nIt can choose its spells known from the sorcerer list, the cleric list, and from the lists for the Air, Good, and Law domains. The cleric spells and domain spells are considered arcane spells for a couatl, meaning that the creature does not need a divine focus to cast them.\nTypical Spells Known (6/7/7/7/4; save DC 13 + spell level): 0--cure minor wounds, daze, disrupt undead, light, obscuring mist, ray of frost, read magic, resistance; 1st--endure elements, mage armor, protection from chaos, true strike, wind wall; 2nd--cure moderate wounds, eagle's splendor, scorching ray, silence; 3rd--gaseous form, magic circle against evil, summon monster III; 4th-- charm monster, freedom of movement.\nEthereal Jaunt (Su): This ability works like the ethereal jaunt spell (caster level 16th).\nTelepathy (Su): A couatl can communicate telepathically with any creature within 90 feet that has an Intelligence score. The creature can respond to the couatl if it wishes--no common language is needed.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::026_combat"
+}

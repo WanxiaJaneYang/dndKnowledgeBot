@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::045_requirements",
+  "document_id": "srd_35::prestigeclasses::045_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#045_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a mystic theurge, a character must fulfill all the following criteria.\nSkills: Knowledge (arcana) 6 ranks, Knowledge (religion) 6 ranks.\nSpells: Able to cast 2nd-level divine spells and 2nd-level arcane spells.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::044_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::046_class_skills"
+}

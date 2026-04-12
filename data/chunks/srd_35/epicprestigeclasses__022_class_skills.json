@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::022_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::022_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#022_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The divine emissary's class skills (and the key ability for each) are: Concentration (Con), Craft (Int), Diplomacy (Cha), Disguise (Cha), Gather Information (Cha), Heal (Wis), Intimidate (Cha), Knowledge (religion) (Int), Profession (Wis), Search (Int), Sense Motive (Wis), Spellcraft (Int), Spot (Wis), and Use Magic Device (Cha).\nSkill Points at Each Level: 4 + Int modifier.\nTable : The Divine Emissary\nLevel | Special |\n1st | Divine inspiration 1/day, granted domain |\n2nd | Extra smite 2/day |\n3rd | Greater planar ally 1/day |\n4th | Divine inspiration 2/day |\n5th | Extra smite 3/day |\n6th | Bonus feat |\n7th | Divine inspiration 3/day |\n8th | Extra smite 4/day |\n9th | Divine hand 1/day |\n10th | Divine inspiration 4/day |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::021_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::023_class_features"
+}

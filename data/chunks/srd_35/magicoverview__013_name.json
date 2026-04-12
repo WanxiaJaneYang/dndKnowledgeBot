@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::013_name",
+  "document_id": "srd_35::magicoverview::013_name",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "NAME"
+    ],
+    "source_location": "MagicOverview.rtf#013_name"
+  },
+  "chunk_type": "subsection",
+  "content": "The first line of every spell description gives the name by which the spell is generally known.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::012_spell_descriptions",
+  "next_chunk_id": "chunk::srd_35::magicoverview::014_school_subschool"
+}

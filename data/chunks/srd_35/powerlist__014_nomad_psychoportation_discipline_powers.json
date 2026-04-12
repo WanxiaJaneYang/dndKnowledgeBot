@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::014_nomad_psychoportation_discipline_powers",
+  "document_id": "srd_35::powerlist::014_nomad_psychoportation_discipline_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "NOMAD (PSYCHOPORTATION) DISCIPLINE POWERS"
+    ],
+    "source_location": "PowerList.rtf#014_nomad_psychoportation_discipline_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "1\tBurst: Gain +10 ft. to speed this round.\nDetect TeleportationA: Know when teleportation powers are used in close range.\n2\tDimension SwapA: You and ally or two allies switch positions.\nLevitate, Psionic: Subject moves up and down, forward and back, at your direction.\n3\tAstral CaravanA: You lead astral traveler-enabled group to a planar destination.\n4\tDimensional Anchor, Psionic: Bars extra dimensional movement.\nDismissal, Psionic: Forces a creature to return to its native plane.\nFly, Psionic: You fly at a speed of 60 ft.\n5\tBaleful TeleportA: Destructive teleport deals 9d6 damage.\nTeleport, Psionic: Instantly transports you as far as 100 miles/level.\nTeleport Trigger: Predetermined event triggers teleport.\n6\tBanishment, PsionicA: Banishes extraplanar creatures.\n7\tDream TravelA: Travel to other places through dreams.\nEthereal Jaunt, Psionic: Become ethereal for 1 round/level.\n8\tTime Hop, MassA: Willing subjects hop forward in time.\n9\tTeleportation Circle, Psionic: Circle teleports any creatures inside to designated spot.\nTime RegressionX: Relive the last round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::013_kineticist_psychokinesis_discipline_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::015_seer_clairsentience_discipline_powers"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::037_replacing_and_copying_spellbooks",
+  "document_id": "srd_35::magicoverview::037_replacing_and_copying_spellbooks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "Replacing and Copying Spellbooks"
+    ],
+    "source_location": "MagicOverview.rtf#037_replacing_and_copying_spellbooks"
+  },
+  "chunk_type": "subsection",
+  "content": "A wizard can use the procedure for learning a spell to reconstruct a lost spellbook. If she already has a particular spell prepared, she can write it directly into a new book at a cost of 100 gp per page (as noted in Writing a New Spell into a Spellbook, above). The process wipes the prepared spell from her mind, just as casting it would. If she does not have the spell prepared, she can prepare it from a borrowed spellbook and then write it into a new book.\nDuplicating an existing spellbook uses the same procedure as replacing it, but the task is much easier. The time requirement and cost per page are halved.\nSelling a Spellbook\nCaptured spellbooks can be sold for a gp amount equal to one-half the cost of purchasing and inscribing the spells within (that is, one-half of 100 gp per page of spells). A spellbook entirely filled with spells (that is, with one hundred pages of spells inscribed in it) is worth 5,000 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::036_wizard_spells_and_borrowed_spellbooks",
+  "next_chunk_id": "chunk::srd_35::magicoverview::038_sorcerers_and_bards"
+}

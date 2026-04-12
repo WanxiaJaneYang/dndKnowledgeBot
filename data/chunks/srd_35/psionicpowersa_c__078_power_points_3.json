@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::078_power_points_3",
+  "document_id": "srd_35::psionicpowersa_c::078_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#078_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You shape and alter existing sounds. You can target one sound, such as a person speaking or singing, or a group of related sounds, such as the patter of many raindrops or the tramp of soldiers passing by. A sound as quiet as a snapping finger can be controlled. You can substitute any sound you have heard for the target sound. If you attempt to exactly duplicate the voice of a specific individual, or an inherently terrifying sound (such as a dragon's roar), you must succeed on a Bluff check with a +5 circumstance bonus opposed by the intended listener's Sense Motive check to avoid arousing suspicion.\nYou can entirely muffle a noise or magnify a sound to such loudness that it drowns out all other conversation in the immediate area. In this way, you can provide yourself or any with a +4 circumstance bonus on Move Silently and Listen checks.\nAlternatively, you can use up the power in an instant. You do this by modulating a sound into a one-time destructive impetus that shatters nonmagical/nonpsionic, unattended objects of crystal, glass, ceramics, or porcelain (vials, bottles, flasks, jugs, mirrors, and so forth) in the area.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::077_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::079_display_mental"
+}

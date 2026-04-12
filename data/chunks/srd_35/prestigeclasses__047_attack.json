@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::047_attack",
+  "document_id": "srd_35::prestigeclasses::047_attack",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Attack"
+    ],
+    "source_location": "PrestigeClasses.rtf#047_attack"
+  },
+  "chunk_type": "subsection",
+  "content": "Bonus | Fort\nSave | Ref\nSave | Will\nSave | Spells per Day |\n1st | +0 | +0 | +0 | +2 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n2nd | +1 | +0 | +0 | +3 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n3rd | +1 | +1 | +1 | +3 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n4th | +2 | +1 | +1 | +4 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n5th | +2 | +1 | +1 | +4 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n6th | +3 | +2 | +2 | +5 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n7th | +3 | +2 | +2 | +5 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n8th | +4 | +2 | +2 | +6 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n9th | +4 | +3 | +3 | +6 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |\n10th | +5 | +3 | +3 | +7 | +1 level of existing arcane spellcasting class/\n+1 level of existing divine spellcasting class |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::046_class_skills",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::048_class_features"
+}

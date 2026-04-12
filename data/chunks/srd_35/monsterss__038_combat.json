@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::038_combat",
+  "document_id": "srd_35::monsterss::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A bat swarm seeks to surround and attack any warm-blooded prey it encounters. The swarm deals 1d6 points of damage to any creature whose space it occupies at the end of its move.\nDistraction (Ex): Any living creature that begins its turn with a swarm in its space must succeed on a DC 11 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.\nWounding (Ex): Any living creature damaged by a bat swarm continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 Heal check or the application of a cure spell or some other healing magic.\nBlindsense (Ex): A bat swarm notices and locates creatures within 20 feet. Opponents still have total concealment against the bat swarm (but swarm attacks ignore concealment).\nSkills: A bat swarm has a +4 racial bonus on Listen and Spot checks. These bonuses are lost if its blindsense is negated.\nCENTIPEDE SWARM\n| Diminutive Vermin (Swarm) |\nHit Dice: | 9d8-9 (31 hp) |\nInitiative: | +4 |\nSpeed: | 20 ft. (4 squares), climb 20 ft. |\nArmor Class: | 18 (+4 size, +4 Dex), touch 18, flat-footed 14 |\nBase Attack/Grapple: | +6/-- |\nAttack: | Swarm (2d6 plus poison) |\nFull Attack: | Swarm (2d6 plus poison) |\nSpace/Reach: | 10 ft./0 ft. |\nSpecial Attacks: | Distraction, poison |\nSpecial Qualities: | Darkvision 60 ft., immune to weapon damage, swarm traits, tremorsense 30 ft., vermin traits |\nSaves: | Fort +5, Ref +7, Will +3 |\nAbilities: | Str 1, Dex 19, Con 8, Int --, Wis 10, Cha 2 |\nSkills: | Climb +12, Spot +4 |\nFeats: | Weapon FinesseB |\nEnvironment: | Underground |\nOrganization: | Solitary, tangle (2-4 swarms), or colony (7-12 swarms) |\nChallenge Rating: | 4 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | None |\nLevel Adjustment: | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::037_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::039_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::008_power_points_17",
+  "document_id": "srd_35::psionicpowersa_c::008_power_points_17",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 17"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#008_power_points_17"
+  },
+  "chunk_type": "subsection",
+  "content": "Your pointing finger turns black as obsidian. A creature touched by you is partially assimilated into your form and takes 20d6 points of damage. Any creature reduced to 0 or fewer hit points by this power is killed, entirely assimilated into your form, leaving behind only a trace of fine dust. An assimilated creature's equipment is unaffected.\nA creature that is partially assimilated into your form (that is, a creature that has at least 1 hit point following your use of this power) grants you a number of temporary hit points equal to half the damage you dealt for 1 hour.\nA creature that is completely assimilated grants you a number of temporary hit points equal to the damage you dealt and a +4 bonus to each of your ability scores for 1 hour. If the assimilated creature knows psionic powers, you gain knowledge of one of its powers for 1 hour. You gain some semblance of a creature you completely assimilate for 1 hour, granting you a +10 bonus on Disguise checks made to appear as that creature during that time.\nAstral Caravan\nPsychoportation\nLevel: Nomad 3\nDisplay: None\nManifesting Time: 1 hour\n\nTargets: You and touched willing creatures\nDuration: See text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::007_power_points_17_xp",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::009_power_points_5"
+}

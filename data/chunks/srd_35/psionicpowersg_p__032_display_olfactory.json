@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::032_display_olfactory",
+  "document_id": "srd_35::psionicpowersg_p::032_display_olfactory",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Olfactory"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#032_display_olfactory"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Personal or close (25 ft. + 5 ft./2 levels)\nTarget: You or one willing creature or one object (total weight up to 100 lb./level)\nDuration: 10 min./level (D)\n\nPower Resistance: Yes (harmless, object)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::031_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::033_power_points_3"
+}

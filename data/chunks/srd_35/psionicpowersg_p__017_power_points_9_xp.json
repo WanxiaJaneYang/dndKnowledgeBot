@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::017_power_points_9_xp",
+  "document_id": "srd_35::psionicpowersg_p::017_power_points_9_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 9, XP"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#017_power_points_9_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "This power makes certain other powers permanent. Depending on the power to be affected, you must be of a minimum manifester level and must expend a number of XP.\nYou can make the following powers permanent only in regard to yourself.\nPower | Minimum Manifester Level | XP Cost |\nAura sight | 15th | 2,000 XP |\nConceal thoughts | 9th | 500 XP |\nDanger sense | 13th | 1,500 XP |\nDetect psionics | 9th | 500 XP |\nDetect remote viewing | 15th | 2,000 XP |\nDetect teleportation | 9th | 500 XP |\nElfsight | 11th | 1,000 XP |\nKnow direction and location | 9th | 500 XP |\nMy light | 9th | 500 XP |\nPsionic darkvision | 13th | 1,500 XP |\nPsionic tongues | 11th | 1,000 XP |\nUbiquitous vision | 13th | 1,500 XP |\nYou manifest the desired power and then follow it with the incarnate manifestation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::016_display_material",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::018_psychokinesis"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::028_combat",
+  "document_id": "srd_35::monstersanimals::028_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#028_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Monitor lizards can be aggressive, using their powerful jaws to tear at prey or enemies.\nSkills: A monitor lizard has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. Monitor lizards have a +4 racial bonus on Hide and Move Silently checks. *In forested or overgrown areas, the Hide bonus improves to +8.\n\nHit Dice: | 4d8 (18 hp) |\nInitiative: | +0 |\nSpeed: | Swim 30 ft. (6 squares) |\nArmor Class: | 12 (-1 size, +3 natural), touch 9, flat-footed 12 |\nBase Attack/Grapple: | +3/+9 |\nAttack: | Ram -1 melee* (1d6+1) |\nFull Attack: | Ram -1 melee* (1d6+1) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision |\nSaves: | Fort +4, Ref +4, Will +2 |\nAbilities: | Str 15, Dex 11, Con 10, Int 1, Wis 12, Cha 2 |\nSkills: | Listen +7, Spot +6, Swim +10 |\nFeats: | Alertness, Endurance |\nEnvironment: | Warm aquatic |\nOrganization: | Solitary or school (2-5) |\nChallenge Rating: | 1 |\nAdvancement: | 5-6 HD (Medium) |\nLevel Adjustment: | -- |\nThese fish are nonaggressive and generally avoid contact with other creatures. They filter plankton and similar small organisms from the water through their gaping, toothless maws.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::027_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::029_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::007_saving_throws_against_magic_item_powers",
+  "document_id": "srd_35::magicitemsi::007_saving_throws_against_magic_item_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "SAVING THROWS AGAINST MAGIC ITEM POWERS"
+    ],
+    "source_location": "MagicItemsI.rtf#007_saving_throws_against_magic_item_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Magic items produce spells or spell-like effects. For a saving throw against a spell or spell-like effect from a magic item, the DC is 10 + the level of the spell or effect + the ability modifier of the minimum ability score needed to cast that level of spell.\nStaffs are an exception to the rule. Treat the saving throw as if the wielder cast the spell, including caster level and all modifiers to save DC.\nMost item descriptions give saving throw DCs for various effects, particularly when the effect has no exact spell equivalent (making its level otherwise difficult to determine quickly).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::006_magic_items_on_the_body",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::008_damaging_magic_items"
+}

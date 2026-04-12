@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::020_giant",
+  "document_id": "srd_35::monstersg::020_giant",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GIANT"
+    ],
+    "source_location": "MonstersG.rtf#020_giant"
+  },
+  "chunk_type": "subsection",
+  "content": "All giants speak Giant. Those with Intelligence scores of 10 or higher also speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::019_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::021_combat"
+}

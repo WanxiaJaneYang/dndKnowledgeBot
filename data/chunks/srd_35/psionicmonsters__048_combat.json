@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::048_combat",
+  "document_id": "srd_35::psionicmonsters::048_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#048_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Psi-Like Abilities: 3/day--concealing amorpha, hustle, mental barrier; 1/day--vigor (+15 hp*). Manifester level 3rd.\n*Includes augmentation for the flesh harrower's manifester level.\n\nHit Dice: | 8d8+16 (52 hp) |\nInitiative: | +7 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 15 (-1 size, +3 Dex, +3 natural), touch 12, flat-footed 12 |\nBase Attack/Grapple: | +6/+11 |\nAttack: | Claw +6 melee (1d6+1) |\nFull Attack: | 4 claws +6 melee (1d6+1) and bite +1 melee (1d8) and horn +1 melee (1d4) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Improved grab, psi-like abilities, time filch |\nSpecial Qualities: | Darkvision 60 ft. |\nSaves: | Fort +4, Ref +5, Will +7 |\nAbilities: | Str 13, Dex 17, Con 14, Int 7, Wis 12, Cha 14 |\nSkills: | Listen +7, Spot +7, Tumble +6 |\nFeats: | Alertness, Dodge, Improved Initiative |\nEnvironment: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually evil (any) |\nAdvancement: | 9-15 HD (Large) |\nLevel Adjustment: | -- |\nTemporal filchers do not speak.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::047_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::049_combat"
+}

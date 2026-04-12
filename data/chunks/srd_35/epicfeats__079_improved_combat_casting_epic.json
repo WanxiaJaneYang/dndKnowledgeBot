@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::079_improved_combat_casting_epic",
+  "document_id": "srd_35::epicfeats::079_improved_combat_casting_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED COMBAT CASTING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#079_improved_combat_casting_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Combat Casting, Concentration 25 ranks.\nBenefit: The character doesn't incur attacks of opportunity for casting spells when threatened.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::078_improved_aura_of_despair_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::080_improved_combat_reflexes_epic"
+}

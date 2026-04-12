@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::026_tumble",
+  "document_id": "srd_35::epicskills::026_tumble",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Tumble"
+    ],
+    "source_location": "EpicSkills.rtf#026_tumble"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can fall from great heights without taking damage, move greater distances with an adjustment, or \u201cclimb\u201d vertical surfaces with a series of bounces.\nDC | Task |\n30 | Treat a fall as if it were 20 feet shorter when determining damage. |\n35 | Free stand. |\n45 | Treat a fall as if it were 30 feet shorter when determining damage. |\n50 | Climb vertical surface. |\n60 | Treat a fall as if it were 40 feet shorter when determining damage. |\n100 | Ignore falling damage. |\nFree Stand: The character can stand up from prone as a free action (instead of as a move-equivalent action).\nClimb Vertical Surface: The character can climb up to 20 feet (as part of normal move-ment) by jumping and bouncing off walls, trees, or similar vertical surfaces. The character must have at least two vertical surfaces to bounce off, and the two must be within 10 feet of each other.\nIgnore Falling Damage: The character can fall from any height and take no damage.\nSpecial: A character with 25 or more ranks in Tumble gains a +5 dodge bonus when executing the fight defensively standard or full-round action, instead of a +2 bonus (or the +3 bonus from having 5 or more ranks). Increase this dodge bonus by +1 for every 10 additional ranks above 25 the character has. A character with 25 or more ranks in Tumble gains a +10 dodge bonus to AC when executing the total defense standard action, instead of a +4 bonus (or the +6 bonus from having 5 or more ranks). Increase this dodge bonus by +2 for every 10 additional ranks above 25 the character has.\n\nUse Magic Device does not possess an epic usage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::025_survival",
+  "next_chunk_id": "chunk::srd_35::epicskills::027_use_rope"
+}

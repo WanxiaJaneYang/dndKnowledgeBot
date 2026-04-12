@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::015_nobility_domain",
+  "document_id": "srd_35::divinedomainsandspells::015_nobility_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "NOBILITY DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#015_nobility_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: The character has the spell-like ability to inspire allies, giving them a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. Allies must be able to hear the character speak for 1 round. Using this ability is a standard action. It lasts a number of rounds equal to the character's Charisma bonus and can be used once per day.\nNobility Domain Spells\n1 Divine favor",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::014_4_confusion",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::016_2_enthrall"
+}

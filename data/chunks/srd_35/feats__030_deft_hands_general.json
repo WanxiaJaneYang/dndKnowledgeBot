@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::030_deft_hands_general",
+  "document_id": "srd_35::feats::030_deft_hands_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "DEFT HANDS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#030_deft_hands_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Sleight of Hand checks and Use Rope checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::029_deflect_arrows_general",
+  "next_chunk_id": "chunk::srd_35::feats::031_diehard_general"
+}

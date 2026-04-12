@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::035_deep_dwarf",
+  "document_id": "srd_35::monstersdr_dw::035_deep_dwarf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Deep Dwarf"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#035_deep_dwarf"
+  },
+  "chunk_type": "subsection",
+  "content": "These dwarves live far underground and tend to be more standoffish with non-dwarves.\nDeep dwarves are the same height as other dwarves, but leaner. Their skin sometimes has a reddish tinge, and their large eyes lack the brightness of those of their kindred, being a washed-out blue. Their hair color ranges from bright red to straw blond. They have little contact with surface dwellers, relying on hill dwarves or mountain dwarves to trade goods for them.\nDeep dwarves speak Dwarven and Goblin, and occasionally Draconic or Undercommon.\nDeep Dwarf Traits (Ex): These traits are in addition to the hill dwarf traits, except where noted.\n--Racial bonus on saves against spells and spell-like abilities increases to +3.\n--Racial bonus on Fortitude saves against poisons increases to +3.\n--Darkvision out to 90 feet.\n--Light Sensitivity: Deep dwarves are dazzled in bright sunlight or within the radius of a daylight spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::034_subraces",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::036_duergar"
+}

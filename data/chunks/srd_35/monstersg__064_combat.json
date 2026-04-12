@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::064_combat",
+  "document_id": "srd_35::monstersg::064_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#064_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Griffons prefer to pounce on their prey, either diving to the attack or leaping from above.\nPounce (Ex): If a griffon dives upon or charges a foe, it can make a full attack, including two rake attacks.\nRake (Ex): Attack bonus +8 melee, damage 1d6+2.\nSkills: Griffons have a +4 racial bonus on Jump and Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::063_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::065_training_a_griffon"
+}

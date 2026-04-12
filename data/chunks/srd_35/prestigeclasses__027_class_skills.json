@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::027_class_skills",
+  "document_id": "srd_35::prestigeclasses::027_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "PrestigeClasses.rtf#027_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The duelist's class skills (and the key ability for each skill) are Balance (Dex), Bluff (Cha), Escape Artist (Dex), Jump (Str), Listen (Wis), Perform (Cha), Sense Motive (Wis), Spot (Wis), and Tumble (Dex).\nSkill Points at Each Level: 4 + Int modifier.\nTable: The Duelist |\nLevel | Base\nAttack\nBonus | Fort\nSave | Ref\nSave | Will\nSave | Special |\n1st | +1 | +0 | +2 | +0 | Canny defense |\n2nd | +2 | +0 | +3 | +0 | Improved reaction +2 |\n3rd | +3 | +1 | +3 | +1 | Enhanced mobility |\n4th | +4 | +1 | +4 | +1 | Grace |\n5th | +5 | +1 | +4 | +1 | Precise strike +1d6 |\n6th | +6 | +2 | +5 | +2 | Acrobatic charge |\n7th | +7 | +2 | +5 | +2 | Elaborate parry |\n8th | +8 | +2 | +6 | +2 | Improved reaction +4 |\n9th | +9 | +3 | +6 | +3 | Deflect Arrows |\n10th | +10 | +3 | +7 | +3 | Precise strike +2d6 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::026_requirements",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::028_class_features"
+}

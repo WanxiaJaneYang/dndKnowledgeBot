@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::032_warrior",
+  "document_id": "srd_35::monsterse_f::032_warrior",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "WARRIOR"
+    ],
+    "source_location": "MonstersE-F.rtf#032_warrior"
+  },
+  "chunk_type": "subsection",
+  "content": "Warriors communicate through the hive mind to convey battle plans and make reports to their commanders. They cannot speak otherwise.\nA warrior is about is about 5 feet long and about 4-1/2 feet high at the front. It weighs about 180 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::031_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::033_combat"
+}

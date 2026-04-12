@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::022_harpy_archer",
+  "document_id": "srd_35::monstersh_i::022_harpy_archer",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HARPY ARCHER"
+    ],
+    "source_location": "MonstersH-I.rtf#022_harpy_archer"
+  },
+  "chunk_type": "subsection",
+  "content": "A cruel hunter and roaming brigand, the harpy archer has trained as a fighter specializing in ranged combat. Harpy archers often become mercenaries, selling their services to the highest bidder. When not employed, they make ends meet as highway robbers, forcing merchant caravans to pay protection money.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::021_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::023_combat"
+}

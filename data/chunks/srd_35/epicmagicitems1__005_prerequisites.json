@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::005_prerequisites",
+  "document_id": "srd_35::epicmagicitems1::005_prerequisites",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "PREREQUISITES"
+    ],
+    "source_location": "EpicMagicItems1.rtf#005_prerequisites"
+  },
+  "chunk_type": "subsection",
+  "content": "In addition to the materials and tools required for nonepic magic items, any epic magic item requires at least two item creation feats: the epic and nonepic version.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::004_caster_level",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::006_market_price"
+}

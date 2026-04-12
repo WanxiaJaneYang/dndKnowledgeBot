@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::019_colossal_wild_shape_wild_epic",
+  "document_id": "srd_35::epicfeats::019_colossal_wild_shape_wild_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "COLOSSAL WILD SHAPE [WILD][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#019_colossal_wild_shape_wild_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: The ability to wild shape into a Gargantuan creature.\nBenefit: The character can use his or her wild shape to take the shape of a Colossal animal.\nNormal: Without this feat, a character cannot wild shape into an animal of greater than Huge size.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::018_chaotic_rage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::020_combat_archery_epic"
+}

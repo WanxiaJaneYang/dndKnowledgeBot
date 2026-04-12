@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::049_lava_effects",
+  "document_id": "srd_35::wildernessandenvironment::049_lava_effects",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "Lava Effects"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#049_lava_effects"
+  },
+  "chunk_type": "subsection",
+  "content": "Lava or magma deals 2d6 points of damage per round of exposure, except in the case of total immersion (such as when a character falls into the crater of an active volcano), which deals 20d6 points of damage per round.\nDamage from magma continues for 1d3 rounds after exposure ceases, but this additional damage is only half of that dealt during actual contact (that is, 1d6 or 10d6 points per round).\nAn immunity or resistance to fire serves as an immunity to lava or magma. However, a creature immune to fire might still drown if completely immersed in lava (see Drowning, below).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::048_heat_dangers",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::050_smoke_effects"
+}

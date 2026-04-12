@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::015_the_lich_s_phylactery",
+  "document_id": "srd_35::monstersk_l::015_the_lich_s_phylactery",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "THE LICH'S PHYLACTERY"
+    ],
+    "source_location": "MonstersK-L.rtf#015_the_lich_s_phylactery"
+  },
+  "chunk_type": "subsection",
+  "content": "An integral part of becoming a lich is creating a magic phylactery in which the character stores its life force. As a rule, the only way to get rid of a lich for sure is to destroy its phylactery. Unless its phylactery is located and destroyed, a lich reappears 1d10 days after its apparent death.\nEach lich must make its own phylactery, which requires the Craft Wondrous Item feat. The character must be able to cast spells and have a caster level of 11th or higher. The phylactery costs 120,000 gp and 4,800 XP to create and has a caster level equal to that of its creator at the time of creation.\nThe most common form of phylactery is a sealed metal box containing strips of parchment on which magical phrases have been transcribed. The box is Tiny and has 40 hit points, hardness 20, and a break DC of 40.\nOther forms of phylacteries can exist, such as rings, amulets, or similar items.\n\nHit Dice: | 7d8+14 (45 hp) |\nInitiative: | +3 |\nSpeed: | 20 ft. (4 squares), fly 70 ft. (average) |\nArmor Class: | 17 (-1 size, +3 Dex, +5 natural), touch 12, flat-footed 14 |\nBase Attack/Grapple: | +7/+16 |\nAttack: | Short sword +11 melee (1d8+5/19-20) |\nFull Attack: | Short sword +11/+6 melee (1d8+5/19-20) and tail slap +6 melee (2d6+2) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Constrict 2d6+5, improved grab, spells, spell-like abilities |\nSpecial Qualities: | Darkvision 60 ft., immunity to poison, resistance to fire 10 |\nSaves: | Fort +7, Ref +10, Will +8 |\nAbilities: | Str 20, Dex 17, Con 15, Int 14, Wis 16, Cha 18 |\nSkills: | Appraise +12, Concentration +12, Diplomacy +16, Knowledge (arcana) +12, Listen +13, Perform (any one) +14, Sense Motive +13, Spellcraft +14, Spot +13, Survival +17 |\nFeats: | Combat Casting, Extend Spell, Lightning Reflexes |\nEnvironment: | A chaos-aligned plane |\nOrganization: | Solitary or covey (2-4) |\nChallenge Rating: | 7 |\nTreasure: | Standard |\nAlignment: | Always chaotic good |\nAdvancement: | 8-10 HD (Large); 11-21 HD (Huge) |\nLevel Adjustment: | +6 |\nA typical lillend's coils are 20 feet long. The creature weighs about 3,800 pounds. A few lillends have male torsos.\nLillends speak Celestial, Infernal, Abyssal, and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::014_lich_characters",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::016_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::027_combat",
+  "document_id": "srd_35::monstersintro_a::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "An allip is unable to cause physical harm, although it doesn't appear to know that. It keeps flailing away at enemies, yet it inflicts no wounds.\nBabble (Su): An allip constantly mutters and whines to itself, creating a hypnotic effect. All sane creatures within 60 feet of the allip must succeed on a DC 16 Will save or be affected as though by a hypnotism spell for 2d4 rounds. This is a sonic mind-affecting compulsion effect.\nCreatures that successfully save cannot be affected by the same allip's babble for 24 hours. The save DC is Charisma-based.\nMadness (Su): Anyone targeting an allip with a thought detection, mind control, or telepathic ability makes direct contact with its tortured mind and takes 1d4 points of Wisdom damage.\nWisdom Drain (Su): An allip causes 1d4 points of Wisdom drain each time it hits with its incorporeal touch attack. On each such successful attack, it gains 5 temporary hit points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::026_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::028_angel"
+}

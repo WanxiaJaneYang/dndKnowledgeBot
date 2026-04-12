@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epiclevelbasics::004_adding_a_second_class",
+  "document_id": "srd_35::epiclevelbasics::004_adding_a_second_class",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicLevelBasics",
+      "Adding a Second Class"
+    ],
+    "source_location": "EpicLevelBasics.rtf#004_adding_a_second_class"
+  },
+  "chunk_type": "subsection",
+  "content": "When a single-class epic character gains a level, he or she may choose to increase the level of his or her current class or pick up a new class at 1st level. The standard rules for multiclass characters still apply, but epic characters must keep in mind the rules for epic advancement. The epic character gains all the 1st-level class skills, weapon proficiency, armor proficiency, spells, and other class features of the new class, as well as a Hit Die of the appropriate type. In addition, the character gets the usual skill points from the new class. Just as with standard multiclassing, adding the second class does not confer some of the benefits for a 1st-level character, including maximum hit points from the first Hit Die, quadruple the per-level skill points, starting equipment, starting gold, or an animal companion. An epic character does not gain the base attack bonuses and base save bonuses normally gained when adding a second class. Instead, an epic character uses the epic attack bonus and epic save bonus progression shown on Table: Epic Save and Epic Attack Bonus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epiclevelbasics::003_class_features"
+}

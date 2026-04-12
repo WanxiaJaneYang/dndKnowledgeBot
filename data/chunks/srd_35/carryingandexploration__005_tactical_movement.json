@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::carryingandexploration::005_tactical_movement",
+  "document_id": "srd_35::carryingandexploration::005_tactical_movement",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CarryingandExploration",
+      "TACTICAL MOVEMENT"
+    ],
+    "source_location": "CarryingandExploration.rtf#005_tactical_movement"
+  },
+  "chunk_type": "subsection",
+  "content": "Use tactical movement for combat. Characters generally don't walk during combat--they hustle or run. A character who moves his or her speed and takes some action is hustling for about half the round and doing something else the other half.\nHampered Movement: Difficult terrain, obstacles, or poor visibility can hamper movement. When movement is hampered, each square moved into usually counts as two squares, effectively reducing the distance that a character can cover in a move.\nIf more than one condition applies, multiply together all additional costs that apply. (This is a specific exception to the normal rule for doubling)\nIn some situations, your movement may be so hampered that you don't have sufficient speed even to move 5 feet (1 square). In such a case, you may use a full-round action to move 5 feet (1 square) in any direction, even diagonally. Even though this looks like a 5-foot step, it's not, and thus it provokes attacks of opportunity normally. (You can't take advantage of this rule to move through impassable terrain or to move when all movement is prohibited to you.)\nYou can't run or charge through any square that would hamper your movement.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::carryingandexploration::004_movement",
+  "next_chunk_id": "chunk::srd_35::carryingandexploration::006_local_movement"
+}

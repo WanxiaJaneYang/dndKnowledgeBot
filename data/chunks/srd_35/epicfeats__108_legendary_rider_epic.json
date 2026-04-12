@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::108_legendary_rider_epic",
+  "document_id": "srd_35::epicfeats::108_legendary_rider_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LEGENDARY RIDER [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#108_legendary_rider_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ride 24 ranks.\nBenefit: The character doesn't take a penalty on Ride checks when riding a mount without a saddle (bareback). The character never needs to make a Ride check to control a mount in combat (and even controlling a mount not trained for combat doesn't require an action).\nNormal: Without this feat, a character takes a -5 penalty on Ride checks without a saddle, and must make a Ride check to control a mount in combat (and controlling a mount not trained for combat requires a move action).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::107_legendary_leaper_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::109_legendary_tracker_epic"
+}

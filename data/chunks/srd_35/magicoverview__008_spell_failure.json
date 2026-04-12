@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::008_spell_failure",
+  "document_id": "srd_35::magicoverview::008_spell_failure",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "SPELL FAILURE"
+    ],
+    "source_location": "MagicOverview.rtf#008_spell_failure"
+  },
+  "chunk_type": "subsection",
+  "content": "If you ever try to cast a spell in conditions where the characteristics of the spell cannot be made to conform, the casting fails and the spell is wasted.\nSpells also fail if your concentration is broken and might fail if you're wearing armor while casting a spell with somatic components.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::007_caster_level",
+  "next_chunk_id": "chunk::srd_35::magicoverview::009_the_spell_s_result"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::036_illus",
+  "document_id": "srd_35::spelllistii::036_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#036_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Hallucinatory Terrain: Makes one type of terrain appear like another (field into forest, or the like).\nIllusory Wall: Wall, floor, or ceiling looks real, but anything can pass through.\nInvisibility, Greater: As invisibility, but subject can attack and stay invisible.\nPhantasmal Killer: Fearsome illusion kills subject or deals 3d6 damage.\nRainbow Pattern: Lights fascinate 24 HD of creatures.\nShadow Conjuration: Mimics conjuration below 4th level, but only 20% real.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::035_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::037_necro"
+}

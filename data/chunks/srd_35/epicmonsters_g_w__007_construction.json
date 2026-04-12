@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::007_construction",
+  "document_id": "srd_35::epicmonsters_g_w::007_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Construction"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#007_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "A mithral golem's body is sculpted from 8 1/2 tons of pure iron and is then polymorphed into mithral (using polymorph any object). A mithral golem costs 250,000 gold pieces to create, which includes 5,000 gp for the body. Assembling the body requires a successful Craft (armorsmithing) or Craft (weaponsmithing) check (DC 30). The creator must be 25th level, have the Craft Epic Magic Arms and Armor feat, and be able to cast arcane spells. Completing the ritual drains 5,000 XP from the creator and requires geas/quest, haste, and wish.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::006_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::008_adamantine_golem"
+}

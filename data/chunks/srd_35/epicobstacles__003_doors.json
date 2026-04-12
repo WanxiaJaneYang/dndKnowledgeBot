@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicobstacles::003_doors",
+  "document_id": "srd_35::epicobstacles::003_doors",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicObstacles",
+      "Doors"
+    ],
+    "source_location": "EpicObstacles.rtf#003_doors"
+  },
+  "chunk_type": "subsection",
+  "content": "| | | | Break DC |\nDoor Type | Typical Thickness | Hardness | Hit Points | Stuck | Locked |\nSimple wooden | 1 in. | 5 | 10 hp | 13 | 15 |\nGood wooden | 1 1/2 in. | 5 | 15 hp | 16 | 18 |\nStrong wooden | 2 in. | 5 | 20 hp | 23 | 25 |\nStone | 4 in. | 8 | 60 hp | 28 | 28 |\nIron | 2 in. | 10 | 60 hp | 28 | 28 |\nMithral | 2 in. | 15 | 60 hp | 40 | 40 |\nAdamantine | 2 in. | 20 | 80 hp | 60 | 60 |\nForce | 1 in. | n/a | n/a | n/a | n/a |\nPortcullis, wodden | 3 in. | 5 | 30 hp | 25* | 25* |\nPortcullis, iron | 2 in. | 10 | 60 hp | 25* | 25* |\nPortcullis, mithral | 2 in. | 15 | 60 hp | 30* | 30* |\nPortcullis, adamatine | 2 in. | 20 | 80 hp | 40* | 40* |\nPortcullis, force | 1 in. | 10 | n/a | n/a | 50* |\n*DC to lift. Use appropriate door figure for breaking. | | | |\nObstacles and Hazards\nObstacle/Hazard | Effect |\nAcid tank | 1d6 damage per round, or 10d6 per round for total immersion; plus poison fumes. |\nAntimagic field | Negates all spells or magical effects. |\nDimensional anchor trap | Blocks bodily extradimensional travel. |\nHurricane-force winds | Ranged attacks impossible, flight virtually impossible. |\nLava pit | 2d6 damage per round, or 20d6 per round for total immersion; plus continuing damage. |\nPermanent prismatic sphere | Requires seven different spells to bypass. |\nPermanent solid fog | Move at one-tenth normal speed, -2 penalty on attack and damage (good when coupled with incorporeal monsters). |\nPermanent wall of force | Blocks most spells and ethereal travel, can't be dispelled. |\nThree-dimensional dungeons | Levitation/flying required to move between areas. |\nUnconnected rooms | Teleportation required to move between areas. |\nVariable gravity | As reverse gravity, but direction random each round. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicobstacles::002_walls",
+  "next_chunk_id": "chunk::srd_35::epicobstacles::004_slimes_molds_and_fungi"
+}

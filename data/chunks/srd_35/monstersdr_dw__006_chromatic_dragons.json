@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::006_chromatic_dragons",
+  "document_id": "srd_35::monstersdr_dw::006_chromatic_dragons",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "CHROMATIC DRAGONS"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#006_chromatic_dragons"
+  },
+  "chunk_type": "subsection",
+  "content": "Chromatic dragons form the evil branch of dragonkind. They are aggressive, greedy, vain, and nasty.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::005_dragonhide",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::007_dragon_water"
+}

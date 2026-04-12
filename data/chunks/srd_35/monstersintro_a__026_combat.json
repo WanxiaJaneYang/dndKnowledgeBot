@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::026_combat",
+  "document_id": "srd_35::monstersintro_a::026_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#026_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In close combat, an achaierai lashes out with two of its four legs and snaps with its powerful beak. It makes frequent use of its Spring Attack feat to strike quickly and then retreat out of range before an enemy can counterattack.\nAn achaierai's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawfulaligned for the purpose of overcoming damage reduction.\nBlack Cloud (Ex): Up to three times per day an achaierai can release a choking, toxic black cloud.\nThose other than achaierai within 10 feet instantly take 2d6 points of damage. They must also succeed on a DC 15 Fortitude save or be affected for 3 hours as though by an insanity spell (caster level 16th). The save DC is Constitution-based.\n\nHit Dice: | 4d12 (26 hp) |\nInitiative: | +5 |\nSpeed: | Fly 30 ft. (perfect) (6 squares) |\nArmor Class: | 15 (+1 Dex, +4 deflection), touch 15, flat-footed 14 |\nBase Attack/Grapple: | +2/-- |\nAttack: | Incorporeal touch +3 melee (1d4 Wisdom drain) |\nFull Attack: | Incorporeal touch +3 melee (1d4 Wisdom drain) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Babble, madness, Wisdom drain |\nSpecial Qualities: | Darkvision 60 ft., incorporeal traits, +2 turn resistance, undead traits |\nSaves: | Fort +1, Ref +4, Will +4 |\nAbilities: | Str --, Dex 12, Con --, Int 11, Wis 11, Cha 18 |\nSkills: | Hide +8, Intimidate +7, Listen +7, Search +4, Spot +7, Survival +0 (+2 following tracks) |\nFeats: | Improved Initiative, Lightning Reflexes |\nEnvironment: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral evil |\nAdvancement: | 5-12 HD (Medium) |\nLevel Adjustment: | -- |\nAn allip is the spectral remains of someone driven to suicide by a madness that afflicted it in life. It craves only revenge and unrelentingly pursues those who tormented it in life and pushed it over the brink.\nAn allip cannot speak intelligibly.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::025_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::027_combat"
+}

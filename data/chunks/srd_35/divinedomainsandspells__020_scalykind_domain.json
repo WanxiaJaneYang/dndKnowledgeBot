@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::020_scalykind_domain",
+  "document_id": "srd_35::divinedomainsandspells::020_scalykind_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "SCALYKIND DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#020_scalykind_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Rebuke or command animals (reptilian creatures and snakes only) as an evil cleric rebukes or commands undead.\nUse this ability a total number of times per day equal to 3 + Charisma modifier.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::019_1_erase",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::021_scalykind_domain_spells"
+}

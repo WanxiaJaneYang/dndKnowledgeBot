@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::012_combat",
+  "document_id": "srd_35::monsterss::012_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#012_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Strength Damage (Su): The touch of a greater shadow deals 1d8 points of Strength damage to a living foe.\n\nHit Dice: | 4d8+12 (30 hp) |\nInitiative: | +5 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 14 (+1 Dex, +3 natural), touch 11, flat-footed 13 |\nBase Attack/Grapple: | +4/+7 |\nAttack: | Bite +7 melee (1d6+4) |\nFull Attack: | Bite +7 melee (1d6+4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Bay, trip |\nSpecial Qualities: | Darkvision 60 ft., shadow blend, scent |\nSaves: | Fort +7, Ref +5, Will +5 |\nAbilities: | Str 17, Dex 13, Con 17, Int 4, Wis 12, Cha 13 |\nSkills: | Hide +8, Listen +8, Move Silently +8, Spot +8, Survival +8* |\nFeats: | Dodge, Improved Initiative, TrackB |\nEnvironment: | Plane of Shadow |\nOrganization: | Solitary, pair, or pack (5-12) |\nChallenge Rating: | 5 |\nTreasure: | None |\nAlignment: | Always neutral evil |\nAdvancement: | 5-6 HD (Medium); 7-12 HD (Large) |\nLevel Adjustment: | +3 (cohort) |\nThis creature has the body of a large dog, with a smooth black coat and a mouth full of sharp teeth.\nA shadow mastiff is slightly more than 2 feet high at the shoulder and weighs about 200 pounds.\nShadow mastiffs cannot speak, but they understand Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::011_greater_shadow",
+  "next_chunk_id": "chunk::srd_35::monsterss::013_combat"
+}

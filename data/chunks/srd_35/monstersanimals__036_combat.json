@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::036_combat",
+  "document_id": "srd_35::monstersanimals::036_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#036_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A warpony can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nCarrying Capacity: A light load for a warpony is up to 100 pounds; a medium load, 101-200 pounds; and a heavy load, 201-300 pounds. A warpony can drag 1,500 pounds.\n\nHit Dice: | 2d8+2 (11 hp) |\nInitiative: | +3 |\nSpeed: | Swim 80 ft. (16 squares) |\nArmor Class: | 15 (+3 Dex, +2 natural), touch 13, flat-footed 12 |\nBase Attack/Grapple: | +1/+1 |\nAttack: | Slam +4 melee (2d4) |\nFull Attack: | Slam +4 melee (2d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Blindsight 120 ft., hold breath, low-light vision |\nSaves: | Fort +4, Ref +6, Will +1 |\nAbilities: | Str 11, Dex 17, Con 13, Int 2, Wis 12, Cha 6 |\nSkills: | Listen +8*, Spot +7*, Swim +8 |\nFeats: | Weapon Finesse |\nEnvironment: | Temperate aquatic |\nOrganization: | Solitary, pair, or school (3-20) |\nChallenge Rating: | 1/2 |\nAdvancement: | 3-4 HD (Medium); 5-6 HD (Large) |\nLevel Adjustment: | -- |\nPorpoises are mammals that tend to be playful, friendly, and helpful. A typical porpoise is 4 to 6 feet long and weighs 110 to 160 pounds. The statistics presented here can describe any small whale of similar size.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::035_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::037_combat"
+}

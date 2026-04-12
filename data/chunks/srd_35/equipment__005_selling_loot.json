@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::005_selling_loot",
+  "document_id": "srd_35::equipment::005_selling_loot",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "SELLING LOOT"
+    ],
+    "source_location": "Equipment.rtf#005_selling_loot"
+  },
+  "chunk_type": "subsection",
+  "content": "In general, a character can sell something for half its listed price.\nTrade goods are the exception to the half-price rule. A trade good, in this sense, is a valuable good that can be easily exchanged almost as if it were cash itself.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::004_wealth_other_than_coins",
+  "next_chunk_id": "chunk::srd_35::equipment::006_weapon_categories"
+}

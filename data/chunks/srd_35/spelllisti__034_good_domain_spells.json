@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::034_good_domain_spells",
+  "document_id": "srd_35::spelllisti::034_good_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Good Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#034_good_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Protection from Evil: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.\n2 Aid: +1 on attack rolls, +1 on saves against fear, 1d8 temporary hp +1/level (max +10).\n3 Magic Circle against Evil: As protection spells, but 10-ft. radius and 10 min./level.\n4 Holy Smite: Damages and blinds evil creatures.\n5 Dispel Evil: +4 bonus against attacks by evil creatures.\n6 Blade Barrier: Wall of blades deals 1d6/level damage.\n7 Holy Word F: Kills, paralyzes, slows, or deafens nongood subjects.\n8 Holy Aura: +4 to AC, +4 resistance, and SR 25 against evil spells.\n9 Summon Monster IX*: Calls extraplanar creature to fight for you.\n*Cast as a good spell only.\n\nGranted Power: You cast healing spells at +1 caster level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::033_fire_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::035_healing_domain_spells"
+}

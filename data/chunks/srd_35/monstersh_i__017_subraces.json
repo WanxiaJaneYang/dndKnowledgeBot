@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::017_subraces",
+  "document_id": "srd_35::monstersh_i::017_subraces",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "SUBRACES"
+    ],
+    "source_location": "MonstersH-I.rtf#017_subraces"
+  },
+  "chunk_type": "subsection",
+  "content": "The information above is for the lightfoot halfling, the most common halfling variety. There are two other major halfling subraces, which differ from lightfoot halflings as follows.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::018_tallfellow"
+}

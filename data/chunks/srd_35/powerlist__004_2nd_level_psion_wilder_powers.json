@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::004_2nd_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::004_2nd_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "2ND-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#004_2nd_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Bestow PowerA: Subject receives 2 power points.\nBiofeedbackA: Gain damage reduction 2/-.\nBody Equilibrium: You can walk on nonsolid surfaces.\nCloud Mind: You erase knowledge of your presence from target's mind.\nConcealing Amorpha: Quasi-real membrane grants you concealment.\nConcussion BlastA: Deal 1d6 force damage to target.\nControl Sound: Create very specific sounds.\nDetect Hostile Intent: You can detect hostile creatures within 30 ft. of you.\nEgo WhipA: Deal 1d4 Cha damage and daze for 1 round.\nElfsight: Gain low-light vision, +2 bonus on Search and Spot checks, and notice secret doors.\nEnergy Adaptation, SpecifiedA: Gain resistance 10 against one energy type.\nEnergy PushA: Deal 2d6 damage and knock subject back.\nEnergy StunA: Deal 1d6 damage and stun target if it fails both saves.\nFeat LeechA: Borrow another's psionic or metapsionic feats.\nId InsinuationA: Swift tendrils of thought disrupt and confuse your target.\nIdentify, Psionic: Learn the properties of a psionic item.\nInflict PainA: Telepathic stab gives your foe -4 on attack rolls, or -2 if he makes the save.\nKnock, Psionic: Opens locked or psionically sealed door.\nLevitate, Psionic: You move up and down, forward and back via mental support.\nMental DisruptionA: Daze creatures within 10 feet for 1 round.\nMissive, MassA: You send a one-way telepathic message to an area.\nPsionic Lock: Secure a door, chest, or portal.\nRecall AgonyA: Foe takes 2d6 damage.\nSense Link, Forced: Sense what subject senses.\nShare Pain: Willing subject takes some of your damage.\nSustenance: Go without food and water for one day.\nSwarm of CrystalsA: Crystal shards are sprayed forth doing 3d4 slashing damage.\nThought ShieldA: Gain PR 13 against mind-affecting powers.\nTongues, Psionic: You can communicate with intelligent creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::003_1st_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::005_3rd_level_psion_wilder_powers"
+}

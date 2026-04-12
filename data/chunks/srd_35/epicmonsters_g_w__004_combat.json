@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::004_combat",
+  "document_id": "srd_35::epicmonsters_g_w::004_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#004_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Fear Gaze (Su): Viewing the gloom's face inspires terror. Creatures that meet the gloom's gaze must succeed at a Will save (DC 32) or suffer the effects of a fear spell as cast by a 20th-level caster. The DC is Charisma-based.\nOpportunist (Ex): This ability functions like the rogue class feature of the same name.\nSneak Attack (Ex): A gloom is able to sneak attack as a 25th-level rogue, dealing 13d6 extra Damage.\nQuiescence (Su): A gloom is constantly silent, as per the silence spell, although the area does not extend beyond the creature itself. This quality gives it a +20 racial bonus on Move Silently checks (it is still possible for a gloom to create noise, such as by bumping into something that scrapes on the floor or by sounding a chime). The gloom can lower this effect at will.\nSpell-Like Abilities: At will--shadow walk; 3/day-- true strike. Caster level 20th; save DC 20 + spell level. The DC is Charisma-based.\nGOLEM\n| Mithral Golem | Adamantine Golem |\n| Huge Construct | Huge Construct |\nHit Dice: | 36d10+40 (238 hp) | 54d10+40 (337 hp) |\nInitiative: | +4 (Dex) | -1 (Dex) |\nSpeed: | 40 ft. | 20 ft. (can't run) |\nAC: | 42 (-2 size, +4 Dex, +26 natural, +4 haste) | 37 (-2 size, -1 Dex, +30 natural) |\nBase Attack/\nGrapple: | +27/+49 | +40/+68 |\nAttack: | Slam +39 (4d10+14) melee | Slam +58 (6d10+20) melee |\nFull Attack: | 2 slams +39 (4d10+14) melee | 2 slams +58 (6d10+20) melee |\nSpace/Reach: | 15 ft./15 ft. | 15 ft./15 ft. |\nSpecial Attacks: | -- | Trample |\nSpecial Qualities: | Construct traits, magic immunity, DR 15/epic and adamantine, alacrity | Construct traits, magic immunity, DR 20/epic and adamantine |\nSaves: | Fort +12, Ref +16, Will +12 | Fort +18, Ref +17, Will +18 |\nSkills: | Jump +18 | Jump +14 |\nAbilities: | Str 39, Dex 19, Con -, Int -, Wis 11, Cha 1 | Str 51, Dex 9, Con -, Int -, Wis 11, Cha 1 |\nClimate/Terrain: | Any land | Any land |\nOrganization: | Solitary | Solitary |\nChallenge Rating: | 21 | 25 |\nTreasure: | None | None |\nAlignment: | Always neutral | Always neutral |\nAdvancement: | 37-54 HD (Huge); 55-72 HD (Gargantuan) | 55-82 HD (Huge); 83-108 HD (Gargantuan) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::003_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::005_mithral_golem"
+}

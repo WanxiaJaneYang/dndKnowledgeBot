@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::052_illus",
+  "document_id": "srd_35::spelllistii::052_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#052_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Scintillating Pattern: Twisting colors confuse, stun, or render unconscious.\nScreen: Illusion hides area from vision, scrying.\nShadow Evocation, Greater: As shadow evocation, but up to 7th level and 60% real.\nTelekinetic Sphere: As resilient sphere, but you move sphere telekinetically.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::051_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::053_necro"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::031_power_points_9",
+  "document_id": "srd_35::psionicpowersg_p::031_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#031_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You raise a field of potentiality that drains the vitality from powers that you successfully save against. When you succeed on a saving throw to negate the effect of a foe's power on you, and the power is one that leech field is effective against (see below), your body erupts in a brief flash of crackling dark energy. You gain 1 power point for every 2 power points your foe spent to manifest the power you just saved against (to a maximum number of points equal to your manifester level). You cannot gain power points that would cause you to exceed your normal daily maximum.\nThis power is effective against any power that targets a single creature and allows the target a saving throw to negate it, except those that are delivered by a touch attack or a ranged touch attack (including a ray).\nAugment: For every 2 additional power points you spend, this power's duration increases by 1 minute.\n\nLevel: Nomad 2, psion/wilder 2, psychic warrior 2",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::030_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::032_display_olfactory"
+}

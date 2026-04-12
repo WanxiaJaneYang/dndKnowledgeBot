@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::025_survival",
+  "document_id": "srd_35::epicskills::025_survival",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Survival"
+    ],
+    "source_location": "EpicSkills.rtf#025_survival"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can ignore the effects of terrain on movement and withstand even the harshest weather. If the character is capable of tracking, he or she can identify the races of creatures being tracked.\nDC | Task |\n40 | Get along in the wild while moving at full speed. The character can provide food and water for one other person for every 2 points by which the check result exceeds 40. |\n60 | Automatically succeed on all Fortitude saves against severe weather. The character can extend this benefit to one other character for every 2 points by which the check result exceeds 60. |\n60 | Ignore overland movement penalties of terrain. The character and his or her mount can move at full overland speed regardless of terrain. The character can extend this benefit to one other character for every 5 points by which the check result exceeds 60. |\n60 | Identify race/kind of creature(s) by tracks.* |\n*Requires the Track feat.\nWherever the character is, he or she can determine the direction to a location on the same plane.\nDC | Familiarity with Location |\n40 | Very familiar |\n60 | Studied carefully |\n80 | Seen casually |\n100 | Viewed once |\n120 | Description only |\nWith a successful check, the character knows the direction to the desired location. This merely points the character in the direction of the location; it doesn't provide him or her with information on how to get there, nor does it take into account any obstacles in the path. \u201cVery familiar\u201d represents a place where the character has been very often and where he or she feels at home. \u201cStudied carefully\u201d represents a place the character knows well, either because he or she has been there often or has used other means to study the place. \u201cSeen casually\u201d is a place that the character has viewed more than once, but which he or she has not studied. \u201cViewed once\u201d is a place that the character has seen once, possibly using magic. \u201cDescription only\u201d is a place whose location and appearance the character knows through someone else's description.\n\nThe character can swim up vertical surfaces, or swim much faster than normal.\nDC | Task |\n80 | Swim up waterfall |\nSwim up Waterfall: This use of the skill allows a character to swim an angled or vertical surface, as long as he or she remains completely or mostly immersed in water. Other examples might include swimming up a whirlpool or an incredibly large wave.\nCircumstance | DC Modifier |\nSpeed swimming | -20 |\nSpeed Swimming: By taking a -20 penalty on the check, a character can swim his or her speed as a move-equivalent action, or double his or her speed as a full-round action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::024_using_spot_to_read_lips",
+  "next_chunk_id": "chunk::srd_35::epicskills::026_tumble"
+}

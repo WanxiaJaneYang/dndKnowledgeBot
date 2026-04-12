@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::106_persistent_spell_metamagic",
+  "document_id": "srd_35::divineabilitiesandfeats::106_persistent_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "PERSISTENT SPELL [METAMAGIC]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#106_persistent_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Extend Spell.\nBenefit: A persistent spell has a duration of 24 hours. The persistent spell must have a personal range or a fixed range. Spells of instantaneous duration cannot be affected by this feat, nor can spells whose effects are discharged. You need not concentrate on spells such as detect magic or detect thoughts to be aware of the mere presence of absence of the things detected, but you must still concentrate to gain additional information as normal. Concentration on such a spell is a standard action that does not provoke an attack of opportunity. A persistent spell uses up a spell slot six levels higher than the spell's actual level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::105_knock_down_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::107_plant_control_general"
+}

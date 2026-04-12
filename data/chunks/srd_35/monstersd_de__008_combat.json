@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::008_combat",
+  "document_id": "srd_35::monstersd_de::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "COMBAT"
+    ],
+    "source_location": "MonstersD-De.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A bebilith attacks any creature it sees. It usually picks one target and concentrates its attacks on that opponent, using its webs to isolate the target from its comrades. Should the bebilith become overwhelmed by tougher opponents, it often attempts to bite one or more of its victims and retreats, allowing its poison to do its work.\nA bebilith's natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.\nPoison (Ex): Injury, Fortitude DC 24, initial damage 1d6 Con, secondary damage 2d6 Con. Bebilith venom is highly perishable, losing its potency and becoming inert, foul-smelling goo almost as soon as it comes into contact with air. The save DC is Constitution-based.\nRend Armor (Ex): If a bebilith hits with both claw attacks, it pulls apart any armor worn by its foe. This attack deals 4d6+18 points of damage to the opponent's armor. Creatures not wearing armor are unaffected by this special attack. Armor reduced to 0 hit points is destroyed. Damaged armor may be repaired with a successful Craft (armorsmithing) check.\nWeb (Ex): A bebilith can throw a web up to four times per day. This is similar to an attack with a net but has a maximum range of 30 feet, with a range increment of 10 feet. This attack is effective against targets of up to Gargantuan size. The web anchors the target in place, allowing no movement.\nAn entangled creature can escape with a DC 24 Escape Artist check or burst the web with a DC 24 Strength check. The check DCs are Constitution-based. The web has 14 hit points and hardness 0. There is a 75% chance that the webbing will not burn if any sort of fire is applied to it (check each round).\nPlane Shift (Su): This ability affects only the bebilith. It is otherwise similar to the spell (caster level 12th).\nSkills: A bebilith has mottled coloration that gives it a +8 racial bonus on Hide checks.\n\nHit Dice: | 2d8+4 (13 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 16 (+1 size, +5 natural), touch 11, flat-footed 16 |\nBase Attack/Grapple: | +2/-1 |\nAttack: | Claw +4 melee (1d6+1) |\nFull Attack: | 2 claws +4 melee (1d6+1) and bite +2 melee (1d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, summon demon |\nSpecial Qualities: | Damage reduction 5/cold iron or good, darkvision 60 ft., immunity to electricity and poison, resistance to acid 10, cold 10, and fire 10, telepathy 100 ft. |\nSaves: | Fort +5, Ref +3, Will +3 |\nAbilities: | Str 12, Dex 10, Con 14, Int 5, Wis 11, Cha 11 |\nSkills: | Hide +9, Listen +5, Move Silently +5, Spot +5, Search +2, Survival +0 (+2 following tracks) |\nFeats: | Multiattack |\nEnvironment: | A chaotic evil-aligned plane |\nOrganization: | Solitary, pair, gang (3-5), crowd (6-15), or mob (10-40) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always chaotic evil |\nAdvancement: | 3-6 HD (Small) |\nLevel Adjustment: | +2 |\nA dretch is about 4 feet tall and weighs about 60 pounds.\nDretches cannot speak but can communicate telepathically.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::007_tactics_round_by_round",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::009_combat"
+}

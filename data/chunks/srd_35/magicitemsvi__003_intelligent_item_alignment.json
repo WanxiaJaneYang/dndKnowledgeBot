@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::003_intelligent_item_alignment",
+  "document_id": "srd_35::magicitemsvi::003_intelligent_item_alignment",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "INTELLIGENT ITEM ALIGNMENT"
+    ],
+    "source_location": "MagicItemsVI.rtf#003_intelligent_item_alignment"
+  },
+  "chunk_type": "subsection",
+  "content": "Any item with intelligence has an alignment. Note that intelligent weapons already have alignments, either stated or by implication. If you're generating a random intelligent weapon, that weapon's alignment must fit with any alignment-oriented special abilities it has.\nAny character whose alignment does not correspond to that of the item (except as noted by the asterisks on the table) gains one negative level if he or she so much as picks up the item. Although this negative level never results in actual level loss, it remains as long as the item is in hand and cannot be overcome in any way (including restoration spells). This negative level is cumulative with any other penalties the item might already place on inappropriate wielders. Items with Ego scores (see below) of 20 to 29 bestow two negative levels. Items with Ego scores of 30 or higher bestow three negative levels.\nIntelligent Item Alignment |\nd% | Alignment of Item |\n01-05 | Chaotic good |\n06-15 | Chaotic neutral* |\n16-20 | Chaotic evil |\n21-25 | Neutral evil* |\n26-30 | Lawful evil |\n31-55 | Lawful good |\n56-60 | Lawful neutral* |\n61-80 | Neutral good* |\n81-100 | Neutral |\n* The item can also be used by any character whose alignment corresponds to the nonneutral portion of the item's alignment. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::002_intelligent_items",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::004_languages_spoken_by_item"
+}

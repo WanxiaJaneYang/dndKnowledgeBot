@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::038_combat",
+  "document_id": "srd_35::monsterso_r::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Ravids fight only in self-defense. A ravid itself is not very powerful but is always accompanied by at least one animated object that defends it.\nPositive Energy Lash (Su): A ravid can make a touch attack or hit with a claw or tail slap attack to infuse a target with positive energy. The energy produces an unpleasant tingle in living creatures, and against undead foes (even incorporeal ones) it deals 2d10 points of damage.\nAnimate Objects (Su): Once per round, a random object within 20 feet of a ravid animates as though by the spell animate objects (caster level 20th). These objects defend the ravid to the best of their ability, but the ravid isn't intelligent enough to employ elaborate tactics with them.\nFlight (Su): A ravid can cease or resume flight as a free action. A rast that loses this ability falls and can perform only a single action (either a move action or an attack action) each round.\nFeats: A ravid has the Multiattack feat even through it does not have the requisite three natural weapons.\n\nHit Dice: | 7d10+35 (73 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares), burrow 20 ft. |\nArmor Class: | 20 (-2 size, +1 Dex, +11 natural), touch 9, flat-footed 19 |\nBase Attack/Grapple: | +7/+23 |\nAttack: | Bite +13 melee (2d8+12) |\nFull Attack: | Bite +13 melee (2d8+12) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Improved grab, swallow whole |\nSpecial Qualities: | Darkvision 60 ft., heat, low-light vision, tremorsense 60 ft. |\nSaves: | Fort +10, Ref +6, Will +3 |\nAbilities: | Str 26, Dex 13, Con 21, Int 5, Wis 12, Cha 10 |\nSkills: | Listen +8, Spot +8 |\nFeats: | Awesome Blow, Improved Bull Rush, Power Attack |\nEnvironment: | Cold desert |\nOrganization: | Solitary |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 8-14 HD (Huge); 15-21 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA remorhaz is whitish-blue in color but pulses with a reddish glow from the heat its body produces. The creature is a little more than 20 feet long, with a body about 5 feet wide. It weighs about 10,000 pounds.\nRemorhazes cannot speak.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::037_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::039_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::009_combat",
+  "document_id": "srd_35::monstersg::009_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Combat"
+    ],
+    "source_location": "MonstersG.rtf#009_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Efreet love to mislead, befuddle, and confuse their foes. They do so for enjoyment as well as a battle tactic.\nChange Size (Sp): Twice per day, an efreeti can magically change a creature's size. This works just like an enlarge person or reduce person spell (the efreeti chooses when using the ability), except that the ability can work on the efreeti. A DC 13 Fortitude save negates the effect. The save DC is Charisma-based. This is the equivalent of a 2nd-level spell.\nHeat (Ex): An efreeti's red-hot body deals 1d6 points of extra fire damage whenever it hits in melee, or in each round it maintains a hold when grappling.\nSpell-Like Abilities: At will--detect magic, produce flame, pyrotechnics (DC 14), scorching ray (1 ray only); 3/day--invisibility, wall of fire (DC 16); 1/day--grant up to three wishes (to nongenies only), gaseous form, permanent image (DC 18), polymorph (self only). Caster level 12th. The save DCs are Charisma-based.\n\nHit Dice: | 6d8+6 (33 hp) |\nInitiative: | +6 |\nSpeed: | 20 ft. (4 squares), fly 15 ft. (perfect) in chainmail; base land speed 30 ft., base fly speed 20 ft. (perfect) |\nArmor Class: | 18 (+2 Dex, +1 natural, +5 chainmail), touch 12, flat-footed 16 |\nBase Attack/Grapple: | +6/+9 |\nAttack: | Scimitar +9 melee (1d6+4/18-20) or longbow +8 ranged (1d8/x3) |\nFull Attack: | Scimitar +9/+4 melee (1d6+4/18-20) or longbow +8/+3 ranged (1d8/x3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Change size, spell-like abilities |\nSpecial Qualities: | Darkvision 60 ft., elemental endurance, plane shift, resistance to fire 10, telepathy 100 ft. |\nSaves: | Fort +6, Ref +7, Will +7 |\nAbilities: | Str 16, Dex 15, Con 12, Int 14, Wis 15, Cha 13 |\nSkills: | Appraise +11, Concentration +10, Craft (any two) +11, Diplomacy +3, Escape Artist +6, Listen +11, Move Silently +6, Ride +11, Sense Motive +11, Spot +11, Use Rope +2 (+4 with bindings) |\nFeats: | Combat Reflexes, Dodge, Improved InitiativeB, Mobility |\nEnvironment: | Warm deserts |\nOrganization: | Solitary, company (2-4), or band (6-15) |\nChallenge Rating: | 4 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 7-9 HD (Medium); 10-18 HD (Large) |\nLevel Adjustment: | +5 |\nThe jann (singular janni) are the weakest of the genies. Jann are formed out of all four elements and must therefore spend most of their time on the Material Plane.\nJann speak Common, one elemental language (Aquan, Auran, Ignan, or Terran) and one alignment language (Abyssal, Celestial, or Infernal).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::008_noble_djinn",
+  "next_chunk_id": "chunk::srd_35::monstersg::010_combat"
+}

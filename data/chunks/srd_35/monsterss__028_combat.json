@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::028_combat",
+  "document_id": "srd_35::monsterss::028_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#028_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hieracosphinxes can make short work of even the most dangerous opponents with their claws. They are not particularly intelligent, but are cunning enough to dive at their enemies from above with their flying ability.\nRake (Ex): Attack bonus +13 melee, damage 1d6+2.\nSkills: Hieracosphinxes have a +4 racial bonus on Spot checks.\n\nHit Dice: | 4d10+20 (42 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares), fly 60 ft. (good) |\nArmor Class: | 14 (-1 size, +1 Dex, +4 natural), touch 10, flatfooted 13 |\nBase Attack/Grapple: | +4/+13 |\nAttack: | Sting +8 melee (1d8+5 plus poison) |\nFull Attack: | Sting +8 melee (1d8+5 plus poison) and bite +3 melee (1d8+2) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Implant, poison |\nSpecial Qualities: | Darkvision 60 ft., freedom of movement, lowlight vision, scent |\nSaves: | Fort +9, Ref +5, Will +2 |\nAbilities: | Str 21, Dex 13, Con 21, Int 2, Wis 12, Cha 10 |\nSkills: | Listen +10, Spot +11 |\nFeats: | Alertness, Dodge |\nEnvironment: | Temperate forests |\nOrganization: | Solitary |\nChallenge Rating: | 5 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 5-12 HD (Huge) |\nLevel Adjustment: | -- |\nA spider eater is about 10 feet long and 4 feet high, and has a wingspan of about 20 feet. It weighs about 4,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::027_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::029_combat"
+}

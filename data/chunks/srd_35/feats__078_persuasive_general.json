@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::078_persuasive_general",
+  "document_id": "srd_35::feats::078_persuasive_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "PERSUASIVE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#078_persuasive_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Bluff checks and Intimidate checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::077_nimble_fingers_general",
+  "next_chunk_id": "chunk::srd_35::feats::079_point_blank_shot_general"
+}

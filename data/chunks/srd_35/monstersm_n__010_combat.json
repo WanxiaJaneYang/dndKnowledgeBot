@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::010_combat",
+  "document_id": "srd_35::monstersm_n::010_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#010_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): 15-foot cone, damage 1d8 fire, Reflex half DC 12. The save DC is Constitution-based and includes a +1 racial adjustment.\nSpell-Like Abilities: 1/hour--scorching ray (DC 14) as the spell cast by a 3rd-level sorcerer; 1/day--heat metal (DC 14). Caster level 6th. The save DC is Charisma-based.\nFast Healing (Ex): A fire mephit heals only if it is touching a flame at least as large as a torch.\n\nHit Dice: | 3d8 (13 hp) |\nInitiative: | +7 |\nSpeed: | 30 ft. (6 squares), fly 50 ft. (perfect) |\nArmor Class: | 18 (+1 size, +3 Dex, +4 natural), touch 14, flat-footed 15 |\nBase Attack/Grapple: | +3/-1 |\nAttack: | Claw +4 melee (1d3 plus 1d4 cold) |\nFull Attack: | 2 claws +4 melee (1d3 plus 1d4 cold) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Breath weapon, spell-like abilities, summon mephit |\nSpecial Qualities: | Damage reduction 5/magic, darkvision 60 ft., fast healing 2, immunity to cold, vulnerability to fire |\nSaves: | Fort +3, Ref +6, Will +3 |\nAbilities: | Str 10, Dex 17, Con 10, Int 6, Wis 11, Cha 15 |\nSkills: | Bluff +8, Escape Artist +9, Hide +13, Listen +6, Diplomacy +4, Disguise +2 (+4 acting), Move Silently +9, Spot +6, Use Rope +3 (+5 with bindings) |\nFeats: | Dodge, Improved Initiative |\nEnvironment: | Elemental Plane of Air |\nOrganization: | Solitary (1), gang (2-4 mephits of mixed types), or mob (5-12 mephits of mixed types) |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 4-6 HD (Small); 7-9 HD (Medium) |\nLevel Adjustment: | +3 (cohort) |\nIce mephits come from the Elemental Plane of Air.\nIce mephits have a cold, aloof demeanor. Each one is about 4 feet tall and weighs about 30 pounds.\nIce mephits speak Common and Auran.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::009_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::011_combat"
+}

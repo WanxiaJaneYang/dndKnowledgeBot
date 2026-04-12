@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::046_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::046_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#046_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Metaphysical weapon gives a weapon a +1 enhancement bonus on attack rolls and damage rolls. (An enhancement bonus does not stack with a masterwork weapon's +1 bonus on attack rolls.)\nAlternatively, you can affect up to fifty arrows, bolts, or bullets. The projectiles must be of the same type, and they have to be together (such as in the same quiver). Projectiles, but not thrown weapons, lose their enhancement when used. (Treat shuriken as projectiles, rather than thrown weapons, for the purpose of this power.)\nYou can't manifest this power on most natural weapons, including a psychic warrior's claw strike. This power does work on a weapon brought into being by the graft weapon power.\nAugment: If you spend 4 additional power points, this power's duration increases to 1 hour per level.\nIn addition, for every 4 additional power points you spend, this power improves the weapon's enhancement bonus on attack rolls and damage rolls by 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::045_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::047_display_material"
+}

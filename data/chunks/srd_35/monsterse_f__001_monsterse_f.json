@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::001_monsterse_f",
+  "document_id": "srd_35::monsterse_f::001_monsterse_f",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "MonstersE-F"
+    ],
+    "source_location": "MonstersE-F.rtf#001_monsterse_f"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n\nHit Dice: | 4d10+4 (26 hp) |\nInitiative: | +3 |\nSpeed: | 10 ft. (2 squares), fly 80 ft. (average) |\nArmor Class: | 15 (-1 size, +3 Dex, +3 natural), touch 12, flat-footed 12 |\nBase Attack/Grapple: | +4/+12 |\nAttack: | Claw +7 melee (1d6+4) |\nFull Attack: | 2 claws +7 melee (1d6+4) and bite +2 melee (1d8+2) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, evasion |\nSaves: | Fort +5, Ref +7, Will +3 |\nAbilities: | Str 18, Dex 17, Con 12, Int 10, Wis 14, Cha 10 |\nSkills: | Knowledge (nature) +2, Listen +6, Sense Motive +4, Spot +15, Survival +3 |\nFeats: | Alertness, Flyby Attack |\nEnvironment: | Temperate mountains |\nOrganization: | Solitary, pair, or eyrie (5-12) |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Usually neutral good |\nAdvancement: | 5-8 HD (Large); 9-12 HD (Huge) |\nLevel Adjustment: | +2 (cohort) |\nA typical giant eagle stands about 10 feet tall, has a wingspan of up to 20 feet, and resembles its smaller cousins in nearly every way except size. It weighs about 500 pounds.\nGiant eagles speak Common and Auran.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::002_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::097_power_points_5",
+  "document_id": "srd_35::psionicpowersd_f::097_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#097_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You radiate a psychokinetic burst that disrupts and negates all types of invisibility (though this power can't negate the effect of cloud mind). Any creature that fails its save to avoid the effect loses its invisibility.\nCreatures that are naturally invisible, such as an invisible stalker, are revealed as a dim outline for 1 round (until the beginning of your next turn) and do not have total concealment during this period.\nAugment: For every additional power point you spend, this power's range and the radius of the burst in which it functions both increase by 5 feet.\nEscape Detection\nClairsentience\nLevel: Psychic warrior 3, seer 3\nDisplay: None\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 hour/level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::096_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::098_power_points_5"
+}

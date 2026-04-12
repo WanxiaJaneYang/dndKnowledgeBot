@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsiii::004_rings",
+  "document_id": "srd_35::magicitemsiii::004_rings",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsIII",
+      "RINGS"
+    ],
+    "source_location": "MagicItemsIII.rtf#004_rings"
+  },
+  "chunk_type": "subsection",
+  "content": "Rings bestow magical powers upon their wearers. Only a rare few have charges. Anyone can use a ring.\nA character can only effectively wear two magic rings. A third magic ring doesn't work if the wearer is already wearing two magic rings.\nPhysical Description: Rings have no appreciable weight. Although exceptions exist that are crafted from glass or bone, the vast majority of rings are forged from metal--usually precious metals such as gold, silver, and platinum. A ring has AC 13, 2 hit points, hardness 10, and a break DC of 25.\nActivation: Usually, a ring's ability is activated by a command word (a standard action that does not provoke attacks of opportunity) or it works continually. Some rings have exceptional activation methods, according to their descriptions.\nSpecial Qualities: Roll d%. A result of 01 indicates the ring is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes. Rings with charges can never be intelligent.\nTable: Rings |\nMinor | Medium | Major | Ring | Market Price |\n01-18 | -- | -- | Protection +1 | 2,000 gp |\n19-28 | -- | -- | Feather falling | 2,200 gp |\n29-36 | -- | -- | Sustenance | 2,500 gp |\n37-44 | -- | -- | Climbing | 2,500 gp |\n45-52 | -- | -- | Jumping | 2,500 gp |\n53-60 | -- | -- | Swimming | 2,500 gp |\n61-70 | 01-05 | -- | Counterspells | 4,000 gp |\n71-75 | 06-08 | -- | Mind shielding | 8,000 gp |\n76-80 | 09-18 | -- | Protection +2 | 8,000 gp |\n81-85 | 19-23 | -- | Force shield | 8,500 gp |\n86-90 | 24-28 | -- | Ram | 8,600 gp |\n-- | 29-34 | -- | Climbing, improved | 10,000 gp |\n-- | 35-40 | -- | Jumping, improved | 10,000 gp |\n-- | 41-46 | -- | Swimming, improved | 10,000 gp |\n91-93 | 47-51 | -- | Animal friendship | 10,800 gp |\n94-96 | 50-56 | 01-02 | Energy resistance, minor | 12,000 gp |\n97-98 | 57-61 | -- | Chameleon power | 12,700 gp |\n99-100 | 62-66 | -- | Water walking | 15,000 gp |\n-- | 67-71 | 03-07 | Protection +3 | 18,000 gp |\n-- | 72-76 | 08-10 | Spell storing, minor | 18,000 gp |\n-- | 77-81 | 11-15 | Invisibility | 20,000 gp |\n-- | 82-85 | 16-19 | Wizardry (I) | 20,000 gp |\n-- | 86-90 | 20-25 | Evasion | 25,000 gp |\n-- | 91-93 | 26-28 | X-ray vision | 25,000 gp |\n-- | 94-97 | 29-32 | Blinking | 27,000 gp |\n-- | 98-100 | 33-39 | Energy resistance, major | 28,000 gp |\n-- | -- | 40-49 | Protection +4 | 32,000 gp |\n-- | -- | 50-55 | Wizardry (II) | 40,000 gp |\n-- | -- | 56-60 | Freedom of movement | 40,000 gp |\n-- | -- | 61-63 | Energy resistance, greater | 44,000 gp |\n-- | -- | 64-65 | Friend shield (pair) | 50,000 gp |\n-- | -- | 66-70 | Protection +5 | 50,000 gp |\n-- | -- | 71-74 | Shooting stars | 50,000 gp |\n-- | -- | 75-79 | Spell storing | 50,000 gp |\n-- | -- | 80-83 | Wizardry (III) | 70,000 gp |\n-- | -- | 84-86 | Telekinesis | 75,000 gp |\n-- | -- | 87-88 | Regeneration | 90,000 gp |\n-- | -- | 89 | Three wishes | 97,950 gp |\n-- | -- | 90-92 | Spell turning | 98,280 gp |\n-- | -- | 93-94 | Wizardry (IV) | 100,000 gp |\n-- | -- | 95 | Djinni calling | 125,000 gp |\n-- | -- | 96 | Elemental command (air) | 200,000 gp |\n-- | -- | 97 | Elemental command (earth) | 200,000 gp |\n-- | -- | 98 | Elemental command (fire) | 200,000 gp |\n-- | -- | 99 | Elemental command (water) | 200,000 gp |\n-- | -- | 100 | Spell storing, major | 200,000 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsiii::003_potion_descriptions",
+  "next_chunk_id": "chunk::srd_35::magicitemsiii::005_ring_descriptions"
+}

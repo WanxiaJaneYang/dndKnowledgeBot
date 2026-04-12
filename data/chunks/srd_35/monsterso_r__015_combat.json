@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::015_combat",
+  "document_id": "srd_35::monsterso_r::015_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#015_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The save DC for the elder black pudding's acid attack (DC 29) is adjusted for its additional Hit Dice and higher Constitution score.\n\nHit Dice: | 4d10+32 (54 hp) |\nInitiative: | -5 |\nSpeed: | 15 ft. (3 squares) |\nArmor Class: | 3 (-2 size, -5 Dex), touch 3, flat-footed 3 |\nBase Attack/Grapple: | +3/+11 |\nAttack: | Slam +1 melee (1d6 plus 1d6 acid) |\nFull Attack: | Slam +1 melee (1d6 plus 1d6 acid) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Acid, engulf, paralysis |\nSpecial Qualities: | Blindsight 60 ft., immunity to electricity, ooze traits, transparent |\nSaves: | Fort +9, Ref -4, Will -4 |\nAbilities: | Str 10, Dex 1, Con 26, Int --, Wis 1, Cha 1 |\nSkills: | -- |\nFeats: | -- |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 3 |\nTreasure: | 1/10th coins, 50% goods (no nonmetal or nonstone), 50% items (no nonmetal or nonstone) |\nAlignment: | Always neutral |\nAdvancement: | 5-12 HD (Huge); 13-24 HD (Gargantuan) |\nLevel Adjustment: | -- |\nThe nearly transparent gelatinous cube travels slowly along dungeon corridors and cave floors, absorbing carrion, creatures, and trash. Inorganic material remains trapped and visible inside the cube's body.\nA typical gelatinous cube is 15 feet on a side and weighs about 50,000 pounds, though much larger specimens are not unknown.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::014_elder_black_pudding",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::016_combat"
+}

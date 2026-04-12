@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::070_instant_move",
+  "document_id": "srd_35::divineabilitiesandfeats::070_instant_move",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Instant Move"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#070_instant_move"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 6, Dex 29.\nBenefit: As a move action, the deity can travel up to 30 feet per divine rank, as though using the dimension door spell, except that the deity never appears within a solid object and can act immediately after teleporting.\nSuggested Portfolio Elements: Travel.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::069_instant_counterspell",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::071_irresistible_blows"
+}

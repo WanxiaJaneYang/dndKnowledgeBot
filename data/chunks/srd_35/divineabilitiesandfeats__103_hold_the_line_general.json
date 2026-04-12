@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::103_hold_the_line_general",
+  "document_id": "srd_35::divineabilitiesandfeats::103_hold_the_line_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "HOLD THE LINE [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#103_hold_the_line_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Combat Reflexes, base attack bonus +2.\nBenefit: You may make an attack of opportunity against a chagin opponent who enters an atea you threaten. Your attack of opportunity happens immediately before the charge attack is resolved.\nNormal: You only get an attack of opportunity against a character that exits a square you threaten.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::102_fleet_of_foot_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::104_jack_of_all_trades_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::114_magical_beast_wild_shape_wild_epic",
+  "document_id": "srd_35::epicfeats::114_magical_beast_wild_shape_wild_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MAGICAL BEAST WILD SHAPE [WILD][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#114_magical_beast_wild_shape_wild_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 25, Knowledge (nature) 27 ranks, wild shape 6/day.\nBenefit: The character can use his or her normal wild shape ability to take the form of a magical beast. The size limitation is the same as the character's limitation on animal size. The character gains all supernatural abilities of the magical beast whose form he or she takes.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::113_gorgon",
+  "next_chunk_id": "chunk::srd_35::epicfeats::115_master_staff_epic"
+}

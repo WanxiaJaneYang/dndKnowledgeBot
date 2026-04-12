@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::042_combat",
+  "document_id": "srd_35::monsterst_z::042_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#042_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Yeth hounds hunt only at night. They fear the sun and never venture out in daylight, even if their lives depend on it.\nA yeth hound's natural weapons, as well as any weapons it wields, are treated as evil-aligned for the purpose of overcoming damage reduction.\nBay (Su): When a yeth hound howls or barks, all creatures except other evil outsiders within a 300-foot spread must succeed on a DC 11 Will save or become panicked for 2d4 rounds. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same hound's bay for 24 hours. The save DC is Charisma-based.\nTrip (Ex): A yeth hound that hits with its bite attack can attempt to trip the opponent (+3 check modifier) as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the yeth hound.\nFlight (Su): A yeth hound can cease or resume flight as a free action.\nSkills: *A yeth hound has a +4 racial bonus on Survival checks when tracking by scent.\n\nHit Dice: | 12d10+36 (102 hp) |\nInitiative: | +6 |\nSpeed: | 20 ft. (4 squares), fly 60 ft. (average) |\nArmor Class: | 18 (-2 size, +2 Dex, +8 natural), touch 10, flat-footed 16 |\nBase Attack/Grapple: | +12/+25 |\nAttack: | Bite +15 melee (2d8+5) or sonic lance +12 ranged touch (6d6) |\nFull Attack: | Bite +15 melee (2d8+5) and 2 claws +13 melee (1d6+2); or sonic lance +12 ranged touch (6d6) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Sonic lance, explosion |\nSpecial Qualities: | Blindsight 120 ft., immunities, vulnerability to sonic |\nSaves: | Fort +11, Ref +10, Will +5 |\nAbilities: | Str 20, Dex 14, Con 17, Int 7, Wis 13, Cha 11 |\nSkills: | Listen +12, Move Silently +10 |\nFeats: | Endurance, Flyby Attack, Improved Initiative, Multiattack, Snatch |\nEnvironment: | Temperate mountains |\nOrganization: | Solitary or clutch (2-4) |\nChallenge Rating: | 9 |\nTreasure: | None |\nAlignment: | Often neutral |\nAdvancement: | 13-16 HD (Huge); 17-36 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA yrthak is blind. It senses sound and movement by means of a special organ on its long tongue. It emits powerfully focused beams of sound from the protrusion on its head. The creature is a yellowish-green color, with the wings and fin being more yellow and the head and body more green. The teeth are yellow.\nA yrthak is about 20 feet long, with a wingspan of 40 feet. It weighs about 5,000 pounds.\nDespite their intelligence, yrthaks do not speak.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::041_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::043_combat"
+}

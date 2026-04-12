@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::040_turn_resistance",
+  "document_id": "srd_35::abilitiesandconditions::040_turn_resistance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "TURN RESISTANCE"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#040_turn_resistance"
+  },
+  "chunk_type": "subsection",
+  "content": "Some creatures (usually undead) are less easily affected by the turning ability of clerics or paladins.\nTurn resistance is an extraordinary ability.\nWhen resolving a turn, rebuke, command, or bolster attempt, added the appropriate bonus to the creature's Hit Dice total.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::039_tremorsense",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::041_conditions"
+}

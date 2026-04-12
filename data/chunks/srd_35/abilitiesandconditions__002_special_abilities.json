@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::002_special_abilities",
+  "document_id": "srd_35::abilitiesandconditions::002_special_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "SPECIAL ABILITIES"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#002_special_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "A special ability is either extraordinary, spell-like, or supernatural in nature.\nExtraordinary Abilities (Ex): Extraordinary abilities are nonmagical. They are, however, not something that just anyone can do or even learn to do without extensive training. Effects or areas that negate or disrupt magic have no effect on extraordinary abilities.\nSpell-Like Abilities (Sp): Spell-like abilities, as the name implies, are spells and magical abilities that are very much like spells. Spell-like abilities are subject to spell resistance and dispel magic. They do not function in areas where magic is suppressed or negated (such as an antimagic field).\nSupernatural Abilities (Su): Supernatural abilities are magical but not spell-like. Supernatural abilities are not subject to spell resistance and do not function in areas where magic is suppressed or negated (such as an antimagic field). A supernatural ability's effect cannot be dispelled and is not subject to counterspells. See the table below for a summary of the types of special abilities.\n\n| Extraordinary | Spell-Like | Supernatural |\nDispel | No | Yes | No |\nSpell resistance | No | Yes | No |\nAntimagic field | No | Yes | Yes |\nAttack of opportunity | No | Yes | No |\nDispel: Can dispel magic and similar spells dispel the effects of abilities of that type? |\nSpell Resistance: Does spell resistance protect a creature from these abilities? |\nAntimagic Field: Does an antimagic field or similar magic suppress the ability? |\nAttack of Opportunity: Does using the ability provoke attacks of opportunity the way that casting a spell does? |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::001_abilitiesandconditions",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::003_ability_score_loss"
+}

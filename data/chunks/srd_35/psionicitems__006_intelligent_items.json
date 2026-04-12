@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::006_intelligent_items",
+  "document_id": "srd_35::psionicitems::006_intelligent_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "INTELLIGENT ITEMS"
+    ],
+    "source_location": "PsionicItems.rtf#006_intelligent_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Some psionic items, particularly weapons, have an intelligence all their own. Only permanent psionic items (as opposed to those that are single-use items, those that have charges, or those that store power points) can be intelligent. (This means that psionic tattoos, power stones, and dorjes, among other items, are never intelligent.) In general, less than 1% of psionic items have intelligence.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::005_repairing_items",
+  "next_chunk_id": "chunk::srd_35::psionicitems::007_cursed_items"
+}

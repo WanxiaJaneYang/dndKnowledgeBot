@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::038_loss_of_hit_points",
+  "document_id": "srd_35::combati::038_loss_of_hit_points",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "LOSS OF HIT POINTS"
+    ],
+    "source_location": "CombatI.rtf#038_loss_of_hit_points"
+  },
+  "chunk_type": "subsection",
+  "content": "The most common way that your character gets hurt is to take lethal damage and lose hit points\nWhat Hit Points Represent: Hit points mean two things in the game world: the ability to take physical punishment and keep going, and the ability to turn a serious blow into a less serious one.\nEffects of Hit Point Damage: Damage doesn't slow you down until your current hit points reach 0 or lower. At 0 hit points, you're disabled.\nAt from -1 to -9 hit points, you're dying.\nAt -10 or lower, you're dead.\nMassive Damage: If you ever sustain a single attack deals 50 points of damage or more and it doesn't kill you outright, you must make a DC 15 Fortitude save. If this saving throw fails, you die regardless of your current hit points. If you take 50 points of damage or more from multiple attacks, no one of which dealt 50 or more points of damage itself, the massive damage rule does not apply.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::037_injury_and_death",
+  "next_chunk_id": "chunk::srd_35::combati::039_disabled_0_hit_points"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::146_spell_knowledge_epic",
+  "document_id": "srd_35::epicfeats::146_spell_knowledge_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SPELL KNOWLEDGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#146_spell_knowledge_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ability to cast spells of the maximum normal spell level of an arcane spellcasting class.\nBenefit: The character learns two new arcane spells of any level up to the maximum level he or she can cast. This feat does not grant any additional spell slots.\nSpecial: A character can gain this feat multiple times.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::145_spectral_strike_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::147_spell_opportunity_epic"
+}

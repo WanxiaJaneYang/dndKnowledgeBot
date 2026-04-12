@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::072_display_visual",
+  "document_id": "srd_35::psionicpowersq_w::072_display_visual",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Display: Visual"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#072_display_visual"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Personal; see text\nTarget: You\nDuration: 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::071_power_points_17",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::073_power_points_5"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::050_combat",
+  "document_id": "srd_35::monstersintro_a::050_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#050_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Athachs charge into melee combat unless their opponents are out of reach, in which case they throw rocks. They sometimes try to overrun armored opponents to reach unarmored opponents in back ranks. With its first few melee attacks, an athach tends to flail about indiscriminately. After a few rounds, it concentrates on foes that have been hitting it most often and uses its bite on whoever has dealt it the most damage.\nPoison (Ex): Injury, Fortitude DC 22, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC is Constitution-based.\n\nHit Dice: | 7d8+35 (66 hp) |\nInitiative: | +6 |\nSpeed: | 40 ft. (8 squares), fly 90 ft. (good) |\nArmor Class: | 24 (+6 Dex, +8 natural), touch 16, flat-footed 18 |\nBase Attack/Grapple: | +7/+9 |\nAttack: | Claw +13 melee (2d6+2) or wing +13 melee (2d8+2) |\nFull Attack: | 2 claws +13 melee (2d6+2) or 2 wings +13 melee (2d8+2) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, fear aura |\nSpecial Qualities: | Damage reduction 10/evil or silver, darkvision 60 ft., immunity to electricity and petrification, lay on hands, low-light vision, resistance to cold 10 and sonic 10, speak with animals, spell resistance 25, true seeing |\nSaves: | Fort +10 (+14 against poison), Ref +11, Will +8 |\nAbilities: | Str 15, Dex 23, Con 20, Int 15, Wis 16, Cha 16 |\nSkills: | Bluff +13, Concentration +15, Diplomacy +7, Disguise +3 (+5 acting), Handle Animal +13, Hide +16, Intimidate +5, Knowledge (any one) +12, Listen +13, Move Silently +16, Ride +8, Sense Motive +13, Spellcraft +12, Spot +21 |\nFeats: | Empower Spell-Like Ability (magic missile), Flyby Attack, Weapon Finesse |\nEnvironment: | A good-aligned plane. |\nOrganization: | Solitary, pair, or squad (3-5) |\nChallenge Rating: | 9 |\nTreasure: | No coins; double goods; standard items |\nAlignment: | Always neutral good |\nAdvancement: | 8-14 HD (Medium); 15-21 HD (Large) |\nLevel Adjustment: | -- |\nAn avoral's bones are strong but hollow, so even the largest specimens weigh no more than 120 pounds. An avoral is about 7 feet tall. Each of an avoral's wings has a small hand at the midpoint. When the wings are folded, these appendages are about where human hands would be and can do nearly anything hands can do.\nAn avoral's visual acuity is virtually unmatched: It can see detail on objects up to 10 miles away and is said to be able to discern the color of a creature's eyes at 200 paces.\nAvorals speak Celestial, Infernal, and Draconic, but can speak with almost any creature, thanks to their tongues ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::049_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::051_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::018_brew_potion_item_creation",
+  "document_id": "srd_35::feats::018_brew_potion_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "BREW POTION [ITEM CREATION]"
+    ],
+    "source_location": "Feats.rtf#018_brew_potion_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Caster level 3rd.\nBenefit: You can create a potion of any 3rd-level or lower spell that you know and that targets one or more creatures. Brewing a potion takes one day. When you create a potion, you set the caster level, which must be sufficient to cast the spell in question and no higher than your own level. The base price of a potion is its spell level x \uf020its caster level x \uf02050 gp. To brew a potion, you must spend 1/25 of this base price in XP and use up raw materials costing one half this base price.\nWhen you create a potion, you make any choices that you would normally make when casting the spell. Whoever drinks the potion is the target of the spell.\nAny potion that stores a spell with a costly material component or an XP cost also carries a commensurate cost. In addition to the costs derived from the base price, you must expend the material component or pay the XP when creating the potion.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::017_blind_fight_general",
+  "next_chunk_id": "chunk::srd_35::feats::019_cleave_general"
+}

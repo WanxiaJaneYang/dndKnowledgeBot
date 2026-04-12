@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::068_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::068_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#068_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You send a telepathic message of up to twenty-five words to all creatures within range. You can include or exclude from this broadcast any creature you can see, as well as any creature that you know or know of. Mass missive is strictly a one-way exchange from you to the subjects. If you do not share a common language, the subjects \u201chear\u201d meaningless mental syllables.\nAugment: For every 2 additional power points you spend, this power's range increases by 40 feet and its save DC increases by 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::067_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::069_display_mental"
+}

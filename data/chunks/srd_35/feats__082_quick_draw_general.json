@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::082_quick_draw_general",
+  "document_id": "srd_35::feats::082_quick_draw_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "QUICK DRAW [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#082_quick_draw_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Base attack bonus +1.\nBenefit: You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon (see the Sleight of Hand skill) as a move action.\nA character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow).\nNormal: Without this feat, you may draw a weapon as a move action, or (if your base attack bonus is +1 or higher) as a free action as part of movement. Without this feat, you can draw a hidden weapon as a standard action.\nSpecial: A fighter may select Quick Draw as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::081_precise_shot_general",
+  "next_chunk_id": "chunk::srd_35::feats::083_quicken_spell_metamagic"
+}

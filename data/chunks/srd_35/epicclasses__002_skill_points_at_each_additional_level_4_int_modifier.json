@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::002_skill_points_at_each_additional_level_4_int_modifier",
+  "document_id": "srd_35::epicclasses::002_skill_points_at_each_additional_level_4_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "Skill Points at Each Additional Level: 4 + Int modifier"
+    ],
+    "source_location": "EpicClasses.rtf#002_skill_points_at_each_additional_level_4_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "Barbarian Rage: The epic barbarian gains one use of rage per day every four levels after 20th.\nTrap Sense (Ex): The epic barbarian's bonus increases by +1 every three levels higher than 18th.\nDamage Reduction (Ex): The epic barbarian's damage reduction increases by 1 point every three levels higher than 19th.\nBonus Feats: The epic barbarian gains a bonus feat (selected from the list of epic barbarian bonus feats) every four levels higher than 20th.\nEpic Barbarian Bonus Feat List: Armor Skin, Chaotic Rage, Damage Reduction, Devastating Critical, Dire Charge, Epic Endurance, Epic Prowess, Epic Speed, Epic Toughness, Epic Weapon Focus, Fast Healing, Incite Rage, Legendary Climber, Legendary Leaper, Legendary Rider, Legendary Tracker, Legendary Wrestler, Mighty Rage, Overwhelming Critical, Ruinous Rage, Terrifying Rage, Thundering Rage.\nTable: The Epic Barbarian\nBarbarian Level | Special |\n21st | Trap sense +7 |\n22nd | Damage reduction 6/- |\n23rd | -- |\n24th | Rage 7/day, Trap sense +8, bonus feat |\n25th | Damage reduction 7/- |\n26th | -- |\n27th | Trap sense +9 |\n28th | Damage reduction 8/-, Rage 8/day, bonus feat |\n29th | -- |\n30th | Trap sense +10 |\nEPIC BARD\nHit Die: d6",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::001_epicclasses",
+  "next_chunk_id": "chunk::srd_35::epicclasses::003_skill_points_at_each_additional_level_6_int_modifier"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::037_nightshade",
+  "document_id": "srd_35::monstersm_n::037_nightshade",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "NIGHTSHADE"
+    ],
+    "source_location": "MonstersM-N.rtf#037_nightshade"
+  },
+  "chunk_type": "subsection",
+  "content": "Nightshades are powerful undead composed of equal parts darkness and absolute evil.\nNightshades can read and understand all forms of communication; however, they communicate with others by telepathy.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::036_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::038_combat"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicraces::001_psionicraces",
+  "document_id": "srd_35::psionicraces::001_psionicraces",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicRaces",
+      "PsionicRaces"
+    ],
+    "source_location": "PsionicRaces.rtf#001_psionicraces"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::psionicraces::002_2_charisma_2_strength_2_wisdom"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::033_stone_giant_elders",
+  "document_id": "srd_35::monstersg::033_stone_giant_elders",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "STONE GIANT ELDERS"
+    ],
+    "source_location": "MonstersG.rtf#033_stone_giant_elders"
+  },
+  "chunk_type": "subsection",
+  "content": "Some stone giants develop special abilities related to their environment. These giant elders have Charisma scores of at least 15 and spell-like abilities, which they use as 10th-level sorcerers. Once per day they can use stone shape, stone tell, and either transmute rock to mud or transmute mud to rock (DC 17). The save DC is Charisma-based. One in ten elders is a sorcerer, usually of 3rd to 6th level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::032_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::034_stone_giants_as_characters"
+}

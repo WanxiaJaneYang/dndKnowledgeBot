@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::011_combining_skill_attempts",
+  "document_id": "srd_35::skillsi::011_combining_skill_attempts",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "COMBINING SKILL ATTEMPTS"
+    ],
+    "source_location": "SkillsI.rtf#011_combining_skill_attempts"
+  },
+  "chunk_type": "subsection",
+  "content": "When more than one character tries the same skill at the same time and for the same purpose, their efforts may overlap.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::010_time_and_skill_checks",
+  "next_chunk_id": "chunk::srd_35::skillsi::012_individual_events"
+}

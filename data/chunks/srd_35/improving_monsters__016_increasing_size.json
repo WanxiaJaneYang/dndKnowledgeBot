@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::016_increasing_size",
+  "document_id": "srd_35::improving_monsters::016_increasing_size",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "INCREASING SIZE"
+    ],
+    "source_location": "Improving Monsters.rtf#016_increasing_size"
+  },
+  "chunk_type": "subsection",
+  "content": "Generally, increasing a monster's size increases its combat effectiveness. Large creatures gain increased Strength, reach, and other benefits. Apply this modifier if you increase a creature beyond Medium and in conjunction with any other increases.\nBe careful, though. Monsters that benefit from a smaller size may actually lose effectiveness because of a size increase. Monsters that don't benefit from size increases don't advance in that manner for this reason.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::015_adding_hit_dice",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::017_adding_special_abilities"
+}

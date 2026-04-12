@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::035_combat",
+  "document_id": "srd_35::monstersg::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Combat"
+    ],
+    "source_location": "MonstersG.rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Storm giants use weapons and spell-like abilities instead of throwing rocks. Their composite longbows have a range increment of 180 feet.\nSpell-Like Abilities: 1/day--call lightning (DC 15), chain lightning (DC 18). Caster level 15th. 2/day--control weather, levitate. Caster level 20th. The save DCs are Charisma-based.\nFreedom of Movement (Su): Storm giants have a continuous freedom of movement ability as the spell (caster level 20th). The effect can be dispelled, but the storm giant can create it again on its next turn as a free action.\nWater Breathing (Ex): Storm giants can breathe underwater indefinitely and can freely use their spell-like abilities while submerged.\nSkills: A storm giant has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. *Storm giants ignore all weight penalties for gear carried when swimming.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::034_stone_giants_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersg::036_storm_giant_characters"
+}

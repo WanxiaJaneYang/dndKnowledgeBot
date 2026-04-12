@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::007_satyrs_as_characters",
+  "document_id": "srd_35::monsterss::007_satyrs_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "SATYRS AS CHARACTERS"
+    ],
+    "source_location": "MonstersS.rtf#007_satyrs_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Satyr characters possess the following racial traits.\n-- +2 Dexterity, +2 Constitution, +2 Intelligence, +2 Wisdom, +2 Charisma.\n--Medium size.\n--A satyr's base land speed is 40 feet.\n--Low-light vision.\n--Racial Hit Dice: A satyr begins with five levels of fey, which provide 5d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.\n--Racial Skills: A satyr's fey levels give it skill points equal to 8 x\uf020(6 + Int modifier). Its class skills are Bluff, Hide, Knowledge (nature), Listen, Move Silently, Perform, and Spot. Satyrs have a +4 racial bonus on Hide, Listen, Move Silently, Perform, and Spot checks.\n--Racial Feats: A satyr's fey levels give it two feats. A satyr receives Alertness as a bonus feat.\n-- +4 natural armor bonus.\n--Natural Weapons: Head butt (1d6).\n--Special Attacks (see above): Pipes.\n--Special Qualities (see above): Damage reduction 5/cold iron.\n--Automatic Languages: Sylvan. Bonus Languages: Common, Elven, Gnome.\n--Favored Class: Bard.\n--Level adjustment +2.\n\nHit Dice: | 6d10+18 (51 hp) |\nInitiative: | +1 |\nSpeed: | 10 ft. (2 squares), swim 40 ft. |\nArmor Class: | 18 (-1 size, +1 Dex, +8 natural), touch 10, flat-footed 17 |\nBase Attack/Grapple: | +6/+14 |\nAttack: | Claw +9 melee (1d6+4) |\nFull Attack: | 2 claws +9 melee (1d6+4) and bite +4 melee (1d8+2) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Rend 2d6+6 |\nSpecial Qualities: | Darkvision 60 ft., hold breath, low-light vision, scent |\nSaves: | Fort +8, Ref +6, Will +5 |\nAbilities: | Str 19, Dex 12, Con 17, Int 2, Wis 13, Cha 10 |\nSkills: | Listen +8, Spot +7, Swim +12 |\nFeats: | Alertness, Endurance, Iron Will |\nEnvironment: | Temperate aquatic |\nOrganization: | Solitary, pair, or pride (5-12) |\nChallenge Rating: | 4 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 7-9 HD (Large); 10-18 HD (Huge) |\nLevel Adjustment: | -- |\nA typical sea cat is 12 feet long and weighs 800 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::006_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::008_combat"
+}

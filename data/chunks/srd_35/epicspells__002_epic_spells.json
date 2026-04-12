@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::002_epic_spells",
+  "document_id": "srd_35::epicspells::002_epic_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "EPIC SPELLS"
+    ],
+    "source_location": "EpicSpells.rtf#002_epic_spells"
+  },
+  "chunk_type": "rule_section",
+  "content": "WHAT ARE EPIC SPELLS?\nEpic spells are spells developed from the ground up using a list of magical ingredients called seeds. Despite their power, epic spells still follow the basic rules for casting spells, except as specifically noted otherwise. Epic casters can manipulate the seeds of true magic, but knowing the seeds and how to manipulate them does not instantly grant ultimate power. Each epic spell must be laboriously developed before it can be used.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicspells::001_epicspells",
+  "next_chunk_id": "chunk::srd_35::epicspells::003_acquiring_epic_spells"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::091_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::091_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#091_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "If you have a claw attack (either from an actual natural weapon or from an effect such as claws of the beast), you can use this power to produce a mild venom that coats one of your claws. On your next successful melee attack, the venom deals 2 points of Constitution damage. A target struck by the poison can make a Fortitude save (DC 10 + 1/2 your manifester level + your key ability modifier) to negate the damage.\nAugment: For every 6 additional power points you spend, this power's Constitution damage increases by 2 points.\nPrevenom Weapon\nPsychometabolism (Creation)\nLevel: Psychic warrior 1\nRange: Touch\nTarget: Weapon touched",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::090_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::092_power_points_1"
+}

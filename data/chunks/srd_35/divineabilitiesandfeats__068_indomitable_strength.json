@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::068_indomitable_strength",
+  "document_id": "srd_35::divineabilitiesandfeats::068_indomitable_strength",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Indomitable Strength"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#068_indomitable_strength"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Str 40, Strength domain.\nBenefit: If required to make an opposed roll involving Strength (including grapple checks), the deity receives a divine bonus of +25 on its roll. This bonus stacks with the normal divine rank bonus.\nSuggested Portfolio Elements: Strength.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::067_increased_spell_resistance",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::069_instant_counterspell"
+}

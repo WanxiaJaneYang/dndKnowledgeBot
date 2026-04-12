@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::063_metacreativity_creation",
+  "document_id": "srd_35::psionicpowersa_c::063_metacreativity_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Metacreativity (Creation)"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#063_metacreativity_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Shaper 3, psychic warrior 3\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::062_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::064_power_points_5"
+}

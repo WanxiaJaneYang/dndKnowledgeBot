@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::028_creating_soul_gems",
+  "document_id": "srd_35::epicmonsters_a_e::028_creating_soul_gems",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "CREATING SOUL GEMS"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#028_creating_soul_gems"
+  },
+  "chunk_type": "subsection",
+  "content": "Liches have phylacteries that allow them to reappear 1d10 days after their apparent death, as do demiliches. Demiliches also have eight soul gems, each of which acts like a phylactery in its own right. If all the soul gems, as well as the demilich's phylactery, are not destroyed after a demilich is downed, the demilich reappears 1d10 days after its apparent death. The soul gems also allow the demilich to use its most devastating ability, trap the soul (see above). Each demilich must make its own soul gems, which requires the Craft Wondrous Item feat. The lich must be a sorcerer, wizard, or cleric of at least 21st level. Each soul gem costs 120,000 gp and 4,800 XP to create and has a caster level equal to that of its creator at the time of creation. Soul gems appear as egg-shaped gems of wondrous quality. They are always incorporated directly into the concentrated form of the demilich.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::027_demilich_characters",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::029_devastation_vermin"
+}

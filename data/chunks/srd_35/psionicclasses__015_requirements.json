@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::015_requirements",
+  "document_id": "srd_35::psionicclasses::015_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Requirements"
+    ],
+    "source_location": "PsionicClasses.rtf#015_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a cerebremancer, a character must fulfill all the following criteria.\nSkills: Knowledge (arcana) 6 ranks, Knowledge (psionics) 6 ranks.\nSpells: Able to cast 2nd-level arcane spells.\nPsionics: Able to manifest 2nd-level powers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::014_class_features",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::016_class_skills"
+}

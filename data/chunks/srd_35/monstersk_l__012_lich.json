@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::012_lich",
+  "document_id": "srd_35::monstersk_l::012_lich",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "LICH"
+    ],
+    "source_location": "MonstersK-L.rtf#012_lich"
+  },
+  "chunk_type": "subsection",
+  "content": "A lich is an undead spellcaster, usually a wizard or sorcerer but sometimes a cleric or other spellcaster, who has used its magical powers to unnaturally extend its life.\nA lich is a gaunt and skeletal humanoid with withered flesh stretched tight across horribly visible bones. Its eyes have long ago been lost to decay, but bright pinpoints of crimson light burn on in the empty sockets.\nLiches speak Common plus any other languages they knew in life.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::011_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::013_creating_a_lich"
+}

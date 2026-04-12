@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::005_3rd_level_druid_spells",
+  "document_id": "srd_35::spelllistii::005_3rd_level_druid_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "3RD-LEVEL DRUID SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#005_3rd_level_druid_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Call Lightning: Calls down lightning bolts (3d6 per bolt) from sky.\nContagion: Infects subject with chosen disease.\nCure Moderate Wounds: Cures 2d8 damage +1/level (max +10).\nDaylight: 60-ft. radius of bright light.\nDiminish Plants: Reduces size or blights growth of normal plants.\nDominate Animal: Subject animal obeys silent mental commands.\nMagic Fang, Greater: One natural weapon of subject creature gets +1/four levels on attack and damage rolls (max +5).\nMeld into Stone: You and your gear merge with stone.\nNeutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.\nPlant Growth: Grows vegetation, improves crops.\nPoison: Touch deals 1d10 Con damage, repeats in 1 min.\nProtection from Energy: Absorb 12 points/level of damage from one kind of energy.\nQuench: Extinguishes nonmagical fires or one magic item.\nRemove Disease: Cures all diseases affecting subject.\nSleet Storm: Hampers vision and movement.\nSnare: Creates a magic booby trap.\nSpeak with Plants: You can talk to normal plants and plant creatures.\nSpike Growth: Creatures in area take 1d4 damage, may be slowed.\nStone Shape: Sculpts stone into any shape.\nSummon Nature's Ally III: Calls creature to fight.\nWater Breathing: Subjects can breathe underwater.\nWind Wall: Deflects arrows, smaller creatures, and gases.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::004_2nd_level_druid_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::006_4th_level_druid_spells"
+}

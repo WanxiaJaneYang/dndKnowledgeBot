@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::025_damage_reduction_epic",
+  "document_id": "srd_35::epicfeats::025_damage_reduction_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DAMAGE REDUCTION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#025_damage_reduction_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Con 21.\nBenefit: The character gains damage reduction 3/-. This does not stack with damage reduction granted by magic items or nonpermanent magical effects, but it does stack with any damage reduction granted by permanent magical effects, class features, or this feat itself.\nSpecial: A character can gain this feat multiple times. Each time he or she gains the feat, his or her damage reduction increases by 3.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::024_craft_epic_wondrous_item_item_creation_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::026_deafening_song_epic"
+}

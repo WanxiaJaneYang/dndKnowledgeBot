@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::025_combat",
+  "document_id": "srd_35::monstersh_i::025_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#025_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hell hounds are efficient hunters. A favorite pack tactic is to surround prey quietly, then attack with one or two hounds, driving it toward the rest with their fiery breath. If the prey doesn't run, the pack closes in. Hell hounds track fleeing prey relentlessly.\nA hell hound's natural weapons, as well as any weapons it wields, are treated as evil-aligned\nand lawful-aligned for the purpose of overcoming damage reduction.\nBreath Weapon (Su): 10-foot cone, once every 2d4 rounds, damage 2d6 fire, Reflex DC 13 half. The save DC is Constitution-based.\nFiery Bite (Su): A hell hound deals an extra 1d6 points of fire damage every time it bites an opponent, as if its bite were a flaming weapon.\nSkills: Hell hounds have a +5 racial bonus on Hide and Move Silently checks.\n*They also receive a +8 racial bonus on Survival checks when tracking by scent, due to their keen sense of smell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::024_hell_hound",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::026_nessian_warhound"
+}

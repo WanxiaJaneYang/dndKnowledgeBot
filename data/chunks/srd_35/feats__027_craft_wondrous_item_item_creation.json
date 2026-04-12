@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::027_craft_wondrous_item_item_creation",
+  "document_id": "srd_35::feats::027_craft_wondrous_item_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "CRAFT WONDROUS ITEM [ITEM CREATION]"
+    ],
+    "source_location": "Feats.rtf#027_craft_wondrous_item_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Caster level 3rd.\nBenefit: You can create any wondrous item whose prerequisites you meet. Enchanting a wondrous item takes one day for each 1,000 gp in its price. To enchant a wondrous item, you must spend 1/25 of the item's price in XP and use up raw materials costing half of this price.\nYou can also mend a broken wondrous item if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to craft that item in the first place.\nSome wondrous items incur extra costs in material components or XP, as noted in their descriptions. These costs are in addition to those derived from the item's base price. You must pay such a cost to create an item or to mend a broken one.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::026_craft_wand_item_creation",
+  "next_chunk_id": "chunk::srd_35::feats::028_deceitful_general"
+}

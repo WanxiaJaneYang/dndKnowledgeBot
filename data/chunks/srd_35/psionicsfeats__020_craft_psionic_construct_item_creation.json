@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::020_craft_psionic_construct_item_creation",
+  "document_id": "srd_35::psionicsfeats::020_craft_psionic_construct_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "CRAFT PSIONIC CONSTRUCT [ITEM CREATION]"
+    ],
+    "source_location": "PsionicsFeats.rtf#020_craft_psionic_construct_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "You can create golems and other psionic automatons that obey your orders.\nPrerequisites: Craft Psionic Arms and Armor, Craft Universal Item.\nBenefit: You can create any psionic construct whose prerequisites you meet. Creating a construct takes one day for each 1,000 gp in its base price. To create a construct, you must spend 1/25 of the construct's base price in XP and use up raw materials costing one-half of this price. A newly created construct has average hit points for its Hit Dice.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::019_craft_psionic_arms_and_armor_item_creation",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::021_craft_universal_item_item_creation"
+}

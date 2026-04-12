@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::027_combat",
+  "document_id": "srd_35::psionicmonsters::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Psi-Like Abilities: 1/day: energy ray (fire, 1d6+1). Manifester level 1st. The save DC is Charisma-based. (Other dromites may manifest electricity, cold, or sonic energy rays instead; the energy ray always matches the type of energy the dromite is resistant to.)\nThe dromite warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::026_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::028_dromites_as_characters"
+}

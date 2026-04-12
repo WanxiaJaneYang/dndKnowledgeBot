@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::052_combat",
+  "document_id": "srd_35::monstersintro_a::052_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#052_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Azers use broad-headed spears or well-crafted hammers in combat. When unarmed, they attempt to grapple foes.\nAlthough unfriendly and taciturn, azers rarely provoke a fight except to relieve a foe of gems, which they love. If threatened, they fight to the death, but they see the value of taking prisoners themselves.\nHeat (Ex): An azer's body is intensely hot, so its unarmed attacks deal extra fire damage. Its metallic weapons also conduct this heat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::051_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::053_azers_as_characters"
+}

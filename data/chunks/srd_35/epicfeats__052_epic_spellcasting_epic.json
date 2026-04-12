@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::052_epic_spellcasting_epic",
+  "document_id": "srd_35::epicfeats::052_epic_spellcasting_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC SPELLCASTING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#052_epic_spellcasting_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Spellcraft 24 ranks, Knowledge (arcana) 24 ranks, ability to cast 9th-level arcane spells. OR Spellcraft 24 ranks, Knowledge (religion) 24 ranks, ability to cast 9th-level divine spells. OR Spellcraft 24 ranks, Knowledge (nature) 24 ranks, ability to cast 9th-level divine spells.\nBenefit: The character may develop and cast epic spells. If the character is an arcane spellcaster, he or she may cast a number of epic spells per day equal to his or her ranks in Knowledge (arcana) divided by 10. If the character is a divine spellcaster, he or she may cast a number of epic spells per day equal to his or her ranks in Knowledge (religion) or Knowledge (nature) divided by 10.\nSpecial: If the character meets more than one set of prerequisites, the limit on the number of spells he or she may cast per day is cumulative.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::051_epic_spell_penetration_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::053_epic_toughness_epic"
+}

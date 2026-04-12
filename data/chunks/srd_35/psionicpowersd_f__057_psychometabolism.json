@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::057_psychometabolism",
+  "document_id": "srd_35::psionicpowersd_f::057_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#057_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 2, psychic warrior 1\nDisplay: Visual\nManifesting Time: 1 standard action\n\nDuration: 1 hour/level\nPower Points: Psion/wilder 3, psychic warrior 1\nYou gain low-light vision (as an elf ) for the duration of the power, as well as a +2 bonus on Search and Spot checks.\nIn addition, you gain the ability to notice secret or concealed doors by merely passing within 5 feet of one, getting to make a Search check as if you were actively looking for it.\nIf elfsight is used in conjunction with my light, the cone of light extends out to 40 feet instead of 20 feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::056_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::058_telepathy_mind_affecting"
+}

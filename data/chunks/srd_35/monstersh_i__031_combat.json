@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::031_combat",
+  "document_id": "srd_35::monstersh_i::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Homunculi land on their victims and bite with their venomous fangs.\nPoison (Ex): Injury, Fortitude DC 13, initial damage sleep for 1 minute, secondary damage sleep for another 5d6 minutes. The save DC is Constitution-based and includes a +2 racial bonus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::030_hobgoblin_characters",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::032_construction"
+}

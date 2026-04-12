@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::024_mummy_lord",
+  "document_id": "srd_35::monstersm_n::024_mummy_lord",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "MUMMY LORD"
+    ],
+    "source_location": "MonstersM-N.rtf#024_mummy_lord"
+  },
+  "chunk_type": "subsection",
+  "content": "Unusually powerful or evil individuals preserved as mummies sometimes rise as greater mummies after death. A mummy lord resembles its lesser fellows, but often wears or carries equipment it used in life.\nMummy lords are often potent spellcasters. They are found as guardians of the tombs of high lords, priests, and mages. Most are sworn to defend for eternity the resting place of those whom they served in life, but in some cases a mummy lord's unliving state is the result of a terrible curse or rite designed to punish treason, infidelity, or crimes of an even more abhorrent nature. A mummy lord of this sort is usually imprisoned in a tomb that is never meant to be opened again.\nDespair (Su): The save DC against this mummy lord's despair is 17.\nMummy Rot (Su): The save DC against this mummy lord's mummy rot is 17.\nTypical Cleric Spells Prepared (6/7/6/5/5/4; save DC 15 + spell level): 0--detect magic (2), guidance, read magic, resistance, virtue; 1st--bane, command, deathwatch, divine favor, doom, sanctuary*, shield of faith; 2nd--bull's strength, death knell*, hold person, resist energy, silence, spiritual weapon; 3rd--animate dead*, deeper darkness, dispel magic, invisibility purge, searing light; 4th--air walk, dismissal, divine power, giant vermin, spell immunity*; 5th--insect plague, slay living*, spell resistance, symbol of pain.\n*Domain Spell. Domains: Death and Protection.\nPossessions: +2 half-plate armor, cloak of resistance +2, ring of minor elemental resistance (fire), brooch of shielding. (Different mummy lords may have different possessions.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::023_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::025_naga"
+}

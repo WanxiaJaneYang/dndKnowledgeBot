@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::038_successful_spell_resistance",
+  "document_id": "srd_35::abilitiesandconditions::038_successful_spell_resistance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "Successful Spell Resistance"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#038_successful_spell_resistance"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell resistance prevents a spell or a spell-like ability from affecting or harming the resistant creature, but it never removes a magical effect from another creature or negates a spell's effect on another creature. Spell resistance prevents a spell from disrupting another spell.\nAgainst an ongoing spell that has already been cast, a failed check against spell resistance allows the resistant creature to ignore any effect the spell might have. The magic continues to affect others normally.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::037_when_spell_resistance_applies",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::039_tremorsense"
+}

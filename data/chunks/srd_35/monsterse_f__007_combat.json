@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::007_combat",
+  "document_id": "srd_35::monsterse_f::007_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#007_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Their rapid speed makes air elementals useful on vast battlefields or in extended aerial combat.\nAir Mastery (Ex): Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental.\nWhirlwind (Su): The elemental can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 1 round for every 2 HD it has. In this form, the elemental can move through the air or along a surface at its fly speed.\nThe whirlwind is 5 feet wide at the base, up to 30 feet wide at the top, and up to 50 feet tall, depending on the elemental's size. The elemental controls the exact height, but it must be at least 10 feet.\nThe elemental's movement while in whirlwind form does not provoke attacks of opportunity, even if the elemental enters the space another creature occupies. Another creature might be caught in the whirlwind if it touches or enters the whirlwind, or if the elemental moves into or through the creature's space.\nCreatures one or more size categories smaller than the elemental might take damage when caught in the whirlwind (see the table below for details) and may be lifted into the air. An affected creature must succeed on a Reflex save when it comes into contact with the whirlwind or take the indicated damage. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful winds, automatically taking the indicated damage each round. A creature that can fly is allowed a Reflex save each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The DC for saves against the whirlwind's effects varies with the elemental's size (see the table). The save DC is Strength based.\nCreatures trapped in the whirlwind cannot move except to go where the elemental carries them or to escape the whirlwind.\nCreatures caught in the whirlwind can otherwise act normally, but must succeed on a Concentration check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a -4 penalty to Dexterity and a -2 penalty on attack rolls. The elemental can have only as many creatures trapped inside the whirlwind at one time as will fit inside the whirlwind's volume.\nThe elemental can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be. A summoned elemental always ejects trapped creatures before returning to its home plane.\nIf the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the elemental and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.\nThose caught in the cloud must succeed on a Concentration check (DC 15 + spell level) to cast a spell.\nAn elemental in whirlwind form cannot make slam attacks and does not threaten the area around it.\nAir Elemental Sizes |\n| | | -------- Whirlwind -------- |\nElemental | Height | Weight | Save DC | Damage | Height |\nSmall | 4 ft. | 1 lb. | 11 | 1d4 | 10-20 ft. |\nMedium | 8 ft. | 2 lb. | 13 | 1d6 | 10-30 ft. |\nLarge | 16 ft. | 4 lb. | 16 | 2d6 | 10-40 ft. |\nHuge | 32 ft. | 8 lb. | 22 | 2d8 | 10-50 ft. |\nGreater | 36 ft. | 10 lb. | 25 | 2d8 | 10-60 ft. |\nElder | 40 ft. | 12 lb. | 28 | 2d8 | 10-60 ft. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::006_air_elemental",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::008_earth_elemental"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::048_combat",
+  "document_id": "srd_35::monstersintro_a::048_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#048_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Arrowhawks are extremely territorial and always hungry. They attack almost any other creature they meet, seeking a meal or trying to drive away a rival. The primary mode of attack is an electricity ray, fired from the tail. The creature also bites, but it prefers to stay out of reach.\nElectricity Ray (Su): An arrowhawk can fire this ray once per round, with a range of 50 feet.\n\nHit Dice: | 4d8+12 (30 hp) |\nInitiative: | +0 |\nSpeed: | 5 ft. (1 square) |\nArmor Class: | 15 (-1 size, +6 natural), touch 9, flat-footed 15 |\nBase Attack/Grapple: | +3/+12 |\nAttack: | Slam +7 melee (1d6+7) |\nFull Attack: | Slam +7 melee (1d6+7) |\nSpace/Reach: | 10 ft./10 ft. (20 ft. with vine) |\nSpecial Attacks: | Constrict 1d6+7, entangle, improved grab |\nSpecial Qualities: | Blindsight 30 ft., camouflage, immunity to electricity, low-light vision, plant traits, resistance to cold 10 and fire 10 |\nSaves: | Fort +7, Ref +1, Will +2 |\nAbilities: | Str 20, Dex 10, Con 16, Int --, Wis 13, Cha 9 |\nEnvironment: | Temperate forests |\nOrganization: | Solitary or patch (2-4) |\nChallenge Rating: | 3 |\nTreasure: | 1/10th coins; 50% goods; 50% items |\nAlignment: | Always neutral |\nAdvancement: | 5-16 HD (Huge); 17-32 HD (Gargantuan); 33+ HD (Colossal) |\nLevel Adjustment: | -- |\nThe assassin vine is a semi-mobile plant that collects its own grisly fertilizer by grabbing and crushing animals and depositing the carcasses near its roots.\nA mature plant consists of a main vine, about 20 feet long. Smaller vines up to 5 feet long branch off from the main vine about every 6 inches. These small vines bear clusters of leaves, and in late summer they produce bunches of small fruits that resemble wild grapes. The fruit is tough and has a hearty but bitter flavor. Assassin vine berries make a heady wine.\nAn assassin vine can move about, albeit very slowly, but usually stays put unless it needs to seek prey in a new vicinity.\nA subterranean version of the assassin vine grows near hot springs, volcanic vents, and other sources of thermal energy. These plants have thin, wiry stems and gray leaves shot through with silver, brown, and white veins so that they resemble mineral deposits. An assassin vine growing underground usually generates enough offal to support a thriving colony of mushrooms and other fungi, which spring up around the plant and help conceal it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::047_arrowhawk",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::049_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::025_creating_wands",
+  "document_id": "srd_35::magicitemsi::025_creating_wands",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "CREATING WANDS"
+    ],
+    "source_location": "MagicItemsI.rtf#025_creating_wands"
+  },
+  "chunk_type": "subsection",
+  "content": "To create a magic wand, a character needs a small supply of materials, the most obvious being a baton or the pieces of the wand to be assembled. The cost for the materials is subsumed in the cost for creating the wand--375 gp x the level of the spell x the level of the caster. Wands are always fully charged (50 charges) when created.\nThe creator must have prepared the spell to be stored (or must know the spell, in the case of a sorcerer or bard) and must provide any focuses the spell requires. Fifty of each needed material component are required, one for each charge. If casting the spell would reduce the caster's XP total, she pays the cost (multiplied by 50) upon beginning the wand in addition to the XP cost for making the wand itself. Likewise, material components are consumed when she begins working, but focuses are not. (A focus used in creating a wand can be reused.) The act of working on the wand triggers the prepared spell, making it unavailable for casting during each day devoted to the wand's creation. (That is, that spell slot is expended from her currently prepared spells, just as if it had been cast.)\nCrafting a wand requires one day per each 1,000 gp of the base price.\nItem Creation Feat Required: Craft Wand.\n\nSpell Level | Clr, Drd, Wiz | Sor | Brd | Pal, Rgr* |\n0 | 375 gp | 375 gp | 375 gp | -- |\n1st | 750 gp | 750 gp | 1,500 gp | 1,500 gp |\n2nd | 4,500 gp | 6,000 gp | 6,000 gp | 6,000 gp |\n3rd | 11,250 gp | 13,500 gp | 15,750 gp | 11,250 gp |\n4th | 21,000 gp | 24,000 gp | 30,000 gp | 21,000 gp |\n* Caster level is half class level. |\nPrices assume that the wand was made at the minimum caster level. |\nBase Magic Supplies and XP Cost to Craft a Wand (By Crafter's Class) |\nSpell Level | Clr, Drd, Wiz | Sor | Brd | Pal, Rgr* |\n0 | 187 gp 5 sp\n+15 XP | 187 gp 5 sp\n+15 XP | 187 gp 5 sp\n+15 XP | -- |\n1st | 375 gp\n+30 XP | 375 gp\n+30 XP | 750 gp\n+60 XP | 750 gp\n+60 XP |\n2nd | 2,250 gp\n+180 XP | 3,000 gp\n+240 XP | 3,000 gp\n+240 XP | 3,000 gp\n+240 XP |\n3rd | 5,625 gp\n+450 XP | 6,750 gp\n+540 XP | 7,875 gp\n+630 XP | 5,625 gp\n+450 XP |\n4th | 10,500 gp\n+840 XP | 12,000 gp\n+960 XP | 15,000 gp\n+1200 XP | 10,500 gp\n\n* Caster level is half class level. |\nCosts assume that the creator makes the wand at the minimum caster level. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::024_creating_staffs",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::026_creating_wondrous_items"
+}

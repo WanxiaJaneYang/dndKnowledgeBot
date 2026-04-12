@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::017_clairsentience",
+  "document_id": "srd_35::psionicpowersd_f::017_clairsentience",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Clairsentience"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#017_clairsentience"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 1, psychic warrior 1\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: 60 ft.\nArea: Cone -shaped emanation centered on you\nDuration: Concentration, up to 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::016_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::018_power_points_1"
+}

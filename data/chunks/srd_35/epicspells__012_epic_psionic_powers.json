@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::012_epic_psionic_powers",
+  "document_id": "srd_35::epicspells::012_epic_psionic_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "EPIC PSIONIC POWERS"
+    ],
+    "source_location": "EpicSpells.rtf#012_epic_psionic_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "The following adjustments should be made if taking psionic characters to epic levels.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicspells::011_seed_descriptions",
+  "next_chunk_id": "chunk::srd_35::epicspells::013_epic_psionic_seeds"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::060_display_mental",
+  "document_id": "srd_35::psionicpowersg_p::060_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#060_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels); see text\nTargets: You and one other willing creature within range that has an Intelligence score of 3 or higher\nDuration: 10 min./level\nSaving Throw: None; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::059_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::061_power_points_1"
+}

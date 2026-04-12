@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::036_use_skill",
+  "document_id": "srd_35::combati::036_use_skill",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Use Skill"
+    ],
+    "source_location": "CombatI.rtf#036_use_skill"
+  },
+  "chunk_type": "subsection",
+  "content": "Most skill uses are standard actions, but some might be move actions, full-round actions, free actions, or something else entirely.\nThe individual skill descriptions tell you what sorts of actions are required to perform skills.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::035_use_feat",
+  "next_chunk_id": "chunk::srd_35::combati::037_injury_and_death"
+}

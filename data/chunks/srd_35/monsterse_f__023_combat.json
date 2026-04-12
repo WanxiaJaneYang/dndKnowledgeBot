@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::023_combat",
+  "document_id": "srd_35::monsterse_f::023_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "COMBAT"
+    ],
+    "source_location": "MonstersE-F.rtf#023_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Once a marauder locates prey, it shifts to the Material Plane to attack, attempting to catch its victim flat-footed. The creature bites its victim, then retreats quickly back to the Ethereal Plane. When badly hurt or wounded, a marauder escapes to its home plane rather than continuing the fight.\nEthereal Jaunt (Su): An ethereal marauder can shift from the Ethereal Plane to the Material Plane as a free action, and shift back again as a move action. The ability is otherwise identical with the ethereal jaunt spell (caster level 15th).\nSkills: Ethereal marauders have a +2 racial bonus on Listen, Move Silently, and Spot checks.\n\nHit Dice: | 5d8+5 (27 hp) |\nInitiative: | +3 |\nSpeed: | 30 ft. (6 squares), climb 30 ft. |\nArmor Class: | 14 (+3 Dex, +1 natural), touch 13, flat-footed 11 |\nBase Attack/Grapple: | +3/+5 |\nAttack: | Bite +5 melee (1d8+2 plus poison) |\nAttack: | Bite +5 melee (1d8+2 plus poison) and 2 claws +3 melee (1d3+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Poison, web |\nSpecial Qualities: | Low-light vision |\nSaves: | Fort +4, Ref +4, Will +6 |\nAbilities: | Str 14, Dex 17, Con 13, Int 6, Wis 15, Cha 8 |\nSkills: | Climb +10, Craft (trapmaking) +4, Hide +9, Listen +4, Spot +8 |\nFeats: | Great Fortitude, Multiattack |\nEnvironment: | Warm forests |\nOrganization: | Solitary, pair, or troupe (1-2 plus 2-4 Medium monstrous spiders) |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually neutral evil |\nAdvancement: | 6-7 HD (Medium); 8-15 HD (Large) |\nLevel Adjustment: | +4 |\nAn ettercap is about 6 feet tall and weighs about 200 pounds.\nEttercaps speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::022_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::024_combat"
+}

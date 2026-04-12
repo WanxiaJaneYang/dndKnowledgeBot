@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::002_monsters_animals",
+  "document_id": "srd_35::monstersanimals::002_monsters_animals",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "MONSTERS (ANIMALS)"
+    ],
+    "source_location": "MonstersAnimals.rtf#002_monsters_animals"
+  },
+  "chunk_type": "subsection",
+  "content": "This section provides statistics and basic information for many common kinds of mundane animals. These creatures generally operate on instinct, driven by simple needs such as food and reproduction. Most animals, even predators, do not attack unless they or their young are threatened.\nAnimals are not capable of detailed reasoning, although with the Handle Animal skill it is possible to tame an animal and teach it to perform certain tricks.\nSome herbivorous animals do not normally use their natural weapons to attack. As such, their natural weapons are treated as secondary attacks. The animal's attack and damage entries note this fact, with an explanatory footnote.\nAnimal Traits: An animal possesses the following traits (unless otherwise noted in a creature's entry).\n--Intelligence score of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).\n--Low-light vision.\n--Alignment: Always neutral. Animals are not governed by a human sense of morality.\n--Treasure: None. Animals never possess treasure.\n\nHit Dice: | 4d8+11 (29 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), climb 30 ft. |\nArmor Class: | 14 (-1 size, +2 Dex, +3 natural), touch 11, flat-footed 12 |\nBase Attack/Grapple: | +3/+12 |\nAttack: | Claws +7 melee (1d6+5) |\nFull Attack: | 2 claws +7 melee (1d6+5) and bite +2 melee (1d6+2) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +6, Ref +6, Will +2 |\nAbilities: | Str 21, Dex 15, Con 14, Int 2, Wis 12, Cha 7 |\nSkills: | Climb +14, Listen +6, Spot +6 |\nFeats: | Alertness, Toughness |\nEnvironment: | Warm forests |\nOrganization: | Solitary, pair, or company (3-5) |\nChallenge Rating: | 2 |\nAdvancement: | 5-8 HD (Large) |\nLevel Adjustment: | -- |\nThese powerful omnivores resemble gorillas but are far more aggressive; they kill and eat anything they can catch. An adult male ape is 5-1/2 to 6 feet tall and weighs 300 to 400 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::001_monstersanimals",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::003_combat"
+}

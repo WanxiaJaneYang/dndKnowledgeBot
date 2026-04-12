@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::024_craft_epic_wondrous_item_item_creation_epic",
+  "document_id": "srd_35::epicfeats::024_craft_epic_wondrous_item_item_creation_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "CRAFT EPIC WONDROUS ITEM [ITEM CREATION][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#024_craft_epic_wondrous_item_item_creation_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Craft Wondrous Item, Knowledge (arcana) 26 ranks, Spellcraft 26 ranks.\nBenefit: The character can craft wondrous items that exceed the normal limits for such items.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::023_craft_epic_staff_item_creation_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::025_damage_reduction_epic"
+}

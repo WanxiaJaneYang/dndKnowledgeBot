@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::014_combat",
+  "document_id": "srd_35::monsterss::014_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#014_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A shambling mound batters or constricts its opponents with two huge, armlike appendages.\nImproved Grab (Ex): To use this ability, a shambler must hit with both slam attacks. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nConstrict (Ex): A shambler deals 2d6+7 points of damage with a successful grapple check.\nImmunity to Electricity (Ex): Shamblers take no damage from electricity. Instead, any electricity attack used against a shambler temporarily grants it 1d4 points of Constitution. The shambler loses these points at the rate of 1 per hour.\nSkills: Shamblers have a +4 racial bonus on Hide, Listen, and Move Silently checks. *They have a +12 racial bonus on Hide checks when in a swampy or forested area.\n\nHit Dice: | 15d10+30 (112 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 24 (-1 size, +15 natural), touch 9, flat-footed 24 |\nBase Attack/Grapple: | +11/+21 |\nAttack: | Slam +16 melee (1d8+6) |\nFull Attack: | 2 slams +16 melee (1d8+6) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Construct traits, darkvision 60 ft., fast healing 5, find master, guard, low-light vision, shield other, spell storing |\nSaves: | Fort +5, Ref +5, Will +5 |\nAbilities: | Str 22, Dex 10, Con --, Int --, Wis 10, Cha 1 |\nEnvironment: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 16-24 HD (Large); 25-45 HD (Huge) |\nLevel Adjustment: | -- |\nCreated by spellcasters to be bodyguards, shield guardians are constructs that protect their masters with spells and stamina. When it is fashioned, a shield guardian is keyed to a particular magical amulet. Henceforth, it regards the wearer of that amulet to be its master, protecting and following that individual everywhere (unless specifically commanded not to do so).\nA shield guardian obeys its master's verbal commands to the best of its ability, although it is not good for much beyond combat and possibly simple manual labor. It can also be keyed to perform specific tasks at specific times or when certain conditions are met. The wearer of the amulet can call the shield guardian from any distance, and it will come as long as it is on the same plane.\nA shield guardian is some 9 feet tall and weighs more than 1,200 pounds.\nShield guardians cannot speak, but they understand commands given in any language.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::013_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::015_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::121_music_of_the_gods_epic",
+  "document_id": "srd_35::epicfeats::121_music_of_the_gods_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MUSIC OF THE GODS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#121_music_of_the_gods_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Cha 25, Perform 30 ranks, bardic music class feature.\nBenefit: The character's bardic music can affect even those normally immune to mind-affecting effects. However, such creatures gain a +10 bonus on their Will saves to resist such effects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::120_multiweapon_rend_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::122_negative_energy_burst_divine_epic"
+}

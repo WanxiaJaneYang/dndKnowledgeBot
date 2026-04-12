@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::032_power_points_5",
+  "document_id": "srd_35::psionicpowersq_w::032_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#032_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "Your psicrystal takes over the responsibility of maintaining concentration on any single power you\nhave manifested and are concentrating on. While maintaining this concentration, the psicrystal is limited to move actions in each round, as normal. When the duration of solicit psicrystal expires, the power you transferred to the psicrystal ends (even if this would mean that the power ends earlier than normal). If necessary, the psicrystal makes Concentration checks using your Concentration modifier.\nYou can manifest this power (and transfer the responsibility) with an instant thought, quickly enough to gain the benefit of the power before you take any other actions in a round. Manifesting the power is a swift action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You cannot manifest this power when it isn't your turn.\nAugment: For every additional power point you spend, this power's maximum duration increases by 1 round.\nSteadfast Perception\nClairsentience\nLevel: Psychic warrior 4\nDisplay: Visual\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::031_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::033_power_points_7"
+}

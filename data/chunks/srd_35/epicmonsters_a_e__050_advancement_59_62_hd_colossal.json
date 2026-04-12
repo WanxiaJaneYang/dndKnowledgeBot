@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::050_advancement_59_62_hd_colossal",
+  "document_id": "srd_35::epicmonsters_a_e::050_advancement_59_62_hd_colossal",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Advancement: 59-62 HD (Colossal)"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#050_advancement_59_62_hd_colossal"
+  },
+  "chunk_type": "subsection",
+  "content": "A prismatic dragon's natural weapons are treated as epic for the purpose of overcoming damage reduction.\nBreath Weapon (Su): Cone of prismatic spray, 70 ft., effect as spell, Ref half (DC 58).\nSpell-Like Abilities: At will--hypnotic pattern, rainbow pattern; 3/day--sunbeam, sunburst. Caster level 26th; save DC 29 + spell level. The DC is Charisma-based.\nImmunities (Ex): Immune to sleep and paralysis effects, immune to light and blindness effects.\nSorcerer Spells Known (6/11/11/11/10/10/10/10/9/11; base DC 29 + spell level): 0--dancing lights, daze, detect magic, ghost sound, light, prestidigitation, ray of frost, read magic, resistance; 1st--enlarge person, mage armor, magic missile, shield, true strike, unseen servant; 2nd--alter self, blur, darkness, detect thoughts, levitate; 3rd--blink, fireball, greater magic weapon, haste, tongues, wind wall; 4th--confusion, polymorph, scrying, stoneskin; 5th-- baleful polymorph, dismissal, fabricate, passwall, wall of force; 6th--antimagic field, greater dispel magic, true seeing; 7th--forcecage, sequester, spell turning, greater teleport; 8th--greater planar binding, mass charm monster, symbol of death, temporal stasis; 9th--dominate monster, gate, imprisonment, time stop, wish\nPossessions: Staff of the cosmos, ring of regeneration, 15,563 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::049_abilities_str_57_dex_10_con_49_int_48_wis_49_cha_48",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::051_elemental_primal"
+}

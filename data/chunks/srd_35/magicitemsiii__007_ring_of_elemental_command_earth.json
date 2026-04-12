@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsiii::007_ring_of_elemental_command_earth",
+  "document_id": "srd_35::magicitemsiii::007_ring_of_elemental_command_earth",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsIII",
+      "Ring of Elemental Command (Earth)"
+    ],
+    "source_location": "MagicItemsIII.rtf#007_ring_of_elemental_command_earth"
+  },
+  "chunk_type": "subsection",
+  "content": "Meld into stone (unlimited use, wearer only)\nSoften earth or stone (unlimited use)\nStone shape (twice per day)\nStoneskin (once per week, wearer only)\nPasswall (twice per week)\nWall of stone (once per day)\nThe ring appears to be a ring of meld into stone until the established condition is met.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsiii::006_ring_of_elemental_command_air",
+  "next_chunk_id": "chunk::srd_35::magicitemsiii::008_ring_of_elemental_command_fire"
+}

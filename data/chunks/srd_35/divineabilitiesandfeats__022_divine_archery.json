@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::022_divine_archery",
+  "document_id": "srd_35::divineabilitiesandfeats::022_divine_archery",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Archery"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#022_divine_archery"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Base attack bonus +20, Dex 29, Point Blank Shot, Far Shot.\nBenefit: The deity can fire a ranged weapon at any target within line of sight and within range of the deity's personal senses. No range increment applies to the attack. The deity does not incur any attacks of opportunity for firing a bow when threatened. As a full-round action, the deity may fire an arrow at her full base attack bonus at each opponent within 10 feet per divine rank. The deity must have the Weapon Focus feat with the type of bow she uses to perform this attack. When shooting a ranged weapon, the deity can ignore any cover bonus to the target's AC or any miss chance conferred by the\ntarget's concealment.\nSuggested Portfolio Elements: Archers, war.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::021_divine_air_mastery",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::023_divine_armor_mastery"
+}

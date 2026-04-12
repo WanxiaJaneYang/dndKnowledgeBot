@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::036_duergar",
+  "document_id": "srd_35::monstersdr_dw::036_duergar",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Duergar"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#036_duergar"
+  },
+  "chunk_type": "subsection",
+  "content": "Sometimes called gray dwarves, these evil beings dwell in the underground.\nMost duergar are bald (even the females), and they dress in drab clothing that is designed to blend into stone. In their lairs they may wear jewelry, but it is always kept dull. They war with other dwarves, even allying with other underground creatures from time to time.\nDuergar speak Dwarven and Undercommon.\nDuergar Traits (Ex): These traits are in addition to the hill dwarf traits, except where noted.\n-- -4 Charisma instead of -2.\n--Darkvision out to 120 feet.\n--Immunity to paralysis, phantasms, and poison. This trait replaces the hill dwarf 's +2 racial bonus on saving throws against poison.\n-- +2 racial bonus on saves against spells and spell-like abilities.\n--Spell-Like Abilities: 1/day--enlarge person and invisibility as a wizard of twice the duergar's class level (minimum caster level 3rd); these abilities affect only the duergar and whatever it carries.\n--Light Sensitivity: Duergar are dazzled in bright sunlight or within the radius of a daylight spell.\n-- +4 racial bonus on Move Silently checks.\n-- +1 racial bonus on Listen and Spot checks.\n--Automatic Languages: Common, Dwarven, Undercommon.\nBonus Languages: Draconic, Giant, Goblin, Orc, Terran. This trait replaces the hill dwarf 's automatic and bonus languages.\n--Favored Class: Fighter.\n--Level adjustment +1\n--Unlike other dwarves, duergar do not have weapon familiarity with the dwarven waraxe and dwarven urgrosh.\nThe duergar warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.\nChallenge Rating: Duergar with levels in NPC classes have a CR equal to their character level. Duergar with levels in PC classes have a CR equal to their character level +1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::035_deep_dwarf",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::037_mountain_dwarf"
+}

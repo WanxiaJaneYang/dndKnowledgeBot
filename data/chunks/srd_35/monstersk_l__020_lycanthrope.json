@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::020_lycanthrope",
+  "document_id": "srd_35::monstersk_l::020_lycanthrope",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "LYCANTHROPE"
+    ],
+    "source_location": "MonstersK-L.rtf#020_lycanthrope"
+  },
+  "chunk_type": "subsection",
+  "content": "Lycanthropes are humanoids or giants who can transform themselves into animals. In its natural form, a lycanthrope looks like any other members of its kind, though natural lycanthropes and those who have been afflicted for a long time tend to have or acquire features reminiscent of their animal forms. In animal form, a lycanthrope resembles a powerful version of the normal animal, but on close inspection, its eyes (which often glow red in the dark) show a faint spark of unnatural intelligence.\nLycanthropy can be spread like a disease. Sometimes a lycanthrope begins life as a normal humanoid or giant who subsequently contracts lycanthropy after being wounded by a lycanthrope. Such a creature is called an afflicted lycanthrope. Other lycanthropes are born as lycanthropes, and are known as natural lycanthropes.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::019_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::021_combat"
+}

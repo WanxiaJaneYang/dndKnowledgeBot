@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::004_class_skills",
+  "document_id": "srd_35::prestigeclasses::004_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "PrestigeClasses.rtf#004_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The arcane archer's class skills (and the key ability for each skill) are Craft (Int), Hide (Dex). Listen (Wis), Move Silently (Dex), Ride (Dex), Spot (Wis), Survival (Wis), and Use Rope (Dex).\nSkill Points at Each Level: 4 + Int modifier.\nTable: The Arcane Archer |\nLevel | Base\nAttack\nBonus | Fort\nSave | Ref\nSave | Will\nSave | Special |\n1st | +1 | +2 | +2 | +0 | Enhance arrow +1 |\n2nd | +2 | +3 | +3 | +0 | Imbue arrow |\n3rd | +3 | +3 | +3 | +1 | Enhance arrow +2 |\n4th | +4 | +4 | +4 | +1 | Seeker arrow |\n5th | +5 | +4 | +4 | +1 | Enhance arrow +3 |\n6th | +6 | +5 | +5 | +2 | Phase arrow |\n7th | +7 | +5 | +5 | +2 | Enhance arrow +4 |\n8th | +8 | +6 | +6 | +2 | Hail of arrows |\n9th | +9 | +6 | +6 | +3 | Enhance arrow +5 |\n10th | +10 | +7 | +7 | +3 | Arrow of death |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::003_requirements",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::005_class_features"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::007_intelligent_items",
+  "document_id": "srd_35::epicmagicitems2::007_intelligent_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "INTELLIGENT ITEMS"
+    ],
+    "source_location": "EpicMagicItems2.rtf#007_intelligent_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Just like nonepic magic items, epic magic items sometimes possess intelligence of their own. Such items are fully sentient and should be treated as NPCs. The Random Epic Magic Items section details the chances that epic armor, shields, rings, rods, staffs, wondrous items, and weapons might be intelligent. In short, a ring, rod, staff, wondrous item, armor, or shield has a 1% chance to be intelligent, a ranged weapon has a 5% chance to be intelligent, and a melee weapon has a 15% chance to be intelligent. Rather than using the tables for nonepic items, use the tables below to determine the properties of an intelligent item: the number of powers, unusual properties, alignment, and special purpose of the item (if any). Of the three mental ability scores, two scores are favored (2d6 + some number) and one is completely random (3d6). Choose which scores get assigned which number, or roll 1d4 and determine randomly according to the following table.\n\n1d4 | High Score | Medium Score | Low Score |\n1 | Intelligence | Charisma | Wisdom |\n2 | Intelligence | Wisdom | Charisma |\n3 | Wisdom | Intelligence | Charisma |\n4 | Charisma | Intelligence | Wisdom |\nThe first step in determining the properties of a random intelligent epic magic item is to determine its general capabilities. These are found by rolling d% and consulting Table: Epic Items Intelligence, Wisdom, Charisma, and Capabilities.\n\nd% | Ability Scores | Capabilities |\n01-22 | Two 2d6+10, one 3d6 | Three primary abilities, one extraordinary power |\n23-40 | Two 2d6+11, one 3d6 | Three primary abilities, two extraordinary powers |\n41-54 | Two 2d6+12, one 3d6 | Four primary abilities, two extraordinary powers |\n55-64 | Two 2d6+14, one 3d6 | Four primary abilities, three extraordinary powers |\n65-71 | Two 2d6+16, one 3d6 | Four primary abilities, three extraordinary powers, one awesome power |\n72-73 | Two 2d6+18, one 3d6 | Four primary abilities, three extraordinary powers, two awesome powers |\n74 | Roll again, but add 1d6 to each ability score1 |\n75-100 | Use nonepic magic item Table: Item Intelligence, Wisdom, Charisma, and Capabilities |\n1 Cumulative if rolled multiple times. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::006_epic_wondrous_item_descriptions",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::008_market_price_modifier"
+}

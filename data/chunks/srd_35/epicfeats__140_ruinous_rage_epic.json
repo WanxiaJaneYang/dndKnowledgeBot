@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::140_ruinous_rage_epic",
+  "document_id": "srd_35::epicfeats::140_ruinous_rage_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "RUINOUS RAGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#140_ruinous_rage_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 25, Improved Sunder, Power Attack, rage 5/day.\nBenefit: While in a rage, the character ignores the hardness of any object he or she strikes. Also, double the character's Strength bonus for the purposes of any Strength check made to break an object with sudden force rather than by dealing normal damage (including bursting bindings, such as ropes or manacles).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::139_righteous_strike_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::141_scribe_epic_scroll_item_creation_epic"
+}

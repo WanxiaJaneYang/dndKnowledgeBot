@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::082_power_points_7",
+  "document_id": "srd_35::psionicpowersq_w::082_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#082_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "As truevenom, except your weapon gains the poison coating as long as it remains in your grip, until the effect is discharged, or until the duration expires, whichever occurs first.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::081_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::083_clairsentience"
+}

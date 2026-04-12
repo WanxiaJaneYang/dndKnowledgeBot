@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::036_combat",
+  "document_id": "srd_35::monstersm_n::036_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#036_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The save DC for the cauchemar's smoke attack (DC 24) is adjusted for its greater number of Hit Dice and higher Constitution score.\nCarrying Capacity: A light load for a cauchemar is up to 612 pounds; a medium load, 613-1,224 pounds; and a heavy load, 1,225-1,840 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::035_cauchemar",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::037_nightshade"
+}

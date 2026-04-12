@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::016_cr_2_traps",
+  "document_id": "srd_35::traps::016_cr_2_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 2 Traps"
+    ],
+    "source_location": "Traps.rtf#016_cr_2_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Box of Brown Mold: CR 2; mechanical; touch trigger (opening the box); automatic reset; 5-ft. cold aura (3d6, cold nonlethal); Search DC 22; Disable Device DC 16. Market Price: 3,000 gp.\nBricks from Ceiling: CR 2; mechanical; touch trigger; repair reset; Atk +12 melee (2d6, bricks); multiple targets (all targets in two adjacent 5-ft. squares); Search DC 20; Disable Device DC 20. Market Price: 2,400 gp.\nBurning Hands Trap: CR 2; magic device; proximity trigger (alarm); automatic reset; spell effect (burning hands, 1st-level wizard, 1d4 fire, DC 11 Reflex save half damage); Search DC 26; Disable Device DC 26. Cost: 500 gp, 40 XP.\nCamouflaged Pit Trap: CR 2; mechanical; location trigger; manual reset; DC 20 Reflex save avoids; 20 ft. deep (2d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); Search DC 24; Disable Device DC 19. Market Price: 3,400 gp.\nInflict Light Wounds Trap: CR 2; magic device; touch trigger; automatic reset; spell effect (inflict light wounds, 1st-level cleric, 1d8+1, DC 11 Will save half damage); Search DC 26; Disable Device DC 26. Cost: 500 gp, 40 XP.\nJavelin Trap: CR 2; mechanical; location trigger; manual reset; Atk +16 ranged (1d6+4, javelin); Search DC 20; Disable Device DC 18. Market Price: 4,800 gp.\nLarge Net Trap: CR 2; mechanical; location trigger; manual reset; Atk +5 melee (see note); Search DC 20; Disable Device DC 25. Note: Characters in 10-ft. square are grappled by net (Str 18) if they fail a DC 14 Reflex save. Market Price: 3,000 gp.\nPit Trap: CR 2; mechanical, location trigger; manual reset; DC 20 Reflex save avoids; 40 ft. deep (4d6, fall); Search DC 20; Disable Device DC 20. Market Price: 2,000 gp.\nPoison Needle Trap: CR 2; mechanical; touch trigger; repair reset; lock bypass (Open Lock DC 30); Atk +17 melee (1 plus poison, needle); poison (blue whinnis, DC 14 Fortitude save resists (poison only), 1 Con/unconsciousness); Search DC 22; Disable Device DC 17. Market Price: 4,720 gp.\nSpiked Pit Trap: CR 2; mechanical; location trigger; automatic reset; DC 20 Reflex save avoids; 20 ft. deep (2d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 each); Search DC 18; Disable Device DC 15. Market Price: 1,600 gp.\nTripping Chain: CR 2; mechanical; location trigger; automatic reset; multiple traps (tripping and melee attack); Atk +15 melee touch (trip), Atk +15 melee (2d4+2, spiked chain); Search DC 15; Disable Device DC 18. Market Price: 3,800 gp. Note: This trap is really one CR 1 trap that trips and a second CR 1 trap that attacks with a spiked chain. If the tripping attack succeeds, a +4 bonus applies to the spiked chain attack because the opponent is prone.\nWell-Camouflaged Pit Trap: CR 2; mechanical; location trigger; repair reset; DC 20 Reflex save avoids; 10 ft. deep (1d6, fall); Search DC 27; Disable Device DC 20. Market Price: 4,400 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::015_cr_1_traps",
+  "next_chunk_id": "chunk::srd_35::traps::017_cr_3_traps"
+}

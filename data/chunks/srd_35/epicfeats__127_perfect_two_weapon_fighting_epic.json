@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::127_perfect_two_weapon_fighting_epic",
+  "document_id": "srd_35::epicfeats::127_perfect_two_weapon_fighting_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "PERFECT TWO-WEAPON FIGHTING [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#127_perfect_two_weapon_fighting_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 25, Greater Two-Weapon Fighting, Improved Two-Weapon Fighting, Two-Weapon Fighting.\nBenefit: The character can make as many attacks with his or her off-hand weapon as with his or her primary weapon, using the same base attack bonus. The character still takes the normal penalties for fighting with two weapons.\nNormal: Without this feat, a character can only get a single attack with an off-hand weapon (or two attacks with an off-hand weapon if he or she has Improved Two-Weapon Fighting, or three attacks with an off-hand weapon if he or she has Greater Two-Weapon Fighting).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::126_perfect_multiweapon_fighting_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::128_permanent_emanation_epic"
+}

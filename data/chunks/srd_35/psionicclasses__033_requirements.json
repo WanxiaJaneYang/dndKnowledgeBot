@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::033_requirements",
+  "document_id": "srd_35::psionicclasses::033_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Requirements"
+    ],
+    "source_location": "PsionicClasses.rtf#033_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a pyrokineticist, a character must fulfill all the following criteria.\nAlignment: Any chaotic.\nSkills: Concentration 8 ranks, Craft (alchemy) 1 rank, Knowledge (psionics) 2 ranks.\nPsionics: Must have a power point reserve of at least 1 power point.\nSpecial: Must have set fire to a structure of any size just to watch it burn.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::032_class_features",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::034_class_skills"
+}

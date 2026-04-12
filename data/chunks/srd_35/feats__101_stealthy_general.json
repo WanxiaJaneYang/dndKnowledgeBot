@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::101_stealthy_general",
+  "document_id": "srd_35::feats::101_stealthy_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "STEALTHY [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#101_stealthy_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Hide checks and Move Silently checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::100_spring_attack_general",
+  "next_chunk_id": "chunk::srd_35::feats::102_still_spell_metamagic"
+}

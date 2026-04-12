@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::031_force_of_will_general",
+  "document_id": "srd_35::psionicsfeats::031_force_of_will_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "FORCE OF WILL [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#031_force_of_will_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You are able to resist psionic attacks with extreme force of will.\nPrerequisite: Iron Will.\nBenefit: Once per round, when targeted by a psionic effect that allows a Reflex save or a Fortitude save, you can instead make a Will saving throw to avoid the effect.\nThe benefit of this feat applies only to psionic powers and psi-like abilities. This is an exception to the psionics-magic transparency rule.\nSpecial: You cannot take or use this feat if you have the ability to use powers (if you have a power point reserve or psi-like abilities).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::030_focused_sunder_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::032_ghost_attack_psionic"
+}

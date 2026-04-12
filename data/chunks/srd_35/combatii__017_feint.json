@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::017_feint",
+  "document_id": "srd_35::combatii::017_feint",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "FEINT"
+    ],
+    "source_location": "CombatII.rtf#017_feint"
+  },
+  "chunk_type": "subsection",
+  "content": "Feinting is a standard action. To feint, make a Bluff check opposed by a Sense Motive check by your target. The target may add his base attack bonus to this Sense Motive check. If your Bluff check result exceeds your target's Sense Motive check result, the next melee attack you make against the target does not allow him to use his Dexterity bonus to AC (if any). This attack must be made on or before your next turn.\nWhen feinting in this way against a nonhumanoid you take a -4 penalty. Against a creature of animal Intelligence (1 or 2), you take a -8 penalty. Against a nonintelligent creature, it's impossible.\nFeinting in combat does not provoke attacks of opportunity.\nFeinting as a Move Action: With the Improved Feint feat, you can attempt a feint as a move action instead of as a standard action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::016_grabbing_items",
+  "next_chunk_id": "chunk::srd_35::combatii::018_grapple_checks"
+}

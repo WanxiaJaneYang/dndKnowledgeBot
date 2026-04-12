@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::019_construction",
+  "document_id": "srd_35::epicmonsters_a_e::019_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Construction"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#019_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "A stone colossus's body is chiseled from a single block of hard stone, such as granite, weighing at least 375,000 pounds. The colossus costs 760,000 gp to create, which includes 100,000 gp for the body. Assembling the body requires a successful Craft (sculpting) or Craft (masonry) check (DC 37). The creator must be 25th level and able to cast epic spells. Completing the ritual drains 30,600 XP from the creator and requires geas/quest, limited wish, polymorph any object, and shatter.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::018_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::020_flesh_colossus"
+}

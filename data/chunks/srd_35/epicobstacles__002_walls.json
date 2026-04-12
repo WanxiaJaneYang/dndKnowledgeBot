@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicobstacles::002_walls",
+  "document_id": "srd_35::epicobstacles::002_walls",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicObstacles",
+      "Walls"
+    ],
+    "source_location": "EpicObstacles.rtf#002_walls"
+  },
+  "chunk_type": "subsection",
+  "content": "In addition to the standard types of wall, walls in dungeons can be made of mithral, adamantine, or even pure force.\nWall Type | Typical Thickness | Break DC | Hardness | Hit Points* | Climb DC |\nPaper | Paper-thin | 1 | -- | 1hp | 30 |\nWood | 6in. | 20 | 5 | 60hp | 21 |\nMasonry | 1ft. | 35 | 8 | 90hp | 15 |\nMasonry, superior | 1ft. | 35 | 8 | 90hp | 20 |\nMasonry, reinforced | 1ft. | 45 | 8 | 180hp | 15 |\nStone, hewn | 3ft. | 50 | 8 | 540hp | 22 |\nStone, unworked | 5ft. | 65 | 8 | 900hp | 20 |\nIron | 3in. | 30 | 10 | 90hp | 25 |\nMithral | 3in. | 46 | 15 | 90hp | 70 |\nAdamantine | 3in. | 66 | 20 | 120hp | 70 |\nMagically treated** | -- | 20 | x2 | x2\u2020 | -- |\nWall of force | 1in. | n/a | n/a | n/a | 70 |\nWall of ice | 1in./lvl | 15+1/in. | 0 | 3hp/in. | 25 |\nWall of iron | 1in./4lvls | 25+2/in. | 10 | 30hp/in. | 25 |\nWall of stone | 1in./4lvls | 20+2/in. | 8 | 15hp/in. | 22 |\n*Per 10-ft.-by-10-ft. section. | | | | | |\n**These modifiers can be applied to any of the other categories and types. |\n\u2020Or 50, whichever is greater. | | | | | |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicobstacles::001_epicobstacles",
+  "next_chunk_id": "chunk::srd_35::epicobstacles::003_doors"
+}

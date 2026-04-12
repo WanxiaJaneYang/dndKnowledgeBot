@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::004_magic_traps",
+  "document_id": "srd_35::traps::004_magic_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "MAGIC TRAPS"
+    ],
+    "source_location": "Traps.rtf#004_magic_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Many spells can be used to create dangerous traps. Unless the spell or item description states otherwise, assume the following to be true.\nA successful Search check (DC 25 + spell level) made by a rogue (and only a rogue) detects a magic trap before it goes off. Other characters have no chance to find a magic trap with a Search check.\nMagic traps permit a saving throw in order to avoid the effect (DC 10 + spell level x \uf0201.5).\nMagic traps may be disarmed by a rogue (and only a rogue) with a successful Disable Device check (DC 25 + spell level).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::003_mechanical_traps",
+  "next_chunk_id": "chunk::srd_35::traps::005_elements_of_a_trap"
+}

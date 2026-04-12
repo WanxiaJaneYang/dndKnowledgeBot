@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::080_power_attack_general",
+  "document_id": "srd_35::feats::080_power_attack_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "POWER ATTACK [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#080_power_attack_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Str 13.\nBenefit: On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed your base attack bonus. The penalty on attacks and bonus on damage apply until your next turn.\nSpecial: If you attack with a two-handed weapon, or with a one-handed weapon wielded in two hands, instead add twice the number subtracted from your attack rolls. You can't add the bonus from Power Attack to the damage dealt with a light weapon (except with unarmed strikes or natural weapon attacks), even though the penalty on attack rolls still applies. (Normally, you treat a double weapon as a one-handed weapon and a light weapon. If you choose to use a double weapon like a two-handed weapon, attacking with only one end of it in a round, you treat it as a two-handed weapon.)\nA fighter may select Power Attack as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::079_point_blank_shot_general",
+  "next_chunk_id": "chunk::srd_35::feats::081_precise_shot_general"
+}

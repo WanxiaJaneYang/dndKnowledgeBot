@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::035_power_points_1",
+  "document_id": "srd_35::psionicpowersq_w::035_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#035_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your foot stomp precipitates a psychokinetic shock wave that travels along the ground, toppling creatures and loose objects. The shock wave affects only creatures standing on the ground within the power's area. Creatures that fail their saves are thrown to the ground, become prone, and take 1d4 points of nonlethal damage.\nAugment: For every additional power point you spend, this power's nonlethal damage increases by 1d4 points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::034_psychokinesis",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::036_psychometabolism"
+}

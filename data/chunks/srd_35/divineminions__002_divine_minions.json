@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineminions::002_divine_minions",
+  "document_id": "srd_35::divineminions::002_divine_minions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineMinions",
+      "DIVINE MINIONS"
+    ],
+    "source_location": "DivineMinions.rtf#002_divine_minions"
+  },
+  "chunk_type": "rule_section",
+  "content": "All types of beings may serve deities. In general, a deity only accepts minions who have accomplished some great deed in service to the deity. Such minions usually have the same alignment as the deity. No minion's alignment is opposed to the patron deity's alignment on either the law-chaos axis or the good-evil axis.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineminions::001_divineminions",
+  "next_chunk_id": "chunk::srd_35::divineminions::003_proxies"
+}

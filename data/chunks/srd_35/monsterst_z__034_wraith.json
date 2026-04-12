@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::034_wraith",
+  "document_id": "srd_35::monsterst_z::034_wraith",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "WRAITH"
+    ],
+    "source_location": "MonstersT-Z.rtf#034_wraith"
+  },
+  "chunk_type": "subsection",
+  "content": "| Wraith | Dread Wraith |\n| Medium Undead (Incorporeal) | Large Undead (Incorporeal) |\nHit Dice: | 5d12 (32 hp) | 16d12 (104 hp) |\nInitiative: | +7 | +13 |\nSpeed: | Fly 60 ft. (good) (12 squares) | Fly 60 ft. (good) (12 squares) |\nArmor Class: | 15 (+3 Dex, +2 deflection), touch 15, flat-footed 12 | 25 (-1 size, +9 Dex, +7 deflection), touch 25, flat-footed 16 |\nBase Attack/Grapple: | +2/-- | +8/-- |\nAttack: | Incorporeal touch +5 melee (1d4 plus 1d6 Constitution drain) | Incorporeal touch +16 melee (2d6 plus 1d8 Constitution drain) |\nFull Attack: | Incorporeal touch +5 melee (1d4 plus 1d6 Constitution drain) | Incorporeal touch +16 melee (2d6 plus 1d8 Constitution drain) |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./10 ft. |\nSpecial Attacks: | Constitution drain, create spawn | Constitution drain, create spawn |\nSpecial Qualities: | Darkvision 60 ft., daylight powerlessness, incorporeal traits, +2 turn resistance, undead traits, unnatural aura | Darkvision 60 ft., daylight powerlessness, incorporeal traits, lifesense 60 ft., undead traits, unnatural aura |\nSaves: | Fort +1, Ref +4, Will +6 | Fort +5, Ref +14, Will +14 |\nAbilities: | Str --, Dex 16, Con --, Int 14, Wis 14, Cha 15 | Str --, Dex 28, Con --, Int 17, Wis 18, Cha 24 |\nSkills: | Diplomacy +6, Hide +11, Intimidate +10, Listen +12, Search +10, Sense Motive +8, Spot +12, Survival +2 (+4 following tracks) | Diplomacy +9, Hide +24, Intimidate +26, Knowledge (religion) +22, Listen +25, Search +22, Sense Motive +23, Spot +25, Survival +4 (+6 following tracks) |\nFeats: | AlertnessB, Blind-Fight, Combat Reflexes, Improved InitiativeB | AlertnessB, Blind-Fight, Combat Reflexes, Dodge, Improved InitiativeB, Improved Natural Attack (incorporeal touch), Mobility, Spring Attack |\nEnvironment: | Any | Any |\nOrganization: | Solitary, gang (2-5), or pack (6-11) | Solitary |\nChallenge Rating: | 5 | 11 |\nTreasure: | None | None |\nAlignment: | Always lawful evil | Always lawful evil |\nAdvancement: | 6-10 HD (Medium) | 17-32 HD (Large) |\nLevel Adjustment: | -- | -- |\nWraiths are incorporeal creatures born of evil and darkness. In some cases, the grim silhouette of a wraith might appear armored or outfitted with weapons. This appearance does not affect the creature's AC or combat abilities but only reflects the shape it had in life.\nA wraith is about as tall as a human, while a dread wraith is roughly the size of an ogre. Since both are incorporeal, they are weightless.\nWraiths speak Common and Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::033_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::035_combat"
+}

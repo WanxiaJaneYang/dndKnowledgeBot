@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::010_construction",
+  "document_id": "srd_35::epicmonsters_g_w::010_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Construction"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#010_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "An adamantine golem's body is sculpted from 45,000 pounds of pure iron and is then polymorphed into adamantine (using polymorph any object). The golem costs 500,000 gold pieces to create, which includes 25,000 gp for the body. Assembling the body requires a successful Craft (armorsmithing) or Craft (weaponsmithing) check (DC 40). The creator must be 30th level, have the Craft Epic Magic Arms and Armor feat, and be able to cast arcane spells. Completing the ritual drains 10,000 XP from the creator and requires crushing hand, geas/quest, and wish.\n\nHit Dice: | 20d8+220 (310 hp) |\nInitiative: | +14 (Dex) |\nSpeed: | 60 ft., fly 120 ft. (perfect) |\nAC: | 40 (-8 size, +14 Dex, +24 natural armor) |\nBase Attack/Grapple: | +15/+39 |\nAttack: | Coil whip +21 (4d6+8) melee |\nFull Attack: | Coil whip +21 (4d6+8) melee, sting +19 (2d8+4 plus poison) melee, bite +13 (4d8+4) melee |\nSpace/Reach: | 30 ft./ 20 ft. |\nSpecial Attacks: | Charming gaze, poison, improved grab, constrict 4d6+12 |\nSpecial Qualities: | Flight, SR 30, DR 5/epic |\nSaves: | Fort +17, Ref +22, Will +22 |\nAbilities: | Str 27, Dex 38, Con 32, Int 35, Wis 31, Cha 36 |\nSkills: | Appraise +35, Concentration +34, Bluff +24, Diplomacy +38, Escape Artist +37, Hide +21, Jump +20, Knowledge (arcana, history, religion) +35, Listen +33, Move Silently +37, Search +35, Sense Motive +24, Spellcraft +37, Spot +33 |\nFeats: | Dodge, Flyby Attack, Lightning Reflexes, Mobility, Multiattack, Quicken Spell, Weapon Finesse |\nClimate/Terrain: | Temperate and warm land or underground |\nOrganization: | Solitary or nest (2-4) |\nChallenge Rating: | 22 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | 21-40 HD (Colossal) |\nA ha-naga's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::009_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::011_combat"
+}

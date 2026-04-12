@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::027_withdraw",
+  "document_id": "srd_35::combati::027_withdraw",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Withdraw"
+    ],
+    "source_location": "CombatI.rtf#027_withdraw"
+  },
+  "chunk_type": "subsection",
+  "content": "Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double your speed. The square you start out in is not considered threatened by any opponent you can see, and therefore visible enemies do not get attacks of opportunity against you when you move from that square. (Invisible enemies still get attacks of opportunity against you, and you can't withdraw from combat if you're blinded.) You can't take a 5-foot step during the same round in which you withdraw.\nIf, during the process of withdrawing, you move out of a threatened square (other than the one you started in), enemies get attacks of opportunity as normal.\nYou may not withdraw using a form of movement for which you don't have a listed speed.\nNote that despite the name of this action, you don't actually have to leave combat entirely.\nRestricted Withdraw: If you are limited to taking only a standard action each round you can withdraw as a standard action. In this case, you may move up to your speed (rather than up to double your speed).\n\nYou can run as a full-round action. (If you do, you do not also get a 5-foot step.) When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any Dexterity bonus to AC unless you have the Run feat\nYou can run for a number of rounds equal to your Constitution score, but after that you must make a DC 10 Constitution check to continue running. You must check again each round in which you continue to run, and the DC of this check increases by 1 for each check you have made. When you fail this check, you must stop running. A character who has run to his limit must rest for 1 minute (10 rounds) before running again. During a rest period, a character can move no faster than a normal move action.\nYou can't run across difficult terrain or if you can't see where you're going.\nA run represents a speed of about 12 miles per hour for an unencumbered human.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::026_use_special_ability",
+  "next_chunk_id": "chunk::srd_35::combati::028_move_5_feet_through_difficult_terrain"
+}

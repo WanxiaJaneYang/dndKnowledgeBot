@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::009_combat",
+  "document_id": "srd_35::monstersanimals::009_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#009_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Polar bears fight just as brown bears do.\nImproved Grab (Ex): To use this ability, a polar bear must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nSkills: A polar bear has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. *A polar bear's white coat bestows a +12 racial bonus on Hide checks in snowy areas.\n\nHit Dice: | 5d8+15 (37 hp) |\nInitiative: | +0 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 13 (-1 size, +4 natural), touch 9, flat-footed 13 |\nBase Attack/Grapple: | +3/+13 |\nAttack: | Gore +8 melee (1d8+9) |\nFull Attack: | Gore +8 melee (1d8+9) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Stampede |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +7, Ref +4, Will +1 |\nAbilities: | Str 22, Dex 10, Con 16, Int 2, Wis 11, Cha 4 |\nSkills: | Listen +7, Spot +5 |\nFeats: | Alertness, Endurance |\nEnvironment: | Temperate plains |\nOrganization: | Solitary or herd (6-30) |\nChallenge Rating: | 2 |\nAdvancement: | 6-7 HD (Large) |\nLevel Adjustment: | -- |\nThese herd animals can be aggressive when protecting young and during the mating season, but they generally prefer flight to fighting. A bison stands more than 6 feet tall at the shoulder and is 9 to 12 feet long. It weigh 1,800 to 2,400 pounds. The bison's statistics can be used for almost any large herd animal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::008_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::010_combat"
+}

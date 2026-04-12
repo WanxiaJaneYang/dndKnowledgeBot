@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::066_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::066_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#066_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You empty your mind of all transitory and distracting thoughts, improving your self-control. You gain a +2 bonus on all Will saves until your next action.\nYou can manifest this power instantly, quickly enough to gain its benefit in an emergency. Manifesting this power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can use this power even when it is not your turn.\nAugment: For every 2 additional power points you spend, the bonus on your Will saves increases by 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::065_telepathy_mind_affecting",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::067_energy_adaptation"
+}

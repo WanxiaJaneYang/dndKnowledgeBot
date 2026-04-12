@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::012_adding_class_levels",
+  "document_id": "srd_35::improving_monsters::012_adding_class_levels",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "ADDING CLASS LEVELS"
+    ],
+    "source_location": "Improving Monsters.rtf#012_adding_class_levels"
+  },
+  "chunk_type": "subsection",
+  "content": "If you are advancing a monster by adding player character class levels, decide if the class levels directly improve the monster's existing capabilities.\nWhen adding class levels to a creature, you should give it typical ability scores appropriate for that class. Most creatures are built using the standard array of ability scores: 11, 11, 11, 10, 10, 10, adjusted by racial modifiers. If you give a creature a PC class use the elite array of ability scores before racial adjustments: 15, 14, 13, 12, 10, 8. Creatures with NPC classes use the nonelite array of 13, 12, 11, 10, 9, 8. T",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::011_advanced_monster_challenge_rating",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::013_associated_class_levels"
+}

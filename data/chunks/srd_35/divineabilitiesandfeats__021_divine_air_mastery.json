@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::021_divine_air_mastery",
+  "document_id": "srd_35::divineabilitiesandfeats::021_divine_air_mastery",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Air Mastery"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#021_divine_air_mastery"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Air domain.\nBenefit: The deity gains a competence bonus on attack rolls, damage, and Armor Class equal to its divine rank if both the deity and its foe are airborne. The deity can fly with perfect maneuverability. When flying, the deity can automatically know the location of\nany corporeal creature within 10 feet per divine rank, by sensing the disturbance in the air the creature causes.\nSuggested Portfolio Elements: Air, wind.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::020_create_greater_object",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::022_divine_archery"
+}

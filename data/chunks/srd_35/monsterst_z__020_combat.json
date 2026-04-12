@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::020_combat",
+  "document_id": "srd_35::monsterst_z::020_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#020_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Unicorns normally attack only when defending themselves or their forests. They either charge, impaling foes with their horns like lances, or strike with their hooves. The horn is a +3 magic weapon, though its power fades if removed from the unicorn.\nMagic Circle against Evil (Su): This ability continuously duplicates the effect of the spell. A unicorn cannot suppress this ability.\nSpell-Like Abilities: Unicorns can use detect evil at will as a free action.\nOnce per day a unicorn can use greater teleport to move anywhere within its home. It cannot teleport beyond the forest boundaries nor back from outside.\nA unicorn can use cure light wounds three times per day and cure moderate wounds once per day (caster level 5th) by touching a wounded creature with its horn. Once per day it can use neutralize poison (DC 21, caster level 8th) with a touch of its horn. The save DC is Charisma-based.\nWild Empathy (Ex): This power works like the druid's wild empathy class feature, except that a unicorn has a +6 racial bonus on the check.\nSkills: Unicorns have a +4 racial bonus on Move Silently checks. *Unicorns have a +3 competence bonus on Survival checks within the boundaries of their forest.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::019_unicorn",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::021_celestial_charger"
+}

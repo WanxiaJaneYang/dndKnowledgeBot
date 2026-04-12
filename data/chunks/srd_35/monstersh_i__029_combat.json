@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::029_combat",
+  "document_id": "srd_35::monstersh_i::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "These creatures have a strong grasp of strategy and tactics and are capable of carrying out sophisticated battle plans. Under the leadership of a skilled strategist or tactician, their discipline can prove a deciding factor. Hobgoblins hate elves and attack them first, in preference to other opponents.\nSkills: Hobgoblins have a +4 racial bonus on Move Silently checks.\nThe hobgoblin warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::028_training_a_hippogriff",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::030_hobgoblin_characters"
+}

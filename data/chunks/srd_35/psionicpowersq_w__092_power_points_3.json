@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::092_power_points_3",
+  "document_id": "srd_35::psionicpowersq_w::092_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#092_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You can walk on vertical surfaces or even traverse ceilings (you need not make Climb checks to traverse these surfaces). Because of the need to keep at least one foot in contact with the wall or ceiling at all times, you cannot jump or use the run action, and you can move at only half speed.\nYou retain your Dexterity bonus to Armor Class, if any, and opponents gain no special bonuses against you.\nWeapon of Energy\nPsychokinesis [see text]\nLevel: Psychic warrior 4\n\nTarget: Weapon touched\nDuration: 1 round/level\nSaving Throw: Fortitude negates (object, harmless)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::091_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::093_power_points_7"
+}

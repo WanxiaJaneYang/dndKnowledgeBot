@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::110_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::110_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#110_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You can mentally lift and move an object at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the power ends if the distance between you and the object exceeds the power's range.\nAugment: You can augment this power in one or both of the following ways.\n1. For every 2 additional power points you spend, this power's range increases by 5 feet.\n2. For every additional power point you spend, the weight limit of the target increases by 2 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::109_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::111_display_olfactory"
+}

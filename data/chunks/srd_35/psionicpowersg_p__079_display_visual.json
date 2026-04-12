@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::079_display_visual",
+  "document_id": "srd_35::psionicpowersg_p::079_display_visual",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Visual"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#079_display_visual"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: 0 ft.\nEffect: Ethereal 5-ft. by 8-ft. opening, 10 ft. deep + 5 ft. deep per three levels\nDuration: One usage per two levels",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::078_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::080_power_points_13"
+}

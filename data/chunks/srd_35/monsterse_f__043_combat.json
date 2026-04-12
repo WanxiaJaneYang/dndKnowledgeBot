@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::043_combat",
+  "document_id": "srd_35::monsterse_f::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A shrieker has no means of attack. Instead, it lures prey to its vicinity by emitting a loud noise.\nShriek (Ex): Movement or a light source within 10 feet of a shrieker causes the fungus to emit a piercing sound that lasts for 1d3 rounds. The sound attracts nearby creatures that are disposed to investigate it. Some creatures that live near shriekers come to learn that the fungus's noise means there is food nearby.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::042_shrieker",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::044_violet_fungus"
+}

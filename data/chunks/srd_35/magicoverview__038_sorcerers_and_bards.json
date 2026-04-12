@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::038_sorcerers_and_bards",
+  "document_id": "srd_35::magicoverview::038_sorcerers_and_bards",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "SORCERERS AND BARDS"
+    ],
+    "source_location": "MagicOverview.rtf#038_sorcerers_and_bards"
+  },
+  "chunk_type": "subsection",
+  "content": "Sorcerers and bards cast arcane spells, but they do not have spellbooks and do not prepare their spells. A sorcerer's or bard's class level limits the number of spells he can cast (see these class descriptions). His high Charisma score might allow him to cast a few extra spells. A member of either class must have a Charisma score of at least 10 + a spell's level to cast the spell.\nDaily Readying of Spells: Each day, sorcerers and bards must focus their minds on the task of casting their spells. A sorcerer or bard needs 8 hours of rest (just like a wizard), after which he spends 15 minutes concentrating. (A bard must sing, recite, or play an instrument of some kind while concentrating.) During this period, the sorcerer or bard readies his mind to cast his daily allotment of spells. Without such a period to refresh himself, the character does not regain the spell slots he used up the day before.\nRecent Casting Limit: As with wizards, any spells cast within the last 8 hours count against the sorcerer's or bard's daily limit.\nAdding Spells to a Sorcerer's or Bard's Repertoire: A sorcerer or bard gains spells each time he attains a new level in his class and never gains spells any other way. When your sorcerer or bard gains a new level, consult Table: Bard Spells Known or Table: Sorcerer Spells Known to learn how many spells from the appropriate spell list he now knows. With permission, sorcerers and bards can also select the spells they gain from new and unusual spells that they have gained some understanding of.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::037_replacing_and_copying_spellbooks",
+  "next_chunk_id": "chunk::srd_35::magicoverview::039_divine_spells"
+}

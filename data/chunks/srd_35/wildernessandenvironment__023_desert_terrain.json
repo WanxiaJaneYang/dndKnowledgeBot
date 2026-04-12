@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::023_desert_terrain",
+  "document_id": "srd_35::wildernessandenvironment::023_desert_terrain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "DESERT TERRAIN"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#023_desert_terrain"
+  },
+  "chunk_type": "subsection",
+  "content": "Desert terrain exists in warm, temperate, and cold climates, but all deserts share one common trait: little rain. The three categories of desert terrain are tundra (cold deserts), rocky desert (often temperate), and sandy desert (often warm).\nTundra differs from the other desert categories in two important ways. Because snow and ice cover much of the landscape, it's easy to find water. And during the height of summer, the permafrost thaws to a depth of a foot or so, turning the landscape into a vast field of mud. The muddy tundra affects movement and skill use as the shallow bogs described in marsh terrain, although there's little standing water.\nThe table above describes terrain elements found in each of the three desert categories. The terrain elements on this table are mutually exclusive; for instance, a square of tundra may contain either light undergrowth or an ice sheet, but not both.\n\n| Tundra | Rocky | Sandy |\nLight undergrowth | 15% | 5% | 5% |\nIce sheet | 25% | -- | -- |\nLight rubble | 5% | 30% | 10% |\nDense rubble | -- | 30% | 5% |\nSand dunes | -- | -- | 50% |\nLight Undergrowth: Consisting of scrubby, hardy bushes and cacti, light undergrowth functions as described for other terrain types.\nIce Sheet: The ground is covered with slippery ice. It costs 2 squares of movement to enter a square covered by an ice sheet, and the DC of Balance and Tumble checks there increases by 5. A DC 10 Balance check is required to run or charge across an ice sheet.\nLight Rubble: Small rocks are strewn across the ground, making nimble movement more difficult more difficult. The DC of Balance and Tumble checks increases by 2.\nDense Rubble: This terrain feature consists of more and larger stones. It costs 2 squares of movement to enter a square with dense rubble. The DC of Balance and Tumble checks increases by 5, and the DC of Move Silently checks increases by 2.\nSand Dunes: Created by the action of wind on sand, sand dunes function as hills that move. If the wind is strong and consistent, a sand dune can move several hundred feet in a week's time. Sand dunes can cover hundreds of squares. They always have a gentle slope pointing in the direction of the prevailing wind and a steep slope on the leeward side.\nOther Desert Terrain Features: Tundra is sometimes bordered by forests, and the occasional tree isn't out of place in the cold wastes. Rocky deserts have towers and mesas consisting of flat ground surrounded on all sides by cliffs and steep slopes (described in Mountain Terrain, above). Sandy deserts sometimes have quicksand; this functions as described in Marsh Terrain, above, although desert quicksand is a waterless mixture of fine sand and dust. All desert terrain is crisscrossed with dry streambeds (treat as trenches 5 to 15 feet wide) that fill with water on the rare occasions when rain falls.\nStealth and Detection in the Desert: In general, the maximum distance in desert terrain at which a Spot check for detecting the nearby presence of others can succeed is 6d6\u00d720 feet; beyond this distance, elevation changes and heat distortion in warm deserts makes spotting impossible. The presence of dunes in sandy deserts limits spotting distance to 6d6\u00d710 feet.\nThe desert imposes neither bonuses nor penalties on Listen or Spot checks. The scarcity of undergrowth or other elements that offer concealment or cover makes hiding more difficult.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::022_mountain_travel",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::024_sandstorms"
+}

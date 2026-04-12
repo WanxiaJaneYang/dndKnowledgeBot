@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::019_combat",
+  "document_id": "srd_35::monstersanimals::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Eagles dive at prey, raking with their powerful talons.\nSkills: Eagles have a +8 racial bonus on Spot checks.\n\nHit Dice: | 11d8+55 (104 hp) |\nInitiative: | +0 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 15 (-2 size, +7 natural), touch 8, flat-footed 15 |\nBase Attack/Grapple: | +8/+26 |\nAttack: | Gore +16 melee (2d8+15) |\nFull Attack: | Slam +16 melee (2d6+10) and 2 stamps +11 melee (2d6+5); or gore +16 melee (2d8+15) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Trample 2d8+15 |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +12, Ref +7, Will +6 |\nAbilities: | Str 30, Dex 10, Con 21, Int 2, Wis 13, Cha 7 |\nSkills: | Listen +12, Spot +10 |\nFeats: | Alertness, Endurance, Iron Will, Skill Focus (Listen) |\nEnvironment: | Warm plains |\nOrganization: | Solitary or herd (6-30) |\nChallenge Rating: | 7 |\nAdvancement: | 12-22 HD (Huge) |\nLevel Adjustment: | -- |\nMassive herbivores of tropical lands, elephants are unpredictable creatures but nevertheless are sometimes used as mounts or beasts of burden.\nThis entry describes an African elephant. Indian elephants are slightly smaller and weaker (Strength 28), but more readily trained (Wisdom 15). These statistics can also represent prehistoric creatures such as mammoths and mastodons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::018_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::020_combat"
+}

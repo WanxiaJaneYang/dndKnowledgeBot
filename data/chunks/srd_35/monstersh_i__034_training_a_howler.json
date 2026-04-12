@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::034_training_a_howler",
+  "document_id": "srd_35::monstersh_i::034_training_a_howler",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "TRAINING A HOWLER"
+    ],
+    "source_location": "MonstersH-I.rtf#034_training_a_howler"
+  },
+  "chunk_type": "subsection",
+  "content": "Although intelligent, a howler requires training before it can bear a rider in combat. To be trained, a howler must have a friendly attitude toward the trainer (this can be achieved through a successful Diplomacy check). Training a friendly howler requires six weeks of work and a DC 25 Handle Animal check. Riding a howler requires an exotic saddle. A howler can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nCarrying Capacity: A light load for a howler is up to 460 pounds; a medium load, 461-920 pounds; and a heavy load, 921-1,380 pounds. A howler can drag 6,900 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::033_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::035_hydra"
+}

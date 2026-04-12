@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::138_reflect_arrows_epic",
+  "document_id": "srd_35::epicfeats::138_reflect_arrows_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "REFLECT ARROWS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#138_reflect_arrows_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 25, Deflect Arrows, Improved Unarmed Strike.\nBenefit: When the character deflects an arrow or other ranged attack, the attack is reflected back upon the attacker at the character's base ranged attack bonus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::137_reactive_countersong_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::139_righteous_strike_epic"
+}

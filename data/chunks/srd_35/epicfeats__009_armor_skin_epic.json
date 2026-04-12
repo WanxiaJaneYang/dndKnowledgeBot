@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::009_armor_skin_epic",
+  "document_id": "srd_35::epicfeats::009_armor_skin_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "ARMOR SKIN [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#009_armor_skin_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The character gains a +1 natural armor bonus to Armor Class, or his or her existing natural armor bonus increases by 1.\nSpecial: A character can gain this feat multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::008_additional_magic_item_space_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::010_augmented_alchemy_epic"
+}

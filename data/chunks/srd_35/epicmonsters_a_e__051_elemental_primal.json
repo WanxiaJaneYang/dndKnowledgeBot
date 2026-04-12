@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::051_elemental_primal",
+  "document_id": "srd_35::epicmonsters_a_e::051_elemental_primal",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "ELEMENTAL,PRIMAL"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#051_elemental_primal"
+  },
+  "chunk_type": "subsection",
+  "content": "Elemental Traits: Immune to poison, sleep, paralysis, and stunning. Not subject to critical hits.\n| Air Elemental, Primal | Earth Elemental, Primal |\n| Colossal Elemental (Air, Extraplanar) | Colossal Elemental (Earth, Extraplanar) |\nHit Dice: | 64d8+576 (944 hp) | 64d8+640 (1,048 hp) |\nInitiative: | +24 (+16 Dex, +8 Superior Initiative) | -1 (Dex) |\nSpeed: | Fly 100 ft. (perfect) | 20 ft., burrow 40 ft. |\nAC: | 66 (-8 size, +16 Dex, +48 natural) | 49 (-8 size, -1 Dex, +48 natural) |\nBase Attack/Grapple: | +48/+75 | +48/+80 |\nAttack: | Slam +57 (4d8+16) melee | Slam +57 (4d10+24/19-20) melee |\nFull Attack: | 2 Slams +57 (4d8+16) melee | 2 slams +57 (4d10+24/19-20) melee |\nSpace/Reach: | 30 ft./30 ft. | 30 ft./30 ft. |\nSpecial Attacks: | Air mastery, whirlwind | Earth mastery, push |\nSpecial Qualities: | Elemental traits, DR 10/--,SR 42 | Elemental traits, DR 15/-, SR 42 |\nSaves: | Fort +42, Ref +52, Will +28 | Fort +46, Ref +21, Will +28 |\nAbilities: | Str 32, Dex 43, Con 28, Int 8, Wis 13, Cha 13 | Str 43, Dex 8, Con 31, Int 8, Wis 13, Cha 13 |\nSkills: | Listen +48, Spot +57 | Jump +10, Listen +57, Spot +48 |\nFeats: | Alertness, Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Improved Initiative, Iron Will, Mobility, Lightning Reflexes, Spring Attack, Weapon Finesse, Weapon Focus (slam) | Alertness, Cleave, Combat Reflexes, Great Cleave, Improved Critical (slam), Improved Sunder, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (slam) |\nEpic Feats: | Blinding Speed (x2), Epic Prowess (x2), Epic Toughness (x4), Epic Will, Superior Initiative | Devastating Critical (slam), Epic Prowess (x3), Epix Toughness (x6), Epic Will, Overwhelming Critical (slam) |\nClimate/Terrain: | Any land | Any land |\nOrganization: | Solitary | Solitary |\nChallenge Rating: | 35 | 35 |\nTreasure: | None | None |\nAlignment: | Usually neutral | Usually neutral |\nAdvancement: | 65-288 HD (Colossal) | 65-288 HD (Colossal) |\n| Fire Elemental, Primal | Water Elemental, Primal |\n| Colossal Elemental (Fire, Extraplanar) | Colossal Elemental (Water, Extraplanar) |\nHit Dice: | 64d8+576 (944 hp) | 64d8+640 (1,048 hp) |\nInitiative: | +22 (+14 Dex, +8 Superior Initiative) | +14 (Dex) |\nSpeed: | 50 ft. | 20 ft., swim 90 ft. |\nAC: | 64 (-8 size, +14 Dex, +48 natural) | 64 (-8 size, +14 Dex, +48 natural) |\nBase Attack/Grapple: | +48/+75 | +48/+80 |\nAttack: | Slam +55 (4d8+16 plus 4d8 fire) melee | Slam +57 (4d10+24/19-20) |\nFull Attack: | 2 slams +55 (4d8+16 plus 4d8 fire) melee | 2 slam +57 (4d10+24/19-20) |\nSpace/Reach: | 30 ft./30 ft. | 30 ft./30 ft. |\nSpecial Attacks: | Burn | Water mastery, drench, vortex |\nSpecial Qualities: | Elemental traits, DR 10/-, SR 42, fire immunity, cold vulnerability | Elemental traits, DR 15/-, SR 42 |\nSaves: | Fort +32, Ref +50, Will +28 | Fort +46, Ref +21, Will +28 |\nAbilities: | Str 32, Dex 39, Con 28, Int 8, Wis 13, Cha 13 | Str 42, Dex 38, Con 31, Int 8, Wis 13, Cha 13 |\nSkills: | Jump +19, Listen +48, Spot +57 | Jump +7, Listen +57, Spot +48, Swim +19 |\nFeats: | Alertness, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Power Attack, Spring Attack, Weapon Finesse, Weapon Focus (slam) | Alertness, Cleave, Combat Reflexes, Dodge, Great Cleave, Improved Critical (slam), Improved Sunder, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (slam) |\nEpic Feats: | Blinding Speed, Dire Charge, Epic Prowess, (x2), Epic Toughness (x4), Epic Will, Superior Initiative | Devastating Critical (slam), Epic Prowess (x2), Epic Toughness (x6), Epic Will, Overwhelming Critical (slam) |\nClimate/Terrain: | Any land | Any land |\nOrganization: | Solitary | Solitary |\nChallenge Rating: | 35 | 35 |\nTreasure: | None | None |\nAlignment: | Usually neutral | Usually neutral |\nAdvancement: | 65-288 HD (Colossal) | 65-288 HD (Colossal) |\nPRIMAL AIR ELEMENTAL\nPrimal air elementals speak Auran.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::050_advancement_59_62_hd_colossal",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::052_combat"
+}

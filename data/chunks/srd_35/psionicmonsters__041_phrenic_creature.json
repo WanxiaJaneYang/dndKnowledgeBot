@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::041_phrenic_creature",
+  "document_id": "srd_35::psionicmonsters::041_phrenic_creature",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "PHRENIC CREATURE"
+    ],
+    "source_location": "PsionicMonsters.rtf#041_phrenic_creature"
+  },
+  "chunk_type": "subsection",
+  "content": "Seemingly no different from standard examples of their kind, phrenic creatures harbor mental might.\nMonsters who naturally possess psionic ability are not found as phrenic creatures. Phrenic creatures are freaks among their kind, otherwise normal creatures whose minds are more powerful than those of their fellows. Similarly, creatures who advance by character class are usually not phrenic creatures--they simply take levels in a psionic class to hone their mental powers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::040_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::042_creating_a_phrenic_creature"
+}

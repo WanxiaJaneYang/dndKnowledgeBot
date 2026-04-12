@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::028_combat",
+  "document_id": "srd_35::epicmonsters_g_w::028_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#028_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Prismatic Emanations (Su): The reflected and refracted light from the prismasaurus's crystalline ridge functions very similarly to the prismatic spray spell. Any creature of less than 8 HD that is within 30 feet of the creature is automatically blinded for 2d4 rounds. In addition, any creature within 20 feet of the prismasaurus is randomly struck by one or more rays of light, as determined by the table that accompanies the prismatic spray spell. This effect is as the prismatic spray spell in a 30-foot-radius spread, but is otherwise as cast by a 20th-level caster. The save DC for the prismatic spray effects is 49.\nImmunities (Su): It is immune to poison, gases, petrification, and mind-affecting attacks.\nPrismatic Blur (Ex): The reflected and refracted light that constantly surrounds the creature blurs the creature's outline and makes it difficult to properly target. All melee and ranged attacks against the creature have a 50% miss chance.\n\nHit Dice: | 6d8+66 (114 hp) |\nInitiative: | +7 (Dex) |\nSpeed: | 60 ft. |\nAC: | 51 (-1 size, +7 Dex, +35 natural) |\nBase Attack/Grapple: | +4/+40 |\nAttack: | Tentacle rake +35 (2d8+17) melee |\nFull Attack: | 5 tentacle rakes +35 (2d8+17) melee |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Constant insight, improved grab, rend 4d8+25, rotting constriction |\nSpecial Qualities: | DR 5/epic, SR 30, acid and electricity resistance 20, regeneration 5, scent, spell-like abilities, darkvision 90 ft. |\nSaves: | Fort +16, Ref +9, Will +8 |\nAbilities: | Str 45, Dex 24, Con 33, Int 6, Wis 19, Cha 6 |\nSkills: | Climb +26, Hide +16, Jump +38, Listen +15, Move Silently +16, Spot +15 |\nFeats: | Alertness, Iron Will, Track |\nClimate/Terrain: | Any |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 21 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | By character class |\nPseudotrolls speak Giant.\nA pseudotroll's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::027_creating_a_paragon_creature",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::029_combat"
+}

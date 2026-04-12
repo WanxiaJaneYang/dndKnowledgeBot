@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::039_combat",
+  "document_id": "srd_35::epicmonsters_a_e::039_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#039_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): A force dragon has one type of breath weapon, a cone of force that tears through creatures and objects in its area to devastating effect.\nImmune to Force (Ex): A force dragon cannot be harmed by any force effect, including magic missiles, explosive runes, mage's sword, the sphere spells, or any other spell or effect with the Force descriptor. It can move freely through barriers made of force, such as a wall of force.\nDeflecting Force (Su): A force dragon is protected by a shield of force that provides a deflection bonus to its AC. The deflection bonus is equal to the dragon's Charisma bonus.\nBlur (Su): When a force dragon reaches juvenile age, the force surrounding its body distorts the light around it so that it is hard to discern the dragon's exact location. This functions as a continuous blur spell, giving the dragon concealment (20% miss chance).\nDisplacement (Su): An old force dragon's deflecting force bends light even more ex-tremely, giving the dragon the benefit of the displacement spell (50% miss chance). This supersedes its blur ability.\nInvisibility (Su): A great wyrm force dragon is a creature of pure force, and is completely invisible (as though protected by greater invisibility). A creature that can see invisible creatures must still contend with the dragon's displacement ability.\nSpell-Like Abilities: 3/day--forcecage, maze, resilient sphere, telekinetic sphere, wall of force. The DCs are Charisma-based.\nSample Force Dragon,Adult\nGargantuan Dragon (Force)\nHit Dice: 45d12+585 (877 hp)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::038_force_dragon_abilities_by_age",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::040_initiative_0"
+}

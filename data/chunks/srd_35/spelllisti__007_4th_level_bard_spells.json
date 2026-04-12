@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::007_4th_level_bard_spells",
+  "document_id": "srd_35::spelllisti::007_4th_level_bard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "4TH-LEVEL BARD SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#007_4th_level_bard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Break Enchantment: Frees subjects from enchantments, alterations, curses, and petrification.\nCure Critical Wounds: Cures 4d8 damage +1/level (max +20).\nDetect Scrying: Alerts you of magical eavesdropping.\nDimension Door: Teleports you short distance.\nDominate Person: Controls humanoid telepathically.\nFreedom of Movement: Subject moves normally despite impediments.\nHallucinatory Terrain: Makes one type of terrain appear like another (field into forest, or the like).\nHold Monster: As hold person, but any creature.\nInvisibility, Greater: As invisibility, but subject can attack and stay invisible.\nLegend Lore M F: Lets you learn tales about a person, place, or thing.\nLocate Creature: Indicates direction to familiar creature.\nModify Memory: Changes 5 minutes of subject's memories.\nNeutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.\nRainbow Pattern: Lights fascinate 24 HD of creatures.\nRepel Vermin: Insects, spiders, and other vermin stay 10 ft. away.\nSecure Shelter: Creates sturdy cottage.\nShadow Conjuration: Mimics conjuring below 4th level, but only 20% real.\nShout: Deafens all within cone and deals 5d6 sonic damage.\nSpeak with Plants: You can talk to normal plants and plant creatures.\nSummon Monster IV: Calls extraplanar creature to fight for you.\nZone of Silence: Keeps eavesdroppers from overhearing conversations.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::006_3rd_level_bard_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::008_5th_level_bard_spells"
+}

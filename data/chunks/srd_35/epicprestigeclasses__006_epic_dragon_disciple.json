@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::006_epic_dragon_disciple",
+  "document_id": "srd_35::epicprestigeclasses::006_epic_dragon_disciple",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "EPIC DRAGON DISCIPLE"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#006_epic_dragon_disciple"
+  },
+  "chunk_type": "subsection",
+  "content": "Hit Die: d12.\nSkill Points at Each Additional Level: 2 + Int modifier.\nNatural Armor: At 13th level, and every 3 levels thereafter, the dragon disciple's natural armor bonus increases by +1 (to +5 at 13th, +6 at 16th, and so on).\nBreath Weapon: At 13th level, and every 4 levels thereafter, the damage dealt by the epic dragon disciple's breath weapon increases by 2d8.\nBonus Feats: The epic dragon disciple gains a bonus feat (selected from the list of epic dragon disciple feats) every 4 levels after 10th.\nEpic Dragon Disciple Bonus Feat List: Armor Skin, Damage Reduction, Epic Prowess, Epic Skill Focus (Knowledge [arcana]), Epic Toughness, Extended Life Span, Flyby Attack\u2020, Great Charisma, Great Constitution, Great Strength, Hover\u2020, Improved Combat Casting, Improved Darkvision, Improved Spell Capacity, Improved Spell Resistance, Snatch\u2020, Spell Knowledge, Wingover\u2020.\n\u2020Non-epic feat. Treat the dragon disciple's age category as one-half his class level for the purpose of the Hover feat.\nTable: Epic Dragon Disciple\nLevel | Special |\n11th | -- |\n12th | -- |\n13th | Breath weapon (8d8), natural armor +5 |\n14th | Bonus feat |\n15th | -- |\n16th | Natural armor +6 |\n17th | Breath weapon (10d8) |\n18th | Bonus feat |\n19th | Natural armor +7 |\n20th | -- |\nEPIC DUELIST\nHit Die: d10",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::005_epic_blackguard",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::007_skill_points_at_each_additional_level_4_int_modifier"
+}

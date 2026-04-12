@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::107_display_mental",
+  "document_id": "srd_35::psionicpowersd_f::107_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#107_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 round\nRange: Long (400 ft. + 40 ft./level)\nTarget: One creature\nDuration: Concentration, up to 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::106_power_points_11",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::108_power_points_5"
+}

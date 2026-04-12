@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::004_types_of_epic_feats",
+  "document_id": "srd_35::epicfeats::004_types_of_epic_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "TYPES OF EPIC FEATS"
+    ],
+    "source_location": "EpicFeats.rtf#004_types_of_epic_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "Most epic feats are general, meaning that no special rules govern them as a group. Others may be item creation feats or metamagic feats, which follow all the normal rules for such feats, except as specified in the feat's description. In addition, some feats are defined as divine feats or as wild feats. Such feats are described below.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::003_prerequisites",
+  "next_chunk_id": "chunk::srd_35::epicfeats::005_divine_feats"
+}

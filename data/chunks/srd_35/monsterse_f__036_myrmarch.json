@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::036_myrmarch",
+  "document_id": "srd_35::monsterse_f::036_myrmarch",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "MYRMARCH"
+    ],
+    "source_location": "MonstersE-F.rtf#036_myrmarch"
+  },
+  "chunk_type": "subsection",
+  "content": "Myrmarchs are the elite of formian society. Much more than those beneath them, these creatures are individuals, with goals, desires, and creative thought.\nA myrmarch is about is about 7 feet long and about 5-1/2 feet high at the front. It weighs about 1,500 pounds. Its claws are capable of fine manipulation, like human hands. Each myrmarch wears a bronze helm to signify its position (the more elaborate the helm, the more prestigious the position).\nMyrmarchs speak Formian and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::035_combat",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::037_combat"
+}

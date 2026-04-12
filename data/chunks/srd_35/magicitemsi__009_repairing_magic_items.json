@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::009_repairing_magic_items",
+  "document_id": "srd_35::magicitemsi::009_repairing_magic_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "REPAIRING MAGIC ITEMS"
+    ],
+    "source_location": "MagicItemsI.rtf#009_repairing_magic_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Some magic items take damage over the course of an adventure. It costs no more to repair a magic item with the Craft skill than it does to repair its nonmagical counterpart. The make whole spell also repairs a damaged--but not completely broken--magic item.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::008_damaging_magic_items",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::010_intelligent_items"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::038_combat",
+  "document_id": "srd_35::monstersm_n::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Each of the three known varieties of nightshade is a terrible creature with unique powers and abilities. Their tactics vary according to their abilities, but they all make liberal use of haste.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::037_nightshade",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::039_nightshade_abilities"
+}

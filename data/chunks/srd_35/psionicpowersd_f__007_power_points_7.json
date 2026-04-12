@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::007_power_points_7",
+  "document_id": "srd_35::psionicpowersd_f::007_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#007_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "You plant a hidden death-urge impulse in the subject's unconscious. On the subject's next turn, it looks for the quickest method to end its life and attempts to do so. The subject takes no other action on its turn except attempting to harm itself.\nIf armed, the subject attacks itself as a full-round action. The attack automatically succeeds and deals damage as a critical hit. If unarmed, the subject moves adjacent to the nearest enemy and provokes an attack of opportunity, offering its opponent an opening, which the opponent may or may not choose to take advantage of.\nIf the subject is unarmed and no enemy is nearby, the subject simply does nothing at all. A subject close to an immediate and lethal hazard such as a cliff or a fire might hurl itself off the cliff or into the fire instead of striking itself with a weapon.\nAugment: For every 4 additional power points you spend, this power's save DC increases by 2 and its duration increases by 1 round.\n\nDisplay: Auditory and material\nManifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./level)\nTarget: One Medium or smaller creature\nDuration: 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::006_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::008_power_points_1"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::034_hill_giant_dire_wereboar",
+  "document_id": "srd_35::monstersk_l::034_hill_giant_dire_wereboar",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "HILL GIANT DIRE WEREBOAR"
+    ],
+    "source_location": "MonstersK-L.rtf#034_hill_giant_dire_wereboar"
+  },
+  "chunk_type": "subsection",
+  "content": "| Hill Giant Dire Wereboar Giant Form | Hill Giant Dire Wereboar Dire Boar Form | Hill Giant Dire Wereboar Hybrid Boar Form |\n| Large Giant (Shapechanger) | Large Giant (Shapechanger) | Large Giant (Shapechanger) |\nHit Dice: | 12d8+51 plus 7d8+49 (185 hp) | 12d8+51 plus 7d8+49 (185 hp) | 12d8+51 plus 7d8+49 (185 hp) |\nInitiative: | -1 | -1 | -1 |\nSpeed: | 30 ft. in hide armor (6 squares); base speed 40 ft. | 40 ft. (8 squares) | 40 ft. (8 squares) |\nArmor Class: | 22 (-1 size, -1 Dex, +11 natural, +3 hide armor), touch 8, flat-footed 22 | 16 (-1 size, -1 Dex, +8 natural), touch 8, flat-footed 16 | 19 (-1 size, -1 Dex, +11 natural), touch 8, flat-footed 19 |\nBase Attack/Grapple: | +14/+25 | +14/+33 | +14/+33 |\nAttack: | Greatclub +21 melee (2d8+10) or slam +20 melee (1d4+7) or rock +12 ranged (2d6+7) | Gore +28 melee (1d8+22) | Greatclub +29 melee (2d8+22) or claw +28 melee (1d6+15) |\nFull Attack: | Greatclub +21/+16 melee (2d8+10) or 2 slams +20 melee (1d4+7) or rock +12 ranged (2d6+7) | Gore +28 melee (1d8+22) | Greatclub +29 melee (2d8+22) and gore +23 melee (1d8+7); or 2 claws +28 melee (1d6+15) and gore +23 melee (1d8+7) |\nSpace/Reach: | 10 ft./10 ft. | 10 ft./5 ft. | 10 ft./10 ft. |\nSpecial Attacks: | Rock throwing | Curse of lycanthropy | Curse of lycanthropy |\nSpecial Qualities: | Alternate form, boar empathy, ferocity, low-light vision, rock catching, scent | Alternate form, boar empathy, damage reduction 10/silver, ferocity, low-light vision, scent | Alternate form, boar empathy, damage reduction 10/silver, ferocity, low-light vision, scent |\nSaves: | Fort +17, Ref +8, Will +12 | Fort +20, Ref +8, Will +12 | Fort +20, Ref +8, Will +12 |\nAbilities: | Str 25, Dex 8, Con 19, Int 6, Wis 12, Cha 7 | Str 41, Dex 8, Con 25, Int 6, Wis 12, Cha 7 | Str 41, Dex 8, Con 25, Int 6, Wis 12, Cha 7 |\nSkills: | Climb +10, Jump +10, Listen +10, Spot +12 | Climb +18, Jump +22, Listen +10, Spot +12 | Climb +18, Jump +22, Listen 10, Spot +12 |\nFeats: | AlertnessB, Cleave, Endurance, Improved Bull Rush, Improved Sunder, Iron WillB, Power Attack, Weapon Focus (greatclub) | (same as giant form) | (same as giant form) |\nEnvironment: | Temperate hills | Temperate hills | Temperate hills |\nOrganization: | Solitary, pair, brood (3-4), or troupe (2-4 plus 1-4 dire boars) | (same as giant form) | (same as giant form) |\nChallenge Rating: | 11 | 11 | 11 |\nTreasure: | Standard | Standard | Standard |\nAlignment: | Always neutral | Always neutral | Always neutral |\nAdvancement: | By character class | By character class | By character class |\nLevel Adjustment: | +7 | +7 | +7 |\nDire wereboars in giant form look much like normal hill giants, though slightly stockier, and with coarser, stiffer hair and stiff. The dire wereboar described here is based on a hill giant and natural lycanthrope with normal ability scores for a hill giant.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::033_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::035_combat"
+}

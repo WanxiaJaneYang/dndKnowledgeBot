@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::063_power_points_1",
+  "document_id": "srd_35::psionicpowersq_w::063_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#063_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your skin or natural armor thickens and spreads across your body, providing a +1 enhancement bonus to your Armor Class.\nAugment: You can augment this power in one or both of the following ways.\n1. For every 3 additional power points you spend, the enhancement bonus increases by 1.\n2. If you spend 6 additional power points, you can manifest this power as a swift action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::062_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::064_telepathy_mind_affecting"
+}

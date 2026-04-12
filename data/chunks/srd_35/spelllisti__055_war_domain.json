@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::055_war_domain",
+  "document_id": "srd_35::spelllisti::055_war_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "WAR DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#055_war_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::054_trickery_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::056_war_domain_spells"
+}

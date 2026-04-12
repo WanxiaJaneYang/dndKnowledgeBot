@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::105_knock_down_general",
+  "document_id": "srd_35::divineabilitiesandfeats::105_knock_down_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "KNOCK-DOWN [GENERAL]"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#105_knock_down_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Base attack bonus +2, Improved Trip, Str 15.\nBenefit: Whenever you deal 10 or more points of damage to your opponent in melee, you make a trip attack as a free action against the same target.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::104_jack_of_all_trades_general",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::106_persistent_spell_metamagic"
+}

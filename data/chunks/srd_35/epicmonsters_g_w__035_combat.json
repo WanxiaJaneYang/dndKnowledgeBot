@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::035_combat",
+  "document_id": "srd_35::epicmonsters_g_w::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Poison (Ex): Sting, Fort save (DC 39); initial and secondary Damage 2d10 temporary Con. The save DC is Constitution-based.\nPounce (Ex): If a tayellah leaps upon a foe during the first round of combat, it can make a full attack even if it has already taken a move action.\nImproved Grab (Ex): To use this ability, the tayellah must hit with two of its claw attacks. If it gets a hold, it can rake.\nRake (Ex): A tayellah that gets a hold can make two additional rake attacks (+44 melee) with legs it normally only uses for walking, dealing 4d6+5 points of Damage each. If the tayellah pounces on an opponent, it can also rake.\n\nHit Dice: | 29d8+348 (478 hp) |\nInitiative: | +22 (+14 Dex, +8 Superior Initiative) |\nSpeed: | 70 ft. |\nAC: | 42 (+14 Dex, +18 natural) |\nBase Attack/Grapple: | +21/+27 |\nAttack: | Forelimb +36 (0 plus ability drain) melee touch |\nFull Attack: | 2 forelimbs +36 (0 plus ability drain) melee touch, 2 antennae +30 (antenna 0 plus energy drain) melee touch |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Ability drain, energy drain, cocoon |\nSpecial Qualities: | DR 10/epic, darkvision 240 ft., scent, SR 34, fire resistance 30 |\nSaves: | Fort +21, Ref +25, Will +25 |\nAbilities: | Str 22, Dex 38, Con 34, Int 25, Wis 29, Cha 31 |\nSkills: | Bluff +42, Concentration +44, Diplomacy +38, Escape Artist +46, Hide +46, Intimidate +38, Jump +22, Listen +41, Move Silently +46, Spot +41, Survival +25 |\nFeats: | Dodge, Expertise, Improved Disarm, Improved Initiative, Mobility, Spring Attack, Weapon Finesse, Weapon Focus (forelimb) |\nEpic Feats: | Blinding Speed, Superior Initiative |\nClimate/Terrain: | Any |\nOrganization: | Solitary, pair, or infestation (4-7) |\nChallenge Rating: | 22 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 30-36 HD (Medium-size); 37-42 HD (Large) |\nThorciasids speak Common, Elven, Dwarven, and Giant.\nA thorciasid's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::034_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::036_combat"
+}

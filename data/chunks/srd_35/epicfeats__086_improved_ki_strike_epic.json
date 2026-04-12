@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::086_improved_ki_strike_epic",
+  "document_id": "srd_35::epicfeats::086_improved_ki_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED KI STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#086_improved_ki_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 21, Ki strike (adamantine).\nBenefit: The character's unarmed strikes are treated as epic magic weapons for the purposes of damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::085_improved_heighten_spell_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::087_improved_low_light_vision_epic"
+}

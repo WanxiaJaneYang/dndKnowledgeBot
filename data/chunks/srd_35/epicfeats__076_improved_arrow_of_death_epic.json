@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::076_improved_arrow_of_death_epic",
+  "document_id": "srd_35::epicfeats::076_improved_arrow_of_death_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED ARROW OF DEATH [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#076_improved_arrow_of_death_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 19, Wis 19, Point Blank Shot, Precise Shot, arrow of death class feature.\nBenefit: Add +2 to the DC of the character's arrows of death. This feat may be taken multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::075_improved_alignment_based_casting_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::077_improved_aura_of_courage_epic"
+}

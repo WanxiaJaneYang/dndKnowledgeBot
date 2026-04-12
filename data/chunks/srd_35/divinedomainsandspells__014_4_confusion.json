@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::014_4_confusion",
+  "document_id": "srd_35::divinedomainsandspells::014_4_confusion",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "4 Confusion"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#014_4_confusion"
+  },
+  "chunk_type": "subsection",
+  "content": "5 Bolts of bedevilment\n6 Phantasmal killer\n7 Insanity\n8 Maddening scream",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::013_madness_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::015_nobility_domain"
+}

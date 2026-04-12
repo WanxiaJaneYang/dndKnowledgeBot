@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::028_dromites_as_characters",
+  "document_id": "srd_35::psionicmonsters::028_dromites_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "DROMITES AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#028_dromites_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Dromite characters possess the following racial traits.\n-- +2 Charisma, -2 Strength, -2 Wisdom.\n--Small size: +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, -4 penalty on grapple checks, lifting and carrying limits 3/4 of those of Medium characters.\n--Dromite base land speed is 20 feet.\n-- +3 natural armor bonus.\n--Naturally Psionic: Dromites gain 1 bonus power point at 1st level.\n--Special Attacks (see above): Psi-like abilities.\n--Special Qualities (see above): Resistance to fire 5 (other dromites may have resistance to cold, electricity, or sonics instead of fire), scent.\n-- Racial Skills: Dromites have a +2 racial bonus on Spot checks due to their compound eyes.\n-- Racial Feats: Dromites gain Blind-fight as a bonus feat.\n--Automatic Languages: Common. Bonus Languages: Dwarven, Gnome, Goblin, Terran.\n--Favored Class: Wilder.\n--Level Adjustment: +1.\nDUERGAR, PSIONIC\nDuergar, 1st-Level Warrior\n\nSpecial Attacks: Duergar traits, psi-like abilities",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::027_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::029_combat"
+}

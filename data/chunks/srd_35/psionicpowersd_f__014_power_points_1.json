@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::014_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::014_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#014_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mere touch grants your foe an imperfect, unfocused glimpse of the many possible futures in store. Unaccustomed to and unable to process the information, the subject becomes sickened for 1 round per level of the manifester.\n\nLevel: Psion/wilder 2, psychic warrior 2",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::013_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::015_display_olfactory"
+}

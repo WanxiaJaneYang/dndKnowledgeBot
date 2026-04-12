@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::034_combat",
+  "document_id": "srd_35::monsterss::034_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#034_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The normally carefree pixies ferociously attack evil creatures and unwanted intruders. They take full advantage of their invisibility and other abilities to harass and drive away opponents.\nGreater Invisibility (Su): A pixie remains invisible even when it attacks. This ability is constant, but the pixie can suppress or resume it as a free action.\nSpell-Like Abilities: 1/day--lesser confusion (DC 14), dancing lights, detect chaos, detect good, detect evil, detect law, detect thoughts (DC 15), dispel magic, entangle (DC 14), permanent image (DC 19; visual and auditory elements only), polymorph (self only). Caster level 8th. The save DCs are Charisma-based.\nOne pixie in ten can use irresistible dance (caster level 8th) once per day.\nSpecial Arrows (Ex): Pixies sometimes employ arrows that deal no damage but can erase memory or put a creature to sleep.\nMemory Loss: An opponent struck by this arrow must succeed on a DC 15 Will save or lose all memory. The save DC is Charisma-based and includes a +2 racial bonus. The subject retains skills, languages, and class abilities but forgets everything else until he or she receives a heal spell or memory restoration with limited wish, wish, or miracle.\nSleep: Any opponent struck by this arrow, regardless of Hit Dice, must succeed on a DC 15 Fortitude save or be affected as though by a sleep spell. The save DC is Charisma-based and includes a +2 racial bonus.\nPixies as Characters\nA pixie character exchanges its 1 HD of fey for its first class level.\nPixie characters possess the following racial traits.\n-- -4 Strength, +8 Dexterity, +6 Intelligence, +4 Wisdom, +6 Charisma.\n--Small size. +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on Hide checks, -4 penalty on grapple checks, lifting and carrying limits 3/4 those of Medium characters.\n--A pixie's base land speed is 20 feet. It also has a fly speed of 60 feet (good).\n--Low-light vision.\n--Skills: Pixies have a +2 racial bonus on Listen, Search, and Spot checks.\n--Racial Feats: A pixie receives Dodge as a bonus feat.\n-- +1 natural armor bonus.\n--Special Attacks (see above): Spell-like abilities.\n--Special Qualities (see above): Damage reduction 10/cold iron, greater invisibility, spell resistance equal to 15 + class levels.\n--Automatic Languages: Common, Sylvan. Bonus Languages: Elven, Gnome, Halfling.\n--Favored Class: Sorcerer.\n--Level adjustment +4 (+6 if the pixie can use irresistible dance).\n\nHit Dice: | 1d10 (5 hp) |\nInitiative: | +4 |\nSpeed: | 10 ft (2 squares), fly 40 ft. (average) |\nArmor Class: | 16 (+2 size, +4 Dex), touch 16, flat-footed 12 |\nBase Attack/Grapple: | +1/-11 (+1 when attached) |\nAttack: | Touch +7 melee (attach) |\nFull Attack: | Touch +7 melee (attach) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | Attach, blood drain |\nSpecial Qualities: | Darkvision 60 ft., low-light vision |\nSaves: | Fort +2, Ref +6, Will +1 |\nAbilities: | Str 3, Dex 19, Con 10, Int 1, Wis 12, Cha 6 |\nSkills: | Hide +14, Listen +4, Spot +4 |\nFeats: | Alertness, Weapon Finesse B |\nEnvironment: | Warm marshes |\nOrganization: | Colony (2-4), flock (5-8), or storm (9-14) |\nChallenge Rating: | 1/2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nA stirge's coloration ranges from rust-red to reddish-brown, with a dirty yellow underside. The proboscis is pink at the tip, fading to gray at its base.\nA stirge's body is about 1 foot long, with a wingspan of about 2 feet. It weighs about 1 pound.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::033_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::035_combat"
+}

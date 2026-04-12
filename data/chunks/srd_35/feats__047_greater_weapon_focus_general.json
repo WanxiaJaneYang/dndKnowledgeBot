@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::047_greater_weapon_focus_general",
+  "document_id": "srd_35::feats::047_greater_weapon_focus_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "GREATER WEAPON FOCUS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#047_greater_weapon_focus_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike or grapple as your weapon for purposes of this feat.\nPrerequisites: Proficiency with selected weapon, Weapon Focus with selected weapon, fighter level 8th.\nBenefit: You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including the one from Weapon Focus (see below).\nSpecial: You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.\nA fighter must have Greater Weapon Focus with a given weapon to gain the Greater Weapon Specialization feat for that weapon.\nA fighter may select Greater Weapon Focus as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::046_greater_two_weapon_fighting_general",
+  "next_chunk_id": "chunk::srd_35::feats::048_greater_weapon_specialization_general"
+}

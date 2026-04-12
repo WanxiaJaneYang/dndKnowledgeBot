@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::026_combat",
+  "document_id": "srd_35::monsterso_r::026_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#026_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell-Like Abilities: At will--detect good and detect evil within a 60-foot radius. Caster level 5th.\nSkills: Pegasi have a +4 racial bonus on Listen and Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::025_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::027_training_a_pegasus"
+}

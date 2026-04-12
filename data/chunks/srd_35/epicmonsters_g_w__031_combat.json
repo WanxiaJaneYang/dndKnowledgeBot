@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::031_combat",
+  "document_id": "srd_35::epicmonsters_g_w::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Blinding (Ex): Any living creature that begins its turn with a ruin swarm in its space must make a Fortitude save (DC 51) or be blinded for one round. The save DC is Dexterity-based.\nBlindsense (Ex): The ruin swarm notices and locates creatures within 200 ft. Opponents still have 100% concealment against the swarm (but swarm attacks ignore concealment).\nDistraction (Ex): Any living creature vulnerable to the swarm's damage that begins its turn with a swarm in its square is nauseated for 1 round; a DC 45 Fortitude save negates the effect. Even with a successful save, spellcasting or concentrating on spells within the area of a swarm requires a Concentration check (DC 20 + spell level). Using skills requiring patience and concentration requires a Concentration check (DC 20). The save DC is Constitution-based.\nSwarm Traits: A swarm has no clear front or back and no discernable anatomy, so it is not subject to critical hits or flanking. A swarm made up of Tiny creatures takes half damage from\nslashing and piercing weapons.\nReducing a swarm to 0 hit points or fewer causes the swarm to break up, though damage taken until that point does not degrade its ability to attack or resist attack. Swarms are never staggered or reduced to a dying state by damage. Also, they cannot be tripped, grappled, or bull rushed, and they cannot grapple another.\nA swarm is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as disintegrate), with the exception of mind-affecting effects if the swarm has an intelligence score and a hive mind. A swarm takes a -10 penalty on saving throws against spells or effects that affect an area, such as many evocation spells or grenadelike weapons. If the area effect attack does not allow a saving throw, the swarm takes double damage instead.\nA swarm rendered unconscious by means of subdual damage becomes disorganized and dispersed, and does not re-form until its hit points exceed its subdual damage.\nVermin Traits: A ruin swarm is immune to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). It also has darkvision (60-foot range).\n\nHit Dice: | 35d12 (227 hp) |\nInitiative: | +17 (+9 Dex, +8 Superior Initiative) |\nSpeed: | Fly 60 ft. (perfect) |\nAC: | 48 (-1 size, +9 Dex, +10 deflection, +20 insight) |\nBase Attack/Grapple: | +17/- |\nAttack: | Incorporeal touch +25 (2d6 plus blightfire) melee |\nFull Attack: | Incorporeal touch +25 (2d6 plus blightfire) melee |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Blightfire, create spawn, spell-like abilities |\nSpecial Qualities: | Undead traits, incorporeal traits, turn resistance +6, cold subtype, cold aura, SR 36, DR 10/epic |\nSaves: | Fort +13, Ref +20, Will +26 |\nAbilities: | Str -, Dex 29, Con -, Int 17, Wis 25, Cha 31 |\nSkills: | Diplomacy +48, Hide +47, Intimidate +48, Listen +45, Search +41, Sense Motive +45, Spot +45 |\nFeats: | Alertness, Blind-Fight, Combat Reflexes, Dodge, Expertise, Great Fortitude, Improved Initiative, Mobility, Spring Attack, Whirlwind Attack |\nEpic Feats: | Blinding Speed, Improved Combat Reflexes, Spellcasting Harrier, Superior Initiative |\nClimate/Terrain: | Any |\nOrganization: | Solitary or gang (2-5) |\nChallenge Rating: | 26 |\nTreasure: | None |\nAlignment: | Always lawful evil |\nAdvancement: | 36-42 HD (Large); 43-70 HD (Huge) |\nA shadow of the void's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::030_creating_a_pseudonatural_creature",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::032_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::018_3rd_level_ranger_spells",
+  "document_id": "srd_35::spelllistii::018_3rd_level_ranger_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "3RD-LEVEL RANGER SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#018_3rd_level_ranger_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Command Plants: Sway the actions of one or more plant creatures.\nCure Moderate Wounds: Cures 2d8 damage +1/level (max +10).\nDarkvision: See 60 ft. in total darkness.\nDiminish Plants: Reduces size or blights growth of normal plants.\nMagic Fang, Greater: One natural weapon of subject creature gets +1/three caster levels on attack and damage rolls (max +5).\nNeutralize Poison: Immunizes subject against poison, detoxifies venom in or on subject.\nPlant Growth: Grows vegetation, improves crops.\nReduce Animal: Shrinks one willing animal.\nRemove Disease: Cures all diseases affecting subject.\nRepel Vermin: Insects, spiders, and other vermin stay 10 ft. away.\nSummon Nature's Ally III: Calls animal to fight for you.\nTree Shape: You look exactly like a tree for 1 hour/level.\nWater Walk: Subject treads on water as if solid.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::017_2nd_level_ranger_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::019_4th_level_ranger_spells"
+}

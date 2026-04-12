@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::031_psychometabolism",
+  "document_id": "srd_35::psionicpowersa_c::031_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#031_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 2, psychic warrior 2\nDisplay: Material and visual\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::030_psychometabolism_healing",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::032_power_points_3"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::029_devastation_vermin",
+  "document_id": "srd_35::epicmonsters_a_e::029_devastation_vermin",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "DEVASTATION VERMIN"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#029_devastation_vermin"
+  },
+  "chunk_type": "subsection",
+  "content": "Vermin Traits: Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).\n| Devastation Centipede | Devastation Spider |\n| Colossal Vermin | Colossal Vermin |\nHit Dice: | 128d8+1,152 (1,728 hp) | 128d8+1,280 (1,856 hp) |\nInitiative: | +13 (Dex) | +14 (Dex) |\nSpeed: | 80 ft. | 60 ft., climb 40 ft. (80 ft., climb 40 ft.) |\nAC: | 55 (-8 size, +13 Dex, +40 natural) | 58 (-8 size, +14 Dex, +42 natural) |\nBase Attack/ Grapple: | +96/+128 | +96/+125 |\nAttack: | Bite +99 (20d10+16 plus poison) melee | Bite +101 (18d10+19 plus poison) melee |\nFull Attack: | Bite +99 (20d10+16 plus poison) melee | Bite +101 (18d10+19 plus poison) melee |\nSpace/Reach: | 50 ft./40 ft. | 50 ft./40 ft. |\nSpecial Attacks: | Poison | Poison |\nSpecial Qualities: | Darkvision 300 ft., SR 50, DR 10/- | Darkvision 300 ft., SR 50, DR 10/- |\nSaves: | Fort +75, Ref +55, Will +42 | Fort +76, Ref +56, Will +42 |\nAbilities: | Str 33, Dex 37, Con 29, Int -, Wis 10, Cha 2 | Str 37, Dex 39, Con 30, Int -, Wis 10, Cha 2 |\nSkills: | Climb +19, Hide +1, Jump +31, Spot +8 | Climb +21, Hide +2 (-2), Jump +25 (+39), Move Silently +14, Spot +8 (+12) |\nClimate/Terrain: | Any land | Any land |\nOrganization: | Solitary or cluster (2-5) | Solitary or cluster (2-5) |\nChallenge Rating: | 39 | 41 |\nTreasure: | None | None |\nAlignment: | Always neutral | Always neutral |\nAdvancement: | None | None |\n| Devastation Scorpion | Devastation Beetle |\n| Colossal Vermin | Colossal Vermin |\nHit Dice: | 128d8+1,408 (1,984 hp) | 128d8+2,304 (2,880 hp) |\nInitiative: | +12 (Dex) | +10 (Dex) |\nSpeed: | 100 ft. | 70 ft. |\nAC: | 60 (-8 size, +12 Dex, +46 natural) | 72 (-8 size, +10 Dex, +60 natural) |\nAttacks: | 2 claws +102 melee, sting +97 melee | Bite +104 melee |\nDamage: | Claw 10d10+14, sting 8d10+7 plus poison | Bite 25d10+24 |\nSpace/Reach: | 50 ft./40 ft. | 50 ft./40 ft. |\nSpecial Attacks: | Improved grab, squeeze, poison | Trample 30d10+24, acid cloud |\nSpecial Qualities: | Darkvision 300 ft., SR 50, DR 15/- | Darkvision 300 ft., SR 60, DR 20/- |\nSaves: | Fort +77, Ref +54, Will +42 | Fort +84, Ref +52, Will +42 |\nAbilities: | Str 38, Dex 35, Con 32, Int -, Wis 10, Cha 2 | Str 42, Dex 31, Con 46, Int -, Wis 10, Cha 9 |\nSkills: | Climb +22, Hide +4, Jump +42, Spot +8 | Jump +31, Listen +0, Spot +0 |\nClimate/Terrain: | Any land | Any land |\nOrganization: | Solitary or cluster (2-5) | Solitary or cluster (2-5) |\nChallenge Rating: | 42 | 50 |\nTreasure: | None | None |\nAlignment: | Always neutral | Always neutral |\nAdvancement: | None | None |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::028_creating_soul_gems",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::030_devastation_centipede"
+}

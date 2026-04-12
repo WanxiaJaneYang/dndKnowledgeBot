@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::001_psionicpowersa_c",
+  "document_id": "srd_35::psionicpowersa_c::001_psionicpowersa_c",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "PsionicPowersA-C"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#001_psionicpowersa_c"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::002_psychometabolism"
+}

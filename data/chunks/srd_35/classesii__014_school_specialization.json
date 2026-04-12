@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesii::014_school_specialization",
+  "document_id": "srd_35::classesii::014_school_specialization",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesII",
+      "SCHOOL SPECIALIZATION"
+    ],
+    "source_location": "ClassesII.rtf#014_school_specialization"
+  },
+  "chunk_type": "subsection",
+  "content": "A school is one of eight groupings of spells, each defined by a common theme. If desired, a wizard may specialize in one school of magic (see below). Specialization allows a wizard to cast extra spells from her chosen school, but she then never learns to cast spells from some other schools.\nA specialist wizard can prepare one additional spell of her specialty school per spell level each day. She also gains a +2 bonus on Spellcraft checks to learn the spells of her chosen school.\nThe wizard must choose whether to specialize and, if she does so, choose her specialty at 1st level. At this time, she must also give up two other schools of magic (unless she chooses to specialize in divination; see below), which become her prohibited schools.\nA wizard can never give up divination to fulfill this requirement.\nSpells of the prohibited school or schools are not available to the wizard, and she can't even cast such spells from scrolls or fire them from wands. She may not change either her specialization or her prohibited schools later.\nThe eight schools of arcane magic are abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, and transmutation.\nSpells that do not fall into any of these schools are called universal spells.\nAbjuration: Spells that protect, block, or banish. An abjuration specialist is called an abjurer.\nConjuration: Spells that bring creatures or materials to the caster. A conjuration specialist is called a conjurer.\nDivination: Spells that reveal information. A divination specialist is called a diviner. Unlike the other specialists, a diviner must give up only one other school.\nEnchantment: Spells that imbue the recipient with some property or grant the caster power over another being. An enchantment specialist is called an enchanter.\nEvocation: Spells that manipulate energy or create something from nothing. An evocation specialist is called an evoker.\nIllusion: Spells that alter perception or create false images. An illusion specialist is called an illusionist.\nNecromancy: Spells that manipulate, create, or destroy life or life force. A necromancy specialist is called a necromancer.\nTransmutation: Spells that transform the recipient physically or change its properties in a more subtle way. A transmutation specialist is called a transmuter.\nUniversal: Not a school, but a category for spells that all wizards can learn. A wizard cannot select universal as a specialty school or as a prohibited school. Only a limited number of spells fall into this category.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesii::013_class_features",
+  "next_chunk_id": "chunk::srd_35::classesii::015_familiars"
+}

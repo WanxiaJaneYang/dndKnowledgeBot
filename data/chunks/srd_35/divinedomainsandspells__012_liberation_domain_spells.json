@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::012_liberation_domain_spells",
+  "document_id": "srd_35::divinedomainsandspells::012_liberation_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "Liberation Domain Spells"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#012_liberation_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Remove fear\n2 Remove paralysis\n3 Remove curse\n4 Freedom of movement\n5 Break enchantment\n6 Greater dispelling\n7 Refuge\n8 Mind blank",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::011_liberation_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::013_madness_domain"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::093_power_points_7",
+  "document_id": "srd_35::psionicpowersq_w::093_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#093_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "As claw of energy, except this power can be manifested on a touched weapon. This power's subtype is the same as the type of energy infused in the touched weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::092_power_points_3"
+}

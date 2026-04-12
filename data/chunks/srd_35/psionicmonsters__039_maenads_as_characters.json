@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::039_maenads_as_characters",
+  "document_id": "srd_35::psionicmonsters::039_maenads_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "MAENADS AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#039_maenads_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Maenad characters possess the following racial traits.\n--Medium size.\n--Maenad base land speed is 30 feet.\n--Naturally Psionic: Maenads gain 2 bonus power points at 1st level.\n-- Special Attacks (see above): Psi-like abilities.\n--Special Qualities (see above): Outburst.\n--Automatic Languages: Common, Maenad. Bonus Languages: Aquan, Draconic, Dwarven, Elven, Goblin.\n--Favored Class: Wilder.\n--Level Adjustment: +0.\n\nHit Dice: | 25d8+200 (312 hp) |\nInitiative: | +2 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 28 (-4 size, -2 Dex, +24 natural), touch 4, flatfooted 28 |\nBase Attack/Grapple: | +18/+40 |\nAttack: | Tentacle rake +24 melee (2d6+10/19-20) |\nFull Attack: | 4 tentacle rakes +24 melee (2d6+10/19-20) |\nSpace/Reach: | 30 ft./30 ft. |\nSpecial Attacks: | Breath weapon, improved grab, psi-like abilities, swallow whole |\nSpecial Qualities: | Blindsight 100 ft., damage reduction 5/-, power resistance 25 |\nSaves: | Fort +16, Ref +6, Will +16 |\nAbilities: | Str 30, Dex 7, Con 27, Int 16, Wis 15, Cha 20 |\nSkills: | Climb +38, Knowledge (psionics) +31, Listen +30, Psicraft +31, Spot +30 |\nFeats: | Cleave, Improved Critical (tentacle rake), Improved Initiative, Power Attack, Psionic Endowment, Psionic Fist, Psionic Meditation, Speed of Thought, Wild Talent |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 15 |\nTreasure: | Standard |\nAlignment: | Always lawful evil |\nAdvancement: | 26-45 HD (Colossal) |\nLevel Adjustment: | -- |\nA mature neothelid is a gigantic worm scores of feet long and weighing tens of thousands of pounds. Although they understand Undercommon, they rarely communicate in a meaningful way.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::038_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::040_combat"
+}

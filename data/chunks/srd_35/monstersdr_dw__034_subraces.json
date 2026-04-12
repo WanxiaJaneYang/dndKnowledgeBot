@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::034_subraces",
+  "document_id": "srd_35::monstersdr_dw::034_subraces",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "SUBRACES"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#034_subraces"
+  },
+  "chunk_type": "subsection",
+  "content": "The information above is for hill dwarves, the most common variety.\nThere are three other major dwarven subraces, which differ from hill dwarves as follows.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::033_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::035_deep_dwarf"
+}

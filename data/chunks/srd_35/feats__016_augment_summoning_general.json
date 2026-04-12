@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::016_augment_summoning_general",
+  "document_id": "srd_35::feats::016_augment_summoning_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "AUGMENT SUMMONING [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#016_augment_summoning_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Spell Focus (conjuration).\nBenefit: Each creature you conjure with any summon spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::015_athletic_general",
+  "next_chunk_id": "chunk::srd_35::feats::017_blind_fight_general"
+}

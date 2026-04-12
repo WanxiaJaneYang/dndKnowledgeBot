@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::044_maximize_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::044_maximize_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "MAXIMIZE POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#044_maximize_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can manifest powers to maximum effect.\nBenefit: To use this feat, you must expend your psionic focus.\nYou can maximize a power. All variable, numeric effects of a power modified by this feat are maximized. A maximized power deals maximum damage, cures the maximum number of hit points, affects the maximum number of targets, and so on, as appropriate. Saving throws and opposed checks are not affected, nor are powers without random variables.\nAugmented powers can be maximized; a maximized augmented power deals the maximum damage (or cures the maximum hit points, and so on) of the augmented power.\nAn empowered and maximized power gains the separate benefits of each feat: the maximum result plus one-half the normally rolled result.\nUsing this feat increases the power point cost of the power by 4. The power's total cost cannot exceed your manifester level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::043_inquisitor_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::045_mental_leap_psionic"
+}

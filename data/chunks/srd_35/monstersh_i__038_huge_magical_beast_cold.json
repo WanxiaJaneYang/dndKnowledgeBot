@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::038_huge_magical_beast_cold",
+  "document_id": "srd_35::monstersh_i::038_huge_magical_beast_cold",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Huge Magical Beast (Cold)"
+    ],
+    "source_location": "MonstersH-I.rtf#038_huge_magical_beast_cold"
+  },
+  "chunk_type": "subsection",
+  "content": "These purplish hydras can breathe jets of frost 10 feet high, 10 feet wide, and 20 feet long. All heads breathe once every 1d4 rounds. Each jet deals 3d6 points of cold damage per head. A successful Reflex save halves the damage. The save DC is 10 + 1/2 hydra's original number of heads + hydra's Con modifier.\nCold attacks cannot prevent a cryohydra's stump from growing new heads (since a cryohydra has immunity to cold), but 5 points of fire damage does.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::037_huge_magical_beast_fire",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::039_inevitable"
+}

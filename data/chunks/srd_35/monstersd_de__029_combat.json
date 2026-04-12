@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::029_combat",
+  "document_id": "srd_35::monstersd_de::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Imps are craven, but not so timid as to pass up an opportunity for a surprise attack using their invisibility and alternate form ability. In its natural form, an imp attacks with the wicked stinger on its tail. It quickly flies out of reach if a foe manages to strike back effectively.\nAn imp's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nPoison (Ex): Injury, Fortitude DC 13, initial damage 1d4 Dex, secondary damage 2d4 Dex. The save DC is Constitution-based and includes a +2 racial bonus.\nSpell-Like Abilities: At will--detect good, detect magic, invisibility (self only); 1/day--suggestion (DC 15). Caster level 6th. The save DC is Charisma-based.\nOnce per week an imp can use commune to ask six questions. The ability otherwise works as the spell (caster level 12th).\nAlternate Form (Su): An imp can assume other forms at will as a standard action. This ability functions as a polymorph spell cast on itself (caster level 12th), except that an imp does not regain hit points for changing form, and an individual imp can assume only one or two forms no larger than Medium. Common forms include monstrous spider, raven, rat, and boar.\n\nHit Dice: | 2d8 (9 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 14 (+4 natural) touch 10, flat-footed 14 |\nBase Attack/Grapple: | +2/+2 |\nAttack: | Claw +2 melee (1d4) |\nFull Attack: | 2 claws +2 melee (1d4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Damage reduction 5/good or silver, darkvision 60 ft., immunity to fire and poison, mindless, resistance to acid 10 and cold 10, mindless, see in darkness |\nSaves: | Fort +3, Ref +3, Will +3 |\nAbilities: | Str 10, Dex 10, Con 10, Int --, Wis 11, Cha 5 |\nEnvironment: | A lawful evil-aligned plane |\nOrganization: | Solitary, pair, gang (3-5), swarm (6-15), or mob (10-40) |\nChallenge Rating: | 1 |\nTreasure: | None |\nAlignment: | Always lawful evil |\nAdvancement: | 3-6 HD (Medium) |\nLevel Adjustment: | -- |\nA lemure is about 5 feet tall and weighs about 100 pounds.\nLemures are mindless and cannot communicate, but they are sensitive to telepathic messages from other devils, typically obeying a devil's mental commands.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::028_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::030_combat"
+}

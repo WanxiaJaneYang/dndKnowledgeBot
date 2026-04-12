@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::152_storm_of_throws_epic",
+  "document_id": "srd_35::epicfeats::152_storm_of_throws_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "STORM OF THROWS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#152_storm_of_throws_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Dex 23, Point Blank Shot, Quick Draw, Rapid Shot.\nBenefit: As a full-round action, the character may throw a light weapon at his or her full base attack bonus at each opponent within 30 feet. All light weapons thrown need not be the same type.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::151_spontaneous_spell_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::153_superior_initiative_epic"
+}

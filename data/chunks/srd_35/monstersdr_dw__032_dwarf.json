@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::032_dwarf",
+  "document_id": "srd_35::monstersdr_dw::032_dwarf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "DWARF"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#032_dwarf"
+  },
+  "chunk_type": "subsection",
+  "content": "| Dwarf, 1st-Level Warrior | Duergar, 1st-Level Warrior |\n| Medium Humanoid (Dwarf) | Medium Humanoid (Dwarf) |\nHit Dice: | 1d8+2 (6 hp) | 1d8+5 (9 hp) |\nInitiative: | +0 | +0 |\nSpeed: | 20 ft. in scale mail (4 squares); base speed 20 ft. | 20 ft. in chainmail (4 squares); base speed 20 ft. |\nArmor Class: | 16 (+4 scale mail, +2 heavy shield), touch 10, flat-footed 16 | 17 (+5 chainmail, +2 heavy shield), touch 10, flat-footed 17 |\nBase Attack/Grapple: | +1/+2 | +1/+2 |\nAttack: | Dwarven waraxe +3 melee (1d10+1/x3) or shortbow +1 ranged (1d6/x3) | Warhammer +2 melee (1d8+1/x3) or light crossbow +1 ranged (1d8/19-20) |\nFull Attack: | Dwarven waraxe +3 melee (1d10+1/x3) or shortbow +1 ranged (1d6/x3) | Warhammer +2 melee (1d8+1/x3) or light crossbow +1 ranged (1d8/19-20) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | Dwarf traits | Duergar traits, spell-like abilities |\nSpecial Qualities: | Darkvision 60 ft., dwarf traits | Darkvision 60 ft., duergar traits |\nSaves: | Fort +4*, Ref +0*, Will -1* | Fort +4*, Ref +0*, Will -1* |\nAbilities: | Str 13, Dex 11, Con 14, Int 10, Wis 9, Cha 6 | Str 13, Dex 11, Con 14, Int 10, Wis 9, Cha 4 |\nSkills: | Appraise +2, Craft (blacksmithing) +2, Craft (stonemasonry) +2, Listen +2, Spot +2 | Appraise +2, Craft (blacksmithing) +2, Craft (stonemasonry) +2, Listen +3, Move Silently -4, Spot +2 |\nFeats: | Weapon Focus (dwarven waraxe) | Toughness |\nEnvironment: | Temperate mountains\n(Deep: Underground) | Underground |\nOrganization: | Team (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or clan (30-100 plus 30% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains) | Team (2-4), squad (9-16 plus 3 3rd-level sergeants and 1 leader of 3rd-8th level) or clan (20-80 plus 25% noncombatants plus 1 3rd-level sergeant per 5 adults, 3-6 6th-level lieutenants, and 1-4 9th-level captains) |\nChallenge Rating: | \u00bd | 1 |\nTreasure: | Standard coins; double goods; standard items | Standard coins, double goods, standard items |\nAlignment: | Often lawful good\n(Deep: Usually lawful neutral or neutral) | Often lawful evil |\nAdvancement: | By character class | By character class |\nLevel Adjustment: | +0 | +1 |\nDwarves favor earth tones in their clothing and prefer simple and functional garb. The skin can be very dark, but it is always some shade of tan or brown. Hair color can be black, gray, or brown. Dwarves average 4 feet tall and weigh as much as adult humans.\nDwarves speak Dwarven. Most who travel outside dwarven lands (as traders, mercenaries, or adventurers) know the Common tongue, while warriors in the dwarven cities usually learn Goblin to better interrogate and spy on those evil denizens of the deep caves.\nMost dwarves encountered outside their home are warriors.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::031_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::033_combat"
+}

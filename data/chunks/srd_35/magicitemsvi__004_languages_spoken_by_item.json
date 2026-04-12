@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsvi::004_languages_spoken_by_item",
+  "document_id": "srd_35::magicitemsvi::004_languages_spoken_by_item",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsVI",
+      "LANGUAGES SPOKEN BY ITEM"
+    ],
+    "source_location": "MagicItemsVI.rtf#004_languages_spoken_by_item"
+  },
+  "chunk_type": "subsection",
+  "content": "Like a character, an intelligent item speaks Common plus one additional language per point of Intelligence bonus. Choose appropriate languages, taking into account the item's origin and purposes.\n\nd% | Mental Ability Scores | Communication | Capabilities | Senses | Base Price Modifier |\n01-34 | Two at 12,\none at 10 | Empathy1 | One lesser power | 30 ft. vision and hearing | +1,000 gp |\n35-59 | Two at 13,\none at 10 | Empathy1 | Two lesser powers | 60 ft. vision and hearing | +2,000 gp |\n60-79 | Two at 14,\none at 10 | Speech2 | Two lesser powers | 120 ft. vision and hearing | +4,000 gp |\n80-91 | Two at 15,\none at 10 | Speech2 | Three lesser powers | 60 ft. darkvision\nand hearing | +5,000 gp |\n92-97 | Two at 16,\none at 10 | Speech2 3 | Three lesser powers | 60 ft. darkvision\nand hearing | +6,000 gp |\n98 | Two at 17,\none at 10 | Speech, telepathy 3 4 | Three lesser powers\nand one greater power6 | 120 ft. darkvision\nand hearing | +9,000 gp |\n99 | Two at 18,\none at 10 | Speech, telepathy 4 5 | Three lesser powers\nand two greater powers6 | 120 ft. darkvision, blindsense, and hearing | +12,000 gp |\n100 | Two at 19,\none at 10 | Speech, telepathy 4 5 | Four lesser powers\nand three greater powers6 | 120 ft. darkvision, blindsense, and hearing | +15,000 gp |\n1 The possessor feels urges and sometimes emotions from the item that encourage or discourage certain courses of action. |\n2 Like a character, an intelligent item speaks Common plus one language per point of Intelligence bonus. It can communicate telepathically withthe wielder. |\n3 The item can also read any languages it can speak. |\n4 The item can use either communication mode at will, with language use as any speaking item. It can communicate telepathically with the wielder. |\n5 The item can read all languages as well as use read magic. |\n6 The intelligent item can have a special purpose (and corresponding dedicated power) rather than a greater power, if appropriate. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsvi::003_intelligent_item_alignment",
+  "next_chunk_id": "chunk::srd_35::magicitemsvi::005_intelligent_item_powers"
+}

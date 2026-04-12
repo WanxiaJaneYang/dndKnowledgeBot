@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::planes::001_planes",
+  "document_id": "srd_35::planes::001_planes",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "Planes"
+    ],
+    "source_location": "Planes.rtf#001_planes"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::planes::002_planes"
+}

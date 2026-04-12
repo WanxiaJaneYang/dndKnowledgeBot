@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::024_full_round_actions",
+  "document_id": "srd_35::combati::024_full_round_actions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "FULL-ROUND ACTIONS"
+    ],
+    "source_location": "CombatI.rtf#024_full_round_actions"
+  },
+  "chunk_type": "subsection",
+  "content": "A full-round action requires an entire round to complete. Thus, it can't be coupled with a standard or a move action, though if it does not involve moving any distance, you can take a 5-foot step.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::023_stand_up",
+  "next_chunk_id": "chunk::srd_35::combati::025_full_attack"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::039_epic_endurance_epic",
+  "document_id": "srd_35::epicfeats::039_epic_endurance_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC ENDURANCE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#039_epic_endurance_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Con 25, Endurance.\nBenefit: Whenever the character makes a check for performing a physical action that extends over a period of time, he or she gets a +10 bonus on the check.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::038_epic_dodge_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::040_epic_expanded_knowledge_epic_psionic"
+}

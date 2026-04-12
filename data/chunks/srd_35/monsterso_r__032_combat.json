@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::032_combat",
+  "document_id": "srd_35::monsterso_r::032_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "Combat"
+    ],
+    "source_location": "MonstersO-R.rtf#032_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Tieflings are sneaky, subtle, and generally conniving. They prefer to strike from ambush and usually avoid a fair fight if they can.\nDarkness (Sp): A tiefling can use darkness once per day (caster level equal to class levels).\nSkills: A tiefling has a +2 racial bonus on Bluff and Hide checks.\nThe tiefling warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.\nTieflings as Characters\nTiefling characters possess the following racial traits.\n-- +2 Dexterity, +2 Intelligence, -2 Charisma.\n--Medium size.\n--A tiefling's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Racial Skills: Tieflings have a +2 racial bonus on Bluff and Hide checks.\n--Racial Feats: A tiefling gains feats according to its class levels.\n--Special Attacks (see above): Darkness.\n--Special Qualities (see above): Resistance to cold 5, electricity 5, and fire 5.\n--Automatic Languages: Common, Infernal. Bonus Languages: Draconic, Dwarven, Elven, Gnome, Goblin, Halfling, Orc.\n--Favored Class: Rogue.\n--Level adjustment +1.\n\nHit Dice: | 2d12+2 (15 hp) |\nInitiative: | +2 |\nSpeed: | 15 ft. (3 squares), fly 60 ft. (good) |\nArmor Class: | 18 (+2 size, +2 Dex, +4 natural), touch 14, flat-footed 16 |\nBase Attack/Grapple: | +2/-8 |\nAttack: | Sting +4 melee (1d3-2 plus poison) |\nFull Attack: | Sting +4 melee (1d3-2 plus poison) and bite -1 melee (1) |\nSpace/Reach: | 2-1/2 ft./0 ft. (5 ft. with tail) |\nSpecial Attacks: | Poison |\nSpecial Qualities: | Blindsense 60 ft., darkvision 60 ft., immunity to sleep and paralysis, low-light vision, spell resistance 19, telepathy 60 ft. |\nSaves: | Fort +4, Ref +5, Will +4 |\nAbilities: | Str 6, Dex 15, Con 13, Int 10, Wis 12, Cha 10 |\nSkills: | Diplomacy +2, Hide +20*, Listen +7, Search +6, Sense Motive +7, Spot +7, Survival +1 (+3 following tracks) |\nFeats: | Weapon Finesse |\nEnvironment: | Temperate forests |\nOrganization: | Solitary, pair, or clutch (3-5) |\nChallenge Rating: | 1 |\nTreasure: | None |\nAlignment: | Always neutral good |\nAdvancement: | 3-4 HD (Tiny) |\nLevel Adjustment: | +3 |\nA pseudodragon has a body about 1 foot long, with a 2-foot tail. It weights about 7 pounds.\nA pseudodragon can communicate telepathically and can also vocalize animal noises.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::031_planetouched",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::033_combat"
+}

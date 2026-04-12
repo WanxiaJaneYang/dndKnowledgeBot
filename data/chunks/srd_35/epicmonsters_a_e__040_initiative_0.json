@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::040_initiative_0",
+  "document_id": "srd_35::epicmonsters_a_e::040_initiative_0",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Initiative: +0"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#040_initiative_0"
+  },
+  "chunk_type": "subsection",
+  "content": "Speed: 60 ft., fly 300 ft. (clumsy)\nAC: 64 (-4 size, +14 deflection, +44 natural)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::039_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::041_base_attack_grapple_45_77"
+}

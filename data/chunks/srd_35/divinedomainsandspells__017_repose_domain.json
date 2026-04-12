@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::017_repose_domain",
+  "document_id": "srd_35::divinedomainsandspells::017_repose_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "REPOSE DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#017_repose_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "The Repose domain is similar to the Death domain, but is granted by good-aligned deities whose clerics are barred from casting evil spells.\nGranted Power: The character may use a death touch once per day. The death touch is a spell-like ability that is a death effect. The character must succeed at a melee touch attack against a living creature (using the rules for touch spells). When the character touches, roll 1d6 per his or her cleric level. If the total at least equals the creature's current hit\npoints, it dies.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::016_2_enthrall",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::018_1_deathwatch"
+}

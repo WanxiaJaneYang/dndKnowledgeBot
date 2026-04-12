@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::carryingandexploration::008_tactical_aerial_movement",
+  "document_id": "srd_35::carryingandexploration::008_tactical_aerial_movement",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CarryingandExploration",
+      "Tactical Aerial Movement"
+    ],
+    "source_location": "CarryingandExploration.rtf#008_tactical_aerial_movement"
+  },
+  "chunk_type": "subsection",
+  "content": "Once movement becomes three-dimensional and involves turning in midair and maintaining a minimum velocity to stay aloft, it gets more complicated. Most flying creatures have to slow down at least a little to make a turn, and many are limited to fairly wide turns and must maintain a minimum forward speed. Each flying creature has a maneuverability, as shown on Table: Maneuverability. The entries on the table are defined below.\nMinimum Forward Speed: If a flying creature fails to maintain its minimum forward speed, it must land at the end of its movement. If it is too high above the ground to land, it falls straight down, descending 150 feet in the first round of falling. If this distance brings it to the ground, it takes falling damage. If the fall doesn't bring the creature to the ground, it must spend its next turn recovering from the stall. It must succeed on a DC 20 Reflex save to recover. Otherwise it falls another 300 feet. If it hits the ground, it takes falling damage. Otherwise, it has another chance to recover on its next turn.\nHover: The ability to stay in one place while airborne.\nMove Backward: The ability to move backward without turning around.\nReverse: A creature with good maneuverability uses up 5 feet of its speed to start flying backward.\nTurn: How much the creature can turn after covering the stated distance.\nTurn in Place: A creature with good or average maneuverability can use some of its speed to turn in place.\nMaximum Turn: How much the creature can turn in any one space.\nUp Angle: The angle at which the creature can climb.\nUp Speed: How fast the creature can climb.\nDown Angle: The angle at which the creature can descend.\nDown Speed: A flying creature can fly down at twice its normal flying speed.\nBetween Down and Up: An average, poor, or clumsy flier must fly level for a minimum distance after descending and before climbing. Any flier can begin descending after a climb without an intervening distance of level flight.\nTable: Maneuverability |\n| Maneuverability |\n| Perfect | Good | Average | Poor | Clumsy |\nMinimum forward speed | None | None | Half | Half | Half |\nHover | Yes | Yes | No | No | No |\nMove backward | Yes | Yes | No | No | No |\nReverse | Free | -5 ft. | No | No | No |\nTurn | Any | 90\u00ba/5 ft. | 45\u00ba/5 ft. | 45\u00ba/5 ft. | 45\u00ba/10 ft. |\nTurn in place | Any | +90\u00ba/-5 ft. | +45\u00ba/-5 ft. | No | No |\nMaximum turn | Any | Any | 90\u00ba | 45\u00ba | 45\u00ba |\nUp angle | Any | Any | 60\u00ba | 45\u00ba | 45\u00ba |\nUp speed | Full | Half | Half | Half | Half |\nDown angle | Any | Any | Any | 45\u00ba | 45\u00ba |\nDown speed | Double | Double | Double | Double | Double |\nBetween down and up | 0 | 0 | 5 ft. | 10 ft. | 20 ft. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::carryingandexploration::007_overland_movement",
+  "next_chunk_id": "chunk::srd_35::carryingandexploration::009_evasion_and_pursuit"
+}

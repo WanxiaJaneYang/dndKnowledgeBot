@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::008_skill_points_at_each_additional_level_2_int_modifier",
+  "document_id": "srd_35::epicclasses::008_skill_points_at_each_additional_level_2_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "Skill Points at Each Additional Level: 2 + Int modifier"
+    ],
+    "source_location": "EpicClasses.rtf#008_skill_points_at_each_additional_level_2_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "Lay on Hands (Su): Each day a paladin can cure a total number of hit points equal to his or her Charisma bonus (if any) times his or her class level, as normal\nSmite Evil (Su): The epic paladin adds his or her class level to damage with any smite evil attack, as normal. He or she can smite one additional time per day for every five levels higher than 20th.\nTurn Undead: The paladin turns undead as a cleric of two levels lower, as normal.\nSpells: The paladin's caster level is equal to one-half his or her class level, as normal. The paladin's number of spells per day does not increase after 20th level.\nSpecial Mount: The epic paladin's special mount continues to increase in power. Every five levels after 20th the special mount gains +2 bonus Hit Dice, its natural armor increases by +2, its Strength adjustment increases by +1, and its Intelligence increases by +1. The mount's spell resistance equals the paladin's class level + 5.\nRemove Disease (Sp): The epic paladin can use remove disease one additional time per week for every three levels higher than 18th.\nBonus Feats: The epic paladin gains a bonus feat (selected from the list of epic paladin feats) every three levels higher than 20th.\nEpic Paladin Bonus Feat List: Armor Skin, Devastating Critical, Epic Leadership, Epic Prowess, Epic Reputation, Epic Toughness, Epic Weapon Focus, Great Smiting, Holy Strike, Improved Aura of Courage, Improved Combat Casting, Improved Spell Capacity, Legendary Commander, Legendary Rider, Overwhelming Critical, Perfect Health, Permanent Emanation, Planar Turning, Positive Energy Aura, Spectral Strike, Spontaneous Spell, Widen Aura of Courage.\nTable: The Epic Paladin\nPaladin Level | Special |\n21st | Remove disease 6/week |\n22nd | -- |\n23rd | Bonus feat |\n24th | Remove disease 7/week |\n25th | Smite evil 6/day |\n26th | Bonus feat |\n27th | Remove disease 8/week |\n28th | -- |\n29th | Bonus feat |\n30th | Remove disease 9/week |\nEPIC RANGER\nHit Die: d8",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::007_skill_points_at_each_additional_level_4_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicclasses::009_skill_points_at_each_additional_level_6_int_modifier"
+}

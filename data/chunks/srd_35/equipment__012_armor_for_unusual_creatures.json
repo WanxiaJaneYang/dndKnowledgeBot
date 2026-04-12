@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::012_armor_for_unusual_creatures",
+  "document_id": "srd_35::equipment::012_armor_for_unusual_creatures",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "ARMOR FOR UNUSUAL CREATURES"
+    ],
+    "source_location": "Equipment.rtf#012_armor_for_unusual_creatures"
+  },
+  "chunk_type": "subsection",
+  "content": "Armor and shields for unusually big creatures, unusually little creatures, and nonhumanoid creatures have different costs and weights from those given on Table: Armor and Shields. Refer to the appropriate line on the table below and apply the multipliers to cost and weight for the armor type in question.\n| Humanoid | Nonhumanoid |\nSize | Cost | Weight | Cost | Weight |\nTiny or smaller1 | x1/2 | x1/10 | x1 | x1/10 |\nSmall | x1 | x1/2 | x2 | x1/2 |\nMedium | x1 | x1 | x2 | x1 |\nLarge | x2 | x2 | x4 | x2 |\nHuge | x4 | x5 | x8 | x5 |\nGargantuan | x8 | x8 | x16 | x8 |\nColossal | x16 | x12 | x32 | x12 |\n1 Divide armor bonus by 2. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::011_masterwork_armor",
+  "next_chunk_id": "chunk::srd_35::equipment::013_getting_into_and_out_of_armor"
+}

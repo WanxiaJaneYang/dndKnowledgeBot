@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::037_power_points_5",
+  "document_id": "srd_35::psionicpowersg_p::037_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#037_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You project a field of improbability around yourself, creating a fleeting protective shell. You gain a +4 deflection bonus to Armor Class.\nYou can manifest this power instantly, quickly enough to gain its benefits in an emergency. Manifesting the power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can use this power even when it's not your turn; however, you must manifest it prior to an opponent's attack roll in order to gain this power's benefit against that attack.\nAugment: You can augment this power in one or both of the following ways.\n1. If you spend 4 additional power points, the deflection bonus to Armor Class increases by 1.\n2. For every additional power point you spend, this power's duration increases by 1 round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::036_clairsentience",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::038_display_mental"
+}

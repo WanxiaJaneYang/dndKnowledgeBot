@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::017_combat",
+  "document_id": "srd_35::monstersdi_do::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire sharks bite with their powerful jaws, swallowing smaller creatures in one gulp.\nImproved Grab (Ex): To use this ability, a dire shark must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can try to swallow the foe in the following round.\nSwallow Whole (Ex): A dire shark can try to swallow a grabbed opponent of up to one size smaller by making a successful grapple check. Once inside, the opponent takes 2d6+6 points of bludgeoning damage plus 1d8+4 points of acid damage per round from the shark's digestive juices. A swallowed creature can cut its way out using a light slashing or piercing weapon by dealing 25 points of damage to the shark's digestive tract (AC 13). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out.\nA Huge dire shark's gullet can hold 2 Large, 8 Medium or Small, 32 Tiny, 128 Diminutive, or 512 Fine or smaller opponents.\nKeen Scent (Ex): A dire shark can notice creatures by scent in a 180-foot radius and can detect blood in the water at a range of up to 1 mile.\nSkills: A dire shark has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered.\nIt can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 16d8+48 (120 hp) |\nInitiative: | +2 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 17 (-1 size, +2 Dex, +6 natural), touch 11, flat-footed 15 |\nBase Attack/Grapple: | +12/+24 |\nAttack: | Claw +20 melee (2d4+8) |\nFull Attack: | 2 claws +20 melee (2d4+8) and bite +14 melee (2d6+4) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab, pounce, rake 2d4+4 |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +13, Ref +12, Will +11 |\nAbilities: | Str 27, Dex 15, Con 17, Int 2, Wis 12, Cha 10 |\nSkills: | Hide +7*, Jump +14, Listen +6, Move Silently +11, Spot +7, Swim +10 |\nFeats: | Alertness, Improved Natural Attack (claw), Improved Natural Attack (bite), Run, Stealthy, Weapon Focus (claw) |\nEnvironment: | Warm forests |\nOrganization: | Solitary or pair |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 17-32 HD (Large); 33-48 (Huge) |\nLevel Adjustment: | -- |\nDire tigers prey on just about anything that moves. They will patiently stalk a potential meal, striking whenever the creature lets down its guard.\nDire tigers grow to be over 12 feet long and can weigh up to 6,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::018_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::010_alertness_general",
+  "document_id": "srd_35::feats::010_alertness_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "ALERTNESS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#010_alertness_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Listen checks and Spot checks.\nSpecial: The master of a familiar gains the benefit of the Alertness feat whenever the familiar is within arm's reach.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::009_agile_general",
+  "next_chunk_id": "chunk::srd_35::feats::011_animal_affinity_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::024_requirements",
+  "document_id": "srd_35::epicprestigeclasses::024_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#024_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become an epic infiltrator, a character must fulfill all the following criteria.\nAlignment: Any nonchaotic.\nSkills: Bluff 24 ranks, Diplomacy 10 ranks, Disguise 24 ranks, Spot 10 ranks.\nFeats: Alertness.\nEpic Feat: Polyglot.\nSpecial: Must have successfully spent one month using the Disguise skill to pose as someone else.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::023_class_features",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::025_class_skills"
+}

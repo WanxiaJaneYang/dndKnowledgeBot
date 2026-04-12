@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::033_dodge_general",
+  "document_id": "srd_35::feats::033_dodge_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "DODGE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#033_dodge_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Dex 13.\nBenefit: During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent. You can select a new opponent on any action.\nA condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.\nSpecial: A fighter may select Dodge as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::032_diligent_general",
+  "next_chunk_id": "chunk::srd_35::feats::034_empower_spell_metamagic"
+}

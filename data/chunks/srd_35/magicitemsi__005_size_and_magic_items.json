@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::005_size_and_magic_items",
+  "document_id": "srd_35::magicitemsi::005_size_and_magic_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "SIZE AND MAGIC ITEMS"
+    ],
+    "source_location": "MagicItemsI.rtf#005_size_and_magic_items"
+  },
+  "chunk_type": "subsection",
+  "content": "When an article of magic clothing or jewelry is discovered, most of the time size shouldn't be an issue. Many magic garments are made to be easily adjustable, or they adjust themselves magically to the wearer. Size should not keep characters of various kinds from using magic items.\nThere may be rare exceptions, especially with racial specific items.\nArmor and Weapon Sizes: Armor and weapons that are found at random have a 30% chance of being Small (01-30), a 60% chance of being Medium (31-90), and a 10% chance of being any other size (91-100).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::004_using_items",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::006_magic_items_on_the_body"
+}

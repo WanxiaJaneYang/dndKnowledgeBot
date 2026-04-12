@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::014_combat",
+  "document_id": "srd_35::epicmonsters_g_w::014_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#014_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A critical hit (or the blow that would kill or render a foe unconscious) from the hoary hunter's blade does not wound the hunter's prey. Instead, the victim is bodily transported as per a soul binding spell heightened to 16th level (DC 30) into a diamond at the end of the sword's hilt.\nSpell-Like Abilities: At will--discern location, true strike, fog cloud, hold monster, plane shift; 3/day--dimensional anchor, dominate monster, greater dispel magic; 1/day--mage's disjunction, contingent recall and resurrection*. Caster level 23rd; save DC 18 + spell level. *Contingent recall and resurrection is a variation on an epic spell. When slain, the hoary hunter is actually transported, with its mount, back to the fey realm, where it is resurrected. The only way to truly slay the hoary hunter is to defeat it in its home realm after this epic spell has been exhausted for the day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::013_base_attack",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::015_hoary_steed"
+}

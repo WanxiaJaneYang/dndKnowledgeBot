@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::026_deafening_song_epic",
+  "document_id": "srd_35::epicfeats::026_deafening_song_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DEAFENING SONG [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#026_deafening_song_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Perform 24 ranks, bardic music class feature.\nBenefit: The character can use song or poetics to temporarily deafen all enemies within a 30-foot spread from him or her. A successful Fortitude save (DC 10 + 1/2 the character's class level + the character's Charisma modifier) negates the effect. The deafening effect lasts for as long as the character continues the deafening song. The character can choose to exclude any characters from this effect. The character may sing, play, or recite a deafening song while taking other mundane actions, but not magical ones (see the bard's inspire courage ability for more details). The character may keep up the deafening song for a maximum of 10 rounds. Using the deafening song counts as one of the character's uses of song or poetics for the day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::025_damage_reduction_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::027_death_of_enemies_epic"
+}

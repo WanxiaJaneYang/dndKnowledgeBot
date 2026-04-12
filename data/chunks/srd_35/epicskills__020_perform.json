@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::020_perform",
+  "document_id": "srd_35::epicskills::020_perform",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Perform"
+    ],
+    "source_location": "EpicSkills.rtf#020_perform"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can sway an audience's attitude with his or her performance.\n\nInitial Attitude | Hos | Unf | Indif | Friend | Help | Fanatic |\nHostile | Less than 20 | 20 | 25 | 35 | 50 | 150 |\nUnfriendly | Less than 5 | 5 | 15 | 25 | 40 | 120 |\nIndifferent | -- | Less than 1 | 1 | 15 | 30 | 90 |\nFriendly | -- | -- | Less than 1 | 1 | 20 | 60 |\nHelpful | -- | -- | -- | Less than 1 | 1 | 50 |\nHos: hostile. Unf: unfriendly. Indif: indifferent. Friend: friendly. Help: helpful.\nFanatic: The attitude of fanatic is added here. In addition to the obvious effects, any NPC whose attitude is fanatic gains a +2 morale bonus to Strength and Constitution scores, a +1 morale bonus on Will saves, and a -1 penalty to AC whenever fighting for the character or his or her cause. This attitude will remain for one day plus one day per point of the character's Charisma bonus, at which point the NPC's attitude will revert to its original attitude (or indifferent, if no attitude is specified).\nTreat the fanatic attitude as a mind-affecting enchantment effect for purposes of immunity, save bonuses, or being detected by the Sense Motive skill. Since it is nonmagical, it can't be dispelled; however, any effect that suppresses or counters mind-affecting effects will affect it normally. A fanatic NPC's attitude can't be further adjusted by the use of skills.\nAttitude | Means | Possible Actions |\nFanatic | Will give life to serve you | Fight to the death against overwhelming odds, throw self in front of onrushing dragon |\n\nProfession does not possess an epic usage.\n\nThe character can stand upon his or her mount in combat.\nDC | Task |\n40 | Stand on mount |\n50 | Unconscious control |\n60 | Attack from cover |\nStand on Mount: This allows the character to stand on his or her mount's back even during movement or combat. The character takes no penalties to actions while doing so.\nUnconscious Control: As a free action, the character can attempt to control a light horse, pony, or heavy horse while in combat. If the character fails, he or she controls the mount as a move-equivalent action. A character does not need to roll for warhorses or warponies.\nAttack from Cover: The character can react instantly to drop down and hang alongside his or her mount, using it as one-half cover. The character can attack and cast spells while using his or her mount as cover without penalty. If the character fails, he or she doesn't get the cover benefit.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::019_listen",
+  "next_chunk_id": "chunk::srd_35::epicskills::021_search"
+}

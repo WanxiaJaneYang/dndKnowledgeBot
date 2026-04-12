@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::015_display_olfactory",
+  "document_id": "srd_35::psionicpowersd_f::015_display_olfactory",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Display: Olfactory"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#015_display_olfactory"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: 30 ft.\nArea: 30-ft.-radius emanation centered on you\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::014_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::016_power_points_3"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::087_stride",
+  "document_id": "srd_35::divineabilitiesandfeats::087_stride",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Stride"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#087_stride"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Travel domain.\nBenefit: The deity's movement is doubled on the local or overland scales. Also, having this ability means that the deity's height does not limit the distance it can jump.\nIn addition, the deity can impart extra overland speed to living creatures. The deity can affect up to one creature per divine rank at once, but no more than that number each day. All must be within the deity's line of sight when first affected. Creatures who receive this boon double their speeds on the local or overland scales.\nSuggested Portfolio Elements: Travel.\nSunder and Disjoin\nBenefit: If any weapon or item is used against the deity in combat, the deity can destroy it with a touch. Treat a successful touch as a combination of a disintegrate spell and a\ndisjunction spell, both targeted exclusively at the touched item. The save DC for both effects is 19 + the deity's Charisma modifier. Anitem remains vulnerable to this ability for up to one day after being used against the deity.\nSuggested Portfolio Elements: Victory, war.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::086_spontaneous_wizard_spells",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::088_supreme_initiative"
+}

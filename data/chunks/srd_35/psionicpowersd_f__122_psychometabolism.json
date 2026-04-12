@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::122_psychometabolism",
+  "document_id": "srd_35::psionicpowersd_f::122_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#122_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psychic warrior 6\nDisplay: Visual; see text\nManifesting Time: 1 standard action\nRange: Personal; see text\nTarget: You\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::121_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::123_power_points_11"
+}

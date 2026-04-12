@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems2::013_special_purpose_power",
+  "document_id": "srd_35::epicmagicitems2::013_special_purpose_power",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems2",
+      "SPECIAL PURPOSE POWER"
+    ],
+    "source_location": "EpicMagicItems2.rtf#013_special_purpose_power"
+  },
+  "chunk_type": "subsection",
+  "content": "A special purpose power operates only when the item is in pursuit of its special purpose. This is always up to the purview of the item. It should always be easy and straightforward to see how the ends justify the means. That is to say that if the player's reasoning for how a particular action serves the item's purpose is not completely believable, the item won't allow it.\n\nd% | Special Purpose Power |\n01-10 | Blindness1 (DC 172) for 2d6 rounds |\n11-20 | Confusion1 (DC 192) for 2d6 rounds |\n21-25 | Fear1 (DC 192) for 1d4 rounds |\n26-55 | Hold monster1 (DC 192) for 1d4 rounds |\n56-65 | Slay living1 (DC 202) |\n66-75 | Disintegrate1 (DC 212) |\n76-80 | True resurrection on wielder, one time only |\n81-100 | +4 luck bonus on all saving throws, +4 deflection AC bonus, spell resistance 30 |\n1 This power affects the opponent of the item's wielder on a successful hit unless the opponent makes a Will save at the listed DC. |\n2 Choose an ability score of the item (usually the highest) at the time the item is created or randomly generated. Add that ability's bonus to the listed DC. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems2::012_purpose",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems2::014_item_ego"
+}

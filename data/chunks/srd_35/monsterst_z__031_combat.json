@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::031_combat",
+  "document_id": "srd_35::monsterst_z::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Will-o'-wisps usually avoid combat. They prefer to confuse and bewilder adventurers, luring them into morasses or other hazardous places. When they are forced to fight, they loose small electrical shocks, which act as melee touch attacks.\nImmunity to Magic (Ex): A will-o'-wisp is immune to most spells or spell-like abilities that allow spell resistance, except magic missile and maze.\nNatural Invisibility (Ex): A startled or frightened will-o'-wisp can extinguish its glow, effectively becoming invisible as the spell.\n\nHit Dice: | 6d10+18 (51 hp) |\nInitiative: | +5 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 15 (-1 size, +1 Dex, +5 natural), touch 10, flat-footed 14 |\nBase Attack/Grapple: | +6/+14 |\nAttack: | Bite +9 melee (1d8+6 plus 1d6 cold) |\nFull Attack: | Bite +9 melee (1d8+6 plus 1d6 cold) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Breath weapon, freezing bite, trip |\nSpecial Qualities: | Darkvision 60 ft., immunity to cold, low-light vision, scent, vulnerability to fire |\nSaves: | Fort +8, Ref +6, Will +3 |\nAbilities: | Str 18, Dex 13, Con 16, Int 9, Wis 13, Cha 10 |\nSkills: | Hide -1*, Listen +6, Move Silently +7, Spot +6, Survival +1* |\nFeats: | Alertness, Improved Initiative, Track |\nEnvironment: | Cold forests |\nOrganization: | Solitary, pair, or pack (3-5) |\nChallenge Rating: | 5 |\nTreasure: | 1/10 coins; 50% goods; 50% items |\nAlignment: | Usually neutral evil |\nAdvancement: | 7-9 HD (Large); 10-18 HD (Huge) |\nLevel Adjustment: | +3 (cohort) |\nA winter wolf grows about 8 feet long and stands about 4-1/2 feet at the shoulder. It weighs about 450 pounds.\nWinter wolves can speak Giant and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::030_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::032_combat"
+}

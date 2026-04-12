@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::040_luck_domain_spells",
+  "document_id": "srd_35::spelllisti::040_luck_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Luck Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#040_luck_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Entropic Shield: Ranged attacks against you have 20% miss chance.\n2 Aid: +1 on attack rolls, +1 against fear, 1d8 temporary hp +1/level (max +10).\n3 Protection from Energy: Absorb 12 points/level of damage from one kind of energy.\n4 Freedom of Movement: Subject moves normally despite impediments.\n5 Break Enchantment: Frees subjects from enchantments, alterations, curses, and petrification.\n6 Mislead: Turns you invisible and creates illusory double.\n7 Spell Turning: Reflect 1d4+6 spell levels back at caster.\n8 Moment of Prescience: You gain insight bonus on single attack roll, check, or save.\n9 Miracle X: Requests a deity's intercession.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::039_luck_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::041_magic_domain"
+}

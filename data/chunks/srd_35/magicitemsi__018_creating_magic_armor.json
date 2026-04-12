@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::018_creating_magic_armor",
+  "document_id": "srd_35::magicitemsi::018_creating_magic_armor",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "CREATING MAGIC ARMOR"
+    ],
+    "source_location": "MagicItemsI.rtf#018_creating_magic_armor"
+  },
+  "chunk_type": "subsection",
+  "content": "To create magic armor, a character needs a heat source and some iron, wood, or leatherworking tools. He also needs a supply of materials, the most obvious being the armor or the pieces of the armor to be assembled. Armor to be made into magic armor must be masterwork armor, and the masterwork cost is added to the base price to determine final market value. Additional magic supplies costs for the materials are subsumed in the cost for creating the magic armor--half the base price of the item.\nCreating magic armor has a special prerequisite: The creator's caster level must be at least three times the enhancement bonus of the armor. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met.\nMagic armor or a magic shield must have at least a +1 enhancement bonus to have any of the abilities listed on Table: Armor Special Abilities and Table: Shield Special Abilities.\nIf spells are involved in the prerequisites for making the armor, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard), must provide any material components or focuses the spells require, and must pay any XP costs required for the spells. The act of working on the armor triggers the prepared spells, making them unavailable for casting during each day of the armor's creation. (That is, those spell slots are expended from his currently prepared spells, just as if they had been cast.)\nCreating some armor may entail other prerequisites beyond or other than spellcasting. See the individual descriptions for details.\nCrafting magic armor requires one day for each 1,000 gp value of the base price.\nItem Creation Feat Required: Craft Magic Arms and Armor.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::017_masterwork_items",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::019_creating_magic_weapons"
+}

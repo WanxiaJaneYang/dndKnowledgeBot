@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::021_hustle",
+  "document_id": "srd_35::psionicitems::021_hustle",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Hustle"
+    ],
+    "source_location": "PsionicItems.rtf#021_hustle"
+  },
+  "chunk_type": "subsection",
+  "content": "Fly, psionic\nFreedom of movement, psionic\nWall walker\nModerate psychoportation; ML 8th; Craft Psicrown, catfall, hustle, psionic fly, psionic freedom of movement, wall walker; Price 28,500 gp.\nFiery Ruin: This psicrown has 750 power points. It is made from reddish iron and is shaped into a twisted circlet studded with reddish crystals. It allows use of the following powers.\nEnergy ball\nEnergy cone\nEnergy missile\nEnergy stun\nFiery discorporation\nStrong psychokinesis; ML 15th; Craft Psicrown, energy ball, energy cone, energy missile, energy stun, fiery discorporation; Price 67,500 gp.\nGreat Dominator: This psicrown has 750 power points. It is made from black iron without further ornamentation. It allows use of the following powers.\nCharm, psionic\nSuggestion, psionic\nDominate, psionic\nStrong telepathy; ML 15th; Craft Psicrown, psionic charm, psionic dominate, psionic suggestion; Price 45,000 gp.\nTemporal Juggler: This psicrown has 850 power points. It is made from silk, usually dyed in several colors, with a clear crystal affixed to the material. It allows use of the following powers.\nTemporal acceleration\nTime hop\nTimeless body\nStrong psychoportation; ML 17th; Craft Psicrown, temporal acceleration, time hop, timeless body; Price 95,625 gp.\nTraveler: This psicrown has 750 power points. It is made from silk, usually dyed emerald green, with an emerald crystal affixed to the material. It allows use of the following powers.\nAstral traveler\nDimension door, psionic\nTeleport, greater psionic\nTeleport, psionic\nStrong psychoportation; ML 15th; Craft Psicrown, astral traveler, psionic dimension door, psionic greater teleport, psionic teleport; Price 80,156 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::020_truevenom",
+  "next_chunk_id": "chunk::srd_35::psionicitems::022_psionic_tattoos"
+}

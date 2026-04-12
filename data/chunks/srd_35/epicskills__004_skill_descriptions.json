@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::004_skill_descriptions",
+  "document_id": "srd_35::epicskills::004_skill_descriptions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "SKILL DESCRIPTIONS"
+    ],
+    "source_location": "EpicSkills.rtf#004_skill_descriptions"
+  },
+  "chunk_type": "subsection",
+  "content": "This section describes new DCs and new modifiers for skills.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::003_skill_synergy",
+  "next_chunk_id": "chunk::srd_35::epicskills::005_appraise"
+}

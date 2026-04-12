@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::022_horse",
+  "document_id": "srd_35::monstersanimals::022_horse",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "HORSE"
+    ],
+    "source_location": "MonstersAnimals.rtf#022_horse"
+  },
+  "chunk_type": "subsection",
+  "content": "Horses are widely domesticated for riding and as beasts of burden.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::021_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::023_combat"
+}

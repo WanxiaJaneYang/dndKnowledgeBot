@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::018_name",
+  "document_id": "srd_35::powersoverview::018_name",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "NAME"
+    ],
+    "source_location": "PowersOverview.rtf#018_name"
+  },
+  "chunk_type": "subsection",
+  "content": "The first line of every power description gives the name by which the power is generally known. A power might be known by other names in some locales, and specific manifesters might have names of their own for their powers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::017_power_descriptions",
+  "next_chunk_id": "chunk::srd_35::powersoverview::019_discipline_subdiscipline"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::065_psionic_shot_psionic",
+  "document_id": "srd_35::psionicsfeats::065_psionic_shot_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC SHOT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#065_psionic_shot_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can charge your ranged attacks with additional damage potential.\nPrerequisite: Point Blank Shot.\nBenefit: To use this feat, you must expend your psionic focus. Your ranged attack deals +2d6 points of damage. You must decide whether or not to use this feat prior to making an attack. If your attack misses, you still expend your psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::064_psionic_meditation_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::066_psionic_talent_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::052_requirements",
+  "document_id": "srd_35::prestigeclasses::052_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#052_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a thaumaturgist, a character must fulfill all the following criteria.\nFeats: Spell Focus (conjuration).\nSpells: Able to cast lesser planar ally.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::051_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::053_class_skills"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::046_trans",
+  "document_id": "srd_35::spelllistii::046_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#046_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Bear's Endurance, Mass: As bear's endurance, affects one subject/level.\nBull's Strength, Mass: As bull's strength, affects one subject/ level.\nCat's Grace, Mass: As cat's grace, affects one subject/level.\nControl Water: Raises or lowers bodies of water.\nDisintegrate:Makes one creature or object vanish.\nEagle's Splendor, Mass: As eagle's splendor, affects one subject/level.\nFlesh to Stone: Turns subject creature into statue.\nFox's Cunning, Mass: As fox's cunning, affects one subject/ level.\nMage's Lucubration: Wizard only. Recalls spell of 5th level or lower.\nMove Earth: Digs trenches and build hills.\nOwl's Wisdom, Mass: As owl's wisdom, affects one subject/ level.\nStone to Flesh: Restores petrified creature.\nTransformation M: You gain combat bonuses.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::045_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::047_abjur"
+}

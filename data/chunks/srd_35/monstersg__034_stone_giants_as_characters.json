@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::034_stone_giants_as_characters",
+  "document_id": "srd_35::monstersg::034_stone_giants_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "STONE GIANTS AS CHARACTERS"
+    ],
+    "source_location": "MonstersG.rtf#034_stone_giants_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Strong, silent loners, stone giant characters are a rare sight in human lands.\nStone giant characters possess the following racial traits.\n-- +16 Strength, +4 Dexterity, +8 Constitution, +2 Wisdom.\n--Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.\n--Space/Reach: 10 feet/10 feet.\n--A stone giant's base land speed is 40 feet.\n--Darkvision out to 60 feet and low-light vision.\n--Racial Hit Dice: A stone giant begins with fourteen levels of giant, which provide 14d8 Hit Dice, a base attack bonus of +10, and base saving throw bonuses of Fort +9, Ref +4, and Will +4.\n--Racial Skills: A stone giant's giant levels give it skill points equal to 17 x\uf020(2 + Int modifier). Its class skills are Climb, Hide, Listen, and Spot. A stone giant has a +8 racial bonus on Hide checks in rocky terrain.\n--Racial Feats: A stone giant's giant levels give it five feats.\n-- +11 natural armor bonus.\n--Special Attacks (see above): Rock throwing.\n--Special Qualities (see above): Rock catching.\n--Automatic Languages: Giant. Bonus Languages: Common, Draconic, Elven, Goblin, Orc.\n--Favored Class: Barbarian.\n--Level adjustment +4.\n\nHit Dice: | 19d8+114 (199 hp) |\nInitiative: | +2 |\nSpeed: | 35 ft. (7 squares), swim 30 ft. (6 squares) in breastplate; base speed 50 ft., swim 40 ft. |\nArmor Class: | 27 (-2 size, +2 Dex, +12 natural, +5 breastplate) touch 10, flat-footed 25 |\nBase Attack/Grapple: | +14/+36 |\nAttack: | Greatsword +26 melee (4d6+21/19-20) or slam +26 melee (1d6+14) or composite longbow (+14 Str bonus) +14 ranged (3d6+14/x3) |\nFull Attack: | Greatsword +26/+21/+16 melee (4d6+21/19-20) or 2 slams +26 melee (1d6+14) or composite longbow (+14 Str bonus) +14/+9/+4 ranged (3d6+14/x3) |\nSpace/Reach: | 15 ft./15 ft. |\nSpecial Attacks: | Spell-like abilities |\nSpecial Qualities: | Freedom of movement, immunity to electricity, low-light vision, rock catching, water breathing |\nSaves: | Fort +17, Ref +8, Will +13 |\nAbilities: | Str 39, Dex 14, Con 23, Int 16, Wis 20, Cha 15 |\nSkills: | Climb +20, Concentration +26, Craft (any one) +13, Diplomacy +4, Intimidate +12, Jump +24, Listen +15, Perform (sing) +12, Sense Motive +15, Spot +25, Swim +18* |\nFeats: | Awesome Blow, Cleave, Combat Reflexes, Improved Bull Rush, Improved Sunder, Iron Will, Power Attack |\nEnvironment: | Warm mountains |\nOrganization: | Solitary or family (2-4 plus 35% noncombatants plus 1 sorcerer or cleric of 7th-10th level plus 1-2 rocs, 2-5 griffons, or 2-8 sea cats) |\nChallenge Rating: | 13 |\nTreasure: | Standard coins; double goods; standard items |\nAlignment: | Often chaotic good |\nAdvancement: | By character class |\nLevel Adjustment: | -- |\nVery rarely, storm giants have violet skin. Violet-skinned storm giants have deep violet or blue-black hair with silvery gray or purple eyes. Adults are about 21 feet tall and weigh about 12,000 pounds. Storm giants can live to be 600 years old. Storm giants' garb is usually a short, loose tunic belted at the waist, sandals or bare feet, and a headband. They wear a few pieces of simple but finely crafted jewelry, anklets (favored by barefoot giants), rings, or circlets being most common. They live quiet, reflective lives and spend their time musing about the world, composing and playing music, and tilling their land or gathering food.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::033_stone_giant_elders",
+  "next_chunk_id": "chunk::srd_35::monstersg::035_combat"
+}

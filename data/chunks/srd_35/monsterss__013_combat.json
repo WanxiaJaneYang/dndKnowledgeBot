@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::013_combat",
+  "document_id": "srd_35::monsterss::013_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#013_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Shadow mastiffs prefer fighting in shadows or dark conditions, which gives them a great advantage.\nIf a magical light source negates the shadows around them, shadow mastiffs are cunning enough to either move out of the light or back off and break up the opposition with their baying. They have been known to seize and carry off items enspelled with daylight spells.\nBay (Su): When a shadow mastiff howls or barks, all creatures except evil outsiders within a 300-foot spread must succeed on a DC 13 Will save or become panicked for 2d4 rounds. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same mastiff 's bay for 24 hours. The save DC is Charisma-based.\nTrip (Ex): A shadow mastiff that hits with its bite attack can attempt to trip the opponent as a free action (+3 check modifier) without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the shadow mastiff.\nShadow Blend (Su): In any condition of illumination other than full daylight, a shadow mastiff can disappear into the shadows, giving it total concealment. Artificial illumination, even a light or continual flame spell, does not negate this ability. A daylight spell, however, will.\nSkills: *A shadow mastiff has a +4 racial bonus on Survival checks when tracking by scent.\n\nHit Dice: | 8d8+24 (60 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares), swim 20 ft. |\nArmor Class: | 20 (-1 size, +11 natural), touch 9, flat-footed 20 |\nBase Attack/Grapple: | +6/+15 |\nAttack: | Slam +11 melee (2d6+5) |\nFull Attack: | 2 slams +11 melee (2d6+5) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Improved grab, constrict 2d6+7 |\nSpecial Qualities: | Darkvision 60 ft., immunity to electricity, low-light vision, plant traits, resistance to fire 10 |\nSaves: | Fort +9, Ref +2, Will +4 |\nAbilities: | Str 21, Dex 10, Con 17, Int 7, Wis 10, Cha 9 |\nSkills: | Hide +3*, Listen +8, Move Silently +8 |\nFeats: | Iron Will, Power Attack, Weapon Focus (slam) |\nEnvironment: | Temperate marshes |\nOrganization: | Solitary |\nChallenge Rating: | 6 |\nTreasure: | 1/10th coins; 50% goods; 50% items |\nAlignment: | Usually neutral |\nAdvancement: | 9-12 HD (Large); 13-24 HD (Huge) |\nLevel Adjustment: | +6 |\nShambling mounds, also called shamblers, appear to be heaps of rotting vegetation. They are actually intelligent, carnivorous plants.\nA shambler's brain and sensory organs are located in its upper body.\nA shambler's body has an 8-foot girth and is about 6 feet tall when the creature stands erect. It weighs about 3,800 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::012_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::014_combat"
+}

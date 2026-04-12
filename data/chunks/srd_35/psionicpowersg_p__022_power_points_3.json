@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::022_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::022_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#022_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You telepathically stab the mind of your foe, causing horrible agony. The subject suffers wracking pain that imposes a -4 penalty on attack rolls, skill checks, and ability checks. If the target makes its save, it takes only a -2 penalty.\nAugment: For every 2 additional power points you spend, this power's save DC increases by 1, and the power can affect an additional target. Any additional target cannot be more than 15 feet from another target of the power.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::021_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::023_display_mental"
+}

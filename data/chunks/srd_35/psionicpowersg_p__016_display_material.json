@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::016_display_material",
+  "document_id": "srd_35::psionicpowersg_p::016_display_material",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Material"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#016_display_material"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 2 rounds\nRange: See text\nTarget, Effect, or Area: See text\nDuration: Permanent; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::015_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::017_power_points_9_xp"
+}

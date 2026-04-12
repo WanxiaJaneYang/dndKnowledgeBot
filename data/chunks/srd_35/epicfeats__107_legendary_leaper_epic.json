@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::107_legendary_leaper_epic",
+  "document_id": "srd_35::epicfeats::107_legendary_leaper_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LEGENDARY LEAPER [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#107_legendary_leaper_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Jump 24 ranks.\nBenefit: The character need only move 5 feet in a straight line to make a running jump.\nNormal: Without this feat, a character must move at least 20 feet in a straight line before attempting a running jump.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::106_legendary_commander_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::108_legendary_rider_epic"
+}

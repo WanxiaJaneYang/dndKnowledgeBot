@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::050_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::050_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#050_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "This power reinforces an astral construct created by the astral construct power, giving you a +1 bonus on any manifester level checks you make to protect it against dispel psionics or a similar effect, and a +1 bonus on its saving throw to resist dismiss ectoplasm. This power can be manifested as a swift action in the same round that you manifest an astral construct, as long as the power points you spend to perform both actions does not exceed your manifester level.\nAugment: For every 2 additional power points you spend, your bonus on manifester level checks to protect your astral construct increases by 1, and your astral construct's bonus on its saving throw to resist dismiss ectoplasm increases by 1.\n\nDisplay: Auditory and material\nManifesting Time: 1 standard action\nRange: Medium (100 ft. + 10 ft./ level)\nTarget: One Medium or smaller creature\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::049_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::051_power_points_5"
+}

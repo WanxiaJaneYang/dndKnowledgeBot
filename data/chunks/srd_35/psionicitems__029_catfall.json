@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::029_catfall",
+  "document_id": "srd_35::psionicitems::029_catfall",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Catfall"
+    ],
+    "source_location": "PsionicItems.rtf#029_catfall"
+  },
+  "chunk_type": "subsection",
+  "content": "Concealing amorpha, greater\nConcussion blast\nDaze, psionic\nDetect psionics\nDominate, psionic\nFar hand",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::028_major_artifacts",
+  "next_chunk_id": "chunk::srd_35::psionicitems::030_mindlink"
+}

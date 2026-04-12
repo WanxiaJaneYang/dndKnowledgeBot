@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::153_superior_initiative_epic",
+  "document_id": "srd_35::epicfeats::153_superior_initiative_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SUPERIOR INITIATIVE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#153_superior_initiative_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Improved Initiative.\nBenefit: The character gets a +8 bonus on initiative checks. This bonus overlaps (does not stack with) the bonus from Improved Initiative.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::152_storm_of_throws_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::154_swarm_of_arrows_epic"
+}

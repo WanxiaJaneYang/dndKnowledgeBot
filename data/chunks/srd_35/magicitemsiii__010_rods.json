@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsiii::010_rods",
+  "document_id": "srd_35::magicitemsiii::010_rods",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsIII",
+      "RODS"
+    ],
+    "source_location": "MagicItemsIII.rtf#010_rods"
+  },
+  "chunk_type": "subsection",
+  "content": "Rods are scepterlike devices that have unique magical powers and do not usually have charges. Anyone can use a rod.\nPhysical Description: Rods weigh approximately 5 pounds.\nThey range from 2 feet to 3 feet long and are usually made of iron or some other metal. (Many, as noted in their descriptions, can function as light maces or clubs due to their sturdy construction.)\nThese sturdy items have AC 9, 10 hit points, hardness 10, and a break DC of 27.\nActivation: Details relating to rod use vary from item to item. See the individual descriptions for specifics.\nSpecial Qualities: Roll d%. A 01 result indicates the rod is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes.\nRods with charges can never be intelligent.\nTable: Rods |\nMedium | Major | Rod | Market Price |\n01-07 | -- | Metamagic, Enlarge, lesser | 3,000 gp |\n08-14 | -- | Metamagic, Extend, lesser | 3,000 gp |\n15-21 | -- | Metamagic, Silent, lesser | 3,000 gp |\n22-28 | -- | Immovable | 5,000 gp |\n29-35 | -- | Metamagic, Empower, lesser | 9,000 gp |\n36-42 | -- | Metal and mineral detection | 10,500 gp |\n43-53 | 01-04 | Cancellation | 11,000 gp |\n54-57 | 05-06 | Metamagic, Enlarge | 11,000 gp |\n58-61 | 07-08 | Metamagic, Extend | 11,000 gp |\n62-65 | 09-10 | Metamagic, Silent | 11,000 gp |\n66-71 | 11-14 | Wonder | 12,000 gp |\n72-79 | 15-18 | Python | 13,000 gp |\n80-83 | -- | Metamagic, Maximize, lesser | 14,000 gp |\n84-89 | 19-21 | Flame extinguishing | 15,000 gp |\n90-97 | 22-25 | Viper | 19,000 gp |\n-- | 26-30 | Enemy detection | 23,500 gp |\n-- | 31-36 | Metamagic, Enlarge, greater | 24,500 gp |\n-- | 37-42 | Metamagic, Extend, greater | 24,500 gp |\n-- | 43-48 | Metamagic, Silent, greater | 24,500 gp |\n-- | 49-53 | Splendor | 25,000 gp |\n-- | 54-58 | Withering | 25,000 gp |\n98-99 | 59-64 | Metamagic, Empower | 32,500 gp |\n-- | 65-69 | Thunder and lightning | 33,000 gp |\n100 | 70-73 | Metamagic, Quicken, lesser | 35,000 gp |\n-- | 74-77 | Negation | 37,000 gp |\n-- | 78-80 | Absorption | 50,000 gp |\n-- | 81-84 | Flailing | 50,000 gp |\n-- | 85-86 | Metamagic, Maximize | 54,000 gp |\n-- | 87-88 | Rulership | 60,000 gp |\n-- | 89-90 | Security | 61,000 gp |\n-- | 91-92 | Lordly might | 70,000 gp |\n-- | 93-94 | Metamagic, Empower, greater | 73,000 gp |\n-- | 95-96 | Metamagic, Quicken | 75,500 gp |\n-- | 97-98 | Alertness | 85,000 gp |\n-- | 99 | Metamagic, Maximize, greater | 121,500 gp |\n-- | 100 | Metamagic, Quicken, greater | 170,000 gp |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsiii::009_ring_of_elemental_command_water",
+  "next_chunk_id": "chunk::srd_35::magicitemsiii::011_rod_descriptions"
+}

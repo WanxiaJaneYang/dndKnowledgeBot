@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::116_master_wand_epic",
+  "document_id": "srd_35::epicfeats::116_master_wand_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MASTER WAND [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#116_master_wand_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Craft Wand, Spellcraft 15 ranks.\nBenefit: When the character activates a wand, he or she can substitute a spell slot instead of using a charge. The spell slot must be one the character has not used for the day, though he or she may lose a prepared spell to emulate a wand charge (the character may not lose prepared spells from his or her school of specialty, if any). The spell slot lost must be equal to or higher in level than the spell stored in the wand, including any level-increasing metamagic enhancements.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::115_master_staff_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::117_mighty_rage_epic"
+}

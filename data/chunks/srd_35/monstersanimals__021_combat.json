@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::021_combat",
+  "document_id": "srd_35::monstersanimals::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hawks combine both talons into a single attack.\nSkills: Hawks have a +8 racial bonus on Spot checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::020_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::022_horse"
+}

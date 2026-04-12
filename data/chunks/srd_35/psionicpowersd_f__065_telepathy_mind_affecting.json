@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::065_telepathy_mind_affecting",
+  "document_id": "srd_35::psionicpowersd_f::065_telepathy_mind_affecting",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Telepathy [Mind-Affecting]"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#065_telepathy_mind_affecting"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 1, psychic warrior 1\nDisplay: Auditory\nManifesting Time: 1 immediate action\nRange: Personal\nTarget: You\nDuration: 1 round",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::064_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::066_power_points_1"
+}

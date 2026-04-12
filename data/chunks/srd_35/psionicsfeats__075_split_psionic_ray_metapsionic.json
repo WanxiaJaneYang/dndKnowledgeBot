@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::075_split_psionic_ray_metapsionic",
+  "document_id": "srd_35::psionicsfeats::075_split_psionic_ray_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "SPLIT PSIONIC RAY [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#075_split_psionic_ray_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can affect two targets with a single ray.\nPrerequisite: Any other metapsionic feat.\nBenefit: To use this feat, you must expend your psionic focus. You can split psionic rays you manifest. The split ray affects any two targets that are both within the power's range and within 30 feet of each other. If the ray deals damage, each target takes as much damage as a single target would take.\nUsing this feat increases the power point cost of the power by 2.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::074_speed_of_thought_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::076_stand_still_general"
+}

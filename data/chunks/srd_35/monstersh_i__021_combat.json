@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::021_combat",
+  "document_id": "srd_35::monstersh_i::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "When a harpy engages in battle, it prefers to use Flyby Attack and strike with a melee weapon.\nCaptivating Song (Su): The most insidious ability of the harpy is its song. When a harpy sings, all creatures (other than harpies) within a 300-foot spread must succeed on a DC 16 Will save or become captivated. This is a sonic mind-affecting charm effect. A creature that successfully saves cannot be affected again by the same harpy's song for 24 hours. The save DC is Charisma-based.\nA captivated victim walks toward the harpy, taking the most direct route available. If the path leads into a dangerous area (through flame, off a cliff, or the like), that creature gets a second saving throw. Captivated creatures can take no actions other than to defend themselves. (Thus, a fighter cannot run away or attack but takes no defensive penalties.) A victim within 5 feet of the harpy stands there and offers no resistance to the monster's attacks. The effect continues for as long as the harpy sings and for 1 round thereafter. A bard's countersong ability allows the captivated creature to attempt a new Will save.\nSkills: Harpies have a +4 racial bonus on Bluff and Listen checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::020_harpy",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::022_harpy_archer"
+}

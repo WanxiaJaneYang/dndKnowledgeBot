@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::067_energy_adaptation",
+  "document_id": "srd_35::psionicpowersd_f::067_energy_adaptation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Energy Adaptation"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#067_energy_adaptation"
+  },
+  "chunk_type": "subsection",
+  "content": "Psychometabolism [see text]\nLevel: Psion/wilder 4, psychic warrior 4\nDisplay: Visual; see text\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::066_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::068_power_points_7"
+}

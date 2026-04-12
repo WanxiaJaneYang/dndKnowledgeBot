@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::014_combat",
+  "document_id": "srd_35::monstersdi_do::014_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#014_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A dire boar charges its opponent, trying to rip the target open with its tusks.\nFerocity (Ex): A dire boar is such a tenacious combatant that it continues to fight without penalty even while disabled or dying.\n\nHit Dice: | 8d8+24 (60 hp) |\nInitiative: | +2 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 15 (-1 size, +2 Dex, +4 natural), touch 11, flat-footed 13 |\nBase Attack/Grapple: | +6/+17 |\nAttack: | Claw +13 melee (1d6+7) |\nFull Attack: | 2 claws +13 melee (1d6+7) and bite +7 melee (1d8+3) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab, pounce, rake 1d6+3 |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +9, Ref +8, Will +7 |\nAbilities: | Str 25, Dex 15, Con 17, Int 2, Wis 12, Cha 10 |\nSkills: | Hide +2*, Listen +7, Move Silently +5, Spot +7 |\nFeats: | Alertness, Run, Weapon Focus (claw) |\nEnvironment: | Warm plains |\nOrganization: | Solitary, pair, or pride (6-10) |\nChallenge Rating: | 5 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 9-16 HD (Large); 17-24 HD (Huge) |\nLevel Adjustment: | -- |\nDire lions are patient hunters, just like their smaller cousins, but apt to take on bigger prey.\nDire lions grow to be up to 15 feet long and weigh up to 3,500 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::013_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::015_combat"
+}

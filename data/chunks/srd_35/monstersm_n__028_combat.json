@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::028_combat",
+  "document_id": "srd_35::monstersm_n::028_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#028_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Guardian nagas usually warn off intruders before attacking. If the warning is ignored, they may begin a spell assault or spit poison.\nPoison (Ex): Injury or contact, Fortitude DC 19, initial and secondary damage 1d10 Con. The save DC is Constitution-based.\nSpit (Ex): A guardian naga can spit its venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Opponents hit by this attack must make successful saves (see above) to avoid the effect.\nSpells: Guardian nagas cast spells as 9th-level sorcerers, and can also cast spells from the cleric list and from the Good and Law domains. The cleric spells and domain spells are considered arcane spells for a guardian naga, meaning that the creature does not need a divine focus to cast them.\nTypical Spells Known (6/7/7/7/5; save DC 14 + spell level): 0-- cure minor wounds, daze, detect magic, light, mage hand, open/close, ray of frost, read magic; 1st--cure light wounds, divine favor, expeditious retreat, mage armor, magic missile; 2nd--detect thoughts, lesser restoration, see invisibility, scorching ray; 3rd--cure serious wounds, dispel magic, lightning bolt; 4th--divine power, greater invisibility.\n\nHit Dice: | 9d8+36 (76 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 16 (-1 size, +1 Dex, +6 natural), touch 10, flat-footed 15 |\nBase Attack/Grapple: | +6/+14 |\nAttack: | Bite +9 melee (2d6+6 plus poison) |\nFull Attack: | Bite +9 melee (2d6+6 plus poison) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Charming gaze, poison, spells |\nSpecial Qualities: | Darkvision 60 ft. |\nSaves: | Fort +7, Ref +6, Will +9 |\nAbilities: | Str 18, Dex 13, Con 18, Int 12, Wis 17, Cha 17 |\nSkills: | Concentration +13, Listen +14, Spellcraft +10, Spot +14 |\nFeats: | Ability Focus (charming gaze), Alertness, Combat Casting, Eschew MaterialsB, Lightning Reflexes |\nEnvironment: | Temperate marshes |\nOrganization: | Solitary or nest (2-4) |\nChallenge Rating: | 9 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | 10-13 HD (Large); 14-27 HD (Huge) |\nLevel Adjustment: | -- |\nSpirit nagas speak Abyssal and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::027_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::029_combat"
+}

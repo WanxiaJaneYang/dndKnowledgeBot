@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::093_improved_spell_capacity_epic",
+  "document_id": "srd_35::epicfeats::093_improved_spell_capacity_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED SPELL CAPACITY [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#093_improved_spell_capacity_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Ability to cast spells of the normal maximum spell level in at least one spellcasting class.\nBenefit: When the character selects this feat, he or she gains one spell slot per day of any level up to one level higher than the highest-level spell the character can already cast in a particular class. The character must still have the requisite ability score (10 + spell level) in order to cast any spell stored in this slot. If the character has a high enough ability modifier to gain one or more bonus spells for this spell level, he or she also gains the bonus spells for this spell level. The character must use the spell slot as a member of the class in which he or she can already cast spells of the normal maximum spell level.\nSpecial: A character can gain this feat multiple times.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::092_improved_sneak_attack_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::094_spell_slots_above_9th_level"
+}

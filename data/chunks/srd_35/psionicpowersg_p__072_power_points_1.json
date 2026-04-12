@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::072_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::072_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#072_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your eyes beam forth a 20-foot cone of light. You and other creatures can see normally in the light. If you walk into an area filled with psionic or magical darkness, my light goes dark while you stay within that area.\nIf my light is used in conjunction with elfsight, the cone of light extends out to 40 feet instead of 20 feet.\nAugment: If you spend 2 additional power points, you can manifest this power as a swift action.\n\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: 10 ft.\nArea: 10-ft.-radius emanation centered on you\nDuration: 10 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::071_psychokinesis_light",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::073_power_points_11"
+}

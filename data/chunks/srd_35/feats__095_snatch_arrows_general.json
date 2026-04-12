@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::095_snatch_arrows_general",
+  "document_id": "srd_35::feats::095_snatch_arrows_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SNATCH ARROWS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#095_snatch_arrows_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 15, Deflect Arrows, Improved Unarmed Strike.\nBenefit: When using the Deflect Arrows feat you may catch the weapon instead of just deflecting it. Thrown weapons can immediately be thrown back at the original attacker (even though it isn't your turn) or kept for later use.\nYou must have at least one hand free (holding nothing) to use this feat.\nSpecial: A fighter may select Snatch Arrows as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::094_skill_focus_general",
+  "next_chunk_id": "chunk::srd_35::feats::096_spell_focus_general"
+}

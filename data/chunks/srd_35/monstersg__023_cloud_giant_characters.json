@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::023_cloud_giant_characters",
+  "document_id": "srd_35::monstersg::023_cloud_giant_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "CLOUD GIANT CHARACTERS"
+    ],
+    "source_location": "MonstersG.rtf#023_cloud_giant_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Most cloud giant groups include a sorcerer or a cleric.\nGood-aligned clerics have access to two of the following domains: Good, Healing, Strength, or Sun. Evil-aligned clerics have access to two of the following domains: Death, Evil, or Trickery.\n\nHit Dice: | 15d8+75 (142 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. in half-plate armor (6 squares); base speed 40 ft. |\nArmor Class: | 23 (-1 size, -1 Dex, +8 natural, +7 half-plate armor) touch 8, flat-footed 23 |\nBase Attack/Grapple: | +11/+25 |\nAttack: | Greatsword +20 melee (3d6+15) or slam +20 melee (1d4+10) or rock +10 ranged (2d6+10 plus 2d6 fire) |\nFull Attack: | Greatsword +20/+15/+10 melee (3d6+15) or 2 slams +20 melee (1d4+10) or rock +10 ranged (2d6+10 plus 2d6 fire) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Rock throwing |\nSpecial Qualities: | Immunity to fire, low-light vision, rock catching, vulnerability to cold |\nSaves: | Fort +14, Ref +4, Will +9 |\nAbilities: | Str 31, Dex 9, Con 21, Int 10, Wis 14, Cha 11 |\nSkills: | Climb +9, Craft (any one) +6, Intimidate +6, Jump +9, Spot +14 |\nFeats: | Cleave, Great Cleave, Improved Overrun, Improved Sunder, Iron Will, Power Attack |\nEnvironment: | Warm mountains |\nOrganization: | Solitary, gang (2-5), band (6-9 plus 35% noncombatants plus 1 adept or cleric of 1st or 2nd level), hunting/raiding party (6-9 plus 1 adept or sorcerer of 3rd-5th level plus 2-4 hell hounds and 2-3 trolls or ettins), or tribe (21-30 plus 1 adept, cleric, or sorcerer of 6th or 7th level plus 12-30 hell hounds, 12-22 trolls, 5-12 ettins, and 1-2 young red dragons) |\nChallenge Rating: | 10 |\nTreasure: | Standard |\nAlignment: | Often lawful evil |\nAdvancement: | By character class |\nLevel Adjustment: | +4 |\nSome fire giants have bright orange hair.. An adult male is 12 feet tall, has a chest that measures 9 feet\naround, and weighs about 7,000 pounds. Females are slightly shorter and lighter. Fire giants can live to be 350 years old.\nFire giants wear sturdy cloth or leather garments colored red, orange, yellow, or black. Warriors wear helmets\nand half-plate armor of blackened steel.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::022_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::024_combat"
+}

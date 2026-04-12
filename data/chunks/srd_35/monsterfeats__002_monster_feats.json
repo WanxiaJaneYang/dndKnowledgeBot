@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterfeats::002_monster_feats",
+  "document_id": "srd_35::monsterfeats::002_monster_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonsterFeats",
+      "MONSTER FEATS"
+    ],
+    "source_location": "MonsterFeats.rtf#002_monster_feats"
+  },
+  "chunk_type": "rule_section",
+  "content": "These feats apply to abilities most commonly found amongst monsters or are related to monsters.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterfeats::001_monsterfeats",
+  "next_chunk_id": "chunk::srd_35::monsterfeats::003_ability_focus_general"
+}

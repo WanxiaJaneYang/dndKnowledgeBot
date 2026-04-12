@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::022_combat",
+  "document_id": "srd_35::monsterss::022_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#022_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In close combat a spectre attacks with its numbing, life-draining touch. It makes full use of its incorporeal nature, moving through walls, ceilings, and floors as it attacks.\nEnergy Drain (Su): Living creatures hit by a spectre's incorporeal touch attack gain two negative levels. The DC is 15 for the Fortitude save to remove a negative level. The save DC is Charisma-based. For each such negative level bestowed, the spectre gains 5 temporary hit points.\nCreate Spawn (Su): Any humanoid slain by a spectre becomes a spectre in 1d4 rounds. Spawn are under the command of the spectre that created them and remain enslaved until its death. They do not possess any of the abilities they had in life.\nUnnatural Aura (Su): Animals, whether wild or domesticated, can sense the unnatural presence of a spectre at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so; they remain panicked as long as they are within that range.\nSunlight Powerlessness (Ex): Spectres are powerless in natural sunlight (not merely a daylight spell) and flee from it. A spectre caught in sunlight cannot attack and can take only a single move or attack action in a round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::021_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::023_sphinx"
+}

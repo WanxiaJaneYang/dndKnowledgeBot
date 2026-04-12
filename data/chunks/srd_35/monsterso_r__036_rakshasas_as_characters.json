@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::036_rakshasas_as_characters",
+  "document_id": "srd_35::monsterso_r::036_rakshasas_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "RAKSHASAS AS CHARACTERS"
+    ],
+    "source_location": "MonstersO-R.rtf#036_rakshasas_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Rakshasa characters possess the following racial traits.\n-- +2 Strength, +4 Dexterity, +6 Constitution, +2 Intelligence, +2 Wisdom, +6 Charisma.\n--Medium size.\n--A rakshasa's base land speed is 40 feet.\n--Darkvision out to 60 feet.\n--Racial Hit Dice: A rakshasa begins with seven levels of outsider, which provide 7d8 Hit Dice, a base attack bonus of +7, and base saving throw bonuses of Fort +5, Ref +5, and Will +5.\n--Racial Skills: A rakshasa's outsider levels give it skill points equal to 10 x (8 + Int modifier). Its class skills are Bluff, Disguise, Listen, Move Silently, Perform, Sense Motive, and Spot. A rakshasa has a +4 racial bonus on Bluff and Disguise checks, and it can gain further bonuses by using change shape (+10 on Disguise checks) and detect thoughts (+4 on Bluff and Disguise checks).\n--Racial Feats: A rakshasa's outsider levels give it three feats.\n-- +9 natural armor bonus.\n--Natural Weapons: Bite (1d6) and 2 claws (1d4).\n--Detect Thoughts (Su): The save DC is 13 + the character's Cha modifier.\n--Spells: A rakshasa character casts spells as a 7th-level sorcerer. If the character takes additional levels of sorcerer, these levels stack with the rakshasa's base spellcasting ability for spells known, spells per day, and other effects dependent on caster level. A rakshasa character likewise uses the sum of its\nracial spellcasting levels and class levels to determine the abilities\nof its familiar.\n--Special Qualities (see above): Change shape, damage reduction 15/good and piercing, spell resistance equal to 27 + class levels.\n--Automatic Languages: Common, Infernal. Bonus Languages: Sylvan, Undercommon.\n--Favored Class: Sorcerer.\n--Level adjustment +7.\n\nHit Dice: | 4d8+7 (25 hp) |\nInitiative: | +5 |\nSpeed: | 5 ft. (1 square), fly 60 ft. (good) |\nArmor Class: | 15 (+1 Dex, +4 natural), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +4/+6 |\nAttack: | Claw +6 melee (1d4+2) or bite +6 melee (1d8+3) |\nFull Attack: | 4 claws +6 melee (1d4+2) or bite +6 melee (1d8+3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Paralyzing gaze, improved grab, blood drain |\nSpecial Qualities: | Darkvision 60 ft., flight, immunity to fire, vulnerability to cold |\nSaves: | Fort +5, Ref +5, Will +5 |\nAbilities: | Str 14, Dex 12, Con 13, Int 3, Wis 13, Cha 12 |\nSkills: | Hide +8, Listen +8, Move Silently +8, Spot +8 |\nFeats: | Improved Initiative, Toughness |\nEnvironment: | Elemental Plane of Fire |\nOrganization: | Solitary, pair, or cluster (3-6) |\nChallenge Rating: | 5 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 5-6 HD (Medium); 7-12 HD (Large) |\nLevel Adjustment: | -- |\nA rast has anywhere from ten to fifteen claws, though it can only use four at once.\nA rast has a body about the size of a large dog's, with a head almost as large as the body. It weighs about 200 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::035_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::037_combat"
+}

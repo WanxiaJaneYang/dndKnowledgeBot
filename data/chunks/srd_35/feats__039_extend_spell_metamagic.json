@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::039_extend_spell_metamagic",
+  "document_id": "srd_35::feats::039_extend_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "EXTEND SPELL [METAMAGIC]"
+    ],
+    "source_location": "Feats.rtf#039_extend_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spell's actual level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::038_exotic_weapon_proficiency_general",
+  "next_chunk_id": "chunk::srd_35::feats::040_extra_turning_general"
+}

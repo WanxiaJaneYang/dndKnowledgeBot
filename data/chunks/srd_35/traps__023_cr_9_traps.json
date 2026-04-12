@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::023_cr_9_traps",
+  "document_id": "srd_35::traps::023_cr_9_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 9 Traps"
+    ],
+    "source_location": "Traps.rtf#023_cr_9_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Drawer Handle Smeared with Contact Poison: CR 9; mechanical; touch trigger (attached); manual reset; poison (black lotus extract, DC 20 Fortitude save resists, 3d6 Con/3d6 Con); Search DC 18; Disable Device DC 26. Market Price: 21,600 gp.\nDropping Ceiling: CR 9; mechanical; location trigger; repair reset; ceiling moves down (12d6, crush); multiple targets (all targets in a 10-ft.-by-10-ft. room); never miss; onset delay (1 round); Search DC 20; Disable Device DC 16. Market Price: 12,600 gp.\nIncendiary Cloud Trap: CR 9; magic device; proximity trigger (alarm); automatic reset; spell effect (incendiary cloud, 15th-level wizard, 4d6/round for 15 rounds, DC 22 Reflex save half damage); Search DC 33; Disable Device DC 33. Cost: 60,000 gp, 4,800 XP.\nWide-Mouth Pit Trap: CR 9; mechanical; location trigger; manual reset; DC 25 Reflex save avoids; 100 ft. deep (10d6, fall); multiple targets (all targets within a 10-ft.-by-10-ft. area); Search DC 25; Disable Device DC 25. Market Price: 40,500 gp.\nWide-Mouth Spiked Pit with Poisoned Spikes: CR 9; mechanical; location trigger; manual reset; hidden lock bypass (Search DC 25, Open Lock DC 30); DC 20 Reflex save avoids; 70 ft. deep (7d6, fall); multiple targets (all targets within a 10-ft.-by-10-ft. area); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+5 plus poison each); poison (giant wasp poison, DC 14 Fortitude save resists, 1d6 Dex/1d6 Dex); Search DC 20; Disable Device DC 20. Market Price: 11,910 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::022_cr_8_traps",
+  "next_chunk_id": "chunk::srd_35::traps::024_cr_10_traps"
+}

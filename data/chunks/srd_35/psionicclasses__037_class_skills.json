@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::037_class_skills",
+  "document_id": "srd_35::psionicclasses::037_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#037_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The thrallherd's class skills are Autohypnosis (Wis), Bluff (Cha), Concentration (Con), Craft (any) (Int), Diplomacy (Cha), Knowledge (psionics), Psicraft (Int), and Sense Motive (Wis).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Thrallherd |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Powers Known |\n1st | +0 | +0 | +0 | +2 | Thrallherd | -- |\n2nd | +1 | +0 | +0 | +3 | -- | +1 level of existing manifesting class |\n3rd | +1 | +1 | +1 | +3 | Psionic charm | +1 level of existing manifesting class |\n4th | +2 | +1 | +1 | +4 | -- | +1 level of existing manifesting class |\n5th | +2 | +1 | +1 | +4 | Psionic dominate | +1 level of existing manifesting class |\n6th | +3 | +2 | +2 | +5 | -- | +1 level of existing manifesting class |\n7th | +3 | +2 | +2 | +5 | Greater dominate | +1 level of existing manifesting class |\n8th | +4 | +2 | +2 | +6 | -- | +1 level of existing manifesting class |\n9th | +4 | +3 | +3 | +6 | Superior dominate | +1 level of existing manifesting class |\n10th | +5 | +3 | +3 | +7 | Twofold master | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::036_requirements",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::038_class_features"
+}

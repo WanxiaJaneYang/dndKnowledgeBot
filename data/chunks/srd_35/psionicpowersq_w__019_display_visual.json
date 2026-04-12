@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::019_display_visual",
+  "document_id": "srd_35::psionicpowersq_w::019_display_visual",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Display: Visual"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#019_display_visual"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Medium (100 ft. + 10 ft./level)\nTarget: One willing creature\nDuration: Concentration, up to 1min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::018_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::020_power_points_1"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::043_special_abilities",
+  "document_id": "srd_35::magicoverview::043_special_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "SPECIAL ABILITIES"
+    ],
+    "source_location": "MagicOverview.rtf#043_special_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell-Like Abilities: Usually, a spell-like ability works just like the spell of that name. A few spell-like abilities are unique; these are explained in the text where they are described.\nA spell-like ability has no verbal, somatic, or material component, nor does it require a focus or have an XP cost. The user activates it mentally. Armor never affects a spell-like ability's use, even if the ability resembles an arcane spell with a somatic component.\nA spell-like ability has a casting time of 1 standard action unless noted otherwise in the ability or spell description. In all other ways, a spell-like ability functions just like a spell.\nSpell-like abilities are subject to spell resistance and to being dispelled by dispel magic. They do not function in areas where magic is suppressed or negated. Spell-like abilities cannot be used to counterspell, nor can they be counterspelled.\nSome creatures are actually sorcerers of a sort. They cast arcane spells as sorcerers do, using components when required. In fact, an individual creature could have some spell-like abilities and also cast other spells as a sorcerer.\nSupernatural Abilities: These abilities cannot be disrupted in combat, as spells can, and they generally do not provoke attacks of opportunity. Supernatural abilities are not subject to spell resistance, counterspells, or to being dispelled by dispel magic, and do not function in areas where magic is suppressed or negated.\nExtraordinary Abilities: These abilities cannot be disrupted in combat, as spells can, and they generally do not provoke attacks of opportunity. Effects or areas that negate or disrupt magic have no effect on extraordinary abilities. They are not subject to dispelling, and they function normally in an antimagic field. Indeed, extraordinary abilities do not qualify as magical, though they may break the laws of physics.\nNatural Abilities: This category includes abilities a creature has because of its physical nature. Natural abilities are those not otherwise designated as extraordinary, supernatural, or spell-like.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::042_new_divine_spells"
+}

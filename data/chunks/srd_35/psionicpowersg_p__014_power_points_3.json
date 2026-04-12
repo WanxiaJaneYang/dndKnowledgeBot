@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::014_power_points_3",
+  "document_id": "srd_35::psionicpowersg_p::014_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#014_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "As the identify spell, except as noted here.\nThis power is used to identify the abilities of psionic items.\nImmovability\nPsychometabolism\nLevel: Psychic warrior 4\nDisplay: Visual\nManifesting Time: 1 standard action",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::013_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::015_power_points_7"
+}

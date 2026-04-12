@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesi::008_cleric",
+  "document_id": "srd_35::classesi::008_cleric",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesI",
+      "CLERIC"
+    ],
+    "source_location": "ClassesI.rtf#008_cleric"
+  },
+  "chunk_type": "subsection",
+  "content": "Alignment: A cleric's alignment must be within one step of his deity's (that is, it may be one step away on either the lawful-chaotic axis or the good-evil axis, but not both). A cleric may not be neutral unless his deity's alignment is also neutral.\nHit Die: d8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesi::007_ex_bards",
+  "next_chunk_id": "chunk::srd_35::classesi::009_class_skills"
+}

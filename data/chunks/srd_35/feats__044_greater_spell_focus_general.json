@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::044_greater_spell_focus_general",
+  "document_id": "srd_35::feats::044_greater_spell_focus_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "GREATER SPELL FOCUS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#044_greater_spell_focus_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Choose a school of magic to which you already have applied the Spell Focus feat.\nBenefit: Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.\nSpecial: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school of magic to which you already have applied the Spell Focus feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::043_great_cleave_general",
+  "next_chunk_id": "chunk::srd_35::feats::045_greater_spell_penetration_general"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::024_sandstorms",
+  "document_id": "srd_35::wildernessandenvironment::024_sandstorms",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "Sandstorms"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#024_sandstorms"
+  },
+  "chunk_type": "subsection",
+  "content": "A sandstorm reduces visibility to 1d10\u00d75 feet and provides a -4 penalty on Listen, Search, and Spot checks. A sandstorm deals 1d3 points of nonlethal damage per hour to any creatures caught in the open, and leaves a thin coating of sand in its wake. Driving sand creeps in through all but the most secure seals and seams, to chafe skin and contaminate carried gear.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::023_desert_terrain",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::025_plains_terrain"
+}

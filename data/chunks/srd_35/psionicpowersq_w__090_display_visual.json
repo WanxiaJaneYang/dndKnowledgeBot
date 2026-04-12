@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::090_display_visual",
+  "document_id": "srd_35::psionicpowersq_w::090_display_visual",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Display: Visual"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#090_display_visual"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nEffect: Wall whose area is up to one 10-ft. square/level or a sphere or hemisphere with a radius of up to 1 ft./level\nDuration: 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::089_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::091_power_points_7"
+}

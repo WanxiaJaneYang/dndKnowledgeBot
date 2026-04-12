@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::007_power_points_17_xp",
+  "document_id": "srd_35::psionicpowersa_c::007_power_points_17_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 17, XP"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#007_power_points_17_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "By using this power, you delete 1d4 powers permanently from the subject's mind. You specify the level of each power, and the DM randomly determines which of the subject's powers is actually deleted. Psychic chirurgery or reality revision can be used to restore the lost powers, but it must be performed within 1 week of losing the powers.\nXP Cost: 50 XP per level of the deleted powers.\n\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\n\nTarget: One living creature touched\nDuration: Instantaneous and 1 hour; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::006_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::008_power_points_17"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesii::004_ex_paladins",
+  "document_id": "srd_35::classesii::004_ex_paladins",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesII",
+      "Ex-Paladins"
+    ],
+    "source_location": "ClassesII.rtf#004_ex_paladins"
+  },
+  "chunk_type": "subsection",
+  "content": "A paladin who ceases to be lawful good, who willfully commits an evil act, or who grossly violates the code of conduct loses all paladin spells and abilities (including the service of the paladin's mount, but not weapon, armor, and shield proficiencies). She may not progress any farther in levels as a paladin. She regains her abilities and advancement potential if she atones for her violations (see the atonement spell description), as appropriate.\nLike a member of any other class, a paladin may be a multiclass character, but multiclass paladins face a special restriction. A paladin who gains a level in any class other than paladin may never again raise her paladin level, though she retains all her paladin abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesii::003_class_features",
+  "next_chunk_id": "chunk::srd_35::classesii::005_the_paladin_s_mount"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::042_magic_domain_spells",
+  "document_id": "srd_35::spelllisti::042_magic_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Magic Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#042_magic_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Magic Aura: Alters object's magic aura.\n2 Identify: Determines properties of magic item.\n3 Dispel Magic: Cancels magical spells and effects.\n4 Imbue with Spell Ability: Transfer spells to subject.\n5 Spell Resistance: Subject gains SR 12 + level.\n6 Antimagic Field: Negates magic within 10 ft.\n7 Spell Turning: Reflect 1d4+6 spell levels back at caster.\n8 Protection from Spells M F: Confers +8 resistance bonus.\n9 Mage's Disjunction: Dispels magic, disenchants magic items.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::041_magic_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::043_plant_domain"
+}

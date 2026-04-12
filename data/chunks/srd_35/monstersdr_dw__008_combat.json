@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::008_combat",
+  "document_id": "srd_35::monstersdr_dw::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Black dragons prefer to ambush their targets, using their surroundings as cover. When fighting in heavily forested swamps and marshes, they try to stay in the water or on the ground; trees and leafy canopies limit their aerial maneuverability. When outmatched, a black dragon attempts to fly out of sight, so as not to leave tracks, and hide in a deep pond or bog.\nBreath Weapon (Su): A black dragon has one type of breath weapon, a line of acid.\nWater Breathing (Ex): A black dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged.\nCorrupt Water (Sp): Once per day an adult or older black dragon can stagnate 10 cubic feet of water, making it become still, foul, and unable to support animal life. The ability spoils liquids containing water. Magic items (such as potions) and items in a creature's possession must succeed on a Will save (DC equal to that of the dragon's frightful presence) or become fouled. This ability is the equivalent of a 1st-level spell. Its range is equal to that of the dragon's frightful presence.\nCharm Reptiles (Sp): A great wyrm black dragon can use this ability three times per day. It works as a mass charm spell that affects only reptilian animals. The dragon can communicate with any charmed reptiles as though casting a speak with animals spell. This ability is the equivalent of a 1st-level spell.\nOther Spell-Like Abilities: 3/day--darkness (juvenile or older; radius 10 feet per age category), insect plague (ancient or older); 1/day--plant growth (old or older).\nSkills: Hide, Move Silently, and Swim are considered class skills for black dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::007_dragon_water",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::009_dragon_earth"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::045_protection_domain",
+  "document_id": "srd_35::spelllisti::045_protection_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "PROTECTION DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#045_protection_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::044_plant_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::046_protection_domain_spells"
+}

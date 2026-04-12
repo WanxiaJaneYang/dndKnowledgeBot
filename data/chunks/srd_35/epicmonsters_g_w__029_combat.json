@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::029_combat",
+  "document_id": "srd_35::epicmonsters_g_w::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Constant Insight (Su): A pseudotroll makes all its attacks (including grapples) with a +15 insight bonus (calculated into the above statistics). The creature is not affected by the miss chance that applies to attacks against a concealed target.\nImproved Grab (Ex): If a pseudonatural troll hits an opponent smaller than it with a tentacle, it deals normal Damage and attempts to start a grapple as a free action without provoking an attack of opportunity.\nRend (Ex): If a pseudotroll hits with two or more tentacle rake attacks, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 4d8+25 points of Damage, and can be used concurrently with its improved grab ability.\nRotting Constriction (Ex): Once a pseudotroll has hold of an opponent, each successful grapple check it makes during subsequent rounds automatically drains 2d4 points of Constitution. At the same time, the pseudotroll regains 10 lost hit points.\nRegeneration (Ex): Fire and acid deal normal Damage to a pseudotroll. If a pseudotroll loses a tentacle or body part, the lost portion regrows in 1 minute. The creature can reattach the severed member instantly by holding it to the stump.\nSpell-Like Abilities: At will--blur, dimension door, shield, unhallow. Caster level 20th; save DC 8 + spell level. The DC is Charisma-based.\nAlternate Form (Su): At will, a pseudotroll can take the form of a grotesque, tentacled mass (or another appropriately gruesome form), but all its abilities remain unchanged despite the alien appearance. Changing shape is a standard action. Other creatures receive a -1 morale penalty on their attack rolls against a pseudotroll in this alternate form.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::028_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::030_creating_a_pseudonatural_creature"
+}

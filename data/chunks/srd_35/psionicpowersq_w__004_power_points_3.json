@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::004_power_points_3",
+  "document_id": "srd_35::psionicpowersq_w::004_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#004_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You know the surface thoughts of the mind of any creature in the area that fails a Will save. A target that succeeds on its save is not affected by this manifestation of the power, even if it leaves the area and then reenters the area before the duration expires.\nCreatures of animal intelligence have simple, instinctual thoughts that you can pick up. If you read the thoughts of a creature with an Intelligence of 26 or higher (and at least 10 points higher than your own Intelligence score), you are stunned for 1 round and the power ends. This power does not let you pinpoint the location of an affected mind if you don't have line of sight to the subject.\nEach round, you can turn to use this power in a new area. The power can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::003_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::005_power_points_17_xp"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::014_lich_characters",
+  "document_id": "srd_35::monstersk_l::014_lich_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "LICH CHARACTERS"
+    ],
+    "source_location": "MonstersK-L.rtf#014_lich_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "The process of becoming a lich is unspeakably evil and can be undertaken only by a willing character. A lich retains all class abilities it had in life.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::013_creating_a_lich",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::015_the_lich_s_phylactery"
+}

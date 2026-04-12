@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::002_movement_position_and_distance",
+  "document_id": "srd_35::combatii::002_movement_position_and_distance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "MOVEMENT, POSITION, AND DISTANCE"
+    ],
+    "source_location": "CombatII.rtf#002_movement_position_and_distance"
+  },
+  "chunk_type": "subsection",
+  "content": "Miniatures are on the 30mm scale--a miniature figure of a six-foot-tall human is approximately 30mm tall. A square on the battle grid is 1 inch across, representing a 5-foot-by-5-foot area.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::001_combatii",
+  "next_chunk_id": "chunk::srd_35::combatii::003_tactical_movement"
+}

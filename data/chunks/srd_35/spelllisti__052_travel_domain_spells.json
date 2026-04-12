@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::052_travel_domain_spells",
+  "document_id": "srd_35::spelllisti::052_travel_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Travel Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#052_travel_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Longstrider: Increases your speed.\n2 Locate Object: Senses direction toward object (specific or type).\n3 Fly: Subject flies at speed of 60 ft.\n4 Dimension Door: Teleports you short distance.\n5 Teleport: Instantly transports you as far as 100 miles/level.\n6 Find the Path: Shows most direct way to a location.\n7 Teleport, Greater: As teleport, but no range limit and no off-target arrival.\n8 Phase Door: Creates an invisible passage through wood or stone.\n9 Astral Projection M: Projects you and companions onto Astral Plane.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::051_travel_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::053_trickery_domain"
+}

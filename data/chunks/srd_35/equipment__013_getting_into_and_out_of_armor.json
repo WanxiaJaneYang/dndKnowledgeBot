@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::013_getting_into_and_out_of_armor",
+  "document_id": "srd_35::equipment::013_getting_into_and_out_of_armor",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "GETTING INTO AND OUT OF ARMOR"
+    ],
+    "source_location": "Equipment.rtf#013_getting_into_and_out_of_armor"
+  },
+  "chunk_type": "subsection",
+  "content": "The time required to don armor depends on its type; see Table: Donning Armor.\nDon: This column tells how long it takes a character to put the armor on. (One minute is 10 rounds.) Readying (strapping on) a shield is only a move action.\nDon Hastily: This column tells how long it takes to put the armor on in a hurry. The armor check penalty and armor bonus for hastily donned armor are each 1 point worse than normal.\nRemove: This column tells how long it takes to get the armor off. Loosing a shield (removing it from the arm and dropping it) is only a move action.\n\nArmor Type | Don | Don Hastily | Remove |\nShield (any) | 1 move action | n/a | 1 move action |\nPadded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minute1 |\nBreastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes1 | 1 minute | 1 minute1 |\nHalf-plate or full plate | 4 minutes2 | 4 minutes1 | 1d4+1 minutes1 |\n1 If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time. |\n2 The wearer must have help to don this armor. Without help, it can be donned only hastily. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::012_armor_for_unusual_creatures",
+  "next_chunk_id": "chunk::srd_35::equipment::014_goods_and_services"
+}

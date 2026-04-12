@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::022_multiple_grapplers",
+  "document_id": "srd_35::combatii::022_multiple_grapplers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "Multiple Grapplers"
+    ],
+    "source_location": "CombatII.rtf#022_multiple_grapplers"
+  },
+  "chunk_type": "subsection",
+  "content": "Several combatants can be in a single grapple. Up to four combatants can grapple a single opponent in a given round. Creatures that are one or more size categories smaller than you count for half, creatures that are one size category larger than you count double, and creatures two or more size categories larger count quadruple.\nWhen you are grappling with multiple opponents, you choose one opponent to make an opposed check against. The exception is an attempt to escape from the grapple; to successfully escape, your grapple check must beat the check results of each opponent.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::021_if_you_re_pinning_an_opponent",
+  "next_chunk_id": "chunk::srd_35::combatii::023_mounted_combat"
+}

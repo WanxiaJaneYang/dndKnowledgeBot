@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::051_starvation_and_thirst",
+  "document_id": "srd_35::wildernessandenvironment::051_starvation_and_thirst",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "STARVATION AND THIRST"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#051_starvation_and_thirst"
+  },
+  "chunk_type": "subsection",
+  "content": "Characters might find themselves without food or water and with no means to obtain them. In normal climates, Medium characters need at least a gallon of fluids and about a pound of decent food per day to avoid starvation. (Small characters need half as much.) In very hot climates, characters need two or three times as much water to avoid dehydration.\nA character can go without water for 1 day plus a number of hours equal to his Constitution score. After this time, the character must make a Constitution check each hour (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage.\nA character can go without food for 3 days, in growing discomfort. After this time, the character must make a Constitution check each day (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage.\nCharacters who have taken nonlethal damage from lack of food or water are fatigued. Nonlethal damage from thirst or starvation cannot be recovered until the character gets food or water, as needed--not even magic that restores hit points heals this damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::050_smoke_effects",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::052_suffocation"
+}

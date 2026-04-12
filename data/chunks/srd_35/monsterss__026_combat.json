@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::026_combat",
+  "document_id": "srd_35::monsterss::026_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "Combat"
+    ],
+    "source_location": "MonstersS.rtf#026_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Criosphinxes attack with their claws, as do their kin, but they can also butt with their horns. They don't cast spells and employ only the most simple battle tactics.\nRake (Ex): Attack bonus +15 melee, damage 1d6+3.\n\nHit Dice: | 8d10+8 (52 hp) |\nInitiative: | +5 |\nSpeed: | 40 ft. (8 squares), fly 60 ft. (poor) |\nArmor Class: | 21 (-1 size, +1 Dex, +11 natural), touch 10, flat-footed 20 |\nBase Attack/Grapple: | +8/+16 |\nAttack: | Claw +11 melee (1d6+4) |\nFull Attack: | 2 claws +11 melee (1d6+4) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Pounce, rake 1d6+2, spell-like abilities |\nSpecial Qualities: | Darkvision 60 ft., low-light vision |\nSaves: | Fort +7, Ref +7, Will +8 |\nAbilities: | Str 19, Dex 12, Con 13, Int 18, Wis 19, Cha 19 |\nSkills: | Bluff +15, Concentration +12, Diplomacy +8, Disguise +4 (+6 acting), Intimidate +13, Listen +17, Sense Motive +15, Spot +17 |\nFeats: | Combat Casting, Improved Initiative, Iron Will |\nEnvironment: | Warm deserts |\nOrganization: | Solitary or covey (2-4) |\nChallenge Rating: | 8 |\nTreasure: | Double standard |\nAlignment: | Always neutral |\nAdvancement: | 9-12 HD (Large); 13-24 HD (Huge) |\nLevel Adjustment: | +4 (cohort) |\nThese sphinxes are the female counterparts of androsphinxes.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::025_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::027_combat"
+}

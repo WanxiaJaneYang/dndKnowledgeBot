@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::054_display_visual",
+  "document_id": "srd_35::psionicpowersg_p::054_display_visual",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Visual"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#054_display_visual"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 round\nRange: Close (25 ft. + 5 ft./2 levels)\nTargets: You and one other creature\nDuration: 10 min./level\nSaving Throw: Will negates; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::053_power_points_15_xp",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::055_power_points_11_xp"
+}

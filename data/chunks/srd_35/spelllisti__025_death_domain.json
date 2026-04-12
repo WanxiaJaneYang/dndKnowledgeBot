@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::025_death_domain",
+  "document_id": "srd_35::spelllisti::025_death_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "DEATH DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#025_death_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature's current hit points, it dies (no save).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::024_chaos_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::026_death_domain_spells"
+}

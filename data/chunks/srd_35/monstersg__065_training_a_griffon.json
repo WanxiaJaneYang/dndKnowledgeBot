@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::065_training_a_griffon",
+  "document_id": "srd_35::monstersg::065_training_a_griffon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "TRAINING A GRIFFON"
+    ],
+    "source_location": "MonstersG.rtf#065_training_a_griffon"
+  },
+  "chunk_type": "subsection",
+  "content": "Although intelligent, a griffon requires training before it can bear a rider in combat. To be trained, a griffon must have a friendly attitude toward the trainer (this can be achieved through a successful Diplomacy check). Training a friendly griffon requires six weeks of work and a DC 25 Handle Animal check. Riding a griffon requires an exotic saddle. A griffon can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a Ride check.\nGriffon eggs are worth 3,500 gp apiece on the open market, while young are worth 7,000 gp each. Professional trainers charge 1,500 gp to rear or train a griffon.\nCarrying Capacity: A light load for a griffon is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds.\nGRIMLOCK\n| Medium Monstrous Humanoid |\nHit Dice: | 2d8+2 (11 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 Dex, +4 natural), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +2/+4 |\nAttack: | Battleaxe +4 melee (1d8+3/\uf0d73) |\nFull Attack: | Battleaxe +4 melee (1d8+3/\uf0d73) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Blindsight 40 ft., immunities, scent |\nSaves: | Fort +1, Ref +4, Will +2 |\nAbilities: | Str 15, Dex 13, Con 13, Int 10, Wis 8, Cha 6 |\nSkills: | Climb +4, Hide +3*, Listen +5, Spot +3 |\nFeats: | Alertness, TrackB |\nEnvironment: | Underground |\nOrganization: | Gang (2-4), pack (10-20), tribe (10-60 plus 1 leader of 3rd-5th level per 10 adults). |\nChallenge Rating: | 1 |\nTreasure: | Standard coins; standard goods (gems only); standard items |\nAlignment: | Often neutral evil |\nAdvancement: | By character class |\nLevel Adjustment: | +2 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::064_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::066_combat"
+}

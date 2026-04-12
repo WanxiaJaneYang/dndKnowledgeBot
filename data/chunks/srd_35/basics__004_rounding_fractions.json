@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::004_rounding_fractions",
+  "document_id": "srd_35::basics::004_rounding_fractions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "ROUNDING FRACTIONS"
+    ],
+    "source_location": "Basics.rtf#004_rounding_fractions"
+  },
+  "chunk_type": "subsection",
+  "content": "In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger.\nException: Certain rolls, such as damage and hit points, have a minimum of 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::003_dice",
+  "next_chunk_id": "chunk::srd_35::basics::005_multiplying"
+}

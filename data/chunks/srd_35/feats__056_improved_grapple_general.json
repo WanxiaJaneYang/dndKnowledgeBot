@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::056_improved_grapple_general",
+  "document_id": "srd_35::feats::056_improved_grapple_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED GRAPPLE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#056_improved_grapple_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 13, Improved Unarmed Strike.\nBenefit: You do not provoke an attack of opportunity when you make a touch attack to start a grapple. You also gain a +4 bonus on all grapple checks, regardless of whether you started the grapple.\nNormal: Without this feat, you provoke an attack of opportunity when you make a touch attack to start a grapple.\nSpecial: A fighter may select Improved Grapple as one of his fighter bonus feats.\nA monk may select Improved Grapple as a bonus feat at 1st level, even if she does not meet the prerequisites.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::055_improved_feint_general",
+  "next_chunk_id": "chunk::srd_35::feats::057_improved_initiative_general"
+}

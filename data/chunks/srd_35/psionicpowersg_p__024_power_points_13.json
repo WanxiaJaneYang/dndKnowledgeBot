@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::024_power_points_13",
+  "document_id": "srd_35::psionicpowersg_p::024_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#024_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "As the confusion spell, except as noted here.\nCreatures affected by this power are permanently confused and constantly behave randomly. Roll on the following table at the beginning the subject's turn each round to see what the subject does in that round.\nd% | Behavior |\n01-10 | Attack manifester with melee or ranged weapons (or move toward manifester if attack is not possible). |\n11-20 | Act normally. |\n21-50 | Do nothing but babble incoherently. |\n51-70 | Flee from manifester at top possible speed. |\n71-100 | Attack nearest creature (for this purpose, a psicrystal counts as part of the subject's self). |\nOnly psychic chirurgery, reality revision, and other similarly extreme measures can restore the subject's sanity.\nAugment: For every 2 additional power points you spend, this power's save DC increases by 1, and the power can affect an additional target. Any additional target cannot be more than 15 feet from another target of the power.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::023_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::025_display_auditory"
+}

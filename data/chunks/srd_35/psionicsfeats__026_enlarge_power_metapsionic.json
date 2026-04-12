@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::026_enlarge_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::026_enlarge_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "ENLARGE POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#026_enlarge_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can manifest powers farther than normal.\nBenefit: To use this feat, you must expend your psionic focus. You can alter a power with a range of close, medium, or long to increase its range by 100%. An enlarged power with a range of close has a range of 50 feet + 5 feet per level, a medium-range power has a range of 200 feet + 20 feet per level, and a long-range power has a range of 800 feet + 80 feet per level.\nPowers whose ranges are not defined by distance, as well as powers whose ranges are not close, medium, or long, are\nnot affected.\nUsing this feat does not increase the power point cost of the power.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::025_empower_power_metapsionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::027_expanded_knowledge_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::033_combat",
+  "document_id": "srd_35::monsterse_f::033_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#033_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Warriors are wicked combatants, using claws, bite, and a poisonous sting all at once. Through the hive mind, they attack with coordinated and extremely efficient tactics.\nA formian warrior's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.\nPoison (Ex): Injury, Fortitude DC 14, initial and secondary damage 1d6 Str. The save DC is Constitution-based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::032_warrior",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::034_taskmaster"
+}

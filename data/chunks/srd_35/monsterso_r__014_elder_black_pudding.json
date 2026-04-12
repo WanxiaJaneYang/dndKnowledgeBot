@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::014_elder_black_pudding",
+  "document_id": "srd_35::monsterso_r::014_elder_black_pudding",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "ELDER BLACK PUDDING"
+    ],
+    "source_location": "MonstersO-R.rtf#014_elder_black_pudding"
+  },
+  "chunk_type": "subsection",
+  "content": "The most ancient black puddings are vast pools of inky death.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::013_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::015_combat"
+}

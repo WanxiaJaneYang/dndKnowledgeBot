@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::042_psychometabolism",
+  "document_id": "srd_35::psionicpowersq_w::042_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#042_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 2, psychic warrior 2\nDisplay: Material\nManifesting Time: 1 standard action",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::041_power_points_11",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::043_power_points_3"
+}

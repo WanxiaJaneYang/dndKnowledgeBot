@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::056_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::056_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#056_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "Your rapid mental lashings assault the ego of your enemy, debilitating its confidence. The target takes 1d4 points of Charisma damage, or half that amount (minimum 1 point) on a successful save. A target that fails its save is also dazed for 1 round.\nAugment: For every 4 additional power points you spend, this power's Charisma damage increases by 1d4 points and its save DC increases by 2.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::055_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::057_psychometabolism"
+}

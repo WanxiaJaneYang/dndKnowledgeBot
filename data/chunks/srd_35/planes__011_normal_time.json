@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::011_normal_time",
+  "document_id": "srd_35::planes::011_normal_time",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "Normal Time"
+    ],
+    "source_location": "Planes.rtf#011_normal_time"
+  },
+  "chunk_type": "subsection",
+  "content": "Alterable morphic.\nNo Elemental or Energy Traits (specific locations may have these traits, however)\nMildly neutral-aligned.\nNormal magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::010_the_material_plane",
+  "next_chunk_id": "chunk::srd_35::planes::012_the_ethereal_plane"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::002_acquiring_epic_feats",
+  "document_id": "srd_35::epicfeats::002_acquiring_epic_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "ACQUIRING EPIC FEATS"
+    ],
+    "source_location": "EpicFeats.rtf#002_acquiring_epic_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "Characters gain epic feats in the following ways:\nAt 21st level, and every three levels thereafter, the character may select an epic feat in place of a nonepic feat.\nEach character class gains bonus epic feats according to the class description. These feats must be selected from the list of bonus epic feats for that class.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::001_epicfeats",
+  "next_chunk_id": "chunk::srd_35::epicfeats::003_prerequisites"
+}

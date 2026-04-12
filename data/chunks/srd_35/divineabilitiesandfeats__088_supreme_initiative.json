@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::088_supreme_initiative",
+  "document_id": "srd_35::divineabilitiesandfeats::088_supreme_initiative",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Supreme Initiative"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#088_supreme_initiative"
+  },
+  "chunk_type": "subsection",
+  "content": "This is an extraordinary ability.\nPrerequisites: Dex 29, Improved Initiative.\nBenefit: The deity goes first in the initiative order, no matter what its initiative result is or what initiative result anyone else in an encounter or battle has.\nNotes: Determine initiative normally among any beings who don't have this ability, placing them in order after the deity. The deity can choose to delay or ready an action, just any other being can, and doing so changes the deity's initiative as normal. The deity also can refocus, thereby resuming its position at the beginning of the initiative order.\nIf two or more deities who have this ability are in the same battle, the deity with the highest divine rank gets the first position in the initiative order, the deity with the second highest rank gets the second position, and so on. Other beings then go in order after the last deity with the Supreme Initiative ability.\nIf two deities with this ability and the same divine rank are in a battle, make an initiative check for each deity, and the deity with the higher result goes first.\nSuggested Portfolio Elements: Agility, thieves, war.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::087_stride",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::089_true_knowledge"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::092_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::092_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#092_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "As prevenom, except your weapon gains the poison coating as long as it remains in your grip.\nProwess\nClairsentience\nLevel: Psychic warrior 2\nDisplay: Mental\nManifesting Time: 1 immediate action",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::091_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::093_power_points_3"
+}

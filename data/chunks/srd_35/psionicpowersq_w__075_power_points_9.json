@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::075_power_points_9",
+  "document_id": "srd_35::psionicpowersq_w::075_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#075_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You generate a bastion of thought so strong that it offers protection to you and everyone around you, improving the self-control of all. You and all creatures in the power's area gain power resistance 19 against all mindaffecting powers.\nYou can manifest this power instantly, quickly enough to gain its benefits in an emergency. Manifesting the power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round.\nYou can use this power even when it is not your turn.\nAugment: For every additional power point you spend, this power's duration increases by 1 round and the power resistance it provides increases by 1 point.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::074_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::076_display_visual"
+}

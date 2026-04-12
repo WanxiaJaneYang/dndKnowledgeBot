@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::060_greater_stone_golem",
+  "document_id": "srd_35::monstersg::060_greater_stone_golem",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GREATER STONE GOLEM"
+    ],
+    "source_location": "MonstersG.rtf#060_greater_stone_golem"
+  },
+  "chunk_type": "subsection",
+  "content": "A greater stone golem is 18 feet tall and weighs around 32,000 pounds. It resembles a typical stone golem in all respects, except that the Will save DC is 31 against its slow ability. CL 14th; Craft Construct, antimagic field, geas/quest, symbol of stunning, caster must be at least 14th level; Price 196,000 gp; Cost 105,000 gp + 7,640 XP.\n\nHit Dice: | 8d10+40 (85 hp) |\nInitiative: | +4 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 20 (-1 size, +11 natural), touch 9, flat-footed 20 |\nBase Attack/Grapple: | +8/+17 |\nAttack: | Gore +12 melee (1d8+7) |\nFull Attack: | Gore +12 melee (1d8+7) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Breath weapon, trample 1d8+7 |\nSpecial Qualities: | Darkvision 60 ft., lowlight vision, scent |\nSaves: | Fort +11, Ref +6, Will +5 |\nAbilities: | Str 21, Dex 10, Con 21, Int 2, Wis 12, Cha 9 |\nSkills: | Listen +9, Spot +8 |\nFeats: | Alertness, Improved Initiative, Iron Will |\nEnvironment: | Temperate plains |\nOrganization: | Solitary, pair, pack (3-4), or herd (5-13) |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 9-15 HD (Large); 16-24 HD (Huge) |\nLevel Adjustment: | -- |\nA typical gorgon stands over 6 feet tall at the shoulder and measures 8 feet from snout to tail. It weighs about 4,000 pounds.\nGorgons are nothing if not aggressive. They attack intruders on sight, attempting to trample, gore, or petrify them. There is no way to calm these furious creatures, and they are impossible to domesticate.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::059_construction",
+  "next_chunk_id": "chunk::srd_35::monstersg::061_combat"
+}

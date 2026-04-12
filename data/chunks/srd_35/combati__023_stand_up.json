@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::023_stand_up",
+  "document_id": "srd_35::combati::023_stand_up",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Stand Up"
+    ],
+    "source_location": "CombatI.rtf#023_stand_up"
+  },
+  "chunk_type": "subsection",
+  "content": "Standing up from a prone position requires a move action and provokes attacks of opportunity.\nMount/Dismount a Steed\nMounting or dismounting from a steed requires a move action.\nFast Mount or Dismount: You can mount or dismount as a free action with a DC 20 Ride check (your armor check penalty, if any, applies to this check). If you fail the check, mounting or dismounting is a move action instead. (You can't attempt a fast mount or fast dismount unless you can perform the mount or dismount as a move action in the current round.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::022_move_actions",
+  "next_chunk_id": "chunk::srd_35::combati::024_full_round_actions"
+}

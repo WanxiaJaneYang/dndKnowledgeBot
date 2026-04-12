@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::043_advancement_46_49_hd_gargantuan",
+  "document_id": "srd_35::epicmonsters_a_e::043_advancement_46_49_hd_gargantuan",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Advancement: 46-49 HD (Gargantuan)"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#043_advancement_46_49_hd_gargantuan"
+  },
+  "chunk_type": "subsection",
+  "content": "A force dragon's natural weapons are treated as epic for the purpose of overcoming damage reduction.\nBreath Weapon (Su): Cone of force, 60 ft., damage 30d12, Ref half (DC 45). The DC is Constitution-based.\nSpell-Like Abilities: 3/day--resilient sphere, wall of force. Caster level 18th; save DC 24 + spell level.\nImmunities (Ex): Immune to sleep and paralysis, immune to force effects.\nSorcerer Spells Known (6/10/10/ 9/9/9/9/8/7/5; base DC 24 + spell level): 0--arcane mark, dancing lights, detect magic, flare, ghost sound, light, mending, open/close, read magic; 1st--disguise self, comprehend languages, detect secret doors, magic missile, true strike; 2nd-- bull's strength, cat's grace, darkness, locate object, mirror image; 3rd--clairaudience/clairvoyance, fireball, haste, lightning bolt; 4th--charm monster, greater invisibility, scrying, stoneskin; 5th--contact other plane, dream, hold monster, teleport; 6th--analyze dweomer, greater dispel magic, true seeing; 7th--forcecage, spell turning, summon monster VII; 8th--polymorph any object, protection from spells; 9th-- time stop.\nPossessions: Crystal ball with true seeing, circlet of eyes*, pearl of power (7th-level spell), 8,000 gp. *Variant of robe of eyes; benefit included in Search and Spot skill modifiers.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::042_abilities_str_51_dex_10_con_37_int_38_wis_39_cha_38",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::044_dragon_light"
+}

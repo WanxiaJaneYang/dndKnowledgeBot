@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::008_psi_like_abilities_and_feats",
+  "document_id": "srd_35::psionicmonsters::008_psi_like_abilities_and_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Psi-Like Abilities and Feats"
+    ],
+    "source_location": "PsionicMonsters.rtf#008_psi_like_abilities_and_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "Creatures with access to psi-like abilities can use the feats Empower Spell-Like Ability and Quicken Spell-Like Ability.\nThese feats can be used only on psi-like abilities that do not have increased effects due to augmentation. Furthermore, the creature can empower only a psi-like ability with a level less than or equal to half its manifester level (round down) minus 2, and can quicken only a psi-like ability with a level less than or equal to half its manifester level (round down) minus 4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::007_psionic_focus",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::009_creatures_with_psionics_entries"
+}

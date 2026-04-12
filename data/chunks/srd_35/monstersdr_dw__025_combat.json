@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::025_combat",
+  "document_id": "srd_35::monstersdr_dw::025_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#025_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Gold dragons usually parley before fighting. When conversing with intelligent creatures, they use Intimidate and Sense Motive to gain the upper hand. In combat, they employ bless and their luck bonus; older dragons use their luck bonus at the start of each day. They make heavy use of spells in combat. Among their favorites are cloudkill, delayed blast fireball, fire shield, globe of invulnerability, maze, sleep, slow, and stinking cloud.\nBreath Weapon (Su): A gold dragon has two types of breath weapon, a cone of fire and a cone of weakening gas. Creatures within a cone of weakening gas must succeed on a Fortitude save or take 1 point of Strength damage per age category of the dragon.\nAlternate Form (Su): A gold dragon can assume any animal or humanoid form of Medium size or smaller as a standard action three times per day. This ability functions as a polymorph spell cast on itself at its caster level, except that the dragon does not regain hit points for changing form and can only assume the form of an animal or humanoid. The dragon can remain in its animal or humanoid form until it chooses to assume a new one or return to its natural form.\nWater Breathing (Ex): A gold dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged (the cone of fire becomes a cone of superheated steam underwater).\nLuck Bonus (Sp): Once per day an adult or older gold dragon can touch a gem, usually one embedded in the dragon's hide, and enspell it to bring good luck. As long as the dragon carries the gem, it and every good creature in a 10-foot radius per age category of the dragon receives a +1 luck bonus on all saving throws and similar rolls, as for a stone of good luck. If the dragon gives an enspelled gem to another creature, only that bearer gets the bonus. The effect lasts 1d3 hours plus 3 hours per age category of the dragon but ends if the gem is destroyed. This ability is the equivalent of a 2nd-level spell.\nDetect Gems (Sp): An old or older gold dragon can use this ability three times per day. This is a divination effect similar to a detect magic spell, except that it finds only gems. The dragon can scan a 60-degree arc each round: By concentrating for 1 round it knows if there are any gems within the arc; 2 rounds of concentration reveal the exact number of gems; and 3 rounds reveal their exact location, type, and value. This ability is the equivalent of a 2ndlevel spell.\nOther Spell-Like Abilities: 3/day--bless (juvenile or older); 1/day--geas/quest (old or older), sunburst (ancient or older), foresight (great wyrm).\nSkills: Disguise, Heal, and Swim are considered class skills for gold dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::024_dragon_fire",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::026_dragon_cold"
+}

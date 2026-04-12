@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::035_buying_buildings",
+  "document_id": "srd_35::wildernessandenvironment::035_buying_buildings",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "Buying Buildings"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#035_buying_buildings"
+  },
+  "chunk_type": "subsection",
+  "content": "Characters might want to buy their own buildings or even construct\ntheir own castle. Use the prices in Table: Buildings directly, or as a guide when for extrapolating costs for more exotic structures.\n\nItem | Cost |\nSimple house | 1,000 gp |\nGrand house | 5,000 gp |\nMansion | 100,000 gp |\nTower | 50,000 gp |\nKeep | 150,000 gp |\nCastle | 500,000 gp |\nHuge castle | 1,000,000 gp |\nMoat with bridge | 50,000 gp |\nSimple House: This one- to three-room house is made of wood and has a thatched roof.\nGrand House: This four- to ten-room house is made of wood and has a thatched roof.\nMansion: This ten- to twenty-room residence has two or three stories and is made of wood and brick. It has a slate roof.\nTower: This round or square, three-level tower is made of stone.\nKeep: This fortified stone building has fifteen to twenty-five rooms.\nCastle: A castle is a keep surrounded by a 15-foot stone wall with four towers. The wall is 10 feet thick.\nHuge Castle: A huge castle is a particularly large keep with numerous associated buildings (stables, forge, granaries, and so on) and an elaborate 20-foot-high wall that creates bailey and courtyard areas. The wall has six towers and is 10 feet thick.\nMoat with Bridge: The moat is 15 feet deep and 30 feet wide. The bridge may be a wooden drawbridge or a permanent stone structure.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::034_city_buildings",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::036_city_lights"
+}

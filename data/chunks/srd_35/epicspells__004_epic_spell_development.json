@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicspells::004_epic_spell_development",
+  "document_id": "srd_35::epicspells::004_epic_spell_development",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSpells",
+      "EPIC SPELL DEVELOPMENT"
+    ],
+    "source_location": "EpicSpells.rtf#004_epic_spell_development"
+  },
+  "chunk_type": "subsection",
+  "content": "Before it can be cast, an epic spell must be developed. The process of development can be a time-consuming and expensive process. It is during development that a caster determines whether a given epic spell lies within his or her abilities or beyond them. The basis of that determination lies in an epic spell's Spellcraft DC.\nThe easiest way to develop an epic spell is to use one already given. The description of each of these unique spells gives the amount of gold, time, and experience points required to develop the spell. If a character pays a spell's development cost, he or she develops (and thus knows) that spell.\nFor information on developing an epic spell completely from scratch, see Developing Unique Epic Spells, below.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicspells::003_acquiring_epic_spells",
+  "next_chunk_id": "chunk::srd_35::epicspells::005_epic_spellcasting"
+}

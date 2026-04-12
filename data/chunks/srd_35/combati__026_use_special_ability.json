@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::026_use_special_ability",
+  "document_id": "srd_35::combati::026_use_special_ability",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "Use Special Ability"
+    ],
+    "source_location": "CombatI.rtf#026_use_special_ability"
+  },
+  "chunk_type": "subsection",
+  "content": "Using a special ability is usually a standard action, but some may be full-round actions, as defined by the ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::025_full_attack",
+  "next_chunk_id": "chunk::srd_35::combati::027_withdraw"
+}

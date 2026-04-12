@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::basics::014_charisma_cha",
+  "document_id": "srd_35::basics::014_charisma_cha",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "CHARISMA (CHA)"
+    ],
+    "source_location": "Basics.rtf#014_charisma_cha"
+  },
+  "chunk_type": "subsection",
+  "content": "Charisma measures a character's force of personality, persuasiveness, personal magnetism, ability to lead, and physical attractiveness. This ability represents actual strength of personality, not merely how one is perceived by others in a social setting. Charisma is most important for paladins, sorcerers, and bards. It is also important for clerics, since it affects their ability to turn undead. Every creature has a Charisma score.\nYou apply your character's Charisma modifier to:\nBluff, Diplomacy, Disguise, Gather Information, Handle Animal, Intimidate, Perform, and Use Magic Device checks. These are the skills that have Charisma as their key ability.\nChecks that represent attempts to influence others.\nTurning checks for clerics and paladins attempting to turn zombies, vampires, and other undead.\nSorcerers and bards get bonus spells based on their Charisma scores. The minimum Charisma score needed to cast a sorcerer or bard spell is 10 + the spell's level.\nWhen an ability score changes, all attributes associated with that score change accordingly. A character does not retroactively get additional skill points for previous levels if she increases her intelligence.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::013_wisdom_wis"
+}

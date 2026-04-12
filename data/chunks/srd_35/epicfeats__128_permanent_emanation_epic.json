@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::128_permanent_emanation_epic",
+  "document_id": "srd_35::epicfeats::128_permanent_emanation_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "PERMANENT EMANATION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#128_permanent_emanation_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Spellcraft 25 ranks, ability to cast the spell to be made permanent.\nBenefit: Designate any one of the character's spells whose area is an emanation from the character. This spell's effect is permanent (though the character can dismiss or restart it as a free action). Effects that would normally dispel this spell instead suppress it for 2d4 rounds.\nSpecial: This feat may be taken multiple times. Each time, select a different spell to become permanent.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::127_perfect_two_weapon_fighting_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::129_planar_turning_epic"
+}

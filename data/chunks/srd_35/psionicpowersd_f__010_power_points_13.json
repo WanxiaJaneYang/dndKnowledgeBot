@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::010_power_points_13",
+  "document_id": "srd_35::psionicpowersd_f::010_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#010_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "With decerebrate, you selectively remove a portion of the subject's brain stem. The creature loses all cerebral function, vision, hearing, and other sensory abilities, and all voluntary motor activity. The subject becomes limp and unresponsive. Without extreme measures, such as greater restoration or some other suitable effect of 7th level or higher, the creature perishes in 1d4 days.\nD\u00e9j\u00e0 Vu",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::009_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::011_display_mental"
+}

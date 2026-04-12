@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::045_power_points_13",
+  "document_id": "srd_35::psionicpowersd_f::045_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#045_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "Similar to detect teleportation, except that you know the intended destination, and you can divert the final destination of any teleportation attempt made by others within the area. This is an immediate action, like manifesting a quickened power, and counts toward the limit of one quickened power per round. You can manifest this power even if it is not your turn.\nYou can divert the destination of both incoming and outgoing teleportations, psionic and magical. You must overcome the power resistance of creatures that possess it to make a successful diversion, and the teleporting creature can make a Will save to foil the diversion as well.\nFor the purpose of this power, \u201cdivert\u201d means you choose the actual destination of any teleportation attempt you can affect, as if you yourself were teleporting to that location, regardless of the teleportation range of the effect you are diverting. The destination you choose must be a location with which you are very familiar or that you have studied carefully.\n\nDisplay: Mental and visual\nManifesting Time: 10 minutes\n\nAs the divination spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::044_display_visual",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::046_display_mental"
+}

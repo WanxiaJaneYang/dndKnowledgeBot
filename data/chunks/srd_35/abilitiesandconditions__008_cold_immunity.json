@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::008_cold_immunity",
+  "document_id": "srd_35::abilitiesandconditions::008_cold_immunity",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "COLD IMMUNITY"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#008_cold_immunity"
+  },
+  "chunk_type": "subsection",
+  "content": "A creature with cold immunity never takes cold damage. It has vulnerability to fire, which means it takes half again as much (+50%) damage as normal from fire, regardless of whether a saving throw is allowed, or if the save is a success or failure.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::007_charm_and_compulsion",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::009_damage_reduction"
+}

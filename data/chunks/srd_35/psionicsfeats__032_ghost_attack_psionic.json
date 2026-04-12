@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::032_ghost_attack_psionic",
+  "document_id": "srd_35::psionicsfeats::032_ghost_attack_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "GHOST ATTACK [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#032_ghost_attack_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your deadly strikes against incorporeal foes always find their mark.\nPrerequisite: Base attack bonus +3.\nBenefit: You must be psionically focused to use this feat. When you make a melee attack or a ranged attack against an incorporeal creature, you can make two rolls to check for the miss chance. If either is successful, the attack is treated as if it were made with a ghost touch weapon for the purpose of affecting the creature. Your weapon or natural weapon actually appears to become briefly incorporeal as the attack is made.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::031_force_of_will_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::033_greater_manyshot_general"
+}

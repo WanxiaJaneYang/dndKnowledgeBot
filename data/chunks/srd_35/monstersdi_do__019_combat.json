@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::019_combat",
+  "document_id": "srd_35::monstersdi_do::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "Combat"
+    ],
+    "source_location": "MonstersDi-Do.rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Dire weasels stalk their prey in the dark and then leap on it, biting and clawing.\nAttach (Ex): A dire weasel that hits with its bite attack latches onto the opponent's body with its powerful jaws. An attached dire weasel loses its Dexterity bonus to AC and thus has an AC of 12. An attached dire weasel can be struck with a weapon or grappled itself. To remove an attached dire weasel through grappling, the opponent must achieve a pin against the creature.\nBlood Drain (Ex): A dire weasel drains blood for 1d4 points of Constitution damage each round it remains attached.\n\nHit Dice: | 6d8+18 (45 hp) |\nInitiative: | +2 |\nSpeed: | 50 ft. (10 squares) |\nArmor Class: | 14 (-1 size, +2 Dex, +3 natural), touch 11, flat-footed 12 |\nBase Attack/Grapple: | +4/+15 |\nAttack: | Bite +11 melee (1d8+10) |\nFull Attack: | Bite +11 melee (1d8+10) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Trip |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +8, Ref +7, Will +6 |\nAbilities: | Str 25, Dex 15, Con 17, Int 2, Wis 12, Cha 10 |\nSkills: | Hide +0, Listen +7, Move Silently +4, Spot +7, Survival +2* |\nFeats: | Alertness, Run, TrackB, Weapon Focus (bite) |\nEnvironment: | Temperate forests |\nOrganization: | Solitary or pack (5-8) |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 7-18 HD (Large) |\nLevel Adjustment: | -- |\nDire wolves are efficient pack hunters that will kill anything they can catch.\nDire wolves are mottled gray or black, about 9 feet long and weighing some 800 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::018_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::020_combat"
+}

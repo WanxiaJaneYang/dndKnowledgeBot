@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::029_free_actions",
+  "document_id": "srd_35::combati::029_free_actions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "FREE ACTIONS"
+    ],
+    "source_location": "CombatI.rtf#029_free_actions"
+  },
+  "chunk_type": "subsection",
+  "content": "Free actions don't take any time at all, though there may be limits to the number of free actions you can perform in a turn. Free actions rarely incur attacks of opportunity. Some common free actions are described below.\nDrop an Item\nDropping an item in your space or into an adjacent square is a free action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::028_move_5_feet_through_difficult_terrain",
+  "next_chunk_id": "chunk::srd_35::combati::030_drop_prone"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::019_listen",
+  "document_id": "srd_35::epicskills::019_listen",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Listen"
+    ],
+    "source_location": "EpicSkills.rtf#019_listen"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can pinpoint the location of an invisible creature, or detect an illusion with an auditory component.\nDC | Task |\n80 | Defeat illusion with auditory component |\nDefeat Illusion: The character can automatically detect any illusion with an auditory component for what it truly is. No Will save is required, and the character doesn't have to interact with the illusion (but he or she must be able to hear its auditory component). Special: A character can use Listen to notice the presence of an invisible creature (generally opposed by a Move Silently check). If the character beats the DC by 20 or more, he or she can pinpoint the location of the invisible creature, though it still maintains total concealment from the character (50% miss chance).\n\nMove Silently does not possess an epic usage.\n\nThe character can open locks more quickly than normal.\nOpen lock as . . . | DC Modifier |\nMove-equivalent action | +20 |\nFree action | +50 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::018_intimidate",
+  "next_chunk_id": "chunk::srd_35::epicskills::020_perform"
+}

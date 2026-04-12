@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::007_combat",
+  "document_id": "srd_35::monstersg::007_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Combat"
+    ],
+    "source_location": "MonstersG.rtf#007_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Djinn disdain physical combat, preferring to use their magical powers and aerial abilities against foes. A djinni overmatched in combat usually takes flight and becomes a whirlwind to harass those who follow.\nAir Mastery (Ex): Airborne creatures take a -1 penalty on attack and damage rolls against a djinni.\nSpell-Like Abilities: At will--invisibility (self only); 1/day-- create food and water, create wine (as create water, but wine instead), major creation (created vegetable matter is permanent), persistent image (DC 17), wind walk. Once per day, a djinni can assume gaseous form (as the spell) for up to 1 hour. Caster level 20th. The save DCs are Charisma-based.\nWhirlwind (Su): A djinni can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 7 rounds. In this form, it can move through the air or along a surface at its fly speed.\nThe whirlwind is 5 feet wide at the base, up to 30 feet wide at the top and up to 50 feet tall. The djinni controls the exact height, but it must be at least 10 feet.\nA djinni's movement while in whirlwind form does not provoke attacks of opportunity, even if the djinni enters the space another creature occupies. Another creature might be caught in the whirlwind if it touches or enters the whirlwind, or if the djinni moves into or through the creature's space.\nCreatures one or more size categories smaller than the djinni might take damage when caught in the whirlwind and be lifted into the air. An affected creature must succeed on a DC 20 Reflex save when it comes into contact with the whirlwind or take 3d6 points of damage. It must also succeed on a second DC 20 Reflex save or be picked up bodily and held suspended in the powerful winds, automatically taking 1d8 points of damage each round. A creature with a fly speed is allowed a DC 20 Reflex save each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The save DC is Strength-based and includes a +3 racial adjustment.\nCreatures trapped in the whirlwind cannot move except to go where the djinni carries them or to escape the whirlwind. Creatures caught in the whirlwind can otherwise act normally, but must make a Concentration check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a -4 penalty to Dexterity and a -2 penalty on attack rolls. The djinni can have only as many trapped inside a whirlwind at one time as will fit inside the whirlwind's volume.\nThe djinni can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be.\nIf the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the djinni and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.\nThose caught in the cloud must succeed on a Concentration check (DC 15 + spell level) to cast a spell.\nA djinni in whirlwind form cannot make melee attacks and does not threaten the area around it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::006_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::008_noble_djinn"
+}

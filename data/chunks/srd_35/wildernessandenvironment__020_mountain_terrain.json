@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::020_mountain_terrain",
+  "document_id": "srd_35::wildernessandenvironment::020_mountain_terrain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "MOUNTAIN TERRAIN"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#020_mountain_terrain"
+  },
+  "chunk_type": "subsection",
+  "content": "The three mountain terrain categories are alpine meadows, rugged mountains, and forbidding mountains. As characters ascend into a mountainous area, they're likely to face each terrain category in turn, beginning with alpine meadows, extending through rugged mountains, and reaching forbidding mountains near the summit.\nMountains have an important terrain element, the rock wall, that is marked on the border between squares rather than taking up squares itself.\n\n| Alpine Meadow | Rugged | Forbidding |\nGradual slope | 50% | 25% | 15% |\nSteep slope | 40% | 55% | 55% |\nCliff | 10% | 15% | 20% |\nChasm | -- | 5% | 10% |\nLight undergrowth | 20% | 10% | -- |\nScree | -- | 20% | 30% |\nDense rubble | -- | 20% | 30% |\nGradual and Steep Slopes: These function as described in Hills Terrain, above.\nCliff: These terrain elements also function like their hills terrain counterparts, but they're typically 2d6\u00d710 feet tall. Cliffs taller than 80 feet take up 20 feet of horizontal space.\nChasm: Usually formed by natural geological processes, chasms function like pits in a dungeon setting. Chasms aren't hidden, so characters won't fall into them by accident (although bull rushes are another story). A typical chasm is 2d4\u00d710 feet deep, at least 20 feet long, and anywhere from 5 feet to 20 feet wide. It takes a DC 15 Climb check to climb out of a chasm. In forbidding mountain terrain, chasms are typically 2d8\u00d710 feet deep.\nLight Undergrowth: This functions as described in Forest Terrain,\nabove.\nScree: A field of shifting gravel, scree doesn't affect speed, but it can be treacherous on a slope. The DC of Balance and Tumble checks increases by 2 if there's scree on a gradual slope and by 5 if there's scree on a steep slope. The DC of Move silently checks increases by 2 if the scree is on a slope of any kind.\nDense Rubble: The ground is covered with rocks of all sizes. It costs 2 squares of movement to enter a square with dense rubble. The DC of Balance and Tumble checks on dense rubble increases by 5, and the DC of Move Silently checks increases by +2.\nRock Wall: A vertical plane of stone, rock walls require DC 25 Climb checks to ascend. A typical rock wall is 2d4\u00d710 feet tall in rugged mountains and 2d8\u00d710 feet tall in forbidding mountains. Rock walls are drawn on the edges of squares, not in the squares themselves.\nCave Entrance: Found in cliff and steep slope squares and next to rock walls, cave entrances are typically between 5 and 20 feet wide and 5 feet deep. Beyond the entrance, a cave could be anything from a simple chamber to the entrance to an elaborate dungeon. Caves used as monster lairs typically have 1d3 rooms that are 1d4\u00d710 feet across.\nOther Mountain Terrain Features: Most alpine meadows begin above the tree line, so trees and other forest elements are rare in the mountains. Mountain terrain can include active streams (5 to 10 feet wide and no more than 5 feet deep) and dry streambeds (treat as a trench 5 to 10 feet across). Particularly high-altitude areas tend to be colder than the lowland areas that surround them, so they may be covered in ice sheets (described below).\nStealth and Detection in Mountains: As a guideline, the maximum distance in mountain terrain at which a Spot check for detecting the nearby presence of others can succeed is 4d10\u00d710 feet. Certain peaks and ridgelines afford much better vantage points, of course, and twisting valleys and canyons have much shorter spotting distances. Because there's little vegetation to obstruct line of sight, the specifics on your map are your best guide for the range at which an encounter could begin. As in hills terrain, a ridge or peak provides enough cover to hide from anyone below the high point.\nIt's easier to hear faraway sounds in the mountains. The DC of Listen checks increases by 1 per 20 feet between listener and source, not per 10 feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::019_hills_terrain",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::021_avalanches_cr_7"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::043_combat",
+  "document_id": "srd_35::monsterst_z::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A yrthak prefers to attack from the air, strafing the ground with sonic attacks or snatching up and dropping prey.\nSonic Lance (Su): Once every 2 rounds, a yrthak can focus sonic energy in a ray up to 60 feet long. This is a ranged touch attack that deals 6d6 points of damage to a single target.\nExplosion (Su): A yrthak can fire its sonic lance at the ground, a large rock, a stone wall, or the like to create an explosion of shattered stone. This attack deals 2d6 points of piercing damage to all within 10 feet of the effect's center. This counts as a use of the sonic lance attack and thus is usable only once every 2 rounds, and never on the round following a sonic lance attack.\nBlindsight (Ex): A yrthak can ascertain all foes within 120 feet. Beyond that range it is considered blinded. Yrthaks are invulnerable to gaze attacks, visual effects of spells such as illusions, and other attack forms that rely on sight. A yrthak whose sense of hearing is impaired is effectively blinded, treating all targets as having total concealment.\nImmunities: Yrthaks have immunity to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.\nSkills: Yrthaks have a +4 racial bonus on Listen checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::042_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::044_zombie"
+}

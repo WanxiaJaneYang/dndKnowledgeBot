@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::030_duergar_as_characters",
+  "document_id": "srd_35::psionicmonsters::030_duergar_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "DUERGAR AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#030_duergar_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Duergar characters possess the following racial traits.\n-- +2 Constitution, -4 Charisma.\n--Medium size.\n--Duergar base land speed is 20 feet. However, gray dwarves can move at this speed even when wearing medium or heavy armor or when carrying a medium or heavy load (unlike other creatures, whose speed is reduced in such situations).\n--Darkvision out to 120 feet.\n--Immunity to paralysis, phantasms, and poison.\n-- +2 racial bonus on saves against spells and spell-like effects.\n--Stability: Duergar are exceptionally stable on their feet. A duergar receives a +4 bonus on ability checks made to resist being bull rushed or tripped when standing on the ground (but not when climbing, flying, riding or otherwise not standing firmly on the ground).\n--Stonecunning: This ability grants a duergar a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework, traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn't stone but that is disguised as stone also counts as unusual stonework. A gray dwarf who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a duergar can use the Search skill to find stonework traps as a rogue can. A duergar can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.\nDuergar have a sixth sense about stonework, an innate ability that they get plenty of opportunity to practice and hone in their underground homes.\n--Psi-Like Abilities: 1/day--expansion, invisibility. These abilities affect only the duergar and whatever he carries. Manifester level is equal to Hit Dice (minimum 3rd).\n--Naturally Psionic: Duergar gain 3 bonus power points at 1st level. This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class.\n-- +1 racial bonus on attack rolls against orcs (including half-orcs) and goblinoids (including goblins, hobgoblins, and bugbears).\n-- +4 dodge bonus to Armor Class against creatures of the giant type (such as ogres, trolls, and hill giants).\n--Light Sensitivity (Ex): Duergar are dazzled in sunlight or within the radius of a daylight spell.\n--Duergar have a +4 racial bonus on Move Silently checks and a +1 racial bonus on Listen and Spot checks. They have a +2 racial bonus on Appraise and Craft checks that are related to stone or metal.\n--Automatic Languages: Common, Dwarven, Undercommon. Bonus Languages: Draconic, Giant, Goblin, Orc, Terran.\n--Favored Class: Fighter.\n--Level Adjustment: +1.\nELAN\n| Elan, 1st-Level Warrior |\n\nHit Dice: | 1d8+1 (5 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 14 (+3 studded leather, +1 light shield), touch 10, flat-footed 14 |\nBase Attack/Grapple: | +1/+2 |\nAttack: | Warhammer +3 melee (1d8+1/x3) or longbow +1 ranged (1d8/x3) |\nFull Attack: | Warhammer +3 melee (1d8+1/x3) or longbow +1 ranged (1d8/x3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Repletion, resilience, resistance |\nSaves: | Fort +3, Ref +0, Will -1 |\nAbilities: | Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 6 |\nSkills: | Climb +3, Jump +3 |\nFeats: | Weapon Focus (warhammer) |\nEnvironment: | Any |\nOrganization: | Congregate (2-4), squad (11-20 plus 2 3rdlevel sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5thlevel lieutenants, and 3 7thlevel captains) |\nChallenge Rating: | 1/2 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +0 |\nElans typically stand just under 6 feet tall and weigh in the neighborhood of 180 pounds, with men sometimes taller and heavier than women, but not always.\nElans speak Common.\nMost elans are psions or psychic warriors.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::029_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::031_combat"
+}

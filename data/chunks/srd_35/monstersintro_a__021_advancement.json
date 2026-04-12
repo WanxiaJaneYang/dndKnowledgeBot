@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::021_advancement",
+  "document_id": "srd_35::monstersintro_a::021_advancement",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Advancement"
+    ],
+    "source_location": "MonstersIntro-A.rtf#021_advancement"
+  },
+  "chunk_type": "subsection",
+  "content": "The monster entry usually describes only the most commonly encountered version of a creature. The advancement line shows how tough a creature can get, in terms of extra Hit Dice. (This is not an absolute limit, but exceptions are extremely rare.) Often, intelligent creatures advance by gaining a level in a character class instead of just gaining a new Hit Die.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::020_alignment",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::022_level_adjustment"
+}

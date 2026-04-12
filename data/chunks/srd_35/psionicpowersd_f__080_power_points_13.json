@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::080_power_points_13",
+  "document_id": "srd_35::psionicpowersd_f::080_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#080_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "As energy adaptation, except that instead of radiating away energy as light, you store up the energy and can later discharge it as a ray. To discharge a ray requires a standard action. You can choose to fire any number of rays during the power's duration. The ray you fire must be of one of the energy types you have stored (if you have stored more than one type, you can choose what kind of energy to use for each ray). If a ray successfully strikes its target (requiring a ranged touch attack), the target takes damage equal to the amount of energy damage of that type you have stored, up to a maximum of three times your manifester level. As long as this power remains in effect, you can continue to absorb energy damage and fire additional rays using the stored damage.\nThis power's subtype is the same as the type of energy you discharge in a ray; thus, its subtype can change during the course of the power's duration.\nEnergy Current\nPsychokinesis [see text]\n\nDisplay: Visual; see text\nManifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nTarget: Any two creatures no more than 15 ft. apart\nDuration: Concentration, up to 1 round/level\nSaving Throw: Reflex half or Fortitude half; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::079_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::081_power_points_9"
+}

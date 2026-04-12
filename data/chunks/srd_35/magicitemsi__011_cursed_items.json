@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::011_cursed_items",
+  "document_id": "srd_35::magicitemsi::011_cursed_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "CURSED ITEMS"
+    ],
+    "source_location": "MagicItemsI.rtf#011_cursed_items"
+  },
+  "chunk_type": "subsection",
+  "content": "Some items are cursed--incorrectly made, or corrupted by outside forces. Cursed items might be particularly dangerous to the user, or they might be normal items with a minor flaw, an inconvenient requirement, or an unpredictable nature. Randomly generated items are cursed 5% of the time.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::010_intelligent_items",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::012_charges_doses_and_multiple_uses"
+}

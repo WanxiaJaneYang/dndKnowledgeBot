@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::039_combat",
+  "document_id": "srd_35::epicmonsters_g_w::039_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#039_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Disintegrating Touch (Ex): Any material object that comes into contact with a blackball is immediately disintegrated unless it succeeds at a Fortitude save (DC 38). A character or object that has been disintegrated by an umbral blot disappears completely, leaving behind not even dust to mark its passing. Those who make a successful saving throw still take 5d6 points of Damage from the disintegrating touch. Likewise, weapons or objects that save take a like amount of Damage. (Remember, tended or held objects save with the same bonus as their owners.)\nVortex (Ex): Normally a blackball insulates itself somehow from the air around it (otherwise it would perpetually be at the center of a howling wind-storm). If it chooses, instead of allowing the air to bend around it, the blackball can suspend this insulation, causing a sudden rush of wind to pour toward the blackball from all directions. This vortex sucks all the air from a 30-foot-by-30-foot-by-30-foot room in a single round, creating a sudden influx of air in its direction. All flying or floating creatures within 30 feet of the umbral blot who fail a Reflex save (DC 38) are swept along with the wind into contact with the blackball. Nonflying creatures within 30 feet who fail a Reflex save (DC 19) are pulled into contact with the umbral blot. Contact with an umbral blot could lead to disintegration, as noted above.\nSpell Immunities (Ex): In addition to the spells that an umbral blot is immune to because of its construct traits, it is immune to disintegration spells and variations thereof.\nPlanar Travel (Ex): A blackball can fold space at will, allowing it to use ethereal jaunt, dimension door, greater teleport, or plane shift at will as a standard action.\nConstruct Traits: Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and to poison, sleep, paralysis, stunning, disease, death effects, necromantic effects, and any effect that requires a Fortitude save unless it also works on objects. Cannot heal Damage (though regeneration and fast healing still apply, if present). Not subject to critical hits, subdual Damage, ability Damage, ability drain, or energy drain. Not at risk of death from massive Damage, but destroyed when reduced to 0 hit points or less; cannot be raised or resurrected. Darkvision 60 ft.\n\nHit Dice: | 38d8+646 (817 hp) |\nInitiative: | +14 (Dex) |\nSpeed: | 80 ft., climb 40 ft. |\nAC: | 52 (+14 Dex, -1 size, +29 natural) |\nBase Attack/Grapple: | +38/+56 |\nAttack: | Head spike +51 (10d6+21/19-20 plus Wisdom drain) melee |\nFull Attack: | Head spike +51 (10d6+21/19-20 plus Wisdom drain) melee |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Confusion aura, spell-like abilities, Wisdom drain |\nSpecial Qualities: | Blindsight 500 ft., DR 10/epic and good, electricity resistance 30, fast healing 20, regeneration 5, SR 39 |\nSaves: | Fort +40, Ref +37, Will +41 |\nAbilities: | Str 39, Dex 38, Con 44, Int 32, Wis 38, Cha 46 |\nSkills: | Balance +18, Climb +32, Concentration +58, Craft (alchemy) +52, Diplomacy +22, Escape Artist +55, Gather Information +22, Hide +51, Intimidate +59, Jump +69, Knowledge (arcana, history, local, religion, the planes) +52, Listen +55, Move Silently +55, Search +52, Sense Motive +55, Spellcraft +56, Spot +55, Swim +55, Tumble +59 |\nFeats: | Cleave, Combat Casting, Combat Reflexes, Great Cleave, Improved Critical (head spike), Lightning Reflexes, Power Attack |\nEpic Feats: | Epic Reflexes, Improved Combat Reflexes, Spell Stowaway (time stop), Tenacious Magic (haste), Tenacious Magic (displacement), Tenacious Magic (stoneskin) |\nClimate/Terrain: | Any |\nOrganization: | Solitary, pair, or madness (3-6) |\nChallenge Rating: | 27 |\nTreasure: | Standard |\nAlignment: | Usually neutral evil |\nAdvancement: | As character class |\nUvuudaums can speak telepathically to any creature within 500 feet that has a language.\nA uvuudaum's natural weapons are treated as epic and evil for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::038_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::040_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::061_footsore",
+  "document_id": "srd_35::divineabilitiesandfeats::061_footsore",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Footsore"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#061_footsore"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Travel domain.\nBenefit: The deity can sap the energy from living creatures so that they feel tired. It can affect up to one creature per divine rank at once, but no more than one creature per divine rank each day. All must be within the deity's line of sight when first affected. Subjects\ncan attempt Fortitude saves (DC 10 + deity's Charisma modifier + deity's divine rank). Creatures who fail their saves become fatigued and their speed is reduced by half. Furthermore, any mount or vehicle they ride is likewise slowed. The effect lasts one day.\nSuggested Portfolio Elements: Travel.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::060_extra_sense_enhancement",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::062_free_move"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::traps::019_cr_5_traps",
+  "document_id": "srd_35::traps::019_cr_5_traps",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Traps",
+      "CR 5 Traps"
+    ],
+    "source_location": "Traps.rtf#019_cr_5_traps"
+  },
+  "chunk_type": "subsection",
+  "content": "Camouflaged Pit Trap: CR 5; mechanical; location trigger; manual reset; DC 20 Reflex save avoids; 50 ft. deep (5d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); Search DC 25; Disable Device DC 17. Market Price: 8,500 gp.\nDoorknob Smeared with Contact Poison: CR 5; mechanical; touch trigger (attached); manual reset; poison (nitharit, DC 13 Fortitude save resists, 0/3d6 Con); Search DC 25; Disable Device DC 19. Market Price: 9,650 gp.\nFalling Block Trap: CR 5; mechanical; location trigger; manual reset; Atk +15 melee (6d6); multiple targets (can strike all characters in two adjacent specified squares); Search DC 20; Disable Device DC 25. Market Price: 15,000 gp.\nFire Trap: CR 5; spell; spell trigger; no reset; spell effect (fire trap, 7th-level wizard, 1d4+7 fire, DC 16 Reflex save half damage); Search DC 29; Disable Device DC 29. Cost: 305 gp to hire NPC spellcaster.\nFireball Trap: CR 5; magic device; touch trigger; automatic reset; spell effect (fireball, 8th-level wizard, 8d6 fire, DC 14 Reflex save half damage); Search DC 28; Disable Device DC 28. Cost: 12,000 gp, 960 XP.\nFlooding Room Trap: CR 5; mechanical; proximity trigger; automatic reset; no attack roll necessary (see note below); Search DC 20; Disable Device DC 25. Note: Room floods in 4 rounds. Market Price: 17,500 gp.\nFusillade of Darts: CR 5; mechanical; location trigger; manual reset; Atk +18 ranged (1d4+1, dart); multiple targets (1d8 darts per target in a 10-ft.-by-10-ft. area); Search DC 19; Disable Device DC 25. Market Price: 18,000 gp.\nMoving Executioner Statue: CR 5; mechanical; location trigger; automatic reset; hidden switch bypass (Search DC 25); Atk +16 melee (1d12+8/x3, greataxe); multiple targets (both arms attack); Search DC 25; Disable Device DC 18. Market Price: 22,500 gp.\nPhantasmal Killer Trap: CR 5; magic device; proximity trigger (alarm covering the entire room); automatic reset; spell effect (phantasmal killer, 7th-level wizard, DC 16 Will save for disbelief and DC 16 Fort save for partial effect); Search DC 29; Disable Device DC 29. Cost: 14,000 gp, 1,120 XP.\nPit Trap: CR 5; mechanical, location trigger; manual reset; DC 20 Reflex save avoids; 100 ft. deep (10d6, fall); Search DC 20; Disable Device DC 20. Market Price: 5,000 gp.\nPoison Wall Spikes: CR 5; mechanical; location trigger; manual reset; Atk +16 melee (1d8+4 plus poison, spike); multiple targets (closest target in each of two adjacent 5-ft. squares); poison (Medium monstrous spider venom, DC 12 Fortitude save resists, 1d4 Str/1d4 Str); Search DC 17; Disable Device DC 21. Market Price: 12,650 gp.\nSpiked Pit Trap: CR 5; mechanical; location trigger; manual reset; DC 25 Reflex save avoids; 40 ft. deep (4d6, fall); multiple targets (first target in each of two adjacent 5-ft. squares); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+4 each); Search DC 21; Disable Device DC 20. Market Price: 13,500 gp.\nSpiked Pit Trap (80 Ft. Deep): CR 5; mechanical; location trigger, manual reset; DC 20 Reflex save avoids; 80 ft. deep (8d6, fall), pit spikes (Atk +10 melee, 1d4 spikes for 1d4+5 each); Search DC 20; Disable Device DC 20. Market Price: 5,000 gp.\nUngol Dust Vapor Trap: CR 5; mechanical; location trigger; manual reset; gas; multiple targets (all targets in a 10-ft.-by-10-ft. room); never miss; onset delay (2 rounds); poison (ungol dust, DC 15 Fortitude save resists, 1 Cha/1d6 Cha plus 1 Cha drain); Search DC 20; Disable Device DC 16. Market Price: 9,000 gp.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::traps::018_cr_4_traps",
+  "next_chunk_id": "chunk::srd_35::traps::020_cr_6_traps"
+}

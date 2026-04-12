@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::045_hound_archons_as_characters",
+  "document_id": "srd_35::monstersintro_a::045_hound_archons_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "HOUND ARCHONS AS CHARACTERS"
+    ],
+    "source_location": "MonstersIntro-A.rtf#045_hound_archons_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Hound archon characters possess the following racial traits.\n-- +4 Strength, +2 Constitution, +2 Wisdom, +2 Charisma.\n--Medium size.\n--A hound archon's base land speed is 40 feet.\n--Racial Hit Dice: A hound archon begins with six levels of outsider, which provide 6d8 Hit Dice, a base attack bonus of +6, and base saving throw bonuses of Fort +5, Ref +5, and Will +5.\n--Racial Skills: A hound archon's outsider levels give it skill points equal to 9 \u00d7 (8 + Int modifier). Its class skills are Concentration, Hide, Jump, Listen, Move Silently, Sense Motive, Spot, and Survival.\n--Racial Feats: A hound archon's outsider levels give it three feats.\n-- +9 natural armor bonus.\n--Natural Weapons: Bite (1d8) and slam (1d4).\n--Archon Traits (see page 16): Darkvision 60 ft., low-light vision, aura of menace (Will DC 15 + character's Cha modifier), immunity to electricity and petrification, +4 racial bonus on saves against poison, magic circle against evil, teleport, tongues.\n--Special Attacks: Spell-like abilities.\n--Special Qualities: Change shape, damage reduction 10/evil, scent, spell resistance equal to 16 + class levels.\n--Automatic Languages: Celestial. Bonus Languages: Common, Draconic, Infernal.\n--Favored class: Ranger.\n--Level adjustment +5.\n\nHit Dice: | 12d8+72 (126 hp) |\nInitiative: | +7 |\nSpeed: | 40 ft. (8 squares), fly 90 ft. (good) |\nArmor Class: | 27 (+3 Dex, +14 natural), touch 13, flat-footed 24 |\nBase Attack/Grapple: | +12/+17 |\nAttack: | +4 greatsword +21 melee (2d6+11/19-20) |\nFull Attack: | +4 greatsword +21/+16/+11 melee (2d6+11/19-20) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, spells, trumpet |\nSpecial Qualities: | Aura of menace, damage reduction 10/evil, darkvision 60 ft., immunity to electricity and petrification, magic circle against evil, spell resistance 29, teleport, tongues |\nSaves: | Fort +14 (+18 against poison), Ref +11, Will +11 |\nAbilities: | Str 20, Dex 17, Con 23, Int 16, Wis 16, Cha 16 |\nSkills: | Concentration +21, Diplomacy +20, Escape Artist +18, Handle Animal +18, Knowledge (any one) +18, Listen +18, Move Silently +18, Perform (wind instruments) +18, Ride +20, Sense Motive +18, Spot +18, Use Rope +3 (+5 with bindings) |\nFeats: | Blind-Fight, Cleave, Combat Reflexes, Improved Initiative, Power Attack |\nEnvironment: | A lawful good-aligned plane |\nOrganization: | Solitary, pair, or squad (3-5) |\nChallenge Rating: | 14 |\nTreasure: | No coins; double goods; standard items |\nAlignment: | Always lawful good |\nAdvancement: | 13-18 HD (Medium); 19-36 HD (Large) |\nLevel Adjustment: | +8 |\nEach Trumpet Archon carries a gleaming silver trumpet about 6 feet long.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::044_hound_archon_hero_mounts",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::046_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicskills::002_skill_descriptions",
+  "document_id": "srd_35::psionicskills::002_skill_descriptions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSkills",
+      "SKILL DESCRIPTIONS"
+    ],
+    "source_location": "PsionicSkills.rtf#002_skill_descriptions"
+  },
+  "chunk_type": "subsection",
+  "content": "The skills below relate to the use of psionics. In addition to three new skills (Autohypnosis, Psicraft, and Use Psionic Device), a new category is provided for the Knowledge skill, and new uses are given for Concentration.\nTable: Skill Synergies |\n5 or more ranks in. . . | Gives a +2 bonus on. . . |\nAutohypnosis | Knowledge (psionics) checks |\nConcentration | Autohypnosis checks |\nKnowledge (psionics) | Psicraft |\nPsicraft | Use Psionic Device checks involving power stones |\nUse Psionic Device | Psicraft checks to address power stones |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicskills::001_psionicskills",
+  "next_chunk_id": "chunk::srd_35::psionicskills::003_autohypnosis_wis_trained_only"
+}

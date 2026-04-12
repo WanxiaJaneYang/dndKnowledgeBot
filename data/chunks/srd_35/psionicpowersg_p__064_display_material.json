@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::064_display_material",
+  "document_id": "srd_35::psionicpowersg_p::064_display_material",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Material"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#064_display_material"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 minute\nRange: 0 ft.\nEffect: Unattended, nonpsionic, nonmagical object of nonliving plant matter, up to 1 cu. ft./level\nDuration: 1 hour/level (D)\n\nAs the minor creation spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::063_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::065_display_mental"
+}

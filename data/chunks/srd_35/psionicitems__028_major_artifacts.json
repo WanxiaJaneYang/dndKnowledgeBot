@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::028_major_artifacts",
+  "document_id": "srd_35::psionicitems::028_major_artifacts",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Major Artifacts"
+    ],
+    "source_location": "PsionicItems.rtf#028_major_artifacts"
+  },
+  "chunk_type": "subsection",
+  "content": "Major artifacts are unique items--only one of each such item exists. They are difficult to find and dangerous to handle, but once found, are often even more difficult to destroy. A major psionic artifact has only a single, specific means of destruction.\nAnnulus: This artifact is the ultimate psionic nullifier. Forged to keep enemies of vast psionic power at bay, the Annulus is an artifact that any psionic being should fear. It has been forgotten in the modern age, and merely finding it would precipitate a great upheaval across the planes.\nThe Annulus is a 1-foot-diameter ring of silvery material. Tiny slots, antennae, spheres, and other intricate projections decorate the exterior of the hoop; however, two smoothed lengths of the ring provide an adequate surface for grasping the item.\nThe Annulus has several powers, all of which require a wielder to tightly grasp the ring with at least one hand. When it is first grasped, knowledge of the artifact's powers immediately flood the wielder's mind. The wielder can access all powers of the Annulus at manifester level 20th.\nThe Annulus generates a continuous catapsi effect within a 100-foot-radius of the wielder (who is unaffected).\nThe wielder gains a +4 enhancement bonus on any attempt to resist an effect that deals ability damage.\nOnce per day, the wielder can trigger ultrablast as a standard action.\nThree times per day, as a standard action, the wielder can trigger an effect similar to psionic dimensional anchor that affects all creatures in a 50-foot radius.\nThe primary power of the Annulus, however, is psionic nullification. Once per year, the wielder can trigger this effect as a special action requiring 10 rounds of continuous concentration to complete. The wielder specifies a target or targets within a 100-foot radius, ranging from a specific psionic individual or item to a group of psionic beings that share the same philosophy. The nullification effect is accompanied by blasts of light, heat, and sound from the Annulus. Nonpsionic creatures and items are unaffected, as are nontargeted beings, but any psionic target--regardless of any protection it may possess--disintegrates in a terrific explosion. Nothing is left but floating dust.\nIt is relatively easy to nullify a single target or a small group of targets, but nullifying a more powerful being (such as a demigod or greater entity) or another major artifact taxes the Annulus to its limits. If it is used to nullify such a target, the artifact succeeds but is destroyed in the process and cannot be retrieved by any means.\nPsicrown of the Crystal Mind: An elaborate crystalline psicrown etched with strange designs, this exceptional psicrown is so invested with power that it is considered an artifact.\nThe power points in the Psicrown of the Crystal Mind can be used to manifest any of the following powers at manifester level 20th (or at the wearer's manifester level if it is higher than 20th).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::027_minor_artifacts",
+  "next_chunk_id": "chunk::srd_35::psionicitems::029_catfall"
+}

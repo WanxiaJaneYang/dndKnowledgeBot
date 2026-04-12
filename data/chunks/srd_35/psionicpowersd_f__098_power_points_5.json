@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::098_power_points_5",
+  "document_id": "srd_35::psionicpowersd_f::098_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#098_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You (plus all your gear and any objects you carry) become difficult to detect by clairsentience powers such as clairvoyant sense, remote viewing, and psionic true seeing. If a clairsentience power or similar effect is attempted against you, the manifester of the power must succeed on a manifester level check (1d20 + manifester level, or caster level if the opponent is not a manifester) against a DC of 13 + your manifester level (maximum +10).\nEthereal Jaunt, Psionic\nPsychoportation\nLevel: Nomad 7\nDisplay: Visual\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::097_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::099_power_points_13"
+}

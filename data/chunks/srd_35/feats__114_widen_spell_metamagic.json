@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::feats::114_widen_spell_metamagic",
+  "document_id": "srd_35::feats::114_widen_spell_metamagic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "WIDEN SPELL [METAMAGIC]"
+    ],
+    "source_location": "Feats.rtf#114_widen_spell_metamagic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You can alter a burst, emanation, line, or spread shaped spell to increase its area. Any numeric measurements of the spell's area increase by 100%.A widened spell uses up a spell slot three levels higher than the spell's actual level.\nSpells that do not have an area of one of these four sorts are not affected by this feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::113_whirlwind_attack_general"
+}

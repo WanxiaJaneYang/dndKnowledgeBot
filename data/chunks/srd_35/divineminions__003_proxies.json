@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineminions::003_proxies",
+  "document_id": "srd_35::divineminions::003_proxies",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineMinions",
+      "Proxies"
+    ],
+    "source_location": "DivineMinions.rtf#003_proxies"
+  },
+  "chunk_type": "subsection",
+  "content": "A divine proxy speaks and acts on behalf of the divine being. When the demand for a deity's presence is too high, the deity may use proxies.\nProxies are divine minions invested with a small portion of the deity's power. A deity may invest 1 rank of its power (reducing its divine rank accordingly) in a single servant for as long as the deity chooses. The minion must be physically present for the deity to perform the investiture. While so invested, the proxy gains any salient divine abilities held by the patron deity as well as the powers and abilities of a rank 1 demigod. Without the requisite ability scores or divine ranks, the proxy may not be able to use all those powers and abilities. A deity may have more than one proxy, but it must lose 1 divine rank for each proxy it invests. A deity can retrieve a single divine rank as a standard action, and doing so it does not require the physical presence of the proxy.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineminions::002_divine_minions",
+  "next_chunk_id": "chunk::srd_35::divineminions::004_petitioners"
+}

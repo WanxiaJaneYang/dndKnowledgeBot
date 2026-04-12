@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::006_creation_domain",
+  "document_id": "srd_35::divinedomainsandspells::006_creation_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "CREATION DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#006_creation_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Cast conjuration (creation) spells at +2 caster level. (Those with access to both the Artifice and Creation domains cast conjuration (creation) spells at +3 caster level.)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::005_community_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::007_creation_domain_spells"
+}

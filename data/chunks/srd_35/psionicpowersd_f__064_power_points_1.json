@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::064_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::064_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#064_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You detect the surface emotions of any creature you can see that is in the power's area. You can sense basic needs, drives, and emotions. Thirst, hunger, fear, fatigue, pain, rage, hatred, uncertainty, curiosity, friendliness, and many other kinds of sensations and moods can all be perceived.\nYou gain a +2 insight bonus on any Bluff, Diplomacy, Intimidate, or Sense Motive checks that you make in the round when you cease concentrating on this power.\nAugment: You can augment this power in one or both of the following ways.\n1. For every additional power point you spend, this power's range and the radius of its area increases by 5 feet.\n2. If you spend 2 additional power points, this power's maximum duration increases to 1 hour/level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::063_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::065_telepathy_mind_affecting"
+}

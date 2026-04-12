@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::063_psionic_hole_general",
+  "document_id": "srd_35::psionicsfeats::063_psionic_hole_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC HOLE [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#063_psionic_hole_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You are anathema to psionic creatures and characters.\nPrerequisite: Con 15.\nBenefit: When a foe strikes you in melee combat, the foe immediately loses its psionic focus, if any. Also, if you are the target of a power, the manifester of the power must spend an additional number of power points equal to your Wisdom bonus, or the power fails (all the power points spent on the power are still lost). This extra cost does not count toward the maximum power points a manifester can spend on a single power.\nSpecial: You cannot take or use this feat if you have the ability to use powers (if you have a power point reserve or psi-like abilities).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::062_psionic_fist_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::064_psionic_meditation_psionic"
+}

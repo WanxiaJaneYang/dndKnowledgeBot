@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::027_destruction_domain",
+  "document_id": "srd_35::spelllisti::027_destruction_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "DESTRUCTION DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#027_destruction_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::026_death_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::028_destruction_domain_spells"
+}

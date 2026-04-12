@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::003_combat_statistics",
+  "document_id": "srd_35::combati::003_combat_statistics",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "COMBAT STATISTICS"
+    ],
+    "source_location": "CombatI.rtf#003_combat_statistics"
+  },
+  "chunk_type": "subsection",
+  "content": "This section summarizes the statistics that determine success in combat, and then details how to use",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::002_how_combat_works",
+  "next_chunk_id": "chunk::srd_35::combati::004_attack_roll"
+}

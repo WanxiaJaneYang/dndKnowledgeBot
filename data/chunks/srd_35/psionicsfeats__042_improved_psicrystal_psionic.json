@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::042_improved_psicrystal_psionic",
+  "document_id": "srd_35::psionicsfeats::042_improved_psicrystal_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "IMPROVED PSICRYSTAL [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#042_improved_psicrystal_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can upgrade your psicrystal.\nPrerequisites: Psicrystal Affinity.\nBenefit: You can implant another personality fragment in your psicrystal. You gain the benefits of both psicrystal personalities. Your psicrystal's personality adjusts and becomes a blend between all implanted personality fragments. From now on, when determining the abilities of your psicrystal, treat your manifester level as one higher than your normal manifester level.\nSpecial: You can gain this feat multiple times. Each time, you implant a new personality fragment in your psicrystal, from which you derive the noted benefits, and you treat your level as one higher for the purpose of determining your psicrystal's abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::041_imprint_stone_item_creation",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::043_inquisitor_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::004_monsters_and_class_levels",
+  "document_id": "srd_35::improving_monsters::004_monsters_and_class_levels",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "MONSTERS AND CLASS LEVELS"
+    ],
+    "source_location": "Improving Monsters.rtf#004_monsters_and_class_levels"
+  },
+  "chunk_type": "subsection",
+  "content": "If a creature acquires a character class, it follows the rules for multiclass characters.\nThe creature's Hit Dice equal the number of class levels it has plus its racial Hit Dice. A creature's \u201cmonster class\u201d is always a favored class, and the creature never takes XP penalties for having it. Additional Hit Dice gained from taking levels in a character class never affect a creature's size.\nHumanoids and Class Levels: Creatures with 1 or less HD replace their monster levels with their character levels. The monster loses the attack bonus, saving throw bonuses, skills, and feats granted by its 1 monster HD and gains the attack bonus, save bonuses, skills, feats, and other class abilities of a 1st-level character of the appropriate class.\nLevel Adjustment and Effective Character Level: To determine the effective character level (ECL) of a monster character, add its level adjustment to its racial Hit Dice and character class levels. The monster is considered to have experience points equal to the minimum needed to be a character of its ECL.\nIf you choose to equip a monster with gear, use its ECL as its character level for purposes of determining how much equipment it can purchase. Generally, only monsters with an Advancement entry of \u201cBy character class\u201d receive NPC gear; other creatures adding character levels should be treated as monsters of the appropriate CR and assigned treasure, not equipment.\nFeat Acquisition and Ability Score Increases: A monster's total Hit Dice, not its ECL, govern its acquisition of feats and ability score increases.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::003_ability_score_arrays",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::005_increasing_hit_dice"
+}

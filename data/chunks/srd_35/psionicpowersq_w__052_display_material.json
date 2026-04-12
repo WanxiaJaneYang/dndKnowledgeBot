@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::052_display_material",
+  "document_id": "srd_35::psionicpowersq_w::052_display_material",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Display: Material"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#052_display_material"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nEffect: 1-ft.-diameter/level sphere, centered around creatures or objects\nDuration: 1 min./level (D)\nSaving Throw: Reflex negates (object)\n\nAs the telekinetic sphere spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::051_power_points_7",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::053_display_visual"
+}

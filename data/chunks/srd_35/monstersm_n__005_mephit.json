@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::005_mephit",
+  "document_id": "srd_35::monstersm_n::005_mephit",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "MEPHIT"
+    ],
+    "source_location": "MonstersM-N.rtf#005_mephit"
+  },
+  "chunk_type": "subsection",
+  "content": "Mephits are minor creatures from the elemental planes.\nAll mephits appear as small, winged creatures with more or less humanoid features. While they are often described as impish, their elemental origins are apparent at first glance.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::004_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::006_combat"
+}

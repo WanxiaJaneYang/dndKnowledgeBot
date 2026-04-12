@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::027_disable_device_int_trained_only",
+  "document_id": "srd_35::skillsi::027_disable_device_int_trained_only",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "DISABLE DEVICE (INT; TRAINED ONLY)"
+    ],
+    "source_location": "SkillsI.rtf#027_disable_device_int_trained_only"
+  },
+  "chunk_type": "subsection",
+  "content": "Check: The Disable Device check is made secretly, so that you don't necessarily know whether you've succeeded.\nThe DC depends on how tricky the device is. Disabling (or rigging or jamming) a fairly simple device has a DC of 10; more intricate and complex devices have higher DCs.\nIf the check succeeds, you disable the device. If it fails by 4 or less, you have failed but can try again. If you fail by 5 or more, something goes wrong. If the device is a trap, you spring it. If you're attempting some sort of sabotage, you think the device is disabled, but it still works normally.\nYou also can rig simple devices such as saddles or wagon wheels to work normally for a while and then fail or fall off some time later (usually after 1d4 rounds or minutes of use).\nDevice | Time | Disable Device DC1 | Example |\nSimple | 1 round | 10 | Jam a lock |\nTricky | 1d4 rounds | 15 | Sabotage a wagon wheel |\nDifficult | 2d4 rounds | 20 | Disarm a trap, reset a trap |\nWicked | 2d4 rounds | 25 | Disarm a complex trap, cleverly sabotage a clockwork device |\n1If you attempt to leave behind no trace of your tampering, add 5 to the DC. |\nAction: The amount of time needed to make a Disable Device check depends on the task, as noted above. Disabling a simple device takes 1 round and is a full-round action. An intricate or complex device requires 1d4 or 2d4 rounds.\nTry Again: Varies. You can retry if you have missed the check by 4 or less, though you must be aware that you have failed in order to try again.\nSpecial: If you have the Nimble Fingers feat, you get a +2 bonus on Disable Device checks.\nA rogue who beats a trap's DC by 10 or more can study the trap, figure out how it works, and bypass it (along with her companions) without disarming it.\nRestriction: Rogues (and other characters with the trapfinding class feature) can disarm magic traps. A magic trap generally has a DC of 25 + the spell level of the magic used to create it.\nThe spells fire trap, glyph of warding, symbol, and teleportation circle also create traps that a rogue can disarm with a successful Disable Device check. Spike growth and spike stones, however, create magic traps against which Disable Device checks do not succeed. See the individual spell descriptions for details.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::026_influencing_npc_attitudes",
+  "next_chunk_id": "chunk::srd_35::skillsi::028_other_ways_to_beat_a_trap"
+}

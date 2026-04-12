@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::058_trans",
+  "document_id": "srd_35::spelllistii::058_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#058_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Etherealness: Travel to Ethereal Plane with companions.\nShapechange F: Transforms you into any creature, and change forms once per round.\nTime Stop: You act freely for 1d4+1 rounds.\n\nWish X: As limited wish, but with fewer limits.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::057_necro"
+}

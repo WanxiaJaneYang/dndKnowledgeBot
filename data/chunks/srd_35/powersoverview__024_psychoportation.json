@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::024_psychoportation",
+  "document_id": "srd_35::powersoverview::024_psychoportation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "Psychoportation"
+    ],
+    "source_location": "PowersOverview.rtf#024_psychoportation"
+  },
+  "chunk_type": "subsection",
+  "content": "Psychoportation powers move the manifester, an object, or another creature through space and time.\nFor the purpose of psionics-magic transparency, psychoportation powers do not have an equivalent school.\nTeleportation: A power of the teleportation subdiscipline transports one or more creatures or objects a great distance. The most potent of these powers can cross planar boundaries. Usually the transportation is one-way (unless otherwise noted) and not dispellable. Teleportation is instantaneous travel through the Astral Plane. Anything that blocks astral travel also blocks teleportation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::023_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::powersoverview::025_telepathy"
+}

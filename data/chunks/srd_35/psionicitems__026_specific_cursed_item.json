@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::026_specific_cursed_item",
+  "document_id": "srd_35::psionicitems::026_specific_cursed_item",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Specific Cursed Item"
+    ],
+    "source_location": "PsionicItems.rtf#026_specific_cursed_item"
+  },
+  "chunk_type": "subsection",
+  "content": "Reverse Capacitor: A reverse capacitor doesn't store power points--it drains them, to the surprise and chagrin of a psionic character taken in by its resemblance to a cognizance crystal. Powers that identify psionic items incorrectly identify a reverse capacitor as a cognizance crystal 50% of the time.\nA psionic character attempting to use the power points supposedly stored in a reverse capacitor instead loses 1d6 power points per round for 7 rounds. A crackling arc connects the brow of the character with the stone. If the character can put more than 40 feet between himself and the reverse capacitor, the effect ends. If the reverse capacitor drains more power points than the psionic character possesses, the draining effect ends.\nThe drained power points are simply lost. Each new attempt to use the power points supposedly stored in the reverse capacitor initiates the draining effect anew.\nStrong telepathy; ML 15th; Craft Universal Item, bend reality, power leech; Price 112,000 gp; Weight 1 lb.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::025_cursed_items",
+  "next_chunk_id": "chunk::srd_35::psionicitems::027_minor_artifacts"
+}

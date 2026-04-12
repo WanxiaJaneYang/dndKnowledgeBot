@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::050_divine_splendor",
+  "document_id": "srd_35::divineabilitiesandfeats::050_divine_splendor",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Splendor"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#050_divine_splendor"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 16, Cha 26.\nBenefit: Any mortal who approaches within 10 feet per divine rank of the deity in its natural form dies immediately, with no saving throw.\nSuggested Portfolio Elements: Supreme.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::049_spell_slots_above_9th_level",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::051_divine_storm"
+}

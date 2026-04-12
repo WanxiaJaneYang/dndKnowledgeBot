@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::066_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::066_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#066_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You send a telepathic message of up to ten words to any living creature within range. Missive is strictly a one-way exchange from you to the subject. If you do not share a common language, the subject \u201chears\u201d meaningless mental syllables.\nAugment: For every 2 additional power points you spend, this power's range increases by 5 feet and its save DC increases by 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::065_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::067_display_mental"
+}

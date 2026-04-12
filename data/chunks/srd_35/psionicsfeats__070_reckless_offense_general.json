@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::070_reckless_offense_general",
+  "document_id": "srd_35::psionicsfeats::070_reckless_offense_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "RECKLESS OFFENSE [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#070_reckless_offense_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You can shift your focus from defense to offense.\nPrerequisite: Base attack bonus +1.\nBenefit: When you use the attack action or full attack action in melee, you can take a penalty of -4 to your Armor Class and add a +2 bonus on your melee attack roll. The bonus on attack rolls and penalty to Armor Class last until the beginning of your next turn.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::069_rapid_metabolism_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::071_return_shot_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::057_psionic_affinity_general",
+  "document_id": "srd_35::psionicsfeats::057_psionic_affinity_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC AFFINITY [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#057_psionic_affinity_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You have a knack for psionic endeavors.\nBenefit: You get a +2 bonus on all Psicraft checks and Use Psionic Device checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::056_psicrystal_containment_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::058_psionic_body_psionic"
+}

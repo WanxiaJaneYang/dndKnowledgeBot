@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::043_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::043_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#043_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You cause your subject's mind to wander, distracting her. Subjects under the effect of distract make all Listen, Spot, Search, and Sense Motive checks at a -4 penalty.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::042_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::044_display_visual"
+}

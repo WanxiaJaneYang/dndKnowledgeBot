@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::006_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::006_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#006_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You can improve your chances in a grapple as an immediate action, gaining a +4 enhancement bonus on your grapple checks.\nYou can manifest this power with an instant thought, quickly enough to gain the benefit of the power in the current round. Manifesting this power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can manifest this power when it isn't your turn (if you are grappled).\nAugment: For every 4 additional power points you spend, the enhancement bonus on your grapple checks increases by 2.\nHail of Crystals\n\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: Medium (100 ft. + 10 ft./ level)\nArea: 20-ft.-radius burst",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::005_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::007_power_points_9"
+}

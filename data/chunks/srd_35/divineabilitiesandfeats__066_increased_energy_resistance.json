@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::066_increased_energy_resistance",
+  "document_id": "srd_35::divineabilitiesandfeats::066_increased_energy_resistance",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Increased Energy Resistance"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#066_increased_energy_resistance"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The deity gains resistance equal to its divine rank to acid, cold, electricity, fire, or sonic energy.\nNotes: A deity can have this ability multiple times, choosing a different form of energy each time. The deity also can have this ability more than once for a single type of energy. When applied to an energy type that the deity already resists, this ability increases the resistance by 10.\nSuggested Portfolio Elements: Any.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::065_increased_damage_reduction",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::067_increased_spell_resistance"
+}

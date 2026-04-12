@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::006_combat",
+  "document_id": "srd_35::epicmonsters_a_e::006_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#006_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Spell-Like Abilities: At will--darkness, telekinesis; 3/day--improved invisibility, control weather, call lightning, lightning bolt, chain lightning, wail of the banshee. Caster level 20th; save DC 20 + spell level. The DC is Charisma-based.\nSummon Air Elemental (Sp): Three times per day a chichimec can summon an elder air elemental.\nCharisma Drain (Su): This effect permanently reduces a living opponent's Charisma score by 2 points when the chichimec hits with a tail slam, or 4 points on a critical hit. The chichimec heals 10 points of damage, or 20 on a critical hit, whenever it drains Charisma, gaining any excess as temporary hit points. These temporary hit points last a maximum of 1 hour. The attack allows a Fortitude save (DC 33)--on a successful save, only 1 point of Charisma is drained and the chichimec heals 5 points of damage. The DC is Charisma-based.\nAbomination Traits: Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.\n\nHit Dice: | 40d8+360 (700 hp) |\nInitiative: | +3 (Dex) |\nSpeed: | 80 ft.; fly 240 ft. (perfect) |\nAC: | 52 (-1 size, +3 Dex, +40 natural) |\nBase Attack/Grapple: | +40/+60 |\nAttack: | Bite +56 (4d8+16)melee |\nFull Attack: | Bite +56 (4d8+16) melee, 1 gore +51 (4d6+8) melee, 4 pincers +53 (4d6+8) melee, 4 claws +53 (4d6+8) melee |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Worst nightmare, improved grab, sending, spell-like abilities, summon nightwalker |\nSpecial Qualities: | Abomination traits, sonic immunity, regeneration 15, fast healing 15, SR 44, DR 15/ Good and Epic or Lawful and Epic |\nSaves: | Fort +31, Ref +25, Will +29 |\nAbilities: | Str 42, Dex 17, Con 29, Int 16, Wis 24, Cha 36 |\nSkills: | Concentration +52, Craft (dreamweaving) +46, Diplomacy +60, Escape Artist +46, Hide +46, Jump +36, Knowledge (arcana) +46, Listen +50, Move Silently +46, Search +46, Sense Motive +50, Spot +50 |\nFeats: | Cleave, Combat Reflexes, Flyby Attack, Great Cleave, Improved Sunder, Power Attack, Quicken Spell-Like Ability, Weapon Focus (pincers), Weapon Focus (gore), Weapon Focus (bite), Weapon Focus (claw) |\nEpic Feats: | Epic Toughness, Epic Weapon Focus (pincers), Epic Weapon Focus (claw) |\nClimate/Terrain: | Any |\nOrganization: | Solitary, pair, or solitary plus 1-4 nightwalkers |\nChallenge Rating: | 31 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 41-65 HD (Large); 66-84 HD (Huge); 85-110 HD (Gargantuan) |\nA dream larvas's natural weapons are treated as epic, evil, and chaotic-aligned for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::005_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::007_combat"
+}

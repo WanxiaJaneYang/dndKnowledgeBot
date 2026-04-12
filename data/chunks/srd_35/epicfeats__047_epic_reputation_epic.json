@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::047_epic_reputation_epic",
+  "document_id": "srd_35::epicfeats::047_epic_reputation_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC REPUTATION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#047_epic_reputation_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The character gains a +4 bonus on Bluff, Diplomacy, Gather Information, Intimidate, and Perform checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::046_epic_reflexes_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::048_epic_skill_focus_epic"
+}

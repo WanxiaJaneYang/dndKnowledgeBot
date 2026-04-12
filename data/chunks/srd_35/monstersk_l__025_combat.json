@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::025_combat",
+  "document_id": "srd_35::monstersk_l::025_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "Combat"
+    ],
+    "source_location": "MonstersK-L.rtf#025_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In any form, wereboars are as ferocious as normal boars. When in hybrid form, they fight with a weapon and their dangerous gore attack.\nAlternate Form (Su): A wereboar can assume the form of a boar or a boar-humanoid hybrid.\nBoar Empathy (Ex): Communicate with boars and dire boars, and +4 racial bonus on Charisma-based checks against boars and dire boars.\nCurse of Lycanthropy (Su): Any humanoid or giant hit by the wereboar's gore attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.\nFerocity (Ex): A wereboar is such a tenacious combatant that it continues to fight without penalty even while disabled or dying.\nThe wereboar presented here is a 1st-level human warrior and natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::024_wereboar",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::026_wererat"
+}

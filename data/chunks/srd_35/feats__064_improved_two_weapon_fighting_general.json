@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::064_improved_two_weapon_fighting_general",
+  "document_id": "srd_35::feats::064_improved_two_weapon_fighting_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED TWO-WEAPON FIGHTING [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#064_improved_two_weapon_fighting_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 17, Two-Weapon Fighting, base attack bonus +6.\nBenefit: In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a -5 penalty.\nNormal: Without this feat, you can only get a single extra attack with an off-hand weapon.\nSpecial: A fighter may select Improved Two-Weapon Fighting as one of his fighter bonus feats.\nA 6th-level ranger who has chosen the two-weapon combat style is treated as having Improved Two-Weapon Fighting, even if he does not have the prerequisites for it, but only when he is wearing light or no armor.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::063_improved_turning_general",
+  "next_chunk_id": "chunk::srd_35::feats::065_improved_unarmed_strike_general"
+}

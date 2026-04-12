@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::052_suffocation",
+  "document_id": "srd_35::wildernessandenvironment::052_suffocation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "SUFFOCATION"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#052_suffocation"
+  },
+  "chunk_type": "subsection",
+  "content": "A character who has no air to breathe can hold her breath for 2 rounds per point of Constitution. After this period of time, the character must make a DC 10 Constitution check in order to continue holding her breath. The save must be repeated each round, with the DC increasing by +1 for each previous success.\nWhen the character fails one of these Constitution checks, she begins to suffocate. In the first round, she falls unconscious (0 hit points). In the following round, she drops to -1 hit points and is dying. In the third round, she suffocates.\nSlow Suffocation: A Medium character can breathe easily for 6 hours in a sealed chamber measuring 10 feet on a side. After that time, the character takes 1d6 points of nonlethal damage every 15 minutes. Each additional Medium character or significant fire source (a torch, for example) proportionally reduces the time the air will last.\nSmall characters consume half as much air as Medium characters. A larger volume of air, of course, lasts for a longer time.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::051_starvation_and_thirst",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::053_water_dangers"
+}

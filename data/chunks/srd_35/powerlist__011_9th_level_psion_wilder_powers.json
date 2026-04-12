@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::011_9th_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::011_9th_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "9TH-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#011_9th_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Affinity Field: Effects that affect you also affect others.\nApopsiX: You delete target's psionic powers.\nAssimilate: Incorporate creature into your own body.\nEtherealness, Psionic: Become ethereal for 1 min./level.\nMicrocosmA: Creature or creature lives forevermore in world of his own imagination.\nReality RevisionX: As bend reality, but fewer limits.\nTimeless Body: Ignore all harmful, and helpful, effects for 1 round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::010_8th_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::012_egoist_psychometabolism_discipline_powers"
+}

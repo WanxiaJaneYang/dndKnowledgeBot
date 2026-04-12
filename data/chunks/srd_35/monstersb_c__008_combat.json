@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::008_combat",
+  "document_id": "srd_35::monstersb_c::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "The save DC for the abyssal greater basilisk's petrifying gaze (DC 21) is adjusted for its greater Hit Dice and higher Charisma score.\nAn abyssal greater basilisk's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nSmite Good (Su): Once per day an abyssal greater basilisk can make a normal melee attack to deal an extra 18 points of damage against a good foe.\n\nHit Dice: | 9d10+45 (94 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. (8 squares), climb 15 ft. |\nArmor Class: | 20 (-2 size, +1 Dex, +11 natural), touch 9, flat-footed 19 |\nBase Attack/Grapple: | +9/+25 |\nAttack: | Bite +15 melee (2d4+12) |\nFull Attack: | Bite +15 melee (2d4+12) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Breath weapon, constrict 2d8+8, improved grab, rake 1d4+4, swallow whole |\nSpecial Qualities: | Can't be tripped, darkvision 60 ft., immunity to electricity, low-light vision, scent |\nSaves: | Fort +11, Ref +7, Will +5 |\nAbilities: | Str 26, Dex 13, Con 21, Int 7, Wis 14, Cha 12 |\nSkills: | Climb +16, Hide +5, Listen +4, Spot +4, Survival +2 |\nFeats: | Alertness, Cleave, Power Attack, Track |\nEnvironment: | Warm hills |\nOrganization: | Solitary or pair |\nChallenge Rating: | 8 |\nTreasure: | Standard |\nAlignment: | Often neutral |\nAdvancement: | 10-13 HD (Huge); 14-27 HD (Gargantuan) |\nLevel Adjustment: | -- |\nThe behir is a serpentine monster that can slither like a snake or use its dozen legs to move with considerable speed. A behir is about 40 feet long and weighs about 4,000 pounds. It can fold its limbs close to its long, narrow body and slither in snake fashion if it desires. The coloration of behirs ranges from ultramarine to deep blue with bands of gray-brown. The belly is pale blue. The two large horns curving back over the head look dangerous but are actually used for preening the creature's scales, not for fighting.\nBehirs speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::007_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::009_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::035_efficient_item_creation_epic",
+  "document_id": "srd_35::epicfeats::035_efficient_item_creation_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EFFICIENT ITEM CREATION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#035_efficient_item_creation_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Item creation feat to be selected, Knowledge (arcana) 24 ranks, Spellcraft 24 ranks.\nBenefit: Select an item creation feat. Creating a magic item using that feat requires one day per 10,000 gp of the item's market price, with a minimum of one day.\nNormal: Without this feat, creating a magic item requires one day for each 1,000 gp of the item's market price.\nSpecial: A character can gain this feat multiple times. Its effects do not stack. Each time a character takes the feat, it applies to a different item creation feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::034_dragon_wild_shape_wild_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::036_energy_resistance_epic"
+}

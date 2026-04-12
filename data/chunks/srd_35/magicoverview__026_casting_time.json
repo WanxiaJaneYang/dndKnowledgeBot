@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::026_casting_time",
+  "document_id": "srd_35::magicoverview::026_casting_time",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "CASTING TIME"
+    ],
+    "source_location": "MagicOverview.rtf#026_casting_time"
+  },
+  "chunk_type": "subsection",
+  "content": "Most spells have a casting time of 1 standard action. Others take 1 round or more, while a few require only a free action.\nA spell that takes 1 round to cast is a full-round action. It comes into effect just before the beginning of your turn in the round after you began casting the spell. You then act normally after the spell is completed.\nA spell that takes 1 minute to cast comes into effect just before your turn 1 minute later (and for each of those 10 rounds, you are casting a spell as a full-round action, just as noted above for 1- round casting times). These actions must be consecutive and uninterrupted, or the spell automatically fails.\nWhen you begin a spell that takes 1 round or longer to cast, you must continue the concentration from the current round to just before your turn in the next round (at least). If you lose concentration before the casting is complete, you lose the spell.\nA spell with a casting time of 1 free action doesn't count against your normal limit of one spell per round. However, you may cast such a spell only once per round. Casting a spell with a casting time of 1 free action doesn't provoke attacks of opportunity.\nYou make all pertinent decisions about a spell (range, target, area, effect, version, and so forth) when the spell comes into effect.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::025_components",
+  "next_chunk_id": "chunk::srd_35::magicoverview::027_range"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::048_divine_spellcasting",
+  "document_id": "srd_35::divineabilitiesandfeats::048_divine_spellcasting",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Spellcasting"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#048_divine_spellcasting"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Spellcaster level 20th.\nBenefit: The deity can cast spells whose effective level is above 9th. The number of spells per day the deity can cast of each spell level above 9th depends on the deity's key ability score for spell-casting classes in which the deity has achieved 20th level, as shown\non Table: Divine Spellcasting. The numbers on that table represent one spell per day at each spell level above 9th in which it receives bonus spells from its key ability score, plus\nbonus spells based on the key ability score. The deity can use these slots for spells prepared or cast with a metamagic feat, or for lower-level spells.\nIf the deity has achieved 20th level in a spellcasting class with fewer than nine levels of spells (such as bard, paladin, or ranger), the deity can also cast one spell per day of each level between the maximum normal spell level and 9th, plus appropriate bonus spells\nof each level based on the deity's key ability score. These spells are not shown on the table.\nThe deity also doesn't incur attacks of opportunity for casting spells when threatened.\nIn addition, the deity receives the benefit of the Spell Focus feat on any spell it casts.\nSuggested Portfolio Elements: Magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::047_divine_spell_focus",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::049_spell_slots_above_9th_level"
+}

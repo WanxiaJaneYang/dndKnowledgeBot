@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::010_combat",
+  "document_id": "srd_35::monstersdr_dw::010_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#010_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Typically, blue dragons attack from above or burrow beneath the sands until opponents come within 100 feet. Older dragons use their special abilities, such as hallucinatory terrain, in concert with these tactics to mask the land and improve their chances to surprise the target. Blue dragons run from a fight only if they are severely damaged, since they view retreat as cowardly.\nBreath Weapon (Su): A blue dragon has one type of breath weapon, a line of lightning.\nCreate/Destroy Water (Sp): A blue dragon of any age can use this ability three times per day. It works like the create water spell, except that the dragon can decide to destroy water instead of creating it, which automatically spoils unattended liquids containing water. Magic items (such as potions) and items in a creature's possession must succeed on a Will save (DC equal to that of the dragon's frightful presence) or be ruined. This ability is the equivalent of a 1st-level spell.\nSound Imitation (Ex): A juvenile or older blue dragon can mimic any voice or sound it has heard, anytime it likes. Listeners must succeed on a Will save (DC equal to that of the dragon's frightful presence) to detect the ruse.\nOther Spell-Like Abilities: 3/day--ventriloquism (adult or older); 1/day--hallucinatory terrain (old or older), veil (ancient or older), mirage arcana (great wyrm).\nSkills: Bluff, Hide, and Spellcraft are considered class skills for blue dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::009_dragon_earth",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::011_dragon_air"
+}

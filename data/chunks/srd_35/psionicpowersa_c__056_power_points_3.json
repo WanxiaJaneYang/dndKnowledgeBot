@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::056_power_points_3",
+  "document_id": "srd_35::psionicpowersa_c::056_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#056_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You make yourself completely undetectable to the subject by erasing all awareness of your presence from its mind. This power has the following effects.\nFirst, you are invisible and inaudible to the creature. It cannot even detect your presence by means of blindsense, blindsight, scent, or tremorsense. It cannot pinpoint your location by any means.\nSecond, the subject remains unaware of your actions, provided you do not make any attacks or cause any obvious or directly threatening changes in the subject's environment. If you attack the subject creature, the effect ends.\nIf you take an action that creates a sustained and obvious change in the subject's environment--for example, attacking a creature aside from the subject or moving a large or attended object the subject can see--the subject immediately gains a new saving throw against the power. An ally of the subject creature that is able to see or perceive you can use a move action to warn the subject and thereby grant it a new saving throw.\nCloud Mind, Mass\nTelepathy [Mind-Affecting]\nLevel: Psion/wilder 6\nTarget: One creature/level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::055_display_none",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::057_power_points_11"
+}

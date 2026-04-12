@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::049_epic_speed_epic",
+  "document_id": "srd_35::epicfeats::049_epic_speed_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC SPEED [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#049_epic_speed_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 21, Run.\nBenefit: The character's speed increases by 30 feet. This benefit does not stack with increased speed granted by magic items or nonpermanent magical effects.\nSpecial: This feat only functions when the character is wearing medium armor, light armor, or no armor.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::048_epic_skill_focus_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::050_epic_spell_focus_epic"
+}

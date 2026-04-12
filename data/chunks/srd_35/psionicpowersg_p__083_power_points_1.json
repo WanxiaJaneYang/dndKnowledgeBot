@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::083_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::083_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#083_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Precognition allows your mind to glimpse fragments of potential future events--what you see will probably happen if no one takes action to change it. However, your vision is incomplete, and it makes no real sense until the actual events you glimpsed begin to unfold. That's when everything begins to come together, and you can act, if you act swiftly, on the information you previously received when you manifested this power.\nIn practice, manifesting this power grants you a \u201cprecognitive edge.\u201d Normally, you can have only a single precognitive edge at one time. You must use your edge within a period of no more than 10 minutes per level, at which time your preknowledge fades and you lose your edge.\nYou can use your precognitive edge in a variety of ways. Essentially, the edge translates into a +2 insight bonus that you can apply at any time to either an attack roll, a damage roll, a saving throw, or a skill check. You can elect to apply the bonus to the roll after you determine that your unmodified roll is lower than desired.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::082_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::084_clairsentience"
+}

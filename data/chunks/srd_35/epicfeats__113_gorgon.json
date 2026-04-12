@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::113_gorgon",
+  "document_id": "srd_35::epicfeats::113_gorgon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "Gorgon"
+    ],
+    "source_location": "EpicFeats.rtf#113_gorgon"
+  },
+  "chunk_type": "subsection",
+  "content": "Gray render\nSpecial: Creatures marked with an asterisk are available only in an aquatic environment.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::112_magical_beast_companion_wild_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::114_magical_beast_wild_shape_wild_epic"
+}

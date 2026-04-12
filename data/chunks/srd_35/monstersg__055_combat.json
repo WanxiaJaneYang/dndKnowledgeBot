@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::055_combat",
+  "document_id": "srd_35::monstersg::055_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Combat"
+    ],
+    "source_location": "MonstersG.rtf#055_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): 10-foot cube, cloud of poisonous gas lasting 1 round, free action once every 1d4+1 rounds; initial damage 1d4 Con, secondary damage 3d4 Con, Fortitude DC 19 negates. The save DC is Constitution-based.\nImmunity to Magic (Ex): An iron golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.\nA magical attack that deals electricity damage slows an iron golem (as the slow spell) for 3 rounds, with no saving throw.\nA magical attack that deals fire damage breaks any slow effect on the golem and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. For example, an iron golem hit by a fireball gains back 6 hit points if the damage total is 18 points. An iron golem gets no saving throw against fire effects.\nAn iron golem is affected normally by rust attacks, such as that of a rust monster or a rusting grasp spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::054_construction",
+  "next_chunk_id": "chunk::srd_35::monstersg::056_construction"
+}

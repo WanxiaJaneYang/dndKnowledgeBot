@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::016_troll_hunter",
+  "document_id": "srd_35::monsterst_z::016_troll_hunter",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "TROLL HUNTER"
+    ],
+    "source_location": "MonstersT-Z.rtf#016_troll_hunter"
+  },
+  "chunk_type": "subsection",
+  "content": "Some trolls, more cunning than most, are not satisfied with merely eating civilized beings but train to hunt them relentlessly. These troll hunters are fearsome rangers who focus on slaying and devouring humanoid prey.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::015_scrag",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::017_combat"
+}

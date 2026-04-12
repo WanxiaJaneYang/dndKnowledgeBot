@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::008_walls_doors_and_detect_spells",
+  "document_id": "srd_35::wildernessandenvironment::008_walls_doors_and_detect_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "WALLS, DOORS, AND DETECT SPELLS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#008_walls_doors_and_detect_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Stone walls, iron walls, and iron doors are usually thick enough to block most detect spells, such as detect thoughts. Wooden walls, wooden doors, and stone doors are usually not thick enough to do so. However, a secret stone door built into a wall and as thick as the wall itself (at least 1 foot) does block most detect spells.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::007_doors",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::009_rooms"
+}

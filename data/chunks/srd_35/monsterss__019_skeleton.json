@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::019_skeleton",
+  "document_id": "srd_35::monsterss::019_skeleton",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "SKELETON"
+    ],
+    "source_location": "MonstersS.rtf#019_skeleton"
+  },
+  "chunk_type": "subsection",
+  "content": "Skeletons are the animated bones of the dead, mindless automatons that obey the orders of their evil masters.\nA skeleton is seldom garbed in anything more than the rotting remnants of any clothing or armor it was wearing when slain. A skeleton does only what it is ordered to do. It can draw no conclusions of its own and takes no initiative. Because of this limitation, its instructions must always be simple. A skeleton attacks until destroyed.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::018_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::020_creating_a_skeleton"
+}

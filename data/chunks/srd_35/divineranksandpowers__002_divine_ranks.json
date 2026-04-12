@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineranksandpowers::002_divine_ranks",
+  "document_id": "srd_35::divineranksandpowers::002_divine_ranks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineRanksandPowers",
+      "Divine Ranks"
+    ],
+    "source_location": "DivineRanksandPowers.rtf#002_divine_ranks"
+  },
+  "chunk_type": "subsection",
+  "content": "Each deity has a divine rank. A deity's divine rank determines how much power the entity has.\nRank 0: Creatures of this rank are sometimes called quasi-deities or hero deities. Creatures that have a mortal and a deity as parents also fall into this category. These entities cannot grant spells, but are immortal and usually have one or more ability\nscores that are far above the norm for their species. They may have some worshipers. Ordinary mortals do not have a divine rank of 0. They lack a divine rank altogether.\nRank 1-5: These entities, called demigods, are the weakest of the deities. A demigod can grant spells and perform a few deeds that are beyond mortal limits. A demigod has anywhere from a few hundred to a few thousand devoted mortal worshipers and may receive veneration or respect from many more. A demigod controls a small godly realm (usually on an Outer Plane) and has minor control over a portfolio that includes one or more aspects of mortal existence. A demigod might be very accomplished in a single skill or a group of related skills, gain combat advantages in special circumstances, or be able to bring about minor changes in reality itself related to the portfolio.\nRank 6-10: Called lesser deities, these entities grant spells and can perform more powerful deeds than demigods can. Lesser deities have anywhere from a few thousand to tens of thousands of worshipers and control larger godly realms than demigods. They also have keener senses where their portfolios are concerned.\nRank 11-15: These entities are called intermediate deities. They have hundreds of thousands of mortal worshipers and control larger godly realms than demigods or lesser deities.\nRank 16-20: Called greater deities, these entities may have millions of mortal worshipers, and they command respect even among other deities. The most powerful of greater deities rule over other deities just as mortal sovereigns rule over commoners.\nRank 21+: These entities are beyond the ken of mortals and care nothing for worshipers. They do not grant spells, do not answer prayers, and do not respond to queries. If they are known at all, it is to a handful of scholars on the Material Plane. They are called overdeities. In some pantheistic systems, the consent of an overdeity is required to become a god.25",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineranksandpowers::001_divineranksandpowers",
+  "next_chunk_id": "chunk::srd_35::divineranksandpowers::003_divine_characteristics"
+}

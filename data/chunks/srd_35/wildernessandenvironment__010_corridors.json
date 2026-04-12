@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::010_corridors",
+  "document_id": "srd_35::wildernessandenvironment::010_corridors",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "CORRIDORS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#010_corridors"
+  },
+  "chunk_type": "subsection",
+  "content": "All dungeons have rooms, and most have corridors. While most corridors simply connect rooms, sometimes they can be encounter areas in their own right because of traps, guard patrols, and wandering monsters out on the hunt.\nCorridor Traps: Because passageways in dungeons tend to be narrow, offering few movement options, dungeon builders like to place traps in them. In a cramped passageway, there's no way for intruders to move around concealed pits, falling stones, arrow traps, tilting floors, and sliding or rolling rocks that fill the entire passage. For the same reason, magic traps such as glyphs of warding are effective in hallways as well.\nMazes: Usually, passages connect chambers in the simplest and straightest manner possible. Some dungeon builders, however, design a maze or a labyrinth within the dungeon. This sort of construction is difficult to navigate (or at least to navigate quickly) and, when filled with monsters or traps, can be an effective barrier.\nA maze can be used to cut off one area of the dungeon, deflecting intruders away from a protected spot. Generally, though, the far side of a maze holds an important crypt or vault--someplace that the dungeon's regular inhabitants rarely need to get to.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::009_rooms",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::011_miscellaneous_features"
+}

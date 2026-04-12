@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::015_combat_manifestation_psionic",
+  "document_id": "srd_35::psionicsfeats::015_combat_manifestation_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "COMBAT MANIFESTATION [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#015_combat_manifestation_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You are adept at manifesting powers in combat.\nBenefit: You get a +4 bonus on Concentration checks made to manifest a power or use a psi-like ability while on the defensive or while you are grappling or pinned.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::014_closed_mind_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::016_craft_cognizance_crystal_item_creation"
+}

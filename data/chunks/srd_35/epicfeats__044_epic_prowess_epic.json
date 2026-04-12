@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::044_epic_prowess_epic",
+  "document_id": "srd_35::epicfeats::044_epic_prowess_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC PROWESS [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#044_epic_prowess_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: Gain a +1 bonus on all attacks.\nSpecial: A character can gain this feat multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::043_epic_leadership_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::045_epic_psionic_focus_epic_psionic"
+}

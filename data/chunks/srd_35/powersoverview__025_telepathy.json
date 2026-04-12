@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::025_telepathy",
+  "document_id": "srd_35::powersoverview::025_telepathy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "Telepathy"
+    ],
+    "source_location": "PowersOverview.rtf#025_telepathy"
+  },
+  "chunk_type": "subsection",
+  "content": "Telepathy powers can spy on and affect the minds of others, influencing or controlling their behavior.\nMost telepathy powers are mind-affecting.\nFor the purpose of psionics-magic transparency, telepathy powers are equivalent to powers of the enchantment school (thus, creatures resistant to enchantment spells are equally resistant to telepathy powers).\nCharm: A power of the charm subdiscipline changes the way the subject views you, typically making it see you as a good friend.\nCompulsion: A power of the compulsion subdiscipline forces the subject to act in some manner or changes the way her mind works. Some compulsion powers determine the subject's actions or the effects on the subject, some allow you to determine the subject's actions when you manifest them, and others give you ongoing control over the subject.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::024_psychoportation",
+  "next_chunk_id": "chunk::srd_35::powersoverview::026_descriptor"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::009_7th_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::009_7th_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "7TH-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#009_7th_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Decerebrate: Remove portion of subject's brain stem.\nDivert Teleport: Choose destination for another's teleport.\nEnergy Conversion: Offensively channel energy you've absorbed.\nEnergy WaveA: Deal 13d4 damage of your chosen energy type in 120-ft. cone.\nEvade BurstA: You take no damage from a burst on a successful Reflex save.\nInsanityA: Subject is permanently confused.\nMind Blank, Personal: You are immune to scrying and mental effects.\nMoment of Prescience, Psionic: You gain insight bonus on single attack roll, check, or save.\nOak BodyA: Your body becomes as hard as oak.\nPhase Door, Psionic: Invisible passage through wood or stone.\nSequester, PsionicX: Subject invisible to sight and remote viewing; renders subject comatose.\nUltrablastA: Deal 13d6 damage in 15-ft. radius.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::008_6th_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::010_8th_level_psion_wilder_powers"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdi_do::003_dinosaur",
+  "document_id": "srd_35::monstersdi_do::003_dinosaur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDi-Do",
+      "DINOSAUR"
+    ],
+    "source_location": "MonstersDi-Do.rtf#003_dinosaur"
+  },
+  "chunk_type": "subsection",
+  "content": "Dinosaurs come in many sizes and shapes. Bigger varieties have drab coloration, while smaller dinosaurs have more colorful markings. Most dinosaurs have a pebbly skin texture.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdi_do::002_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdi_do::004_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::048_combat",
+  "document_id": "srd_35::monstersanimals::048_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#048_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Improved Grab (Ex): To use this ability, a tiger must hit with a claw or bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can rake.\nPounce (Ex): If a tiger charges a foe, it can make a full attack, including two rake attacks.\nRake (Ex): Attack bonus +9 melee, damage 1d8+3.\nSkills: Tigers have a +4 racial bonus on Balance, Hide, and Move Silently checks. *In areas of tall grass or heavy undergrowth, the Hide bonus improves to +8.\n\nHit Dice: | 1/4 d8 (1 hp) |\nInitiative: | +1 |\nSpeed: | 5 ft. (1 square) |\nArmor Class: | 15 (+4 size, +1 Dex), touch 15, flat-footed 14 |\nBase Attack/Grapple: | +0/-17 |\nAttack: | -- |\nFull Attack: | -- |\nSpace/Reach: | 1 ft./0 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Amphibious, low-light vision |\nSaves: | Fort +2, Ref +3, Will +2 |\nAbilities: | Str 1, Dex 12, Con 11, Int 1, Wis 14, Cha 4 |\nSkills: | Hide +21, Listen +4, Spot +4 |\nFeats: | Alertness |\nEnvironment: | Temperate marshes |\nOrganization: | Swarm (10-100) |\nChallenge Rating: | 1/10 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nThese diminutive amphibians are innocuous and beneficial, since they eat insects.\nSkills: A toad's coloration gives it a +4 racial bonus on Hide checks.\n\nHit Dice: | 1/2 d8 (2 hp) |\nInitiative: | +2 |\nSpeed: | 20 ft. (4 squares), climb 20 ft. |\nArmor Class: | 14 (+2 size, +2 Dex), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +0/-12 |\nAttack: | Bite +4 melee (1d3-4) |\nFull Attack: | Bite +4 melee (1d3-4) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | Attach |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +2, Ref +4, Will +1 |\nAbilities: | Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 5 |\nSkills: | Balance +10, Climb +10, Hide +11, Move Silently +8, Spot +3 |\nFeats: | Weapon Finesse |\nEnvironment: | Temperate hills |\nOrganization: | Solitary |\nChallenge Rating: | 1/4 |\nAdvancement: | -- |\nLevel Adjustment: | -- |\nThese little mammals are aggressive predators but usually confine themselves to smaller prey. The statistics presented here can also apply to ferrets.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::047_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::049_combat"
+}

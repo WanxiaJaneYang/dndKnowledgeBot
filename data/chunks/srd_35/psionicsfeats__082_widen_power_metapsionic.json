@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::082_widen_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::082_widen_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "WIDEN POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#082_widen_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can increase the area of your powers.\nBenefit: To use this feat, you must expend your psionic focus. You can alter a burst, emanation, line, or spread-shaped power to increase its area. (Powers that do not have an area of one of these four sorts are not affected by this feat.) Any numeric measurements of the power's area increase by 100%.\nUsing this feat increases the power point cost of the power by 4. The power's total cost cannot exceed your manifester level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::081_up_the_walls_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::083_wild_talent_general"
+}

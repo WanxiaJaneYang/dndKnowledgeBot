@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::039_inevitable",
+  "document_id": "srd_35::monstersh_i::039_inevitable",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "INEVITABLE"
+    ],
+    "source_location": "MonstersH-I.rtf#039_inevitable"
+  },
+  "chunk_type": "subsection",
+  "content": "Inevitables are constructs whose sole aim is to enforce the natural laws of the universe.\nEach type of inevitable is designed to find and punish a particular kind of transgression, hunting down a person or group that has violated a fundamental principle. When an inevitable is created, it receives its first mission, then finds the transgressors and metes out appropriate punishment. The sentence is usually death, although some inevitables insist on compensation to the wronged party instead, using geas and mark of justice to ensure compliance. From its first step, an inevitable focuses totally on its target. It continues its efforts no matter how cold the trail or hopeless the task. Inevitables are single-minded in pursuit of their quarry, but they are under orders to leave innocents alone. Accomplices to their prey are fair game, however, which sometimes creates conflicts within their programming.\nInevitables gladly sacrifice themselves to complete a mission, but they aren't suicidal. Faced with impending defeat, they are likely to withdraw and seek a way to even the odds. They are determined but patient foes. They ally with others if that helps accomplish their mission, but they have a hard time keeping allies for long.\nInevitables tend to stick out in a crowd while they're in observation mode, but they seem oblivious to the attention. Their forms vary, but all inevitables are gold-and-silver clockwork creatures, with gears and pistons where muscles would be on flesh-and-blood creatures. Their eyes glow with a golden radiance.\nNote that unlike most constructs, inevitables have an Intelligence score and can think, learn, and remember.\nInevitables speak Abyssal, Celestial, Infernal, and the native language of their first target.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::038_huge_magical_beast_cold",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::040_combat"
+}

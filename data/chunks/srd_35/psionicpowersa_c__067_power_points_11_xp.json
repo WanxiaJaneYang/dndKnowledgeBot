@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::067_power_points_11_xp",
+  "document_id": "srd_35::psionicpowersa_c::067_power_points_11_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 11, XP"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#067_power_points_11_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "You can place another power upon your person so that it comes into effect under some condition you dictate when manifesting psionic contingency. The psionic contingency power and the companion power are manifest at the same time. The 10-minute manifesting time is the minimum total for both manifestations; if the companion power has a manifesting time longer than 10 minutes, use that instead. The power to be brought into effect by the psionic contingency must be one that affects your person and be of a power level no higher than one-third your manifester level (rounded down, maximum 6th level).\nThe conditions needed to bring the power into effect must be clear, although they can be general. In all cases, the psionic contingency immediately brings into effect the companion power, the latter being \u201cmanifested\u201d instantaneously only when the prescribed circumstances occur. If complicated or convoluted conditions are prescribed, the power combination (psionic contingency and the companion power) may fail when called on.\nYou can use only one psionic contingency companion power at a time; if a second is manifested, the first one (if still active) is dismissed.\nXP Cost: 15 XP.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::066_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::068_display_mental"
+}

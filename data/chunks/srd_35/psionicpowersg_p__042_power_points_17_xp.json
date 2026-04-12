@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::042_power_points_17_xp",
+  "document_id": "srd_35::psionicpowersg_p::042_power_points_17_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 17, XP"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#042_power_points_17_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "You elevate your mind to a near-universal consciousness, cogitating countless impressions and predictions involving any creature you have seen before, whether personally or by means of another power such as remote viewing.\nThis process gives you an uncannily accurate vision of the creature's nature, activities, and whereabouts. When you manifest the power, you learn the following facts about the creature.\nIts name, race, alignment, and character class.\nA general estimate of its level or Hit Dice: low (5 HD or lower), medium (6 to 11 HD), high (12 to 20 HD), very high (21 HD to 40 HD), or deific (41 HD or higher).\nIts location (including place of residence, town, country, world, and plane of existence).\nSignificant items currently in its possession.\nAny significant activities or actions the creature has undertaken in the previous 8 hours, including details such as locales traveled through, the names or races of those the creature fought, spells it cast, items it acquired, and items it left behind (including the location of those items).\nA current mental view of the creature, as described in the remote viewing power, which you can maintain for up to 1 minute per level.\nMetafaculty can defeat spells, powers, and special abilities such as screen or mind blank (or even a wish spell) that normally obscure clairsentience powers. You can attempt a caster level check (DC 6 + caster level of the creator of the obscuring effect) to defeat these sorts of otherwise impervious defenses.\nMetafaculty is defeated by epic powers, epic spells, and epic special abilities that obscure divinations and clairsentience powers.\nXP Cost: 1,000.\n\nDisplay: Material and olfactory\nManifesting Time: 1 standard action\n\nDuration: 1 min./level (D) for a creature; 1 hour/level (D) for an object",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::041_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::043_power_points_7"
+}

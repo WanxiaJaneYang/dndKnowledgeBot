@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::024_combat",
+  "document_id": "srd_35::monstersd_de::024_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#024_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A chain devil attacks by flailing away with the spiked chains that serve as its clothing, armor, and weapons.\nA chain devil's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned\nfor the purpose of overcoming damage reduction.\nDancing Chains (Su): A chain devil's most awesome attack is its ability to control up to four chains within 20 feet as a standard action, making the chains dance or move as it wishes. In addition, a chain devil can increase these chains' length by up to 15 feet and cause them to sprout razor-edged barbs. These chains attack as effectively as the devil itself. If a chain is in another creature's possession, the creature can attempt a DC 15 Will save to break the chain devil's power over that chain. If the save is successful, the kyton cannot attempt to control that particular chain again for 24 hours or until the chain leaves the creature's possession. The save DC is Charisma-based.\nA chain devil can climb chains it controls at its normal speed without making Climb checks.\nUnnerving Gaze (Su): Range 30 ft., Will DC 15 negates. A chain devil can make its face resemble one of an opponent's departed loved ones or bitter enemies. Those who fail their saves take a -2 penalty on attack rolls for 1d3 rounds. The save DC is Charisma-based.\nRegeneration (Ex): Chain devils take normal damage from silvered weapons, good-aligned weapons, and spells or effects with the good descriptor. A chain devil that loses a piece of its body regrows it in 2d6x10 minutes. Holding the severed member against the stump enables it to reattach instantly.\nSkills: Chain devils have a +8 racial bonus on Craft checks involving metalwork.\n\nHit Dice: | 9d8+45 (85 hp) |\nInitiative: | +5 |\nSpeed: | 30 ft. (6 squares), fly 50 ft. (good) |\nArmor Class: | 23 (+5 Dex, +8 natural) touch 15, flat-footed 18 |\nBase Attack/Grapple: | +9/+14 |\nAttack: | Longsword +14 melee (1d8+5/19-20) or +1 flaming composite longbow (+5 Str bonus) +15 ranged (1d8+6/x3 plus 1d6 fire) or rope +14 ranged (entangle) |\nFull Attack: | Longsword +14/+9 melee (1d8+5/19-20) or +1 flaming composite longbow (+5 Str bonus) +15/+10 ranged (1d8+6/x3 plus 1d6 fire) or rope +14 ranged (entangle) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Entangle, spell-like abilities, summon devil |\nSpecial Qualities: | Damage reduction 5/good, darkvision 60 ft., immunity to fire and poison, resistance to acid 10 and cold 10, see in darkness, spell resistance 20, telepathy 100 ft., true seeing |\nSaves: | Fort +11, Ref +11, Will +10 |\nAbilities: | Str 21, Dex 21, Con 21, Int 14, Wis 18, Cha 20 |\nSkills: | Concentration +17, Diplomacy +7, Escape Artist +17, Hide +17, Knowledge (any two) +14, Listen +16, Move Silently +17, Search +14, Sense Motive +16, Spot +16, Survival +4 (+6 following tracks), Use Rope +5 (+7 with bindings) |\nFeats: | DodgeB, MobilityB, Point Blank Shot, Precise Shot, Rapid Shot, Shot on the Run |\nEnvironment: | A lawful evil-aligned plane |\nOrganization: | Solitary |\nChallenge Rating: | 8 |\nTreasure: | Standard, plus rope and +1 flaming composite longbow (+5 Str bonus) |\nAlignment: | Always lawful evil |\nAdvancement: | 10-18 HD (Medium) |\nLevel Adjustment: | +7 |\nUnlike other devils, erinyes appear attractive to humans, resembling very comely women or men. An erinyes stands about 6 feet tall and weighs about 150 pounds.\nErinyes speak Infernal, Celestial, and Draconic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::023_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::025_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::011_creating_a_half_celestial",
+  "document_id": "srd_35::monstersh_i::011_creating_a_half_celestial",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "CREATING A HALF-CELESTIAL"
+    ],
+    "source_location": "MonstersH-I.rtf#011_creating_a_half_celestial"
+  },
+  "chunk_type": "subsection",
+  "content": "\u201cHalf-celestial\u201d is an inherited template that can be added to any living, corporeal creature with an Intelligence score of 4 or higher and nonevil alignment (referred to hereafter as the base creature).\nA half-celestial uses all the base creature's statistics and special abilities except as noted here.\nSize and Type: The creature's type changes to outsider. Do not recalculate the creature's Hit Dice, base attack bonus, or saves. Size is unchanged. Half-celestials are normally native outsiders.\nSpeed: A half-celestial has feathered wings and can fly at twice the base creature's base land speed (good maneuverability). If the base creature has a fly speed, use that instead.\nArmor Class: Natural armor improves by +1 (this stacks with any natural armor bonus the base creature has).\nSpecial Attacks: A half-celestial retains all the special attacks of the base creature and also gains the following special abilities.\nDaylight (Su): Half-celestials can use a daylight effect (as the spell) at will.\nSmite Evil (Su): Once per day a half-celestial can make a normal melee attack to deal extra damage equal to its HD (maximum of +20) against an evil foe.\nSpell-Like Abilities: A half-celestial with an Intelligence or Wisdom score of 8 or higher has two or more spell-like abilities, depending on its Hit Dice, as indicated on the table below. The abilities are cumulative\nUnless otherwise noted, an ability is usable once per day. Caster level equals the creature's HD, and the save DC is Charisma-based.\nHD | Abilities |\n1-2 | Protection from evil 3/day, bless |\n3-4 | Aid, detect evil |\n5-6 | Cure serious wounds, neutralize poison |\n7-8 | Holy smite, remove disease |\n9-10 | Dispel evil |\n11-12 | Holy word |\n13-14 | Holy aura 3/day, hallow |\n15-16 | Mass charm monster |\n17-18 | Summon monster IX (celestials only) |\n19-20 | Resurrection |\nSpecial Qualities: A half-celestial has all the special qualities of the base creature, plus the following special qualities.\n--Darkvision out to 60 feet.\n--Immunity to disease.\n--Resistance to acid 10, cold 10, and electricity 10.\n--Damage reduction: 5/magic (if HD 11 or less) or 10/magic (if HD 12 or more).\n--A half-celestial's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\n--Spell resistance equal to creature's HD + 10 (maximum 35).\n-- +4 racial bonus on Fortitude saves against poison.\nAbilities: Increase from the base creature as follows: Str +4, Dex +2, Con +4, Int +2, Wis +4, Cha +4.\nSkills: A half-celestial gains skill points as an outsider and has skill points equal to (8 + Int modifier) x\uf020(HD +3). Do not include Hit Dice from class levels in this calculation--the half-celestial gains outsider skill points only for its racial Hit Dice, and gains the normal amount of skill points for its class levels. Treat skills from the base creature's list as class skills, and other skills as cross-class.\nChallenge Rating: HD 5 or less, as base creature +1; HD 6 to 10, as base creature +2; HD 11 or more, as base creature +3.\nAlignment: Always good (any).\nLevel Adjustment: Same as base creature +4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::010_half_celestial",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::012_half_dragon"
+}

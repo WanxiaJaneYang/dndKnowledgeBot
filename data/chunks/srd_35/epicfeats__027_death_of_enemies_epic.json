@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::027_death_of_enemies_epic",
+  "document_id": "srd_35::epicfeats::027_death_of_enemies_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DEATH OF ENEMIES [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#027_death_of_enemies_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Bane of Enemies, Survival 30 ranks, five or more favored enemies.\nBenefit: Any time the character scores a critical hit against one of his or her favored enemies, it must make a Fortitude save (DC 10 + 1/2 character's ranger class level + character's Wisdom modifier) or die instantly.\nSpecial: Creatures immune to critical hits can't be affected by this feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::026_deafening_song_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::028_devastating_critical_epic"
+}

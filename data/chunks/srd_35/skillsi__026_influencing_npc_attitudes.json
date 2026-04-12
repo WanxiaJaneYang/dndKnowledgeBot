@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::026_influencing_npc_attitudes",
+  "document_id": "srd_35::skillsi::026_influencing_npc_attitudes",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "INFLUENCING NPC ATTITUDES"
+    ],
+    "source_location": "SkillsI.rtf#026_influencing_npc_attitudes"
+  },
+  "chunk_type": "subsection",
+  "content": "Use the table below to determine the effectiveness of Diplomacy checks (or Charisma checks) made to influence the attitude of a nonplayer character, or wild empathy checks made to influence the attitude of an animal or magical beast.\nInitial Attitude | ---------- New Attitude (DC to achieve)---------- |\n| Hostile | Unfriendly | Indifferent | Friendly | Helpful |\nHostile | Less than 20 | 20 | 25 | 35 | 50 |\nUnfriendly | Less than 5 | 5 | 15 | 25 | 40 |\nIndifferent | -- | Less than 1 | 1 | 15 | 30 |\nFriendly | -- | -- | Less than 1 | 1 | 20 |\nHelpful | -- | -- | -- | Less than 1 | 1 |\nAttitude | Means | Possible Actions |\nHostile | Will take risks to hurt you | Attack, interfere, berate, flee |\nUnfriendly | Wishes you ill | Mislead, gossip, avoid, watch suspiciously, insult |\nIndifferent | Doesn't much care | Socially expected interaction |\nFriendly | Wishes you well | Chat, advise, offer limited help, advocate |\nHelpful | Will take risks to help you | Protect, back up, heal, aid |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::025_diplomacy_cha",
+  "next_chunk_id": "chunk::srd_35::skillsi::027_disable_device_int_trained_only"
+}

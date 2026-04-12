@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::008_combat",
+  "document_id": "srd_35::monstersanimals::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "Combat"
+    ],
+    "source_location": "MonstersAnimals.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A brown bear attacks mainly by tearing at opponents with its claws.\nImproved Grab (Ex): To use this ability, a brown bear must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nSkills: A brown bear has a +4 racial bonus on Swim checks.\n\nHit Dice: | 8d8+32 (68 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. (8 squares), swim 30 ft. |\nArmor Class: | 15 (-1 size, +1 Dex, +5 natural), touch 10, flat-footed 14 |\nBase Attack/Grapple: | +6/+18 |\nAttack: | Claw +13 (1d8+8) |\nFull Attack: | 2 claws +13 melee (1d8+8) and bite +8 melee (2d6+4) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab |\nSpecial Qualities: | Low-light vision, scent |\nSaves: | Fort +10, Ref +7, Will +3 |\nAbilities: | Str 27, Dex 13, Con 19, Int 2, Wis 12, Cha 6 |\nSkills: | Hide -2*, Listen +5, Spot +7, Swim +16 |\nFeats: | Endurance, Run, Track |\nEnvironment: | Cold plains |\nOrganization: | Solitary or pair |\nChallenge Rating: | 4 |\nAdvancement: | 9-12 HD (Large) |\nLevel Adjustment: | -- |\nThese long, lean carnivores are slightly taller than brown bears.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::007_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::009_combat"
+}

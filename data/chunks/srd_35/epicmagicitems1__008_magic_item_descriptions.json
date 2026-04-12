@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::008_magic_item_descriptions",
+  "document_id": "srd_35::epicmagicitems1::008_magic_item_descriptions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "MAGIC ITEM DESCRIPTIONS"
+    ],
+    "source_location": "EpicMagicItems1.rtf#008_magic_item_descriptions"
+  },
+  "chunk_type": "subsection",
+  "content": "In the following sections, each general type of magic item, such as armor or scrolls, has an overall description, followed by descriptions of specific items, if any. Each magic item description and table follows the same format used for nonepic magic items. Specific exceptions are noted as necessary.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::007_experience_point_cost",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::009_armor"
+}

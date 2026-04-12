@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::041_combat",
+  "document_id": "srd_35::monsterso_r::041_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#041_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A roper hunts by standing very still and imitating a bit of rock. This tactic often allows it to attack with surprise. When prey comes within reach, it lashes out with its strands. In melee, it bites adjacent opponents with its powerful maw.\nDrag (Ex): If a roper hits with a strand attack, the strand latches onto the opponent's body. This deals no damage but drags the stuck opponent 10 feet closer each subsequent round (provoking no attack of opportunity) unless that creature breaks free, which requires a DC 23 Escape Artist check or a DC 19 Strength check. The check DCs are Strength-based, and the Escape Artist DC includes a +4 racial bonus. A roper can draw in a creature within 10 feet of itself and bite with a +4 attack bonus in the same round. A strand has 10 hit points and can be attacked by making a successful sunder attempt. However, attacking a roper's strand does not provoke an attack of opportunity. If the strand is currently attached to a target, the roper takes a -4 penalty on its opposed attack roll to resist the sunder attempt. Severing a strand deals no damage to a roper.\nStrands (Ex): Most encounters with a roper begin when it fires strong, sticky strands. The creature can have up to six strands at once, and they can strike up to 50 feet away (no range increment). If a strand is severed, the roper can extrude a new one on its next turn as a free action.\nWeakness (Ex): A roper's strands can sap an opponent's strength. Anyone grabbed by a strand must succeed on a DC 18 Fortitude save or take 2d8 points of Strength damage. The save DC is Constitution-based.\nSkills: *Ropers have a +8 racial bonus on Hide checks in stony or icy areas.\n\nHit Dice: | 5d8+5 (27 hp) |\nInitiative: | +3 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 18 (+3 Dex, +5 natural), touch 13, flat-footed 15 |\nBase Attack/Grapple: | +3/+3 |\nAttack: | Antennae touch +3 melee (rust) |\nFull Attack: | Antennae touch +3 melee (rust) and bite -2 melee (1d3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Rust |\nSpecial Qualities: | Darkvision, scent |\nSaves: | Fort +2, Ref +4, Will +5 |\nAbilities: | Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 8 |\nSkills: | Listen +7, Spot +7 |\nFeats: | Alertness, Track |\nEnvironment: | Underground |\nOrganization: | Solitary or pair |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 6-8 HD (Medium); 9-15 HD (Large) |\nLevel Adjustment: | -- |\nThe hide of these creatures varies in color from a yellowish tan underside to a rust-red upper back. A rust monster's prehensile antennae can rust metals on contact.\nThe typical rust monster measures 5 feet long and 3 feet high, weighing 200 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::040_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::042_combat"
+}

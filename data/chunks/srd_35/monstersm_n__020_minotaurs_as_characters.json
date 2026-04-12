@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::020_minotaurs_as_characters",
+  "document_id": "srd_35::monstersm_n::020_minotaurs_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "MINOTAURS AS CHARACTERS"
+    ],
+    "source_location": "MonstersM-N.rtf#020_minotaurs_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Minotaur characters possess the following racial traits.\n-- +8 Strength, +4 Constitution, -4 Intelligence (minimum 3), -2 Charisma.\n--Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on Hide checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.\n--Space/Reach: 10 feet/10 feet.\n--A minotaur's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Racial Hit Dice: A minotaur begins with six levels of monstrous humanoid, which provide 6d8 Hit Dice, a base attack bonus of +6, and base saving throw bonuses of Fort +2, Ref +5, and Will +5.\n--Racial Skills: A minotaur's monstrous humanoid levels give it skill points equal to 9 x \uf020(2 + Int modifier, minimum 1). Its class skills are Intimidate, Jump, Listen, Search, and Spot. Minotaurs have a +4 racial bonus on Search, Spot, and Listen checks.\n--Racial Feats: A minotaur's monstrous humanoid levels give it three feats.\n--Weapon Proficiency: A minotaur is proficient with the greataxe and all simple weapons.\n-- +5 natural armor bonus.\n--Natural Weapons: Gore (1d8).\n--Special Attacks (see above): Powerful charge.\n--Special Qualities (see above): Natural cunning, scent.\n--Automatic Languages: Common, Giant. Bonus Languages: Orc, Goblin, Terran.\n--Favored Class: Barbarian.\n--Level adjustment +2.\n\nHit Dice: | 14d12 (91 hp) |\nInitiative: | +9 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 23 (+4 Dex, +9 natural), touch 14, flat-footed 14 |\nBase Attack/Grapple: | +7/+12 |\nAttack: | Slam +12 melee (1d6+7) or tongue +12 melee touch (paralysis) |\nFull Attack: | Slam +12 melee (1d6+7) and tongue +12 melee touch (paralysis) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Improved grab, paralyzing touch, create spawn |\nSpecial Qualities: | Darkvision 60 ft., undead traits |\nSaves: | Fort +4, Ref +10, Will +9 |\nAbilities: | Str 21, Dex 19, Con --, Int 11, Wis 10, Cha 10 |\nSkills: | Climb +13, Hide +21, Listen +11, Move Silently +21, Spot +15, Swim +9 |\nFeats: | Alertness, Dodge, Improved Initiative, Lightning Reflexes, Mobility |\nEnvironment: | Any |\nOrganization: | Solitary, gang (2-4), or mob (2-4 plus 5-10 zombies) |\nChallenge Rating: | 8 |\nTreasure: | None |\nAlignment: | Always chaotic evil |\nAdvancement: | 15-21 HD (Medium); 22-28 HD (Large) |\nLevel Adjustment: | -- |\nMohrgs are the animated corpses of mass murderers or similar villains who died without atoning for their crimes. Most mohrgs are 5 to 6 feet tall and weigh about 120 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::019_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::021_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::009_combat",
+  "document_id": "srd_35::monstersm_n::009_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#009_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Breath Weapon (Su): 15-foot cone of rock shards and pebbles, damage 1d8, Reflex DC 13 half. The save DC is Constitution-based and includes a +1 racial bonus.\nSpell-Like Abilities: 1/day--soften earth and stone. Caster level 6th.\nChange Size (Sp): Once per hour, an earth mephit can magically change its size. This works just like an enlarge person spell, except that the power works only on the earth mephit. This is the equivalent of a 2nd-level spell.\nFast Healing (Ex): An earth mephit heals only if it is underground or buried up to its waist in earth.\n\nHit Dice: | 3d8 (13 hp) |\nInitiative: | +5 |\nSpeed: | 30 ft. (6 squares), fly 50 ft. (average) |\nArmor Class: | 16 (+1 size, +1 Dex, +4 natural), touch 12, flat-footed 15 |\nBase Attack/Grapple: | +3/-1 |\nAttack: | Claw +4 melee (1d3 and 1d4 fire) |\nFull Attack: | 2 claws +4 melee (1d3 and 1d4 fire) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Breath weapon, spell-like abilities, summon mephit |\nSpecial Qualities: | Damage reduction 5/magic, darkvision 60 ft., immunity to fire, fast healing 2, vulnerability to cold |\nSaves: | Fort +3, Ref +4, Will +3 |\nAbilities: | Str 10, Dex 13, Con 10, Int 6, Wis 11, Cha 15 |\nSkills: | Bluff +8, Escape Artist +7, Hide +11, Listen +6, Diplomacy +4, Disguise +2 (+4 acting), Move Silently +7, Spot +6, Use Rope +1 (+3 with bindings) |\nFeats: | Dodge, Improved Initiative |\nEnvironment: | Elemental Plane of Fire |\nOrganization: | Solitary (1), gang (2-4 mephits of mixed types), or mob (5-12 mephits of mixed types) |\nChallenge Rating: | 3 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | 4-6 HD (Small); 7-9 HD (Medium) |\nLevel Adjustment: | +3 (cohort) |\nFire mephits come from the Elemental Plane of Fire.\nA fire mephit is about 4 feet tall and weighs about 1 pound.\nFire mephits speak Common and Ignan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::008_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::010_combat"
+}

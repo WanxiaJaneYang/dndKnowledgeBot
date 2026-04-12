@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::009_strength_str",
+  "document_id": "srd_35::basics::009_strength_str",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "STRENGTH (STR)"
+    ],
+    "source_location": "Basics.rtf#009_strength_str"
+  },
+  "chunk_type": "subsection",
+  "content": "Strength measures your character's muscle and physical power. This ability is especially important for fighters, barbarians, paladins, rangers, and monks because it helps them prevail in combat. Strength also limits the amount of equipment your character can carry.\nYou apply your character's Strength modifier to:\nMelee attack rolls.\nDamage rolls when using a melee weapon or a thrown weapon (including a sling). (Exceptions: Off-hand attacks receive only one-half the character's Strength bonus, while two-handed attacks receive one and a half times the Strength bonus. A Strength penalty, but not a bonus, applies to attacks made with a bow that is not a composite bow.)\nClimb, Jump, and Swim checks. These are the skills that have Strength as their key ability.\nStrength checks (for breaking down doors and the like).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::008_the_abilities",
+  "next_chunk_id": "chunk::srd_35::basics::010_dexterity_dex"
+}

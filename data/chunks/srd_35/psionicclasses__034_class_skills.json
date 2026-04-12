@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::034_class_skills",
+  "document_id": "srd_35::psionicclasses::034_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#034_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The pyrokineticist's class skills (and the key ability for each skill) are Climb (Str), Concentration (Con), Craft (any) (Int), Intimidate (Cha), Jump (Str), and Psicraft (Int).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Pyrokineticist |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |\n1st | +0 | +2 | +2 | +0 | Fire lash |\n2nd | +1 | +3 | +3 | +0 | Fire adaptation, hand afire |\n3rd | +2 | +3 | +3 | +1 | Bolt of fire |\n4th | +3 | +4 | +4 | +1 | Weapon afire |\n5th | +3 | +4 | +4 | +1 | Nimbus |\n6th | +4 | +5 | +5 | +2 | Firewalk |\n7th | +5 | +5 | +5 | +2 | Fear no fire |\n8th | +6 | +6 | +6 | +2 | Greater weapon afire |\n9th | +6 | +6 | +6 | +3 | Heat death |\n10th | +7 | +7 | +7 | +3 | Conflagration |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::033_requirements",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::035_class_features"
+}

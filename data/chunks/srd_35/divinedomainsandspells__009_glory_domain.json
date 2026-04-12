@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::009_glory_domain",
+  "document_id": "srd_35::divinedomainsandspells::009_glory_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "GLORY DOMAIN"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#009_glory_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Power: Turn undead with a +2 bonus on the turning check and +1d6 to the turning damage roll.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::008_3_blacklight",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::010_glory_domain_spells"
+}

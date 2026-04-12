@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::083_see_magic",
+  "document_id": "srd_35::divineabilitiesandfeats::083_see_magic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "See Magic"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#083_see_magic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Magic domain.\nBenefit: This ability is similar to a constant greater arcane sight spell, except that it covers the whole area the deity can see, and the deity immediately knows the number of auras present along with their locations and strengths. The deity needs to make a Spellcraft check to identify the school of each aura, but most deities with this ability can use Spellcraft as a free action.\nSuggested Portfolio Elements: Magic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::082_rejuvenation",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::084_shapechange"
+}

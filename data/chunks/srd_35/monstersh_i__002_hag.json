@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::002_hag",
+  "document_id": "srd_35::monstersh_i::002_hag",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HAG"
+    ],
+    "source_location": "MonstersH-I.rtf#002_hag"
+  },
+  "chunk_type": "subsection",
+  "content": "Although different hags are unique in appearance and mannerism, they have many aspects in common. All take the form of crones whose bent shapes belie their fierce power and swiftness.\nHags speak Giant and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::001_monstersh_i",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::003_combat"
+}

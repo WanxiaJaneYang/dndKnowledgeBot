@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::070_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::070_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#070_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "As energy adaptation, except you must choose one type of energy to which you gain resistance when this power is manifested.\nThis power's subtype is the same as the type of damage it protects against.\nAugment: If you spend 4 additional power points, you can manifest this power as an immediate action.\nEnergy Ball\nPsychokinesis [see text]",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::069_energy_adaptation_specified",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::071_display_auditory"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::008_adamantine_golem",
+  "document_id": "srd_35::epicmonsters_g_w::008_adamantine_golem",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "ADAMANTINE GOLEM"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#008_adamantine_golem"
+  },
+  "chunk_type": "subsection",
+  "content": "An adamantine golem cannot speak or make any vocal noise, nor does it have any distinguishable odor.\nAn adamantine golem's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::007_construction",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::009_combat"
+}

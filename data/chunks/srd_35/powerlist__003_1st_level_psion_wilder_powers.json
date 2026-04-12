@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::003_1st_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::003_1st_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "1ST-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#003_1st_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Astral Traveler: Enable yourself or another to join an astral caravan-enabled trip.\nAttractionA: Subject has an attraction you specify.\nBoltA: You create a few enhanced short-lived bolts, arrows, or bullets.\nCall to Mind: Gain additional Knowledge check with +4 competence bonus.\nCatfallA: Instantly save yourself from a fall.\nConceal Thoughts: You conceal your motives.\nControl FlamesA: Take control of nearby open flame.\nControl Light: Adjust ambient light levels.\nCreate Sound: Create the sound you desire.\nCrystal ShardA: Ranged touch attack for 1d6 points of piercing damage.\nDaze, PsionicA: Humanoid creature of 4 HD or less loses next action.\nDecelerationA: Target's speed is halved.\nD\u00e9j\u00e0 VuA: Your target repeats his last action.\nDemoralizeA: Enemies become shaken.\nDetect Psionics: You detect the presence of psionics.\nDisableA: Subjects incorrectly believe they are disabled.\nDissipating TouchA: Touch deals 1d6 damage.\nDistract: Target gets -4 bonus on Listen, Search, Sense Motive, and Spot checks.\nEcto ProtectionA: An astral construct gains bonus against dismiss ectoplasm.\nEmpathyA: You know the subject's surface emotions.\nEmpty MindA: You gain +2 on Will saves until your next action.\nEnergy RayA: Deal 1d6 energy (cold, electricity, fire, or sonic) damage.\nEntangling Ectoplasm: You entangle a foe in sticky goo.\nFar HandA: Move small objects at a limited distance.\nFloatA: You buoy yourself in water or other liquid.\nForce ScreenA: Invisible disc provides +4 shield bonus to AC.\nGrease, Psionic: Makes 10-ft. square or one object slippery.\nHammerA: Melee touch attack deals 1d8/round.\nInertial ArmorA: Tangible field of force provides you with +4 armor bonus to AC.\nKnow Direction and Location: You discover where you are and what direction you face.\nMatter Agitation: You heat a creature or object.\nMind ThrustA: Deal 1d10 damage.\nMissiveA: Send a one-way telepathic message to subject.\nMy LightA: Your eyes emit 20-ft. cone of light.\nPrecognition, DefensiveA: Gain +1 insight bonus to AC and saving throws.\nPrecognitionion, OffensiveA: Gain +1 insight bonus on your attack rolls.\nPrescience, OffensiveA: Gain +2 insight bonus on your damage rolls.\nSense LinkA: You sense what the subject senses (single sense).\nSkate: Subject slides skillfully along the ground.\nSynesthete: You receive one kind of sense when another sense is stimulated.\nTelempathic Projection: Alter the subject's mood.\nVigorA: Gain 5 temporary hit points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::002_power_list",
+  "next_chunk_id": "chunk::srd_35::powerlist::004_2nd_level_psion_wilder_powers"
+}

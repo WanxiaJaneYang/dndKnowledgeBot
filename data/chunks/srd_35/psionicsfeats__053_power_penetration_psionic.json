@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::053_power_penetration_psionic",
+  "document_id": "srd_35::psionicsfeats::053_power_penetration_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "POWER PENETRATION [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#053_power_penetration_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your powers are especially potent, breaking through power resistance more readily than normal.\nBenefit: To use this feat, you must expend your psionic focus. You get a +4 bonus on manifester level checks made to overcome a creature's power resistance.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::052_overchannel_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::054_power_specialization_psionic"
+}

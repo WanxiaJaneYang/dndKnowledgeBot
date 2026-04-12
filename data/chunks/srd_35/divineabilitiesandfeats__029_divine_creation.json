@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::029_divine_creation",
+  "document_id": "srd_35::divineabilitiesandfeats::029_divine_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Creation"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#029_divine_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 16, Int 29, Create Object salient divine ability, Create Greater Object salient divine ability.\nBenefit: As a full-round action, the deity can create mortal creatures or magic items whose total weight is up to 100 pounds per divine rank, or with a total volume of 20 cubic feet per rank. If the deity uses this ability on a divinely morphic plane or within its\nown godly realm, double the volume and weight the deity can create. If the deity's realm is located on a divinely morphic plane, triple the volume and weight the deity can create there.\nNotes: This ability works like the Create Greater Object ability, except as noted below.\nA deity can use this ability to create any kind of creature that does not have a divine rank. The deity can create a creature with class levels, but never with more class levels than the deity has itself or the deity's divine rank, whichever is lower.\nRest: The deity must convert a considerable amount of its own energy into a creature, which always leaves the deity impaired. The deity must rest for 10 minutes \u00d7the creature's Hit Dice \u00d7the creature's Challenge Rating for each creature created, with a minimum of 10 minutes per creature. If the creature has class levels, each level counts as an additional Hit Die.\nThe deity can create any kind of magic item except an artifact.\nThe rest requirement for creating magic items is the same as for the Create Greater object ability.\nSuggested Portfolio Elements: Crafts, creation, supreme.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::028_divine_celerity",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::030_divine_dodge"
+}

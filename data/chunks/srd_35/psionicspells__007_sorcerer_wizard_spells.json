@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicspells::007_sorcerer_wizard_spells",
+  "document_id": "srd_35::psionicspells::007_sorcerer_wizard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicSpells",
+      "SORCERER/WIZARD SPELLS"
+    ],
+    "source_location": "PsionicSpells.rtf#007_sorcerer_wizard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "3rd-Level Sorcerer/Wizard Spell\nTelepathic Bond, Lesser: As telepathic bond, but you and one other creature.\n4th-Level Sorcerer/Wizard Spell\nDweomer of Transference: Convert spellcasting into psionic power points.\n5th-Level Sorcerer/Wizard Spell\nPsychic Turmoil: Invisible field leeches psionic power points away.\n6th-Level Sorcerer/Wizard Spells\nMental PinnacleM: You gain the mental powers of a psion.\nProbe Thoughts: Read subject's memories, one question/ round.\n7th-Level Sorcerer/Wizard Spell\nPsychic Turmoil, Greater: As psychic turmoil, but you gain power points as temporary hit points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicspells::006_mind_domain_spells",
+  "next_chunk_id": "chunk::srd_35::psionicspells::008_spell_descriptions"
+}

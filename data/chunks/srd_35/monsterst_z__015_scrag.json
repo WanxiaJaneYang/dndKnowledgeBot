@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::015_scrag",
+  "document_id": "srd_35::monsterst_z::015_scrag",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "SCRAG"
+    ],
+    "source_location": "MonstersT-Z.rtf#015_scrag"
+  },
+  "chunk_type": "subsection",
+  "content": "These cousins of the troll have the aquatic subtype. They dwell in any body of water in any climate. They have a base land speed of 20 feet and a swim speed of 40 feet and are found only in aquatic environments. They regenerate only if mostly immersed in water.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::014_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::016_troll_hunter"
+}

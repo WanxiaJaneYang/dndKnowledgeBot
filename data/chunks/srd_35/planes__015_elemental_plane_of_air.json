@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::015_elemental_plane_of_air",
+  "document_id": "srd_35::planes::015_elemental_plane_of_air",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "ELEMENTAL PLANE OF AIR"
+    ],
+    "source_location": "Planes.rtf#015_elemental_plane_of_air"
+  },
+  "chunk_type": "subsection",
+  "content": "The Elemental Plane of Air is an empty plane, consisting of sky above and sky below.\nThe Elemental Plane of Air is the most comfortable and survivable of the Inner Planes, and it is the home of all manner of airborne creatures. Indeed, flying creatures find themselves at a great advantage on this plane. While travelers without flight can survive easily here, they are at a disadvantage.\nThe Elemental Plane of Air has the following traits.\nSubjective directional gravity. Inhabitants of the plane determine their own \u201cdown\u201d direction. Objects not under the motive force of others do not move.\nAir-dominant.\nEnhanced magic. Spells and spell-like abilities that use, manipulate, or create air (including spells of the Air domain) are both empowered and enlarged (as if the Empower Spell and Enlarge Spell metamagic feats had been used on them, but the spells don't require higher-level slots).\nImpeded magic. Spells and spell-like abilities that use or create earth (including spells of the Earth domain and spells that summon earth elementals or outsiders with the earth subtype) are impeded.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::014_the_astral_plane",
+  "next_chunk_id": "chunk::srd_35::planes::016_elemental_plane_of_earth"
+}

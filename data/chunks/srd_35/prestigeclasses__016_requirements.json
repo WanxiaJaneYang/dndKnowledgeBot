@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::016_requirements",
+  "document_id": "srd_35::prestigeclasses::016_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#016_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a blackguard, a character must fulfill all the following criteria.\nAlignment: Any evil.\nBase Attack Bonus: +6.\nSkills: Hide 5 ranks, Knowledge (religion) 2 ranks.\nFeats: Cleave, Improved Sunder, Power Attack.\nSpecial: The character must have made peaceful contact with an evil outsider who was summoned by him or someone else.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::015_assassin_spell_list",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::017_class_skills"
+}

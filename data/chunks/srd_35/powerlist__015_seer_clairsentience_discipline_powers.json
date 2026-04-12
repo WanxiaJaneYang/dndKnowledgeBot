@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::015_seer_clairsentience_discipline_powers",
+  "document_id": "srd_35::powerlist::015_seer_clairsentience_discipline_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "SEER (CLAIRSENTIENCE) DISCIPLINE POWERS"
+    ],
+    "source_location": "PowerList.rtf#015_seer_clairsentience_discipline_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "1\tDestiny Dissonance: Your dissonant touch sickens a foe.\nPrecognition: Gain +2 insight bonus to one roll.\n2\tClairvoyant Sense: See and hear a distant location.\nObject ReadingA: Learn details about an object's previous owner.\nSensitivity to Psychic Impressions: You can find out about an area's past.\n3\tEscape Detection: You become difficult to detect with clairsentience powers.\nFate LinkA: You link the fates of two targets.\n4\tAnchored NavigationA: Establish a mishap-free teleport beacon.\nRemote ViewingX: See, hear, and potentially interact with subjects at a distance.\n5\tClairtangent HandA: Emulate far hand at a distance.\nSecond ChanceX: Gain a reroll.\n6\tPrecognition, Greater: Gain +4 insight bonus to one roll.\n7\tFate of One: Reroll any roll you just failed.\n8\tHypercognition: You can deduce almost anything.\n9\tMetafacultyX: You learn details about any one creature.\nReality RevisionX: Break the laws of reality.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::014_nomad_psychoportation_discipline_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::016_shaper_metacreativity_discipline_powers"
+}

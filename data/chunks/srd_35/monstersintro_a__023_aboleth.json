@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::023_aboleth",
+  "document_id": "srd_35::monstersintro_a::023_aboleth",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "ABOLETH"
+    ],
+    "source_location": "MonstersIntro-A.rtf#023_aboleth"
+  },
+  "chunk_type": "subsection",
+  "content": "| Aboleth | Aboleth Mage, 10th-Level Wizard |\n| Huge Aberration (Aquatic) | Huge Aberration (Aquatic) |\nHit Dice: | 8d8+40 (76 hp) | 8d8+56 plus 10d4+70 (177 hp) |\nInitiative: | +1 | +7 |\nSpeed: | 10 ft. (2 squares), swim 60 ft. | 10 ft. (2 squares), swim 60 ft. |\nArmor Class: | 16 (-2 size, +1 Dex, +7 natural), touch 9, flat-footed 15 | 18 (-2 size, +3 Dex, +7 natural), touch 11, flat-footed 15 |\nBase Attack/Grapple: | +6/+22 | +11/+28 |\nAttack: | Tentacle +12 melee (1d6+8 plus slime) | Tentacle +18 melee (1d6+9 plus slime) |\nFull Attack: | 4 tentacles +12 melee (1d6+8 plus slime) | 4 tentacles +18 melee (1d6+9 plus slime) |\nSpace/Reach: | 15 ft./10 ft. | 15 ft./10 ft. |\nSpecial Attacks: | Enslave, psionics, slime | Enslave, psionics, slime, spells |\nSpecial Qualities: | Aquatic subtype, darkvision 60 ft., mucus cloud | Aquatic subtype, darkvision 60 ft., mucus cloud, summon familiar |\nSaves: | Fort +7, Ref +3, Will +11 | Fort +15, Ref +10, Will +15 |\nAbilities: | Str 26, Dex 12, Con 20, Int 15, Wis 17, Cha 17 | Str 28, Dex 16, Con 24, Int 20, Wis 16, Cha 14 |\nSkills: | Concentration +16, Knowledge (any one) +13, Listen +16, Spot +16, Swim +8 | Bluff +13, Concentration +25, Decipher Script +15, Diplomacy +6, Disguise +2 (+4 acting), Intimidate +4, Knowledge (arcana) +15, Knowledge (dungeoneering) +25, Knowledge (history) +15, Knowledge (the planes) +15, Listen +15, Search +10, Sense Motive +15, Spellcraft +20, Spot +17, Survival +3 (+5 following tracks, on other planes, and underground), Swim +8 |\nFeats: | Alertness, Combat Casting, Iron Will | Combat Casting, Empower Spell, Eschew Materials, Great Fortitude, Improved Initiative, Lightning Reflexes, Scribe Scroll, Spell Focus (illusion), Spell Focus (enchantment), Spell Penetration |\nEnvironment | Underground | Underground |\nOrganization: | Solitary, brood (2-4),or slaver brood (1d3+1 plus 7-12 skum) | Solitary |\nChallenge Rating: | 7 | 17 |\nTreasure: | Double standard | Double standard |\nAlignment: | Usually lawful evil | Usually lawful evil |\nAdvancement: | 9-16 HD (Huge); 17-24 HD (Gargantuan) | By character class |\nLevel Adjustment: | -- | -- |\nThe aboleth is a revolting fishlike amphibian found primarily in subterranean lakes and rivers. An aboleth has a pink belly. Four pulsating blueblack orifices line the bottom of its body and secrete gray slime that smells like rancid grease. It uses its tail for propulsion in the water and drags itself along with its tentacles on land. An aboleth weighs about 6,500 pounds.\nAboleths speak their own language, as well as Undercommon and Aquan.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::022_level_adjustment",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::024_combat"
+}

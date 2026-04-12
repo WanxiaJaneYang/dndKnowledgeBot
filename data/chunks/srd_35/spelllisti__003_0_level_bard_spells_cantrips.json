@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::003_0_level_bard_spells_cantrips",
+  "document_id": "srd_35::spelllisti::003_0_level_bard_spells_cantrips",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "0-LEVEL BARD SPELLS (CANTRIPS)"
+    ],
+    "source_location": "SpellListI.rtf#003_0_level_bard_spells_cantrips"
+  },
+  "chunk_type": "subsection",
+  "content": "Dancing Lights: Creates torches or other lights.\nDaze: Humanoid creature of 4 HD or less loses next action.\nDetect Magic: Detects spells and magic items within 60 ft.\nFlare: Dazzles one creature (-1 on attack rolls).\nGhost Sound: Figment sounds.\nKnow Direction: You discern north.\nLight: Object shines like a torch.\nLullaby: Makes subject drowsy; -5 on Spot and Listen checks, -2 on Will saves against sleep.\nMage Hand: 5-pound telekinesis.\nMending: Makes minor repairs on an object.\nMessage: Whispered conversation at distance.\nOpen/Close: Opens or closes small or light things.\nPrestidigitation: Performs minor tricks.\nRead Magic: Read scrolls and spellbooks.\nResistance: Subject gains +1 on saving throws.\nSummon Instrument: Summons one instrument of the caster's choice.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::002_spell_list_i",
+  "next_chunk_id": "chunk::srd_35::spelllisti::004_1st_level_bard_spells"
+}

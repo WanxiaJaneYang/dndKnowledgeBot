@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::014_nonassociated_class_levels",
+  "document_id": "srd_35::improving_monsters::014_nonassociated_class_levels",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "Nonassociated Class Levels"
+    ],
+    "source_location": "Improving Monsters.rtf#014_nonassociated_class_levels"
+  },
+  "chunk_type": "subsection",
+  "content": "If you add a class level that doesn't directly play to a creature's strength the class level is considered nonassociated, and things get a little more complicated. Adding a nonassociated class level to a monster increases its CR by 1/2 per level until one of its nonassociated class levels equals its original Hit Dice. At that point, each additional level of the same class or a similar one is considered associated and increases the monster's CR by 1.\nLevels in NPC classes are always treated as nonassociated.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::013_associated_class_levels",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::015_adding_hit_dice"
+}

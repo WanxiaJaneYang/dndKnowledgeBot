@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::043_cold_dangers",
+  "document_id": "srd_35::wildernessandenvironment::043_cold_dangers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "COLD DANGERS"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#043_cold_dangers"
+  },
+  "chunk_type": "subsection",
+  "content": "Cold and exposure deal nonlethal damage to the victim. This nonlethal damage cannot be recovered until the character gets out of the cold and warms up again. Once a character is rendered unconscious through the accumulation of nonlethal damage, the cold and exposure begins to deal lethal damage at the same rate.\nAn unprotected character in cold weather (below 40\u00b0 F) must make a Fortitude save each hour (DC 15, + 1 per previous check) or take 1d6 points of nonlethal damage. A character who has the Survival skill may receive a bonus on this saving throw and may be able to apply this bonus to other characters as well (see the skill Description).\nIn conditions of severe cold or exposure (below 0\u00b0 F), an unprotected character must make a Fortitude save once every 10 minutes (DC 15, +1 per previous check), taking 1d6 points of nonlethal damage on each failed save. A character who has the Survival skill may receive a bonus on this saving throw and may be able to apply this bonus to other characters as well (see the skill description). Characters wearing winter clothing only need check once per hour for cold and exposure damage.\nA character who takes any nonlethal damage from cold or exposure is beset by frostbite or hypothermia (treat her as fatigued). These penalties end when the character recovers the nonlethal damage she took from the cold and exposure.\nExtreme cold (below -20\u00b0 F) deals 1d6 points of lethal damage per minute (no save). In addition, a character must make a Fortitude save (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. Those wearing metal armor or coming into contact with very cold metal are affected as if by a chill metal spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::042_acid_effects",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::044_ice_effects"
+}

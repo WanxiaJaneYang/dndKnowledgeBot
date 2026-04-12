@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::026_combat",
+  "document_id": "srd_35::monstersb_c::026_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#026_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A cockatrice fiercely attacks anything that it deems a threat to itself or its lair. Flocks of cockatrices do their utmost to overwhelm and confuse their foes, and sometimes fly directly into their opponents' faces.\nPetrification (Su): Creatures hit by a cockatrice's bite attack must succeed on a DC 12 Fortitude save or instantly turn to stone. The save DC is Constitution-based. Cockatrices have immunity to the petrification ability of other cockatrices, but other petrification attacks affect them normally.\n\nHit Dice: | 9d8+18 (58 hp) |\nInitiative: | +7 |\nSpeed: | 20 ft. (4 squares), fly 60 ft. (good) |\nArmor Class: | 21 (-1 size, +3 Dex, +9 natural), touch 12, flat-footed 18 |\nBase Attack/Grapple: | +9/+17 |\nAttack: | Bite +12 melee (1d3+6 plus poison) |\nFull Attack: | Bite +12 melee (1d3+6 plus poison) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Constrict 2d8+6, improved grab, poison, psionics, spells |\nSpecial Qualities: | Darkvision 60 ft., ethereal jaunt, telepathy 90 ft. |\nSaves: | Fort +8, Ref +9, Will +10 |\nAbilities: | Str 18, Dex 16, Con 14, Int 17, Wis 19, Cha 17 |\nSkills: | Concentration +14, Diplomacy +17, Jump +0, Knowledge (any two) +15, Listen +16, Search +15, Sense Motive +16, Spellcraft +15 (+17 scrolls), Spot +16, Survival +4 (+6 following tracks), Tumble +15, Use Magic Device +15 (+17 scrolls) |\nFeats: | Dodge, Empower Spell, Eschew MaterialsB, Hover, Improved Initiative |\nEnvironment: | Warm forests |\nOrganization: | Solitary, pair, or flight (3-6) |\nChallenge Rating: | 10 |\nTreasure: | Standard |\nAlignment: | Always lawful good |\nAdvancement: | 10-13 HD (Large); 14-27 HD (Huge) |\nLevel Adjustment: | +7 |\nA couatl is about 12 feet long, with a wingspan of about 15 feet. It weighs about 1,800 pounds.\nCouatls speak Celestial, Common, and Draconic, and also have the power of telepathy (see below).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::025_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::027_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::018_fear",
+  "document_id": "srd_35::abilitiesandconditions::018_fear",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "FEAR"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#018_fear"
+  },
+  "chunk_type": "subsection",
+  "content": "Spells, magic items, and certain monsters can affect characters with fear. In most cases, the character makes a Will saving throw to resist this effect, and a failed roll means that the character is shaken, frightened, or panicked.\nShaken: Characters who are shaken take a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.\nFrightened: Characters who are frightened are shaken, and in addition they flee from the source of their fear as quickly as they can. They can choose the path of their flight. Other than that stipulation, once they are out of sight (or hearing) of the source of their fear, they can act as they want. However, if the duration of their fear continues, characters can be forced to flee once more if the source of their fear presents itself again. Characters unable to flee can fight (though they are still shaken).\nPanicked: Characters who are panicked are shaken, and they run away from the source of their fear as quickly as they can. Other than running away from the source, their path is random. They flee from all other dangers that confront them rather than facing those dangers. Panicked characters cower if they are prevented from fleeing.\nBecoming Even More Fearful: Fear effects are cumulative. A shaken character who is made shaken again becomes frightened, and a shaken character who is made frightened becomes panicked instead. A frightened character who is made shaken or frightened becomes panicked instead.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::017_fast_healing",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::019_fire_immunity"
+}

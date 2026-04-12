@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::007_bluff",
+  "document_id": "srd_35::epicskills::007_bluff",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "Bluff"
+    ],
+    "source_location": "EpicSkills.rtf#007_bluff"
+  },
+  "chunk_type": "subsection",
+  "content": "The character can implant a nonmagical suggestion in a target, display a false alignment, or disguise his or her surface thoughts.\nExample Circumstance | Sense Motive Modifier |\nInstill suggestion in target | +50 |\nTask | DC |\nDisplay false alignment | 70 |\nDisguise surface thoughts | 100 |\nInstill Suggestion in Target: This is identical to the effect of the suggestion spell, except that it is nonmagical and lasts for only 10 minutes. It can be sensed as if it were an enchantment effect (Sense Motive DC 25).\nDisplay False Alignment: The character can fool alignment-sensing effects by displaying a false alignment of his or her choice. Once set, a false alignment remains as long as the character remains conscious and awake. Setting or changing a false alignment requires a full-round action.\nDisguise Surface Thoughts: The character can fool spells such as detect thoughts (or similar effects) by displaying false surface thoughts. While the character can't completely mask the presence of his or her thoughts, he or she can change his or her apparent Intelligence score (and thus the character's apparent mental strength) by as much as 10 points and can place any thought in his or her \u201csurface thoughts\u201d to be read by such spells or effects. If a character attempts to use Sense Motive to detect his or her surface thoughts (see the Sense Motive skill description), this becomes an opposed check (though any result lower than 100 automatically fails).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::006_balance",
+  "next_chunk_id": "chunk::srd_35::epicskills::008_climb"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::048_strength_domain_spells",
+  "document_id": "srd_35::spelllisti::048_strength_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Strength Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#048_strength_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Enlarge Person: Humanoid creature doubles in size.\n2 Bull's Strength: Subject gains +4 to Str for 1 min./level.\n3 Magic Vestment: Armor or shield gains +1 enhancement per four levels.\n4 Spell Immunity: Subject is immune to one spell per four levels.\n5 Righteous Might: Your size increases, and you gain combat bonuses.\n6 Stoneskin M: Ignore 10 points of damage per attack.\n7 Grasping Hand: Large hand provides cover, pushes, or grapples.\n8 Clenched Fist: Large hand provides cover, pushes, or attacks your foes.\n9 Crushing Hand: Large hand provides cover, pushes, or crushes your foes.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::047_strength_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::049_sun_domain"
+}

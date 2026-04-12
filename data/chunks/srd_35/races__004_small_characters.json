@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::races::004_small_characters",
+  "document_id": "srd_35::races::004_small_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Races",
+      "SMALL CHARACTERS"
+    ],
+    "source_location": "Races.rtf#004_small_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "A Small character gets a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks. A Small character's carrying capacity is three-quarters of that of a Medium character.\nA Small character generally moves about two-thirds as fast as a Medium character.\nA Small character must use smaller weapons than a Medium character.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::races::003_race_and_languages",
+  "next_chunk_id": "chunk::srd_35::races::005_humans"
+}

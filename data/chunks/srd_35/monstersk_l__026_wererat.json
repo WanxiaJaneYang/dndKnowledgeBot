@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::026_wererat",
+  "document_id": "srd_35::monstersk_l::026_wererat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "WERERAT"
+    ],
+    "source_location": "MonstersK-L.rtf#026_wererat"
+  },
+  "chunk_type": "subsection",
+  "content": "| Wererat, Human Form | Wererat, Dire Rat Form | Wererat, Hybrid Form |\n| Medium Humanoid (Human, Shapechanger) | Small Humanoid (Human, Shapechanger) | Medium Humanoid (Human, Shapechanger) |\nHit Dice: | 1d8+1 plus 1d8+2 (12 hp) | 1d8+1 plus 1d8+2 (12 hp) | 1d8+1 plus 1d8+2 (12 hp) |\nInitiative: | +0 | +3 | +3 |\nSpeed: | 30 ft. (6 squares) | 40 ft. (8 squares), climb 20 ft. | 30 ft. (6 squares) |\nArmor Class: | 15 (+2 natural, +2 leather, +1 buckler) touch 10, flat-footed 15 | 17 (+1 size, +3 Dex, +3 natural), touch 14, flat-footed 14 | 16 (+3 Dex, +3 natural) touch 13, flat-footed 13 |\nBase Attack/Grapple: | +1/+2 | +1/-2 | +1/+2 |\nAttack: | Rapier +2 melee (1d6+1/18-20) or light crossbow +1 ranged (1d8/19-20) | Bite +6 melee (1d4+1 plus disease) | Rapier +5 melee (1d6+1/18-20) or light crossbow +4 ranged (1d8/19-20) |\nFull Attack: | Rapier +2 melee (1d6+1/18-20) or light crossbow +1 ranged (1d8/19-20) | Bite +6 melee (1d4+1 plus disease) | Rapier +4 melee (1d6+1/18-20) and bite -1 melee (1d6 plus disease); or light crossbow +4 ranged (1d8/19-20) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | -- | Curse of lycanthropy, disease | Curse of lycanthropy, disease |\nSpecial Qualities: | Alternate form, rat empathy, low-light vision, scent | Alternate form, rat empathy, damage reduction 10/silver, low-light vision, scent | Alternate form, rat empathy, damage reduction 10/silver, low-light vision, scent |\nSaves: | Fort +5, Ref +2, Will +4 | Fort +6, Ref +5, Will +4 | Fort +6, Ref +5, Will +4 |\nAbilities: | Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8 | Str 13, Dex 17, Con 14, Int 10, Wis 11, Cha 8 | Str 13, Dex 17, Con 14, Int 10, Wis 11, Cha 8 |\nSkills: | Climb +0, Handle Animal +3, Hide +1, Listen +4, Move Silently +0, Spot +4, Swim +9 | Climb +11, Handle Animal +3, Hide +8, Listen +4, Move Silently +4, Spot +4, Swim +11 | Climb +4, Handle Animal +3, Hide +5, Listen +4, Move Silently +4, Spot +4, Swim +9 |\nFeats: | Alertness, Dodge, Iron WillB, Weapon FinesseB | (same as human form) | (same as human form) |\nEnvironment: | Any | Any | Any |\nOrganization: | Solitary, pair, pack (6-10), or troupe (2-5 plus 5-8 dire rats) | (same as human form) | (same as human form) |\nChallenge Rating: | 2 | 2 | 2 |\nTreasure: | Standard | Standard | Standard |\nAlignment: | Always lawful evil | Always lawful evil | Always lawful evil |\nAdvancement: | By character class | By character class | By character class |\nLevel Adjustment: | +3 | +3 | +3 |\nA wererat in humanoid form tends to be a thin, wiry individual of shorter than average height. The eyes constantly dart around, and the nose and mouth may twitch if he or she is excited. Males often have thin, ragged mustaches.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::025_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::027_combat"
+}

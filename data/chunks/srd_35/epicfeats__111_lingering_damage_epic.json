@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::111_lingering_damage_epic",
+  "document_id": "srd_35::epicfeats::111_lingering_damage_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "LINGERING DAMAGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#111_lingering_damage_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Sneak attack +8d6, crippling strike class feature.\nBenefit: Any time the character deals damage with a sneak attack, that target takes damage equal to the character's sneak attack bonus damage on the character's next turn as well.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::110_legendary_wrestler_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::112_magical_beast_companion_wild_epic"
+}

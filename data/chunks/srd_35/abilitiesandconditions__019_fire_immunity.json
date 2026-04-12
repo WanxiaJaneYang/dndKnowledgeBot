@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::019_fire_immunity",
+  "document_id": "srd_35::abilitiesandconditions::019_fire_immunity",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "FIRE IMMUNITY"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#019_fire_immunity"
+  },
+  "chunk_type": "subsection",
+  "content": "A creature with fire immunity never takes fire damage. It has vulnerability to cold, which means it takes half again as much (+50%) damage as normal from cold, regardless of whether a saving throw is allowed, or if the save is a success or failure.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::018_fear",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::020_gaseous_form"
+}

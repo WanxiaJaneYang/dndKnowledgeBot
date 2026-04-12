@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::038_class_features",
+  "document_id": "srd_35::epicprestigeclasses::038_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#038_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "The following are class features of the perfect wight prestige class.\nWeapon and Armor Proficiency: A perfect wight gains no proficiency with any weapons, armor, or shields.\nGreater Invisibility (Su): Starting at 1st level, the perfect wight gains the benefit of greater invisibility once per day, plus one additional time per day every five levels thereafter. The greater invisibility is as the spell cast by a 20th-level caster.\nImproved Legerdemain (Su): A perfect wight can perform the following class skills at a range of 30 feet: Disable Device, Open Lock, Pick Pocket, and Search. If desired, the perfect wight can take 10 on the check. Any object manipulated during the skill check must weigh 100 pounds or less. Alternatively, the perfect wight can use improved legerdemain to make one melee sneak attack against any creature within 30 feet. The perfect wight executes the sneak attack (or death attack, if applicable) as if attacking from a flanking position. If the attack is successful, the victim is dealt the appropriate sneak attack damage despite the fact that the perfect wight and his or her weapon do not physically cross the intervening distance. A perfect wight can use improved legerdemain once per day at 2nd level, plus one additional time per day every five levels thereafter.\nIncorporeal (Su): At 3rd level, the perfect wight can become incorporeal once per day, plus one additional time per day every five levels thereafter. A perfect wight can remain incorporeal for a number of rounds equal to 20 + his or her perfect wight level. As an incorporeal creature, the perfect wight can be harmed only by other incorporeal creatures, +1 or better magic weapons, and spells, spell-like abilities, and supernatural abilities. He or she is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, the perfect wight has a 50% chance to ignore any damage from a corporeal source (except for force effects or attacks made with ghost touch weapons). An incorporeal perfect wight has no natural armor but has a deflection bonus equal to his or her Charisma modifier (always at least +1, even if his or her Charisma score does not normally provide a bonus). An incorporeal perfect wight can pass through solid objects at will, but not force effects. His or her attack ignores natural armor, armor, and shields, although deflection bonuses and force effects work normally against it. An incorporeal perfect wight moves silently and cannot be heard with Listen checks if he or she doesn't wish to be. While incorporeal, the perfect wight has no Strength score, so his or her Dexterity modifier applies to both melee and ranged attacks.\nShadow Form (Su): At 4th level, the perfect wight can take shadow form once per day, plus one additional time per day every five levels thereafter. The perfect wight's shadow form lasts 1 minute per level of the prestige class. While in shadow form the perfect wight is incorporeal (see above), is immune to critical hits, and can fly at a speed of 100 feet (good). The perfect wight can also use the substance of his or her own shadow to enhance his or her effective level on any attack roll, check, or saving throw. Drawing power from his or her own shadow form deals the perfect wight 7 points of damage for each +1 bonus on a single roll or +1 effective level for any other single use.\nBonus Feats: The perfect wight gets a bonus feat at 5th level and an additional bonus feat every five levels thereafter. These bonus feats must be selected from the following list: Blinding Speed, Combat Archery, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Trapfinding, Improved Combat Reflexes, Improved Sneak Attack, Legendary Climber, Lingering Damage, Self-Concealment, Sneak Attack of Opportunity, Spellcasting Harrier, Superior Initiative, Uncanny Accuracy.\nUNION SENTINEL\nHit Die: d10.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::037_class_skills",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::039_requirements"
+}

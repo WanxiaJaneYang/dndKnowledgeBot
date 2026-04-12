@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::013_familiars_at_epic_level",
+  "document_id": "srd_35::epicclasses::013_familiars_at_epic_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "FAMILIARS AT EPIC LEVEL"
+    ],
+    "source_location": "EpicClasses.rtf#013_familiars_at_epic_level"
+  },
+  "chunk_type": "subsection",
+  "content": "Special abilities granted to a familiar continue to grow as the level of its master increases beyond 20th, as shown on Table: Epic Familiar Special Abilities. Even though the table shows advancement only to 42nd level, that is not the limit. The patterns in the table continue infinitely. Familiar special abilities gained at less than 20th level also continue to improve.\nFamiliar Spell: The familiar gains the benefit of the Familiar Spell epic feat for the spell its master chooses.\nTable: Epic Familiar Special Abilities\nMaster Class Level | Natural Armor | Int | Special |\n21st-22nd | +11 | 16 | Familiar Spell |\n23rd-24th | +12 | 17 | |\n25th-26th | +13 | 18 | |\n27th-28th | +14 | 19 | |\n29th-30th | +15 | 20 | |\n31st-32nd | +16 | 21 | Familiar Spell |\n33rd-34th | +17 | 22 | |\n35th-36th | +18 | 23 | |\n37th-38th | +19 | 24 | |\n39th-40th | +20 | 25 | |\n41st-42nd | +21 | 26 | Familiar Spell |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::012_epic_wizard",
+  "next_chunk_id": "chunk::srd_35::epicclasses::014_epic_psionic_class_progressions"
+}

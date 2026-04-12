@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::054_construction",
+  "document_id": "srd_35::monstersg::054_construction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "Construction"
+    ],
+    "source_location": "MonstersG.rtf#054_construction"
+  },
+  "chunk_type": "subsection",
+  "content": "The pieces of a flesh golem must come from normal human corpses that have not decayed significantly. Assembly requires a minimum of six different bodies--one for each limb, the torso (including head), and the brain. In some cases, more bodies may be necessary. Special unguents and bindings worth 500 gp are also required. Note that creating a flesh golem requires casting a spell with the evil descriptor.\nAssembling the body requires a DC 13 Craft (leatherworking) check or a DC 13 Heal check.\nCL 8th; Craft Construct, animate dead, bull's strength, geas/quest, limited wish, caster must be at least 8th level; Price 20,000 gp; Cost 10,500 gp + 780 XP.\n\nHit Dice: | 18d10+30 (129 hp) |\nInitiative: | -1 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 30 (-1 size, -1 Dex, +22 natural) touch 8, flat-footed 30 |\nBase Attack/Grapple: | +12/+28 |\nAttack: | Slam +23 melee (2d10+11) |\nFull Attack: | 2 slams +23 melee (2d10+11) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Breath weapon |\nSpecial Qualities: | Construct traits, damage reduction 15/adamantine, darkvision 60 ft., immunity to magic, low-light vision |\nSaves: | Fort +6, Ref +5, Will +6 |\nAbilities: | Str 33, Dex 9, Con --, Int --, Wis 11, Cha 1 |\nSkills: | -- |\nFeats: | -- |\nEnvironment: | Any |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 13 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 19-24 HD (Large); 25-54 HD (Huge) |\nLevel Adjustment: | -- |\nThis golem has a humanoid body made from iron. An iron golem can be fashioned in any manner, just like a stone golem (see below), although it almost always displays armor of some sort. Its features are much smoother than those of a stone golem. Iron golems sometimes carry a short sword in one hand. An iron golem is 12 feet tall and weighs about 5,000 pounds. An iron golem cannot speak or make any vocal noise, nor does it have any distinguishable odor. It moves with a ponderous but smooth gait. Each step causes the floor to tremble unless it is on a thick, solid foundation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::053_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::055_combat"
+}

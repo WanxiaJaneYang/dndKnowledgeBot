@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::084_power_points_5",
+  "document_id": "srd_35::psionicpowersq_w::084_power_points_5",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 5"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#084_power_points_5"
+  },
+  "chunk_type": "subsection",
+  "content": "You have metaphoric \u201ceyes in the back of your head,\u201d and on the sides and top as well, granting you benefits in specific situations. In effect, you have a 360-degree sphere of sight, allowing you a perfect view of creatures that might otherwise flank you. Thus, flanking opponents gain no bonus on their attack rolls, and rogues are denied their sneak attack ability because you do not lose your Dexterity bonus (but they may still sneak attack you if you are caught flat-footed). Your Spot and Search checks gain a +4 enhancement bonus. Concurrently, you take a -4 penalty on saves against all gaze attacks during the power's duration.\n\nDisplay: Auditory; see text\nManifesting Time: 1 standard action\nRange: 15 ft.\nArea: 15-ft.-radius spread centered on you",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::083_clairsentience",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::085_power_points_13"
+}

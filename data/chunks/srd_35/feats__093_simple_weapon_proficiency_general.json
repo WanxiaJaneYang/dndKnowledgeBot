@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::093_simple_weapon_proficiency_general",
+  "document_id": "srd_35::feats::093_simple_weapon_proficiency_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SIMPLE WEAPON PROFICIENCY [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#093_simple_weapon_proficiency_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You make attack rolls with simple weapons normally.\nNormal: When using a weapon with which you are not proficient, you take a -4 penalty on attack rolls.\nSpecial: All characters except for druids, monks, and wizards are automatically proficient with all simple weapons. They need not select this feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::092_silent_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::feats::094_skill_focus_general"
+}

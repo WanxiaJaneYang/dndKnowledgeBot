@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::023_sphinx",
+  "document_id": "srd_35::monsterss::023_sphinx",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "SPHINX"
+    ],
+    "source_location": "MonstersS.rtf#023_sphinx"
+  },
+  "chunk_type": "subsection",
+  "content": "Sphinxes are enigmatic creatures with great, feathery wings and leonine bodies. All sphinxes are territorial, but the more intelligent ones can differentiate between deliberate intrusion and temporary or inadvertent trespass.\nA typical sphinx is about 10 feet long and weighs about 800 pounds.\nSphinxes speak Sphinx, Common, and Draconic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::022_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::024_combat"
+}

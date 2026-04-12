@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::021_power_points_9",
+  "document_id": "srd_35::psionicpowersa_c::021_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#021_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You psychoportively disperse minuscule portions of the subject, dealing 9d6 points of damage. Targets can be protected from the effects of baleful teleport by dimensional anchor.\nAugment: For every additional power point you spend, this power's damage increases by 1d6 points. For each extra 2d6 points of damage, this power's save DC increases by 1 and your manifester level increases by 1 for the purpose of overcoming power resistance.\n\nDisplay: Auditory and material\nManifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)\nTargets: One or more extraplanar creatures, no two of which can be more than 30 ft. apart",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::020_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::022_power_points_11"
+}

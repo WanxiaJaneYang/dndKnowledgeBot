@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::022_combat",
+  "document_id": "srd_35::monsterse_f::022_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "COMBAT"
+    ],
+    "source_location": "MonstersE-F.rtf#022_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "An ethereal filcher prowls about, using its ethereal jaunt ability to move about unseen (and often through solid objects). Upon locating a likely mark, it shifts to the Material Plane, attempting to catch its victim unaware. The creature attempts to seize an item, then retreats quickly back to the Ethereal Plane. It is not above delivering a bite to distract its target. Once it secures a trinket, it scurries back to its lair to admire its prize. When badly wounded, a filcher escapes rather than continuing the fight.\nAny number of simple ruses can blunt a filcher's attack.\nDetect Magic (Su): Ethereal filchers can detect magic as the spell (caster level 5th) at will.\nEthereal Jaunt (Su): An ethereal filcher can shift from the Ethereal Plane to the Material Plane as part of any move action, and shift back again as a free action. It can remain on the Ethereal Plane for 1 round before returning to the Material Plane. The ability is otherwise identical with the ethereal jaunt spell (caster level 15th).\nSkills: Ethereal filchers have a +8 racial bonus on Sleight of Hand checks, and a +4 racial bonus on Listen and Spot checks.\n\nHit Dice: | 2d10 (11 hp) |\nInitiative: | +5 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 14 (+1 Dex, +3 natural), touch 11, flat-footed 13 |\nBase Attack/Grapple: | +2/+4 |\nAttack: | Bite +4 melee (1d6+3) |\nFull Attack: | Bite +4 melee (1d6+3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks:-- | |\nSpecial Qualities: | Darkvision 60 ft., ethereal jaunt |\nSaves: | Fort +3, Ref +4, Will +1 |\nAbilities: | Str 14, Dex 12, Con 11, Int 7, Wis 12, Cha 10 |\nSkills: | Listen +5, Move Silently +5, Spot +4 |\nFeats: | Improved Initiative |\nEnvironment: | Ethereal Plane |\nOrganization: | Solitary |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 3-4 HD (Medium); 5-6 HD (Large) |\nLevel Adjustment: | -- |\nEthereal marauders live and hunt on the Ethereal Plane. Ethereal marauders' coloration ranges from bright blue to deep violet. An ethereal marauder stands about 4 feet tall, but its overall length is about 7 feet. It weighs about 200 pounds.\nEthereal marauders speak no known languages. Survivors of their attacks on the Material Plane claim that they emit an eerie, high whine that varies in pitch depending on the creature's speed and health.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::021_wood_elf",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::023_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::009_7th_level_druid_spells",
+  "document_id": "srd_35::spelllistii::009_7th_level_druid_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "7TH-LEVEL DRUID SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#009_7th_level_druid_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Animate Plants: One or more plants animate and fight for you.\nChangestaff: Your staff becomes a treant on command.\nControl Weather: Changes weather in local area.\nCreeping Doom: Swarms of centipedes attack at your command.\nCure Moderate Wounds, Mass: Cures 2d8 damage +1/level for many creatures.\nFire Storm: Deals 1d6/level fire damage.\nHeal: Cures 10 points/level of damage, all diseases and mental conditions.\nScrying, Greater: As scrying, but faster and longer.\nSummon Nature's Ally VII: Calls creature to fight.\nSunbeam: Beam blinds and deals 4d6 damage.\nTransmute Metal to Wood: Metal within 40 ft. becomes wood.\nTrue Seeing M: Lets you see all things as they really are.\nWind Walk: You and your allies turn vaporous and travel fast.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::008_6th_level_druid_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::010_8th_level_druid_spells"
+}

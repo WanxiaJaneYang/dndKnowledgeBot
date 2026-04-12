@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::029_combat",
+  "document_id": "srd_35::monstersintro_a::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "In combat, most angels make full use of their mobility and their ability to attack at a distance.\nAngel Traits: An angel possesses the following traits (unless otherwise noted in a creature's entry).\n--Darkvision out to 60 feet and low-light vision.\n--Immunity to acid, cold, and petrification.\n--Resistance to electricity 10 and fire 10.\n-- +4 racial bonus on saves against poison.\n--Protective Aura (Su): Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the angel. Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level equals angel's HD). This aura can be dispelled, but the angel can create it again as a free action on its next turn. (The defensive benefits from the circle are not included in an angel's statistics block.)\n--Tongues (Su): All angels can speak with any creature that has a language, as though using a tongues spell (caster level equal to angel's Hit Dice). This ability is always active.\n\nHit Dice: | 12d8+48 (102 hp) |\nInitiative: | +8 |\nSpeed: | 50 ft. (10 squares), fly 100 ft. (good) |\nArmor Class: | 29 (+4 Dex, +15 natural), touch 14, flat-footed 25 |\nBase Attack/Grapple: | +12/+18 |\nAttack: | +3 heavy mace of disruption +21 melee (1d8+12 plus stun) or slam +18 melee (1d8+9) |\nFull Attack: | +3 heavy mace of disruption +21/+16/+11 melee (1d8+12 plus stun) or slam +18 melee (1d8+9) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, stun |\nSpecial Qualities: | Damage reduction 10/evil, darkvision 60 ft., low-light vision, immunity to acid, cold, and petrification, protective aura, resistance to electricity 10 and fire 10, spell resistance 30, tongues, uncanny dodge |\nSaves: | Fort +14 (+18 against poison), Ref +12, Will +12 |\nAbilities: | Str 22, Dex 18, Con 18, Int 18, Wis 18, Cha 20 |\nSkills: | Concentration +19, Craft or Knowledge (any three) +19, Diplomacy +22, Escape Artist +19, Hide +19, Intimidate +20, Listen +23, Move Silently +19, Sense Motive +19, Spot +23, Use Rope +4 (+6 with bindings) |\nFeats: | Alertness, Cleave, Great Fortitude, Improved Initiative, Power Attack |\nEnvironment: | Any good-aligned plane |\nOrganization: | Solitary, pair, or squad (3-5) |\nChallenge Rating: | 14 |\nTreasure: | No coins; double goods; standard items |\nAlignment: | Always good (any) |\nAdvancement: | 13-18 HD (Medium); 19-36 HD (Large) |\nLevel Adjustment: | +8 |\nAn astral deva is about 7-1/2 feet tall and weighs about 250 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::028_angel",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::030_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::026_requirements",
+  "document_id": "srd_35::prestigeclasses::026_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#026_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become a duelist, a character must fulfill all the following criteria.\nBase Attack Bonus: +6.\nSkills: Perform 3 ranks, Tumble 5 ranks.\nFeats: Dodge, Mobility, Weapon Finesse.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::025_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::027_class_skills"
+}

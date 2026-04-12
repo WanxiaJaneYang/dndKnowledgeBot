@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::043_subraces",
+  "document_id": "srd_35::monstersg::043_subraces",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "SUBRACES"
+    ],
+    "source_location": "MonstersG.rtf#043_subraces"
+  },
+  "chunk_type": "subsection",
+  "content": "The information above is for rock gnomes, the most common variety.\nThere are two other major gnome subraces, which differ from rock gnomes as follows.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::042_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::044_svirfneblin"
+}

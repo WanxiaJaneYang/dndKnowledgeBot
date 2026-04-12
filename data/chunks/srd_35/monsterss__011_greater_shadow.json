@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::011_greater_shadow",
+  "document_id": "srd_35::monsterss::011_greater_shadow",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "GREATER SHADOW"
+    ],
+    "source_location": "MonstersS.rtf#011_greater_shadow"
+  },
+  "chunk_type": "subsection",
+  "content": "Although no more intelligent than an average shadow, a greater shadow is more fearsome because of its increased damage and its hit-and-run tactics.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::010_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::012_combat"
+}

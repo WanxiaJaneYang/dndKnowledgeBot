@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::008_hit_points",
+  "document_id": "srd_35::combati::008_hit_points",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "HIT POINTS"
+    ],
+    "source_location": "CombatI.rtf#008_hit_points"
+  },
+  "chunk_type": "subsection",
+  "content": "When your hit point total reaches 0, you're disabled. When it reaches -1, you're dying. When it gets to -10, you're dead.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::007_armor_class",
+  "next_chunk_id": "chunk::srd_35::combati::009_speed"
+}

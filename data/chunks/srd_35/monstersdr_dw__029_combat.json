@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::029_combat",
+  "document_id": "srd_35::monstersdr_dw::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "COMBAT"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A dragonne's wings are useful only for short flights, carrying the creature for 10 to 30 minutes at a time. Nevertheless, it uses its wings effectively in battle. If opponents attempt to charge or encircle it, the dragonne simply takes to the air and finds a more defensible position.\nPounce (Ex): If a dragonne charges, it can make a full attack in the same round.\nRoar (Su): A dragonne can loose a devastating roar every 1d4 rounds. All creatures except dragonnes within 120 feet must succeed on a DC 15 Will save or become fatigued. Those within 30 feet who fail their saves become exhausted. The save DC is Charisma-based.\nSkills: Dragonnes have a +4 racial bonus on Listen and Spot checks.\nCarrying Capacity: A light load for a dragonne is up to 348 pounds; a medium load, 349-699 pounds, and a heavy load, 700-1,050 pounds.\n\nHit Dice: | 6d8+18 (45 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares), climb 15 ft. |\nArmor Class: | 17 (-1 size, +2 Dex, +6 natural), touch 11, flat-footed 15 |\nBase Attack/Grapple: | +4/+10 |\nAttack: | Dagger +5 melee (1d6+2/19-20) or bite +6 melee (1d4+1 plus poison) or shortbow +5 ranged (1d8/x3) |\nFull Attack: | 2 daggers +3 melee (1d6+2/19-20, 1d6+1/19-20) and bite +1 melee (1d4+1 plus poison); or shortbow +5 ranged (1d8/x3) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Spells, spell-like abilities, poison |\nSpecial Qualities: | Darkvision 60 ft., spell resistance 17 |\nSaves: | Fort +5, Ref +4, Will +8 |\nAbilities: | Str 15, Dex 15, Con 16, Int 15, Wis 16, Cha 16 |\nSkills: | Climb +14, Concentration +9, Hide +10, Listen +9, Move Silently +12, Spot +9 |\nFeats: | Combat Casting, Two-Weapon Fighting, Weapon Focus (bite) |\nEnvironment: | Underground |\nOrganization: | Solitary, pair, or troupe (1-2 plus 7-12 Medium monstrous spiders) |\nChallenge Rating: | 7 |\nTreasure: | Double standard |\nAlignment: | Always chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | +4 |\nDriders speak Elven, Common, and Undercommon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::028_combat",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::030_combat"
+}

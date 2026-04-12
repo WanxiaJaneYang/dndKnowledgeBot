@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::029_combat",
+  "document_id": "srd_35::monsterso_r::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Phase spiders dwell and hunt on the Material Plane. Once a spider locates prey, however, it shifts to the Ethereal Plane to attack, attempting to catch its victim flat-footed. The spider shifts in, bites its victim, and retreats quickly back to the Ethereal Plane.\nEthereal Jaunt (Su): A phase spider can shift from the Ethereal Plane to the Material Plane as a free action, and shift back again as a move action (or during a move action). The ability is otherwise identical with ethereal jaunt (caster level 15th).\nPoison (Ex): Injury, Fortitude DC 17, initial and secondary damage 1d8 Con. The save DC is Constitution-based.\nSkills: A phase spider has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.\n\nHit Dice: | 15d8+30 (97 hp) |\nInitiative: | +6 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 17 (+2 Dex, +5 natural), touch 12, flat-footed 15 |\nBase Attack/Grapple: | +11/+12 |\nAttack: | Slam +12 melee (1d3+1) |\nFull Attack: | Slam +12 melee (1d3+1) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Alternate form, amorphous, resilient, scent, telepathy 100 ft., tremorsense 60 ft. |\nSaves: | Fort +11, Ref +11, Will +11 |\nAbilities: | Str 12, Dex 15, Con 15, Int 16, Wis 15, Cha 14 |\nSkills: | Bluff +20, Climb +7, Craft (any one) +12, Diplomacy +12, Disguise +20 (+22 acting)*, Intimidate +4, Knowledge (any one) +18, Listen +12, Spot +12, Survival +8 |\nFeats: | Alertness, Blind-Fight, Combat Reflexes, Dodge, Improved Initiative, Mobility |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 7 |\nTreasure: | Standard |\nAlignment: | Usually chaotic neutral |\nAdvancement: | 15-21 HD (Huge); 22-45 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA phasm is an amorphous creature that can assume the guise of almost any other creature or object. A phasm in its natural form is about 5 feet in diameter and 2 feet high at the center. Swirls of color indicate sensory organs. In this form, a phasm slithers about like an ooze and can attack with a pseudopod. It weighs about 400 pounds.\nPhasms can speak Common but prefer telepathic communication.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::028_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::030_combat"
+}

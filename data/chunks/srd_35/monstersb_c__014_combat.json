@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::014_combat",
+  "document_id": "srd_35::monstersb_c::014_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#014_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Bugbears prefer to ambush opponents whenever possible. When hunting, they normally send scouts ahead of the main group that, if they spy prey, return to report and bring up reinforcements.\nBugbear attacks are coordinated, and their tactics are sound if not brilliant.\nSkills: Bugbears have a +4 racial bonus on Move Silently checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::013_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::015_bugbears_as_characters"
+}

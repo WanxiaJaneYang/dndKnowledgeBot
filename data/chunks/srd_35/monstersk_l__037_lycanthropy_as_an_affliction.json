@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::037_lycanthropy_as_an_affliction",
+  "document_id": "srd_35::monstersk_l::037_lycanthropy_as_an_affliction",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "LYCANTHROPY AS AN AFFLICTION"
+    ],
+    "source_location": "MonstersK-L.rtf#037_lycanthropy_as_an_affliction"
+  },
+  "chunk_type": "subsection",
+  "content": "When a character contracts lycanthropy through a lycanthrope's bite (see above), no symptoms appear until the first night of the next full moon. On that night, the afflicted character involuntarily assumes animal form and forgets his or her own identity, temporarily becoming an NPC. The character remains in animal form, assuming the appropriate alignment, until the next dawn.\nThe character's actions during this first episode are dictated by the alignment of its animal form. The character remembers nothing about the entire episode (or subsequent episodes) unless he succeeds on a DC 15 Wisdom check, in which case he becomes aware of his lycanthropic condition.\nThereafter, the character is subject to involuntary transformation under the full moon and whenever damaged in combat. He or she feels an overwhelming rage building up and must succeed on a Control Shape check (see below) to resist changing into animal form. Any player character not yet aware of his or her lycanthropic condition temporarily becomes an NPC during an involuntary change, and acts according to the alignment of his or her animal form.\nA character with awareness of his condition retains his identity and does not lose control of his actions if he changes. However, each time he changes to his animal form, he must make a Will save (DC 15 + number of times he has been in animal form) or permanently assume the alignment of his animal form in all shapes.\nOnce a character becomes aware of his affliction, he can now voluntarily attempt to change to animal or hybrid form, using the appropriate Control Shape check DC. An attempt is a standard action and can be made each round. Any voluntary change to animal or hybrid form immediately and permanently changes the character's alignment to that of the appropriate lycanthrope.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::036_creating_a_lycanthrope",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::038_changing_form"
+}

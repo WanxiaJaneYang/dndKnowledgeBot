@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::010_dexterity_dex",
+  "document_id": "srd_35::basics::010_dexterity_dex",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "DEXTERITY (DEX)"
+    ],
+    "source_location": "Basics.rtf#010_dexterity_dex"
+  },
+  "chunk_type": "subsection",
+  "content": "Dexterity measures hand-eye coordination, agility, reflexes, and balance. This ability is the most important one for rogues, but it's also high on the list for characters who typically wear light or medium armor (rangers and barbarians) or no armor at all (monks, wizards, and sorcerers), and for anyone who wants to be a skilled archer.\nYou apply your character's Dexterity modifier to:\nRanged attack rolls, including those for attacks made with bows, crossbows, throwing axes, and other ranged weapons.\nArmor Class (AC), provided that the character can react to the attack.\nReflex saving throws, for avoiding fireballs and other attacks that you can escape by moving quickly.\nBalance, Escape Artist, Hide, Move Silently, Open Lock, Ride, Sleight of Hand, Tumble, and Use Rope checks. These are the skills that have Dexterity as their key ability.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::009_strength_str",
+  "next_chunk_id": "chunk::srd_35::basics::011_constitution_con"
+}

@@ -6,7 +6,11 @@
 data/raw/
 data/extracted/
 data/canonical/
-data/chunks/
+# SRD 3.5 chunks are OGL-licensed and safe to commit for backup and review.
+# Non-SRD chunks (PHB, DMG, etc.) remain excluded. To admit additional OGL sources,
+# add !data/chunks/<source_id>/ below and remove from data/chunks/* exclusion.
+data/chunks/*
+!data/chunks/srd_35
 *.pdf
 *.epub
 

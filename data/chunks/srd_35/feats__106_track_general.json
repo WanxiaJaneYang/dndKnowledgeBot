@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::106_track_general",
+  "document_id": "srd_35::feats::106_track_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "TRACK [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#106_track_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: To find tracks or to follow them for 1 mile requires a successful Survival check. You must make another Survival check every time the tracks become difficult to follow.\nYou move at half your normal speed (or at your normal speed with a -5 penalty on the check, or at up to twice your normal speed with a -20 penalty on the check). The DC depends on the surface and the prevailing conditions, as given on the table below:\nSurface | Survival DC | Surface Survival | DC |\nVery soft ground | 5 | Firm ground | 15 |\nSoft ground | 10 | Hard ground | 20 |\nVery Soft Ground: Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.\nSoft Ground: Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which a creature leaves frequent but shallow footprints.\nFirm Ground: Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs and very dirty or dusty floors). The creature might leave some traces (broken branches or tufts of hair), but it leaves only occasional or partial footprints.\nHard Ground: Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles).\nSeveral modifiers may apply to the Survival check, as given on the table below.\nCondition | Survival DC Modifier |\nEvery three creatures in the group being tracked | -1 |\nSize of creature or creatures being tracked:1 | |\nFine | +8 |\nDiminutive | +4 |\nTiny | +2 |\nSmall | +1 |\nMedium | +0 |\nLarge | -1 |\nHuge | -2 |\nGargantuan | -4 |\nColossal | -8 |\nEvery 24 hours since the trail was made | +1 |\nEvery hour of rain since the trail was made | +1 |\nFresh snow cover since the trail was made | +10 |\nPoor visibility:2 | |\nOvercast or moonless night | +6 |\nMoonlight | +3 |\nFog or precipitation | +3 |\nTracked party hides trail (and moves at half speed) | +5 |\n1 For a group of mixed sizes, apply only the modifier for the largest size category. |\n2 Apply only the largest modifier from this category. |\nIf you fail a Survival check, you can retry after 1 hour (outdoors) or 10 minutes (indoors) of searching.\nNormal: Without this feat, you can use the Survival skill to find tracks, but you can follow them only if the DC for the task is 10 or lower. Alternatively, you can use the Search skill to find a footprint or similar sign of a creature's passage using the DCs given above, but you can't use Search to follow tracks, even if someone else has already found them.\nSpecial: A ranger automatically has Track as a bonus feat. He need not select it.\nThis feat does not allow you to find or follow the tracks made by a subject of a pass without trace spell.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::105_tower_shield_proficiency_general",
+  "next_chunk_id": "chunk::srd_35::feats::107_trample_general"
+}

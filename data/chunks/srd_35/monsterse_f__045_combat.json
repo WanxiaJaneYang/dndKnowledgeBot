@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::045_combat",
+  "document_id": "srd_35::monsterse_f::045_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Combat"
+    ],
+    "source_location": "MonstersE-F.rtf#045_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A violet fungus flails about with its tentacles at living creatures that come within its reach.\nPoison (Ex): Injury, Fortitude DC 14, initial and secondary damage 1d4 Str and 1d4 Con. The save DC is Constitution-based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::044_violet_fungus"
+}

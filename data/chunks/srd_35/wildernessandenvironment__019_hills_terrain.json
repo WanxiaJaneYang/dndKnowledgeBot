@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::019_hills_terrain",
+  "document_id": "srd_35::wildernessandenvironment::019_hills_terrain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "HILLS TERRAIN"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#019_hills_terrain"
+  },
+  "chunk_type": "subsection",
+  "content": "A hill can exist in most other types of terrain, but hills can also dominate the landscape. Hills terrain is divided into two categories: gentle hills and rugged hills. Hills terrain often serves as a transition zone between rugged terrain such as mountains and flat terrain such as plains.\n\n| Gentle Hill | Rugged Hill |\nGradual slope | 75% | 40% |\nSteep slope | 20% | 50% |\nCliff | 5% | 10% |\nLight undergrowth | 15% | 15% |\nGradual Slope: This incline isn't steep enough to affect movement, but characters gain a +1 bonus on melee attacks against foes downhill from them.\nSteep Slope: Characters moving uphill (to an adjacent square of higher elevation) must spend 2 squares of movement to enter each square of steep slope. Characters running or charging downhill (moving to an adjacent square of lower elevation) must succeed on a DC 10 Balance check upon entering the first steep slope square. Mounted characters make a DC 10 Ride check instead. Characters who fail this check stumble and must end their movement 1d2\u00d75 feet later. Characters who fail by 5 or more fall prone in the square where they end their movement. A steep slope increases the DC of Tumble checks by 2.\nCliff: A cliff typically requires a DC 15 Climb check to scale and is 1d4\u00d710 feet tall, although the needs of your map may mandate a taller cliff. A cliff isn't perfectly vertical, taking up 5-foot squares if it's less than 30 feet tall and 10-foot squares if it's 30 feet or taller.\nLight Undergrowth: Sagebrush and other scrubby bushes grow on hills, athough they rarely cover the landscape as they do in forests and marshes. Light undergrowth provides concealment and increases the DC of Tumble and Move Silently checks by 2.\nOther Hills Terrain Elements: Trees aren't out of place in hills terrain, and valleys often have active streams (5 to 10 feet wide and no more than 5 feet deep) or dry streambeds (treat as a trench 5 to 10 feet across) in them. If you add a stream or streambed, remember that water always flows downhill.\nStealth and Detection in Hills: In gentle hills, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is 2d10\u00d710 feet. In rugged hills, this distance is 2d6\u00d710 feet.\nHiding in hills terrain can be difficult if there isn't undergrowth around. A hilltop or ridge provides enough cover to hide from anyone below the hilltop or ridge.\nHills don't affect Listen or Move Silently checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::018_marsh_terrain",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::020_mountain_terrain"
+}

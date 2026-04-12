@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::019_combat",
+  "document_id": "srd_35::epicmonsters_g_w::019_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#019_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Improved Grab (Ex): To use this ability, a legendary bear must hit with a claw attack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::018_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::020_combat"
+}

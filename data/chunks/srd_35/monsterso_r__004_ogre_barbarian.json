@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::004_ogre_barbarian",
+  "document_id": "srd_35::monsterso_r::004_ogre_barbarian",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "OGRE BARBARIAN"
+    ],
+    "source_location": "MonstersO-R.rtf#004_ogre_barbarian"
+  },
+  "chunk_type": "subsection",
+  "content": "Their inherent bent toward chaos combines with their size and strength to make ogres natural barbarians. Indeed, their leaders are almost always barbarians of low to middle level, monstrous brutes whose fury in battle is truly fearsome. A raging ogre barbarian is an inspiration to other ogres.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::003_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::005_combat"
+}

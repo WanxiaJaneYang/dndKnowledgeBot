@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::007_skill_points_at_each_additional_level_4_int_modifier",
+  "document_id": "srd_35::epicclasses::007_skill_points_at_each_additional_level_4_int_modifier",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "Skill Points at Each Additional Level: 4 + Int modifier"
+    ],
+    "source_location": "EpicClasses.rtf#007_skill_points_at_each_additional_level_4_int_modifier"
+  },
+  "chunk_type": "subsection",
+  "content": "AC Bonus: The monk's bonus to Armor Class when unarmored increases by +1 every five levels higher than 20th.\nUnarmed Strike: The damage for a monk's unarmed strike does not increase after 16th level.\nStunning Attack: If the monk has the Stunning Fist feat use the monk's class level when determining the DC to resist this attack, as normal.\nUnarmored Speed Bonus: The epic monk's speed when wearing no armor increases by 10 feet every three levels higher than 18th. The unarmored speed of Small and dwarven monks increases by 5 feet instead of 10 feet.\nKi Strike: The monk's ki strike ability does not automatically increase with class level after 16th level.\nWholeness of Body (Su): The epic monk can cure up to twice his or her class level in hit points each day, as normal.\nAbundant Step (Su): Use the monk's class level when determining the effective caster level of this ability, as normal.\nDiamond Soul (Ex): The epic monk's spell resistance is equal to his or her class level +10, as normal.\nQuivering Palm (Su): Use the monk's class level when determining the DC to resist this attack, as normal.\nEmpty Body (Su): Use the monk's class level when determining the duration of this effect, as normal.\nBonus Feats: The epic monk gains a bonus feat (selected from the list of epic monk bonus feats) every five levels higher than 20th.\nEpic Monk Bonus Feat List: Armor Skin, Blinding Speed, Damage Reduction, Energy Resistance, Epic Prowess, Epic Speed, Epic Toughness, Exceptional Deflection, Fast Healing, Improved Combat Reflexes, Improved Ki Strike, Improved Spell Resistance, Improved Stunning Fist, Infinite Deflection, Keen Strike, Legendary Climber, Legendary Wrestler, Reflect Arrows, Righteous Strike, Self-Concealment, Shattering Strike, Vorpal Strike.\nTable: The Epic Monk\nMonk Level | AC Bonus | Unarmored Speed Bonus | Special |\n21st | +4 | +70 ft. | |\n22nd | +4 | +70 ft. | |\n23rd | +4 | +70 ft. | |\n24th | +4 | +80 ft. | |\n25th | +5 | +80 ft. | Bonus feat |\n26th | +5 | +80 ft. | |\n27th | +5 | +90 ft. | |\n28th | +5 | +90 ft. | |\n29th | +5 | +90 ft. | |\n30th | +6 | +100ft. | Bonus feat |\nEPIC PALADIN\nHit Die: d10",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::006_skill_points_at_each_additional_level_2_int_modifier",
+  "next_chunk_id": "chunk::srd_35::epicclasses::008_skill_points_at_each_additional_level_2_int_modifier"
+}

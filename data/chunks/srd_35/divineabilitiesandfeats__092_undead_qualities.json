@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::092_undead_qualities",
+  "document_id": "srd_35::divineabilitiesandfeats::092_undead_qualities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Undead Qualities"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#092_undead_qualities"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The deity gains the qualities of the undead type:\n--No Constitution score.\n--Darkvision out to 60 feet.\n--Immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).\n--Immunity to poison, sleep effects, paralysis, stunning, disease, and death effects.\n--Not subject to critical hits, nonlethal damage, ability drain, or energy drain. Immune to damage to its physical ability scores (Strength, Dexterity, and Constitution), as well as to fatigue and exhaustion effects.\n--Cannot heal damage on its own if it has no Intelligence score, although it can be healed. Negative energy can heal undead creatures. The fast healing special quality works regardless of the creature's Intelligence score.\n--Immunity to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).\n--Uses its Charisma modifier for Concentration checks.\n--Not at risk of death from massive damage, but when reduced to 0 hit points or less, it is immediately destroyed.\n--Not affected by raise dead and reincarnate spells or abilities. Resurrection and true resurrection can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.\n--Undead do not breathe, eat, or sleep.\nSuggested Portfolio Elements: Death, undead.\nWave of Chaos\nPrerequisites: Chaotic alignment.\nBenefit: The deity can create a wave of mental force that extends from the deity in a spread with a radius of 10 feet per divine rank. Creatures within the spread must make Will saves (DC 10 + the deity's Charisma modifier + the deity's divine rank) or\nbe forced to act unpredictably. This ability works like a confusion spell cast by a sorcerer of level 10 + the deity's divine rank.\nSuggested Portfolio Elements: Chaos.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::091_undead_mastery",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::093_wound_enemy"
+}

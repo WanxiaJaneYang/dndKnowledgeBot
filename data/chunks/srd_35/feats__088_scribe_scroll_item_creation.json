@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::088_scribe_scroll_item_creation",
+  "document_id": "srd_35::feats::088_scribe_scroll_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SCRIBE SCROLL [ITEM CREATION]"
+    ],
+    "source_location": "Feats.rtf#088_scribe_scroll_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Caster level 1st.\nBenefit: You can create a scroll of any spell that you know. Scribing a scroll takes one day for each 1,000 gp in its base price. The base price of a scroll is its spell level x \uf020its caster level x \uf02025 gp. To scribe a scroll, you must spend 1/25 of this base price in XP and use up raw materials costing one-half of this base price.\nAny scroll that stores a spell with a costly material component or an XP cost also carries a commensurate cost. In addition to the costs derived from the base price, you must expend the material component or pay the XP when scribing the scroll.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::087_run_general",
+  "next_chunk_id": "chunk::srd_35::feats::089_self_sufficient_general"
+}

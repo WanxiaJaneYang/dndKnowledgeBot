@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::001_epicclasses",
+  "document_id": "srd_35::epicclasses::001_epicclasses",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "EpicClasses"
+    ],
+    "source_location": "EpicClasses.rtf#001_epicclasses"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\nEPIC CLASS PROGRESSIONS\nEPIC BARBARIAN\nHit Die: d12",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::epicclasses::002_skill_points_at_each_additional_level_4_int_modifier"
+}

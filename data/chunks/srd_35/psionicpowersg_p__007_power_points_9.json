@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::007_power_points_9",
+  "document_id": "srd_35::psionicpowersg_p::007_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#007_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "A tiny ectoplasmic crystal emanates from your outstretched hand and rapidly expands to a 2-foot-diameter ball of crystal as it speeds toward the location you designate. You can choose to aim this crystal at a single target or at a specific point in space (a grid intersection).\nIf you aim the crystal at a single target, you must make a ranged touch attack to strike the target. Any creature or object struck by the ball of crystal takes 5d4 points of bludgeoning damage.\nWhether the crystal hits its target, misses, or was aimed at a point in space, it explodes upon arrival at the location you designated. Anyone within 20 feet of the explosion takes 9d4 points of slashing damage from the thousands of crystal shards that spray forth.\nAugment: For every additional power point you spend, this power's damage from the explosion of the crystal increases by 1d4 points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::006_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::008_psychometabolism"
+}

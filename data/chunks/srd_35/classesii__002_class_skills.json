@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesii::002_class_skills",
+  "document_id": "srd_35::classesii::002_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesII",
+      "Class Skills"
+    ],
+    "source_location": "ClassesII.rtf#002_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The paladin's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Knowledge (nobility and royalty) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), and Sense Motive (Wis).\nSkill Points at 1st Level: (2 + Int modifier) x4.\nSkill Points at Each Additional Level: 2 + Int modifier.\nTable: The Paladin |\n| | | | | | -- Spells per Day -- |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | 1st | 2nd | 3rd | 4th |\n1st | +1 | +2 | +0 | +0 | Aura of good, detect evil,\nsmite evil 1/day | -- | -- | -- | -- |\n2nd | +2 | +3 | +0 | +0 | Divine grace, lay on hands | -- | -- | -- | -- |\n3rd | +3 | +3 | +1 | +1 | Aura of courage, divine health | -- | -- | -- | -- |\n4th | +4 | +4 | +1 | +1 | Turn undead | 0 | -- | -- | -- |\n5th | +5 | +4 | +1 | +1 | Smite evil 2/day, special mount | 0 | -- | -- | -- |\n6th | +6/+1 | +5 | +2 | +2 | Remove disease 1/week | 1 | -- | -- | -- |\n7th | +7/+2 | +5 | +2 | +2 | | 1 | -- | -- | -- |\n8th | +8/+3 | +6 | +2 | +2 | | 1 | 0 | -- | -- |\n9th | +9/+4 | +6 | +3 | +3 | Remove disease 2/week | 1 | 0 | -- | -- |\n10th | +10/+5 | +7 | +3 | +3 | Smite evil 3/day | 1 | 1 | -- | -- |\n11th | +11/+6/+1 | +7 | +3 | +3 | | 1 | 1 | 0 | -- |\n12th | +12/+7/+2 | +8 | +4 | +4 | Remove disease 3/week | 1 | 1 | 1 | -- |\n13th | +13/+8/+3 | +8 | +4 | +4 | | 1 | 1 | 1 | -- |\n14th | +14/+9/+4 | +9 | +4 | +4 | | 2 | 1 | 1 | 0 |\n15th | +15/+10/+5 | +9 | +5 | +5 | Remove disease 4/week,\nsmite evil 4/day | 2 | 1 | 1 | 1 |\n16th | +16/+11/+6/+1 | +10 | +5 | +5 | | 2 | 2 | 1 | 1 |\n17th | +17/+12/+7/+2 | +10 | +5 | +5 | | 2 | 2 | 2 | 1 |\n18th | +18/+13/+8/+3 | +11 | +6 | +6 | Remove disease 5/week | 3 | 2 | 2 | 1 |\n19th | +19/+14/+9/+4 | +11 | +6 | +6 | | 3 | 3 | 3 | 2 |\n20th | +20/+15/+10/+5 | +12 | +6 | +6 | Smite evil 5/day | 3 | 3 | 3 | 3 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesii::001_classesii",
+  "next_chunk_id": "chunk::srd_35::classesii::003_class_features"
+}

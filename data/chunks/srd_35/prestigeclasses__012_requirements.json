@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::012_requirements",
+  "document_id": "srd_35::prestigeclasses::012_requirements",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Requirements"
+    ],
+    "source_location": "PrestigeClasses.rtf#012_requirements"
+  },
+  "chunk_type": "subsection",
+  "content": "To qualify to become an assassin, a character must fulfill all the following criteria.\nAlignment: Any evil.\nSkills: Disguise 4 ranks, Hide 8 ranks, Move Silently 8 ranks.\nSpecial: The character must kill someone for no other reason than to join the assassins.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::011_class_features",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::013_class_skills"
+}

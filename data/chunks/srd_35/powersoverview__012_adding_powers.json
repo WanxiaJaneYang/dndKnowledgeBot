@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::012_adding_powers",
+  "document_id": "srd_35::powersoverview::012_adding_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "ADDING POWERS"
+    ],
+    "source_location": "PowersOverview.rtf#012_adding_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic characters can learn new powers when they attain a new level. A psion can learn any power from the psion/wilder list and powers from his chosen discipline's list. A wilder can learn any power from the psion/wilder list. A psychic warrior can learn any power from the psychic warrior list.\nPowers Gained at a New Level: Psions and other psionic characters perform a certain amount of personal meditation between adventures in an attempt to unlock latent mental abilities. Each time a psionic character attains a new level, he or she learns additional powers according to his class description. Psions, psychic warriors, and wilders learn new powers of their choice in this fashion. These powers represent abilities unlocked from latency. The powers must be of levels the characters can manifest.\nIndependent Research: A psion also can research a power independently, duplicating an existing power or creating an entirely new one. If characters are allowed to develop new powers, use these guidelines to handle the situation.\nAny kind of manifester can create a new power. The research involved requires access to a retreat conducive to uninterrupted meditation. Research involves an expenditure of 200 XP per week and takes one week per level of the power. At the end of that time, the character makes a Psicraft check (DC 10 + spell level). If that check succeeds, the character learns the new power if her research produced a viable power. If the check fails, the character must go through the research process again if she wants to keep trying.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::011_powers_and_power_points",
+  "next_chunk_id": "chunk::srd_35::powersoverview::013_manifest_an_unknown_power_from_another_s_powers_known"
+}

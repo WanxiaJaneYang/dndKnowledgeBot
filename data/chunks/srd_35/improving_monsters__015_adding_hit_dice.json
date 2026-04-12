@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::015_adding_hit_dice",
+  "document_id": "srd_35::improving_monsters::015_adding_hit_dice",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "ADDING HIT DICE"
+    ],
+    "source_location": "Improving Monsters.rtf#015_adding_hit_dice"
+  },
+  "chunk_type": "subsection",
+  "content": "When you improve a monster by adding Hit Dice, use Table: Improved Monster CR Increase to determine the effect on the creature's CR. Keep in mind that many monsters that advance by adding Hit Dice also increase in size. Do not stack this CR increase with any increase from class levels. In general, once you've doubled a creature's CR, you should closely watch any additional increases in its abilities. Adding Hit Dice to a creature improves several of its abilities, and radical increases might not follow this progression indefinitely. Compare the monster's improved attack bonus, saving throw bonuses, and any DCs of its special abilities from the HD increase to typical characters of the appropriate level and adjust the CR accordingly.\nTable: Improved Monster CR Increase |\nCreature's Original Type | CR Increase |\nAberration, construct, elemental, fey, giant, humanoid, ooze, plant, undead, vermin | +1 per 4 HD added |\nAnimal, magical beast, monstrous humanoid | +1 per 3 HD added |\nDragon, outsider, nonassociated class levels | +1 per 2 HD or 2 levels added |\nDirectly associated class levels | +1 per level added |\nOther Modifiers: | |\nSize increased to Large or larger | +1 to CR |\nMonster's ability scores based on elite array* | +1 to CR |\nMonster possesses special attacks or qualities that significantly improve combat effectiveness | +2 to CR |\nMonster possesses special attacks or qualities that improve combat effectiveness in a minor way | +1 to CR |\nTemplate added | + template CR modifier |\n* Do not apply this increase if you advance a monster by class levels. (Monsters advanced by class levels are assumed to use the elite array.) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::014_nonassociated_class_levels",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::016_increasing_size"
+}

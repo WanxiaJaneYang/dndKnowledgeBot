@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::basics::012_intelligence_int",
+  "document_id": "srd_35::basics::012_intelligence_int",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Basics",
+      "INTELLIGENCE (INT)"
+    ],
+    "source_location": "Basics.rtf#012_intelligence_int"
+  },
+  "chunk_type": "subsection",
+  "content": "Intelligence determines how well your character learns and reasons. This ability is important for wizards because it affects how many spells they can cast, how hard their spells are to resist, and how powerful their spells can be. It's also important for any character who wants to have a wide assortment of skills.\nYou apply your character's Intelligence modifier to:\nThe number of languages your character knows at the start of the game.\nThe number of skill points gained each level. (But your character always gets at least 1 skill point per level.)\nAppraise, Craft, Decipher Script, Disable Device, Forgery, Knowledge, Search, and Spellcraft checks. These are the skills that have Intelligence as their key ability.\nA wizard gains bonus spells based on her Intelligence score. The minimum Intelligence score needed to cast a wizard spell is 10 + the spell's level.\nAn animal has an Intelligence score of 1 or 2. A creature of humanlike intelligence has a score of at least 3.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::basics::011_constitution_con",
+  "next_chunk_id": "chunk::srd_35::basics::013_wisdom_wis"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::079_point_blank_shot_general",
+  "document_id": "srd_35::feats::079_point_blank_shot_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "POINT BLANK SHOT [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#079_point_blank_shot_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.\nSpecial: A fighter may select Point Blank Shot as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::078_persuasive_general",
+  "next_chunk_id": "chunk::srd_35::feats::080_power_attack_general"
+}

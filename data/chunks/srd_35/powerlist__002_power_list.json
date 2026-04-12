@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::002_power_list",
+  "document_id": "srd_35::powerlist::002_power_list",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "POWER LIST"
+    ],
+    "source_location": "PowerList.rtf#002_power_list"
+  },
+  "chunk_type": "rule_section",
+  "content": "An A appearing at the end of a power's name in the power lists denotes an augmentable power. An X denotes a power with an XP component paid by the manifester.\nPower Chains: Some powers reference other powers that they are based upon. Only information in a power later in the power chain that is different from the base power is covered in the power being described. Header entries and other information that are the same as the base power are not repeated. The same holds true for powers that are the equivalents of spells, only the way the power varies from the spell is noted, such as power point cost.\nOrder of Presentation: In the power lists and the power descriptions that follow them, the powers are presented in alphabetical order by name--except for those belonging to certain power chains and those that are psionic equivalents of spells. When a power's name begins with \u201clesser,\u201d \u201cgreater,\u201d \u201cmass,\u201d or a similar kind of qualifier, the power description is alphabetized under the second word of the power description instead. When the effect of a power is essentially the same as that of a spell, the power's name is simply \u201cPsionic\u201d followed by the name of the spell, and it is alphabetized according to the spell name.\nManifester Level: A power's effect often depends on the manifester level, which is the manifester's psionic class level. A creature with no classes has a manifester level equal to its Hit Dice unless otherwise specified. The word \u201clevel\u201d in the power lists always refers to manifester level.\nCreatures and Characters: \u201cCreatures\u201d and \u201ccharacters\u201d are used synonymously in the power descriptions.\nAugment: Many powers vary in strength depending on how many power points you put into them. The more power points you spend, the more powerful the manifestation. However, you can spend only a total number of points on a power equal to your manifester level, unless you have an ability that increases your effective manifester level.\nMany powers can be augmented in more than one way. When the Augment section contains numbered paragraphs, you need to spend power points separately for each of the numbered options. When a paragraph in the Augment section begins with \u201cIn addition,\u201d you gain the indicated benefit according to how many power points you have already decided to spend on manifesting the power.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::001_powerlist",
+  "next_chunk_id": "chunk::srd_35::powerlist::003_1st_level_psion_wilder_powers"
+}

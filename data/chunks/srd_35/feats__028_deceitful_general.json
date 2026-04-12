@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::028_deceitful_general",
+  "document_id": "srd_35::feats::028_deceitful_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "DECEITFUL [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#028_deceitful_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Disguise checks and Forgery checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::027_craft_wondrous_item_item_creation",
+  "next_chunk_id": "chunk::srd_35::feats::029_deflect_arrows_general"
+}

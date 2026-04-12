@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::027_combat",
+  "document_id": "srd_35::monstersdr_dw::027_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#027_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Silver dragons are not violent and avoid combat except when faced with highly evil or aggressive foes. If necessary, they use fog cloud or control weather to blind or confuse opponents before attacking. When angry, they use reverse gravity to fling enemies helplessly into the air, where they can be snatched. Against flying opponents, a silver dragon hides in clouds (creating some with control weather on clear days), then jumps to the attack when it has the advantage.\nBreath Weapon (Su): A silver dragon has two types of breath weapon, a cone of cold and a cone of paralyzing gas. Creatures within a cone of paralyzing gas must succeed on a Fortitude save or be paralyzed for 1d6 rounds plus 1 round per age category of the dragon.\nAlternate Form (Su): A silver dragon can assume any animal or humanoid form of Medium size or smaller as a standard action three times per day. This ability functions as a polymorph spell cast on itself at its caster level, except that the dragon does not regain hit points for changing form and can only assume the form of an anirmal or humanoid. The dragon can remain in its animal or humanoid form until it chooses to assume a new one or return to its natural form.\nCloudwalking (Su): A silver dragon can tread on clouds or fog as though on solid ground. The ability functions continuously but can be negated or resumed at will.\nSpell-Like Abilities: 3/day--fog cloud (adult or older), control winds (old or older); 2/day--feather fall (juvenile or older); 1/day-- control weather (ancient or older), reverse gravity (great wyrm).\nSkills: Bluff, Disguise, and Jump are considered class skills for silver dragons.\n\nHit Dice: | 12d12+60 (138 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares), swim 30 ft. |\nArmor Class: | 25 (-2 size, +17 natural), touch 8, flat-footed 25 |\nBase Attack/Grapple: | +12/+28 |\nAttack: | Bite +18 melee (4d6+8) |\nFull Attack: | Bite +18 melee (4d6+8) and 2 claws +13 melee (2d8+4) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Breath weapon, snatch, capsize |\nSpecial Qualities: | Darkvision 60 ft., immunity to fire, sleep, and paralysis, low-light vision, scent |\nSaves: | Fort +13, Ref +8, Will +9 |\nAbilities: | Str 27, Dex 10, Con 21, Int 12, Wis 13, Cha 12 |\nSkills: | Diplomacy +3, Hide +7*, Intimidate +16, Listen +16, Search +16, Sense Motive +16, Spot +16, Survival +16 (+18 following tracks), Swim +21 |\nFeats: | Blind-Fight, Cleave, Improved Bull Rush, Power Attack, Snatch |\nEnvironment: | Temperate aquatic |\nOrganization: | Solitary |\nChallenge Rating: | 9 |\nTreasure: | Triple standard |\nAlignment: | Usually neutral |\nAdvancement: | 13-24 HD (Huge); 25-36 HD (Gargantuan) |\nLevel Adjustment: | -- |\nIts rough, deep green shell is much the same color as the deep water the monster favors, and the silver highlights that line the shell resemble light dancing on open water. The turtle's legs, tail, and head are a lighter green, flecked with golden highlights. An adult dragon turtle can measure from 20 to 30 feet from snout to tail, with a shell from 15 to 25 feet in diameter, and can weigh 8,000 to 32,000 pounds.\nDragon turtles speak Aquan, Draconic, and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::026_dragon_cold",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::028_combat"
+}

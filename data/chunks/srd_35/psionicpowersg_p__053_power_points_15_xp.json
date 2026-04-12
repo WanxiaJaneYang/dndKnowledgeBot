@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::053_power_points_15_xp",
+  "document_id": "srd_35::psionicpowersg_p::053_power_points_15_xp",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 15, XP"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#053_power_points_15_xp"
+  },
+  "chunk_type": "subsection",
+  "content": "You impress the totality of your psyche into a subject's subconscious. If successfully implanted, the seed of your mind \u201cgerminates\u201d over the period of one week. During this time, the subject begins to unconsciously take on your mannerisms.\nWhen integration is complete (after one week), the subject becomes you in mind as you were when you manifested the power, but the subject's level is eight lower than your own. (In effect, the subject has received eight negative levels--but these are negative levels that can't be removed.) The subject does not have any of your physical ability scores or equipment, but does have the Intelligence, Wisdom, and Charisma scores you had when you were eight levels lower. The subject also knows the powers you knew when you were eight levels lower.\nWhile the subject is initially your mental duplicate, the two personalities diverge over time. Although the subject starts off with memories of your experiences, it possesses its original \u201csoul\u201d and physical body and is free to develop its own personality based on its own new experiences. Thus, the subject is not your slave or servant, but instead a nonplayer character in its own right that shares your earlier memories.\nProtection from evil or a similar spell or power can prevent you from implanting mind seed, or prevent a seed from germinating while the protective power lasts. Otherwise, a germinating seed can be removed (prior to germination) only by psychic chirurgery, reality revision, or similarly high-level effects. Manifesting mind seed again during the germination period also cleanses the subject's mind.\nXP Cost: 3,000 XP.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::052_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::054_display_visual"
+}

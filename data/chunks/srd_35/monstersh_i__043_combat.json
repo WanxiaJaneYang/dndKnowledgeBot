@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::043_combat",
+  "document_id": "srd_35::monstersh_i::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "Combat"
+    ],
+    "source_location": "MonstersH-I.rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Once it has found its fugitive, a zelekhut uses its speed and its spell-like abilities to cover the most likely escape routes. Then it immobilizes any defenders while attempting to protect any innocent bystanders. Finally, it apprehends the fugitive with its spiked chains, tripping or disarming the foe as needed.\nA zelekhut's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.\nSpell-Like Abilities: At will--clairaudience/clairvoyance, dimensional anchor, dispel magic, fear (DC 16), hold person (DC 15), locate creature, true seeing; 3/day--hold monster (DC 17), mark of justice; 1/week-- lesser geas (DC 16). Caster level 8th. The save DCs are Charisma-based.\nSkills: A zelekhut has a +4 racial bonus on Search and Sense Motive checks.\nFeats: Due to its centaur-like construction, a zelekhut qualifies for feats as if it had the Mounted Combat feat.\n\nHit Dice: | 8d8+16 (52 hp) |\nInitiative: | +8 |\nSpeed: | 30 ft. (6 squares), fly 30 ft. (perfect) |\nArmor Class: | 17 (-1 size, +4 Dex, +4 natural), touch 13, flat-footed 13 |\nBase Attack/Grapple: | +6/+14 |\nAttack: | Slam +10 melee (2d6+4) |\nFull Attack: | 2 slams +10 melee (2d6+4) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft., elemental traits, natural invisibility, improved tracking |\nSaves: | Fort +4, Ref +10, Will +4 |\nAbilities: | Str 18, Dex 19, Con 14, Int 14, Wis 15, Cha 11 |\nSkills: | Listen +13, Move Silently +15, Search +13, Spot +13, Survival +2 (+4 following tracks) |\nFeats: | Combat Reflexes, Improved Initiative, Weapon Focus (slam) |\nEnvironment: | Elemental Plane of Air |\nOrganization: | Solitary |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Usually neutral |\nAdvancement: | 9-12 HD (Large); 13-24 HD (Huge) |\nLevel Adjustment: | -- |\nInvisible stalkers are creatures native to the Elemental Plane of Air. They sometimes serve wizards and sorcerers, who summon them to perform specific tasks.\nA summoned invisible stalker undertakes whatever task the summoner commands, even if the task sends it hundreds or thousands of miles away. The creature follows a command until the task is completed and obeys only the summoner. However, it resents protracted missions or complex tasks and seeks to pervert its instructions accordingly.\nInvisible stalkers have an amorphous form. A see invisibility spell shows only a dim outline of a cloud, while a true seeing spell reveals a roiling cloud of vapor.\nThese creatures speak only Auran but can understand Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::042_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::044_combat"
+}

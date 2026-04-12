@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::027_divine_blessing",
+  "document_id": "srd_35::divineabilitiesandfeats::027_divine_blessing",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Blessing"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#027_divine_blessing"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Selected ability score 40.\nBenefit: Choose one ability: Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma. The deity must have a score of at least 40 in the selected ability. The deity can grant mortals a +6 enhancement bonus to that ability that lasts for one day. In a single day and at one time, the deity can affect a number of creatures equal to its divine rank.\nNotes: A deity can have this ability multiple times, choosing a different ability score each time.\nSuggested Portfolio Elements: Agility, beauty, endurance, knowledge, strength, wisdom.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::026_divine_blast",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::028_divine_celerity"
+}

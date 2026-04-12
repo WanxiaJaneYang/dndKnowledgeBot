@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::005_2nd_level_bard_spells",
+  "document_id": "srd_35::spelllisti::005_2nd_level_bard_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "2ND-LEVEL BARD SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#005_2nd_level_bard_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Alter Self: Assume form of a similar creature.\nAnimal Messenger: Sends a Tiny animal to a specific place.\nAnimal Trance: Fascinates 2d6 HD of animals.\nBlindness/Deafness: Makes subject blind or deaf.\nBlur: Attacks miss subject 20% of the time.\nCalm Emotions: Calms creatures, negating emotion effects.\nCat's Grace: Subject gains +4 to Dex for 1 min./level.\nCure Moderate Wounds: Cures 2d8 damage +1/level (max +10).\nDarkness: 20-ft. radius of supernatural shadow.\nDaze Monster: Living creature of 6 HD or less loses next action.\nDelay Poison: Stops poison from harming subject for 1 hour/ level.\nDetect Thoughts: Allows \u201clistening\u201d to surface thoughts.\nEagle's Splendor: Subject gains +4 to Cha for 1 min./level.\nEnthrall: Captivates all within 100 ft. + 10 ft./level.\nFox's Cunning: Subject gains +4 to Int for 1 min./level.\nGlitterdust: Blinds creatures, outlines invisible creatures.\nHeroism: Gives +2 on attack rolls, saves, skill checks.\nHold Person: Paralyzes one humanoid for 1 round/level.\nHypnotic Pattern: Fascinates (2d4 + level) HD of creatures.\nInvisibility: Subject is invisible for 1 min./level or until it attacks.\nLocate Object: Senses direction toward object (specific or type).\nMinor Image: As silent image, plus some sound.\nMirror Image: Creates decoy duplicates of you (1d4 +1 per three levels, max 8).\nMisdirection: Misleads divinations for one creature or object.\nPyrotechnics: Turns fire into blinding light or choking smoke.\nRage: Gives +2 to Str and Con, +1 on Will saves, -2 to AC.\nScare: Panics creatures of less than 6 HD.\nShatter: Sonic vibration damages objects or crystalline creatures.\nSilence: Negates sound in 20-ft. radius.\nSound Burst: Deals 1d8 sonic damage to subjects; may stun them.\nSuggestion: Compels subject to follow stated course of action.\nSummon Monster II: Calls extraplanar creature to fight for you.\nSummon Swarm: Summons swarm of bats, rats, or spiders.\nTongues: Speak any language.\nWhispering Wind: Sends a short message 1 mile/level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::004_1st_level_bard_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::006_3rd_level_bard_spells"
+}

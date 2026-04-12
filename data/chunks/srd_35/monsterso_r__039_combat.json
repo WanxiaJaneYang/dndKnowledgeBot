@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::039_combat",
+  "document_id": "srd_35::monsterso_r::039_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#039_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Remorhazes hide under the snow and ice until they hear movement above them, then attack from below and surprise prey.\nImproved Grab (Ex): To use this ability, a remorhaz must hit an opponent least one size category smaller than itself with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can attempt to swallow the opponent the following round.\nSwallow Whole (Ex): When a remorhaz begins its turn with a grappled opponent in its mouth, it can swallow that opponent with a successful grapple check. Once inside, the opponent takes 2d8+12 points of bludgeoning damage plus 8d6 points of fire damage per round from the remorhaz's gizzard. A swallowed creature can cut its way out by using a light slashing or piercing weapon to deal 25 points of damage to the gizzard (AC 15). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out. A Huge remorhaz's interior can hold 2 Large, 4 Medium, 8 Small, 32 Tiny, 128 Diminutive, or 512 Fine or smaller opponents.\nHeat (Ex): An enraged remorhaz generates heat so intense that anything touching its body takes 8d6 points of fire damage. Creatures striking a remorhaz with natural attacks or unarmed attacks are subject to this damage, but creatures striking with melee weapons do not take damage from the remorhaz's heat. This heat can melt or char weapons; any weapon that strikes a remorhaz is allowed a DC 18 Fortitude save to avoid destruction. The save DC is Constitution-based. Skills: Remorhazes have a +4 racial bonus on Listen checks.\n\nHit Dice: | 18d8+126 (207 hp) |\nInitiative: | +2 |\nSpeed: | 20 ft. (4 squares), fly 80 ft. (average) |\nArmor Class: | 17 (-4 size, +2 Dex, +9 natural), touch 8, flatfooted 15 |\nBase Attack/Grapple: | +13/+37 |\nAttack: | Talon +21 melee (2d6+12) |\nFull Attack: | 2 talons +21 melee (2d6+12) and bite +19 melee (2d8+6) |\nSpace/Reach: | 20 ft./15 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Low-light vision |\nSaves: | Fort +18, Ref +13, Will +9 |\nAbilities: | Str 34, Dex 15, Con 24, Int 2, Wis 13, Cha 11 |\nSkills: | Hide -3, Listen +10, Spot +14 |\nFeats: | Alertness, Flyby Attack, Iron Will, Multiattack, Power Attack, Snatch, Wingover |\nEnvironment: | Warm mountains |\nOrganization: | Solitary or pair |\nChallenge Rating: | 9 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 19-32 HD (Gargantuan); 33-54 (Colossal) |\nLevel Adjustment: | -- |\nA roc's plumage is either dark brown or golden from head to tail. These enormous creatures are 30 feet long from the beak to the base of the tail, with wingspans as wide as 80 feet. A roc weighs about 8,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::038_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::040_combat"
+}

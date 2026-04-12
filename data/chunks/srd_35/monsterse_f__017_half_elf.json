@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::017_half_elf",
+  "document_id": "srd_35::monsterse_f::017_half_elf",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "Half-Elf"
+    ],
+    "source_location": "MonstersE-F.rtf#017_half_elf"
+  },
+  "chunk_type": "subsection",
+  "content": "Half-elves are not truly an elf subrace, but they are often mistaken for elves. Half-elves usually inherit a good blend of their parents' physical characteristics.\nHalf-Elf Traits (Ex): Half-elves possess the following racial traits.\n--Medium size.\n--A half-elf 's base land speed is 30 feet.\n--Immunity to sleep spells and similar magical effects, and a +2 racial bonus on saving throws against enchantment spells or effects.\n--Low-light vision.\n-- +1 racial bonus on Listen, Search, and Spot checks. A half-elf does not have the elf 's ability to notice secret doors simply by passing near them.\n-- +2 racial bonus on Diplomacy and Gather Information checks: Half-elves get along naturally with all people. This bonus may not apply in situations or settings where half-elves are viewed with distrust.\n--Elven Blood: For all effects related to race, a half-elf is considered an elf. Half-elves, for example, are just as vulnerable to special effects that affect elves as their elf ancestors are, and they can use magic items that are only usable by elves.\n--Automatic Languages: Common, Elven. Bonus Languages: Any (other than secret languages, such as Druidic).\n--Favored Class: Any. When determining whether a multiclass half-elf takes an experience point penalty for multiclassing, her highest-level class does not count.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::016_subraces",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::018_aquatic_elf"
+}

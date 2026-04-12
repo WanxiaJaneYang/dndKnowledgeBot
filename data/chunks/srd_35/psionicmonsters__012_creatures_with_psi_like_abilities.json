@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::012_creatures_with_psi_like_abilities",
+  "document_id": "srd_35::psionicmonsters::012_creatures_with_psi_like_abilities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Creatures with Psi-Like Abilities"
+    ],
+    "source_location": "PsionicMonsters.rtf#012_creatures_with_psi_like_abilities"
+  },
+  "chunk_type": "subsection",
+  "content": "Each of a creature's psi-like abilities has a manifester level. Each ability that allows a saving throw also gives a save DC in parentheses following the power name.\nPowers that have increased effects due to augmentation include information about the effect. An asterisk indicates that the power has already been augmented by the creature's innate ability.\nPowers that can't be augmented, or that are manifested at their normal minimum level, do not contain any special notations. Resolve the effect of manifesting the power without augmentation at the creature's given manifester level.\nSome creatures may have particular powers that are manifested at a higher or lower level than their normal manifester level. In such cases, the manifester level is given in the parenthetical information following the power name.\n\nSpecial Attacks: Psi-like abilities, slime",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::011_psionic_versions_of_creatures",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::013_combat"
+}

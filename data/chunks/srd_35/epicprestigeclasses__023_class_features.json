@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::023_class_features",
+  "document_id": "srd_35::epicprestigeclasses::023_class_features",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Features"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#023_class_features"
+  },
+  "chunk_type": "subsection",
+  "content": "All the following are features of the divine emissary prestige class.\nSpells per Day/Spells Known: At each divine emissary level, the character gains new spells per day (and spells known, if applicable) as if he or she had also gained a level in a spellcasting class to which he or she belonged before adding the prestige class level. If already an epic spell-caster, the character gains only the benefit noted under the Spells entry for that epic class. He or she does not, however, gain any other benefit a character of that class would have gained. If the character had more than one spellcasting class before becoming a divine emissary, the player must decide to which class to add the new level for the purpose of determining spells per day.\nSpecial Mount: If he or she has one, the divine emissary's special mount continues to increase in power. Every five levels after 1st, the special mount gains +2 bonus Hit Dice, its natural armor increases by +2, its Strength adjustment increases by +1, and its Intelligence increases by +1. The mount's spell resistance equals the divine emissary's class level + the class level that provided the special mount + 5.\nGranted Domain (Ex): A divine emissary gains access to one of his or her deity's domains, as well as the granted power of that domain. The extra domain expands a paladin's selection of spells, but he or she does not gain the ability to cast higher-level spells than he or she otherwise could. Clerics gain an additional domain but otherwise use the rules for preparing spells from their domains normally.\nDivine Inspiration (Sp): A divine emissary gains a +2 luck bonus on his or her attack and damage rolls for 10 rounds, once per day at 1st level, plus one additional time per day every three levels thereafter.\nExtra Smite (Su): A divine emissary can use his or her smite ability two extra times per day, plus one additional time per day every three levels thereafter. To determine the damage with any smite attack, a divine emissary adds together his or her divine emissary levels and class levels that originally conferred the smite ability.\nGreater Planar Ally (Sp): The emissary can call a greater planar ally (as the spell) once per day at 3rd level, plus one additional time per day every ten levels thereafter. The ally does not request a return favor when a divine emissary uses this ability.\nBonus Feats: The divine emissary gains a bonus feat at 6th level and an additional bonus feat every ten levels thereafter. These bonus feats must be selected from the following list: Armor Skin, Devastating Critical, Epic Leadership, Epic Prowess, Epic Reputation, Epic Toughness, Epic Weapon Focus, Great Smiting, Holy Strike, Improved Aura of Courage, Improved Combat Casting, Improved Spell Capacity, Legendary Commander, Legendary Rider, Overwhelming Critical, Perfect Health, Permanent Emanation, Planar Turning, Positive Energy Aura, Spectral Strike, Spontaneous Spell, Widen Aura of Courage.\nDivine Hand (Su): As a free action, the emissary gains a +20 sacred (or profane if appropriate) bonus on his next melee or ranged attack roll, as long as the attack is made with the deity's favored weapon. The emissary can use divine hand once per day at 9th level, plus one additional time per day every ten levels thereafter.\nEPIC INFILTRATOR\nHit Die: d6.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::022_class_skills",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::024_requirements"
+}

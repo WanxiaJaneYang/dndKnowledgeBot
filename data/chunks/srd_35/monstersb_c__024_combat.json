@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::024_combat",
+  "document_id": "srd_35::monstersb_c::024_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#024_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A chuul prefers to wait by the shore, submerged in murky water, until it hears nearby prey (in or out of the water) that it can attack with surprise. A chuul grabs with its claws and constricts its foe, then passes the opponent to its paralytic tentacles. It tries to always have one claw free, so if it faces a large number of opponents, it drops a paralyzed or dead victim and continues attempting to grab, constrict, and paralyze the rest.\nConstrict (Ex): On a successful grapple check, a chuul deals 3d6+5 points of damage.\nImproved Grab (Ex): To use this ability, a chuul must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict or on its next turn transfer a grabbed opponent to its tentacles.\nParalytic Tentacles (Ex): A chuul can transfer grabbed victims from a claw to its ten- tacles as a move action. The tentacles grapple with the same strength as the claw but deal no damage. However, they exude a paralytic secretion. Anyone held in the tentacles must succeed on a DC 19 Fortitude save each round on the chuul's turn or be paralyzed for 6 rounds. The save DC is Constitution-based. While held in the tentacles, paralyzed or not, a victim automatically takes 1d8+2 points of damage each round from the creature's mandibles.\nAmphibious (Ex): Although chuuls are aquatic, they can survive indefinitely on land.\nSkills: A chuul has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 6d8+18 (45 hp) |\nInitiative: | +7 |\nSpeed: | 10 ft. (2 squares), fly 40 ft. (average) |\nArmor Class: | 19 (-1 size, +3 Dex, +7 natural), touch 12, flat-footed 16 |\nBase Attack/Grapple: | +4/+13 |\nAttack: | Tail slap +8 melee (1d6+5) |\nFull Attack: | Tail slap +8 melee (1d6+5) and bite +3 melee (1d4+2) |\nSpace/Reach: | 10 ft./10 ft. (5 ft. with bite) |\nSpecial Attacks: | Moan, engulf |\nSpecial Qualities: | Darkvision 60 ft., shadow shift |\nSaves: | Fort +5, Ref +5, Will +7 |\nAbilities: | Str 21, Dex 16, Con 17, Int 14, Wis 15, Cha 15 |\nSkills: | Hide +8, Listen +13, Move Silently +12, Spot +13 |\nFeats: | Alertness, Combat Reflexes, Improved Initiative |\nEnvironment: | Underground |\nOrganization: | Solitary, mob (3-6), or flock (7-12) |\nChallenge Rating: | 5 |\nTreasure: | Standard |\nAlignment: | Usually chaotic neutral |\nAdvancement: | 7-9 HD (Large); 10-18 HD (Huge) |\nLevel Adjustment: | -- |\nWhen resting or lying in wait, these creatures are almost impossible to distinguish from common black cloaks (the cloaker's ivory claws look very much like bone clasps). Only when it unfurls does the horrific nature of the creature become apparent.\nA cloaker has a wingspan of about 8 feet. It weighs about 100 pounds.\nCloakers speak Undercommon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::023_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::025_combat"
+}

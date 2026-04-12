@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::015_power_points_1",
+  "document_id": "srd_35::psionicpowersa_c::015_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#015_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You plant a compelling attraction in the mind of the subject. The attraction can be toward a particular person or an object. The subject will take reasonable steps to meet, get close to, attend, or find the object of its implanted attraction. For the purpose of this power, \u201creasonable\u201d means that, while attracted, the subject doesn't suffer from blind obsession. He will act on this attraction only when not engaged in combat. The subject won't perform obviously suicidal actions. He can still recognize danger but will not flee unless the threat is immediate. If you make the subject feel an attraction to yourself, you can't command him indiscriminately, although he will be willing to listen to you (even if he disagrees). This power grants you a +4 bonus on any interaction checks you make involving the subject (such as Bluff, Diplomacy, Intimidate, and Sense Motive).\nAugment: For every 2 additional power points you spend, this power's save DC increases by 1 and the bonus on interaction checks increases by 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::014_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::016_display_material"
+}

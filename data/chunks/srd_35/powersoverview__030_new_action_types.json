@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powersoverview::030_new_action_types",
+  "document_id": "srd_35::powersoverview::030_new_action_types",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowersOverview",
+      "New Action Types"
+    ],
+    "source_location": "PowersOverview.rtf#030_new_action_types"
+  },
+  "chunk_type": "subsection",
+  "content": "Swift Action: A swift action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. However, you can perform only a single swift action per turn, regardless of what other actions you take. You can take a swift action any time you would normally be allowed to take a free action. Swift actions usually involve psionics or the activation of psionic items; many characters (especially those who don't use psionics) never have an opportunity to take a swift action.\nManifesting a quickened power is a swift action. In addition, manifesting any power with a casting time of 1 swift action is a swift action.\nManifesting a power with a manifesting time of 1 swift action does not provoke attacks of opportunity.\nImmediate Action: Much like a swift action, an immediate action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. However, unlike a swift action, an immediate action can be performed at any time--even if it's not your turn. Using an immediate action on your turn is the same as using a swift action, and counts as your swift action for that turn. You cannot use another immediate action or a swift action until after your next turn if you have used an immediate action when it is not currently your turn (effectively, using an immediate action before your turn is equivalent to using your swift action for the coming turn). You also cannot use an immediate action if you are currently flat-footed.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powersoverview::029_manifesting_time",
+  "next_chunk_id": "chunk::srd_35::powersoverview::031_range"
+}

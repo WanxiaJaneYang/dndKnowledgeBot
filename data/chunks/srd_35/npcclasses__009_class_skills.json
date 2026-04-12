@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::npcclasses::009_class_skills",
+  "document_id": "srd_35::npcclasses::009_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "NPCClasses",
+      "Class Skills"
+    ],
+    "source_location": "NPCClasses.rtf#009_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The expert can choose any ten skills to be class skills.\nSkill Points at 1st Level: (6 + Int modifier) x4.\nSkill Points at Each Additional Level: 6 + Int modifier.\nTable: The Expert |\nNPC Level | Base Attack\nBonus | Fort\nSave | Ref\nSave | Will\nSave |\n1st | +0 | +0 | +0 | +2 |\n2nd | +1 | +0 | +0 | +3 |\n3rd | +2 | +1 | +1 | +3 |\n4th | +3 | +1 | +1 | +4 |\n5th | +3 | +1 | +1 | +4 |\n6th | +4 | +2 | +2 | +5 |\n7th | +5 | +2 | +2 | +5 |\n8th | +6/+1 | +2 | +2 | +6 |\n9th | +6/+1 | +3 | +3 | +6 |\n10th | +7/+2 | +3 | +3 | +7 |\n11th | +8/+3 | +3 | +3 | +7 |\n12th | +9/+4 | +4 | +4 | +8 |\n13th | +9/+4 | +4 | +4 | +8 |\n14th | +10/+5 | +4 | +4 | +9 |\n15th | +11/+6/+1 | +5 | +5 | +9 |\n16th | +12/+7/+2 | +5 | +5 | +10 |\n17th | +12/+7/+2 | +5 | +5 | +10 |\n18th | +13/+8/+3 | +6 | +6 | +11 |\n19th | +14/+9/+4 | +6 | +6 | +11 |\n20th | +15/+10/+5 | +6 | +6 | +12 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::npcclasses::008_class_features",
+  "next_chunk_id": "chunk::srd_35::npcclasses::010_class_features"
+}

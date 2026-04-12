@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicoverview::009_the_spell_s_result",
+  "document_id": "srd_35::magicoverview::009_the_spell_s_result",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicOverview",
+      "THE SPELL'S RESULT"
+    ],
+    "source_location": "MagicOverview.rtf#009_the_spell_s_result"
+  },
+  "chunk_type": "subsection",
+  "content": "Once you know which creatures (or objects or areas) are affected, and whether those creatures have made successful saving throws (if any were allowed), you can apply whatever results a spell entails.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicoverview::008_spell_failure",
+  "next_chunk_id": "chunk::srd_35::magicoverview::010_special_spell_effects"
+}

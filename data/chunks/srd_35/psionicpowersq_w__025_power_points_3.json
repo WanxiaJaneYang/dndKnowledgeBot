@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::025_power_points_3",
+  "document_id": "srd_35::psionicpowersq_w::025_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#025_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "This power creates a psychometabolic connection between you and a willing subject so that some of your wounds are transferred to the subject. You take half damage from all attacks that deal hit point damage to you, and the subject takes the remainder. The amount of damage not taken by you is taken by the subject. If your hit points are reduced by a lowered Constitution score, that reduction is not shared with the subject because it is not a form of hit point damage. When this power ends, subsequent damage is no longer divided between the subject and you, but damage already shared is not reassigned.\nIf you and the subject move farther away from each other than close range, the power ends.\nYou can manifest this power on two willing subjects, one of which you designate to share its damage with the other.\n\nRange: Close (25 ft. + 5 ft./2 levels)\nTarget: One creature\nDuration: 1 round/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::024_power_points_15",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::026_power_points_5"
+}

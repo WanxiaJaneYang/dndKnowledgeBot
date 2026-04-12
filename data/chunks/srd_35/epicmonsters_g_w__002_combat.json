@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::002_combat",
+  "document_id": "srd_35::epicmonsters_g_w::002_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#002_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A genius loci can directly attack any creature standing on its surface with animated parts of itself, delivering slam attacks. It also directs its enslaved thrall against those it attacks. If its slave is slain, it selects another of its foes as its next, newest slave. Once a genius loci animates a portion of itself to attack the boundaries of its form become clear, and the creature becomes open to attack (Survival checks to determine the extent of the genius loci are no longer necessary). The animated part of the genius loci has a reach of 15 feet.\nEnslave (Su): A genius loci can use the epic spell enslave once per round as a free action until it successfully enslaves a foe (Will DC 53 to resist). The DC is Charisma-based. Once it has a slave, it cannot enslave another until its current slave dies, is imprisoned, or is otherwise incapaticiated. A slave becomes free if its genius loci master is slain. A genius loci forces its slave to remain with it, though it may send its slave off to temporarily visit nearby locations in order to draw in unsuspecting victims. In fact, the \u201cpurposes\u201d of the genius loci are to some degree influenced by the current slave. The genius loci has no Intelligence score of its own; thus, its emulation of its slave's intelligence sometimes transfers attitudes and goals. However, a slave can only go so far in influencing its mobile master, and cannot knowingly attempt to free itself from the genius loci that keeps it close.\nImproved Grab (Ex): If the genius loci hits a Gargantuan or smaller creature with a slam attack, it deals normal Damage and attempts to start a grapple as a free action without provoking an attack of opportunity. The genius loci has the option to conduct the grapple normally, or simply use the part of its body it used in the improved grab to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals slam attack Damage, in addition to constriction Damage.\nConstrict (Ex): A genius loci crushes its opponent, dealing 4d10+30 points of bludgeoning Damage, after making a successful grapple check.\nOoze Traits: An ooze is an amorphous or mutable creature. Oozes are immune to poison, sleep, paralysis, stunning, and polymorphing. They have no clear front or back and are therefore not subject to critical hits or flanking. Oozes are blind but have the blindsight special quality. They have no Intelligence scores and are therefore immune to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).\n\nHit Dice: | 27d8+216 (337 hp) |\nInitiative: | +20 (+12 Dex, +8 Superior Initiative) |\nSpeed: | 5 ft., fly 20 ft. (good) |\nAC: | 48 (+12 Dex, -2 size, +16 natural armor, +12 insight) |\nBase Attack/Grapple: | +20/+39 |\nAttack: | 24 eye rays +31 ranged touch, 12 bites +28 (2d8+5/19-20) melee |\nFull Attack: | 24 eye rays +31 ranged touch, 12 bites +28 (2d8+5/19-20) melee |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Gibbering, improved grab, swallow whole, eye rays, spell-like abilities |\nSpecial Qualities: | All-around vision, flight, amorphous, SR 37, DR 10/epic |\nSaves: | Fort +21, Ref +21, Will +24 |\nAbilities: | Str 32, Dex 35, Con 27, Int 40, Wis 24, Cha 22 |\nSkills: | Concentration +38, Escape Artist +42, Jump -4, Knowledge (arcana) +37, Hide +34, Listen +37, Move Silently +34, Search +37, Speak Language (any five), Spot +37 |\nFeats: | Flyby Attack, Improved Initiative, Improved Critical (bite), Iron Will, Multiattack, Weapon Focus (eye ray), Weapon Focus (bite) |\nEpic Feats: | Epic Fortitude, Polyglot, Superior Initiative |\nClimate/Terrain: | Any land and underground |\nOrganization: | Solitary |\nChallenge Rating: | 27 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | 27-54 HD (Huge); 55-108 HD (Gargantuan) |\nA gibbering orb can speak all languages.\nA gibbering orb's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::001_epicmonsters_g_w",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::003_combat"
+}

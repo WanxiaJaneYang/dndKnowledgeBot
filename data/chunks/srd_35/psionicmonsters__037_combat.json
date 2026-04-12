@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::037_combat",
+  "document_id": "srd_35::psionicmonsters::037_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#037_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Body Thief (Su): When an intellect devourer overcomes a lone victim, it consumes the victim's brain and enters the skull. As a full-round action that provokes attacks of opportunity, the devourer can merge its form with that of a helpless or dead creature of Small size or larger. The devourer cannot merge its body with that of a creature immune to extra damage from critical hits.\nWhen an intellect devourer completes its merging, it psionically consumes the brain of the victim (which kills it if it is not already dead). The devourer can exit the body at any time as a standard action, bursting the victim's skull and resuming its normal form.\nAfter consuming its victim's brain, an intellect devourer can instead choose to animate the body for up to seven days as if it were the victim's original brain. The devourer retains its hit points, saving throws, and mental ability scores, as well as its psi-like abilities. It assumes the physical qualities and ability scores of the victim, as if it had used polymorph to assume the victim's form. As long as the intellect devourer occupies the body, it knows the languages spoken by the victim and very basic information about the victim's identity and personality, but none of the victim's specific memories or knowledge.\nPsi-Like Abilities: At will--cloud mind, compression, detect psionics, ego whip (2d4, DC 16*), empty mind (+5 on Will saves*), id insinuation (three targets, DC 16*); 3/day--body adjustment (2d12*), intellect fortress, painful strike. Manifester level 7th.\nThe save DCs are Charisma-based.\n*Includes augmentation for the intellect devourer's manifester level.\nBlindsight (Ex): An intellect devourer can use nonvisual means to ascertain all foes within 60 feet as a sighted creature would.\nVulnerability to Protection from Evil (Ex): An intellect devourer is treated as a summoned creature for the purpose of determining how it is affected by a protection from evil spell.\nSkills: Intellect devourers have a +8 racial bonus on Bluff checks, useful for passing off the possessed body as the original. They also have a +8 racial bonus on Move Silently checks and Listen checks.\nMAENAD\n| Maenad, 1st-Level Warrior |\n\nHit Dice: | 1d8+1 (5 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 14 (+3 studded leather, +1 light shield), touch 10, flat-footed 14 |\nBase Attack/Grapple: | +1/+2 |\nAttack: | Longsword +3 melee (1d8+1/19-20) or longbow +1 ranged (1d8/x3) |\nFull Attack: | Longsword +3 melee (1d8+1/19-20) or longbow +1 ranged (1d8/x3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Psi-like abilities |\nSpecial Qualities: | Outburst |\nSaves: | Fort +3, Ref +0, Will -1 |\nAbilities: | Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8 |\nSkills: | Climb +3, Jump +3 |\nFeats: | Weapon Focus (longsword) |\nEnvironment: | Warm hills |\nOrganization: | Party (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains) |\nChallenge Rating: | 1/2 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +0 |\nMaenads typically stand more than 6 feet tall and weigh about 200 pounds; males are the same height as and only marginally heavier than maenad females. Maenads have no facial or body hair, and they prefer heavier clothing and armor if possible.\nMaenads speak their own language and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::036_half_giants_as_characters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::038_combat"
+}

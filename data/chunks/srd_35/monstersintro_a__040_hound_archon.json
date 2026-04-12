@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::040_hound_archon",
+  "document_id": "srd_35::monstersintro_a::040_hound_archon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "HOUND ARCHON"
+    ],
+    "source_location": "MonstersIntro-A.rtf#040_hound_archon"
+  },
+  "chunk_type": "subsection",
+  "content": "| Hound Archon | Hound Archon Hero, 11th-Level Paladin |\n| Medium Outsider (Archon, Extraplanar, Good, Lawful) | Medium Outsider (Archon, Extraplanar, Good, Lawful) |\nHit Dice: | 6d8+6 (33 hp) | 6d8+18 plus 11d10+33 (143 hp) |\nInitiative: | +4 | +4 |\nSpeed: | 40 ft. (8 squares) | 30 ft. in full plate armor (6 squares); base speed 40 ft. |\nArmor Class: | 19 (+9 natural), touch 10, flat-footed 19 | 30 (+9 natural, +11 +3 full plate armor), touch 10, flat-footed 30 |\nBase Attack/Grapple: | +6/+8 | +17/+22 |\nAttack: | Bite +8 melee (1d8+2) or greatsword +8 melee (2d6+3/19-20) | +2 cold iron greatsword +25 melee (2d6+9/19-20) or bite +22 melee (1d8+5) |\nFull Attack: | Bite +8 melee (1d8+2) and slam +3 melee (1d4+1); or greatsword +8/+3 melee (2d6+3/19-20) and bite +3 melee (1d8+1) | +2 cold iron greatsword +25/+20/+15/+10 melee (2d6+9/19-20) and bite +17 melee (1d8+2); or bite +22 melee (1d8+5) and slam +17 melee (1d4+2) |\nSpace/Reach: | 5 ft./5 ft. | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities | Smite evil, spells, spell-like abilities, turn undead 6/day |\nSpecial Qualities: | Aura of menace, change shape, damage reduction 10/evil, darkvision 60 ft., immunity to electricity and petrification, magic circle against evil, scent, spell resistance 16, teleport, tongues | Aura of menace, change shape, damage reduction 10/evil, darkvision 60 ft., immunity to electricity and petrification, magic circle against evil, paladin abilities, scent, spell resistance 27, teleport, tongues |\nSaves: | Fort +6 (+10 against poison), Ref +5, Will +6 | Fort +18 (+22 against poison), Ref +11, Will +13 |\nAbilities: | Str 15, Dex 10, Con 13, Int 10, Wis 13, Cha 12 | Str 21, Dex 10, Con 16, Int 8, Wis 14, Cha 16 |\nSkills: | Concentration +10, Diplomacy +3, Hide +9*, Jump +15, Listen +10, Move Silently +9, Sense Motive +10, Spot +10, Survival +10* (+12 following tracks) | Concentration +20, Diplomacy +19, Hide +2*, Jump +0, Listen +10, Ride +14, Sense Motive +19, Spot +10, Survival +2* |\nFeats: | Improved Initiative, Power Attack, Track | Improved Initiative, Leadership, Mounted Combat, Ride-By Attack, Track, Weapon Focus (greatsword) |\nEnvironment | A lawful good-aligned plane | A lawful good-aligned plane |\nOrganization: | Solitary, pair, or squad (3-5) | Solitary or with juvenile bronze dragon |\nChallenge Rating: | 4 | 16 |\nTreasure: | No coins; double goods; standard items | Standard |\nAlignment: | Always lawful good | Always lawful good |\nAdvancement: | 7-9 HD (Medium); 10-18 HD (Large) | By character class |\nLevel Adjustment: | +5 | +5 |\nHound archons look like well-muscled humans with canine heads.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::039_combat",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::041_combat"
+}

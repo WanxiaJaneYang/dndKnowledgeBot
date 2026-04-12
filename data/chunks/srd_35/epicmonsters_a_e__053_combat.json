@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::053_combat",
+  "document_id": "srd_35::epicmonsters_a_e::053_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#053_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Earth Mastery (Ex): An earth elemental gains a +1 attack and damage bonus if both it and its foe touch the ground. If an opponent is airborne or water-borne, the elemental takes a -4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)\nPush (Ex): An earth elemental can start a bull rush maneuver without provoking an attack of opportunity. The combat modifiers given for earth mastery, above, also apply to the elemental's opposed Strength checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::052_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::054_primal_fire_elemental"
+}

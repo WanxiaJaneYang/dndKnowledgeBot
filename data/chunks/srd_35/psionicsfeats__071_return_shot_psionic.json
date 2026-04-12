@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::071_return_shot_psionic",
+  "document_id": "srd_35::psionicsfeats::071_return_shot_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "RETURN SHOT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#071_return_shot_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can return incoming arrows, as well as crossbow bolts, spears, and other projectile or thrown weapons.\nPrerequisite: Point Blank Shot, Psionic Shot, Fell Shot, base attack bonus +3.\nBenefit: To use this feat, you must expend your psionic focus and have at least one hand free. Once per round when you would normally be hit by a projectile or a thrown weapon no more than one size category larger than your size, you can deflect the attack so that you take no damage from it. The attack is deflected back at your attacker, using the attack bonus of the original attack on you. You must be aware of the attack and not flat-footed. Attempting to return a shot is a free action.\nSpecial: If you also have the Deflect Arrows feat, the deflected attack is made with the original attack bonus plus your Dexterity bonus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::070_reckless_offense_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::072_scribe_tattoo_item_creation"
+}

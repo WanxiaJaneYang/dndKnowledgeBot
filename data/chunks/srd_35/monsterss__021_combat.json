@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::021_combat",
+  "document_id": "srd_35::monsterss::021_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#021_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Rake (Ex): Attack bonus +0 melee, damage 1d6+2. A skum also gains two rake attacks when it attacks while swimming.\nSkills: *Skum have a +4 racial bonus on Hide, Listen, and Spot checks underwater.\nA skum has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 7d12 (45 hp) |\nInitiative: | +7 |\nSpeed: | 40 ft. (8 squares), fly 80 ft. (perfect) |\nArmor Class: | 15 (+3 Dex, +2 deflection), touch 15, flat-footed 13 |\nBase Attack/Grapple: | +3/-- |\nAttack: | Incorporeal touch +6 melee (1d8 plus energy drain) |\nFull Attack: | Incorporeal touch +6 melee (1d8 plus energy drain) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Energy drain, create spawn |\nSpecial Qualities: | Darkvision 60 ft., incorporeal traits, +2 turn resistance, sunlight powerlessness, undead traits, unnatural aura |\nSaves: | Fort +2, Ref +5, Will +7 |\nAbilities: | Str --, Dex 16, Con --, Int 14, Wis 14, Cha 15 |\nSkills: | Hide +13, Intimidate +12, Knowledge (religion) +12, Listen +14, Search +12, Spot +14, Survival +2 (+4 following tracks) |\nFeats: | Alertness, Blind-Fight, Improved Initiative |\nEnvironment: | Any land and underground |\nOrganization: | Solitary, gang (2-4), or swarm (6-11) |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Always lawful evil |\nAdvancement: | 8-14 HD (Medium) |\nLevel Adjustment: | -- |\nA spectre looks much as it did in life and can be easily recognized by those who knew the individual or have seen the individual's face in a painting or a drawing. In many cases, the evidence of a violent death is visible on its body. A spectre is roughly human-sized and is weightless.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::020_creating_a_skeleton",
+  "next_chunk_id": "chunk::srd_35::monsterss::022_combat"
+}

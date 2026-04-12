@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::006_4th_level_druid_spells",
+  "document_id": "srd_35::spelllistii::006_4th_level_druid_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "4TH-LEVEL DRUID SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#006_4th_level_druid_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Air Walk: Subject treads on air as if solid (climb at 45-degree angle).\nAntiplant Shell: Keeps animated plants at bay.\nBlight: Withers one plant or deals 1d6/level damage to plant creature.\nCommand Plants: Sway the actions of one or more plant creatures.\nControl Water: Raises or lowers bodies of water.\nCure Serious Wounds: Cures 3d8 damage +1/level (max +15).\nDispel Magic: Cancels spells and magical effects.\nFlame Strike: Smite foes with divine fire (1d6/level damage).\nFreedom of Movement: Subject moves normally despite impediments.\nGiant Vermin: Turns centipedes, scorpions, or spiders into giant vermin.\nIce Storm: Hail deals 5d6 damage in cylinder 40 ft. across.\nReincarnate: Brings dead subject back in a random body.\nRepel Vermin: Insects, spiders, and other vermin stay 10 ft. away.\nRusting Grasp: Your touch corrodes iron and alloys.\nScrying F: Spies on subject from a distance.\nSpike Stones: Creatures in area take 1d8 damage, may be slowed.\nSummon Nature's Ally IV: Calls creature to fight.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::005_3rd_level_druid_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::007_5th_level_druid_spells"
+}

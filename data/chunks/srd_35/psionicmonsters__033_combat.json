@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::033_combat",
+  "document_id": "srd_35::psionicmonsters::033_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#033_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A folugub can scent a crystal object up to 90 feet away, and once it has the scent, little deters it from its goal. It usually ceases attacking to devour a freshly liquefied crystal. The creature targets the largest crystal object available.\nLiquefy Crystal (Ex): A folugub that makes a successful touch attack with its tongue causes the target crystal to change phase, turning immediately from solid to liquid and becoming worthless. The touch can destroy up to a 5-foot cube of crystal instantly. Magic or psionic items made of crystal (including crystalline armor and weapons) must succeed on a DC 19 Reflex save or be liquefied. The save DC is Constitution-based and includes a +4 racial modifier.\nA crystalline weapon that deals damage to a folugub becomes liquefied immediately.\nGRAY GLUTTON\n| Huge Magical Beast |\nHit Dice: | 9d10+36 (85 hp) |\nInitiative: | -1 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 20 (-2 size, -1 Dex, +13 natural), touch 7, flatfooted 20 |\nBase Attack/Grapple: | +9/+25 |\nAttack: | Bite +15 melee (2d8+8) |\nFull Attack: | Bite +15 melee (2d8+8) and 2 claws +10 melee (2d6+4) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Null psionic exhalation |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, power resistance 20, scent |\nSaves: | Fort +10, Ref +5, Will +7 |\nAbilities: | Str 27, Dex 9, Con 19, Int 2, Wis 15, Cha 20 |\nSkills: | Jump +14, Listen +7, Spot +3 |\nFeats: | Closed Mind, Hostile Mind, Iron Will, Psionic Hole, TrackB |\nEnvironment: | Underground |\nOrganization: | Solitary, pair, or cluster (3-5) |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 10-20 HD (Huge); 21-27 HD (Gargantuan) |\nLevel Adjustment: | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::032_elans_as_characters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::034_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::096_improved_stunning_fist_epic",
+  "document_id": "srd_35::epicfeats::096_improved_stunning_fist_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED STUNNING FIST [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#096_improved_stunning_fist_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Dex 19, Wis 19, Improved Unarmed Strike, Stunning Fist.\nBenefit: Add +2 to the DC of the character's stunning attack.\nSpecial: This feat may be taken multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::095_improved_spell_resistance_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::097_improved_whirlwind_attack_epic"
+}

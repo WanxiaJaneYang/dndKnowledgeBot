@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::006_antipsionic_magic_general",
+  "document_id": "srd_35::psionicsfeats::006_antipsionic_magic_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "ANTIPSIONIC MAGIC [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#006_antipsionic_magic_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Your spells are more potent when used against psionic characters and creatures.\nPrerequisite: Spellcraft 5 ranks.\nBenefit: You get a get a +2 bonus on caster level checks made to overcome a psionic creature's power resistance.\nThis bonus stacks with the bonus conferred by Spell Penetration and Greater Spell Penetration. Moreover, whenever a psionic creature attempts to dispel a spell you cast, it makes its manifester level check against a DC of 13 + its manifester level.\nThe benefits of this feat apply only to power resistance.\nThe bonus does not apply to spell resistance. This is an exception to the psionics-magic transparency rule.\nSpecial: You cannot take or use this feat if you have the ability to use powers (if you have a power point reserve or psi-like abilities).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::005_aligned_attack_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::007_autonomous_general"
+}

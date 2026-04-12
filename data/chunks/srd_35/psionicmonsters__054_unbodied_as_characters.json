@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::054_unbodied_as_characters",
+  "document_id": "srd_35::psionicmonsters::054_unbodied_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "UNBODIED AS CHARACTERS"
+    ],
+    "source_location": "PsionicMonsters.rtf#054_unbodied_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Unbodied characters possess the following racial traits.\n-- +2 Dexterity, +2 Constitution, +4 Intelligence, +4 Wisdom, +4 Charisma. As an incorporeal creature, an unbodied has no Strength score.\n--Medium size.\n--An unbodied has a fly speed of 30 feet (good maneuverability).\n--Darkvision out to 60 feet.\n--Deflection bonus to Armor Class equal to character's Charisma modifier (minimum +1).\n--Natural Attack: An unbodied can make a melee touch attack to deal 1d6 points of damage.\n--Special Attacks (see above): Psionic powers, telekinetic force. An unbodied who takes levels in psion (telepath) adds its racial manifesting ability and psion levels together to determine its power point reserve, manifester level, and powers known.\n--Special Qualities (see above): Assume likeness, incorporeal traits.\n--Racial Hit Dice: An unbodied begins with four levels of monstrous humanoid, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.\n--Racial Skills: An unbodied's monstrous humanoid levels give it skill points equal to 7 x (2 + Int modifier). Its class skills are Bluff, Diplomacy, Disguise, Intimidate, Listen, Sense Motive, and Spot. Unbodied have a +4 racial bonus on Bluff checks and Disguise checks. When using its assume likeness ability, an unbodied gets an additional +10 circumstance bonus on Disguise checks. If it can read an opponent's mind, it gets a further +4 circumstance bonus on Bluff and Disguise checks.\n--Racial Feats: An unbodied's monstrous humanoid levels give it two feats.\n--Favored Class: Psion (telepath).\n--Level Adjustment: +4.\nXEPH\n| Xeph, 1st-Level Warrior |\n\nHit Dice: | 1d8+1 (5 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 Dex, +3 studded leather, +1 light shield), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +1/+1 |\nAttack: | Rapier +2 melee (1d6/18-20) or longbow +2 ranged (1d8/x3) |\nFull Attack: | Rapier +2 melee (1d6/18-20) or longbow +2 ranged (1d8/x3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Burst, darkvision 60 ft. |\nSaves: | Fort +3, Ref +1, Will -1 |\nAbilities: | Str 11, Dex 13, Con 12, Int 10, Wis 9, Cha 8 |\nSkills: | Climb +2, Jump +2 |\nFeats: | Weapon Finesse |\nEnvironment: | Warm forest |\nOrganization: | Team (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains) |\nChallenge Rating: | 1/2 |\nTreasure: | Standard |\nAlignment: | Usually neutral |\nAdvancement: | By character class |\nLevel Adjustment: | +0 |\nXephs speak their own language and Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::053_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::055_combat"
+}

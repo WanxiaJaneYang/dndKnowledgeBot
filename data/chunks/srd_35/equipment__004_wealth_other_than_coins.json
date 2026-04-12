@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::equipment::004_wealth_other_than_coins",
+  "document_id": "srd_35::equipment::004_wealth_other_than_coins",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Equipment",
+      "WEALTH OTHER THAN COINS"
+    ],
+    "source_location": "Equipment.rtf#004_wealth_other_than_coins"
+  },
+  "chunk_type": "subsection",
+  "content": "Merchants commonly exchange trade goods without using currency. As a means of comparison, some trade goods are detailed below.\nTable: Trade Goods |\nCost | Item |\n1 cp | One pound of wheat |\n2 cp | One pound of flour, or one chicken |\n1 sp | One pound of iron |\n5 sp | One pound of tobacco or copper |\n1 gp | One pound of cinnamon, or one goat |\n2 gp | One pound of ginger or pepper, or one sheep |\n3 gp | One pig |\n4 gp | One square yard of linen |\n5 gp | One pound of salt or silver |\n10 gp | One square yard of silk, or one cow |\n15 gp | One pound of saffron or cloves, or one ox |\n50 gp | One pound of gold |\n500 gp | One pound of platinum |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::equipment::003_coins",
+  "next_chunk_id": "chunk::srd_35::equipment::005_selling_loot"
+}

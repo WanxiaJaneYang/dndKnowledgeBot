@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::017_astral_construct_menu_b",
+  "document_id": "srd_35::psionicmonsters::017_astral_construct_menu_b",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Astral Construct Menu B"
+    ],
+    "source_location": "PsionicMonsters.rtf#017_astral_construct_menu_b"
+  },
+  "chunk_type": "subsection",
+  "content": "A manifester creating a 4th-level, 5th-level, or 6th-level astral construct can choose one special ability from this menu. Alternatively, the construct can have two special abilities from Menu A.\nEnergy Touch (Ex): If you are a kineticist, the astral construct's physical attacks are wreathed in your energy type, dealing an extra 1d6 points of energy damage. If you are not a kineticist, the astral construct deals an extra 1d4 points of damage of an energy type you choose (fire, cold, acid, or electricity) when you manifest the construct.\nExtra Attack: If the astral construct is Medium or smaller, it gains two slam attacks instead of one when it makes a full attack. Its bonus on damage rolls for each attack is equal to its Strength modifier, not its Strength modifier x 1-1/2. If the astral construct is Large or larger, it gains three slams instead of two when it makes a full attack. Its attacks are otherwise unchanged.\nFast Healing (Ex): The astral construct heals 2 hit points each round. It is still immediately destroyed when it reaches 0 hit points.\nHeavy Deflection (Ex): The astral construct gains a +4 deflection bonus to Armor Class.\nImproved Buff (Ex): The astral construct gains an extra 15 hit points.\nImproved Critical (Ex): The astral construct gains the Improved Critical feat with its slam attacks.\nImproved Damage Reduction (Ex): The astral construct's surface forms a hard carapace and provides an additional 3 points of damage reduction (or damage reduction 3/magic if it does not already have damage reduction).\nImproved Fly (Ex): The astral construct has physical wings and a fly speed of 40 feet (average).\nImproved Grab (Ex): To use this ability, the construct must hit with its slam attack. A construct can use this ability only on a target that is at least one size smaller than itself.\nImproved Swim: The astral construct is streamlined and sharklike, and gains a swim speed of 60 feet.\nMuscle (Ex): The astral construct gains a +4 bonus to its Strength score.\nPoison Touch (Ex): If the astral construct hits with a melee attack, the target must make an initial Fortitude save (DC 10 + 1/2 astral construct's HD + astral construct's Cha modifier) or take 1 point of Constitution damage. One minute later, the target must save again or take 1d2 points of Constitution damage.\nPounce (Ex): If the astral construct charges a foe, it can make a full attack.\nSmite (Su): Once per day the astral construct can make one attack that deals extra damage equal to its Hit Dice.\nTrample (Ex): As a standard action during its turn each round, a Large or larger astral construct can literally run over an opponent at least one size smaller than itself. It merely has to move over the opponent to deal bludgeoning damage equal to 1d8 + its Str modifier. The target can attempt a Reflex save (DC 10 + 1/2 astral construct's Hit Dice + astral construct's Str modifier) to negate the damage, or it can instead choose to make an attack of opportunity at a -4 penalty.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::016_creating_an_astral_construct",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::018_astral_construct_menu_c"
+}

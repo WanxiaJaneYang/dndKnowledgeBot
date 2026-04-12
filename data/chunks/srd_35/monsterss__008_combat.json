@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::008_combat",
+  "document_id": "srd_35::monsterss::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Sea cats attack on sight, either for food or to defend their territory, and use both claws and teeth to grab and rend their prey. They display tremendous courage, always fighting to the death, even against creatures many times their size. Pairs and prides of sea cats attack in concert, trying to wear the opponent down until one beast can dispatch it.\nHold Breath (Ex): A sea cat can hold its breath for a number of rounds equal to 6 \uf0d7\uf020its Constitution score before it risks drowning.\nRend (Ex): A sea cat that hits with both claw attacks latches onto the opponent's body and tears the flesh. This automatically deals an extra 2d6+6 points of damage.\nSkills: A sea cat has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::007_satyrs_as_characters",
+  "next_chunk_id": "chunk::srd_35::monsterss::009_shadow"
+}

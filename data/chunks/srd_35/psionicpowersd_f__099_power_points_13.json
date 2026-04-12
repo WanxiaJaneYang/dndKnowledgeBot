@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::099_power_points_13",
+  "document_id": "srd_35::psionicpowersd_f::099_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#099_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "As the ethereal jaunt spell, except as noted here.\nEtherealness, Psionic\nPsychoportation\nLevel: Psion/wilder 9\nManifesting Time: 1 standard action\n\nTargets: You and one other touched willing creature/three levels; all targets must be joined by linked hands\nDuration: 1 min./level (D)\n\nAs the etherealness spell, except as noted here.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::098_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::100_psychometabolism"
+}

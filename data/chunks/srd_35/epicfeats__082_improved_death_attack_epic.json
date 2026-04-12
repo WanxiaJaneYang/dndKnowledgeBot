@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::082_improved_death_attack_epic",
+  "document_id": "srd_35::epicfeats::082_improved_death_attack_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED DEATH ATTACK [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#082_improved_death_attack_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Death attack class feature, sneak attack +5d6.\nBenefit: Add +2 to the DC of the character's death attack.\nSpecial: This feat may be taken multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::081_improved_darkvision_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::083_improved_elemental_wild_shape_wild_epic"
+}

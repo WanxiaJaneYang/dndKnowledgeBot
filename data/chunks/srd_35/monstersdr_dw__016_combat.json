@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersdr_dw::016_combat",
+  "document_id": "srd_35::monstersdr_dw::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersDr-Dw",
+      "Combat"
+    ],
+    "source_location": "MonstersDr-Dw.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "White dragons prefer sudden assaults, swooping down from aloft or bursting from beneath water, snow, or ice. They loose their breath weapon, then try to knock out a single opponent with a follow-up attack.\nBreath Weapon (Su): A white dragon has one type of breath weapon, a cone of cold.\nIcewalking (Ex): This ability works like the spider climb spell, but the surfaces the dragon climbs must be icy. It is always in effect.\nFreezing Fog (Sp): An old or older white dragon can use this ability three times per day. It is similar to a solid fog spell but also causes a rime of slippery ice to form on any surface the fog touches, creating the effect of a grease spell. The dragon is immune to the grease effect because of its icewalking ability. This ability is the equivalent of a 5th-level spell.\nOther Spell-Like Abilities: 3/day--fog cloud (juvenile or older), gust of wind (adult or older), wall of ice (ancient or older); 1/day--control weather (great wyrm).\nSkills: Hide, Move Silently, and Swim are considered class skills for white dragons.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersdr_dw::015_dragon_cold",
+  "next_chunk_id": "chunk::srd_35::monstersdr_dw::017_metallic_dragons"
+}

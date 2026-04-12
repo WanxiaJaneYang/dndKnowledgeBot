@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::011_special_attacks_and_special_qualities",
+  "document_id": "srd_35::monstersintro_a::011_special_attacks_and_special_qualities",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Special Attacks and Special Qualities"
+    ],
+    "source_location": "MonstersIntro-A.rtf#011_special_attacks_and_special_qualities"
+  },
+  "chunk_type": "subsection",
+  "content": "Many creatures have unusual abilities. A monster entry breaks these abilities into special attacks and special qualities. The latter category includes defenses, vulnerabilities, and other special abilities that are not modes of attack. A special ability is either extraordinary (Ex), spell-like (Sp), or supernatural (Su). Additional information (when needed) is provided in the creature's descriptive text.\nWhen a special ability allows a saving throw, the kind of save and the save DC is noted in the descriptive text. Most saving throws against special abilities have DCs calculated as follows: 10 + 1/2 the attacker's racial Hit Dice + the relevant ability modifier.\nThe save DC is given in the creature's description along with the ability on which the DC is based.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::010_space_reach",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::012_saves"
+}

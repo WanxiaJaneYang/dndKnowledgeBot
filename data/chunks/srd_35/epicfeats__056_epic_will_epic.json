@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::056_epic_will_epic",
+  "document_id": "srd_35::epicfeats::056_epic_will_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "EPIC WILL [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#056_epic_will_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: The character gains a +4 bonus on all Will saving throws.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::055_epic_weapon_specialization_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::057_exceptional_deflection_epic"
+}

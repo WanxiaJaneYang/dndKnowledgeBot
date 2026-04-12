@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::092_improved_sneak_attack_epic",
+  "document_id": "srd_35::epicfeats::092_improved_sneak_attack_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED SNEAK ATTACK [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#092_improved_sneak_attack_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Sneak attack +8d6.\nBenefit: Add +1d6 to the character's sneak attack damage.\nSpecial: This feat may be taken multiple times. Its effects stack.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::091_improved_metapsionics_epic_psionic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::093_improved_spell_capacity_epic"
+}

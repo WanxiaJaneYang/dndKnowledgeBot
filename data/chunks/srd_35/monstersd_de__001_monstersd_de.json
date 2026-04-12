@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::001_monstersd_de",
+  "document_id": "srd_35::monstersd_de::001_monstersd_de",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "MonstersD-De"
+    ],
+    "source_location": "MonstersD-De.rtf#001_monstersd_de"
+  },
+  "chunk_type": "rule_section",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n\nHit Dice: | 1d10+1 (6 hp) |\nInitiative: | +4 |\nSpeed: | 20 ft. (4 squares), fly 30 ft. (poor) |\nArmor Class: | 17 (+1 size, +6 natural), touch 11, flat-footed 17 |\nBase Attack/Grapple: | +1/+0 |\nAttack: | Slam +5 melee (1d4+4) |\nFull Attack: | Slam +5 melee (1d4+4) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Darkness, improved grab, constrict 1d4+4 |\nSpecial Qualities: | Blindsight 90 ft. |\nSaves: | Fort +3, Ref +2, Will +0 |\nAbilities: | Str 16, Dex 10, Con 13, Int 2, Wis 10, Cha 10 |\nSkills: | Hide +10, Listen +5*, Spot +5* |\nFeats: | Improved Initiative |\nEnvironment: | Underground |\nOrganization: | Solitary, pair, clutch (3-9), or swarm (6-15) |\nChallenge Rating: | 1 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 2-3 HD (Small) |\nLevel Adjustment: | -- |\nThe darkmantle hangs from a ceiling by a muscular \u201cfoot\u201d at the top of its body. It can look like a stalactite, by holding its tentacles stiffly under itself, or like a lump of rock, spreading its tentacles so the membrane between them covers its body. Its shell and skin usually resemble limestone, but a darkmantle can change its color to match almost any type of stony background.\nA darkmantle is about 4 feet long from the tips of its tentacles to the top of its head. It weighs about 30 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::002_combat"
+}

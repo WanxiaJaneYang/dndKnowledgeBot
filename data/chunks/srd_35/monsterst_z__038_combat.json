@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::038_combat",
+  "document_id": "srd_35::monsterst_z::038_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#038_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Wyverns are rather stupid but always aggressive: They attack nearly anything that isn't obviously more powerful than themselves. A wyvern dives from the air, snatching the opponent with its talons and stinging it to death. A wyvern can slash with its talons only when making a flyby attack.\nImproved Grab (Ex): To use this ability, a wyvern must hit with its talons. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and stings.\nPoison (Ex): Injury, Fortitude DC 17, initial and secondary damage 2d6 Con. The save DC is Constitution-based.\nSkills: Wyverns have a +3 racial bonus on Spot checks.\n\nHit Dice: | 5d8+10 (32 hp) |\nInitiative: | +7 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 20 (+3 Dex, +7 natural), touch 13, flat-footed 17 |\nBase Attack/Grapple: | +5/+7 |\nAttack: | Short sword +7 melee (1d6+2/19-20) or claw +7 melee (1d4+2) or longbow +8 ranged (1d8/x3) |\nFull Attack: | 2 short swords +5 melee (1d6+2/19-20, 1d6+1/19-20) and 2 claws +5 melee (1d4+1); or 4 claws +5 melee (1d4+2, 1d4+1); or 2 longbows +4 ranged (1d8/x3) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Implant, improved grab, paralysis |\nSpecial Qualities: | Darkvision 60 ft., planewalk, spell resistance 21 |\nSaves: | Fort +6, Ref +7, Will +5 |\nAbilities: | Str 15, Dex 16, Con 15, Int 12, Wis 12, Cha 11 |\nSkills: | Balance +13, Climb +10, Diplomacy +2, Escape Artist +11, Intimidate +8, Listen +9, Move Silently +11, Sense Motive +8, Spot +9, Tumble +11, Use Rope +3 (+5 with bindings) |\nFeats: | Improved Initiative, MultiattackB, Multiweapon Fighting |\nEnvironment: | Ethereal Plane |\nOrganization: | Solitary or gang (2-5) |\nChallenge Rating: | 6 |\nTreasure: | Standard |\nAlignment: | Always lawful evil |\nAdvancement: | 6-8 HD (Medium); 9-15 HD (Large) |\nLevel Adjustment: | +4 |\nA xill stands 4 to 5 feet tall and weighs about 100 pounds. Xills speak Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::037_dread_wraith",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::039_combat"
+}

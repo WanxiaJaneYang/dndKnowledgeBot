@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::019_4th_level_ranger_spells",
+  "document_id": "srd_35::spelllistii::019_4th_level_ranger_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "4TH-LEVEL RANGER SPELLS"
+    ],
+    "source_location": "SpellListII.rtf#019_4th_level_ranger_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Animal Growth: One animal/two levels doubles in size.\nCommune with Nature: Learn about terrain for 1 mile/level.\nCure Serious Wounds: Cures 3d8 damage +1/level (max +15).\nFreedom of Movement: Subject moves normally despite impediments.\nNondetection M: Hides subject from divination, scrying.\nSummon Nature's Ally IV: Calls animal to fight for you.\nTree Stride: Step from one tree to another far away.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::018_3rd_level_ranger_spells",
+  "next_chunk_id": "chunk::srd_35::spelllistii::020_abjur"
+}

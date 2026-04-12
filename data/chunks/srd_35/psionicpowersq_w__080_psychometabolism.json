@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::080_psychometabolism",
+  "document_id": "srd_35::psionicpowersq_w::080_psychometabolism",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Psychometabolism"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#080_psychometabolism"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psychic warrior 4\nDisplay: Material; see text\nManifesting Time: 1 swift action\n\nDuration: 1 min./level or until discharged\nSaving Throw: None and Fortitude negates; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::079_power_points_15",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::081_power_points_7"
+}

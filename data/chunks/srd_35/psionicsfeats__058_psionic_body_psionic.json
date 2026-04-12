@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::058_psionic_body_psionic",
+  "document_id": "srd_35::psionicsfeats::058_psionic_body_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC BODY [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#058_psionic_body_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mind reinforces your body.\nBenefit: When you take this feat, you gain 2 hit points for each psionic feat you have (including this one). Whenever you take a new psionic feat, you gain 2 more hit points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::057_psionic_affinity_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::059_psionic_charge_psionic"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::002_psionic_feats",
+  "document_id": "srd_35::psionicsfeats::002_psionic_feats",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC FEATS"
+    ],
+    "source_location": "PsionicsFeats.rtf#002_psionic_feats"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic feats are available only to characters and creatures with the ability to manifest powers. (In other words, they either have a power point reserve or have psi-like abilities.)\nBecause psionic feats are supernatural abilities--a departure from the general rule that feats do not grant supernatural abilities--they cannot be disrupted in combat (as powers can be) and generally do not provoke attacks of opportunity (except as noted in their descriptions). Supernatural abilities are not subject to power resistance and cannot be dispelled; however, they do not function in areas where psionics is suppressed, such as a null psionics field. Leaving such an area immediately allows psionic feats to be used.\nMany psionic feats can be used only when you are psionically focused; others require you to expend your psionic focus to gain their benefit. Expending your psionic focus does not require an action; it is part of another action (such as using a feat). When you expend your psionic focus, it applies only to the action for which you expended it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::001_psionicsfeats",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::003_psionic_item_creation_feats"
+}

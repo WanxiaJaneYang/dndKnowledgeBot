@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::020_combat_casting_general",
+  "document_id": "srd_35::feats::020_combat_casting_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "COMBAT CASTING [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#020_combat_casting_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::019_cleave_general",
+  "next_chunk_id": "chunk::srd_35::feats::021_combat_expertise_general"
+}

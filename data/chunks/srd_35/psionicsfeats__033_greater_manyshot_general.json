@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::033_greater_manyshot_general",
+  "document_id": "srd_35::psionicsfeats::033_greater_manyshot_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "GREATER MANYSHOT [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#033_greater_manyshot_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You are skilled at firing many arrows at once, even at different opponents.\nPrerequisites: Dex 17, Manyshot, Point Blank Shot, Rapid Shot, base attack bonus +6.\nBenefit: When you use the Manyshot feat, you can fire each arrow at a different target instead of firing all of them at the same target. You make a separate attack roll for each arrow, regardless of whether you fire them at separate targets or the same target. Your precision-based damage applies to each arrow fired, and, if you score a critical hit with more than one of the arrows, each critical hit deals critical damage.\nSpecial: A fighter may select this feat as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::032_ghost_attack_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::034_greater_power_penetration_psionic"
+}

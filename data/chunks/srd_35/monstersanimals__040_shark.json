@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersanimals::040_shark",
+  "document_id": "srd_35::monstersanimals::040_shark",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersAnimals",
+      "SHARK"
+    ],
+    "source_location": "MonstersAnimals.rtf#040_shark"
+  },
+  "chunk_type": "subsection",
+  "content": "| Shark, Medium | Shark, Large | Shark, Huge |\n| Medium Animal (Aquatic) | Large Animal (Aquatic) | Huge Animal (Aquatic) |\nHit Dice: | 3d8+3 (16 hp) | 7d8+7 (38 hp) | 10d8+20 (65 hp) |\nInitiative: | +2 | +6 | +6 |\nSpeed: | Swim 60 ft. (12 squares) | Swim 60 ft. (12 squares) | Swim 60 ft. (12 squares) |\nArmor Class: | 15 (+2 Dex, +3 natural), touch 12, flat-footed 13 | 15 (-1 size, +2 Dex, +4 natural), touch 11, flat-footed 13 | 15 (-2 size, +2 Dex, +5 natural), touch 10, flat-footed 13 |\nBase Attack/Grapple: | +2/+3 | +5/+12 | +7/+20 |\nAttack: | Bite +4 melee (1d6+1) | Bite +7 melee (1d8+4) | Bite +10 melee (2d6+7) |\nFull Attack: | Bite +4 melee (1d6+1) | Bite +7 melee (1d8+4) | Bite +10 melee (2d6+7) |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./5 ft. | 15 ft./10 ft. |\nSpecial Attacks: | -- | -- | -- |\nSpecial Qualities: | Blindsense, keen scent | Blindsense, keen scent | Blindsense, keen scent |\nSaves: | Fort +4, Ref +5, Will +2 | Fort +8, Ref +7, Will +3 | Fort +11, Ref +9, Will +4 |\nAbilities: | Str 13, Dex 15, Con 13, Int 1, Wis 12, Cha 2 | Str 17, Dex 15, Con 13, Int 1, Wis 12, Cha 2 | Str 21, Dex 15, Con 15, Int 1, Wis 12, Cha 2 |\nSkills: | Listen +6, Spot +6, Swim +9 | Listen +8, Spot +7, Swim +11 | Listen +10, Spot +10, Swim +13 |\nFeats: | Alertness, Weapon Finesse | Alertness, Great Fortitude, Improved Initiative | Alertness, Great Fortitude, Improved Initiative, Iron Will |\nEnvironment: | Cold aquatic | Cold aquatic | Cold aquatic |\nOrganization: | Solitary, school (2-5), or pack (6-11) | Solitary, school (2-5), or pack (6-11) | Solitary, school (2-5), or pack (6-11) |\nChallenge Rating: | 1 | 2 | 4 |\nAdvancement: | 4-6 HD (Medium) | 8-9 HD (Large) | 11-17 HD (Huge) |\nLevel Adjustment: | -- | -- | -- |\nThese carnivorous fish are aggressive and liable to make unprovoked attacks against anything that approaches them. Smaller sharks are from 5 to 8 feet long and not usually dangerous to creatures other than their prey. Large sharks can reach around 15 feet in length and are a serious threat. Huge sharks are true monsters, like great whites, that can exceed 20 feet in length.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersanimals::039_combat",
+  "next_chunk_id": "chunk::srd_35::monstersanimals::041_combat"
+}

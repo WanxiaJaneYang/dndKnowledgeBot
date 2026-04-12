@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::080_power_points_11",
+  "document_id": "srd_35::psionicpowersa_c::080_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#080_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "You take over control of a power that was manifested by the subject and that must be maintained through concentration. Once you wrest control of the power from the subject, you have\nseveral options.\nAllow the power to function as normal.\nKeep the power targeted on the subject (if a personal power) but decide how the power fulfills its function each round.\nRetarget the power on yourself (if a personal power).\nChoose not to concentrate on the co-opted power in the next round, ending the power at that point.\nWhen the duration of co-opt concentration expires, the power you took control of ends (even if this would mean that the power ends earlier than normal).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::079_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::081_display_mental"
+}

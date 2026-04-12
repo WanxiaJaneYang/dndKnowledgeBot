@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::023_deep_impact_psionic",
+  "document_id": "srd_35::psionicsfeats::023_deep_impact_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "DEEP IMPACT [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#023_deep_impact_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can strike your foe with a melee weapon as if making a touch attack.\nPrerequisite: Str 13, Psionic Weapon, base attack bonus +5.\nBenefit: To use this feat, you must expend your psionic focus. You can resolve your attack with a melee weapon as a touch attack. You must decide whether or not to use this feat prior to making an attack. If your attack misses, you still expend your psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::022_deadly_precision_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::024_delay_power_metapsionic"
+}

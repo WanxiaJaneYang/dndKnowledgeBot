@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::022_werebear",
+  "document_id": "srd_35::monstersk_l::022_werebear",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "WEREBEAR"
+    ],
+    "source_location": "MonstersK-L.rtf#022_werebear"
+  },
+  "chunk_type": "subsection",
+  "content": "| Werebear, Human Form | Werebear, Bear Form | Werebear, Hybrid Form |\n| Medium Humanoid (Human, Shapechanger) | Large Humanoid (Human, Shapechanger) | Large Humanoid (Human, Shapechanger) |\nHit Dice: | 1d8+1 plus 6d8+30 (62 hp) | 1d8+1 plus 6d8+30 (62 hp) | 1d8+1 plus 6d8+30 (62 hp) |\nInitiative: | +0 | +1 | +1 |\nSpeed: | 30 ft. (6 squares) | 40 ft. (8 squares) | 30 ft. (6 squares) |\nArmor Class: | 15 (+2 natural, +3 studded leather armor), touch 10, flat-footed 15 | 17 (-1 size, +1 Dex, +7 natural), touch 10, flat-footed 16 | 17 (-1 size, +1 Dex, +7 natural) touch 10, flat-footed 16 |\nBase Attack/Grapple: | +5/+6 | +5/+18 | +5/+18 |\nAttack: | Greataxe +6 melee (1d12+1/x3) or throwing axe +5 ranged (1d6+1) | Claw +13 melee (1d8+9) | Greataxe +11 melee (1d12+13/x3); or claw +13 melee (1d6+9) |\nFull Attack: | Greataxe +6 melee (1d12+1/x3) or throwing axe +5 ranged (1d6+1) | 2 claws +13 melee (1d8+9) and bite +11 melee (2d6+4) | Claw +13 melee (1d6+9) and greataxe +9 melee (1d12+4/x3) and bite +11 melee (1d8+4) or 2 claws +13 melee (1d6+9) and bite +11 melee (1d8+4) |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./5 ft. | 10 ft./10 ft. |\nSpecial Attacks: | -- | Improved grab, curse of lycanthropy | Curse of lycanthropy |\nSpecial Qualities: | Alternate form, bear empathy, low-light vision, scent | Alternate form, bear empathy, damage reduction 10/silver, low-light vision, scent | Alternate form, bear empathy, damage reduction 10/silver, low-light vision, scent |\nSaves: | Fort +8, Ref +5, Will +4 | Fort +12, Ref +6, Will +4 | Fort +12, Ref +6, Will +4 |\nAbilities: | Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8 | Str 29, Dex 13, Con 20, Int 10, Wis 11, Cha 8 | Str 29, Dex 13, Con 20, Int 10, Wis 11, Cha 8 |\nSkills: | Handle Animal +3, Listen +4, Spot +4, Swim +1 | Handle Animal +3, Listen +4, Spot +4, Swim +13 | Handle Animal +3, Listen +4, Spot +5, Swim +9 |\nFeats: | Endurance, Iron WillB, Multiattack, Power Attack, Run, TrackB | (same as human form) | (same as human form) |\nEnvironment: | Cold forests | Cold forests | Cold forests |\nOrganization: | Solitary, pair, family (3-4), or troupe (2-4 plus 1-4 brown bears) | (same as human form) | (same as human form) |\nChallenge Rating: | 5 | 5 | 5 |\nTreasure: | Standard | Standard | Standard |\nAlignment: | Always lawful good | Always lawful good | Always lawful good |\nAdvancement: | By character class | By character class | By character class |\nLevel Adjustment: | +3 | +3 | +3 |\nWerebears in humanoid form tend to be stout, well-muscled, and hairy. Their brown hair is thick, and males usually wear beards. They may have reddish, blond, ivory, or black hair, matching the color of the ursine form. They dress in simple cloth and leather garments that are easy to remove, repair, or replace",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::021_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::023_combat"
+}

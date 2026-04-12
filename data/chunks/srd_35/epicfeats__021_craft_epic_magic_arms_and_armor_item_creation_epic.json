@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::021_craft_epic_magic_arms_and_armor_item_creation_epic",
+  "document_id": "srd_35::epicfeats::021_craft_epic_magic_arms_and_armor_item_creation_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "CRAFT EPIC MAGIC ARMS AND ARMOR [ITEM CREATION] [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#021_craft_epic_magic_arms_and_armor_item_creation_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Craft Magic Arms and Armor, Knowledge (arcana) 28 ranks, Spellcraft 28 ranks.\nBenefit: The character can craft magic arms and armor which exceed the normal limits for such items",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::020_combat_archery_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::022_craft_epic_rod_item_creation_epic"
+}

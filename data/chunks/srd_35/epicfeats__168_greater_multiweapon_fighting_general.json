@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::168_greater_multiweapon_fighting_general",
+  "document_id": "srd_35::epicfeats::168_greater_multiweapon_fighting_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "GREATER MULTIWEAPON FIGHTING [GENERAL]"
+    ],
+    "source_location": "EpicFeats.rtf#168_greater_multiweapon_fighting_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 19, three or more arms, Improved Multiweapon Fighting, Multiweapon Fighting, base attack bonus +15.\nBenefit: The creature may make up to three extra attacks with each extra offhand weapon it wields, albeit at a -10 penalty on the third attack with each weapon.\nSpecial: This feat replaces the Greater Two-Weapon Fighting feat for creatures with more than two arms.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::167_zone_of_animation_divine_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::169_improved_flyby_attack_general"
+}

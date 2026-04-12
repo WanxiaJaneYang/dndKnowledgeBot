@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::013_power_points_11",
+  "document_id": "srd_35::psionicpowersq_w::013_power_points_11",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 11"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#013_power_points_11"
+  },
+  "chunk_type": "subsection",
+  "content": "This power cures all ability damage, and it restores all points drained from a single ability score (your choice if more than one score is drained). It also eliminates any fatigue or exhaustion suffered by the target. Restoration does not restore levels or Constitution points lost due to death.\nRestoration can remove negative levels. It can also restore one level to a creature who has had a level drained, if the number of days since the creature lost the level is equal to or less than your manifester level. In such a case, restoration brings the creature up to the minimum number of experience points necessary to advance it to the next higher level, gaining it an additional Hit Die and level benefits accordingly.\nRestore Extremity\nPsychometabolism (Healing)\nLevel: Egoist 5\nDisplay: Auditory\nManifesting Time: 1 standard action\nRange: Touch\nTarget: Creature touched\nDuration: Instantaneous\nSaving Throw: Will half (harmless)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::012_power_points_7_xp",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::014_power_points_9"
+}

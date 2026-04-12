@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::013_behemoth_eagle",
+  "document_id": "srd_35::epicmonsters_a_e::013_behemoth_eagle",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "BEHEMOTH EAGLE"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#013_behemoth_eagle"
+  },
+  "chunk_type": "subsection",
+  "content": "Skills: *A behemoth eagle receives a +8 racial bonus on Spot checks.\nCarrying Capacity: A light load for a behemoth eagle is up to 2,400 pounds; a medium load, 2,401-4,800 pounds; and a heavy load, 4,801-7,200 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::012_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::014_combat"
+}

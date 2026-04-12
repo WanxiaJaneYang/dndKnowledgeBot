@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::012_egoist_psychometabolism_discipline_powers",
+  "document_id": "srd_35::powerlist::012_egoist_psychometabolism_discipline_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "EGOIST (PSYCHOMETABOLISM) DISCIPLINE POWERS"
+    ],
+    "source_location": "PowerList.rtf#012_egoist_psychometabolism_discipline_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "1\tThicken SkinA: Gain +1 enhancement bonus to your AC for 10 min./level.\n2\tAnimal AffinityA: Gain +4 enhancement to one ability.\nChameleon: Gain +10 enhancement bonus on Hide checks.\nEmpathic TransferA: Transfer another's wounds to yourself.\n3\tEctoplasmic Form: You gain benefits of being insubstantial and can fly slowly.\nHustle: Instantly gain a move action.\n4\tMetamorphosis: Assume shape of creature or object.\nPsychic Vampire: Touch attack drains 2 power points/level from foe.\n5\tPsionic RevivifyA X. Return the dead to life before the psyche leaves the corpse.\nPsychofeedback: Boost Strength, Dexterity, or Constitution at the expense of one or more other scores.\nRestore Extremity: Return a lost digit, limb, or other appendage to subject.\n6\tRestoration, Psionic: Restores level and ability score drains.\n7\tFission: You briefly duplicate yourself.\n8\tFusionX: You combine your abilities and form with another.\n9\tMetamorphosis, GreaterX: Assume shape of any nonunique creature or object each round.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::011_9th_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::013_kineticist_psychokinesis_discipline_powers"
+}

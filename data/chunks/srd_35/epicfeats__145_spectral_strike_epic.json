@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::145_spectral_strike_epic",
+  "document_id": "srd_35::epicfeats::145_spectral_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "SPECTRAL STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#145_spectral_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Wis 19, ability to turn or rebuke undead.\nBenefit: The character's attacks deal damage normally against incorporeal creatures.\nNormal: Without this feat, even attacks that can damage an incorporeal creature have a 50% chance to deal no damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::144_sneak_attack_of_opportunity_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::146_spell_knowledge_epic"
+}

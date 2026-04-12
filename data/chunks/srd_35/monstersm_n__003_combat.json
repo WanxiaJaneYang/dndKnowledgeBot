@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::003_combat",
+  "document_id": "srd_35::monstersm_n::003_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#003_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A manticore begins most attacks with a volley of spikes, then closes. In the outdoors, it often uses its powerful wings to stay aloft during battle.\nSpikes (Ex): With a snap of its tail, a manticore can loose a volley of six spikes as a standard action (make an attack roll for each spike). This attack has a range of 180 feet with no range increment. All targets must be within 30 feet of each other. The creature can launch only twenty-four spikes in any 24-hour period.\nSkills: *Manticores have a +4 racial bonus on Spot checks.\n\nHit Dice: | 6d8+6 (33 hp) |\nInitiative: | +2 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+2 Dex, +3 natural), touch 12, flat-footed 13 |\nBase Attack/Grapple: | +6/+6 |\nAttack: | Shortbow +8 ranged (1d6/x3) or dagger +8 melee (1d4/19-20) or snakes +8 melee (1d4 plus poison) |\nFull Attack: | Shortbow +8/+3 ranged (1d6/x3); or dagger +8/+3 melee (1d4/19-20) and snakes +3 melee (1d4 plus poison) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Petrifying gaze, poison |\nSpecial Qualities: | Darkvision 60 ft. |\nSaves: | Fort +3, Ref +7, Will +6 |\nAbilities: | Str 10, Dex 15, Con 12, Int 12, Wis 13, Cha 15 |\nSkills: | Bluff +9, Diplomacy +4, Disguise +9 (+11 acting), Intimidate +4, Move Silently +8, Spot +8 |\nFeats: | Point Blank Shot, Precise Shot, Weapon Finesse |\nEnvironment: | Temperate marshes |\nOrganization: | Solitary or covey (2-4) |\nChallenge Rating: | 7 |\nTreasure: | Double standard |\nAlignment: | Usually lawful evil |\nAdvancement: | By character class |\nLevel Adjustment: | -- |\nA medusa is indistinguishable from a normal human at distances greater than 30 feet (or closer, if its face is concealed). The creature often wears garments that enhance its body while hiding\nits face behind a hood or veil.\nA typical medusa is 5 to 6 feet tall and about the same weight as a human.\nMedusas speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::002_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::004_combat"
+}

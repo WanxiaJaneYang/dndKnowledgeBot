@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::004_combat",
+  "document_id": "srd_35::monsterst_z::004_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#004_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "When a thoqqua is disturbed, its first instinct is to attack. Its favored tactic is to spring directly at a foe, either by bursting out of the rock or by coiling up its body and launching itself like a spring. (Treat this as a charge, even though the thoqqua does not need to move 10 feet before attacking.)\nHeat (Ex): Merely touching or being touched by a thoqqua automatically deals 2d6 fire damage.\nBurn (Ex): When a thoqqua hits with its slam attack, the opponent must succeed on a DC 12 Reflex save or catch fire. The save DC is Constitution-based. The flame burns for 1d4 rounds if not extinguished sooner. A burning creature can use a full-round action to put out the flame.\n\nHit Dice: | 20d8+280 (370 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. in half-plate armor (8 squares); base speed 60 ft. |\nArmor Class: | 38 (-2 size, +19 natural, +11 +4 half-plate armor), touch 8, flat-footed 38 |\nBase Attack/Grapple: | +20/+44 |\nAttack: | Gargantuan +3 adamantine warhammer +37 melee (4d6+27/x3) or +3 javelin +22 ranged (2d6+19) or slam +34 (1d8+16) |\nFull Attack: | Gargantuan +3 adamantine warhammer +37/+32/+27/+22 melee (4d6+27/\uf0d7?3) or +3 javelin +22 ranged (2d6+19) or 2 slams +34 (1d8+16) |\nSpace/Reach: | 15 ft./15 ft. |\nSpecial Attacks: | Oversized weapon, spell-like abilities |\nSpecial Qualities: | Damage reduction 15/lawful, darkvision 60 ft., spell resistance 32 |\nSaves: | Fort +26, Ref +13, Will +21 |\nAbilities: | Str 43, Dex 12, Con 39, Int 21, Wis 28, Cha 24 |\nSkills: | Balance +7, Bluff +19, Climb +22, Concentration +37, Craft (any one) +28, Diplomacy +11, Disguise +7 (+9 acting), Heal +20, Intimidate +32, Jump +38, Knowledge (any one) +28, Listen +32, Perform (oratory) +30, Sense Motive +32, Search +28, Spellcraft +17, Spot +32, Survival +9 (+11 following tracks), Swim +16 |\nFeats: | Awesome Blow, Blind-Fight, Cleave, Improved Bull Rush, Improved Sunder, Power Attack, Quicken Spell-Like Ability (chain lightning) |\nEnvironment: | A chaotic good-aligned plane |\nOrganization: | Solitary or pair |\nChallenge Rating: | 21 |\nTreasure: | Double standard plus +4 half-plate armor and Gargantuan +3 adamantine warhammer |\nAlignment: | Always chaotic (any) |\nAdvancement: | 21-30 HD (Huge); 31-60 HD (Gargantuan) |\nLevel Adjustment: | -- |\nA titan is about 25 feet tall and weighs about 14,000 pounds.\nTitans speak Abyssal, Common, Celestial, Draconic, and Giant.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::003_combat",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::005_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::112_magical_beast_companion_wild_epic",
+  "document_id": "srd_35::epicfeats::112_magical_beast_companion_wild_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MAGICAL BEAST COMPANION [WILD][EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#112_magical_beast_companion_wild_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Knowledge (nature) 24 ranks, wild shape 6/day.\nBenefit: The following magical beasts are added to the lists of animal companions from which you can select.\n1st Level (no adjustment)\nStirge\nDarkmantle\n4th Level (-3)\nHippogriff\nShocker lizard\n7th Level (-6)\nCockatrice\nAnkheg\nGriffon\nOwlbear\nSea cat*\n10th Level (-9)\nBasilisk\nDigerster\nGirallon\nSpider eater\n13th Level (-12)\nBulette\nChimera\nRemorhaz\n16th Level (-15)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::111_lingering_damage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::113_gorgon"
+}

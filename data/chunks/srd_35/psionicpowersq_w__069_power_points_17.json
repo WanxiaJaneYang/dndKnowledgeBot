@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::069_power_points_17",
+  "document_id": "srd_35::psionicpowersq_w::069_power_points_17",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 17"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#069_power_points_17"
+  },
+  "chunk_type": "subsection",
+  "content": "Your body ignores all harmful (and helpful) effects, beginning when you finish manifesting this power and ending at the end of your next turn. While timeless body is in effect, you are invulnerable to all attacks and powers.\nThis power cannot be quickened.\nTongues, Psionic\nTelepathy [Mind-Affecting]\nLevel: Psion/wilder 2\nDisplay: None\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::068_power_points_17_xp",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::070_power_points_3"
+}

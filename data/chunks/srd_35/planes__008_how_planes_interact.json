@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::008_how_planes_interact",
+  "document_id": "srd_35::planes::008_how_planes_interact",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "HOW PLANES INTERACT"
+    ],
+    "source_location": "Planes.rtf#008_how_planes_interact"
+  },
+  "chunk_type": "subsection",
+  "content": "Separate Planes: Two planes that are separate do not overlap or directly connect to each other. They are like planets in different orbits. The only way to get from one separate plane to the other is to go through a third plane.\nCoterminous Planes: Planes that touch at specific points are coterminous. Where they touch, a connection exists, and travelers can leave one reality behind and enter the other.\nCoexistent Planes: If a link between two planes can be created at any point, the two planes are coexistent. These planes overlap each other completely. A coexistent plane can be reached from anywhere on the plane it overlaps. When moving on a coexistent plane, it is often possible to see into or interact with the plane it coexists with.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::007_magic_traits",
+  "next_chunk_id": "chunk::srd_35::planes::009_layered_planes"
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::020_epic_wilder",
+  "document_id": "srd_35::epicclasses::020_epic_wilder",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "EPIC WILDER"
+    ],
+    "source_location": "EpicClasses.rtf#020_epic_wilder"
+  },
+  "chunk_type": "subsection",
+  "content": "Hit Die: d6.\nSkill Points at Each Additional Level: 4 + Int modifier.\nPowers: The epic wilder's manifester level is equal to her class level. The wilder's power points and powers known do not increase after 20th level (except through the use of epic feats).\nWild Surge: The epic wilder's wild surge continues to increase after 20th level. At 23rd level and every four levels higher than 23rd, the wild surge continues to gain an additional +1 boost to manifester level when used (+7 at 23rd, +8 at 27th, and so on).\nSurging Euphoria: The wilder's surging euphoria progression continues past 20th level. At 28th level and every eight levels higher than 28th, the morale bonus on her attack rolls, damage rolls, and saving throws increases by 1 (+4 at 28th, +5 at 36th, and so on).\nVolatile Mind: The epic wilder's volatile mind ability continues to increase. At 21st level and every four levels higher than 21st, the penalty assessed against telepathy powers manifested on the wilder is increased by 1 power point (5 points at 21st, 6 points at 25th, and so on).\nTable: The Epic Wilder\nWilder Level | Special |\n21st | Volatile mind (5 power points) |\n22nd | -- |\n23rd | Wild surge +7 |\n24th | -- |\n25th | Volatile mind (6 power points) |\n26th | -- |\n27th | Wild surge +8 |\n28th | Surging euphoria +4 |\n29th | Volatile mind (7 power points) |\n30th | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::019_epic_soulknife"
+}

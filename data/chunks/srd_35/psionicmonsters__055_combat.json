@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::055_combat",
+  "document_id": "srd_35::psionicmonsters::055_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#055_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Burst (Su): Three times per day, a xeph can increase his or her speed by 10 feet, plus 10 feet per four character levels beyond 1st, to a maximum increase of 30 feet at 9th character level and higher. These bursts of speed are considered a competence bonus to the xeph's base speed. A burst of speed lasts 3 rounds.\nThe xeph warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int\n10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::054_unbodied_as_characters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::056_xephs_as_characters"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::050_improved_bull_rush_general",
+  "document_id": "srd_35::feats::050_improved_bull_rush_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED BULL RUSH [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#050_improved_bull_rush_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 13, Power Attack.\nBenefit: When you perform a bull rush you do not provoke an attack of opportunity from the defender. You also gain a +4 bonus on the opposed Strength check you make to push back the defender.\nSpecial: A fighter may select Improved Bull Rush as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::049_heighten_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::feats::051_improved_counterspell_general"
+}

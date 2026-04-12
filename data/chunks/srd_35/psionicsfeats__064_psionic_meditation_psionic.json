@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::064_psionic_meditation_psionic",
+  "document_id": "srd_35::psionicsfeats::064_psionic_meditation_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "PSIONIC MEDITATION [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#064_psionic_meditation_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can focus your mind faster than normal, even under duress.\nPrerequisite: Wis 13, Concentration 7 ranks.\nBenefit: You can take a move action to become psionically focused.\nNormal: A character without this feat must take a full-round action to become psionically focused.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::063_psionic_hole_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::065_psionic_shot_psionic"
+}

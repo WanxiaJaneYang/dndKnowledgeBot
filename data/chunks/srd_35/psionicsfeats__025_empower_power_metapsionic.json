@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::025_empower_power_metapsionic",
+  "document_id": "srd_35::psionicsfeats::025_empower_power_metapsionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "EMPOWER POWER [METAPSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#025_empower_power_metapsionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can manifest powers to greater effect.\nBenefit: To use this feat, you must expend your psionic focus.\nYou can empower a power. All variable, numeric effects of an empowered power are increased by one-half. An empowered power deals half again as much damage as normal, cures half again as many hit points, affects half again as many targets, and so forth, as appropriate. Augmented powers can also be empowered (multiply 1-1/2 times the damage total of the augmented power). Saving throws and opposed checks (such as the one you make when you manifest dispel psionics) are not affected, nor are powers without random variables.\nUsing this feat increases the power point cost of the power by 2. The power's total cost cannot exceed your manifester level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::024_delay_power_metapsionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::026_enlarge_power_metapsionic"
+}

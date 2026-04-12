@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::034_combat",
+  "document_id": "srd_35::monstersintro_a::034_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#034_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Animated objects fight only as directed by the animator. They follow orders without question and to the best of their abilities. Since they do not need to breathe and never tire, they can be extremely capable minions.\nAn animated object can have one or more of the following special abilities, depending on its form.\nBlind (Ex): A sheetlike animated object such as a carpet or tapestry can grapple an opponent up to three sizes larger than itself. The object makes a normal grapple check. If it wins, it wraps itself around the opponent's head, causing that creature to be blinded until removed.\nConstrict (Ex): A flexible animated object such as a rope, vine, or rug deals damage equal to its slam damage value plus 1- 1/2 times its Strength bonus with a successful grapple check against a creature up to one size larger than itself.\nAn object of at least Large size can make constriction attacks against multiple creatures at once, if they all are at least two sizes smaller than the object and can fit under it.\nHardness (Ex): An animated object has the same hardness it had before it was animated.\nImproved Speed (Ex): The base land speed given in the statistics block assume that an animated object lurches, rocks, or slithers along.\nObjects with two legs (statues, ladders) or a similar shape that allows faster movement have a +10 foot bonus to speed. Objects with multiple legs (tables, chairs) have a +20 foot bonus to speed. Wheeled objects have a +40 foot bonus to speed.\nObjects might have additional modes of movement. A wooden object can float and has a swim speed equal to half its land speed. A rope or similar sinuous object has a climb speed equal to half its land speed. A sheetlike object can fly (clumsy maneuverability) at half its normal speed.\nTrample (Ex): An animated object of at least Large size and with a hardness of at least 10 can trample creatures two or more sizes smaller than itself, dealing damage equal to the object's slam damage + 1-1/2 times its Strength bonus. Opponents who do not make attacks of opportunity against the object can attempt Reflex saves (DC 10 + 1/2 object's HD + object's Str modifier) to halve the damage.\n\nHit Dice: | 3d10+12 (28 hp) |\nInitiative: | +0 |\nSpeed: | 30 ft. (6 squares), burrow 20 ft. |\nArmor Class: | 18 (-1 size, +9 natural), touch 9, flat-footed 18 |\nBase Attack/Grapple: | +3/+12 |\nAttack: | Bite +7 melee (2d6+7 plus 1d4 acid) |\nFull Attack: | Bite +7 melee (2d6+7 plus 1d4 acid) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Improved grab, spit acid |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, tremorsense 60 ft. |\nSaves: | Fort +6, Ref +3, Will +2 |\nAbilities: | Str 21, Dex 10, Con 17, Int 1, Wis 13, Cha 6 |\nSkills: | Climb +8, Listen +6, Spot +3 |\nFeats: | Alertness, Toughness |\nEnvironment: | Warm plains |\nOrganization: | Solitary or cluster (2-4) |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 4 HD (Large); 5-9 HD (Huge) |\nLevel Adjustment: | -- |\nThe ankheg is a burrowing monster with a taste for fresh meat. An ankheg has six legs, and some specimens are yellow rather than brown. It is about 10 feet long and weighs about 800 pounds.\nAn ankheg burrows with legs and mandibles. A burrowing ankheg usually does not make a usable tunnel, but can construct a tunnel; it burrows at half speed when it does so. It often digs a winding tunnel up to 40 feet below the surface in the rich soil of forests or farmlands. The tunnel is 5 feet tall and wide, and from 60 to 150 feet long ([1d10 + 5] x\uf02010).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::033_animated_object",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::035_combat"
+}

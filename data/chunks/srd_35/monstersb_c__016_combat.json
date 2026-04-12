@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::016_combat",
+  "document_id": "srd_35::monstersb_c::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "COMBAT"
+    ],
+    "source_location": "MonstersB-C.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A bulette attacks anything it regards as edible, choosing the easiest or closest prey first. The only creatures it refuses to eat are elves (and it dislikes the taste of dwarves). When burrowing underground, a landshark relies on its tremorsense ability to detect prey.\nWhen it senses something edible (that is, senses movement), it breaks to the surface, crest first, and begins its attack.\nLeap (Ex): A bulette can jump into the air during combat. This allows it to make four claw attacks instead of two, each with a +15 attack bonus, but it cannot bite.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::015_bugbears_as_characters",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::017_celestial_creature"
+}

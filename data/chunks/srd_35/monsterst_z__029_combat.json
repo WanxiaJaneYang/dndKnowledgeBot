@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::029_combat",
+  "document_id": "srd_35::monsterst_z::029_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#029_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Vargouilles attack by biting with their jagged teeth. Their special attacks make them even more dangerous. A vargouille's natural weapons, as well as any weapons it wields, are treated as evil-aligned for the purpose of overcoming damage reduction.\nShriek (Su): Instead of biting, a vargouille can open its distended mouth and let out a terrible shriek. Those within 60 feet (except other vargouilles) who hear the shriek and can clearly see the creature must succeed on a DC 12 Fortitude save or be paralyzed with fear for 2d4 rounds or until the monster attacks them, goes out of range, or leaves their sight. A paralyzed creature is susceptible to the vargouille's kiss (see below). A creature that successfully saves cannot be affected again by the same vargouille's shriek for 24 hours. The shriek is a mind-affecting fear effect. The save DC is Constitution-based and includes a +1 racial bonus.\nKiss (Su): A vargouille can kiss a paralyzed target with a successful melee touch attack. An affected opponent must succeed on a DC 15 Fortitude save or begin a terrible transformation that turns the creature into a vargouille within 24 hours (and often much sooner; roll 1d6 separately for each phase of the transformation).\nFirst, over a period of 1d6 hours, all the victim's hair falls out. Within another 1d6 hours thereafter, the ears grow into leathery wings, tentacles sprout on the chin and scalp, and the teeth become long, pointed fangs. During the next 1d6 hours, the victim takes Intelligence drain and Charisma drain equal to 1 point per hour (to a minimum of 3). The transformation is complete 1d6 hours later, when the head breaks free of the body (which promptly dies) and becomes a vargouille. This transformation is interrupted by sunlight, and even a daylight spell can delay death, but to reverse the transformation requires remove disease. The save DC is Constitution-based and\nincludes a +4 racial bonus.\nPoison (Ex): Injury, Fortitude DC 12 or be unable to heal the vargouille's bite damage naturally or magically. A neutralize poison or heal spell removes the effect, while delay poison allows magical healing. The save DC is Constitution-based and includes a +1 racial bonus.\n\nHit Dice: | 4d12 (26 hp) |\nInitiative: | +1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 15 (+1 Dex, +4 natural), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +2/+3 |\nAttack: | Slam +3 melee (1d4+1 plus energy drain) |\nFull Attack: | Slam +3 melee (1d4+1 plus energy drain) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Create spawn, energy drain |\nSpecial Qualities: | Darkvision 60 ft., undead traits |\nSaves: | Fort +1, Ref +2, Will +5 |\nAbilities: | Str 12, Dex 12, Con --, Int 11, Wis 13, Cha 15 |\nSkills: | Hide +8, Listen +7, Move Silently +16, Spot +7 |\nFeats: | Alertness, Blind-Fight |\nEnvironment: | Any |\nOrganization: | Solitary, pair, gang (3-5), or pack (6-11) |\nChallenge Rating: | 3 |\nTreasure: | None |\nAlignment: | Always lawful evil |\nAdvancement: | 5-8 HD (Medium) |\nLevel Adjustment: | -- |\nA wight's appearance is a weird and twisted reflection of the form it had in life. A wight is about the height and weight of a human.\nWights speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::028_vampire_spawn_weaknesses",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::030_combat"
+}

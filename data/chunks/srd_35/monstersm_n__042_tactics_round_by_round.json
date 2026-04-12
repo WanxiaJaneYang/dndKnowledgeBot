@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::042_tactics_round_by_round",
+  "document_id": "srd_35::monstersm_n::042_tactics_round_by_round",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Tactics Round-by-Round"
+    ],
+    "source_location": "MonstersM-N.rtf#042_tactics_round_by_round"
+  },
+  "chunk_type": "subsection",
+  "content": "The nightwalker is an exceedingly intelligent foe that makes the best use of all its abilities. It favors using its spell-like abilities to divide and disable its enemies, then closing to melee with opponents it has isolated from their allies.\nPrior to combat: The nightwalker keeps its see invisibility power active most of the time. It uses haste and invisibility to prepare for battle.\nRound 1: Move to within 30 feet to make use of gaze attack and strike with confusion or hold monster, coupled with a quickened unholy blight.\nRound 2: Hit a spellcaster with finger of death and another quickened unholy blight.\nRound 3: Move up to engage the enemy and attempt to disarm an enemy fighter.\nRound 4: Crush the disarmed weapon (or use gaze attack if disarm attempt failed).\nRound 5: Full attack against the unarmed foe (or on a nearby spellcaster).\n\nHit Dice: | 17d12+34 (144 hp) |\nInitiative: | +8 |\nSpeed: | 20 ft. (4 squares), fly 60 ft. (good) |\nArmor Class: | 30 (-2 size, +4 Dex, +18 natural) touch 12, flat-footed 26 |\nBase Attack/Grapple: | +8/+28 |\nAttack: | Bite +18 melee (2d6+17/19-20 plus magic drain) |\nFull Attack: | Bite +18 melee (2d6+17/19-20 plus magic drain) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Desecrating aura, magic drain, spell-like abilities, summon undead |\nSpecial Qualities: | Aversion to daylight, damage reduction 15/silver and magic, darkvision 60 ft., immunity to cold, spell resistance 27, telepathy 100 ft., undead traits |\nSaves: | Fort +9, Ref +11, Will +17 |\nAbilities: | Str 31, Dex 18, Con --, Int 18, Wis 20, Cha 18 |\nSkills: | Concentration +24, Diplomacy +6, Hide +16*, Listen +25, Move Silently +24, Search +24, Sense Motive +25, Spellcraft +24, Spot +25, Survival +5 (+7 following tracks) |\nFeats: | Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Improved Critical (bite), Improved Initiative |\nEnvironment: | Plane of Shadow |\nOrganization: | Solitary, pair, or flock (3-6) |\nChallenge Rating: | 14 |\nTreasure: | Standard |\nAlignment: | Always chaotic evil |\nAdvancement: | 18-25 HD (Huge); 26-34 HD (Gargantuan) |\nLevel Adjustment: | -- |\nNightwings are batlike flyers that hunt on the wing.\nA nightwing has a wingspan of about 40 feet and weighs about 4,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::041_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::043_combat"
+}

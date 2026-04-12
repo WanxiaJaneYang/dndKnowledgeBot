@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::051_abjur",
+  "document_id": "srd_35::spelllistii::051_abjur",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Abjur"
+    ],
+    "source_location": "SpellListII.rtf#051_abjur"
+  },
+  "chunk_type": "subsection",
+  "content": "Dimensional Lock: Teleportation and interplanar travel blocked for one day/level.\nMind Blank: Subject is immune to mental/emotional magic and scrying.\nPrismatic Wall: Wall's colors have array of effects.\nProtection from Spells M F: Confers +8 resistance bonus.\n\nIncendiary Cloud: Cloud deals 4d6 fire damage/round.\nMaze: Traps subject in extradimensional maze.\nPlanar Binding, Greater: As lesser planar binding, but up to 18 HD.\nSummon Monster VIII: Calls extraplanar creature to fight for you.\nTrap the Soul M F: Imprisons subject within gem.\n\nDiscern Location: Reveals exact location of creature or object.\nMoment of Prescience: You gain insight bonus on single attack roll, check, or save.\nPrying Eyes, Greater: As prying eyes, but eyes have true seeing.\n\nAntipathy: Object or location affected by spell repels certain creatures.\nBinding M: Utilizes an array of techniques to imprison a creature.\nCharm Monster, Mass: As charm monster, but all within 30 ft.\nDemand: As sending, plus you can send suggestion.\nIrresistible Dance: Forces subject to dance.\nPower Word Stun: Stuns creature with 150 hp or less.\nSymbol of Insanity M: Triggered rune renders nearby creatures insane.\nSympathy F: Object or location attracts certain creatures.\n\nClenched Fist: Large hand provides cover, pushes, or attacks your foes.\nPolar Ray: Ranged touch attack deals 1d6/level cold damage.\nShout, Greater: Devastating yell deals 10d6 sonic damage; stuns creatures, damages objects.\nSunburst: Blinds all within 10 ft., deals 6d6 damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::050_trans",
+  "next_chunk_id": "chunk::srd_35::spelllistii::052_illus"
+}

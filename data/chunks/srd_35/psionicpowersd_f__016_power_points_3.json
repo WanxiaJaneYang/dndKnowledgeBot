@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::016_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::016_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#016_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "While the duration of this power lasts, you become aware of the presence of any creatures with hostile intent within 30 feet of you, and their direction from you (but not their specific location). The power detects active aggression, as opposed to vigilance. In addition, while this power is active you cannot be surprised or caught flatfooted by creatures that are susceptible to mind-affecting powers.\nWhile under the effect of this power, you can make Sense Motive checks as a free action against anyone within 30 feet of you.\nThe power can penetrate barriers, but 3 feet of stone, 3 inches of common metal, 1 inch of lead, or 6 feet of wood or dirt blocks it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::015_display_olfactory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::017_clairsentience"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::017_combat",
+  "document_id": "srd_35::monstersm_n::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "COMBAT"
+    ],
+    "source_location": "MonstersM-N.rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Merfolk favor heavy crossbows of shell and coral that fire bolts fashioned from blowfish spines, with an underwater range increment of 30 feet. Merfolk often barrage their enemies before closing, when they resort to tridents.\nAmphibious (Ex): Merfolk can breathe both air and water, although they rarely travel more than a few feet from the water's edge.\nSkills: A merfolk has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\nThe merfolk warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.\nMERFOLK CHARACTERS\nA merfolk's favored class is bard.\n\nHit Dice: | 7d8+21 (52 hp) |\nInitiative: | +1 |\nSpeed: | 10 ft. (2 squares) |\nArmor Class: | 15 (-1 size, +1 Dex, +5 natural), touch 10, flat-footed 15 |\nBase Attack/Grapple: | +5/+13 |\nAttack: | Slam +9 melee (1d8+4) |\nFull Attack: | 2 slams +9 melee (1d8+4) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Adhesive, crush |\nSpecial Qualities: | Darkvision 60 ft., immunity to acid, mimic shape |\nSaves: | Fort +5, Ref +5, Will +6 |\nAbilities: | Str 19, Dex 12, Con 17, Int 10, Wis 13, Cha 10 |\nSkills: | Climb +9, Disguise +13, Listen +8, Spot +8 |\nFeats: | Alertness, Lightning Reflexes, Weapon Focus (slam) |\nEnvironment: | Underground |\nOrganization: | Solitary |\nChallenge Rating: | 4 |\nTreasure: | 1/10th coins; 50% goods; 50% items |\nAlignment: | Usually neutral |\nAdvancement: | 8-10 HD (Large); 11-21 HD (Huge) |\nLevel Adjustment: | -- |\nA mimic can have almost any dimensions, but usually is not more than 10 feet long. A typical mimic has a volume of 150 cubic feet (5 feet by 5 feet by 6 feet) and weighs about 4,500 pounds.\nMimics speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::018_combat"
+}

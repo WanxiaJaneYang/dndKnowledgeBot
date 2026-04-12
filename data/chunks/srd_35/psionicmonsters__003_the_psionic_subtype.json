@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::003_the_psionic_subtype",
+  "document_id": "srd_35::psionicmonsters::003_the_psionic_subtype",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "THE PSIONIC SUBTYPE"
+    ],
+    "source_location": "PsionicMonsters.rtf#003_the_psionic_subtype"
+  },
+  "chunk_type": "subsection",
+  "content": "The psionic subtype applies to creatures that can use psionic powers or abilities or that have the ability to manifest powers. (In other words, a creature with the psionic subtype either has a power point reserve or has psi-like abilities.) It also applies to creatures from other sources that have spell-like abilities labeled as \u201cpsionics.\u201d\nCharacters who have levels in any class that grants the use of psionics, or who have psi-like abilities as racial traits, gain the psionic subtype.\nTraits: Other than the fact that all psionic creatures have psionic powers or psi-like abilities, psionic creatures have no specific traits. The psionic subtype simply identifies creatures that may be vulnerable to powers, spells, and effects targeting psionic creatures.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::002_psionic_creatures",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::004_undead_psionic_creatures"
+}

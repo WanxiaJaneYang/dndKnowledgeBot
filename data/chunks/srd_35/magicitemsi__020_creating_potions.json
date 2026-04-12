@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::020_creating_potions",
+  "document_id": "srd_35::magicitemsi::020_creating_potions",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "CREATING POTIONS"
+    ],
+    "source_location": "MagicItemsI.rtf#020_creating_potions"
+  },
+  "chunk_type": "subsection",
+  "content": "The creator of a potion needs a level working surface and at least a few containers in which to mix liquids, as well as a source of heat to boil the brew. In addition, he needs ingredients. The costs for materials and ingredients are subsumed in the cost for brewing the potion--25 gp x\uf020? the level of the spell x \uf020the level of the caster.\nAll ingredients and materials used to brew a potion must be fresh and unused. The character must pay the full cost for brewing each potion. (Economies of scale do not apply.)\nThe imbiber of the potion is both the caster and the target. Spells with a range of personal cannot be made into potions.\nThe creator must have prepared the spell to be placed in the potion (or must know the spell, in the case of a sorcerer or bard) and must provide any material component or focus the spell requires.\nIf casting the spell would reduce the caster's XP total, he pays the XP cost upon beginning the brew in addition to the XP cost for making the potion itself. Material components are consumed when he begins working, but a focus is not. (A focus used in brewing a potion can be reused.) The act of brewing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from his currently prepared spells, just as if it had been cast.) Brewing a potion requires one day.\nItem Creation Feat Required: Brew Potion.\n\nSpell Level | Clr, Drd, Wiz | Sor | Brd | Pal, Rgr* |\n0 | 25 gp | 25 gp | 25 gp | -- |\n1st | 50 gp | 50 gp | 100 gp | 100 gp |\n2nd | 300 gp | 400 gp | 400 gp | 400 gp |\n3rd | 750 gp | 900 gp | 1,050 gp | 750 gp |\n* Caster level is half class level. |\nPrices assume that the potion was made at the minimum caster level. |\nBase Cost to Brew a Potion (By Brewer's Class) |\nSpell Level | Clr, Drd, Wiz | Sor | Brd | Pal, Rgr* |\n0 | 12 gp 5 sp\n+1 XP | 12 gp 5 sp\n+1 XP | 12 gp 5 sp\n+1 XP | -- |\n1st | 25 gp\n+2 XP | 25 gp\n+2 XP | 50 gp\n+4 XP | 50 gp\n+4 XP |\n2nd | 150 gp\n+12 XP | 200 gp\n+16 XP | 200 gp\n+16 XP | 200 gp\n+16 XP |\n3rd | 375 gp\n+30 XP | 450 gp\n+36 XP | 525 gp\n+42 XP | 375 gp\n\n* Caster level is half class level. |\nCosts assume that the creator makes the potion at the minimum caster level. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::019_creating_magic_weapons",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::021_creating_rings"
+}

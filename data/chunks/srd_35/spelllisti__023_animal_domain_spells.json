@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::023_animal_domain_spells",
+  "document_id": "srd_35::spelllisti::023_animal_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Animal Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#023_animal_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Calm Animals: Calms (2d4 + level) HD of animals.\n2 Hold Animal: Paralyzes one animal for 1 round/level.\n3 Dominate Animal: Subject animal obeys silent mental commands.\n4 Summon Nature's Ally IV*: Calls creature to fight.\n5 Commune with Nature: Learn about terrain for 1 mile/level.\n6 Antilife Shell: 10-ft. field hedges out living creatures.\n7 Animal Shapes: One ally/level polymorphs into chosen animal.\n8 Summon Nature's Ally VIII*: Calls creature to fight.\n9 Shapechange F: Transforms you into any creature, and change forms once per round.\n*Can only summon animals.\n\nGranted Power: You cast chaos spells at +1 caster level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::022_animal_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::024_chaos_domain_spells"
+}

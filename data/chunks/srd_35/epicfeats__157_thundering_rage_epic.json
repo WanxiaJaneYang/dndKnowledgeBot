@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::157_thundering_rage_epic",
+  "document_id": "srd_35::epicfeats::157_thundering_rage_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "THUNDERING RAGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#157_thundering_rage_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 25, rage 5/day.\nBenefit: Any weapon the character wields while in a rage is treated as a thundering weapon. The DC of the Fortitude save to resist deafness is equal to 10 + 1/2 the character's level. This ability does not stack with similar abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::156_tenacious_magic_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::158_trap_sense_epic"
+}

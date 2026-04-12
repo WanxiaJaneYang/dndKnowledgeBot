@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::051_travel_domain",
+  "document_id": "srd_35::spelllisti::051_travel_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "TRAVEL DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#051_travel_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Powers: For a total time per day of 1 round per cleric level you possess, you can act normally regardless of magical effects that impede movement as if you were affected by the spell freedom of movement. This effect occurs automatically as soon as it applies, lasts until it runs out or is no longer needed, and can operate multiple times per day (up to the total daily limit of rounds).\nThis granted power is a supernatural ability.\nAdd Survival to your list of cleric class skills.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::050_sun_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::052_travel_domain_spells"
+}

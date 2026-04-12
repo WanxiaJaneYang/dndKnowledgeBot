@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterst_z::008_combat",
+  "document_id": "srd_35::monsterst_z::008_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersT-Z",
+      "COMBAT"
+    ],
+    "source_location": "MonstersT-Z.rtf#008_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Improved Grab (Ex): To use this ability, a tojanida must hit with a bite or claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. Underwater, a tojanida can tow a grabbed victim of its own size or smaller at its swim speed (but it cannot run). A favorite tactic is to grab a single opponent, then withdraw, hauling the opponent away from its allies.\nInk Cloud (Ex): A tojanida can emit a spherical cloud of jet-black ink with a radius of 30 feet once per minute as a free action. The effect is otherwise similar to fog cloud cast by an individual of a level equal to the tojanida's Hit Dice. Out of water, the ink emerges in a stream up to 30 feet long, which a tojanida can squirt into an opponent's eyes. The affected creature must succeed on a Reflex save or be blinded for 1 round. The save DC is 13 against a juvenile, 15 against an adult, and 21 against an elder. The save DCs are Constitution based.\nAll-Around Vision (Ex): The multiple apertures in a tojanida's shell allow it to look in any direction, bestowing a +4 racial bonus on Spot and Search checks. Opponents gain no flanking bonuses when attacking a tojanida.\nSkills: A tojanida has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 7d8+35 (66 hp) |\nInitiative: | -1 |\nSpeed: | 30 ft. (6 squares) |\nArmor Class: | 20 (-2 size, -1 Dex, +13 natural), touch 7, flat-footed 20 |\nBase Attack/Grapple: | +5/+22 |\nAttack: | Slam +12 melee (2d6+9) |\nFull Attack: | 2 slams +12 melee (2d6+9) |\nSpace/Reach: | 15 ft./15 ft. |\nSpecial Attacks: | Animate trees, double damage against objects, trample 2d6+13 |\nSpecial Qualities: | Damage reduction 10/slashing, low-light vision, plant traits, vulnerability to fire |\nSaves: | Fort +10, Ref +1, Will +7 |\nAbilities: | Str 29, Dex 8, Con 21, Int 12, Wis 16, Cha 12 |\nSkills: | Diplomacy +3, Hide -9*, Intimidate +6, Knowledge (nature) +6, Listen +8, Sense Motive +8, Spot +8, Survival +8 (+10 aboveground) |\nFeats: | Improved Sunder, Iron Will, Power Attack |\nEnvironment: | Temperate forests |\nOrganization: | Solitary or grove (4-7) |\nChallenge Rating: | 8 |\nTreasure: | Standard |\nAlignment: | Usually neutral good |\nAdvancement: | 8-16 HD (Huge); 17-21 HD (Gargantuan) |\nLevel Adjustment: | +5 |\nA treant's leaves are deep green in the spring and summer. In the fall and winter the leaves change to yellow, orange, or red, but they rarely fall out. A treant's legs fit together when closed to look like the trunk of a tree, and a motionless treant is nearly indistinguishable from a tree.\nA treant is about 30 feet tall, with a \u201ctrunk\u201d about 2 feet in diameter. It weighs about 4,500 pounds.\nTreants speak their own language, plus Common and Sylvan. Most also can manage a smattering of just about all other humanoid tongues--at least enough to say \u201cGet away from my trees!\u201d",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterst_z::007_tojanida",
+  "next_chunk_id": "chunk::srd_35::monsterst_z::009_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::abilitiesandconditions::028_perils_of_using_poison",
+  "document_id": "srd_35::abilitiesandconditions::028_perils_of_using_poison",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "AbilitiesandConditions",
+      "Perils of Using Poison"
+    ],
+    "source_location": "AbilitiesandConditions.rtf#028_perils_of_using_poison"
+  },
+  "chunk_type": "subsection",
+  "content": "A character has a 5% chance of exposing himself to a poison whenever he applies it to a weapon or otherwise readies it for use. Additionally, a character who rolls a natural 1 on an attack roll with a poisoned weapon must make a DC 15 Reflex save or accidentally poison himself with the weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::abilitiesandconditions::027_poison",
+  "next_chunk_id": "chunk::srd_35::abilitiesandconditions::029_poison_immunities"
+}

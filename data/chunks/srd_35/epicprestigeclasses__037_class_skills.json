@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::037_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::037_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#037_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The perfect wight's class skills (and the key ability for each skill) are Appraise (Int), Balance (Dex), Bluff (Cha), Climb (Str), Craft (Int), Disable Device (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Gather Information (Cha), Hide (Dex), Innuendo (Wis), Jump (Str), Knowledge (any) (Int), Listen (Wis), Move Silently (Dex), Open Lock (Dex), Search (Int), Spot (Wis), Survival (Wis), Tumble (Dex), and Use Rope (Dex).\nSkill Points at Each Level: 8 + Int modifier.\nTable: The Perfect Wight\nLevel | Special |\n1st | Greater invisibility 1/day |\n2nd | Improved legerdemain 1/day |\n3rd | Incorporeal 1/day |\n4th | Shadow form 1/day |\n5th | Bonus feat |\n6th | Greater invisibility 2/day |\n7th | Improved legerdemain 2/day |\n8th | Incorporeal 2/day |\n9th | Shadow form 2/day |\n10th | Bonus feat |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::036_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::038_class_features"
+}

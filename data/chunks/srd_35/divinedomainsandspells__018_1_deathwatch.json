@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::018_1_deathwatch",
+  "document_id": "srd_35::divinedomainsandspells::018_1_deathwatch",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "1 Deathwatch"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#018_1_deathwatch"
+  },
+  "chunk_type": "subsection",
+  "content": "2 Gentle repose\n3 Speak with dead\n4 Death ward\n5 Slay living\n6 Undeath to death\n7 Destruction\n8 Surelife\n9 Wail of the banshee\nRUNE DOMAIN\nGranted Power: Free Scribe Scroll feat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::017_repose_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::019_1_erase"
+}

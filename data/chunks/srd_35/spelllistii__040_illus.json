@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::040_illus",
+  "document_id": "srd_35::spelllistii::040_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#040_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Dream: Sends message to anyone sleeping.\nFalse Vision M: Fools scrying with an illusion.\nMirage Arcana: As hallucinatory terrain, plus structures.\nNightmare: Sends vision dealing 1d10 damage, fatigue.\nPersistent Image: As major image, but no concentration required.\nSeeming: Changes appearance of one person per two levels.\nShadow Evocation: Mimics evocation below 5th level, but only 20% real.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::039_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::041_necro"
+}

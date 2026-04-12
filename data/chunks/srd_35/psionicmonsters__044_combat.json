@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::044_combat",
+  "document_id": "srd_35::psionicmonsters::044_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#044_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A psicrystal's characteristics depend on its master. Its Hit Dice are equal to its master's Hit Dice (counting only levels in psion or wilder), its hit points are equal to half its master's, and its saving throw bonuses are the same as its master's.\nConstruct Traits: A psicrystal has immunity to poison, sleep, paralysis, stunning, disease, death effects, necromancy effects, mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and any effect that requires a Fortitude save unless it also works on objects or is harmless. It is not subject to critical hits, nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. It cannot heal damage, but it can be repaired. Psicrystals do not have the usual construct traits of darkvision and low-light vision.\nPsicrystal Granted Abilities: The psicrystal described here has the special abilities of self-propulsion, alertness, improved evasion, share powers, telepathic link, sighted, and personality (If its master chooses not to activate the self-propulsion ability, the psicrystal reverts to a speed of 0 feet and has no Strength score and no Dexterity score.)\nSkills: A psicrystal (with its self-propulsion ability activated) uses its Dexterity modifier instead of its Strength modifier on Climb checks. It has a +8 racial bonus on Climb checks and can always choose to take 10, even if rushed or threatened.\n\nHit Dice: | 15d10+30 (112 hp) |\nInitiative: | +0 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 28 (-1 size, +19 natural), touch 9, flat-footed 28 |\nBase Attack/Grapple: | +11/+25 |\nAttack: | Slam +20 melee (2d10+10) |\nFull Attack: | 2 slams +20 melee (2d10+10) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Dispel psionics |\nSpecial Qualities: | Construct traits, damage reduction 10/adamantine, darkvision 60 ft., immunity to psionics, lowlight vision |\nSaves: | Fort +5, Ref +5, Will +5 |\nAbilities: | Str 31, Dex 10, Con --, Int --, Wis 11, Cha 1 |\nSkills: | -- |\nFeats: | -- |\nEnvironment: | Any |\nOrganization: | Solitary or gang (2-4) |\nChallenge Rating: | 12 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 16-21 HD (Large); 22-45 (Huge) |\nLevel Adjustment: | -- |\nA psion-killer (also called a crystal golem) is 9-1/2 feet tall and weighs around 2,500 pounds. Its body is composed of sharply faceted crystal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::043_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::045_combat"
+}

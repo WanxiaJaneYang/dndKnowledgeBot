@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::022_combat_reflexes_general",
+  "document_id": "srd_35::feats::022_combat_reflexes_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "COMBAT REFLEXES [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#022_combat_reflexes_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You may make a number of additional attacks of opportunity equal to your Dexterity bonus.\nWith this feat, you may also make attacks of opportunity while flat-footed.\nNormal: A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.\nSpecial: The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.\nA fighter may select Combat Reflexes as one of his fighter bonus feats.\nA monk may select Combat Reflexes as a bonus feat at 2nd level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::021_combat_expertise_general",
+  "next_chunk_id": "chunk::srd_35::feats::023_craft_magic_arms_and_armor_item_creation"
+}

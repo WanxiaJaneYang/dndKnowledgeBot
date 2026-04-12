@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::032_dire_charge_epic",
+  "document_id": "srd_35::epicfeats::032_dire_charge_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DIRE CHARGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#032_dire_charge_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Improved Initiative.\nBenefit: If the character charges a foe during the first round of combat (or the surprise round, if the character is allowed to act in it), he or she can make a full attack against the opponent charged.\nNormal: Without this feat, a character may only make a single attack as part of a charge.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::031_diminutive_wild_shape_wild_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::033_distant_shot_epic"
+}

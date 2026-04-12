@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::035_combat",
+  "document_id": "srd_35::psionicmonsters::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Because of their giant ancestry, half-giants are able to use weapons sized for creatures larger than normal humans. They gain considerable satisfaction in using these large weapons in combat against their foes.\nPsi-Like Abilities: 1/day: stomp (DC 10). Manifester level equal to 1/2 HD (minimum 1st). The save DC is Charisma-based.\nFire Acclimated (Ex): Half-giants have a +2 racial bonus on saving throws against all fire spells and effects.\nPowerful Build (Ex): The physical stature of half-giants lets them function in many ways as if they were one size category larger. Whenever a half-giant is subject to a size modifier or special size modifier for an opposed check (such as during grapple checks, bull rush attempts, and trip attempts), the half-giant is treated as one size larger if doing so is advantageous to him. A half-giant is also considered to be one size larger when determining whether a creature's special attacks based on size (such as improved grab or swallow whole) can affect him. A half-giant can use weapons designed for a creature one size larger without penalty. However, his space and reach remain those of a creature of his actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.\nThe half-giant warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::034_combat",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::036_half_giants_as_characters"
+}

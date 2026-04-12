@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::033_distant_shot_epic",
+  "document_id": "srd_35::epicfeats::033_distant_shot_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "DISTANT SHOT [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#033_distant_shot_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 25, Far Shot, Point Blank Shot, Spot 20 ranks.\nBenefit: The character may throw or fire a ranged weapon at any target within line of sight, with no penalty for range.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::032_dire_charge_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::034_dragon_wild_shape_wild_epic"
+}

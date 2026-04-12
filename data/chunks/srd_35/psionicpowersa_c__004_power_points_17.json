@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::004_power_points_17",
+  "document_id": "srd_35::psionicpowersa_c::004_power_points_17",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 17"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#004_power_points_17"
+  },
+  "chunk_type": "subsection",
+  "content": "You create an affinity feedback loop with all creatures within the area. While the duration lasts, affected creatures take all damage (including ability damage) as you do and heal all wounds as you do. Hit points gained or lost persist after this power ends.\nCreatures in range are also subject to magical and psionic effects of 3rd level or lower. Creatures that have an affinity to you gain a saving throw against each new power transferred through the affinity field as if the power were manifested upon them normally. All magical and psionic effects transferred to subjects fade at the end of this power's duration, although instantaneous effects remain. If you suddenly become immune to a particular effect or power, the effect or power to which you are immune cannot be transferred to creatures that have affinity to you.\n\nDisplay: Material and olfactory\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 hour/level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::003_power_points_9",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::005_power_points_7"
+}

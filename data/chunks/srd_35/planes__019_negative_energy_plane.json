@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::019_negative_energy_plane",
+  "document_id": "srd_35::planes::019_negative_energy_plane",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "NEGATIVE ENERGY PLANE"
+    ],
+    "source_location": "Planes.rtf#019_negative_energy_plane"
+  },
+  "chunk_type": "subsection",
+  "content": "To an observer, there's little to see on the Negative Energy Plane. It is a dark, empty place, an eternal pit where a traveler can fall until the plane itself steals away all light and life. The Negative Energy Plane is the most hostile of the Inner Planes, and the most uncaring and intolerant of life. Only creatures immune to its life-draining energies can survive there.\nThe Negative Energy Plane has the following traits.\nSubjective directional gravity.\nMajor negative-dominant. Some areas within the plane have only the minor negative-dominant trait, and these islands tend to be inhabited.\nEnhanced magic. Spells and spell-like abilities that use negative energy are maximized (as if the Maximize Spell metamagic feat had been used on them, but the spells don't require higher-level slots). Spells and spell-like abilities that are already maximized are unaffected by this benefit. Class abilities that use negative energy, such as rebuking and controlling undead, gain a +10 bonus on the roll to determine Hit Dice affected.\nImpeded magic. Spells and spell-like abilities that use positive energy, including cure spells, are impeded. Characters on this plane take a -10 penalty on Fortitude saving throws made to remove negative levels bestowed by an energy drain attack.\nRandom Encounters: Because the Negative Energy Plane is virtually devoid of creatures, random encounters on the plane are exceedingly rare.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::018_elemental_plane_of_water",
+  "next_chunk_id": "chunk::srd_35::planes::020_positive_energy_plane"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::019_cleave_general",
+  "document_id": "srd_35::feats::019_cleave_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "CLEAVE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#019_cleave_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Str 13, Power Attack.\nBenefit: If you deal a creature enough damage to make it drop (typically by dropping it to below 0 hit points or killing it), you get an immediate, extra melee attack against another creature within reach. You cannot take a 5-foot step before making this extra attack. The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. You can use this ability once per round.\nSpecial: A fighter may select Cleave as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::018_brew_potion_item_creation",
+  "next_chunk_id": "chunk::srd_35::feats::020_combat_casting_general"
+}

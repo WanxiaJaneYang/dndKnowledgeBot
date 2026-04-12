@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::017_combat",
+  "document_id": "srd_35::epicmonsters_g_w::017_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#017_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Despair (Su): The mere sight of a hunefer requires viewers to succeed at a Will saving throw (DC 48) or be paralyzed with fear for 1d4 rounds. Regardless of the outcome of the save, a subject is not again vulnerable to that hunefer's despair ability for 24 hours. The DC is Charisma-based.\nHunefer Rot (Su): Supernatural disease--slam, Fort save (DC 35), incubation period instantaneous; Damage 1d6 temporary Con. Unlike normal diseases, hunefer rot requires a victim to make a successful saving throw every round or take another 1d6 points of temporary Constitution Damage. The rot continues until the victim reaches Constitution 0 (and dies) or receives a remove disease spell or similar magic. An afflicted creature that dies shrivels away into sand unless both remove disease and raise dead (or better) are cast on the remains within 2 rounds. If the remains are not so treated, on the third round the dust swirls and forms an 18 HD mummy with the dead foe's equipment under the hunefer's command. (The mummy dust epic spell has statistics for an 18 HD mummy.)\nSpell-Like Abilities: At will--chain lightning, displacement, haste, knock, greater dispel magic, passwall, scrying, greater teleport, true seeing, unholy aura, weird; 1/day--ruin (epic spell). Caster level 27th; save DC 23 + spell level. The DC is Charisma-based.\nUndead Traits: Immune to poison, sleep, paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual dam-age, ability Damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive Damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.\n\nHit Dice: | 32d12 (208 hp) |\nInitiative: | +12 (+8 Dex, +4 Improved Initiative) |\nSpeed: | 60 ft. |\nAC: | 46 (+8 Dex, +28 natural) |\nBase Attack/Grapple: | +16/+37 |\nAttack: | Claw +40 (3d8+21/19-20 (+1d6 on critical hit) plus blazefire) melee |\nFull Attack: | 2 claws +40 (3d8+21/19-20 (+1d6 on critical hit) plus blazefire) melee, 1 skull butt +32 (2d6+10 plus blazefire) melee |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Rend 6d8+31, blazefire, spell-like abilities |\nSpecial Qualities: | Undead traits, fire subtype, heat aura, SR 34, DR 10/- , fiery hardness |\nSkills: | Jump +33, Knowledge (religion) +33, Listen +41, Search +35, Spot +41 |\nFeats: | Cleave, Great Cleave, Great Fortitude, Improved Critical (claw), Improved Initiative, Power Attack, Weapon Focus (claw) |\nEpic Feats: | Blinding Speed (x2), Epic Weapon Focus (claw), Overwhelming Critical (claw) |\nSaves: | Fort +12, Ref +18, Will +24 |\nAbilities: | Str 52, Dex 27, Con -, Int 10, Wis 22, Cha 28 |\nClimate/Terrain: | Any |\nOrganization: | Solitary or pair |\nChallenge Rating: | 23 |\nTreasure: | Standard |\nAlignment: | Chaotic evil |\nAdvancement: | 33-42 HD (Medium-size); 43-55 HD (Huge) |\nLavawights speak Common and Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::016_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::018_combat"
+}

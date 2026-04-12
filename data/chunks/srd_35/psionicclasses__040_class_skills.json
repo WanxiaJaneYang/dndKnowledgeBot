@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::040_class_skills",
+  "document_id": "srd_35::psionicclasses::040_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#040_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The war mind's class skills (and the key ability for each skill) are Auto hypnosis (Wis), Concentration (Con), Intimidate (Cha), Knowledge (history) (Int), Knowledge (psionics) (Int), and Psicraft (Int).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The War Mind |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Power Points/Day | Powers Known | Maximum Power Level Known |\n1st | +1 | +2 | +2 | +0 | Chain of personal superiority +2 | 2 | 1 | 1st |\n2nd | +2 | +3 | +3 | +0 | Chain of defensive posture +2 | 5 | 2 | 1st |\n3rd | +3 | +3 | +3 | +1 | Enduring body (DR 1/--) | 9 | 2 | 1st |\n4th | +4 | +4 | +4 | +1 | -- | 14 | 3 | 2nd |\n5th | +5 | +4 | +4 | +1 | Sweeping strike | 20 | 3 | 2nd |\n6th | +6 | +5 | +5 | +2 | Enduring body (DR 2/--) | 28 | 4 | 3rd |\n7th | +7 | +5 | +5 | +2 | Chain of personal superiority +4 | 37 | 4 | 3rd |\n8th | +8 | +6 | +6 | +2 | Chain of defensive posture +4 | 47 | 5 | 4th |\n9th | +9 | +6 | +6 | +3 | Enduring body (DR 3/--) | 58 | 5 | 4th |\n10th | +10 | +7 | +7 | +3 | Chain of overwhelming force | 70 | 6 | 5th |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::039_requirements",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::041_class_features"
+}

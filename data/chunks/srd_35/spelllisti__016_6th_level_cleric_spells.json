@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::016_6th_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::016_6th_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "6TH-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#016_6th_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Animate Objects: Objects attack your foes.\nAntilife Shell: 10-ft. field hedges out living creatures.\nBanishment: Banishes 2 HD/level of extraplanar creatures.\nBear's Endurance, Mass: As bear's endurance, affects one subject/ level.\nBlade Barrier: Wall of blades deals 1d6/level damage.\nBull's Strength, Mass: As bull's strength, affects one subject/level.\nCreate Undead: Create ghouls, ghasts, mummies, or mohrgs.\nCure Moderate Wounds, Mass: Cures 2d8 damage +1/level for many creatures.\nDispel Magic, Greater: As dispel magic, but up to +20 on check.\nEagle's Splendor, Mass: As eagle's splendor, affects one subject/level.\nFind the Path: Shows most direct way to a location.\nForbiddance M: Blocks planar travel, damages creatures of different alignment.\nGeas/Quest: As lesser geas, plus it affects any creature.\nGlyph of Warding, Greater: As glyph of warding, but up to 10d8 damage or 6th-level spell.\nHarm: Deals 10 points/level damage to target.\nHeal: Cures 10 points/level of damage, all diseases and mental conditions.\nHeroes' Feast: Food for one creature/level cures and grants combat bonuses.\nInflict Moderate Wounds, Mass: Deals 2d8 damage +1/level to many creatures.\nOwl's Wisdom, Mass: As owl's wisdom, affects one subject/level.\nPlanar Ally X: As lesser planar ally, but up to 12 HD.\nSummon Monster VI: Calls extraplanar creature to fight for you.\nSymbol of Fear M: Triggered rune panics nearby creatures.\nSymbol of Persuasion M: Triggered rune charms nearby creatures.\nUndeath to Death M: Destroys 1d4 HD/level undead (max 20d4).\nWind Walk: You and your allies turn vaporous and travel fast.\nWord of Recall: Teleports you back to designated place.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::015_5th_level_cleric_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::017_7th_level_cleric_spells"
+}

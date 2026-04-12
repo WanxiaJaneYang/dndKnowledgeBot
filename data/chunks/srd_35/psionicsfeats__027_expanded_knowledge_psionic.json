@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::027_expanded_knowledge_psionic",
+  "document_id": "srd_35::psionicsfeats::027_expanded_knowledge_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "EXPANDED KNOWLEDGE [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#027_expanded_knowledge_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You learn another power.\nPrerequisites: Manifester level 3rd.\nBenefit: Add to your powers known one additional power of any level up to one level lower than the highest-level power you can manifest. You can choose any power, including powers from another discipline's list or even from another class's list.\nSpecial: You can gain this feat multiple times. Each time, you learn one new power at any level up to one less than the highest-level power you can manifest.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::026_enlarge_power_metapsionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::028_extend_power_metapsionic"
+}

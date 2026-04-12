@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::043_inquisitor_psionic",
+  "document_id": "srd_35::psionicsfeats::043_inquisitor_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "INQUISITOR [PSIONIC]"
+    ],
+    "source_location": "PsionicsFeats.rtf#043_inquisitor_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You know when others lie.\nPrerequisite: Wis 13.\nBenefit: To use this feat, you must expend your psionic focus.\nYou gain a +10 bonus on a Sense Motive check to oppose a Bluff check.\nYou must decide whether or not to use this feat prior to making a Sense Motive check. If your check fails, or if the opponent isn't lying, you still expend your psionic focus.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::042_improved_psicrystal_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::044_maximize_power_metapsionic"
+}

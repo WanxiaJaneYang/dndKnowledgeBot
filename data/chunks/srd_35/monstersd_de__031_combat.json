@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersd_de::031_combat",
+  "document_id": "srd_35::monstersd_de::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersD-De",
+      "Combat"
+    ],
+    "source_location": "MonstersD-De.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Pit fiends are wily and resourceful fighters, using invisibility to gain the upper hand and biting at foes seemingly able to see them. They don't hesitate to blanket an area with fireballs, and can call down the wrath of an inferno with meteor swarm.\nA pit fiend's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.\nConstrict (Ex): A pit fiend deals 2d8+26 points of damage with a successful grapple check.\nDisease (Su): A creature struck by a pit fiend's bite attack must succeed on a DC 27 Fortitude save or be infected with a vile disease known as devil chills (incubation period 1d4 days, damage 1d4 Str). The save DC is Constitution-based.\nFear Aura (Su): A pit fiend can radiate a 20-foot-radius fear aura as a free action. A creature in the area must succeed on a DC 27 Will save or be affected as though by a fear spell (caster level 18th). A creature that successfully saves cannot be affected again by the same pit fiend's aura for 24 hours. Other devils are immune to the aura. The save DC is Charisma-based.\nImproved Grab (Ex): To use this ability, a pit fiend must hit with its tail slap attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\nIf it wins the grapple check, it establishes a hold and can constrict.\nPoison (Ex): Injury, Fortitude DC 27, initial damage 1d6 Con, secondary damage death. The save DC is Constitution-based.\nSpell-Like Abilities: At will--blasphemy (DC 25), create undead, fireball (DC 21), greater dispel magic, greater teleport (self plus 50 pounds of objects only), invisibility, magic circle against good, mass hold monster (DC 27), persistent image (DC 23), power word stun, unholy aura (DC 26); 1/day--meteor swarm (DC 27). Caster level 18th. The save DCs are Charisma-based.\nOnce per year a pit fiend can use wish as the spell (caster level 20th).\nSummon Devil (Sp): Twice per day a pit fiend can automatically summon 2 lemures, bone devils, or bearded devils, or 1 erinyes, horned devil, or ice devil. This ability is the equivalent of an 8th-level spell.\nRegeneration (Ex): A pit fiend takes normal damage from good-aligned silvered weapons, and from spells or effects with the good descriptor.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersd_de::030_combat",
+  "next_chunk_id": "chunk::srd_35::monstersd_de::032_tactics_round_by_round"
+}

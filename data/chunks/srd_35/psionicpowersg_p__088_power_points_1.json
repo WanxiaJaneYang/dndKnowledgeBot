@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::088_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::088_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#088_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your awareness extends a fraction of a second into the future, allowing you to better land blows against your opponent. You gain a +1 insight bonus on your attack rolls.\nAugment: You can augment this power in one or both of the following ways.\n1. For every 3 additional power points you spend, the insight bonus gained on your attack rolls increases by 1.\n2. If you spend 6 additional power points, you can manifest this power as a swift action.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::087_clairsentience",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::089_clairsentience"
+}

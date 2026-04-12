@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsiii::008_ring_of_elemental_command_fire",
+  "document_id": "srd_35::magicitemsiii::008_ring_of_elemental_command_fire",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsIII",
+      "Ring of Elemental Command (Fire)"
+    ],
+    "source_location": "MagicItemsIII.rtf#008_ring_of_elemental_command_fire"
+  },
+  "chunk_type": "subsection",
+  "content": "Resist energy (fire) (as a major ring of energy resistance [fire])\nBurning hands (unlimited use)\nFlaming sphere (twice per day)\nPyrotechnics (twice per day)\nWall of fire (once per day)\nFlame strike (twice per week)\nThe ring appears to be a major ring of energy resistance (fire) until the established condition is met.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsiii::007_ring_of_elemental_command_earth",
+  "next_chunk_id": "chunk::srd_35::magicitemsiii::009_ring_of_elemental_command_water"
+}

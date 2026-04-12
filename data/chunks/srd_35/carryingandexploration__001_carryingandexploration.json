@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::carryingandexploration::001_carryingandexploration",
+  "document_id": "srd_35::carryingandexploration::001_carryingandexploration",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CarryingandExploration",
+      "CarryingandExploration"
+    ],
+    "source_location": "CarryingandExploration.rtf#001_carryingandexploration"
+  },
+  "chunk_type": "generic",
+  "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
+  "chunk_version": "v1-section-passthrough",
+  "next_chunk_id": "chunk::srd_35::carryingandexploration::002_carrying_capacity"
+}

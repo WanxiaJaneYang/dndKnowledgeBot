@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::025_naga",
+  "document_id": "srd_35::monstersm_n::025_naga",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "NAGA"
+    ],
+    "source_location": "MonstersM-N.rtf#025_naga"
+  },
+  "chunk_type": "subsection",
+  "content": "All nagas have long, snakelike bodies covered with glistening scales, and more or less human faces. They range in length from 10 to 20 feet and weigh from 200 to 500 pounds. The eyes of a naga are bright and intelligent, burning with an almost hypnotic inner light.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::024_mummy_lord",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::026_combat"
+}

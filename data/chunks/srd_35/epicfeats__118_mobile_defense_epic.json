@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::118_mobile_defense_epic",
+  "document_id": "srd_35::epicfeats::118_mobile_defense_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "MOBILE DEFENSE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#118_mobile_defense_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Dex 15, Dodge, Mobility, Spring Attack, defensive stance 3/day class feature.\nBenefit: While in a defensive stance, the character may take one 5-foot adjustment each round without losing the benefits of the stance.\nNormal: Without this feat, a character can't move while in a defensive stance.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::117_mighty_rage_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::119_multispell_epic"
+}

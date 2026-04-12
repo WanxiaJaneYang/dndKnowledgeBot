@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::016_grabbing_items",
+  "document_id": "srd_35::combatii::016_grabbing_items",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "Grabbing Items"
+    ],
+    "source_location": "CombatII.rtf#016_grabbing_items"
+  },
+  "chunk_type": "subsection",
+  "content": "You can use a disarm action to snatch an item worn by the target. If you want to have the item in your hand, the disarm must be made as an unarmed attack.\nIf the item is poorly secured or otherwise easy to snatch or cut away the attacker gets a +4 bonus. Unlike on a normal disarm attempt, failing the attempt doesn't allow the defender to attempt to disarm you. This otherwise functions identically to a disarm attempt, as noted above.\nYou can't snatch an item that is well secured unless you have pinned the wearer (see Grapple). Even then, the defender gains a +4 bonus on his roll to resist the attempt.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::015_disarm",
+  "next_chunk_id": "chunk::srd_35::combatii::017_feint"
+}

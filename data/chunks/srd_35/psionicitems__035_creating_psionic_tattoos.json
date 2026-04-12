@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicitems::035_creating_psionic_tattoos",
+  "document_id": "srd_35::psionicitems::035_creating_psionic_tattoos",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicItems",
+      "Creating Psionic Tattoos"
+    ],
+    "source_location": "PsionicItems.rtf#035_creating_psionic_tattoos"
+  },
+  "chunk_type": "subsection",
+  "content": "The creator of a psionic tattoo must have a patch of uncovered skin free of hair and fur, and at least a few containers in which to mix dyes. In addition, he needs special materials, usually to create dyes. The costs for materials and dyes are subsumed in the cost for scribing the psionic tattoo-- 25 gp x the level of the power x the level of the manifester. All ingredients and materials used to scribe a psionic tattoo must be fresh and unused. The character must pay the full cost for scribing each psionic tattoo. (Economies of scale do not apply.)\nThe user of the psionic tattoo is both the manifester and the target; therefore, powers that target another creature cannot be stored in psionic tattoo form. Powers with a range of personal can be made into psionic tattoos, but they cost double the price of standard psionic tattoos.\nThe creator must know the power to be placed in the psionic tattoo (or must have the power available in some other form). If manifesting the power would reduce the manifester's XP total, he pays the XP cost upon beginning the scribing in addition to the experience point cost for making the psionic tattoo itself. The act of scribing triggers the power as if it had been manifested, costing the character an appropriate number of power points.\nScribing a psionic tattoo requires one day.\nItem Creation Feat Required: Scribe Tattoo.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicitems::034_creating_psicrowns",
+  "next_chunk_id": "chunk::srd_35::psionicitems::036_creating_universal_items"
+}

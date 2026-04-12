@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::010_ooze",
+  "document_id": "srd_35::monsterso_r::010_ooze",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "OOZE"
+    ],
+    "source_location": "MonstersO-R.rtf#010_ooze"
+  },
+  "chunk_type": "subsection",
+  "content": "Oozes are amorphous creatures that live only to eat. They inhabit underground areas throughout the world, scouring caverns, ruins, and dungeons in search of organic matter--living or dead.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::009_ogre_mages_as_characters",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::011_combat"
+}

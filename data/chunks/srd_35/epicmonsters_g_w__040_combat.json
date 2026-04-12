@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::040_combat",
+  "document_id": "srd_35::epicmonsters_g_w::040_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#040_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Confusion Aura (Su): This ability operates continuously, as the confusion spell but with a 30-foot radius. Potential victims can make a Will save (DC 47) to resist confusion. Those affected by the aura can make a new save every 4 rounds to throw off the effect. Once it has successfully resisted, a subject remains immune to that uvuudaum's confusion aura for 24 hours. The save DC is Charisma-based.\nWisdom Drain (Su): This effect permanently reduces a living opponent's Wisdom score by 2d4 points when the creature hits with its head spike, or twice that amount on a critical hit. The creature regains 5 lost hit points (or 10 on a critical hit ) whenever it drains Wisdom, gaining any excess hit points as temporary hit points. Thesse temporary hit points last a maximum of 1 hour. An opponent can avoid the Wisdom drain with a Fortitude save (DC 47). The save DC is Charisma-based.\nSpell-Like Abilities: At will--confusion, dimension door, greater dispel magic, displacement, haste, invisibility, lightning bolt, magic missile, mage armor, polymorph, shield, stoneskin, true strike, web; 3/day--chain lightning, cone of cold, disintegrate, dominate person, plane shift, prismatic spray, scrying, greater teleport, wall of force; 1/day--contingent resurrection, nailed to the sky, time duplicate (epic spells), time stop. Caster level 27th; save DC 28 + spell level. The save DCs are Charisma-based.\nRegeneration (Ex): Uvuudaums take normal damage from holy weapons, cold, and fire.\n\nHit Dice: | 42d8+546 (735 hp) |\nInitiative: | +11 (+7 Dex, +4 Improved Initiative) |\nSpeed: | 50 ft., fly 90 ft. (perfect) |\nAC: | 40 (+3 Dex, -1 size, +24 natural) |\nBase Attack/Grapple: | +31/+47 |\nAttack: | Sting +43 (1d6+12/19-20 plus poison) melee |\nFull Attack: | Sting +43 (1d6+12/19-20 plus poison) melee, 4 pincers +41 (2d8+6/19-20) melee, bite +40 (3d6+6 plus poison) melee |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Aura of doom, concealing aura, frightful presence, poison, spell-like abilities |\nSpecial Qualities: | DR 10/epic, darkvision 60 ft., fast healing 10, immune to all mind-affecting effects, low-light vision, SR 34; scent |\nSaves: | Fort +29, Ref +21, Will +38 |\nAbilities: | Str 34, Dex 25, Con 36, Int 14, Wis 40, Cha 44 |\nSkills: | Heal +24, Hide +33, Jump +45, Knowledge (nature) +34, Listen +47, Move Silently +33, Spot +47 |\nFeats: | Alertness, Cleave, Combat Reflexes, Dodge, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (pincers), Improved Critical (sting), Improved Initiative, Multiattack, Power Attack, Weapon Focus (pincers), Weapon Focus (sting) |\nEpic Feats: | Blinding Speed |\nClimate/Terrain: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 24 |\nTreasure: | Standard |\nAlignment: | Usually lawful neutral |\nAdvancement: | 43-52 HD (Large); 53-70 HD (Huge) |\nVermiurges speak Terran.\nA vermiurge's natural weapons are treated as epic for the purpose of overcoming damage reduction.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::039_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::041_combat"
+}

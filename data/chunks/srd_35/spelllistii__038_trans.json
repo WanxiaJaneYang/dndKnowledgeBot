@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::038_trans",
+  "document_id": "srd_35::spelllistii::038_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#038_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Enlarge Person, Mass: Enlarges several creatures.\nMnemonic Enhancer F: Wizard only. Prepares extra spells or retains one just cast.\nPolymorph: Gives one willing subject a new form.\nReduce Person, Mass: Reduces several creatures.\nStone Shape: Sculpts stone into any shape.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::037_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::039_abjur"
+}

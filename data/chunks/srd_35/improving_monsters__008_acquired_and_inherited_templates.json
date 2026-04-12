@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::008_acquired_and_inherited_templates",
+  "document_id": "srd_35::improving_monsters::008_acquired_and_inherited_templates",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "ACQUIRED AND INHERITED TEMPLATES"
+    ],
+    "source_location": "Improving Monsters.rtf#008_acquired_and_inherited_templates"
+  },
+  "chunk_type": "subsection",
+  "content": "Some templates can be added to creatures anytime. Templates such as these are referred to as acquired templates, indicating that the creature did not always have the attributes of the template.\nOther templates, known as inherited templates, are part of a creature from the beginning of its existence. Creatures are born with these templates.\nIt's possible for a certain kind of template to be of either type.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::007_templates",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::009_reading_a_template"
+}

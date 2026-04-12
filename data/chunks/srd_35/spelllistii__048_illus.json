@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::048_illus",
+  "document_id": "srd_35::spelllistii::048_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#048_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Invisibility, Mass: As invisibility, but affects all in range.\nProject Image: Illusory double can talk and cast spells.\nShadow Conjuration, Greater: As shadow conjuration, but up to 6th level and 60% real.\nSimulacrum M X: Creates partially real double of a creature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::047_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::049_necro"
+}

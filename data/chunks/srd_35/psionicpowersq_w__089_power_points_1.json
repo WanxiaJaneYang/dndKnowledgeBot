@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::089_power_points_1",
+  "document_id": "srd_35::psionicpowersq_w::089_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#089_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You suffuse yourself with power, gaining 5 temporary hit points. Using this power again when an earlier manifestation has not expired merely replaces the older temporary hit points (if any remain) with the newer ones.\nAugment: For every additional power point you spend, the number of temporary hit points you gain increases by 5.\nWall of Ectoplasm",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::088_psychometabolism",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::090_display_visual"
+}

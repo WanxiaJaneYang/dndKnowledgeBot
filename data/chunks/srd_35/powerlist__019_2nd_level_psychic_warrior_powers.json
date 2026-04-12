@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::019_2nd_level_psychic_warrior_powers",
+  "document_id": "srd_35::powerlist::019_2nd_level_psychic_warrior_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "2ND-LEVEL PSYCHIC WARRIOR POWERS"
+    ],
+    "source_location": "PowerList.rtf#019_2nd_level_psychic_warrior_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Animal AffinityA: Gain +4 enhancement to one ability.\nBody AdjustmentA: Heal 1d12 damage.\nBody Equilibrium: You can walk on nonsolid surfaces.\nBody PurificationA: Restore 2 points of ability damage.\nConcealing Amorpha: Quasi-real membrane grants you concealment.\nDarkvision, Psionic: See 60 ft. in total darkness.\nDetect Hostile Intent: You can detect hostile creatures within 30 ft. of you.\nDimension SwapA: You and an ally switch positions.\nDissolving TouchA: Your touch deals 4d6 acid damage.\nDissolving WeaponA: Your weapon deals 4d6 acid damage.\nEmpathic TransferA: Transfer another's wounds to yourself.\nEnergy Adaptation, SpecifiedA: Gain resistance 10 to one energy type.\nFeat LeechA: Borrow another's psionic or metapsionic feats.\nHustle: Instantly gain a move action.\nLevitate, Psionic: You move up and down, forward and back, via mental support.\nPainful StrikeA: Your natural weapons deal an extra 1d6 nonlethal damage.\nProwess: Instantly gain another attack of opportunity.\nPsionic Scent: Gain the scent ability.\nPsionic Lion's ChargeA: You can make full attack in same round you charge.\nStrength of My EnemyA: Siphon away your enemy's strength and grow stronger.\nSustenance: You can go without food and water for one day.\nThought ShieldA: Gain PR 13 against mind-affecting powers.\nWall Walker: Grants ability to walk on walls and ceilings.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::018_1st_level_psychic_warrior_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::020_3rd_level_psychic_warrior_powers"
+}

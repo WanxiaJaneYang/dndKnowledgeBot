@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::022_animal_domain",
+  "document_id": "srd_35::spelllisti::022_animal_domain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "ANIMAL DOMAIN"
+    ],
+    "source_location": "SpellListI.rtf#022_animal_domain"
+  },
+  "chunk_type": "subsection",
+  "content": "Granted Powers: You can use speak with animals once per day as a spell-like ability.\nAdd Knowledge (nature) to your list of cleric class skills.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::021_air_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::023_animal_domain_spells"
+}

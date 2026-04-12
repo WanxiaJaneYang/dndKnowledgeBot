@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsii::018_survival_wis",
+  "document_id": "srd_35::skillsii::018_survival_wis",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsII",
+      "SURVIVAL (WIS)"
+    ],
+    "source_location": "SkillsII.rtf#018_survival_wis"
+  },
+  "chunk_type": "subsection",
+  "content": "Check: You can keep yourself and others safe and fed in the wild. The table below gives the DCs for various tasks that require Survival checks.\nSurvival does not allow you to follow difficult tracks unless you are a ranger or have the Track feat (see the Restriction section below).\nSurvival DC | Task |\n10 | Get along in the wild. Move up to one-half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10. |\n15 | Gain a +2 bonus on all Fortitude saves against severe weather while moving up to one-half your overland speed, or gain a +4 bonus if you remain stationary. You may grant the same bonus to one other character for every 1 point by which your Survival check result exceeds 15. |\n15 | Keep from getting lost or avoid natural hazards, such as quicksand. |\n15 | Predict the weather up to 24 hours in advance. For every 5 points by which your Survival check result exceeds 15, you can predict the weather for one additional day in advance. |\nVaries | Follow tracks (see the Track feat). |\nAction: Varies. A single Survival check may represent activity over the course of hours or a full day. A Survival check made to find tracks is at least a full-round action, and it may take even longer.\nTry Again: Varies. For getting along in the wild or for gaining the Fortitude save bonus noted in the table above, you make a Survival check once every 24 hours. The result of that check applies until the next check is made. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one. Retries to avoid getting lost in a specific situation or to avoid a specific natural hazard are not allowed. For finding tracks, you can retry a failed check after 1 hour (outdoors) or 10 minutes(indoors) of searching.\nRestriction: While anyone can use Survival to find tracks (regardless of the DC), or to follow tracks when the DC for the task is 10 or lower, only a ranger (or a character with the Track feat) can use Survival to follow tracks when the task has a higher DC.\nSpecial: If you have 5 or more ranks in Survival, you can automatically determine where true north lies in relation to yourself.\nA ranger gains a bonus on Survival checks when using this skill to find or follow the tracks of a favored enemy.\nIf you have the Self-Sufficient feat, you get a +2 bonus on Survival checks.\nSynergy: If you have 5 or more ranks in Survival, you get a +2 bonus on Knowledge (nature) checks.\nIf you have 5 or more ranks in Knowledge (dungeoneering), you get a +2 bonus on Survival checks made while underground.\nIf you have 5 or more ranks in Knowledge (nature), you get a +2 bonus on Survival checks in aboveground natural environments (aquatic, desert, forest, hill, marsh, mountains, and plains).\nIf you have 5 or more ranks in Knowledge (geography), you get a +2 bonus on Survival checks made to keep from getting lost or to avoid natural hazards.\nIf you have 5 or more ranks in Knowledge (the planes), you get a +2 bonus on Survival checks made while on other planes.\nIf you have 5 or more ranks in Search, you get a +2 bonus on Survival checks to find or follow tracks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsii::017_spot_wis",
+  "next_chunk_id": "chunk::srd_35::skillsii::019_swim_str_armor_check_penalty"
+}

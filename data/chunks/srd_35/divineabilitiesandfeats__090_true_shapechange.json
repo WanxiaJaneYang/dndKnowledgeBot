@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::090_true_shapechange",
+  "document_id": "srd_35::divineabilitiesandfeats::090_true_shapechange",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "True Shapechange"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#090_true_shapechange"
+  },
+  "chunk_type": "subsection",
+  "content": "This is an extraordinary ability.\nPrerequisites: Divine rank 16, Alter Size salient divine ability, Alter Form salient divine ability, Shapechange salient divine ability.\nBenefit: The deity can assume the form of any object or creature. The deity can remain in the assumed form indefinitely, but it resumes its own form if slain.\nNotes: This ability works like the Shift Form salient divine ability, except as noted below.\nThe deity can take any form, living or unliving, corporal or incorporeal. The deity gains the supernatural abilities of the assumed form.\nThe deity can use this ability to create disguises, gaining a bonus of +20 on its Disguise checks.\nThe deity can use its Alter Size ability simultaneously with this one to become as small as a grain of sand or as large as 1,600 feet in the assumed form's greatest dimension.\nSuggested Portfolio Elements: Nature, secrets, thieves.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::089_true_knowledge",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::091_undead_mastery"
+}

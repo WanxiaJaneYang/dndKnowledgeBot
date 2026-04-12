@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicclasses::016_epic_psion",
+  "document_id": "srd_35::epicclasses::016_epic_psion",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicClasses",
+      "EPIC PSION"
+    ],
+    "source_location": "EpicClasses.rtf#016_epic_psion"
+  },
+  "chunk_type": "subsection",
+  "content": "Hit Die: d4.\nSkill Points at Each Additional Level: 2 + Int modifier.\nPowers: The psion's manifester level is equal to his class level. The psion's base power points do not increase after 20th level. Each time the psion attains a new level, he learns two new powers of any level or levels that he can manifest.\nPsicrystal: The epic psion's psicrystal, if he has one, continues to increase in power. At every odd-numbered level higher than 20th (21st, 23rd, and so on) the psicrystal's natural armor bonus and Intelligence each increase by 1. The psicrystal's power resistance is equal to the master's level + 5. At 21st level and again every ten levels higher than 21st, the psicrystal gains the benefit of the Psicrystal Power epic feat for a power of its master's choice.\nBonus Feats: The epic psion gains a bonus feat every three levels higher than 20th (23rd, 26th, and so on).\nTable: The Epic Psion\nPsion Level | Special |\n21st | -- |\n22nd | -- |\n23rd | Bonus feat |\n24th | -- |\n25th | -- |\n26th | Bonus feat |\n27th | -- |\n28th | -- |\n29th | Bonus feat |\n30th | -- |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicclasses::015_no_epic_bonus_power_progression",
+  "next_chunk_id": "chunk::srd_35::epicclasses::017_psicrystals_at_epic_level"
+}

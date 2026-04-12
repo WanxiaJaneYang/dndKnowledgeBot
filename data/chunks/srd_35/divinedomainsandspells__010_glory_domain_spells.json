@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divinedomainsandspells::010_glory_domain_spells",
+  "document_id": "srd_35::divinedomainsandspells::010_glory_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineDomainsandSpells",
+      "Glory Domain Spells"
+    ],
+    "source_location": "DivineDomainsandSpells.rtf#010_glory_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Disrupt undead\n2 Bless weapon\n3 Searing light\n4 Holy smite\n5 Holy sword\n6 Bolt of glory\n7 Sunbeam\n8 Crown of glory",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divinedomainsandspells::009_glory_domain",
+  "next_chunk_id": "chunk::srd_35::divinedomainsandspells::011_liberation_domain"
+}

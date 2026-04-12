@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::magicitemsi::003_magic_items_and_detect_magic",
+  "document_id": "srd_35::magicitemsi::003_magic_items_and_detect_magic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MagicItemsI",
+      "Magic Items and Detect Magic"
+    ],
+    "source_location": "MagicItemsI.rtf#003_magic_items_and_detect_magic"
+  },
+  "chunk_type": "subsection",
+  "content": "When detect magic identifies a magic item's school of magic, this information refers to the school of the spell placed within the potion, scroll, or wand, or the prerequisite given for the item. The description of each item provides its aura strength and the school it belongs to.\nIf more than one spell is given as a prerequisite, use the highest-level spell. If no spells are included in the prerequisites, use the following default guidelines.\nItem Nature | School |\nArmor and protection items | Abjuration |\nWeapons or offensive items | Evocation |\nBonus to ability score, on skill check, etc. | Transmutation |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::magicitemsi::002_magic_items_i_basics_creation",
+  "next_chunk_id": "chunk::srd_35::magicitemsi::004_using_items"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::029_turning_checks",
+  "document_id": "srd_35::combatii::029_turning_checks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "Turning Checks"
+    ],
+    "source_location": "CombatII.rtf#029_turning_checks"
+  },
+  "chunk_type": "subsection",
+  "content": "Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity.\nYou must present your holy symbol to turn undead. Turning is considered an attack.\nTimes per Day: You may attempt to turn undead a number of times per day equal to 3 + your Charisma modifier. You can increase this number by taking the Extra Turning feat.\nRange: You turn the closest turnable undead first, and you can't turn undead that are more than 60 feet away or that have total cover relative to you. You don't need line of sight to a target, but you do need line of effect.\nTurning Check: The first thing you do is roll a turning check to see how powerful an undead creature you can turn. This is a Charisma check (1d20 + your Charisma modifier). Table: Turning Undead gives you the Hit Dice of the most powerful undead you can affect, relative to your level. On a given turning attempt, you can turn no undead creature whose Hit Dice exceed the result on this table.\nTurning Damage: If your roll on Table: Turning Undead is high enough to let you turn at least some of the undead within 60 feet, roll 2d6 + your cleric level + your Charisma modifier for turning damage. That's how many total Hit Dice of undead you can turn.\nIf your Charisma score is average or low, it's possible to roll fewer Hit Dice of undead turned than indicated on Table: Turning Undead.\nYou may skip over already turned undead that are still within range, so that you do not waste your turning capacity on them.\nEffect and Duration of Turning: Turned undead flee from you by the best and fastest means available to them. They flee for 10 rounds (1 minute). If they cannot flee, they cower (giving any attack rolls against them a +2 bonus). If you approach within 10 feet of them, however, they overcome being turned and act normally. (You can stand within 10 feet without breaking the turning effect--you just can't approach them.) You can attack them with ranged attacks (from at least 10 feet away), and others can attack them in any fashion, without breaking the turning effect.\nDestroying Undead: If you have twice as many levels (or more) as the undead have Hit Dice, you destroy any that you would normally turn.\nTable: Turning Undead |\nTurning Check Result | Most Powerful Undead Affected (Maximum Hit Dice) |\n0 or lower | Cleric's level - 4 |\n1-3 | Cleric's level - 3 |\n4-6 | Cleric's level - 2 |\n7-9 | Cleric's level - 1 |\n10-12 | Cleric's level |\n13-15 | Cleric's level + 1 |\n16-18 | Cleric's level + 2 |\n19-21 | Cleric's level + 3 |\n22 or higher | Cleric's level + 4 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::028_turn_or_rebuke_undead",
+  "next_chunk_id": "chunk::srd_35::combatii::030_evil_clerics_and_undead"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::044_divine_shield",
+  "document_id": "srd_35::divineabilitiesandfeats::044_divine_shield",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Shield"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#044_divine_shield"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Cha 29.\nBenefit: As a free action, the deity can create a shield that lasts 10 minutes and protects the deity's body and equipment from attacks. The shield stops 10 points of damage per rank. Once the shield stops that much damage, it collapses. The damage can be from any source, including a divine blast attack. The deity can use this ability a number of times per day equal to 3 + its Constitution bonus.\nNotes: The deity can adjust the shield so that it does not block damage the deity ignores anyway. The effects of multiple divine shields do not stack.\nSuggested Portfolio Elements: Protection.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::043_divine_rogue",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::045_divine_skill_focus"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::020_create_greater_object",
+  "document_id": "srd_35::divineabilitiesandfeats::020_create_greater_object",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Create Greater Object"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#020_create_greater_object"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Divine rank 11, Int 29, Create Object salient divine ability.\nBenefit: As a full-round action, the deity can create objects weighing up to 100 pounds per divine rank, or with a volume of 20 cubic feet per rank. If the deity uses this ability on a divinely morphic plane or within its own godly realm, double the volume and\nweight the deity can create. If the deity's realm is located on a divinely morphic plane, triple the volume and weight the deity can create there.\nNotes: This ability works like the Create Object ability, except as noted below. A deity can use this ability to create any kind of nonmagical object.\nRest: The deity must convert a considerable amount of its own energy into the object, which can leave the deity impaired. The deity can create an object with a value of up to 100 gp without impairment. For every additional 100 gp of value (or fraction of 100\ngp), the deity must rest for 10 minutes. If the deity is creating an item on a divinely morphic plane or within its own godly realm, it can create a 200 gp item without resting. If the deity's realm is located on a divinely morphic plane, it can create a 300 gp item\nthere without having to rest.\nSuggested Portfolio Elements: Crafts, creation.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::019_create_object",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::021_divine_air_mastery"
+}

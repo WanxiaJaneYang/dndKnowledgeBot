@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::030_hobgoblin_characters",
+  "document_id": "srd_35::monstersh_i::030_hobgoblin_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HOBGOBLIN CHARACTERS"
+    ],
+    "source_location": "MonstersH-I.rtf#030_hobgoblin_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Hobgoblin characters possess the following racial traits.\n-- +2 Dexterity, +2 Constitution.\n--A hobgoblin's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n-- +4 racial bonus on Move Silently checks.\n--Automatic Languages: Common, Goblin. Bonus Languages: Draconic, Dwarven, Infernal, Giant, Orc.\n--Favored Class: Fighter.\n--Level adjustment +1.\n\nHit Dice: | 2d10 (11 hp) |\nInitiative: | +2 |\nSpeed: | 20 ft. (4 squares), fly 50 ft. (good) |\nArmor Class: | 14 (+2 Dex, +2 size), touch 14, flat-footed 12 |\nBase Attack/Grapple: | +1/-8 |\nAttack: | Bite +2 melee (1d4-1 plus poison) |\nFull Attack: | Bite +2 melee (1d4-1 plus poison) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | Poison |\nSpecial Qualities: | Construct traits, darkvision 60 ft., low-light vision |\nSaves: | Fort +0, Ref +4, Will +1 |\nAbilities: | Str 8, Dex 15, Con --, Int 10, Wis 12, Cha 7 |\nSkills: | Hide +14, Listen +4, Spot +4 |\nFeats: | Lightning Reflexes |\nEnvironment: | Any |\nOrganization: | Solitary |\nChallenge Rating: | 1 |\nTreasure: | None |\nAlignment: | Any (same as creator) |\nAdvancement: | 3-6 HD (Tiny) |\nLevel Adjustment: | -- |\nA homunculus is a miniature servant created by a wizard. These creatures are weak combatants but make effective spies, messengers, and scouts. A homunculus's creator determines its precise features. Homunculi are little more than tools designed to carry out assigned tasks. They are extensions of their creators, sharing the same alignment and basic nature. A homunculus cannot speak, but the process of creating one links it telepathically with its creator.\nIt knows what its master knows and can convey to him or her everything it sees and hears, out to a distance of 1,500 feet. A homunculus never travels beyond this range willingly, though it can be removed forcibly. If this occurs, the creature does everything in its power to regain contact with its master. An attack that destroys a homunculus deals 2d10 points of damage to its master.\nIf the creature's master is slain, the homunculus also dies, and its body swiftly melts away into a pool of ichor.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::029_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::031_combat"
+}

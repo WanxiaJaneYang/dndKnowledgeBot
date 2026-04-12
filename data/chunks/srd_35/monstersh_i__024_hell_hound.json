@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::024_hell_hound",
+  "document_id": "srd_35::monstersh_i::024_hell_hound",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HELL HOUND"
+    ],
+    "source_location": "MonstersH-I.rtf#024_hell_hound"
+  },
+  "chunk_type": "subsection",
+  "content": "| Hellhound | Nessian Warhound |\n| Medium Outsider (Evil, Extraplanar, Fire, Lawful) | Large Outsider (Evil, Extraplanar, Fire, Lawful) |\nHit Dice: | 4d8+4 (22 hp) | 12d8+60 (114 hp) |\nInitiative: | +5 | +6 |\nSpeed: | 40 ft. (8 squares) | 40 ft. (8 squares) |\nArmor Class: | 16 (+1 Dex, +5 natural), touch 11, flat-footed 15 | 24 (-1 size, +2 Dex, +7 natural, +6 +2 chain shirt barding), touch 11, flat-footed 22 |\nBase Attack/Grapple: | +4/+5 | +12/+24 |\nAttack: | Bite +5 melee (1d8+1 plus 1d6 fire) | Bite +20 melee (2d6+12/19-20 plus 1d8 fire) |\nFull Attack: | Bite +5 melee (1d8+1 plus 1d6 fire) | Bite +20 melee (2d6+12/19-20 plus 1d8 fire) |\nSpace/Reach: | 5 ft./5 ft. | 10 ft./10 ft. |\nSpecial Attacks: | Breath weapon, fiery bite | Breath weapon, fiery bite |\nSpecial Qualities: | Darkvision 60 ft., immunity to fire, scent, vulnerability to cold | Darkvision 60 ft., immunity to fire, scent, vulnerability to cold |\nSaves: | Fort +5, Ref +5, Will +4 | Fort +13, Ref +10, Will +9 |\nAbilities: | Str 13, Dex 13, Con 13, Int 6, Wis 10, Cha 6 | Str 26, Dex 14, Con 20, Int 4, Wis 12, Cha 6 |\nSkills: | Hide +13, Jump +12, Listen +7, Move Silently +13, Spot +7, Survival +7* | Hide +17, Jump +19, Listen +18, Move Silently +21, Spot +18, Survival +8*, Tumble +3 |\nFeats: | Improved Initiative, Run, TrackB | Alertness, Improved Critical (bite), Improved Initiative, Track, Weapon Focus (bite) |\nEnvironment: | A lawful evil-aligned plane | A lawful evil plane |\nOrganization: | Solitary, pair, or pack (5-12) | Solitary, pair, or pack (1-2 Nessian warhounds and 5-12 hell hounds) |\nChallenge Rating: | 3 | 9 |\nTreasure: | None | +2 chain shirt barding |\nAlignment: | Always lawful evil | Always lawful evil |\nAdvancement: | 5-8 HD (Medium); 9-12 HD (Large) | 13-17 HD (Large); 18-24 HD (Huge) |\nLevel Adjustment: | +3 (cohort) | +4 (cohort) |\nA typical hell hound stands 4-1/2 feet high at the shoulder and weighs 120 pounds.\nHell hounds do not speak but understand Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::023_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::025_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::033_fire_domain_spells",
+  "document_id": "srd_35::spelllisti::033_fire_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Fire Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#033_fire_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Burning Hands: 1d4/level fire damage (max 5d4).\n2 Produce Flame: 1d6 damage +1/ level, touch or thrown.\n3 Resist Energy*: Ignores 10 (or more) points of damage/attack from specified energy type.\n4 Wall of Fire: Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.\n5 Fire Shield: Creatures attacking you take fire damage; you're protected from heat or cold.\n6 Fire Seeds: Acorns and berries become grenades and bombs.\n7 Fire Storm: Deals 1d6/level fire damage.\n8 Incendiary Cloud: Cloud deals 4d6 fire damage/round.\n9 Elemental Swarm**: Summons multiple elementals.\n*Resist cold or fire only.\n**Cast as a fire spell only.\n\nGranted Power: You cast good spells at +1 caster level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::032_fire_domain",
+  "next_chunk_id": "chunk::srd_35::spelllisti::034_good_domain_spells"
+}

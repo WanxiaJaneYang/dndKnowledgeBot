@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::015_combat",
+  "document_id": "srd_35::monsterss::015_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#015_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Shield guardians are straightforward in battle, bashing with their heavy stone fists. They are made for defense and are not particularly impressive on offense.\nFind Master (Su): As long as a shield guardian and its amulet are on the same plane, the shield guardian can find the amulet wearer (or just the amulet, if it is removed after the guardian is called).\nGuard (Ex): If ordered to do so, a shield guardian moves swiftly to defend the wearer of its amulet, blocking blows and disrupting foes. All attacks against the amulet wearer take a -2 penalty when the shield guardian is adjacent to its master.\nShield Other (Sp): The wearer of a shield guardian's amulet can activate this defensive ability if within 100 feet of the shield guardian. Just as the spell of the same name, this ability transfers to the shield guardian half the damage that would be dealt to the amulet wearer (this ability does not provide the spell's AC or save bonuses).\nSpell Storing (Sp): A shield guardian can store one spell of 4th level or lower that is cast into it by another creature. It \u201ccasts\u201d this spell when commanded to do so or when a predefined situation arises. Once this spell is used, the shield guardian can store another spell (or the same spell again).",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::014_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::016_construction"
+}

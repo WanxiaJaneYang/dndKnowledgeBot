@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::prestigeclasses::039_class_skills",
+  "document_id": "srd_35::prestigeclasses::039_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "PrestigeClasses.rtf#039_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The horizon walker's class skills (and the key ability for each skill) are Balance (Dex), Climb (Str), Diplomacy (Cha), Handle Animal (Cha), Hide (Dex), Knowledge (geography) (Int), Listen (Wis), Move Silently (Dex), Profession (Wis), Ride (Dex), Speak Language (none), Spot (Wis), and Survival (Wis).\nSkill Points at Each Level: 4 + Int modifier.\nTable: The Horizon Walker |\nLevel | Base\nAttack\nBonus | Fort\nSave | Ref\nSave | Will\nSave | Special |\n1st | +1 | +2 | +0 | +0 | Terrain mastery |\n2nd | +2 | +3 | +0 | +0 | Terrain mastery |\n3rd | +3 | +3 | +1 | +1 | Terrain mastery |\n4th | +4 | +4 | +1 | +1 | Terrain mastery |\n5th | +5 | +4 | +1 | +1 | Terrain mastery |\n6th | +6 | +5 | +2 | +2 | Planar terrain mastery |\n7th | +7 | +5 | +2 | +2 | Planar terrain mastery |\n8th | +8 | +6 | +2 | +2 | Planar terrain mastery |\n9th | +9 | +6 | +3 | +3 | Planar terrain mastery |\n10th | +10 | +7 | +3 | +3 | Planar terrain mastery |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::prestigeclasses::038_requirements",
+  "next_chunk_id": "chunk::srd_35::prestigeclasses::040_class_features"
+}

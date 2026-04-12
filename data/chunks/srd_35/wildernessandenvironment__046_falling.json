@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::046_falling",
+  "document_id": "srd_35::wildernessandenvironment::046_falling",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "FALLING"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#046_falling"
+  },
+  "chunk_type": "subsection",
+  "content": "Falling Damage: The basic rule is simple: 1d6 points of damage per 10 feet fallen, to a maximum of 20d6.\nIf a character deliberately jumps instead of merely slipping or falling, the damage is the same but the first 1d6 is nonlethal damage. A DC 15 Jump check or DC 15 Tumble check allows the character to avoid any damage from the first 10 feet fallen and converts any damage from the second 10 feet to nonlethal damage. Thus, a character who slips from a ledge 30 feet up takes 3d6 damage. If the same character deliberately jumped, he takes 1d6 points of nonlethal damage and 2d6 points of lethal damage. And if the character leaps down with a successful Jump or Tumble check, he takes only 1d6 points of nonlethal damage and 1d6 points of lethal damage from the plunge.\nFalls onto yielding surfaces (soft ground, mud) also convert the first 1d6 of damage to nonlethal damage. This reduction is cumulative with reduced damage due to deliberate jumps and the Jump skill.\nFalling into Water: Falls into water are handled somewhat differently. If the water is at least 10 feet deep, the first 20 feet of falling do no damage. The next 20 feet do nonlethal damage (1d3 per 10-foot increment). Beyond that, falling damage is lethal damage (1d6 per additional 10-foot increment).\nCharacters who deliberately dive into water take no damage on a successful DC 15 Swim check or DC 15 Tumble check, so long as the water is at least 10 feet deep for every 30 feet fallen. However, the DC of the check increases by 5 for every 50 feet of the dive.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::045_darkness",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::047_falling_objects"
+}

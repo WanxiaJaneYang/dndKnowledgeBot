@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::010_half_celestial",
+  "document_id": "srd_35::monstersh_i::010_half_celestial",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HALF-CELESTIAL"
+    ],
+    "source_location": "MonstersH-I.rtf#010_half_celestial"
+  },
+  "chunk_type": "subsection",
+  "content": "No matter the form, half-celestials are always comely and delightful to the senses, having golden skin, sparkling eyes, angelic wings, or some other sign of their higher nature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::009_hag_eye",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::011_creating_a_half_celestial"
+}

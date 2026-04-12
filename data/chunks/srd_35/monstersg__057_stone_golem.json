@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::057_stone_golem",
+  "document_id": "srd_35::monstersg::057_stone_golem",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "STONE GOLEM"
+    ],
+    "source_location": "MonstersG.rtf#057_stone_golem"
+  },
+  "chunk_type": "subsection",
+  "content": "| Stone Golem | Greater Stone Golem |\n| Large Construct | Huge Construct |\nHit Dice: | 14d10+30 (107 hp) | 42d10+40 (271 hp) |\nInitiative: | -1 | -2 |\nSpeed: | 20 ft. (4 squares) | 20 ft. (4 squares) |\nArmor Class: | 26 (-1 size, -1 Dex, +18 natural), touch 8, flat-footed 26 | 27 (-2 size, -2 Dex, +21 natural), touch 6, flat-footed 27 |\nBase Attack/Grapple: | +10/+23 | +31/+52 |\nAttack: | Slam +18 melee (2d10+9) | Slam +42 melee (4d8+13) |\nFull Attack: | 2 slams +18 melee (2d10+9) | 2 slams +42 melee (4d8+13) |\nSpace/Reach: | 10 ft./10 ft. | 15 ft./15 ft. |\nSpecial Attacks: | Slow | Slow |\nSpecial Qualities: | Construct traits, damage reduction 10/adamantine, darkvision 60 ft., immunity to magic, low-light vision | Construct traits, damage reduction 10/adamantine, darkvision 60 ft., immunity to magic, low-light vision |\nSaves: | Fort +4, Ref +3, Will +4 | Fort +14, Ref +12, Will +14 |\nAbilities: | Str 29, Dex 9, Con --, Int --, Wis 11, Cha 1 | Str 37, Dex 7, Con --, Int --, Wis 11, Cha 1 |\nSkills: | -- | -- |\nFeats: | -- | -- |\nEnvironment: | Any | Any |\nOrganization: | Solitary or gang (2-4) | Solitary or gang (2-4) |\nChallenge Rating: | 11 | 16 |\nTreasure: | None | None |\nAlignment: | Always neutral | Always neutral |\nAdvancement: | 15-21 HD (Large); 22-42 (Huge) | -- |\nLevel Adjustment: | -- | -- |\nThis golem has a humanoid body made from stone. A stone golem is 9 feet tall and weighs around 2,000 pounds. Its body is frequently stylized to suit its creator. For example, it might look like it is wearing armor, with a particular symbol carved on the breastplate, or have designs worked into the stone of its limbs.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::056_construction",
+  "next_chunk_id": "chunk::srd_35::monstersg::058_combat"
+}

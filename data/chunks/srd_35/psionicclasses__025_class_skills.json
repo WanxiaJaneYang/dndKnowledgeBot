@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::025_class_skills",
+  "document_id": "srd_35::psionicclasses::025_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#025_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The slayer's class skills (and the key ability for each skill) are Bluff (Cha), Concentration (Con), Knowledge (dungeoneering) (Int), Listen (Wis), Psicraft (Int), Sense Motive (Wis), Spot (Wis), and Survival (Wis).\nSkill Points at Each Level: 4 + Int modifier.\nTable: The Slayer |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Powers Known |\n1st | +1 | +0 | +0 | +2 | Favored enemy +2, enemy sense | -- |\n2nd | +2 | +0 | +0 | +3 | Brain nausea | +1 level of existing manifesting class |\n3rd | +3 | +1 | +1 | +3 | Lucid buffer | +1 level of existing manifesting class |\n4th | +4 | +1 | +1 | +4 | Favored enemy +4 | +1 level of existing manifesting class |\n5th | +5 | +1 | +1 | +4 | -- | +1 level of existing manifesting class |\n6th | +6 | +2 | +2 | +5 | Cerebral blind | +1 level of existing manifesting class |\n7th | +7 | +2 | +2 | +5 | Favored enemy +6 | +1 level of existing manifesting class |\n8th | +8 | +2 | +2 | +6 | Breach power resistance | +1 level of existing manifesting class |\n9th | +9 | +3 | +3 | +6 | Cerebral immunity | +1 level of existing manifesting class |\n10th | +10 | +3 | +3 | +7 | Blast feedback, favored enemy +8 | +1 level of existing manifesting class |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::024_requirements",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::026_class_features"
+}

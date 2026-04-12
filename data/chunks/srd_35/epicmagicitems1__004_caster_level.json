@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmagicitems1::004_caster_level",
+  "document_id": "srd_35::epicmagicitems1::004_caster_level",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMagicItems1",
+      "CASTER LEVEL"
+    ],
+    "source_location": "EpicMagicItems1.rtf#004_caster_level"
+  },
+  "chunk_type": "subsection",
+  "content": "Spells with an effective level of 10th or higher are possible at epic levels. Because these spell slots aren't automatically gained at a particular level like 0- to 9th-level spells are, they don't have a minimum caster level. For this reason, the minimum caster level for any spell of 10th level or higher is set at 11 + spell level.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmagicitems1::003_creating_epic_magic_items",
+  "next_chunk_id": "chunk::srd_35::epicmagicitems1::005_prerequisites"
+}

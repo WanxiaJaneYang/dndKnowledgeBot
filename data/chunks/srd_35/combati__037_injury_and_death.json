@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combati::037_injury_and_death",
+  "document_id": "srd_35::combati::037_injury_and_death",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatI",
+      "INJURY AND DEATH"
+    ],
+    "source_location": "CombatI.rtf#037_injury_and_death"
+  },
+  "chunk_type": "subsection",
+  "content": "Your hit points measure how hard you are to kill. No matter how many hit points you lose, your character isn't hindered in any way until your hit points drop to 0 or lower.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combati::036_use_skill",
+  "next_chunk_id": "chunk::srd_35::combati::038_loss_of_hit_points"
+}

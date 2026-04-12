@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::085_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::085_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#085_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your awareness extends a fraction of a second into the future, allowing you to better evade an opponent's blows.\nYou gain a +1 insight bonus to AC and on all saving throws. If caught in a situation where your Dexterity bonus isn't applied to your Armor Class, this bonus to AC and saving throws does not apply.\nAugment: You can augment this power in one or both of the following ways.\n1. For every 3 additional power points you spend, the insight bonus gained increases by 1.\n2. If you spend 6 additional power points, you can manifest this power as a swift action.\n\nDisplay: Auditory and visual\nManifesting Time: 10 minutes\nRange: Personal\nTarget: You\nDuration: 1 hour/level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::084_clairsentience",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::086_power_points_11"
+}

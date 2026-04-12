@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::planes::003_planar_traits",
+  "document_id": "srd_35::planes::003_planar_traits",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Planes",
+      "PLANAR TRAITS"
+    ],
+    "source_location": "Planes.rtf#003_planar_traits"
+  },
+  "chunk_type": "subsection",
+  "content": "Each plane of existence has its own properties--the natural laws of its universe.\nPlanar traits are broken down into a number of general areas.\nAll planes have the following kinds of traits.\nPhysical Traits: These traits determine the laws of physics and nature on the plane, including how gravity and time function.\nElemental and Energy Traits: These traits determine the dominance of particular elemental or energy forces.\nAlignment Traits: Just as characters may be lawful neutral or chaotic good, many planes are tied to a particular moral or ethical outlook.\nMagic Traits: Magic works differently from plane to plane, and magic traits set the boundaries for what it can and can't do.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::planes::002_planes",
+  "next_chunk_id": "chunk::srd_35::planes::004_physical_traits"
+}

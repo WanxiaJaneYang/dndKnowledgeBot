@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::031_evil_domain_spells",
+  "document_id": "srd_35::spelllisti::031_evil_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Evil Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#031_evil_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Protection from Good: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.\n2 Desecrate M: Fills area with negative energy, making undead stronger.\n3 Magic Circle against Good: As protection spells, but 10-ft. radius and 10 min./level.\n4 Unholy Blight: Damages and sickens good creatures.\n5 Dispel Good: +4 bonus against attacks by good creatures.\n6 Create Undead M: Create ghouls, ghasts, mummies, or mohrgs.\n7 Blasphemy: Kills, paralyzes, weakens, or dazes nonevil subjects.\n8 Unholy Aura F: +4 to AC, +4 resistance, SR 25 against good spells.\n9 Summon Monster IX*: Calls extraplanar creature to fight for you.\n*Cast as an evil spell only.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::030_earth_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::032_fire_domain"
+}

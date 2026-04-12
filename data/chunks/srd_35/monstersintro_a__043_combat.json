@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::043_combat",
+  "document_id": "srd_35::monstersintro_a::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "COMBAT"
+    ],
+    "source_location": "MonstersIntro-A.rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hound archon heroes have over time developed a love for their weapons. They prefer to use their holy greatswords over their bite and slam attacks.\nSpell-Like Abilities: At will--aid, continual flame, detect evil, message. Caster level 6th.\nAura of Menace (Su): The save DC for the hound archon hero's aura of menace (DC 18) is adjusted for its higher Charisma score.\nSmite Evil (Su): Three times per day a hound archon hero can make a normal melee attack with a +3 bonus that deals an extra 11 points of damage against an evil foe.\nChange Shape (Su): A hound archon hero can assume any canine form of Small to Large size. While in canine form, the hound archon loses its bite, slam, and greatsword attacks, but gains the bite attack of the form it chooses. For the purposes of this ability, canines include any doglike or wolflike animal of the animal type.\nSkills: *While in canine form, a hound archon hero gains a +4 circumstance bonus on Hide and Survival checks.\nPaladin Abilities: Aura of courage, aura of good, detect evil, divine grace, divine health, lay on hands (33 points/day), remove disease 2/week, special mount (juvenile bronze dragon).\nTypical Paladin Spells Prepared (2/2; save DC 12 + spell level): 1st-- divine favor, protection from evil; 2nd--bull's strength, eagle's splendor.\nPossessions: +3 full plate armor, +2 cold iron greatsword.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::042_hound_archon_hero",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::044_hound_archon_hero_mounts"
+}

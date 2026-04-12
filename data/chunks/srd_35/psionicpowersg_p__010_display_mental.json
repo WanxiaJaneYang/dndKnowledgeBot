@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::010_display_mental",
+  "document_id": "srd_35::psionicpowersg_p::010_display_mental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Display: Mental"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#010_display_mental"
+  },
+  "chunk_type": "subsection",
+  "content": "Manifesting Time: 1 standard action or 1 immediate action; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::009_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::011_power_points_15"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::006_4th_level_psion_wilder_powers",
+  "document_id": "srd_35::powerlist::006_4th_level_psion_wilder_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "4TH-LEVEL PSION/WILDER POWERS"
+    ],
+    "source_location": "PowerList.rtf#006_4th_level_psion_wilder_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Aura SightA: Reveals creatures, objects, powers, or spells of selected alignment axis.\nCorrespond: Hold mental conversation with another creature at any distance.\nDeath UrgeA: Implant a self-destructive compulsion.\nDetect Remote Viewing: You know when others spy on you remotely.\nDimension Door, Psionic: Teleports you short distance.\nDivination, Psionic: Provides useful advice for specific proposed action.\nEmpathic FeedbackA: When you are hit in melee, your attacker takes damage.\nEnergy AdaptationA: Your body converts energy to harmless light.\nFreedom of Movement, Psionic: You cannot be held or otherwise rendered immobile.\nIntellect FortressA: Those inside fortress take only half damage from all powers and psi-like abilities until your next action.\nMindwipeA: Subject's recent experiences wiped away, bestowing negative levels.\nPersonality Parasite: Subject's mind calves self-antagonistic splinter personality for 1 round/level.\nPower Leech: Drain 1d6 power points/round while you maintain concentration; you gain 1/round.\nPsychic ReformationX: Subject can choose skills, feats, and powers anew for previous levels.\nTelekinetic ManeuverA: Telekinetically bull rush, disarm, grapple, or trip your target.\nTrace TeleportA: Learn destination of subject's teleport.\nWall of Ectoplasm: You create a protective barrier.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::005_3rd_level_psion_wilder_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::007_5th_level_psion_wilder_powers"
+}

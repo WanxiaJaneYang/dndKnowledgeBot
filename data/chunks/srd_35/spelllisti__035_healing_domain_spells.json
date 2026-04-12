@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::035_healing_domain_spells",
+  "document_id": "srd_35::spelllisti::035_healing_domain_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "Healing Domain Spells"
+    ],
+    "source_location": "SpellListI.rtf#035_healing_domain_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "1 Cure Light Wounds: Cures 1d8 damage +1/level (max +5).\n2 Cure Moderate Wounds: Cures 2d8 damage +1/level (max +10).\n3 Cure Serious Wounds: Cures 3d8 damage +1/level (max +15).\n4 Cure Critical Wounds: Cures 4d8 damage +1/level (max +20).\n5 Cure Light Wounds, Mass: Cures 1d8 damage +1/level (max +25) for many creatures.\n6 Heal: Cures 10 points/level of damage, all diseases and mental conditions.\n7 Regenerate: Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).\n8 Cure Critical Wounds, Mass: Cures 4d8 damage +1/level (max +40) for many creatures.\n9 Heal, Mass: As heal, but with several subjects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::034_good_domain_spells",
+  "next_chunk_id": "chunk::srd_35::spelllisti::036_knowledge_domain"
+}

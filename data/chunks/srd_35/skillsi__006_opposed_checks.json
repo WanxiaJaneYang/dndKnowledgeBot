@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::skillsi::006_opposed_checks",
+  "document_id": "srd_35::skillsi::006_opposed_checks",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SkillsI",
+      "Opposed Checks"
+    ],
+    "source_location": "SkillsI.rtf#006_opposed_checks"
+  },
+  "chunk_type": "subsection",
+  "content": "An opposed check is a check whose success or failure is determined by comparing the check result to another character's check result. In an opposed check, the higher result succeeds, while the lower result fails. In case of a tie, the higher skill modifier wins. If these scores are the same, roll again to break the tie.\n\nTask | Skill (Key Ability) | Opposing Skill (Key Ability) |\nCon someone | Bluff (Cha) | Sense Motive (Wis) |\nPretend to be someone else | Disguise (Cha) | Spot (Wis) |\nCreate a false map | Forgery (Int) | Forgery (Int) |\nHide from someone | Hide (Dex) | Spot (Wis) |\nMake a bully back down | Intimidate (Cha) | Special1 |\nSneak up on someone | Move Silently (Dex) | Listen (Wis) |\nSteal a coin pouch | Sleight of Hand (Dex) | Spot (Wis) |\nTie a prisoner securely | Use Rope (Dex) | Escape Artist (Dex) |\n1 An Intimidate check is opposed by the target's level check, not a skill check. See the Intimidate skill description for more information. |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::skillsi::005_difficulty_class",
+  "next_chunk_id": "chunk::srd_35::skillsi::007_trying_again"
+}

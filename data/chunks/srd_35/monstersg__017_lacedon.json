@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::017_lacedon",
+  "document_id": "srd_35::monstersg::017_lacedon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "LACEDON"
+    ],
+    "source_location": "MonstersG.rtf#017_lacedon"
+  },
+  "chunk_type": "subsection",
+  "content": "These cousins of the ghoul have the aquatic subtype. They lurk near hidden reefs or other places where ships are likely to meet their end. They have a base land speed of 30 feet and a swim speed of 30 feet and are found only in aquatic environments.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::016_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::018_ghast"
+}

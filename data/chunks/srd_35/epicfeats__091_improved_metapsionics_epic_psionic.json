@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::091_improved_metapsionics_epic_psionic",
+  "document_id": "srd_35::epicfeats::091_improved_metapsionics_epic_psionic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "IMPROVED METAPSIONICS [EPIC, PSIONIC]"
+    ],
+    "source_location": "EpicFeats.rtf#091_improved_metapsionics_epic_psionic"
+  },
+  "chunk_type": "subsection",
+  "content": "You can manifest powers using metapsionic feats more easily than normal.\nPrerequisites: Character level 21st, four metapsionic feats, Psicraft 30 ranks.\nBenefit: Metapsionic powers you manifest cost 2 power points less than normal (to a minimum of 1 power point).\nThis feat has no effect on metapsionic powers that inflate the cost by only 2 power points.\nSpecial: You can gain this feat multiple times. The effects stack, though you can't lower the cost of any metapsionic\npower to less than 1 power point.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::090_improved_metamagic_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::092_improved_sneak_attack_epic"
+}

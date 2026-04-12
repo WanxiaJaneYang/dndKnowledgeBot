@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::039_curing_lycanthropy",
+  "document_id": "srd_35::monstersk_l::039_curing_lycanthropy",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "Curing Lycanthropy"
+    ],
+    "source_location": "MonstersK-L.rtf#039_curing_lycanthropy"
+  },
+  "chunk_type": "subsection",
+  "content": "An afflicted character who eats a sprig of belladonna (also called wolfsbane) within 1 hour of a lycanthrope's attack can attempt a DC 20 Fortitude save to shake off the affliction. If a healer administers the herb, use the character's save bonus or the healer's Heal modifier, whichever is higher. The character gets only one chance, no matter how much belladonna is consumed. The belladonna must be reasonably fresh (picked within the last week).\nHowever, fresh or not, belladonna is toxic. The character must succeed on a DC 13 Fortitude save or take 1d6 points of Strength damage. One minute later, the character must succeed on a second DC 13 save or take an additional 2d6 points of Strength damage.\nA remove disease or heal spell cast by a cleric of 12th level or higher also cures the affliction, provided the character receives the spell within three days of the lycanthrope's attack.\nThe only other way to remove the affliction is to cast remove curse or break enchantment on the character during one of the three days of the full moon. After receiving the spell, the character must succeed on a DC 20 Will save to break the curse (the caster knows if the spell works). If the save fails, the process must be repeated.\nCharacters undergoing this cure are often kept bound or confined in cages until the cure takes effect.\nOnly afflicted lycanthropes can be cured of lycanthropy.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::038_changing_form",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::040_lycanthropes_as_characters"
+}

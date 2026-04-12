@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::071_group_inspiration_epic",
+  "document_id": "srd_35::epicfeats::071_group_inspiration_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "GROUP INSPIRATION [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#071_group_inspiration_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Perform 30 ranks, bardic music class feature.\nBenefit: The number of allies the character can affect with his or her inspire competence or inspire greatness bardic music ability doubles. When inspiring competence in multiple allies, the character can choose different skills to inspire for different allies.\nSpecial: A character can gain this feat multiple times. Its effects stack. Remember that two doublings equals a tripling, and so forth.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::070_great_wisdom_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::072_hindering_song_epic"
+}

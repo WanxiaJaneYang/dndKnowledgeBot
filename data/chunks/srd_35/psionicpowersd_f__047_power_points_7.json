@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::047_power_points_7",
+  "document_id": "srd_35::psionicpowersd_f::047_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#047_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "As the dominate person spell, except as noted here.\nAugment: You can augment this power in one or more of the following ways.\n1. If you spend 2 additional power points, this power can also affect an animal, fey, giant, magical beast, or monstrous humanoid.\n2. If you spend 4 additional power points, this power can also affect an aberration, dragon, elemental, or outsider in addition to the creature types mentioned above.\n3. For every 2 additional power points you spend, this power can affect an additional target. Any additional target cannot be more than 15 feet from another target of the power.\nIn addition, for every 2 additional power points you spend to achieve any of these effects, this power's save DC increases by 1.\nDream Travel\nPsychoportation\nLevel: Nomad 7\nDisplay: Visual\nManifesting Time: 1 standard action\n\nTargets: You and touched creature or creatures (up to one/level)\nDuration: 1 hour/level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::046_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::048_power_points_13"
+}

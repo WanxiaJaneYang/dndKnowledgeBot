@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::083_power_points_3",
+  "document_id": "srd_35::psionicpowersd_f::083_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#083_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful missile of energy of the chosen type at your foe. The missile deals 3d6 points of damage to each creature or object you target, to the maximum of five targets. You cannot hit the same target multiple times with the same manifestation of this power.\nCold: A missile of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold missile is a Fortitude save instead of a Reflex save.\nElectricity: Manifesting a missile of this energy type provides a +2 bonus to the save DC and a +2 bonus on manifester level checks for the purpose of overcoming power resistance.\nFire: A missile of this energy type deals +1 point of damage per die.\nSonic: A missile of this energy type deals -1 point of damage per die and ignores an object's hardness.\nThis power's subtype is the same as the type of energy you manifest.\nAugment: For every additional power point you spend, this power's damage increases by one die (d6) and its save DC increases by 1.\nEnergy Push\nPsychokinetic [see text]\n\nDisplay: Auditory and visual\nManifesting Time: 1 standard action\nRange: Medium (100 ft. + 10 ft./ level)\n\nSaving Throw: Reflex half or Fortitude half; see text",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::082_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::084_power_points_3"
+}

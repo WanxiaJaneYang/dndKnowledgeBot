@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::050_open_minded_general",
+  "document_id": "srd_35::psionicsfeats::050_open_minded_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "OPEN MINDED [GENERAL]"
+    ],
+    "source_location": "PsionicsFeats.rtf#050_open_minded_general"
+  },
+  "chunk_type": "subsection",
+  "content": "You are naturally able to reroute your memory, mind, and skill expertise.\nBenefit: You immediately gain an extra 5 skill points. You spend these skill points as normal. If you spend them on a cross-class skills they count as 1/2 ranks. You cannot exceed the normal maximum ranks for your level in any skill.\nSpecial: You can gain this feat multiple times. Each time, you immediately gain another 5 skill points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::049_narrow_mind_psionic",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::051_opportunity_power_metapsionic"
+}

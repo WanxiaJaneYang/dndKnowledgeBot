@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_g_w::043_combat",
+  "document_id": "srd_35::epicmonsters_g_w::043_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(G-W)",
+      "COMBAT"
+    ],
+    "source_location": "EpicMonsters(G-W).rtf#043_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Spells: A worm that walks can cast any spells it could cast as a character. This sample worm was a 23rd-level wizard (spells per day: 4/12/6/6/6/5/5/5/5/4/1/1). The last spell slots are 10th-level and 11th-level slots, respectively, and are available for 0-9th level meta-magic spells.\nSpell-Like Abilities: 1/day--animal growth (vermin), animal messenger (vermin), animal shapes (vermin), animal trance (vermin), colossal vermin (as giant vermin, but it can increase the creature's size from Large to Gargantuan and from Huge to Colossal), creeping doom, giant vermin, summon swarm (vermin), summon vermin (as summon nature's ally, except it summons 10 HD of vermin per level), and vermin plague (as insect plague). Caster level 20th; save DC 9 + spell level. The save DCs are Charisma-based.\nEngulf (Ex): A worm that walks can choose to engulf an opponent who is no more than one size category larger than itself. The worm attempts to embrace its victim, and with a successful melee touch attack, the victim is immediately swallowed up and surrounded by a mass of vermin, taking 100 points of damage. A victim who spends a full-round action can break free of the embrace and move up to half its speed away from the worm if desired, but can do nothing else. Otherwise, each round a victim remains embraced, it takes another 100 points of Damage. Constructs are immune to this attack.\nSpells: The worm that walks can cast any spells it could cast when a living character. It also gains several related abilities.\nFrightful Presence (Su): When a worm that walks engulfs a victim, witnesses must make a Will save (DC 10 + 1/2 the worm's HD + the worm's Cha modifier). Those who make the save are shaken. Those who fail by 5 or fewer points are frightened. Those who fail by 6 to10 points are panicked. Those who fail by 11 or more points are cowering. All these conditions last for 1d4 rounds. Those who have seen a worm use this attack before gain a +5 bonus on their saving throws. The victim of the worm's engulf attack has a -5 penalty on his or her saving throw.\nDiscorporate (Ex): If gravely threatened, a worm can discorporate as a free action, simply falling into a pile of individual vermin that slither quickly away. So long as any of the component vermin survive, they can breed and create a new body to house the wizard's intelligence and personality. Discorporating is a dangerous tactic, because once separated, the vermin are treated no differently than other vermin. Also, the worm stands a good chance of losing all its equipment. However, discorporation almost assures that at least one maggot (if not dozens) will manage to crawl away, and so provide for the worm's continued existence.\nImmunities (Ex): A worm that walks has no discernable anatomy, so it is not subject to critical hits or flanking.\nPossessions: Scrolls of fireball (10th-level caster), greater teleport, acid fog, incendiary cloud, shapechange, wail of the banshee, clenched fist, horrid wilting, maze, summon monster IX; potions of cure serious wounds, alter self, haste, fly. Other magic gear: amulet of natural armor +2, bracers of armor +8, ring of protection +3, +4 staff, rod of absorption, gloves of Dexterity +4, headband of intellect +6, pink Ioun stone, wings of flying.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_g_w::042_combat",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_g_w::044_creating_a_worm_that_walks"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::084_shapechange",
+  "document_id": "srd_35::divineabilitiesandfeats::084_shapechange",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Shapechange"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#084_shapechange"
+  },
+  "chunk_type": "subsection",
+  "content": "This is an extraordinary ability.\nPrerequisites: Divine rank 11, Alter Size salient divine ability,\nAlter Form salient divine ability.\nBenefit: The deity can assume the form of an animal, beast, dragon, fey, giant, humanoid, magical beast, monstrous humanoid, or plant. The assumed form must be both living and corporeal. The deity can remain in the assumed form indefinitely, but it resumes its own form if slain.\nNotes: This ability works like the Shift Form salient divine ability, except that the deity is not limited to a set number of forms and as noted here.\nThe deity can use its Alter Size ability simultaneously with this one to become as small as a grain of sand or as large as 1,600 feet in the assumed form's greatest dimension.\nThe deity can use this ability to create disguises, gaining a bonus of +20 on its Disguise checks.\nSuggested Portfolio Elements: Nature, secrets, thieves.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::083_see_magic",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::085_shift_form"
+}

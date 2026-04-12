@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::073_holy_strike_epic",
+  "document_id": "srd_35::epicfeats::073_holy_strike_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "HOLY STRIKE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#073_holy_strike_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Smite evil class feature, any good alignment.\nBenefit: Any weapon the character wields is treated as a holy weapon (is good-aligned and deals an extra 2d6 points of damage against creatures of evil alignment).If the weapon already has an alignment, this feat has no effect on the weapon.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::072_hindering_song_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::074_ignore_material_components_epic"
+}

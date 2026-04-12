@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::005_combat",
+  "document_id": "srd_35::monsterso_r::005_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "COMBAT"
+    ],
+    "source_location": "MonstersO-R.rtf#005_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Marginally more intelligent than his brutish fellows, an ogre barbarian is slightly more likely to enter a fair fight, but in general prefers the brutish tactics common to all its kind.\nRage (Ex): Twice per day, an ogre barbarian can enter a state of fierce rage that last for 9 rounds. The following changes are in effect as long as he rages: AC 17 (touch 8, flat-footed 17); hp 95; Atk +18/+13 melee (2d6+16, +1 greatclub); SV Fort +14, Will +4; Str 30, Con 22; Climb +15, Jump +16. At the end of his rage, the ogre barbarian is fatigued for the duration of the encounter.\nTrap Sense (Ex): An ogre barbarian has a +1 bonus on Reflex saves made to avoid traps. He also has a +1 bonus to his AC against attacks by traps.\nUncanny Dodge (Ex): An ogre barbarian retains his Dex bonus to AC regardless of being caught flat-footed or attacked by an invisible opponent. His Dex bonus to AC is +0, but this means that he is not subject to a rogue's sneak attack in these circumstances.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::004_ogre_barbarian",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::006_merrow"
+}

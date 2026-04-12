@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::002_ogre",
+  "document_id": "srd_35::monsterso_r::002_ogre",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "OGRE"
+    ],
+    "source_location": "MonstersO-R.rtf#002_ogre"
+  },
+  "chunk_type": "subsection",
+  "content": "| Ogre | Ogre, 4th-Level Barbarian |\n| Large Giant | Large Giant |\nHit Dice: | 4d8+11 (29 hp) | 4d8+19 plus 4d12+16 (79 hp) |\nInitiative: | -1 | +0 |\nSpeed: | 30 ft. in hide armor (6 squares); base speed 40 ft. | 40 ft. in hide armor (8 squares); base speed 50 ft. |\nArmor Class: | 16 (-1 size, -1 Dex, +5 natural, +3 hide armor), touch 8, flat-footed 16 | 19 (-1 size, +5 natural, +4 +1 hide armor, ring of protection +1), touch 10, flat-footed 19 |\nBase Attack/Grapple: | +3/+12 | +7/+19 |\nAttack: | Greatclub +8 melee (2d8+7) or javelin +1 ranged (1d8+5) | +1 greatclub +16 melee (2d8+13) or javelin +6 ranged (1d8+8) |\nFull Attack: | Greatclub +8 melee (2d8+7) or javelin +1 ranged (1d8+5) | +1 greatclub +16/+11 melee (2d8+13) or javelin +6 ranged (1d8+8) |\nSpace/Reach: | 10 ft./10 ft. | 10 ft./10 ft. |\nSpecial Attacks: | -- | Rage 2/day |\nSpecial Qualities: | Darkvision 60 ft., low-light vision | Darkvision 60 ft., low-light vision, trap sense +1, uncanny dodge |\nSaves: | Fort +6, Ref +0, Will +1 | Fort +12, Ref +2, Will +2 |\nAbilities: | Str 21, Dex 8, Con 15, Int 6, Wis 10, Cha 7 | Str 26, Dex 11, Con 18, Int 8, Wis 10, Cha 4 |\nSkills: | Climb +5, Listen +2, Spot +2 | Climb +13, Hide -6, Jump +17, Listen +6, Spot +2 |\nFeats: | Toughness, Weapon Focus (greatclub) | Power Attack, Toughness, Weapon Focus (greatclub) |\nEnvironment: | Temperate hills (Merrow: Temperate aquatic) | Temperate hills |\nOrganization: | Solitary, pair, gang (3-4), or band (5-8) | Solitary, pair, gang (1 plus 1-3 ogres), or band (1 plus 4-7 ogres) |\nChallenge Rating: | 3 | 7 |\nTreasure: | Standard | Standard (including +1 hide armor, +1 greatclub, and ring of protection +1) |\nAlignment: | Usually chaotic evil | Usually chaotic evil |\nAdvancement: | By character class | By character class |\nLevel Adjustment: | +2 | +2 |\nAdult ogres stand 9 to 10 feet tall and weigh 600 to 650 pounds. Their skin color ranges from dull yellow to dull brown. Their clothing consists of poorly cured furs and hides, which add to their naturally repellent odor.\nOgres speak Giant, and those specimens who boast Intelligence scores of at least 10 also speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::001_monsterso_r",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::003_combat"
+}

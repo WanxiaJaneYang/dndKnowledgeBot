@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::improving_monsters::011_advanced_monster_challenge_rating",
+  "document_id": "srd_35::improving_monsters::011_advanced_monster_challenge_rating",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Improving Monsters",
+      "ADVANCED MONSTER CHALLENGE RATING"
+    ],
+    "source_location": "Improving Monsters.rtf#011_advanced_monster_challenge_rating"
+  },
+  "chunk_type": "subsection",
+  "content": "When adding class levels to a creature with 1 or less HD, you advance the creature like a character. Otherwise, use the following guidelines.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::improving_monsters::010_adding_more_than_one_template",
+  "next_chunk_id": "chunk::srd_35::improving_monsters::012_adding_class_levels"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::026_nessian_warhound",
+  "document_id": "srd_35::monstersh_i::026_nessian_warhound",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "NESSIAN WARHOUND"
+    ],
+    "source_location": "MonstersH-I.rtf#026_nessian_warhound"
+  },
+  "chunk_type": "subsection",
+  "content": "Nessian warhounds are coalblack mastiffs the size of draft horses, often fitted with shirts of infernal chainmail.\nNessian warhounds resemble hell hounds, except as otherwise noted.\nBreath Weapon (Su): 10-foot cone, once every 2d4 rounds, damage 3d6 fire, Reflex DC 21 half. The save DC is Constitution- based.\nFiery Bite (Su): A Nessian warhound deals an extra 1d8 points of fire d a m a g e every time it bites an opponent, as if its bite were a flaming weapon.\n\nHit Dice: | 3d10+9 (25 hp) |\nInitiative: | +2 |\nSpeed: | 50 ft. (10 squares), fly 100 ft. (average) |\nArmor Class: | 15 (-1 size, +2 Dex, +4 natural), touch 11, flat-footed 13 |\nBase Attack/Grapple: | +3/+11 |\nAttack: | Claw +6 melee (1d4+4) |\nFull Attack: | 2 claws +6 melee (1d4+4) and bite +1 melee (1d8+2) |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | -- |\nSpecial Qualities: | Darkvision 60 ft., low-light vision, scent |\nSaves: | Fort +6, Ref +5, Will +2 |\nAbilities: | Str 18, Dex 15, Con 16, Int 2, Wis 13, Cha 8 |\nSkills: | Listen +4, Spot +8 |\nFeats: | Dodge, Wingover |\nEnvironment: | Temperate hills |\nOrganization: | Solitary, pair, or flight (7-12) |\nChallenge Rating: | 2 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 4-6 HD (Large); 7-9 HD (Huge) |\nLevel Adjustment: | -- |\nHippogriffs are aggressive flying creatures that combine features of horses and giant eagles. Voracious omnivores, hippogriffs will hunt humanoids as readily as any other meal. A typical hippogriff is 9 feet long, has a wingspan of 20 feet, and weighs 1,000 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::025_combat",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::027_combat"
+}

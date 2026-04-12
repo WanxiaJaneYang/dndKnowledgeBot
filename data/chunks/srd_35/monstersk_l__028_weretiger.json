@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersk_l::028_weretiger",
+  "document_id": "srd_35::monstersk_l::028_weretiger",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersK-L",
+      "WERETIGER"
+    ],
+    "source_location": "MonstersK-L.rtf#028_weretiger"
+  },
+  "chunk_type": "subsection",
+  "content": "| Weretiger, Human Form | Weretiger, Tiger Form | Weretiger, Hybrid Form |\n| Medium Humanoid (Human, Shapechanger) | Large Humanoid (Human, Shapechanger) | Large Humanoid (Human, Shapechanger) |\nHit Dice: | 1d8+1 plus 6d8+18 (50 hp) | 1d8+1 plus 6d8+18 (50 hp) | 1d8+1 plus 6d8+18 (50 hp) |\nInitiative: | +4 | +6 | +6 |\nSpeed: | 20 ft. in breastplate (4 squares); base speed 30 ft. | 40 ft. (8 squares) | 30 ft. (6 squares) |\nArmor Class: | 17 (+2 natural, +5 breastplate) touch 10, flat-footed 17 | 16 (-1 size, +2 Dex, +5 natural), touch 11, flat-footed 14 | 16 (-1 size, +2 Dex, +5 natural), touch 11, flat-footed 14 |\nBase Attack/Grapple: | +5/+6 | +5/+16 | +5/+16 |\nAttack: | Glaive +6 melee (1d10+1/x3) or composite longbow (+1 Str bonus) +5 ranged (1d8+1/x3) | | |\n| Claw +11 melee (1d8+7) | Claw +11 melee (1d8+7) | |\nFull Attack: | Glaive +6 melee (1d10+1/x3) or composite longbow (+1 Str bonus) +5 ranged (1d8+1/x3) | 2 claws +11 melee (1d8+7) and bite +6 melee (2d6+3) | 2 claws +11 melee (1d8+7) and bite +6 melee (2d6+3) |\nSpace/Reach: | 5 ft./5 ft. (10 ft. with glaive) | 10 ft./5 ft. | 10 ft./10 ft. |\nSpecial Attacks: | -- | Pounce, improved grab, rake, curse of lycanthropy | Curse of lycanthropy |\nSpecial Qualities: | Alternate form, tiger empathy, low-light vision, scent | Alternate form, tiger empathy, damage reduction 10/silver, low-light vision, scent | Alternate form, tiger empathy, damage reduction 10/silver, low-light vision, scent |\nSaves: | Fort +8, Ref +5, Will +4 | Fort +10, Ref +7, Will +4 | Fort +10, Ref +7, Will +4 |\nAbilities: | Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8 | Str 25, Dex 15, Con 16, Int 10, Wis 11, Cha 8 | Str 25, Dex 15, Con 16, Int 10, Wis 11, Cha 8 |\nSkills: | Balance +0, Climb +1, Handle Animal +3, Hide +0, Listen +6, Move Silently +0, Spot +6 | Balance +6, Climb +12, Handle Animal +3, Hide +2*, Listen +6, Move Silently +12, Spot +6 | Balance +6, Climb +12, Handle Animal +3, Hide +2, Listen +6, Move Silently +12, Spot +6 |\nFeats: | AlertnessB, Combat Reflexes, Improved Initiative, Improved Natural Attack (bite, claw), Iron WillB | (same as human form) | (same as human form) |\nEnvironment: | Warm forests | Warm forests | Warm forests |\nOrganization: | Solitary or pair | (same as human form) | (same as human form) |\nChallenge Rating: | 5 | 5 | 5 |\nTreasure: | Standard | Standard | Standard |\nAlignment: | Always neutral | Always neutral | Always neutral |\nAdvancement: | By character class | By character class | By character class |\nLevel Adjustment: | +3 | +3 | +3 |\nWeretigers in humanoid form tend to be sleekly muscular, taller than average, and very agile.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersk_l::027_combat",
+  "next_chunk_id": "chunk::srd_35::monstersk_l::029_combat"
+}

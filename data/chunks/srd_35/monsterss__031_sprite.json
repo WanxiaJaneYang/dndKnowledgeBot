@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::031_sprite",
+  "document_id": "srd_35::monsterss::031_sprite",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "SPRITE"
+    ],
+    "source_location": "MonstersS.rtf#031_sprite"
+  },
+  "chunk_type": "subsection",
+  "content": "Sprites are reclusive fey. They go out of their way to fight evil and ugliness and to protect their homelands. Combat\nSprites fight their opponents with spell-like abilities and pintsized weaponry. They prefer ambushes and other trickery over direct confrontation.\nSkills: All sprites have a +2 racial bonus on Search, Spot, and Listen checks.\n\nHit Dice: | 1/2 d6+1 (2 hp) |\nInitiative: | +4 |\nSpeed: | 20 ft. (4 squares), fly 40 ft. (poor) |\nArmor Class: | 18 (+2 size, +4 Dex, +2 natural), touch 16, flat-footed 16 |\nBase Attack/Grapple: | +0/-11 |\nAttack: | Short sword +6 melee (1d3-3/19-20) or longbow +6 ranged (1d4-3/x3) |\nFull Attack: | Short sword +6 melee (1d3-3/19-20) or longbow +6 ranged (1d4-3/x3) |\nSpace/Reach: | 2-1/2 ft./0 ft. |\nSpecial Attacks: | Spell-like abilities, fiddle |\nSpecial Qualities: | Damage reduction 5/cold iron, low-light vision, spell resistance 17 |\nSaves: | Fort +1, Ref +6, Will +3 |\nAbilities: | Str 5, Dex 18, Con 13, Int 10, Wis 13, Cha 14 |\nSkills: | Craft (any one) +4, Escape Artist +8, Hide +16, Jump +3, Listen +3, Move Silently +8*, Perform (string instruments) +6, Search +2, Spot +3 |\nFeats: | DodgeB, Weapon Finesse |\nEnvironment: | Temperate forests |\nOrganization: | Gang (2-4), band (6-11), or tribe (20-80) |\nChallenge Rating: | 1 |\nTreasure: | No coins; 50% goods; 50% items |\nAlignment: | Always neutral good |\nAdvancement: | 1-3 HD (Tiny) |\nLevel Adjustment: | +3 |\nGrigs can leap great distances. They have light blue skin, forest-green hair, and brown hairy legs, and usually wear tunics or brightly colored vests with buttons made from tiny gems. A grig stands 1-1/2 feet tall and weighs about 1 pound.\nGrigs speak Sylvan. Some also speak Common.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::030_training_a_spider_eater",
+  "next_chunk_id": "chunk::srd_35::monsterss::032_combat"
+}

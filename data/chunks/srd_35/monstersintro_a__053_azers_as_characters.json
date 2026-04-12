@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::053_azers_as_characters",
+  "document_id": "srd_35::monstersintro_a::053_azers_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "AZERS AS CHARACTERS"
+    ],
+    "source_location": "MonstersIntro-A.rtf#053_azers_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Azer characters possess the following racial traits.\n-- +2 Strength, +2 Dexterity, +2 Constitution, +2 Intelligence, +2 Wisdom, -2 Charisma.\n--Medium size.\n--An azer's base land speed is 30 feet.\n--Darkvision: Azers can see in the dark up to 60 feet.\n--Racial Hit Dice: An azer begins with two levels of outsider, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +3, Ref +3, and Will +3.\n--Racial Skills: An azer's outsider levels give it skill points equal to 5 x (8 + Int modifier). Its class skills are Appraise, Climb, Craft, Hide, Jump, Listen, Search, and Spot.\n--Racial Feats: An azer's outsider levels give it one feat.\n-- +6 natural armor bonus.\n--Special Attacks (see above): Heat.\n--Special Qualities (see above): Immunity to fire, spell resistance equal to 13 + class levels, vulnerability to cold.\n--Automatic Languages: Common, Ignan. Bonus Languages: Abyssal, Aquan, Auran, Celestial, Infernal, Terran.\n--Favored Class: Fighter.\n--Level adjustment +4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::052_combat"
+}

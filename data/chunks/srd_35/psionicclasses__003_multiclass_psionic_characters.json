@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::003_multiclass_psionic_characters",
+  "document_id": "srd_35::psionicclasses::003_multiclass_psionic_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Multiclass Psionic Characters"
+    ],
+    "source_location": "PsionicClasses.rtf#003_multiclass_psionic_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "If you have levels in more than one psionic class, you combine your power points from each class to make up your reserve. You can use these power points to manifest powers from any psionic class you have.\nWhile you maintain a single reserve of power points from your class, race, and feat selections, you are still limited by the manifester level you have achieved with each power you know.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::002_the_power_point_reserve",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::004_abilities_and_manifesters"
+}

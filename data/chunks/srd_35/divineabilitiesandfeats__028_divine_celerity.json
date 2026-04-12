@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::028_divine_celerity",
+  "document_id": "srd_35::divineabilitiesandfeats::028_divine_celerity",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Celerity"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#028_divine_celerity"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisite: Dex 29.\nBenefit: The deity acts as if hasted for a number of minutes per day equal to its divine rank. The duration of the effect need not be consecutive rounds. Activating this ability is a free action.\nSuggested Portfolio Elements: Travel, wind.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::027_divine_blessing",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::029_divine_creation"
+}

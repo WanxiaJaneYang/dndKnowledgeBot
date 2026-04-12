@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::054_power_points_9",
+  "document_id": "srd_35::psionicpowersd_f::054_power_points_9",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 9"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#054_power_points_9"
+  },
+  "chunk_type": "subsection",
+  "content": "You fashion an ephemeral, manylegged mass of pseudo-living ectoplasm called an ectoplasmic shambler. You can direct the shambler as a free action. It has a speed of 10 feet. It can completely surround objects (and opponents) over which it is manifested or onto which it moves, because it has the consistency of thick mist. The vision of those within the shambler is limited to 5 feet, and manifesting powers (or casting spells) within the shambler is difficult due to the constant turbulence felt by those caught in the shambler's form.\nCreatures enveloped by the shambler, regardless of Armor Class, take 1 point of damage for every two manifester levels you have in each round they become or remain within the roiling turbulence of the shambler. Anyone trying to manifest a power must make a Concentration check (DC 15 + power's or spell's level) to successfully manifest a power or cast a spell inside the shambler.\nA wind stronger than 20 miles per hour that blows against the shambler reduces its speed to 0 feet during the first round, and in subsequent rounds moves it in the direction of the wind at a speed of 5 feet. A wind stronger than 20 miles per hour that blows in the direction the shambler travels increases its speed to 15 feet.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::053_power_points_5",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::055_display_auditory"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::004_undead_psionic_creatures",
+  "document_id": "srd_35::psionicmonsters::004_undead_psionic_creatures",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Undead Psionic Creatures"
+    ],
+    "source_location": "PsionicMonsters.rtf#004_undead_psionic_creatures"
+  },
+  "chunk_type": "subsection",
+  "content": "A psionic undead creature, although rare, is a force to be reckoned with.\nBecause undead are immune to mind-affecting effects (including charms and compulsions), they are particularly threatening to other psionic creatures and characters (especially telepaths). Psionic undead creatures can use mind-affecting powers on the living, even though they themselves are immune to such attacks. However, an undead creature may have the psionic subtype if it meets the criteria described above, and thus be vulnerable to non-mindaffecting powers or effects that specifically affect psionic creatures.\nIntelligent constructs and plants with psionic powers or psi-like abilities also share this advantage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::003_the_psionic_subtype",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::005_psionic_powers"
+}

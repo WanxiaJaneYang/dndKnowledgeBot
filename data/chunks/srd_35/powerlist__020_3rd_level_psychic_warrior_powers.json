@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::powerlist::020_3rd_level_psychic_warrior_powers",
+  "document_id": "srd_35::powerlist::020_3rd_level_psychic_warrior_powers",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PowerList",
+      "3RD-LEVEL PSYCHIC WARRIOR POWERS"
+    ],
+    "source_location": "PowerList.rtf#020_3rd_level_psychic_warrior_powers"
+  },
+  "chunk_type": "subsection",
+  "content": "Claws of the Vampire: Heal half of your claw's base damage.\nConcealing Amorpha, Greater: Quasi-real membrane grants you total concealment.\nDanger Sense: Gain +4 bonus against traps.\nDimension SlideA: Teleports you very short distance.\nDuodimensional Claw: Increases your natural weapon's threat range.\nEctoplasmic Form: You gain benefits of being insubstantial and can fly slowly.\nEmpathic FeedbackA: When you are hit in melee, your attacker takes damage.\nEmpathic Transfer, HostileA: Your touch transfers your hurt to another.\nEscape Detection: You become difficult to detect with clairsentience powers.\nEvade BurstA: You take no damage from a burst on a successful Reflex save.\nExhalation of the Black DragonA: Your acid breath deals 3d6 damage to a close target.\nGraft Weapon: Your hand is replaced seamlessly by your weapon.\nKeen Edge, Psionic: Doubles normal weapon's threat range.\nMental BarrierA: Gain +4 deflection bonus to AC until your next action.\nUbiquitous Vision: You have all-around vision.\nVampiric Blade: You heal half of your base weapon damage.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::powerlist::019_2nd_level_psychic_warrior_powers",
+  "next_chunk_id": "chunk::srd_35::powerlist::021_4th_level_psychic_warrior_powers"
+}

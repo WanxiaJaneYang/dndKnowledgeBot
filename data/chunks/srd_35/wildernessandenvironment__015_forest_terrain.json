@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::015_forest_terrain",
+  "document_id": "srd_35::wildernessandenvironment::015_forest_terrain",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "FOREST TERRAIN"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#015_forest_terrain"
+  },
+  "chunk_type": "subsection",
+  "content": "Forest terrain can be divided into three categories: sparse, medium, and dense. An immense forest could have all three categories within its borders, with more sparse terrain at the outer edge of the forest and dense forest at its heart.\nThe table below describes in general terms how likely it is that a given square has a terrain element in it.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::014_getting_lost",
+  "next_chunk_id": "chunk::srd_35::wildernessandenvironment::016_forest_terrain_features"
+}

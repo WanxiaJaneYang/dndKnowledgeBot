@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::012_half_dragon",
+  "document_id": "srd_35::monstersh_i::012_half_dragon",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "HALF-DRAGON"
+    ],
+    "source_location": "MonstersH-I.rtf#012_half_dragon"
+  },
+  "chunk_type": "subsection",
+  "content": "Half-dragon creatures are always more formidable than others of their kind that do not have dragon blood, and their appearance betrays their nature--scales, elongated features, reptilian eyes, and exaggerated teeth and claws. Sometimes they have wings.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::011_creating_a_half_celestial",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::013_creating_a_half_dragon"
+}

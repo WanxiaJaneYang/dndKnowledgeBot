@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicprestigeclasses::019_class_skills",
+  "document_id": "srd_35::epicprestigeclasses::019_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicPrestigeClasses",
+      "Class Skills"
+    ],
+    "source_location": "EpicPrestigeClasses.rtf#019_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The cosmic descryer's class skills (and the key ability for each skill) are Bluff (Cha), Concentration (Con), Craft (Int), Diplomacy (Cha), Knowledge (arcana) (Int), Knowledge (religion) (Int), Knowledge (the planes) (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Cosmic Descryer\nLevel | Special | Spells per Day |\n1st | Superior planar summoning (+4 HD) | |\n2nd | Naturalization (1 plane) | +1 level of existing class |\n3rd | Enduring gate (1 day) | |\n4th | Naturalization (2 planes) | +1 level of existing class |\n5th | Bonus feat, superior planar summoning (+8 HD) | |\n6th | Naturalization (3 planes), enduring gate (2 days) | +1 level of existing class |\n7th | Cosmic connection 1/day | |\n8th | Naturalization (4 planes) | +1 level of existing class |\n9th | Superior planar summoning (+12 HD), enduring gate (3 days) | |\n10th | Naturalization (5 planes), bonus feat | +1 level of existing class |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicprestigeclasses::018_requirements",
+  "next_chunk_id": "chunk::srd_35::epicprestigeclasses::020_class_features"
+}

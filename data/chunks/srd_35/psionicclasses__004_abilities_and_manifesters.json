@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::004_abilities_and_manifesters",
+  "document_id": "srd_35::psionicclasses::004_abilities_and_manifesters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "ABILITIES AND MANIFESTERS"
+    ],
+    "source_location": "PsionicClasses.rtf#004_abilities_and_manifesters"
+  },
+  "chunk_type": "subsection",
+  "content": "The ability that your powers depend on--your key ability score as a manifester--is related to what psionic class (or classes) you have levels in: Intelligence (psion), Wisdom (psychic warrior), and Charisma (wilder). The modifier for this ability is referred to as your key ability modifier. If your character's key ability score is 9 or lower, you can't manifest powers from that psionic class.\nJust as a high Intelligence score grants bonus spells to a wizard and a high Wisdom score grants bonus spells to a cleric, a character who manifests powers (psions, psychic warriors, and wilders) gains bonus power points according to his key ability score. Refer to Table: Ability Modifiers and Bonus Power Points.\nHow To Determine Bonus Power Points: Your key ability score grants you additional power points equal to your key ability modifier x your manifester level x1/2. Table: Ability Modifiers and Bonus Power Points shows these calculations for class levels 1st through 20th and key ability scores from 10 to 41.\nTable: Ability Modifiers and Bonus Power Points |\nAbility Score | -------------------------------- Bonus Power Points (by Class Level) ------------------------------ |\n| 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th | 10th | 11th | 12th | 13th | 14th | 15th | 16th | 17th | 18th | 19th | 20th |\n10-11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n12-13 | 0 | 1 | 1 | 2 | 2 | 3 | 3 | 4 | 4 | 5 | 5 | 6 | 6 | 7 | 7 | 8 | 8 | 9 | 9 | 10 |\n14-15 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |\n16-17 | 1 | 3 | 4 | 6 | 7 | 9 | 10 | 12 | 13 | 15 | 16 | 18 | 19 | 21 | 22 | 24 | 25 | 27 | 28 | 30 |\n18-19 | 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24 | 26 | 28 | 30 | 32 | 34 | 36 | 38 | 40 |\n20-21 | 2 | 5 | 7 | 10 | 12 | 15 | 17 | 20 | 22 | 25 | 27 | 30 | 32 | 35 | 37 | 40 | 42 | 45 | 47 | 50 |\n22-23 | 3 | 6 | 9 | 12 | 15 | 18 | 21 | 24 | 27 | 30 | 33 | 36 | 39 | 42 | 45 | 48 | 51 | 54 | 57 | 60 |\n24-25 | 3 | 7 | 10 | 14 | 17 | 21 | 24 | 28 | 31 | 35 | 38 | 42 | 45 | 49 | 52 | 56 | 59 | 63 | 66 | 70 |\n26-27 | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 | 64 | 68 | 72 | 76 | 80 |\n28-29 | 4 | 9 | 13 | 18 | 22 | 27 | 31 | 36 | 40 | 45 | 49 | 54 | 58 | 63 | 67 | 72 | 76 | 81 | 85 | 90 |\n30-31 | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100 |\n32-33 | 5 | 11 | 16 | 22 | 27 | 33 | 38 | 44 | 49 | 55 | 60 | 66 | 71 | 77 | 82 | 88 | 93 | 99 | 104 | 110 |\n34-35 | 6 | 12 | 18 | 24 | 30 | 36 | 42 | 48 | 54 | 60 | 66 | 72 | 78 | 84 | 90 | 96 | 102 | 108 | 114 | 120 |\n36-37 | 6 | 13 | 19 | 26 | 32 | 39 | 45 | 52 | 58 | 65 | 71 | 78 | 84 | 91 | 97 | 104 | 110 | 117 | 123 | 130 |\n38-39 | 7 | 14 | 21 | 28 | 35 | 42 | 49 | 56 | 63 | 70 | 77 | 84 | 91 | 98 | 105 | 112 | 119 | 126 | 133 | 140 |\n40-41 | 7 | 15 | 22 | 30 | 37 | 45 | 52 | 60 | 67 | 75 | 82 | 90 | 97 | 105 | 112 | 120 | 127 | 135 | 142 | 150 |\nRANDOM STARTING GOLD\nTable: Random Starting Gold |\nClass | Amount (Average) |\nPsion | 3d4 x10 (75 gp) |\nPsychic warrior | 5d4 x10 (125 gp) |\nSoulknife | 5d4 x10 (125 gp) |\nWilder | 4d4 x10 (100 gp) |\nPSION\nAlignment: Any.\nHit Die: d4.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::003_multiclass_psionic_characters",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::005_class_skills"
+}

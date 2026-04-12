@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesii::012_class_skills",
+  "document_id": "srd_35::classesii::012_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesII",
+      "Class Skills"
+    ],
+    "source_location": "ClassesII.rtf#012_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The wizard's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Decipher Script (Int), Knowledge (all skills, taken individually) (Int), Profession (Wis), and Spellcraft (Int). See Chapter 4: Skills for\nskill descriptions.\nSkill Points at 1st Level: (2 + Int modifier) x4.\nSkill Points at Each Additional Level: 2 + Int modifier.\nTable: The Wizard |\n| | | | | | ------------------- Spells per Day ----------------- |\nLevel | Base Attack\nBonus | Fort\nSave | Ref\nSave | Will\nSave | Special | 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |\n1st | +0 | +0 | +0 | +2 | Summon familiar,\nScribe Scroll | 3 | 1 | -- | -- | -- | -- | -- | -- | -- | -- |\n2nd | +1 | +0 | +0 | +3 | | 4 | 2 | -- | -- | -- | -- | -- | -- | -- | -- |\n3rd | +1 | +1 | +1 | +3 | | 4 | 2 | 1 | -- | -- | -- | -- | -- | -- | -- |\n4th | +2 | +1 | +1 | +4 | | 4 | 3 | 2 | -- | -- | -- | -- | -- | -- | -- |\n5th | +2 | +1 | +1 | +4 | Bonus feat | 4 | 3 | 2 | 1 | -- | -- | -- | -- | -- | -- |\n6th | +3 | +2 | +2 | +5 | | 4 | 3 | 3 | 2 | -- | -- | -- | -- | -- | -- |\n7th | +3 | +2 | +2 | +5 | | 4 | 4 | 3 | 2 | 1 | -- | -- | -- | -- | -- |\n8th | +4 | +2 | +2 | +6 | | 4 | 4 | 3 | 3 | 2 | -- | -- | -- | -- | -- |\n9th | +4 | +3 | +3 | +6 | | 4 | 4 | 4 | 3 | 2 | 1 | -- | -- | -- | -- |\n10th | +5 | +3 | +3 | +7 | Bonus feat | 4 | 4 | 4 | 3 | 3 | 2 | -- | -- | -- | -- |\n11th | +5 | +3 | +3 | +7 | | 4 | 4 | 4 | 4 | 3 | 2 | 1 | -- | -- | -- |\n12th | +6/+1 | +4 | +4 | +8 | | 4 | 4 | 4 | 4 | 3 | 3 | 2 | -- | -- | -- |\n13th | +6/+1 | +4 | +4 | +8 | | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 | -- | -- |\n14th | +7/+2 | +4 | +4 | +9 | | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 | -- | -- |\n15th | +7/+2 | +5 | +5 | +9 | Bonus feat | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 | -- |\n16th | +8/+3 | +5 | +5 | +10 | | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 | -- |\n17th | +8/+3 | +5 | +5 | +10 | | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 |\n18th | +9/+4 | +6 | +6 | +11 | | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 |\n19th | +9/+4 | +6 | +6 | +11 | | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 |\n20th | +10/+5 | +6 | +6 | +12 | Bonus feat | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesii::011_class_features",
+  "next_chunk_id": "chunk::srd_35::classesii::013_class_features"
+}

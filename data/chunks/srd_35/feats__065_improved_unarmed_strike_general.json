@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::065_improved_unarmed_strike_general",
+  "document_id": "srd_35::feats::065_improved_unarmed_strike_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "IMPROVED UNARMED STRIKE [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#065_improved_unarmed_strike_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You are considered to be armed even when unarmed --that is, you do not provoke attacks or opportunity from armed opponents when you attack them while unarmed. However, you still get an attack of opportunity against any opponent who makes an unarmed attack on you.\nIn addition, your unarmed strikes can deal lethal or nonlethal damage, at your option.\nNormal: Without this feat, you are considered unarmed when attacking with an unarmed strike, and you can deal only nonlethal damage with such an attack.\nSpecial: A monk automatically gains Improved Unarmed Strike as a bonus feat at 1st level. She need not select it.\nA fighter may select Improved Unarmed Strike as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::064_improved_two_weapon_fighting_general",
+  "next_chunk_id": "chunk::srd_35::feats::066_investigator_general"
+}

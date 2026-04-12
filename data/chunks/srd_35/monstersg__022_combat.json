@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::022_combat",
+  "document_id": "srd_35::monstersg::022_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#022_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Cloud giants fight in well-organized units, using carefully developed battle plans. They prefer to fight from a position above their opponents. A favorite tactic is to circle the enemies, barraging them with rocks while the giants with magical abilities confound them with spells.\nRock Throwing (Ex): The range increment is 140 feet for a cloud giant's thrown rocks.\nOversized Weapon (Ex): A cloud giant wields a great, two-handed morningstar (big enough for Gargantuan creatures) without penalty.\nSpell-Like Abilities: 3/day--levitate (self plus 2,000 pounds), obscuring mist; 1/day--fog cloud. Caster level 15th.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::021_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::023_cloud_giant_characters"
+}

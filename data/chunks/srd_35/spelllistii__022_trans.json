@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::022_trans",
+  "document_id": "srd_35::spelllistii::022_trans",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Trans"
+    ],
+    "source_location": "SpellListII.rtf#022_trans"
+  },
+  "chunk_type": "subsection",
+  "content": "Mage Hand: 5-pound telekinesis.\nMending: Makes minor repairs on an object.\nMessage: Whispered conversation at distance.\nOpen/Close: Opens or closes small or light things.\n\nArcane Mark: Inscribes a personal rune (visible or invisible).\nPrestidigitation: Performs minor tricks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::021_necro",
+  "next_chunk_id": "chunk::srd_35::spelllistii::023_abjur"
+}

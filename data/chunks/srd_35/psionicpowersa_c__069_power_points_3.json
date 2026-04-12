@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::069_power_points_3",
+  "document_id": "srd_35::psionicpowersa_c::069_power_points_3",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 3"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#069_power_points_3"
+  },
+  "chunk_type": "subsection",
+  "content": "You have some control over wind speed and direction. The speed of the wind within the area of this power can be increased or decreased by up to 10 miles per hour.\nYou can spend as many as 5 additional power points to augment this power, with each point allowing you to modify the wind speed by an additional 10 miles per hour, to a maximum change in wind speed of 60 miles per hour.\nThis power also gives you the ability to alter the direction of the wind by as much as 90 degrees.\nPowerful enough winds can cause creatures to be blown away, knocked down, or checked.\nAugment: See above.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::068_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::070_display_material"
+}

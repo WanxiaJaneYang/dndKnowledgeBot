@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterso_r::016_combat",
+  "document_id": "srd_35::monsterso_r::016_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersO-R",
+      "Combat"
+    ],
+    "source_location": "MonstersO-R.rtf#016_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A gelatinous cube attacks by slamming its body into its prey. It is capable of lashing out with a pseudopod, but usually engulfs foes.\nAcid (Ex): A gelatinous cube's acid does not harm metal or stone.\nEngulf (Ex): Although it moves slowly, a gelatinous cube can simply mow down Large or smaller creatures as a standard action. It cannot make a slam attack during a round in which it engulfs. The gelatinous cube merely has to move over the opponents, affecting as many as it can cover. Opponents can make opportunity attacks against the cube, but if they do so they are not entitled to a saving throw. Those who do not attempt attacks of opportunity must succeed on a DC 13 Reflex save or be engulfed; on a success, they are pushed back or aside (opponent's choice) as the cube moves forward. Engulfed creatures are subject to the cube's paralysis and acid, and are considered to be grappled and trapped within its body. The save DC is Strength-based and includes a +1 racial bonus.\nParalysis (Ex): A gelatinous cube secretes an anesthetizing slime. A target hit by a cube's melee or engulf attack must succeed on a DC 20 Fortitude save or be paralyzed for 3d6 rounds. The cube can automatically engulf a paralyzed opponent. The save DC is Constitution-based.\nTransparent (Ex): Gelatinous cubes are hard to see, even under ideal conditions, and it takes a DC 15 Spot check to notice one. Creatures who fail to notice a cube and walk into it are automatically engulfed.\n\nHit Dice: | 3d10+15 (31 hp) |\nInitiative: | -5 |\nSpeed: | 10 ft. (2 squares) |\nArmor Class: | 5 (-5 Dex), touch 5, flat-footed 5 |\nBase Attack/Grapple: | +2/+3 |\nAttack: | Slam +3 melee (1d6+1 plus 1d6 acid) |\nFull Attack: | Slam +3 melee (1d6+1 plus 1d6 acid) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Acid, constrict 1d6+1 plus 1d6 acid, improved grab |\nSpecial Qualities: | Blindsight 60 ft., immunity to cold and fire, ooze traits, transparent |\nSaves: | Fort +6, Ref -4, Will -4 |\nAbilities: | Str 12, Dex 1, Con 21, Int --, Wis 1, Cha 1 |\nSkills: | -- |\nFeats: | -- |\nEnvironment: | Cold marshes |\nOrganization: | Solitary |\nChallenge Rating: | 4 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 4-6 HD (Medium); 7-9 HD (Large) |\nLevel Adjustment: | -- |\nA gray ooze can grow to a diameter of up to 10 feet and a thickness of about 6 inches. A typical specimen weighs about 700 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterso_r::015_combat",
+  "next_chunk_id": "chunk::srd_35::monsterso_r::017_combat"
+}

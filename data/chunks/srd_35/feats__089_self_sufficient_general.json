@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::089_self_sufficient_general",
+  "document_id": "srd_35::feats::089_self_sufficient_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "SELF-SUFFICIENT [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#089_self_sufficient_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Heal checks and Survival checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::088_scribe_scroll_item_creation",
+  "next_chunk_id": "chunk::srd_35::feats::090_shield_proficiency_general"
+}

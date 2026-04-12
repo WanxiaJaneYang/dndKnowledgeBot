@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::015_combat",
+  "document_id": "srd_35::psionicmonsters::015_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#015_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Astral constructs act as directed by their creators. As a free action, a construct's manifester can direct the construct to attack particular enemies, use specific tactics or powers, perform other actions, or do nothing at all. The construct does exactly what its creator directs it to do.\nAn astral construct generally appears as an animate clump of ectoplasm with a vaguely humanoid shape, but the manifester can mold or sculpt one according to his or her whim within the limits imposed by the creature's size. The quality of such \u201cconstruct sculpture\u201d is determined by a Craft (sculpting) check. A result of 10 to 19 creates a creature that is recognizably similar to the desired creature shape; a result of 20 to 29 creates a construct that looks like an accurate portrayal of that creature type; a result of 30 or higher creates a construct that looks like a specific individual. No matter how high the Craft (sculpting) check result, though, an astral construct's appearance can't hide the otherworldly material from which it is formed.\nConstruct Traits: An astral construct has immunity to poison, sleep, paralysis, stunning, disease, death effects, necromancy effects, mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and any effect that requires a Fortitude save unless it also works on objects or is harmless. It is not subject to critical hits, nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. It cannot heal damage, but it can be repaired.\nSpecial Abilities: Every time an astral construct is created, the manifester can choose to apply one special ability to the construct. When the manifester begins to manifest the astral construct power, he chooses one or more special abilities from a menu of abilities appropriate to that level of astral construct.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::014_astral_construct",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::016_creating_an_astral_construct"
+}

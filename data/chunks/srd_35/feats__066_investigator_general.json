@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::066_investigator_general",
+  "document_id": "srd_35::feats::066_investigator_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "INVESTIGATOR [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#066_investigator_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You get a +2 bonus on all Gather Information checks and Search checks.\n\nBenefit: You get a +2 bonus on all Will saving throws.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::065_improved_unarmed_strike_general",
+  "next_chunk_id": "chunk::srd_35::feats::067_leadership_general"
+}

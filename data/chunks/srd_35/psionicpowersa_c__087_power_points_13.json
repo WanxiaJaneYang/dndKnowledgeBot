@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::087_power_points_13",
+  "document_id": "srd_35::psionicpowersa_c::087_power_points_13",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 13"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#087_power_points_13"
+  },
+  "chunk_type": "subsection",
+  "content": "You interrupt the subject's autonomic heart rhythm, killing it instantly on a failed saving throw if it has 11 Hit Dice or less. If the target makes its saving throw or has more than 11 Hit Dice, it takes 7d6 points of damage.\nAugment: For every additional power point you spend, this power can kill a subject that has Hit Dice equal to 11 + the number of additional points.\n\nDisplay: Auditory and material\nManifesting Time: 1 standard action\nRange: Close (25 ft. + 5 ft./2 levels)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::086_display_mental",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::088_power_points_1"
+}

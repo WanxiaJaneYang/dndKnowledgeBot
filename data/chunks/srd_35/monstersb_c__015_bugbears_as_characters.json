@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersb_c::015_bugbears_as_characters",
+  "document_id": "srd_35::monstersb_c::015_bugbears_as_characters",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersB-C",
+      "BUGBEARS AS CHARACTERS"
+    ],
+    "source_location": "MonstersB-C.rtf#015_bugbears_as_characters"
+  },
+  "chunk_type": "subsection",
+  "content": "Bugbear characters possess the following racial traits.\n-- +4 Strength, +2 Dexterity, +2 Constitution, -2 Charisma.\n--Medium size.\n--A bugbear's base land speed is 30 feet.\n--Darkvision out to 60 feet.\n--Racial Hit Dice: A bugbear begins with three levels of humanoid, which provide 3d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +1, Ref +3, and Will +1.\n--Racial Skills: A bugbear's humanoid levels give it skill points equal to 6 x \uf020(2 + Int modifier). Its class skills are Climb, Hide, Listen, Move Silently, Search, and Spot.\n--Racial Feats: A bugbear's humanoid levels give it two feats.\n-- +3 natural armor bonus.\n-- +4 racial bonus on Move Silently checks.\n--Automatic Languages: Common, Goblin. Bonus Languages: Draconic, Elven, Giant, Gnoll, Orc.\n--Favored Class: Rogue.\n--Level adjustment +1.\n\nHit Dice: | 9d10+45 (94 hp) |\nInitiative: | +2 |\nSpeed: | 40 ft. (8 squares), burrow 10 ft. |\nArmor Class: | 22 (-2 size, +2 Dex, +12 natural), touch 10, flat-footed 20 |\nBase Attack/Grapple: | +9/+25 |\nAttack: | Bite +16 melee (2d8+8) |\nFull Attack: | Bite +16 melee (2d8+8) and 2 claws +10 melee (2d6+4) |\nSpace/Reach: | 15 ft./10 ft. |\nSpecial Attacks: | Leap |\nSpecial Qualities: | Darkvision 60 ft., lowlight vision, scent, tremorsense 60 ft. |\nSaves: | Fort +11, Ref +8, Will +6 |\nAbilities: | Str 27, Dex 15, Con 20, Int 2, Wis 13, Cha 6 |\nSkills: | Jump +18, Listen +9, Spot +3 |\nFeats: | Alertness, Iron Will, Track, Weapon Focus (bite) |\nEnvironment: | Temperate hills |\nOrganization: | Solitary or pair |\nChallenge Rating: | 7 |\nTreasure: | None |\nAlignment: | Always neutral |\nAdvancement: | 10-16 HD (Huge); 17-27 HD (Gargantuan) |\nLevel Adjustment: | -- |\nAlso known as the landshark, the bulette is a terrifying predator that lives only to eat.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersb_c::014_combat",
+  "next_chunk_id": "chunk::srd_35::monstersb_c::016_combat"
+}

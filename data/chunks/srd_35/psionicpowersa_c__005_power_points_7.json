@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::005_power_points_7",
+  "document_id": "srd_35::psionicpowersa_c::005_power_points_7",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 7"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#005_power_points_7"
+  },
+  "chunk_type": "subsection",
+  "content": "You know where you are in relation to a fixed starting point, which is essential for setting up a mishap-free teleport beacon. While the duration lasts, you are aware of your exact distance and route (physical or psychoportive) back to a fixed starting point. The \u201canchored\u201d starting point is your exact location when you manifest the power. To designate other anchored starting points, you must manifest this power multiple times and be present at the desired locations when you do so.\nYou can also retrace your steps through a maze automatically while the power lasts, without resorting to a map.\nAnchored navigation grants you a mindlink with one designated creature who remains within a 60-foot radius of the starting point, regardless of the distance between you and the creature. The use of anchored navigation is confined to the plane of existence where you manifest it.\nAugment: If you spend 6 additional power points, the effect of this power extends across all planar boundaries.\nAnimal Affinity\nPsychometabolism\nLevel: Egoist 2, psychic warrior 2\nDisplay: Material\nManifesting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 min./level",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::004_power_points_17",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::006_power_points_3"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersintro_a::018_challenge_rating",
+  "document_id": "srd_35::monstersintro_a::018_challenge_rating",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersIntro-A",
+      "Challenge Rating"
+    ],
+    "source_location": "MonstersIntro-A.rtf#018_challenge_rating"
+  },
+  "chunk_type": "subsection",
+  "content": "This shows the average level of a party of adventurers for which one creature would make an encounter of moderate difficulty.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersintro_a::017_organization",
+  "next_chunk_id": "chunk::srd_35::monstersintro_a::019_treasure"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersg_p::058_power_points_1",
+  "document_id": "srd_35::psionicpowersg_p::058_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersG-P",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersG-P.rtf#058_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "You instantly deliver a massive assault on the thought pathways of any one creature, dealing 1d10 points of damage to it.\nAugment: For every additional power point you spend, this power's damage increases by 1d10 points. For each extra 2d10 points of damage, this power's save DC increases by 1.\nMind Trap\nTelepathy [Mind-Affecting]\nLevel: Psion/wilder 3\nDisplay: Auditory\nManifesting Time: 1 immediate action\nRange: Personal\nTarget: You\nDuration: 1 round",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersg_p::057_display_auditory",
+  "next_chunk_id": "chunk::srd_35::psionicpowersg_p::059_power_points_5"
+}

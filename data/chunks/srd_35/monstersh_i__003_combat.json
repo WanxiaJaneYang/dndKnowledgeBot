@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersh_i::003_combat",
+  "document_id": "srd_35::monstersh_i::003_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersH-I",
+      "COMBAT"
+    ],
+    "source_location": "MonstersH-I.rtf#003_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Hags are tremendously strong. They are naturally resistant to spells and can cast magic of their own. Hags often gather to form coveys. A covey, usually containing one hag of each type, can use powers beyond those of the individual members.\n\nHit Dice: | 7d8+14 (45 hp) |\nInitiative: | +1 |\nSpeed: | 40 ft. (8 squares) |\nArmor Class: | 20 (-1 size, +1 Dex, +10 natural), touch 10, flat-footed 19 |\nBase Attack/Grapple: | +7/+18 |\nAttack: | Claw +13 melee (1d6+7) |\nFull Attack: | 2 claws +13 melee (1d6+7) and bite +8 melee (1d6+3) |\nSpace/Reach: | 10 ft./10 ft. |\nSpecial Attacks: | Improved grab, rake 1d6+7, rend 2d6+10, spell-like abilities |\nSpecial Qualities: | Damage reduction 2/bludgeoning, darkvision 60 ft., spell resistance 19 |\nSaves: | Fort +6, Ref +6, Will +6 |\nAbilities: | Str 25, Dex 12, Con 14, Int 13, Wis 13, Cha 10 |\nSkills: | Bluff +8, Diplomacy +2, Disguise +0 (+2 acting), Hide +5, Intimidate +2, Listen +10, Spot +10 |\nFeats: | Alertness, Blind-Fight, Great Fortitude |\nEnvironment: | Cold marshes |\nOrganization: | Solitary or covey (3 hags of any kind plus 1-8 ogres and 1-4 evil giants) |\nChallenge Rating: | 6 |\nTreasure: | Standard |\nAlignment: | Usually chaotic evil |\nAdvancement: | By character class |\nLevel Adjustment: | -- |\nAn annis commonly uses its disguise self ability to take the form of an exceptionally tall human, a fair giant, or an ogre.\nAn annis stands some 8 feet tall and weighs about 325 pounds.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersh_i::002_hag",
+  "next_chunk_id": "chunk::srd_35::monstersh_i::004_combat"
+}

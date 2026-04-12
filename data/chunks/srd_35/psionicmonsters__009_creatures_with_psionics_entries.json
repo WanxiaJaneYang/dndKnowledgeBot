@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::009_creatures_with_psionics_entries",
+  "document_id": "srd_35::psionicmonsters::009_creatures_with_psionics_entries",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "Creatures with \u201cPsionics\u201d Entries"
+    ],
+    "source_location": "PsionicMonsters.rtf#009_creatures_with_psionics_entries"
+  },
+  "chunk_type": "subsection",
+  "content": "Psionic monsters often possess spell-like abilities that are identified as \u201cpsionics,\u201d instead of \u201cspell-like abilities.\u201d For all intents and purposes, creatures with spell-like abilities described as psionics are considered to possess psi-like abilities, and they manifest their powers as described above.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::008_psi_like_abilities_and_feats",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::010_psionic_spells"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::combatii::028_turn_or_rebuke_undead",
+  "document_id": "srd_35::combatii::028_turn_or_rebuke_undead",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "CombatII",
+      "TURN OR REBUKE UNDEAD"
+    ],
+    "source_location": "CombatII.rtf#028_turn_or_rebuke_undead"
+  },
+  "chunk_type": "subsection",
+  "content": "Good clerics and paladins and some neutral clerics can channel positive energy, which can halt, drive off (rout), or destroy undead.\nEvil clerics and some neutral clerics can channel negative energy, which can halt, awe (rebuke), control (command), or bolster undead.\nRegardless of the effect, the general term for the activity is \u201cturning.\u201d When attempting to exercise their divine control over these creatures, characters make turning checks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::combatii::027_trip",
+  "next_chunk_id": "chunk::srd_35::combatii::029_turning_checks"
+}

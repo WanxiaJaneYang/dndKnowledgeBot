@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicfeats::018_chaotic_rage_epic",
+  "document_id": "srd_35::epicfeats::018_chaotic_rage_epic",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicFeats",
+      "CHAOTIC RAGE [EPIC]"
+    ],
+    "source_location": "EpicFeats.rtf#018_chaotic_rage_epic"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Rage 5/day, chaotic alignment.\nBenefit: Any weapon the character wields while in a rage is treated as an anarchic weapon (it is chaos-aligned and deals an extra 2d6 points of damage against creatures of lawful alignment). This ability does not stack with similar abilities.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicfeats::017_bulwark_of_defense_epic",
+  "next_chunk_id": "chunk::srd_35::epicfeats::019_colossal_wild_shape_wild_epic"
+}

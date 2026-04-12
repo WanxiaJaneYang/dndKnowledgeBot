@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterse_f::004_elemental",
+  "document_id": "srd_35::monsterse_f::004_elemental",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersE-F",
+      "ELEMENTAL"
+    ],
+    "source_location": "MonstersE-F.rtf#004_elemental"
+  },
+  "chunk_type": "subsection",
+  "content": "Elementals are incarnations of the elements that compose existence.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterse_f::003_training_a_giant_eagle",
+  "next_chunk_id": "chunk::srd_35::monsterse_f::005_combat"
+}

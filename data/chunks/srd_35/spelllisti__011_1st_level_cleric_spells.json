@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllisti::011_1st_level_cleric_spells",
+  "document_id": "srd_35::spelllisti::011_1st_level_cleric_spells",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListI",
+      "1ST-LEVEL CLERIC SPELLS"
+    ],
+    "source_location": "SpellListI.rtf#011_1st_level_cleric_spells"
+  },
+  "chunk_type": "subsection",
+  "content": "Bane: Enemies take -1 on attack rolls and saves against fear.\nBless: Allies gain +1 on attack rolls and saves against fear.\nBless Water M: Makes holy water.\nCause Fear: One creature of 5 HD or less flees for 1d4 rounds.\nCommand: One subject obeys selected command for 1 round.\nComprehend Languages: You understand all spoken and written languages.\nCure Light Wounds: Cures 1d8 damage +1/level (max +5).\nCurse Water M: Makes unholy water.\nDeathwatch: Reveals how near death subjects within 30 ft. are.\nDetect Chaos/Evil/Good/Law: Reveals creatures, spells, or objects of selected alignment.\nDetect Undead: Reveals undead within 60 ft.\nDivine Favor: You gain +1 per three levels on attack and damage rolls.\nDoom: One subject takes -2 on attack rolls, damage rolls, saves, and checks.\nEndure Elements: Exist comfortably in hot or cold environments.\nEntropic Shield: Ranged attacks against you have 20% miss chance.\nHide from Undead: Undead can't perceive one subject/level.\nInflict Light Wounds: Touch deals 1d8 damage +1/level (max +5).\nMagic Stone: Three stones gain +1 on attack, deal 1d6 +1 damage.\nMagic Weapon: Weapon gains +1 bonus.\nObscuring Mist: Fog surrounds you.\nProtection from Chaos/Evil/Good/Law: +2 to AC and saves, counter mind control, hedge out elementals and outsiders.\nRemove Fear: Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.\nSanctuary: Opponents can't attack you, and you can't attack.\nShield of Faith: Aura grants +2 or higher deflection bonus.\nSummon Monster I: Calls extraplanar creature to fight for you.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllisti::010_0_level_cleric_spells_orisons",
+  "next_chunk_id": "chunk::srd_35::spelllisti::012_2nd_level_cleric_spells"
+}

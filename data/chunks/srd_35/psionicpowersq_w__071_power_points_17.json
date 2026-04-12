@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersq_w::071_power_points_17",
+  "document_id": "srd_35::psionicpowersq_w::071_power_points_17",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersQ-W",
+      "Power Points: 17"
+    ],
+    "source_location": "PsionicPowersQ-W.rtf#071_power_points_17"
+  },
+  "chunk_type": "subsection",
+  "content": "You induce the formation of a slender vortex of fiercely swirling air. When you manifest it, a vortex of air visibly and audibly snakes out from your outstretched hand.\nIf you want to aim the vortex at a specific creature, you can make a ranged touch attack to strike the creature. If you succeed, direct contact with the vortex deals 8d6 points of damage to the creature (no save).\nRegardless of whether your ranged touch attack hits (and even if you forgo the attack), all creatures in the area (including the one possibly damaged by direct contact) are picked up and violently dashed about, dealing 17d6 points of damage to each one. Creatures that make a successful Reflex save take half damage.\nAfter being dashed about, each creature that was affected finds itself situated in a new space 1d4 x 10 feet away from its original space in a random direction. Walls and other barriers can restrict this relocation; in such a case, the creature ends up adjacent to the barrier.\nAugment: For every additional power point you spend, this power's area damage (not the damage from direct contact dealt to a specific creature) increases by 1d6 points (to a maximum of 24d6 points). For each extra 2d6 points of damage, this power's save DC increases by 1.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersq_w::070_power_points_3",
+  "next_chunk_id": "chunk::srd_35::psionicpowersq_w::072_display_visual"
+}

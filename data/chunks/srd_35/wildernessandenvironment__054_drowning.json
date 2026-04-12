@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chunk::srd_35::wildernessandenvironment::054_drowning",
+  "document_id": "srd_35::wildernessandenvironment::054_drowning",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "WildernessandEnvironment",
+      "Drowning"
+    ],
+    "source_location": "WildernessandEnvironment.rtf#054_drowning"
+  },
+  "chunk_type": "subsection",
+  "content": "Any character can hold her breath for a number of rounds equal to twice her Constitution score. After this period of time, the character must make a DC 10 Constitution check every round in order to continue holding her breath. Each round, the DC increases by 1.\nWhen the character finally fails her Constitution check, she begins to drown. In the first round, she falls unconscious (0 hp). In the following round, she drops to -1 hit points and is dying. In the third round, she drowns.\nIt is possible to drown in substances other than water, such as sand, quicksand, fine dust, and silos full of grain.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::wildernessandenvironment::053_water_dangers"
+}

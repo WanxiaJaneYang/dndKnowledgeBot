@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::037_eschew_materials_general",
+  "document_id": "srd_35::feats::037_eschew_materials_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "ESCHEW MATERIALS [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#037_eschew_materials_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Benefit: You can cast any spell that has a material component costing 1 gp or less without needing that component. (The casting of the spell still provokes attacks of opportunity as normal.) If the spell requires a material component that costs more than 1 gp, you must have the material component at hand to cast the spell, just as normal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::036_enlarge_spell_metamagic",
+  "next_chunk_id": "chunk::srd_35::feats::038_exotic_weapon_proficiency_general"
+}

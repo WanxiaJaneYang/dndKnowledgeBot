@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::spelllistii::032_illus",
+  "document_id": "srd_35::spelllistii::032_illus",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "SpellListII",
+      "Illus"
+    ],
+    "source_location": "SpellListII.rtf#032_illus"
+  },
+  "chunk_type": "subsection",
+  "content": "Displacement: Attacks miss subject 50%.\nIllusory Script M: Only intended reader can decipher.\nInvisibility Sphere: Makes everyone within 10 ft. invisible.\nMajor Image: As silent image, plus sound, smell and thermal effects.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::spelllistii::031_abjur",
+  "next_chunk_id": "chunk::srd_35::spelllistii::033_necro"
+}

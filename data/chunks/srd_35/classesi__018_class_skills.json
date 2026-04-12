@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::classesi::018_class_skills",
+  "document_id": "srd_35::classesi::018_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "ClassesI",
+      "Class Skills"
+    ],
+    "source_location": "ClassesI.rtf#018_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The fighter's class skills (and the key ability for each skill) are Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Jump (Str), Ride (Dex), and Swim (Str).\nSkill Points at 1st Level: (2 + Int modifier) x\uf0204.\nSkill Points at Each Additional Level: 2 + Int modifier.\nTable: The Fighter |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |\n1st | +1 | +2 | +0 | +0 | Bonus feat |\n2nd | +2 | +3 | +0 | +0 | Bonus feat |\n3rd | +3 | +3 | +1 | +1 | |\n4th | +4 | +4 | +1 | +1 | Bonus feat |\n5th | +5 | +4 | +1 | +1 | |\n6th | +6/+1 | +5 | +2 | +2 | Bonus feat |\n7th | +7/+2 | +5 | +2 | +2 | |\n8th | +8/+3 | +6 | +2 | +2 | Bonus feat |\n9th | +9/+4 | +6 | +3 | +3 | |\n10th | +10/+5 | +7 | +3 | +3 | Bonus feat |\n11th | +11/+6/+1 | +7 | +3 | +3 | |\n12th | +12/+7/+2 | +8 | +4 | +4 | Bonus feat |\n13th | +13/+8/+3 | +8 | +4 | +4 | |\n14th | +14/+9/+4 | +9 | +4 | +4 | Bonus feat |\n15th | +15/+10/+5 | +9 | +5 | +5 | |\n16th | +16/+11/+6/+1 | +10 | +5 | +5 | Bonus feat |\n17th | +17/+12/+7/+2 | +10 | +5 | +5 | |\n18th | +18/+13/+8/+3 | +11 | +6 | +6 | Bonus feat |\n19th | +19/+14/+9/+4 | +11 | +6 | +6 | |\n20th | +20/+15/+10/+5 | +12 | +6 | +6 | Bonus feat |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::classesi::017_alternative_animal_companions",
+  "next_chunk_id": "chunk::srd_35::classesi::019_class_features"
+}

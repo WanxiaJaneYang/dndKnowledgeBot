@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersd_f::039_power_points_1",
+  "document_id": "srd_35::psionicpowersd_f::039_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersD-F",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersD-F.rtf#039_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Your mere touch can disperse the surface material of a foe or object, sending a tiny portion of it far away. This effect is disruptive; thus, your successful melee touch attack deals 1d6 points of damage.\nAugment: For every additional power point you spend, this power's damage increases by 1d6 points.\nDissolving Touch\nPsychometabolism [Acid]\nLevel: Psychic warrior 2\nDisplay: Visual\nManifesting Time: 1 standard action\nRange: Touch\nTarget: Creature or object touched",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersd_f::038_psychoportation_teleportation",
+  "next_chunk_id": "chunk::srd_35::psionicpowersd_f::040_power_points_3"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicmonsters::031_combat",
+  "document_id": "srd_35::psionicmonsters::031_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicMonsters",
+      "COMBAT"
+    ],
+    "source_location": "PsionicMonsters.rtf#031_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Repletion (Su): By expending 1 power point, an elan does not need to eat or drink for 24 hours.\nResilience (Su): As an immediate action, an elan can reduce the damage he is about to take by 2 points for every 1 power point spent.\nResistance (Su): As an immediate action, an \u00e9lan can spent 1 power point to gain a +4 racial bonus on saving throws until the beginning of his next turn.\nThe elan warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicmonsters::030_duergar_as_characters",
+  "next_chunk_id": "chunk::srd_35::psionicmonsters::032_elans_as_characters"
+}

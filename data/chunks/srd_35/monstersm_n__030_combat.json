@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersm_n::030_combat",
+  "document_id": "srd_35::monstersm_n::030_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersM-N",
+      "Combat"
+    ],
+    "source_location": "MonstersM-N.rtf#030_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Water nagas prefer to stay mostly concealed in a body of water while they launch a spell attack.\nPoison (Ex): Injury, Fortitude DC 17, initial and secondary damage 1d8 Con. The save DC is Constitution-based.\nSpells: Water nagas cast spells as 7th-level sorcerers but never use fire spells.\nTypical Sorcerer Spells Known (6/7/7/4; save DC 12 + spell level): 0--acid splash, daze, detect magic, light, mage hand, open/close, read magic; 1st--expeditious retreat, magic missile, obscuring mist, shield, true strike; 2nd--invisibility, acid arrow, mirror image; 3rd--protection from energy, suggestion.\nSkills: A water naga has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n\nHit Dice: | 8d8+32 (68 hp) |\nInitiative: | +1 |\nSpeed: | 20 ft. (4 squares) |\nArmor Class: | 22 (+1 Dex, +11 natural), touch 11, flat-footed 21 |\nBase Attack/Grapple: | +8/+12 |\nAttack: | Bite +12 melee (2d6+6 plus disease) |\nFull Attack: | Bite +12 melee (2d6+6 plus disease) |\nSpace/Reach: | 5 ft./5 ft. |\nSpecial Attacks: | Spell-like abilities, dream haunting |\nSpecial Qualities: | Damage reduction 10/cold iron and magic, immunity to fire, cold, charm, sleep, and fear, spell resistance 25 |\nSaves: | Fort +12*, Ref +9*, Will +10* |\nAbilities: | Str 19, Dex 12, Con 18, Int 11, Wis 15, Cha 12 |\nSkills: | Bluff +12, Concentration +15, Diplomacy +5, Disguise +1 (+3 acting), Intimidate +14, Listen +15, Ride +12, Sense Motive +13, Spellcraft +11, Spot +15 |\nFeats: | Alertness, Combat Casting, Mounted Combat |\nEnvironment: | A evil-aligned plane |\nOrganization: | Solitary, mounted (1, on nightmare), or covey (3, on nightmares) |\nChallenge Rating: | 9 |\nTreasure: | Standard |\nAlignment: | Always neutral evil |\nAdvancement: | 9-16 HD (Medium) |\nLevel Adjustment: | -- |\nA night hag is about the same height and weight as a female human.\nNight hags speak Abyssal, Celestial, Common, and Infernal.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersm_n::029_combat",
+  "next_chunk_id": "chunk::srd_35::monstersm_n::031_combat"
+}

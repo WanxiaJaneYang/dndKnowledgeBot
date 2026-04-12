@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::divineabilitiesandfeats::031_divine_druid",
+  "document_id": "srd_35::divineabilitiesandfeats::031_divine_druid",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "DivineAbilitiesandFeats",
+      "Divine Druid"
+    ],
+    "source_location": "DivineAbilitiesandFeats.rtf#031_divine_druid"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Druid level 20th.\nBenefit: While in a wild shape, the deity gains all the extraordinary and supernatural abilities of the creature whose form it adopts. In addition to animal forms, the deity can take the form of magical beasts or plant creatures. Some deities can assume additional forms. These are specified in the deity's description.\nThe deity can assume the form of any animal, magical beast, or plant creature from Fine to Colossal in size.\nSuggested Portfolio Elements: Nature.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::divineabilitiesandfeats::030_divine_dodge",
+  "next_chunk_id": "chunk::srd_35::divineabilitiesandfeats::032_divine_earth_mastery"
+}

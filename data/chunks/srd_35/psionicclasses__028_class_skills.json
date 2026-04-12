@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicclasses::028_class_skills",
+  "document_id": "srd_35::psionicclasses::028_class_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicClasses",
+      "Class Skills"
+    ],
+    "source_location": "PsionicClasses.rtf#028_class_skills"
+  },
+  "chunk_type": "subsection",
+  "content": "The metamind's class skills are Autohypnosis (Wis), Concentration* (Con), Craft (any) (Int), Knowledge (psionics), and Psicraft (Int).\nSkill Points at Each Level: 2 + Int modifier.\nTable: The Metamind |\nLevel | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Powers Known |\n1st | +0 | +0 | +0 | +2 | Free manifesting 1st, 3/day | -- |\n2nd | +1 | +0 | +0 | +3 | Cognizance psicrystal 5 points | +1 level of existing manifesting class |\n3rd | +1 | +1 | +1 | +3 | Free manifesting 2nd, 3/day | -- |\n4th | +2 | +1 | +1 | +4 | Cognizance psicrystal 7 points | +1 level of existing manifesting class |\n5th | +2 | +1 | +1 | +4 | Free manifesting 3rd, 1/day | -- |\n6th | +3 | +2 | +2 | +5 | Cognizance psicrystal 9 points | +1 level of existing manifesting class |\n7th | +3 | +2 | +2 | +5 | Free manifesting 4th, 1/day | -- |\n8th | +4 | +2 | +2 | +6 | Cognizance psicrystal 11 points | +1 level of existing manifesting class |\n9th | +4 | +3 | +3 | +6 | Free manifesting 5th, 1/day | -- |\n10th | +5 | +3 | +3 | +7 | Font of power | +1 level of existing manifesting class |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicclasses::027_requirements",
+  "next_chunk_id": "chunk::srd_35::psionicclasses::029_class_features"
+}

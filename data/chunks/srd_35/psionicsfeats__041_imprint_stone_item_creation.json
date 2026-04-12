@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicsfeats::041_imprint_stone_item_creation",
+  "document_id": "srd_35::psionicsfeats::041_imprint_stone_item_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicsFeats",
+      "IMPRINT STONE [ITEM CREATION]"
+    ],
+    "source_location": "PsionicsFeats.rtf#041_imprint_stone_item_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "You can create power stones to store psionic powers.\nPrerequisite: Manifester level 1st.\nBenefit: You can create a power stone of any power that you know. Encoding a power stone takes one day for each 1,000 gp in its base price. The base price of a power stone is the level of the stored power x its manifester level x 25 gp. To imprint a power stone, you must spend 1/25 of this base price in XP and use up raw materials costing one-half of this base price.\nAny power stone that stores a power with an XP cost also carries a commensurate cost. In addition to the costs derived from the base price, you must pay the XP when encoding the stone.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicsfeats::040_hostile_mind_general",
+  "next_chunk_id": "chunk::srd_35::psionicsfeats::042_improved_psicrystal_psionic"
+}

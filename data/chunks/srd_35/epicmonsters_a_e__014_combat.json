@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicmonsters_a_e::014_combat",
+  "document_id": "srd_35::epicmonsters_a_e::014_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicMonsters(A-E)",
+      "Combat"
+    ],
+    "source_location": "EpicMonsters(A-E).rtf#014_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Rend (Ex): A behemoth gorilla that hits with both claw attacks latches onto the opponent's body and tears the flesh. This automatically deals an additional 8d8+20 points of damage.\nBRACHYURUS\n| Large Magical Beast |\nHit Dice: | 38d10+684 (893 hp) |\nInitiative: | +18 (+14 Dex, +4 Improved Initiative) |\nSpeed: | 80 ft. |\nAC: | 40 (+14 Dex, -1 size, +17 natural) |\nBase Attack/Grapple: | +38/+52 |\nAttack: | Claw +48 (2d6+10/19-20) melee |\nFull Attack: | 2 claws +48 (2d6+10/19-20) melee, 1 bite +46 (3d6+5/19-20) melee |\nSpace/Reach: | 10 ft./5 ft. |\nSpecial Attacks: | Frightful howl, savage 15d6+25 |\nSpecial Qualities: | Blindsight 240 ft., DR 10/epic, dark-vision 60 ft., fast healing 10, lowlight vision, SR 32, scent, acid, cold, electricity, fire, and sonic resistance 20 |\nSaves: | Fort +41, Ref +35, Will +25 |\nAbilities: | Str 30, Dex 38, Con 47, Int 18, Wis 32, Cha 19 |\nSkills: | Hide +55, Jump +51, Listen +54, Move Silently +55, Spot +54, Survival +52 |\nFeats: | Alertness, Great Fortitude, Improved Bull Rush, Improved Critical (claw), Improved Critical (bite), Improved Initiative, Improved Trip, Iron Will, Multiattack, Weapon Focus (claw), Weapon Focus (bite) |\nEpic Feats: | Blinding Speed (x2) |\nClimate/Terrain: | Any |\nOrganization: | Solitary, pair, or pack (5-10). |\nChallenge Rating: | 23 |\nTreasure: | Standard |\nAlignment: | Usually lawful neutral |\nAdvancement: | 39-48 HD (Large); 49-58 HD (Huge); 59-66 HD (Gargantuan); 67-135 HD (Colossal) |",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicmonsters_a_e::013_behemoth_eagle",
+  "next_chunk_id": "chunk::srd_35::epicmonsters_a_e::015_combat"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::003_sahuagin_mutants",
+  "document_id": "srd_35::monsterss::003_sahuagin_mutants",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "SAHUAGIN MUTANTS"
+    ],
+    "source_location": "MonstersS.rtf#003_sahuagin_mutants"
+  },
+  "chunk_type": "subsection",
+  "content": "About one in two hundred sahuagin has four arms. Such creatures can make four claw attacks or use extra weapons, in addition to the claw and bite attacks.\nIf a community of aquatic elves is located within 100 miles of a sahuagin community, about one in one hundred sahuagin looks just like an aquatic elf. These creatures, called malenti, have a swim speed of 40 feet, can remain out of water for 1 hour per point of Constitution, and have freshwater sensitivity and light sensitivity (dazzled in bright light). Malenti have no natural attacks. They are otherwise identical with sahuagin.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::002_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::004_salamander"
+}

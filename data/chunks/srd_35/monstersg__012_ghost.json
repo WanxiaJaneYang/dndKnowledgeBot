@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::012_ghost",
+  "document_id": "srd_35::monstersg::012_ghost",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "GHOST"
+    ],
+    "source_location": "MonstersG.rtf#012_ghost"
+  },
+  "chunk_type": "subsection",
+  "content": "Ghosts are the spectral remnants of intelligent beings who, for one reason or another, cannot rest easily in their graves.\nA ghost greatly resembles its corporeal form in life, but in some cases the spiritual form is somewhat altered.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::011_combat",
+  "next_chunk_id": "chunk::srd_35::monstersg::013_creating_a_ghost"
+}

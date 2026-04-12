@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::088_power_points_1",
+  "document_id": "srd_35::psionicpowersa_c::088_power_points_1",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Power Points: 1"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#088_power_points_1"
+  },
+  "chunk_type": "subsection",
+  "content": "Upon manifesting this power, you propel a razor-sharp crystal shard at your target. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d6 points of piercing damage.\nAugment: For every additional power point you spend, this power's damage increases by 1d6 points.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::087_power_points_13",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::089_display_auditory"
+}

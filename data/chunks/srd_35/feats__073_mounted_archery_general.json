@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::feats::073_mounted_archery_general",
+  "document_id": "srd_35::feats::073_mounted_archery_general",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "Feats",
+      "MOUNTED ARCHERY [GENERAL]"
+    ],
+    "source_location": "Feats.rtf#073_mounted_archery_general"
+  },
+  "chunk_type": "subsection",
+  "content": "Prerequisites: Ride 1 rank, Mounted Combat.\nBenefit: The penalty you take when using a ranged weapon while mounted is halved: -2 instead of -4 if your mount is taking a double move, and -4 instead of -8 if your mount is running.\nSpecial: A fighter may select Mounted Archery as one of his fighter bonus feats.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::feats::072_mobility_general",
+  "next_chunk_id": "chunk::srd_35::feats::074_mounted_combat_general"
+}

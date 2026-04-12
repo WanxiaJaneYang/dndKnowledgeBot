@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::epicskills::002_epic_skills",
+  "document_id": "srd_35::epicskills::002_epic_skills",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "EpicSkills",
+      "EPIC SKILLS"
+    ],
+    "source_location": "EpicSkills.rtf#002_epic_skills"
+  },
+  "chunk_type": "rule_section",
+  "content": "Despite the near-magical nature of some epic level skill uses, all uses of skills are considered exceptional abilities (except if noted otherwise), and thus function normally even within areas of antimagic.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::epicskills::001_epicskills",
+  "next_chunk_id": "chunk::srd_35::epicskills::003_skill_synergy"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::035_combat",
+  "document_id": "srd_35::monsterss::035_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#035_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "A stirge attacks by landing on a victim, finding a vulnerable spot, and plunging its proboscis into the flesh. This is a touch attack and can target only Small or larger creatures.\nAttach (Ex): If a stirge hits with a touch attack, it uses its eight pincers to latch onto the opponent's body. An attached stirge is effectively grappling its prey. The stirge loses its Dexterity bonus to AC and has an AC of 12, but holds on with great tenacity. Stirges have a +12 racial bonus on grapple checks (already figured into the Base Attack/Grapple entry above).\nAn attached stirge can be struck with a weapon or grappled itself. To remove an attached stirge through grappling, the opponent must achieve a pin against the stirge.\nBlood Drain (Ex): A stirge drains blood, dealing 1d4 points of Constitution damage in any round when it begins its turn attached to a victim. Once it has dealt 4 points of Constitution damage, it detaches and flies off to digest the meal. If its victim dies before the stirge's appetite has been sated, the stirge detaches and seeks a new target.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::034_combat",
+  "next_chunk_id": "chunk::srd_35::monsterss::036_swarm"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monstersg::024_combat",
+  "document_id": "srd_35::monstersg::024_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersG",
+      "COMBAT"
+    ],
+    "source_location": "MonstersG.rtf#024_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Fire giants heat their rocks in a nearby fire, geyser, or lava pools, so that they deal extra fire damage. They favor magic flaming swords in melee (when they can get them). They are also fond of grabbing smaller opponents and tossing them somewhere very hot.\nRock Throwing (Ex): The range increment is 120 feet for a fire giant's thrown rocks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monstersg::023_cloud_giant_characters",
+  "next_chunk_id": "chunk::srd_35::monstersg::025_fire_giant_characters"
+}

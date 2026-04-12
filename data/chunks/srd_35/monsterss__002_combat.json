@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::monsterss::002_combat",
+  "document_id": "srd_35::monsterss::002_combat",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "MonstersS",
+      "COMBAT"
+    ],
+    "source_location": "MonstersS.rtf#002_combat"
+  },
+  "chunk_type": "subsection",
+  "content": "Sahuagin are savage fighters, asking for and giving no quarter. When swimming, a sahuagin tears with its feet as it strikes with its talons or a weapon. About half of any group of sahuagin are also armed with nets.\nBlindsense (Ex): A sahuagin can locate creatures underwater within a 30-foot radius. This ability works only when the sahuagin is underwater.\nBlood Frenzy: Once per day a sahuagin that takes damage in combat can fly into a frenzy in the following round, clawing and biting madly until either it or its opponent is dead. It gains +2 Constitution and +2 Strength, and takes a -2 penalty to Armor Class. A sahuagin cannot end its frenzy voluntarily.\nRake (Ex): Attack bonus +2 melee, damage 1d4+1. A sahuagin also gains two rake attacks when it attacks while swimming.\nFreshwater Sensitivity (Ex): A sahuagin fully immersed in fresh water must succeed on a DC 15 Fortitude save or become fatigued. Even on a success, it must repeat the save attempt every 10 minutes it remains immersed.\nLight Blindness (Ex): Abrupt exposure to bright light (such as sunlight or a daylight spell) blinds sahuagin for round. On subsequent rounds, they are dazzled while operating in bright light.\nSpeak with Sharks (Ex): Sahuagin can communicate telepathically with sharks up to 150 feet away. The communication is limited to fairly simple concepts such as \u201cfood,\u201d \u201cdanger,\u201d and \u201cenemy.\u201d Sahuagin can use the Handle Animal skill to befriend and train sharks.\nWater Dependent (Ex): Sahuagin can survive out of the water for 1 hour per 2 points of Constitution (after that, refer to the drowning rules on page 304 of the Dungeon Master 's Guide).\nSkills: A sahuagin has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n*Underwater, a sahuagin has a +4 racial bonus on Hide, Listen, and Spot checks.\n*A sahuagin has a +4 racial bonus on Survival and Profession (hunter) checks within 50 miles of its home.\n*A sahuagin has a +4 racial bonus on Handle Animal checks when working with sharks.",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::monsterss::001_monsterss",
+  "next_chunk_id": "chunk::srd_35::monsterss::003_sahuagin_mutants"
+}

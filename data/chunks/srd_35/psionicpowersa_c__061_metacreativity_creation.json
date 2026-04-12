@@ -1,0 +1,23 @@
+{
+  "chunk_id": "chunk::srd_35::psionicpowersa_c::061_metacreativity_creation",
+  "document_id": "srd_35::psionicpowersa_c::061_metacreativity_creation",
+  "source_ref": {
+    "source_id": "srd_35",
+    "title": "System Reference Document",
+    "edition": "3.5e",
+    "source_type": "srd",
+    "authority_level": "official_reference"
+  },
+  "locator": {
+    "section_path": [
+      "PsionicPowersA-C",
+      "Metacreativity (Creation)"
+    ],
+    "source_location": "PsionicPowersA-C.rtf#061_metacreativity_creation"
+  },
+  "chunk_type": "subsection",
+  "content": "Level: Psion/wilder 2, psychic warrior 2\nDisplay: Material; see text\nManifesting Time: 1 standard action\nRange: 0 ft.\nEffect: Quasi-real amorphous film centered on you\nDuration: 1 min./level (D)",
+  "chunk_version": "v1-section-passthrough",
+  "previous_chunk_id": "chunk::srd_35::psionicpowersa_c::060_power_points_1",
+  "next_chunk_id": "chunk::srd_35::psionicpowersa_c::062_power_points_3"
+}
