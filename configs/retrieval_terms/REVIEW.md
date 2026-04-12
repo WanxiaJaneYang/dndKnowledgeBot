@@ -10,11 +10,15 @@ Principles:
 
 ## Core Mechanics
 
+- `ability check`
+- `ability damage`
+- `ability drain`
 - `ability modifier`
 - `ability modifiers`
 - `armor bonus`
 - `armor class`
 - `armor check penalty`
+- `arcane spell failure`
 - `attack bonus`
 - `attack roll`
 - `attack rolls`
@@ -24,11 +28,22 @@ Principles:
 - `challenge rating`
 - `concentration check`
 - `concentration checks`
+- `current hit points`
 - `critical hit`
 - `critical hits`
 - `damage reduction`
+- `death attack`
 - `deflection bonus`
+- `difficult terrain`
+- `dispel check`
 - `difficulty class`
+- `divine spell`
+- `energy damage`
+- `energy drain`
+- `experience points`
+- `fortitude save`
+- `free action`
+- `granted power`
 - `grapple check`
 - `grapple checks`
 - `hit die`
@@ -39,9 +54,16 @@ Principles:
 - `level adjustment`
 - `manifester level`
 - `natural armor bonus`
+- `negative energy`
 - `nonlethal damage`
+- `nonplayer character`
+- `player character`
+- `point of origin`
+- `range increment`
 - `saving throw`
 - `saving throws`
+- `resistance bonus`
+- `resistance to energy`
 - `shield bonus`
 - `size modifier`
 - `skill check`
@@ -55,30 +77,40 @@ Principles:
 - `attack of opportunity`
 - `attacks of opportunity`
 - `combat expertise`
+- `coup de grace`
 - `flat footed`
+- `flat footed armor class`
 - `full attack`
 - `full attack action`
 - `full round action`
 - `full round actions`
 - `melee touch attack`
 - `melee touch attacks`
+- `move action`
 - `ranged touch attack`
 - `ranged touch attacks`
+- `standard action`
 - `touch attack`
 - `touch attacks`
+- `touch armor class`
 - `touch spell`
 - `touch spells`
+- `two handed weapon`
+- `unarmed strike`
 
 ## Special Abilities And Magic Use
 
+- `command undead`
 - `extraordinary ability`
 - `extraordinary abilities`
 - `spell completion`
+- `spell completion item`
 - `spell failure`
 - `spell like ability`
 - `spell like abilities`
 - `spell resistance`
 - `spell trigger`
+- `spell trigger item`
 - `supernatural ability`
 - `supernatural abilities`
 - `use activated`
@@ -86,5 +118,6 @@ Principles:
 ## Undead / Turning
 
 - `turn resistance`
+- `turning check`
 - `turn undead`
 - `turn or rebuke undead`

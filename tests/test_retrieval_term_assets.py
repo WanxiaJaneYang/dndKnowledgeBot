@@ -43,6 +43,10 @@ class RetrievalTermAssetTests(unittest.TestCase):
         self.assertIn("spell resistance", assets["protected_phrases"])
         self.assertIn("turn undead", assets["protected_phrases"])
         self.assertIn("hit points", assets["protected_phrases"])
+        self.assertIn("fortitude save", assets["protected_phrases"])
+        self.assertIn("touch armor class", assets["protected_phrases"])
+        self.assertIn("flat footed armor class", assets["protected_phrases"])
+        self.assertEqual(assets["canonical_aliases"]["bab"], "base attack bonus")
 
     def test_reviewed_runtime_assets_exclude_generic_structure_labels(self) -> None:
         assets = get_default_term_assets()

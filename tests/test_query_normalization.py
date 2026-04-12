@@ -58,6 +58,29 @@ class QueryNormalizationTests(unittest.TestCase):
             ["how", "does", "spell resistance", "work"],
         )
 
+    def test_expands_bab_alias_and_protects_base_attack_bonus(self) -> None:
+        result = normalize_query("fighter bab")
+
+        self.assertEqual(result["normalized_text"], "fighter base attack bonus")
+        self.assertEqual(result["tokens"], ["fighter", "base attack bonus"])
+        self.assertEqual(
+            result["alias_expansions"],
+            [{"source": "bab", "target": "base attack bonus"}],
+        )
+        self.assertEqual(result["protected_phrases"], ["base attack bonus", "attack bonus"])
+
+    def test_protects_touch_and_flat_footed_ac_terms(self) -> None:
+        touch = normalize_query("What is touch armor class?")
+        self.assertEqual(touch["protected_phrases"], ["touch armor class", "armor class"])
+        self.assertEqual(
+            touch["tokens"],
+            ["what", "is", "touch armor class"],
+        )
+
+        flat_footed = normalize_query("flat-footed armor class")
+        self.assertIn("flat footed armor class", flat_footed["protected_phrases"])
+        self.assertEqual(flat_footed["normalized_text"], "flat footed armor class")
+
     def test_reports_lightweight_query_mode(self) -> None:
         result = normalize_query("turn undead")
 
