@@ -1,0 +1,22 @@
+{
+  "ac": "armor class",
+  "aoo": "attack of opportunity",
+  "bab": "base attack bonus",
+  "cl": "caster level",
+  "con": "constitution",
+  "cr": "challenge rating",
+  "dc": "difficulty class",
+  "dex": "dexterity",
+  "dr": "damage reduction",
+  "ex": "extraordinary abilities",
+  "hd": "hit dice",
+  "hp": "hit points",
+  "int": "intelligence",
+  "ref": "reflex",
+  "sr": "spell resistance",
+  "sp": "spell like abilities",
+  "str": "strength",
+  "su": "supernatural abilities",
+  "wis": "wisdom",
+  "xp": "experience points"
+}
