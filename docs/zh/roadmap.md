@@ -25,7 +25,6 @@
 - [x] 实现 chunker — baseline section-passthrough strategy，`scripts/chunker/`、`tests/test_chunker.py`
 - [ ] 实现 lexical-first baseline retrieval pipeline（hard filters → normalization → BM25/FTS retrieval → evidence pack）
 - [ ] 增加一个可调试的 retrieval CLI / script，用来检查候选输出
-- [ ] 选择一个用于 grounded answer generation 的 baseline answer model
 - [ ] 实现带 grounding 约束的 answer generation
 - [ ] 实现 citation 渲染
 - [ ] 实现 abstain 行为

@@ -25,7 +25,6 @@
 - [x] Implement chunker — baseline section-passthrough strategy, `scripts/chunker/`, `tests/test_chunker.py`
 - [ ] Implement a lexical-first baseline retrieval pipeline (hard filters → normalization → BM25/FTS retrieval → evidence pack)
 - [ ] Add a thin retrieval-debug CLI / script for inspectable candidate output
-- [ ] Choose one baseline answer model for grounded answer generation
 - [ ] Implement answer generation with grounding constraint
 - [ ] Implement citation rendering
 - [ ] Implement abstention behavior
