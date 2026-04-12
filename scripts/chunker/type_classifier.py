@@ -54,15 +54,16 @@ def classify_chunk_type(section_path: list[str], content: str = "") -> str:
     else:
         root = _normalize(section_path[0])
         leaf = _normalize(section_path[-1])
-        if root == leaf or leaf.startswith(root) or root.startswith(leaf):
+        if root == leaf:
             chunk_type = "rule_section"
         else:
             chunk_type = "subsection"
 
-    assert chunk_type in _VALID_TYPES, (
-        f"classify_chunk_type returned {chunk_type!r} which is not in chunk.schema.json enum. "
-        "Update _VALID_TYPES or the classifier."
-    )
+    if chunk_type not in _VALID_TYPES:
+        raise ValueError(
+            f"classify_chunk_type returned {chunk_type!r} which is not in chunk.schema.json enum. "
+            "Update _VALID_TYPES or the classifier."
+        )
     return chunk_type
 
 

@@ -95,10 +95,10 @@ class ChunkPipelineTests(unittest.TestCase):
 
     def test_required_fields_present(self) -> None:
         chunks, _ = self._run_chunker()
-        required = {"chunk_id", "document_id", "source_ref", "locator", "chunk_type", "content"}
+        required = {"chunk_id", "document_id", "source_ref", "locator", "chunk_type", "content", "chunk_version"}
         for chunk in chunks:
             missing = required - set(chunk.keys())
-            self.assertFalse(missing, f"Chunk missing fields: {missing}\n{chunk.get('chunk_id', '<no chunk_id>')}")
+            self.assertFalse(missing, f"Chunk missing fields: {missing}\n{chunk.get('chunk_id', '<missing>')}")
 
     def test_chunk_id_is_stable_and_unique(self) -> None:
         chunks, _ = self._run_chunker()
@@ -167,16 +167,6 @@ class ChunkPipelineTests(unittest.TestCase):
                 f"Last chunk in {file_key} should have no next_chunk_id",
             )
 
-    def test_first_chunk_has_no_previous(self) -> None:
-        chunks, _ = self._run_chunker()
-        first = chunks[0]
-        self.assertNotIn("previous_chunk_id", first)
-
-    def test_last_chunk_has_no_next(self) -> None:
-        chunks, _ = self._run_chunker()
-        last = chunks[-1]
-        self.assertNotIn("next_chunk_id", last)
-
     def test_chunk_type_values_are_valid(self) -> None:
         valid_types = {
             "rule_section", "subsection", "spell_entry", "feat_entry",
@@ -219,12 +209,52 @@ class ChunkPipelineTests(unittest.TestCase):
                 force=True,
             )
 
+    def test_nonexistent_canonical_root_raises(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(FileNotFoundError):
+                chunk_source(
+                    canonical_root=Path(tmp) / "does_not_exist",
+                    output_root=Path(tmp) / "chunks",
+                    repo_root=REPO_ROOT,
+                )
+
+    def test_source_id_none_derives_from_canonical_docs(self) -> None:
+        # When source_id=None the pipeline should derive it from the canonical docs.
+        with tempfile.TemporaryDirectory() as tmp:
+            output_root = Path(tmp) / "chunks"
+            chunk_source(
+                canonical_root=FIXTURE_CANONICAL_ROOT,
+                output_root=output_root,
+                repo_root=REPO_ROOT,
+                source_id=None,
+            )
+            report = json.loads((output_root / "chunk_report.json").read_text(encoding="utf-8"))
+            chunks = [
+                json.loads(p.read_text(encoding="utf-8"))
+                for p in sorted(output_root.glob("*.json"))
+                if p.name != "chunk_report.json"
+            ]
+        self.assertEqual(report["source_id"], "srd_35_fixture")
+        for chunk in chunks:
+            self.assertEqual(chunk["source_ref"]["source_id"], report["source_id"])
+
+    def test_source_id_mismatch_raises(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(ValueError):
+                chunk_source(
+                    canonical_root=FIXTURE_CANONICAL_ROOT,
+                    output_root=Path(tmp) / "chunks",
+                    repo_root=REPO_ROOT,
+                    source_id="wrong_source_id",
+                )
+
     def test_report_contains_expected_fields(self) -> None:
         _, report = self._run_chunker()
-        for field in ("source_id", "chunked_at_utc", "strategy", "chunk_count", "records"):
+        for field in ("source_id", "chunked_at_utc", "strategy", "chunk_count", "records", "schema_validation"):
             self.assertIn(field, report)
         self.assertEqual(report["source_id"], "srd_35_fixture")
         self.assertEqual(report["strategy"], "v1-section-passthrough")
+        self.assertIn("enabled", report["schema_validation"])
 
     def test_dwarves_chunk_is_subsection(self) -> None:
         chunks, _ = self._run_chunker()

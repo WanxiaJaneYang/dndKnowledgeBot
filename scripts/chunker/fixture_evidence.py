@@ -55,5 +55,6 @@ def load_golden_chunk_outputs(repo_root: Path) -> dict:
     chunks = {
         path.name: json.loads(path.read_text(encoding="utf-8"))
         for path in sorted(chunks_root.glob("*.json"))
+        if path.name != "chunk_report.json"
     }
     return {"chunks": chunks}

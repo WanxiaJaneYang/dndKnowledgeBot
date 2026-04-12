@@ -7,6 +7,7 @@ assigns chunk metadata, types adjacency links, and validates the output.
 from __future__ import annotations
 
 import json
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -81,8 +82,6 @@ def chunk_source(
     Callers that accept user-supplied paths (e.g. the CLI) are responsible for
     validating that output_root is inside repo_root before calling with force=True.
     """
-    import shutil
-
     if not canonical_root.exists():
         raise FileNotFoundError(f"Canonical root not found: {canonical_root}")
 
@@ -125,7 +124,6 @@ def chunk_source(
 
     # Group by source file so adjacency links stay within the same file.
     # A cross-file link would imply context continuity that doesn't exist.
-    from itertools import groupby
     by_file: dict[str, list[tuple[str, dict]]] = {}
     for stem, doc in canonical_docs:
         key = _source_file_key(doc)
