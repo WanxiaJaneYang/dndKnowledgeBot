@@ -82,20 +82,24 @@ def _is_legal(section_path: list[str]) -> bool:
 
 
 def _is_legal_content(content: str) -> bool:
-    """Return True when the content's opening sentence is OGL boilerplate.
+    """Return True only when content is substantially OGL/license boilerplate.
 
-    Only the first sentence (up to the first '.' or newline) is checked so
-    that a substantive rule section that merely cites the OGL mid-text is
-    not demoted. A section whose *opening sentence* is the standard OGL
-    notice is almost certainly a boilerplate header, not a rules section.
+    The first sentence is checked for OGL phrases. If found, the remainder of
+    the content is inspected: if substantial rule content follows the OGL line
+    the section is NOT demoted. Only sections whose content is essentially
+    nothing but the OGL notice are classified as generic.
     """
-    # Extract the first sentence.
+    # Find end of first sentence.
     end = min(
         (content.find(c) for c in (".", "\n") if c in content),
         default=len(content),
     )
     first_sentence = content[: end + 1].lower()
-    return any(phrase in first_sentence for phrase in _LEGAL_PHRASES)
+    if not any(phrase in first_sentence for phrase in _LEGAL_PHRASES):
+        return False
+    # First sentence is OGL boilerplate — only demote if nothing substantial follows.
+    remainder = content[end + 1:].strip()
+    return len(remainder) < 50
 
 
 def _normalize(s: str) -> str:

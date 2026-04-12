@@ -40,6 +40,14 @@ class TypeClassifierTests(unittest.TestCase):
         ogl_content = "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a."
         self.assertEqual(classify_chunk_type(["Description", "Description"], ogl_content), "generic")
 
+    def test_ogl_prefix_does_not_demote_section_with_substantial_content(self) -> None:
+        # section_path looks like rule_section; content starts with OGL line but has real rule text after it
+        content = (
+            "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.\n"
+            "DIVINE MINIONS\nAll types of beings may serve deities."
+        )
+        self.assertEqual(classify_chunk_type(["DivineMinions", "DivineMinions"], content), "rule_section")
+
     def test_rule_content_not_demoted_by_incidental_ogl_mention(self) -> None:
         # A rule that merely cites OGL in the middle should not be demoted
         rule_content = "Dwarves have darkvision 60 ft. See Open Game License for reproduction rights."
