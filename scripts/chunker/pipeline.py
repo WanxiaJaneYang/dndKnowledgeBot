@@ -20,6 +20,24 @@ def _chunk_id(document_id: str) -> str:
     return f"chunk::{document_id}"
 
 
+def _source_file_key(doc: dict) -> str:
+    """Group key for within-file adjacency.
+
+    Adjacency links are only meaningful within the same source file —
+    a link crossing file boundaries would imply context continuity that
+    doesn't exist. Derive the key from source_location (the part before '#')
+    and fall back to section_path[0] when source_location is absent.
+    """
+    locator = doc.get("locator", {})
+    source_location = locator.get("source_location", "")
+    if source_location:
+        return source_location.split("#")[0]
+    section_path = locator.get("section_path", [])
+    if section_path:
+        return section_path[0]
+    return "__unknown__"
+
+
 def _build_chunk(
     canonical_doc: dict,
     *,
@@ -49,12 +67,21 @@ def chunk_source(
     canonical_root: Path,
     output_root: Path,
     repo_root: Path,
-    source_id: str,
+    source_id: str | None = None,
     *,
     force: bool = False,
     require_schema_validation: bool = False,
 ) -> dict:
-    """Read all canonical docs from canonical_root, produce chunks in output_root."""
+    """Read all canonical docs from canonical_root, produce chunks in output_root.
+
+    source_id is written to the chunk report. When None it is derived from
+    the canonical docs; when provided it must match every doc's source_ref.source_id.
+
+    Callers that accept user-supplied paths (e.g. the CLI) are responsible for
+    validating that output_root is inside repo_root before calling with force=True.
+    """
+    import shutil
+
     if not canonical_root.exists():
         raise FileNotFoundError(f"Canonical root not found: {canonical_root}")
 
@@ -64,7 +91,6 @@ def chunk_source(
             "Re-run with --force to regenerate."
         )
     if force and output_root.exists():
-        import shutil
         shutil.rmtree(output_root)
     output_root.mkdir(parents=True, exist_ok=True)
 
@@ -77,14 +103,42 @@ def chunk_source(
         doc = json.loads(path.read_text(encoding="utf-8"))
         canonical_docs.append((path.stem, doc))
 
-    # First pass: build chunk objects with adjacency.
-    chunks: list[dict] = []
-    n = len(canonical_docs)
-    for i, (stem, doc) in enumerate(canonical_docs):
-        prev_id = _chunk_id(canonical_docs[i - 1][1]["document_id"]) if i > 0 else None
-        next_id = _chunk_id(canonical_docs[i + 1][1]["document_id"]) if i < n - 1 else None
-        chunk = _build_chunk(doc, previous_chunk_id=prev_id, next_chunk_id=next_id)
-        chunks.append((stem, chunk))
+    # Derive or validate source_id from canonical docs so the report is
+    # always consistent with the chunk source_ref fields.
+    if canonical_docs:
+        canonical_source_ids = {doc["source_ref"]["source_id"] for _, doc in canonical_docs}
+        if len(canonical_source_ids) > 1:
+            raise ValueError(
+                f"Canonical docs contain multiple source_ids: {canonical_source_ids}. "
+                "chunk_source expects a single-source canonical root."
+            )
+        derived_source_id = canonical_source_ids.pop()
+        if source_id is not None and source_id != derived_source_id:
+            raise ValueError(
+                f"Provided source_id {source_id!r} does not match canonical docs "
+                f"source_ref.source_id {derived_source_id!r}."
+            )
+        source_id = derived_source_id
+    elif source_id is None:
+        source_id = "unknown"
+
+    # Group by source file so adjacency links stay within the same file.
+    # A cross-file link would imply context continuity that doesn't exist.
+    from itertools import groupby
+    by_file: dict[str, list[tuple[str, dict]]] = {}
+    for stem, doc in canonical_docs:
+        key = _source_file_key(doc)
+        by_file.setdefault(key, []).append((stem, doc))
+
+    # Build chunk objects with within-file adjacency only.
+    chunks: list[tuple[str, dict]] = []
+    for file_key, file_docs in by_file.items():
+        n = len(file_docs)
+        for i, (stem, doc) in enumerate(file_docs):
+            prev_id = _chunk_id(file_docs[i - 1][1]["document_id"]) if i > 0 else None
+            next_id = _chunk_id(file_docs[i + 1][1]["document_id"]) if i < n - 1 else None
+            chunk = _build_chunk(doc, previous_chunk_id=prev_id, next_chunk_id=next_id)
+            chunks.append((stem, chunk))
 
     # Validate before writing.
     chunked_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")

@@ -49,7 +49,7 @@ class TypeClassifierTests(unittest.TestCase):
 
 
 class ChunkPipelineTests(unittest.TestCase):
-    def _run_chunker(self, **kwargs) -> tuple[Path, dict]:
+    def _run_chunker(self, **kwargs) -> tuple[list[dict], dict]:
         with tempfile.TemporaryDirectory() as tmp:
             output_root = Path(tmp) / "chunks"
             result = chunk_source(
@@ -81,7 +81,7 @@ class ChunkPipelineTests(unittest.TestCase):
         required = {"chunk_id", "document_id", "source_ref", "locator", "chunk_type", "content"}
         for chunk in chunks:
             missing = required - set(chunk.keys())
-            self.assertFalse(missing, f"Chunk missing fields: {missing}\n{chunk['chunk_id']}")
+            self.assertFalse(missing, f"Chunk missing fields: {missing}\n{chunk.get('chunk_id', '<no chunk_id>')}")
 
     def test_chunk_id_is_stable_and_unique(self) -> None:
         chunks, _ = self._run_chunker()
@@ -106,6 +106,49 @@ class ChunkPipelineTests(unittest.TestCase):
             if "next_chunk_id" in chunk:
                 nxt = id_to_chunk[chunk["next_chunk_id"]]
                 self.assertEqual(nxt.get("previous_chunk_id"), chunk["chunk_id"])
+
+    def test_adjacency_never_crosses_source_files(self) -> None:
+        chunks, _ = self._run_chunker()
+        id_to_chunk = {c["chunk_id"]: c for c in chunks}
+
+        def source_file(chunk: dict) -> str:
+            loc = chunk.get("source_location", "")
+            if not loc:
+                loc = chunk["locator"].get("source_location", "")
+            return loc.split("#")[0] if loc else chunk["locator"].get("section_path", [""])[0]
+
+        for chunk in chunks:
+            chunk_file = source_file(chunk)
+            if "previous_chunk_id" in chunk:
+                prev = id_to_chunk[chunk["previous_chunk_id"]]
+                self.assertEqual(
+                    source_file(prev), chunk_file,
+                    f"previous_chunk_id crosses source files: {chunk['chunk_id']} -> {chunk['previous_chunk_id']}",
+                )
+            if "next_chunk_id" in chunk:
+                nxt = id_to_chunk[chunk["next_chunk_id"]]
+                self.assertEqual(
+                    source_file(nxt), chunk_file,
+                    f"next_chunk_id crosses source files: {chunk['chunk_id']} -> {chunk['next_chunk_id']}",
+                )
+
+    def test_first_and_last_per_file_have_no_cross_links(self) -> None:
+        chunks, _ = self._run_chunker()
+        # Group by source file.
+        by_file: dict[str, list[dict]] = {}
+        for chunk in chunks:
+            loc = chunk["locator"].get("source_location", "")
+            key = loc.split("#")[0] if loc else chunk["locator"].get("section_path", [""])[0]
+            by_file.setdefault(key, []).append(chunk)
+        for file_key, file_chunks in by_file.items():
+            self.assertNotIn(
+                "previous_chunk_id", file_chunks[0],
+                f"First chunk in {file_key} should have no previous_chunk_id",
+            )
+            self.assertNotIn(
+                "next_chunk_id", file_chunks[-1],
+                f"Last chunk in {file_key} should have no next_chunk_id",
+            )
 
     def test_first_chunk_has_no_previous(self) -> None:
         chunks, _ = self._run_chunker()

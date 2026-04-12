@@ -65,11 +65,24 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+def _assert_inside_repo(path: Path, repo_root: Path, label: str) -> None:
+    """Refuse to operate on a path that escapes the repository root."""
+    resolved = path.resolve()
+    resolved_repo = repo_root.resolve()
+    if resolved == resolved_repo:
+        raise SystemExit(f"Error: {label} must not be the repository root: {resolved}")
+    if resolved_repo not in resolved.parents:
+        raise SystemExit(f"Error: {label} is outside the repository root: {resolved}")
+
+
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     repo_root = args.repo_root.resolve()
     canonical_root = args.canonical_root if args.canonical_root.is_absolute() else (repo_root / args.canonical_root)
     output_root = args.output if args.output.is_absolute() else (repo_root / args.output)
+
+    if args.force:
+        _assert_inside_repo(output_root, repo_root, "--output")
 
     result = chunk_source(
         canonical_root=canonical_root,
