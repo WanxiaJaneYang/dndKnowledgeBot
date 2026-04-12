@@ -3,15 +3,8 @@ from __future__ import annotations
 
 import re
 
-ALIAS_MAP = {
-    "hp": "hit points",
-}
+from .term_assets import get_default_term_assets
 
-PROTECTED_PHRASES = (
-    "attack of opportunity",
-    "hit points",
-    "turn undead",
-)
 
 NATURAL_LANGUAGE_PREFIXES = (
     "what ",
@@ -26,6 +19,14 @@ NATURAL_LANGUAGE_PREFIXES = (
 
 def normalize_query(query: str) -> dict:
     """Normalize a user query into a thin retrieval-facing contract."""
+    assets = get_default_term_assets()
+    alias_map = assets["canonical_aliases"]
+    protectable_phrases = sorted(
+        set(assets["protected_phrases"]) | set(assets["surface_variants"]),
+        key=lambda item: len(item.split()),
+        reverse=True,
+    )
+
     applied_rules: list[str] = []
     alias_expansions: list[dict[str, str]] = []
 
@@ -52,7 +53,7 @@ def normalize_query(query: str) -> dict:
     normalized = collapsed
 
     alias_applied = False
-    for source, target in ALIAS_MAP.items():
+    for source, target in alias_map.items():
         pattern = re.compile(rf"(?<!\w){re.escape(source)}(?!\w)")
         if pattern.search(normalized):
             normalized = pattern.sub(target, normalized)
@@ -64,7 +65,7 @@ def normalize_query(query: str) -> dict:
         normalized = re.sub(r"\s+", " ", normalized).strip()
 
     protected_phrases = [
-        phrase for phrase in PROTECTED_PHRASES
+        phrase for phrase in protectable_phrases
         if re.search(rf"(?<!\w){re.escape(phrase)}(?!\w)", normalized)
     ]
     tokens = _tokenize_with_protected_phrases(normalized, protected_phrases)

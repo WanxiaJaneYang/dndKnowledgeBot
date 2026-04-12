@@ -4,9 +4,17 @@ from __future__ import annotations
 import unittest
 
 from scripts.retrieval import normalize_query
+from scripts.retrieval.term_assets import get_default_term_assets
 
 
 class QueryNormalizationTests(unittest.TestCase):
+    def test_uses_file_backed_term_assets(self) -> None:
+        assets = get_default_term_assets()
+
+        self.assertIn("spell resistance", assets["protected_phrases"])
+        self.assertIn("attacks of opportunity", assets["surface_variants"])
+        self.assertEqual(assets["canonical_aliases"]["hp"], "hit points")
+
     def test_normalizes_case_whitespace_and_punctuation(self) -> None:
         result = normalize_query("  What ARE   bonus feats?!  ")
 
@@ -39,6 +47,15 @@ class QueryNormalizationTests(unittest.TestCase):
         self.assertEqual(
             result["tokens"],
             ["how", "does", "attack of opportunity", "work"],
+        )
+
+    def test_protects_terms_loaded_from_reviewed_assets(self) -> None:
+        result = normalize_query("How does spell resistance work?")
+
+        self.assertEqual(result["protected_phrases"], ["spell resistance"])
+        self.assertEqual(
+            result["tokens"],
+            ["how", "does", "spell resistance", "work"],
         )
 
     def test_reports_lightweight_query_mode(self) -> None:
