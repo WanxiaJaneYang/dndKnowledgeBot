@@ -33,8 +33,17 @@ class TypeClassifierTests(unittest.TestCase):
         )
 
     def test_intro_section_is_rule_section(self) -> None:
-        # Leaf echoes root
         self.assertEqual(classify_chunk_type(["Races", "Races"]), "rule_section")
+
+    def test_ogl_content_overrides_rule_section_path(self) -> None:
+        # section_path alone looks like a rule_section intro, but content is OGL boilerplate
+        ogl_content = "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a."
+        self.assertEqual(classify_chunk_type(["Description", "Description"], ogl_content), "generic")
+
+    def test_rule_content_not_demoted_by_incidental_ogl_mention(self) -> None:
+        # A rule that merely cites OGL in the middle should not be demoted
+        rule_content = "Dwarves have darkvision 60 ft. See Open Game License for reproduction rights."
+        self.assertEqual(classify_chunk_type(["Races", "DWARVES"], rule_content), "subsection")
 
     def test_subsection_is_subsection(self) -> None:
         self.assertEqual(classify_chunk_type(["Races", "DWARVES"]), "subsection")

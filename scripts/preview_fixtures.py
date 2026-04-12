@@ -172,10 +172,17 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     repo_root = args.repo_root.resolve()
     evidence = run_fixture_ingestion(repo_root)
+
+    if args.update_golden:
+        # Write canonical golden outputs first so that run_fixture_chunking()
+        # reads the just-generated canonical fixtures, not the previous committed
+        # copies. Without this ordering, chunk evidence would be one generation
+        # behind after any ingestion change.
+        write_golden_outputs(repo_root, evidence)
+
     chunk_evidence = run_fixture_chunking(repo_root)
 
     if args.update_golden:
-        write_golden_outputs(repo_root, evidence)
         write_golden_chunk_outputs(repo_root, chunk_evidence)
 
     preview_md = build_preview_markdown(repo_root, evidence, chunk_evidence)

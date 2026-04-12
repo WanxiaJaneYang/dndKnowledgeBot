@@ -46,14 +46,15 @@ def _build_chunk(
 ) -> dict:
     document_id = canonical_doc["document_id"]
     section_path = canonical_doc.get("locator", {}).get("section_path", [])
+    content = canonical_doc.get("content", "")
 
     chunk: dict = {
         "chunk_id": _chunk_id(document_id),
         "document_id": document_id,
         "source_ref": canonical_doc["source_ref"],
         "locator": canonical_doc["locator"],
-        "chunk_type": classify_chunk_type(section_path),
-        "content": canonical_doc["content"],
+        "chunk_type": classify_chunk_type(section_path, content),
+        "content": content,
         "chunk_version": CHUNK_VERSION,
     }
     if previous_chunk_id is not None:

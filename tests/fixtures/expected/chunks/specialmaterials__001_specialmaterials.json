@@ -15,7 +15,7 @@
     ],
     "source_location": "SpecialMaterials.rtf#001_specialmaterials"
   },
-  "chunk_type": "rule_section",
+  "chunk_type": "generic",
   "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
   "chunk_version": "v1-section-passthrough",
   "next_chunk_id": "chunk::srd_35_fixture::specialmaterials::002_special_materials"

@@ -576,14 +576,14 @@ Total chunks: **24**
 
 | chunk_type | count |
 |---|---|
-| `generic` | 2 |
-| `rule_section` | 5 |
+| `generic` | 6 |
+| `rule_section` | 1 |
 | `subsection` | 17 |
 
 ### Sample Chunks
 
 **`chunk::srd_35_fixture::description::001_description`**
-- chunk_type: `rule_section`
+- chunk_type: `generic`
 - section_path: `['Description', 'Description']`
 - prev: `—` / next: `chunk::srd_35_fixture::description::002_alignment`
 - content preview:

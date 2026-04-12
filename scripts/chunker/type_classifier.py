@@ -1,4 +1,4 @@
-"""Infer chunk_type from a canonical document's section_path."""
+"""Infer chunk_type from a canonical document's section_path and content."""
 from __future__ import annotations
 
 import re
@@ -31,17 +31,23 @@ _VALID_TYPES = {
 _TOKEN_RE = re.compile(r"[a-z0-9]+")
 
 
-def classify_chunk_type(section_path: list[str]) -> str:
-    """Return a chunk_type value for the given section_path.
+def classify_chunk_type(section_path: list[str], content: str = "") -> str:
+    """Return a chunk_type value for the given section_path and content.
 
     Phase 1 heuristics (simple, expandable):
-    - Legal / license text → generic
+    - Legal / license text → generic  (detected via section_path OR content)
     - Section intro where the leaf title echoes the root → rule_section
     - Everything else → subsection
+
+    Content is checked as a fallback for sections whose path looks substantive
+    but whose text is entirely OGL/license boilerplate (e.g. an intro section
+    whose first sentence is the standard OGL notice).
     """
     if not section_path:
         chunk_type = "generic"
     elif _is_legal(section_path):
+        chunk_type = "generic"
+    elif content and _is_legal_content(content):
         chunk_type = "generic"
     elif len(section_path) == 1:
         chunk_type = "rule_section"
@@ -73,6 +79,23 @@ def _is_legal(section_path: list[str]) -> bool:
     # Then check individual tokens.
     tokens = set(_TOKEN_RE.findall(joined_lower))
     return bool(tokens & _LEGAL_TOKENS)
+
+
+def _is_legal_content(content: str) -> bool:
+    """Return True when the content's opening sentence is OGL boilerplate.
+
+    Only the first sentence (up to the first '.' or newline) is checked so
+    that a substantive rule section that merely cites the OGL mid-text is
+    not demoted. A section whose *opening sentence* is the standard OGL
+    notice is almost certainly a boilerplate header, not a rules section.
+    """
+    # Extract the first sentence.
+    end = min(
+        (content.find(c) for c in (".", "\n") if c in content),
+        default=len(content),
+    )
+    first_sentence = content[: end + 1].lower()
+    return any(phrase in first_sentence for phrase in _LEGAL_PHRASES)
 
 
 def _normalize(s: str) -> str:

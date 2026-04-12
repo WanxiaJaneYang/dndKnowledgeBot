@@ -15,7 +15,7 @@
     ],
     "source_location": "Races.rtf#001_races"
   },
-  "chunk_type": "rule_section",
+  "chunk_type": "generic",
   "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
   "chunk_version": "v1-section-passthrough",
   "next_chunk_id": "chunk::srd_35_fixture::races::002_favored_class"
