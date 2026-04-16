@@ -7,7 +7,6 @@ from scripts.retrieval.filters import (
     apply_filters,
     build_constraints,
     RetrievalConstraints,
-    FilterResult,
 )
 
 
@@ -69,6 +68,22 @@ def test_build_constraints_skips_planned_later():
 def test_build_constraints_excluded_source_ids():
     c = build_constraints(excluded_source_ids=frozenset(["srd_35"]))
     assert "srd_35" in c.excluded_source_ids
+
+
+def test_build_constraints_rejects_empty_registry(tmp_path):
+    """An empty YAML file should raise a clear ValueError, not AttributeError."""
+    bad = tmp_path / "empty.yaml"
+    bad.write_text("", encoding="utf-8")
+    with pytest.raises(ValueError, match="must be a YAML mapping"):
+        build_constraints(registry_path=bad)
+
+
+def test_build_constraints_rejects_non_list_sources(tmp_path):
+    """A 'sources' key that isn't a list should raise a clear ValueError."""
+    bad = tmp_path / "bad.yaml"
+    bad.write_text("sources: not_a_list\n", encoding="utf-8")
+    with pytest.raises(ValueError, match="expected a list"):
+        build_constraints(registry_path=bad)
 
 
 # ── Accepts / rejects ───────────────────────────────────────────

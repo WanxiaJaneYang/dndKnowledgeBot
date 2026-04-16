@@ -7,6 +7,7 @@ authority-level, and source-exclusion filters before any scoring.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -84,13 +85,25 @@ def _extract_source_ref(chunk: dict[str, Any]) -> dict[str, Any]:
 
 
 def _load_source_registry(path: Path | None = None) -> list[dict]:
-    """Load source entries from source_registry.yaml."""
+    """Load and validate source entries from source_registry.yaml."""
     import yaml
 
     registry_path = path or SOURCE_REGISTRY
     with registry_path.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
-    return data.get("sources", [])
+
+    if not isinstance(data, dict):
+        raise ValueError(
+            f"Source registry at {registry_path} must be a YAML mapping "
+            f"with a 'sources' key, got {type(data).__name__}"
+        )
+    sources = data.get("sources", [])
+    if not isinstance(sources, list):
+        raise ValueError(
+            f"Source registry at {registry_path} has 'sources' of type "
+            f"{type(sources).__name__}, expected a list"
+        )
+    return sources
 
 
 def build_constraints(
@@ -128,13 +141,25 @@ def build_constraints(
     )
 
 
+@lru_cache(maxsize=1)
+def _default_constraints() -> RetrievalConstraints:
+    """Cached default constraints derived from source_registry.yaml.
+
+    Avoids re-parsing the registry on every per-query ``apply_filters``
+    call.  The registry is small and static at runtime, so a single
+    cached instance is safe.  Tests that mutate the registry can call
+    ``_default_constraints.cache_clear()``.
+    """
+    return build_constraints()
+
+
 def apply_filters(
     candidates: list[dict[str, Any]],
     constraints: RetrievalConstraints | None = None,
 ) -> FilterResult:
     """Apply hard filters to candidate chunks and return a FilterResult."""
     if constraints is None:
-        constraints = build_constraints()
+        constraints = _default_constraints()
 
     result = FilterResult(constraints=constraints)
     for i, candidate in enumerate(candidates):
