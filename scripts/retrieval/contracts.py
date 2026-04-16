@@ -2,7 +2,14 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Literal, TypedDict
+
+
+class MatchSignals(TypedDict):
+    exact_phrase_hits: list[str]
+    protected_phrase_hits: list[str]
+    section_path_hit: bool
+    token_overlap_count: int
 
 
 @dataclass(frozen=True)
@@ -35,8 +42,8 @@ class LexicalCandidate:
     document_id: str
     rank: int
     raw_score: float
-    score_direction: str
+    score_direction: Literal["lower_is_better", "higher_is_better"]
     chunk_type: str
     source_ref: dict[str, Any]
     locator: dict[str, Any]
-    match_signals: dict[str, Any]
+    match_signals: MatchSignals

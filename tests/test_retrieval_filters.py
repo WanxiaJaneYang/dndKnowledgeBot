@@ -10,8 +10,6 @@ from scripts.retrieval.filters import (
 )
 
 
-# ── Helpers ──────────────────────────────────────────────────────
-
 def _make_source_ref(edition="3.5e", source_type="srd", authority="official_reference", source_id="srd_35"):
     return {
         "source_id": source_id,
@@ -23,7 +21,6 @@ def _make_source_ref(edition="3.5e", source_type="srd", authority="official_refe
 
 
 def _chunk(edition="3.5e", source_type="srd", authority="official_reference", source_id="srd_35"):
-    """Build a realistic chunk matching data/chunks/srd_35/*.json shape."""
     return {
         "chunk_id": f"chunk::{source_id}::test::001",
         "document_id": f"{source_id}::test::001",
@@ -35,7 +32,6 @@ def _chunk(edition="3.5e", source_type="srd", authority="official_reference", so
 
 
 def _flat_meta(edition="3.5e", source_type="srd", authority="official_reference", source_id="srd_35"):
-    """Flat metadata dict (no source_ref nesting) for fallback tests."""
     return {
         "edition": edition,
         "source_type": source_type,
@@ -44,24 +40,17 @@ def _flat_meta(edition="3.5e", source_type="srd", authority="official_reference"
     }
 
 
-# ── Constraints from source registry ────────────────────────────
-
 def test_build_constraints_from_registry():
-    """Default constraints derive from source_registry.yaml."""
     c = build_constraints()
     assert isinstance(c, RetrievalConstraints)
-    # The only admitted (non-planned_later) source is srd_35
     assert "3.5e" in c.editions
     assert "srd" in c.source_types
     assert "official_reference" in c.authority_levels
 
 
 def test_build_constraints_skips_planned_later():
-    """planned_later sources should not widen the filter allowlists."""
     c = build_constraints()
-    # core_rulebook exists in registry but only on planned_later entries
     assert "core_rulebook" not in c.source_types
-    # official exists only on planned_later entries
     assert "official" not in c.authority_levels
 
 
@@ -71,7 +60,6 @@ def test_build_constraints_excluded_source_ids():
 
 
 def test_build_constraints_rejects_empty_registry(tmp_path):
-    """An empty YAML file should raise a clear ValueError, not AttributeError."""
     bad = tmp_path / "empty.yaml"
     bad.write_text("", encoding="utf-8")
     with pytest.raises(ValueError, match="must be a YAML mapping"):
@@ -79,14 +67,11 @@ def test_build_constraints_rejects_empty_registry(tmp_path):
 
 
 def test_build_constraints_rejects_non_list_sources(tmp_path):
-    """A 'sources' key that isn't a list should raise a clear ValueError."""
     bad = tmp_path / "bad.yaml"
     bad.write_text("sources: not_a_list\n", encoding="utf-8")
     with pytest.raises(ValueError, match="expected a list"):
         build_constraints(registry_path=bad)
 
-
-# ── Accepts / rejects ───────────────────────────────────────────
 
 @pytest.fixture
 def default_constraints():
@@ -124,8 +109,6 @@ def test_rejection_reason_none_when_accepted(default_constraints):
     assert default_constraints.rejection_reason(_chunk()) is None
 
 
-# ── apply_filters integration ────────────────────────────────────
-
 def test_apply_filters_separates_accepted_and_rejected():
     candidates = [
         _chunk(),
@@ -156,7 +139,6 @@ def test_apply_filters_not_empty_when_some_accepted():
 
 
 def test_apply_filters_with_flat_metadata():
-    """Flat dicts without source_ref still work via fallback."""
     candidates = [_flat_meta(), _flat_meta(edition="5e")]
     result = apply_filters(candidates)
     assert len(result.accepted) == 1
@@ -170,10 +152,7 @@ def test_apply_filters_empty_candidates():
     assert result.empty is True
 
 
-# ── Real corpus chunk ────────────────────────────────────────────
-
 def test_accepts_real_corpus_chunk(default_constraints):
-    """A chunk shaped exactly like data/chunks/srd_35/*.json must pass."""
     real_chunk = {
         "chunk_id": "chunk::srd_35::abilitiesandconditions::001_abilitiesandconditions",
         "document_id": "srd_35::abilitiesandconditions::001_abilitiesandconditions",
@@ -197,8 +176,6 @@ def test_accepts_real_corpus_chunk(default_constraints):
     assert default_constraints.rejection_reason(real_chunk) is None
 
 
-# ── Parametrized edition / source-type coverage ──────────────────
-
 @pytest.mark.parametrize("edition", ["3e", "4e", "5e", "5.1e", "2e"])
 def test_non_35e_editions_rejected_by_default(default_constraints, edition):
     assert default_constraints.accepts(_chunk(edition=edition)) is False
@@ -206,5 +183,4 @@ def test_non_35e_editions_rejected_by_default(default_constraints, edition):
 
 @pytest.mark.parametrize("source_type", ["curated_commentary", "personal_note", "core_rulebook"])
 def test_non_admitted_source_types_rejected(default_constraints, source_type):
-    """source_types only on planned_later entries are not admitted."""
     assert default_constraints.accepts(_chunk(source_type=source_type)) is False

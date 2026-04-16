@@ -4,7 +4,9 @@ from __future__ import annotations
 import json
 import sqlite3
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Iterable
+
+from .contracts import LexicalCandidate
 
 
 def build_chunk_index(db_path: Path, chunk_paths: Iterable[Path]) -> None:
@@ -18,8 +20,14 @@ def build_chunk_index(db_path: Path, chunk_paths: Iterable[Path]) -> None:
         connection.commit()
 
 
-def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> list[dict[str, Any]]:
-    """Run an FTS query and return hydrated top-k rows."""
+def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> list[LexicalCandidate]:
+    """Run an FTS query and return hydrated top-k rows.
+
+    ``query_text`` must already be a valid SQLite FTS5 MATCH expression.
+    This helper does not sanitize raw user input.
+    """
+    if top_k <= 0:
+        return []
     with sqlite3.connect(db_path) as connection:
         rows = connection.execute(
             """
@@ -41,20 +49,25 @@ def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> lis
             (query_text, top_k),
         ).fetchall()
 
-    hydrated: list[dict[str, Any]] = []
+    hydrated: list[LexicalCandidate] = []
     for rank, row in enumerate(rows, start=1):
         hydrated.append(
-            {
-                "chunk_id": row[0],
-                "document_id": row[1],
-                "section_path_text": row[2],
-                "chunk_type": row[3],
-                "source_ref": json.loads(row[4]),
-                "locator": json.loads(row[5]),
-                "content": row[6],
-                "raw_score": float(row[7]),
-                "rank": rank,
-            }
+            LexicalCandidate(
+                chunk_id=row[0],
+                document_id=row[1],
+                rank=rank,
+                raw_score=float(row[7]),
+                score_direction="lower_is_better",
+                chunk_type=row[3],
+                source_ref=json.loads(row[4]),
+                locator=json.loads(row[5]),
+                match_signals={
+                    "exact_phrase_hits": [],
+                    "protected_phrase_hits": [],
+                    "section_path_hit": False,
+                    "token_overlap_count": 0,
+                },
+            )
         )
     return hydrated
 
@@ -103,9 +116,9 @@ def _replace_rows(connection: sqlite3.Connection, chunk_paths: Iterable[Path]) -
         chunk = json.loads(Path(chunk_path).read_text(encoding="utf-8"))
         locator = chunk["locator"]
         source_ref = chunk["source_ref"]
-        section_path = locator.get("section_path", [])
+        section_path = locator["section_path"]
         section_path_text = " ".join(section_path)
-        source_layer = source_ref.get("source_type", "")
+        source_layer = source_ref["source_type"]
 
         connection.execute(
             """

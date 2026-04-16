@@ -7,7 +7,15 @@ from pathlib import Path
 
 import pytest
 
-from scripts.retrieval import LexicalCandidate, NormalizedQuery, normalize_query
+from scripts.retrieval import (
+    apply_filters,
+    build_constraints,
+    FilterResult,
+    LexicalCandidate,
+    NormalizedQuery,
+    RetrievalConstraints,
+    normalize_query,
+)
 from scripts.retrieval.lexical_index import _create_schema, build_chunk_index, search_chunk_index
 from scripts.retrieval.match_signals import build_match_signals
 
@@ -114,6 +122,14 @@ def test_contract_exports_lexical_types() -> None:
     assert candidate.score_direction == "lower_is_better"
 
 
+def test_package_exports_preserve_filter_symbols() -> None:
+    constraints = build_constraints()
+    result = apply_filters([])
+
+    assert isinstance(constraints, RetrievalConstraints)
+    assert isinstance(result, FilterResult)
+
+
 def test_from_query_normalization_adapts_real_payload() -> None:
     payload = normalize_query("fighter hp")
 
@@ -181,9 +197,63 @@ def test_search_chunk_index_returns_ranked_candidates_from_fts(tmp_path, sample_
     build_chunk_index(db_path, [aoo_path, turn_path])
     results = search_chunk_index(db_path, "\"attack of opportunity\"", top_k=2)
 
-    assert [result["rank"] for result in results] == [1]
-    assert results[0]["chunk_id"] == sample_chunk["chunk_id"]
-    assert results[0]["raw_score"] <= 0
+    assert [result.rank for result in results] == [1]
+    assert results[0].chunk_id == sample_chunk["chunk_id"]
+    assert results[0].raw_score <= 0
+
+
+def test_search_chunk_index_returns_empty_for_no_match(tmp_path, sample_chunk) -> None:
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "attack_of_opportunity.json", sample_chunk)
+
+    build_chunk_index(db_path, [chunk_path])
+    results = search_chunk_index(db_path, "\"turn undead\"", top_k=3)
+
+    assert results == []
+
+
+def test_search_chunk_index_returns_empty_for_zero_top_k(tmp_path, sample_chunk) -> None:
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "attack_of_opportunity.json", sample_chunk)
+
+    build_chunk_index(db_path, [chunk_path])
+
+    assert search_chunk_index(db_path, "\"attack of opportunity\"", top_k=0) == []
+
+
+def test_search_chunk_index_orders_multiple_candidates_by_bm25(tmp_path, sample_chunk) -> None:
+    db_path = tmp_path / "retrieval.db"
+    stronger = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::combat::010_turn_undead_dense",
+        "document_id": "srd_35::combat::010_turn_undead_dense",
+        "locator": {
+            "section_path": ["Combat", "Turning Checks"],
+            "source_location": "Combat.rtf#010_turn_undead_dense",
+        },
+        "content": "Turn undead lets a cleric turn undead. A turn undead attempt affects undead.",
+    }
+    weaker = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::combat::011_turn_undead_sparse",
+        "document_id": "srd_35::combat::011_turn_undead_sparse",
+        "locator": {
+            "section_path": ["Combat", "Turning"],
+            "source_location": "Combat.rtf#011_turn_undead_sparse",
+        },
+        "content": "A cleric can turn undead with divine power.",
+    }
+    stronger_path = _write_chunk(tmp_path / "stronger.json", stronger)
+    weaker_path = _write_chunk(tmp_path / "weaker.json", weaker)
+
+    build_chunk_index(db_path, [stronger_path, weaker_path])
+    results = search_chunk_index(db_path, "\"turn undead\"", top_k=2)
+
+    assert [result.chunk_id for result in results] == [
+        stronger["chunk_id"],
+        weaker["chunk_id"],
+    ]
+    assert results[0].raw_score <= results[1].raw_score
 
 
 def test_search_chunk_index_supports_real_corpus_turn_undead_recall(tmp_path) -> None:
@@ -194,7 +264,7 @@ def test_search_chunk_index_supports_real_corpus_turn_undead_recall(tmp_path) ->
     results = search_chunk_index(db_path, "\"turn undead\"", top_k=3)
 
     assert results
-    assert results[0]["chunk_id"] == "chunk::srd_35::combatii::029_turning_checks"
+    assert results[0].chunk_id == "chunk::srd_35::combatii::029_turning_checks"
 
 
 def test_search_chunk_index_supports_real_corpus_bonus_feats_recall(tmp_path) -> None:
@@ -205,7 +275,7 @@ def test_search_chunk_index_supports_real_corpus_bonus_feats_recall(tmp_path) ->
     results = search_chunk_index(db_path, "\"fighter bonus feats\"", top_k=3)
 
     assert results
-    assert results[0]["chunk_id"] == "chunk::srd_35::feats::004_fighter_bonus_feats"
+    assert results[0].chunk_id == "chunk::srd_35::feats::004_fighter_bonus_feats"
 
 
 def test_build_chunk_index_rebuilds_cleanly(tmp_path, sample_chunk) -> None:
@@ -230,7 +300,7 @@ def test_build_chunk_index_rebuilds_cleanly(tmp_path, sample_chunk) -> None:
     fresh = search_chunk_index(db_path, "\"turn undead\"", top_k=3)
 
     assert stale == []
-    assert fresh[0]["chunk_id"] == second_chunk["chunk_id"]
+    assert fresh[0].chunk_id == second_chunk["chunk_id"]
 
 
 def test_build_chunk_index_raises_on_malformed_chunk_shape(tmp_path) -> None:
