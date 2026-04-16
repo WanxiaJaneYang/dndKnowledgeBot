@@ -27,12 +27,12 @@ def build_match_signals(
     ]
 
     query_terms = {
-        token.casefold()
+        term
         for token in query.tokens
-        if token and " " not in token
+        for term in re.findall(r"\w+", token.casefold())
     }
-    content_terms = set(re.findall(r"\w+", content.casefold()))
-    token_overlap_count = len(query_terms & content_terms)
+    haystack_terms = set(re.findall(r"\w+", haystack))
+    token_overlap_count = len(query_terms & haystack_terms)
 
     return {
         "exact_phrase_hits": exact_phrase_hits,
