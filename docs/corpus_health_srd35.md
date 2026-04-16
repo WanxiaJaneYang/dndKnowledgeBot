@@ -1,6 +1,6 @@
 # SRD 3.5 Corpus Health Report
 
-> **English** | Generated after Issue #27 full-pipeline run.
+> **English** | [中文](zh/corpus_health_srd35.md) — Generated after Issue #27 full-pipeline run.
 
 ## Summary
 
