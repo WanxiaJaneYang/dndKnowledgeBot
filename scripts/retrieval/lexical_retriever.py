@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any
 
 from .contracts import LexicalCandidate, MatchSignals, NormalizedQuery
 from .filters import RetrievalConstraints, build_constraints
@@ -41,17 +40,17 @@ def _build_fts_expression(query: NormalizedQuery) -> str:
     return " OR ".join(parts)
 
 
-def _composite_score(raw_score: float, signals: dict[str, Any]) -> float:
+def _composite_score(raw_score: float, signals: MatchSignals) -> float:
     """Combine BM25 raw score with match-signal boosts.
 
     BM25 scores are lower-is-better (negative), so we subtract boosts
     to promote candidates with stronger domain signals.
     """
     score = raw_score
-    if signals.get("section_path_hit"):
+    if signals["section_path_hit"]:
         score -= _SECTION_PATH_BOOST
-    score -= len(signals.get("exact_phrase_hits", [])) * _EXACT_PHRASE_BOOST
-    score -= len(signals.get("protected_phrase_hits", [])) * _PROTECTED_PHRASE_BOOST
+    score -= len(signals["exact_phrase_hits"]) * _EXACT_PHRASE_BOOST
+    score -= len(signals["protected_phrase_hits"]) * _PROTECTED_PHRASE_BOOST
     return score
 
 
