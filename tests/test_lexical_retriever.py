@@ -115,3 +115,160 @@ def test_fts_expression_empty_tokens_returns_empty_string():
         aliases_applied=[],
     )
     assert _build_fts_expression(query) == ""
+
+
+# ---------------------------------------------------------------------------
+# Task 3: retrieve_lexical()
+# ---------------------------------------------------------------------------
+
+from scripts.retrieval import LexicalCandidate, build_constraints
+from scripts.retrieval.lexical_retriever import retrieve_lexical
+
+
+def test_retrieve_lexical_returns_candidates_with_populated_signals(tmp_path, sample_chunk):
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", sample_chunk)
+    build_chunk_index(db_path, [chunk_path])
+
+    query = NormalizedQuery(
+        raw_query="attack of opportunity",
+        normalized_text="attack of opportunity",
+        tokens=["attack of opportunity"],
+        protected_phrases=["attack of opportunity"],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert len(results) == 1
+    candidate = results[0]
+    assert isinstance(candidate, LexicalCandidate)
+    assert candidate.chunk_id == sample_chunk["chunk_id"]
+    assert candidate.rank == 1
+    assert candidate.match_signals["exact_phrase_hits"] == ["attack of opportunity"]
+    assert candidate.match_signals["protected_phrase_hits"] == ["attack of opportunity"]
+    assert candidate.match_signals["section_path_hit"] is True
+    assert candidate.match_signals["token_overlap_count"] >= 3
+
+
+def test_retrieve_lexical_filters_out_non_matching_editions(tmp_path, sample_chunk):
+    db_path = tmp_path / "retrieval.db"
+    chunk_5e = {
+        **sample_chunk,
+        "chunk_id": "chunk::phb_5e::combat::001",
+        "source_ref": {
+            **sample_chunk["source_ref"],
+            "source_id": "phb_5e",
+            "edition": "5e",
+            "source_type": "core_rulebook",
+            "authority_level": "official",
+        },
+    }
+    path_35 = _write_chunk(tmp_path / "aoo_35.json", sample_chunk)
+    path_5e = _write_chunk(tmp_path / "aoo_5e.json", chunk_5e)
+    build_chunk_index(db_path, [path_35, path_5e])
+
+    query = NormalizedQuery(
+        raw_query="attack of opportunity",
+        normalized_text="attack of opportunity",
+        tokens=["attack of opportunity"],
+        protected_phrases=["attack of opportunity"],
+        aliases_applied=[],
+    )
+    constraints = build_constraints()
+    results = retrieve_lexical(query, constraints=constraints, db_path=db_path, top_k=5)
+
+    assert all(r.source_ref["edition"] == "3.5e" for r in results)
+    assert len(results) == 1
+
+
+def test_retrieve_lexical_returns_empty_for_no_match(tmp_path, sample_chunk):
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", sample_chunk)
+    build_chunk_index(db_path, [chunk_path])
+
+    query = NormalizedQuery(
+        raw_query="psionics",
+        normalized_text="psionics",
+        tokens=["psionics"],
+        protected_phrases=[],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results == []
+
+
+def test_retrieve_lexical_empty_tokens_returns_empty(tmp_path, sample_chunk):
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", sample_chunk)
+    build_chunk_index(db_path, [chunk_path])
+
+    query = NormalizedQuery(
+        raw_query="",
+        normalized_text="",
+        tokens=[],
+        protected_phrases=[],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results == []
+
+
+def test_retrieve_lexical_respects_top_k(tmp_path, sample_chunk):
+    db_path = tmp_path / "retrieval.db"
+    chunks = []
+    for i in range(5):
+        chunk = {
+            **sample_chunk,
+            "chunk_id": f"chunk::srd_35::combat::{i:03d}_attack",
+            "document_id": f"srd_35::combat::{i:03d}_attack",
+            "content": f"An attack of opportunity is a melee attack variant {i}.",
+        }
+        chunks.append(_write_chunk(tmp_path / f"chunk_{i}.json", chunk))
+    build_chunk_index(db_path, chunks)
+
+    query = NormalizedQuery(
+        raw_query="attack of opportunity",
+        normalized_text="attack of opportunity",
+        tokens=["attack of opportunity"],
+        protected_phrases=["attack of opportunity"],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=3)
+
+    assert len(results) == 3
+    assert [r.rank for r in results] == [1, 2, 3]
+
+
+def test_retrieve_lexical_reranks_after_filtering(tmp_path, sample_chunk):
+    db_path = tmp_path / "retrieval.db"
+    chunk_35 = sample_chunk
+    chunk_5e = {
+        **sample_chunk,
+        "chunk_id": "chunk::phb_5e::combat::001",
+        "document_id": "phb_5e::combat::001",
+        "source_ref": {
+            **sample_chunk["source_ref"],
+            "source_id": "phb_5e",
+            "edition": "5e",
+            "source_type": "core_rulebook",
+            "authority_level": "official",
+        },
+    }
+    path_35 = _write_chunk(tmp_path / "aoo_35.json", chunk_35)
+    path_5e = _write_chunk(tmp_path / "aoo_5e.json", chunk_5e)
+    build_chunk_index(db_path, [path_35, path_5e])
+
+    query = NormalizedQuery(
+        raw_query="attack of opportunity",
+        normalized_text="attack of opportunity",
+        tokens=["attack of opportunity"],
+        protected_phrases=["attack of opportunity"],
+        aliases_applied=[],
+    )
+    constraints = build_constraints()
+    results = retrieve_lexical(query, constraints=constraints, db_path=db_path, top_k=5)
+
+    assert len(results) == 1
+    assert results[0].rank == 1
