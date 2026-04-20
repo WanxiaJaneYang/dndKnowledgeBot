@@ -7,6 +7,7 @@ from pathlib import Path
 import pytest
 
 from scripts.retrieval import NormalizedQuery
+from scripts.retrieval import normalize_query, retrieve_lexical as retrieve_lexical_public
 from scripts.retrieval.lexical_index import _search_raw, build_chunk_index
 
 
@@ -272,3 +273,76 @@ def test_retrieve_lexical_reranks_after_filtering(tmp_path, sample_chunk):
 
     assert len(results) == 1
     assert results[0].rank == 1
+
+
+# ---------------------------------------------------------------------------
+# Task 4: Real-corpus recall tests
+# ---------------------------------------------------------------------------
+
+from scripts.retrieval.lexical_retriever import retrieve_lexical
+
+
+def _build_index_with_real_chunks(db_path: Path, chunk_filenames: list[str]) -> None:
+    chunk_dir = Path("data/chunks/srd_35")
+    chunk_paths = [chunk_dir / name for name in chunk_filenames]
+    build_chunk_index(db_path, chunk_paths)
+
+
+def test_real_corpus_recall_turn_undead(tmp_path):
+    db_path = tmp_path / "retrieval.db"
+    _build_index_with_real_chunks(db_path, ["combatii__029_turning_checks.json"])
+
+    payload = normalize_query("turn undead")
+    query = NormalizedQuery.from_query_normalization(payload)
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results
+    assert results[0].chunk_id == "chunk::srd_35::combatii::029_turning_checks"
+    assert results[0].match_signals["token_overlap_count"] >= 2
+
+
+def test_real_corpus_recall_attack_of_opportunity(tmp_path):
+    db_path = tmp_path / "retrieval.db"
+    _build_index_with_real_chunks(db_path, [
+        "combati__001_combati.json",
+        "combati__002_how_combat_works.json",
+        "combati__014_attacks_of_opportunity.json",
+    ])
+
+    payload = normalize_query("attack of opportunity")
+    query = NormalizedQuery.from_query_normalization(payload)
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results
+    chunk_ids = [r.chunk_id for r in results]
+    assert "chunk::srd_35::combati::014_attacks_of_opportunity" in chunk_ids
+
+
+def test_real_corpus_recall_fighter_bonus_feats(tmp_path):
+    db_path = tmp_path / "retrieval.db"
+    _build_index_with_real_chunks(db_path, ["feats__004_fighter_bonus_feats.json"])
+
+    payload = normalize_query("fighter bonus feats")
+    query = NormalizedQuery.from_query_normalization(payload)
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results
+    assert results[0].chunk_id == "chunk::srd_35::feats::004_fighter_bonus_feats"
+    assert results[0].match_signals["token_overlap_count"] >= 2
+
+
+def test_retrieve_lexical_public_export(tmp_path, sample_chunk):
+    """Verify retrieve_lexical is importable from the package-level __init__."""
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", sample_chunk)
+    build_chunk_index(db_path, [chunk_path])
+
+    query = NormalizedQuery(
+        raw_query="attack of opportunity",
+        normalized_text="attack of opportunity",
+        tokens=["attack of opportunity"],
+        protected_phrases=["attack of opportunity"],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical_public(query, db_path=db_path, top_k=5)
+    assert len(results) == 1
