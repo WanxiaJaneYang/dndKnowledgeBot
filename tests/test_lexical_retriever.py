@@ -276,6 +276,110 @@ def test_retrieve_lexical_reranks_after_filtering(tmp_path, sample_chunk):
 
 
 # ---------------------------------------------------------------------------
+# Domain-aware reranking
+# ---------------------------------------------------------------------------
+
+
+def test_reranking_promotes_section_path_hit_over_content_only(tmp_path, sample_chunk):
+    """A chunk whose section path matches the query should rank above one
+    that only matches in content, even if BM25 scores are similar."""
+    db_path = tmp_path / "retrieval.db"
+
+    # This chunk mentions "turn undead" only in content — no section path match.
+    content_only = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::spells::001_content_only",
+        "document_id": "srd_35::spells::001_content_only",
+        "locator": {
+            "section_path": ["Spells", "Cleric Spells"],
+            "source_location": "Spells.rtf#001_content_only",
+        },
+        "content": "This ability allows the cleric to turn undead creatures using divine energy. "
+                   "Turn undead is a supernatural ability that uses turn undead checks.",
+    }
+
+    # This chunk has "turn undead" in the section path *and* content.
+    section_hit = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::combat::002_section_hit",
+        "document_id": "srd_35::combat::002_section_hit",
+        "locator": {
+            "section_path": ["Combat", "Turn Undead"],
+            "source_location": "Combat.rtf#002_section_hit",
+        },
+        "content": "A cleric can turn undead.",
+    }
+
+    path_content = _write_chunk(tmp_path / "content_only.json", content_only)
+    path_section = _write_chunk(tmp_path / "section_hit.json", section_hit)
+    build_chunk_index(db_path, [path_content, path_section])
+
+    query = NormalizedQuery(
+        raw_query="turn undead",
+        normalized_text="turn undead",
+        tokens=["turn undead"],
+        protected_phrases=["turn undead"],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert len(results) == 2
+    # The section-path-hit chunk should be ranked first despite potentially
+    # weaker BM25 (fewer repetitions of "turn undead" in content).
+    assert results[0].chunk_id == section_hit["chunk_id"]
+    assert results[0].match_signals["section_path_hit"] is True
+
+
+def test_reranking_promotes_protected_phrase_hit(tmp_path, sample_chunk):
+    """A chunk matching a protected phrase should rank above one with only
+    bare token overlap, given similar BM25 scores."""
+    db_path = tmp_path / "retrieval.db"
+
+    # Matches "fighter" and "base attack" tokens but does NOT contain the
+    # protected phrase "base attack bonus" as a unit.
+    partial = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::combat::001_partial",
+        "document_id": "srd_35::combat::001_partial",
+        "locator": {
+            "section_path": ["Combat", "Attack Actions"],
+            "source_location": "Combat.rtf#001_partial",
+        },
+        "content": "A fighter makes a base attack roll to determine whether the attack hits. "
+                   "The fighter base attack roll is base attack plus modifiers.",
+    }
+
+    # Contains the exact protected phrase "base attack bonus".
+    exact = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::combat::002_exact",
+        "document_id": "srd_35::combat::002_exact",
+        "locator": {
+            "section_path": ["Combat", "Base Attack Bonus"],
+            "source_location": "Combat.rtf#002_exact",
+        },
+        "content": "A fighter's base attack bonus increases with level.",
+    }
+
+    path_partial = _write_chunk(tmp_path / "partial.json", partial)
+    path_exact = _write_chunk(tmp_path / "exact.json", exact)
+    build_chunk_index(db_path, [path_partial, path_exact])
+
+    query = NormalizedQuery(
+        raw_query="fighter bab",
+        normalized_text="fighter base attack bonus",
+        tokens=["fighter", "base attack bonus"],
+        protected_phrases=["base attack bonus"],
+        aliases_applied=[{"source": "bab", "target": "base attack bonus"}],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert len(results) == 2
+    assert results[0].chunk_id == exact["chunk_id"]
+    assert results[0].match_signals["section_path_hit"] is True
+
+
+# ---------------------------------------------------------------------------
 # Task 4: Real-corpus recall tests
 # ---------------------------------------------------------------------------
 

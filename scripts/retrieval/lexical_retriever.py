@@ -2,14 +2,20 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import Any
 
-from .contracts import LexicalCandidate, NormalizedQuery
+from .contracts import LexicalCandidate, MatchSignals, NormalizedQuery
 from .filters import RetrievalConstraints, build_constraints
 from .lexical_index import _search_raw
 from .match_signals import build_match_signals
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DB_PATH = REPO_ROOT / "data" / "index" / "srd_35" / "lexical.db"
+
+# Signal boost weights (subtracted from BM25 score, which is lower-is-better).
+_SECTION_PATH_BOOST = 2.0
+_PROTECTED_PHRASE_BOOST = 1.0
+_EXACT_PHRASE_BOOST = 1.5
 
 
 def _build_fts_expression(query: NormalizedQuery) -> str:
@@ -33,6 +39,20 @@ def _build_fts_expression(query: NormalizedQuery) -> str:
         parts.insert(0, full_phrase)
 
     return " OR ".join(parts)
+
+
+def _composite_score(raw_score: float, signals: dict[str, Any]) -> float:
+    """Combine BM25 raw score with match-signal boosts.
+
+    BM25 scores are lower-is-better (negative), so we subtract boosts
+    to promote candidates with stronger domain signals.
+    """
+    score = raw_score
+    if signals.get("section_path_hit"):
+        score -= _SECTION_PATH_BOOST
+    score -= len(signals.get("exact_phrase_hits", [])) * _EXACT_PHRASE_BOOST
+    score -= len(signals.get("protected_phrase_hits", [])) * _PROTECTED_PHRASE_BOOST
+    return score
 
 
 def retrieve_lexical(
@@ -76,6 +96,7 @@ def retrieve_lexical(
             )
         )
 
+    candidates.sort(key=lambda c: _composite_score(c.raw_score, c.match_signals))
     truncated = candidates[:top_k]
     return [
         LexicalCandidate(
