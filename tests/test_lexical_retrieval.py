@@ -423,3 +423,21 @@ def test_build_match_signals_does_not_mark_exact_phrase_inside_larger_word(sampl
     signals = build_match_signals(query, chunk, "Combat Retreat")
 
     assert signals["exact_phrase_hits"] == []
+
+
+def test_build_match_signals_does_not_mark_protected_phrase_inside_larger_word(sample_chunk) -> None:
+    query = NormalizedQuery(
+        raw_query="turn",
+        normalized_text="turn",
+        tokens=["turn"],
+        protected_phrases=["turn"],
+        aliases_applied=[],
+    )
+    chunk = {
+        **sample_chunk,
+        "content": "Creatures can return to the fight after resting.",
+    }
+
+    signals = build_match_signals(query, chunk, "Combat Retreat")
+
+    assert signals["protected_phrase_hits"] == []

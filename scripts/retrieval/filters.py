@@ -132,6 +132,7 @@ def build_constraints(
 
 @lru_cache(maxsize=1)
 def _default_constraints() -> RetrievalConstraints:
+    """Cache registry-derived defaults; tests can clear via `_default_constraints.cache_clear()`."""
     return build_constraints()
 
 

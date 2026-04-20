@@ -23,7 +23,9 @@ def build_match_signals(
         exact_phrase_hits.append(query.normalized_text)
 
     protected_phrase_hits = [
-        phrase for phrase in query.protected_phrases if phrase.casefold() in haystack
+        phrase
+        for phrase in query.protected_phrases
+        if _contains_phrase_on_token_boundaries(haystack, phrase.casefold())
     ]
 
     query_terms = {
