@@ -84,6 +84,46 @@ def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> lis
     return hydrated
 
 
+def _search_raw(db_path: Path, query_text: str, *, top_k: int = 5) -> list[dict]:
+    """Return raw row dicts for signal hydration. Package-private."""
+    if top_k <= 0:
+        return []
+    with sqlite3.connect(db_path) as connection:
+        rows = connection.execute(
+            """
+            SELECT
+                chunk_metadata.chunk_id,
+                chunk_metadata.document_id,
+                chunk_metadata.section_path_text,
+                chunk_metadata.chunk_type,
+                chunk_metadata.source_ref_json,
+                chunk_metadata.locator_json,
+                chunk_metadata.content,
+                bm25(chunks_fts) AS raw_score
+            FROM chunks_fts
+            JOIN chunk_metadata ON chunk_metadata.chunk_id = chunks_fts.chunk_id
+            WHERE chunks_fts MATCH ?
+            ORDER BY raw_score ASC
+            LIMIT ?
+            """,
+            (query_text, top_k),
+        ).fetchall()
+
+    return [
+        {
+            "chunk_id": row[0],
+            "document_id": row[1],
+            "section_path_text": row[2],
+            "chunk_type": row[3],
+            "source_ref": json.loads(row[4]),
+            "locator": json.loads(row[5]),
+            "content": row[6],
+            "raw_score": float(row[7]),
+        }
+        for row in rows
+    ]
+
+
 def _create_schema(connection: sqlite3.Connection) -> None:
     connection.execute("DROP TABLE IF EXISTS chunk_metadata")
     connection.execute("DROP TABLE IF EXISTS chunks_fts")
