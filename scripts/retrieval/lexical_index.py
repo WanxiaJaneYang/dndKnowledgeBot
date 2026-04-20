@@ -5,6 +5,7 @@ import json
 import sqlite3
 from pathlib import Path
 from typing import Iterable
+from uuid import uuid4
 
 from .contracts import LexicalCandidate
 
@@ -13,11 +14,22 @@ def build_chunk_index(db_path: Path, chunk_paths: Iterable[Path]) -> None:
     """Create a lexical index database from chunk JSON files."""
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
+    temp_db_path = db_path.with_name(f"{db_path.name}.{uuid4().hex}.tmp")
+    connection: sqlite3.Connection | None = None
 
-    with sqlite3.connect(db_path) as connection:
+    try:
+        connection = sqlite3.connect(temp_db_path)
         _create_schema(connection)
         _replace_rows(connection, chunk_paths)
         connection.commit()
+        connection.close()
+        connection = None
+        temp_db_path.replace(db_path)
+    except Exception:
+        if connection is not None:
+            connection.close()
+        temp_db_path.unlink(missing_ok=True)
+        raise
 
 
 def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> list[LexicalCandidate]:

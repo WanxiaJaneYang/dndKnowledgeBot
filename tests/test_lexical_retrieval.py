@@ -312,6 +312,21 @@ def test_build_chunk_index_raises_on_malformed_chunk_shape(tmp_path) -> None:
         build_chunk_index(db_path, [broken_path])
 
 
+def test_build_chunk_index_preserves_existing_index_when_rebuild_fails(tmp_path, sample_chunk) -> None:
+    db_path = tmp_path / "retrieval.db"
+    good_path = _write_chunk(tmp_path / "good.json", sample_chunk)
+    broken_path = _write_chunk(tmp_path / "broken.json", {"chunk_id": "broken"})
+
+    build_chunk_index(db_path, [good_path])
+
+    with pytest.raises(KeyError):
+        build_chunk_index(db_path, [broken_path])
+
+    results = search_chunk_index(db_path, "\"attack of opportunity\"", top_k=3)
+
+    assert [result.chunk_id for result in results] == [sample_chunk["chunk_id"]]
+
+
 def test_create_schema_raises_when_fts5_is_unavailable(monkeypatch) -> None:
     class FakeConnection:
         def execute(self, sql: str):
@@ -390,3 +405,21 @@ def test_build_match_signals_counts_token_overlap_across_section_and_content(sam
     assert signals["protected_phrase_hits"] == []
     assert signals["section_path_hit"] is False
     assert signals["token_overlap_count"] == 3
+
+
+def test_build_match_signals_does_not_mark_exact_phrase_inside_larger_word(sample_chunk) -> None:
+    query = NormalizedQuery(
+        raw_query="turn",
+        normalized_text="turn",
+        tokens=["turn"],
+        protected_phrases=[],
+        aliases_applied=[],
+    )
+    chunk = {
+        **sample_chunk,
+        "content": "Creatures can return to the fight after resting.",
+    }
+
+    signals = build_match_signals(query, chunk, "Combat Retreat")
+
+    assert signals["exact_phrase_hits"] == []

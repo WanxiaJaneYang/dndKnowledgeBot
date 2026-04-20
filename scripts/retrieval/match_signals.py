@@ -19,7 +19,7 @@ def build_match_signals(
     lowered_section_path = section_path_text.casefold()
 
     exact_phrase_hits: list[str] = []
-    if normalized_text and normalized_text in haystack:
+    if _contains_phrase_on_token_boundaries(haystack, normalized_text):
         exact_phrase_hits.append(query.normalized_text)
 
     protected_phrase_hits = [
@@ -38,9 +38,15 @@ def build_match_signals(
         "exact_phrase_hits": exact_phrase_hits,
         "protected_phrase_hits": protected_phrase_hits,
         "section_path_hit": any(
-            phrase.casefold() in lowered_section_path
+            _contains_phrase_on_token_boundaries(lowered_section_path, phrase.casefold())
             for phrase in [query.normalized_text, *query.protected_phrases]
             if phrase
         ),
         "token_overlap_count": token_overlap_count,
     }
+
+
+def _contains_phrase_on_token_boundaries(haystack: str, phrase: str) -> bool:
+    if not phrase:
+        return False
+    return re.search(rf"(?<!\w){re.escape(phrase)}(?!\w)", haystack) is not None
