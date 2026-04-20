@@ -51,3 +51,67 @@ def test_search_raw_returns_row_data_with_content(tmp_path, sample_chunk):
     assert row["source_ref"] == sample_chunk["source_ref"]
     assert row["locator"] == sample_chunk["locator"]
     assert row["raw_score"] <= 0
+
+
+# ---------------------------------------------------------------------------
+# Task 2: _build_fts_expression()
+# ---------------------------------------------------------------------------
+
+from scripts.retrieval.lexical_retriever import _build_fts_expression
+
+
+def test_fts_expression_single_bare_token():
+    query = NormalizedQuery(
+        raw_query="fighter",
+        normalized_text="fighter",
+        tokens=["fighter"],
+        protected_phrases=[],
+        aliases_applied=[],
+    )
+    assert _build_fts_expression(query) == "fighter"
+
+
+def test_fts_expression_protected_phrase_quoted():
+    query = NormalizedQuery(
+        raw_query="hit points",
+        normalized_text="hit points",
+        tokens=["hit points"],
+        protected_phrases=["hit points"],
+        aliases_applied=[],
+    )
+    assert _build_fts_expression(query) == '"hit points"'
+
+
+def test_fts_expression_mixed_tokens_and_protected_phrases():
+    query = NormalizedQuery(
+        raw_query="fighter hp",
+        normalized_text="fighter hit points",
+        tokens=["fighter", "hit points"],
+        protected_phrases=["hit points"],
+        aliases_applied=[{"source": "hp", "target": "hit points"}],
+    )
+    result = _build_fts_expression(query)
+    assert result == '"fighter hit points" OR fighter OR "hit points"'
+
+
+def test_fts_expression_multiple_bare_tokens():
+    query = NormalizedQuery(
+        raw_query="melee damage",
+        normalized_text="melee damage",
+        tokens=["melee", "damage"],
+        protected_phrases=[],
+        aliases_applied=[],
+    )
+    result = _build_fts_expression(query)
+    assert result == '"melee damage" OR melee OR damage'
+
+
+def test_fts_expression_empty_tokens_returns_empty_string():
+    query = NormalizedQuery(
+        raw_query="",
+        normalized_text="",
+        tokens=[],
+        protected_phrases=[],
+        aliases_applied=[],
+    )
+    assert _build_fts_expression(query) == ""
