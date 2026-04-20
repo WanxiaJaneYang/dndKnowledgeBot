@@ -1,3 +1,4 @@
+from .contracts import LexicalCandidate, NormalizedQuery
 from .filters import (
     apply_filters,
     build_constraints,
@@ -12,7 +13,9 @@ __all__ = [
     "build_constraints",
     "FilterResult",
     "get_default_term_assets",
+    "LexicalCandidate",
     "load_term_assets",
     "normalize_query",
+    "NormalizedQuery",
     "RetrievalConstraints",
 ]

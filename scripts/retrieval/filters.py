@@ -25,11 +25,7 @@ class RetrievalConstraints:
     excluded_source_ids: frozenset[str]
 
     def accepts(self, chunk: dict[str, Any]) -> bool:
-        """Return True if chunk passes all hard filters.
-
-        Reads filter fields from ``source_ref`` (the real chunk shape)
-        and falls back to top-level keys for flat metadata dicts.
-        """
+        """Return True if chunk passes all hard filters."""
         ref = _extract_source_ref(chunk)
         edition = ref.get("edition", "")
         source_type = ref.get("source_type", "")
@@ -80,17 +76,15 @@ class FilterResult:
 
 
 def _extract_source_ref(chunk: dict[str, Any]) -> dict[str, Any]:
-    """Return the source_ref sub-dict, falling back to the chunk itself."""
     return chunk.get("source_ref", chunk)
 
 
 def _load_source_registry(path: Path | None = None) -> list[dict]:
-    """Load and validate source entries from source_registry.yaml."""
     import yaml
 
     registry_path = path or SOURCE_REGISTRY
-    with registry_path.open("r", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+    with registry_path.open("r", encoding="utf-8") as handle:
+        data = yaml.safe_load(handle)
 
     if not isinstance(data, dict):
         raise ValueError(
@@ -111,12 +105,7 @@ def build_constraints(
     registry_path: Path | None = None,
     excluded_source_ids: frozenset[str] | None = None,
 ) -> RetrievalConstraints:
-    """Derive constraints from the admitted sources in source_registry.yaml.
-
-    Only sources whose status is not ``planned_later`` contribute to
-    the allowlists.  This keeps the filter boundary in sync with what
-    the project has actually admitted — no second config to drift.
-    """
+    """Derive hard-filter constraints from admitted sources."""
     sources = _load_source_registry(registry_path)
 
     editions: set[str] = set()
@@ -128,10 +117,10 @@ def build_constraints(
             continue
         if edition := src.get("edition"):
             editions.add(edition)
-        if stype := src.get("source_type"):
-            source_types.add(stype)
-        if auth := src.get("authority_level"):
-            authority_levels.add(auth)
+        if source_type := src.get("source_type"):
+            source_types.add(source_type)
+        if authority_level := src.get("authority_level"):
+            authority_levels.add(authority_level)
 
     return RetrievalConstraints(
         editions=frozenset(editions),
@@ -143,13 +132,7 @@ def build_constraints(
 
 @lru_cache(maxsize=1)
 def _default_constraints() -> RetrievalConstraints:
-    """Cached default constraints derived from source_registry.yaml.
-
-    Avoids re-parsing the registry on every per-query ``apply_filters``
-    call.  The registry is small and static at runtime, so a single
-    cached instance is safe.  Tests that mutate the registry can call
-    ``_default_constraints.cache_clear()``.
-    """
+    """Cache registry-derived defaults; tests can clear via `_default_constraints.cache_clear()`."""
     return build_constraints()
 
 
@@ -162,12 +145,12 @@ def apply_filters(
         constraints = _default_constraints()
 
     result = FilterResult(constraints=constraints)
-    for i, candidate in enumerate(candidates):
+    for index, candidate in enumerate(candidates):
         reason = constraints.rejection_reason(candidate)
         if reason is None:
             result.accepted.append(candidate)
         else:
             result.rejected.append(candidate)
-            result.rejection_reasons[i] = reason
+            result.rejection_reasons[index] = reason
 
     return result
