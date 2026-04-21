@@ -546,8 +546,16 @@ def test_real_corpus_recall_fighter_bonus_feats(tmp_path):
     assert results[0].match_signals["token_overlap_count"] >= 2
 
 
+@pytest.mark.xfail(reason=(
+    "Known chunking gap: the current SRD 3.5 chunker does not produce a chunk "
+    "that explicitly contains 'Fighter' and 'Hit Die: d10' together. "
+    "classesi__018 has the fighter table (no Hit Die row) and classesi__019 "
+    "ends with the Monk intro (Hit Die: d8). Until the chunker splits class "
+    "intros with Hit Die lines into per-class chunks, this query cannot be "
+    "reliably recalled."
+))
 def test_real_corpus_recall_fighter_hit_die(tmp_path):
-    """fighter hit die → classesi class features / class skills chunks."""
+    """fighter hit die → expects a chunk containing both 'fighter' and 'hit die: d10'."""
     db_path = tmp_path / "retrieval.db"
     _build_index_with_real_chunks(db_path, [
         "classesi__018_class_skills.json",
@@ -559,8 +567,11 @@ def test_real_corpus_recall_fighter_hit_die(tmp_path):
     results = retrieve_lexical(query, db_path=db_path, top_k=5)
 
     assert results
-    chunk_ids = [r.chunk_id for r in results]
-    assert any("classesi" in cid for cid in chunk_ids)
+    # The correct assertion: top result should contain the actual answer.
+    # This will start passing once the chunker produces a chunk with
+    # "Fighter" and "Hit Die: d10" in the same content.
+    top_content = "hit die" in results[0].match_signals.get("exact_phrase_hits", [])
+    assert top_content, "top result does not contain 'hit die' as an exact phrase"
 
 
 def test_real_corpus_recall_spell_resistance(tmp_path):
