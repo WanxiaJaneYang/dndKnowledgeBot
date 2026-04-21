@@ -124,6 +124,21 @@ def test_consolidate_group_preserves_provenance():
     ]
 
 
+def test_consolidate_group_picks_best_rank_regardless_of_input_order():
+    """Even if the lower-ranked candidate appears first, the best-ranked wins."""
+    candidates = [
+        _make_candidate("chunk::002", "doc::combat", rank=5),
+        _make_candidate("chunk::001", "doc::combat", rank=1),
+    ]
+    group = _make_group("Combat", candidates)
+    result = consolidate_group(group)
+
+    assert result.size == 1
+    assert result.candidates[0].chunk_id == "chunk::001"
+    assert result.candidates[0].rank == 1
+    assert set(result.candidates[0].merged_chunk_ids) == {"chunk::001", "chunk::002"}
+
+
 def test_consolidate_group_empty():
     group = _make_group("Empty", [])
     result = consolidate_group(group)

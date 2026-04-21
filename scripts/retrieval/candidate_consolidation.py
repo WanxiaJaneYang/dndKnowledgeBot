@@ -51,10 +51,15 @@ class ConsolidatedGroup:
 
 
 def consolidate_group(group: CandidateGroup) -> ConsolidatedGroup:
-    """Consolidate a single candidate group by collapsing same-document duplicates."""
+    """Consolidate a single candidate group by collapsing same-document duplicates.
+
+    The first-seen candidate per document_id becomes the representative,
+    so candidates must be rank-ordered (ascending).  We sort defensively
+    rather than relying on the upstream contract.
+    """
     seen: dict[str, ConsolidatedCandidate] = {}
 
-    for candidate in group.candidates:
+    for candidate in sorted(group.candidates, key=lambda c: c.rank):
         doc_id = candidate.document_id
         if doc_id not in seen:
             seen[doc_id] = ConsolidatedCandidate(
