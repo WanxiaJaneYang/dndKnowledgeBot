@@ -18,6 +18,43 @@ _PROTECTED_PHRASE_BOOST = 1.0
 _EXACT_PHRASE_BOOST = 1.5
 _TOKEN_OVERLAP_BOOST = 0.1
 
+# Chunk-type prior: rule-bearing types get a boost, generic/unknown get none.
+# Keys must match the chunk_type enum in schemas/chunk.schema.json — a guard
+# test in test_lexical_retriever.py enforces this at CI time.
+#
+# Ordering rationale:
+#   rule_section (1.0) — top-level rule definitions, highest signal for rule lookups
+#   class_feature (0.8) — named mechanical features, almost always what a
+#       class-related query wants; ranked above individual entries because they
+#       carry more context per chunk
+#   feat/skill/spell/condition_entry (0.6) — discrete catalogue entries
+#   subsection (0.5) — general rule prose, common but less targeted
+#   errata_note (0.4) — authoritative corrections
+#   table, faq_note, glossary_entry (0.3) — supporting reference material
+#   paragraph_group (0.2) — contextual prose groupings
+#   example, sidebar (0.1) — illustrative, rarely the primary answer
+#   generic (0.0) — no signal (e.g. legal/license boilerplate)
+#
+# Most types beyond rule_section/subsection/generic are forward-looking; the
+# current Phase 1 classifier mostly emits those three.
+_CHUNK_TYPE_PRIOR: dict[str, float] = {
+    "rule_section": 1.0,
+    "class_feature": 0.8,
+    "feat_entry": 0.6,
+    "skill_entry": 0.6,
+    "spell_entry": 0.6,
+    "condition_entry": 0.6,
+    "subsection": 0.5,
+    "errata_note": 0.4,
+    "table": 0.3,
+    "faq_note": 0.3,
+    "glossary_entry": 0.3,
+    "paragraph_group": 0.2,
+    "example": 0.1,
+    "sidebar": 0.1,
+    "generic": 0.0,
+}
+
 
 def _build_fts_expression(query: NormalizedQuery) -> str:
     """Build an FTS5 MATCH expression from a normalized query.
@@ -38,7 +75,9 @@ def _build_fts_expression(query: NormalizedQuery) -> str:
     return " OR ".join(parts)
 
 
-def _composite_score(raw_score: float, signals: MatchSignals) -> float:
+def _composite_score(
+    raw_score: float, signals: MatchSignals, chunk_type: str = ""
+) -> float:
     """Combine BM25 raw score with match-signal boosts.
 
     BM25 scores are lower-is-better (negative), so we subtract boosts
@@ -50,6 +89,7 @@ def _composite_score(raw_score: float, signals: MatchSignals) -> float:
     score -= len(signals["exact_phrase_hits"]) * _EXACT_PHRASE_BOOST
     score -= len(signals["protected_phrase_hits"]) * _PROTECTED_PHRASE_BOOST
     score -= signals["token_overlap_count"] * _TOKEN_OVERLAP_BOOST
+    score -= _CHUNK_TYPE_PRIOR.get(chunk_type, 0.0)
     return score
 
 
@@ -94,7 +134,9 @@ def retrieve_lexical(
             )
         )
 
-    candidates.sort(key=lambda c: _composite_score(c.raw_score, c.match_signals))
+    candidates.sort(
+        key=lambda c: _composite_score(c.raw_score, c.match_signals, c.chunk_type)
+    )
     return [
         replace(c, rank=rank)
         for rank, c in enumerate(candidates[:top_k], start=1)
