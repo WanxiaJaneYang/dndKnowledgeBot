@@ -85,12 +85,45 @@ def test_search_raw_returns_row_data_with_content(tmp_path, sample_chunk):
 
 
 # ---------------------------------------------------------------------------
+# Stale DB detection
+# ---------------------------------------------------------------------------
+
+
+def test_search_raw_raises_on_stale_db(tmp_path):
+    """_search_raw raises RuntimeError when the DB lacks structure columns."""
+    db_path = tmp_path / "old.db"
+    import sqlite3
+    con = sqlite3.connect(db_path)
+    # Create an old-schema DB without structure columns.
+    con.execute("""
+        CREATE VIRTUAL TABLE chunks_fts USING fts5(
+            chunk_id UNINDEXED, document_id UNINDEXED, content,
+            section_path_text, chunk_type, source_id, edition, source_layer
+        )
+    """)
+    con.execute("""
+        CREATE TABLE chunk_metadata (
+            chunk_id TEXT PRIMARY KEY, document_id TEXT NOT NULL,
+            section_path_text TEXT NOT NULL, chunk_type TEXT NOT NULL,
+            source_id TEXT NOT NULL, edition TEXT NOT NULL,
+            source_layer TEXT NOT NULL, source_ref_json TEXT NOT NULL,
+            locator_json TEXT NOT NULL, content TEXT NOT NULL
+        )
+    """)
+    con.commit()
+    con.close()
+
+    with pytest.raises(RuntimeError, match="Stale lexical index"):
+        _search_raw(db_path, '"anything"', top_k=3)
+
+
+# ---------------------------------------------------------------------------
 # Structure metadata fields
 # ---------------------------------------------------------------------------
 
 
 def test_search_raw_returns_structure_fields(tmp_path, sample_chunk):
-    """_search_raw returns section_path, heading_level, and adjacency links."""
+    """_search_raw returns section_path, path_depth, and adjacency links."""
     chunk_with_links = {
         **sample_chunk,
         "previous_chunk_id": "chunk::srd_35::combat::000_intro",
@@ -106,7 +139,7 @@ def test_search_raw_returns_structure_fields(tmp_path, sample_chunk):
     assert len(rows) == 1
     row = rows[0]
     assert row["section_path"] == ["Combat", "Attack of Opportunity"]
-    assert row["heading_level"] == 2
+    assert row["path_depth"] == 2
     assert row["parent_chunk_id"] == "chunk::srd_35::combat::000_root"
     assert row["previous_chunk_id"] == "chunk::srd_35::combat::000_intro"
     assert row["next_chunk_id"] == "chunk::srd_35::combat::002_flanking"
@@ -126,11 +159,11 @@ def test_search_raw_returns_null_for_missing_optional_links(tmp_path, sample_chu
     assert row["previous_chunk_id"] is None
     assert row["next_chunk_id"] is None
     assert row["section_path"] == ["Combat", "Attack of Opportunity"]
-    assert row["heading_level"] == 2
+    assert row["path_depth"] == 2
 
 
-def test_heading_level_reflects_section_path_depth(tmp_path, sample_chunk):
-    """heading_level is derived from len(section_path)."""
+def test_path_depth_reflects_section_path_length(tmp_path, sample_chunk):
+    """path_depth is derived from len(section_path)."""
     deep_chunk = {
         **sample_chunk,
         "chunk_id": "chunk::srd_35::combat::deep",
@@ -147,8 +180,8 @@ def test_heading_level_reflects_section_path_depth(tmp_path, sample_chunk):
     rows = _search_raw(db_path, '"attack of opportunity"', top_k=5)
 
     by_id = {r["chunk_id"]: r for r in rows}
-    assert by_id[sample_chunk["chunk_id"]]["heading_level"] == 2
-    assert by_id["chunk::srd_35::combat::deep"]["heading_level"] == 3
+    assert by_id[sample_chunk["chunk_id"]]["path_depth"] == 2
+    assert by_id["chunk::srd_35::combat::deep"]["path_depth"] == 3
 
 
 # ---------------------------------------------------------------------------
