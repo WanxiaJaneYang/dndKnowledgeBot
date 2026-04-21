@@ -1,9 +1,11 @@
 """Post-retrieval candidate shaping: group raw lexical hits by section.
 
 Sits between retrieve_lexical() and the future evidence pack / consolidation
-layer.  Groups candidates by their section root (first element of section_path
-from the locator) so downstream consumers can reason about coverage per source
-section rather than a flat ranked list.
+layer.  Groups candidates by (document_id, section_root) so downstream
+consumers can reason about coverage per source section rather than a flat
+ranked list.  Using a composite key prevents unrelated sections from
+different documents or sources from being merged just because they share
+a top-level heading name (e.g. two different sources both called "Combat").
 """
 from __future__ import annotations
 
@@ -14,8 +16,9 @@ from .contracts import LexicalCandidate
 
 @dataclass
 class CandidateGroup:
-    """A cluster of related candidates sharing a section root."""
+    """A cluster of related candidates sharing a document and section root."""
 
+    document_id: str
     section_root: str
     candidates: list[LexicalCandidate]
     best_rank: int
@@ -28,7 +31,7 @@ class CandidateGroup:
 def shape_candidates(
     candidates: list[LexicalCandidate],
 ) -> list[CandidateGroup]:
-    """Group ranked candidates by section root.
+    """Group ranked candidates by (document_id, section_root).
 
     Returns groups sorted by the best (lowest) rank in each group.
     Candidates within each group preserve their original rank order.
@@ -36,15 +39,16 @@ def shape_candidates(
     if not candidates:
         return []
 
-    groups_by_root: dict[str, list[LexicalCandidate]] = {}
+    groups: dict[tuple[str, str], list[LexicalCandidate]] = {}
     for candidate in candidates:
-        root = _section_root(candidate)
-        groups_by_root.setdefault(root, []).append(candidate)
+        key = _group_key(candidate)
+        groups.setdefault(key, []).append(candidate)
 
     result: list[CandidateGroup] = []
-    for root, members in groups_by_root.items():
+    for (doc_id, root), members in groups.items():
         members.sort(key=lambda c: c.rank)
         group = CandidateGroup(
+            document_id=doc_id,
             section_root=root,
             candidates=members,
             best_rank=members[0].rank,
@@ -55,9 +59,8 @@ def shape_candidates(
     return result
 
 
-def _section_root(candidate: LexicalCandidate) -> str:
-    """Extract the section root from a candidate's locator."""
+def _group_key(candidate: LexicalCandidate) -> tuple[str, str]:
+    """Composite group key: (document_id, section_root)."""
     section_path = candidate.locator.get("section_path") or []
-    if section_path:
-        return section_path[0]
-    return ""
+    root = section_path[0] if section_path else ""
+    return (candidate.document_id, root)
