@@ -38,6 +38,30 @@ def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> lis
     ``query_text`` must already be a valid SQLite FTS5 MATCH expression.
     This helper does not sanitize raw user input.
     """
+    raw = _search_raw(db_path, query_text, top_k=top_k)
+    return [
+        LexicalCandidate(
+            chunk_id=row["chunk_id"],
+            document_id=row["document_id"],
+            rank=rank,
+            raw_score=row["raw_score"],
+            score_direction="lower_is_better",
+            chunk_type=row["chunk_type"],
+            source_ref=row["source_ref"],
+            locator=row["locator"],
+            match_signals={
+                "exact_phrase_hits": [],
+                "protected_phrase_hits": [],
+                "section_path_hit": False,
+                "token_overlap_count": 0,
+            },
+        )
+        for rank, row in enumerate(raw, start=1)
+    ]
+
+
+def _search_raw(db_path: Path, query_text: str, *, top_k: int = 5) -> list[dict]:
+    """Return raw row dicts for signal hydration. Package-private."""
     if top_k <= 0:
         return []
     with sqlite3.connect(db_path) as connection:
@@ -61,27 +85,19 @@ def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> lis
             (query_text, top_k),
         ).fetchall()
 
-    hydrated: list[LexicalCandidate] = []
-    for rank, row in enumerate(rows, start=1):
-        hydrated.append(
-            LexicalCandidate(
-                chunk_id=row[0],
-                document_id=row[1],
-                rank=rank,
-                raw_score=float(row[7]),
-                score_direction="lower_is_better",
-                chunk_type=row[3],
-                source_ref=json.loads(row[4]),
-                locator=json.loads(row[5]),
-                match_signals={
-                    "exact_phrase_hits": [],
-                    "protected_phrase_hits": [],
-                    "section_path_hit": False,
-                    "token_overlap_count": 0,
-                },
-            )
-        )
-    return hydrated
+    return [
+        {
+            "chunk_id": row[0],
+            "document_id": row[1],
+            "section_path_text": row[2],
+            "chunk_type": row[3],
+            "source_ref": json.loads(row[4]),
+            "locator": json.loads(row[5]),
+            "content": row[6],
+            "raw_score": float(row[7]),
+        }
+        for row in rows
+    ]
 
 
 def _create_schema(connection: sqlite3.Connection) -> None:
