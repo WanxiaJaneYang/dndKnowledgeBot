@@ -335,6 +335,45 @@ def test_reranking_promotes_section_path_hit_over_content_only(tmp_path, sample_
     assert results[0].match_signals["section_path_hit"] is True
 
 
+def test_reranking_promotes_rule_section_over_generic(tmp_path, sample_chunk):
+    """A rule_section chunk should rank above a generic chunk with the same
+    content and BM25 score, due to the chunk-type prior."""
+    db_path = tmp_path / "retrieval.db"
+
+    generic_chunk = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::legal::001_generic",
+        "document_id": "srd_35::legal::001_generic",
+        "chunk_type": "generic",
+        "content": "An attack of opportunity is a single melee attack.",
+    }
+
+    rule_chunk = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::combat::001_rule",
+        "document_id": "srd_35::combat::001_rule",
+        "chunk_type": "rule_section",
+        "content": "An attack of opportunity is a single melee attack.",
+    }
+
+    path_generic = _write_chunk(tmp_path / "generic.json", generic_chunk)
+    path_rule = _write_chunk(tmp_path / "rule.json", rule_chunk)
+    build_chunk_index(db_path, [path_generic, path_rule])
+
+    query = NormalizedQuery(
+        raw_query="attack of opportunity",
+        normalized_text="attack of opportunity",
+        tokens=["attack of opportunity"],
+        protected_phrases=["attack of opportunity"],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert len(results) == 2
+    assert results[0].chunk_type == "rule_section"
+    assert results[1].chunk_type == "generic"
+
+
 def test_reranking_promotes_protected_phrase_hit(tmp_path, sample_chunk):
     """A chunk matching a protected phrase should rank above one with only
     bare token overlap, given similar BM25 scores."""
@@ -416,6 +455,21 @@ def test_composite_score_all_signals_compound():
         "token_overlap_count": 3,
     }
     assert _composite_score(-1.0, all_signals) < _composite_score(-1.0, none)
+
+
+def test_composite_score_chunk_type_prior_rule_section_beats_generic():
+    base = {"exact_phrase_hits": [], "protected_phrase_hits": [], "section_path_hit": False, "token_overlap_count": 0}
+    assert _composite_score(-1.0, base, "rule_section") < _composite_score(-1.0, base, "generic")
+
+
+def test_composite_score_chunk_type_prior_subsection_beats_generic():
+    base = {"exact_phrase_hits": [], "protected_phrase_hits": [], "section_path_hit": False, "token_overlap_count": 0}
+    assert _composite_score(-1.0, base, "subsection") < _composite_score(-1.0, base, "generic")
+
+
+def test_composite_score_chunk_type_prior_unknown_type_gets_no_boost():
+    base = {"exact_phrase_hits": [], "protected_phrase_hits": [], "section_path_hit": False, "token_overlap_count": 0}
+    assert _composite_score(-1.0, base, "unknown_type") == _composite_score(-1.0, base, "generic")
 
 
 # ---------------------------------------------------------------------------
