@@ -18,7 +18,7 @@ class CandidateGroup:
 
     section_root: str
     candidates: list[LexicalCandidate]
-    best_rank: int = 0
+    best_rank: int
 
     @property
     def size(self) -> int:
@@ -57,7 +57,7 @@ def shape_candidates(
 
 def _section_root(candidate: LexicalCandidate) -> str:
     """Extract the section root from a candidate's locator."""
-    section_path = candidate.locator.get("section_path", [])
+    section_path = candidate.locator.get("section_path") or []
     if section_path:
         return section_path[0]
     return ""
