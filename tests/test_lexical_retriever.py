@@ -546,6 +546,82 @@ def test_real_corpus_recall_fighter_bonus_feats(tmp_path):
     assert results[0].match_signals["token_overlap_count"] >= 2
 
 
+def test_real_corpus_recall_fighter_hit_die(tmp_path):
+    """fighter hit die → classesi class features / class skills chunks."""
+    db_path = tmp_path / "retrieval.db"
+    _build_index_with_real_chunks(db_path, [
+        "classesi__018_class_skills.json",
+        "classesi__019_class_features.json",
+    ])
+
+    payload = normalize_query("fighter hit die")
+    query = NormalizedQuery.from_query_normalization(payload)
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results
+    chunk_ids = [r.chunk_id for r in results]
+    assert any("classesi" in cid for cid in chunk_ids)
+
+
+def test_real_corpus_recall_spell_resistance(tmp_path):
+    """spell resistance → abilitiesandconditions spell resistance chunks."""
+    db_path = tmp_path / "retrieval.db"
+    _build_index_with_real_chunks(db_path, [
+        "abilitiesandconditions__036_spell_resistance.json",
+        "abilitiesandconditions__037_when_spell_resistance_applies.json",
+    ])
+
+    payload = normalize_query("spell resistance")
+    query = NormalizedQuery.from_query_normalization(payload)
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results
+    chunk_ids = [r.chunk_id for r in results]
+    assert "chunk::srd_35::abilitiesandconditions::036_spell_resistance" in chunk_ids
+    assert all(r.match_signals["section_path_hit"] for r in results)
+
+
+def test_real_corpus_recall_base_attack_bonus(tmp_path):
+    """base attack bonus → combati attack bonus chunk."""
+    db_path = tmp_path / "retrieval.db"
+    _build_index_with_real_chunks(db_path, [
+        "combati__004_attack_roll.json",
+        "combati__005_attack_bonus.json",
+        "combati__006_damage.json",
+    ])
+
+    payload = normalize_query("base attack bonus")
+    query = NormalizedQuery.from_query_normalization(payload)
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results
+    assert results[0].chunk_id == "chunk::srd_35::combati::005_attack_bonus"
+    assert results[0].match_signals["token_overlap_count"] >= 2
+
+
+def test_real_corpus_recall_touch_attack(tmp_path):
+    """touch attack → combati armor class chunk (contains Touch Attacks subsection).
+
+    Note: the original seed query 'touch armor class' from #45 is treated as a
+    single protected phrase by the normalizer, producing no FTS hits because the
+    exact phrase doesn't appear in the corpus. 'touch attack' is the canonical
+    D&D 3.5 term and retrieves correctly.
+    """
+    db_path = tmp_path / "retrieval.db"
+    _build_index_with_real_chunks(db_path, [
+        "combati__003_combat_statistics.json",
+        "combati__007_armor_class.json",
+        "combati__008_hit_points.json",
+    ])
+
+    payload = normalize_query("touch attack")
+    query = NormalizedQuery.from_query_normalization(payload)
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert results
+    assert results[0].chunk_id == "chunk::srd_35::combati::007_armor_class"
+
+
 def test_retrieve_lexical_public_export(tmp_path, sample_chunk):
     """Verify retrieve_lexical is importable from the package-level __init__."""
     db_path = tmp_path / "retrieval.db"
