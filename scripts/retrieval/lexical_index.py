@@ -9,6 +9,16 @@ from uuid import uuid4
 
 from .contracts import LexicalCandidate
 
+# Columns that must exist in chunk_metadata for the current query contract.
+# Used to detect stale databases built before structure metadata was added.
+_REQUIRED_METADATA_COLUMNS = frozenset({
+    "section_path_json",
+    "path_depth",
+    "parent_chunk_id",
+    "previous_chunk_id",
+    "next_chunk_id",
+})
+
 
 def build_chunk_index(db_path: Path, chunk_paths: Iterable[Path]) -> None:
     """Create a lexical index database from chunk JSON files."""
@@ -65,6 +75,7 @@ def _search_raw(db_path: Path, query_text: str, *, top_k: int = 5) -> list[dict]
     if top_k <= 0:
         return []
     with sqlite3.connect(db_path) as connection:
+        _check_schema(connection)
         rows = connection.execute(
             """
             SELECT
@@ -75,7 +86,12 @@ def _search_raw(db_path: Path, query_text: str, *, top_k: int = 5) -> list[dict]
                 chunk_metadata.source_ref_json,
                 chunk_metadata.locator_json,
                 chunk_metadata.content,
-                bm25(chunks_fts) AS raw_score
+                bm25(chunks_fts) AS raw_score,
+                chunk_metadata.section_path_json,
+                chunk_metadata.path_depth,
+                chunk_metadata.parent_chunk_id,
+                chunk_metadata.previous_chunk_id,
+                chunk_metadata.next_chunk_id
             FROM chunks_fts
             JOIN chunk_metadata ON chunk_metadata.chunk_id = chunks_fts.chunk_id
             WHERE chunks_fts MATCH ?
@@ -95,9 +111,27 @@ def _search_raw(db_path: Path, query_text: str, *, top_k: int = 5) -> list[dict]
             "locator": json.loads(row[5]),
             "content": row[6],
             "raw_score": float(row[7]),
+            "section_path": json.loads(row[8]),
+            "path_depth": row[9],
+            "parent_chunk_id": row[10],
+            "previous_chunk_id": row[11],
+            "next_chunk_id": row[12],
         }
         for row in rows
     ]
+
+
+def _check_schema(connection: sqlite3.Connection) -> None:
+    """Raise if the database was built before structure metadata columns existed."""
+    cursor = connection.execute("PRAGMA table_info(chunk_metadata)")
+    existing_columns = {row[1] for row in cursor.fetchall()}
+    missing = _REQUIRED_METADATA_COLUMNS - existing_columns
+    if missing:
+        raise RuntimeError(
+            f"Stale lexical index: chunk_metadata is missing columns {sorted(missing)}. "
+            "Rebuild the index with `python scripts/chunk_srd_35.py` or "
+            "`build_chunk_index()`."
+        )
 
 
 def _create_schema(connection: sqlite3.Connection) -> None:
@@ -121,19 +155,39 @@ def _create_schema(connection: sqlite3.Connection) -> None:
     except sqlite3.OperationalError as exc:
         raise RuntimeError("SQLite FTS5 support is required for lexical retrieval.") from exc
 
+    # section_path_json and path_depth are denormalized from locator_json for
+    # query-time convenience.  The source of truth remains the chunk JSON /
+    # locator contract; these columns exist so the retriever can use structure
+    # without reparsing the opaque locator blob on every row.
+    #
+    # path_depth = len(section_path).  This is a lightweight structural hint,
+    # not a strict semantic heading level.  Once hierarchical chunking lands,
+    # section_path may represent "logical taxonomy + entry" rather than pure
+    # heading nesting, so consumers should treat this as path depth only.
+    #
+    # Adjacency links (previous/next_chunk_id) are indexed for future
+    # structure-aware retrieval.  Their interpretation may differ for
+    # parent-level versus child-level chunks once hierarchical chunking lands
+    # (e.g. parent adjacency reflects file order, child adjacency reflects
+    # local text continuity).
     connection.execute(
         """
         CREATE TABLE chunk_metadata (
             chunk_id TEXT PRIMARY KEY,
             document_id TEXT NOT NULL,
             section_path_text TEXT NOT NULL,
+            section_path_json TEXT NOT NULL,
+            path_depth INTEGER NOT NULL,
             chunk_type TEXT NOT NULL,
             source_id TEXT NOT NULL,
             edition TEXT NOT NULL,
             source_layer TEXT NOT NULL,
             source_ref_json TEXT NOT NULL,
             locator_json TEXT NOT NULL,
-            content TEXT NOT NULL
+            content TEXT NOT NULL,
+            parent_chunk_id TEXT,
+            previous_chunk_id TEXT,
+            next_chunk_id TEXT
         )
         """
     )
@@ -154,19 +208,26 @@ def _replace_rows(connection: sqlite3.Connection, chunk_paths: Iterable[Path]) -
                 chunk_id,
                 document_id,
                 section_path_text,
+                section_path_json,
+                path_depth,
                 chunk_type,
                 source_id,
                 edition,
                 source_layer,
                 source_ref_json,
                 locator_json,
-                content
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                content,
+                parent_chunk_id,
+                previous_chunk_id,
+                next_chunk_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 chunk["chunk_id"],
                 chunk["document_id"],
                 section_path_text,
+                json.dumps(section_path, ensure_ascii=True),
+                len(section_path),
                 chunk["chunk_type"],
                 source_ref["source_id"],
                 source_ref["edition"],
@@ -174,6 +235,9 @@ def _replace_rows(connection: sqlite3.Connection, chunk_paths: Iterable[Path]) -
                 json.dumps(source_ref, ensure_ascii=True, sort_keys=True),
                 json.dumps(locator, ensure_ascii=True, sort_keys=True),
                 chunk["content"],
+                chunk.get("parent_chunk_id"),
+                chunk.get("previous_chunk_id"),
+                chunk.get("next_chunk_id"),
             ),
         )
         connection.execute(
