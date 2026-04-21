@@ -115,6 +115,7 @@ class EntrySpan:
     slug: str        # "sanctuary"
     start: int       # char offset in section content
     end: int         # char offset (exclusive)
+    category: str    # logical root, e.g., "Spells", "Feats", "Skills"
 ```
 
 Detector registry (tried in order):
@@ -182,7 +183,7 @@ After (per-entry doc):
   "document_id": "srd_35::spellss::001_sanctuary",
   "document_title": "Sanctuary",
   "locator": {
-    "section_path": ["Spells S", "Sanctuary"],
+    "section_path": ["Spells", "Sanctuary"],
     "entry_title": "Sanctuary",
     "source_location": "SpellsS.rtf#001_sanctuary"
   },
@@ -195,12 +196,18 @@ Key field rules:
 - **`document_id`**: `{source_id}::{file_slug}::{index}_{entry_slug}`.
   Sequential index preserves source order.
 - **`document_title`**: The entry name.
-- **`section_path[0]`**: Human-readable file label (e.g., `"Spells S"`
-  not `"SpellsS"`). Uses `parent_section_title` from expanded entry.
+- **`section_path[0]`**: The **logical category** of the entry, not the
+  source filename. Use a stable semantic root that works across source
+  files: `"Spells"` (not `"Spells S"` or `"SpellsS"`), `"Feats"`,
+  `"Skills"`, `"Conditions"`. File-level provenance stays in
+  `source_location`. This keeps `section_path` as a source-structure
+  path usable for cross-file taxonomy, not a per-file label.
 - **`section_path[1]`**: Entry title.
 - **`entry_title`**: Populated in locator. Already defined in
   `common.schema.json` — no schema change needed.
-- **`source_location`**: `{file}.rtf#{index}_{entry_slug}`.
+- **`source_location`**: `{file}.rtf#{index}_{entry_slug}`. This is
+  where file grouping lives — it anchors provenance back to the specific
+  source file.
 
 ### 5.5 Preamble handling
 
@@ -208,7 +215,7 @@ Content before the first detected entry in a section (typically the OGL
 one-liner or an intro paragraph) becomes its own canonical doc with:
 
 - The original section-level identity (no `entry_title`)
-- `section_path`: `[file_label, section_title]` (existing behavior)
+- `section_path`: uses existing behavior (file_stem-based)
 - Index `001` in the file, with entries starting from `002`
 
 ### 5.6 Pipeline changes
@@ -221,8 +228,9 @@ sections = expand_entries(sections, file_slug)  # NEW
 ```
 
 The canonical doc emission loop gains one conditional — if a section dict
-contains `entry_title`, propagate it into the locator and use
-`parent_section_title` for `section_path[0]`.
+contains `entry_title`, propagate it into the locator. The
+`section_path[0]` uses the logical category name (e.g., `"Spells"`)
+provided by the detector, not the file stem.
 
 ### 5.7 Reporting
 
@@ -244,15 +252,41 @@ The existing `canonical_report.json` gains an optional
 }
 ```
 
-### 5.8 Schema impact
+### 5.8 Schema impact (Phase A)
 
-None. All fields used (`entry_title`, `section_path`, `source_location`)
-are already defined in `common.schema.json` and
-`canonical_document.schema.json`.
+No schema changes required. All fields used (`entry_title`,
+`section_path`, `source_location`) are already defined in
+`common.schema.json` and `canonical_document.schema.json`.
 
 ---
 
 ## 6. Phase B: Hierarchical chunking
+
+### 6.0 Schema and contract impact (Phase B)
+
+Phase B does not require new schema fields — `chunk.schema.json` already
+defines `parent_chunk_id`, `previous_chunk_id`, and `next_chunk_id`.
+
+However, the **behavioral contract expands significantly** even though
+the schema does not change:
+
+- **Parent vs child roles**: The pipeline now produces chunks with
+  distinct roles. A parent chunk is the full entry (citation-stable,
+  context-complete). A child chunk is a retrieval fragment (more
+  precise, but requires parent for full context). This role distinction
+  is implicit — it is encoded by the presence or absence of
+  `parent_chunk_id`, not by a dedicated field.
+- **Adjacency semantics split**: `previous_chunk_id` /
+  `next_chunk_id` now carry two different meanings depending on whether
+  the chunk is a parent (file-order convenience) or a child (genuine
+  content continuity). See §6.6.
+- **Retrieval consumption changes**: Downstream retrieval must
+  understand that a matched child should be consolidated with its parent
+  for citation and context assembly. This is a new behavioral
+  requirement on consumers, even though the wire format is unchanged.
+
+These contract expansions should be documented in `docs/metadata_contract.md`
+when Phase B is implemented. The schema itself remains sufficient.
 
 ### 6.1 When Phase B applies
 
@@ -294,18 +328,62 @@ def _build_chunks(canonical_doc, ...) -> list[dict]:
 
 ### 6.5 Child splitting strategy
 
-- Split at paragraph boundaries (double newline).
-- Target child size: 1K–2K chars.
-- Never split mid-paragraph.
-- Keep stat block fields together where possible (detect stat block
-  field patterns like `Level:`, `Components:`, `Casting Time:`).
+D&D entries are not generic prose — they have recurring micro-structure.
+The child splitter should prefer **structure-aware splits** over naive
+paragraph grouping. Recommended split order (try in priority):
+
+1. **Entry header + stat block child**: The entry name, school/type
+   line, and structured fields (Level, Components, Casting Time,
+   Duration, Range, etc. for spells; Prerequisite, Benefit, Normal,
+   Special for feats). This is a first-class intended split shape — not
+   a "nice to have." The stat block is the most frequently retrieved
+   fragment for lookup-style queries.
+
+2. **Description paragraph group(s)**: The narrative body text that
+   follows the stat block. Group consecutive paragraphs into children
+   targeting 1K–2K chars. Never split mid-paragraph.
+
+3. **Table or list child**: If the entry contains an obvious table
+   (pipe-delimited or tab-delimited rows) or a structured list, emit it
+   as its own child rather than merging it into a paragraph group.
+
+4. **Fallback paragraph grouping**: For entries without detectable
+   micro-structure, fall back to paragraph-boundary splitting at the
+   target size.
+
+Detection of stat block boundaries uses field-label patterns:
+- Spells: `Level:`, `Components:`, `Casting Time:`, `Range:`,
+  `Target:`, `Effect:`, `Area:`, `Duration:`, `Saving Throw:`,
+  `Spell Resistance:`
+- Feats: `Prerequisite:`, `Benefit:`, `Normal:`, `Special:`
+- Skills: `Check:`, `Action:`, `Try Again:`, `Special:`, `Synergy:`
+- Conditions: typically no stat block — description only
+
+The stat block ends at the first paragraph that does not start with a
+recognized field label.
 
 ### 6.6 Adjacency rules
 
-- **File-level adjacency**: Between parent chunks only (same as today's
-  chunk-to-chunk adjacency).
-- **Sibling adjacency**: Between children of the same parent.
-- Children do NOT link to children of adjacent parents.
+Two distinct kinds of adjacency, with different semantics:
+
+**Child sibling adjacency** (`previous_chunk_id` / `next_chunk_id`):
+Between children of the same parent. This represents genuine content
+continuity — a later paragraph follows an earlier one within the same
+entry. Retrieval can safely use sibling adjacency for context expansion.
+
+**Parent file-order adjacency** (`previous_chunk_id` / `next_chunk_id`
+on parent chunks): Between parent chunks from the same source file, in
+source order. This is a **file-order convenience link only** — it does
+NOT imply semantic continuity. Adjacent spell parents (Sanctuary →
+Searing Light → Secret Chest) happen to be in the same file, but are
+independent entries with no shared narrative.
+
+Retrieval and evidence-pack assembly must not treat parent file-order
+adjacency as "supportive semantic context." Grouping by
+`parent_chunk_id` (children → parent) is the correct consolidation
+axis — not grouping by adjacency chain.
+
+Children do NOT link to children of adjacent parents.
 
 ### 6.7 Report changes
 
