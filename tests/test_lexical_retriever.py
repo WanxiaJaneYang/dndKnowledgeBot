@@ -15,10 +15,30 @@ from scripts.retrieval import (
 )
 from scripts.retrieval.lexical_index import _search_raw, build_chunk_index
 from scripts.retrieval.lexical_retriever import (
+    _CHUNK_TYPE_PRIOR,
     _build_fts_expression,
     _composite_score,
     retrieve_lexical,
 )
+
+SCHEMA_PATH = Path(__file__).resolve().parents[1] / "schemas" / "chunk.schema.json"
+
+
+# ---------------------------------------------------------------------------
+# Schema / classifier drift guard
+# ---------------------------------------------------------------------------
+
+
+def test_chunk_type_prior_keys_match_schema_enum():
+    """Guard: _CHUNK_TYPE_PRIOR keys must stay in sync with chunk.schema.json."""
+    schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+    schema_enum = set(schema["properties"]["chunk_type"]["enum"])
+    prior_keys = set(_CHUNK_TYPE_PRIOR.keys())
+    assert prior_keys == schema_enum, (
+        f"Drift detected.\n"
+        f"  In schema but not in prior: {schema_enum - prior_keys}\n"
+        f"  In prior but not in schema: {prior_keys - schema_enum}"
+    )
 
 
 @pytest.fixture

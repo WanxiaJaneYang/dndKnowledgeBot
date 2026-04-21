@@ -19,21 +19,39 @@ _EXACT_PHRASE_BOOST = 1.5
 _TOKEN_OVERLAP_BOOST = 0.1
 
 # Chunk-type prior: rule-bearing types get a boost, generic/unknown get none.
+# Keys must match the chunk_type enum in schemas/chunk.schema.json — a guard
+# test in test_lexical_retriever.py enforces this at CI time.
+#
+# Ordering rationale:
+#   rule_section (1.0) — top-level rule definitions, highest signal for rule lookups
+#   class_feature (0.8) — named mechanical features, almost always what a
+#       class-related query wants; ranked above individual entries because they
+#       carry more context per chunk
+#   feat/skill/spell/condition_entry (0.6) — discrete catalogue entries
+#   subsection (0.5) — general rule prose, common but less targeted
+#   errata_note (0.4) — authoritative corrections
+#   table, faq_note, glossary_entry (0.3) — supporting reference material
+#   paragraph_group (0.2) — contextual prose groupings
+#   example, sidebar (0.1) — illustrative, rarely the primary answer
+#   generic (0.0) — no signal (e.g. legal/license boilerplate)
+#
+# Most types beyond rule_section/subsection/generic are forward-looking; the
+# current Phase 1 classifier mostly emits those three.
 _CHUNK_TYPE_PRIOR: dict[str, float] = {
     "rule_section": 1.0,
-    "subsection": 0.5,
     "class_feature": 0.8,
     "feat_entry": 0.6,
     "skill_entry": 0.6,
     "spell_entry": 0.6,
     "condition_entry": 0.6,
-    "table": 0.3,
-    "example": 0.1,
-    "sidebar": 0.1,
+    "subsection": 0.5,
     "errata_note": 0.4,
+    "table": 0.3,
     "faq_note": 0.3,
     "glossary_entry": 0.3,
     "paragraph_group": 0.2,
+    "example": 0.1,
+    "sidebar": 0.1,
     "generic": 0.0,
 }
 
