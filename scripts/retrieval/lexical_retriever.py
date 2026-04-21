@@ -1,6 +1,7 @@
 """End-to-end lexical retriever for Phase 1."""
 from __future__ import annotations
 
+from dataclasses import replace
 from pathlib import Path
 
 from .contracts import LexicalCandidate, MatchSignals, NormalizedQuery
@@ -15,27 +16,24 @@ DEFAULT_DB_PATH = REPO_ROOT / "data" / "index" / "srd_35" / "lexical.db"
 _SECTION_PATH_BOOST = 2.0
 _PROTECTED_PHRASE_BOOST = 1.0
 _EXACT_PHRASE_BOOST = 1.5
+_TOKEN_OVERLAP_BOOST = 0.1
 
 
 def _build_fts_expression(query: NormalizedQuery) -> str:
-    """Build an FTS5 MATCH expression from a normalized query."""
+    """Build an FTS5 MATCH expression from a normalized query.
+
+    All tokens are double-quoted to prevent FTS5 operator injection
+    (e.g. a bare ``not`` or ``and`` would be parsed as boolean operators).
+    """
     if not query.tokens:
         return ""
 
-    protected_set = set(query.protected_phrases)
-    parts: list[str] = []
-
-    for token in query.tokens:
-        if token in protected_set:
-            parts.append(f'"{token}"')
-        else:
-            parts.append(token)
+    parts: list[str] = [f'"{token}"' for token in query.tokens]
 
     # Prepend the full normalized text as a quoted phrase when it differs
     # from any single token — gives BM25 full-phrase match priority.
     if len(query.tokens) > 1:
-        full_phrase = f'"{query.normalized_text}"'
-        parts.insert(0, full_phrase)
+        parts.insert(0, f'"{query.normalized_text}"')
 
     return " OR ".join(parts)
 
@@ -51,6 +49,7 @@ def _composite_score(raw_score: float, signals: MatchSignals) -> float:
         score -= _SECTION_PATH_BOOST
     score -= len(signals["exact_phrase_hits"]) * _EXACT_PHRASE_BOOST
     score -= len(signals["protected_phrase_hits"]) * _PROTECTED_PHRASE_BOOST
+    score -= signals["token_overlap_count"] * _TOKEN_OVERLAP_BOOST
     return score
 
 
@@ -96,18 +95,7 @@ def retrieve_lexical(
         )
 
     candidates.sort(key=lambda c: _composite_score(c.raw_score, c.match_signals))
-    truncated = candidates[:top_k]
     return [
-        LexicalCandidate(
-            chunk_id=c.chunk_id,
-            document_id=c.document_id,
-            rank=rank,
-            raw_score=c.raw_score,
-            score_direction=c.score_direction,
-            chunk_type=c.chunk_type,
-            source_ref=c.source_ref,
-            locator=c.locator,
-            match_signals=c.match_signals,
-        )
-        for rank, c in enumerate(truncated, start=1)
+        replace(c, rank=rank)
+        for rank, c in enumerate(candidates[:top_k], start=1)
     ]

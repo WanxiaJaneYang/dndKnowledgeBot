@@ -6,9 +6,19 @@ from pathlib import Path
 
 import pytest
 
-from scripts.retrieval import NormalizedQuery
-from scripts.retrieval import normalize_query, retrieve_lexical as retrieve_lexical_public
+from scripts.retrieval import (
+    LexicalCandidate,
+    NormalizedQuery,
+    build_constraints,
+    normalize_query,
+    retrieve_lexical as retrieve_lexical_public,
+)
 from scripts.retrieval.lexical_index import _search_raw, build_chunk_index
+from scripts.retrieval.lexical_retriever import (
+    _build_fts_expression,
+    _composite_score,
+    retrieve_lexical,
+)
 
 
 @pytest.fixture
@@ -55,10 +65,8 @@ def test_search_raw_returns_row_data_with_content(tmp_path, sample_chunk):
 
 
 # ---------------------------------------------------------------------------
-# Task 2: _build_fts_expression()
+# _build_fts_expression()
 # ---------------------------------------------------------------------------
-
-from scripts.retrieval.lexical_retriever import _build_fts_expression
 
 
 def test_fts_expression_single_bare_token():
@@ -69,7 +77,7 @@ def test_fts_expression_single_bare_token():
         protected_phrases=[],
         aliases_applied=[],
     )
-    assert _build_fts_expression(query) == "fighter"
+    assert _build_fts_expression(query) == '"fighter"'
 
 
 def test_fts_expression_protected_phrase_quoted():
@@ -92,7 +100,7 @@ def test_fts_expression_mixed_tokens_and_protected_phrases():
         aliases_applied=[{"source": "hp", "target": "hit points"}],
     )
     result = _build_fts_expression(query)
-    assert result == '"fighter hit points" OR fighter OR "hit points"'
+    assert result == '"fighter hit points" OR "fighter" OR "hit points"'
 
 
 def test_fts_expression_multiple_bare_tokens():
@@ -104,7 +112,7 @@ def test_fts_expression_multiple_bare_tokens():
         aliases_applied=[],
     )
     result = _build_fts_expression(query)
-    assert result == '"melee damage" OR melee OR damage'
+    assert result == '"melee damage" OR "melee" OR "damage"'
 
 
 def test_fts_expression_empty_tokens_returns_empty_string():
@@ -119,11 +127,8 @@ def test_fts_expression_empty_tokens_returns_empty_string():
 
 
 # ---------------------------------------------------------------------------
-# Task 3: retrieve_lexical()
+# retrieve_lexical()
 # ---------------------------------------------------------------------------
-
-from scripts.retrieval import LexicalCandidate, build_constraints
-from scripts.retrieval.lexical_retriever import retrieve_lexical
 
 
 def test_retrieve_lexical_returns_candidates_with_populated_signals(tmp_path, sample_chunk):
@@ -380,10 +385,42 @@ def test_reranking_promotes_protected_phrase_hit(tmp_path, sample_chunk):
 
 
 # ---------------------------------------------------------------------------
-# Task 4: Real-corpus recall tests
+# _composite_score()
 # ---------------------------------------------------------------------------
 
-from scripts.retrieval.lexical_retriever import retrieve_lexical
+
+def test_composite_score_section_path_hit_beats_no_hit():
+    base = {"exact_phrase_hits": [], "protected_phrase_hits": [], "section_path_hit": False, "token_overlap_count": 0}
+    boosted = {**base, "section_path_hit": True}
+    assert _composite_score(-1.0, boosted) < _composite_score(-1.0, base)
+
+
+def test_composite_score_exact_phrase_hit_beats_no_hit():
+    base = {"exact_phrase_hits": [], "protected_phrase_hits": [], "section_path_hit": False, "token_overlap_count": 0}
+    boosted = {**base, "exact_phrase_hits": ["attack of opportunity"]}
+    assert _composite_score(-1.0, boosted) < _composite_score(-1.0, base)
+
+
+def test_composite_score_token_overlap_contributes():
+    base = {"exact_phrase_hits": [], "protected_phrase_hits": [], "section_path_hit": False, "token_overlap_count": 1}
+    more = {**base, "token_overlap_count": 5}
+    assert _composite_score(-1.0, more) < _composite_score(-1.0, base)
+
+
+def test_composite_score_all_signals_compound():
+    none = {"exact_phrase_hits": [], "protected_phrase_hits": [], "section_path_hit": False, "token_overlap_count": 0}
+    all_signals = {
+        "exact_phrase_hits": ["turn undead"],
+        "protected_phrase_hits": ["turn undead"],
+        "section_path_hit": True,
+        "token_overlap_count": 3,
+    }
+    assert _composite_score(-1.0, all_signals) < _composite_score(-1.0, none)
+
+
+# ---------------------------------------------------------------------------
+# Real-corpus recall tests
+# ---------------------------------------------------------------------------
 
 
 def _build_index_with_real_chunks(db_path: Path, chunk_filenames: list[str]) -> None:

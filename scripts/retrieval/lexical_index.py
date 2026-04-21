@@ -38,50 +38,26 @@ def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> lis
     ``query_text`` must already be a valid SQLite FTS5 MATCH expression.
     This helper does not sanitize raw user input.
     """
-    if top_k <= 0:
-        return []
-    with sqlite3.connect(db_path) as connection:
-        rows = connection.execute(
-            """
-            SELECT
-                chunk_metadata.chunk_id,
-                chunk_metadata.document_id,
-                chunk_metadata.section_path_text,
-                chunk_metadata.chunk_type,
-                chunk_metadata.source_ref_json,
-                chunk_metadata.locator_json,
-                chunk_metadata.content,
-                bm25(chunks_fts) AS raw_score
-            FROM chunks_fts
-            JOIN chunk_metadata ON chunk_metadata.chunk_id = chunks_fts.chunk_id
-            WHERE chunks_fts MATCH ?
-            ORDER BY raw_score ASC
-            LIMIT ?
-            """,
-            (query_text, top_k),
-        ).fetchall()
-
-    hydrated: list[LexicalCandidate] = []
-    for rank, row in enumerate(rows, start=1):
-        hydrated.append(
-            LexicalCandidate(
-                chunk_id=row[0],
-                document_id=row[1],
-                rank=rank,
-                raw_score=float(row[7]),
-                score_direction="lower_is_better",
-                chunk_type=row[3],
-                source_ref=json.loads(row[4]),
-                locator=json.loads(row[5]),
-                match_signals={
-                    "exact_phrase_hits": [],
-                    "protected_phrase_hits": [],
-                    "section_path_hit": False,
-                    "token_overlap_count": 0,
-                },
-            )
+    raw = _search_raw(db_path, query_text, top_k=top_k)
+    return [
+        LexicalCandidate(
+            chunk_id=row["chunk_id"],
+            document_id=row["document_id"],
+            rank=rank,
+            raw_score=row["raw_score"],
+            score_direction="lower_is_better",
+            chunk_type=row["chunk_type"],
+            source_ref=row["source_ref"],
+            locator=row["locator"],
+            match_signals={
+                "exact_phrase_hits": [],
+                "protected_phrase_hits": [],
+                "section_path_hit": False,
+                "token_overlap_count": 0,
+            },
         )
-    return hydrated
+        for rank, row in enumerate(raw, start=1)
+    ]
 
 
 def _search_raw(db_path: Path, query_text: str, *, top_k: int = 5) -> list[dict]:

@@ -22,12 +22,13 @@ def retrieve_lexical(
 
 It wires together the existing primitives in this order:
 
-1. **Build FTS expression** from `NormalizedQuery` — protected phrases as `"quoted phrases"`, remaining tokens OR'd
-2. **Over-fetch** from `search_chunk_index()` at `top_k * 2`
-3. **Compute real match signals** via `build_match_signals()` for each candidate
-4. **Apply hard filters** via `RetrievalConstraints.accepts()`
-5. **Truncate** to `top_k` and re-rank (1-indexed)
-6. **Return** `list[LexicalCandidate]` with populated signals
+1. **Build FTS expression** from `NormalizedQuery` — all tokens double-quoted to prevent FTS5 operator injection, joined with `OR`
+2. **Over-fetch** from `_search_raw()` at `top_k * 2`
+3. **Apply hard filters** via `RetrievalConstraints.accepts()`
+4. **Compute real match signals** via `build_match_signals()` for each candidate
+5. **Domain-aware rerank** via `_composite_score()` — combines BM25 with signal boosts (section path hit, exact/protected phrase hits, token overlap)
+6. **Truncate** to `top_k` and assign 1-indexed ranks
+7. **Return** `list[LexicalCandidate]` with populated signals
 
 The DB path defaults to `data/index/srd_35/lexical.db` relative to repo root.
 
@@ -36,14 +37,14 @@ The DB path defaults to `data/index/srd_35/lexical.db` relative to repo root.
 A private helper `_build_fts_expression(query: NormalizedQuery) -> str`:
 
 1. Start with `query.tokens` (already split with protected phrases preserved as multi-word tokens).
-2. For each token: if it appears in `query.protected_phrases`, wrap as `"quoted phrase"`. Otherwise emit as a bare term.
+2. Double-quote every token to prevent FTS5 operator injection (bare `not`, `and`, etc.).
 3. If the full `normalized_text` differs from any single token, prepend it as a quoted phrase so the full query gets phrase-match priority from BM25.
 4. Join all parts with `OR`.
 
 Example: query `"fighter hit points"` with protected phrase `"hit points"` and tokens `["fighter", "hit points"]` produces:
 
 ```
-"fighter hit points" OR fighter OR "hit points"
+"fighter hit points" OR "fighter" OR "hit points"
 ```
 
 Full-phrase matches rank highest via BM25, partial matches still recalled.
@@ -53,6 +54,17 @@ Full-phrase matches rank highest via BM25, partial matches still recalled.
 After FTS returns raw candidates, each candidate is hydrated with real match signals via `build_match_signals(query, chunk_dict, section_path_text)`.
 
 The existing `search_chunk_index()` returns `LexicalCandidate` with empty placeholder signals. Rather than changing that public API, the retriever uses a package-private variant that returns raw row data (including `content` and `section_path_text`) alongside the candidate fields. The retriever then constructs a minimal chunk dict from the row data and calls `build_match_signals()`.
+
+## Domain-Aware Reranking
+
+After match signals are computed, candidates are sorted by a composite score via `_composite_score(raw_score, signals)`. BM25 is lower-is-better, so boosts subtract from the score:
+
+- Section path hit: -2.0
+- Exact phrase hit: -1.5 per hit
+- Protected phrase hit: -1.0 per hit
+- Token overlap: -0.1 per overlapping term
+
+This keeps BM25 as the primary signal while letting domain-aware match signals promote candidates that are structurally or terminologically relevant.
 
 ## Hard Filter Strategy
 
@@ -87,5 +99,5 @@ New tests:
 - Semantic or vector retrieval
 - Reranking model
 - Hierarchical candidate shaping (#44)
-- Domain-aware scoring beyond match signals (#47)
+- Full domain-aware scoring model beyond lightweight composite reranking (#47)
 - Candidate deduplication (#34)
