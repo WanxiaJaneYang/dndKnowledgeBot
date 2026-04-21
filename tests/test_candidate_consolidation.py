@@ -46,8 +46,10 @@ def _make_candidate(
 def _make_group(
     section_root: str,
     candidates: list[LexicalCandidate],
+    document_id: str = "doc::test",
 ) -> CandidateGroup:
     return CandidateGroup(
+        document_id=document_id,
         section_root=section_root,
         candidates=candidates,
         best_rank=candidates[0].rank if candidates else 0,
