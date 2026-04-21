@@ -85,6 +85,73 @@ def test_search_raw_returns_row_data_with_content(tmp_path, sample_chunk):
 
 
 # ---------------------------------------------------------------------------
+# Structure metadata fields
+# ---------------------------------------------------------------------------
+
+
+def test_search_raw_returns_structure_fields(tmp_path, sample_chunk):
+    """_search_raw returns section_path, heading_level, and adjacency links."""
+    chunk_with_links = {
+        **sample_chunk,
+        "previous_chunk_id": "chunk::srd_35::combat::000_intro",
+        "next_chunk_id": "chunk::srd_35::combat::002_flanking",
+        "parent_chunk_id": "chunk::srd_35::combat::000_root",
+    }
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", chunk_with_links)
+    build_chunk_index(db_path, [chunk_path])
+
+    rows = _search_raw(db_path, '"attack of opportunity"', top_k=3)
+
+    assert len(rows) == 1
+    row = rows[0]
+    assert row["section_path"] == ["Combat", "Attack of Opportunity"]
+    assert row["heading_level"] == 2
+    assert row["parent_chunk_id"] == "chunk::srd_35::combat::000_root"
+    assert row["previous_chunk_id"] == "chunk::srd_35::combat::000_intro"
+    assert row["next_chunk_id"] == "chunk::srd_35::combat::002_flanking"
+
+
+def test_search_raw_returns_null_for_missing_optional_links(tmp_path, sample_chunk):
+    """Chunks without adjacency/parent fields index and return None."""
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", sample_chunk)
+    build_chunk_index(db_path, [chunk_path])
+
+    rows = _search_raw(db_path, '"attack of opportunity"', top_k=3)
+
+    assert len(rows) == 1
+    row = rows[0]
+    assert row["parent_chunk_id"] is None
+    assert row["previous_chunk_id"] is None
+    assert row["next_chunk_id"] is None
+    assert row["section_path"] == ["Combat", "Attack of Opportunity"]
+    assert row["heading_level"] == 2
+
+
+def test_heading_level_reflects_section_path_depth(tmp_path, sample_chunk):
+    """heading_level is derived from len(section_path)."""
+    deep_chunk = {
+        **sample_chunk,
+        "chunk_id": "chunk::srd_35::combat::deep",
+        "locator": {
+            "section_path": ["Combat", "Special Attacks", "Attack of Opportunity"],
+            "source_location": "Combat.rtf#deep",
+        },
+    }
+    db_path = tmp_path / "retrieval.db"
+    path_shallow = _write_chunk(tmp_path / "shallow.json", sample_chunk)
+    path_deep = _write_chunk(tmp_path / "deep.json", deep_chunk)
+    build_chunk_index(db_path, [path_shallow, path_deep])
+
+    rows = _search_raw(db_path, '"attack of opportunity"', top_k=5)
+
+    by_id = {r["chunk_id"]: r for r in rows}
+    assert by_id[sample_chunk["chunk_id"]]["heading_level"] == 2
+    assert by_id["chunk::srd_35::combat::deep"]["heading_level"] == 3
+
+
+# ---------------------------------------------------------------------------
 # _build_fts_expression()
 # ---------------------------------------------------------------------------
 
