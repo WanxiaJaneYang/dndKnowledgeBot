@@ -1,3 +1,8 @@
+from .candidate_consolidation import (
+    ConsolidatedCandidate,
+    ConsolidatedGroup,
+    consolidate_candidates,
+)
 from .candidate_shaping import CandidateGroup, shape_candidates
 from .contracts import LexicalCandidate, NormalizedQuery
 from .filters import (
@@ -14,6 +19,9 @@ __all__ = [
     "apply_filters",
     "build_constraints",
     "CandidateGroup",
+    "consolidate_candidates",
+    "ConsolidatedCandidate",
+    "ConsolidatedGroup",
     "FilterResult",
     "get_default_term_assets",
     "LexicalCandidate",
