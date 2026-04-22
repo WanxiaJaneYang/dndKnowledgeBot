@@ -1,3 +1,4 @@
+from .candidate_shaping import CandidateGroup, shape_candidates
 from .contracts import LexicalCandidate, NormalizedQuery
 from .filters import (
     apply_filters,
@@ -12,6 +13,7 @@ from .term_assets import get_default_term_assets, load_term_assets
 __all__ = [
     "apply_filters",
     "build_constraints",
+    "CandidateGroup",
     "FilterResult",
     "get_default_term_assets",
     "LexicalCandidate",
@@ -20,4 +22,5 @@ __all__ = [
     "NormalizedQuery",
     "retrieve_lexical",
     "RetrievalConstraints",
+    "shape_candidates",
 ]
