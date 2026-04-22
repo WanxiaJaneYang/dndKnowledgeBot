@@ -4,13 +4,19 @@ Operates on CandidateGroup objects from shape_candidates().  Reduces
 overlap-heavy candidate sets so the same evidence is not counted multiple
 times in the evidence pack.
 
-Phase 1 consolidation rules (applied per group):
+Phase 1 consolidation rule (applied per group):
 1. Same-document dedup: if multiple candidates come from the same
    document_id, keep only the highest-ranked one and record the others
    as merged.
 
-Provenance is preserved: ConsolidatedCandidate tracks all merged chunk_ids
-and the reason for merging, so debug/inspection can show what was dropped.
+Future consolidation rules (not yet implemented):
+- Near-duplicate collapse (content similarity)
+- Adjacent chunk consolidation (prev/next links)
+- Same-section grouping refinements
+
+Lightweight provenance is preserved: ConsolidatedCandidate tracks merged
+chunk_ids and the merge reason.  Dropped candidates' ranks, scores, and
+match signals are not retained — expand if needed for debugging.
 """
 from __future__ import annotations
 
@@ -50,7 +56,7 @@ class ConsolidatedGroup:
         return len(self.candidates)
 
 
-def consolidate_group(group: CandidateGroup) -> ConsolidatedGroup:
+def _consolidate_group(group: CandidateGroup) -> ConsolidatedGroup:
     """Consolidate a single candidate group by collapsing same-document duplicates.
 
     The first-seen candidate per document_id becomes the representative,
@@ -88,4 +94,4 @@ def consolidate_candidates(
 
     Returns consolidated groups in the same order as the input.
     """
-    return [consolidate_group(g) for g in groups]
+    return [_consolidate_group(g) for g in groups]

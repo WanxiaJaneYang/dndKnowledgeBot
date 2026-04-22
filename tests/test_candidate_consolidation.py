@@ -1,11 +1,10 @@
-"""Tests for candidate consolidation (issue #34)."""
+"""Tests for candidate consolidation (issue #34, Phase 1: same-document dedup)."""
 from __future__ import annotations
 
 from scripts.retrieval.candidate_consolidation import (
     ConsolidatedCandidate,
     ConsolidatedGroup,
     consolidate_candidates,
-    consolidate_group,
 )
 from scripts.retrieval.candidate_shaping import CandidateGroup
 from scripts.retrieval.contracts import LexicalCandidate
@@ -56,68 +55,68 @@ def _make_group(
     )
 
 
+def _consolidate_one(group: CandidateGroup) -> ConsolidatedGroup:
+    """Consolidate a single group via the public batch API."""
+    return consolidate_candidates([group])[0]
+
+
 # ---------------------------------------------------------------------------
-# consolidate_group
+# Same-document dedup
 # ---------------------------------------------------------------------------
 
 
-def test_consolidate_group_no_duplicates():
-    """All unique document_ids → nothing dropped."""
+def test_no_duplicates():
+    """All unique document_ids -> nothing dropped."""
     candidates = [
         _make_candidate("chunk::001", "doc::001", rank=1),
         _make_candidate("chunk::002", "doc::002", rank=2),
     ]
-    group = _make_group("Combat", candidates)
-    result = consolidate_group(group)
+    result = _consolidate_one(_make_group("Combat", candidates))
 
     assert result.size == 2
     assert result.dropped_count == 0
     assert all(c.merge_reason == "unique" for c in result.candidates)
 
 
-def test_consolidate_group_merges_same_document():
-    """Two candidates from the same document_id → merged into one."""
+def test_merges_same_document():
+    """Two candidates from the same document_id -> merged into one."""
     candidates = [
         _make_candidate("chunk::001", "doc::combat", rank=1),
         _make_candidate("chunk::002", "doc::combat", rank=2),
         _make_candidate("chunk::003", "doc::spells", rank=3),
     ]
-    group = _make_group("Combat", candidates)
-    result = consolidate_group(group)
+    result = _consolidate_one(_make_group("Combat", candidates))
 
     assert result.size == 2
     assert result.dropped_count == 1
 
-    # The representative should be the higher-ranked one
     combat_consolidated = [c for c in result.candidates if c.chunk_id == "chunk::001"][0]
     assert combat_consolidated.merged_chunk_ids == ["chunk::001", "chunk::002"]
     assert combat_consolidated.merge_reason == "same_document"
     assert combat_consolidated.rank == 1
 
 
-def test_consolidate_group_preserves_rank_order():
+def test_preserves_rank_order():
     """Consolidated candidates are sorted by rank."""
     candidates = [
         _make_candidate("chunk::003", "doc::spells", rank=3),
         _make_candidate("chunk::001", "doc::combat", rank=1),
         _make_candidate("chunk::002", "doc::combat", rank=2),
     ]
-    group = _make_group("Mixed", candidates)
-    result = consolidate_group(group)
+    result = _consolidate_one(_make_group("Mixed", candidates))
 
     ranks = [c.rank for c in result.candidates]
     assert ranks == sorted(ranks)
 
 
-def test_consolidate_group_preserves_provenance():
+def test_preserves_provenance():
     """All original chunk_ids are recorded in merged_chunk_ids."""
     candidates = [
         _make_candidate("chunk::001", "doc::combat", rank=1),
         _make_candidate("chunk::002", "doc::combat", rank=2),
         _make_candidate("chunk::003", "doc::combat", rank=3),
     ]
-    group = _make_group("Combat", candidates)
-    result = consolidate_group(group)
+    result = _consolidate_one(_make_group("Combat", candidates))
 
     assert result.size == 1
     assert result.dropped_count == 2
@@ -126,14 +125,13 @@ def test_consolidate_group_preserves_provenance():
     ]
 
 
-def test_consolidate_group_picks_best_rank_regardless_of_input_order():
+def test_picks_best_rank_regardless_of_input_order():
     """Even if the lower-ranked candidate appears first, the best-ranked wins."""
     candidates = [
         _make_candidate("chunk::002", "doc::combat", rank=5),
         _make_candidate("chunk::001", "doc::combat", rank=1),
     ]
-    group = _make_group("Combat", candidates)
-    result = consolidate_group(group)
+    result = _consolidate_one(_make_group("Combat", candidates))
 
     assert result.size == 1
     assert result.candidates[0].chunk_id == "chunk::001"
@@ -141,15 +139,14 @@ def test_consolidate_group_picks_best_rank_regardless_of_input_order():
     assert set(result.candidates[0].merged_chunk_ids) == {"chunk::001", "chunk::002"}
 
 
-def test_consolidate_group_empty():
-    group = _make_group("Empty", [])
-    result = consolidate_group(group)
+def test_empty_group():
+    result = _consolidate_one(_make_group("Empty", []))
     assert result.size == 0
     assert result.dropped_count == 0
 
 
 # ---------------------------------------------------------------------------
-# consolidate_candidates
+# Batch consolidation
 # ---------------------------------------------------------------------------
 
 
