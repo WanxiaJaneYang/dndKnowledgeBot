@@ -47,6 +47,7 @@ class ConsolidatedCandidate:
 class ConsolidatedGroup:
     """A CandidateGroup after consolidation."""
 
+    document_id: str
     section_root: str
     candidates: list[ConsolidatedCandidate]
     dropped_count: int = 0
@@ -81,6 +82,7 @@ def _consolidate_group(group: CandidateGroup) -> ConsolidatedGroup:
     dropped = len(group.candidates) - len(consolidated)
 
     return ConsolidatedGroup(
+        document_id=group.document_id,
         section_root=group.section_root,
         candidates=consolidated,
         dropped_count=dropped,
