@@ -29,12 +29,11 @@
   - [x] 基于 `(document_id, section_root)` 的 section-aware 候选聚合层（PR #64）
   - [x] 将 chunk adjacency 字段（`parent_chunk_id`、`previous_chunk_id`、`next_chunk_id`）贯穿到 `LexicalCandidate` 与 `search_chunk_index`（PR #67、#69）
   - [x] 扩展 recall-coverage 回归测试（PR #53）
-- [x] 增加一个可调试的 retrieval CLI / script，用来检查候选输出 — `scripts/retrieve_debug.py`（PR #66）
-- [x] retrieval 输出的 evidence-pack 契约（PR #66）
+- [x] retrieval 输出的 evidence-pack 契约 + 调试用 retrieval CLI — `scripts/retrieve_debug.py`（PR #66）
 - [ ] 实现带 grounding 约束的 answer generation
 - [ ] 实现 citation 渲染
 - [ ] 实现 abstain 行为
-- [ ] 在 Phase 0 测试集（`evals/phase1_gold.yaml`）上跑评测
+- [ ] 在 Phase 1 gold set（`evals/phase1_gold.yaml`）上跑评测
 
 ## Phase 2 - 质量提升
 

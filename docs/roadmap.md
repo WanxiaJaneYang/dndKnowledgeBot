@@ -29,12 +29,11 @@
   - [x] Section-aware candidate shaping layer keyed by `(document_id, section_root)` (PR #64)
   - [x] Chunk-adjacency fields (`parent_chunk_id`, `previous_chunk_id`, `next_chunk_id`) propagated through `LexicalCandidate` and `search_chunk_index` (PRs #67, #69)
   - [x] Recall-coverage tests expanded (PR #53)
-- [x] Add a thin retrieval-debug CLI / script for inspectable candidate output — `scripts/retrieve_debug.py` (PR #66)
-- [x] Evidence-pack contract for retrieval output (PR #66)
+- [x] Evidence-pack contract for retrieval output + retrieval-debug CLI — `scripts/retrieve_debug.py` (PR #66)
 - [ ] Implement answer generation with grounding constraint
 - [ ] Implement citation rendering
 - [ ] Implement abstention behavior
-- [ ] Run evaluation against the Phase 0 test set (`evals/phase1_gold.yaml`)
+- [ ] Run evaluation against the Phase 1 gold set (`evals/phase1_gold.yaml`)
 
 ## Phase 2 - Quality Improvements
 
