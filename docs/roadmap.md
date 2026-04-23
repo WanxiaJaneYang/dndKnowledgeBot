@@ -23,12 +23,18 @@
 - [x] Implement ingestion pipeline (extraction + normalization) — `scripts/ingest_srd35/`
 - [x] Add fixture corpus + golden outputs + preview evidence standard — `tests/fixtures/`, `docs/standards/pr_evidence.md`
 - [x] Implement chunker — baseline section-passthrough strategy, `scripts/chunker/`, `tests/test_chunker.py`
-- [ ] Implement a lexical-first baseline retrieval pipeline (hard filters → normalization → BM25/FTS retrieval → evidence pack)
-- [ ] Add a thin retrieval-debug CLI / script for inspectable candidate output
+- [x] Implement a lexical-first baseline retrieval pipeline (hard filters → normalization → BM25/FTS retrieval → evidence pack) — `scripts/retrieval/` (PR #49)
+  - [x] Chunk-type prior in domain-aware scoring (PR #52)
+  - [x] Structure-metadata indexing in the chunk index (PR #61)
+  - [x] Section-aware candidate shaping layer keyed by `(document_id, section_root)` (PR #64)
+  - [x] Chunk-adjacency fields (`parent_chunk_id`, `previous_chunk_id`, `next_chunk_id`) propagated through `LexicalCandidate` and `search_chunk_index` (PRs #67, #69)
+  - [x] Recall-coverage tests expanded (PR #53)
+- [x] Add a thin retrieval-debug CLI / script for inspectable candidate output — `scripts/retrieve_debug.py` (PR #66)
+- [x] Evidence-pack contract for retrieval output (PR #66)
 - [ ] Implement answer generation with grounding constraint
 - [ ] Implement citation rendering
 - [ ] Implement abstention behavior
-- [ ] Run evaluation against the Phase 0 test set
+- [ ] Run evaluation against the Phase 0 test set (`evals/phase1_gold.yaml`)
 
 ## Phase 2 - Quality Improvements
 
