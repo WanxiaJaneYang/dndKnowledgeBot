@@ -1,0 +1,43 @@
+# configs/content_types.yaml
+# Declarative content-type registry for entry detection.
+# Each entry binds a semantic identity to a shape family + parameters.
+# Adding a new content type or source: add an entry here, no code change.
+
+content_types:
+  - name: spell
+    category: Spells
+    chunk_type: spell_entry
+    shape: entry_with_statblock
+    shape_params:
+      max_title_len: 80
+      max_subtitle_len: 80
+      min_fields: 2
+      field_pattern: "^[A-Z][\\w '/-]+:"
+    file_match:
+      - "Spells*.rtf"
+      - "EpicSpells.rtf"
+      - "DivineDomainsandSpells.rtf"
+
+  - name: feat
+    category: Feats
+    chunk_type: feat_entry
+    shape: entry_with_statblock
+    shape_params:
+      max_title_len: 80
+      max_subtitle_len: 40
+      min_fields: 1
+      field_pattern: "^[A-Z][\\w '/-]+:"
+    file_match:
+      - "Feats.rtf"
+      - "EpicFeats.rtf"
+      - "DivineAbilitiesandFeats.rtf"
+
+  - name: condition
+    category: Conditions
+    chunk_type: condition_entry
+    shape: definition_list
+    shape_params:
+      min_blocks: 3
+      term_pattern: "^[A-Z][\\w '/-]*:\\s+\\S"
+    file_match:
+      - "AbilitiesandConditions.rtf"

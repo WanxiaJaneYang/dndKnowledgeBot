@@ -1,7 +1,11 @@
 from __future__ import annotations
 
+import json
 import unittest
 from pathlib import Path
+
+import jsonschema
+import yaml
 
 from scripts.ingest_srd35.content_types import (
     ContentTypeConfig,
@@ -91,6 +95,16 @@ class EligibleTypesForFileTests(unittest.TestCase):
             "Anything.rtf", [self.spell, self.always],
         )
         self.assertEqual([t.name for t in eligible], ["any"])
+
+
+class ContentTypesConfigValidatesAgainstSchemaTests(unittest.TestCase):
+    def test_shipped_config_validates(self) -> None:
+        repo_root = Path(__file__).resolve().parent.parent
+        with (repo_root / "configs" / "content_types.yaml").open("r", encoding="utf-8") as fh:
+            data = yaml.safe_load(fh)
+        with (repo_root / "schemas" / "content_types.schema.json").open("r", encoding="utf-8") as fh:
+            schema = json.load(fh)
+        jsonschema.validate(data, schema)
 
 
 if __name__ == "__main__":
