@@ -115,6 +115,17 @@ In practice, this means:
 
 A citation should attach to the claim it supports, not merely appear at the end of the whole answer without structure.
 
+### 9.1 Evidence pack to answer segments handoff
+
+In Phase 1, the binding between claims and citations is implemented as an evidence-pack handoff.
+
+`scripts/retrieval/evidence_pack.py` produces an `EvidencePack` whose `evidence` list contains `EvidenceItem`s carrying `chunk_id`, `source_ref`, `locator`, and content. Answer composition consumes this pack and emits an object shaped by `schemas/answer_with_citations.schema.json`:
+
+- Each element of `citations[]` reuses the evidence item's `chunk_id`, `source_ref`, and `locator`, adds an `excerpt`, and is assigned a stable `citation_id`.
+- Each element of `answer_segments[]` references one or more of those `citation_id`s through its `citation_ids` array.
+
+This is why citation objects are reusable across segments: one chunk may produce multiple citations (different narrowing `locator`s or excerpts), and one segment may cite several chunks. The schema enforces at least one `citation_id` per segment for grounded answers, and zero segments plus zero citations for `abstain` answers. See `docs/metadata_contract.md` for how `source_ref` and `locator` flow through the pipeline.
+
 ## 10. Direct support vs inference
 
 The system should distinguish between:

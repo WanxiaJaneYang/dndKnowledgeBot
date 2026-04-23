@@ -2,6 +2,8 @@
 
 **2743 chunks · 86 source files · v1-section-passthrough**
 
+> **Baseline snapshot.** This file is a baseline snapshot from Issue #27 (chunker version `v1-section-passthrough`). It may not reflect the current chunker state. Regenerate via the chunker pipeline when a PR materially changes chunk shape.
+
 Each entry:  then first 120 chars of content.
 
 ## Source File Summary

@@ -225,6 +225,16 @@ The following decisions are intentionally deferred:
 - exact context window requirements
 - exact performance targets for latency or hardware
 
+### 18.1 Phase 1 reference examples
+
+While the decisions above remain open, the schema example at `examples/answer_with_citations.example.json` is populated with concrete model names so the schema and its validators have an instantiable shape:
+
+- `embedding_model`: `nomic-embed-text-v1.5`
+- `answer_model`: `claude-sonnet-4-6`
+- `reranker_model`: `null`
+
+These are **operational example values**, not a commitment to any particular model family. The retrieval, answer, and citation contracts are designed so each role can be swapped independently (see §14) without touching the canonical corpus, chunk metadata, or citation policy.
+
 ## 19. Summary
 
 In one sentence:

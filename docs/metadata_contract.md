@@ -97,6 +97,30 @@ At least one of those must be present.
 }
 ```
 
+## Chunk Adjacency Fields
+
+`schemas/chunk.schema.json` sets `additionalProperties: false` and declares the following adjacency fields as optional string properties (not in `required`):
+
+- `parent_chunk_id` — parent chunk identifier when the chunk belongs to a larger entry or table.
+- `previous_chunk_id` — previous adjacent chunk identifier.
+- `next_chunk_id` — next adjacent chunk identifier.
+
+These are known, schema-defined fields — producers may omit them, but must not emit other custom adjacency fields under different names. Absence means the chunk is a boundary chunk (first or last in its section, or a top-level chunk with no parent).
+
+Adjacency fields support downstream reasoning that needs chunk context beyond a single retrieval hit — for example, consolidating adjacent chunks that jointly describe one rule, or surfacing a parent section when a spell entry is retrieved alone. They are also mirrored into the lexical retrieval index (see `scripts/retrieval/lexical_index.py`) so retrieval can read them without a separate chunk-object lookup.
+
+## Source Ref and Locator in Answer Segments
+
+`source_ref` and `locator` are defined once in `schemas/common.schema.json` and reused verbatim across canonical documents, chunks, and citations. This is the provenance chain that flows from ingestion to the final answer:
+
+1. Ingestion attaches a `source_ref` and `locator` to each canonical document.
+2. The chunker propagates them (possibly narrowing the `locator`) onto every emitted chunk.
+3. The retrieval layer preserves both fields on each evidence item (see `scripts/retrieval/evidence_pack.py::EvidenceItem`).
+4. The answer layer copies them into the `citations[]` entries of `schemas/answer_with_citations.schema.json`, each of which is a reusable object with `citation_id`, `chunk_id`, `source_ref`, `locator`, and `excerpt`.
+5. `answer_segments[].citation_ids` then reference those citation objects by id, binding claim text to preserved provenance.
+
+Because `source_ref` and `locator` keep the same shape end-to-end, answer rendering can resolve a cited segment back to the source without field translation. Narrowing within a chunk (e.g. a specific paragraph) lives in the citation-level `locator` and `excerpt`, not in a duplicate chunk record — see `docs/citation_policy.md` §5.
+
 ## Contract Application
 
 This contract is the normalization target for:
