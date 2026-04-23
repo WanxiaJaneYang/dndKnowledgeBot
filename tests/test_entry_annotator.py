@@ -125,5 +125,132 @@ class EntryWithStatblockBaselineDriftTests(unittest.TestCase):
         self.assertEqual(result[0].get("entry_role"), "title")
 
 
+CONDITION_CFG = ContentTypeConfig(
+    name="condition", category="Conditions", chunk_type="condition_entry",
+    shape="definition_list",
+    shape_params={
+        "min_blocks": 3,
+        "term_pattern": r"^[A-Z][\w '/-]*:\s+\S",
+    },
+    file_match=["AbilitiesandConditions.rtf"],
+)
+
+
+class DefinitionListTests(unittest.TestCase):
+    def test_three_conditions_detected(self) -> None:
+        blocks = [
+            _block("Blinded: cannot see", font_size=20, starts_with_bold=True),
+            _block("Confused: rolls d%",  font_size=20, starts_with_bold=True),
+            _block("Dazed: unable to act", font_size=20, starts_with_bold=True),
+        ]
+        result = annotate_entries(blocks, file_name="AbilitiesandConditions.rtf", content_types=[CONDITION_CFG])
+        roles = [b.get("entry_role") for b in result]
+        self.assertEqual(roles, ["definition", "definition", "definition"])
+        titles = [b["entry_title"] for b in result]
+        self.assertEqual(titles, ["Blinded", "Confused", "Dazed"])
+        indices = [b["entry_index"] for b in result]
+        self.assertEqual(indices, [0, 1, 2])
+
+    def test_below_min_blocks(self) -> None:
+        blocks = [
+            _block("Blinded: cannot see", font_size=20, starts_with_bold=True),
+            _block("Confused: rolls d%",  font_size=20, starts_with_bold=True),
+        ]
+        result = annotate_entries(blocks, file_name="AbilitiesandConditions.rtf", content_types=[CONDITION_CFG])
+        self.assertTrue(all("entry_index" not in b for b in result))
+
+    def test_size_change_breaks_run(self) -> None:
+        blocks = [
+            _block("Blinded: cannot see", font_size=20, starts_with_bold=True),
+            _block("Confused: rolls d%",  font_size=20, starts_with_bold=True),
+            _block("Dazed: unable to act", font_size=18, starts_with_bold=True),  # different size
+            _block("Frightened: flee",    font_size=18, starts_with_bold=True),
+        ]
+        result = annotate_entries(blocks, file_name="AbilitiesandConditions.rtf", content_types=[CONDITION_CFG])
+        # First run: 2 blocks at fs20 (below min_blocks=3) → no annotation
+        # Second run: 2 blocks at fs18 (below min_blocks=3) → no annotation
+        self.assertTrue(all("entry_index" not in b for b in result))
+
+
+class ConflictTests(unittest.TestCase):
+    def test_re_run_raises(self) -> None:
+        blocks = [
+            _block("Sanctuary",        font_size=24),
+            _block("Abjuration",       font_size=20),
+            _block("Level: Clr 1",     font_size=20, starts_with_bold=True),
+            _block("Components: V, S", font_size=20, starts_with_bold=True),
+        ]
+        annotate_entries(blocks, file_name="SpellsS.rtf", content_types=[SPELL_CFG])
+        with self.assertRaises(EntryAnnotationConflict):
+            annotate_entries(blocks, file_name="SpellsS.rtf", content_types=[SPELL_CFG])
+
+    def test_overlapping_matches_raise(self) -> None:
+        # Construct a degenerate case where two configs both match the same range.
+        spell_loose = ContentTypeConfig(
+            name="spell_loose", category="Spells", chunk_type="spell_entry",
+            shape="entry_with_statblock",
+            shape_params={
+                "max_title_len": 80, "max_subtitle_len": 80,
+                "min_fields": 1, "field_pattern": r"^[A-Z][\w '/-]+:",
+            },
+            file_match=None,
+        )
+        spell_loose_b = ContentTypeConfig(
+            name="spell_loose_b", category="Spells", chunk_type="spell_entry",
+            shape="entry_with_statblock",
+            shape_params={
+                "max_title_len": 80, "max_subtitle_len": 80,
+                "min_fields": 1, "field_pattern": r"^[A-Z][\w '/-]+:",
+            },
+            file_match=None,
+        )
+        blocks = [
+            _block("Sanctuary",     font_size=24),
+            _block("Abjuration",    font_size=20),
+            _block("Level: Clr 1",  font_size=20, starts_with_bold=True),
+        ]
+        with self.assertRaises(EntryAnnotationConflict):
+            annotate_entries(blocks, file_name="any.rtf", content_types=[spell_loose, spell_loose_b])
+
+
+class EligibilityTests(unittest.TestCase):
+    def test_excluded_type_does_not_run(self) -> None:
+        # Spell config restricted to Spells*.rtf; the file doesn't match.
+        blocks = [
+            _block("Sanctuary",     font_size=24),
+            _block("Abjuration",    font_size=20),
+            _block("Level: Clr 1",  font_size=20, starts_with_bold=True),
+            _block("Components: V", font_size=20, starts_with_bold=True),
+        ]
+        result = annotate_entries(blocks, file_name="Description.rtf", content_types=[SPELL_CFG])
+        self.assertTrue(all("entry_index" not in b for b in result))
+
+
+class MultiTypeOverlapTests(unittest.TestCase):
+    def test_description_region_overlapping_other_type_raises(self) -> None:
+        # Spell entry's description region (blocks 4-6 — there's no next
+        # entry title in this file) overlaps with the condition
+        # definition_list match starting at block 4. Both types eligible
+        # because file_name matches the spell file_match glob.
+        spell = SPELL_CFG  # file_match=["Spells*.rtf"]
+        cond = ContentTypeConfig(
+            name="condition", category="Conditions", chunk_type="condition_entry",
+            shape="definition_list",
+            shape_params={"min_blocks": 3, "term_pattern": r"^[A-Z][\w '/-]*:\s+\S"},
+            file_match=None,  # always eligible
+        )
+        blocks = [
+            _block("Sanctuary",        font_size=24),
+            _block("Abjuration",       font_size=20),
+            _block("Level: Clr 1",     font_size=20, starts_with_bold=True),
+            _block("Components: V, S", font_size=20, starts_with_bold=True),
+            _block("Blinded: cannot see", font_size=18, starts_with_bold=True),
+            _block("Confused: rolls d%",  font_size=18, starts_with_bold=True),
+            _block("Dazed: unable to act", font_size=18, starts_with_bold=True),
+        ]
+        with self.assertRaises(EntryAnnotationConflict):
+            annotate_entries(blocks, file_name="SpellsS.rtf", content_types=[spell, cond])
+
+
 if __name__ == "__main__":
     unittest.main()
