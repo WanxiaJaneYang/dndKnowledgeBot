@@ -47,6 +47,8 @@ class LexicalCandidate:
     source_ref: dict[str, Any]
     locator: dict[str, Any]
     match_signals: MatchSignals
+    # Adjacency links: None for boundary chunks (first/last in section,
+    # top-level chunks with no parent). Source of truth: schemas/chunk.schema.json.
     parent_chunk_id: str | None = None
     previous_chunk_id: str | None = None
     next_chunk_id: str | None = None

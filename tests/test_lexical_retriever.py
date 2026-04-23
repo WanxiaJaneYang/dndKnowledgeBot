@@ -444,6 +444,33 @@ def test_retrieve_lexical_adjacency_fields_partially_null(tmp_path, sample_chunk
     assert candidate.next_chunk_id == "chunk::srd_35::combat::002_flanking"
 
 
+def test_retrieve_lexical_adjacency_fields_last_in_section(tmp_path, sample_chunk):
+    """Boundary chunks: a last-in-section chunk has previous and parent but no next."""
+    last_chunk = {
+        **sample_chunk,
+        "previous_chunk_id": "chunk::srd_35::combat::000_intro",
+        "parent_chunk_id": "chunk::srd_35::combat::000_root",
+    }
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", last_chunk)
+    build_chunk_index(db_path, [chunk_path])
+
+    query = NormalizedQuery(
+        raw_query="attack of opportunity",
+        normalized_text="attack of opportunity",
+        tokens=["attack of opportunity"],
+        protected_phrases=["attack of opportunity"],
+        aliases_applied=[],
+    )
+    results = retrieve_lexical(query, db_path=db_path, top_k=5)
+
+    assert len(results) == 1
+    candidate = results[0]
+    assert candidate.parent_chunk_id == "chunk::srd_35::combat::000_root"
+    assert candidate.previous_chunk_id == "chunk::srd_35::combat::000_intro"
+    assert candidate.next_chunk_id is None
+
+
 def test_retrieve_lexical_reranks_after_filtering(tmp_path, sample_chunk):
     db_path = tmp_path / "retrieval.db"
     chunk_35 = sample_chunk
