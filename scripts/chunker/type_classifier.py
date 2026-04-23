@@ -19,6 +19,7 @@ _VALID_TYPES = {
     "class_feature",
     "condition_entry",
     "glossary_entry",
+    "stat_block",
     "table",
     "example",
     "sidebar",

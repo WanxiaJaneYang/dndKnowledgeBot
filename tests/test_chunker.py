@@ -171,7 +171,7 @@ class ChunkPipelineTests(unittest.TestCase):
         valid_types = {
             "rule_section", "subsection", "spell_entry", "feat_entry",
             "skill_entry", "class_feature", "condition_entry", "glossary_entry",
-            "table", "example", "sidebar", "errata_note", "faq_note",
+            "stat_block", "table", "example", "sidebar", "errata_note", "faq_note",
             "paragraph_group", "generic",
         }
         chunks, _ = self._run_chunker()
@@ -253,7 +253,7 @@ class ChunkPipelineTests(unittest.TestCase):
         for field in ("source_id", "chunked_at_utc", "strategy", "chunk_count", "records", "schema_validation"):
             self.assertIn(field, report)
         self.assertEqual(report["source_id"], "srd_35_fixture")
-        self.assertEqual(report["strategy"], "v1-section-passthrough")
+        self.assertEqual(report["strategy"], "v2-formatting-aware")
         self.assertIn("enabled", report["schema_validation"])
 
     def test_dwarves_chunk_is_subsection(self) -> None:
@@ -311,6 +311,117 @@ class GoldenChunkTests(unittest.TestCase):
 
         expected = load_golden_chunk_outputs(REPO_ROOT)
         self.assertEqual(evidence["chunks"], expected["chunks"])
+
+
+class HierarchyWithStructureCutsTests(unittest.TestCase):
+    def _make_canonical_doc(
+        self, document_id: str, content: str,
+        *, processing_hints: dict | None = None,
+        section_path: list[str] | None = None,
+    ) -> dict:
+        doc = {
+            "document_id": document_id,
+            "source_ref": {
+                "source_id": "srd_35", "title": "SRD", "edition": "3.5e",
+                "source_type": "srd", "authority_level": "official_reference",
+            },
+            "locator": {
+                "section_path": section_path or ["Spells", document_id.split("::")[-1]],
+                "source_location": f"SpellsS.rtf#001_{document_id.split('::')[-1]}",
+            },
+            "content": content,
+        }
+        if processing_hints is not None:
+            doc["processing_hints"] = processing_hints
+        return doc
+
+    def _run(self, docs: list[dict]) -> list[dict]:
+        with tempfile.TemporaryDirectory() as tmp:
+            canonical_root = Path(tmp) / "canonical"
+            canonical_root.mkdir()
+            for i, doc in enumerate(docs):
+                (canonical_root / f"doc_{i:03d}.json").write_text(
+                    json.dumps(doc, indent=2), encoding="utf-8",
+                )
+            output_root = Path(tmp) / "chunks"
+            chunk_source(
+                canonical_root=canonical_root,
+                output_root=output_root,
+                repo_root=REPO_ROOT,
+                source_id="srd_35",
+            )
+            return [
+                json.loads(p.read_text(encoding="utf-8"))
+                for p in sorted(output_root.glob("*.json"))
+                if p.name != "chunk_report.json"
+            ]
+
+    def test_small_doc_no_split(self) -> None:
+        doc = self._make_canonical_doc(
+            "srd_35::spells::sanctuary",
+            "Sanctuary\nAbjuration\nLevel: Clr 1\n\nDescription.",
+            processing_hints={"chunk_type_hint": "spell_entry"},
+        )
+        chunks = self._run([doc])
+        self.assertEqual(len(chunks), 1)
+        self.assertNotIn("parent_chunk_id", chunks[0])
+        self.assertEqual(chunks[0]["chunk_type"], "spell_entry")
+
+    def test_large_doc_with_structure_cut_produces_typed_child(self) -> None:
+        # Build content > CHILD_THRESHOLD (6000) with explicit cut at offset = stat block end.
+        stat_block = "Sanctuary\nAbjuration\nLevel: Clr 1\nComponents: V, S, DF\nCasting Time: 1 std\nRange: Touch\nTarget: Creature\nDuration: 1 round/level\nSaving Throw: Will negates\nSpell Resistance: No"
+        description = "\n\n" + ("A long description " * 600)
+        content = stat_block + description
+        cut_offset = len(stat_block)
+        doc = self._make_canonical_doc(
+            "srd_35::spells::big_sanctuary", content,
+            processing_hints={
+                "chunk_type_hint": "spell_entry",
+                "structure_cuts": [{
+                    "kind": "stat_block_end",
+                    "char_offset": cut_offset,
+                    "child_chunk_type": "stat_block",
+                }],
+            },
+        )
+        chunks = self._run([doc])
+        parents = [c for c in chunks if "parent_chunk_id" not in c]
+        children = [c for c in chunks if "parent_chunk_id" in c]
+        self.assertEqual(len(parents), 1)
+        self.assertGreater(len(children), 0)
+        self.assertEqual(parents[0]["chunk_type"], "spell_entry")
+        # First child is the stat_block.
+        first_child = children[0]
+        self.assertEqual(first_child["chunk_type"], "stat_block")
+        self.assertEqual(first_child["split_origin"], "structure_cut")
+        self.assertIn("Level: Clr 1", first_child["content"])
+        # Subsequent children are paragraph_group.
+        for child in children[1:]:
+            self.assertEqual(child["chunk_type"], "paragraph_group")
+            self.assertEqual(child["split_origin"], "paragraph_group")
+
+    def test_char_offset_round_trip(self) -> None:
+        stat_block = "Sanctuary\nAbjuration\nLevel: Clr 1"
+        description = "\n\n" + ("Description text. " * 500)
+        content = stat_block + description
+        cut_offset = len(stat_block)
+        doc = self._make_canonical_doc(
+            "srd_35::spells::roundtrip", content,
+            processing_hints={
+                "chunk_type_hint": "spell_entry",
+                "structure_cuts": [{
+                    "kind": "stat_block_end",
+                    "char_offset": cut_offset,
+                    "child_chunk_type": "stat_block",
+                }],
+            },
+        )
+        chunks = self._run([doc])
+        children = [c for c in chunks if "parent_chunk_id" in c]
+        first_child_content = children[0]["content"]
+        # Reconstruct expected: content[0:cut_offset], with only newline trim.
+        expected = content[:cut_offset].lstrip("\n").rstrip("\n")
+        self.assertEqual(first_child_content, expected)
 
 
 if __name__ == "__main__":

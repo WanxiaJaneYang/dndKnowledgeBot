@@ -1,8 +1,24 @@
-"""Baseline chunker pipeline: canonical document → chunk objects.
+"""Chunker pipeline: canonical document → chunk objects.
 
-Phase 1 strategy: one canonical document produces one chunk.
-The ingestion pipeline already splits by section and entry; this layer
-assigns chunk metadata, types adjacency links, and validates the output.
+Phase 1 strategy (v2-formatting-aware):
+
+- Each canonical document yields one **parent** chunk.
+- When the upstream pipeline supplied `processing_hints`, the parent may also
+  yield **child** chunks via two mechanisms:
+    1. **Structure cuts**: each `processing_hints.structure_cuts[i]` produces
+       one typed child sliced from `content[cursor:cut.char_offset]`. The
+       chunker does not detect block boundaries itself — it consumes
+       offsets the annotator already computed.
+    2. **Paragraph-group fallback**: any remaining content (after the last
+       cut, or all content when there are no cuts) splits at paragraph
+       boundaries targeting `config.paragraph_group_target_chars`.
+- Children carry `parent_chunk_id` and a `split_origin` provenance marker
+  (`"structure_cut"` or `"paragraph_group"`).
+
+Canonical docs without `processing_hints` are emitted as a single parent
+chunk with byte-identical content to v1 (legacy passthrough). This preserves
+the upstream contract: the chunker only restructures docs the annotator
+explicitly marked for splitting.
 """
 from __future__ import annotations
 
@@ -11,10 +27,11 @@ import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .config import ChunkerConfig, load_chunker_config
 from .schema_validation import validate_chunks
 from .type_classifier import classify_chunk_type
 
-CHUNK_VERSION = "v1-section-passthrough"
+CHUNK_VERSION = "v2-formatting-aware"
 
 
 def _chunk_id(document_id: str) -> str:
@@ -39,7 +56,15 @@ def _source_file_key(doc: dict) -> str:
     return "__unknown__"
 
 
-def _build_chunk(
+def _load_config(repo_root: Path) -> ChunkerConfig:
+    """Load ChunkerConfig from configs/chunker.yaml when present, else defaults."""
+    cfg_path = repo_root / "configs" / "chunker.yaml"
+    if cfg_path.exists():
+        return load_chunker_config(cfg_path.read_text(encoding="utf-8"))
+    return ChunkerConfig()
+
+
+def _build_parent_chunk(
     canonical_doc: dict,
     *,
     previous_chunk_id: str | None,
@@ -49,12 +74,17 @@ def _build_chunk(
     section_path = canonical_doc.get("locator", {}).get("section_path", [])
     content = canonical_doc.get("content", "")
 
+    hints = canonical_doc.get("processing_hints", {})
+    chunk_type = hints.get("chunk_type_hint")
+    if chunk_type is None:
+        chunk_type = classify_chunk_type(section_path, content)
+
     chunk: dict = {
         "chunk_id": _chunk_id(document_id),
         "document_id": document_id,
         "source_ref": canonical_doc["source_ref"],
         "locator": canonical_doc["locator"],
-        "chunk_type": classify_chunk_type(section_path, content),
+        "chunk_type": chunk_type,
         "content": content,
         "chunk_version": CHUNK_VERSION,
     }
@@ -63,6 +93,160 @@ def _build_chunk(
     if next_chunk_id is not None:
         chunk["next_chunk_id"] = next_chunk_id
     return chunk
+
+
+def _should_split(canonical_doc: dict, config: ChunkerConfig) -> bool:
+    """Return True when the chunker should produce children for this doc.
+
+    Policy: only split docs the upstream pipeline annotated with
+    `processing_hints`. Legacy docs (no hints) stay as a single parent chunk
+    so v1 outputs remain byte-identical except for the chunk_version field.
+
+    Within annotated docs, split when either:
+    - structure_cuts non-empty (the cuts ARE the split points), OR
+    - content exceeds child_threshold_chars (paragraph_group fallback fires).
+    """
+    hints = canonical_doc.get("processing_hints")
+    if not hints:
+        return False
+    if hints.get("structure_cuts"):
+        return True
+    content = canonical_doc.get("content", "")
+    return len(content) > config.child_threshold_chars
+
+
+def _make_child(
+    canonical_doc: dict,
+    parent_chunk_id: str,
+    child_content: str,
+    chunk_type: str,
+    *,
+    split_origin: str,
+) -> dict:
+    """Build a child chunk dict. chunk_id is renumbered in _wire_sibling_adjacency."""
+    document_id = canonical_doc["document_id"]
+    return {
+        # Placeholder; renumbered by _wire_sibling_adjacency once group order is known.
+        "chunk_id": f"chunk::{document_id}::child_pending",
+        "document_id": document_id,
+        "source_ref": canonical_doc["source_ref"],
+        "locator": canonical_doc["locator"],
+        "chunk_type": chunk_type,
+        "content": child_content,
+        "chunk_version": CHUNK_VERSION,
+        "parent_chunk_id": parent_chunk_id,
+        "split_origin": split_origin,
+    }
+
+
+def _paragraph_group_children(
+    canonical_doc: dict,
+    parent_chunk_id: str,
+    content: str,
+    config: ChunkerConfig,
+) -> list[dict]:
+    """Split `content` at paragraph boundaries into paragraph_group children.
+
+    Paragraphs are separated by blank lines (``\\n\\n``). Groups grow until
+    adding the next paragraph would exceed `config.paragraph_group_target_chars`.
+    """
+    if not content.strip():
+        return []
+    paragraphs = [p for p in content.split("\n\n") if p.strip()]
+    if not paragraphs:
+        return []
+
+    groups: list[list[str]] = []
+    current_group: list[str] = []
+    current_size = 0
+    for para in paragraphs:
+        if current_size > 0 and current_size + len(para) > config.paragraph_group_target_chars:
+            groups.append(current_group)
+            current_group = []
+            current_size = 0
+        current_group.append(para)
+        current_size += len(para)
+    if current_group:
+        groups.append(current_group)
+
+    return [
+        _make_child(
+            canonical_doc, parent_chunk_id,
+            "\n\n".join(group), "paragraph_group",
+            split_origin="paragraph_group",
+        )
+        for group in groups
+    ]
+
+
+def _wire_sibling_adjacency(children: list[dict]) -> None:
+    """Renumber child chunk_ids and wire previous_chunk_id/next_chunk_id within siblings."""
+    if not children:
+        return
+    document_id = children[0]["document_id"]
+    for idx, child in enumerate(children):
+        child["chunk_id"] = f"chunk::{document_id}::child_{idx + 1:03d}"
+    for i, child in enumerate(children):
+        if i > 0:
+            child["previous_chunk_id"] = children[i - 1]["chunk_id"]
+        if i < len(children) - 1:
+            child["next_chunk_id"] = children[i + 1]["chunk_id"]
+
+
+def _split_into_children(
+    canonical_doc: dict,
+    parent_chunk_id: str,
+    config: ChunkerConfig,
+) -> list[dict]:
+    """Produce child chunks via structure cuts then paragraph-group fallback."""
+    content = canonical_doc.get("content", "")
+    hints = canonical_doc.get("processing_hints", {})
+    cuts = hints.get("structure_cuts", []) or []
+
+    children: list[dict] = []
+    cursor = 0
+    for cut in cuts:
+        end = cut["char_offset"]
+        # Newline-only normalization: preserve precise slice semantics per
+        # design §4.5. Do NOT use .strip() — leading/trailing spaces within
+        # the slice are part of the canonical content.
+        child_text = content[cursor:end].lstrip("\n").rstrip("\n")
+        if child_text:
+            children.append(_make_child(
+                canonical_doc, parent_chunk_id,
+                child_text, cut["child_chunk_type"],
+                split_origin="structure_cut",
+            ))
+        cursor = end
+
+    remaining = content[cursor:]
+    children.extend(_paragraph_group_children(
+        canonical_doc, parent_chunk_id, remaining, config,
+    ))
+
+    _wire_sibling_adjacency(children)
+    return children
+
+
+def _build_chunks(
+    canonical_doc: dict,
+    *,
+    previous_chunk_id: str | None,
+    next_chunk_id: str | None,
+    config: ChunkerConfig,
+) -> list[dict]:
+    """Return [parent] or [parent, *children] for one canonical doc."""
+    parent = _build_parent_chunk(
+        canonical_doc,
+        previous_chunk_id=previous_chunk_id,
+        next_chunk_id=next_chunk_id,
+    )
+    if not _should_split(canonical_doc, config):
+        return [parent]
+    children = _split_into_children(canonical_doc, parent["chunk_id"], config)
+    if not children:
+        return [parent]
+    return [parent] + children
 
 
 def chunk_source(
@@ -94,6 +278,8 @@ def chunk_source(
         shutil.rmtree(output_root)
     output_root.mkdir(parents=True, exist_ok=True)
 
+    config = _load_config(repo_root)
+
     # Load and sort canonical docs so adjacency links are deterministic.
     canonical_paths = sorted(canonical_root.glob("*.json"))
     canonical_paths = [p for p in canonical_paths if p.name != "canonical_report.json"]
@@ -122,22 +308,30 @@ def chunk_source(
     elif source_id is None:
         source_id = "unknown"
 
-    # Group by source file so adjacency links stay within the same file.
-    # A cross-file link would imply context continuity that doesn't exist.
+    # Group by source file so parent file-order adjacency stays within the same file.
+    # Adjacency between parents in different files would imply continuity that
+    # doesn't exist; child sibling adjacency is wired separately within each parent.
     by_file: dict[str, list[tuple[str, dict]]] = {}
     for stem, doc in canonical_docs:
         key = _source_file_key(doc)
         by_file.setdefault(key, []).append((stem, doc))
 
-    # Build chunk objects with within-file adjacency only.
+    # Build chunk objects: each canonical doc yields a parent (with file-order
+    # previous/next links to neighboring parents) and optionally children.
     chunks: list[tuple[str, dict]] = []
-    for file_key, file_docs in by_file.items():
+    for file_docs in by_file.values():
         n = len(file_docs)
         for i, (stem, doc) in enumerate(file_docs):
             prev_id = _chunk_id(file_docs[i - 1][1]["document_id"]) if i > 0 else None
             next_id = _chunk_id(file_docs[i + 1][1]["document_id"]) if i < n - 1 else None
-            chunk = _build_chunk(doc, previous_chunk_id=prev_id, next_chunk_id=next_id)
-            chunks.append((stem, chunk))
+            built = _build_chunks(
+                doc,
+                previous_chunk_id=prev_id,
+                next_chunk_id=next_id,
+                config=config,
+            )
+            for chunk in built:
+                chunks.append((stem, chunk))
 
     # Validate before writing.
     chunked_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
@@ -148,23 +342,42 @@ def chunk_source(
         require_validation=require_schema_validation,
     )
 
-    # Write chunk files.
+    # Write chunk files and accumulate report counters.
     chunk_records: list[dict] = []
+    parent_count = 0
+    child_count = 0
+    structure_cut_children = 0
+    paragraph_group_children = 0
+    chunks_by_type: dict[str, int] = {}
+
     for stem, chunk in chunks:
-        chunk_path = output_root / f"{stem}.json"
+        chunks_by_type[chunk["chunk_type"]] = chunks_by_type.get(chunk["chunk_type"], 0) + 1
+        if "parent_chunk_id" in chunk:
+            child_suffix = chunk["chunk_id"].split("::")[-1]
+            chunk_path = output_root / f"{stem}__{child_suffix}.json"
+            child_count += 1
+            if chunk.get("split_origin") == "structure_cut":
+                structure_cut_children += 1
+            else:
+                paragraph_group_children += 1
+        else:
+            chunk_path = output_root / f"{stem}.json"
+            parent_count += 1
         chunk_path.write_text(json.dumps(chunk, indent=2) + "\n", encoding="utf-8")
         try:
             display_path = str(chunk_path.relative_to(repo_root))
         except ValueError:
             display_path = str(chunk_path)
-        chunk_records.append(
-            {
-                "chunk_id": chunk["chunk_id"],
-                "document_id": chunk["document_id"],
-                "chunk_type": chunk["chunk_type"],
-                "chunk_path": display_path,
-            }
-        )
+        record = {
+            "chunk_id": chunk["chunk_id"],
+            "document_id": chunk["document_id"],
+            "chunk_type": chunk["chunk_type"],
+            "chunk_path": display_path,
+        }
+        if "parent_chunk_id" in chunk:
+            record["parent_chunk_id"] = chunk["parent_chunk_id"]
+            record["split_origin"] = chunk["split_origin"]
+        chunk_records.append(record)
 
     # Write chunk report.
     report = {
@@ -172,6 +385,11 @@ def chunk_source(
         "chunked_at_utc": chunked_at,
         "strategy": CHUNK_VERSION,
         "chunk_count": len(chunk_records),
+        "parent_count": parent_count,
+        "child_count": child_count,
+        "structure_cut_children": structure_cut_children,
+        "paragraph_group_children": paragraph_group_children,
+        "chunks_by_type": chunks_by_type,
         "schema_validation": validation_result,
         "records": chunk_records,
     }
