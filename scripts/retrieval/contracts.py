@@ -47,3 +47,6 @@ class LexicalCandidate:
     source_ref: dict[str, Any]
     locator: dict[str, Any]
     match_signals: MatchSignals
+    parent_chunk_id: str | None = None
+    previous_chunk_id: str | None = None
+    next_chunk_id: str | None = None
