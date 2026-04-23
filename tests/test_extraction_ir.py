@@ -79,6 +79,28 @@ class BuildExtractionIRFromSpansTests(unittest.TestCase):
         ir = build_extraction_ir(file_name="t.rtf", spans=spans)
         self.assertEqual(ir["document_baseline_font_size"], 24)
 
+    def test_baseline_tie_break_prefers_larger(self) -> None:
+        # Equal counts of fs24 and fs20 (both non-bold). Tie-break to larger.
+        spans = _make_block_spans(
+            ("a", 24, False), ("\n", 24, False),
+            ("b", 24, False), ("\n", 24, False),
+            ("c", 20, False), ("\n", 20, False),
+            ("d", 20, False), ("\n", 20, False),
+        )
+        ir = build_extraction_ir(file_name="t.rtf", spans=spans)
+        self.assertEqual(ir["document_baseline_font_size"], 24)
+
+    def test_mid_span_newline_preserves_formatting_on_both_sides(self) -> None:
+        spans = [TextSpan(text="foo\nbar", font_size=24, bold=True)]
+        ir = build_extraction_ir(file_name="t.rtf", spans=spans)
+        self.assertEqual(len(ir["blocks"]), 2)
+        self.assertEqual(ir["blocks"][0]["text"], "foo")
+        self.assertTrue(ir["blocks"][0]["all_bold"])
+        self.assertEqual(ir["blocks"][0]["font_size"], 24)
+        self.assertEqual(ir["blocks"][1]["text"], "bar")
+        self.assertTrue(ir["blocks"][1]["all_bold"])
+        self.assertEqual(ir["blocks"][1]["font_size"], 24)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -70,7 +70,11 @@ def _split_spans_into_blocks(spans: list[TextSpan]) -> list[list[TextSpan]]:
         # First part stays with current block.
         if parts[0]:
             current.append(TextSpan(text=parts[0], font_size=span.font_size, bold=span.bold))
-        # Each subsequent part starts a new block.
+        # Each subsequent part starts a new block. Empty parts (consecutive
+        # newlines / blank-line spans) flush the current block but do NOT
+        # emit a standalone empty block — the `if current:` and `if part:`
+        # guards drop them. Downstream consumers may also filter empty text
+        # via _normalize_block_text; the two layers are defensive.
         for part in parts[1:]:
             if current:
                 blocks.append(current)
