@@ -31,6 +31,24 @@ def looks_like_heading(line: str) -> bool:
 
 
 def split_sections_from_blocks(file_stem: str, blocks: list[dict]) -> list[dict]:
+    """Two-path sectioning.
+
+    If ANY block carries entry_index, use the entry-driven path:
+      - Group blocks by entry_index (one section per entry).
+      - Run unannotated gap blocks through _sections_from_heading_candidates.
+    Otherwise, use today's heading-candidate behavior on all blocks.
+    """
+    has_annotations = any("entry_index" in b for b in blocks)
+    if not has_annotations:
+        return _sections_from_heading_candidates(file_stem, blocks)
+    return _sections_with_entries(file_stem, blocks)
+
+
+# ----------------------------------------------------------------------
+# Heading-candidate path (today's logic, lifted into a helper)
+# ----------------------------------------------------------------------
+
+def _sections_from_heading_candidates(file_stem: str, blocks: list[dict]) -> list[dict]:
     sections: list[dict] = []
     current_title = file_stem
     current_block_indices: list[int] = []
@@ -133,6 +151,69 @@ def split_sections_from_blocks(file_stem: str, blocks: list[dict]) -> list[dict]
             }
         )
     return sections
+
+
+# ----------------------------------------------------------------------
+# Entry-driven path
+# ----------------------------------------------------------------------
+
+def _sections_with_entries(file_stem: str, blocks: list[dict]) -> list[dict]:
+    """Group annotated blocks by entry_index; gap ranges go through heading-candidate path."""
+    sections: list[dict] = []
+    cursor = 0
+    n = len(blocks)
+    while cursor < n:
+        block = blocks[cursor]
+        if "entry_index" in block:
+            # Collect all consecutive blocks with the SAME entry_index.
+            entry_idx = block["entry_index"]
+            start = cursor
+            while cursor < n and blocks[cursor].get("entry_index") == entry_idx:
+                cursor += 1
+            sections.append(_build_entry_section(blocks, start, cursor))
+        else:
+            # Collect a contiguous gap of unannotated blocks.
+            start = cursor
+            while cursor < n and "entry_index" not in blocks[cursor]:
+                cursor += 1
+            gap_blocks = blocks[start:cursor]
+            sections.extend(_sections_from_heading_candidates(file_stem, gap_blocks))
+    return sections
+
+
+def _build_entry_section(blocks: list[dict], start: int, end: int) -> dict:
+    entry_blocks = blocks[start:end]
+    first = entry_blocks[0]
+    title = first.get("entry_title", first.get("text", "")).strip()
+    content_lines: list[str] = []
+    block_type_counts: dict[str, int] = {}
+    for b in entry_blocks:
+        text = b.get("text", "").strip()
+        if not text:
+            continue
+        content_lines.append(text)
+        bt = b.get("block_type", "paragraph")
+        block_type_counts[bt] = block_type_counts.get(bt, 0) + 1
+    content = "\n".join(content_lines).strip()
+    return {
+        "section_title": title,
+        "section_slug": sanitize_identifier(title),
+        "content": content,
+        "body_char_count": len(content),
+        "block_start_index": start,
+        "block_end_index": end - 1,
+        "block_start_id": entry_blocks[0].get("block_id"),
+        "block_end_id": entry_blocks[-1].get("block_id"),
+        "block_type_counts": block_type_counts,
+        "entry_metadata": {
+            "entry_type": first["entry_type"],
+            "entry_category": first["entry_category"],
+            "entry_chunk_type": first["entry_chunk_type"],
+            "entry_title": title,
+            "entry_index": first["entry_index"],
+            "shape_family": first["shape_family"],
+        },
+    }
 
 
 def split_sections(file_stem: str, text: str) -> list[dict]:
