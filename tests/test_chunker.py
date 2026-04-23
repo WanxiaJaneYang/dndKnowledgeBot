@@ -273,6 +273,35 @@ class ChunkPipelineTests(unittest.TestCase):
         self.assertEqual(legal["chunk_type"], "generic")
 
 
+class ChunkSchemaTests(unittest.TestCase):
+    def test_stat_block_chunk_validates_in_schema(self) -> None:
+        import json
+        import jsonschema
+        repo_root = Path(__file__).resolve().parent.parent
+        schema = json.loads((repo_root / "schemas" / "chunk.schema.json").read_text(encoding="utf-8"))
+        common = json.loads((repo_root / "schemas" / "common.schema.json").read_text(encoding="utf-8"))
+        resolver = jsonschema.RefResolver.from_schema(schema, store={
+            "common.schema.json": common, "./common.schema.json": common,
+        })
+        chunk = {
+            "chunk_id": "chunk::srd_35::spells::sanctuary::child_001",
+            "document_id": "srd_35::spells::sanctuary",
+            "source_ref": {
+                "source_id": "srd_35", "title": "SRD", "edition": "3.5e",
+                "source_type": "srd", "authority_level": "official_reference",
+            },
+            "locator": {
+                "section_path": ["Spells", "Sanctuary"],
+                "source_location": "SpellsS.rtf#001_sanctuary",
+            },
+            "chunk_type": "stat_block",
+            "content": "Level: Clr 1\nComponents: V, S, DF",
+            "parent_chunk_id": "chunk::srd_35::spells::sanctuary",
+            "split_origin": "structure_cut",
+        }
+        jsonschema.validate(chunk, schema, resolver=resolver)
+
+
 class GoldenChunkTests(unittest.TestCase):
     def test_fixture_chunking_matches_golden_outputs(self) -> None:
         evidence = run_fixture_chunking(REPO_ROOT)

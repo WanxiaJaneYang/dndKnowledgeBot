@@ -38,6 +38,7 @@
         "class_feature",
         "condition_entry",
         "glossary_entry",
+        "stat_block",
         "table",
         "example",
         "sidebar",
@@ -67,6 +68,11 @@
     "chunk_version": {
       "type": "string",
       "description": "Optional version or strategy marker for regenerated chunks"
+    },
+    "split_origin": {
+      "type": "string",
+      "enum": ["structure_cut", "paragraph_group"],
+      "description": "Optional provenance marker for child chunks indicating which split mechanism produced them"
     }
   }
 }
