@@ -65,6 +65,9 @@ def search_chunk_index(db_path: Path, query_text: str, *, top_k: int = 5) -> lis
                 "section_path_hit": False,
                 "token_overlap_count": 0,
             },
+            parent_chunk_id=row.get("parent_chunk_id"),
+            previous_chunk_id=row.get("previous_chunk_id"),
+            next_chunk_id=row.get("next_chunk_id"),
         )
         for rank, row in enumerate(raw, start=1)
     ]

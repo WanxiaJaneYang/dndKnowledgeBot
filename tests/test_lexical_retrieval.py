@@ -202,6 +202,43 @@ def test_search_chunk_index_returns_ranked_candidates_from_fts(tmp_path, sample_
     assert results[0].raw_score <= 0
 
 
+def test_search_chunk_index_propagates_adjacency_fields(tmp_path, sample_chunk) -> None:
+    """search_chunk_index also surfaces the adjacency fields (contract parity
+    with retrieve_lexical)."""
+    chunk_with_links = {
+        **sample_chunk,
+        "previous_chunk_id": "chunk::srd_35::combat::000_intro",
+        "next_chunk_id": "chunk::srd_35::combat::002_flanking",
+        "parent_chunk_id": "chunk::srd_35::combat::000_root",
+    }
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", chunk_with_links)
+
+    build_chunk_index(db_path, [chunk_path])
+    results = search_chunk_index(db_path, "\"attack of opportunity\"", top_k=2)
+
+    assert len(results) == 1
+    candidate = results[0]
+    assert candidate.parent_chunk_id == "chunk::srd_35::combat::000_root"
+    assert candidate.previous_chunk_id == "chunk::srd_35::combat::000_intro"
+    assert candidate.next_chunk_id == "chunk::srd_35::combat::002_flanking"
+
+
+def test_search_chunk_index_adjacency_fields_null_when_absent(tmp_path, sample_chunk) -> None:
+    """A chunk with no adjacency links yields None from search_chunk_index."""
+    db_path = tmp_path / "retrieval.db"
+    chunk_path = _write_chunk(tmp_path / "aoo.json", sample_chunk)
+
+    build_chunk_index(db_path, [chunk_path])
+    results = search_chunk_index(db_path, "\"attack of opportunity\"", top_k=2)
+
+    assert len(results) == 1
+    candidate = results[0]
+    assert candidate.parent_chunk_id is None
+    assert candidate.previous_chunk_id is None
+    assert candidate.next_chunk_id is None
+
+
 def test_search_chunk_index_returns_empty_for_no_match(tmp_path, sample_chunk) -> None:
     db_path = tmp_path / "retrieval.db"
     chunk_path = _write_chunk(tmp_path / "attack_of_opportunity.json", sample_chunk)
