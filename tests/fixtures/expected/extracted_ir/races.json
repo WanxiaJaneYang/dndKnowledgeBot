@@ -1,5 +1,5 @@
 {
-  "ir_version": "1.0",
+  "ir_version": "2.0",
   "file_name": "Races.rtf",
   "blocks": [
     {
@@ -7,651 +7,1024 @@
       "block_type": "paragraph",
       "text": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
       "line_start": 1,
-      "line_end": 1
+      "line_end": 1,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0002",
       "block_type": "heading_candidate",
       "text": "RACES",
       "line_start": 2,
-      "line_end": 2
+      "line_end": 2,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0003",
       "block_type": "heading_candidate",
       "text": "FAVORED CLASS",
-      "line_start": 4,
-      "line_end": 4
+      "line_start": 3,
+      "line_end": 3,
+      "font_size": 24,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0004",
       "block_type": "paragraph",
       "text": "A character's favored class doesn't count against him or her when determining experience point penalties for multiclassing.",
-      "line_start": 5,
-      "line_end": 5
+      "line_start": 4,
+      "line_end": 4,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0005",
       "block_type": "heading_candidate",
       "text": "RACE AND LANGUAGES",
-      "line_start": 7,
-      "line_end": 7
+      "line_start": 5,
+      "line_end": 5,
+      "font_size": 24,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0006",
       "block_type": "paragraph",
       "text": "All characters know how to speak Common. A dwarf, elf, gnome, half-elf, half-orc, or halfling also speaks a racial language, as appropriate. A character who has an Intelligence bonus at 1st level speaks other languages as well, one extra language per point of Intelligence bonus as a starting character.",
-      "line_start": 8,
-      "line_end": 8
+      "line_start": 6,
+      "line_end": 6,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0007",
       "block_type": "paragraph",
       "text": "Literacy: Any character except a barbarian can read and write all the languages he or she speaks.",
-      "line_start": 9,
-      "line_end": 9
+      "line_start": 7,
+      "line_end": 7,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0008",
       "block_type": "paragraph",
       "text": "Class-Related Languages: Clerics, druids, and wizards can choose certain languages as bonus languages even if they're not on the lists found in the race descriptions. These class-related languages are as follows:",
-      "line_start": 10,
-      "line_end": 10
+      "line_start": 8,
+      "line_end": 8,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0009",
       "block_type": "paragraph",
       "text": "Cleric: Abyssal, Celestial, Infernal.",
-      "line_start": 11,
-      "line_end": 11
+      "line_start": 9,
+      "line_end": 9,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0010",
       "block_type": "paragraph",
       "text": "Druid: Sylvan.",
-      "line_start": 12,
-      "line_end": 12
+      "line_start": 10,
+      "line_end": 10,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0011",
       "block_type": "paragraph",
       "text": "Wizard: Draconic.",
-      "line_start": 13,
-      "line_end": 13
+      "line_start": 11,
+      "line_end": 11,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0012",
       "block_type": "heading_candidate",
       "text": "SMALL CHARACTERS",
-      "line_start": 15,
-      "line_end": 15
+      "line_start": 12,
+      "line_end": 12,
+      "font_size": 24,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0013",
       "block_type": "paragraph",
       "text": "A Small character gets a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks. A Small character's carrying capacity is three-quarters of that of a Medium character.",
-      "line_start": 16,
-      "line_end": 16
+      "line_start": 13,
+      "line_end": 13,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0014",
       "block_type": "paragraph",
       "text": "A Small character generally moves about two-thirds as fast as a Medium character.",
-      "line_start": 17,
-      "line_end": 17
+      "line_start": 14,
+      "line_end": 14,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0015",
       "block_type": "paragraph",
       "text": "A Small character must use smaller weapons than a Medium character.",
-      "line_start": 18,
-      "line_end": 18
+      "line_start": 15,
+      "line_end": 15,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0016",
       "block_type": "heading_candidate",
       "text": "HUMANS",
-      "line_start": 20,
-      "line_end": 20
+      "line_start": 16,
+      "line_end": 16,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0017",
       "block_type": "paragraph",
       "text": "Medium: As Medium creatures, humans have no special bonuses or penalties due to their size.",
-      "line_start": 21,
-      "line_end": 21
+      "line_start": 17,
+      "line_end": 17,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0018",
       "block_type": "paragraph",
       "text": "Human base land speed is 30 feet.",
-      "line_start": 22,
-      "line_end": 22
+      "line_start": 18,
+      "line_end": 18,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0019",
       "block_type": "paragraph",
       "text": "1 extra feat at 1st level.",
-      "line_start": 23,
-      "line_end": 23
+      "line_start": 19,
+      "line_end": 19,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0020",
       "block_type": "paragraph",
       "text": "4 extra skill points at 1st level and 1 extra skill point at each additional level.",
-      "line_start": 24,
-      "line_end": 24
+      "line_start": 20,
+      "line_end": 20,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0021",
       "block_type": "paragraph",
       "text": "Automatic Language: Common. Bonus Languages: Any (other than secret languages, such as Druidic). See the Speak Language skill.",
-      "line_start": 25,
-      "line_end": 25
+      "line_start": 21,
+      "line_end": 21,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0022",
       "block_type": "paragraph",
       "text": "Favored Class: Any. When determining whether a multiclass human takes an experience point penalty, his or her highest-level class does not count.",
-      "line_start": 26,
-      "line_end": 26
+      "line_start": 22,
+      "line_end": 22,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0023",
       "block_type": "heading_candidate",
       "text": "DWARVES",
-      "line_start": 28,
-      "line_end": 28
+      "line_start": 23,
+      "line_end": 23,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0024",
       "block_type": "paragraph",
       "text": "+2 Constitution, -2 Charisma.",
-      "line_start": 29,
-      "line_end": 29
+      "line_start": 24,
+      "line_end": 24,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0025",
       "block_type": "paragraph",
       "text": "Medium: As Medium creatures, dwarves have no special bonuses or penalties due to their size.",
-      "line_start": 30,
-      "line_end": 30
+      "line_start": 25,
+      "line_end": 25,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0026",
       "block_type": "paragraph",
       "text": "Dwarf base land speed is 20 feet. However, dwarves can move at this speed even when wearing medium or heavy armor or when carrying a medium or heavy load (unlike other creatures, whose speed is reduced in such situations).",
-      "line_start": 31,
-      "line_end": 31
+      "line_start": 26,
+      "line_end": 26,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0027",
       "block_type": "paragraph",
       "text": "Darkvision: Dwarves can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and dwarves can function just fine with no light at all.",
-      "line_start": 32,
-      "line_end": 32
+      "line_start": 27,
+      "line_end": 27,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0028",
       "block_type": "paragraph",
       "text": "Stonecunning: This ability grants a dwarf a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn't stone but that is disguised as stone also counts as unusual stonework. A dwarf who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a dwarf can use the Search skill to find stonework traps as a rogue can. A dwarf can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.",
-      "line_start": 33,
-      "line_end": 33
+      "line_start": 28,
+      "line_end": 28,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0029",
       "block_type": "paragraph",
       "text": "Weapon Familiarity: Dwarves may treat dwarven waraxes and dwarven urgroshes as martial weapons, rather than exotic weapons.",
-      "line_start": 34,
-      "line_end": 34
+      "line_start": 29,
+      "line_end": 29,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0030",
       "block_type": "paragraph",
       "text": "Stability: A dwarf gains a +4 bonus on ability checks made to resist being bull rushed or tripped when standing on the ground (but not when climbing, flying, riding, or otherwise not standing firmly on the ground).",
-      "line_start": 35,
-      "line_end": 35
+      "line_start": 30,
+      "line_end": 30,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0031",
       "block_type": "paragraph",
       "text": "+2 racial bonus on saving throws against poison.",
-      "line_start": 36,
-      "line_end": 36
+      "line_start": 31,
+      "line_end": 31,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0032",
       "block_type": "paragraph",
       "text": "+2 racial bonus on saving throws against spells and spell-like effects.",
-      "line_start": 37,
-      "line_end": 37
+      "line_start": 32,
+      "line_end": 32,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0033",
       "block_type": "paragraph",
       "text": "+1 racial bonus on attack rolls against orcs and goblinoids.",
-      "line_start": 38,
-      "line_end": 38
+      "line_start": 33,
+      "line_end": 33,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0034",
       "block_type": "paragraph",
       "text": "+4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it's caught flat-footed, it loses its dodge bonus, too.",
-      "line_start": 39,
-      "line_end": 39
+      "line_start": 34,
+      "line_end": 34,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0035",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Appraise checks that are related to stone or metal items.",
-      "line_start": 40,
-      "line_end": 40
+      "line_start": 35,
+      "line_end": 35,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0036",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Craft checks that are related to stone or metal.",
-      "line_start": 41,
-      "line_end": 41
+      "line_start": 36,
+      "line_end": 36,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0037",
       "block_type": "paragraph",
       "text": "Automatic Languages: Common and Dwarven. Bonus Languages: Giant, Gnome, Goblin, Orc, Terran, and Undercommon.",
-      "line_start": 42,
-      "line_end": 42
+      "line_start": 37,
+      "line_end": 37,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0038",
       "block_type": "paragraph",
       "text": "Favored Class: Fighter. A multiclass dwarf 's fighter class does not count when determining whether he takes an experience point penalty for multiclassing",
-      "line_start": 43,
-      "line_end": 43
+      "line_start": 38,
+      "line_end": 38,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0039",
       "block_type": "heading_candidate",
       "text": "ELVES",
-      "line_start": 45,
-      "line_end": 45
+      "line_start": 39,
+      "line_end": 39,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0040",
       "block_type": "paragraph",
       "text": "+2 Dexterity, -2 Constitution.",
-      "line_start": 46,
-      "line_end": 46
+      "line_start": 40,
+      "line_end": 40,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0041",
       "block_type": "paragraph",
       "text": "Medium: As Medium creatures, elves have no special bonuses or penalties due to their size.",
-      "line_start": 47,
-      "line_end": 47
+      "line_start": 41,
+      "line_end": 41,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0042",
       "block_type": "paragraph",
       "text": "Elf base land speed is 30 feet.",
-      "line_start": 48,
-      "line_end": 48
+      "line_start": 42,
+      "line_end": 42,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0043",
       "block_type": "paragraph",
       "text": "Immunity to magic sleep effects, and a +2 racial saving throw bonus against enchantment spells or effects.",
-      "line_start": 49,
-      "line_end": 49
+      "line_start": 43,
+      "line_end": 43,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0044",
       "block_type": "paragraph",
       "text": "Low-Light Vision: An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.",
-      "line_start": 50,
-      "line_end": 50
+      "line_start": 44,
+      "line_end": 44,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0045",
       "block_type": "paragraph",
       "text": "Weapon Proficiency: Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats.",
-      "line_start": 51,
-      "line_end": 51
+      "line_start": 45,
+      "line_end": 45,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0046",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Listen, Search, and Spot checks. An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it.",
-      "line_start": 52,
-      "line_end": 52
+      "line_start": 46,
+      "line_end": 46,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0047",
       "block_type": "paragraph",
       "text": "Automatic Languages: Common and Elven. Bonus Languages: Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan.",
-      "line_start": 53,
-      "line_end": 53
+      "line_start": 47,
+      "line_end": 47,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0048",
       "block_type": "paragraph",
       "text": "Favored Class: Wizard. A multiclass elf 's wizard class does not count when determining whether she takes an experience point penalty for multiclassing.",
-      "line_start": 54,
-      "line_end": 54
+      "line_start": 48,
+      "line_end": 48,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0049",
       "block_type": "heading_candidate",
       "text": "GNOMES",
-      "line_start": 56,
-      "line_end": 56
+      "line_start": 49,
+      "line_end": 49,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0050",
       "block_type": "paragraph",
       "text": "+2 Constitution, -2 Strength.",
-      "line_start": 57,
-      "line_end": 57
+      "line_start": 50,
+      "line_end": 50,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0051",
       "block_type": "paragraph",
       "text": "Small: As a Small creature, a gnome gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but he uses smaller weapons than humans use, and his lifting and carrying limits are three-quarters of those of a Medium character.",
-      "line_start": 58,
-      "line_end": 58
+      "line_start": 51,
+      "line_end": 51,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0052",
       "block_type": "paragraph",
       "text": "Gnome base land speed is 20 feet.",
-      "line_start": 59,
-      "line_end": 59
+      "line_start": 52,
+      "line_end": 52,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0053",
       "block_type": "paragraph",
       "text": "Low-Light Vision: A gnome can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.",
-      "line_start": 60,
-      "line_end": 60
+      "line_start": 53,
+      "line_end": 53,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0054",
       "block_type": "paragraph",
       "text": "Weapon Familiarity: Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.",
-      "line_start": 61,
-      "line_end": 61
+      "line_start": 54,
+      "line_end": 54,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0055",
       "block_type": "paragraph",
       "text": "+2 racial bonus on saving throws against illusions.",
-      "line_start": 62,
-      "line_end": 62
+      "line_start": 55,
+      "line_end": 55,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0056",
       "block_type": "paragraph",
       "text": "Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes. This adjustment stacks with those from similar effects.",
-      "line_start": 63,
-      "line_end": 63
+      "line_start": 56,
+      "line_end": 56,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0057",
       "block_type": "paragraph",
       "text": "+1 racial bonus on attack rolls against kobolds and goblinoids.",
-      "line_start": 64,
-      "line_end": 64
+      "line_start": 57,
+      "line_end": 57,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0058",
       "block_type": "paragraph",
       "text": "+4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it's caught flat-footed, it loses its dodge bonus, too.",
-      "line_start": 65,
-      "line_end": 65
+      "line_start": 58,
+      "line_end": 58,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0059",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Listen checks.",
-      "line_start": 66,
-      "line_end": 66
+      "line_start": 59,
+      "line_end": 59,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0060",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Craft (alchemy) checks.",
-      "line_start": 67,
-      "line_end": 67
+      "line_start": 60,
+      "line_end": 60,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0061",
       "block_type": "paragraph",
       "text": "Automatic Languages: Common and Gnome. Bonus Languages: Draconic, Dwarven, Elven, Giant, Goblin, and Orc. In addition, a gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like, see below). This ability is innate to gnomes. See the speak with animals spell description.",
-      "line_start": 68,
-      "line_end": 68
+      "line_start": 61,
+      "line_end": 61,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0062",
       "block_type": "paragraph",
       "text": "Spell-Like Abilities: 1/day--speak with animals (burrowing mammal only, duration 1 minute). A gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day--dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + gnome's Cha modifier + spell level.",
-      "line_start": 69,
-      "line_end": 69
+      "line_start": 62,
+      "line_end": 62,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0063",
       "block_type": "paragraph",
       "text": "Favored Class: Bard. A multiclass gnome's bard class does not count when determining whether he takes an experience point penalty.",
-      "line_start": 70,
-      "line_end": 70
+      "line_start": 63,
+      "line_end": 63,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0064",
       "block_type": "heading_candidate",
       "text": "HALF-ELVES",
-      "line_start": 72,
-      "line_end": 72
+      "line_start": 64,
+      "line_end": 64,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0065",
       "block_type": "paragraph",
       "text": "Medium: As Medium creatures, half-elves have no special bonuses or penalties due to their size.",
-      "line_start": 73,
-      "line_end": 73
+      "line_start": 65,
+      "line_end": 65,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0066",
       "block_type": "paragraph",
       "text": "Half-elf base land speed is 30 feet.",
-      "line_start": 74,
-      "line_end": 74
+      "line_start": 66,
+      "line_end": 66,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0067",
       "block_type": "paragraph",
       "text": "Immunity to sleep spells and similar magical effects, and a +2 racial bonus on saving throws against enchantment spells or effects.",
-      "line_start": 75,
-      "line_end": 75
+      "line_start": 67,
+      "line_end": 67,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0068",
       "block_type": "paragraph",
       "text": "Low-Light Vision: A half-elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.",
-      "line_start": 76,
-      "line_end": 76
+      "line_start": 68,
+      "line_end": 68,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0069",
       "block_type": "paragraph",
       "text": "+1 racial bonus on Listen, Search, and Spot checks.",
-      "line_start": 77,
-      "line_end": 77
+      "line_start": 69,
+      "line_end": 69,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0070",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Diplomacy and Gather Information checks.",
-      "line_start": 78,
-      "line_end": 78
+      "line_start": 70,
+      "line_end": 70,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0071",
       "block_type": "paragraph",
       "text": "Elven Blood: For all effects related to race, a half-elf is considered an elf.",
-      "line_start": 79,
-      "line_end": 79
+      "line_start": 71,
+      "line_end": 71,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0072",
       "block_type": "paragraph",
       "text": "Automatic Languages: Common and Elven. Bonus Languages: Any (other than secret languages, such as Druidic).",
-      "line_start": 80,
-      "line_end": 80
+      "line_start": 72,
+      "line_end": 72,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0073",
       "block_type": "paragraph",
       "text": "Favored Class: Any. When determining whether a multiclass half-elf takes an experience point penalty, her highest-level class does not count.",
-      "line_start": 81,
-      "line_end": 81
+      "line_start": 73,
+      "line_end": 73,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0074",
       "block_type": "heading_candidate",
       "text": "HALF-ORCS",
-      "line_start": 83,
-      "line_end": 83
+      "line_start": 74,
+      "line_end": 74,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0075",
       "block_type": "paragraph",
       "text": "+2 Strength, -2 Intelligence, -2 Charisma.",
-      "line_start": 84,
-      "line_end": 84
+      "line_start": 75,
+      "line_end": 75,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0076",
       "block_type": "paragraph",
       "text": "A half-orc's starting Intelligence score is always at least 3. If this adjustment would lower the character's score to 1 or 2, his score is nevertheless 3.",
-      "line_start": 85,
-      "line_end": 85
+      "line_start": 76,
+      "line_end": 76,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0077",
       "block_type": "paragraph",
       "text": "Medium: As Medium creatures, half-orcs have no special bonuses or penalties due to their size.",
-      "line_start": 86,
-      "line_end": 86
+      "line_start": 77,
+      "line_end": 77,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0078",
       "block_type": "paragraph",
       "text": "Half-orc base land speed is 30 feet.",
-      "line_start": 87,
-      "line_end": 87
+      "line_start": 78,
+      "line_end": 78,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0079",
       "block_type": "paragraph",
       "text": "Darkvision: Half-orcs (and orcs) can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and half-orcs can function just fine with no light at all.",
-      "line_start": 88,
-      "line_end": 88
+      "line_start": 79,
+      "line_end": 79,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0080",
       "block_type": "paragraph",
       "text": "Orc Blood: For all effects related to race, a half-orc is considered an orc.",
-      "line_start": 89,
-      "line_end": 89
+      "line_start": 80,
+      "line_end": 80,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0081",
       "block_type": "paragraph",
       "text": "Automatic Languages: Common and Orc. Bonus Languages: Draconic, Giant, Gnoll, Goblin, and Abyssal.",
-      "line_start": 90,
-      "line_end": 90
+      "line_start": 81,
+      "line_end": 81,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0082",
       "block_type": "paragraph",
       "text": "Favored Class: Barbarian. A multiclass half-orc's barbarian class does not count when determining whether he takes an experience point penalty.",
-      "line_start": 91,
-      "line_end": 91
+      "line_start": 82,
+      "line_end": 82,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0083",
       "block_type": "heading_candidate",
       "text": "HALFLINGS",
-      "line_start": 93,
-      "line_end": 93
+      "line_start": 83,
+      "line_end": 83,
+      "font_size": 36,
+      "font_size_class": "body",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0084",
       "block_type": "paragraph",
       "text": "+2 Dexterity, -2 Strength.",
-      "line_start": 94,
-      "line_end": 94
+      "line_start": 84,
+      "line_end": 84,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0085",
       "block_type": "paragraph",
       "text": "Small: As a Small creature, a halfling gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on Hide checks, but she uses smaller weapons than humans use, and her lifting and carrying limits are three-quarters of those of a Medium character.",
-      "line_start": 95,
-      "line_end": 95
+      "line_start": 85,
+      "line_end": 85,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0086",
       "block_type": "paragraph",
       "text": "Halfling base land speed is 20 feet.",
-      "line_start": 96,
-      "line_end": 96
+      "line_start": 86,
+      "line_end": 86,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0087",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Climb, Jump, and Move Silently checks.",
-      "line_start": 97,
-      "line_end": 97
+      "line_start": 87,
+      "line_end": 87,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0088",
       "block_type": "paragraph",
       "text": "+1 racial bonus on all saving throws.",
-      "line_start": 98,
-      "line_end": 98
+      "line_start": 88,
+      "line_end": 88,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0089",
       "block_type": "paragraph",
       "text": "+2 morale bonus on saving throws against fear: This bonus stacks with the halfling's +1 bonus on saving throws in general.",
-      "line_start": 99,
-      "line_end": 99
+      "line_start": 89,
+      "line_end": 89,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0090",
       "block_type": "paragraph",
       "text": "+1 racial bonus on attack rolls with thrown weapons and slings.",
-      "line_start": 100,
-      "line_end": 100
+      "line_start": 90,
+      "line_end": 90,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0091",
       "block_type": "paragraph",
       "text": "+2 racial bonus on Listen checks.",
-      "line_start": 101,
-      "line_end": 101
+      "line_start": 91,
+      "line_end": 91,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0092",
       "block_type": "paragraph",
       "text": "Automatic Languages: Common and Halfling. Bonus Languages: Dwarven, Elven, Gnome, Goblin, and Orc.",
-      "line_start": 102,
-      "line_end": 102
+      "line_start": 92,
+      "line_end": 92,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     },
     {
       "block_id": "b0093",
       "block_type": "paragraph",
       "text": "Favored Class: Rogue. A multiclass halfling's rogue class does not count when determining whether she takes an experience point penalty for multiclassing.",
-      "line_start": 103,
-      "line_end": 103
+      "line_start": 93,
+      "line_end": 93,
+      "font_size": 20,
+      "font_size_class": "smaller",
+      "starts_with_bold": true,
+      "all_bold": true
     }
-  ]
+  ],
+  "document_baseline_font_size": 36
 }
