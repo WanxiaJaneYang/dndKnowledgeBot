@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .boundary_filter import apply_boundary_filters
 from .constants import EXTRACTION_CAVEATS, INGESTION_NOTES
-from .content_types import load_content_types
+from .content_types import eligible_types_for_file, load_content_types
 from .entry_annotator import annotate_entries
 from .extraction_ir import build_extraction_ir
 from .paths import remove_directory_if_present, resolve_repo_relative_path
@@ -103,6 +103,7 @@ def _write_reports(
     ingested_at: str,
     extraction_records: list[dict],
     canonical_records: list[dict],
+    entry_annotation_summary: dict | None = None,
 ) -> tuple[Path, Path]:
     extracted_report = {
         "source_id": manifest["source_id"],
@@ -124,6 +125,8 @@ def _write_reports(
         "extraction_caveats": EXTRACTION_CAVEATS,
         "records": canonical_records,
     }
+    if entry_annotation_summary is not None:
+        canonical_report["entry_annotation_summary"] = entry_annotation_summary
     canonical_report_path = canonical_root / "canonical_report.json"
     canonical_report_path.write_text(json.dumps(canonical_report, indent=2) + "\n", encoding="utf-8")
     return extracted_report_path, canonical_report_path
@@ -177,6 +180,14 @@ def ingest_source(
     else:
         content_types = []
 
+    entry_annotation_summary: dict = {
+        "files_with_entries": 0,
+        "files_passthrough_no_eligible_type": 0,
+        "files_passthrough_no_shape_match": 0,
+        "entries_by_type": {},
+        "shape_match_failures": [],
+    }
+
     for rtf_path in rtf_files:
         raw_bytes = rtf_path.read_bytes()
         rtf_text = raw_bytes.decode("latin-1", errors="ignore")
@@ -199,6 +210,31 @@ def ingest_source(
             file_name=rtf_path.name,
             content_types=content_types,
         )
+
+        eligible = eligible_types_for_file(rtf_path.name, content_types)
+        file_has_entries = any("entry_index" in b for b in extraction_ir["blocks"])
+        if not eligible:
+            entry_annotation_summary["files_passthrough_no_eligible_type"] += 1
+        elif not file_has_entries:
+            entry_annotation_summary["files_passthrough_no_shape_match"] += 1
+            for cfg in eligible:
+                entry_annotation_summary["shape_match_failures"].append({
+                    "file": rtf_path.name,
+                    "type": cfg.name,
+                    "reason": "no_match",
+                })
+        else:
+            entry_annotation_summary["files_with_entries"] += 1
+            type_counts: dict[str, int] = {}
+            for b in extraction_ir["blocks"]:
+                et = b.get("entry_type")
+                if et is not None and b.get("entry_role") in ("title", "definition"):
+                    type_counts[et] = type_counts.get(et, 0) + 1
+            for type_name, count in type_counts.items():
+                entry_annotation_summary["entries_by_type"][type_name] = (
+                    entry_annotation_summary["entries_by_type"].get(type_name, 0) + count
+                )
+
         extracted_ir_path = extracted_ir_root / f"{file_slug}.json"
         extracted_ir_path.write_text(json.dumps(extraction_ir, indent=2) + "\n", encoding="utf-8")
 
@@ -285,6 +321,7 @@ def ingest_source(
         ingested_at=ingested_at,
         extraction_records=extraction_records,
         canonical_records=canonical_records,
+        entry_annotation_summary=entry_annotation_summary,
     )
     return {
         "source_id": manifest["source_id"],
