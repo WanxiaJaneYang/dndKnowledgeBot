@@ -2,11 +2,14 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
 from .boundary_filter import apply_boundary_filters
 from .constants import EXTRACTION_CAVEATS, INGESTION_NOTES
+from .content_types import load_content_types
+from .entry_annotator import annotate_entries
 from .extraction_ir import build_extraction_ir
 from .paths import remove_directory_if_present, resolve_repo_relative_path
 from .rtf_decoder import decode_rtf_spans, decode_rtf_text
@@ -32,6 +35,61 @@ def build_source_ref(manifest: dict) -> dict:
         "source_type": manifest["source_type"],
         "authority_level": manifest["authority_level"],
     }
+
+
+def _compute_processing_hints(section: dict, meta: dict) -> dict:
+    """Build processing_hints dict from section + entry_metadata.
+
+    Currently emits chunk_type_hint plus structure_cuts (only for
+    entry_with_statblock shape — definition_list entries are single-block
+    and need no cuts).
+    """
+    hints: dict = {"chunk_type_hint": meta["entry_chunk_type"]}
+    if meta["shape_family"] == "entry_with_statblock":
+        cut_offset = _stat_block_end_offset(section)
+        if cut_offset > 0:
+            hints["structure_cuts"] = [
+                {
+                    "kind": "stat_block_end",
+                    "char_offset": cut_offset,
+                    "child_chunk_type": "stat_block",
+                }
+            ]
+    return hints
+
+
+_STAT_FIELD_LINE_RE = re.compile(r"^[A-Z][\w '/-]+:")
+
+
+def _stat_block_end_offset(section: dict) -> int:
+    """Compute the char offset in section['content'] just past the last
+    consecutive stat-field line (as would have been tagged stat_field
+    upstream by the entry annotator).
+
+    Section content is "\\n".join(block.text.strip() for blocks in the
+    section). We walk the content lines to find the last consecutive line
+    matching the field pattern. The annotator already validated these are
+    stat fields; here we only need to find where the block ends to
+    compute the cut offset.
+    """
+    content = section["content"]
+    lines = content.split("\n")
+    last_field_line = -1
+    for i, line in enumerate(lines):
+        if _STAT_FIELD_LINE_RE.match(line):
+            last_field_line = i
+        elif last_field_line >= 0:
+            break
+    if last_field_line < 0:
+        return 0
+    # Offset = sum of line lengths through last field line + the "\n"
+    # separators between them.
+    offset = sum(len(lines[i]) for i in range(last_field_line + 1)) + last_field_line
+    # Plus one more for the newline after the last field line if any
+    # content follows.
+    if last_field_line + 1 < len(lines):
+        offset += 1
+    return offset
 
 
 def _write_reports(
@@ -113,6 +171,12 @@ def ingest_source(
     demote_heading_candidate_files = set(manifest.get("fixture_overrides", {}).get("demote_heading_candidate_files", []))
     boilerplate_phrases = set(manifest.get("boilerplate_phrases", []))
 
+    content_types_path = repo_root / "configs" / "content_types.yaml"
+    if content_types_path.exists():
+        content_types = load_content_types(content_types_path.read_text(encoding="utf-8"))
+    else:
+        content_types = []
+
     for rtf_path in rtf_files:
         raw_bytes = rtf_path.read_bytes()
         rtf_text = raw_bytes.decode("latin-1", errors="ignore")
@@ -130,6 +194,11 @@ def ingest_source(
             for block in extraction_ir["blocks"]:
                 if block.get("block_type") == "heading_candidate":
                     block["block_type"] = "paragraph"
+        annotate_entries(
+            extraction_ir["blocks"],
+            file_name=rtf_path.name,
+            content_types=content_types,
+        )
         extracted_ir_path = extracted_ir_root / f"{file_slug}.json"
         extracted_ir_path.write_text(json.dumps(extraction_ir, indent=2) + "\n", encoding="utf-8")
 
@@ -144,18 +213,36 @@ def ingest_source(
             section_slug = section["section_slug"]
             section_title = section["section_title"]
             source_location = f"{source_location_base}#{index:03d}_{section_slug}"
-            section_path = [rtf_path.stem, section_title]
+
+            meta = section.get("entry_metadata")
+            if meta:
+                section_path = [meta["entry_category"], meta["entry_title"]]
+                document_title = meta["entry_title"]
+                locator: dict = {
+                    "section_path": section_path,
+                    "source_location": source_location,
+                    "entry_title": meta["entry_title"],
+                }
+            else:
+                section_path = [rtf_path.stem, section_title]
+                document_title = section_title
+                locator = {"section_path": section_path, "source_location": source_location}
+
             document_id = f"{manifest['source_id']}::{file_slug}::{index:03d}_{section_slug}"
 
-            canonical_doc = {
+            canonical_doc: dict = {
                 "document_id": document_id,
                 "source_ref": source_ref,
-                "locator": {"section_path": section_path, "source_location": source_location},
+                "locator": locator,
                 "content": section["content"],
-                "document_title": section_title,
+                "document_title": document_title,
                 "source_checksum": raw_checksum,
                 "ingested_at": ingested_at,
             }
+
+            if meta:
+                canonical_doc["processing_hints"] = _compute_processing_hints(section, meta)
+
             if canonical_docs is not None:
                 canonical_docs.append(canonical_doc)
 
