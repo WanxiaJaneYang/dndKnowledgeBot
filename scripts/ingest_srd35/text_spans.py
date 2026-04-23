@@ -15,9 +15,9 @@ class TextSpan:
 
     text: the visible text. \\par / \\line emit "\\n" within text; the
         decoder does not split spans on these newlines.
-    font_size: half-points (RTF native unit). 24 == 12pt body. 0 if
-        the document declares no default and no \\fs override is in
-        scope.
+    font_size: half-points (RTF native unit). 24 == 12pt body.
+        Defaults to the decoder's _DEFAULT_FONT_SIZE (24) when no
+        \\fs override is in scope.
     bold: True if \\b1 (or \\b alone) is in scope, False if \\b0 or
         no \\b override is in scope.
     """
