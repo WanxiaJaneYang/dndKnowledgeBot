@@ -6,16 +6,13 @@
 
 ## 项目状态
 
-当前处于 **早期实现阶段**（Phase 1 基线路径进行中）。
+当前处于 **Phase 1 — 核心实现阶段**。Phase 0 设计已完成。
 
-当前重点：
+核心检索链路已落地：ingestion（`scripts/ingest_srd35/`）、chunker（`scripts/chunker/`）、带领域感知打分与 match-signal 重排的 lexical-first retrieval（`scripts/retrieval/`）、section-aware 的候选聚合、structure metadata 索引，以及 evidence-pack 契约与 retrieval debug CLI（`scripts/retrieve_debug.py`）。
 
-- 明确产品范围与边界
-- 固化语料与元数据契约
-- 推进 ingestion / evaluation 基础能力
-- 开始端到端 baseline（chunking + retrieval + evidence-pack QA）
+Phase 1 仍待完成：带 grounding 约束的 answer generation、citation 渲染、abstain 行为，以及在 gold set 上的首次评测运行。
 
-设计文档仍是主约束，但 ingestion 与评测证据链已经落地并用于回归。
+设计文档仍是契约的主约束；实现通过 fixture corpus、golden test 与 recall-coverage 回归加以对齐。
 
 ## 愿景
 
@@ -58,6 +55,7 @@ Phase 1 只在 3.5e 语料内工作。
 - `docs/evaluation_plan.md`：评测方案
 - `docs/standards/pr_evidence.md`：流水线 PR 的最低证据标准
 - `configs/source_registry.yaml`：来源注册表
+- `evals/phase1_gold.yaml`：`srd_35` 上的 Phase 1 gold 评测集
 
 ## 当前形态
 
@@ -69,4 +67,4 @@ Phase 1 只在 3.5e 语料内工作。
 
 ## 下一步
 
-当前最优先事项是推进 Issue #5：落地第一条端到端 baseline（rule-aware chunking + retrieval + evidence-pack QA），并在已提交的 gold set 上跑出可解释失败标签。
+ingestion、chunking、lexical retrieval、候选聚合与 evidence-pack 契约已在 `srd_35` 上就位。下一步是闭合 Phase 1：带 grounding 约束的 answer generation、claim / segment 级别的 citation 渲染、abstain 行为，并在 `evals/phase1_gold.yaml` 上跑出第一次评测结果。

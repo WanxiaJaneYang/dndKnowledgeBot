@@ -6,16 +6,13 @@ A private, personal RAG project for asking grounded questions about **Dungeons &
 
 ## Project status
 
-This repository is in **early implementation** (Phase 1 bootstrap path in progress).
+This repository is in **Phase 1 — Core Implementation**. Phase 0 design is complete.
 
-At this stage, the focus is:
+The core retrieval pipeline is now implemented: ingestion (`scripts/ingest_srd35/`), chunker (`scripts/chunker/`), lexical-first retrieval with domain-aware scoring and match-signal reranking (`scripts/retrieval/`), section-aware candidate shaping, structure-metadata indexing, and an evidence-pack contract with a retrieval debug CLI (`scripts/retrieve_debug.py`).
 
-- defining product scope
-- defining corpus and source boundaries
-- defining ingestion, chunking, retrieval, and citation strategy
-- defining evaluation criteria
+Still to come in Phase 1: answer generation with grounding, citation rendering, abstention behavior, and the evaluation run against the gold set.
 
-Design documents are still the source of truth, but ingestion and evaluation scaffolding are now implemented and used for regression evidence.
+Design documents remain authoritative for contracts; implementation is tracked against them via fixture corpora, golden tests, and recall-coverage evals.
 
 ## Vision
 
@@ -95,6 +92,7 @@ This repository is expected to grow around a small set of design documents.
 - `docs/evaluation_plan.md` — success criteria and evaluation approach
 - `docs/standards/pr_evidence.md` — minimum review evidence for pipeline PRs
 - `configs/source_registry.yaml` — tracked corpus sources and metadata
+- `evals/phase1_gold.yaml` — Phase 1 gold evaluation set over `srd_35`
 
 ## Initial product shape
 
@@ -152,4 +150,4 @@ Avoid:
 
 ## Next step
 
-The bootstrap source is pinned, the metadata contract is unified, and the Phase-1 gold evaluation set is committed. The immediate next step is to implement the first end-to-end baseline (rule-aware chunking + retrieval + evidence-pack QA) against `srd_35`.
+Ingestion, chunking, lexical retrieval, candidate shaping, and the evidence-pack contract are now in place against `srd_35`. The immediate next step is to close the Phase 1 loop: answer generation with grounding constraints, claim- / segment-level citation rendering, and abstention behavior, followed by the first evaluation run against `evals/phase1_gold.yaml`.
