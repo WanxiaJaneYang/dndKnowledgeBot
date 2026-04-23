@@ -18,6 +18,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
+from scripts.retrieval.contracts import MatchSignals
 from scripts.retrieval.evidence_pack import EvidencePack, retrieve_evidence
 
 
@@ -76,15 +77,15 @@ def _fmt_locator(locator: dict) -> str:
     return " | ".join(parts) if parts else str(locator)
 
 
-def _fmt_signals(signals: dict) -> str:
+def _fmt_signals(signals: MatchSignals) -> str:
     parts = []
-    if signals.get("section_path_hit"):
+    if signals["section_path_hit"]:
         parts.append("section_path_hit")
-    if ep := signals.get("exact_phrase_hits"):
+    if ep := signals["exact_phrase_hits"]:
         parts.append(f"exact={ep}")
-    if pp := signals.get("protected_phrase_hits"):
+    if pp := signals["protected_phrase_hits"]:
         parts.append(f"protected={pp}")
-    if tc := signals.get("token_overlap_count"):
+    if tc := signals["token_overlap_count"]:
         parts.append(f"token_overlap={tc}")
     return ", ".join(parts) if parts else "(none)"
 

@@ -13,11 +13,13 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-logger = logging.getLogger(__name__)
-
-from .candidate_shaping import CandidateGroup
+from .candidate_shaping import CandidateGroup, shape_candidates
 from .contracts import MatchSignals, NormalizedQuery
-from .filters import RetrievalConstraints
+from .filters import RetrievalConstraints, build_constraints
+from .lexical_retriever import DEFAULT_DB_PATH, retrieve_lexical
+from .query_normalization import normalize_query
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
@@ -64,7 +66,7 @@ class EvidencePack:
 
     query: NormalizedQuery
     constraints_summary: dict[str, Any]
-    evidence: list[EvidenceItem]
+    evidence: tuple[EvidenceItem, ...]
     trace: PipelineTrace
 
 
@@ -120,6 +122,7 @@ def build_evidence_pack(
     """
     evidence: list[EvidenceItem] = []
     summaries: list[GroupSummary] = []
+    missing_chunk_ids: list[str] = []
 
     for group in groups:
         summaries.append(
@@ -132,10 +135,7 @@ def build_evidence_pack(
         for candidate in group.candidates:
             content = content_lookup.get(candidate.chunk_id, "")
             if not content:
-                logger.warning(
-                    "No content found for chunk %s; evidence item will have empty content",
-                    candidate.chunk_id,
-                )
+                missing_chunk_ids.append(candidate.chunk_id)
             evidence.append(
                 EvidenceItem(
                     chunk_id=candidate.chunk_id,
@@ -150,6 +150,13 @@ def build_evidence_pack(
                 )
             )
 
+    if missing_chunk_ids:
+        logger.warning(
+            "No content found for %d chunk(s); evidence items will have empty content: %s",
+            len(missing_chunk_ids),
+            missing_chunk_ids,
+        )
+
     trace = PipelineTrace(
         total_candidates=total_candidates,
         group_count=len(groups),
@@ -158,12 +165,12 @@ def build_evidence_pack(
 
     # Sort evidence globally by rank so consumers can iterate as-ranked
     # without needing to re-sort across groups.
-    evidence.sort(key=lambda e: e.rank)
+    sorted_evidence = tuple(sorted(evidence, key=lambda e: e.rank))
 
     return EvidencePack(
         query=query,
         constraints_summary=_constraints_to_summary(constraints),
-        evidence=evidence,
+        evidence=sorted_evidence,
         trace=trace,
     )
 
@@ -179,11 +186,6 @@ def retrieve_evidence(
     Runs normalization → lexical retrieval → shaping → evidence pack
     assembly in one call.
     """
-    from .candidate_shaping import shape_candidates
-    from .filters import build_constraints
-    from .lexical_retriever import DEFAULT_DB_PATH, retrieve_lexical
-    from .query_normalization import normalize_query
-
     norm_payload = normalize_query(raw_query)
     query = NormalizedQuery.from_query_normalization(norm_payload)
     constraints = build_constraints()

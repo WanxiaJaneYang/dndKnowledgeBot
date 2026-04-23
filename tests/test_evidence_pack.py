@@ -283,6 +283,93 @@ def test_source_ref_carries_title_for_citation():
 
 
 # ---------------------------------------------------------------------------
+# retrieve_evidence orchestrator
+# ---------------------------------------------------------------------------
+
+
+def test_retrieve_evidence_end_to_end(tmp_path):
+    """End-to-end: raw query string → EvidencePack with hydrated content."""
+    import json as _json
+
+    from scripts.retrieval.evidence_pack import retrieve_evidence
+    from scripts.retrieval.lexical_index import build_chunk_index
+
+    chunk = {
+        "chunk_id": "chunk::srd_35::combat::001_attack_of_opportunity",
+        "document_id": "srd_35::combat",
+        "source_ref": {
+            "source_id": "srd_35",
+            "title": "System Reference Document",
+            "edition": "3.5e",
+            "source_type": "srd",
+            "authority_level": "official_reference",
+        },
+        "locator": {
+            "section_path": ["Combat", "Attack of Opportunity"],
+            "source_location": "Combat.rtf#001",
+        },
+        "chunk_type": "rule_section",
+        "content": "An attack of opportunity is a single melee attack.",
+    }
+    chunk_path = tmp_path / "aoo.json"
+    chunk_path.write_text(_json.dumps(chunk), encoding="utf-8")
+    db_path = tmp_path / "retrieval.db"
+    build_chunk_index(db_path, [chunk_path])
+
+    pack = retrieve_evidence("attack of opportunity", db_path=db_path, top_k=5)
+
+    assert len(pack.evidence) == 1
+    item = pack.evidence[0]
+    assert item.chunk_id == chunk["chunk_id"]
+    assert item.content == chunk["content"]
+    assert item.section_root == "Combat"
+    assert item.rank == 1
+
+    assert pack.trace.total_candidates == 1
+    assert pack.trace.group_count == 1
+    assert pack.trace.group_summaries[0].candidate_count == 1
+
+    # Query context threaded through.
+    assert pack.query.raw_query == "attack of opportunity"
+
+
+def test_retrieve_evidence_empty_for_no_match(tmp_path):
+    """retrieve_evidence returns a pack with empty evidence when no chunks match."""
+    import json as _json
+
+    from scripts.retrieval.evidence_pack import retrieve_evidence
+    from scripts.retrieval.lexical_index import build_chunk_index
+
+    chunk = {
+        "chunk_id": "chunk::srd_35::combat::001_attack_of_opportunity",
+        "document_id": "srd_35::combat",
+        "source_ref": {
+            "source_id": "srd_35",
+            "title": "System Reference Document",
+            "edition": "3.5e",
+            "source_type": "srd",
+            "authority_level": "official_reference",
+        },
+        "locator": {
+            "section_path": ["Combat", "Attack of Opportunity"],
+            "source_location": "Combat.rtf#001",
+        },
+        "chunk_type": "rule_section",
+        "content": "An attack of opportunity is a single melee attack.",
+    }
+    chunk_path = tmp_path / "aoo.json"
+    chunk_path.write_text(_json.dumps(chunk), encoding="utf-8")
+    db_path = tmp_path / "retrieval.db"
+    build_chunk_index(db_path, [chunk_path])
+
+    pack = retrieve_evidence("psionics", db_path=db_path, top_k=5)
+
+    assert pack.evidence == ()
+    assert pack.trace.total_candidates == 0
+    assert pack.trace.group_count == 0
+
+
+# ---------------------------------------------------------------------------
 # Public export
 # ---------------------------------------------------------------------------
 
