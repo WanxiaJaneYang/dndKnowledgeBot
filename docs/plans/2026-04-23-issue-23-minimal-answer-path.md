@@ -20,6 +20,16 @@ real questions end-to-end, (b) run the Phase 1 gold set under #24, and
 (c) keep the baseline fully inspectable — every segment and every abstain
 decision is a function of `match_signals` and `candidate_shaping` output.
 
+> **This is an excerpt-based answer ("摘要式"), deliberately a validation
+> scaffold — not the terminal design.** Segment text is always a chunk
+> excerpt; the composer never synthesizes prose. The purpose is to
+> unblock #24's gold-set evaluation and to surface retrieval / shaping /
+> citation failures without mixing them with answer-generation noise.
+> A real prose-synthesizing composer (LLM-backed, calling `build_answer()`
+> over the same `EvidencePack`) is the intended successor in a later
+> iteration; its shape is hinted at in §6 and kept open by keeping the
+> `EvidencePack → AnswerResult` interface stable.
+
 ## 2. Scope and non-goals
 
 ### In scope
@@ -301,16 +311,25 @@ Callers that want schema validation from `--json-debug` output must pop the
    the human-readable string satisfies the schema's `abstention_reason`
    requirement in `--json` output.
 
-6. **No LLM.** Every decision in the pipeline is a function of
-   `match_signals` + `candidate_shaping` output. This is what "inspectable
-   baseline behavior" means in the #23 issue body.
+6. **No LLM in v1 — validation scaffold only.** Every v1 decision is a
+   function of `match_signals` + `candidate_shaping` output. This is what
+   "inspectable baseline behavior" means in the #23 issue body. The
+   intentional cost is that answers read as stitched excerpts, not prose.
+   A prose-synthesizing composer is the planned successor and will consume
+   the same `EvidencePack`, so the interface is stable across the transition.
 
 ## 6. Alternatives considered
 
-- **LLM-based composer.** More realistic answers, but introduces API
-  dependency, non-determinism, and hides baseline failures behind model
-  behavior. Rejected for v1; can slot in behind `build_answer()` later
-  without changing the contract.
+- **LLM-based composer (planned for v2, not rejected).** Real prose
+  synthesis over the same `EvidencePack` — the actual target for the
+  project. Deliberately deferred past v1 because (a) gold-set evaluation
+  needs to distinguish retrieval/shaping/citation failures from
+  answer-generation variance, and a rule-based composer isolates the
+  former; (b) once #24 produces a tagged baseline, it becomes a fixed
+  reference against which the LLM composer can be scored. Follow-up
+  tracked as: introduce an `LLMAnswerComposer` that implements the same
+  `build_answer(pack) → AnswerResult` interface behind a flag, so the
+  CLI and eval harness can A/B the two composers without contract churn.
 - **Policy B/C abstain gates** (token-overlap floors, composite scores).
   Let more queries through, at the cost of weaker guarantees. Reject now;
   revisit after #24.
@@ -375,3 +394,11 @@ Callers that want schema validation from `--json-debug` output must pop the
 6. PR includes an evidence block per `docs/standards/pr_evidence.md`: CLI
    run against 3-4 queries (one clear grounded, one abstain, one edge case).
 7. Merge closes #23; follow-up task for #24 consumes this pipeline as-is.
+8. **v2 follow-up (out of scope for this PR, but queued):** introduce an
+   `LLMAnswerComposer` that implements the same `build_answer(pack) →
+   AnswerResult` interface. Once #24 produces a tagged baseline, the
+   LLM composer can be evaluated against the same gold set and the same
+   failure tags. Open a new issue for this after #24 lands; do not start
+   before the rule-based baseline's failure profile is recorded — the
+   whole point of the v1 scaffold is to give the LLM composer something
+   to be measured against.
