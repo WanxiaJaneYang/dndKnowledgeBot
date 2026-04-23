@@ -150,6 +150,19 @@ The Phase 1 implementation is lexical-first and domain-aware. The concrete pipel
 
 Semantic / vector retrieval is deferred to Phase 2 hybrid extension as described in `docs/chunking_retrieval_design.md`.
 
+### 4.6a Answer stage (rule-based, v1)
+
+The v1 answer stage is a rule-based excerpt composer layered on top of the retrieval evidence pack. It turns an `EvidencePack` into either a grounded answer (primary excerpt + up to two supporting excerpts with chunk-level citations) or an abstention — no prose is synthesized. This is a deliberate validation scaffold; an LLM-backed prose composer is planned as a v2 successor that will consume the same `EvidencePack` contract.
+
+- rule-based excerpt composer — segment text is always a chunk excerpt, never generated
+- strict-signal abstain gate — at least one of exact_phrase_hit, protected_phrase_hit, or section_path_hit must be present on the top item
+- up to three segments per answer — one primary plus at most two supporting (sibling-first, then a distinct-signal cross-section, with a fallback sibling in slot 2)
+- citation binder — assigns stable citation ids, dedupes when two segments share the same (chunk_id, excerpt)
+- two-flag CLI — `--json` emits the strict schema shape; `--json-debug` adds a top-level `debug` block (non-schema-valid) with the pipeline trace and per-selected-item signals
+- v1 validation scaffold — shares `build_answer(pack) → AnswerResult` with the planned v2 LLM composer
+
+Full design lives in `docs/plans/2026-04-23-issue-23-minimal-answer-path.md`.
+
 ### 4.7 Answer composition
 
 The answer composition layer turns retrieved evidence into a grounded response.

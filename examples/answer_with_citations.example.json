@@ -1,71 +1,69 @@
 {
-  "query": "How many bonus feats does a Fighter receive, and when?",
+  "query": "attack of opportunity",
   "answer_type": "grounded",
   "answer_segments": [
     {
-      "segment_id": "claim_1",
-      "text": "A Fighter gains a bonus feat at 1st level, then another at 2nd level and every two Fighter levels thereafter.",
+      "segment_id": "seg_1",
+      "text": "You threaten all squares into which you can make a melee attack, even when it is not your turn. Generally, that means everything in all squares adjacent to your space.",
       "support_type": "direct_support",
-      "citation_ids": ["cit_1"]
+      "citation_ids": [
+        "cit_1"
+      ]
     },
     {
-      "segment_id": "claim_2",
-      "text": "Those bonus feats must come from the fighter bonus feat list, and the character still has to meet the prerequisites.",
+      "segment_id": "seg_2",
+      "text": "Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity.",
       "support_type": "direct_support",
-      "citation_ids": ["cit_2"]
+      "citation_ids": [
+        "cit_2"
+      ]
     }
   ],
   "citations": [
     {
       "citation_id": "cit_1",
-      "chunk_id": "srd_35::classes::fighter::bonus_feats::chunk_1",
+      "chunk_id": "srd_35::combat::attack_of_opportunity::chunk_2",
       "source_ref": {
-        "source_id": "srd_35",
-        "title": "System Reference Document",
+        "authority_level": "official_reference",
         "edition": "3.5e",
+        "source_id": "srd_35",
         "source_type": "srd",
-        "authority_level": "official_reference"
+        "title": "System Reference Document"
       },
       "locator": {
+        "entry_title": "Threatened Squares",
         "section_path": [
-          "Classes",
-          "Fighter",
-          "Class Features",
-          "Bonus Feats"
+          "Combat",
+          "Attack of Opportunity",
+          "Threatened Squares"
         ],
-        "entry_title": "Bonus Feats",
-        "source_location": "ClassesI.rtf > Bonus Feats > paragraph 1"
+        "source_location": "Combat.rtf > Threatened Squares"
       },
-      "excerpt": "At 1st level, a fighter gets a bonus combat-oriented feat. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter."
+      "excerpt": "You threaten all squares into which you can make a melee attack, even when it is not your turn. Generally, that means everything in all squares adjacent to your space."
     },
     {
       "citation_id": "cit_2",
-      "chunk_id": "srd_35::classes::fighter::bonus_feats::chunk_1",
+      "chunk_id": "srd_35::combat::attack_of_opportunity::chunk_1",
       "source_ref": {
-        "source_id": "srd_35",
-        "title": "System Reference Document",
+        "authority_level": "official_reference",
         "edition": "3.5e",
+        "source_id": "srd_35",
         "source_type": "srd",
-        "authority_level": "official_reference"
+        "title": "System Reference Document"
       },
       "locator": {
+        "entry_title": "Attack of Opportunity",
         "section_path": [
-          "Classes",
-          "Fighter",
-          "Class Features",
-          "Bonus Feats"
+          "Combat",
+          "Attack of Opportunity"
         ],
-        "entry_title": "Bonus Feats",
-        "source_location": "ClassesI.rtf > Bonus Feats > paragraph 2"
+        "source_location": "Combat.rtf > Attack of Opportunity > paragraph 1"
       },
-      "excerpt": "These bonus feats must be drawn from the feats noted as fighter bonus feats. A fighter must still meet all prerequisites for a bonus feat."
+      "excerpt": "Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity."
     }
   ],
   "retrieval_metadata": {
-    "candidate_chunks": 5,
-    "selected_chunks": 1,
-    "embedding_model": "nomic-embed-text-v1.5",
-    "answer_model": "claude-sonnet-4-6",
-    "reranker_model": null
+    "candidate_chunks": 2,
+    "selected_chunks": 2
   }
 }
