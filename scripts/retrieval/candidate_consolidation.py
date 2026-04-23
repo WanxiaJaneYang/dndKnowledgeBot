@@ -128,6 +128,14 @@ def _is_chain_head(
 
     The predecessor is a merge partner iff it is in the hit set (``by_id``)
     *and* shares the same section_path.
+
+    Note on asymmetry: head detection reads ``previous_chunk_id`` while
+    ``_walk_chain`` advances via ``next_chunk_id``.  For well-formed index
+    data (next/prev are true inverses) this is exact.  For broken data
+    where the pointers disagree, the defensive catch at the end of
+    ``_consolidate_group`` emits any missed candidates as singletons —
+    i.e. we fail to "some unmerged singletons" rather than to "incorrect
+    merges".
     """
     prev_id = candidate.previous_chunk_id
     if prev_id is None or prev_id not in by_id:

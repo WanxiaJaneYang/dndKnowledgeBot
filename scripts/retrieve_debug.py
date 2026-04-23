@@ -62,8 +62,9 @@ def _print_text(pack: EvidencePack) -> None:
     print(f"EVIDENCE ({len(pack.evidence)} items)")
     print("=" * 72)
     for i, item in enumerate(pack.evidence, 1):
+        rep_label = "  (representative)" if item.merge_reason != "singleton" else ""
         print(f"\n--- Evidence #{i} (rank {item.rank}) ---")
-        print(f"  chunk_id:    {item.chunk_id}  (representative)")
+        print(f"  chunk_id:    {item.chunk_id}{rep_label}")
         print(f"  document_id: {item.document_id}")
         print(f"  chunk_type:  {item.chunk_type}")
         print(f"  section:     {item.section_root}")
