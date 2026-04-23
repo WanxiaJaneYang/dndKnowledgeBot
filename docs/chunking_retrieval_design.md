@@ -212,12 +212,14 @@ At minimum, a chunk should preserve:
 Useful additional metadata may include:
 
 - `parent_chunk_id`
-- `sibling_prev`
-- `sibling_next`
+- `previous_chunk_id`
+- `next_chunk_id`
 - `source_layer` such as base text or errata
 - `tags`
 - `created_from_strategy`
 - `chunk_version`
+
+`parent_chunk_id`, `previous_chunk_id`, and `next_chunk_id` are defined as optional string fields in `schemas/chunk.schema.json`. They are the adjacency links used by downstream consolidation and the evidence pack to reason about context without re-reading the canonical document. `None`/absent means the chunk is a boundary chunk (first or last in its section, or top-level with no parent).
 
 Embedding vectors and other engine-specific index fields should live in derived index artifacts keyed by `chunk_id`, not in the stable chunk object itself.
 
@@ -338,6 +340,40 @@ The alias layer should be intentionally small in the MVP.
 
 It should cover the highest-value terms and fragile phrases rather than attempting full synonym expansion.
 
+### 21.1 Composite retrieval score
+
+Raw BM25 alone is not enough to rank rules chunks well, because a short entry that lexically matches a query is not always the best support. Phase 1 therefore combines BM25 with match-signal boosts and a chunk-type prior to produce a single composite score per candidate (see `scripts/retrieval/lexical_retriever.py`):
+
+- **BM25 raw score** from the FTS index (lower-is-better)
+- **Match-signal boosts** for section-path hits, exact-phrase hits, protected-phrase hits, and token overlap
+- **Chunk-type prior** — a small per-type offset that reflects how rule-bearing a chunk tends to be
+
+The chunk-type prior is keyed on the `chunk_type` enum in `schemas/chunk.schema.json`. Rule-bearing types receive the strongest boost, catalogue entries a moderate one, and illustrative or boilerplate types close to none:
+
+- `rule_section` — top-level rule definitions, strongest signal
+- `class_feature` — named mechanical features
+- `feat_entry`, `skill_entry`, `spell_entry`, `condition_entry` — discrete catalogue entries
+- `subsection` — general rule prose
+- `errata_note` — authoritative corrections
+- `table`, `faq_note`, `glossary_entry` — supporting reference material
+- `paragraph_group` — contextual prose groupings
+- `example`, `sidebar` — illustrative, rarely the primary answer
+- `generic` — no signal (e.g. legal/license boilerplate)
+
+The exact weights are an implementation detail and are tuned against the fixture corpus rather than declared policy. What matters at the design level is that retrieval scoring is explicitly aware of chunk type, not just BM25.
+
+### 21.2 Structure metadata in the lexical index
+
+The lexical index stores structure and adjacency metadata alongside the FTS-searchable content so retrieval can reason about section context and neighboring chunks without a separate lookup.
+
+The index includes per-chunk columns for:
+
+- `section_path_json` — the ordered section path for the chunk
+- `path_depth` — depth of the section path
+- `parent_chunk_id`, `previous_chunk_id`, `next_chunk_id` — adjacency links
+
+These columns feed the section-path match signal, the shaping layer's `section_root` grouping key, and the evidence pack's per-item `section_root` field. A schema-version guard in `scripts/retrieval/lexical_index.py` rejects stale databases built before these columns were added.
+
 ## 22. Candidate retrieval
 
 Initial retrieval should aim to produce a small candidate set rather than a large dump of weakly related text.
@@ -362,6 +398,22 @@ If present, reranking should help:
 
 The design should allow an optional rerank stage without making the rest of the architecture depend on it.
 
+## 23a. Candidate shaping
+
+After the scored candidate list is produced (and optionally reranked), Phase 1 runs a lightweight shaping pass before evidence-pack assembly. See `scripts/retrieval/candidate_shaping.py`.
+
+Shaping groups candidates by the composite key `(document_id, section_root)`, where `section_root` is the first element of the chunk's `locator.section_path`. Using a composite key prevents unrelated sections from different documents or sources from being merged just because they share a top-level heading name (for example, two different sources both named `Combat`).
+
+Within each group, candidates preserve their original rank order. Groups are then sorted by the best (lowest) rank in each group, so the top-ranked evidence surfaces first but its sibling context stays attached.
+
+Shaping is intentionally narrow:
+
+- it does not drop candidates
+- it does not rescore
+- it does not merge across groups
+
+It is a structural re-projection of the ranked list, not a second ranker. Heavier consolidation (merging adjacent chunks, collapsing near-duplicates) is still covered by Section 25.
+
 ## 24. Evidence pack construction
 
 The retrieval layer should not pass raw search results directly into answer generation without normalization.
@@ -383,6 +435,28 @@ It should make it easy to inspect at least:
 - which normalized query form was used
 - which lexical signals or phrase matches contributed
 - how candidates were ranked, grouped, or dropped
+
+### 24.1 Phase 1 evidence pack shape
+
+The concrete Phase 1 evidence pack is defined in `scripts/retrieval/evidence_pack.py`. It wraps the shaped retrieval output with enough context for answer generation to produce grounded, cited answers without re-querying the index, and carries a pipeline trace so retrieval behavior is inspectable via the debug CLI (`scripts/retrieve_debug.py`).
+
+The pack has four top-level fields:
+
+- `query` — the `NormalizedQuery` (raw query, normalized text, tokens, protected phrases, applied aliases)
+- `constraints_summary` — a sorted dict of the hard filters that were applied: editions, source types, authority levels, excluded source ids
+- `evidence` — a tuple of `EvidenceItem`s, globally sorted by rank so consumers can iterate as-ranked without re-sorting across groups
+- `trace` — a `PipelineTrace` with `total_candidates`, `group_count`, and per-group `GroupSummary` entries (document_id, section_root, candidate_count)
+
+Each `EvidenceItem` carries:
+
+- `chunk_id`, `document_id`, `rank`
+- `content` — the chunk text, hydrated from the index
+- `chunk_type`
+- `source_ref` and `locator` — the provenance needed for citation rendering (see `docs/metadata_contract.md` and `docs/citation_policy.md`)
+- `match_signals` — exact-phrase hits, protected-phrase hits, section-path hit, token-overlap count
+- `section_root` — the group key used by shaping, preserved on each item so consumers can reason about coverage
+
+Adjacency links (`parent_chunk_id`, `previous_chunk_id`, `next_chunk_id`) are available on the upstream `LexicalCandidate` contract and are intentionally not yet projected into `EvidenceItem`; they stay reachable through `chunk_id` for future consolidation work.
 
 ## 25. Retrieval-time grouping and consolidation
 

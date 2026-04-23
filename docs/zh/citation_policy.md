@@ -114,6 +114,17 @@
 
 引用应附加到其支撑的断言上，而非仅在整个答案末尾无结构地出现。
 
+### 9.1 证据包到答案段落的交接
+
+在第一阶段，claim 与 citation 之间的绑定以证据包交接的方式实现。
+
+`scripts/retrieval/evidence_pack.py` 产出一个 `EvidencePack`，其 `evidence` 列表包含携带 `chunk_id`、`source_ref`、`locator` 与正文的 `EvidenceItem`。答案生成消费该证据包，并输出一个符合 `schemas/answer_with_citations.schema.json` 形状的对象：
+
+- `citations[]` 每一项复用证据项的 `chunk_id`、`source_ref`、`locator`，添加 `excerpt` 并分配稳定的 `citation_id`。
+- `answer_segments[]` 每一项通过其 `citation_ids` 数组引用一个或多个上述 `citation_id`。
+
+这就是为什么 citation 对象在段落间是可复用的：一个 chunk 可以产出多个 citation（不同的窄化 `locator` 或 `excerpt`），一个段落可以引用多个 chunk。Schema 强制：对 grounded 答案每段至少一个 `citation_id`，对 `abstain` 答案段落数与引用数均为零。参见 `docs/metadata_contract.md` 了解 `source_ref` 与 `locator` 如何在流水线中流动。
+
 ## 10. 直接支撑与推断的区分
 
 系统应区分：

@@ -2,6 +2,8 @@
 
 > [English](../corpus_health_srd35.md) | **中文** — Issue #27 全流水线运行后生成。
 
+> **基线快照。** 本文数据反映 Issue #27 基线（chunker 版本 `v1-section-passthrough`），可能已与当前 chunker 状态不一致。当某 PR 实质性改变 chunk 形态时需重新生成。
+
 ## 概要
 
 | 指标 | 值 |

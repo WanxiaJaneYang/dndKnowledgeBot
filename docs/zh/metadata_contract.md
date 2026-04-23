@@ -97,6 +97,30 @@
 }
 ```
 
+## Chunk Adjacency 字段
+
+`schemas/chunk.schema.json` 设置了 `additionalProperties: false`，并将以下 adjacency 字段声明为可选的字符串属性（不在 `required` 中）：
+
+- `parent_chunk_id` —— 当 chunk 属于某个更大的条目或表格时的父 chunk 标识符。
+- `previous_chunk_id` —— 前一相邻 chunk 的标识符。
+- `next_chunk_id` —— 后一相邻 chunk 的标识符。
+
+这些是已知的、schema 定义的字段 —— 生产者可以省略，但不得以其他自定义名称输出额外的 adjacency 字段。字段缺失意味着该 chunk 是边界块（所在 section 的第一个或最后一个，或无父级的顶层块）。
+
+Adjacency 字段支撑那些需要 chunk 上下文而非仅单次检索命中的下游推理 —— 例如，合并共同描述一条规则的相邻 chunk，或在单独检索到某个法术条目时浮出其父 section。它们也被镜像进词法检索索引（见 `scripts/retrieval/lexical_index.py`），使检索无需额外查询 chunk 对象即可读取。
+
+## 答案段落中的 source_ref 与 locator
+
+`source_ref` 与 `locator` 在 `schemas/common.schema.json` 中一次性定义，并被规范文档、chunk 与 citation 原样复用。这是从摄入一路贯通到最终答案的溯源链：
+
+1. 摄入阶段为每个规范文档附上 `source_ref` 与 `locator`。
+2. Chunker 将它们传播（可能窄化 `locator`）到每个产出的 chunk。
+3. 检索层在每个证据项上保留两个字段（见 `scripts/retrieval/evidence_pack.py::EvidenceItem`）。
+4. 答案层将它们复制进 `schemas/answer_with_citations.schema.json` 中 `citations[]` 条目，每项是一个可复用对象，包含 `citation_id`、`chunk_id`、`source_ref`、`locator`、`excerpt`。
+5. `answer_segments[].citation_ids` 通过 id 引用这些 citation 对象，将 claim 文本绑定到已保留的溯源。
+
+由于 `source_ref` 与 `locator` 端到端保持相同形态，答案渲染可以在无需字段翻译的情况下，将一个被引段落解析回其来源。Chunk 内窄化（例如某个具体段落）存在于 citation 层的 `locator` 与 `excerpt` 里，而非在重复的 chunk 记录中 —— 见 `docs/citation_policy.md` §5。
+
 ## 契约落点
 
 本契约适用于以下文件：

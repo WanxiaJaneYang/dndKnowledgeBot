@@ -2,6 +2,8 @@
 
 > **English** | [中文](zh/corpus_health_srd35.md) — Generated after Issue #27 full-pipeline run.
 
+> **Baseline snapshot.** These numbers reflect the Issue #27 baseline (chunker `v1-section-passthrough`) and may not match the current chunker state. Regenerate when a PR materially changes chunk shape.
+
 ## Summary
 
 | Metric | Value |

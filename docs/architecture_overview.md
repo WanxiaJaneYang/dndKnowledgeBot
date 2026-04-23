@@ -138,6 +138,18 @@ Its responsibilities include:
 
 In Phase 1, retrieval should assume a **strict D&D 3.5e corpus boundary**.
 
+The Phase 1 implementation is lexical-first and domain-aware. The concrete pipeline is:
+
+1. **Normalize** the raw query — case folding, punctuation cleanup, term alias expansion, protected phrases (`scripts/retrieval/query_normalization.py`).
+2. **Lexical retrieve** from the FTS/BM25 index over the chunk corpus (`scripts/retrieval/lexical_index.py`).
+3. **Hydrate match signals** — exact phrases, protected phrases, section-path hit, token overlap (`scripts/retrieval/match_signals.py`).
+4. **Composite score** — BM25 + match-signal boosts + chunk-type prior (rule-bearing types outrank illustrative ones).
+5. **Constraint filtering** — edition, source type, authority level, and excluded-source hard filters applied before a candidate is admitted.
+6. **Section-aware shaping** — group candidates by `(document_id, section_root)` and sort groups by best rank within group (`scripts/retrieval/candidate_shaping.py`).
+7. **Evidence pack** — package the shaped output with the normalized query, constraints summary, per-item evidence (content, chunk type, source ref, locator, match signals, section root), and a pipeline trace for debugging (`scripts/retrieval/evidence_pack.py`).
+
+Semantic / vector retrieval is deferred to Phase 2 hybrid extension as described in `docs/chunking_retrieval_design.md`.
+
 ### 4.7 Answer composition
 
 The answer composition layer turns retrieved evidence into a grounded response.

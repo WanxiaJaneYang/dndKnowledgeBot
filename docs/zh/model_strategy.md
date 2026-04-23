@@ -223,6 +223,16 @@
 - 确切的上下文窗口要求
 - 延迟或硬件的确切性能目标
 
+### 18.1 第一阶段参考示例
+
+上述决策仍开放之时，位于 `examples/answer_with_citations.example.json` 的 schema 示例以具体的模型名填充，以使 schema 及其验证器拥有一个可实例化的形态：
+
+- `embedding_model`：`nomic-embed-text-v1.5`
+- `answer_model`：`claude-sonnet-4-6`
+- `reranker_model`：`null`
+
+这些是**操作性示例值**，而非对任何特定模型系列的承诺。检索、答案与引用契约经过设计，使每个角色都可以独立替换（见 §14），而无需触动规范语料库、分块元数据或引用策略。
+
 ## 19. 摘要
 
 一句话总结：

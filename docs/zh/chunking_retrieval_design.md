@@ -212,12 +212,14 @@
 有用的附加元数据可能包括：
 
 - `parent_chunk_id`（父分块标识符）
-- `sibling_prev`（前邻分块）
-- `sibling_next`（后邻分块）
+- `previous_chunk_id`（前邻分块）
+- `next_chunk_id`（后邻分块）
 - `source_layer`（来源层，如基础文本或勘误）
 - `tags`（标签）
 - `created_from_strategy`（创建所用策略）
 - `chunk_version`（分块版本）
+
+`parent_chunk_id`、`previous_chunk_id`、`next_chunk_id` 在 `schemas/chunk.schema.json` 中定义为可选的字符串字段，是下游合并与证据包用于在不重新读取规范文档的情况下推理上下文的 adjacency 链接。`None`/缺失表示该 chunk 是边界块（所在章节的第一个或最后一个，或无父级的顶层块）。
 
 ## 14. 邻近关系与溯源
 
@@ -336,6 +338,40 @@ alias 层在 MVP 中应故意保持很薄。
 
 它只解决高价值、易碎的关键术语，不追求全量同义词扩展。
 
+### 21.1 综合检索打分
+
+仅凭原始 BM25 不足以很好地对规则 chunk 进行排序：一个在字面上与查询匹配的短条目未必是最佳支撑。因此，第一阶段结合 BM25、命中信号加分与 chunk-type 先验产出每个候选的综合分数（见 `scripts/retrieval/lexical_retriever.py`）：
+
+- **BM25 原始分数** 来自 FTS 索引（越低越好）
+- **命中信号加分** 包括 section-path 命中、精确短语命中、受保护短语命中与词元重叠
+- **Chunk-type 先验** —— 一个小的按类型偏置，反映该类 chunk 承载规则的倾向
+
+Chunk-type 先验以 `schemas/chunk.schema.json` 中的 `chunk_type` 枚举为键。规则类 chunk 获得最强加分，catalogue 条目获得中等，示例或样板类几乎不加分：
+
+- `rule_section` —— 顶层规则定义，最强信号
+- `class_feature` —— 命名机械特性
+- `feat_entry`、`skill_entry`、`spell_entry`、`condition_entry` —— 离散 catalogue 条目
+- `subsection` —— 一般规则散文
+- `errata_note` —— 权威勘误
+- `table`、`faq_note`、`glossary_entry` —— 支持性参考资料
+- `paragraph_group` —— 上下文散文分组
+- `example`、`sidebar` —— 示例性，很少作为主要答案
+- `generic` —— 无信号（例如法律/许可样板）
+
+具体权重属实现细节，需针对 fixture 语料库调优而非作为策略声明。从设计层面需要确认的是：检索打分显式感知 chunk type，而不仅仅是 BM25。
+
+### 21.2 词法索引中的结构元数据
+
+词法索引在可 FTS 搜索的内容旁边同时存储结构与 adjacency 元数据，使检索无需单独查询即可推理章节上下文与相邻 chunk。
+
+索引为每个 chunk 提供以下列：
+
+- `section_path_json` —— chunk 的有序 section path
+- `path_depth` —— section path 深度
+- `parent_chunk_id`、`previous_chunk_id`、`next_chunk_id` —— adjacency 链接
+
+这些列支撑 section-path 命中信号、shaping 层的 `section_root` 分组键以及证据包中每项的 `section_root` 字段。`scripts/retrieval/lexical_index.py` 的 schema 版本守卫会拒绝在这些列添加之前构建的过期数据库。
+
 ## 22. 候选检索
 
 初始检索应力求产生小规模的候选集，而非大量弱相关文本的堆砌。
@@ -360,6 +396,22 @@ alias 层在 MVP 中应故意保持很薄。
 
 设计应允许可选的重排序阶段，而不使架构的其余部分依赖于它。
 
+## 23a. 候选 shaping
+
+在打分后的候选列表产生（以及可选地被重排序）之后，第一阶段在证据包装配前运行一个轻量 shaping 环节。参见 `scripts/retrieval/candidate_shaping.py`。
+
+Shaping 以复合键 `(document_id, section_root)` 对候选进行分组，其中 `section_root` 为 chunk `locator.section_path` 的首元素。使用复合键可以防止来自不同文档或来源、仅因顶层标题同名（例如两个不同来源都叫 `Combat`）而被错误合并。
+
+每组内的候选保留原始排名顺序。然后按每组最佳（最小）排名对组进行排序，这样最强证据浮在最前，同时其同级上下文仍被保留。
+
+Shaping 故意保持窄范围：
+
+- 不丢弃候选
+- 不重新打分
+- 不跨组合并
+
+它是对排序列表的结构性再投影，而非第二个排序器。更重的合并（相邻 chunk 合并、近重复折叠）仍由第 25 节覆盖。
+
 ## 24. 证据包构建
 
 检索层不应将原始搜索结果未经规范化地直接传入答案生成。
@@ -381,6 +433,28 @@ alias 层在 MVP 中应故意保持很薄。
 - 使用了哪种归一化后的 query
 - 哪些 lexical 信号或短语命中推动了召回
 - 候选是如何被排序、分组或丢弃的
+
+### 24.1 第一阶段证据包形态
+
+具体的第一阶段证据包定义在 `scripts/retrieval/evidence_pack.py`。它将 shaping 后的检索输出与答案生成所需的上下文打包，使答案生成无需重新查询索引，并携带一个 pipeline trace 以便通过调试 CLI（`scripts/retrieve_debug.py`）检查检索行为。
+
+证据包有四个顶层字段：
+
+- `query` —— `NormalizedQuery`（原始 query、归一化文本、tokens、受保护短语、已应用的 aliases）
+- `constraints_summary` —— 实际应用的硬过滤的有序字典：editions、source types、authority levels、excluded source ids
+- `evidence` —— `EvidenceItem` 的 tuple，按全局 rank 排序，消费方可按排名迭代而无需跨组重排
+- `trace` —— `PipelineTrace`，含 `total_candidates`、`group_count` 与每组 `GroupSummary`（document_id、section_root、candidate_count）
+
+每个 `EvidenceItem` 携带：
+
+- `chunk_id`、`document_id`、`rank`
+- `content` —— 从索引水合出的 chunk 正文
+- `chunk_type`
+- `source_ref` 与 `locator` —— 引用渲染所需的溯源（见 `docs/metadata_contract.md` 与 `docs/citation_policy.md`）
+- `match_signals` —— 精确短语命中、受保护短语命中、section-path 命中、token-overlap 计数
+- `section_root` —— shaping 所用的分组键，在每项上保留，便于消费方推理覆盖面
+
+Adjacency 链接（`parent_chunk_id`、`previous_chunk_id`、`next_chunk_id`）位于上游 `LexicalCandidate` 契约上，且有意未投射到 `EvidenceItem`；它们通过 `chunk_id` 仍可被未来的合并工作访问。
 
 ## 25. 检索时的分组与合并
 
