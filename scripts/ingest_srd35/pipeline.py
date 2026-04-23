@@ -111,6 +111,7 @@ def ingest_source(
     canonical_records: list[dict] = []
     canonical_docs: list[dict] | None = [] if require_schema_validation else None
     demote_heading_candidate_files = set(manifest.get("fixture_overrides", {}).get("demote_heading_candidate_files", []))
+    boilerplate_phrases = set(manifest.get("boilerplate_phrases", []))
 
     for rtf_path in rtf_files:
         raw_bytes = rtf_path.read_bytes()
@@ -133,7 +134,12 @@ def ingest_source(
         extracted_ir_path.write_text(json.dumps(extraction_ir, indent=2) + "\n", encoding="utf-8")
 
         section_candidates = split_sections_from_blocks(rtf_path.stem, extraction_ir["blocks"])
-        sections, boundary_decisions = apply_boundary_filters(rtf_path.stem, rtf_path.name, section_candidates)
+        sections, boundary_decisions = apply_boundary_filters(
+            rtf_path.stem,
+            rtf_path.name,
+            section_candidates,
+            boilerplate_phrases=boilerplate_phrases,
+        )
         for index, section in enumerate(sections, start=1):
             section_slug = section["section_slug"]
             section_title = section["section_title"]

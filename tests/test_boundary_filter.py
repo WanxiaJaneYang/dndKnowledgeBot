@@ -4,6 +4,14 @@ from scripts.ingest_srd35.boundary_filter import apply_boundary_filters
 from scripts.ingest_srd35.sectioning import sanitize_identifier
 
 
+BOILERPLATE_PHRASES = {
+    "visit",
+    "www.wizards.com",
+    "system reference document",
+    "contains all of the",
+}
+
+
 def _candidate(title: str, content: str, paragraph_count: int = 1, table_rows: int = 0) -> dict:
     return {
         "section_title": title,
@@ -30,7 +38,12 @@ class BoundaryFilterTests(unittest.TestCase):
             _candidate("Description", "This material is Open Game Content. Visit www.wizards.com for details."),
             _candidate("Alignment", "Alignment is a broad category describing ethical outlook."),
         ]
-        accepted, decisions = apply_boundary_filters("Description", "Description.rtf", candidates)
+        accepted, decisions = apply_boundary_filters(
+            "Description",
+            "Description.rtf",
+            candidates,
+            boilerplate_phrases=BOILERPLATE_PHRASES,
+        )
         self.assertEqual(len(accepted), 1)
         self.assertIn("Visit www.wizards.com", accepted[0]["content"])
         self.assertEqual(decisions[0]["action"], "merged_forward")
@@ -40,7 +53,12 @@ class BoundaryFilterTests(unittest.TestCase):
             _candidate("LEGAL INFORMATION", "This legal text is primary content in this source."),
             _candidate("OPEN GAME LICENSE Version 1.0a", "License terms continue here in full detail."),
         ]
-        accepted, decisions = apply_boundary_filters("Legal", "Legal.rtf", candidates)
+        accepted, decisions = apply_boundary_filters(
+            "Legal",
+            "Legal.rtf",
+            candidates,
+            boilerplate_phrases=BOILERPLATE_PHRASES,
+        )
         self.assertEqual(len(accepted), 2)
         self.assertTrue(all(decision["action"] == "accepted" for decision in decisions[:2]))
 
@@ -79,20 +97,6 @@ class BoundaryFilterTests(unittest.TestCase):
         accepted, _ = apply_boundary_filters("Description", "Description.rtf", candidates)
         self.assertEqual([section["section_title"] for section in accepted], ["THE NINE ALIGNMENTS", "AGE"])
 
-    def test_merges_spell_block_field_candidates(self) -> None:
-        # "Components:", "Spell Resistance:", etc. are bold-formatted field labels
-        # inside spell entries — not independent sections.
-        spell_body = "Evocation [Fire]; Level: Sor/Wiz 1; Duration: Instantaneous" * 3
-        candidates = [
-            _candidate("Burning Hands", spell_body),
-            _candidate("Components: V, S", "V, S"),
-            _candidate("Spell Resistance: Yes", "Yes — spell resistance applies."),
-        ]
-        accepted, decisions = apply_boundary_filters("SpellsA-B", "SpellsA-B.rtf", candidates)
-        self.assertEqual(len(accepted), 1)
-        self.assertEqual(decisions[1]["reason_code"], "spell_block_field")
-        self.assertEqual(decisions[2]["reason_code"], "spell_block_field")
-
     def test_merges_named_table_headings(self) -> None:
         # "Table: X" headings (without "|") are table titles, not independent sections.
         candidates = [
@@ -111,6 +115,26 @@ class BoundaryFilterTests(unittest.TestCase):
         ]
         accepted, _ = apply_boundary_filters("Races", "Races.rtf", candidates)
         self.assertEqual([section["section_title"] for section in accepted], ["FAVORED CLASS", "HUMANS", "DWARVES"])
+
+    def test_entry_annotated_section_accepted_unconditionally(self) -> None:
+        # Entry-annotated sections bypass all heuristics (short body, suspicious title, etc.).
+        short_entry = _candidate("Components", "V, S")
+        short_entry["entry_metadata"] = {
+            "entry_type": "spell",
+            "entry_category": "spell",
+            "entry_chunk_type": "spell_block",
+            "entry_title": "Burning Hands",
+            "entry_index": 0,
+            "shape_family": "spell",
+        }
+        candidates = [
+            _candidate("Burning Hands", "Evocation [Fire] spell description body content here." * 3),
+            short_entry,
+        ]
+        accepted, decisions = apply_boundary_filters("SpellsA-B", "SpellsA-B.rtf", candidates)
+        self.assertEqual(len(accepted), 2)
+        self.assertEqual(decisions[1]["reason_code"], "entry_annotated")
+        self.assertEqual(decisions[1]["action"], "accepted")
 
 
 if __name__ == "__main__":

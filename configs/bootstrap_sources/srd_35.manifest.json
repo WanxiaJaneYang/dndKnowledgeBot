@@ -36,6 +36,12 @@
     "style": "source_location",
     "bootstrap_rule": "Use source-native file names plus section or entry paths. Do not invent page references for this source."
   },
+  "boilerplate_phrases": [
+    "visit",
+    "www.wizards.com",
+    "system reference document",
+    "contains all of the"
+  ],
   "provenance_notes": [
     "The committed repo tracks the manifest and fetch workflow only. Raw SRD files remain local and untracked under data/raw/srd_35/.",
     "This bootstrap slice uses an archived distribution source rather than a live Wizards-hosted endpoint.",
