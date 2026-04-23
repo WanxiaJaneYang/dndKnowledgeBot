@@ -26,11 +26,19 @@ decision is a function of `match_signals` and `candidate_shaping` output.
 
 - Three composable units under `scripts/answer/`: support assessor, answer
   composer, citation binder; plus a `build_answer(pack)` pipeline function.
-- One CLI entry point, `scripts/answer_question.py`, mirroring
-  `scripts/retrieve_debug.py`'s text + `--json` shape.
-- JSON output conforming to `schemas/answer_with_citations.schema.json`
-  (strict fields), plus an optional augmented `debug` block carrying
-  `PipelineTrace`, per-item match signals, and abstain trigger codes.
+- One CLI entry point, `scripts/answer_question.py`, with three output modes:
+  human-readable text (default), strict schema JSON (`--json`), and extended
+  debug JSON (`--json-debug`).
+- Two **distinct** JSON contracts:
+  - `--json` — emits JSON that conforms exactly to
+    `schemas/answer_with_citations.schema.json`. Nothing outside the schema
+    is added. The eval harness can schema-validate the output directly.
+  - `--json-debug` — emits a non-schema extended object carrying
+    `PipelineTrace`, per-selected-item match_signals, and the abstain
+    trigger code under a `debug` key. Explicitly declared non-schema-valid
+    because the schema's top-level `additionalProperties: false` forbids
+    unknown keys. Callers that need schema validation must use `--json`
+    or strip `debug` before validating.
 - Unit tests over synthetic `EvidencePack` fixtures and a CLI smoke test
   against the real `lexical.db`.
 - Regenerated `examples/evidence_pack.example.json` and
@@ -46,8 +54,8 @@ decision is a function of `match_signals` and `candidate_shaping` output.
 - Multi-hop reasoning or cross-chunk inference beyond selecting at most
   two supporting segments.
 - Conflict detection between evidence items (citation policy §13 — deferred).
-- A schema change to `answer_with_citations.schema.json`. The debug block
-  lives alongside, not inside, the schema-validated portion.
+- A schema change to `answer_with_citations.schema.json`. Debug information
+  is carried only in the separate `--json-debug` CLI contract.
 
 ## 3. Proposed design
 
@@ -129,14 +137,26 @@ Each supporting segment cites exactly one chunk.
 python scripts/answer_question.py "attack of opportunity"
 python scripts/answer_question.py "fighter bonus feats" --top-k 10
 python scripts/answer_question.py "turn undead" --json
+python scripts/answer_question.py "turn undead" --json-debug
 ```
 
-- Text mode: query block, abstain reason or segment list with inline
-  citation markers and a citations table, plus a brief pipeline trace.
-- JSON mode: strict `AnswerWithCitations` fields + `debug` block with
-  `abstention_code` (when abstaining), `pipeline_trace`, and per-selected-item
-  match signals. Callers that only want the schema-valid contract can
-  drop the `debug` key before validating.
+Three output modes, mutually exclusive:
+
+- **Text mode (default):** query block, abstain reason or segment list with
+  inline citation markers and a citations table, plus a brief pipeline trace.
+- **`--json` — strict schema mode:** output conforms exactly to
+  `schemas/answer_with_citations.schema.json`. No `debug` key, no other
+  additions; eval harness can schema-validate directly.
+- **`--json-debug` — extended debug mode:** emits a top-level object with
+  all strict-schema fields **plus** a top-level `debug` key carrying
+  `abstention_code` (when abstaining), `pipeline_trace`, and
+  per-selected-item match signals. Non-schema-valid by design — see §2
+  for rationale. Callers that want the schema-valid subset must either
+  use `--json` or strip `debug` before validating.
+
+`--json` and `--json-debug` are mutually exclusive; passing both is a CLI
+error.
+
 - Guard: if `data/index/srd_35/lexical.db` is missing, print the same
   error `retrieve_debug.py` prints and exit 1.
 
@@ -154,7 +174,9 @@ Canned strings:
 - `empty_evidence` → "Insufficient evidence: no chunks retrieved for this query."
 - `weak_signals` → "Insufficient evidence: retrieved chunks do not clearly match the query."
 
-The trigger code itself lives under `debug.abstention_code` in JSON mode.
+The trigger code itself is exposed only in `--json-debug` output, under
+`debug.abstention_code`. `--json` carries only the schema-defined
+`abstention_reason` string.
 
 ## 4. Data model
 
@@ -196,10 +218,30 @@ class AssessmentResult:
     trigger_code: Literal["empty_evidence", "weak_signals"] | None
 ```
 
-### 4.2 JSON shape
+### 4.2 JSON shapes
 
-Strict portion validates against `schemas/answer_with_citations.schema.json`.
-Augmented portion under `debug`:
+Two distinct output shapes, one per CLI flag. The schema's top-level
+`additionalProperties: false` forbids unknown keys, so these are separate
+contracts — not "strict with optional extra fields".
+
+**`--json` (strict, schema-valid):**
+
+```json
+{
+  "query": "...",
+  "answer_type": "grounded",
+  "answer_segments": [...],
+  "citations": [...],
+  "retrieval_metadata": {
+    "candidate_chunks": 12,
+    "selected_chunks": 3
+  }
+}
+```
+
+This validates against `schemas/answer_with_citations.schema.json`.
+
+**`--json-debug` (extended, NOT schema-valid):**
 
 ```json
 {
@@ -226,6 +268,10 @@ Augmented portion under `debug`:
 }
 ```
 
+Callers that want schema validation from `--json-debug` output must pop the
+`debug` key before validating. The `#24` eval harness is expected to use
+`--json-debug` and split the debug block out for failure tagging.
+
 ## 5. Key decisions
 
 1. **Strict-signal abstain gate (Policy A).** Abstain unless the top item has
@@ -242,13 +288,18 @@ Augmented portion under `debug`:
    cross-section item, then a fallback sibling. "Distinct signals" = hit
    set of cross-section item is not a subset of the primary's hit set.
 
-4. **Augmented JSON with a `debug` block.** Strict schema fields preserved
-   for the eval harness; `debug` sits alongside and carries the pipeline
-   trace + abstain code. The schema is not changed.
+4. **Two separate JSON CLI contracts, not one schema+debug hybrid.**
+   `--json` is strict-schema; `--json-debug` is extended and declared
+   non-schema-valid. The schema's top-level `additionalProperties: false`
+   forbids adding a `debug` key alongside schema fields, so a single
+   "schema-plus-extras" output would silently fail validation. Keeping the
+   two shapes distinct makes each contract honest about what it guarantees.
+   The schema itself is not changed.
 
-5. **Canned abstention reason strings.** Machine-readable trigger code lives
-   in `debug.abstention_code`; human-readable string satisfies the schema's
-   `abstention_reason` requirement.
+5. **Canned abstention reason strings.** Machine-readable trigger code
+   appears in the `--json-debug` output under `debug.abstention_code`;
+   the human-readable string satisfies the schema's `abstention_reason`
+   requirement in `--json` output.
 
 6. **No LLM.** Every decision in the pipeline is a function of
    `match_signals` + `candidate_shaping` output. This is what "inspectable
@@ -273,6 +324,14 @@ Augmented portion under `debug`:
   richer, but the schema belongs to the external contract. Keeping
   diagnostics out of the schema avoids churn and keeps `answer_with_citations`
   answer-model-agnostic.
+- **Single `--json` output mixing schema fields and a `debug` block.**
+  Rejected because the schema sets `additionalProperties: false` at the top
+  level. A mixed output would fail schema validation, so the "strict with
+  optional extras" framing is not actually available. The only way to keep
+  one flag is to either change the schema (rejected, see above) or wrap
+  the schema-valid payload under a key (e.g. `{"result": ..., "debug": ...}`),
+  which breaks the expectation that `--json` emits the answer object
+  directly. Two flags with two distinct contracts is the cleanest option.
 
 ## 7. Risks and open questions
 
@@ -305,8 +364,10 @@ Augmented portion under `debug`:
    hit on top, section-path-only hit on top, token-overlap-only on top
    (abstain), primary + 2 siblings, primary + sibling + distinct-signal
    cross-section, primary + sibling + subset-signal cross-section (slot 2
-   skipped or filled by fallback sibling), long content truncation, and
-   end-to-end JSON schema validation.
+   skipped or filled by fallback sibling), long content truncation,
+   `--json` output validates against `answer_with_citations.schema.json`,
+   and `--json-debug` output validates against the same schema **after**
+   popping the `debug` key.
 4. Regenerate `examples/evidence_pack.example.json` and
    `examples/answer_with_citations.example.json` via the real pipeline.
 5. Add a short "Answer stage" section to `docs/architecture_overview.md`
