@@ -124,6 +124,47 @@ class IngestSrd35Tests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             ingest_source(self.manifest, self.repo_root, require_schema_validation=True)
 
+    def test_processing_hints_validates_in_schema(self) -> None:
+        import jsonschema
+
+        repo_root = Path(__file__).resolve().parent.parent
+        schema = json.loads(
+            (repo_root / "schemas" / "canonical_document.schema.json").read_text(encoding="utf-8")
+        )
+        common = json.loads(
+            (repo_root / "schemas" / "common.schema.json").read_text(encoding="utf-8")
+        )
+        resolver = jsonschema.RefResolver.from_schema(
+            schema,
+            store={
+                "common.schema.json": common,
+                "./common.schema.json": common,
+            },
+        )
+        sample_with_hints = {
+            "document_id": "srd_35::spellss::001_sanctuary",
+            "source_ref": {
+                "source_id": "srd_35",
+                "title": "SRD",
+                "edition": "3.5e",
+                "source_type": "srd",
+                "authority_level": "official_reference",
+            },
+            "locator": {
+                "section_path": ["Spells", "Sanctuary"],
+                "source_location": "SpellsS.rtf#001_sanctuary",
+                "entry_title": "Sanctuary",
+            },
+            "content": "Sanctuary\nAbjuration\nLevel: Clr 1\n\nDescription.",
+            "processing_hints": {
+                "chunk_type_hint": "spell_entry",
+                "structure_cuts": [
+                    {"kind": "stat_block_end", "char_offset": 30, "child_chunk_type": "stat_block"}
+                ],
+            },
+        }
+        jsonschema.validate(sample_with_hints, schema, resolver=resolver)
+
 
 if __name__ == "__main__":
     unittest.main()
