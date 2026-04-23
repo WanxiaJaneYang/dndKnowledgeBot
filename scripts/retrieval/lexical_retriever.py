@@ -131,6 +131,9 @@ def retrieve_lexical(
                 source_ref=row["source_ref"],
                 locator=row["locator"],
                 match_signals=signals,
+                parent_chunk_id=row.get("parent_chunk_id"),
+                previous_chunk_id=row.get("previous_chunk_id"),
+                next_chunk_id=row.get("next_chunk_id"),
             )
         )
 
