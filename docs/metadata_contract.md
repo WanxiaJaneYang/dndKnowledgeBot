@@ -109,6 +109,21 @@ These are known, schema-defined fields — producers may omit them, but must not
 
 Adjacency fields support downstream reasoning that needs chunk context beyond a single retrieval hit — for example, consolidating adjacent chunks that jointly describe one rule, or surfacing a parent section when a spell entry is retrieved alone. They are also mirrored into the lexical retrieval index (see `scripts/retrieval/lexical_index.py`) so retrieval can read them without a separate chunk-object lookup.
 
+### Parent vs Child Adjacency Semantics
+
+`previous_chunk_id` and `next_chunk_id` carry two distinct kinds of adjacency that share the same wire format but mean different things:
+
+- **Child sibling adjacency** (children of the same parent): genuine content continuity. A later paragraph follows an earlier one within the same entry. Retrieval can use sibling adjacency for context expansion.
+- **Parent file-order adjacency** (parent chunks within the same source file): convenience link only — does NOT imply semantic continuity. Adjacent spell parents (e.g., Sanctuary → Scare → Scorching Ray) happen to share a source file; they are independent entries with no shared narrative.
+
+Retrieval and evidence-pack assembly must:
+
+- Use `parent_chunk_id` (children → parent) as the consolidation axis when a child matches.
+- NOT treat parent file-order adjacency as semantic context.
+- Children of one parent do NOT link to children of an adjacent parent.
+
+The `split_origin` field on child chunks (`structure_cut` | `paragraph_group`) records which split mechanism produced each child — diagnostic only, not used for routing.
+
 ## Source Ref and Locator in Answer Segments
 
 `source_ref` and `locator` are defined once in `schemas/common.schema.json` and reused verbatim across canonical documents, chunks, and citations. This is the provenance chain that flows from ingestion to the final answer:
