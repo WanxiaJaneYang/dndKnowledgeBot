@@ -115,11 +115,37 @@ On `grounded`, the composer emits 1–3 segments:
 - **Slot 1 (sibling):** next-ranked item in the primary's group (same
   `document_id` + `section_root`). Skip if no sibling exists.
 - **Slot 2 (cross-section, then fallback sibling):** try first the
-  top-ranked item from a *different* `section_root` whose combined
+  best-ranked item from a *different* `section_root` whose combined
   `exact_phrase_hits ∪ protected_phrase_hits` set is **not a subset**
   of the primary's hit set (i.e. it covers a query aspect the primary
   does not). If no such item exists but another sibling is available,
   fill Slot 2 with the next sibling instead. Otherwise leave empty.
+
+**Slot 2 — explicit resolution rules (deliberate simplifications):**
+
+- **Distinctness comparison is limited to `exact_phrase_hits` and
+  `protected_phrase_hits`.** `section_path_hit` (a boolean) is not
+  included in the hit set used for subset comparison. Rationale: phrase
+  hits are the signals that represent *what aspect of the query* a
+  chunk addresses; `section_path_hit` represents *where in the corpus*,
+  which the `section_root` grouping already handles.
+- **Empty-primary-hit-set edge case.** When the primary has no phrase
+  hits (its `section_path_hit` is the only strong signal), any
+  cross-section item's hit set is trivially "not a subset" of the
+  empty set. This is intentional — we *want* a supporting cross-section
+  in this case, because the primary landed on the right section without
+  textually quoting the query. The tie-break rule below keeps the
+  choice deterministic.
+- **Tie-break — always lowest global rank wins.** When multiple
+  cross-section items qualify, pick the one with the smallest `rank`
+  value (i.e. the best BM25 score). Rank is guaranteed unique within an
+  `EvidencePack` by `retrieve_lexical`, so no further tie-breaking is
+  needed.
+- **The cost of this simplicity.** Slot 2 can occasionally pick a noisy
+  cross-section item, especially when the primary's hit set is empty or
+  small. #24's gold run is expected to surface this as a distinct
+  failure tag ("slot-2 noise"), which is what justifies a later
+  tightening — not speculative complexity now.
 
 `support_type` for supporting segments uses the same rule as the primary.
 Each supporting segment cites exactly one chunk.
@@ -138,6 +164,20 @@ Each supporting segment cites exactly one chunk.
   same excerpt, they share one `citation_id`. (Phase 1 composer will rarely
   hit this — different chunks → different citations — but the binder should
   be defensively deterministic.)
+
+**Chunks vs. citations — definitions used by the binder and populated into
+`retrieval_metadata`:**
+
+- `retrieval_metadata.candidate_chunks` = number of candidates that entered
+  shaping (i.e. `PipelineTrace.total_candidates`).
+- `retrieval_metadata.selected_chunks` = number of **distinct** evidence
+  chunks cited by the answer (count of unique `chunk_id` values across
+  the `citations` array), not the number of citation objects. Multiple
+  citations may point at the same chunk with different locators or
+  excerpts — the schema permits this explicitly (see
+  `answer_with_citations.schema.json` `citations[]` description), and
+  `selected_chunks` counts the underlying chunk population, not the
+  citation records.
 
 ### 3.5 CLI
 
@@ -167,8 +207,11 @@ Three output modes, mutually exclusive:
 `--json` and `--json-debug` are mutually exclusive; passing both is a CLI
 error.
 
-- Guard: if `data/index/srd_35/lexical.db` is missing, print the same
-  error `retrieve_debug.py` prints and exit 1.
+- Guard: if `data/index/srd_35/lexical.db` is missing, print a clear
+  error message to stderr and exit 1. Wording is not pinned to
+  `retrieve_debug.py`'s current string; the contract is "clear stderr
+  message + non-zero exit," not a specific phrase. Keeping the two
+  CLIs consistent is encouraged but not required.
 
 ### 3.6 Abstain output
 
@@ -250,6 +293,8 @@ contracts — not "strict with optional extra fields".
 ```
 
 This validates against `schemas/answer_with_citations.schema.json`.
+`selected_chunks` counts distinct evidence chunks cited, not citation
+records — see §3.4 for the definition.
 
 **`--json-debug` (extended, NOT schema-valid):**
 
