@@ -17,7 +17,7 @@
   },
   "chunk_type": "subsection",
   "content": "A character's favored class doesn't count against him or her when determining experience point penalties for multiclassing.",
-  "chunk_version": "v1-section-passthrough",
+  "chunk_version": "v2-formatting-aware",
   "previous_chunk_id": "chunk::srd_35_fixture::races::001_races",
   "next_chunk_id": "chunk::srd_35_fixture::races::003_race_and_languages"
 }

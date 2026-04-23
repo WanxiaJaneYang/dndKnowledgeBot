@@ -17,6 +17,6 @@
   },
   "chunk_type": "generic",
   "content": "This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.",
-  "chunk_version": "v1-section-passthrough",
+  "chunk_version": "v2-formatting-aware",
   "next_chunk_id": "chunk::srd_35_fixture::description::002_alignment"
 }
