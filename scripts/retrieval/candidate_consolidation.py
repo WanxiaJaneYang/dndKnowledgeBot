@@ -126,22 +126,25 @@ def _is_chain_head(
 ) -> bool:
     """A candidate is a chain head if its predecessor is not a merge partner.
 
-    The predecessor is a merge partner iff it is in the hit set (``by_id``)
-    *and* shares the same section_path.
+    The predecessor is a merge partner iff *all* of:
+    - it is in the hit set (``by_id``),
+    - it shares the same section_path, and
+    - its ``next_chunk_id`` agrees that this candidate is its successor.
 
-    Note on asymmetry: head detection reads ``previous_chunk_id`` while
-    ``_walk_chain`` advances via ``next_chunk_id``.  For well-formed index
-    data (next/prev are true inverses) this is exact.  For broken data
-    where the pointers disagree, the defensive catch at the end of
-    ``_consolidate_group`` emits any missed candidates as singletons —
-    i.e. we fail to "some unmerged singletons" rather than to "incorrect
-    merges".
+    The bidirectional check (the third clause) prevents merges based on
+    broken or one-sided adjacency data.  If ``B.previous_chunk_id == A``
+    but ``A.next_chunk_id != B``, the two disagree about whether they are
+    neighbours, and we treat B as a chain head rather than absorbing it
+    into A's chain.
     """
     prev_id = candidate.previous_chunk_id
     if prev_id is None or prev_id not in by_id:
         return True
     predecessor = by_id[prev_id]
-    return _section_path(predecessor) != _section_path(candidate)
+    return (
+        _section_path(predecessor) != _section_path(candidate)
+        or predecessor.next_chunk_id != candidate.chunk_id
+    )
 
 
 def _walk_chain(
@@ -149,7 +152,14 @@ def _walk_chain(
     by_id: dict[str, LexicalCandidate],
     visited: set[str],
 ) -> list[LexicalCandidate]:
-    """Walk forward via next_chunk_id, collecting the chain in reading order."""
+    """Walk forward via next_chunk_id, collecting the chain in reading order.
+
+    Requires bidirectional agreement: the walker only advances from
+    ``current`` to ``nxt`` when ``nxt.previous_chunk_id == current.chunk_id``.
+    If the two chunks disagree about being neighbours, the walker stops and
+    ``nxt`` is left for head-detection or the defensive catch to emit as its
+    own span.
+    """
     chain: list[LexicalCandidate] = [head]
     visited.add(head.chunk_id)
     current = head
@@ -162,6 +172,8 @@ def _walk_chain(
             break
         nxt = by_id[next_id]
         if _section_path(nxt) != _section_path(current):
+            break
+        if nxt.previous_chunk_id != current.chunk_id:
             break
         chain.append(nxt)
         visited.add(next_id)

@@ -325,6 +325,56 @@ def test_consolidate_adjacent_preserves_group_order():
 
 
 # ---------------------------------------------------------------------------
+# One-sided / bidirectional-disagreement adjacency
+# ---------------------------------------------------------------------------
+
+
+def test_forward_link_without_matching_back_link_does_not_merge():
+    """A.next == B but B.previous disagrees (points elsewhere). The walker
+    must refuse to merge: both emit as singletons, not one 2-chunk span."""
+    a = _make_candidate("chunk::A", rank=1, next_chunk_id="chunk::B")
+    b = _make_candidate(
+        "chunk::B",
+        rank=2,
+        previous_chunk_id="chunk::X",  # claims X is its predecessor, not A
+    )
+    result = _consolidate_one(_make_group([a, b]))
+
+    assert result.span_count == 2
+    for span in result.spans:
+        assert span.merge_reason == "singleton"
+    chunk_ids = {s.chunk_ids for s in result.spans}
+    assert chunk_ids == {("chunk::A",), ("chunk::B",)}
+
+
+def test_head_detection_rejects_predecessor_with_wrong_forward_link():
+    """Tightened head detection: when B.previous points to X (in hit set,
+    same section_path) but X.next_chunk_id disagrees, B should still be
+    detected as a chain head and emit as its own span — not be left to the
+    defensive catch-all."""
+    # X and Y form an intact chain. B claims X is its predecessor, but X's
+    # next_chunk_id points at Y, not B. Under the tightened head detection
+    # B is a chain head because its predecessor's forward link disagrees.
+    x = _make_candidate("chunk::X", rank=1, next_chunk_id="chunk::Y")
+    y = _make_candidate("chunk::Y", rank=2, previous_chunk_id="chunk::X")
+    b = _make_candidate(
+        "chunk::B",
+        rank=3,
+        previous_chunk_id="chunk::X",  # claims X is predecessor
+    )
+    result = _consolidate_one(_make_group([x, y, b]))
+
+    # X and Y merge into one adjacent_span; B stays as a singleton.
+    assert result.span_count == 2
+    adjacent = [s for s in result.spans if s.merge_reason == "adjacent_span"]
+    singletons = [s for s in result.spans if s.merge_reason == "singleton"]
+    assert len(adjacent) == 1
+    assert adjacent[0].chunk_ids == ("chunk::X", "chunk::Y")
+    assert len(singletons) == 1
+    assert singletons[0].chunk_ids == ("chunk::B",)
+
+
+# ---------------------------------------------------------------------------
 # Cycle defence
 # ---------------------------------------------------------------------------
 
