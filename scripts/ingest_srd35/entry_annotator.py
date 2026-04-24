@@ -81,12 +81,11 @@ def annotate_entries(
                 f"Hint: narrow file_match in content_types.yaml."
             )
 
-    # Apply annotations.
-    next_index_by_type: dict[str, int] = {}
-    for match, shape_family in sorted_matches:
-        type_name = match.type_config.name
-        entry_index = next_index_by_type.get(type_name, 0)
-        next_index_by_type[type_name] = entry_index + 1
+    # Apply annotations. entry_index is a single monotonic counter over the
+    # file (NOT per-type), so disjoint matches from different types still get
+    # globally-unique indices — required for downstream grouping by entry_index
+    # to be unambiguous.
+    for entry_index, (match, shape_family) in enumerate(sorted_matches):
         _apply_match(blocks, match, shape_family, entry_index)
 
     return blocks

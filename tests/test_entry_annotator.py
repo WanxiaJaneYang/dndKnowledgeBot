@@ -252,5 +252,56 @@ class MultiTypeOverlapTests(unittest.TestCase):
             annotate_entries(blocks, file_name="SpellsS.rtf", content_types=[spell, cond])
 
 
+class FileWideMonotonicEntryIndexTests(unittest.TestCase):
+    def test_disjoint_multi_type_indices_are_globally_unique(self) -> None:
+        # Codex P1: with disjoint matches from two types, entry_index must
+        # be a single monotonic counter over the file, NOT per-type. Otherwise
+        # downstream grouping by entry_index would see ambiguous duplicates.
+        spell = ContentTypeConfig(
+            name="spell", category="Spells", chunk_type="spell_entry",
+            shape="entry_with_statblock",
+            shape_params={
+                "max_title_len": 80, "max_subtitle_len": 80,
+                "min_fields": 2, "field_pattern": r"^[A-Z][\w '/-]+:",
+            },
+            file_match=None,
+        )
+        cond = ContentTypeConfig(
+            name="condition", category="Conditions", chunk_type="condition_entry",
+            shape="definition_list",
+            shape_params={"min_blocks": 3, "term_pattern": r"^[A-Z][\w '/-]*:\s+\S"},
+            file_match=None,
+        )
+        blocks = [
+            # Conditions block first (single-block entries, indices 0..2 expected).
+            _block("Blinded: cannot see", font_size=18, starts_with_bold=True),
+            _block("Confused: rolls d%", font_size=18, starts_with_bold=True),
+            _block("Dazed: unable to act", font_size=18, starts_with_bold=True),
+            # Then a spell with sufficient gap (different fs, no bold-prefix
+            # term_pattern match) so detectors don't overlap.
+            _block("Sanctuary", font_size=24),
+            _block("Abjuration", font_size=20),
+            _block("Level: Clr 1", font_size=20, starts_with_bold=True),
+            _block("Components: V, S", font_size=20, starts_with_bold=True),
+        ]
+        annotate_entries(blocks, file_name="any.rtf", content_types=[spell, cond])
+        # Per-block sequence: 3 conditions (single-block entries 0,1,2) +
+        # 1 spell with 4 blocks all sharing entry_index 3.
+        annotated_indices = [b["entry_index"] for b in blocks if "entry_index" in b]
+        self.assertEqual(annotated_indices, [0, 1, 2, 3, 3, 3, 3])
+        # Distinct entries must have distinct globally-monotonic indices —
+        # NOT per-type (which would have given conditions [0,1,2] and
+        # spell [0]).
+        per_entry_index_per_type = {}
+        for b in blocks:
+            if "entry_index" not in b:
+                continue
+            per_entry_index_per_type.setdefault(b["entry_type"], set()).add(b["entry_index"])
+        # spell entry_index ∈ {3}; condition entry_indices ∈ {0,1,2}; intersection empty.
+        spell_indices = per_entry_index_per_type["spell"]
+        cond_indices = per_entry_index_per_type["condition"]
+        self.assertEqual(spell_indices & cond_indices, set())
+
+
 if __name__ == "__main__":
     unittest.main()
