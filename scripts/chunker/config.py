@@ -26,5 +26,21 @@ def load_chunker_config(yaml_text: str) -> ChunkerConfig:
             f"Expected fields: {sorted(f.name for f in fields(ChunkerConfig))}."
         )
     valid_fields = {f.name for f in fields(ChunkerConfig)}
-    overrides = {k: v for k, v in data.items() if k in valid_fields}
+    overrides: dict[str, Any] = {}
+    for key, value in data.items():
+        if key not in valid_fields:
+            continue
+        # All current fields are positive ints. Validate type + range so a
+        # parseable but invalid value (quoted numeric, zero, negative)
+        # surfaces as a clear error instead of an opaque downstream crash
+        # (TypeError on arithmetic, infinite loop in _enforce_max_chars).
+        if not isinstance(value, int) or isinstance(value, bool):
+            raise ValueError(
+                f"chunker config field '{key}' must be int, got {type(value).__name__}: {value!r}"
+            )
+        if value <= 0:
+            raise ValueError(
+                f"chunker config field '{key}' must be positive, got {value}"
+            )
+        overrides[key] = value
     return ChunkerConfig(**overrides)
