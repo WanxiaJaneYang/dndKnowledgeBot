@@ -188,9 +188,18 @@ def _paragraph_group_children(
 def _enforce_max_chars(text: str, max_chars: int) -> list[str]:
     """Yield text slices each at most ``max_chars`` long.
 
-    Prefers to split at paragraph (``\\n\\n``) boundaries, then at sentence-end
-    or newline boundaries, and finally at a raw character boundary as a last
-    resort. Empty input yields no slices.
+    Tries split candidates in this preference order, picking the latest
+    one that fits within ``max_chars``:
+
+      1. Paragraph boundary ``\\n\\n`` (separator consumed between chunks).
+      2. Single newline ``\\n`` (separator consumed).
+      3. Sentence-end ``. `` (period stays in prior chunk; space consumed).
+      4. Raw character boundary at ``max_chars`` (no separator consumed).
+
+    Whitespace inside content is preserved — only newline separators at
+    chunk boundaries are stripped (matches the chunker's elsewhere
+    newline-only normalization rule, so leading spaces / indentation in
+    paragraphs are not silently lost).
     """
     if not text:
         return []
@@ -199,16 +208,26 @@ def _enforce_max_chars(text: str, max_chars: int) -> list[str]:
     slices: list[str] = []
     remaining = text
     while len(remaining) > max_chars:
-        # Prefer to cut at the last paragraph boundary within the window.
-        cut = remaining.rfind("\n\n", 0, max_chars)
-        if cut <= 0:
-            # Fall back to the last newline or sentence-end.
-            cut = max(remaining.rfind("\n", 0, max_chars), remaining.rfind(". ", 0, max_chars))
-        if cut <= 0:
-            # Last resort: raw char boundary at max_chars.
-            cut = max_chars
-        slices.append(remaining[:cut].strip())
-        remaining = remaining[cut:].lstrip()
+        cut: int  # end of prior chunk (exclusive)
+        sep_len: int  # how many chars of separator to consume between chunks
+        para_pos = remaining.rfind("\n\n", 0, max_chars)
+        if para_pos > 0:
+            cut, sep_len = para_pos, 2
+        else:
+            nl_pos = remaining.rfind("\n", 0, max_chars)
+            sentence_pos = remaining.rfind(". ", 0, max_chars)
+            if nl_pos > 0 and nl_pos >= sentence_pos:
+                cut, sep_len = nl_pos, 1
+            elif sentence_pos > 0:
+                # Include the period in the prior chunk; consume the trailing space.
+                cut, sep_len = sentence_pos + 1, 1
+            else:
+                # Last resort: raw char boundary, no separator to consume.
+                cut, sep_len = max_chars, 0
+        chunk = remaining[:cut].strip("\n")
+        if chunk:
+            slices.append(chunk)
+        remaining = remaining[cut + sep_len:].lstrip("\n")
     if remaining:
         slices.append(remaining)
     return [s for s in slices if s]

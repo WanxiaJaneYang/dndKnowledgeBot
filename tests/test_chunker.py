@@ -452,5 +452,55 @@ class HierarchyWithStructureCutsTests(unittest.TestCase):
             self.assertLessEqual(len(child["content"]), 3000)  # default max_chars
 
 
+class EnforceMaxCharsTests(unittest.TestCase):
+    """Direct coverage for the _enforce_max_chars helper (Codex round-3 P2 fixes)."""
+
+    def test_sentence_cut_keeps_period_in_prior_chunk(self) -> None:
+        # Codex P2: rfind(". ") used to put the period at the START of the
+        # next chunk (e.g., next child began with ".") because cut was at
+        # the period's index but the slice excluded it. Now period stays
+        # in the prior chunk and the trailing space is consumed.
+        from scripts.chunker.pipeline import _enforce_max_chars
+        # 60-char chunks with one sentence-end at position 30.
+        text = ("a" * 30) + ". " + ("b" * 30)
+        slices = _enforce_max_chars(text, max_chars=40)
+        self.assertEqual(len(slices), 2)
+        self.assertTrue(slices[0].endswith("."), f"prior chunk should end with period: {slices[0]!r}")
+        self.assertFalse(slices[1].startswith("."), f"next chunk should not start with period: {slices[1]!r}")
+        # Reconstructed concatenation is text minus the consumed " " separator.
+        self.assertEqual(slices[0] + slices[1], text.replace(". ", "."))
+
+    def test_preserves_internal_whitespace_at_chunk_boundary(self) -> None:
+        # Codex P2: previous .strip() stripped spaces and tabs from chunk
+        # boundaries, silently destroying meaningful indentation. Now only
+        # newline separators are stripped.
+        from scripts.chunker.pipeline import _enforce_max_chars
+        # Two paragraphs where the second starts with leading spaces (e.g.,
+        # an indented quoted block). Chunk boundary at \n\n must NOT eat
+        # those spaces. Text length 87 > max=80 so a split is forced.
+        text = ("a" * 60) + "\n\n" + "    indented continuation"
+        slices = _enforce_max_chars(text, max_chars=80)
+        self.assertEqual(len(slices), 2)
+        self.assertTrue(
+            slices[1].startswith("    "),
+            f"chunk-boundary leading spaces lost: {slices[1][:20]!r}",
+        )
+
+    def test_paragraph_boundary_separator_consumed(self) -> None:
+        from scripts.chunker.pipeline import _enforce_max_chars
+        text = ("a" * 50) + "\n\n" + ("b" * 50)
+        slices = _enforce_max_chars(text, max_chars=60)
+        self.assertEqual(slices, ["a" * 50, "b" * 50])
+
+    def test_raw_char_boundary_when_no_separator(self) -> None:
+        from scripts.chunker.pipeline import _enforce_max_chars
+        text = "x" * 100
+        slices = _enforce_max_chars(text, max_chars=40)
+        # Slices fall on raw char boundary; no separator consumed.
+        self.assertEqual("".join(slices), text)
+        for s in slices:
+            self.assertLessEqual(len(s), 40)
+
+
 if __name__ == "__main__":
     unittest.main()
