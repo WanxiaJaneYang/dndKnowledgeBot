@@ -29,6 +29,14 @@ paragraph_group_target_chars: 1500
         cfg = load_chunker_config("")
         self.assertEqual(cfg.child_threshold_chars, 6000)
 
+    def test_yaml_root_must_be_mapping(self) -> None:
+        # Codex P2: any truthy non-mapping YAML (a list, a string) used to
+        # crash with AttributeError on .items(). Loader now raises ValueError
+        # with a helpful message.
+        with self.assertRaises(ValueError) as ctx:
+            load_chunker_config("- 4000\n- 2000\n")
+        self.assertIn("must be a mapping", str(ctx.exception))
+
 
 if __name__ == "__main__":
     unittest.main()

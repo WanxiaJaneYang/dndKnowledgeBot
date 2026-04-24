@@ -423,6 +423,34 @@ class HierarchyWithStructureCutsTests(unittest.TestCase):
         expected = content[:cut_offset].lstrip("\n").rstrip("\n")
         self.assertEqual(first_child_content, expected)
 
+    def test_paragraph_group_max_chars_enforced_on_runaway_paragraph(self) -> None:
+        # Codex P2: a single very long paragraph used to be emitted as one
+        # oversized paragraph_group child because grouping only checked the
+        # target threshold, never the max cap. Now max_chars is enforced as
+        # a hard cap by slicing.
+        # One huge paragraph (no \n\n inside) above max threshold.
+        runaway = "x" * 9000  # one paragraph of 9000 chars, default max=3000
+        # Wrap in an entry so the chunker actually splits it.
+        stat_block = "Header\nLine: a"
+        content = stat_block + "\n\n" + runaway
+        cut_offset = len(stat_block)
+        doc = self._make_canonical_doc(
+            "srd_35::spells::runaway", content,
+            processing_hints={
+                "chunk_type_hint": "spell_entry",
+                "structure_cuts": [{
+                    "kind": "stat_block_end",
+                    "char_offset": cut_offset,
+                    "child_chunk_type": "stat_block",
+                }],
+            },
+        )
+        chunks = self._run([doc])
+        pg_children = [c for c in chunks if c.get("split_origin") == "paragraph_group"]
+        self.assertGreater(len(pg_children), 1)  # split, not one giant child
+        for child in pg_children:
+            self.assertLessEqual(len(child["content"]), 3000)  # default max_chars
+
 
 if __name__ == "__main__":
     unittest.main()
