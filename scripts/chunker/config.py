@@ -17,9 +17,14 @@ class ChunkerConfig:
 def load_chunker_config(yaml_text: str) -> ChunkerConfig:
     if not yaml_text or not yaml_text.strip():
         return ChunkerConfig()
-    data: dict[str, Any] | None = yaml.safe_load(yaml_text)
+    data: Any = yaml.safe_load(yaml_text)
     if not data:
         return ChunkerConfig()
+    if not isinstance(data, dict):
+        raise ValueError(
+            f"chunker config YAML root must be a mapping, got {type(data).__name__}. "
+            f"Expected fields: {sorted(f.name for f in fields(ChunkerConfig))}."
+        )
     valid_fields = {f.name for f in fields(ChunkerConfig)}
     overrides = {k: v for k, v in data.items() if k in valid_fields}
     return ChunkerConfig(**overrides)

@@ -148,7 +148,11 @@ def _paragraph_group_children(
     """Split `content` at paragraph boundaries into paragraph_group children.
 
     Paragraphs are separated by blank lines (``\\n\\n``). Groups grow until
-    adding the next paragraph would exceed `config.paragraph_group_target_chars`.
+    adding the next paragraph would exceed `config.paragraph_group_target_chars`;
+    any single paragraph or merged group that still exceeds
+    `config.paragraph_group_max_chars` is sliced at character boundaries to
+    enforce the hard cap (prevents one runaway paragraph from producing an
+    oversized chunk).
     """
     if not content.strip():
         return []
@@ -169,14 +173,45 @@ def _paragraph_group_children(
     if current_group:
         groups.append(current_group)
 
-    return [
-        _make_child(
-            canonical_doc, parent_chunk_id,
-            "\n\n".join(group), "paragraph_group",
-            split_origin="paragraph_group",
-        )
-        for group in groups
-    ]
+    children: list[dict] = []
+    for group in groups:
+        group_text = "\n\n".join(group)
+        for slice_text in _enforce_max_chars(group_text, config.paragraph_group_max_chars):
+            children.append(_make_child(
+                canonical_doc, parent_chunk_id,
+                slice_text, "paragraph_group",
+                split_origin="paragraph_group",
+            ))
+    return children
+
+
+def _enforce_max_chars(text: str, max_chars: int) -> list[str]:
+    """Yield text slices each at most ``max_chars`` long.
+
+    Prefers to split at paragraph (``\\n\\n``) boundaries, then at sentence-end
+    or newline boundaries, and finally at a raw character boundary as a last
+    resort. Empty input yields no slices.
+    """
+    if not text:
+        return []
+    if len(text) <= max_chars:
+        return [text]
+    slices: list[str] = []
+    remaining = text
+    while len(remaining) > max_chars:
+        # Prefer to cut at the last paragraph boundary within the window.
+        cut = remaining.rfind("\n\n", 0, max_chars)
+        if cut <= 0:
+            # Fall back to the last newline or sentence-end.
+            cut = max(remaining.rfind("\n", 0, max_chars), remaining.rfind(". ", 0, max_chars))
+        if cut <= 0:
+            # Last resort: raw char boundary at max_chars.
+            cut = max_chars
+        slices.append(remaining[:cut].strip())
+        remaining = remaining[cut:].lstrip()
+    if remaining:
+        slices.append(remaining)
+    return [s for s in slices if s]
 
 
 def _wire_sibling_adjacency(children: list[dict]) -> None:
