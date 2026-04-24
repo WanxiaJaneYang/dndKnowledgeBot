@@ -452,6 +452,60 @@ class HierarchyWithStructureCutsTests(unittest.TestCase):
             self.assertLessEqual(len(child["content"]), 3000)  # default max_chars
 
 
+class ProcessingHintsDefensivenessTests(unittest.TestCase):
+    """Codex round-4 P2 fixes: defensive null + cut-offset validation."""
+
+    def test_null_processing_hints_does_not_crash(self) -> None:
+        # _build_parent_chunk used to crash with AttributeError if a
+        # canonical doc had `processing_hints: null` (vs missing entirely).
+        from scripts.chunker.pipeline import _build_parent_chunk
+        doc = {
+            "document_id": "srd_35::test::null_hints",
+            "source_ref": {
+                "source_id": "srd_35", "title": "SRD", "edition": "3.5e",
+                "source_type": "srd", "authority_level": "official_reference",
+            },
+            "locator": {"section_path": ["X"], "source_location": "X.rtf#001"},
+            "content": "body",
+            "processing_hints": None,  # explicit null, not missing
+        }
+        chunk = _build_parent_chunk(doc, previous_chunk_id=None, next_chunk_id=None)
+        # Falls back to classify_chunk_type heuristic when hint absent.
+        self.assertIsNotNone(chunk["chunk_type"])
+
+    def test_structure_cuts_offset_beyond_content_raises(self) -> None:
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError) as ctx:
+            _validate_structure_cuts(
+                [{"char_offset": 100, "child_chunk_type": "stat_block", "kind": "stat_block_end"}],
+                content_len=50,
+                document_id="srd_35::test::overrun",
+            )
+        self.assertIn("out of range", str(ctx.exception))
+
+    def test_structure_cuts_negative_offset_raises(self) -> None:
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError):
+            _validate_structure_cuts(
+                [{"char_offset": -1, "child_chunk_type": "stat_block", "kind": "stat_block_end"}],
+                content_len=100,
+                document_id="srd_35::test::neg",
+            )
+
+    def test_structure_cuts_must_be_increasing(self) -> None:
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError) as ctx:
+            _validate_structure_cuts(
+                [
+                    {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                    {"char_offset": 30, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                ],
+                content_len=100,
+                document_id="srd_35::test::decreasing",
+            )
+        self.assertIn("strictly increasing", str(ctx.exception))
+
+
 class EnforceMaxCharsTests(unittest.TestCase):
     """Direct coverage for the _enforce_max_chars helper (Codex round-3 P2 fixes)."""
 

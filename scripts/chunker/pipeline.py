@@ -74,7 +74,10 @@ def _build_parent_chunk(
     section_path = canonical_doc.get("locator", {}).get("section_path", [])
     content = canonical_doc.get("content", "")
 
-    hints = canonical_doc.get("processing_hints", {})
+    # `or {}` defends against an explicit `processing_hints: null` in the
+    # canonical doc (.get with default would still return None and
+    # .get("chunk_type_hint") would AttributeError).
+    hints = canonical_doc.get("processing_hints") or {}
     chunk_type = hints.get("chunk_type_hint")
     if chunk_type is None:
         chunk_type = classify_chunk_type(section_path, content)
@@ -247,6 +250,29 @@ def _wire_sibling_adjacency(children: list[dict]) -> None:
             child["next_chunk_id"] = children[i + 1]["chunk_id"]
 
 
+def _validate_structure_cuts(cuts: list[dict], content_len: int, document_id: str) -> None:
+    """Validate cut offsets are sane before slicing content.
+
+    Catches schema-valid but logically broken cuts (negative, beyond
+    content end, decreasing) early with a clear error rather than
+    producing silently-wrong slices downstream.
+    """
+    last_offset = 0
+    for i, cut in enumerate(cuts):
+        offset = cut.get("char_offset", -1)
+        if not isinstance(offset, int) or offset < 0 or offset > content_len:
+            raise ValueError(
+                f"structure_cuts[{i}].char_offset {offset} out of range [0, {content_len}] "
+                f"for document {document_id!r}"
+            )
+        if offset < last_offset:
+            raise ValueError(
+                f"structure_cuts must be strictly increasing: cuts[{i}].char_offset "
+                f"{offset} < previous {last_offset} for document {document_id!r}"
+            )
+        last_offset = offset
+
+
 def _split_into_children(
     canonical_doc: dict,
     parent_chunk_id: str,
@@ -254,8 +280,10 @@ def _split_into_children(
 ) -> list[dict]:
     """Produce child chunks via structure cuts then paragraph-group fallback."""
     content = canonical_doc.get("content", "")
-    hints = canonical_doc.get("processing_hints", {})
-    cuts = hints.get("structure_cuts", []) or []
+    # `or {}` defends against `processing_hints: null` (see _build_parent_chunk).
+    hints = canonical_doc.get("processing_hints") or {}
+    cuts = hints.get("structure_cuts") or []
+    _validate_structure_cuts(cuts, len(content), canonical_doc.get("document_id", "<unknown>"))
 
     children: list[dict] = []
     cursor = 0
