@@ -681,8 +681,8 @@
       "line_end": 62,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0063",
@@ -692,8 +692,8 @@
       "line_end": 63,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0064",
@@ -703,8 +703,8 @@
       "line_end": 64,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0065",
@@ -714,8 +714,8 @@
       "line_end": 65,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0066",
@@ -725,8 +725,8 @@
       "line_end": 66,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0067",
@@ -736,8 +736,8 @@
       "line_end": 67,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0068",
@@ -747,8 +747,8 @@
       "line_end": 68,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0069",
@@ -758,8 +758,8 @@
       "line_end": 69,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0070",
@@ -769,8 +769,8 @@
       "line_end": 70,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0071",
@@ -780,8 +780,8 @@
       "line_end": 71,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0072",
@@ -791,8 +791,8 @@
       "line_end": 72,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0073",
@@ -824,8 +824,8 @@
       "line_end": 75,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0076",
@@ -835,8 +835,8 @@
       "line_end": 76,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0077",
@@ -846,8 +846,8 @@
       "line_end": 77,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0078",
@@ -857,8 +857,8 @@
       "line_end": 78,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0079",
@@ -868,8 +868,8 @@
       "line_end": 79,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0080",
@@ -879,8 +879,8 @@
       "line_end": 80,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0081",
@@ -890,8 +890,8 @@
       "line_end": 81,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0082",
@@ -901,8 +901,8 @@
       "line_end": 82,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0083",
@@ -912,8 +912,8 @@
       "line_end": 83,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0084",
@@ -923,8 +923,8 @@
       "line_end": 84,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0085",
@@ -934,8 +934,8 @@
       "line_end": 85,
       "font_size": 24,
       "font_size_class": "larger",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0086",
@@ -945,8 +945,8 @@
       "line_end": 86,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0087",
@@ -978,8 +978,8 @@
       "line_end": 89,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0090",
@@ -989,8 +989,8 @@
       "line_end": 90,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0091",
@@ -1000,8 +1000,8 @@
       "line_end": 91,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0092",
@@ -1011,8 +1011,8 @@
       "line_end": 92,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0093",
@@ -1022,8 +1022,8 @@
       "line_end": 93,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0094",
@@ -1033,8 +1033,8 @@
       "line_end": 94,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0095",
@@ -1044,8 +1044,8 @@
       "line_end": 95,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0096",
@@ -1055,8 +1055,8 @@
       "line_end": 96,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0097",
@@ -1066,8 +1066,8 @@
       "line_end": 97,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0098",
@@ -1077,8 +1077,8 @@
       "line_end": 98,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0099",
@@ -1088,8 +1088,8 @@
       "line_end": 99,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0100",
@@ -1099,8 +1099,8 @@
       "line_end": 100,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0101",
@@ -1110,8 +1110,8 @@
       "line_end": 101,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     },
     {
       "block_id": "b0102",
@@ -1121,8 +1121,8 @@
       "line_end": 102,
       "font_size": 20,
       "font_size_class": "body",
-      "starts_with_bold": true,
-      "all_bold": true
+      "starts_with_bold": false,
+      "all_bold": false
     }
   ],
   "document_baseline_font_size": 20

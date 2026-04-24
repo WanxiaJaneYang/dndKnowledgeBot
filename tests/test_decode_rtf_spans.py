@@ -95,6 +95,24 @@ class DecodeRtfSpansTests(unittest.TestCase):
         joined = "".join(s.text for s in spans)
         self.assertIn("\n", joined)
 
+    def test_plain_resets_bold_state(self) -> None:
+        # SRD RTFs emit \pard\plain between paragraphs; \plain must reset
+        # character formatting so prior bold doesn't leak into following runs.
+        rtf = r"{\rtf1\ansi \b on\par \plain off\par}"
+        spans = decode_rtf_spans(rtf)
+        on_chunk = next(s for s in spans if "on" in s.text)
+        off_chunk = next(s for s in spans if "off" in s.text)
+        self.assertTrue(on_chunk.bold)
+        self.assertFalse(off_chunk.bold)
+
+    def test_plain_resets_font_size(self) -> None:
+        rtf = r"{\rtf1\ansi \fs36 big\par \plain after\par}"
+        spans = decode_rtf_spans(rtf)
+        big_chunk = next(s for s in spans if "big" in s.text)
+        after_chunk = next(s for s in spans if "after" in s.text)
+        self.assertEqual(big_chunk.font_size, 36)
+        self.assertEqual(after_chunk.font_size, 24)  # back to default
+
 
 if __name__ == "__main__":
     unittest.main()

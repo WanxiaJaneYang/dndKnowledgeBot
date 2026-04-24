@@ -156,6 +156,14 @@ def _parse_rtf(rtf_text: str) -> Iterator[tuple[str, int, bool]]:
             # \b1 turns on; \b0 turns off; bare \b is ON.
             current_bold = numeric is None or numeric != 0
             continue
+        if word == "plain":
+            # \plain resets character formatting (bold, italic, font size, ...)
+            # to the document defaults. SRD RTFs emit \pard\plain between
+            # paragraphs; without this reset, prior bold/fs state leaks into
+            # subsequent text and corrupts starts_with_bold / font_size.
+            current_fs = _DEFAULT_FONT_SIZE
+            current_bold = False
+            continue
 
         if word in {"par", "line", "row"}:
             yield from emit("\n")
