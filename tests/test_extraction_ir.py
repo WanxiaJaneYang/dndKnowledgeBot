@@ -101,6 +101,39 @@ class BuildExtractionIRFromSpansTests(unittest.TestCase):
         self.assertTrue(ir["blocks"][1]["all_bold"])
         self.assertEqual(ir["blocks"][1]["font_size"], 24)
 
+    def test_blank_lines_preserve_source_line_numbers(self) -> None:
+        # Codex P2: line_start / line_end must reflect source line numbers,
+        # not block sequence numbers. For "a\n\nb", "b" must be at line 3.
+        spans = [TextSpan(text="a\n\nb", font_size=24, bold=False)]
+        ir = build_extraction_ir(file_name="t.rtf", spans=spans)
+        self.assertEqual(len(ir["blocks"]), 2)  # blank line skipped from output
+        self.assertEqual(ir["blocks"][0]["text"], "a")
+        self.assertEqual(ir["blocks"][0]["line_start"], 1)
+        self.assertEqual(ir["blocks"][1]["text"], "b")
+        self.assertEqual(ir["blocks"][1]["line_start"], 3)  # NOT 2
+
+    def test_trailing_newline_does_not_emit_extra_blank_block(self) -> None:
+        # str.splitlines("foo\n") == ["foo"] — one line, not two.
+        spans = [TextSpan(text="foo\n", font_size=24, bold=False)]
+        ir = build_extraction_ir(file_name="t.rtf", spans=spans)
+        self.assertEqual(len(ir["blocks"]), 1)
+        self.assertEqual(ir["blocks"][0]["line_start"], 1)
+
+
+class DecodeRtfSpansLinearMergeTests(unittest.TestCase):
+    def test_long_same_state_run_does_not_blow_up(self) -> None:
+        # Codex P2: avoid O(n²) span merging. Construct a long same-state
+        # run via repeated chars and time the decode (sanity check, not a
+        # microbenchmark). Mostly we want it to NOT crash / hang.
+        from scripts.ingest_srd35.rtf_decoder import decode_rtf_spans
+        rtf = r"{\rtf1\ansi " + "x" * 50_000 + r"\par}"
+        spans = decode_rtf_spans(rtf)
+        joined = "".join(s.text for s in spans)
+        self.assertIn("x" * 50_000, joined)
+        # Same-state run merges into a single span (plus possibly the \par).
+        non_newline_spans = [s for s in spans if s.text.strip()]
+        self.assertEqual(len(non_newline_spans), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

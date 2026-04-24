@@ -56,31 +56,35 @@ def _summarize_block(spans_in_block: list[TextSpan]) -> tuple[int, bool, bool]:
 
 
 def _split_spans_into_blocks(spans: list[TextSpan]) -> list[list[TextSpan]]:
-    """Split the span stream at \\n boundaries, keeping spans whose text
-    spans a newline split across both blocks (with the newline-bearing
-    portion attached to the prior block)."""
+    """Split the span stream at \\n boundaries.
+
+    Output matches ``str.splitlines()`` semantics: each block corresponds to
+    one logical source line. Blank lines surface as empty blocks (preserved
+    so build_extraction_ir can derive accurate line_start / line_end). A
+    trailing newline does NOT add an extra empty block (matching
+    splitlines), so emitted block count == source line count exactly.
+    """
     blocks: list[list[TextSpan]] = []
     current: list[TextSpan] = []
     for span in spans:
         if "\n" not in span.text:
             current.append(span)
             continue
-        # Split the span at each newline boundary.
         parts = span.text.split("\n")
-        # First part stays with current block.
+        # First part attaches to the in-flight block.
         if parts[0]:
             current.append(TextSpan(text=parts[0], font_size=span.font_size, bold=span.bold))
-        # Each subsequent part starts a new block. Empty parts (consecutive
-        # newlines / blank-line spans) flush the current block but do NOT
-        # emit a standalone empty block — the `if current:` and `if part:`
-        # guards drop them. Downstream consumers may also filter empty text
-        # via _normalize_block_text; the two layers are defensive.
+        # Each subsequent part marks a logical newline. Always flush
+        # current (including when it's empty — that's a blank line),
+        # then start a fresh block holding the part text.
         for part in parts[1:]:
-            if current:
-                blocks.append(current)
+            blocks.append(current)
             current = []
             if part:
                 current.append(TextSpan(text=part, font_size=span.font_size, bold=span.bold))
+    # Trailing partial line (no terminating newline). If the last span
+    # ended with \n, current is already [] and we don't append an extra
+    # blank block — matches str.splitlines() stripping the final newline.
     if current:
         blocks.append(current)
     return blocks

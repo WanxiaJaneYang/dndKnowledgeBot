@@ -208,10 +208,22 @@ def decode_rtf_spans(rtf_text: str) -> list[TextSpan]:
     through their own normalization.
     """
     spans: list[TextSpan] = []
+    # Buffer chunks per run and join once when state changes — avoids the
+    # O(n²) cost of `last.text + chunk` rebuilding strings for every emitted
+    # chunk. _parse_rtf yields plain text one character at a time, so long
+    # same-format runs (most of a paragraph) used to be quadratic.
+    buf: list[str] = []
+    buf_fs: int = 0
+    buf_bold: bool = False
     for chunk, fs, bold in _parse_rtf(rtf_text):
-        if spans and spans[-1].font_size == fs and spans[-1].bold == bold:
-            last = spans[-1]
-            spans[-1] = TextSpan(text=last.text + chunk, font_size=fs, bold=bold)
+        if buf and buf_fs == fs and buf_bold == bold:
+            buf.append(chunk)
         else:
-            spans.append(TextSpan(text=chunk, font_size=fs, bold=bold))
+            if buf:
+                spans.append(TextSpan(text="".join(buf), font_size=buf_fs, bold=buf_bold))
+            buf = [chunk]
+            buf_fs = fs
+            buf_bold = bold
+    if buf:
+        spans.append(TextSpan(text="".join(buf), font_size=buf_fs, bold=buf_bold))
     return spans
