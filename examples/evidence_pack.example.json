@@ -1,0 +1,105 @@
+{
+  "query": {
+    "raw": "attack of opportunity",
+    "normalized": "attack of opportunity",
+    "tokens": [
+      "attack of opportunity"
+    ],
+    "protected_phrases": [
+      "attack of opportunity"
+    ],
+    "aliases_applied": []
+  },
+  "constraints": {
+    "editions": [
+      "3.5e"
+    ],
+    "source_types": [
+      "srd"
+    ],
+    "authority_levels": [
+      "official_reference"
+    ],
+    "excluded_source_ids": []
+  },
+  "trace": {
+    "total_candidates": 2,
+    "group_count": 1,
+    "groups": [
+      {
+        "document_id": "srd_35::combat",
+        "section_root": "Combat",
+        "candidate_count": 2
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "rank": 1,
+      "chunk_id": "srd_35::combat::attack_of_opportunity::chunk_2",
+      "document_id": "srd_35::combat",
+      "chunk_type": "rule_section",
+      "section_root": "Combat",
+      "source_ref": {
+        "authority_level": "official_reference",
+        "edition": "3.5e",
+        "source_id": "srd_35",
+        "source_type": "srd",
+        "title": "System Reference Document"
+      },
+      "locator": {
+        "entry_title": "Threatened Squares",
+        "section_path": [
+          "Combat",
+          "Attack of Opportunity",
+          "Threatened Squares"
+        ],
+        "source_location": "Combat.rtf > Threatened Squares"
+      },
+      "match_signals": {
+        "exact_phrase_hits": [
+          "attack of opportunity"
+        ],
+        "protected_phrase_hits": [
+          "attack of opportunity"
+        ],
+        "section_path_hit": true,
+        "token_overlap_count": 3
+      },
+      "content": "You threaten all squares into which you can make a melee attack, even when it is not your turn. Generally, that means everything in all squares adjacent to your space."
+    },
+    {
+      "rank": 2,
+      "chunk_id": "srd_35::combat::attack_of_opportunity::chunk_1",
+      "document_id": "srd_35::combat",
+      "chunk_type": "rule_section",
+      "section_root": "Combat",
+      "source_ref": {
+        "authority_level": "official_reference",
+        "edition": "3.5e",
+        "source_id": "srd_35",
+        "source_type": "srd",
+        "title": "System Reference Document"
+      },
+      "locator": {
+        "entry_title": "Attack of Opportunity",
+        "section_path": [
+          "Combat",
+          "Attack of Opportunity"
+        ],
+        "source_location": "Combat.rtf > Attack of Opportunity > paragraph 1"
+      },
+      "match_signals": {
+        "exact_phrase_hits": [
+          "attack of opportunity"
+        ],
+        "protected_phrase_hits": [
+          "attack of opportunity"
+        ],
+        "section_path_hit": true,
+        "token_overlap_count": 3
+      },
+      "content": "Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity."
+    }
+  ]
+}

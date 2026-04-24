@@ -148,6 +148,19 @@
 
 语义/向量检索推迟至 `docs/chunking_retrieval_design.md` 所述的第二阶段 hybrid 扩展。
 
+### 4.6a 答案阶段（基于规则，v1）
+
+v1 答案阶段是叠加在检索证据包之上的基于规则的摘要式组合器。它将 `EvidencePack` 转换为有据答案（主摘要 + 最多两段辅助摘要，每段附带分块级引用）或弃答——不生成任何合成散文。这是有意为之的验证脚手架；后续 v2 将以同一 `EvidencePack` 契约引入基于 LLM 的散文合成器。
+
+- 基于规则的摘要组合器——段落文本始终取自分块摘录，绝不生成
+- 严格信号弃答门——首位证据项必须命中 exact_phrase_hit、protected_phrase_hit 或 section_path_hit 中至少一项
+- 每条答案最多三段——一段主答 + 最多两段辅助（先同组兄弟，再取信号不同的跨章节项，槽位 2 回退为下一个兄弟）
+- 引用绑定器——分配稳定的 citation_id，并对共享 `(chunk_id, excerpt)` 的段落去重
+- 双开关 CLI——`--json` 输出严格 schema 形态；`--json-debug` 追加顶层 `debug` 块（非 schema 合规）携带流水线追踪与逐项 match_signals
+- v1 验证脚手架——与计划中的 v2 LLM 组合器共享 `build_answer(pack) → AnswerResult` 接口
+
+完整设计见 `docs/plans/2026-04-23-issue-23-minimal-answer-path.md`。
+
 ### 4.7 答案生成
 
 答案生成层将检索到的证据转换为有据可查的响应。
