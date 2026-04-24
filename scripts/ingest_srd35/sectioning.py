@@ -84,6 +84,12 @@ def _sections_from_heading_candidates(file_stem: str, blocks: list[dict]) -> lis
                 "block_start_id": start_block.get("block_id"),
                 "block_end_id": end_block.get("block_id"),
                 "block_type_counts": block_type_counts,
+                # Title block formatting hints (additive optional) — boundary
+                # filter uses these to detect bold-prefixed stat-field
+                # lines that the heading-candidate sectioner mistakenly
+                # promoted to section titles.
+                "title_starts_with_bold": start_block.get("starts_with_bold", False),
+                "title_font_size": start_block.get("font_size", 0),
             }
         )
 

@@ -116,6 +116,55 @@ class BoundaryFilterTests(unittest.TestCase):
         accepted, _ = apply_boundary_filters("Races", "Races.rtf", candidates)
         self.assertEqual([section["section_title"] for section in accepted], ["FAVORED CLASS", "HUMANS", "DWARVES"])
 
+    def test_stat_field_lookalike_merged_backward(self) -> None:
+        # Codex P1 regression cover: when entry detection didn't fire on an
+        # eligible spell file, bold-prefixed stat-field lines (Components:,
+        # Effect:, Range:) used to be merged back into the preceding entry
+        # via the deleted _looks_spell_block_field rule. The vocabulary-free
+        # replacement uses formatting (title_starts_with_bold) + generic
+        # Word: shape, which catches the same case without a per-edition
+        # word list.
+        sanctuary = _candidate(
+            "Sanctuary",
+            "Any opponent attempting to strike the warded creature must save." * 3,
+        )
+        sanctuary["title_starts_with_bold"] = False
+        sanctuary["title_font_size"] = 24
+
+        # Title text matches what the sectioner actually produces: when a
+        # heading_candidate block is "Components: V, S, DF", the sectioner
+        # promotes the full block text to section_title.
+        components_field = _candidate("Components: V, S, DF", "V, S, DF")
+        components_field["title_starts_with_bold"] = True
+        components_field["title_font_size"] = 20
+
+        candidates = [sanctuary, components_field]
+        accepted, decisions = apply_boundary_filters(
+            "SpellsS", "SpellsS.rtf", candidates,
+        )
+        self.assertEqual(len(accepted), 1)
+        self.assertIn("V, S, DF", accepted[0]["content"])
+        self.assertEqual(decisions[1]["reason_code"], "stat_field_lookalike")
+        self.assertEqual(decisions[1]["action"], "merged_backward")
+
+    def test_stat_field_lookalike_only_fires_when_title_is_bold(self) -> None:
+        # Same shape but no bold flag — must NOT trigger the new rule
+        # (avoids false positives on regular sections that happen to start
+        # with "Word: ...").
+        components_unbold = _candidate("Components: V, S, DF", "V, S, DF")
+        components_unbold["title_starts_with_bold"] = False
+        components_unbold["title_font_size"] = 20
+
+        accepted, decisions = apply_boundary_filters(
+            "SpellsS", "SpellsS.rtf", [
+                _candidate("Sanctuary", "long body content here." * 10),
+                components_unbold,
+            ],
+        )
+        # Falls through to the suspicious_short_or_truncated branch instead
+        # (since the body is short), but NOT the stat_field_lookalike branch.
+        self.assertNotEqual(decisions[1]["reason_code"], "stat_field_lookalike")
+
     def test_entry_annotated_section_accepted_unconditionally(self) -> None:
         # Entry-annotated sections bypass all heuristics (short body, suspicious title, etc.).
         short_entry = _candidate("Components", "V, S")

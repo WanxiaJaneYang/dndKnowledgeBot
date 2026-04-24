@@ -10,9 +10,31 @@ TRUNCATED_TITLE_SUFFIXES = {"and", "or", "the", "of", "to", "for", "a", "an"}
 
 
 # Boilerplate phrases now come from the per-source manifest at call time.
-# _SPELL_BLOCK_FIELDS and _looks_spell_block_field() are removed; entry
-# detection upstream tags stat-block field lines so they never reach the
-# boundary filter as candidates.
+# Stat-field-lookalike detection: vocabulary-free formatting check using the
+# section's title block formatting (starts_with_bold + short Word: shape).
+# Catches the case where the heading-candidate sectioner promoted a bold
+# stat-field line to a section title in files where the entry annotator
+# didn't fire.
+_FIELD_LIKE_TITLE_RE = re.compile(r"^[A-Z][\w '/-]+:\s*\S?")
+
+
+def _looks_stat_field_lookalike(candidate: dict) -> bool:
+    """Return True when a candidate title looks like a bold-prefixed stat
+    block field that the heading-candidate path mistakenly promoted to a
+    section title (e.g., \"Components: V, S, M\").
+
+    This is the formatting-driven replacement for the deleted vocabulary
+    list `_SPELL_BLOCK_FIELDS`. Only fires when the title block is bold
+    AND short AND matches the generic Word:value pattern — works across
+    editions/sources because it relies on the encoding shape, not specific
+    field names.
+    """
+    if not candidate.get("title_starts_with_bold", False):
+        return False
+    title = candidate["section_title"].strip()
+    if len(title) > 80:
+        return False
+    return bool(_FIELD_LIKE_TITLE_RE.match(title))
 
 
 def _looks_truncated_title(title: str) -> bool:
@@ -148,6 +170,9 @@ def apply_boundary_filters(
         elif _looks_table_label_title(title):
             action = "merged_backward" if accepted else "merged_forward"
             reason_code = "table_label_title"
+        elif _looks_stat_field_lookalike(candidate):
+            action = "merged_backward" if accepted else "merged_forward"
+            reason_code = "stat_field_lookalike"
         elif _is_table_fragment(candidate):
             action = "merged_backward" if accepted else "merged_forward"
             reason_code = "table_fragment_section"
