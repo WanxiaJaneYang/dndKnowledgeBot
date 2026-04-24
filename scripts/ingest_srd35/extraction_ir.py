@@ -41,10 +41,13 @@ def _summarize_block(spans_in_block: list[TextSpan]) -> tuple[int, bool, bool]:
     """
     char_weighted: Counter[int] = Counter()
     for span in spans_in_block:
-        # Strip newlines from the count; they aren't visible content.
-        text_for_weight = span.text.replace("\n", "")
-        if text_for_weight:
-            char_weighted[span.font_size] += len(text_for_weight)
+        # Weight by visible non-whitespace characters only. Whitespace
+        # (spaces, tabs, newlines) carries no font signal and would
+        # otherwise let indentation-only or trailing-space spans skew the
+        # block's dominant size, and through that the document baseline.
+        visible_chars = sum(1 for ch in span.text if not ch.isspace())
+        if visible_chars:
+            char_weighted[span.font_size] += visible_chars
     font_size_dominant = char_weighted.most_common(1)[0][0] if char_weighted else 0
 
     non_ws_spans = [s for s in spans_in_block if s.text.replace("\n", "").strip()]

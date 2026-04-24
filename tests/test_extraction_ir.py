@@ -119,6 +119,22 @@ class BuildExtractionIRFromSpansTests(unittest.TestCase):
         self.assertEqual(len(ir["blocks"]), 1)
         self.assertEqual(ir["blocks"][0]["line_start"], 1)
 
+    def test_whitespace_only_spans_do_not_skew_baseline(self) -> None:
+        # Codex P2: previous _summarize_block weighted spaces and tabs as
+        # visible chars when computing dominant font_size. A long
+        # indentation span at fs20 could push a block's font_size to 20
+        # even though all visible content is at fs24, and through that
+        # bias the document baseline.
+        # Block 1: long indentation at fs20, then short visible text at fs24.
+        # Visible-only weighting picks fs24; old behavior picked fs20.
+        spans = _make_block_spans(
+            ("                    ", 20, False),  # 20 chars of spaces, fs20
+            ("text", 24, False),                  # 4 visible chars, fs24
+            ("\n", 24, False),
+        )
+        ir = build_extraction_ir(file_name="t.rtf", spans=spans)
+        self.assertEqual(ir["blocks"][0]["font_size"], 24)
+
 
 class DecodeRtfSpansLinearMergeTests(unittest.TestCase):
     def test_long_same_state_run_does_not_blow_up(self) -> None:
