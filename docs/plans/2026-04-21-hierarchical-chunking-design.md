@@ -1,5 +1,7 @@
 # Hierarchical Chunking for Entry-Like Documents
 
+> **Superseded by:** [`2026-04-23-chunker-rewrite-formatting-aware-design.md`](2026-04-23-chunker-rewrite-formatting-aware-design.md). The chunker rewrite plan replaced this hierarchical-chunking direction.
+
 **Date**: 2026-04-21
 **Issue**: #60
 **Status**: Design

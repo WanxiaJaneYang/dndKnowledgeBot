@@ -50,10 +50,10 @@ Phase 1 is intentionally narrow.
 
 - D&D **3.5e only**
 - private, personal usage
-- curated corpus ingestion design
+- curated corpus ingestion (implemented; see `scripts/ingest_srd35/`)
 - canonical corpus representation
-- rule-aware chunking design
-- vector retrieval design
+- rule-aware chunking (baseline shipped; formatting-aware rewrite in flight)
+- lexical-first retrieval (implemented; planned hybrid extension in Phase 2)
 - citation-aware answer format
 - abstain behavior for weak evidence
 - design documents and schemas needed to support later implementation

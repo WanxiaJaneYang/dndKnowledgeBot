@@ -178,7 +178,10 @@ Why not now:
 
 ## 8. Next Steps
 
-- align the source registry to mark `srd_35` as `admitted_bootstrap`
-- build the first gold evaluation set against SRD-covered questions
-- run the first ingestion spike against `data/raw/srd_35/`
+### Completed
+- aligned the source registry to mark `srd_35` as `admitted_bootstrap`
+- built the first gold evaluation set against SRD-covered questions (`evals/phase1_gold.yaml`, 30 cases)
+- ran the first ingestion spike against `data/raw/srd_35/` (`scripts/ingest_srd35/`)
+
+### Open
 - expand beyond `srd_35` only after the bootstrap slice proves the contract is stable enough to carry a noisier source

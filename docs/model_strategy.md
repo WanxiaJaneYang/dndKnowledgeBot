@@ -235,6 +235,8 @@ While the decisions above remain open, the schema example at `examples/answer_wi
 
 These are **operational example values**, not a commitment to any particular model family. The retrieval, answer, and citation contracts are designed so each role can be swapped independently (see §14) without touching the canonical corpus, chunk metadata, or citation policy.
 
+Note that the Phase 1 v1 answer composer (`scripts/answer/composer.py`) is rule-based and does not invoke an LLM — it builds answers from chunk excerpts. The `answer_model` slot above is reserved for the planned v2 LLM-backed prose composer that will consume the same `EvidencePack` contract.
+
 ## 19. Summary
 
 In one sentence:

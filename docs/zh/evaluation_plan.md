@@ -237,7 +237,11 @@ RAG 系统在变得可靠之前，往往看起来令人信服。
 - 避免版本漂移
 - 在证据不足时弃答
 
-## 17. 摘要
+## 17. 第一阶段进展（截至 2026-04-26）
+
+Phase 1 gold-eval 集合已入库（`evals/phase1_gold.yaml`，30 题；中文镜像 `evals/phase1_gold.zh.yaml`）。评测 harness（`scripts/eval/`、`scripts/run_phase1_eval.py`）已实现，首次运行结果检入 `evals/reports/phase1_gold_latest.{json,md}` —— 该报告是当前 gold slice 上 retrieval / answer / citation / abstain 通过率的事实来源。
+
+## 18. 摘要
 
 一句话总结：
 

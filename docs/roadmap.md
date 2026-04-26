@@ -32,7 +32,7 @@
 - [x] Evidence-pack contract for retrieval output + retrieval-debug CLI — `scripts/retrieve_debug.py` (PR #66)
 - [x] Implement v1 answer generation (rule-based excerpt composer with grounding constraint), citation rendering, and abstention behavior — `scripts/answer/`, `scripts/answer_question.py` (PR #74, issue #23)
 - [ ] Implement v2 answer generation (LLM-backed prose composer over the same `EvidencePack` contract)
-- [ ] Run evaluation against the Phase 1 gold set (`evals/phase1_gold.yaml`) — harness design landed (PR #79); first run pending
+- [x] Phase 1 gold-set eval harness + first run — `scripts/eval/`, `scripts/run_phase1_eval.py` (PR #81); reports under `evals/reports/phase1_gold_latest.{md,json}`
 
 ## Phase 2 - Quality Improvements
 

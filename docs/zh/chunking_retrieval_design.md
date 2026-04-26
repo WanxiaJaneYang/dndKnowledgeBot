@@ -453,8 +453,9 @@ Shaping 故意保持窄范围：
 - `source_ref` 与 `locator` —— 引用渲染所需的溯源（见 `docs/metadata_contract.md` 与 `docs/citation_policy.md`）
 - `match_signals` —— 精确短语命中、受保护短语命中、section-path 命中、token-overlap 计数
 - `section_root` —— shaping 所用的分组键，在每项上保留，便于消费方推理覆盖面
+- adjacency —— `parent_chunk_id`、`previous_chunk_id`、`next_chunk_id`（自 `LexicalCandidate` 传递而来）
 
-Adjacency 链接（`parent_chunk_id`、`previous_chunk_id`、`next_chunk_id`）位于上游 `LexicalCandidate` 契约上，且有意未投射到 `EvidenceItem`；它们通过 `chunk_id` 仍可被未来的合并工作访问。
+Adjacency 链接（`parent_chunk_id`、`previous_chunk_id`、`next_chunk_id`）从上游 `LexicalCandidate` 契约直接传递到每个 `EvidenceItem` 上，使下游消费方（如合并逻辑、答案合成器、调试工具）无需重新查询索引即可推理 chunk 邻域。
 
 ## 25. 检索时的分组与合并
 
