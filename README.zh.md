@@ -8,9 +8,9 @@
 
 当前处于 **Phase 1 — 核心实现阶段**。Phase 0 设计已完成。
 
-核心检索链路已落地：ingestion（`scripts/ingest_srd35/`）、chunker（`scripts/chunker/`）、带领域感知打分与 match-signal 重排的 lexical-first retrieval（`scripts/retrieval/`）、section-aware 的候选聚合、structure metadata 索引，以及 evidence-pack 契约与 retrieval debug CLI（`scripts/retrieve_debug.py`）。
+核心检索链路已落地：ingestion（`scripts/ingest_srd35/`）、chunker（`scripts/chunker/`）、带领域感知打分与 match-signal 重排的 lexical-first retrieval（`scripts/retrieval/`）、section-aware 的候选聚合、structure metadata 索引，以及 evidence-pack 契约与 retrieval debug CLI（`scripts/retrieve_debug.py`）。基于规则的 v1 有据答案路径（摘录式组合器、citation 绑定、严格信号 abstain）也已就位（`scripts/answer/`、`scripts/answer_question.py`）。
 
-Phase 1 仍待完成：带 grounding 约束的 answer generation、citation 渲染、abstain 行为，以及在 gold set 上的首次评测运行。
+Phase 1 仍待完成：基于 LLM 的 v2 散文合成器（复用同一 `EvidencePack` 契约），以及在 gold set（`evals/phase1_gold.yaml`）上的首次评测运行。
 
 设计文档仍是契约的主约束；实现通过 fixture corpus、golden test 与 recall-coverage 回归加以对齐。
 
@@ -67,4 +67,4 @@ Phase 1 只在 3.5e 语料内工作。
 
 ## 下一步
 
-ingestion、chunking、lexical retrieval、候选聚合与 evidence-pack 契约已在 `srd_35` 上就位。下一步是闭合 Phase 1：带 grounding 约束的 answer generation、claim / segment 级别的 citation 渲染、abstain 行为，并在 `evals/phase1_gold.yaml` 上跑出第一次评测结果。
+ingestion、chunking、lexical retrieval、候选聚合、evidence-pack 契约，以及带 citation 绑定与 abstain 的 v1 基于规则的 answer 路径，均已在 `srd_35` 上就位。下一步是 v2 answer 组合器（基于 LLM 的散文合成，复用同一 `EvidencePack` 契约），并在 `evals/phase1_gold.yaml` 上跑出第一次评测结果。
