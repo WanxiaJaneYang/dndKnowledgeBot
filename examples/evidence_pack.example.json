@@ -29,7 +29,8 @@
       {
         "document_id": "srd_35::combat",
         "section_root": "Combat",
-        "candidate_count": 2
+        "candidate_count": 2,
+        "span_count": 2
       }
     ]
   },
@@ -66,6 +67,19 @@
         "section_path_hit": true,
         "token_overlap_count": 3
       },
+      "span": {
+        "chunk_ids": [
+          "srd_35::combat::attack_of_opportunity::chunk_2"
+        ],
+        "start_chunk_id": "srd_35::combat::attack_of_opportunity::chunk_2",
+        "end_chunk_id": "srd_35::combat::attack_of_opportunity::chunk_2",
+        "merge_reason": "singleton"
+      },
+      "adjacency": {
+        "parent_chunk_id": null,
+        "previous_chunk_id": null,
+        "next_chunk_id": null
+      },
       "content": "You threaten all squares into which you can make a melee attack, even when it is not your turn. Generally, that means everything in all squares adjacent to your space."
     },
     {
@@ -98,6 +112,19 @@
         ],
         "section_path_hit": true,
         "token_overlap_count": 3
+      },
+      "span": {
+        "chunk_ids": [
+          "srd_35::combat::attack_of_opportunity::chunk_1"
+        ],
+        "start_chunk_id": "srd_35::combat::attack_of_opportunity::chunk_1",
+        "end_chunk_id": "srd_35::combat::attack_of_opportunity::chunk_1",
+        "merge_reason": "singleton"
+      },
+      "adjacency": {
+        "parent_chunk_id": null,
+        "previous_chunk_id": null,
+        "next_chunk_id": null
       },
       "content": "Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity."
     }
