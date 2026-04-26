@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ContentTypesConfig",
+  "type": "object",
+  "required": ["content_types"],
+  "additionalProperties": false,
+  "properties": {
+    "content_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "category", "chunk_type", "shape"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "category": {"type": "string", "minLength": 1},
+          "chunk_type": {
+            "type": "string",
+            "enum": ["spell_entry", "feat_entry", "skill_entry", "condition_entry", "class_feature", "glossary_entry"]
+          },
+          "shape": {
+            "type": "string",
+            "enum": ["entry_with_statblock", "definition_list"]
+          },
+          "shape_params": {
+            "type": "object"
+          },
+          "file_match": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "minItems": 1
+          }
+        }
+      }
+    }
+  }
+}
