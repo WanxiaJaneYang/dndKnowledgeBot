@@ -9,7 +9,7 @@ from .boundary_filter import apply_boundary_filters
 from .constants import EXTRACTION_CAVEATS, INGESTION_NOTES
 from .extraction_ir import build_extraction_ir
 from .paths import remove_directory_if_present, resolve_repo_relative_path
-from .rtf_decoder import decode_rtf_text
+from .rtf_decoder import decode_rtf_spans, decode_rtf_text
 from .schema_validation import validate_canonical_docs
 from .sectioning import sanitize_identifier, split_sections_from_blocks
 
@@ -114,7 +114,9 @@ def ingest_source(
 
     for rtf_path in rtf_files:
         raw_bytes = rtf_path.read_bytes()
-        decoded = decode_rtf_text(raw_bytes.decode("latin-1", errors="ignore"))
+        rtf_text = raw_bytes.decode("latin-1", errors="ignore")
+        decoded = decode_rtf_text(rtf_text)
+        spans = decode_rtf_spans(rtf_text)
         raw_checksum = _sha1_bytes(raw_bytes)
         extracted_checksum = _sha1_text(decoded)
 
@@ -122,7 +124,7 @@ def ingest_source(
         file_slug = sanitize_identifier(rtf_path.stem)
         extracted_path = extracted_text_root / f"{file_slug}.txt"
         extracted_path.write_text(decoded + "\n", encoding="utf-8")
-        extraction_ir = build_extraction_ir(file_name=rtf_path.name, text=decoded)
+        extraction_ir = build_extraction_ir(file_name=rtf_path.name, spans=spans)
         if rtf_path.name in demote_heading_candidate_files:
             for block in extraction_ir["blocks"]:
                 if block.get("block_type") == "heading_candidate":
