@@ -1,7 +1,7 @@
 # Issue #24 — Phase 1 Gold-Set Eval Run with Tagged Failures
 
 > **Status:** design
-> **Target issues:** #24 (primary), #5 (rollup — closes once this lands)
+> **Target issues:** #24 (primary), #5 (rollup — design only; does not close)
 > **Author:** 2026-04-25
 
 ## 1. Goal
