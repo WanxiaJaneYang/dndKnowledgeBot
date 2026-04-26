@@ -1,0 +1,976 @@
+{
+  "dataset_id": "phase1_gold_v1",
+  "run_started_at": "2026-04-26T04:02:48Z",
+  "case_count": 30,
+  "tag_counts": {
+    "retrieval_miss": 0,
+    "wrong_section": 9,
+    "wrong_entry": 0,
+    "citation_mismatch": 1,
+    "unsupported_inference": 0,
+    "missing_abstain": 1,
+    "unnecessary_abstain": 15,
+    "edition_boundary_failure": 0,
+    "_clean": 5
+  },
+  "behavior_match_rate": 0.47,
+  "cases": [
+    {
+      "eval_id": "P1-DL-001",
+      "question": "When does a character provoke an attack of opportunity from movement?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "Sometimes a combatant in a melee lets her guard down. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity.\nThreatened Squares: You threaten all squares into which you can make a melee attack, even when it is not your action. Generally, that means everything in all squares adjacent to your space (including diagonally). An enemy that takes certain actions while in a threatened square provokes an a…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::combati::014_attacks_of_opportunity",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "CombatI",
+              "ATTACKS OF OPPORTUNITY"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "attack",
+            "opportunity"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-DL-002",
+      "question": "What does the total defense action do to Armor Class?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-DL-003",
+      "question": "What is the default speed for a human in combat movement terms?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-DL-004",
+      "question": "Can a character take a 5-foot step if they did any other movement in the same round?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-DL-005",
+      "question": "What does being dazzled do?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-EX-001",
+      "question": "Does drinking a potion provoke an attack of opportunity?",
+      "question_type": "exception_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "A potion is a magic liquid that produces its effect when imbibed. Magic oils are similar to potions, except that oils are applied externally rather than imbibed. A potion or oil can be used only once. It can duplicate the effect of a spell of up to 3rd level that has a casting time of less than 1 minute.\nPotions are like spells cast upon the imbiber. The character taking the potion doesn't get to make any decisions about the effect --the caster who brewed the potion has already done so. The drin…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::magicitemsiii::002_potions_and_oils",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "MagicItemsIII",
+              "POTIONS AND OILS"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "potion"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-EX-002",
+      "question": "Can you make attacks of opportunity while flat-footed?",
+      "question_type": "exception_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "Benefit: You may make a number of additional attacks of opportunity equal to your Dexterity bonus.\nWith this feat, you may also make attacks of opportunity while flat-footed.\nNormal: A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.\nSpecial: The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.\nA fighter may select Combat Reflexes as one of his fighter bonus f…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::feats::022_combat_reflexes_general",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "Feats",
+              "COMBAT REFLEXES [GENERAL]"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "attacks",
+            "flat",
+            "footed",
+            "make",
+            "opportunity",
+            "while"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-EX-003",
+      "question": "Does firing a ranged weapon while threatened provoke an attack of opportunity?",
+      "question_type": "exception_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "Prerequisites: Dodge, Mobility, Point Blank Shot.\nBenefit: The character does not incur any attacks of opportunity for firing a bow when threatened.\nNormal: Without this feat, a character incurs an attack of opportunity from all opponents who threaten him or her whenever he or she uses a bow.",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::epicfeats::020_combat_archery_epic",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "EpicFeats",
+              "COMBAT ARCHERY [EPIC]"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "attack",
+            "firing",
+            "opportunity",
+            "threatened"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-EX-004",
+      "question": "Can you run in heavy armor?",
+      "question_type": "exception_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-EX-005",
+      "question": "Can a helpless target make attacks of opportunity?",
+      "question_type": "exception_lookup",
+      "expected_behavior": "supported_inference",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "A helpless opponent is someone who is bound, sleeping, paralyzed, unconscious, or otherwise at your mercy.\nRegular Attack: A helpless character takes a -4 penalty to AC against melee attacks, but no penalty to AC against ranged attacks.\nA helpless defender can't use any Dexterity bonus to AC. In fact, his Dexterity score is treated as if it were 0 and his Dexterity modifier to AC as if it were -5 (and a rogue can sneak attack him).\nCoup de Grace: As a full-round action, you can use a melee weapo…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::combatii::011_helpless_defenders",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "CombatII",
+              "HELPLESS DEFENDERS"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": true,
+          "edition_match": true,
+          "token_overlap": [
+            "attacks",
+            "helpless"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-NE-001",
+      "question": "What does the Power Attack feat allow you to trade?",
+      "question_type": "named_entry",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-NE-002",
+      "question": "Without the Two-Weapon Fighting feat and with a non-light off-hand weapon, what are the two-weapon attack penalties?",
+      "question_type": "named_entry",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-NE-003",
+      "question": "How does the Dodge feat work?",
+      "question_type": "named_entry",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-NE-004",
+      "question": "What does Magic Missile do on a hit roll?",
+      "question_type": "named_entry",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-NE-005",
+      "question": "What does the Cleave feat trigger on?",
+      "question_type": "named_entry",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-MC-001",
+      "question": "Can you take a 5-foot step and still make a full attack?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [],
+      "actual_summary": {
+        "primary_excerpt": "If you get more than one attack per round because your base attack bonus is high enough, because you fight with two weapons or a double weapon or for some special reason you must use a full-round action to get your additional attacks. You do not need to specify the targets of your attacks ahead of time. You can see how the earlier attacks turn out before assigning the later ones.\nThe only movement you can take during a full attack is a 5-foot step. You may take the step before, after, or between…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::combati::025_full_attack",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "CombatI",
+              "Full Attack"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": true,
+          "entry_match": true,
+          "edition_match": true,
+          "token_overlap": [
+            "5",
+            "attack",
+            "foot",
+            "full",
+            "step",
+            "take"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-MC-002",
+      "question": "If a character is invisible and attacks, what combat advantages apply to that first attack?",
+      "question_type": "multi_chunk",
+      "expected_behavior": "supported_inference",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-MC-003",
+      "question": "Can you cast defensively while threatened, and what check determines success?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-MC-004",
+      "question": "If you use Tumble to move through threatened squares, what does it prevent and what does it not prevent?",
+      "question_type": "multi_chunk",
+      "expected_behavior": "supported_inference",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-MC-005",
+      "question": "Can you charge through difficult terrain?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section",
+        "citation_mismatch"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "Diagonals: When measuring distance, the first diagonal counts as 1 square, the second counts as 2 squares, the third counts as 1, the fourth as 2, and so on.\nYou can't move diagonally past a corner (even by taking a 5-foot step). You can move diagonally past a creature, even an opponent.\nYou can also move diagonally past other impassable obstacles, such as pits.\nClosest Creature: When it's important to determine the closest square or creature to a location, if two squares or creatures are equall…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::combatii::004_measuring_distance",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "CombatII",
+              "Measuring Distance"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [],
+          "citation_mismatch": true
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-TB-001",
+      "question": "What Strength score carrying capacity applies to a medium load for Strength 10?",
+      "question_type": "table_dependent",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-TB-002",
+      "question": "What ability modifier does an ability score of 18 provide?",
+      "question_type": "table_dependent",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "The ability that your powers depend on--your key ability score as a manifester--is related to what psionic class (or classes) you have levels in: Intelligence (psion), Wisdom (psychic warrior), and Charisma (wilder). The modifier for this ability is referred to as your key ability modifier. If your character's key ability score is 9 or lower, you can't manifest powers from that psionic class.\nJust as a high Intelligence score grants bonus spells to a wizard and a high Wisdom score grants bonus s…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::psionicclasses::004_abilities_and_manifesters",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "PsionicClasses",
+              "ABILITIES AND MANIFESTERS"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "ability",
+            "modifier",
+            "score"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-TB-003",
+      "question": "What is the armor check penalty for full plate?",
+      "question_type": "table_dependent",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "The following specific suits of armor usually are preconstructed with exactly the qualities described here.\nAdamantine Breastplate: This nonmagical breastplate is made of adamantine, giving its wearer damage reduction of 2/-.\nNo aura (nonmagical); Price 10,200 gp.\nBanded Mail of Luck: Ten 100-gp gems adorn this +3 banded mail. Once per week, the armor allows its wearer to require that an attack roll made against him be rerolled. He must take whatever consequences come from the second roll. The w…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::magicitemsii::004_specific_armors",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "MagicItemsII",
+              "Specific Armors"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "armor"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-TB-004",
+      "question": "What cover bonus does improved cover grant?",
+      "question_type": "direct_lookup",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "abstain",
+      "tags": [
+        "unnecessary_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-TB-005",
+      "question": "What size modifier applies to attack rolls for a Large creature?",
+      "question_type": "table_dependent",
+      "expected_behavior": "direct_answer",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "wrong_section"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "Your attack bonus with a melee weapon is:\nBase attack bonus + Strength modifier + size modifier\nWith a ranged weapon, your attack bonus is:\nBase attack bonus + Dexterity modifier + size modifier + range penalty\nTable: Size Modifiers |\nSize | Size Modifier | Size | Size Modifier |\nColossal | -8 | Small | +1 |\nGargantuan | -4 | Tiny | +2 |\nHuge | -2 | Diminutive | +4 |\nLarge | -1 | Fine | +8 |\nMedium | +0 | | |",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::combati::005_attack_bonus",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "CombatI",
+              "ATTACK BONUS"
+            ],
+            "entry_title": null
+          },
+          {
+            "citation_id": "cit_2",
+            "chunk_id": "chunk::srd_35::equipment::006_weapon_categories",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "Equipment",
+              "WEAPON CATEGORIES"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "attack",
+            "large",
+            "modifier",
+            "size"
+          ],
+          "citation_mismatch": false
+        },
+        {
+          "citation_id": "cit_2",
+          "source_match": true,
+          "section_match": false,
+          "entry_match": false,
+          "edition_match": true,
+          "token_overlap": [
+            "large",
+            "size"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 2
+      }
+    },
+    {
+      "eval_id": "P1-IE-001",
+      "question": "How does the warlock Eldritch Blast scale by level in D&D 3.5e?",
+      "question_type": "insufficient_evidence",
+      "expected_behavior": "abstain",
+      "actual_answer_type": "abstain",
+      "tags": [],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-IE-002",
+      "question": "What are Artificer infusion slots at level 5?",
+      "question_type": "insufficient_evidence",
+      "expected_behavior": "abstain",
+      "actual_answer_type": "abstain",
+      "tags": [],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-IE-003",
+      "question": "Can I spend inspiration to gain advantage on an attack roll?",
+      "question_type": "insufficient_evidence",
+      "expected_behavior": "abstain",
+      "actual_answer_type": "grounded",
+      "tags": [
+        "missing_abstain"
+      ],
+      "actual_summary": {
+        "primary_excerpt": "You project a field of improbability around yourself, creating a fleeting protective shell. You gain a +4 deflection bonus to Armor Class.\nYou can manifest this power instantly, quickly enough to gain its benefits in an emergency. Manifesting the power is an immediate action, like manifesting a quickened power, and it counts toward the normal limit of one quickened power per round. You can use this power even when it's not your turn; however, you must manifest it prior to an opponent's attack ro…",
+        "primary_support_type": "direct_support",
+        "citations": [
+          {
+            "citation_id": "cit_1",
+            "chunk_id": "chunk::srd_35::psionicpowersg_p::037_power_points_5",
+            "source_id": "srd_35",
+            "edition": "3.5e",
+            "section_path": [
+              "PsionicPowersG-P",
+              "Power Points: 5"
+            ],
+            "entry_title": null
+          }
+        ],
+        "abstention_reason": null
+      },
+      "citation_checks": [
+        {
+          "citation_id": "cit_1",
+          "source_match": false,
+          "section_match": null,
+          "entry_match": null,
+          "edition_match": true,
+          "token_overlap": [
+            "attack",
+            "gain"
+          ],
+          "citation_mismatch": false
+        }
+      ],
+      "diagnostics": {
+        "abstention_code": null,
+        "total_candidates": 10,
+        "selected_chunks": 1
+      }
+    },
+    {
+      "eval_id": "P1-IE-004",
+      "question": "How many cantrips does a 5e wizard know at level 1?",
+      "question_type": "insufficient_evidence",
+      "expected_behavior": "abstain",
+      "actual_answer_type": "abstain",
+      "tags": [],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    },
+    {
+      "eval_id": "P1-IE-005",
+      "question": "What does the Hexblade's Curse feature do?",
+      "question_type": "insufficient_evidence",
+      "expected_behavior": "abstain",
+      "actual_answer_type": "abstain",
+      "tags": [],
+      "actual_summary": {
+        "primary_excerpt": null,
+        "primary_support_type": null,
+        "citations": [],
+        "abstention_reason": "Insufficient evidence: retrieved chunks do not clearly match the query."
+      },
+      "citation_checks": [],
+      "diagnostics": {
+        "abstention_code": "weak_signals",
+        "total_candidates": 10,
+        "selected_chunks": 0
+      }
+    }
+  ]
+}

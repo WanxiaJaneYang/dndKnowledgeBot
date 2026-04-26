@@ -65,6 +65,13 @@ def _make_item(
         locator={"section_path": [section_root], "source_location": "test"},
         match_signals=signals or _make_signals(exact=["q"]),
         section_root=section_root,
+        chunk_ids=(chunk_id,),
+        start_chunk_id=chunk_id,
+        end_chunk_id=chunk_id,
+        merge_reason="singleton",
+        parent_chunk_id=None,
+        previous_chunk_id=None,
+        next_chunk_id=None,
     )
 
 
