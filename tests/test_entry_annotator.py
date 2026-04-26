@@ -20,10 +20,17 @@ SPELL_CFG = ContentTypeConfig(
 )
 
 
-def _block(text: str, *, font_size: int, starts_with_bold: bool = False, all_bold: bool = False) -> dict:
+def _block(
+    text: str,
+    *,
+    font_size: int,
+    starts_with_bold: bool = False,
+    all_bold: bool = False,
+    block_type: str = "paragraph",
+) -> dict:
     return {
         "block_id": f"b{abs(hash(text)) % 10000:04d}",
-        "block_type": "paragraph",
+        "block_type": block_type,
         "text": text,
         "font_size": font_size,
         "starts_with_bold": starts_with_bold,
@@ -301,6 +308,93 @@ class FileWideMonotonicEntryIndexTests(unittest.TestCase):
         spell_indices = per_entry_index_per_type["spell"]
         cond_indices = per_entry_index_per_type["condition"]
         self.assertEqual(spell_indices & cond_indices, set())
+
+
+class LastEntryDescriptionStopsAtHeadingTests(unittest.TestCase):
+    """Codex review: previously the last detected entry's description range
+    extended to EOF, absorbing trailing section headings, footers, license
+    text, etc. Now it stops at the first heading_candidate block."""
+
+    def test_last_entry_does_not_absorb_trailing_heading(self) -> None:
+        blocks = [
+            _block("Sanctuary", font_size=24),
+            _block("Abjuration", font_size=20),
+            _block("Level: Clr 1", font_size=20, starts_with_bold=True),
+            _block("Components: V, S", font_size=20, starts_with_bold=True),
+            _block("First sentence of description.", font_size=24),
+            _block("Second sentence of description.", font_size=24),
+            # Trailing section heading — must stop description here.
+            _block("LEGAL NOTICES", font_size=24, block_type="heading_candidate"),
+            _block("All content is OGL-licensed text...", font_size=24),
+        ]
+        annotate_entries(blocks, file_name="SpellsS.rtf", content_types=[SPELL_CFG])
+        # Only the 4 entry blocks + 2 description sentences are annotated.
+        annotated = [b for b in blocks if "entry_index" in b]
+        self.assertEqual(len(annotated), 6)
+        # Trailing heading + footer prose remain unannotated.
+        self.assertNotIn("entry_index", blocks[6])
+        self.assertNotIn("entry_index", blocks[7])
+
+    def test_intermediate_entries_unaffected_by_heading_stop(self) -> None:
+        # Two consecutive spells: the first's description bound is the
+        # next match, not a heading. Heading stop only kicks in when
+        # there's no next match (i.e., the last entry).
+        blocks = [
+            _block("Sanctuary", font_size=24),
+            _block("Abjuration", font_size=20),
+            _block("Level: Clr 1", font_size=20, starts_with_bold=True),
+            _block("Components: V, S", font_size=20, starts_with_bold=True),
+            _block("Sanctuary description text.", font_size=24),
+            _block("Scare", font_size=24),
+            _block("Necromancy", font_size=20),
+            _block("Level: Brd 2", font_size=20, starts_with_bold=True),
+            _block("Components: V, S", font_size=20, starts_with_bold=True),
+        ]
+        annotate_entries(blocks, file_name="SpellsS.rtf", content_types=[SPELL_CFG])
+        # All 9 blocks belong to one entry or the other.
+        annotated = [b for b in blocks if "entry_index" in b]
+        self.assertEqual(len(annotated), 9)
+
+
+class DefinitionListBlockShapeRobustnessTests(unittest.TestCase):
+    """Codex review: definition_list used direct dict indexing for
+    font_size and would KeyError on blocks lacking the field. .get()
+    now keeps it consistent with entry_with_statblock predicates so a
+    missing field simply means 'no match', not a crash."""
+
+    def test_block_missing_font_size_does_not_crash(self) -> None:
+        # Construct blocks WITHOUT the font_size key (simulates a raw IR
+        # block from a pipeline stage that didn't fill it in).
+        blocks = [
+            {
+                "block_id": "b0001",
+                "block_type": "paragraph",
+                "text": "Blinded: cannot see",
+                "starts_with_bold": True,
+                "all_bold": False,
+            },
+            {
+                "block_id": "b0002",
+                "block_type": "paragraph",
+                "text": "Confused: rolls d%",
+                "starts_with_bold": True,
+                "all_bold": False,
+            },
+            {
+                "block_id": "b0003",
+                "block_type": "paragraph",
+                "text": "Dazed: unable to act",
+                "starts_with_bold": True,
+                "all_bold": False,
+            },
+        ]
+        # Should not raise. Default font_size 0 is uniform → run matches.
+        annotate_entries(
+            blocks, file_name="AbilitiesandConditions.rtf",
+            content_types=[CONDITION_CFG],
+        )
+        annotated = [b for b in blocks if "entry_index" in b]
+        self.assertEqual(len(annotated), 3)
 
 
 if __name__ == "__main__":

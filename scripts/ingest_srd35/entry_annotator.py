@@ -142,14 +142,18 @@ def _find_entry_with_statblock_matches(
             type_config=cfg,
         ))
         i = j  # skip past consumed blocks
-    # Extend each match's end_index to include description blocks up to the next match (or EOF).
+    # Extend each match's end_index to include description blocks up to the
+    # next match (or EOF — but stop at the first heading_candidate so trailing
+    # section headings, footers preceded by a heading, etc. are not absorbed
+    # as the last entry's description).
     extended: list[_Match] = []
     for idx, m in enumerate(candidates):
-        next_start = candidates[idx + 1].start_index if idx + 1 < len(candidates) else n
-        desc_indices = tuple(range(m.end_index, next_start))
+        hard_stop = candidates[idx + 1].start_index if idx + 1 < len(candidates) else n
+        desc_end = _description_end(blocks, m.end_index, hard_stop)
+        desc_indices = tuple(range(m.end_index, desc_end))
         extended.append(_Match(
             start_index=m.start_index,
-            end_index=next_start,
+            end_index=desc_end,
             title_index=m.title_index,
             subtitle_index=m.subtitle_index,
             field_indices=m.field_indices,
@@ -158,6 +162,23 @@ def _find_entry_with_statblock_matches(
             type_config=m.type_config,
         ))
     return extended
+
+
+def _description_end(blocks: list[dict], start: int, hard_stop: int) -> int:
+    """Return the exclusive end index for an entry's description range.
+
+    Walks blocks[start:hard_stop] and stops at the first block whose
+    block_type is heading_candidate — the IR's heading detector has
+    already flagged it as a section boundary. This prevents the final
+    entry in a file from absorbing trailing section headings (and any
+    blocks beyond them) as its own description. Pure-prose footers
+    without a heading marker will still be absorbed; that's a known
+    limit, not a bug.
+    """
+    for k in range(start, hard_stop):
+        if blocks[k].get("block_type") == "heading_candidate":
+            return k
+    return hard_stop
 
 
 def _is_valid_title(block: dict, max_len: int, field_pattern: re.Pattern) -> bool:
@@ -214,10 +235,17 @@ def _find_definition_list_matches(
             i += 1
             continue
         # Scan forward while same font_size + matches term_pattern.
-        run_size = blocks[i]["font_size"]
+        # Use .get() consistently with entry_with_statblock predicates so a
+        # raw IR block missing font_size simply doesn't match (rather than
+        # raising KeyError mid-scan).
+        run_size = blocks[i].get("font_size", 0)
         j = i
         run_indices: list[int] = []
-        while j < n and _is_def_block(blocks[j], term_pattern) and blocks[j]["font_size"] == run_size:
+        while (
+            j < n
+            and _is_def_block(blocks[j], term_pattern)
+            and blocks[j].get("font_size", 0) == run_size
+        ):
             run_indices.append(j)
             j += 1
         if len(run_indices) >= min_blocks:
