@@ -1,6 +1,6 @@
 {
   "dataset_id": "phase1_gold_v1",
-  "run_started_at": "2026-04-26T04:02:48Z",
+  "run_started_at": "2026-04-26T05:25:26Z",
   "case_count": 30,
   "tag_counts": {
     "retrieval_miss": 0,
@@ -257,17 +257,17 @@
         "wrong_section"
       ],
       "actual_summary": {
-        "primary_excerpt": "Prerequisites: Dodge, Mobility, Point Blank Shot.\nBenefit: The character does not incur any attacks of opportunity for firing a bow when threatened.\nNormal: Without this feat, a character incurs an attack of opportunity from all opponents who threaten him or her whenever he or she uses a bow.",
+        "primary_excerpt": "Sometimes a combatant in a melee lets her guard down. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity.\nThreatened Squares: You threaten all squares into which you can make a melee attack, even when it is not your action. Generally, that means everything in all squares adjacent to your space (including diagonally). An enemy that takes certain actions while in a threatened square provokes an a…",
         "primary_support_type": "direct_support",
         "citations": [
           {
             "citation_id": "cit_1",
-            "chunk_id": "chunk::srd_35::epicfeats::020_combat_archery_epic",
+            "chunk_id": "chunk::srd_35::combati::014_attacks_of_opportunity",
             "source_id": "srd_35",
             "edition": "3.5e",
             "section_path": [
-              "EpicFeats",
-              "COMBAT ARCHERY [EPIC]"
+              "CombatI",
+              "ATTACKS OF OPPORTUNITY"
             ],
             "entry_title": null
           }
@@ -283,9 +283,9 @@
           "edition_match": true,
           "token_overlap": [
             "attack",
-            "firing",
             "opportunity",
-            "threatened"
+            "threatened",
+            "while"
           ],
           "citation_mismatch": false
         }
@@ -799,12 +799,12 @@
           },
           {
             "citation_id": "cit_2",
-            "chunk_id": "chunk::srd_35::equipment::006_weapon_categories",
+            "chunk_id": "chunk::srd_35::combatii::018_grapple_checks",
             "source_id": "srd_35",
             "edition": "3.5e",
             "section_path": [
-              "Equipment",
-              "WEAPON CATEGORIES"
+              "CombatII",
+              "Grapple Checks"
             ],
             "entry_title": null
           }
@@ -833,7 +833,9 @@
           "entry_match": false,
           "edition_match": true,
           "token_overlap": [
+            "attack",
             "large",
+            "modifier",
             "size"
           ],
           "citation_mismatch": false

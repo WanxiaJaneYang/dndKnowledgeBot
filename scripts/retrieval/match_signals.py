@@ -7,6 +7,14 @@ from typing import Any
 from .contracts import NormalizedQuery
 
 
+# Words that end in -s/-es/-ies but are NOT plural; collapsing them
+# would produce a different word.
+_PLURAL_EXCEPTIONS: frozenset[str] = frozenset({
+    "as", "is", "us", "his", "this", "yes", "less",
+    "class", "miss", "boss", "loss", "pass", "process",
+})
+
+
 def build_match_signals(
     query: NormalizedQuery,
     chunk: dict[str, Any],
@@ -14,9 +22,9 @@ def build_match_signals(
 ) -> dict[str, Any]:
     """Compute lightweight lexical match signals for a candidate chunk."""
     content = chunk.get("content", "")
-    haystack = f"{section_path_text} {content}".casefold()
-    normalized_text = query.normalized_text.casefold()
-    lowered_section_path = section_path_text.casefold()
+    haystack = _singularize_text(f"{section_path_text} {content}".casefold())
+    normalized_text = _singularize_text(query.normalized_text.casefold())
+    lowered_section_path = _singularize_text(section_path_text.casefold())
 
     exact_phrase_hits: list[str] = []
     if _contains_phrase_on_token_boundaries(haystack, normalized_text):
@@ -25,23 +33,29 @@ def build_match_signals(
     protected_phrase_hits = [
         phrase
         for phrase in query.protected_phrases
-        if _contains_phrase_on_token_boundaries(haystack, phrase.casefold())
+        if _contains_phrase_on_token_boundaries(
+            haystack, _singularize_text(phrase.casefold())
+        )
     ]
 
     query_terms = {
-        term
+        _singularize(term)
         for token in query.tokens
         for term in re.findall(r"\w+", token.casefold())
     }
     haystack_terms = set(re.findall(r"\w+", haystack))
     token_overlap_count = len(query_terms & haystack_terms)
 
+    section_phrases = [normalized_text] + [
+        _singularize_text(phrase.casefold()) for phrase in query.protected_phrases
+    ]
+
     return {
         "exact_phrase_hits": exact_phrase_hits,
         "protected_phrase_hits": protected_phrase_hits,
         "section_path_hit": any(
-            _contains_phrase_on_token_boundaries(lowered_section_path, phrase.casefold())
-            for phrase in [query.normalized_text, *query.protected_phrases]
+            _contains_phrase_on_token_boundaries(lowered_section_path, phrase)
+            for phrase in section_phrases
             if phrase
         ),
         "token_overlap_count": token_overlap_count,
@@ -52,3 +66,26 @@ def _contains_phrase_on_token_boundaries(haystack: str, phrase: str) -> bool:
     if not phrase:
         return False
     return re.search(rf"(?<!\w){re.escape(phrase)}(?!\w)", haystack) is not None
+
+
+def _singularize(word: str) -> str:
+    """Collapse a single word to a naive singular form.
+
+    The ``len(word) > N`` guards protect short tokens (``"is"``, ``"us"``) from
+    being stripped to empty/single-char garbage even if they slip past the
+    exception list.
+    """
+    if word in _PLURAL_EXCEPTIONS:
+        return word
+    if len(word) > 4 and word.endswith("ies"):
+        return word[:-3] + "y"
+    if len(word) > 3 and word.endswith("es"):
+        return word[:-2]
+    if len(word) > 2 and word.endswith("s"):
+        return word[:-1]
+    return word
+
+
+def _singularize_text(text: str) -> str:
+    """Apply :func:`_singularize` to each ``\\w+`` run, preserving the rest."""
+    return re.sub(r"\w+", lambda m: _singularize(m.group(0)), text)
