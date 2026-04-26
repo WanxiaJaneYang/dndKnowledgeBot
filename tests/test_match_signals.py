@@ -91,6 +91,32 @@ def test_singularize_short_words_are_protected_by_length_guards() -> None:
     assert _singularize("is") == "is"
 
 
+def test_singularize_us_singulars_are_symmetric_with_their_plurals() -> None:
+    """-us singular nouns must collapse symmetrically with their -uses
+    plurals.  Without an explicit exception, the trailing-s rule strips
+    `bonus -> bonu` while the -es rule turns `bonuses -> bonus`, leaving
+    the two forms unmatched.  Common D&D rules vocabulary depends on this:
+    bonus feat, skill focus, status condition, spell radius.
+    """
+    # bonus / bonuses
+    assert _singularize("bonus") == "bonus"
+    assert _singularize("bonuses") == "bonus"
+    # focus / focuses
+    assert _singularize("focus") == "focus"
+    assert _singularize("focuses") == "focus"
+    # status / statuses
+    assert _singularize("status") == "status"
+    assert _singularize("statuses") == "status"
+    # radius — plural in rules text is usually just "radiuses" (irregular
+    # "radii" is not handled by this naive singularizer; that is a known
+    # limitation, not in scope for #89).
+    assert _singularize("radius") == "radius"
+    assert _singularize("radiuses") == "radius"
+    # corpus / corpuses
+    assert _singularize("corpus") == "corpus"
+    assert _singularize("corpuses") == "corpus"
+
+
 # ---------------------------------------------------------------------------
 # _singularize_text unit tests
 # ---------------------------------------------------------------------------
@@ -224,6 +250,29 @@ def test_negative_singular_query_does_not_spuriously_match_unrelated_word() -> N
     assert signals_no_match["exact_phrase_hits"] == []
     assert signals_no_match["protected_phrase_hits"] == []
     assert signals_no_match["section_path_hit"] is False
+
+
+def test_singular_us_query_matches_plural_uses_section_path() -> None:
+    """End-to-end check that the -us exception fix flows through
+    build_match_signals: a singular `bonus` query must match a section
+    path containing the plural `bonuses`, because both collapse to
+    `bonus`.  Without the exception, `bonus` would singularize to `bonu`
+    while `bonuses` would singularize to `bonus`, leaving them unmatched."""
+    query = _make_query(
+        normalized_text="bonus",
+        tokens=["bonus"],
+        protected_phrases=["bonus"],
+    )
+    chunk = _make_chunk(
+        "Fighters receive bonuses to attack rolls when wielding favoured weapons."
+    )
+
+    signals = build_match_signals(query, chunk, "Combat > Bonuses")
+
+    assert signals["section_path_hit"] is True
+    assert signals["exact_phrase_hits"] == ["bonus"]
+    assert signals["protected_phrase_hits"] == ["bonus"]
+    assert signals["token_overlap_count"] >= 1
 
 
 def test_class_exception_word_is_not_collapsed() -> None:
