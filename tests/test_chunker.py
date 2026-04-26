@@ -505,6 +505,36 @@ class ProcessingHintsDefensivenessTests(unittest.TestCase):
             )
         self.assertIn("strictly increasing", str(ctx.exception))
 
+    def test_structure_cuts_duplicate_offset_raises(self) -> None:
+        # Duplicate offsets would silently yield zero-length slices, hiding
+        # the upstream logic error. Validation now requires strictly
+        # increasing (not just non-decreasing).
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError) as ctx:
+            _validate_structure_cuts(
+                [
+                    {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                    {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                ],
+                content_len=100,
+                document_id="srd_35::test::duplicate",
+            )
+        self.assertIn("strictly increasing", str(ctx.exception))
+
+    def test_structure_cuts_first_offset_zero_allowed(self) -> None:
+        # The first cut may legally start at 0 (e.g., a degenerate but
+        # valid case with empty prior child). Subsequent cuts must still
+        # be strictly greater.
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        _validate_structure_cuts(
+            [
+                {"char_offset": 0, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+            ],
+            content_len=100,
+            document_id="srd_35::test::zero_first",
+        )
+
 
 class EnforceMaxCharsTests(unittest.TestCase):
     """Direct coverage for the _enforce_max_chars helper (Codex round-3 P2 fixes)."""
