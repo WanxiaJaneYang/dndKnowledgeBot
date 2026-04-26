@@ -254,10 +254,13 @@ def _validate_structure_cuts(cuts: list[dict], content_len: int, document_id: st
     """Validate cut offsets are sane before slicing content.
 
     Catches schema-valid but logically broken cuts (negative, beyond
-    content end, decreasing) early with a clear error rather than
-    producing silently-wrong slices downstream.
+    content end, non-strictly-increasing — duplicate or decreasing) early
+    with a clear error rather than producing silently-wrong slices
+    downstream. Duplicate offsets would yield zero-length slices that
+    are silently dropped by the caller's `if child_text:` guard, hiding
+    the upstream logic error.
     """
-    last_offset = 0
+    last_offset: int | None = None
     for i, cut in enumerate(cuts):
         offset = cut.get("char_offset", -1)
         if not isinstance(offset, int) or offset < 0 or offset > content_len:
@@ -265,10 +268,10 @@ def _validate_structure_cuts(cuts: list[dict], content_len: int, document_id: st
                 f"structure_cuts[{i}].char_offset {offset} out of range [0, {content_len}] "
                 f"for document {document_id!r}"
             )
-        if offset < last_offset:
+        if last_offset is not None and offset <= last_offset:
             raise ValueError(
                 f"structure_cuts must be strictly increasing: cuts[{i}].char_offset "
-                f"{offset} < previous {last_offset} for document {document_id!r}"
+                f"{offset} <= previous {last_offset} for document {document_id!r}"
             )
         last_offset = offset
 
