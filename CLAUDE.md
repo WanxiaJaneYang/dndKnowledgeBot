@@ -12,7 +12,10 @@ A private, personal D&D 3.5 knowledge chatbot. This repository is for designing 
 
 - Ingestion pipeline (`scripts/ingest_srd35/`) is implemented and tested.
 - Fixture corpus and golden tests are in place (`tests/fixtures/`, `tests/test_golden_ingestion.py`).
-- Next: chunker, vector index, embedding pipeline.
+- Chunker baseline (`scripts/chunker/`) shipped; a formatting-aware rewrite is in flight.
+- Lexical-first retrieval pipeline (`scripts/retrieval/`) and the evidence-pack contract are live, with a retrieval debug CLI (`scripts/retrieve_debug.py`).
+- v1 rule-based answer path with citation binding and strict-signal abstain is shipped (`scripts/answer/`, `scripts/answer_question.py`).
+- Next: v2 LLM-backed prose composer over the same `EvidencePack` contract, and the first evaluation run against `evals/phase1_gold.yaml`.
 
 Default to concrete implementation guidance. Design artifacts are still appropriate for new components before they are built.
 
@@ -109,6 +112,7 @@ schemas/
   common.schema.json               Shared definitions (source_ref, locator, citation_anchor)
   canonical_document.schema.json
   chunk.schema.json
+  content_types.schema.json        Content-type registry schema (entry_with_statblock, etc.)
   answer_with_citations.schema.json
 
 examples/                          Example JSON instances of each schema
@@ -119,15 +123,45 @@ scripts/
   ingest_srd35/                    Ingestion pipeline modules
   chunk_srd_35.py                  Entry point for SRD 3.5 chunker (canonical → chunks)
   chunker/                         Chunker modules (pipeline, type_classifier, schema_validation)
+  retrieval/                       Lexical-first retrieval modules (lexical_index, lexical_retriever, query_normalization, match_signals, candidate_shaping, candidate_consolidation, evidence_pack, filters, term_assets)
+  retrieve_debug.py                Retrieval debug CLI — emits evidence pack with pipeline trace
+  extract_retrieval_terms.py       Extract retrieval term candidates from corpus
+  build_retrieval_term_assets.py   Build retrieval term assets (aliases, protected phrases)
+  answer/                          v1 answer pipeline (composer, citation_binder, support_assessor, pipeline)
+  answer_question.py               Answer-path CLI — emits AnswerResult JSON / abstain
   preview_fixtures.py              Preview fixture corpus diffs for PR evidence
+  regen_examples.py                Regenerate examples/ JSON instances from schemas
 
 tests/
-  fixtures/                        Fixture corpus for golden ingestion tests
+  fixtures/                        Fixture corpus for golden ingestion + retrieval tests
   test_golden_ingestion.py         Golden output tests (canonical document shape)
   test_ingest_srd_35.py            Unit tests for ingestion pipeline
   test_boundary_filter.py          Unit tests for boundary detection
   test_fetch_srd_35.py             Unit tests for fetcher
   test_chunker.py                  Unit tests for chunker (type classifier + pipeline)
+  test_content_types.py            Unit tests for content-type registry loader
+  test_decode_rtf_spans.py         Unit tests for RTF span decoder
+  test_extraction_ir.py            Unit tests for extraction IR (formatting-aware)
+  test_entry_annotator.py          Unit tests for entry annotator
+  test_lexical_retrieval.py        Unit tests for lexical retrieval scoring
+  test_lexical_retriever.py        Unit tests for end-to-end lexical retriever
+  test_query_normalization.py      Unit tests for query normalization
+  test_retrieval_filters.py        Unit tests for hard filters
+  test_candidate_shaping.py        Unit tests for section-aware candidate shaping
+  test_candidate_consolidation.py  Unit tests for adjacent-chunk consolidation
+  test_evidence_pack.py            Unit tests for evidence-pack contract
+  test_extract_retrieval_terms.py  Unit tests for term extraction
+  test_retrieval_term_assets.py    Unit tests for retrieval term assets
+  test_retrieve_debug.py           Unit tests for retrieve_debug CLI
+  test_answer_composer.py          Unit tests for v1 rule-based composer
+  test_answer_citation_binder.py   Unit tests for citation binder
+  test_answer_support_assessor.py  Unit tests for strict-signal abstain gate
+  test_answer_pipeline.py          End-to-end tests for the v1 answer pipeline
+
+evals/
+  phase1_gold.yaml                 Phase 1 gold evaluation set over `srd_35`
+  phase1_gold.zh.yaml              Chinese mirror of the gold set
+  README.md                        Eval-set conventions and fields
 
 data/                              Local corpus files — not committed (see data/README.md)
 ```

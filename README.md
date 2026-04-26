@@ -8,9 +8,9 @@ A private, personal RAG project for asking grounded questions about **Dungeons &
 
 This repository is in **Phase 1 — Core Implementation**. Phase 0 design is complete.
 
-The core retrieval pipeline is now implemented: ingestion (`scripts/ingest_srd35/`), chunker (`scripts/chunker/`), lexical-first retrieval with domain-aware scoring and match-signal reranking (`scripts/retrieval/`), section-aware candidate shaping, structure-metadata indexing, and an evidence-pack contract with a retrieval debug CLI (`scripts/retrieve_debug.py`).
+The core retrieval pipeline is now implemented: ingestion (`scripts/ingest_srd35/`), chunker (`scripts/chunker/`), lexical-first retrieval with domain-aware scoring and match-signal reranking (`scripts/retrieval/`), section-aware candidate shaping, structure-metadata indexing, and an evidence-pack contract with a retrieval debug CLI (`scripts/retrieve_debug.py`). A v1 grounded answer path — rule-based excerpt composer, citation binding, and strict-signal abstain — is also in place (`scripts/answer/`, `scripts/answer_question.py`).
 
-Still to come in Phase 1: answer generation with grounding, citation rendering, abstention behavior, and the evaluation run against the gold set.
+Still to come in Phase 1: a v2 LLM-backed prose composer over the same `EvidencePack` contract, and the first evaluation run against the gold set (`evals/phase1_gold.yaml`).
 
 Design documents remain authoritative for contracts; implementation is tracked against them via fixture corpora, golden tests, and recall-coverage evals.
 
@@ -150,4 +150,4 @@ Avoid:
 
 ## Next step
 
-Ingestion, chunking, lexical retrieval, candidate shaping, and the evidence-pack contract are now in place against `srd_35`. The immediate next step is to close the Phase 1 loop: answer generation with grounding constraints, claim- / segment-level citation rendering, and abstention behavior, followed by the first evaluation run against `evals/phase1_gold.yaml`.
+Ingestion, chunking, lexical retrieval, candidate shaping, the evidence-pack contract, and a v1 rule-based answer path with citation binding and abstain are all in place against `srd_35`. The immediate next step is the v2 answer composer (LLM-backed prose synthesis over the same `EvidencePack` contract) and the first evaluation run against `evals/phase1_gold.yaml`.

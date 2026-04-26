@@ -30,10 +30,9 @@
   - [x] Chunk-adjacency fields (`parent_chunk_id`, `previous_chunk_id`, `next_chunk_id`) propagated through `LexicalCandidate` and `search_chunk_index` (PRs #67, #69)
   - [x] Recall-coverage tests expanded (PR #53)
 - [x] Evidence-pack contract for retrieval output + retrieval-debug CLI — `scripts/retrieve_debug.py` (PR #66)
-- [ ] Implement answer generation with grounding constraint
-- [ ] Implement citation rendering
-- [ ] Implement abstention behavior
-- [ ] Run evaluation against the Phase 1 gold set (`evals/phase1_gold.yaml`)
+- [x] Implement v1 answer generation (rule-based excerpt composer with grounding constraint), citation rendering, and abstention behavior — `scripts/answer/`, `scripts/answer_question.py` (PR #74, issue #23)
+- [ ] Implement v2 answer generation (LLM-backed prose composer over the same `EvidencePack` contract)
+- [ ] Run evaluation against the Phase 1 gold set (`evals/phase1_gold.yaml`) — harness design landed (PR #79); first run pending
 
 ## Phase 2 - Quality Improvements
 
