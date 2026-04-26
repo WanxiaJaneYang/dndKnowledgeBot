@@ -66,17 +66,22 @@ type on the primary segment) compared against the case's
 
 | Tag | Trigger condition |
 |---|---|
-| `retrieval_miss` | `actual_answer_type == "grounded"` AND no citation's `source_ref.source_id` ∈ `expected_source_ids`. (For abstain-expected cases this tag never fires.) |
-| `wrong_section` | `grounded`, right `source_id`, but no citation's `locator.section_path` overlaps the **head** of `expected_section_or_entry` (root-level mismatch). See §3.3 for the matching rule. |
-| `wrong_entry` | `grounded`, right `source_id`, right section root, but no citation's `locator.section_path` (or `locator.entry_title`) matches the **tail** of `expected_section_or_entry`. |
-| `citation_mismatch` | `grounded`, every other tag clean, but at least one citation's `excerpt` shares **zero** tokens with the gold case's `question` after stopword removal. Per-citation flag rolled up to a per-case tag. See §3.4. |
+| `retrieval_miss` | `actual_answer_type == "grounded"` AND no citation's `source_ref["source_id"]` ∈ `expected_source_ids`. (For abstain-expected cases this tag never fires.) |
+| `wrong_section` | `grounded` AND `expected_section_or_entry` is non-empty AND no citation's `locator["section_path"]` overlaps the **head** of `expected_section_or_entry`. See §3.3 for the matching rule. |
+| `wrong_entry` | `grounded` AND `expected_section_or_entry` is non-empty AND at least one citation matches the section root AND no citation's `locator["section_path"]` (or `locator["entry_title"]`) matches the **tail** of `expected_section_or_entry`. |
+| `citation_mismatch` | `grounded` AND at least one citation's `excerpt` shares **zero** tokens with the gold case's `question` after stopword removal. Per-citation flag rolled up to a per-case tag. **Independent of other tags** — fires regardless of whether the case is otherwise clean. See §3.4. |
 | `unsupported_inference` | `grounded`, primary segment's `support_type == "supported_inference"`, AND `expected_behavior == "direct_answer"`. (When `expected_behavior == "supported_inference"`, this is the right answer — no tag.) |
 | `missing_abstain` | `actual_answer_type == "grounded"` AND `expected_behavior == "abstain"`. |
 | `unnecessary_abstain` | `actual_answer_type == "abstain"` AND `expected_behavior != "abstain"`. |
-| `edition_boundary_failure` | Any citation whose `source_ref.edition != "3.5e"`. (Constraint filters in `scripts/retrieval/filters.py` should make this impossible — if it fires, it's a regression of the hard filter, which is exactly what tagged data is for.) |
+| `edition_boundary_failure` | Any citation whose `source_ref["edition"] != "3.5e"`. (Constraint filters in `scripts/retrieval/filters.py` should make this impossible — if it fires, it's a regression of the hard filter, which is exactly what tagged data is for.) |
 
 Tags are non-exclusive: a single case can carry multiple tags. The runner
-collects all that fire.
+collects all that fire. **Empty-`expected_section_or_entry` handling**:
+when the gold case carries `expected_section_or_entry: []` (e.g. all
+abstain cases in v1), the `wrong_section` and `wrong_entry` checks are
+skipped entirely — the section/entry tagger has nothing to compare against,
+and any tagging would be vacuously wrong. The other six tags still apply
+normally.
 
 ### 3.3 Section / entry matching rule
 
@@ -85,24 +90,33 @@ outer-to-inner, but the gold set is loose about whether the first element
 is a source-file name (`"CombatI.rtf"`), a section root (`"Combat: Movement"`),
 or a section synonym. The matching rule has to be tolerant.
 
-**Definitions:**
+**Pre-check — empty list short-circuits:** if
+`expected_section_or_entry == []`, this matcher is **not invoked**.
+The §3.2 trigger conditions for `wrong_section` and `wrong_entry`
+require a non-empty list, so the indexing below (`[0]`, `[-1]`) is only
+ever reached on a list with at least one element.
+
+**Definitions** (assume `len(expected_section_or_entry) >= 1`):
 
 - `expected_head`: `expected_section_or_entry[0]` after dropping a trailing
   `.rtf` extension and lowercasing. If the result still doesn't look like
-  a section name (it's a filename like `combati`), fall back to the next
-  element.
+  a section name (it's a filename like `combati`) and a second element
+  exists, fall back to `expected_section_or_entry[1]` lowercased.
+  If only one element exists and it's filename-shaped, use it as-is —
+  matching is a substring test, so a filename that happens to share
+  a token with a section root will still match.
 - `expected_tail`: the last element of `expected_section_or_entry`,
   lowercased.
 
 **Matching:**
 
 - A citation **matches the section root** if any of its
-  `locator.section_path` elements (lowercased) contains `expected_head` as
-  a substring, OR the colon-prefix of any `section_path` element
+  `locator["section_path"]` elements (lowercased) contains `expected_head`
+  as a substring, OR the colon-prefix of any `section_path` element
   matches the colon-prefix of `expected_head` (so `"Combat: Attacks of
   Opportunity"` and `"Combat"` both match an expected head of `"combat"`).
 - A citation **matches the entry** if `expected_tail` is a substring of any
-  `locator.section_path` element OR of `locator.entry_title` (when
+  `locator["section_path"]` element OR of `locator["entry_title"]` (when
   present).
 
 **Result:**
@@ -181,8 +195,8 @@ class CitationSummary:
 class CitationCheck:
     citation_id: str
     source_match: bool                    # source_id ∈ expected_source_ids
-    section_match: bool                   # see §3.3
-    entry_match: bool                     # see §3.3
+    section_match: bool | None            # None when expected_section_or_entry == []; see §3.3
+    entry_match: bool | None              # None when expected_section_or_entry == []; see §3.3
     edition_match: bool                   # edition == "3.5e"
     token_overlap: tuple[str, ...]        # for citation_mismatch heuristic
     citation_mismatch: bool               # token_overlap == ()
@@ -222,8 +236,10 @@ class (grounded vs abstain), rounded to 2 decimals.
 ### 3.7 Report shape — Markdown
 
 `evals/reports/phase1_gold_latest.md` opens with the metadata header and
-tag-count table, then iterates cases grouped by `_clean` first then by
-each failing tag. Per-case template:
+tag-count table, then lists **failing cases first** (grouped by tag,
+in the §3.2 tag order). The clean tail is collapsed at the end into a
+one-line "N clean cases (P1-…, P1-…, …)" summary so reviewers can focus
+on failures. Per-case template (failing case form):
 
 ```markdown
 ### P1-DL-001 — direct_lookup → direct_answer
@@ -239,14 +255,15 @@ each failing tag. Per-case template:
 
 **Citations:**
 
-| id | source · edition | section_path | source ✓ | section ✓ | entry ✓ | tokens shared |
+| id | source · edition | section_path | source | section | entry | tokens shared |
 |----|-----|-----|---|---|---|---|
-| cit_1 | srd_35 · 3.5e | Combat > Attack of Opportunity | ✓ | ✓ | ✗ | ["attack", "opportunity"] |
+| cit_1 | srd_35 · 3.5e | Combat > Attack of Opportunity | yes | yes | no | ["attack", "opportunity"] |
+| cit_2 | srd_35 · 3.5e | Spells > Magic Missile | no | n/a | n/a | [] |
 ```
 
-Failing cases come first; the clean tail is collapsed to a one-line
-"19 clean cases (P1-…, P1-…, …)" summary so reviewers can focus on
-failures.
+The `section` and `entry` columns render `n/a` when the gold case's
+`expected_section_or_entry` is empty (i.e. the corresponding
+`CitationCheck` field is `None`).
 
 ### 3.8 CLI
 
@@ -421,20 +438,24 @@ versions; no Unicode edge cases for D&D English text.
 
 ## 8. Next steps
 
-1. Open this PR for spec review.
-2. Implement per §4.2 layout: contracts → loader → tagger + matching →
-   report writer → runner → CLI.
-3. Tests covering each tag's trigger, the section/entry matching
-   tolerance, the token-overlap heuristic, the report shape (both
-   JSON and Markdown), and an end-to-end runner smoke against a small
-   synthetic gold set.
-4. Run against the real index and commit
+This PR is **docs-only**: it lands the design spec for #24 and does not
+close it. #24's "Done when" criteria require an executable harness and
+a committed report — both ship in the implementation PR, not here.
+
+1. **This PR (docs-only).** Spec review and approval. Refs #24, #5;
+   does not close them.
+2. **Implementation PR (closes #24, contributes to #5).** Implement
+   per §4.2 layout: contracts → loader → tagger + matching → report
+   writer → runner → CLI. Tests covering each tag's trigger, the
+   section/entry matching tolerance (including the empty-list
+   short-circuit), the token-overlap heuristic, the report shape
+   (both JSON and Markdown), and an end-to-end runner smoke against
+   a small synthetic gold set. Run against the real index and commit
    `evals/reports/phase1_gold_latest.{json,md}` as PR evidence per
-   `docs/standards/pr_evidence.md`.
-5. Append a "How to rerun" subsection to `evals/README.md`.
-6. Merge closes #24. With #23 already merged, this completes the
-   blockers for rollup #5; close #5 as part of the PR.
-7. **Follow-up backlog (out of scope for this PR):**
+   `docs/standards/pr_evidence.md`. Append a "How to rerun"
+   subsection to `evals/README.md`. Merge of the implementation PR
+   closes #24; with #23 already merged, that PR also closes rollup #5.
+3. **Follow-up backlog (out of scope for both PRs):**
    - Chinese set evaluation (`phase1_gold.zh.yaml`).
    - `--fail-on TAG` CI gate flag.
    - LLM-graded `citation_mismatch` once v2 composer lands.
