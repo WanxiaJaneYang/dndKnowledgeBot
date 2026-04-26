@@ -193,14 +193,39 @@ def _build_entry_section(blocks: list[dict], start: int, end: int) -> dict:
     title = first.get("entry_title", first.get("text", "")).strip()
     content_lines: list[str] = []
     block_type_counts: dict[str, int] = {}
-    for b in entry_blocks:
+    # Track the running char offset into the joined content as we
+    # accumulate non-empty blocks. Used to compute stat_block_end_char
+    # offset directly from block roles (instead of a downstream regex
+    # pass over the joined content, which is brittle if any prepend or
+    # text normalization shifts the offset).
+    char_cursor = 0
+    last_stat_field_end_char: int | None = None
+    for idx, b in enumerate(entry_blocks):
         text = b.get("text", "").strip()
         if not text:
             continue
+        if content_lines:
+            char_cursor += 1  # the "\n" join separator
+        char_cursor += len(text)
+        if b.get("entry_role") == "stat_field":
+            last_stat_field_end_char = char_cursor
         content_lines.append(text)
         bt = b.get("block_type", "paragraph")
         block_type_counts[bt] = block_type_counts.get(bt, 0) + 1
     content = "\n".join(content_lines).strip()
+    entry_metadata: dict = {
+        "entry_type": first["entry_type"],
+        "entry_category": first["entry_category"],
+        "entry_chunk_type": first["entry_chunk_type"],
+        "entry_title": title,
+        "entry_index": first["entry_index"],
+        "shape_family": first["shape_family"],
+    }
+    if last_stat_field_end_char is not None:
+        # Block-derived stat-block boundary in joined content. Pipeline
+        # consumes this directly into processing_hints.structure_cuts —
+        # no regex re-scan needed.
+        entry_metadata["stat_block_end_char"] = last_stat_field_end_char
     return {
         "section_title": title,
         "section_slug": sanitize_identifier(title),
@@ -211,14 +236,7 @@ def _build_entry_section(blocks: list[dict], start: int, end: int) -> dict:
         "block_start_id": entry_blocks[0].get("block_id"),
         "block_end_id": entry_blocks[-1].get("block_id"),
         "block_type_counts": block_type_counts,
-        "entry_metadata": {
-            "entry_type": first["entry_type"],
-            "entry_category": first["entry_category"],
-            "entry_chunk_type": first["entry_chunk_type"],
-            "entry_title": title,
-            "entry_index": first["entry_index"],
-            "shape_family": first["shape_family"],
-        },
+        "entry_metadata": entry_metadata,
     }
 
 

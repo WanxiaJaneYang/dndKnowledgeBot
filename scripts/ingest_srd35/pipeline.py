@@ -40,56 +40,24 @@ def build_source_ref(manifest: dict) -> dict:
 def _compute_processing_hints(section: dict, meta: dict) -> dict:
     """Build processing_hints dict from section + entry_metadata.
 
-    Currently emits chunk_type_hint plus structure_cuts (only for
-    entry_with_statblock shape — definition_list entries are single-block
-    and need no cuts).
+    Reads stat_block_end_char directly from entry_metadata when the
+    sectioner stamped it (entry_with_statblock shape). No content
+    re-scan — sectioning already computed the offset from block roles
+    so it's stable against content normalization, prepended forward
+    buckets, or description first-lines that happen to match the field
+    pattern. definition_list entries are single-block and emit no cuts.
     """
     hints: dict = {"chunk_type_hint": meta["entry_chunk_type"]}
-    if meta["shape_family"] == "entry_with_statblock":
-        cut_offset = _stat_block_end_offset(section)
-        if cut_offset > 0:
-            hints["structure_cuts"] = [
-                {
-                    "kind": "stat_block_end",
-                    "char_offset": cut_offset,
-                    "child_chunk_type": "stat_block",
-                }
-            ]
+    cut_offset = meta.get("stat_block_end_char")
+    if cut_offset and cut_offset > 0:
+        hints["structure_cuts"] = [
+            {
+                "kind": "stat_block_end",
+                "char_offset": cut_offset,
+                "child_chunk_type": "stat_block",
+            }
+        ]
     return hints
-
-
-_STAT_FIELD_LINE_RE = re.compile(r"^[A-Z][\w '/-]+:")
-
-
-def _stat_block_end_offset(section: dict) -> int:
-    """Compute the char offset in section['content'] just past the last
-    consecutive stat-field line (as would have been tagged stat_field
-    upstream by the entry annotator).
-
-    Section content is "\\n".join(block.text.strip() for blocks in the
-    section). We walk the content lines to find the last consecutive line
-    matching the field pattern. The annotator already validated these are
-    stat fields; here we only need to find where the block ends to
-    compute the cut offset.
-    """
-    content = section["content"]
-    lines = content.split("\n")
-    last_field_line = -1
-    for i, line in enumerate(lines):
-        if _STAT_FIELD_LINE_RE.match(line):
-            last_field_line = i
-        elif last_field_line >= 0:
-            break
-    if last_field_line < 0:
-        return 0
-    # Offset = sum of line lengths through last field line + the "\n"
-    # separators between them.
-    offset = sum(len(lines[i]) for i in range(last_field_line + 1)) + last_field_line
-    # Plus one more for the newline after the last field line if any
-    # content follows.
-    if last_field_line + 1 < len(lines):
-        offset += 1
-    return offset
 
 
 def _write_reports(

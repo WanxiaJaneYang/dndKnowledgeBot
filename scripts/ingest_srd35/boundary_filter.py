@@ -140,13 +140,29 @@ def apply_boundary_filters(
     for index, candidate in enumerate(candidates):
         title = candidate["section_title"].strip()
 
-        # Entry-annotated sections accepted unconditionally.
+        # Entry-annotated sections accepted unconditionally. A pending
+        # forward_merge_bucket (e.g., file-opener boilerplate that was
+        # marked for forward merging) must NOT prepend into the entry —
+        # that would pollute the entry's content and shift downstream
+        # structure_cuts offsets. Promote the bucket to a standalone
+        # non-entry section ahead of the entry instead.
         if "entry_metadata" in candidate:
+            if forward_merge_bucket is not None:
+                accepted.append(forward_merge_bucket)
+                decisions.append(
+                    {
+                        "candidate_index": index + 1,
+                        "title": forward_merge_bucket["section_title"],
+                        "action": "accepted",
+                        "reason_code": "forward_bucket_promoted_before_entry",
+                        "body_char_count": forward_merge_bucket["body_char_count"],
+                        "block_start_id": forward_merge_bucket.get("block_start_id"),
+                        "block_end_id": forward_merge_bucket.get("block_end_id"),
+                    }
+                )
+                forward_merge_bucket = None
             materialized = dict(candidate)
             materialized["block_type_counts"] = dict(candidate.get("block_type_counts", {}))
-            if forward_merge_bucket is not None:
-                _prepend_section(materialized, forward_merge_bucket)
-                forward_merge_bucket = None
             accepted.append(materialized)
             decisions.append(
                 {
