@@ -47,3 +47,11 @@ At minimum, a regression pass should check:
 1. Retrieval includes evidence from the expected source and section/entry.
 2. The answer behavior matches `expected_behavior`.
 3. Citation anchors support the claim type implied by `expected_answer_notes`.
+
+## How to Rerun
+
+```
+python scripts/run_phase1_eval.py
+```
+
+Writes `evals/reports/phase1_gold_latest.json` (machine) and `_latest.md` (human). Failing cases first, clean tail collapsed. The harness is a reporter — exits 0 regardless of tag counts. See `docs/plans/2026-04-25-issue-24-gold-eval.md` for the design.
