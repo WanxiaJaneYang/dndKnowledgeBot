@@ -50,19 +50,27 @@ def _print_text(pack: EvidencePack) -> None:
     print(f"  Candidates entering shaping: {t.total_candidates}")
     print(f"  Groups formed:               {t.group_count}")
     for gs in t.group_summaries:
-        print(f"    [{gs.document_id} / {gs.section_root}] {gs.candidate_count} items")
+        collapse = (
+            f"{gs.candidate_count}→{gs.span_count} spans"
+            if gs.candidate_count != gs.span_count
+            else f"{gs.candidate_count} items"
+        )
+        print(f"    [{gs.document_id} / {gs.section_root}] {collapse}")
 
     print()
     print("=" * 72)
     print(f"EVIDENCE ({len(pack.evidence)} items)")
     print("=" * 72)
     for i, item in enumerate(pack.evidence, 1):
+        rep_label = "  (representative)" if item.merge_reason != "singleton" else ""
         print(f"\n--- Evidence #{i} (rank {item.rank}) ---")
-        print(f"  chunk_id:    {item.chunk_id}")
+        print(f"  chunk_id:    {item.chunk_id}{rep_label}")
         print(f"  document_id: {item.document_id}")
         print(f"  chunk_type:  {item.chunk_type}")
         print(f"  section:     {item.section_root}")
         print(f"  locator:     {_fmt_locator(item.locator)}")
+        print(f"  span:        {_fmt_span(item)}")
+        print(f"  adjacency:   {_fmt_adjacency(item)}")
         print(f"  signals:     {_fmt_signals(item.match_signals)}")
         content_preview = textwrap.shorten(item.content, width=200, placeholder="…")
         print(f"  content:     {content_preview}")
@@ -75,6 +83,26 @@ def _fmt_locator(locator: dict) -> str:
     if sl := locator.get("source_location"):
         parts.append(sl)
     return " | ".join(parts) if parts else str(locator)
+
+
+def _fmt_span(item) -> str:
+    if item.merge_reason == "singleton":
+        return "singleton"
+    return (
+        f"adjacent_span, {len(item.chunk_ids)} chunks "
+        f"[{item.start_chunk_id} → {item.end_chunk_id}]"
+    )
+
+
+def _fmt_adjacency(item) -> str:
+    parts = []
+    if item.parent_chunk_id:
+        parts.append(f"parent={item.parent_chunk_id}")
+    if item.previous_chunk_id:
+        parts.append(f"prev={item.previous_chunk_id}")
+    if item.next_chunk_id:
+        parts.append(f"next={item.next_chunk_id}")
+    return ", ".join(parts) if parts else "(none)"
 
 
 def _fmt_signals(signals: MatchSignals) -> str:
@@ -108,6 +136,7 @@ def _to_json(pack: EvidencePack) -> dict:
                     "document_id": gs.document_id,
                     "section_root": gs.section_root,
                     "candidate_count": gs.candidate_count,
+                    "span_count": gs.span_count,
                 }
                 for gs in pack.trace.group_summaries
             ],
@@ -122,6 +151,17 @@ def _to_json(pack: EvidencePack) -> dict:
                 "source_ref": item.source_ref,
                 "locator": item.locator,
                 "match_signals": dict(item.match_signals),
+                "span": {
+                    "chunk_ids": list(item.chunk_ids),
+                    "start_chunk_id": item.start_chunk_id,
+                    "end_chunk_id": item.end_chunk_id,
+                    "merge_reason": item.merge_reason,
+                },
+                "adjacency": {
+                    "parent_chunk_id": item.parent_chunk_id,
+                    "previous_chunk_id": item.previous_chunk_id,
+                    "next_chunk_id": item.next_chunk_id,
+                },
                 "content": item.content,
             }
             for item in pack.evidence

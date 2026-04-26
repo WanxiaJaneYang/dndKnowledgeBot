@@ -1,3 +1,8 @@
+from .candidate_consolidation import (
+    EvidenceSpan,
+    SpanGroup,
+    consolidate_adjacent,
+)
 from .candidate_shaping import CandidateGroup, shape_candidates
 from .contracts import LexicalCandidate, NormalizedQuery
 from .evidence_pack import (
@@ -23,8 +28,10 @@ __all__ = [
     "build_constraints",
     "build_evidence_pack",
     "CandidateGroup",
+    "consolidate_adjacent",
     "EvidenceItem",
     "EvidencePack",
+    "EvidenceSpan",
     "FilterResult",
     "get_default_term_assets",
     "GroupSummary",
@@ -37,4 +44,5 @@ __all__ = [
     "retrieve_lexical",
     "RetrievalConstraints",
     "shape_candidates",
+    "SpanGroup",
 ]
