@@ -29,6 +29,7 @@ content_types:
       field_pattern: "^[A-Z][\\w '/-]+:"
     file_match:
       - "Feats.rtf"
+      - "FeatsExcerpt.rtf"
       - "EpicFeats.rtf"
       - "DivineAbilitiesandFeats.rtf"
 
@@ -41,3 +42,4 @@ content_types:
       term_pattern: "^[A-Z][\\w '/-]*:\\s+\\S"
     file_match:
       - "AbilitiesandConditions.rtf"
+      - "ConditionsExcerpt.rtf"

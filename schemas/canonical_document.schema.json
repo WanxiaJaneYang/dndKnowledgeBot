@@ -41,6 +41,32 @@
       "type": "string",
       "format": "date-time",
       "description": "ISO 8601 timestamp of when this document was produced"
+    },
+    "processing_hints": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional pipeline-internal handoffs from ingestion to chunker. Not citation/provenance metadata.",
+      "properties": {
+        "chunk_type_hint": {
+          "type": "string",
+          "enum": ["spell_entry", "feat_entry", "skill_entry", "condition_entry", "class_feature", "glossary_entry"],
+          "description": "Pre-computed chunk_type for the parent chunk; chunker uses this in lieu of heuristic classification"
+        },
+        "structure_cuts": {
+          "type": "array",
+          "description": "Ordered list of structural splits in content. Chunker slices content at these char offsets to produce typed children.",
+          "items": {
+            "type": "object",
+            "required": ["kind", "char_offset", "child_chunk_type"],
+            "additionalProperties": false,
+            "properties": {
+              "kind": {"enum": ["stat_block_end"]},
+              "char_offset": {"type": "integer", "minimum": 0},
+              "child_chunk_type": {"enum": ["stat_block"]}
+            }
+          }
+        }
+      }
     }
   }
 }
