@@ -1,0 +1,330 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EvidencePack",
+  "description": "Retrieval-to-answer handoff contract. Wraps the consolidated retrieval output (shaped + adjacent-chunk consolidated candidates) with chunk content, query context, constraint summary, and a pipeline trace. This schema validates the structural shape of the JSON emitted by scripts/retrieve_debug.py --json. Cross-field ID-consistency invariants (chunk_ids[0] == start_chunk_id, chunk_ids[-1] == end_chunk_id, and chunk_ids == [chunk_id] when merge_reason is 'singleton') are producer-side guarantees from build_evidence_pack and are not expressible in Draft-07 JSON Schema; consumers needing those guarantees should mirror the assertion helper in tests/test_evidence_pack_schema.py:_assert_span_invariants.",
+  "type": "object",
+  "required": ["query", "constraints", "trace", "evidence"],
+  "additionalProperties": false,
+  "properties": {
+    "query": {
+      "type": "object",
+      "description": "Normalized query context as produced by query_normalization.",
+      "required": [
+        "raw",
+        "normalized",
+        "tokens",
+        "protected_phrases",
+        "aliases_applied"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "raw": {
+          "type": "string",
+          "description": "The original user query string."
+        },
+        "normalized": {
+          "type": "string",
+          "description": "Normalized query text after alias expansion and protected-phrase preservation."
+        },
+        "tokens": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Tokens passed to the FTS expression. Each protected phrase appears as a single token."
+        },
+        "protected_phrases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Phrases preserved as a single token through tokenisation."
+        },
+        "aliases_applied": {
+          "type": "array",
+          "description": "Alias expansions applied during normalization.",
+          "items": {
+            "type": "object",
+            "required": ["source", "target"],
+            "additionalProperties": false,
+            "properties": {
+              "source": {
+                "type": "string",
+                "description": "The alias as written in the raw query."
+              },
+              "target": {
+                "type": "string",
+                "description": "The canonical phrase the alias was expanded to."
+              }
+            }
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "description": "Hard filters applied during retrieval. Empty arrays mean no filtering on that axis.",
+      "required": [
+        "editions",
+        "source_types",
+        "authority_levels",
+        "excluded_source_ids"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "editions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Allowed edition labels (e.g. \"3.5e\")."
+        },
+        "source_types": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Allowed source_type values from the source registry."
+        },
+        "authority_levels": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Allowed authority_level values from the source registry."
+        },
+        "excluded_source_ids": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "source_id values explicitly excluded from retrieval."
+        }
+      }
+    },
+    "trace": {
+      "type": "object",
+      "description": "Diagnostic snapshot of the retrieval pipeline.",
+      "required": ["total_candidates", "group_count", "groups"],
+      "additionalProperties": false,
+      "properties": {
+        "total_candidates": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of LexicalCandidate objects that entered the shaping layer."
+        },
+        "group_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of (document_id, section_root) groups produced by shape_candidates()."
+        },
+        "groups": {
+          "type": "array",
+          "description": "Per-group summary of how many candidates entered the group and how many spans came out after adjacent-chunk consolidation.",
+          "items": {
+            "type": "object",
+            "required": [
+              "document_id",
+              "section_root",
+              "candidate_count",
+              "span_count"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "document_id": { "type": "string" },
+              "section_root": { "type": "string" },
+              "candidate_count": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "LexicalCandidates that entered this group."
+              },
+              "span_count": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "EvidenceSpans produced after adjacent-chunk consolidation. Equal to candidate_count when nothing collapsed; lower when adjacent hits merged."
+              }
+            }
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "description": "Evidence items in global rank order (best-ranked first). One item per EvidenceSpan; for multi-chunk spans the representative carries the content and the other chunk_ids appear under span.chunk_ids.",
+      "items": {
+        "type": "object",
+        "required": [
+          "rank",
+          "chunk_id",
+          "document_id",
+          "chunk_type",
+          "section_root",
+          "source_ref",
+          "locator",
+          "match_signals",
+          "span",
+          "adjacency",
+          "content"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Global rank of the representative chunk after composite scoring."
+          },
+          "chunk_id": {
+            "type": "string",
+            "description": "Representative chunk_id for this evidence item. By producer convention (not enforced by this schema): equal to span.start_chunk_id and span.end_chunk_id, and to span.chunk_ids[0], when merge_reason is 'singleton'. For adjacent_span items the representative is the best-ranked chunk in the span and need not equal start or end."
+          },
+          "document_id": {
+            "type": "string",
+            "description": "Document the representative chunk belongs to."
+          },
+          "chunk_type": {
+            "type": "string",
+            "enum": [
+              "rule_section",
+              "subsection",
+              "spell_entry",
+              "feat_entry",
+              "skill_entry",
+              "class_feature",
+              "condition_entry",
+              "glossary_entry",
+              "table",
+              "example",
+              "sidebar",
+              "errata_note",
+              "faq_note",
+              "paragraph_group",
+              "generic"
+            ],
+            "description": "Semantic chunk type of the representative chunk. Mirrors chunk.schema.json#/properties/chunk_type."
+          },
+          "section_root": {
+            "type": "string",
+            "description": "Top-level section heading the group is rooted at (locator.section_path[0])."
+          },
+          "source_ref": {
+            "$ref": "./common.schema.json#/$defs/sourceRef"
+          },
+          "locator": {
+            "$ref": "./common.schema.json#/$defs/locator"
+          },
+          "match_signals": {
+            "type": "object",
+            "description": "Lexical match signals extracted from the representative chunk against the normalized query.",
+            "required": [
+              "exact_phrase_hits",
+              "protected_phrase_hits",
+              "section_path_hit",
+              "token_overlap_count"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "exact_phrase_hits": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "protected_phrase_hits": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "section_path_hit": {
+                "type": "boolean"
+              },
+              "token_overlap_count": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          },
+          "span": {
+            "type": "object",
+            "description": "Adjacent-chunk consolidation metadata. A singleton item has chunk_ids of length 1 and merge_reason 'singleton'; an adjacent_span item has multiple chunk_ids in reading order with merge_reason 'adjacent_span'.",
+            "required": [
+              "chunk_ids",
+              "start_chunk_id",
+              "end_chunk_id",
+              "merge_reason"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "chunk_ids": {
+                "type": "array",
+                "items": { "type": "string" },
+                "minItems": 1,
+                "description": "All chunk_ids in the span, in reading order. By producer convention (not enforced by this schema): chunk_ids[0] == start_chunk_id and chunk_ids[-1] == end_chunk_id."
+              },
+              "start_chunk_id": {
+                "type": "string",
+                "description": "First chunk in the span, in reading order."
+              },
+              "end_chunk_id": {
+                "type": "string",
+                "description": "Last chunk in the span, in reading order."
+              },
+              "merge_reason": {
+                "type": "string",
+                "enum": ["singleton", "adjacent_span"],
+                "description": "Why the span has its current shape. New reasons (e.g. 'near_duplicate') will be added when consolidation gains those passes."
+              }
+            }
+          },
+          "adjacency": {
+            "type": "object",
+            "description": "Structural adjacency links for the representative chunk, passed through from the index. Null when the representative has no parent / is first / is last.",
+            "required": [
+              "parent_chunk_id",
+              "previous_chunk_id",
+              "next_chunk_id"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "parent_chunk_id": { "type": ["string", "null"] },
+              "previous_chunk_id": { "type": ["string", "null"] },
+              "next_chunk_id": { "type": ["string", "null"] }
+            }
+          },
+          "content": {
+            "type": "string",
+            "description": "Hydrated text content of the representative chunk. Multi-chunk spans do NOT concatenate content here; the other chunk_ids in the span are metadata and content assembly is the answer-side concern."
+          }
+        },
+        "allOf": [
+          {
+            "comment": "When merge_reason is 'singleton', span.chunk_ids must have exactly one entry equal to chunk_id, start_chunk_id, and end_chunk_id.",
+            "if": {
+              "properties": {
+                "span": {
+                  "properties": {
+                    "merge_reason": { "const": "singleton" }
+                  }
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "span": {
+                  "properties": {
+                    "chunk_ids": { "maxItems": 1, "minItems": 1 }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "comment": "When merge_reason is 'adjacent_span', span.chunk_ids must have at least two entries.",
+            "if": {
+              "properties": {
+                "span": {
+                  "properties": {
+                    "merge_reason": { "const": "adjacent_span" }
+                  }
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "span": {
+                  "properties": {
+                    "chunk_ids": { "minItems": 2 }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
