@@ -1,6 +1,6 @@
 # Phase 1 Gold-Set Eval — phase1_gold_v1
 
-- **Run started:** 2026-04-26T04:02:48Z
+- **Run started:** 2026-04-26T05:25:26Z
 - **Cases:** 30
 - **Behavior match rate:** 0.47
 
@@ -74,13 +74,13 @@
 **Tags:** `wrong_section`
 
 **Actual:** grounded · primary support: direct_support
-> Prerequisites: Dodge, Mobility, Point Blank Shot. Benefit: The character does not incur any attacks of opportunity for firing a bow when threatened. Normal: Without this feat, a character incurs an…
+> Sometimes a combatant in a melee lets her guard down. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of…
 
 **Citations:**
 
 | id | source · edition | section_path | source | section | entry | tokens shared |
 |----|-----|-----|---|---|---|---|
-| cit_1 | srd_35 · 3.5e | EpicFeats > COMBAT ARCHERY [EPIC] | yes | no | no | ['attack', 'firing', 'opportunity', 'threatened'] |
+| cit_1 | srd_35 · 3.5e | CombatI > ATTACKS OF OPPORTUNITY | yes | no | no | ['attack', 'opportunity', 'threatened', 'while'] |
 
 #### P1-EX-005 — exception_lookup → supported_inference
 
@@ -156,7 +156,7 @@
 | id | source · edition | section_path | source | section | entry | tokens shared |
 |----|-----|-----|---|---|---|---|
 | cit_1 | srd_35 · 3.5e | CombatI > ATTACK BONUS | yes | no | no | ['attack', 'large', 'modifier', 'size'] |
-| cit_2 | srd_35 · 3.5e | Equipment > WEAPON CATEGORIES | yes | no | no | ['large', 'size'] |
+| cit_2 | srd_35 · 3.5e | CombatII > Grapple Checks | yes | no | no | ['attack', 'large', 'modifier', 'size'] |
 
 ### Tag: `missing_abstain`
 
