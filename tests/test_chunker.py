@@ -171,7 +171,7 @@ class ChunkPipelineTests(unittest.TestCase):
         valid_types = {
             "rule_section", "subsection", "spell_entry", "feat_entry",
             "skill_entry", "class_feature", "condition_entry", "glossary_entry",
-            "table", "example", "sidebar", "errata_note", "faq_note",
+            "stat_block", "table", "example", "sidebar", "errata_note", "faq_note",
             "paragraph_group", "generic",
         }
         chunks, _ = self._run_chunker()
@@ -253,7 +253,7 @@ class ChunkPipelineTests(unittest.TestCase):
         for field in ("source_id", "chunked_at_utc", "strategy", "chunk_count", "records", "schema_validation"):
             self.assertIn(field, report)
         self.assertEqual(report["source_id"], "srd_35_fixture")
-        self.assertEqual(report["strategy"], "v1-section-passthrough")
+        self.assertEqual(report["strategy"], "v2-formatting-aware")
         self.assertIn("enabled", report["schema_validation"])
 
     def test_dwarves_chunk_is_subsection(self) -> None:
@@ -273,6 +273,35 @@ class ChunkPipelineTests(unittest.TestCase):
         self.assertEqual(legal["chunk_type"], "generic")
 
 
+class ChunkSchemaTests(unittest.TestCase):
+    def test_stat_block_chunk_validates_in_schema(self) -> None:
+        import json
+        import jsonschema
+        repo_root = Path(__file__).resolve().parent.parent
+        schema = json.loads((repo_root / "schemas" / "chunk.schema.json").read_text(encoding="utf-8"))
+        common = json.loads((repo_root / "schemas" / "common.schema.json").read_text(encoding="utf-8"))
+        resolver = jsonschema.RefResolver.from_schema(schema, store={
+            "common.schema.json": common, "./common.schema.json": common,
+        })
+        chunk = {
+            "chunk_id": "chunk::srd_35::spells::sanctuary::child_001",
+            "document_id": "srd_35::spells::sanctuary",
+            "source_ref": {
+                "source_id": "srd_35", "title": "SRD", "edition": "3.5e",
+                "source_type": "srd", "authority_level": "official_reference",
+            },
+            "locator": {
+                "section_path": ["Spells", "Sanctuary"],
+                "source_location": "SpellsS.rtf#001_sanctuary",
+            },
+            "chunk_type": "stat_block",
+            "content": "Level: Clr 1\nComponents: V, S, DF",
+            "parent_chunk_id": "chunk::srd_35::spells::sanctuary",
+            "split_origin": "structure_cut",
+        }
+        jsonschema.validate(chunk, schema, resolver=resolver)
+
+
 class GoldenChunkTests(unittest.TestCase):
     def test_fixture_chunking_matches_golden_outputs(self) -> None:
         evidence = run_fixture_chunking(REPO_ROOT)
@@ -282,6 +311,279 @@ class GoldenChunkTests(unittest.TestCase):
 
         expected = load_golden_chunk_outputs(REPO_ROOT)
         self.assertEqual(evidence["chunks"], expected["chunks"])
+
+
+class HierarchyWithStructureCutsTests(unittest.TestCase):
+    def _make_canonical_doc(
+        self, document_id: str, content: str,
+        *, processing_hints: dict | None = None,
+        section_path: list[str] | None = None,
+    ) -> dict:
+        doc = {
+            "document_id": document_id,
+            "source_ref": {
+                "source_id": "srd_35", "title": "SRD", "edition": "3.5e",
+                "source_type": "srd", "authority_level": "official_reference",
+            },
+            "locator": {
+                "section_path": section_path or ["Spells", document_id.split("::")[-1]],
+                "source_location": f"SpellsS.rtf#001_{document_id.split('::')[-1]}",
+            },
+            "content": content,
+        }
+        if processing_hints is not None:
+            doc["processing_hints"] = processing_hints
+        return doc
+
+    def _run(self, docs: list[dict]) -> list[dict]:
+        with tempfile.TemporaryDirectory() as tmp:
+            canonical_root = Path(tmp) / "canonical"
+            canonical_root.mkdir()
+            for i, doc in enumerate(docs):
+                (canonical_root / f"doc_{i:03d}.json").write_text(
+                    json.dumps(doc, indent=2), encoding="utf-8",
+                )
+            output_root = Path(tmp) / "chunks"
+            chunk_source(
+                canonical_root=canonical_root,
+                output_root=output_root,
+                repo_root=REPO_ROOT,
+                source_id="srd_35",
+            )
+            return [
+                json.loads(p.read_text(encoding="utf-8"))
+                for p in sorted(output_root.glob("*.json"))
+                if p.name != "chunk_report.json"
+            ]
+
+    def test_small_doc_no_split(self) -> None:
+        doc = self._make_canonical_doc(
+            "srd_35::spells::sanctuary",
+            "Sanctuary\nAbjuration\nLevel: Clr 1\n\nDescription.",
+            processing_hints={"chunk_type_hint": "spell_entry"},
+        )
+        chunks = self._run([doc])
+        self.assertEqual(len(chunks), 1)
+        self.assertNotIn("parent_chunk_id", chunks[0])
+        self.assertEqual(chunks[0]["chunk_type"], "spell_entry")
+
+    def test_large_doc_with_structure_cut_produces_typed_child(self) -> None:
+        # Build content > CHILD_THRESHOLD (6000) with explicit cut at offset = stat block end.
+        stat_block = "Sanctuary\nAbjuration\nLevel: Clr 1\nComponents: V, S, DF\nCasting Time: 1 std\nRange: Touch\nTarget: Creature\nDuration: 1 round/level\nSaving Throw: Will negates\nSpell Resistance: No"
+        description = "\n\n" + ("A long description " * 600)
+        content = stat_block + description
+        cut_offset = len(stat_block)
+        doc = self._make_canonical_doc(
+            "srd_35::spells::big_sanctuary", content,
+            processing_hints={
+                "chunk_type_hint": "spell_entry",
+                "structure_cuts": [{
+                    "kind": "stat_block_end",
+                    "char_offset": cut_offset,
+                    "child_chunk_type": "stat_block",
+                }],
+            },
+        )
+        chunks = self._run([doc])
+        parents = [c for c in chunks if "parent_chunk_id" not in c]
+        children = [c for c in chunks if "parent_chunk_id" in c]
+        self.assertEqual(len(parents), 1)
+        self.assertGreater(len(children), 0)
+        self.assertEqual(parents[0]["chunk_type"], "spell_entry")
+        # First child is the stat_block.
+        first_child = children[0]
+        self.assertEqual(first_child["chunk_type"], "stat_block")
+        self.assertEqual(first_child["split_origin"], "structure_cut")
+        self.assertIn("Level: Clr 1", first_child["content"])
+        # Subsequent children are paragraph_group.
+        for child in children[1:]:
+            self.assertEqual(child["chunk_type"], "paragraph_group")
+            self.assertEqual(child["split_origin"], "paragraph_group")
+
+    def test_char_offset_round_trip(self) -> None:
+        stat_block = "Sanctuary\nAbjuration\nLevel: Clr 1"
+        description = "\n\n" + ("Description text. " * 500)
+        content = stat_block + description
+        cut_offset = len(stat_block)
+        doc = self._make_canonical_doc(
+            "srd_35::spells::roundtrip", content,
+            processing_hints={
+                "chunk_type_hint": "spell_entry",
+                "structure_cuts": [{
+                    "kind": "stat_block_end",
+                    "char_offset": cut_offset,
+                    "child_chunk_type": "stat_block",
+                }],
+            },
+        )
+        chunks = self._run([doc])
+        children = [c for c in chunks if "parent_chunk_id" in c]
+        first_child_content = children[0]["content"]
+        # Reconstruct expected: content[0:cut_offset], with only newline trim.
+        expected = content[:cut_offset].lstrip("\n").rstrip("\n")
+        self.assertEqual(first_child_content, expected)
+
+    def test_paragraph_group_max_chars_enforced_on_runaway_paragraph(self) -> None:
+        # Codex P2: a single very long paragraph used to be emitted as one
+        # oversized paragraph_group child because grouping only checked the
+        # target threshold, never the max cap. Now max_chars is enforced as
+        # a hard cap by slicing.
+        # One huge paragraph (no \n\n inside) above max threshold.
+        runaway = "x" * 9000  # one paragraph of 9000 chars, default max=3000
+        # Wrap in an entry so the chunker actually splits it.
+        stat_block = "Header\nLine: a"
+        content = stat_block + "\n\n" + runaway
+        cut_offset = len(stat_block)
+        doc = self._make_canonical_doc(
+            "srd_35::spells::runaway", content,
+            processing_hints={
+                "chunk_type_hint": "spell_entry",
+                "structure_cuts": [{
+                    "kind": "stat_block_end",
+                    "char_offset": cut_offset,
+                    "child_chunk_type": "stat_block",
+                }],
+            },
+        )
+        chunks = self._run([doc])
+        pg_children = [c for c in chunks if c.get("split_origin") == "paragraph_group"]
+        self.assertGreater(len(pg_children), 1)  # split, not one giant child
+        for child in pg_children:
+            self.assertLessEqual(len(child["content"]), 3000)  # default max_chars
+
+
+class ProcessingHintsDefensivenessTests(unittest.TestCase):
+    """Codex round-4 P2 fixes: defensive null + cut-offset validation."""
+
+    def test_null_processing_hints_does_not_crash(self) -> None:
+        # _build_parent_chunk used to crash with AttributeError if a
+        # canonical doc had `processing_hints: null` (vs missing entirely).
+        from scripts.chunker.pipeline import _build_parent_chunk
+        doc = {
+            "document_id": "srd_35::test::null_hints",
+            "source_ref": {
+                "source_id": "srd_35", "title": "SRD", "edition": "3.5e",
+                "source_type": "srd", "authority_level": "official_reference",
+            },
+            "locator": {"section_path": ["X"], "source_location": "X.rtf#001"},
+            "content": "body",
+            "processing_hints": None,  # explicit null, not missing
+        }
+        chunk = _build_parent_chunk(doc, previous_chunk_id=None, next_chunk_id=None)
+        # Falls back to classify_chunk_type heuristic when hint absent.
+        self.assertIsNotNone(chunk["chunk_type"])
+
+    def test_structure_cuts_offset_beyond_content_raises(self) -> None:
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError) as ctx:
+            _validate_structure_cuts(
+                [{"char_offset": 100, "child_chunk_type": "stat_block", "kind": "stat_block_end"}],
+                content_len=50,
+                document_id="srd_35::test::overrun",
+            )
+        self.assertIn("out of range", str(ctx.exception))
+
+    def test_structure_cuts_negative_offset_raises(self) -> None:
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError):
+            _validate_structure_cuts(
+                [{"char_offset": -1, "child_chunk_type": "stat_block", "kind": "stat_block_end"}],
+                content_len=100,
+                document_id="srd_35::test::neg",
+            )
+
+    def test_structure_cuts_must_be_increasing(self) -> None:
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError) as ctx:
+            _validate_structure_cuts(
+                [
+                    {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                    {"char_offset": 30, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                ],
+                content_len=100,
+                document_id="srd_35::test::decreasing",
+            )
+        self.assertIn("strictly increasing", str(ctx.exception))
+
+    def test_structure_cuts_duplicate_offset_raises(self) -> None:
+        # Duplicate offsets would silently yield zero-length slices, hiding
+        # the upstream logic error. Validation now requires strictly
+        # increasing (not just non-decreasing).
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        with self.assertRaises(ValueError) as ctx:
+            _validate_structure_cuts(
+                [
+                    {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                    {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                ],
+                content_len=100,
+                document_id="srd_35::test::duplicate",
+            )
+        self.assertIn("strictly increasing", str(ctx.exception))
+
+    def test_structure_cuts_first_offset_zero_allowed(self) -> None:
+        # The first cut may legally start at 0 (e.g., a degenerate but
+        # valid case with empty prior child). Subsequent cuts must still
+        # be strictly greater.
+        from scripts.chunker.pipeline import _validate_structure_cuts
+        _validate_structure_cuts(
+            [
+                {"char_offset": 0, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+                {"char_offset": 50, "child_chunk_type": "stat_block", "kind": "stat_block_end"},
+            ],
+            content_len=100,
+            document_id="srd_35::test::zero_first",
+        )
+
+
+class EnforceMaxCharsTests(unittest.TestCase):
+    """Direct coverage for the _enforce_max_chars helper (Codex round-3 P2 fixes)."""
+
+    def test_sentence_cut_keeps_period_in_prior_chunk(self) -> None:
+        # Codex P2: rfind(". ") used to put the period at the START of the
+        # next chunk (e.g., next child began with ".") because cut was at
+        # the period's index but the slice excluded it. Now period stays
+        # in the prior chunk and the trailing space is consumed.
+        from scripts.chunker.pipeline import _enforce_max_chars
+        # 60-char chunks with one sentence-end at position 30.
+        text = ("a" * 30) + ". " + ("b" * 30)
+        slices = _enforce_max_chars(text, max_chars=40)
+        self.assertEqual(len(slices), 2)
+        self.assertTrue(slices[0].endswith("."), f"prior chunk should end with period: {slices[0]!r}")
+        self.assertFalse(slices[1].startswith("."), f"next chunk should not start with period: {slices[1]!r}")
+        # Reconstructed concatenation is text minus the consumed " " separator.
+        self.assertEqual(slices[0] + slices[1], text.replace(". ", "."))
+
+    def test_preserves_internal_whitespace_at_chunk_boundary(self) -> None:
+        # Codex P2: previous .strip() stripped spaces and tabs from chunk
+        # boundaries, silently destroying meaningful indentation. Now only
+        # newline separators are stripped.
+        from scripts.chunker.pipeline import _enforce_max_chars
+        # Two paragraphs where the second starts with leading spaces (e.g.,
+        # an indented quoted block). Chunk boundary at \n\n must NOT eat
+        # those spaces. Text length 87 > max=80 so a split is forced.
+        text = ("a" * 60) + "\n\n" + "    indented continuation"
+        slices = _enforce_max_chars(text, max_chars=80)
+        self.assertEqual(len(slices), 2)
+        self.assertTrue(
+            slices[1].startswith("    "),
+            f"chunk-boundary leading spaces lost: {slices[1][:20]!r}",
+        )
+
+    def test_paragraph_boundary_separator_consumed(self) -> None:
+        from scripts.chunker.pipeline import _enforce_max_chars
+        text = ("a" * 50) + "\n\n" + ("b" * 50)
+        slices = _enforce_max_chars(text, max_chars=60)
+        self.assertEqual(slices, ["a" * 50, "b" * 50])
+
+    def test_raw_char_boundary_when_no_separator(self) -> None:
+        from scripts.chunker.pipeline import _enforce_max_chars
+        text = "x" * 100
+        slices = _enforce_max_chars(text, max_chars=40)
+        # Slices fall on raw char boundary; no separator consumed.
+        self.assertEqual("".join(slices), text)
+        for s in slices:
+            self.assertLessEqual(len(s), 40)
 
 
 if __name__ == "__main__":

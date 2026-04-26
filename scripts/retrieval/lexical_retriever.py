@@ -28,6 +28,8 @@ _TOKEN_OVERLAP_BOOST = 0.1
 #       class-related query wants; ranked above individual entries because they
 #       carry more context per chunk
 #   feat/skill/spell/condition_entry (0.6) — discrete catalogue entries
+#   stat_block (0.6) — structured header for an entry (e.g. spell Level/Components);
+#       high-signal for stat-shaped queries, ranked alongside entry types
 #   subsection (0.5) — general rule prose, common but less targeted
 #   errata_note (0.4) — authoritative corrections
 #   table, faq_note, glossary_entry (0.3) — supporting reference material
@@ -44,6 +46,7 @@ _CHUNK_TYPE_PRIOR: dict[str, float] = {
     "skill_entry": 0.6,
     "spell_entry": 0.6,
     "condition_entry": 0.6,
+    "stat_block": 0.6,
     "subsection": 0.5,
     "errata_note": 0.4,
     "table": 0.3,

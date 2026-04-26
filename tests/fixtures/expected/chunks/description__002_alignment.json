@@ -17,7 +17,7 @@
   },
   "chunk_type": "subsection",
   "content": "A creature's general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.\nAlignment is a tool for developing your character's identity. It is not a straitjacket for restricting your character. Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.",
-  "chunk_version": "v1-section-passthrough",
+  "chunk_version": "v2-formatting-aware",
   "previous_chunk_id": "chunk::srd_35_fixture::description::001_description",
   "next_chunk_id": "chunk::srd_35_fixture::description::003_good_vs_evil"
 }
