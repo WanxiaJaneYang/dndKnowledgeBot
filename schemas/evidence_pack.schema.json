@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "EvidencePack",
-  "description": "Retrieval-to-answer handoff contract. Wraps the consolidated retrieval output (shaped + adjacent-chunk consolidated candidates) with chunk content, query context, constraint summary, and a pipeline trace. This schema validates the JSON shape emitted by scripts/retrieve_debug.py --json.",
+  "description": "Retrieval-to-answer handoff contract. Wraps the consolidated retrieval output (shaped + adjacent-chunk consolidated candidates) with chunk content, query context, constraint summary, and a pipeline trace. This schema validates the structural shape of the JSON emitted by scripts/retrieve_debug.py --json. Cross-field ID-consistency invariants (chunk_ids[0] == start_chunk_id, chunk_ids[-1] == end_chunk_id, and chunk_ids == [chunk_id] when merge_reason is 'singleton') are producer-side guarantees from build_evidence_pack and are not expressible in Draft-07 JSON Schema; consumers needing those guarantees should mirror the assertion helper in tests/test_evidence_pack_schema.py:_assert_span_invariants.",
   "type": "object",
   "required": ["query", "constraints", "trace", "evidence"],
   "additionalProperties": false,
@@ -163,7 +163,7 @@
           },
           "chunk_id": {
             "type": "string",
-            "description": "Representative chunk_id for this evidence item. Equal to span.start_chunk_id and span.end_chunk_id when merge_reason is 'singleton'; for adjacent_span items the representative is the best-ranked chunk in the span and need not equal start or end."
+            "description": "Representative chunk_id for this evidence item. By producer convention (not enforced by this schema): equal to span.start_chunk_id and span.end_chunk_id, and to span.chunk_ids[0], when merge_reason is 'singleton'. For adjacent_span items the representative is the best-ranked chunk in the span and need not equal start or end."
           },
           "document_id": {
             "type": "string",
@@ -243,7 +243,7 @@
                 "type": "array",
                 "items": { "type": "string" },
                 "minItems": 1,
-                "description": "All chunk_ids in the span, in reading order. chunk_ids[0] == start_chunk_id and chunk_ids[-1] == end_chunk_id."
+                "description": "All chunk_ids in the span, in reading order. By producer convention (not enforced by this schema): chunk_ids[0] == start_chunk_id and chunk_ids[-1] == end_chunk_id."
               },
               "start_chunk_id": {
                 "type": "string",

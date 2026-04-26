@@ -30,6 +30,36 @@ _SCHEMAS_DIR = _REPO_ROOT / "schemas"
 _EXAMPLES_DIR = _REPO_ROOT / "examples"
 
 
+def _assert_span_invariants(payload: dict) -> None:
+    """Cross-field ID-consistency invariants that JSON Schema can't enforce.
+
+    These are producer-side guarantees from build_evidence_pack — schema
+    validation alone is not sufficient for downstream code (e.g. citation
+    rendering) that depends on ID consistency. Mirror this helper from
+    consumer code paths whenever you load an evidence pack from JSON
+    rather than constructing it in-process.
+    """
+    for i, item in enumerate(payload["evidence"]):
+        span = item["span"]
+        chunk_ids = span["chunk_ids"]
+        path = f"evidence[{i}]"
+
+        assert chunk_ids[0] == span["start_chunk_id"], (
+            f"{path}: span.chunk_ids[0]={chunk_ids[0]!r} != "
+            f"start_chunk_id={span['start_chunk_id']!r}"
+        )
+        assert chunk_ids[-1] == span["end_chunk_id"], (
+            f"{path}: span.chunk_ids[-1]={chunk_ids[-1]!r} != "
+            f"end_chunk_id={span['end_chunk_id']!r}"
+        )
+
+        if span["merge_reason"] == "singleton":
+            assert chunk_ids == [item["chunk_id"]], (
+                f"{path}: singleton span.chunk_ids={chunk_ids!r} != "
+                f"[chunk_id={item['chunk_id']!r}]"
+            )
+
+
 def _make_validator() -> Draft7Validator:
     main = json.loads(
         (_SCHEMAS_DIR / "evidence_pack.schema.json").read_text(encoding="utf-8")
@@ -89,6 +119,15 @@ def test_committed_example_validates():
     )
 
 
+def test_committed_example_passes_runtime_invariants():
+    """The committed example must also satisfy the cross-field ID
+    consistency invariants the schema cannot express."""
+    payload = json.loads(
+        (_EXAMPLES_DIR / "evidence_pack.example.json").read_text(encoding="utf-8")
+    )
+    _assert_span_invariants(payload)
+
+
 # ---------------------------------------------------------------------------
 # Live debug-CLI output must validate
 # ---------------------------------------------------------------------------
@@ -114,6 +153,26 @@ def test_live_to_json_output_validates_singleton(tmp_path):
     assert errors == [], f"Live output failed validation:\n  " + "\n  ".join(
         f"{list(err.absolute_path)}: {err.message}" for err in errors
     )
+
+
+def test_live_to_json_output_passes_runtime_invariants(tmp_path):
+    """A live retrieve_evidence -> _to_json round-trip also satisfies the
+    runtime ID-consistency invariants. Pins build_evidence_pack's producer
+    behaviour."""
+    chunk_path = tmp_path / "aoo.json"
+    chunk_path.write_text(
+        json.dumps(_aoo_chunk(
+            "chunk::srd_35::combat::001_aoo",
+            "An attack of opportunity is a single melee attack.",
+        )),
+        encoding="utf-8",
+    )
+    db_path = tmp_path / "retrieval.db"
+    build_chunk_index(db_path, [chunk_path])
+
+    pack = retrieve_evidence("attack of opportunity", db_path=db_path, top_k=5)
+    payload = _to_json(pack)
+    _assert_span_invariants(payload)
 
 
 def test_live_to_json_output_validates_adjacent_span(tmp_path):
@@ -222,3 +281,87 @@ def test_rejects_rank_zero():
     payload["evidence"][0]["rank"] = 0
     errors = list(_make_validator().iter_errors(payload))
     assert errors, "schema should reject rank < 1"
+
+
+def test_rejects_unknown_nested_key():
+    """additionalProperties: false applies at every level — extra keys
+    inside nested objects must also be rejected."""
+    payload = _good_payload()
+    payload["evidence"][0]["span"]["surprise"] = "extra"
+    errors = list(_make_validator().iter_errors(payload))
+    assert errors, "schema should reject unknown keys nested inside span"
+
+
+# ---------------------------------------------------------------------------
+# Runtime invariants — cross-field ID consistency that JSON Schema can't enforce
+# ---------------------------------------------------------------------------
+
+
+def test_invariants_reject_singleton_with_mismatched_chunk_id():
+    """Singleton item where chunk_id doesn't match span.chunk_ids[0].
+
+    This is the case the auto-review flagged: schema-passes-but-broken.
+    The schema (length-only) accepts it; the runtime helper must reject."""
+    payload = _good_payload()
+    item = payload["evidence"][0]
+    # Force a singleton-shaped span with mismatched representative chunk_id.
+    item["span"]["merge_reason"] = "singleton"
+    item["span"]["chunk_ids"] = ["other_chunk"]
+    item["span"]["start_chunk_id"] = "other_chunk"
+    item["span"]["end_chunk_id"] = "other_chunk"
+    # item["chunk_id"] left as the original real chunk_id from the example.
+
+    # Schema validation passes (this is the gap).
+    assert list(_make_validator().iter_errors(payload)) == []
+
+    # Runtime invariants do NOT.
+    try:
+        _assert_span_invariants(payload)
+    except AssertionError as err:
+        assert "singleton" in str(err)
+    else:
+        raise AssertionError(
+            "_assert_span_invariants should have rejected mismatched singleton IDs"
+        )
+
+
+def test_invariants_reject_chunk_ids_first_not_equal_start():
+    """span.chunk_ids[0] must equal start_chunk_id."""
+    payload = _good_payload()
+    item = payload["evidence"][0]
+    item["span"]["chunk_ids"] = ["unrelated"]
+    item["span"]["start_chunk_id"] = "different"
+    item["span"]["end_chunk_id"] = "unrelated"
+    # Make merge_reason 'adjacent_span' so this isn't also a singleton failure;
+    # length still 1 so schema rejects it under the singleton/adjacent-span
+    # conditional. Use a 2-element form to isolate the chunk_ids[0] vs
+    # start_chunk_id check.
+    item["span"]["chunk_ids"] = ["unrelated", item["span"]["end_chunk_id"]]
+    item["span"]["merge_reason"] = "adjacent_span"
+
+    try:
+        _assert_span_invariants(payload)
+    except AssertionError as err:
+        assert "chunk_ids[0]" in str(err)
+    else:
+        raise AssertionError(
+            "_assert_span_invariants should reject chunk_ids[0] != start_chunk_id"
+        )
+
+
+def test_invariants_reject_chunk_ids_last_not_equal_end():
+    """span.chunk_ids[-1] must equal end_chunk_id."""
+    payload = _good_payload()
+    item = payload["evidence"][0]
+    item["span"]["chunk_ids"] = [item["span"]["start_chunk_id"], "unrelated_end"]
+    item["span"]["merge_reason"] = "adjacent_span"
+    # end_chunk_id intentionally not updated to match chunk_ids[-1].
+
+    try:
+        _assert_span_invariants(payload)
+    except AssertionError as err:
+        assert "chunk_ids[-1]" in str(err)
+    else:
+        raise AssertionError(
+            "_assert_span_invariants should reject chunk_ids[-1] != end_chunk_id"
+        )
