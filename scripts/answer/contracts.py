@@ -59,3 +59,15 @@ class AssessmentResult:
 
     outcome: Literal["grounded", "abstain"]
     trigger_code: Literal["empty_evidence", "weak_signals"] | None
+
+
+@dataclass(frozen=True)
+class SlotDecision:
+    """Records why a composer slot was filled or left empty."""
+
+    slot: Literal["primary", "sibling", "cross-section", "fallback-sibling"]
+    chosen_role: Literal["primary", "sibling", "cross-section"] | None
+    outcome: Literal["filled", "skipped"]
+    chosen_chunk_id: str | None
+    rejected: tuple[tuple[str, str, str], ...]
+    reason: str

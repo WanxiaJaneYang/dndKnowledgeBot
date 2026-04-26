@@ -69,6 +69,17 @@ class QueryNormalizationTests(unittest.TestCase):
         )
         self.assertEqual(result["protected_phrases"], ["base attack bonus", "attack bonus"])
 
+    def test_expands_dark_vision_alias_to_darkvision(self) -> None:
+        result = normalize_query("dark vision")
+
+        self.assertEqual(result["normalized_text"], "darkvision")
+        self.assertEqual(result["tokens"], ["darkvision"])
+        self.assertEqual(
+            result["alias_expansions"],
+            [{"source": "dark vision", "target": "darkvision"}],
+        )
+        self.assertIn("alias_expansion", result["applied_rules"])
+
     def test_protects_touch_and_flat_footed_ac_terms(self) -> None:
         touch = normalize_query("What is touch armor class?")
         self.assertEqual(touch["protected_phrases"], ["touch armor class", "armor class"])

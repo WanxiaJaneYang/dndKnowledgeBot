@@ -1,7 +1,7 @@
 """Tests for the answer composer (§3.3)."""
 from __future__ import annotations
 
-from scripts.answer.composer import compose_segments
+from scripts.answer.composer import compose_segments, compose_segments_with_decisions
 from scripts.retrieval.contracts import MatchSignals, NormalizedQuery
 from scripts.retrieval.evidence_pack import (
     EvidenceItem,
@@ -262,3 +262,113 @@ def test_content_100_chars_not_truncated():
     primary = _make_item("c1", rank=1, content=content)
     segments = compose_segments(_make_pack([primary]))
     assert segments[0].text == content
+
+
+# ---------------------------------------------------------------------------
+# Tests - additive composer decision output
+# ---------------------------------------------------------------------------
+
+
+def test_decisions_include_primary_and_cross_section_fill():
+    primary = _make_item("c1", rank=1, signals=_make_signals(exact=["A"]))
+    cross = _make_item(
+        "c2",
+        rank=2,
+        document_id="doc::other",
+        section_root="Spells",
+        signals=_make_signals(exact=["B"]),
+    )
+
+    segments, decisions = compose_segments_with_decisions(_make_pack([primary, cross]))
+
+    assert tuple(segment.role for segment in segments) == ("primary", "cross-section")
+    assert [decision.slot for decision in decisions] == [
+        "primary",
+        "sibling",
+        "cross-section",
+    ]
+
+    primary_decision = decisions[0]
+    assert primary_decision.outcome == "filled"
+    assert primary_decision.chosen_role == "primary"
+    assert primary_decision.chosen_chunk_id == "c1"
+    assert primary_decision.rejected == ()
+    assert primary_decision.reason == "top_ranked_evidence_item"
+
+    slot1 = decisions[1]
+    assert slot1.outcome == "skipped"
+    assert slot1.chosen_chunk_id is None
+    assert slot1.reason == "no_sibling_available"
+
+    slot2 = decisions[2]
+    assert slot2.outcome == "filled"
+    assert slot2.chosen_role == "cross-section"
+    assert slot2.chosen_chunk_id == "c2"
+
+
+def test_cross_section_subset_records_rejection_and_fallback_sibling_fill():
+    primary = _make_item("c1", rank=1, signals=_make_signals(exact=["A", "B"]))
+    sibling_1 = _make_item("c2", rank=2)
+    cross_subset = _make_item(
+        "c3",
+        rank=3,
+        document_id="doc::other",
+        section_root="Spells",
+        signals=_make_signals(exact=["A"]),
+    )
+    sibling_2 = _make_item("c4", rank=4)
+
+    segments, decisions = compose_segments_with_decisions(
+        _make_pack([primary, sibling_1, cross_subset, sibling_2])
+    )
+
+    assert tuple(segment.evidence_item.chunk_id for segment in segments) == ("c1", "c2", "c4")
+    assert [decision.slot for decision in decisions] == [
+        "primary",
+        "sibling",
+        "cross-section",
+        "fallback-sibling",
+    ]
+
+    cross_decision = decisions[2]
+    assert cross_decision.outcome == "skipped"
+    assert cross_decision.chosen_chunk_id is None
+    assert cross_decision.reason == "no_distinct_cross_section"
+    assert (
+        "c3",
+        "hit_set_subset_of_primary",
+        "subset_of_primary",
+    ) in cross_decision.rejected
+
+    fallback_decision = decisions[3]
+    assert fallback_decision.outcome == "filled"
+    assert fallback_decision.chosen_role == "sibling"
+    assert fallback_decision.chosen_chunk_id == "c4"
+
+
+def test_cross_section_subset_with_no_fallback_sibling_records_skip():
+    primary = _make_item("c1", rank=1, signals=_make_signals(exact=["A", "B"]))
+    sibling = _make_item("c2", rank=2)
+    cross_subset = _make_item(
+        "c3",
+        rank=3,
+        document_id="doc::other",
+        section_root="Spells",
+        signals=_make_signals(exact=["A"]),
+    )
+
+    segments, decisions = compose_segments_with_decisions(
+        _make_pack([primary, sibling, cross_subset])
+    )
+
+    assert tuple(segment.evidence_item.chunk_id for segment in segments) == ("c1", "c2")
+    assert [decision.slot for decision in decisions] == [
+        "primary",
+        "sibling",
+        "cross-section",
+        "fallback-sibling",
+    ]
+    assert decisions[2].reason == "no_distinct_cross_section"
+    assert decisions[3].outcome == "skipped"
+    assert decisions[3].chosen_chunk_id is None
+    assert decisions[3].reason == "no_fallback_sibling_available"

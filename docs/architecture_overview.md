@@ -163,6 +163,21 @@ The v1 answer stage is a rule-based excerpt composer layered on top of the retri
 
 Full design lives in `docs/plans/2026-04-23-issue-23-minimal-answer-path.md`.
 
+### 4.6b Local debug UI
+
+The repository also ships a local-only Streamlit debug UI at
+`scripts/ui/debug_app.py`. It is a single-user inspection tool over the
+existing retrieval and answer pipeline, not a product-facing application.
+
+- launch with `streamlit run scripts/ui/debug_app.py`
+- mirrors the CLI missing-index guard for `data/index/srd_35/lexical.db`
+- shows a User mode (answer only) and a Debug mode (normalization,
+  constraints, top-k candidates, candidate shaping, evidence pack, support
+  assessment, composer slot decisions, citation binding, raw debug JSON)
+
+The UI reuses the live pipeline modules rather than maintaining a separate
+debug-only implementation.
+
 ### 4.7 Answer composition
 
 The answer composition layer turns retrieved evidence into a grounded response.
