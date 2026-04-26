@@ -238,7 +238,11 @@ Phase 1 is in good shape when the system can consistently do most of the followi
 - avoid edition drift
 - abstain when the evidence is insufficient
 
-## 17. Summary
+## 17. Phase 1 status (as of 2026-04-26)
+
+The Phase 1 gold-eval set is committed (`evals/phase1_gold.yaml`, 30 cases; Chinese mirror `evals/phase1_gold.zh.yaml`). The eval harness (`scripts/eval/`, `scripts/run_phase1_eval.py`) is implemented, and the first run output is checked in at `evals/reports/phase1_gold_latest.{json,md}` — that report is the current source of truth for retrieval / answer / citation / abstain pass rates against the gold slice.
+
+## 18. Summary
 
 In one sentence:
 

@@ -455,8 +455,9 @@ Each `EvidenceItem` carries:
 - `source_ref` and `locator` — the provenance needed for citation rendering (see `docs/metadata_contract.md` and `docs/citation_policy.md`)
 - `match_signals` — exact-phrase hits, protected-phrase hits, section-path hit, token-overlap count
 - `section_root` — the group key used by shaping, preserved on each item so consumers can reason about coverage
+- adjacency — `parent_chunk_id`, `previous_chunk_id`, `next_chunk_id` (propagated from `LexicalCandidate`)
 
-Adjacency links (`parent_chunk_id`, `previous_chunk_id`, `next_chunk_id`) are available on the upstream `LexicalCandidate` contract and are intentionally not yet projected into `EvidenceItem`; they stay reachable through `chunk_id` for future consolidation work.
+Adjacency links (`parent_chunk_id`, `previous_chunk_id`, `next_chunk_id`) are propagated from the upstream `LexicalCandidate` contract directly onto each `EvidenceItem`, so consumers (e.g. consolidation, the answer composer, debug tooling) can reason about chunk neighborhoods without re-querying the index.
 
 ## 25. Retrieval-time grouping and consolidation
 

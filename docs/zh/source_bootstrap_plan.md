@@ -176,7 +176,10 @@ data/
 
 ## 8. 下一步
 
-- 在 source registry 中把 `srd_35` 标成 `admitted_bootstrap`
-- 围绕 SRD 可覆盖问题编写第一版 gold evaluation set
-- 对 `data/raw/srd_35/` 跑第一轮 ingestion spike
+### 已完成
+- 在 source registry 中将 `srd_35` 标记为 `admitted_bootstrap`
+- 围绕 SRD 可覆盖问题构建了第一版 gold evaluation set（`evals/phase1_gold.yaml`，30 题）
+- 对 `data/raw/srd_35/` 完成了第一轮 ingestion spike（`scripts/ingest_srd35/`）
+
+### 待办
 - 只有当 bootstrap slice 证明 contract 足够稳时，才扩展到 `srd_35` 之外的来源

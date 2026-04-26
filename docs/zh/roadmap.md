@@ -32,7 +32,7 @@
 - [x] retrieval 输出的 evidence-pack 契约 + 调试用 retrieval CLI — `scripts/retrieve_debug.py`（PR #66）
 - [x] 实现 v1 answer generation（基于规则的摘录式组合器，带 grounding 约束）、citation 渲染与 abstain 行为 — `scripts/answer/`、`scripts/answer_question.py`（PR #74，issue #23）
 - [ ] 实现 v2 answer generation（基于 LLM 的散文合成器，复用同一 `EvidencePack` 契约）
-- [ ] 在 Phase 1 gold set（`evals/phase1_gold.yaml`）上跑评测 — 评测 harness 设计已落地（PR #79），首次运行尚未完成
+- [x] Phase 1 gold-set 评测 harness 与首次运行 — `scripts/eval/`、`scripts/run_phase1_eval.py`（PR #81）；报告见 `evals/reports/phase1_gold_latest.{md,json}`
 
 ## Phase 2 - 质量提升
 

@@ -129,6 +129,8 @@ scripts/
   build_retrieval_term_assets.py   Build retrieval term assets (aliases, protected phrases)
   answer/                          v1 answer pipeline (composer, citation_binder, support_assessor, pipeline)
   answer_question.py               Answer-path CLI — emits AnswerResult JSON / abstain
+  eval/                            Phase 1 gold-eval harness (loader, matcher, runner, report, tagger, contracts)
+  run_phase1_eval.py               Entry point for the Phase 1 gold-set eval — emits JSON + Markdown report
   preview_fixtures.py              Preview fixture corpus diffs for PR evidence
   regen_examples.py                Regenerate examples/ JSON instances from schemas
 
@@ -157,11 +159,17 @@ tests/
   test_answer_citation_binder.py   Unit tests for citation binder
   test_answer_support_assessor.py  Unit tests for strict-signal abstain gate
   test_answer_pipeline.py          End-to-end tests for the v1 answer pipeline
+  test_eval_loader.py              Unit tests for eval loader
+  test_eval_matching.py            Unit tests for eval matching
+  test_eval_report.py              Unit tests for eval report writer
+  test_eval_runner.py              Unit tests for eval runner
+  test_eval_tagger.py              Unit tests for eval failure tagger
 
 evals/
   phase1_gold.yaml                 Phase 1 gold evaluation set over `srd_35`
   phase1_gold.zh.yaml              Chinese mirror of the gold set
   README.md                        Eval-set conventions and fields
+  reports/                         Latest gold-eval run output (e.g. `phase1_gold_latest.{json,md}`)
 
 data/                              Local corpus files — not committed (see data/README.md)
 ```
