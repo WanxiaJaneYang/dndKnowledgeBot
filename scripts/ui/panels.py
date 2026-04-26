@@ -48,7 +48,7 @@ def format_candidate_rows(items: Sequence[object]) -> list[dict[str, Any]]:
                 "rank": _read(item, "rank"),
                 "chunk_id": _read(item, "chunk_id"),
                 "document_id": _read(item, "document_id"),
-                "section_root": _read(item, "section_root"),
+                "section_root": _candidate_section_root(item),
                 "chunk_type": _read(item, "chunk_type"),
                 "match_signals": _format_match_signals(signals),
             }
@@ -93,6 +93,24 @@ def _format_locator(locator: Mapping[str, Any]) -> str:
     if source_location := locator.get("source_location"):
         parts.append(source_location)
     return " | ".join(parts) if parts else str(locator)
+
+
+def _candidate_section_root(item: object) -> str | None:
+    if isinstance(item, Mapping):
+        section_root = item.get("section_root")
+        if section_root is not None:
+            return section_root
+        locator = item.get("locator", {})
+    else:
+        section_root = getattr(item, "section_root", None)
+        if section_root is not None:
+            return section_root
+        locator = getattr(item, "locator")
+
+    section_path = locator.get("section_path", ())
+    if section_path:
+        return section_path[0]
+    return None
 
 
 def _read(value: object, field: str) -> Any:

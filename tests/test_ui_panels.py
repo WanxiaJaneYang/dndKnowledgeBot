@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from scripts.answer.composer import compose_segments_with_decisions
 from scripts.answer.contracts import Citation
-from scripts.retrieval.contracts import MatchSignals, NormalizedQuery
+from scripts.retrieval.contracts import LexicalCandidate, MatchSignals, NormalizedQuery
 from scripts.retrieval.evidence_pack import EvidenceItem, EvidencePack, PipelineTrace
 from scripts.ui.panels import (
     format_answer_segments,
@@ -151,6 +151,49 @@ def test_format_candidate_rows_exposes_rank_section_and_signals():
             "section_root": "Combat",
             "chunk_type": "rule_section",
             "match_signals": "exact=['attack']; protected=['opportunity']; token_overlap=3",
+        }
+    ]
+
+
+def test_format_candidate_rows_uses_locator_when_candidate_has_no_section_root():
+    item = LexicalCandidate(
+        chunk_id="c1",
+        document_id="doc::main",
+        rank=1,
+        raw_score=0.25,
+        score_direction="lower_is_better",
+        chunk_type="rule_section",
+        source_ref={
+            "source_id": "srd_35",
+            "title": "System Reference Document",
+            "edition": "3.5e",
+            "source_type": "srd",
+            "authority_level": "official_reference",
+        },
+        locator={
+            "section_path": ["Combat", "Attacks of Opportunity"],
+            "source_location": "test",
+        },
+        match_signals=_make_signals(
+            exact=["attack of opportunity"],
+            protected=["attack of opportunity"],
+            token_overlap_count=3,
+        ),
+    )
+
+    rows = format_candidate_rows((item,))
+
+    assert rows == [
+        {
+            "rank": 1,
+            "chunk_id": "c1",
+            "document_id": "doc::main",
+            "section_root": "Combat",
+            "chunk_type": "rule_section",
+            "match_signals": (
+                "exact=['attack of opportunity']; "
+                "protected=['attack of opportunity']; token_overlap=3"
+            ),
         }
     ]
 

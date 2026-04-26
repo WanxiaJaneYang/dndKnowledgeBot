@@ -154,6 +154,7 @@ CANONICAL_ALIASES = {
     "cr": "challenge rating",
     "dc": "difficulty class",
     "dex": "dexterity",
+    "dark vision": "darkvision",
     "dr": "damage reduction",
     "ex": "extraordinary abilities",
     "hd": "hit dice",
